@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
@@ -18,6 +17,8 @@ import {
   principles 
 } from '@/data/index';
 import { toast } from '@/components/ui/use-toast';
+import EditorToolbar from '@/components/admin/EditorToolbar';
+import { Article } from '@/types';
 
 const AdminPage = () => {
   const [selectedDataType, setSelectedDataType] = useState<string>('techniques');
@@ -52,9 +53,13 @@ const AdminPage = () => {
     setCurrentData(item ? {...item} : null);
     setIsEditing(!!item);
     
-    // Set editor content if applicable
+    // Set editor content if applicable - check if item is an Article
     if (item && editor && selectedDataType === 'articles') {
-      editor.commands.setContent(item.content);
+      // Type guard to ensure item has content property
+      const articleItem = item as Article;
+      if ('content' in articleItem) {
+        editor.commands.setContent(articleItem.content);
+      }
     }
   };
 
@@ -284,7 +289,6 @@ const AdminPage = () => {
               />
             </div>
             
-            {/* Similar pattern for other fields */}
             <div>
               <Label>Steps</Label>
               <div className="space-y-2">
@@ -311,8 +315,6 @@ const AdminPage = () => {
                 </Button>
               </div>
             </div>
-            
-            {/* More fields can be added similarly for comprehensive kata editing */}
           </div>
         );
       
@@ -331,41 +333,8 @@ const AdminPage = () => {
             <div>
               <Label htmlFor="content">Content</Label>
               <div className="border rounded-md p-2">
+                <EditorToolbar editor={editor} />
                 <EditorContent editor={editor} />
-              </div>
-              <div className="flex gap-2 mt-2">
-                <Button 
-                  type="button" 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => editor?.chain().focus().toggleBold().run()}
-                >
-                  Bold
-                </Button>
-                <Button 
-                  type="button" 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => editor?.chain().focus().toggleItalic().run()}
-                >
-                  Italic
-                </Button>
-                <Button 
-                  type="button" 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => editor?.chain().focus().toggleHeading({ level: 2 }).run()}
-                >
-                  H2
-                </Button>
-                <Button 
-                  type="button" 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => editor?.chain().focus().toggleBulletList().run()}
-                >
-                  List
-                </Button>
               </div>
             </div>
             
