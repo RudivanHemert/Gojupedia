@@ -30,6 +30,14 @@ export interface Kata {
   steps: string[];
   images: string[];
   video?: string;
+  keyFeatures?: string[];
+  movements?: string;
+  duration?: string;
+  origin?: string;
+  videoUrl?: string;
+  history?: string;
+  culturalSignificance?: string;
+  masters?: string[];
 }
 
 export interface HistoricalFigure {

@@ -96,6 +96,23 @@ export const katas: Kata[] = [
     images: [
       "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
     ],
+    keyFeatures: [
+      "Heavy emphasis on breathing technique",
+      "Maintains consistent muscle tension",
+      "Focuses on internal energy development",
+      "Foundation for all other Goju Ryu kata"
+    ],
+    movements: "13 primary movements",
+    duration: "1-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Sanchin is one of the oldest kata in the Goju Ryu system. It was brought to Okinawa from China by Kanryo Higaonna in the late 19th century. The original Chinese version was practiced with open hands, but it was modified to use closed fists in the Okinawan tradition.",
+    culturalSignificance: "Sanchin is considered the essence of Goju Ryu karate, embodying the principles of breathing, stance, and focus that are central to the style's philosophy.",
+    masters: [
+      "Chojun Miyagi",
+      "Kanryo Higaonna",
+      "Seiko Higa"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=example-sanchin"
   },
   {
     id: "saifa",
@@ -115,6 +132,23 @@ export const katas: Kata[] = [
     images: [
       "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
     ],
+    keyFeatures: [
+      "Circular blocking and striking techniques",
+      "Close-range combat applications",
+      "Quick directional changes",
+      "Grabbing and tearing movements"
+    ],
+    movements: "24 primary movements",
+    duration: "1-2 minutes",
+    origin: "Fujian Province, China",
+    history: "Saifa was brought to Okinawa by Kanryo Higaonna after his studies in China. It was later standardized by Chojun Miyagi as part of the formal Goju Ryu curriculum. The kata's techniques reflect practical combat applications for close-quarters fighting.",
+    culturalSignificance: "Saifa represents the evolution of martial arts techniques designed for practical self-defense situations in crowded environments.",
+    masters: [
+      "Chojun Miyagi",
+      "Morio Higaonna",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=example-saifa"
   }
 ];
 
