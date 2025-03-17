@@ -1,10 +1,11 @@
 
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Home, Book, BookOpen, History, Menu } from 'lucide-react';
+import { Home, Book, BookOpen, History, Menu, Settings } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 interface MobileLayoutProps {
   children: ReactNode;
@@ -44,9 +45,31 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
             <Home size={20} />
           </Link>
           <h1 className="text-xl font-serif font-medium text-stone-800">Goju Ryu</h1>
-          <button className="p-2 -mr-2 hover:bg-stone-100 rounded-full transition-colors">
-            <Menu size={20} />
-          </button>
+          <Sheet>
+            <SheetTrigger asChild>
+              <button className="p-2 -mr-2 hover:bg-stone-100 rounded-full transition-colors">
+                <Menu size={20} />
+              </button>
+            </SheetTrigger>
+            <SheetContent>
+              <div className="mt-8 space-y-4">
+                <h2 className="text-lg font-medium">Menu</h2>
+                <nav className="space-y-2">
+                  <Link to="/" className="block p-2 hover:bg-stone-100 rounded transition-colors">Home</Link>
+                  <Link to="/techniques" className="block p-2 hover:bg-stone-100 rounded transition-colors">Techniques</Link>
+                  <Link to="/kata" className="block p-2 hover:bg-stone-100 rounded transition-colors">Kata</Link>
+                  <Link to="/history" className="block p-2 hover:bg-stone-100 rounded transition-colors">History</Link>
+                  <Link to="/philosophy" className="block p-2 hover:bg-stone-100 rounded transition-colors">Philosophy</Link>
+                  <div className="pt-4 border-t">
+                    <Link to="/admin" className="flex items-center gap-2 p-2 text-sm text-stone-500 hover:bg-stone-100 rounded transition-colors">
+                      <Settings size={16} />
+                      Admin
+                    </Link>
+                  </div>
+                </nav>
+              </div>
+            </SheetContent>
+          </Sheet>
         </motion.div>
       )}
 

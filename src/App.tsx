@@ -12,6 +12,7 @@ import HistoryPage from "./pages/HistoryPage";
 import PhilosophyPage from "./pages/PhilosophyPage";
 import TechniqueDetailPage from "./pages/TechniqueDetailPage";
 import KataDetailPage from "./pages/KataDetailPage";
+import AdminPage from "./pages/AdminPage";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/kata/:id" element={<KataDetailPage />} />
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/philosophy" element={<PhilosophyPage />} />
+          <Route path="/admin" element={<AdminPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
