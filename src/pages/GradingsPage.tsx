@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -46,9 +45,9 @@ const GradingsPage = () => {
     { 
       id: "7th-kyu", 
       label: "7th Kyu", 
-      color: "bg-yellow-600", 
+      color: "bg-[#FFD700]", 
       stripes: 0,
-      borderColor: "border-yellow-700" 
+      borderColor: "border-amber-500" 
     },
     { 
       id: "6th-kyu", 
@@ -105,7 +104,6 @@ const GradingsPage = () => {
     },
   ];
 
-  // Data for the 10th Kyu requirements
   const tenthKyuData = {
     title: "THE WAY TO 10TH KYU",
     requirements: {
@@ -155,7 +153,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 9th Kyu requirements
   const ninthKyuData = {
     title: "THE WAY TO 9TH KYU",
     requirements: {
@@ -215,7 +212,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 8th Kyu requirements
   const eighthKyuData = {
     title: "THE WAY TO 8TH KYU",
     requirements: {
@@ -284,7 +280,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 7th Kyu requirements
   const seventhKyuData = {
     title: "THE WAY TO 7TH KYU",
     requirements: {
@@ -352,7 +347,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 6th Kyu requirements
   const sixthKyuData = {
     title: "THE WAY TO 6TH KYU",
     requirements: {
@@ -422,7 +416,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 5th Kyu requirements
   const fifthKyuData = {
     title: "THE WAY TO 5TH KYU",
     requirements: {
@@ -479,7 +472,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 4th Kyu requirements
   const fourthKyuData = {
     title: "THE WAY TO 4TH KYU",
     requirements: {
@@ -545,7 +537,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 3rd Kyu requirements
   const thirdKyuData = {
     title: "THE WAY TO 3RD KYU",
     requirements: {
@@ -605,7 +596,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 2nd Kyu requirements
   const secondKyuData = {
     title: "THE WAY TO 2ND KYU",
     requirements: {
@@ -662,7 +652,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the 1st Kyu requirements
   const firstKyuData = {
     title: "THE WAY TO 1ST KYU",
     requirements: {
@@ -714,7 +703,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Data for the Shodan requirements
   const shodanData = {
     title: "THE WAY TO SHODAN",
     requirements: {
@@ -755,7 +743,6 @@ const GradingsPage = () => {
     ]
   };
 
-  // Helper function to render techniques by category
   const renderTechniques = (techniquesData) => {
     return (
       <div className="space-y-4">
@@ -773,7 +760,6 @@ const GradingsPage = () => {
     );
   };
 
-  // Helper function to render knowledge items
   const renderKnowledge = (knowledgeData) => {
     return (
       <div className="space-y-2">
@@ -788,7 +774,6 @@ const GradingsPage = () => {
     );
   };
 
-  // Helper function to render history items
   const renderHistory = (historyData) => {
     return (
       <div className="space-y-2">
@@ -801,7 +786,6 @@ const GradingsPage = () => {
     );
   };
 
-  // Helper function to get grading data based on selected tab
   const getGradingData = (tabId) => {
     switch (tabId) {
       case "10th-kyu": return tenthKyuData;
@@ -821,16 +805,13 @@ const GradingsPage = () => {
 
   const activeGradingData = getGradingData(activeTab);
 
-  // Chart data for grading requirements
   const chartData = [
     { name: "Required Classes", value: activeGradingData.requirements.classes || 0 },
     { name: "Months of Training", value: activeGradingData.requirements.months || 0 }
   ];
 
-  // Chart colors
   const chartColors = ["#9f7aea", "#3182ce"];
 
-  // Chart config object for the ChartContainer
   const chartConfig = {
     classes: {
       label: "Required Classes",
@@ -842,7 +823,6 @@ const GradingsPage = () => {
     }
   };
 
-  // Helper function to render stripes
   const renderStripes = (count) => {
     if (count <= 0) return null;
     
@@ -852,7 +832,7 @@ const GradingsPage = () => {
         <div 
           key={i} 
           className="w-1.5 h-full bg-black absolute" 
-          style={{ right: `${i * 8}px` }} 
+          style={{ right: `${i * 8 + 4}px` }} 
         />
       );
     }
@@ -877,7 +857,7 @@ const GradingsPage = () => {
               <TabsTrigger
                 key={level.id}
                 value={level.id}
-                className={`h-12 p-1 text-xs relative ${level.color} ${level.textColor || 'text-stone-800'} overflow-hidden
+                className={`h-12 p-1 text-xs relative ${level.color} ${level.textColor || 'text-stone-800'} overflow-hidden pr-${level.stripes > 0 ? (level.stripes * 2 + 2) : 0}
                   data-[state=active]:border-2 data-[state=active]:border-karate`}
               >
                 {level.label}
@@ -896,7 +876,6 @@ const GradingsPage = () => {
                     <CardTitle className="text-xl font-serif text-center relative z-10">{gradingData.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="pt-6">
-                    {/* Requirements Summary */}
                     <div className="mb-6">
                       <h3 className="font-semibold mb-3 flex items-center text-stone-700 text-lg">
                         <Award className="mr-2 h-5 w-5 text-karate" />
@@ -944,7 +923,6 @@ const GradingsPage = () => {
                     </div>
 
                     <Accordion type="single" collapsible className="w-full space-y-4">
-                      {/* Techniques Section */}
                       <AccordionItem value="techniques" className="border rounded-lg overflow-hidden">
                         <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
                           <div className="flex items-center">
@@ -959,7 +937,6 @@ const GradingsPage = () => {
                         </AccordionContent>
                       </AccordionItem>
 
-                      {/* Knowledge Section */}
                       {gradingData.knowledge && gradingData.knowledge.length > 0 && (
                         <AccordionItem value="knowledge" className="border rounded-lg overflow-hidden">
                           <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
@@ -976,7 +953,6 @@ const GradingsPage = () => {
                         </AccordionItem>
                       )}
 
-                      {/* History Section */}
                       {gradingData.history && gradingData.history.length > 0 && (
                         <AccordionItem value="history" className="border rounded-lg overflow-hidden">
                           <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
