@@ -127,7 +127,7 @@ const StudyPage = () => {
               )}
               <CardContent className="pt-4 pb-0">
                 <p className="text-sm text-stone-600">
-                  <strong>{study.questions.length}</strong> questions • Category: <Badge variant="outline" size="sm">{study.category}</Badge>
+                  <strong>{study.questions.length}</strong> questions • Category: <Badge variant="outline" className="text-xs">{study.category}</Badge>
                 </p>
               </CardContent>
               <CardFooter className="pt-4">
