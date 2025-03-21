@@ -15,6 +15,7 @@ import KataDetailPage from "./pages/KataDetailPage";
 import AdminPage from "./pages/AdminPage";
 import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
+import GradingsPage from "./pages/GradingsPage";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/study" element={<StudyPage />} />
           <Route path="/study/:id" element={<StudyDetailPage />} />
+          <Route path="/gradings" element={<GradingsPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

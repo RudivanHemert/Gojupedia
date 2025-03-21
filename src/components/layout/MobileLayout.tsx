@@ -3,7 +3,7 @@ import React, { ReactNode, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Home, Book, BookOpen, History, Menu, Settings, Brain } from 'lucide-react';
+import { Home, Book, BookOpen, History, Menu, Settings, Brain, Award } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
@@ -61,6 +61,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
                   <Link to="/history" className="block p-2 hover:bg-stone-100 rounded transition-colors">History</Link>
                   <Link to="/philosophy" className="block p-2 hover:bg-stone-100 rounded transition-colors">Philosophy</Link>
                   <Link to="/study" className="block p-2 hover:bg-stone-100 rounded transition-colors">Study</Link>
+                  <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors">Gradings</Link>
                   <div className="pt-4 border-t">
                     <Link to="/admin" className="flex items-center gap-2 p-2 text-sm text-stone-500 hover:bg-stone-100 rounded transition-colors">
                       <Settings size={16} />
@@ -96,7 +97,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
             }
           }}
         >
-          <TabsList className="grid grid-cols-5 h-14 bg-stone-100">
+          <TabsList className="grid grid-cols-6 h-14 bg-stone-100">
             <TabsTrigger value="/" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
               <Home size={18} />
               <span className="text-xs">Home</span>
@@ -116,6 +117,10 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
             <TabsTrigger value="/study" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
               <Brain size={18} />
               <span className="text-xs">Study</span>
+            </TabsTrigger>
+            <TabsTrigger value="/gradings" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
+              <Award size={18} />
+              <span className="text-xs">Gradings</span>
             </TabsTrigger>
           </TabsList>
         </Tabs>
