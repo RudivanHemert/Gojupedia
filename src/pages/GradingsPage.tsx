@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -22,17 +21,87 @@ const GradingsPage = () => {
   const [activeTab, setActiveTab] = useState("10th-kyu");
 
   const gradingLevels = [
-    { id: "10th-kyu", label: "10th Kyu", color: "bg-white" },
-    { id: "9th-kyu", label: "9th Kyu", color: "bg-yellow-50" },
-    { id: "8th-kyu", label: "8th Kyu", color: "bg-yellow-100" },
-    { id: "7th-kyu", label: "7th Kyu", color: "bg-yellow-200" },
-    { id: "6th-kyu", label: "6th Kyu", color: "bg-yellow-300" },
-    { id: "5th-kyu", label: "5th Kyu", color: "bg-yellow-400" },
-    { id: "4th-kyu", label: "4th Kyu", color: "bg-yellow-500" },
-    { id: "3rd-kyu", label: "3rd Kyu", color: "bg-yellow-600 text-white" },
-    { id: "2nd-kyu", label: "2nd Kyu", color: "bg-yellow-700 text-white" },
-    { id: "1st-kyu", label: "1st Kyu", color: "bg-yellow-800 text-white" },
-    { id: "shodan", label: "Shodan", color: "bg-black text-white" },
+    { 
+      id: "10th-kyu", 
+      label: "10th Kyu", 
+      color: "bg-white", 
+      stripes: 1,
+      borderColor: "border-stone-300" 
+    },
+    { 
+      id: "9th-kyu", 
+      label: "9th Kyu", 
+      color: "bg-white", 
+      stripes: 2,
+      borderColor: "border-stone-300" 
+    },
+    { 
+      id: "8th-kyu", 
+      label: "8th Kyu", 
+      color: "bg-white", 
+      stripes: 3,
+      borderColor: "border-stone-300" 
+    },
+    { 
+      id: "7th-kyu", 
+      label: "7th Kyu", 
+      color: "bg-yellow-200", 
+      stripes: 0,
+      borderColor: "border-yellow-300" 
+    },
+    { 
+      id: "6th-kyu", 
+      label: "6th Kyu", 
+      color: "bg-orange-200", 
+      stripes: 0,
+      borderColor: "border-orange-300" 
+    },
+    { 
+      id: "5th-kyu", 
+      label: "5th Kyu", 
+      color: "bg-green-200", 
+      stripes: 0,
+      borderColor: "border-green-300" 
+    },
+    { 
+      id: "4th-kyu", 
+      label: "4th Kyu", 
+      color: "bg-blue-200", 
+      stripes: 0,
+      borderColor: "border-blue-300" 
+    },
+    { 
+      id: "3rd-kyu", 
+      label: "3rd Kyu", 
+      color: "bg-amber-800", 
+      stripes: 0,
+      textColor: "text-white", 
+      borderColor: "border-amber-900" 
+    },
+    { 
+      id: "2nd-kyu", 
+      label: "2nd Kyu", 
+      color: "bg-amber-800", 
+      stripes: 1,
+      textColor: "text-white", 
+      borderColor: "border-amber-900" 
+    },
+    { 
+      id: "1st-kyu", 
+      label: "1st Kyu", 
+      color: "bg-amber-800", 
+      stripes: 2,
+      textColor: "text-white", 
+      borderColor: "border-amber-900" 
+    },
+    { 
+      id: "shodan", 
+      label: "Shodan", 
+      color: "bg-black", 
+      stripes: 0,
+      textColor: "text-white", 
+      borderColor: "border-gray-800" 
+    },
   ];
 
   // Data for the 10th Kyu requirements
@@ -648,6 +717,7 @@ const GradingsPage = () => {
   const shodanData = {
     title: "THE WAY TO SHODAN",
     requirements: {
+      classes: 0,
       months: 6,
     },
     techniques: [
@@ -759,6 +829,19 @@ const GradingsPage = () => {
   // Chart colors
   const chartColors = ["#9f7aea", "#3182ce"];
 
+  // Helper function to render stripes
+  const renderStripes = (count) => {
+    if (count <= 0) return null;
+    
+    const stripes = [];
+    for (let i = 0; i < count; i++) {
+      stripes.push(
+        <div key={i} className="w-1.5 h-full bg-black absolute right-0" style={{ right: `${i * 6}px` }} />
+      );
+    }
+    return stripes;
+  };
+
   return (
     <MobileLayout>
       <div className="bg-stone-100 border-b border-stone-200">
@@ -777,9 +860,11 @@ const GradingsPage = () => {
               <TabsTrigger
                 key={level.id}
                 value={level.id}
-                className={`h-12 p-1 text-xs ${level.color} data-[state=active]:border-2 data-[state=active]:border-karate data-[state=active]:text-stone-900`}
+                className={`h-12 p-1 text-xs relative ${level.color} ${level.textColor || 'text-stone-800'} overflow-hidden
+                  data-[state=active]:border-2 data-[state=active]:border-karate`}
               >
                 {level.label}
+                {renderStripes(level.stripes)}
               </TabsTrigger>
             ))}
           </TabsList>
@@ -789,8 +874,9 @@ const GradingsPage = () => {
             return (
               <TabsContent key={level.id} value={level.id} className="space-y-6">
                 <Card>
-                  <CardHeader className={`${level.color} border-b`}>
-                    <CardTitle className="text-xl font-serif text-center">{gradingData.title}</CardTitle>
+                  <CardHeader className={`${level.color} ${level.textColor || 'text-stone-800'} relative overflow-hidden border-b ${level.borderColor}`}>
+                    {renderStripes(level.stripes)}
+                    <CardTitle className="text-xl font-serif text-center relative z-10">{gradingData.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="pt-6">
                     {/* Requirements Summary */}
@@ -800,7 +886,7 @@ const GradingsPage = () => {
                         Basic Requirements
                       </h3>
                       <div className="grid grid-cols-2 gap-4">
-                        {gradingData.requirements.classes && (
+                        {gradingData.requirements.classes > 0 && (
                           <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center">
                             <p className="text-xs text-stone-500">Minimum Classes</p>
                             <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.classes}</p>
@@ -812,14 +898,9 @@ const GradingsPage = () => {
                         </div>
                       </div>
 
-                      {(gradingData.requirements.classes && gradingData.requirements.months) && (
+                      {(gradingData.requirements.classes > 0) && (
                         <div className="mt-4 h-44">
-                          <ChartContainer 
-                            config={{
-                              classes: { theme: { light: "#9f7aea" } },
-                              months: { theme: { light: "#3182ce" } },
-                            }}
-                          >
+                          <ChartContainer>
                             <PieChart>
                               <Pie
                                 data={chartData}
@@ -901,7 +982,7 @@ const GradingsPage = () => {
                         <Clock className="h-4 w-4 mr-1" />
                         <span>{gradingData.requirements.months} months</span>
                       </div>
-                      {gradingData.requirements.classes && (
+                      {gradingData.requirements.classes > 0 && (
                         <div className="flex items-center">
                           <Calendar className="h-4 w-4 mr-1" />
                           <span>{gradingData.requirements.classes} classes</span>
