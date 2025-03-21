@@ -46,30 +46,30 @@ const GradingsPage = () => {
     { 
       id: "7th-kyu", 
       label: "7th Kyu", 
-      color: "bg-yellow-200", 
+      color: "bg-yellow-600", 
       stripes: 0,
-      borderColor: "border-yellow-300" 
+      borderColor: "border-yellow-700" 
     },
     { 
       id: "6th-kyu", 
       label: "6th Kyu", 
-      color: "bg-orange-200", 
+      color: "bg-orange-600", 
       stripes: 0,
-      borderColor: "border-orange-300" 
+      borderColor: "border-orange-700" 
     },
     { 
       id: "5th-kyu", 
       label: "5th Kyu", 
-      color: "bg-green-200", 
+      color: "bg-green-700", 
       stripes: 0,
-      borderColor: "border-green-300" 
+      borderColor: "border-green-800" 
     },
     { 
       id: "4th-kyu", 
       label: "4th Kyu", 
-      color: "bg-blue-200", 
+      color: "bg-blue-700", 
       stripes: 0,
-      borderColor: "border-blue-300" 
+      borderColor: "border-blue-800" 
     },
     { 
       id: "3rd-kyu", 
@@ -849,7 +849,11 @@ const GradingsPage = () => {
     const stripes = [];
     for (let i = 0; i < count; i++) {
       stripes.push(
-        <div key={i} className="w-1.5 h-full bg-black absolute right-0" style={{ right: `${i * 6}px` }} />
+        <div 
+          key={i} 
+          className="w-1.5 h-full bg-black absolute" 
+          style={{ right: `${i * 8}px` }} 
+        />
       );
     }
     return stripes;
