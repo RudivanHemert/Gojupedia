@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -829,6 +830,18 @@ const GradingsPage = () => {
   // Chart colors
   const chartColors = ["#9f7aea", "#3182ce"];
 
+  // Chart config object for the ChartContainer
+  const chartConfig = {
+    classes: {
+      label: "Required Classes",
+      color: "#9f7aea"
+    },
+    months: {
+      label: "Months of Training",
+      color: "#3182ce"
+    }
+  };
+
   // Helper function to render stripes
   const renderStripes = (count) => {
     if (count <= 0) return null;
@@ -900,7 +913,7 @@ const GradingsPage = () => {
 
                       {(gradingData.requirements.classes > 0) && (
                         <div className="mt-4 h-44">
-                          <ChartContainer>
+                          <ChartContainer config={chartConfig}>
                             <PieChart>
                               <Pie
                                 data={chartData}
