@@ -13,6 +13,8 @@ import PhilosophyPage from "./pages/PhilosophyPage";
 import TechniqueDetailPage from "./pages/TechniqueDetailPage";
 import KataDetailPage from "./pages/KataDetailPage";
 import AdminPage from "./pages/AdminPage";
+import StudyPage from "./pages/StudyPage";
+import StudyDetailPage from "./pages/StudyDetailPage";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +33,8 @@ const App = () => (
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/philosophy" element={<PhilosophyPage />} />
           <Route path="/admin" element={<AdminPage />} />
+          <Route path="/study" element={<StudyPage />} />
+          <Route path="/study/:id" element={<StudyDetailPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

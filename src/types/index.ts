@@ -68,3 +68,24 @@ export interface Principle {
   description: string;
   explanation: string[];
 }
+
+export interface Study {
+  id: string;
+  title: string;
+  description: string;
+  type: 'quiz' | 'flashcard' | 'matching';
+  category: string;
+  difficulty: 'beginner' | 'intermediate' | 'advanced';
+  questions: StudyQuestion[];
+  image?: string;
+}
+
+export interface StudyQuestion {
+  id: string;
+  question: string;
+  options?: string[];
+  correctAnswer: string;
+  explanation?: string;
+  image?: string;
+}
+

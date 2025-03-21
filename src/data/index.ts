@@ -1,5 +1,4 @@
-
-import { Category, Technique, Kata, HistoricalFigure, Article, Principle } from "../types";
+import { Category, Technique, Kata, HistoricalFigure, Article, Principle, Study } from "../types";
 
 export const categories: Category[] = [
   {
@@ -231,6 +230,109 @@ export const principles: Principle[] = [
       "Not literally about killing, but about resolving conflict decisively",
       "Emphasizes quality of technique over quantity",
       "Encourages mental focus and commitment to each action"
+    ]
+  }
+];
+
+export const studies: Study[] = [
+  {
+    id: "basic-stances",
+    title: "Basic Goju Ryu Stances",
+    description: "Test your knowledge of fundamental stances in Goju Ryu karate.",
+    type: "quiz",
+    category: "techniques",
+    difficulty: "beginner",
+    image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop",
+    questions: [
+      {
+        id: "q1",
+        question: "Which stance is known as the 'hour-glass stance' in Goju Ryu?",
+        options: ["Sanchin Dachi", "Shiko Dachi", "Zenkutsu Dachi", "Neko Ashi Dachi"],
+        correctAnswer: "Sanchin Dachi",
+        explanation: "Sanchin Dachi (三戦立ち) is known as the 'hour-glass stance' and forms the foundation of Goju Ryu karate."
+      },
+      {
+        id: "q2",
+        question: "In Sanchin Dachi, how should the feet be positioned?",
+        options: [
+          "Shoulder-width apart with toes pointing slightly inward",
+          "Wide apart with toes pointing outward",
+          "One foot forward, one foot back",
+          "Both feet together"
+        ],
+        correctAnswer: "Shoulder-width apart with toes pointing slightly inward",
+        explanation: "In Sanchin Dachi, feet should be shoulder-width apart with toes pointing slightly inward to create stability."
+      },
+      {
+        id: "q3",
+        question: "What is a key aspect of proper breathing in Goju Ryu stances?",
+        options: [
+          "Shallow, rapid breathing",
+          "Holding your breath for stability",
+          "Deep, controlled abdominal breathing",
+          "Only breathing through the mouth"
+        ],
+        correctAnswer: "Deep, controlled abdominal breathing",
+        explanation: "Proper breathing in Goju Ryu involves deep, controlled abdominal breathing that works in harmony with movement."
+      }
+    ]
+  },
+  {
+    id: "kata-principles",
+    title: "Kata Principles Flashcards",
+    description: "Learn and memorize the important principles behind kata practice.",
+    type: "flashcard",
+    category: "kata",
+    difficulty: "intermediate",
+    image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
+    questions: [
+      {
+        id: "k1",
+        question: "What does the term Sanchin (三戦) mean?",
+        correctAnswer: "Three Battles/Conflicts",
+        explanation: "Sanchin refers to the 'three battles' of mind, body, and spirit that practitioners must overcome."
+      },
+      {
+        id: "k2",
+        question: "What is the primary purpose of Sanchin kata in Goju Ryu?",
+        correctAnswer: "To develop proper breathing, stance, and internal body tension",
+        explanation: "Sanchin focuses on proper breathing techniques, rooted stance, and developing internal strength through muscular contraction."
+      },
+      {
+        id: "k3",
+        question: "What does the name Saifa (砕破) mean?",
+        correctAnswer: "Smash and Tear",
+        explanation: "Saifa translates to 'smash and tear', reflecting the kata's tearing and pulling techniques for close combat."
+      }
+    ]
+  },
+  {
+    id: "history-matching",
+    title: "Goju Ryu Founders & History",
+    description: "Match the important figures to their contributions in Goju Ryu history.",
+    type: "matching",
+    category: "history",
+    difficulty: "intermediate",
+    image: "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop",
+    questions: [
+      {
+        id: "h1",
+        question: "Chojun Miyagi",
+        correctAnswer: "Founder of Goju Ryu karate",
+        explanation: "Chojun Miyagi (1888-1953) systematized and named the Goju Ryu style, emphasizing both hard and soft techniques."
+      },
+      {
+        id: "h2",
+        question: "Kanryo Higaonna",
+        correctAnswer: "Teacher of Chojun Miyagi who studied martial arts in China",
+        explanation: "Kanryo Higaonna (1853-1916) traveled to Fuzhou, China to study martial arts before returning to Okinawa to teach."
+      },
+      {
+        id: "h3",
+        question: "Go and Ju Principle",
+        correctAnswer: "The balance of hardness and softness",
+        explanation: "The name Goju Ryu reflects the principle of balancing hard (Go) and soft (Ju) techniques in training."
+      }
     ]
   }
 ];
