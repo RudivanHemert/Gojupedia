@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
@@ -108,6 +107,44 @@ const HistoryPage = () => {
           </section>
 
           <section className="space-y-4 mt-8">
+            <h2 className="text-2xl font-serif font-semibold">Chojun Miyagi (1888 - 1953)</h2>
+            <div className="float-right ml-4 mb-2">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ch%C5%8Djun_Miyagi.jpg/330px-Ch%C5%8Djun_Miyagi.jpg" 
+                alt="Chojun Miyagi" 
+                className="w-32 h-auto rounded-md shadow-md"
+              />
+            </div>
+            <p className="text-gray-700">
+              Chojun Miyagi was born on April 25, 1888, in Naha, Okinawa, to a wealthy family of ship owners. From a young age, he showed a strong interest in the martial arts, beginning his formal training at age 11 under Ryuko Aragaki, who later introduced him to Kanryo Higaonna in 1902.
+            </p>
+            <p className="text-gray-700">
+              As a student of Higaonna, Miyagi demonstrated exceptional dedication and skill, training rigorously for 13 years until his master's death in 1915. Recognized as Higaonna's top student, Miyagi inherited the responsibility of preserving and advancing his master's teachings.
+            </p>
+            <p className="text-gray-700">
+              Following Higaonna's passing, Miyagi traveled to Fuzhou, China, in 1915 to further explore the roots of the martial art he had learned. Despite facing challenges in locating Higaonna's original teacher, Ryu Ryu Ko, his journey provided valuable insights into Chinese martial arts that would later influence his development of Goju-Ryu.
+            </p>
+            <p className="text-gray-700">
+              In 1921, Miyagi had the honor of demonstrating his martial art to Crown Prince Hirohito during his visit to Okinawa. This demonstration helped elevate the status of Okinawan karate in Japan. In 1926, Miyagi established the Karate Research Club in Wakas-Cho district, creating a formal training environment for his growing number of students.
+            </p>
+            <p className="text-gray-700">
+              A significant moment in the history of Goju-Ryu came in 1930 at a martial arts tournament in Japan. When asked about the name of his style, Miyagi's student Jinan Shinzato replied that it had no name, which prompted Miyagi to later formalize the name "Goju-Ryu" based on principles from the Bubishi, a classical Chinese text on martial arts. The name reflects the balance of hard (go) and soft (ju) techniques that characterize the style.
+            </p>
+            <p className="text-gray-700">
+              Throughout the 1930s, Miyagi's reputation grew internationally. In 1934, he was appointed as the official representative of the Dai Nippon Butokukai, Japan's premier martial arts organization. In 1936, he traveled to Hawaii at the invitation of a newspaper to introduce karate to the Hawaiian Islands, marking one of the first instances of Goju-Ryu being taught outside of Japan.
+            </p>
+            <p className="text-gray-700">
+              The Second World War brought tremendous hardship to Okinawa. During the Battle of Okinawa in 1945, Miyagi lost his home, many family members, and valuable training documents. Despite these devastating losses, he resumed teaching after the war, focusing on rebuilding the practice of Goju-Ryu until his death from heart failure on October 8, 1953.
+            </p>
+            <p className="text-gray-700">
+              Miyagi's legacy continues through his students and the worldwide spread of Goju-Ryu karate. He is remembered not only for his technical innovations and systematic approach to training but also for his emphasis on the philosophical and spiritual aspects of martial arts. His creation of the kata Tensho and his refinement of the existing kata demonstrate his commitment to balancing hard and soft elements in karate.
+            </p>
+            <p className="text-gray-700">
+              Above all, Miyagi emphasized that karate was not merely about fighting but about personal development and the pursuit of peace. His famous saying, "The ultimate aim of karate-do is to build character, conquer human misery, and find spiritual freedom," continues to guide practitioners of Goju-Ryu worldwide.
+            </p>
+          </section>
+
+          <section className="space-y-4 mt-8">
             <h2 className="text-2xl font-serif font-semibold">Modern Development</h2>
             <p className="text-gray-700">
               In 1930, Miyagi performed in Hawaii, helping to introduce Goju-Ryu to the Western world. After World War II, Goju-Ryu spread 
@@ -173,8 +210,38 @@ const HistoryPage = () => {
               
               <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
                 <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1921</h3>
+                <p className="text-gray-700">Miyagi demonstrates karate to Crown Prince Hirohito</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1926</h3>
+                <p className="text-gray-700">Miyagi establishes the Karate Research Club in Wakas-Cho</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
                 <h3 className="font-bold">1930</h3>
                 <p className="text-gray-700">The name "Goju-Ryu" is officially adopted for the style</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1934</h3>
+                <p className="text-gray-700">Miyagi appointed as representative of the Dai Nippon Butokukai</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1936</h3>
+                <p className="text-gray-700">Miyagi travels to Hawaii to introduce karate to the Hawaiian Islands</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1945</h3>
+                <p className="text-gray-700">Battle of Okinawa; Miyagi loses his home and valuable documents</p>
               </div>
               
               <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
