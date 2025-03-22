@@ -39,6 +39,7 @@ export interface Kata {
   history?: string;
   culturalSignificance?: string;
   masters?: string[];
+  shime?: string; // Added this field for Sanchin kata's shime demonstration
 }
 
 export interface HistoricalFigure {

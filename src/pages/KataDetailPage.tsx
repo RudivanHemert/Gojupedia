@@ -44,6 +44,7 @@ const KataDetailPage = () => {
 
   const kataVideoId = getYouTubeId(kata.videoUrl);
   const bunkaiVideoId = getYouTubeId(kata.bunkai);
+  const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
     <MobileLayout>
@@ -196,6 +197,22 @@ const KataDetailPage = () => {
                     className="absolute inset-0 w-full h-full"
                     src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
                     title={`${kata.name} Bunkai Demonstration`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            )}
+            
+            {shimeVideoId && (
+              <div className="mt-6">
+                <h2 className="text-xl font-serif font-semibold mb-2">Shime Demonstration</h2>
+                <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
+                  <iframe 
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${shimeVideoId}`}
+                    title={`${kata.name} Shime Demonstration`}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
