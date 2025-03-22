@@ -111,7 +111,82 @@ export const katas: Kata[] = [
       "Kanryo Higaonna",
       "Seiko Higa"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=example-sanchin"
+    videoUrl: "https://www.youtube.com/watch?v=kybxNOlnl20",
+    bunkai: "https://www.youtube.com/watch?v=Ym-dPP2Mb_c"
+  },
+  {
+    id: "gekisai-dai-ichi",
+    name: "Gekisai Dai Ichi",
+    japaneseName: "撃砕第一",
+    meaning: "Attack and Destroy, First Form",
+    description: "One of the two Gekisai kata created by Chojun Miyagi for physical education in schools. It teaches fundamental techniques and breathing patterns in a simpler format than the older kata.",
+    level: "Beginner",
+    steps: [
+      "Begin in natural stance facing forward",
+      "Step into sanchin dachi with double block",
+      "Execute punch sequence",
+      "Perform blocks and counters to the sides",
+      "Return to center and complete final techniques",
+      "Return to starting position"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Basic blocking and striking techniques",
+      "Simple directional changes",
+      "Focus on fundamentals",
+      "Introduction to breathing coordination"
+    ],
+    movements: "23 primary movements",
+    duration: "1-2 minutes",
+    origin: "Okinawa, Japan",
+    history: "Gekisai Dai Ichi was created by Chojun Miyagi in the 1940s as a less complex kata suitable for teaching in schools. It contains fundamental techniques while presenting a simplified structure compared to the ancient kata.",
+    culturalSignificance: "This kata was part of Miyagi's effort to popularize karate and make it accessible to a wider audience, particularly the younger generation.",
+    masters: [
+      "Chojun Miyagi",
+      "Morio Higaonna",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=vKLX3tZN1JQ",
+    bunkai: "https://www.youtube.com/watch?v=MdIoFWQNY4M"
+  },
+  {
+    id: "gekisai-dai-ni",
+    name: "Gekisai Dai Ni",
+    japaneseName: "撃砕第二",
+    meaning: "Attack and Destroy, Second Form",
+    description: "The second of the two Gekisai kata. It builds upon the techniques of Gekisai Dai Ichi with additional movements and slightly more complex patterns.",
+    level: "Beginner",
+    steps: [
+      "Begin in natural stance facing forward",
+      "Step into sanchin dachi with open hand block",
+      "Execute punch and block sequence",
+      "Perform kicks and strikes in multiple directions",
+      "Complete final blocking sequence",
+      "Return to starting position"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Introduction to open hand techniques",
+      "More advanced kicks than Gekisai Dai Ichi",
+      "Multiple directional movements",
+      "Enhanced breathing patterns"
+    ],
+    movements: "24 primary movements",
+    duration: "1-2 minutes",
+    origin: "Okinawa, Japan",
+    history: "Created alongside Gekisai Dai Ichi by Chojun Miyagi in the 1940s, Gekisai Dai Ni served as a bridge between the introductory kata and the more advanced traditional forms.",
+    culturalSignificance: "Represents the evolution of karate instruction as it was being standardized for broader teaching applications.",
+    masters: [
+      "Chojun Miyagi",
+      "Morio Higaonna",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=0Uydn4yEXe4",
+    bunkai: "https://www.youtube.com/watch?v=wVFAa_IXqrA"
   },
   {
     id: "saifa",
@@ -147,7 +222,267 @@ export const katas: Kata[] = [
       "Morio Higaonna",
       "Eiichi Miyazato"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=example-saifa"
+    videoUrl: "https://www.youtube.com/watch?v=kCaUTTfOvhY",
+    bunkai: "https://www.youtube.com/watch?v=a9NZZ_e6iJE"
+  },
+  {
+    id: "seiyunchin",
+    name: "Seiyunchin",
+    japaneseName: "制引戦",
+    meaning: "Control and Pull in Battle",
+    description: "A kata focused on controlling an opponent's balance and power. It teaches techniques for gripping, pulling, and manipulating an attacker's force.",
+    level: "Intermediate",
+    steps: [
+      "Begin with opening salutation",
+      "Execute gripping and controlling techniques",
+      "Perform circular movements with quick stance changes",
+      "Execute horizontal and vertical pulling motions",
+      "Demonstrate sweeping and unbalancing techniques",
+      "Complete the closing sequence"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Strong emphasis on grappling techniques",
+      "Focuses on breaking opponent's balance",
+      "Circular and flowing movements",
+      "Multiple applications of shiko dachi stance"
+    ],
+    movements: "32 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Seiyunchin is one of the original kata brought from China to Okinawa by Kanryo Higaonna. Its techniques reflect the principles of Chinese Quanfa (Kempo) with an emphasis on close-range combat.",
+    culturalSignificance: "This kata demonstrates the 'ju' (soft, yielding) aspect of Goju Ryu, showing how to redirect an opponent's energy rather than meeting it with force.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Morio Higaonna"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=_52ye5xADGA",
+    bunkai: "https://www.youtube.com/watch?v=NMJgHOhDTBI"
+  },
+  {
+    id: "shisochin",
+    name: "Shisochin",
+    japaneseName: "四向戦",
+    meaning: "Fight in Four Directions",
+    description: "This kata emphasizes techniques that can be applied in four directions, teaching the practitioner to be aware of and defend against multiple attackers.",
+    level: "Advanced",
+    steps: [
+      "Begin in formal stance",
+      "Execute open hand techniques in four directions",
+      "Perform joint locks and manipulation techniques",
+      "Demonstrate powerful palm heel strikes",
+      "Use circular movements to redirect attacks",
+      "Complete the closing sequence"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Open hand techniques",
+      "Multiple direction awareness",
+      "Rooting and stability",
+      "Joint locking applications"
+    ],
+    movements: "36 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Shisochin is one of the traditional kata of Goju Ryu brought from China to Okinawa. Its techniques demonstrate the practicality of being able to defend from attacks from any direction.",
+    culturalSignificance: "The kata emphasizes situational awareness and the importance of being prepared for threats from all directions, a crucial aspect of traditional martial arts wisdom.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=GyRyR3pd7FI",
+    bunkai: "https://www.youtube.com/watch?v=hPoZgm9cHTI"
+  },
+  {
+    id: "sanseru",
+    name: "Sanseru",
+    japaneseName: "三十六",
+    meaning: "Thirty-Six",
+    description: "Named after the 36 vital points of the body, this kata contains powerful striking techniques targeted at these points, as well as defensive movements.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute quick striking combinations",
+      "Perform precise blocking techniques",
+      "Demonstrate powerful kicks and strikes",
+      "Utilize quick directional changes",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Precise striking techniques",
+      "Focus on vital point attacks",
+      "Balance between hard and soft applications",
+      "Quick reaction sequences"
+    ],
+    movements: "38 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Sanseru represents the 36 vital points in Chinese medicine that can be targeted for both healing and combat. It was part of the kata Kanryo Higaonna brought back from China.",
+    culturalSignificance: "The number 36 has significance in many Asian martial and philosophical traditions, representing the harmony between physical technique and deeper understanding.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Seikichi Toguchi"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=LdbxQinYfXo",
+    bunkai: "https://www.youtube.com/watch?v=_msUEfWbiPs"
+  },
+  {
+    id: "sepai",
+    name: "Sepai",
+    japaneseName: "十八",
+    meaning: "Eighteen",
+    description: "Named after the 18 Arhats (enlightened disciples of Buddha), this kata focuses on advanced techniques and applications, including vital point strikes and joint manipulations.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute complex hand techniques",
+      "Perform circular defensive patterns",
+      "Demonstrate quick stance transitions",
+      "Apply joint manipulation techniques",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Complex hand techniques",
+      "Joint manipulation applications",
+      "Circular defensive patterns",
+      "Advanced stance work"
+    ],
+    movements: "40 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Sepai is one of the older kata in the Goju Ryu system. The name refers to the 18 Arhats in Buddhism, who were enlightened disciples of the Buddha.",
+    culturalSignificance: "The number 18 has significance in Buddhist and Chinese martial traditions, representing different aspects of enlightenment and the path to mastery.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Morio Higaonna"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=rBvK4eSHReY",
+    bunkai: "https://www.youtube.com/watch?v=ch425QMrgak"
+  },
+  {
+    id: "kururunfa",
+    name: "Kururunfa",
+    japaneseName: "久留頓破",
+    meaning: "Holding, Falling, and Breaking",
+    description: "A kata that teaches techniques for dealing with a physically stronger opponent. It contains powerful blocking, grappling techniques, and swift counterattacks.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute heavy strikes and blocks",
+      "Perform quick evasive maneuvers",
+      "Demonstrate powerful takedown techniques",
+      "Apply circular hand movements",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Powerful blocking techniques",
+      "Grappling applications",
+      "Use of body weight and momentum",
+      "Techniques for dealing with stronger opponents"
+    ],
+    movements: "45 primary movements",
+    duration: "3-4 minutes",
+    origin: "Fujian Province, China",
+    history: "Kururunfa is one of the traditional Chinese forms brought to Okinawa by Kanryo Higaonna. Its techniques focus on dealing with larger, stronger opponents through technique rather than strength.",
+    culturalSignificance: "The kata embodies the principle that proper technique can overcome greater physical strength, a core tenet of many martial arts traditions.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "An'ichi Miyagi"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=tpoJ4-6L1Wc",
+    bunkai: ""
+  },
+  {
+    id: "sesan",
+    name: "Sesan",
+    japaneseName: "十三",
+    meaning: "Thirteen",
+    description: "Named after the 13 principles of fighting, this kata contains techniques for both close and long-range combat, with emphasis on rapid strikes and kicks.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute long-range striking techniques",
+      "Perform rapid combination attacks",
+      "Demonstrate whipping and snapping techniques",
+      "Apply quick directional changes",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Blend of long and short-range techniques",
+      "Rapid combination attacks",
+      "Whipping and snapping movements",
+      "Dynamic footwork patterns"
+    ],
+    movements: "38 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Sesan is traditionally believed to contain 13 key principles or techniques that form the foundation of effective combat. It was one of the kata brought from China by Kanryo Higaonna.",
+    culturalSignificance: "The number 13 in this context represents completeness in martial theory rather than the Western superstition of bad luck.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Seiko Higa"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=LJeOCRV0oF0",
+    bunkai: "https://www.youtube.com/watch?v=Nt6UaofHJow"
+  },
+  {
+    id: "suparinpei",
+    name: "Suparinpei",
+    japaneseName: "壱百零八",
+    meaning: "108",
+    description: "The longest and most advanced kata in the Goju Ryu system, named after the 108 defilements of man in Buddhist philosophy. It contains a comprehensive collection of techniques from the entire system.",
+    level: "Master",
+    steps: [
+      "Begin with formal opening",
+      "Execute complex technique combinations",
+      "Perform advanced defensive patterns",
+      "Demonstrate integrated breathing methods",
+      "Apply techniques from multiple preceding kata",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Comprehensive collection of techniques",
+      "Advanced breathing methods",
+      "Integration of concepts from all Goju Ryu kata",
+      "The most complex footwork in the system"
+    ],
+    movements: "65+ primary movements",
+    duration: "4-5 minutes",
+    origin: "Fujian Province, China",
+    history: "Suparinpei is the most advanced kata in the Goju Ryu system. Its name refers to the 108 defilements or desires in Buddhist philosophy that one must overcome to achieve enlightenment.",
+    culturalSignificance: "The number 108 is significant in many Eastern traditions, and the kata symbolizes the mastery of the complete Goju Ryu system.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Morio Higaonna"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=ufr4QdN6Ko0",
+    bunkai: "https://www.youtube.com/watch?v=IvugPHXbK4M"
   }
 ];
 

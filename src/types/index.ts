@@ -35,6 +35,7 @@ export interface Kata {
   duration?: string;
   origin?: string;
   videoUrl?: string;
+  bunkai?: string;
   history?: string;
   culturalSignificance?: string;
   masters?: string[];
@@ -88,4 +89,3 @@ export interface StudyQuestion {
   explanation?: string;
   image?: string;
 }
-
