@@ -5,7 +5,7 @@ import { katas } from '@/data';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ChevronLeft, Play } from 'lucide-react';
+import { ChevronLeft } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -33,6 +33,18 @@ const KataDetailPage = () => {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
   };
+
+  // Function to extract YouTube video ID from URL
+  const getYouTubeId = (url) => {
+    if (!url) return null;
+    const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+    const match = url.match(regExp);
+    return (match && match[2].length === 11) ? match[2] : null;
+  };
+
+  const kataVideoId = getYouTubeId(kata.videoUrl);
+  const bunkaiVideoId = getYouTubeId(kata.bunkai);
+  const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
     <MobileLayout>
@@ -92,7 +104,7 @@ const KataDetailPage = () => {
             <div>
               <h2 className="text-xl font-serif font-semibold mb-2">Key Features</h2>
               <ul className="list-disc pl-5 text-gray-700 space-y-1">
-                {kata.keyFeatures.map((feature, index) => (
+                {kata.keyFeatures && kata.keyFeatures.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
@@ -147,7 +159,7 @@ const KataDetailPage = () => {
             variants={fadeIn}
             initial="hidden"
             animate="visible"
-            className="space-y-4"
+            className="space-y-6"
           >
             <h2 className="text-xl font-serif font-semibold mb-2">Images</h2>
             <div className="grid grid-cols-2 gap-2">
@@ -161,16 +173,50 @@ const KataDetailPage = () => {
               ))}
             </div>
             
-            {kata.videoUrl && (
+            {kataVideoId && (
               <div className="mt-6">
-                <h2 className="text-xl font-serif font-semibold mb-2">Video Demonstration</h2>
+                <h2 className="text-xl font-serif font-semibold mb-2">Kata Demonstration</h2>
                 <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
-                  <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <Play className="h-12 w-12 text-red-600" />
-                    <p className="text-sm text-gray-500 mt-2">Click to play video demo</p>
-                  </div>
-                  {/* In a real app, this would be a video player component */}
-                  {/* <video src={kata.videoUrl} controls className="absolute inset-0 w-full h-full" /> */}
+                  <iframe 
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${kataVideoId}`}
+                    title={`${kata.name} Kata Demonstration`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            )}
+
+            {bunkaiVideoId && (
+              <div className="mt-6">
+                <h2 className="text-xl font-serif font-semibold mb-2">Bunkai Demonstration</h2>
+                <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
+                  <iframe 
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
+                    title={`${kata.name} Bunkai Demonstration`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            )}
+            
+            {shimeVideoId && (
+              <div className="mt-6">
+                <h2 className="text-xl font-serif font-semibold mb-2">Shime Demonstration</h2>
+                <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
+                  <iframe 
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${shimeVideoId}`}
+                    title={`${kata.name} Shime Demonstration`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
             )}

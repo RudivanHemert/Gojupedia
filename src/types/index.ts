@@ -35,9 +35,11 @@ export interface Kata {
   duration?: string;
   origin?: string;
   videoUrl?: string;
+  bunkai?: string;
   history?: string;
   culturalSignificance?: string;
   masters?: string[];
+  shime?: string; // Added this field for Sanchin kata's shime demonstration
 }
 
 export interface HistoricalFigure {
@@ -88,4 +90,3 @@ export interface StudyQuestion {
   explanation?: string;
   image?: string;
 }
-

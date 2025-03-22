@@ -104,14 +104,123 @@ export const katas: Kata[] = [
     movements: "13 primary movements",
     duration: "1-3 minutes",
     origin: "Fujian Province, China",
-    history: "Sanchin is one of the oldest kata in the Goju Ryu system. It was brought to Okinawa from China by Kanryo Higaonna in the late 19th century. The original Chinese version was practiced with open hands, but it was modified to use closed fists in the Okinawan tradition.",
+    history: "Betekent letterlijk '3 gevechten'. Het verwijst niet naar een feitelijk gevecht, maar naar de interne strijd om lichaam, geest en spirit door wilskracht te harden. Het kata bestaat uit langzaam uitgevoerde technieken, welke met continue spierspanning en diepe buikademhaling worden uitgevoerd. De hedendaags gelopen Sanchin is een variant ontwikkeld door Miyagi Chojun sensei (grondlegger, 1888-1953) op het aan hem overgeleverde origineel van Higaonna Kanryo sensei. De ademhaling in de originele versie had een explosiever karakter en het lichaam maakte twee keer een lichaamsdraai van 180 graden. Gevorderde karatestudenten kunnen tijdens de uitvoering van kata Sanchin getest worden op correcte spierspanning door medeleerlingen, die middels voelen en het slaan op bepaalde lichaamsdelen correcte uitvoering controleren. Dit testen wordt shime genoemd. Examenstof voor gokyu (vijfde kyu, groene band) en hoger.",
     culturalSignificance: "Sanchin is considered the essence of Goju Ryu karate, embodying the principles of breathing, stance, and focus that are central to the style's philosophy.",
     masters: [
       "Chojun Miyagi",
       "Kanryo Higaonna",
       "Seiko Higa"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=example-sanchin"
+    videoUrl: "https://www.youtube.com/watch?v=kybxNOlnl20",
+    bunkai: "https://www.youtube.com/watch?v=Ym-dPP2Mb_c"
+  },
+  {
+    id: "tensho",
+    name: "Tensho",
+    japaneseName: "転掌",
+    meaning: "Rotating Palms",
+    description: "Betekent letterlijk 'draaiende palmen'. Dit kata werd door Miyagi Chojun sensei ontwikkeld als tegenhanger van kata Sanchin. Dit kata wordt net als kata Sanchin met diepe ademhaling en algehele spierspanning uitgevoerd. Het karakter van het kata is echter geheel anders. Waar Sanchin heel gesloten, hoekig en hard (go) over komt, doet Tensho open, sierlijk en zacht (ju) aan. Debet hieraan zijn de vele ronde draaiende hand- en polstechnieken ('draaiende (hand)palmen'). Examenstof voor sandan (derde dan) en hoger.",
+    level: "Advanced",
+    steps: [
+      "Begin in sanchin stance",
+      "Perform circular open-hand techniques",
+      "Maintain muscle tension throughout",
+      "Focus on fluid, circular movements",
+      "Maintain proper breathing throughout kata"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Circular, flowing movements",
+      "Open-hand techniques",
+      "Contrast to Sanchin's hard techniques",
+      "Represents the 'ju' (soft) aspect of Goju Ryu"
+    ],
+    movements: "16 primary movements",
+    duration: "1-2 minutes",
+    origin: "Okinawa, Japan",
+    history: "Created by Chojun Miyagi as a counterpart to Sanchin, Tensho represents the soft, circular aspect of Goju Ryu.",
+    culturalSignificance: "Tensho demonstrates the 'ju' (soft) side of Goju Ryu, complementing Sanchin's 'go' (hard) qualities.",
+    masters: [
+      "Chojun Miyagi"
+    ],
+    videoUrl: "",
+    bunkai: ""
+  },
+  {
+    id: "gekisai-dai-ichi",
+    name: "Gekisai Dai Ichi",
+    japaneseName: "撃砕第一",
+    meaning: "Attack and Destroy, First Form",
+    description: "One of the two Gekisai kata created by Chojun Miyagi for physical education in schools. It teaches fundamental techniques and breathing patterns in a simpler format than the older kata.",
+    level: "Beginner",
+    steps: [
+      "Begin in natural stance facing forward",
+      "Step into sanchin dachi with double block",
+      "Execute punch sequence",
+      "Perform blocks and counters to the sides",
+      "Return to center and complete final techniques",
+      "Return to starting position"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Basic blocking and striking techniques",
+      "Simple directional changes",
+      "Focus on fundamentals",
+      "Introduction to breathing coordination"
+    ],
+    movements: "23 primary movements",
+    duration: "1-2 minutes",
+    origin: "Okinawa, Japan",
+    history: "Betekent letterlijk 'aanval en vernietiging 1'. Deze voor het karate wat ongebruikelijk aggressieve benaming weerspiegelt de tijd waarin het Japanse eiland Okinawa het slagveld voor Japans-Amerikaanse oorlogshandelingen was. Het kata werd in 1940 ontwikkeld door de grondlegger van het Okinawa Goju-ryu Karate-do, Myagi Chojun sensei. Het bestaat uit diverse combinaties van eenvoudige basistechnieken, die het aanleren van de latere moeilijkere klassieke koryu kata vergemakkelijken. Examenstof voor kukyu (negende kyu, witte band) en hoger.",
+    culturalSignificance: "This kata was part of Miyagi's effort to popularize karate and make it accessible to a wider audience, particularly the younger generation.",
+    masters: [
+      "Chojun Miyagi",
+      "Morio Higaonna",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=vKLX3tZN1JQ",
+    bunkai: "https://www.youtube.com/watch?v=MdIoFWQNY4M"
+  },
+  {
+    id: "gekisai-dai-ni",
+    name: "Gekisai Dai Ni",
+    japaneseName: "撃砕第二",
+    meaning: "Attack and Destroy, Second Form",
+    description: "The second of the two Gekisai kata. It builds upon the techniques of Gekisai Dai Ichi with additional movements and slightly more complex patterns.",
+    level: "Beginner",
+    steps: [
+      "Begin in natural stance facing forward",
+      "Step into sanchin dachi with open hand block",
+      "Execute punch and block sequence",
+      "Perform kicks and strikes in multiple directions",
+      "Complete final blocking sequence",
+      "Return to starting position"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Introduction to open hand techniques",
+      "More advanced kicks than Gekisai Dai Ichi",
+      "Multiple directional movements",
+      "Enhanced breathing patterns"
+    ],
+    movements: "24 primary movements",
+    duration: "1-2 minutes",
+    origin: "Okinawa, Japan",
+    history: "Betekent letterlijk 'aanval en vernietiging 2'. Net als Gekisai Dai Ichi ontwikkeld door Myagi Chojun sensei om dezelfde redenen. Examenstof voor nanakyu (zevende kyu, gele band) en hoger.",
+    culturalSignificance: "Represents the evolution of karate instruction as it was being standardized for broader teaching applications.",
+    masters: [
+      "Chojun Miyagi",
+      "Morio Higaonna",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=0Uydn4yEXe4",
+    bunkai: "https://www.youtube.com/watch?v=wVFAa_IXqrA"
   },
   {
     id: "saifa",
@@ -140,14 +249,274 @@ export const katas: Kata[] = [
     movements: "24 primary movements",
     duration: "1-2 minutes",
     origin: "Fujian Province, China",
-    history: "Saifa was brought to Okinawa by Kanryo Higaonna after his studies in China. It was later standardized by Chojun Miyagi as part of the formal Goju Ryu curriculum. The kata's techniques reflect practical combat applications for close-quarters fighting.",
+    history: "Betekent zoiets als 'vernietigende slagen'. Sai betekent, net als in Gekisai, 'vernietigen'. Fa betekent ondermeer 'slaan'. Typerend voor kata Saifa zijn de vele slagtechnieken, zoals bijvoorbeeld uraken uchi, tettsui uchi en haito uchi. Saifa is het eerste klassieke koryu kata. Het kata werd overgeleverd door Ryu Ryu Ko aan Higaonna Kanryo sensei. Vergeleken met het Gekisai Dai kata neemt vanaf Saifa de moeilijkheidsgraad van de kata toe en verschijnen meer en meer komen combinaties van hand- en beentechnieken die goede coördinatie vergen. Examenstof voor gokyu (vijfde kyu, groene band) en hoger.",
     culturalSignificance: "Saifa represents the evolution of martial arts techniques designed for practical self-defense situations in crowded environments.",
     masters: [
       "Chojun Miyagi",
       "Morio Higaonna",
       "Eiichi Miyazato"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=example-saifa"
+    videoUrl: "https://www.youtube.com/watch?v=kCaUTTfOvhY",
+    bunkai: "https://www.youtube.com/watch?v=a9NZZ_e6iJE"
+  },
+  {
+    id: "seiyunchin",
+    name: "Seiyunchin",
+    japaneseName: "制引戦",
+    meaning: "Control and Pull in Battle",
+    description: "A kata focused on controlling an opponent's balance and power. It teaches techniques for gripping, pulling, and manipulating an attacker's force.",
+    level: "Intermediate",
+    steps: [
+      "Begin with opening salutation",
+      "Execute gripping and controlling techniques",
+      "Perform circular movements with quick stance changes",
+      "Execute horizontal and vertical pulling motions",
+      "Demonstrate sweeping and unbalancing techniques",
+      "Complete the closing sequence"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Strong emphasis on grappling techniques",
+      "Focuses on breaking opponent's balance",
+      "Circular and flowing movements",
+      "Multiple applications of shiko dachi stance"
+    ],
+    movements: "32 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Betekent zoiets als 'in het gevecht uit balans brengen'. Het kata is het enige kaishu kata dat geen traptechnieken bevat en benadrukt de vorming van sterke stabiele standen. De bunkai kumite (toepassingen) bestaan uit diverse worstel- en werptechnieken die uitermate geschikt zijn in 'close-combat'. Examenstof voor sankyu (derde kyu, bruine band) en hoger.",
+    culturalSignificance: "This kata demonstrates the 'ju' (soft, yielding) aspect of Goju Ryu, showing how to redirect an opponent's energy rather than meeting it with force.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Morio Higaonna"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=_52ye5xADGA",
+    bunkai: "https://www.youtube.com/watch?v=NMJgHOhDTBI"
+  },
+  {
+    id: "shisochin",
+    name: "Shisochin",
+    japaneseName: "四向戦",
+    meaning: "Fight in Four Directions",
+    description: "This kata emphasizes techniques that can be applied in four directions, teaching the practitioner to be aware of and defend against multiple attackers.",
+    level: "Advanced",
+    steps: [
+      "Begin in formal stance",
+      "Execute open hand techniques in four directions",
+      "Perform joint locks and manipulation techniques",
+      "Demonstrate powerful palm heel strikes",
+      "Use circular movements to redirect attacks",
+      "Complete the closing sequence"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Open hand techniques",
+      "Multiple direction awareness",
+      "Rooting and stability",
+      "Joint locking applications"
+    ],
+    movements: "36 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Betekent letterlijk 'gevecht in 4 richtingen'. Een andere vertaling is '4 deuren'. Het woord deur is een symbolisch woord voor de plaats waar een eventuele tegenstander een aanval kan plegen, kan 'binnenkomen'. Het kata bevat een typische aanvalscombinatie, welke in vier richtingen uitgevoerd wordt. Examenstof voor ikkyu (eerste kyu, bruine band) en hoger.",
+    culturalSignificance: "The kata emphasizes situational awareness and the importance of being prepared for threats from all directions, a crucial aspect of traditional martial arts wisdom.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Eiichi Miyazato"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=GyRyR3pd7FI",
+    bunkai: "https://www.youtube.com/watch?v=hPoZgm9cHTI"
+  },
+  {
+    id: "sanseru",
+    name: "Sanseru",
+    japaneseName: "三十六",
+    meaning: "Thirty-Six",
+    description: "Named after the 36 vital points of the body, this kata contains powerful striking techniques targeted at these points, as well as defensive movements.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute quick striking combinations",
+      "Perform precise blocking techniques",
+      "Demonstrate powerful kicks and strikes",
+      "Utilize quick directional changes",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Precise striking techniques",
+      "Focus on vital point attacks",
+      "Balance between hard and soft applications",
+      "Quick reaction sequences"
+    ],
+    movements: "38 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "De namen van de kata Sanseru, Sepai, Sesan en Suparinpei zijn Chinese namen. In de schrijftaal wordt achter alle 4 het woord 'handen' toegevoegd, hetgeen in de spreektaal echter weggelaten wordt en wordt bijvoorbeeld Sanseru gezegd in plaats van Sanseru shu. Deze 4 namen zijn allemaal getallen die verwijzen naar boedhistische symboliek. Zo staat Sanseru voor '36 (handen)'. 36 is de symbolische vermenigvuldiging van 6 * 6. De eerste 6 staat voor oog, oor, neus, tong, lichaam en geest. De tweede 6 symboliseert kleur, stem, smaak, reuk, tast en rechtvaardigheid. Examenstof voor nidan (tweede dan) en hoger.",
+    culturalSignificance: "The number 36 has significance in many Asian martial and philosophical traditions, representing the harmony between physical technique and deeper understanding.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Seikichi Toguchi"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=LdbxQinYfXo",
+    bunkai: "https://www.youtube.com/watch?v=_msUEfWbiPs"
+  },
+  {
+    id: "sepai",
+    name: "Sepai",
+    japaneseName: "十八",
+    meaning: "Eighteen",
+    description: "Named after the 18 Arhats (enlightened disciples of Buddha), this kata focuses on advanced techniques and applications, including vital point strikes and joint manipulations.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute complex hand techniques",
+      "Perform circular defensive patterns",
+      "Demonstrate quick stance transitions",
+      "Apply joint manipulation techniques",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Complex hand techniques",
+      "Joint manipulation applications",
+      "Circular defensive patterns",
+      "Advanced stance work"
+    ],
+    movements: "40 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Betekent '18 (handen)'. 18 is de vermenigvuldiging van 6 x 3. De uitleg van de 6 is hetzelfde als de tweede 6 van kata sanseru. De 3 staat voor goed, slecht en vrede. Sepai, Kururunfa, Sesan en Suparinpei benadrukken door hun afwisseling van hard en zacht, van go en ju, van ken en kon, de ware essentie van het Okinawa Goju-ryu Karate-do. Examenstof voor sandan (derde dan) en hoger.",
+    culturalSignificance: "The number 18 has significance in Buddhist and Chinese martial traditions, representing different aspects of enlightenment and the path to mastery.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Morio Higaonna"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=rBvK4eSHReY",
+    bunkai: "https://www.youtube.com/watch?v=ch425QMrgak"
+  },
+  {
+    id: "kururunfa",
+    name: "Kururunfa",
+    japaneseName: "久留頓破",
+    meaning: "Holding, Falling, and Breaking",
+    description: "A kata that teaches techniques for dealing with a physically stronger opponent. It contains powerful blocking, grappling techniques, and swift counterattacks.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute heavy strikes and blocks",
+      "Perform quick evasive maneuvers",
+      "Demonstrate powerful takedown techniques",
+      "Apply circular hand movements",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604652716188-21d725b4c7e9?q=80&w=1470&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Powerful blocking techniques",
+      "Grappling applications",
+      "Use of body weight and momentum",
+      "Techniques for dealing with stronger opponents"
+    ],
+    movements: "45 primary movements",
+    duration: "3-4 minutes",
+    origin: "Fujian Province, China",
+    history: "Vrij vertaald 'stilte voor de storm'. Kuru betekent zoiets als 'aanhouden' of 'afwachten'. Run betekent in de kalligrafie de pauze of vertraging in de beweging van de kwast, voordat er een geaccentueerde streek 'vrijkomt'. Het is een snel en krachtig uitgevoerd kata, waarbij de nadruk ligt op sabaki (verplaatsing). Examenstof voor yondan (vierde dan) en hoger.",
+    culturalSignificance: "The kata embodies the principle that proper technique can overcome greater physical strength, a core tenet of many martial arts traditions.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "An'ichi Miyagi"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=tpoJ4-6L1Wc",
+    bunkai: ""
+  },
+  {
+    id: "sesan",
+    name: "Sesan",
+    japaneseName: "十三",
+    meaning: "Thirteen",
+    description: "Named after the 13 principles of fighting, this kata contains techniques for both close and long-range combat, with emphasis on rapid strikes and kicks.",
+    level: "Advanced",
+    steps: [
+      "Begin with formal opening",
+      "Execute long-range striking techniques",
+      "Perform rapid combination attacks",
+      "Demonstrate whipping and snapping techniques",
+      "Apply quick directional changes",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Blend of long and short-range techniques",
+      "Rapid combination attacks",
+      "Whipping and snapping movements",
+      "Dynamic footwork patterns"
+    ],
+    movements: "38 primary movements",
+    duration: "2-3 minutes",
+    origin: "Fujian Province, China",
+    history: "Betekent '13 (handen)'. Het getal 13 staat in de Chinese cultuur voor geluk en welvarendheid. Kata Sesan was het favoriete kata van grondlegger Miyagi Chojun sensei en diens vroegtijdig overleden topleerling Shinzato Jinan sensei. Examenstof voor godan (vijfde dan) en hoger.",
+    culturalSignificance: "The number 13 in this context represents completeness in martial theory rather than the Western superstition of bad luck.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Seiko Higa"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=LJeOCRV0oF0",
+    bunkai: "https://www.youtube.com/watch?v=Nt6UaofHJow"
+  },
+  {
+    id: "suparinpei",
+    name: "Suparinpei",
+    japaneseName: "壱百零八",
+    meaning: "108",
+    description: "The longest and most advanced kata in the Goju Ryu system, named after the 108 defilements of man in Buddhist philosophy. It contains a comprehensive collection of techniques from the entire system.",
+    level: "Master",
+    steps: [
+      "Begin with formal opening",
+      "Execute complex technique combinations",
+      "Perform advanced defensive patterns",
+      "Demonstrate integrated breathing methods",
+      "Apply techniques from multiple preceding kata",
+      "Complete with formal closing"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Comprehensive collection of techniques",
+      "Advanced breathing methods",
+      "Integration of concepts from all Goju Ryu kata",
+      "The most complex footwork in the system"
+    ],
+    movements: "65+ primary movements",
+    duration: "4-5 minutes",
+    origin: "Fujian Province, China",
+    history: "Betekent '108 (handen)'. Het getal 108 is volgens de boedhistische getalssymboliek opgebouwd uit de vermenigvuldiging 3 x 36. De symboliek van 3 en 36 is die van kata Sanseru en Sepai. 108 verwijst naar de 108 kwade hartstochten die de mens volgens het boedhisme heeft. Suparinpei is het meest gevorderd en langste kata uit het Okinawa Goju-ryu Karate-do curiculum en behoort tot de examenstof voor rokudan (zesde dan) en hoger.",
+    culturalSignificance: "The number 108 is significant in many Eastern traditions, and the kata symbolizes the mastery of the complete Goju Ryu system.",
+    masters: [
+      "Kanryo Higaonna",
+      "Chojun Miyagi",
+      "Morio Higaonna"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=ufr4QdN6Ko0",
+    bunkai: "https://www.youtube.com/watch?v=IvugPHXbK4M"
   }
 ];
 
