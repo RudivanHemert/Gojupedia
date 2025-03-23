@@ -6,6 +6,7 @@ import HistoryHeader from '@/components/history/HistoryHeader';
 import OriginsSection from '@/components/history/OriginsSection';
 import KanryoHigaonnaSection from '@/components/history/KanryoHigaonnaSection';
 import ChojunMiyagiSection from '@/components/history/ChojunMiyagiSection';
+import AnichiMiyagiSection from '@/components/history/AnichiMiyagiSection';
 import ModernDevelopmentSection from '@/components/history/ModernDevelopmentSection';
 import TimelineSection from '@/components/history/TimelineSection';
 
@@ -24,6 +25,7 @@ const HistoryPage = () => {
           <OriginsSection />
           <KanryoHigaonnaSection />
           <ChojunMiyagiSection />
+          <AnichiMiyagiSection />
           <ModernDevelopmentSection />
           <TimelineSection />
         </motion.div>
