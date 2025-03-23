@@ -1,3 +1,4 @@
+
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
@@ -323,4 +324,40 @@ const HistoryPage = () => {
               </div>
               
               <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
-                <div className="absolute
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1925</h3>
+                <p className="text-gray-700">Establishment of the Okinawa Karate Research Club</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1930</h3>
+                <p className="text-gray-700">The name "Goju-Ryu" is formalized by Miyagi</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1934</h3>
+                <p className="text-gray-700">Miyagi travels to Hawaii to teach karate</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1953</h3>
+                <p className="text-gray-700">Death of Chojun Miyagi</p>
+              </div>
+              
+              <div className="border-l-2 border-gray-300 pl-4 ml-4 relative">
+                <div className="absolute w-3 h-3 bg-red-600 rounded-full -left-[7px] top-1"></div>
+                <h3 className="font-bold">1979</h3>
+                <p className="text-gray-700">Formation of the International Okinawan Goju-Ryu Karate-Do Federation</p>
+              </div>
+            </div>
+          </section>
+        </motion.div>
+      </div>
+    </MobileLayout>
+  );
+};
+
+export default HistoryPage;
