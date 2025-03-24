@@ -16,6 +16,11 @@ import AdminPage from "./pages/AdminPage";
 import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
 import GradingsPage from "./pages/GradingsPage";
+import TheoryPage from "./pages/TheoryPage";
+import PracticePage from "./pages/PracticePage";
+import TerminologyPage from "./pages/TerminologyPage";
+import HojoUndoPage from "./pages/HojoUndoPage";
+import KumitePage from "./pages/KumitePage";
 
 const queryClient = new QueryClient();
 
@@ -27,17 +32,31 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          
+          {/* Theory section */}
+          <Route path="/theory" element={<TheoryPage />} />
+          <Route path="/terminology" element={<TerminologyPage />} />
+          <Route path="/history" element={<HistoryPage />} />
+          <Route path="/philosophy" element={<PhilosophyPage />} />
+          
+          {/* Practice section */}
+          <Route path="/practice" element={<PracticePage />} />
           <Route path="/techniques" element={<TechniquesPage />} />
           <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
           <Route path="/kata" element={<KataPage />} />
           <Route path="/kata/:id" element={<KataDetailPage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route path="/philosophy" element={<PhilosophyPage />} />
-          <Route path="/admin" element={<AdminPage />} />
+          <Route path="/hojo-undo" element={<HojoUndoPage />} />
+          <Route path="/kumite" element={<KumitePage />} />
+          
+          {/* Study section */}
           <Route path="/study" element={<StudyPage />} />
           <Route path="/study/:id" element={<StudyDetailPage />} />
           <Route path="/gradings" element={<GradingsPage />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          
+          {/* Admin */}
+          <Route path="/admin" element={<AdminPage />} />
+          
+          {/* Catch-all */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -1,9 +1,9 @@
 
-import React, { ReactNode, useState } from 'react';
+import React, { ReactNode, useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Home, Book, BookOpen, History, Menu, Settings, Brain, Award } from 'lucide-react';
+import { Home, Menu, Settings, Brain, ScrollText, Dumbbell, Award } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
@@ -18,6 +18,127 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
   const basePath = '/' + currentPath.split('/')[1];
   
   const isAtRoot = currentPath === '/';
+  const isTheory = ['/theory', '/terminology', '/history', '/philosophy'].includes(basePath);
+  const isPractice = ['/practice', '/techniques', '/kata', '/hojo-undo', '/kumite'].includes(basePath);
+  const isStudy = ['/study', '/gradings'].includes(basePath);
+
+  // Determine which bottom navigation to show based on the current route
+  const [activeTab, setActiveTab] = useState("home");
+  
+  useEffect(() => {
+    if (isAtRoot) {
+      setActiveTab("home");
+    } else if (isTheory) {
+      setActiveTab("theory");
+    } else if (isPractice) {
+      setActiveTab("practice");
+    } else if (isStudy) {
+      setActiveTab("study");
+    }
+  }, [currentPath, isAtRoot, isTheory, isPractice, isStudy]);
+
+  // Theory sub-navigation
+  const renderTheoryNavigation = () => {
+    if (!isTheory) return null;
+    
+    return (
+      <Tabs 
+        defaultValue={basePath === '/theory' ? 'theory' : basePath === '/terminology' ? 'terminology' : 'history'} 
+        className="w-full"
+        onValueChange={(value) => {
+          navigate(value);
+        }}
+      >
+        <TabsList className="grid grid-cols-3 h-12 bg-stone-100">
+          <TabsTrigger value="/" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <Home size={16} className="mr-1" />
+            <span className="text-xs">Home</span>
+          </TabsTrigger>
+          <TabsTrigger value="/terminology" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">Terminology</span>
+          </TabsTrigger>
+          <TabsTrigger value="/history" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">History</span>
+          </TabsTrigger>
+        </TabsList>
+      </Tabs>
+    );
+  };
+
+  // Practice sub-navigation
+  const renderPracticeNavigation = () => {
+    if (!isPractice) return null;
+    
+    return (
+      <Tabs 
+        defaultValue={
+          basePath === '/practice' ? 'practice' : 
+          basePath === '/techniques' ? 'techniques' : 
+          basePath === '/kata' ? 'kata' : 
+          basePath === '/hojo-undo' ? 'hojo-undo' : 
+          'kumite'
+        } 
+        className="w-full"
+        onValueChange={(value) => {
+          navigate(value);
+        }}
+      >
+        <TabsList className="grid grid-cols-5 h-12 bg-stone-100">
+          <TabsTrigger value="/" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <Home size={16} className="mr-1" />
+            <span className="text-xs">Home</span>
+          </TabsTrigger>
+          <TabsTrigger value="/techniques" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">Techniques</span>
+          </TabsTrigger>
+          <TabsTrigger value="/kata" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">Kata</span>
+          </TabsTrigger>
+          <TabsTrigger value="/hojo-undo" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">Hojo Undo</span>
+          </TabsTrigger>
+          <TabsTrigger value="/kumite" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">Kumite</span>
+          </TabsTrigger>
+        </TabsList>
+      </Tabs>
+    );
+  };
+
+  // Main navigation (always shown)
+  const renderMainNavigation = () => {
+    return (
+      <Tabs 
+        value={activeTab}
+        className="w-full"
+        onValueChange={(value) => {
+          if (value === "home") navigate("/");
+          else if (value === "theory") navigate("/theory");
+          else if (value === "practice") navigate("/practice");
+          else if (value === "study") navigate("/study");
+        }}
+      >
+        <TabsList className="grid grid-cols-4 h-14 bg-stone-100">
+          <TabsTrigger value="home" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
+            <Home size={18} />
+            <span className="text-xs">Home</span>
+          </TabsTrigger>
+          <TabsTrigger value="theory" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
+            <ScrollText size={18} />
+            <span className="text-xs">Theory</span>
+          </TabsTrigger>
+          <TabsTrigger value="practice" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
+            <Dumbbell size={18} />
+            <span className="text-xs">Practice</span>
+          </TabsTrigger>
+          <TabsTrigger value="study" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
+            <Brain size={18} />
+            <span className="text-xs">Study</span>
+          </TabsTrigger>
+        </TabsList>
+      </Tabs>
+    );
+  };
 
   return (
     <div className="app-container relative">
@@ -56,12 +177,30 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
                 <h2 className="text-lg font-medium">Menu</h2>
                 <nav className="space-y-2">
                   <Link to="/" className="block p-2 hover:bg-stone-100 rounded transition-colors">Home</Link>
-                  <Link to="/techniques" className="block p-2 hover:bg-stone-100 rounded transition-colors">Techniques</Link>
-                  <Link to="/kata" className="block p-2 hover:bg-stone-100 rounded transition-colors">Kata</Link>
-                  <Link to="/history" className="block p-2 hover:bg-stone-100 rounded transition-colors">History</Link>
-                  <Link to="/philosophy" className="block p-2 hover:bg-stone-100 rounded transition-colors">Philosophy</Link>
-                  <Link to="/study" className="block p-2 hover:bg-stone-100 rounded transition-colors">Study</Link>
-                  <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors">Gradings</Link>
+                  
+                  <div className="pt-2 border-t border-gray-100">
+                    <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">Theory</h3>
+                    <Link to="/theory" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Overview</Link>
+                    <Link to="/terminology" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Terminology</Link>
+                    <Link to="/history" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">History</Link>
+                    <Link to="/philosophy" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Philosophy</Link>
+                  </div>
+                  
+                  <div className="pt-2 border-t border-gray-100">
+                    <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">Practice</h3>
+                    <Link to="/practice" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Overview</Link>
+                    <Link to="/techniques" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Techniques</Link>
+                    <Link to="/kata" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Kata</Link>
+                    <Link to="/hojo-undo" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Hojo Undo</Link>
+                    <Link to="/kumite" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Kumite</Link>
+                  </div>
+                  
+                  <div className="pt-2 border-t border-gray-100">
+                    <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">Study</h3>
+                    <Link to="/study" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Study Material</Link>
+                    <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Gradings</Link>
+                  </div>
+                  
                   <div className="pt-4 border-t">
                     <Link to="/admin" className="flex items-center gap-2 p-2 text-sm text-stone-500 hover:bg-stone-100 rounded transition-colors">
                       <Settings size={16} />
@@ -86,44 +225,15 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
         {children}
       </motion.main>
 
+      {/* Secondary navigation for theory or practice sections */}
+      <div className="fixed bottom-14 w-full max-w-md bg-stone-50 border-t border-stone-200 z-40">
+        {renderTheoryNavigation()}
+        {renderPracticeNavigation()}
+      </div>
+
       {/* Bottom navigation */}
-      <div className="fixed bottom-0 w-full max-w-md bg-stone-50 border-t border-stone-200 p-2 z-50">
-        <Tabs 
-          defaultValue={isAtRoot ? 'home' : basePath} 
-          className="w-full"
-          onValueChange={(value) => {
-            if (value !== basePath) {
-              navigate(value);
-            }
-          }}
-        >
-          <TabsList className="grid grid-cols-6 h-14 bg-stone-100">
-            <TabsTrigger value="/" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
-              <Home size={18} />
-              <span className="text-xs">Home</span>
-            </TabsTrigger>
-            <TabsTrigger value="/techniques" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
-              <Book size={18} />
-              <span className="text-xs">Techniques</span>
-            </TabsTrigger>
-            <TabsTrigger value="/kata" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
-              <BookOpen size={18} />
-              <span className="text-xs">Kata</span>
-            </TabsTrigger>
-            <TabsTrigger value="/history" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
-              <History size={18} />
-              <span className="text-xs">History</span>
-            </TabsTrigger>
-            <TabsTrigger value="/study" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
-              <Brain size={18} />
-              <span className="text-xs">Study</span>
-            </TabsTrigger>
-            <TabsTrigger value="/gradings" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
-              <Award size={18} />
-              <span className="text-xs">Gradings</span>
-            </TabsTrigger>
-          </TabsList>
-        </Tabs>
+      <div className="fixed bottom-0 w-full max-w-md bg-stone-50 border-t border-stone-200 z-50">
+        {renderMainNavigation()}
       </div>
     </div>
   );
