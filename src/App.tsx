@@ -21,6 +21,7 @@ import PracticePage from "./pages/PracticePage";
 import TerminologyPage from "./pages/TerminologyPage";
 import HojoUndoPage from "./pages/HojoUndoPage";
 import KumitePage from "./pages/KumitePage";
+import VitalPointsPage from "./pages/VitalPointsPage";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/terminology" element={<TerminologyPage />} />
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/philosophy" element={<PhilosophyPage />} />
+          <Route path="/vital-points" element={<VitalPointsPage />} />
           
           {/* Practice section */}
           <Route path="/practice" element={<PracticePage />} />

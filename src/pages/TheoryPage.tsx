@@ -4,7 +4,7 @@ import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
-import { Scroll, Book } from 'lucide-react';
+import { Scroll, Book, Target } from 'lucide-react';
 
 const TheoryPage = () => {
   const sections = [
@@ -21,6 +21,13 @@ const TheoryPage = () => {
       description: 'The origins and evolution of Goju Ryu Karate',
       icon: <Scroll className="h-5 w-5 text-karate" />,
       path: '/history',
+    },
+    {
+      id: 'vital-points',
+      name: 'Vital Points',
+      description: 'Study of pressure points and vulnerable areas',
+      icon: <Target className="h-5 w-5 text-karate" />,
+      path: '/vital-points',
     }
   ];
 

@@ -1,4 +1,3 @@
-
 import React, { ReactNode, useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -22,7 +21,6 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
   const isPractice = ['/practice', '/techniques', '/kata', '/hojo-undo', '/kumite'].includes(basePath);
   const isStudy = ['/study', '/gradings'].includes(basePath);
 
-  // Determine which bottom navigation to show based on the current route
   const [activeTab, setActiveTab] = useState("home");
   
   useEffect(() => {
@@ -37,35 +35,37 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
     }
   }, [currentPath, isAtRoot, isTheory, isPractice, isStudy]);
 
-  // Theory sub-navigation
   const renderTheoryNavigation = () => {
     if (!isTheory) return null;
     
     return (
       <Tabs 
-        defaultValue={basePath === '/theory' ? 'theory' : basePath === '/terminology' ? 'terminology' : 'history'} 
+        defaultValue={
+          basePath === '/theory' ? 'theory' : 
+          basePath === '/terminology' ? 'terminology' : 
+          basePath === '/vital-points' ? 'vital-points' : 
+          'history'
+        } 
         className="w-full"
         onValueChange={(value) => {
           navigate(value);
         }}
       >
         <TabsList className="grid grid-cols-3 h-12 bg-stone-100">
-          <TabsTrigger value="/" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-            <Home size={16} className="mr-1" />
-            <span className="text-xs">Home</span>
-          </TabsTrigger>
           <TabsTrigger value="/terminology" className="flex items-center justify-center data-[state=active]:bg-stone-200">
             <span className="text-xs">Terminology</span>
           </TabsTrigger>
           <TabsTrigger value="/history" className="flex items-center justify-center data-[state=active]:bg-stone-200">
             <span className="text-xs">History</span>
           </TabsTrigger>
+          <TabsTrigger value="/vital-points" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+            <span className="text-xs">Vital Points</span>
+          </TabsTrigger>
         </TabsList>
       </Tabs>
     );
   };
 
-  // Practice sub-navigation
   const renderPracticeNavigation = () => {
     if (!isPractice) return null;
     
@@ -83,11 +83,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
           navigate(value);
         }}
       >
-        <TabsList className="grid grid-cols-5 h-12 bg-stone-100">
-          <TabsTrigger value="/" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-            <Home size={16} className="mr-1" />
-            <span className="text-xs">Home</span>
-          </TabsTrigger>
+        <TabsList className="grid grid-cols-4 h-12 bg-stone-100">
           <TabsTrigger value="/techniques" className="flex items-center justify-center data-[state=active]:bg-stone-200">
             <span className="text-xs">Techniques</span>
           </TabsTrigger>
@@ -105,7 +101,6 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
     );
   };
 
-  // Main navigation (always shown)
   const renderMainNavigation = () => {
     return (
       <Tabs 
@@ -142,7 +137,6 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
 
   return (
     <div className="app-container relative">
-      {/* Status bar */}
       <div className="h-8 bg-stone-900 text-white flex items-center justify-between px-4 text-xs">
         <span>9:41</span>
         <div className="flex space-x-2">
@@ -151,7 +145,6 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
         </div>
       </div>
 
-      {/* Header */}
       {!isAtRoot && (
         <motion.div 
           initial={{ opacity: 0, y: -10 }}
@@ -214,7 +207,6 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
         </motion.div>
       )}
 
-      {/* Main content */}
       <motion.main 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -225,13 +217,11 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
         {children}
       </motion.main>
 
-      {/* Secondary navigation for theory or practice sections */}
       <div className="fixed bottom-14 w-full max-w-md bg-stone-50 border-t border-stone-200 z-40">
         {renderTheoryNavigation()}
         {renderPracticeNavigation()}
       </div>
 
-      {/* Bottom navigation */}
       <div className="fixed bottom-0 w-full max-w-md bg-stone-50 border-t border-stone-200 z-50">
         {renderMainNavigation()}
       </div>
