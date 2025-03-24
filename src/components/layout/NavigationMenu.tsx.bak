@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Settings } from 'lucide-react';
@@ -29,6 +30,13 @@ const NavigationMenu = () => {
         <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">Study</h3>
         <Link to="/study" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Study Material</Link>
         <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Gradings</Link>
+      </div>
+      
+      <div className="pt-4 border-t">
+        <Link to="/admin" className="flex items-center gap-2 p-2 text-sm text-stone-500 hover:bg-stone-100 rounded transition-colors">
+          <Settings size={16} />
+          Admin
+        </Link>
       </div>
     </nav>
   );
