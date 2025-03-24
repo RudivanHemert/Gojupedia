@@ -1,10 +1,9 @@
-
 import React from 'react';
+import SectionWrapper from './SectionWrapper';
 
 const ChojunMiyagiSection = () => {
   return (
-    <section className="space-y-4 mt-8">
-      <h2 className="text-2xl font-serif font-semibold">Chojun Miyagi (1888 - 1953)</h2>
+    <SectionWrapper title="Chojun Miyagi (1888 - 1953)">
       <div className="float-right ml-4 mb-2">
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ch%C5%8Djun_Miyagi.jpg/330px-Ch%C5%8Djun_Miyagi.jpg" 
@@ -147,7 +146,7 @@ const ChojunMiyagiSection = () => {
       <p className="text-gray-700">
         Above all, Miyagi emphasized that karate was not merely about fighting but about personal development and the pursuit of peace. His famous saying, "The ultimate aim of karate-do is to build character, conquer human misery, and find spiritual freedom," continues to guide practitioners of Goju-Ryu worldwide.
       </p>
-    </section>
+    </SectionWrapper>
   );
 };
 

@@ -1,10 +1,10 @@
 
 import React from 'react';
+import SectionWrapper from './SectionWrapper';
 
 const AnichiMiyagiSection = () => {
   return (
-    <section className="space-y-4 mt-8">
-      <h2 className="text-2xl font-serif font-semibold">An'ichi Miyagi (1931-2009)</h2>
+    <SectionWrapper title="An'ichi Miyagi (1931-2009)">
       <div className="md:flex md:space-x-4">
         <div className="md:w-2/3 space-y-4">
           <p className="text-gray-700">
@@ -201,7 +201,7 @@ const AnichiMiyagiSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 };
 
