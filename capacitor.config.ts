@@ -1,15 +1,12 @@
-
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'app.lovable.goju-wiki-quest',
-  appName: 'goju-wiki-quest',
+  appId: 'com.goju.ryu.karate',
+  appName: 'Goju-Ryu Karate',
   webDir: 'dist',
   server: {
-    url: 'https://a55a0562-80ea-4779-8e12-950272000753.lovableproject.com?forceHideBadge=true',
-    cleartext: true
-  },
-  // Additional customizations can be added here later
+    androidScheme: 'https'
+  }
 };
 
 export default config;
