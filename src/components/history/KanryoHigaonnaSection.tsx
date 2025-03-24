@@ -1,10 +1,9 @@
-
 import React from 'react';
+import SectionWrapper from './SectionWrapper';
 
 const KanryoHigaonnaSection = () => {
   return (
-    <section className="space-y-4 mt-8">
-      <h2 className="text-2xl font-serif font-semibold">Kanryo Higaonna (1853 - 1916)</h2>
+    <SectionWrapper title="Kanryo Higaonna (1853 - 1916)">
       <div className="float-right ml-4 mb-2">
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kanryo_Higaonna.jpg/330px-Kanryo_Higaonna.jpg" 
@@ -61,7 +60,7 @@ const KanryoHigaonnaSection = () => {
         This event further solidified Kanryo's reputation across Okinawa. Until 1905, "Te" (as it was known then) was a secret art taught only to selected students. After Kanryo began teaching at the Naha Commercial School, 
         karate became more widespread and accessible to the general population.
       </p>
-    </section>
+    </SectionWrapper>
   );
 };
 
