@@ -22,6 +22,15 @@ const TerminologyPage = () => {
     { id: 'stances', title: 'Stances', terms: data.stances },
     { id: 'blocks', title: 'Blocks', terms: data.blocks },
     { id: 'general-terms', title: 'General Terms', terms: data.generalTerms },
+	{ id: 'Equipment-and-Weapons', title: 'Equipment and Weapons', terms: data.EquipmentandWeapons },
+	{ id: 'Kata', title: 'Kata', terms: data.Kata },
+	{ id: 'Kicks', title: 'Kicks', terms: data.Kicks },
+	{ id: 'Numbers', title: 'Numbers', terms: data.Numbers },
+	{ id: 'Punches', title: 'Punches', terms: data.Punches },
+	{ id: 'Phrases-and-Etiquette', title: 'Phrases and Etiquette', terms: data.PhrasesandEtiquette },
+	{ id: 'Strikes', title: 'Strikes', terms: data.Strikes },
+	{ id: 'Tournament-Terminology', title: 'Tournament Terminology', terms: data.TournamentTerminology },
+	{ id: 'Vital-Points', title: 'Vital Points', terms: data.Vitalpoints },
     // Add other sections similarly
   ];
 
