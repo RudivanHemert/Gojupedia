@@ -7,9 +7,15 @@ const TerminologyPage = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('/terminology.json')
-      .then(response => response.json())
-      .then(data => setData(data));
+    fetch('/Terminology.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => setData(data))
+      .catch(error => console.error('Error fetching terminology data:', error));
   }, []);
 
   if (!data) {
@@ -22,16 +28,15 @@ const TerminologyPage = () => {
     { id: 'stances', title: 'Stances', terms: data.stances },
     { id: 'blocks', title: 'Blocks', terms: data.blocks },
     { id: 'general-terms', title: 'General Terms', terms: data.generalTerms },
-	{ id: 'Equipment-and-Weapons', title: 'Equipment and Weapons', terms: data.EquipmentandWeapons },
-	{ id: 'Kata', title: 'Kata', terms: data.Kata },
-	{ id: 'Kicks', title: 'Kicks', terms: data.Kicks },
-	{ id: 'Numbers', title: 'Numbers', terms: data.Numbers },
-	{ id: 'Punches', title: 'Punches', terms: data.Punches },
-	{ id: 'Phrases-and-Etiquette', title: 'Phrases and Etiquette', terms: data.PhrasesandEtiquette },
-	{ id: 'Strikes', title: 'Strikes', terms: data.Strikes },
-	{ id: 'Tournament-Terminology', title: 'Tournament Terminology', terms: data.TournamentTerminology },
-	{ id: 'Vital-Points', title: 'Vital Points', terms: data.Vitalpoints },
-    // Add other sections similarly
+    { id: 'equipment-weapons', title: 'Equipment and Weapons', terms: data['Equipment and Weapons'] },
+    { id: 'kata', title: 'Kata', terms: data.Kata },
+    { id: 'kicks', title: 'Kicks', terms: data.Kicks },
+    { id: 'numbers', title: 'Numbers', terms: data.Numbers },
+    { id: 'phrases-etiquette', title: 'Phrases and Etiquette', terms: data['Phrases and Etiquette'] },
+    { id: 'punches', title: 'Punches', terms: data.Punches },
+    { id: 'strikes', title: 'Strikes', terms: data.Strikes },
+    { id: 'tournament-terminology', title: 'Tournament Terminology', terms: data['Tournament Terminology'] },
+    { id: 'vital-points', title: 'Vital Points', terms: data['Vital Points'] },
   ];
 
   return (
