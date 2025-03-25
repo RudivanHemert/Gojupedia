@@ -8,6 +8,15 @@ import Blocks from './Blocks';
 import Stances from './Stances';
 import KarateGojuRyuTerminology from './terminology/KarateGojuRyuTerminology';
 import KarateTitles from './terminology/KarateTitles';
+import EquipmentAndWeapons from './terminology/EquipmentAndWeapons';
+import KataTerminology from './terminology/KataTerminology';
+import Kicks from './terminology/Kicks';
+import Numbers from './terminology/Numbers';
+import PhrasesAndEtiquette from './terminology/PhrasesAndEtiquette';
+import Punches from './terminology/Punches';
+import Strikes from './terminology/Strikes';
+import TournamentTerminology from './terminology/TournamentTerminology';
+import VitalPoints from './terminology/VitalPoints';
 
 const TerminologyPage = () => {
   // Define sections using the imported components
@@ -16,7 +25,16 @@ const TerminologyPage = () => {
     'Blocks': <Blocks />,
     'Stances': <Stances />,
     'Karate Goju Ryu Terminology': <KarateGojuRyuTerminology />,
-    'Karate Titles': <KarateTitles />
+    'Karate Titles': <KarateTitles />,
+    'Equipment and Weapons': <EquipmentAndWeapons />,
+    'Kata': <KataTerminology />,
+    'Kicks': <Kicks />,
+    'Numbers': <Numbers />,
+    'Phrases and Etiquette': <PhrasesAndEtiquette />,
+    'Punches': <Punches />,
+    'Strikes': <Strikes />,
+    'Tournament Terminology': <TournamentTerminology />,
+    'Vital Points': <VitalPoints />
   };
 
   // Display section names in more readable format
