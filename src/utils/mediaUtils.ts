@@ -1,26 +1,48 @@
+import { MediaItem, MediaReference } from '@/data/media';
+
+const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main';
+
 export const getMediaUrl = (path: string): string => {
-  // In production, this would be your CDN or storage service URL
-  return `https://lovable-dev.amazonaws.com/prod/gojuwiki/${path}`;
+  return `${GITHUB_RAW_BASE}/${path}`;
 };
 
-export const getYouTubeEmbedUrl = (videoId: string): string => {
+export const getYoutubeEmbedUrl = (videoId: string): string => {
   return `https://www.youtube.com/embed/${videoId}`;
 };
 
-export const extractYouTubeId = (url: string): string | null => {
+export const getYoutubeVideoId = (url: string): string | null => {
   const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
   const match = url.match(regExp);
-  return (match && match[2].length === 11) ? match[2] : null;
+  return match && match[2].length === 11 ? match[2] : null;
 };
 
-export const formatMediaTitle = (name: string, japaneseName?: string): string => {
-  return japaneseName ? `${name} (${japaneseName})` : name;
+export const findMediaReferences = (
+  mediaId: string,
+  references: MediaReference[]
+): MediaReference[] => {
+  return references.filter(ref => ref.mediaId === mediaId);
+};
+
+export const findMediaByCategory = (
+  category: MediaItem['category'],
+  items: MediaItem[]
+): MediaItem[] => {
+  return items.filter(item => item.category === category);
+};
+
+export const findMediaByTags = (
+  tags: string[],
+  items: MediaItem[]
+): MediaItem[] => {
+  return items.filter(item =>
+    tags.some(tag => item.tags.includes(tag))
+  );
 };
 
 export const validateMediaUrl = (url: string, type: 'image' | 'video'): boolean => {
   if (type === 'video') {
-    return extractYouTubeId(url) !== null;
+    return getYoutubeVideoId(url) !== null;
   }
-  // For images, you might want to add more validation
-  return url.startsWith('http') && /\.(jpg|jpeg|png|gif|webp)$/i.test(url);
+  // For images, check if it's a valid GitHub raw URL
+  return url.startsWith(GITHUB_RAW_BASE);
 }; 

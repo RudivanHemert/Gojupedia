@@ -1,48 +1,66 @@
 export interface MediaItem {
+  id: string;
   type: 'image' | 'video';
   url: string;
-  title?: string;
+  title: string;
   description?: string;
+  category: 'vital-points' | 'terminology' | 'techniques' | 'kata' | 'general';
+  tags: string[];
+  createdAt: string;
+  updatedAt: string;
 }
 
-export interface MediaData {
-  vitalPoints: {
-    [key: string]: MediaItem[];
-  };
-  terminology: {
-    [key: string]: MediaItem[];
+export interface MediaReference {
+  mediaId: string;
+  context: {
+    section: string;
+    text: string;
+    position: 'before' | 'after' | 'inline';
   };
 }
 
-export const mediaData: MediaData = {
-  vitalPoints: {
-    // Example data structure
-    "Shomon": [
-      {
-        type: "image",
-        url: "https://example.com/vital-points/shomon.jpg",
-        title: "Shomon (正門)",
-        description: "Skull pressure point"
-      }
-    ],
-    "Kasumi": [
-      {
-        type: "image",
-        url: "https://example.com/vital-points/kasumi.jpg",
-        title: "Kasumi (霞)",
-        description: "Temple pressure point"
-      }
-    ]
+// Example media items
+export const mediaItems: MediaItem[] = [
+  {
+    id: 'vital-points-1',
+    type: 'image',
+    url: 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main/media/vital-points/head-pressure-points.jpg',
+    title: 'Head Pressure Points',
+    description: 'Key pressure points on the head and face',
+    category: 'vital-points',
+    tags: ['head', 'pressure-points', 'vital-points'],
+    createdAt: '2024-03-20T00:00:00Z',
+    updatedAt: '2024-03-20T00:00:00Z'
   },
-  terminology: {
-    // Example data structure
-    "Zanshin": [
-      {
-        type: "video",
-        url: "https://www.youtube.com/embed/example",
-        title: "Zanshin Demonstration",
-        description: "Proper zanshin posture and application"
-      }
-    ]
+  {
+    id: 'terminology-1',
+    type: 'video',
+    url: 'https://www.youtube.com/embed/example-video-id',
+    title: 'Basic Karate Stances',
+    description: 'Demonstration of fundamental karate stances',
+    category: 'terminology',
+    tags: ['stances', 'basics', 'terminology'],
+    createdAt: '2024-03-20T00:00:00Z',
+    updatedAt: '2024-03-20T00:00:00Z'
   }
-}; 
+];
+
+// Example media references
+export const mediaReferences: MediaReference[] = [
+  {
+    mediaId: 'vital-points-1',
+    context: {
+      section: 'vital-points',
+      text: 'The head contains several important pressure points that can be targeted in self-defense situations.',
+      position: 'after'
+    }
+  },
+  {
+    mediaId: 'terminology-1',
+    context: {
+      section: 'terminology',
+      text: 'Basic stances are the foundation of karate practice.',
+      position: 'before'
+    }
+  }
+]; 
