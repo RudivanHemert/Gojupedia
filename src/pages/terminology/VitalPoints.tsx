@@ -1,7 +1,16 @@
-
-import React from 'react';
+import React, { useState } from 'react';
+import { mediaData } from '@/data/media';
+import MediaManager from '@/components/media/MediaManager';
+import { Play } from 'lucide-react';
 
 const VitalPoints = () => {
+  const [selectedMedia, setSelectedMedia] = useState<{
+    type: 'image' | 'video';
+    url: string;
+    title?: string;
+    description?: string;
+  } | null>(null);
+
   const terms = [
     "Bitei: Coccyx",
     "Danchu : Breastbone",
@@ -43,14 +52,44 @@ const VitalPoints = () => {
     "Yako : Inner thigh"
   ];
 
+  const getTermKey = (term: string) => {
+    return term.split(':')[0].trim();
+  };
+
   return (
-    <ul className="space-y-2">
-      {terms.map((term, index) => (
-        <li key={index} className="text-gray-700">
-          {term}
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul className="space-y-2">
+        {terms.map((term, index) => {
+          const termKey = getTermKey(term);
+          const mediaItems = mediaData.vitalPoints[termKey] || [];
+          
+          return (
+            <li key={index} className="text-gray-700 flex items-center justify-between">
+              <span>{term}</span>
+              {mediaItems.length > 0 && (
+                <button
+                  onClick={() => setSelectedMedia(mediaItems[0])}
+                  className="ml-2 p-1 rounded-full hover:bg-gray-100 transition-colors"
+                >
+                  <Play size={16} className="text-karate" />
+                </button>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+
+      <MediaManager
+        media={selectedMedia || {
+          type: 'image',
+          url: '',
+          title: '',
+          description: ''
+        }}
+        isOpen={!!selectedMedia}
+        onClose={() => setSelectedMedia(null)}
+      />
+    </>
   );
 };
 

@@ -20,6 +20,8 @@ import TerminologyPage from "./pages/TerminologyPage";
 import HojoUndoPage from "./pages/HojoUndoPage";
 import KumitePage from "./pages/KumitePage";
 import VitalPointsPage from "./pages/VitalPointsPage";
+import MediaManagerPage from './pages/admin/MediaManagerPage';
+import AdminDashboard from '@/pages/admin/AdminDashboard';
 
 const queryClient = new QueryClient();
 
@@ -55,6 +57,10 @@ const App = () => (
           
           {/* Catch-all */}
           <Route path="*" element={<NotFound />} />
+
+          {/* Admin section */}
+          <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin/media" element={<MediaManagerPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

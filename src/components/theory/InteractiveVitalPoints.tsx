@@ -1,8 +1,9 @@
-
 import React, { useState } from 'react';
-import { Eye, EyeOff, Circle } from 'lucide-react';
+import { Eye, EyeOff, Circle, Play } from 'lucide-react';
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Button } from "@/components/ui/button";
+import { mediaData } from '@/data/media';
+import MediaManager from '@/components/media/MediaManager';
 
 // Define the vital point data structure
 interface VitalPoint {
@@ -65,6 +66,12 @@ const InteractiveVitalPoints: React.FC = () => {
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
   const [visiblePoints, setVisiblePoints] = useState<number[]>([]);
   const [selectedPoint, setSelectedPoint] = useState<number | null>(null);
+  const [selectedMedia, setSelectedMedia] = useState<{
+    type: 'image' | 'video';
+    url: string;
+    title?: string;
+    description?: string;
+  } | null>(null);
 
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
   
@@ -84,6 +91,13 @@ const InteractiveVitalPoints: React.FC = () => {
       setVisiblePoints([...visiblePoints, pointId]);
     }
     setSelectedPoint(pointId);
+  };
+
+  const handlePointClick = (point: VitalPoint) => {
+    const mediaItems = mediaData.vitalPoints[point.name] || [];
+    if (mediaItems.length > 0) {
+      setSelectedMedia(mediaItems[0]);
+    }
   };
 
   return (
@@ -129,7 +143,7 @@ const InteractiveVitalPoints: React.FC = () => {
       </div>
       
       {/* Interactive diagram */}
-      <div className="relative mx-auto">
+      <div className="relative">
         <img 
           src={activeView === 'front' 
             ? 'https://lovable-dev.amazonaws.com/prod/gojuwiki/06d51c8c-de63-4c8a-8c51-51be62af1a58.png' 
@@ -146,7 +160,10 @@ const InteractiveVitalPoints: React.FC = () => {
               className={`absolute w-4 h-4 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer
                 ${selectedPoint === point.id ? 'text-red-500' : 'text-green-600'}`}
               style={{ left: `${point.position.x}%`, top: `${point.position.y}%` }}
-              onClick={() => setSelectedPoint(point.id)}
+              onClick={() => {
+                togglePoint(point.id);
+                handlePointClick(point);
+              }}
             >
               <Circle className="fill-current" size={16} />
               <div className="absolute top-5 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-75 px-1 text-xs rounded shadow">
@@ -158,7 +175,7 @@ const InteractiveVitalPoints: React.FC = () => {
       </div>
       
       {/* Point list */}
-      <div className="mt-4 bg-stone-50 rounded-md p-4">
+      <div className="mt-4">
         <h3 className="text-lg font-medium mb-2">Vital Points ({activeView} view)</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           {filteredPoints.map(point => (
@@ -167,7 +184,10 @@ const InteractiveVitalPoints: React.FC = () => {
               className={`p-2 rounded-md cursor-pointer flex items-center gap-2 transition-colors
                 ${visiblePoints.includes(point.id) ? 'bg-green-100' : 'bg-stone-100'}
                 ${selectedPoint === point.id ? 'ring-2 ring-green-500' : ''}`}
-              onClick={() => togglePoint(point.id)}
+              onClick={() => {
+                togglePoint(point.id);
+                handlePointClick(point);
+              }}
             >
               <div className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-green-600 text-white text-xs">
                 {point.id}
@@ -176,6 +196,9 @@ const InteractiveVitalPoints: React.FC = () => {
                 <div className="font-medium">{point.name}</div>
                 <div className="text-xs text-gray-600">{point.description}</div>
               </div>
+              {mediaData.vitalPoints[point.name]?.length > 0 && (
+                <Play size={16} className="text-karate" />
+              )}
               {visiblePoints.includes(point.id) ? (
                 <EyeOff size={16} className="text-gray-500" />
               ) : (
@@ -185,6 +208,17 @@ const InteractiveVitalPoints: React.FC = () => {
           ))}
         </div>
       </div>
+
+      <MediaManager
+        media={selectedMedia || {
+          type: 'image',
+          url: '',
+          title: '',
+          description: ''
+        }}
+        isOpen={!!selectedMedia}
+        onClose={() => setSelectedMedia(null)}
+      />
     </div>
   );
 };
