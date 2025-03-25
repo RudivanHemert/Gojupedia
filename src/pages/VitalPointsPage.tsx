@@ -1,15 +1,7 @@
 import React from 'react';
-import { mediaItems } from '@/data/media';
 import InteractiveVitalPoints from '@/components/theory/InteractiveVitalPoints';
-import { findMediaByCategory } from '@/utils/mediaUtils';
 
 const VitalPointsPage = () => {
-  const frontViewDiagram = mediaItems.find(item => item.id === 'vital-points-front-view');
-
-  if (!frontViewDiagram) {
-    return <div>Loading...</div>;
-  }
-
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Vital Points (急所 - Kyūsho)</h1>
@@ -20,7 +12,7 @@ const VitalPointsPage = () => {
         </p>
         
         <div className="my-8">
-          <InteractiveVitalPoints media={frontViewDiagram} />
+          <InteractiveVitalPoints />
         </div>
         
         <h2 className="text-2xl font-semibold mt-8 mb-4">Understanding Vital Points</h2>

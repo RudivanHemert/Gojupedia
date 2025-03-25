@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Button } from "@/components/ui/button";
-import { MediaItem } from '@/data/media';
-import { getMediaUrl } from '@/utils/mediaUtils';
-import { motion } from 'framer-motion';
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 
-// Define the vital point data structure
 interface VitalPoint {
   id: number;
   name: string;
@@ -63,20 +59,13 @@ const vitalPointsData: VitalPoint[] = [
   { id: 38, name: "Ushiro inazuma", japaneseName: "後稲妻", description: "Backside", position: { x: 50, y: 60 }, view: 'back' }
 ];
 
-interface InteractiveVitalPointsProps {
-  media: MediaItem;
-}
-
-const InteractiveVitalPoints: React.FC<InteractiveVitalPointsProps> = ({ media }) => {
+const InteractiveVitalPoints = () => {
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
   const [visiblePoints, setVisiblePoints] = useState<number[]>([]);
   const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
 
-  const frontViewDiagram = media.url;
-  const backViewDiagram = media.url.replace('front', 'back');
-  
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
-  
+
   const toggleAllPoints = () => {
     if (visiblePoints.length === filteredPoints.length) {
       setVisiblePoints([]);
@@ -114,7 +103,7 @@ const InteractiveVitalPoints: React.FC<InteractiveVitalPointsProps> = ({ media }
           </ToggleGroupItem>
         </ToggleGroup>
       </div>
-      
+
       {/* Toggle visibility button */}
       <div className="flex justify-center mb-2">
         <Button 
@@ -136,72 +125,82 @@ const InteractiveVitalPoints: React.FC<InteractiveVitalPointsProps> = ({ media }
           )}
         </Button>
       </div>
-      
-      {/* Interactive diagram */}
-      <div className="relative">
-        <img 
-          src={getMediaUrl(activeView === 'front' ? frontViewDiagram : backViewDiagram)} 
-          alt={`${activeView} view of vital points`}
-          className="max-w-full max-h-[60vh] object-contain mx-auto"
-        />
-        
-        {/* Vital points markers */}
-        {filteredPoints.map(point => (
-          visiblePoints.includes(point.id) && (
-            <motion.button
-              key={point.id}
-              className={`absolute w-4 h-4 rounded-full bg-red-500 opacity-70 hover:opacity-100 
-                ${selectedPoint?.id === point.id ? 'ring-2 ring-white' : ''}`}
-              style={{
-                left: `${point.position.x}%`,
-                top: `${point.position.y}%`,
-                transform: 'translate(-50%, -50%)'
-              }}
-              whileHover={{ scale: 1.2 }}
-              onClick={() => togglePoint(point.id)}
-            />
-          )
-        ))}
-      </div>
-      
-      {/* Point information */}
-      {selectedPoint && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="mt-4 p-4 bg-white rounded-lg shadow-md"
-        >
-          <h3 className="text-lg font-semibold">{selectedPoint.name} ({selectedPoint.japaneseName})</h3>
-          <p className="text-gray-600">{selectedPoint.description}</p>
-        </motion.div>
-      )}
 
-      {/* Point list */}
-      <div className="mt-4">
-        <h3 className="text-lg font-medium mb-2">Vital Points ({activeView} view)</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {filteredPoints.map(point => (
-            <div 
-              key={point.id}
-              className={`p-2 rounded-md cursor-pointer flex items-center gap-2 transition-colors
-                ${visiblePoints.includes(point.id) ? 'bg-green-100' : 'bg-stone-100'}
-                ${selectedPoint?.id === point.id ? 'ring-2 ring-green-500' : ''}`}
-              onClick={() => togglePoint(point.id)}
-            >
-              <div className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-green-600 text-white text-xs">
-                {point.id}
+      {/* Interactive diagram */}
+      <div className="relative w-full max-w-2xl mx-auto">
+        <div className="relative">
+          <img 
+            src={`/media/vital-points/${activeView}-view-diagram.png`}
+            alt={`${activeView} view of vital points`}
+            className="w-full h-auto"
+          />
+          <svg
+            className="absolute inset-0 w-full h-full"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+          >
+            {filteredPoints.map(point => (
+              visiblePoints.includes(point.id) && (
+                <g key={point.id}>
+                  <circle
+                    cx={point.position.x}
+                    cy={point.position.y}
+                    r="2"
+                    className={`fill-red-500 opacity-70 hover:opacity-100 cursor-pointer
+                      ${selectedPoint?.id === point.id ? 'stroke-white stroke-2' : ''}`}
+                    onClick={() => togglePoint(point.id)}
+                  />
+                  {selectedPoint?.id === point.id && (
+                    <text
+                      x={point.position.x}
+                      y={point.position.y - 3}
+                      textAnchor="middle"
+                      className="fill-white stroke-black stroke-1 text-xs"
+                    >
+                      {point.id}
+                    </text>
+                  )}
+                </g>
+              )
+            ))}
+          </svg>
+        </div>
+
+        {/* Point information */}
+        {selectedPoint && (
+          <div className="mt-4 p-4 bg-white rounded-lg shadow-md">
+            <h3 className="text-lg font-semibold">{selectedPoint.name} ({selectedPoint.japaneseName})</h3>
+            <p className="text-gray-600">{selectedPoint.description}</p>
+          </div>
+        )}
+
+        {/* Point list */}
+        <div className="mt-4">
+          <h3 className="text-lg font-medium mb-2">Vital Points ({activeView} view)</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {filteredPoints.map(point => (
+              <div 
+                key={point.id}
+                className={`p-2 rounded-md cursor-pointer flex items-center gap-2 transition-colors
+                  ${visiblePoints.includes(point.id) ? 'bg-green-100' : 'bg-stone-100'}
+                  ${selectedPoint?.id === point.id ? 'ring-2 ring-green-500' : ''}`}
+                onClick={() => togglePoint(point.id)}
+              >
+                <div className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-green-600 text-white text-xs">
+                  {point.id}
+                </div>
+                <div className="flex-grow">
+                  <div className="font-medium">{point.name} ({point.japaneseName})</div>
+                  <div className="text-xs text-gray-600">{point.description}</div>
+                </div>
+                {visiblePoints.includes(point.id) ? (
+                  <EyeOff size={16} className="text-gray-500" />
+                ) : (
+                  <Eye size={16} className="text-gray-500" />
+                )}
               </div>
-              <div className="flex-grow">
-                <div className="font-medium">{point.name} ({point.japaneseName})</div>
-                <div className="text-xs text-gray-600">{point.description}</div>
-              </div>
-              {visiblePoints.includes(point.id) ? (
-                <EyeOff size={16} className="text-gray-500" />
-              ) : (
-                <Eye size={16} className="text-gray-500" />
-              )}
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
