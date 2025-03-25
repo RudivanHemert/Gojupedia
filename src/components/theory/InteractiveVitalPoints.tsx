@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Eye, EyeOff, Circle, Play } from 'lucide-react';
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Button } from "@/components/ui/button";
-import { mediaItems } from '@/data/media';
-import { getMediaUrl } from '@/utils/mediaUtils';
 import { motion } from 'framer-motion';
 
 // Define the vital point data structure
@@ -18,6 +16,8 @@ interface VitalPoint {
   };
   view: 'front' | 'back';
 }
+
+const vitalPointsData: VitalPoint[] = [
 
 const vitalPointsData: VitalPoint[] = [
   // Front view vital points
@@ -67,13 +67,17 @@ interface InteractiveVitalPointsProps {
   media: MediaItem;
 }
 
+interface InteractiveVitalPointsProps {
+  media: MediaItem;
+}
+
 const InteractiveVitalPoints: React.FC<InteractiveVitalPointsProps> = ({ media }) => {
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
   const [visiblePoints, setVisiblePoints] = useState<number[]>([]);
   const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
 
-  const frontViewDiagram = mediaItems.find(item => item.id === 'vital-points-front-view');
-  const backViewDiagram = mediaItems.find(item => item.id === 'vital-points-back-view');
+  const frontViewImageUrl = '/public/media/front-view-diagram.png';
+  const backViewImageUrl = '/public/media/back-view-diagram.png';
   
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
   
@@ -140,9 +144,7 @@ const InteractiveVitalPoints: React.FC<InteractiveVitalPointsProps> = ({ media }
       {/* Interactive diagram */}
       <div className="relative">
         <img 
-          src={getMediaUrl(activeView === 'front' 
-            ? frontViewDiagram?.url || ''
-            : backViewDiagram?.url || '')} 
+          src={activeView === 'front' ? frontViewImageUrl : backViewImageUrl} 
           alt={`${activeView} view of vital points`}
           className="max-w-full max-h-[60vh] object-contain mx-auto"
         />
