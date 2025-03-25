@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const General = () => {
@@ -12,7 +13,7 @@ const General = () => {
     "Hachidan : 8th Dan",
     "Kyudan : 9th Dan",
     "Jyudan : 10th Dan",
-	"Bushi: Great martial artist (Okinawan); Warlord (Japanese)",
+    "Bushi: Great martial artist (Okinawan); Warlord (Japanese)",
     "Hanshi : Head person of an organization",
     "Karateka : A practitioner of Karate",
     "Kohai: A student junior to oneself",
@@ -24,8 +25,8 @@ const General = () => {
     "Shihan : Formal title, Master Instructor, or Teacher of Teachers",
     "Shushin : Referee in a bout",
     "Uchi Deshi: A live-in student",
-    "Yudansha : Black belt holder (any rank)"
-	"Ashi barai: Foot sweep",
+    "Yudansha : Black belt holder (any rank)",
+    "Ashi barai: Foot sweep",
     "Budo : Martial Way; Martial arts",
     "Busaganishi: Martial arts deity",
     "Bunkai: Study of kata applications and techniques",
