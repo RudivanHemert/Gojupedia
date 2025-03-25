@@ -4,8 +4,11 @@ import InteractiveVitalPoints from '@/components/theory/InteractiveVitalPoints';
 import { findMediaByCategory } from '@/utils/mediaUtils';
 
 const VitalPointsPage = () => {
-  const vitalPointsMedia = findMediaByCategory('vital-points', mediaItems);
-  const frontViewDiagram = vitalPointsMedia.find(item => item.id === 'vital-points-front-view');
+  const frontViewDiagram = mediaItems.find(item => item.id === 'vital-points-front-view');
+
+  if (!frontViewDiagram) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -16,11 +19,9 @@ const VitalPointsPage = () => {
           Vital points, known as Kyūsho (急所) in Japanese martial arts, are specific locations on the human body that are particularly vulnerable to strikes or pressure. Understanding these points is crucial for both offensive techniques and defensive awareness in karate practice.
         </p>
         
-        {frontViewDiagram && (
-          <div className="my-8">
-            <InteractiveVitalPoints media={frontViewDiagram} />
-          </div>
-        )}
+        <div className="my-8">
+          <InteractiveVitalPoints media={frontViewDiagram} />
+        </div>
         
         <h2 className="text-2xl font-semibold mt-8 mb-4">Understanding Vital Points</h2>
         <p>
