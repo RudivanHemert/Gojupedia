@@ -132,8 +132,8 @@ const InteractiveVitalPoints: React.FC = () => {
       <div className="relative mx-auto">
         <img 
           src={activeView === 'front' 
-            ? '/lovable-uploads/06d51c8c-de63-4c8a-8c51-51be62af1a58.png' 
-            : '/lovable-uploads/bab093f8-8102-4850-bf7c-77daaa549e3b.png'} 
+            ? 'https://lovable-dev.amazonaws.com/prod/gojuwiki/06d51c8c-de63-4c8a-8c51-51be62af1a58.png' 
+            : 'https://lovable-dev.amazonaws.com/prod/gojuwiki/bab093f8-8102-4850-bf7c-77daaa549e3b.png'} 
           alt={`${activeView} view of vital points`}
           className="max-w-full max-h-[60vh] object-contain"
         />
