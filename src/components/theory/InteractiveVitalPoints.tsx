@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { getWikiImageUrl } from '@/utils/wikiUtils';
 
 interface VitalPoint {
   id: number;
@@ -66,8 +65,6 @@ const InteractiveVitalPoints = () => {
   const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
 
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
-  
-  const diagramUrl = getWikiImageUrl(`vital-points/${activeView}-view-diagram.png`);
 
   const toggleAllPoints = () => {
     if (visiblePoints.length === filteredPoints.length) {
@@ -133,7 +130,7 @@ const InteractiveVitalPoints = () => {
       <div className="relative w-full max-w-2xl mx-auto">
         <div className="relative">
           <img 
-            src={diagramUrl}
+            src={`/media/vital-points/${activeView}-view-diagram.png`}
             alt={`${activeView} view of vital points`}
             className="w-full h-auto"
           />
