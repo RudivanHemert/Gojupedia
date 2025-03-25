@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Eye, EyeOff, Circle, Play } from 'lucide-react';
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Button } from "@/components/ui/button";
-import { mediaData } from '@/data/media';
-import MediaManager from '@/components/media/MediaManager';
+import { mediaItems } from '@/data/media';
+import { motion } from 'framer-motion';
 
 // Define the vital point data structure
 interface VitalPoint {
@@ -62,17 +62,18 @@ const vitalPointsData: VitalPoint[] = [
   { id: 38, name: "Ushiro inazuma", japaneseName: "後稲妻", description: "Backside", position: { x: 50, y: 60 }, view: 'back' }
 ];
 
-const InteractiveVitalPoints: React.FC = () => {
+interface InteractiveVitalPointsProps {
+  media: MediaItem;
+}
+
+const InteractiveVitalPoints: React.FC<InteractiveVitalPointsProps> = ({ media }) => {
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
   const [visiblePoints, setVisiblePoints] = useState<number[]>([]);
-  const [selectedPoint, setSelectedPoint] = useState<number | null>(null);
-  const [selectedMedia, setSelectedMedia] = useState<{
-    type: 'image' | 'video';
-    url: string;
-    title?: string;
-    description?: string;
-  } | null>(null);
+  const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
 
+  const frontViewDiagram = mediaItems.find(item => item.id === 'vital-points-front-view');
+  const backViewDiagram = mediaItems.find(item => item.id === 'vital-points-back-view');
+  
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
   
   const toggleAllPoints = () => {
@@ -90,14 +91,7 @@ const InteractiveVitalPoints: React.FC = () => {
     } else {
       setVisiblePoints([...visiblePoints, pointId]);
     }
-    setSelectedPoint(pointId);
-  };
-
-  const handlePointClick = (point: VitalPoint) => {
-    const mediaItems = mediaData.vitalPoints[point.name] || [];
-    if (mediaItems.length > 0) {
-      setSelectedMedia(mediaItems[0]);
-    }
+    setSelectedPoint(filteredPoints.find(point => point.id === pointId) || null);
   };
 
   return (
@@ -146,34 +140,43 @@ const InteractiveVitalPoints: React.FC = () => {
       <div className="relative">
         <img 
           src={activeView === 'front' 
-            ? 'https://lovable-dev.amazonaws.com/prod/gojuwiki/06d51c8c-de63-4c8a-8c51-51be62af1a58.png' 
-            : 'https://lovable-dev.amazonaws.com/prod/gojuwiki/bab093f8-8102-4850-bf7c-77daaa549e3b.png'} 
+            ? frontViewDiagram?.url 
+            : backViewDiagram?.url} 
           alt={`${activeView} view of vital points`}
-          className="max-w-full max-h-[60vh] object-contain"
+          className="max-w-full max-h-[60vh] object-contain mx-auto"
         />
         
         {/* Vital points markers */}
         {filteredPoints.map(point => (
           visiblePoints.includes(point.id) && (
-            <div 
+            <motion.button
               key={point.id}
-              className={`absolute w-4 h-4 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer
-                ${selectedPoint === point.id ? 'text-red-500' : 'text-green-600'}`}
-              style={{ left: `${point.position.x}%`, top: `${point.position.y}%` }}
-              onClick={() => {
-                togglePoint(point.id);
-                handlePointClick(point);
+              className={`absolute w-4 h-4 rounded-full bg-red-500 opacity-70 hover:opacity-100 
+                ${selectedPoint?.id === point.id ? 'ring-2 ring-white' : ''}`}
+              style={{
+                left: `${point.position.x}%`,
+                top: `${point.position.y}%`,
+                transform: 'translate(-50%, -50%)'
               }}
-            >
-              <Circle className="fill-current" size={16} />
-              <div className="absolute top-5 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-75 px-1 text-xs rounded shadow">
-                {point.id}
-              </div>
-            </div>
+              whileHover={{ scale: 1.2 }}
+              onClick={() => togglePoint(point.id)}
+            />
           )
         ))}
       </div>
       
+      {/* Point information */}
+      {selectedPoint && (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mt-4 p-4 bg-white rounded-lg shadow-md"
+        >
+          <h3 className="text-lg font-semibold">{selectedPoint.name} ({selectedPoint.japaneseName})</h3>
+          <p className="text-gray-600">{selectedPoint.description}</p>
+        </motion.div>
+      )}
+
       {/* Point list */}
       <div className="mt-4">
         <h3 className="text-lg font-medium mb-2">Vital Points ({activeView} view)</h3>
@@ -183,22 +186,16 @@ const InteractiveVitalPoints: React.FC = () => {
               key={point.id}
               className={`p-2 rounded-md cursor-pointer flex items-center gap-2 transition-colors
                 ${visiblePoints.includes(point.id) ? 'bg-green-100' : 'bg-stone-100'}
-                ${selectedPoint === point.id ? 'ring-2 ring-green-500' : ''}`}
-              onClick={() => {
-                togglePoint(point.id);
-                handlePointClick(point);
-              }}
+                ${selectedPoint?.id === point.id ? 'ring-2 ring-green-500' : ''}`}
+              onClick={() => togglePoint(point.id)}
             >
               <div className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-green-600 text-white text-xs">
                 {point.id}
               </div>
               <div className="flex-grow">
-                <div className="font-medium">{point.name}</div>
+                <div className="font-medium">{point.name} ({point.japaneseName})</div>
                 <div className="text-xs text-gray-600">{point.description}</div>
               </div>
-              {mediaData.vitalPoints[point.name]?.length > 0 && (
-                <Play size={16} className="text-karate" />
-              )}
               {visiblePoints.includes(point.id) ? (
                 <EyeOff size={16} className="text-gray-500" />
               ) : (
@@ -208,17 +205,6 @@ const InteractiveVitalPoints: React.FC = () => {
           ))}
         </div>
       </div>
-
-      <MediaManager
-        media={selectedMedia || {
-          type: 'image',
-          url: '',
-          title: '',
-          description: ''
-        }}
-        isOpen={!!selectedMedia}
-        onClose={() => setSelectedMedia(null)}
-      />
     </div>
   );
 };
