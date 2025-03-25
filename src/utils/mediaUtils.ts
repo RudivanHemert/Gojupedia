@@ -3,7 +3,13 @@ import { MediaItem, MediaReference } from '@/data/media';
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main';
 
 export const getMediaUrl = (path: string): string => {
-  return `${GITHUB_RAW_BASE}/${path}`;
+  // If the path is already a full URL (e.g., YouTube), return it as is
+  if (path.startsWith('http')) {
+    return path;
+  }
+  
+  // Otherwise, treat it as a local path relative to the public directory
+  return path.startsWith('/') ? path : `/${path}`;
 };
 
 export const getYoutubeEmbedUrl = (videoId: string): string => {

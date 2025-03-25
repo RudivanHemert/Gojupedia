@@ -24,7 +24,7 @@ export const mediaItems: MediaItem[] = [
   {
     id: 'vital-points-front-view',
     type: 'image',
-    url: 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main/media/vital-points/front-view-diagram.png',
+    url: '/media/vital-points/front-view-diagram.png',
     title: 'Vital Points - Front View',
     description: 'Comprehensive diagram showing the vital points on the front of the human body',
     category: 'vital-points',
@@ -35,7 +35,7 @@ export const mediaItems: MediaItem[] = [
   {
     id: 'vital-points-back-view',
     type: 'image',
-    url: 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main/media/vital-points/back-view-diagram.png',
+    url: '/media/vital-points/back-view-diagram.png',
     title: 'Vital Points - Back View',
     description: 'Comprehensive diagram showing the vital points on the back of the human body',
     category: 'vital-points',
