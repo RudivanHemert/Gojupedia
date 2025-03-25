@@ -34,7 +34,7 @@ const Kicks = () => {
     "Mae geri keage : Front snap kick",
     "Mae geri kekomi: Front thrust kick",
     "Mae tobi geri: Jumping front kick",
-    "Mikazuki geri: Crescent kick (sometimes called "jaw kick")",
+    "Mikazuki geri: Crescent kick (sometimes called 'jaw kick')",
     "Nidan geri: Double jump kick",
     "Renzoku geri: Combination kick",
     "Sokuto : Edge of foot",
