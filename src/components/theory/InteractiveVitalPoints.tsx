@@ -22,8 +22,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Skull',
     japanese: 'shomon',
     number: 1,
-    x: 45,
-    y: 10,
+    x: 7,
+    y: 9,
     view: 'front'
   },
   {
@@ -31,8 +31,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Temple',
     japanese: 'kasumi',
     number: 2,
-    x: 25,
-    y: 15,
+    x: 6,
+    y: 14,
     view: 'front'
   },
   {
@@ -40,8 +40,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Cheekbone',
     japanese: 'komekami',
     number: 3,
-    x: 30,
-    y: 20,
+    x: 7,
+    y: 17,
     view: 'front'
   },
   {
@@ -49,8 +49,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Philtrum',
     japanese: 'jinchu',
     number: 4,
-    x: 35,
-    y: 25,
+    x: 25,
+    y: 19,
     view: 'front'
   },
   {
@@ -58,8 +58,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Chin',
     japanese: 'kakon',
     number: 5,
-    x: 35,
-    y: 30,
+    x: 8,
+    y: 24,
     view: 'front'
   },
   {
@@ -67,8 +67,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Clavicle',
     japanese: 'murasame',
     number: 6,
-    x: 40,
-    y: 35,
+    x: 20,
+    y: 26,
     view: 'front'
   },
   {
@@ -76,8 +76,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Windpipe',
     japanese: 'hichu',
     number: 7,
-    x: 45,
-    y: 37,
+    x: 7,
+    y: 28,
     view: 'front'
   },
   {
@@ -85,8 +85,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Breastbone',
     japanese: 'danchu',
     number: 8,
-    x: 45,
-    y: 42,
+    x: 7,
+    y: 32,
     view: 'front'
   },
   {
@@ -94,8 +94,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Upper arm',
     japanese: 'ude-narashi',
     number: 9,
-    x: 30,
-    y: 45,
+    x: 10,
+    y: 34,
     view: 'front'
   },
   {
@@ -103,8 +103,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Ribs under nipple',
     japanese: 'ganka',
     number: 10,
-    x: 45,
-    y: 48,
+    x: 9,
+    y: 37,
     view: 'front'
   },
   {
@@ -112,8 +112,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Solar Plexus',
     japanese: 'suigetsu',
     number: 11,
-    x: 45,
-    y: 52,
+    x: 11,
+    y: 40,
     view: 'front'
   },
   {
@@ -121,8 +121,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Ribs',
     japanese: 'denko',
     number: 12,
-    x: 35,
-    y: 55,
+    x: 9,
+    y: 43,
     view: 'front'
   },
   {
@@ -130,8 +130,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Outer wrist',
     japanese: 'soto shakutaku',
     number: 13,
-    x: 25,
-    y: 60,
+    x: 6,
+    y: 50,
     view: 'front'
   },
   {
@@ -139,8 +139,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Back of hand',
     japanese: 'shuko',
     number: 14,
-    x: 20,
-    y: 65,
+    x: 9,
+    y: 54,
     view: 'front'
   },
   {
@@ -148,8 +148,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Shinbone',
     japanese: 'kokotsu',
     number: 15,
-    x: 40,
-    y: 85,
+    x: 11,
+    y: 73,
     view: 'front'
   },
   {
@@ -157,8 +157,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Instep',
     japanese: 'soin',
     number: 16,
-    x: 45,
-    y: 95,
+    x: 9,
+    y: 88,
     view: 'front'
   },
   {
@@ -166,8 +166,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Area around toes',
     japanese: 'kori',
     number: 17,
-    x: 45,
-    y: 98,
+    x: 9,
+    y: 91,
     view: 'front'
   },
   // Right side points
@@ -176,8 +176,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Bridge of nose',
     japanese: 'uto',
     number: 18,
-    x: 65,
-    y: 15,
+    x: 80,
+    y: 11,
     view: 'front'
   },
   {
@@ -185,8 +185,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Temple',
     japanese: 'kasumi',
     number: 19,
-    x: 70,
-    y: 20,
+    x: 81,
+    y: 13,
     view: 'front'
   },
   {
@@ -194,8 +194,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Eye socket',
     japanese: 'seimo',
     number: 20,
-    x: 75,
-    y: 25,
+    x: 82,
+    y: 16,
     view: 'front'
   },
   {
@@ -203,8 +203,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Jaw',
     japanese: 'mikazuki',
     number: 21,
-    x: 70,
-    y: 30,
+    x: 50,
+    y: 19,
     view: 'front'
   },
   {
@@ -212,8 +212,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Sternum',
     japanese: 'kyosen',
     number: 22,
-    x: 65,
-    y: 40,
+    x: 60,
+    y: 29,
     view: 'front'
   },
   {
@@ -221,8 +221,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Inner wrist',
     japanese: 'uchi shakutaku',
     number: 23,
-    x: 80,
-    y: 45,
+    x: 77,
+    y: 29,
     view: 'front'
   },
   {
@@ -230,17 +230,17 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Ribs',
     japanese: 'ganka',
     number: 24,
-    x: 75,
-    y: 50,
+    x: 82,
+    y: 33,
     view: 'front'
   },
   {
     id: 'hijisume',
     name: 'Inside of elbow',
-    japanese: 'hijisume',
+    japanese: 'hijitsume',
     number: 25,
-    x: 80,
-    y: 55,
+    x: 79,
+    y: 38,
     view: 'front'
   },
   {
@@ -248,8 +248,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Stomach wall',
     japanese: 'inazuma',
     number: 26,
-    x: 70,
-    y: 60,
+    x: 79,
+    y: 44,
     view: 'front'
   },
   {
@@ -257,8 +257,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Navel area',
     japanese: 'myosho',
     number: 27,
-    x: 65,
-    y: 65,
+    x: 80,
+    y: 47,
     view: 'front'
   },
   {
@@ -266,8 +266,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Power center',
     japanese: 'tanden',
     number: 28,
-    x: 65,
-    y: 70,
+    x: 81,
+    y: 49,
     view: 'front'
   },
   {
@@ -275,8 +275,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Groin',
     japanese: 'kinteki',
     number: 29,
-    x: 55,
-    y: 75,
+    x: 81,
+    y: 52,
     view: 'front'
   },
   {
@@ -284,8 +284,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Inner thigh',
     japanese: 'yako',
     number: 30,
-    x: 60,
-    y: 80,
+    x: 81,
+    y: 60,
     view: 'front'
   },
   {
@@ -293,8 +293,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Hollow of knee',
     japanese: 'fukuto',
     number: 31,
-    x: 55,
-    y: 85,
+    x: 82,
+    y: 70,
     view: 'front'
   },
   {
@@ -302,8 +302,8 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Achilles tendon',
     japanese: 'naira',
     number: 32,
-    x: 60,
-    y: 90,
+    x: 84,
+    y: 85,
     view: 'front'
   },
   {
@@ -311,105 +311,171 @@ const vitalPointsData: VitalPoint[] = [
     name: 'Area around toes',
     japanese: 'kori',
     number: 33,
-    x: 60,
-    y: 98,
+    x: 84,
+    y: 93,
     view: 'front'
   },
   // Back view vital points
   {
-    id: 'shomon-back',
-    name: 'Skull',
-    japanese: 'shomon',
-    x: 50,
-    y: 10,
+    id: 'shuko-back',
+    name: 'Back of hand',
+    japanese: 'shuko',
+    number: 1,
+    x: 10,
+    y: 29,
     view: 'back'
   },
   {
-    id: 'dokusen',
-    name: 'Side of neck',
-    japanese: 'dokusen',
-    x: 50,
-    y: 20,
+    id: 'soto-shakutaku-back',
+    name: 'Outer wrist',
+    japanese: 'soto shakutaku',
+    number: 2,
+    x: 16,
+    y: 32,
     view: 'back'
   },
   {
-    id: 'keichu',
-    name: 'Back of neck',
-    japanese: 'keichu',
-    x: 50,
-    y: 25,
-    view: 'back'
-  },
-  {
-    id: 'hayauchi',
-    name: 'Upper back',
-    japanese: 'hayauchi',
-    x: 50,
-    y: 30,
-    view: 'back'
-  },
-  {
-    id: 'kassatsu',
-    name: 'Spine, middle of back',
-    japanese: 'kassatsu',
-    x: 50,
-    y: 40,
-    view: 'back'
-  },
-  {
-    id: 'ude-narashi-back',
+    id: 'ude-narashi-back-1',
     name: 'Upper arm',
     japanese: 'ude-narashi',
-    x: 35,
-    y: 45,
+    number: 3,
+    x: 16,
+    y: 34,
     view: 'back'
   },
   {
     id: 'wakikage',
     name: 'Under armpit',
-    japanese: 'wakikage',
-    x: 35,
-    y: 40,
+    japanese: 'wakigake',
+    number: 4,
+    x: 16,
+    y: 36,
     view: 'back'
   },
   {
-    id: 'ushiro-denko',
+    id: 'ushiro-denko-1',
     name: 'Kidney area',
     japanese: 'ushiro denko',
-    x: 35,
-    y: 50,
+    number: 5,
+    x: 17,
+    y: 39,
+    view: 'back'
+  },
+  {
+    id: 'ushiro-denko-2',
+    name: 'Kidney area',
+    japanese: 'ushiro denko',
+    number: 6,
+    x: 18,
+    y: 46,
     view: 'back'
   },
   {
     id: 'bitei',
     name: 'Coccyx',
     japanese: 'bitei',
-    x: 50,
-    y: 60,
+    number: 7,
+    x: 10,
+    y: 50,
     view: 'back'
   },
   {
     id: 'ein',
     name: 'Lower back',
     japanese: 'ein',
-    x: 50,
-    y: 65,
+    number: 8,
+    x: 10,
+    y: 52,
     view: 'back'
   },
   {
     id: 'ushiro-inazuma',
     name: 'Backside',
     japanese: 'ushiro inazuma',
-    x: 50,
-    y: 70,
+    number: 9,
+    x: 21,
+    y: 56,
     view: 'back'
   },
   {
     id: 'soma',
     name: 'Calves',
     japanese: 'soma',
-    x: 45,
-    y: 80,
+    number: 10,
+    x: 11,
+    y: 73,
+    view: 'back'
+  },
+  {
+    id: 'shomon-back',
+    name: 'Skull',
+    japanese: 'shomon',
+    number: 11,
+    x: 84,
+    y: 11,
+    view: 'back'
+  },
+  {
+    id: 'dokusen',
+    name: 'Side of neck',
+    japanese: 'dokusen',
+    number: 12,
+    x: 87,
+    y: 19,
+    view: 'back'
+  },
+  {
+    id: 'keichu',
+    name: 'Back of neck',
+    japanese: 'keichu',
+    number: 13,
+    x: 84,
+    y: 22,
+    view: 'back'
+  },
+  {
+    id: 'hayauchi',
+    name: 'Upper back',
+    japanese: 'hayauchi',
+    number: 14,
+    x: 84,
+    y: 29,
+    view: 'back'
+  },
+  {
+    id: 'kassatsu',
+    name: 'Spine, middle of back',
+    japanese: 'kassatsu',
+    number: 15,
+    x: 83,
+    y: 32,
+    view: 'back'
+  },
+  {
+    id: 'ude-narashi-back-2',
+    name: 'Upper arm',
+    japanese: 'ude-narashi',
+    number: 16,
+    x: 84,
+    y: 35,
+    view: 'back'
+  },
+  {
+    id: 'hijisume-back',
+    name: 'Inside of elbow',
+    japanese: 'hijitsume',
+    number: 17,
+    x: 85,
+    y: 44,
+    view: 'back'
+  },
+  {
+    id: 'uchi-shakutaku-back',
+    name: 'Inner wrist',
+    japanese: 'uchi shakutaku',
+    number: 18,
+    x: 87,
+    y: 52,
     view: 'back'
   }
 ];
@@ -418,19 +484,46 @@ const InteractiveVitalPoints = () => {
   const [showLabels, setShowLabels] = useState(true);
   const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
+  const [showCoordinates, setShowCoordinates] = useState(false);
+  const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
 
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
+
+  const handleImageClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!showCoordinates) return;
+    
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    
+    setCoordinates({
+      x: Math.round(x),
+      y: Math.round(y)
+    });
+    
+    console.log(`Coordinates: x: ${Math.round(x)}, y: ${Math.round(y)}`);
+  };
 
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <Switch
-            id="show-labels"
-            checked={showLabels}
-            onCheckedChange={setShowLabels}
-          />
-          <Label htmlFor="show-labels">Show Labels</Label>
+        <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2">
+            <Switch
+              id="show-labels"
+              checked={showLabels}
+              onCheckedChange={setShowLabels}
+            />
+            <Label htmlFor="show-labels">Show Labels</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <Switch
+              id="show-coordinates"
+              checked={showCoordinates}
+              onCheckedChange={setShowCoordinates}
+            />
+            <Label htmlFor="show-coordinates">Show Coordinates</Label>
+          </div>
         </div>
         <Button
           variant="outline"
@@ -448,7 +541,10 @@ const InteractiveVitalPoints = () => {
         </TabsList>
       </Tabs>
 
-      <div className="relative">
+      <div 
+        className="relative cursor-crosshair" 
+        onClick={handleImageClick}
+      >
         <img
           src={`/Images/Vital-points-${activeView}.jpg`}
           alt={`Vital Points - ${activeView.charAt(0).toUpperCase() + activeView.slice(1)} View`}
@@ -458,6 +554,12 @@ const InteractiveVitalPoints = () => {
             e.currentTarget.src = '/placeholder.svg';
           }}
         />
+        
+        {showCoordinates && (
+          <div className="absolute top-2 right-2 bg-black/70 text-white px-2 py-1 rounded text-sm">
+            x: {coordinates.x}, y: {coordinates.y}
+          </div>
+        )}
         
         <AnimatePresence>
           {showLabels && (
@@ -486,7 +588,10 @@ const InteractiveVitalPoints = () => {
                       variant="ghost"
                       size="sm"
                       className="bg-white/80 hover:bg-white text-black opacity-0 group-hover:opacity-100 transition-opacity text-xs px-2 py-1 h-auto min-w-0"
-                      onClick={() => setSelectedPoint(point)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedPoint(point);
+                      }}
                     >
                       {point.number ? `${point.number}. ${point.japanese}` : point.japanese}
                     </Button>
@@ -513,6 +618,48 @@ const InteractiveVitalPoints = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <div className="mt-8 space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold">Front View Vital Points</h2>
+            <div className="space-y-2">
+              {vitalPointsData
+                .filter(point => point.view === 'front')
+                .sort((a, b) => (a.number || 0) - (b.number || 0))
+                .map(point => (
+                  <div key={point.id} className="p-2 rounded hover:bg-gray-50">
+                    <div className="font-semibold">
+                      {point.number}. {point.japanese}
+                    </div>
+                    <div className="text-gray-600 ml-6">
+                      {point.name}
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold">Back View Vital Points</h2>
+            <div className="space-y-2">
+              {vitalPointsData
+                .filter(point => point.view === 'back')
+                .sort((a, b) => (a.number || 0) - (b.number || 0))
+                .map(point => (
+                  <div key={point.id} className="p-2 rounded hover:bg-gray-50">
+                    <div className="font-semibold">
+                      {point.number}. {point.japanese}
+                    </div>
+                    <div className="text-gray-600 ml-6">
+                      {point.name}
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
