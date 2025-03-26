@@ -1,38 +1,40 @@
+
 import React from 'react';
-import InteractiveVitalPoints from '@/components/theory/InteractiveVitalPoints';
+import MobileLayout from '@/components/layout/MobileLayout';
+import { motion } from 'framer-motion';
 
 const VitalPointsPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Vital Points (急所 - Kyūsho)</h1>
-      
-      <div className="prose max-w-none">
-        <p className="mb-4">
-          Vital points, known as Kyūsho (急所) in Japanese martial arts, are specific locations on the human body that are particularly vulnerable to strikes or pressure. Understanding these points is crucial for both offensive techniques and defensive awareness in karate practice.
-        </p>
-        
-        <div className="my-8">
-          <InteractiveVitalPoints />
-        </div>
-        
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Understanding Vital Points</h2>
-        <p>
-          The study of vital points combines traditional martial arts knowledge with modern understanding of human anatomy. Each point represents an area where:
-        </p>
-        <ul className="list-disc pl-6 mb-4">
-          <li>Nerves are close to the surface</li>
-          <li>Major blood vessels are accessible</li>
-          <li>Muscles and tendons are vulnerable</li>
-          <li>Bones can be effectively targeted</li>
-        </ul>
-        
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-4">
-          <p className="text-yellow-700">
-            <strong>Important Note:</strong> Knowledge of vital points should be used responsibly and primarily for defensive purposes. Always practice techniques with control and under proper supervision.
+    <MobileLayout>
+      {/* Header Image */}
+      <div className="relative h-40 overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?q=80&w=2070&auto=format&fit=crop" 
+          alt="Vital Points" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+        <div className="absolute bottom-0 left-0 p-5 w-full">
+          <h1 className="text-white text-3xl font-bold">Vital Points</h1>
+          <p className="text-white opacity-90">
+            Study of pressure points and vulnerable areas
           </p>
         </div>
       </div>
-    </div>
+
+      <div className="p-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="bg-white rounded-lg shadow p-4"
+        >
+          <p className="text-gray-600 text-center italic">
+            Vital Points content coming soon...
+          </p>
+        </motion.div>
+      </div>
+    </MobileLayout>
   );
 };
 

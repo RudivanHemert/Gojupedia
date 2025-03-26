@@ -1,0 +1,6 @@
+echo {
+  "appId": "com.goju.wiki.quest",
+  "appName": "GojuWikiQuest",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+} > capacitor.config.json
