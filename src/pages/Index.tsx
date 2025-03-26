@@ -52,13 +52,13 @@ const Index = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
           <div className="mb-4">
             <img 
-              src="https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop" 
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Miyagi_Chojun.jpg&auto=format&fit=crop" 
               alt="Karate symbol" 
               className="w-16 h-16 object-cover rounded-full border-2 border-karate shadow-md"
             />
           </div>
           <h1 className="text-karate text-3xl font-serif font-bold mb-1">
-            剛柔流空手道
+            剛柔流
           </h1>
           <p className="text-gray-700 text-lg italic">
             Goju Ryu Karate-Do
