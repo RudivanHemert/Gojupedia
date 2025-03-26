@@ -3,27 +3,23 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AuthProvider } from "@/contexts/AuthContext";
-import ProtectedRoute from "@/components/auth/ProtectedRoute";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import TechniquesPage from "./pages/TechniquesPage";
-import KataPage from "./pages/KataPage";
+import TheoryPage from "./pages/TheoryPage";
+import TerminologyPage from "./pages/TerminologyPage";
 import HistoryPage from "./pages/HistoryPage";
 import PhilosophyPage from "./pages/PhilosophyPage";
+import VitalPointsPage from "./pages/VitalPointsPage";
+import PracticePage from "./pages/PracticePage";
+import TechniquesPage from "./pages/TechniquesPage";
 import TechniqueDetailPage from "./pages/TechniqueDetailPage";
+import KataPage from "./pages/KataPage";
 import KataDetailPage from "./pages/KataDetailPage";
+import HojoUndoPage from "./pages/HojoUndoPage";
+import KumitePage from "./pages/KumitePage";
 import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
 import GradingsPage from "./pages/GradingsPage";
-import TheoryPage from "./pages/TheoryPage";
-import PracticePage from "./pages/PracticePage";
-import TerminologyPage from "./pages/TerminologyPage";
-import HojoUndoPage from "./pages/HojoUndoPage";
-import KumitePage from "./pages/KumitePage";
-import VitalPointsPage from "./pages/VitalPointsPage";
-import MediaManagerPage from './pages/admin/MediaManagerPage';
-import AdminDashboard from '@/pages/admin/AdminDashboard';
 
 const queryClient = new QueryClient();
 
@@ -35,15 +31,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-
-          {/* Theory section */}
           <Route path="/theory" element={<TheoryPage />} />
           <Route path="/terminology" element={<TerminologyPage />} />
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/philosophy" element={<PhilosophyPage />} />
           <Route path="/vital-points" element={<VitalPointsPage />} />
-
-          {/* Practice section */}
           <Route path="/practice" element={<PracticePage />} />
           <Route path="/techniques" element={<TechniquesPage />} />
           <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
@@ -51,18 +43,10 @@ const App = () => (
           <Route path="/kata/:id" element={<KataDetailPage />} />
           <Route path="/hojo-undo" element={<HojoUndoPage />} />
           <Route path="/kumite" element={<KumitePage />} />
-
-          {/* Study section */}
           <Route path="/study" element={<StudyPage />} />
           <Route path="/study/:id" element={<StudyDetailPage />} />
           <Route path="/gradings" element={<GradingsPage />} />
-          
-          {/* Catch-all */}
           <Route path="*" element={<NotFound />} />
-
-          {/* Admin section */}
-          <Route path="/admin" element={<AdminDashboard />} />
-          <Route path="/admin/media" element={<MediaManagerPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

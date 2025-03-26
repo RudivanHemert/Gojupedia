@@ -42,28 +42,6 @@ export const mediaItems: MediaItem[] = [
     tags: ['vital-points', 'back-view', 'diagram', 'human-body'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
-  },
-  {
-    id: 'vital-points-1',
-    type: 'image',
-    url: 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main/media/vital-points/head-pressure-points.jpg',
-    title: 'Head Pressure Points',
-    description: 'Key pressure points on the head and face',
-    category: 'vital-points',
-    tags: ['head', 'pressure-points', 'vital-points'],
-    createdAt: '2024-03-20T00:00:00Z',
-    updatedAt: '2024-03-20T00:00:00Z'
-  },
-  {
-    id: 'terminology-1',
-    type: 'video',
-    url: 'https://www.youtube.com/embed/example-video-id',
-    title: 'Basic Karate Stances',
-    description: 'Demonstration of fundamental karate stances',
-    category: 'terminology',
-    tags: ['stances', 'basics', 'terminology'],
-    createdAt: '2024-03-20T00:00:00Z',
-    updatedAt: '2024-03-20T00:00:00Z'
   }
 ];
 
@@ -78,18 +56,10 @@ export const mediaReferences: MediaReference[] = [
     }
   },
   {
-    mediaId: 'vital-points-1',
+    mediaId: 'vital-points-back-view',
     context: {
       section: 'vital-points',
-      text: 'The head contains several important pressure points that can be targeted in self-defense situations.',
-      position: 'after'
-    }
-  },
-  {
-    mediaId: 'terminology-1',
-    context: {
-      section: 'terminology',
-      text: 'Basic stances are the foundation of karate practice.',
+      text: 'The back view shows additional vital points that are important to understand in martial arts practice.',
       position: 'before'
     }
   }

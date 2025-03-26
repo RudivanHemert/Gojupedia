@@ -1,7 +1,5 @@
 import { MediaItem, MediaReference } from '@/data/media';
 
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/yourusername/goju-wiki-quest/main';
-
 export const getMediaUrl = (path: string): string => {
   // If the path is already a full URL (e.g., YouTube), return it as is
   if (path.startsWith('http')) {
@@ -49,6 +47,6 @@ export const validateMediaUrl = (url: string, type: 'image' | 'video'): boolean 
   if (type === 'video') {
     return getYoutubeVideoId(url) !== null;
   }
-  // For images, check if it's a valid GitHub raw URL
-  return url.startsWith(GITHUB_RAW_BASE);
+  // For images, check if it's a local path or a valid URL
+  return url.startsWith('/') || url.startsWith('http');
 }; 
