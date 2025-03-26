@@ -7,7 +7,6 @@ import KarateTitles from './terminology/KarateTitles';
 import Stances from './terminology/Stances';
 import Blocks from './terminology/Blocks';
 import GeneralTerminology from './terminology/GeneralTerminology';
-// Import other subsections similarly
 
 const TerminologyPage = () => {
   const sections = [
@@ -15,8 +14,7 @@ const TerminologyPage = () => {
     { id: 'karate-titles', title: 'Karate Titles', component: <KarateTitles /> },
     { id: 'stances', title: 'Stances', component: <Stances /> },
     { id: 'blocks', title: 'Blocks', component: <Blocks /> },
-    { id: 'general-terms', title: 'General Terms', component: <GeneralTerminology /> },
-    // Add other subsections similarly
+    { id: 'general-terms', title: 'General Terms', component: <GeneralTerminology /> }
   ];
 
   return (
