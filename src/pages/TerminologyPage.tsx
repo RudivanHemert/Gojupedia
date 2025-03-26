@@ -39,7 +39,7 @@ const TerminologyPage = () => {
     <MobileLayout>
       <div className="relative h-40 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1524684009724-bee13ad8305f?q=80&w=2970&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1524684009724-bee13ad8305f?q=80&w=2970&auto=format&fit"
           alt="Japanese Terminology"
           className="absolute inset-0 w-full h-full object-cover"
         />
