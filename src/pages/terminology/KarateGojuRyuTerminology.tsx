@@ -1,24 +1,30 @@
+@ -1,29 +0,0 @@
+
 import React from 'react';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const KarateGojuRyuTerminology = () => {
+  const terms = [
+    "Shodan : 1st Dan black belt",
+    "Nidan : 2nd Dan",
+    "Sandan : 3rd Dan",
+    "Yondan : 4th Dan",
+    "Godan : 5th Dan",
+    "Rokudan : 6th Dan",
+    "Nanadan : 7th Dan",
+    "Hachidan : 8th Dan",
+    "Kyudan : 9th Dan",
+    "Jyudan : 10th Dan"
+  ];
+
   return (
-    <Accordion type="single" collapsible className="w-full">
-      <AccordionItem value="item-1">
-        <AccordionTrigger>Basic Terms</AccordionTrigger>
-        <AccordionContent>
-          <ul className="list-disc pl-4 space-y-2">
-            <li>Karate (空手) - Empty Hand</li>
-            <li>Goju-Ryu (剛柔流) - Hard-Soft Style</li>
-            <li>Dojo (道場) - Training Hall</li>
-            <li>Sensei (先生) - Teacher</li>
-            <li>Senpai (先輩) - Senior Student</li>
-            <li>Kohai (後輩) - Junior Student</li>
-          </ul>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+    <ul className="space-y-2">
+      {terms.map((term, index) => (
+        <li key={index} className="text-gray-700">
+          {term}
+        </li>
+      ))}
+    </ul>
   );
 };
 
-export default KarateGojuRyuTerminology; 
+export default KarateGojuRyuTerminology;

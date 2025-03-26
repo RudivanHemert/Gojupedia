@@ -1,28 +1,100 @@
+@ -1,99 +0,0 @@
+
 import React from 'react';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const GeneralTerminology = () => {
+  const terms = [
+    "Ashi barai: Foot sweep",
+    "Budo : Martial Way; Martial arts",
+    "Busaganishi: Martial arts deity",
+    "Bunkai: Study of kata applications and techniques",
+    "Chiru no chan chan : Fast, springy action",
+    "Chudan : Middle level",
+    "Dan : Level",
+    "Do : Way; Path",
+    "Dojo : Training place",
+    "Dojo kun : Dojo rules",
+    "Gasshuku : Special karate training camp",
+    "Gedan : Lower level",
+    "Geri : Kick",
+    "Gi: Jacket; training costume; tunic",
+    "Go : Hard; unyielding",
+    "Go kumite : Hard sparring",
+    "Goju Ryu Karate Do : Hard / Soft style, empty handed Way",
+    "Hai: Yes",
+    "Hajime : Begin",
+    "Hara : Stomach",
+    "Heishugata : 'Closed Fist' kata (Sanchin and Tensho)",
+    "Hidari : Left",
+    "Hiji : Elbow",
+    "Hiza : Knee",
+    "Hojo undo : Supplementary exercises",
+    "Honbu Dojo : Central dojo of an organization",
+    "Ippon kumite : One point sparring",
+    "Jodan : Upper level",
+    "Ju : Soft; flexible",
+    "Junbi Undo : Warm up exercises",
+    "Kaishugata : 'Open fist' kata (Gekisai, Saifa, etc.)",
+    "Kakie : Push hands",
+    "Kamae : Combative posture",
+    "Kamae te : Assume stance",
+    "Kanji: Chinese characters",
+    "Karate : Empty hand",
+    "Karate-Do : The way of Karate",
+    "Kata : Forms",
+    "Keage : Snap action",
+    "Kenkon : The symbol of the I.O.G.K.F. Literally 'Heaven and Earth'",
+    "Ki o tsuke : Attention (phonetically 'kee-ut-ski')",
+    "Kiai: Focusing shout",
+    "Kihon : Basic techniques",
+    "Kokomi: Thrust action",
+    "Koshi: Ball of the foot",
+    "Kumite : Sparring",
+    "Kyu : White to brown belt rank",
+    "Mae : Front",
+    "Mawatte : Turn around",
+    "Migi: Right",
+    "Mokuso : Silent contemplation, meditation",
+    "Muchimi: Heavy, sticky action",
+    "Obi: Training uniform belt",
+    "Oyo bunkai: Study of techiques in kata (similar to Bunkai but including follow-ups)",
+    "Otagai: Training partner",
+    "Randori: Free sparring, relaxed sparring (sometimes called 'Jiyu kumite')",
+    "Rei: Bow",
+    "Sandan gi: Three level sparring",
+    "Seiken : Fore fist",
+    "Seiza : Formal sitting position (kneeling on your haunches, feet crossed)",
+    "Semete : Attacking partner",
+    "Shime : Sanchin testing",
+    "Shomen : The front",
+    "Shugo : Line up",
+    "Ski atte : Change hands",
+    "Suri ashi : Sliding step",
+    "Tai sabaki : Body evasion ability",
+    "Tanden : Navel",
+    "Te : Hand",
+    "Ude : Forearm",
+    "Ude tanren : Forearm conditioning",
+    "Uke harai: Blocking exercises",
+    "Ushiro : Back, rear",
+    "Waza : Techniques",
+    "Yobi undo : Warm up exercises",
+    "Yakusoku kumite : Pre-arranged sparring",
+    "Yame : Stop",
+    "Yoi: Ready",
+    "Yoko : Side",
+    "Zanshin : Awareness"
+  ];
+
   return (
-    <Accordion type="single" collapsible className="w-full">
-      <AccordionItem value="item-1">
-        <AccordionTrigger>General Terms</AccordionTrigger>
-        <AccordionContent>
-          <ul className="list-disc pl-4 space-y-2">
-            <li>Kihon (基本) - Basics</li>
-            <li>Kata (型) - Form</li>
-            <li>Kumite (組手) - Sparring</li>
-            <li>Bunkai (分解) - Application</li>
-            <li>Gi (着) - Training Uniform</li>
-            <li>Obi (帯) - Belt</li>
-            <li>Mokuso (黙想) - Meditation</li>
-            <li>Rei (礼) - Bow</li>
-            <li>Hajime (始め) - Begin</li>
-            <li>Yame (止め) - Stop</li>
-          </ul>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+    <ul className="space-y-2">
+      {terms.map((term, index) => (
+        <li key={index} className="text-gray-700">
+          {term}
+        </li>
+      ))}
+    </ul>
   );
 };
 
-export default GeneralTerminology; 
+export default GeneralTerminology;

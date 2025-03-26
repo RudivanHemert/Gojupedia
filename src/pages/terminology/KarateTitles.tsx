@@ -1,28 +1,33 @@
+@ -1,32 +0,0 @@
+
 import React from 'react';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const KarateTitles = () => {
+  const terms = [
+    "Bushi: Great martial artist (Okinawan); Warlord (Japanese)",
+    "Hanshi : Head person of an organization",
+    "Karateka : A practitioner of Karate",
+    "Kohai: A student junior to oneself",
+    "Kyoshi: Master instructor",
+    "Mudansha : Students without black belt rank",
+    "Reigi renshi: Polished instructor",
+    "Sensei: Instructor, Teacher",
+    "Sempai: A senior student",
+    "Shihan : Formal title, Master Instructor, or Teacher of Teachers",
+    "Shushin : Referee in a bout",
+    "Uchi Deshi: A live-in student",
+    "Yudansha : Black belt holder (any rank)"
+  ];
+
   return (
-    <Accordion type="single" collapsible className="w-full">
-      <AccordionItem value="item-1">
-        <AccordionTrigger>Karate Titles and Ranks</AccordionTrigger>
-        <AccordionContent>
-          <ul className="list-disc pl-4 space-y-2">
-            <li>Shodan (初段) - First Degree Black Belt</li>
-            <li>Nidan (二段) - Second Degree Black Belt</li>
-            <li>Sandan (三段) - Third Degree Black Belt</li>
-            <li>Yondan (四段) - Fourth Degree Black Belt</li>
-            <li>Godan (五段) - Fifth Degree Black Belt</li>
-            <li>Rokudan (六段) - Sixth Degree Black Belt</li>
-            <li>Shichidan (七段) - Seventh Degree Black Belt</li>
-            <li>Hachidan (八段) - Eighth Degree Black Belt</li>
-            <li>Kudan (九段) - Ninth Degree Black Belt</li>
-            <li>Judan (十段) - Tenth Degree Black Belt</li>
-          </ul>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+    <ul className="space-y-2">
+      {terms.map((term, index) => (
+        <li key={index} className="text-gray-700">
+          {term}
+        </li>
+      ))}
+    </ul>
   );
 };
 
-export default KarateTitles; 
+export default KarateTitles;
