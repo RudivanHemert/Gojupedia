@@ -1,32 +1,65 @@
-@ -1,32 +0,0 @@
-
-import React from 'react';
+import React, { useState } from 'react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { mediaItems } from '@/data/media';
+import MediaManager from '@/components/media/MediaManager';
 
 const KarateTitles = () => {
-  const terms = [
-    "Bushi: Great martial artist (Okinawan); Warlord (Japanese)",
-    "Hanshi : Head person of an organization",
-    "Karateka : A practitioner of Karate",
-    "Kohai: A student junior to oneself",
-    "Kyoshi: Master instructor",
-    "Mudansha : Students without black belt rank",
-    "Reigi renshi: Polished instructor",
-    "Sensei: Instructor, Teacher",
-    "Sempai: A senior student",
-    "Shihan : Formal title, Master Instructor, or Teacher of Teachers",
-    "Shushin : Referee in a bout",
-    "Uchi Deshi: A live-in student",
-    "Yudansha : Black belt holder (any rank)"
-  ];
+  const [selectedMedia, setSelectedMedia] = useState<string | null>(null);
+
+  const titlesMedia = mediaItems.filter(item => 
+    item.tags.includes('titles') || item.category === 'terminology'
+  );
 
   return (
-    <ul className="space-y-2">
-      {terms.map((term, index) => (
-        <li key={index} className="text-gray-700">
-          {term}
-        </li>
-      ))}
-    </ul>
+    <div className="space-y-6">
+      <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="instructor-titles">
+          <AccordionTrigger>Instructor Titles</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Hanshi (範士) - Head Person of an Organization</li>
+              <li>Kyoshi (教士) - Master Instructor</li>
+              <li>Renshi (錬士) - Polished Instructor</li>
+              <li>Sensei (先生) - Teacher</li>
+              <li>Shihan (師範) - Master Instructor, Teacher of Teachers</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="student-titles">
+          <AccordionTrigger>Student Titles</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Karateka (空手家) - Karate Practitioner</li>
+              <li>Senpai (先輩) - Senior Student</li>
+              <li>Kohai (後輩) - Junior Student</li>
+              <li>Yudansha (有段者) - Black Belt Holder</li>
+              <li>Mudansha (無段者) - Student Without Black Belt</li>
+              <li>Uchi Deshi (内弟子) - Live-in Student</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="other-titles">
+          <AccordionTrigger>Other Titles</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Bushi (武士) - Great Martial Artist</li>
+              <li>Shushin (主審) - Referee</li>
+              <li>Fukushin (副審) - Assistant Referee</li>
+              <li>Kansa (監査) - Judge</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+
+      {selectedMedia && (
+        <MediaManager
+          mediaId={selectedMedia}
+          onClose={() => setSelectedMedia(null)}
+        />
+      )}
+    </div>
   );
 };
 

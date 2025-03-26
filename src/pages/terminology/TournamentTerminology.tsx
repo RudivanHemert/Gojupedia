@@ -1,60 +1,98 @@
-@ -1,60 +0,0 @@
-
-import React from 'react';
+import React, { useState } from 'react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { mediaItems } from '@/data/media';
+import MediaManager from '@/components/media/MediaManager';
+import { motion } from 'framer-motion';
 
 const TournamentTerminology = () => {
-  const terms = [
-    "Aiuchi: Simultaneous points by both opponents",
-    "Aka : Red",
-    "Atoshi baraku : 30 seconds to go",
-    "Atenai Yoni: Warning without penalty",
-    "Attate Iru : Contact",
-    "Chui: Warning",
-    "Encho-sen : Extension of bout",
-    "Fujubun : Not enough power",
-    "Fukushin : Referee's mirror in a bout; the judge",
-    "Fukushin Shugo : Judges conference",
-    "Hansoku : Foul",
-    "Hansoku chui: Warning with an ippon penalty",
-    "Hantei: Judgement",
-    "Hikiwake : Draw",
-    "Ippon : One point",
-    "Jogai: Exit from fighting area",
-    "Jo sokutei: Raised sole (also double entry)",
-    "Kachi: Victorious winner",
-    "Kansa : The timekeeper in a bout; the arbitrator",
-    "Keikoku : Warning with waza ari penalty",
-    "Kiken : Renunciation",
-    "Ma-ai ga toh : Improper distancing",
-    "Moto no ichi: Return to your starting position",
-    "Mubobi: Warning for lack of regard for one's own safety",
-    "No Jikan : Time",
-    "Nukete Iru : Out of target",
-    "Shiai: Match",
-    "Shikaku : Disqualification and dismissal",
-    "Shushin : Referee",
-    "Shiro : White",
-    "Shobu ippon : One point match",
-    "Shobu nihon : Two point match",
-    "Shobu sanbon : Three point match",
-    "Sore made : End of match",
-    "Suki: Opening",
-    "Taiming go osoi: Not proper timing",
-    "Torimasen : No point",
-    "Tsuzukete : Resume; Carry on",
-    "Ukete Iru : Blocked",
-    "Waza ari: Half-point",
-    "Yowai: Weak focus"
-  ];
+  const [selectedMedia, setSelectedMedia] = useState<string | null>(null);
+
+  const tournamentMedia = mediaItems.filter(item => 
+    item.tags.includes('tournament') || item.category === 'terminology'
+  );
 
   return (
-    <ul className="space-y-2">
-      {terms.map((term, index) => (
-        <li key={index} className="text-gray-700">
-          {term}
-        </li>
-      ))}
-    </ul>
+    <div className="space-y-6">
+      <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="scoring">
+          <AccordionTrigger>Scoring</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Ippon (一本) - One Point</li>
+              <li>Waza Ari (技あり) - Half Point</li>
+              <li>Aiuchi (相打ち) - Simultaneous Points</li>
+              <li>Torimasen (取りません) - No Point</li>
+              <li>Hikiwake (引き分け) - Draw</li>
+              <li>Kachi (勝ち) - Victory</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="penalties">
+          <AccordionTrigger>Penalties</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Hansoku (反則) - Foul</li>
+              <li>Hansoku Chui (反則注意) - Warning with Ippon Penalty</li>
+              <li>Keikoku (警告) - Warning with Waza Ari Penalty</li>
+              <li>Chui (注意) - Warning</li>
+              <li>Shikaku (失格) - Disqualification</li>
+              <li>Mubobi (無防備) - Warning for Lack of Self-Defense</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="officials">
+          <AccordionTrigger>Tournament Officials</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Shushin (主審) - Referee</li>
+              <li>Fukushin (副審) - Judge</li>
+              <li>Kansa (監査) - Arbitrator</li>
+              <li>Fukushin Shugo (副審集合) - Judges Conference</li>
+              <li>Hantei (判定) - Decision</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="commands">
+          <AccordionTrigger>Commands</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Hajime (始め) - Begin</li>
+              <li>Yame (止め) - Stop</li>
+              <li>Tsuzukete (続けて) - Continue</li>
+              <li>Moto no Ichi (元の位置) - Return to Starting Position</li>
+              <li>Sore Made (それまで) - End of Match</li>
+              <li>Atoshi Baraku (後30秒) - 30 Seconds Remaining</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="other-terms">
+          <AccordionTrigger>Other Terms</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Shiai (試合) - Match</li>
+              <li>Encho-sen (延長戦) - Extension</li>
+              <li>Jogai (場外) - Exit from Fighting Area</li>
+              <li>Ma-ai ga To (間合いが遠) - Improper Distance</li>
+              <li>Ukete Iru (受けている) - Blocked</li>
+              <li>Nukete Iru (抜けている) - Out of Target</li>
+              <li>Fujubun (不十分) - Insufficient Power</li>
+              <li>Yowai (弱い) - Weak Focus</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+
+      {selectedMedia && (
+        <MediaManager
+          mediaId={selectedMedia}
+          onClose={() => setSelectedMedia(null)}
+        />
+      )}
+    </div>
   );
 };
 

@@ -1,54 +1,60 @@
-@ -1,54 +0,0 @@
-
-import React from 'react';
+import React, { useState } from 'react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { mediaItems } from '@/data/media';
+import MediaManager from '@/components/media/MediaManager';
 
 const Punches = () => {
-  const terms = [
-    "Age zuki : Rising punch",
-    "Choku zuki : Straight punching from a parallel stance",
-    "Chudan zuki : Middle area punch",
-    "Furi zuki : Circular punch",
-    "Gedan zuki : Punch to low area",
-    "Gyaku zuki : Reverse punch",
-    "Jodan zuki : Upper punch",
-    "Kizame Zuki : Jab Punch",
-    "Oi zuki : Lunge punch",
-    "Seiken zuki : Forefist punch",
-    "Ura zuki : Close range punch",
-    "Awase zuki : U punch",
-    "Choku zuki chudan : Straight punch to body",
-    "Dan zuki : Consecutive punching",
-    "Hasami zuki : Scissors punch",
-    "Heiko zuki : Double punch, simultaneous",
-    "Hiraken zuki : Fore-knuckle-fist straight punch",
-    "Hon zuki : Frontal punch",
-    "Ippon ken zuki : One-knuckle-fist straight punch",
-    "Jun zuki : Double punch, consecutive",
-    "Kagi zuki : Hook punch",
-    "Mawashi zuki : Roundhouse punch",
-    "Morote zuki : Double-fist U-punch",
-    "Nagashi zuki : Flowing punch",
-    "Nihon zuki : Double punch",
-    "Oroshi zuki : Descending punch",
-    "Ren zuki : Alternate punching",
-    "Sanbon zuki : Three punch combination",
-    "San ren zuki : Three consecutive punches",
-    "Seiken choku zuki : Fore-fist punching from a parallel stance",
-    "Tate zuki : Vertical fist punch",
-    "Ten zuki : Heaven punch",
-    "Tsun zuki : One inch punch (as used in the kata Sesan)",
-    "Yama zuki : Mountain punch",
-    "Yoko zuki : Side punch"
-  ];
+  const [selectedMedia, setSelectedMedia] = useState<string | null>(null);
+
+  const punchesMedia = mediaItems.filter(item => 
+    item.tags.includes('punches') || item.category === 'terminology'
+  );
 
   return (
-    <ul className="space-y-2">
-      {terms.map((term, index) => (
-        <li key={index} className="text-gray-700">
-          {term}
-        </li>
-      ))}
-    </ul>
+    <div className="space-y-6">
+      <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="basic-punches">
+          <AccordionTrigger>Basic Punches</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Seiken Tsuki (正拳突き) - Forefist Punch</li>
+              <li>Gyaku Tsuki (逆突き) - Reverse Punch</li>
+              <li>Oi Tsuki (追い突き) - Lunge Punch</li>
+              <li>Kizami Tsuki (刻み突き) - Jab Punch</li>
+              <li>Morote Tsuki (諸手突き) - Double Punch</li>
+              <li>Yama Tsuki (山突き) - Mountain Punch</li>
+              <li>Awase Tsuki (合わせ突き) - U Punch</li>
+              <li>Hasami Tsuki (はさみ突き) - Scissors Punch</li>
+              <li>Heiko Tsuki (平行突き) - Parallel Punch</li>
+              <li>Kage Tsuki (影突き) - Hook Punch</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="special-punches">
+          <AccordionTrigger>Special Punches</AccordionTrigger>
+          <AccordionContent>
+            <ul className="list-disc pl-4 space-y-2">
+              <li>Tate Tsuki (立て突き) - Vertical Punch</li>
+              <li>Ura Tsuki (裏突き) - Back Fist Punch</li>
+              <li>Nukite (貫手) - Spear Hand</li>
+              <li>Ippon Ken (一本拳) - One Knuckle Punch</li>
+              <li>Nakadaka Ippon Ken (中高一本拳) - Middle Finger One Knuckle Punch</li>
+              <li>Hiraken (平拳) - Flat Fist</li>
+              <li>Washide (鷲手) - Eagle Hand</li>
+              <li>Koken (虎拳) - Tiger Mouth</li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+
+      {selectedMedia && (
+        <MediaManager
+          mediaId={selectedMedia}
+          onClose={() => setSelectedMedia(null)}
+        />
+      )}
+    </div>
   );
 };
 
