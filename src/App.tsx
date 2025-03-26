@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -30,41 +31,51 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
+      <AuthProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
 
-          {/* Theory section */}
-          <Route path="/theory" element={<TheoryPage />} />
-          <Route path="/terminology" element={<TerminologyPage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route path="/philosophy" element={<PhilosophyPage />} />
-          <Route path="/vital-points" element={<VitalPointsPage />} />
+            {/* Theory section */}
+            <Route path="/theory" element={<TheoryPage />} />
+            <Route path="/terminology" element={<TerminologyPage />} />
+            <Route path="/history" element={<HistoryPage />} />
+            <Route path="/philosophy" element={<PhilosophyPage />} />
+            <Route path="/vital-points" element={<VitalPointsPage />} />
 
-          {/* Practice section */}
-          <Route path="/practice" element={<PracticePage />} />
-          <Route path="/techniques" element={<TechniquesPage />} />
-          <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
-          <Route path="/kata" element={<KataPage />} />
-          <Route path="/kata/:id" element={<KataDetailPage />} />
-          <Route path="/hojo-undo" element={<HojoUndoPage />} />
-          <Route path="/kumite" element={<KumitePage />} />
+            {/* Practice section */}
+            <Route path="/practice" element={<PracticePage />} />
+            <Route path="/techniques" element={<TechniquesPage />} />
+            <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
+            <Route path="/kata" element={<KataPage />} />
+            <Route path="/kata/:id" element={<KataDetailPage />} />
+            <Route path="/hojo-undo" element={<HojoUndoPage />} />
+            <Route path="/kumite" element={<KumitePage />} />
 
-          {/* Study section */}
-          <Route path="/study" element={<StudyPage />} />
-          <Route path="/study/:id" element={<StudyDetailPage />} />
-          <Route path="/gradings" element={<GradingsPage />} />
-          
-          {/* Catch-all */}
-          <Route path="*" element={<NotFound />} />
-
-          {/* Admin section */}
-          <Route path="/admin" element={<AdminDashboard />} />
-          <Route path="/admin/media" element={<MediaManagerPage />} />
-        </Routes>
-      </BrowserRouter>
+            {/* Study section */}
+            <Route path="/study" element={<StudyPage />} />
+            <Route path="/study/:id" element={<StudyDetailPage />} />
+            <Route path="/gradings" element={<GradingsPage />} />
+            
+            {/* Admin section */}
+            <Route path="/admin" element={
+              <ProtectedRoute>
+                <AdminDashboard />
+              </ProtectedRoute>
+            } />
+            <Route path="/admin/media" element={
+              <ProtectedRoute>
+                <MediaManagerPage />
+              </ProtectedRoute>
+            } />
+            
+            {/* Catch-all */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );

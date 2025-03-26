@@ -1,3 +1,4 @@
+
 const WIKI_BASE_URL = 'https://raw.githubusercontent.com/wiki/RudivanHemert/goju-wiki-quest';
 const WIKI_MEDIA_BASE_URL = `${WIKI_BASE_URL}/media`;
 
