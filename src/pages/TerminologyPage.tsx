@@ -26,4 +26,11 @@ const TerminologyPage = () => {
         <img 
           src="https://images.unsplash.com/photo-1524684009724-bee13ad8305f?q=80&w=2970&auto=format&fit=crop" 
           alt="Japanese Terminology" 
-          className="absolute inset-0
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
+    </MobileLayout>
+  );
+};
+
+export default TerminologyPage;
