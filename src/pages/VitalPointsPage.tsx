@@ -1,7 +1,7 @@
-
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
+import VitalPoints from './terminology/VitalPoints';
 
 const VitalPointsPage = () => {
   return (
@@ -29,9 +29,7 @@ const VitalPointsPage = () => {
           transition={{ duration: 0.5 }}
           className="bg-white rounded-lg shadow p-4"
         >
-          <p className="text-gray-600 text-center italic">
-            Vital Points content coming soon...
-          </p>
+          <VitalPoints />
         </motion.div>
       </div>
     </MobileLayout>

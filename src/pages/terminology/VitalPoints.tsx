@@ -1,67 +1,49 @@
-import React, { useState } from 'react';
-import { mediaItems } from '@/data/media';
-import MediaManager from '@/components/media/MediaManager';
+import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import InteractiveVitalPoints from '@/components/theory/InteractiveVitalPoints';
 
 const VitalPoints = () => {
-  const [selectedMedia, setSelectedMedia] = useState<string | null>(null);
-
-  const vitalPointsMedia = mediaItems.filter(item => 
-    item.tags.includes('vital-points') || item.category === 'vital-points'
-  );
-
   return (
     <div className="space-y-6">
       <Accordion type="single" collapsible className="w-full">
-        <AccordionItem value="front-view">
-          <AccordionTrigger>Front View</AccordionTrigger>
+        <AccordionItem value="interactive-diagram">
+          <AccordionTrigger>Interactive Vital Points Diagram</AccordionTrigger>
           <AccordionContent>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {vitalPointsMedia
-                .filter(item => item.tags.includes('front'))
-                .map((item) => (
-                  <div key={item.id} className="relative group cursor-pointer">
-                    <img
-                      src={item.url}
-                      alt={item.title}
-                      className="w-full h-auto rounded-lg"
-                      onClick={() => setSelectedMedia(item.id)}
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity rounded-lg" />
-                  </div>
-                ))}
-            </div>
+            <InteractiveVitalPoints />
           </AccordionContent>
         </AccordionItem>
 
-        <AccordionItem value="back-view">
-          <AccordionTrigger>Back View</AccordionTrigger>
+        <AccordionItem value="vital-points-list">
+          <AccordionTrigger>Vital Points List</AccordionTrigger>
           <AccordionContent>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {vitalPointsMedia
-                .filter(item => item.tags.includes('back'))
-                .map((item) => (
-                  <div key={item.id} className="relative group cursor-pointer">
-                    <img
-                      src={item.url}
-                      alt={item.title}
-                      className="w-full h-auto rounded-lg"
-                      onClick={() => setSelectedMedia(item.id)}
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity rounded-lg" />
-                  </div>
-                ))}
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-3">Front View Vital Points</h3>
+                <ul className="list-disc pl-4 space-y-2">
+                  <li>Temple (太陽穴) - Located on the side of the head, above the ear. A strike here can cause unconsciousness.</li>
+                  <li>Jaw (顎) - A strike to the jaw can cause disorientation and loss of balance.</li>
+                  <li>Throat (喉) - A strike to the throat can cause difficulty breathing and loss of consciousness.</li>
+                  <li>Solar Plexus (鳩尾) - Located in the center of the chest. A strike here can cause difficulty breathing and loss of consciousness.</li>
+                  <li>Ribs (肋骨) - A strike to the ribs can cause pain and difficulty breathing.</li>
+                  <li>Liver (肝臓) - Located on the right side of the body. A strike here can cause severe pain and loss of consciousness.</li>
+                  <li>Groin (金的) - A strike to the groin can cause severe pain and temporary incapacitation.</li>
+                  <li>Knee (膝) - A strike to the knee can cause pain and loss of balance.</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-3">Back View Vital Points</h3>
+                <ul className="list-disc pl-4 space-y-2">
+                  <li>Back of Neck (後頸) - Located at the base of the skull. A strike here can cause unconsciousness.</li>
+                  <li>Spine (脊椎) - A strike to the spine can cause severe pain and temporary paralysis.</li>
+                  <li>Kidneys (腎臓) - Located on either side of the spine. A strike here can cause severe pain and internal damage.</li>
+                  <li>Tailbone (尾骨) - A strike to the tailbone can cause severe pain and temporary incapacitation.</li>
+                </ul>
+              </div>
             </div>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-
-      {selectedMedia && (
-        <MediaManager
-          mediaId={selectedMedia}
-          onClose={() => setSelectedMedia(null)}
-        />
-      )}
     </div>
   );
 };
