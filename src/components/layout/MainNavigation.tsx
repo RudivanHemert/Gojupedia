@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Home, ScrollText, Dumbbell, Brain } from 'lucide-react';
+import { Home, ScrollText, Dumbbell, Brain, Settings } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 interface MainNavigationProps {
@@ -20,9 +19,10 @@ const MainNavigation: React.FC<MainNavigationProps> = ({ activeTab }) => {
         else if (value === "theory") navigate("/theory");
         else if (value === "practice") navigate("/practice");
         else if (value === "study") navigate("/study");
+        else if (value === "settings") navigate("/settings");
       }}
     >
-      <TabsList className="grid grid-cols-4 h-14 bg-stone-100">
+      <TabsList className="grid grid-cols-5 h-14 bg-stone-100">
         <TabsTrigger value="home" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
           <Home size={18} />
           <span className="text-xs">Home</span>
@@ -38,6 +38,10 @@ const MainNavigation: React.FC<MainNavigationProps> = ({ activeTab }) => {
         <TabsTrigger value="study" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
           <Brain size={18} />
           <span className="text-xs">Study</span>
+        </TabsTrigger>
+        <TabsTrigger value="settings" className="flex flex-col items-center justify-center space-y-1 data-[state=active]:bg-stone-200">
+          <Settings size={18} />
+          <span className="text-xs">Settings</span>
         </TabsTrigger>
       </TabsList>
     </Tabs>

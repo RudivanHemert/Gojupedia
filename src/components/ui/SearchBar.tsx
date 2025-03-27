@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiSearch, FiX } from 'react-icons/fi';
+import { Search, X } from 'lucide-react';
 
 interface SearchBarProps {
   onSearch: (term: string) => void;
@@ -88,7 +88,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
       className={`relative flex items-center ${fullWidth ? 'w-full' : 'max-w-md'} ${className}`}
     >
       <div className="relative w-full">
-        <FiSearch 
+        <Search 
           className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-400" 
           size={18} 
         />
@@ -115,7 +115,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
               className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none"
               aria-label="Clear search"
             >
-              <FiX size={18} />
+              <X size={18} />
             </motion.button>
           )}
         </AnimatePresence>

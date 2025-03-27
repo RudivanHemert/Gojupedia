@@ -18,6 +18,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
   const isTheory = ['/theory', '/terminology', '/history', '/philosophy', '/vital-points'].includes(basePath);
   const isPractice = ['/practice', '/techniques', '/kata', '/hojo-undo', '/kumite'].includes(basePath);
   const isStudy = ['/study', '/gradings'].includes(basePath);
+  const isSettings = basePath === '/settings';
 
   const [activeTab, setActiveTab] = useState("home");
 
@@ -30,8 +31,10 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
       setActiveTab("practice");
     } else if (isStudy) {
       setActiveTab("study");
+    } else if (isSettings) {
+      setActiveTab("settings");
     }
-  }, [currentPath, isAtRoot, isTheory, isPractice, isStudy]);
+  }, [currentPath, isAtRoot, isTheory, isPractice, isStudy, isSettings]);
 
   return (
     <div className="app-container relative">

@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 interface CacheOptions {
   cacheName?: string;
-  expiration?: number; // in milliseconds
+  expiration?: number; // In milliseconds
 }
 
 /**
@@ -12,141 +12,142 @@ interface CacheOptions {
  * @returns Object with cached data and loading/error states
  */
 export function useOfflineCache<T>(
-  url: string, 
+  url: string,
   options: CacheOptions = {}
-): { 
-  data: T | null; 
-  isLoading: boolean; 
-  error: Error | null;
-  refetch: () => Promise<void>;
-} {
+) {
+  const { cacheName = 'offline-data', expiration = 24 * 60 * 60 * 1000 } = options; // Default 24h
   const [data, setData] = useState<T | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
-  
-  const {
-    cacheName = 'goju-wiki-offline-cache',
-    expiration = 24 * 60 * 60 * 1000 // 24 hours
-  } = options;
-  
-  // Function to fetch and cache data
-  const fetchAndCache = async () => {
+
+  const fetchAndCache = useCallback(async () => {
     setIsLoading(true);
     setError(null);
-    
+
     try {
-      // Check if we have a cached version
+      // Check cache first
       const cachedData = await getCachedData<T>(url, cacheName, expiration);
       
       if (cachedData) {
         setData(cachedData);
         setIsLoading(false);
-        
-        // Refresh cache in background
-        refreshCache(url, cacheName).catch(console.error);
-        return;
+        return cachedData;
       }
-      
-      // If no cached data, fetch from network
+
+      // If not in cache or expired, fetch from network
       const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`Network error: ${response.status} ${response.statusText}`);
-      }
       
+      if (!response.ok) {
+        throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+      }
+
       const freshData = await response.json() as T;
       setData(freshData);
-      
-      // Cache the data
+
+      // Cache the fresh data
       await cacheData(url, freshData, cacheName);
+      
+      return freshData;
     } catch (err) {
-      console.error('Error fetching data:', err);
-      setError(err as Error);
+      console.error('Error in fetchAndCache:', err);
+      setError(err instanceof Error ? err : new Error(String(err)));
+      return null;
     } finally {
       setIsLoading(false);
     }
-  };
-  
-  // Refetch function for manual refresh
-  const refetch = async () => {
-    await fetchAndCache();
-  };
-  
-  // Initial fetch
+  }, [url, cacheName, expiration]);
+
+  const refetch = useCallback(() => {
+    return fetchAndCache();
+  }, [fetchAndCache]);
+
   useEffect(() => {
     fetchAndCache();
-  }, [url, cacheName]);
-  
-  return { data, isLoading, error, refetch };
+  }, [url, cacheName, fetchAndCache]);
+
+  return {
+    data,
+    isLoading,
+    error,
+    refetch,
+    refreshCache: () => refreshCache(url, cacheName)
+  };
 }
 
-// Get data from cache if available and not expired
-async function getCachedData<T>(
-  url: string, 
-  cacheName: string,
-  expiration: number
-): Promise<T | null> {
+// Helper function to get data from cache
+async function getCachedData<T>(url: string, cacheName: string, expiration: number): Promise<T | null> {
+  if (!('caches' in window)) {
+    return null;
+  }
+
   try {
     const cache = await caches.open(cacheName);
     const response = await cache.match(url);
     
-    if (!response) return null;
-    
-    const cachedData = await response.json();
-    const timestamp = cachedData._timestamp as number;
-    
-    // Check if cache has expired
-    if (timestamp && Date.now() - timestamp > expiration) {
+    if (!response) {
       return null;
     }
     
-    return cachedData.data as T;
-  } catch (err) {
-    console.error('Error reading from cache:', err);
+    const data = await response.json();
+    
+    // Check if cached data is expired
+    if (data._timestamp && Date.now() - data._timestamp > expiration) {
+      // Data is expired, remove it from cache
+      await cache.delete(url);
+      return null;
+    }
+    
+    return data;
+  } catch (error) {
+    console.error('Error getting cached data:', error);
     return null;
   }
 }
 
-// Cache data with timestamp
-async function cacheData<T>(
-  url: string,
-  data: T,
-  cacheName: string
-): Promise<void> {
+// Helper function to cache data
+async function cacheData<T>(url: string, data: T, cacheName: string): Promise<void> {
+  if (!('caches' in window)) {
+    return;
+  }
+
   try {
     const cache = await caches.open(cacheName);
-    const headers = new Headers({
-      'Content-Type': 'application/json',
-      'Cache-Control': 'max-age=86400' // 24 hours
+    const dataWithTimestamp = { ...data, _timestamp: Date.now() };
+    const response = new Response(JSON.stringify(dataWithTimestamp), {
+      headers: { 'Content-Type': 'application/json' }
     });
-    
-    const wrappedData = {
-      data,
-      _timestamp: Date.now()
-    };
-    
-    const response = new Response(JSON.stringify(wrappedData), {
-      headers
-    });
-    
     await cache.put(url, response);
-  } catch (err) {
-    console.error('Error caching data:', err);
+  } catch (error) {
+    console.error('Error caching data:', error);
   }
 }
 
-// Refresh cache in background
-async function refreshCache(
-  url: string, 
-  cacheName: string
-): Promise<void> {
+// Helper function to refresh cache
+async function refreshCache(url: string, cacheName: string): Promise<boolean> {
+  if (!('caches' in window)) {
+    return false;
+  }
+
   try {
+    const cache = await caches.open(cacheName);
+    await cache.delete(url);
+    
     const response = await fetch(url);
-    if (!response.ok) return;
+    if (!response.ok) {
+      throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+    }
     
     const freshData = await response.json();
-    await cacheData(url, freshData, cacheName);
-  } catch (err) {
-    console.error('Error refreshing cache:', err);
+    const dataWithTimestamp = { ...freshData, _timestamp: Date.now() };
+    
+    await cache.put(url, new Response(JSON.stringify(dataWithTimestamp), {
+      headers: { 'Content-Type': 'application/json' }
+    }));
+    
+    return true;
+  } catch (error) {
+    console.error('Error refreshing cache:', error);
+    return false;
   }
 }
 
@@ -159,67 +160,72 @@ async function refreshCache(
 export function useOfflineImage(
   imageUrl: string,
   options: CacheOptions = {}
-): {
-  cachedUrl: string | null;
-  isLoading: boolean;
-  error: Error | null;
-} {
-  const [cachedUrl, setCachedUrl] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+) {
+  const { cacheName = 'offline-images', expiration = 7 * 24 * 60 * 60 * 1000 } = options; // Default 7 days
+  const [cachedUrl, setCachedUrl] = useState<string>(imageUrl);
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
-  
-  const {
-    cacheName = 'goju-wiki-image-cache',
-    expiration = 7 * 24 * 60 * 60 * 1000 // 7 days
-  } = options;
-  
+
   useEffect(() => {
+    if (!('caches' in window)) {
+      setCachedUrl(imageUrl);
+      setIsLoading(false);
+      return;
+    }
+
+    let isMounted = true;
+    setIsLoading(true);
+    setError(null);
+
     async function cacheImage() {
-      if (!imageUrl) {
-        setIsLoading(false);
-        return;
-      }
-      
-      setIsLoading(true);
-      setError(null);
-      
       try {
-        // Try to get from cache first
+        // Check if image is in cache
         const cache = await caches.open(cacheName);
-        let cachedResponse = await cache.match(imageUrl);
-        
-        // If not in cache or expired, fetch and cache
-        if (!cachedResponse) {
-          const response = await fetch(imageUrl, { mode: 'no-cors' });
-          await cache.put(imageUrl, response.clone());
-          cachedResponse = response;
+        const cachedResponse = await cache.match(imageUrl);
+
+        if (cachedResponse) {
+          // Image is already cached
+          if (isMounted) {
+            setCachedUrl(imageUrl);
+            setIsLoading(false);
+          }
+          return;
         }
-        
-        // Create an object URL from the cached image
-        const blob = await cachedResponse.blob();
-        const objectUrl = URL.createObjectURL(blob);
-        
-        setCachedUrl(objectUrl);
+
+        // Cache the image
+        const response = await fetch(imageUrl);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch image: ${response.status} ${response.statusText}`);
+        }
+
+        await cache.put(imageUrl, response.clone());
+
+        if (isMounted) {
+          setCachedUrl(imageUrl);
+          setIsLoading(false);
+        }
       } catch (err) {
         console.error('Error caching image:', err);
-        setError(err as Error);
-        
-        // Fall back to original URL
-        setCachedUrl(imageUrl);
-      } finally {
-        setIsLoading(false);
+        if (isMounted) {
+          setError(err instanceof Error ? err : new Error(String(err)));
+          setCachedUrl(imageUrl); // Use original URL as fallback
+          setIsLoading(false);
+        }
       }
     }
-    
+
     cacheImage();
-    
-    // Clean up object URL when component unmounts
+
     return () => {
-      if (cachedUrl && cachedUrl.startsWith('blob:')) {
-        URL.revokeObjectURL(cachedUrl);
-      }
+      isMounted = false;
     };
-  }, [imageUrl, cacheName]);
-  
-  return { cachedUrl, isLoading, error };
-} 
+  }, [imageUrl, cacheName, expiration]);
+
+  return {
+    cachedUrl,
+    isLoading,
+    error
+  };
+}
+
+export default useOfflineCache; 

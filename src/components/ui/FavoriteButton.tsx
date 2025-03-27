@@ -1,104 +1,56 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FaStar } from 'react-icons/fa';
-import { useLanguage } from '@/contexts/LanguageContext';
+import React from 'react';
+import { Heart } from 'lucide-react';
 import { useFavorites, FavoriteItem } from '@/hooks/useFavorites';
+import { cn } from '@/lib/utils';
 
 interface FavoriteButtonProps {
-  item: Omit<FavoriteItem, 'addedAt'>;
+  item: FavoriteItem;
   size?: 'sm' | 'md' | 'lg';
   className?: string;
-  showText?: boolean;
-  onToggle?: (isFavorite: boolean) => void;
 }
 
-const FavoriteButton: React.FC<FavoriteButtonProps> = ({
-  item,
+const FavoriteButton: React.FC<FavoriteButtonProps> = ({ 
+  item, 
   size = 'md',
-  className = '',
-  showText = false,
-  onToggle
+  className 
 }) => {
-  const { t } = useLanguage();
   const { isFavorite, toggleFavorite } = useFavorites();
-  const [isAnimating, setIsAnimating] = useState(false);
-  
-  const isFav = isFavorite(item.id, item.type);
-  
-  // Size maps
-  const sizeMap = {
-    sm: {
-      button: 'p-1.5',
-      icon: 'text-lg',
-      text: 'text-xs',
-    },
-    md: {
-      button: 'p-2',
-      icon: 'text-xl',
-      text: 'text-sm',
-    },
-    lg: {
-      button: 'p-2.5',
-      icon: 'text-2xl',
-      text: 'text-base',
-    },
-  };
+  const isFav = isFavorite(item.id);
   
   const handleToggle = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    
-    setIsAnimating(true);
-    const newIsFavorite = toggleFavorite(item);
-    
-    if (onToggle) {
-      onToggle(newIsFavorite);
-    }
-    
-    // Reset animation state after animation completes
-    setTimeout(() => {
-      setIsAnimating(false);
-    }, 700);
+    toggleFavorite(item);
+  };
+  
+  const sizes = {
+    sm: 'p-1.5 rounded-full',
+    md: 'p-2 rounded-full',
+    lg: 'p-2.5 rounded-full'
+  };
+  
+  const iconSizes = {
+    sm: 18,
+    md: 20,
+    lg: 24
   };
   
   return (
     <button
       onClick={handleToggle}
-      aria-label={isFav ? t('common.unfavorite') : t('common.favorite')}
-      className={`relative flex items-center gap-1.5 focus:outline-none ${sizeMap[size].button} ${className}`}
-    >
-      <div className="relative">
-        <FaStar
-          className={`${sizeMap[size].icon} transition-colors duration-200 ${
-            isFav ? 'text-yellow-400' : 'text-gray-400 dark:text-gray-600'
-          }`}
-        />
-        
-        {/* Animation when adding to favorites */}
-        <AnimatePresence>
-          {isAnimating && isFav && (
-            <motion.div
-              initial={{ scale: 0.5, opacity: 1 }}
-              animate={{ scale: 1.5, opacity: 0 }}
-              exit={{ scale: 1.8, opacity: 0 }}
-              transition={{ duration: 0.7 }}
-              className="absolute inset-0 flex items-center justify-center"
-            >
-              <FaStar className={`${sizeMap[size].icon} text-yellow-400`} />
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
-      
-      {showText && (
-        <span 
-          className={`${sizeMap[size].text} ${
-            isFav ? 'text-yellow-600 dark:text-yellow-400' : 'text-gray-600 dark:text-gray-400'
-          }`}
-        >
-          {isFav ? t('common.unfavorite') : t('common.favorite')}
-        </span>
+      className={cn(
+        sizes[size],
+        isFav 
+          ? 'bg-red-100 text-red-500 dark:bg-red-900 dark:text-red-300' 
+          : 'bg-gray-100 text-gray-500 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700',
+        className
       )}
+      aria-label={isFav ? "Remove from favorites" : "Add to favorites"}
+    >
+      <Heart 
+        size={iconSizes[size]} 
+        fill={isFav ? 'currentColor' : 'none'} 
+      />
     </button>
   );
 };

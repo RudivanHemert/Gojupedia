@@ -1,14 +1,12 @@
 import { useState, useEffect, useCallback } from 'react';
 
-// Define the type for a favorite item
+// Define types
 export interface FavoriteItem {
   id: string;
-  type: 'kata' | 'terminology' | 'technique' | 'vitalPoint' | 'other';
+  type: 'kata' | 'technique' | 'terminology' | 'vitalPoint' | 'lesson' | 'general';
   title: string;
   description?: string;
-  imageUrl?: string;
   path: string;
-  addedAt: number;
 }
 
 // Define local storage key
@@ -39,66 +37,45 @@ export function useFavorites() {
     }
   }, [favorites]);
 
+  // Check if an item is in favorites
+  const isFavorite = useCallback((id: string) => {
+    return favorites.some(item => item.id === id);
+  }, [favorites]);
+
   // Add an item to favorites
-  const addFavorite = useCallback((item: Omit<FavoriteItem, 'addedAt'>) => {
-    setFavorites(prevFavorites => {
-      // Check if item is already in favorites
-      if (prevFavorites.some(fav => fav.id === item.id && fav.type === item.type)) {
-        return prevFavorites;
+  const addFavorite = useCallback((item: FavoriteItem) => {
+    setFavorites(prev => {
+      // Don't add if already exists
+      if (prev.some(existing => existing.id === item.id)) {
+        return prev;
       }
-      
-      // Add new item with current timestamp
-      return [
-        ...prevFavorites, 
-        { 
-          ...item, 
-          addedAt: Date.now() 
-        }
-      ];
+      return [...prev, item];
     });
   }, []);
 
   // Remove an item from favorites
-  const removeFavorite = useCallback((id: string, type: FavoriteItem['type']) => {
-    setFavorites(prevFavorites => 
-      prevFavorites.filter(item => !(item.id === id && item.type === type))
-    );
+  const removeFavorite = useCallback((id: string) => {
+    setFavorites(prev => prev.filter(item => item.id !== id));
   }, []);
 
-  // Check if an item is in favorites
-  const isFavorite = useCallback((id: string, type: FavoriteItem['type']) => {
-    return favorites.some(item => item.id === id && item.type === type);
-  }, [favorites]);
-
-  // Toggle favorite status
-  const toggleFavorite = useCallback((item: Omit<FavoriteItem, 'addedAt'>) => {
-    if (isFavorite(item.id, item.type)) {
-      removeFavorite(item.id, item.type);
+  // Toggle an item in favorites
+  const toggleFavorite = useCallback((item: FavoriteItem) => {
+    if (isFavorite(item.id)) {
+      removeFavorite(item.id);
       return false;
     } else {
       addFavorite(item);
       return true;
     }
-  }, [addFavorite, isFavorite, removeFavorite]);
+  }, [isFavorite, removeFavorite, addFavorite]);
 
-  // Get favorites by type
-  const getFavoritesByType = useCallback((type: FavoriteItem['type']) => {
-    return favorites.filter(item => item.type === type);
-  }, [favorites]);
-
-  // Clear all favorites
-  const clearFavorites = useCallback(() => {
-    setFavorites([]);
-  }, []);
-
+  // Return the hook interface
   return {
     favorites,
+    isFavorite,
     addFavorite,
     removeFavorite,
-    isFavorite,
-    toggleFavorite,
-    getFavoritesByType,
-    clearFavorites
+    toggleFavorite
   };
 }
 
