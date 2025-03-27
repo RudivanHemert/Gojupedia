@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { katas } from '@/data';
@@ -9,6 +8,9 @@ import { ChevronLeft } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { ScrollingText } from '@/components/ui/scrolling-text';
+import MediaGallery from '@/components/media/MediaGallery';
+import InteractiveQuiz, { QuizQuestion } from '@/components/learning/InteractiveQuiz';
 
 const KataDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -45,6 +47,58 @@ const KataDetailPage = () => {
   const kataVideoId = getYouTubeId(kata.videoUrl);
   const bunkaiVideoId = getYouTubeId(kata.bunkai);
   const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
+
+  // Add a function to generate questions about the kata
+  const getKataQuestions = (kata): QuizQuestion[] => {
+    return [
+      {
+        id: 'kata-meaning',
+        type: 'text-input',
+        question: `What is the meaning of ${kata.name}?`,
+        correctAnswer: kata.meaning,
+        explanation: `${kata.name} (${kata.japaneseName}) means "${kata.meaning}" in Japanese.`,
+        points: 1
+      },
+      {
+        id: 'kata-origin',
+        type: 'multiple-choice',
+        question: `Where did ${kata.name} kata originate?`,
+        options: [
+          { id: 'okinawa', text: 'Okinawa, Japan', isCorrect: kata.origin.includes('Okinawa') },
+          { id: 'mainland-japan', text: 'Mainland Japan', isCorrect: kata.origin.includes('Japan') && !kata.origin.includes('Okinawa') },
+          { id: 'china', text: 'China', isCorrect: kata.origin.includes('China') },
+          { id: 'korea', text: 'Korea', isCorrect: kata.origin.includes('Korea') }
+        ],
+        explanation: `${kata.name} originated in ${kata.origin}.`,
+        points: 1
+      },
+      {
+        id: 'kata-movements',
+        type: 'multiple-choice',
+        question: `Approximately how many movements does ${kata.name} kata have?`,
+        options: [
+          { id: 'few', text: 'Less than 20', isCorrect: kata.movements.includes('Less than 20') || parseInt(kata.movements) < 20 },
+          { id: 'medium', text: '20-30', isCorrect: (parseInt(kata.movements) >= 20 && parseInt(kata.movements) <= 30) || kata.movements.includes('20') || kata.movements.includes('30') },
+          { id: 'many', text: 'More than 30', isCorrect: parseInt(kata.movements) > 30 }
+        ],
+        explanation: `${kata.name} has ${kata.movements}.`,
+        points: 1
+      },
+      {
+        id: 'kata-level',
+        type: 'multiple-choice',
+        question: `What skill level is ${kata.name} kata typically taught at?`,
+        options: [
+          { id: 'beginner', text: 'Beginner', isCorrect: kata.level.includes('Beginner') },
+          { id: 'intermediate', text: 'Intermediate', isCorrect: kata.level.includes('Intermediate') },
+          { id: 'advanced', text: 'Advanced', isCorrect: kata.level.includes('Advanced') },
+          { id: 'master', text: 'Master', isCorrect: kata.level.includes('Master') }
+        ],
+        explanation: `${kata.name} is classified as a ${kata.level} level kata.`,
+        points: 1
+      }
+    ];
+  };
 
   return (
     <MobileLayout>
@@ -128,6 +182,16 @@ const KataDetailPage = () => {
                 </div>
               </CardContent>
             </Card>
+            
+            {/* Add a testing quiz section */}
+            <div className="pt-6">
+              <h2 className="text-xl font-serif font-semibold mb-4">Test Your Knowledge</h2>
+              <InteractiveQuiz
+                title={`${kata.name} Quiz`}
+                questions={getKataQuestions(kata)}
+                showExplanations={true}
+              />
+            </div>
           </motion.div>
         </TabsContent>
         
@@ -139,18 +203,25 @@ const KataDetailPage = () => {
             className="space-y-4"
           >
             <h2 className="text-xl font-serif font-semibold mb-2">Sequence of Movements</h2>
-            <div className="space-y-3">
-              {kata.steps.map((step, index) => (
-                <div key={index} className="flex">
-                  <div className="bg-gray-100 flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-medium mr-3">
-                    {index + 1}
-                  </div>
-                  <div className="pt-1">
-                    <p className="text-gray-700">{step}</p>
-                  </div>
+            
+            <ScrollingText
+              maxHeight="400px"
+              enableProgress={true}
+              content={
+                <div className="space-y-3">
+                  {kata.steps.map((step, index) => (
+                    <div key={index} className="flex">
+                      <div className="bg-gray-100 flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-medium mr-3">
+                        {index + 1}
+                      </div>
+                      <div className="pt-1">
+                        <p className="text-gray-700">{step}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              }
+            />
           </motion.div>
         </TabsContent>
         
@@ -162,62 +233,73 @@ const KataDetailPage = () => {
             className="space-y-6"
           >
             <h2 className="text-xl font-serif font-semibold mb-2">Images</h2>
-            <div className="grid grid-cols-2 gap-2">
-              {kata.images.map((image, index) => (
-                <img 
-                  key={index}
-                  src={image} 
-                  alt={`${kata.name} technique ${index + 1}`}
-                  className="w-full h-32 object-cover rounded"
-                />
-              ))}
-            </div>
             
-            {kataVideoId && (
-              <div className="mt-6">
-                <h2 className="text-xl font-serif font-semibold mb-2">Kata Demonstration</h2>
-                <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
-                  <iframe 
-                    className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube.com/embed/${kataVideoId}`}
-                    title={`${kata.name} Kata Demonstration`}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-            )}
+            <MediaGallery 
+              items={kata.images.map((image, index) => ({
+                id: `kata-${kata.id}-image-${index}`,
+                type: 'image',
+                url: image,
+                title: `${kata.name} - Image ${index + 1}`,
+                description: '',
+                category: 'kata',
+                tags: [kata.id, 'image'],
+                createdAt: new Date().toISOString(),
+                updatedAt: new Date().toISOString()
+              }))}
+            />
+            
+            {/* Videos section */}
+            {(kataVideoId || bunkaiVideoId || shimeVideoId) && (
+              <div className="space-y-4 mt-8">
+                <h2 className="text-xl font-serif font-semibold mb-2">Videos</h2>
+                
+                {kataVideoId && (
+                  <div className="space-y-2">
+                    <h3 className="font-medium">Kata Demonstration</h3>
+                    <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
+                      <iframe 
+                        className="absolute inset-0 w-full h-full"
+                        src={`https://www.youtube.com/embed/${kataVideoId}`}
+                        title={`${kata.name} Kata Demonstration`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+                )}
 
-            {bunkaiVideoId && (
-              <div className="mt-6">
-                <h2 className="text-xl font-serif font-semibold mb-2">Bunkai Demonstration</h2>
-                <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
-                  <iframe 
-                    className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
-                    title={`${kata.name} Bunkai Demonstration`}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-            )}
-            
-            {shimeVideoId && (
-              <div className="mt-6">
-                <h2 className="text-xl font-serif font-semibold mb-2">Shime Demonstration</h2>
-                <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
-                  <iframe 
-                    className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube.com/embed/${shimeVideoId}`}
-                    title={`${kata.name} Shime Demonstration`}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+                {bunkaiVideoId && (
+                  <div className="space-y-2">
+                    <h3 className="font-medium">Bunkai Demonstration</h3>
+                    <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
+                      <iframe 
+                        className="absolute inset-0 w-full h-full"
+                        src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
+                        title={`${kata.name} Bunkai Demonstration`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+                )}
+                
+                {shimeVideoId && (
+                  <div className="space-y-2">
+                    <h3 className="font-medium">Shime Demonstration</h3>
+                    <div className="relative pt-[56.25%] bg-gray-100 rounded overflow-hidden">
+                      <iframe 
+                        className="absolute inset-0 w-full h-full"
+                        src={`https://www.youtube.com/embed/${shimeVideoId}`}
+                        title={`${kata.name} Shime Demonstration`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+                )}
               </div>
             )}
           </motion.div>
