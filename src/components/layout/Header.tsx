@@ -33,15 +33,6 @@ const Header = () => {
           </div>
         </SheetContent>
       </Sheet>
-      {/* Add a test link in development environments */}
-      {process.env.NODE_ENV === 'development' && (
-        <Link 
-          to="/kata-test" 
-          className="text-xs font-mono bg-yellow-100 text-yellow-800 px-2 py-1 rounded absolute right-2 top-2"
-        >
-          Test Page
-        </Link>
-      )}
     </motion.div>
   );
 };
