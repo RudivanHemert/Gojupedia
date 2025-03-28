@@ -1,0 +1,69 @@
+{
+  "blocks": {
+    "title": "Grundlegende Blöcke",
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Aufsteigender Block",
+      "description": "Age Uke (Aufsteigender Block) ist eine grundlegende Blocktechnik, die verwendet wird, um Angriffe auf das Gesicht oder den oberen Körper abzuwehren. Der Unterarm bewegt sich nach oben, um den Angriff abzulenken, während die andere Hand zur Hüfte zurückgezogen wird, um sich auf einen Gegenangriff vorzubereiten."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Abwärtsblock",
+      "description": "Gedan Barai (Abwärtsblock) ist ein abwärts gerichteter Block, der tiefe Angriffe abwehrt. Der Arm bewegt sich in einem abwärts gerichteten Bogen, um Schläge zum Unterkörper abzulenken, während der andere Arm zur Hüfte zurückgezogen wird."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Außenblock",
+      "description": "Soto Uke (Außenblock) ist ein nach außen gerichteter Block, der verwendet wird, um Angriffe von innen nach außen abzulenken. Der Unterarm bewegt sich von innen nach außen in einem horizontalen Pfad, um den Schlag des Gegners umzuleiten."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Innenblock"
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Messerhand-Block"
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Ellbogen-Block"
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Kreuz-Block"
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "X-Block"
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Rückenarm-Block"
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Drückender Block"
+    },
+    "viewButton": "Anzeigen",
+    "videoError": {
+      "title": "Videodemonstrationen sind in der mobilen App sichtbar",
+      "pathError": "Video konnte nicht geladen werden von: {{path}}",
+      "instructions": "Bitte stellen Sie sicher, dass MP4-Dateien im Verzeichnis public/Video/Blocks mit diesen Dateinamen platziert sind:",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    }
+  }
+} 

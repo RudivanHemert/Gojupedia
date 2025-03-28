@@ -1,0 +1,69 @@
+{
+  "blocks": {
+    "title": "Bloqueos Básicos",
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Bloqueo Ascendente",
+      "description": "Age Uke (Bloqueo Ascendente) es una técnica básica de bloqueo utilizada para defender contra ataques al rostro o la parte superior del cuerpo. El antebrazo se mueve hacia arriba para desviar el ataque, mientras que la otra mano se retira a la cadera en preparación para un contraataque."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Bloqueo Descendente",
+      "description": "Gedan Barai (Bloqueo Descendente) es un bloqueo descendente que defiende contra ataques bajos. El brazo se mueve en un arco descendente para desviar golpes dirigidos a la parte inferior del cuerpo, mientras que el otro brazo se retira a la posición de la cadera."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Bloqueo Exterior",
+      "description": "Soto Uke (Bloqueo Exterior) es un bloqueo hacia afuera utilizado para desviar ataques que vienen de dentro hacia fuera. El antebrazo se mueve desde dentro hacia afuera en un camino horizontal para redirigir el golpe del oponente."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Bloqueo Interior"
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Bloqueo de Mano Cuchillo"
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Bloqueo de Codo"
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Bloqueo Cruzado"
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "Bloqueo en X"
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Bloqueo de Brazo Trasero"
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Bloqueo Presionante"
+    },
+    "viewButton": "Ver",
+    "videoError": {
+      "title": "Las demostraciones en video estarán visibles en la aplicación móvil",
+      "pathError": "No se pudo cargar el video desde: {{path}}",
+      "instructions": "Por favor, asegúrese de que los archivos MP4 estén colocados en el directorio public/Video/Blocks con estos nombres de archivo:",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    }
+  }
+} 

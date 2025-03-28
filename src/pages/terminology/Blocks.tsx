@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Play, AlertCircle, Info } from 'lucide-react';
 import { Dialog, DialogContent, DialogTitle, DialogHeader, DialogDescription } from '@/components/ui/dialog';
@@ -21,6 +22,7 @@ const PlaceholderAnimation = ({ title }: { title: string }) => {
 };
 
 const Blocks = () => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [selectedTechnique, setSelectedTechnique] = useState<string>('');
   const [selectedTitle, setSelectedTitle] = useState('');
@@ -65,7 +67,7 @@ const Blocks = () => {
           <DialogHeader>
             <DialogTitle>{selectedTitle}</DialogTitle>
             <DialogDescription>
-              Demonstration of the {selectedTitle} technique
+              {t('blocks.videoError.title')}
             </DialogDescription>
           </DialogHeader>
           <div className="flex justify-center p-2 flex-col items-center">
@@ -73,7 +75,7 @@ const Blocks = () => {
               <Alert className="mb-4 bg-stone-50">
                 <Info className="h-4 w-4" />
                 <AlertDescription>
-                  Video demonstrations will be visible in the mobile app
+                  {t('blocks.videoError.title')}
                 </AlertDescription>
               </Alert>
             )}
@@ -100,29 +102,29 @@ const Blocks = () => {
               <h3 className="text-sm font-medium mb-2">About this technique</h3>
               {selectedTechnique === 'age-uke' && (
                 <p className="text-sm text-stone-600">
-                  Age Uke (Rising Block) is a basic upward blocking technique used to defend against attacks to the face or upper body. The forearm moves upward to deflect the attack, while the other hand is pulled back to the hip in preparation for a counter-attack.
+                  {t('blocks.ageUke.description')}
                 </p>
               )}
               {selectedTechnique === 'gedan-barai' && (
                 <p className="text-sm text-stone-600">
-                  Gedan Barai (Downward Block) is a sweeping downward block that defends against low attacks. The arm moves in a downward arc to deflect strikes aimed at the lower body, while the other arm retracts to the hip position.
+                  {t('blocks.gedanBarai.description')}
                 </p>
               )}
               {selectedTechnique === 'soto-uke' && (
                 <p className="text-sm text-stone-600">
-                  Soto Uke (Outside Block) is an outward block used to deflect attacks coming from the inside to the outside. The forearm moves from the inside outward in a horizontal path to redirect the opponent's strike.
+                  {t('blocks.sotoUke.description')}
                 </p>
               )}
             </div>
             
             {videoError && (
               <div className="mt-4 text-xs text-gray-500 w-full">
-                <p>Video could not be loaded from: {getVideoPath()}</p>
-                <p className="mt-1">Please ensure MP4 files are placed in the public/Video/Blocks directory with these filenames:</p>
+                <p>{t('blocks.videoError.pathError', { path: getVideoPath() })}</p>
+                <p className="mt-1">{t('blocks.videoError.instructions')}</p>
                 <ul className="list-disc pl-4 mt-1">
-                  <li>age-uke.mp4</li>
-                  <li>gedan-barai.mp4</li>
-                  <li>soto-uke.mp4</li>
+                  <li>{t('blocks.videoError.files.ageUke')}</li>
+                  <li>{t('blocks.videoError.files.gedanBarai')}</li>
+                  <li>{t('blocks.videoError.files.sotoUke')}</li>
                 </ul>
               </div>
             )}
@@ -132,52 +134,52 @@ const Blocks = () => {
 
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="basic-blocks">
-          <AccordionTrigger>Basic Blocks</AccordionTrigger>
+          <AccordionTrigger>{t('blocks.title')}</AccordionTrigger>
           <AccordionContent>
             <ul className="list-disc pl-4 space-y-2">
               <li className="flex items-center gap-2">
-                Age Uke (上げ受け) - Rising Block
+                {t('blocks.ageUke.name')} ({t('blocks.ageUke.japanese')}) - {t('blocks.ageUke.english')}
                 <Button 
-                  onClick={() => showTechnique('age-uke', 'Age Uke - Rising Block')} 
+                  onClick={() => showTechnique('age-uke', `${t('blocks.ageUke.name')} - ${t('blocks.ageUke.english')}`)} 
                   variant="outline"
                   size="sm"
                   className="h-7 px-2 bg-stone-100"
-                  aria-label="Show Age Uke demonstration"
+                  aria-label={`Show ${t('blocks.ageUke.name')} demonstration`}
                 >
-                  <Play size={14} className="mr-1" /> View
+                  <Play size={14} className="mr-1" /> {t('blocks.viewButton')}
                 </Button>
               </li>
               <li className="flex items-center gap-2">
-                Gedan Barai (下段払い) - Downward Block
+                {t('blocks.gedanBarai.name')} ({t('blocks.gedanBarai.japanese')}) - {t('blocks.gedanBarai.english')}
                 <Button 
-                  onClick={() => showTechnique('gedan-barai', 'Gedan Barai - Downward Block')} 
+                  onClick={() => showTechnique('gedan-barai', `${t('blocks.gedanBarai.name')} - ${t('blocks.gedanBarai.english')}`)} 
                   variant="outline"
                   size="sm"
                   className="h-7 px-2 bg-stone-100"
-                  aria-label="Show Gedan Barai demonstration"
+                  aria-label={`Show ${t('blocks.gedanBarai.name')} demonstration`}
                 >
-                  <Play size={14} className="mr-1" /> View
+                  <Play size={14} className="mr-1" /> {t('blocks.viewButton')}
                 </Button>
               </li>
               <li className="flex items-center gap-2">
-                Soto Uke (外受け) - Outside Block
+                {t('blocks.sotoUke.name')} ({t('blocks.sotoUke.japanese')}) - {t('blocks.sotoUke.english')}
                 <Button 
-                  onClick={() => showTechnique('soto-uke', 'Soto Uke - Outside Block')} 
+                  onClick={() => showTechnique('soto-uke', `${t('blocks.sotoUke.name')} - ${t('blocks.sotoUke.english')}`)} 
                   variant="outline"
                   size="sm"
                   className="h-7 px-2 bg-stone-100"
-                  aria-label="Show Soto Uke demonstration"
+                  aria-label={`Show ${t('blocks.sotoUke.name')} demonstration`}
                 >
-                  <Play size={14} className="mr-1" /> View
+                  <Play size={14} className="mr-1" /> {t('blocks.viewButton')}
                 </Button>
               </li>
-              <li>Uchi Uke (内受け) - Inside Block</li>
-              <li>Shuto Uke (手刀受け) - Knife Hand Block</li>
-              <li>Empi Uke (肘受け) - Elbow Block</li>
-              <li>Kosa Uke (交差受け) - Cross Block</li>
-              <li>Juji Uke (十字受け) - X Block</li>
-              <li>Haiwan Uke (背腕受け) - Back Arm Block</li>
-              <li>Osae Uke (押さえ受け) - Pressing Block</li>
+              <li>{t('blocks.uchiUke.name')} ({t('blocks.uchiUke.japanese')}) - {t('blocks.uchiUke.english')}</li>
+              <li>{t('blocks.shutoUke.name')} ({t('blocks.shutoUke.japanese')}) - {t('blocks.shutoUke.english')}</li>
+              <li>{t('blocks.empiUke.name')} ({t('blocks.empiUke.japanese')}) - {t('blocks.empiUke.english')}</li>
+              <li>{t('blocks.kosaUke.name')} ({t('blocks.kosaUke.japanese')}) - {t('blocks.kosaUke.english')}</li>
+              <li>{t('blocks.jujiUke.name')} ({t('blocks.jujiUke.japanese')}) - {t('blocks.jujiUke.english')}</li>
+              <li>{t('blocks.haiwanUke.name')} ({t('blocks.haiwanUke.japanese')}) - {t('blocks.haiwanUke.english')}</li>
+              <li>{t('blocks.osaeUke.name')} ({t('blocks.osaeUke.japanese')}) - {t('blocks.osaeUke.english')}</li>
             </ul>
           </AccordionContent>
         </AccordionItem>

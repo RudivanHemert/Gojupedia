@@ -1,0 +1,69 @@
+{
+  "blocks": {
+    "title": "Blocages de Base",
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Blocage Ascendant",
+      "description": "Age Uke (Blocage Ascendant) est une technique de blocage fondamentale utilisée pour se défendre contre les attaques au visage ou à la partie supérieure du corps. L'avant-bras se déplace vers le haut pour dévier l'attaque, tandis que l'autre main se retire à la hanche en préparation d'une contre-attaque."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Blocage Descendant",
+      "description": "Gedan Barai (Blocage Descendant) est un blocage vers le bas qui défend contre les attaques basses. Le bras se déplace dans un arc descendant pour dévier les coups dirigés vers la partie inférieure du corps, tandis que l'autre bras se retire à la position de la hanche."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Blocage Extérieur",
+      "description": "Soto Uke (Blocage Extérieur) est un blocage vers l'extérieur utilisé pour dévier les attaques venant de l'intérieur vers l'extérieur. L'avant-bras se déplace de l'intérieur vers l'extérieur dans un chemin horizontal pour rediriger le coup de l'adversaire."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Blocage Intérieur"
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Blocage Main Couteau"
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Blocage du Coude"
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Blocage Croisé"
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "Blocage en X"
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Blocage du Bras Arrière"
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Blocage Appuyé"
+    },
+    "viewButton": "Voir",
+    "videoError": {
+      "title": "Les démonstrations vidéo seront visibles dans l'application mobile",
+      "pathError": "Impossible de charger la vidéo depuis : {{path}}",
+      "instructions": "Veuillez vous assurer que les fichiers MP4 sont placés dans le répertoire public/Video/Blocks avec ces noms de fichiers :",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    }
+  }
+} 

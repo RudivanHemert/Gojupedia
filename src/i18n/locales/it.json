@@ -1,0 +1,69 @@
+{
+  "blocks": {
+    "title": "Parate di Base",
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Parata Ascendente",
+      "description": "Age Uke (Parata Ascendente) è una tecnica fondamentale di parata utilizzata per difendersi da attacchi al viso o alla parte superiore del corpo. L'avambraccio si muove verso l'alto per deviare l'attacco, mentre l'altra mano si ritira all'anca in preparazione per un contrattacco."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Parata Discendente",
+      "description": "Gedan Barai (Parata Discendente) è una parata verso il basso che difende da attacchi bassi. Il braccio si muove in un arco discendente per deviare colpi diretti alla parte inferiore del corpo, mentre l'altro braccio si ritira alla posizione dell'anca."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Parata Esterna",
+      "description": "Soto Uke (Parata Esterna) è una parata verso l'esterno utilizzata per deviare attacchi che provengono dall'interno verso l'esterno. L'avambraccio si muove dall'interno verso l'esterno in un percorso orizzontale per reindirizzare il colpo dell'avversario."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Parata Interna"
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Parata Mano Coltello"
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Parata del Gomito"
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Parata Incrociata"
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "Parata a X"
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Parata del Braccio Posteriore"
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Parata Premente"
+    },
+    "viewButton": "Vedi",
+    "videoError": {
+      "title": "Le dimostrazioni video saranno visibili nell'applicazione mobile",
+      "pathError": "Impossibile caricare il video da: {{path}}",
+      "instructions": "Assicurati che i file MP4 siano posizionati nella directory public/Video/Blocks con questi nomi di file:",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    }
+  }
+} 

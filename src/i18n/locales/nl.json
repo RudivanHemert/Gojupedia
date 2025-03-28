@@ -1,0 +1,69 @@
+{
+  "blocks": {
+    "title": "Basis Blokkeringen",
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Stijgende Blokkering",
+      "description": "Age Uke (Stijgende Blokkering) is een basis blokkeringstechniek die wordt gebruikt om aanvallen naar het gezicht of bovenlichaam te verdedigen. De onderarm beweegt omhoog om de aanval af te weren, terwijl de andere hand terug wordt getrokken naar de heup ter voorbereiding op een tegenaanval."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Neerwaartse Blokkering",
+      "description": "Gedan Barai (Neerwaartse Blokkering) is een neerwaartse zwaaiende blokkering die lage aanvallen verdedigt. De arm beweegt in een neerwaartse boog om stoten naar het onderlichaam af te weren, terwijl de andere arm terugtrekt naar de heuphouding."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Buitenwaartse Blokkering",
+      "description": "Soto Uke (Buitenwaartse Blokkering) is een naar buiten gerichte blokkering die wordt gebruikt om aanvallen van binnen naar buiten af te weren. De onderarm beweegt van binnen naar buiten in een horizontale baan om de stoot van de tegenstander om te leiden."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Binnenwaartse Blokkering"
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Meshand Blokkering"
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Elleboog Blokkering"
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Kruis Blokkering"
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "X Blokkering"
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Rug Arm Blokkering"
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Drukkende Blokkering"
+    },
+    "viewButton": "Bekijk",
+    "videoError": {
+      "title": "Video demonstraties zijn zichtbaar in de mobiele app",
+      "pathError": "Video kon niet worden geladen van: {{path}}",
+      "instructions": "Zorg ervoor dat MP4-bestanden in de public/Video/Blocks map staan met deze bestandsnamen:",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    }
+  }
+} 

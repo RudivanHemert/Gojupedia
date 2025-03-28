@@ -1,0 +1,69 @@
+{
+  "blocks": {
+    "title": "Basic Blocks",
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Rising Block",
+      "description": "Age Uke (Rising Block) is a basic upward blocking technique used to defend against attacks to the face or upper body. The forearm moves upward to deflect the attack, while the other hand is pulled back to the hip in preparation for a counter-attack."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Downward Block",
+      "description": "Gedan Barai (Downward Block) is a sweeping downward block that defends against low attacks. The arm moves in a downward arc to deflect strikes aimed at the lower body, while the other arm retracts to the hip position."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Outside Block",
+      "description": "Soto Uke (Outside Block) is an outward block used to deflect attacks coming from the inside to the outside. The forearm moves from the inside outward in a horizontal path to redirect the opponent's strike."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Inside Block"
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Knife Hand Block"
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Elbow Block"
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Cross Block"
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "X Block"
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Back Arm Block"
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Pressing Block"
+    },
+    "viewButton": "View",
+    "videoError": {
+      "title": "Video demonstrations will be visible in the mobile app",
+      "pathError": "Video could not be loaded from: {{path}}",
+      "instructions": "Please ensure MP4 files are placed in the public/Video/Blocks directory with these filenames:",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    }
+  }
+} 
