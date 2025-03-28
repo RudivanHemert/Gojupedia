@@ -14,6 +14,7 @@ const NavigationMenu = () => {
         <Link to="/history" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">History</Link>
         <Link to="/philosophy" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Philosophy</Link>
         <Link to="/vital-points" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Vital Points</Link>
+        <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Gradings</Link>
       </div>
       
       <div className="pt-2 border-t border-gray-100">
@@ -27,8 +28,14 @@ const NavigationMenu = () => {
       
       <div className="pt-2 border-t border-gray-100">
         <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">Study</h3>
-        <Link to="/study" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Study Material</Link>
-        <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Gradings</Link>
+        <Link to="/study" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Learning Materials</Link>
+      </div>
+      
+      <div className="pt-2 border-t border-gray-100">
+        <Link to="/settings" className="flex items-center gap-2 p-2 hover:bg-stone-100 rounded transition-colors">
+          <Settings size={16} />
+          <span>Settings</span>
+        </Link>
       </div>
     </nav>
   );

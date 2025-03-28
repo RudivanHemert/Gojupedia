@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -15,24 +14,27 @@ const TheoryNavigation: React.FC<TheoryNavigationProps> = ({ currentPath }) => {
       basePath !== '/terminology' && 
       basePath !== '/history' && 
       basePath !== '/philosophy' && 
-      basePath !== '/vital-points') {
+      basePath !== '/vital-points' &&
+      basePath !== '/gradings') {
     return null;
   }
   
   return (
     <Tabs 
       defaultValue={
-        basePath === '/theory' ? 'theory' : 
-        basePath === '/terminology' ? 'terminology' : 
-        basePath === '/vital-points' ? 'vital-points' : 
-        'history'
+        basePath === '/theory' ? '/theory' : 
+        basePath === '/terminology' ? '/terminology' : 
+        basePath === '/history' ? '/history' :
+        basePath === '/philosophy' ? '/philosophy' :
+        basePath === '/vital-points' ? '/vital-points' :
+        '/gradings'
       } 
       className="w-full"
       onValueChange={(value) => {
         navigate(value);
       }}
     >
-      <TabsList className="grid grid-cols-3 h-12 bg-stone-100">
+      <TabsList className="grid grid-cols-4 h-12 bg-stone-100">
         <TabsTrigger value="/terminology" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">Terminology</span>
         </TabsTrigger>
@@ -41,6 +43,9 @@ const TheoryNavigation: React.FC<TheoryNavigationProps> = ({ currentPath }) => {
         </TabsTrigger>
         <TabsTrigger value="/vital-points" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">Vital Points</span>
+        </TabsTrigger>
+        <TabsTrigger value="/gradings" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+          <span className="text-xs">Gradings</span>
         </TabsTrigger>
       </TabsList>
     </Tabs>
