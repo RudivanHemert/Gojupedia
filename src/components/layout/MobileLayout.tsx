@@ -16,7 +16,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
   const isAtRoot = currentPath === '/';
 
   const isTheory = ['/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/gradings'].includes(basePath);
-  const isPractice = ['/practice', '/techniques', '/kata', '/hojo-undo', '/kumite'].includes(basePath);
+  const isPractice = ['/practice', '/techniques', '/kata', '/hojo-undo', '/kumite', '/bunkai'].includes(basePath);
   const isStudy = ['/study'].includes(basePath);
   const isSettings = basePath === '/settings';
 

@@ -16,6 +16,9 @@ import TechniquesPage from "./pages/TechniquesPage";
 import TechniqueDetailPage from "./pages/TechniqueDetailPage";
 import KataPage from "./pages/KataPage";
 import KataDetailPage from "./pages/KataDetailPage";
+import KataTheoryPage from "./pages/KataTheoryPage";
+import BunkaiPage from "./pages/BunkaiPage";
+import BunkaiDetailPage from "./pages/BunkaiDetailPage";
 import HojoUndoPage from "./pages/HojoUndoPage";
 import KumitePage from "./pages/KumitePage";
 import StudyPage from "./pages/StudyPage";
@@ -39,11 +42,14 @@ const App = () => (
             <Route path="/history" element={<HistoryPage />} />
             <Route path="/philosophy" element={<PhilosophyPage />} />
             <Route path="/vital-points" element={<VitalPointsPage />} />
+            <Route path="/theory/kata" element={<KataTheoryPage />} />
             <Route path="/practice" element={<PracticePage />} />
             <Route path="/techniques" element={<TechniquesPage />} />
             <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
             <Route path="/kata" element={<KataPage />} />
             <Route path="/kata/:id" element={<KataDetailPage />} />
+            <Route path="/bunkai" element={<BunkaiPage />} />
+            <Route path="/bunkai/:id" element={<BunkaiDetailPage />} />
             <Route path="/hojo-undo" element={<HojoUndoPage />} />
             <Route path="/kumite" element={<KumitePage />} />
             <Route path="/study" element={<StudyPage />} />

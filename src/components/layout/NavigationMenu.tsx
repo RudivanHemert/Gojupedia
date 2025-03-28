@@ -22,6 +22,7 @@ const NavigationMenu = () => {
         <Link to="/practice" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Overview</Link>
         <Link to="/techniques" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Techniques</Link>
         <Link to="/kata" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Kata</Link>
+        <Link to="/bunkai" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Bunkai</Link>
         <Link to="/hojo-undo" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Hojo Undo</Link>
         <Link to="/kumite" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">Kumite</Link>
       </div>

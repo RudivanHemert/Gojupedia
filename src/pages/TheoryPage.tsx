@@ -1,7 +1,6 @@
-
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
-import { Book, Scroll, Target } from 'lucide-react';
+import { Book, Scroll, Target, ChevronDown } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 import { TheorySectionList } from '@/components/theory/TheorySection';
 
@@ -20,6 +19,13 @@ const TheoryPage = () => {
       description: 'The origins and evolution of Goju Ryu Karate',
       icon: <Scroll className="h-5 w-5 text-karate" />,
       path: '/history',
+    },
+    {
+      id: 'kata',
+      name: 'Kata',
+      description: 'Principles and theory behind traditional forms',
+      icon: <ChevronDown className="h-5 w-5 text-karate" />,
+      path: '/theory/kata',
     },
     {
       id: 'vital-points',

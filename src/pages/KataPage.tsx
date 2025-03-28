@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { katas } from '@/data';
@@ -6,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Book } from 'lucide-react';
 
 const KataPage = () => {
   // Group katas by level
@@ -57,6 +57,23 @@ const KataPage = () => {
             Traditional forms and patterns
           </p>
         </div>
+      </div>
+
+      {/* Theory Card */}
+      <div className="p-4 mb-2">
+        <Link to="/theory/kata">
+          <Card className="bg-stone-50 hover:bg-stone-100 transition-colors">
+            <CardContent className="p-4 flex items-center gap-3">
+              <div className="bg-stone-200 p-2 rounded-full">
+                <Book size={20} className="text-stone-700" />
+              </div>
+              <div>
+                <h3 className="font-semibold">Kata Theory</h3>
+                <p className="text-sm text-stone-600">Learn about the principles and practice of kata</p>
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
       </div>
 
       {/* Kata List by Level */}

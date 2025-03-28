@@ -9,6 +9,7 @@ interface TheoryNavigationProps {
 const TheoryNavigation: React.FC<TheoryNavigationProps> = ({ currentPath }) => {
   const navigate = useNavigate();
   const basePath = '/' + currentPath.split('/')[1];
+  const isKataTheory = currentPath === '/theory/kata';
   
   if (basePath !== '/theory' && 
       basePath !== '/terminology' && 
@@ -22,6 +23,7 @@ const TheoryNavigation: React.FC<TheoryNavigationProps> = ({ currentPath }) => {
   return (
     <Tabs 
       defaultValue={
+        isKataTheory ? '/theory/kata' :
         basePath === '/theory' ? '/theory' : 
         basePath === '/terminology' ? '/terminology' : 
         basePath === '/history' ? '/history' :
@@ -34,12 +36,15 @@ const TheoryNavigation: React.FC<TheoryNavigationProps> = ({ currentPath }) => {
         navigate(value);
       }}
     >
-      <TabsList className="grid grid-cols-4 h-12 bg-stone-100">
+      <TabsList className="grid grid-cols-5 h-12 bg-stone-100">
         <TabsTrigger value="/terminology" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">Terminology</span>
         </TabsTrigger>
         <TabsTrigger value="/history" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">History</span>
+        </TabsTrigger>
+        <TabsTrigger value="/theory/kata" className="flex items-center justify-center data-[state=active]:bg-stone-200">
+          <span className="text-xs">Kata</span>
         </TabsTrigger>
         <TabsTrigger value="/vital-points" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">Vital Points</span>
