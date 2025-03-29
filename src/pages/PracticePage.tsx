@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
@@ -60,7 +59,7 @@ const PracticePage = () => {
   };
 
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       {/* Header Image */}
       <div className="relative h-40 overflow-hidden">
         <img 

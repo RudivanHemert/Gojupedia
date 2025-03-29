@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { studies } from '@/data';
@@ -31,7 +30,7 @@ const StudyPage = () => {
   };
 
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       <div className="bg-stone-100 border-b border-stone-200">
         <div className="px-4 py-6">
           <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">Study Section</h1>

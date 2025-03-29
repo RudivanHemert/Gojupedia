@@ -7,9 +7,10 @@ import SubNavigation from './SubNavigation';
 
 interface MobileLayoutProps {
   children: ReactNode;
+  hideHeader?: boolean;
 }
 
-const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
+const MobileLayout: React.FC<MobileLayoutProps> = ({ children, hideHeader = false }) => {
   const location = useLocation();
   const currentPath = location.pathname;
   const basePath = '/' + currentPath.split('/')[1];
@@ -38,7 +39,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
 
   return (
     <div className="app-container relative">
-      {!isAtRoot && <Header />}
+      {!isAtRoot && !hideHeader && <Header />}
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -37,7 +37,7 @@ const TheoryPage = () => {
   ];
 
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       <TheoryHeader 
         title="Theory"
         description="Principles and knowledge of Goju Ryu"

@@ -43,6 +43,20 @@ const TerminologyPage = () => {
           alt="Japanese Terminology"
           className="absolute inset-0 w-full h-full object-cover"
         />
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="absolute inset-0 bg-black opacity-50"
+        />
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="relative z-10 text-white text-4xl font-bold text-center mt-16"
+        >
+          Karate Terminology
+        </motion.h1>
       </div>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-8">Karate Terminology</h1>
