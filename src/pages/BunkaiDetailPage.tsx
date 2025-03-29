@@ -43,13 +43,12 @@ const BunkaiDetailPage = () => {
   }
 
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       <div className="px-4 py-6 max-w-md mx-auto">
         <div className="flex items-center mb-6">
           <Link to="/bunkai" className="mr-2">
             <ArrowLeft size={18} className="text-stone-600" />
           </Link>
-          <h1 className="text-xl font-bold">{kata.name} Bunkai</h1>
         </div>
 
         <div className="mb-6">

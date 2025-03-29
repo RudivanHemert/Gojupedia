@@ -1,12 +1,15 @@
 import React from 'react';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const GeneralTerminology = () => {
   return (
-    <Accordion type="single" collapsible className="w-full">
-      <AccordionItem value="general-terms">
-        <AccordionTrigger>General Terms</AccordionTrigger>
-        <AccordionContent>
+    <div className="space-y-6">
+      <p className="text-muted-foreground mb-4">Common terminology used in karate training and practice.</p>
+      
+      <div className="border border-muted rounded-md mb-2 overflow-hidden">
+        <div className="bg-muted/30 px-4 py-3 text-sm font-medium text-secondary-foreground">
+          General Terms
+        </div>
+        <div className="px-4 py-2 bg-card">
           <ul className="list-disc pl-4 space-y-2">
             <li>Karate (空手) - Empty Hand</li>
             <li>Karate-Do (空手道) - The Way of Karate</li>
@@ -29,9 +32,9 @@ const GeneralTerminology = () => {
             <li>Zanshin (残心) - Awareness</li>
             <li>Tai Sabaki (体捌き) - Body Movement</li>
           </ul>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+        </div>
+      </div>
+    </div>
   );
 };
 

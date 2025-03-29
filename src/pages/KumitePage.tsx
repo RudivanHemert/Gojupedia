@@ -1,27 +1,10 @@
-
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
 
 const KumitePage = () => {
   return (
-    <MobileLayout>
-      {/* Header Image */}
-      <div className="relative h-40 overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1599232288126-22253d9ba3e2?q=80&w=1964&auto=format&fit=crop" 
-          alt="Kumite - Sparring" 
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
-        <div className="absolute bottom-0 left-0 p-5 w-full">
-          <h1 className="text-white text-3xl font-bold">Kumite</h1>
-          <p className="text-white opacity-90">
-            Sparring techniques and applications
-          </p>
-        </div>
-      </div>
-
+    <MobileLayout hideHeader={true}>
       <div className="p-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

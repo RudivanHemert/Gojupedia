@@ -42,23 +42,7 @@ const KataPage = () => {
   const levels = Object.keys(katasByLevel);
 
   return (
-    <MobileLayout>
-      {/* Header Image */}
-      <div className="relative h-40 overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop" 
-          alt="Kata Performance" 
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
-        <div className="absolute bottom-0 left-0 p-5 w-full">
-          <h1 className="text-white text-3xl font-bold">Kata</h1>
-          <p className="text-white opacity-90">
-            Traditional forms and patterns
-          </p>
-        </div>
-      </div>
-
+    <MobileLayout hideHeader={true}>
       {/* Theory Card */}
       <div className="p-4 mb-2">
         <Link to="/theory/kata">

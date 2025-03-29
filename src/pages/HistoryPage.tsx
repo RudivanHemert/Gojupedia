@@ -1,8 +1,6 @@
-
 import React, { useState } from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
-import HistoryHeader from '@/components/history/HistoryHeader';
 import OriginsSection from '@/components/history/OriginsSection';
 import KanryoHigaonnaSection from '@/components/history/KanryoHigaonnaSection';
 import ChojunMiyagiSection from '@/components/history/ChojunMiyagiSection';
@@ -29,9 +27,7 @@ const HistoryPage = () => {
   };
 
   return (
-    <MobileLayout>
-      <HistoryHeader />
-
+    <MobileLayout hideHeader={true}>
       <div className="p-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -7,9 +7,8 @@ import { katas } from '@/data';
 
 const BunkaiPage = () => {
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       <div className="px-4 py-6 max-w-md mx-auto">
-        <h1 className="text-2xl font-bold mb-2">Bunkai</h1>
         <p className="text-stone-600 mb-6">
           Explore the practical applications of kata movements in real combat situations.
         </p>

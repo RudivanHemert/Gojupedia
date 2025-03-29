@@ -36,7 +36,7 @@ const TerminologyPage = () => {
   ];
 
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       <div className="relative h-40 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1524684009724-bee13ad8305f?q=80&w=2970&auto=format&fit"
@@ -59,7 +59,6 @@ const TerminologyPage = () => {
         </motion.h1>
       </div>
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-8">Karate Terminology</h1>
         <Accordion type="single" collapsible className="w-full">
           {sections.map((section) => (
             <AccordionItem key={section.id} value={section.id}>

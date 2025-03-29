@@ -1,20 +1,11 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useContext } from 'react';
 
-// Define all supported languages
-export type SupportedLanguage = 'en' | 'ja' | 'nl' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'zh' | 'ko';
+// Only support English for now
+export type SupportedLanguage = 'en';
 
 // Language names for the UI
 export const languageNames: Record<SupportedLanguage, string> = {
-  en: 'English',
-  ja: '日本語',
-  nl: 'Nederlands',
-  es: 'Español',
-  fr: 'Français',
-  de: 'Deutsch',
-  it: 'Italiano',
-  pt: 'Português',
-  zh: '中文',
-  ko: '한국어'
+  en: 'English'
 };
 
 interface LanguageContextType {
@@ -27,102 +18,27 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-// This will store all loaded translations
-const translations: Record<SupportedLanguage, Record<string, string>> = {
-  en: {}, // English is our base language
-  ja: {},
-  nl: {},
-  es: {},
-  fr: {},
-  de: {},
-  it: {},
-  pt: {},
-  zh: {},
-  ko: {}
-};
-
+// This is a simplified provider that only supports English
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguageState] = useState<SupportedLanguage>(() => {
-    // Try to get from localStorage, then from browser, default to English
-    const savedLang = localStorage.getItem('language') as SupportedLanguage;
-    if (savedLang && Object.keys(languageNames).includes(savedLang)) {
-      return savedLang;
-    }
-    
-    // Check browser language
-    const browserLang = navigator.language.split('-')[0] as SupportedLanguage;
-    if (browserLang && Object.keys(languageNames).includes(browserLang)) {
-      return browserLang;
-    }
-    
-    return 'en';
-  });
+  // Fixed values
+  const language: SupportedLanguage = 'en';
+  const isRtl = false;
+  const loadingTranslations = false;
   
-  const [loadingTranslations, setLoadingTranslations] = useState(language !== 'en');
-  
-  // RTL languages would be added here
-  const rtlLanguages: SupportedLanguage[] = [];
-  const isRtl = rtlLanguages.includes(language);
-  
-  // Load translations for the current language
-  useEffect(() => {
-    const loadTranslations = async () => {
-      if (language === 'en' || Object.keys(translations[language]).length > 0) {
-        setLoadingTranslations(false);
-        return;
-      }
-      
-      setLoadingTranslations(true);
-      
-      try {
-        // Dynamic import for translations
-        const response = await fetch(`/locales/${language}.json`);
-        
-        if (response.ok) {
-          const data = await response.json();
-          translations[language] = data;
-        } else {
-          console.error(`Failed to load translations for ${language}`);
-        }
-      } catch (error) {
-        console.error('Error loading translations:', error);
-      } finally {
-        setLoadingTranslations(false);
-      }
-    };
-    
-    loadTranslations();
-  }, [language]);
-  
-  // Set language and save to localStorage
+  // No-op function since we only support English
   const setLanguage = (lang: SupportedLanguage) => {
-    setLanguageState(lang);
-    localStorage.setItem('language', lang);
-    
-    // Update HTML lang attribute
-    document.documentElement.lang = lang;
-    
-    // Update dir attribute for RTL languages
-    document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
+    console.info('Language switching temporarily disabled. Only English is supported.');
+    // Ensure HTML attributes are set correctly
+    document.documentElement.lang = 'en';
+    document.documentElement.dir = 'ltr';
   };
   
-  // Set initial HTML attributes
-  useEffect(() => {
-    document.documentElement.lang = language;
-    document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
-  }, [language, isRtl]);
-  
-  // Translation function
+  // Simplified translation function
   const t = (key: string, vars?: Record<string, string>): string => {
-    // If we're still loading translations, use English
-    if (loadingTranslations) {
-      return translations.en[key] || key;
-    }
+    // Get translation or just return the key itself
+    let translation = key;
     
-    // Get translation or fallback to English or key itself
-    let translation = translations[language][key] || translations.en[key] || key;
-    
-    // Replace variables
+    // Replace variables if any
     if (vars) {
       Object.entries(vars).forEach(([varKey, value]) => {
         translation = translation.replace(new RegExp(`{{${varKey}}}`, 'g'), value);

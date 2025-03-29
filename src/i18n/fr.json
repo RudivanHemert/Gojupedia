@@ -1,0 +1,164 @@
+{
+  "common": {
+    "appName": "Goju Ryu Wiki",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "theory": "Théorie",
+    "practice": "Pratique",
+    "study": "Étude",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "welcome": "Bienvenue sur Goju Ryu Wiki",
+    "description": "Explorez l'art du Karaté Goju Ryu",
+    "getStarted": "Commencer"
+  },
+  "theory": {
+    "title": "Théorie",
+    "description": "Principes et connaissances du Goju Ryu",
+    "terminology": "Terminologie",
+    "terminologyDesc": "Terminologie japonaise et vocabulaire",
+    "history": "Histoire",
+    "historyDesc": "Les origines et l'évolution du Goju Ryu",
+    "kata": "Kata",
+    "kataDesc": "Principes et théorie derrière les formes",
+    "vitalPoints": "Points Vitaux",
+    "vitalPointsDesc": "Étude des points de pression"
+  },
+  "terminology": {
+    "title": "Terminologie du Karaté",
+    "sections": {
+      "general-terms": "Termes Généraux",
+      "numbers": "Nombres",
+      "tournament-terms": "Terminologie de Tournoi",
+      "equipment-weapons": "Équipement et Armes",
+      "karate-goju-ryu": "Terminologie du Karaté et Goju Ryu",
+      "karate-titles": "Titres de Karaté",
+      "phrases-etiquette": "Phrases et Étiquette",
+      "kata-terms": "Terminologie de Kata",
+      "blocks": "Blocages",
+      "kicks": "Coups de Pied",
+      "punches": "Coups de Poing",
+      "stances": "Positions",
+      "strikes": "Frappes",
+      "vital-points": "Points Vitaux"
+    }
+  },
+  "blocks": {
+    "title": "Blocages",
+    "viewButton": "Voir",
+    "videoError": {
+      "title": "Impossible de charger la vidéo",
+      "pathError": "Échec du chargement: {{path}}",
+      "instructions": "Veuillez vous assurer que les fichiers suivants existent:",
+      "files": {
+        "ageUke": "age-uke.mp4",
+        "gedanBarai": "gedan-barai.mp4",
+        "sotoUke": "soto-uke.mp4"
+      }
+    },
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Blocage Montant",
+      "description": "Un blocage qui dévie une attaque vers le haut, protégeant le visage et le haut du corps."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Balayage Bas",
+      "description": "Un blocage balayant qui dévie les attaques visant le bas du corps."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Blocage Extérieur",
+      "description": "Un blocage qui dévie une attaque de l'intérieur vers l'extérieur."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Blocage Intérieur",
+      "description": "Un blocage qui dévie une attaque de l'extérieur vers l'intérieur."
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Blocage Main-Couteau",
+      "description": "Un blocage effectué avec le côté de la main."
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Blocage du Coude",
+      "description": "Un blocage effectué avec le coude."
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Blocage Croisé",
+      "description": "Un blocage effectué avec les poignets croisés."
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "Blocage en X",
+      "description": "Un blocage effectué avec les bras croisés formant un X."
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Blocage Arrière-Bras",
+      "description": "Un blocage effectué avec l'arrière de l'avant-bras."
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Blocage de Pression",
+      "description": "Un blocage pressant vers le bas."
+    }
+  },
+  "practice": {
+    "title": "Pratique",
+    "description": "Méthodes d'entraînement et applications",
+    "techniques": "Techniques",
+    "techniquesDesc": "Apprenez les techniques fondamentales",
+    "kata": "Kata",
+    "kataDesc": "Formes et motifs traditionnels",
+    "hojoUndo": "Hojo Undo",
+    "hojoUndoDesc": "Entraînement supplémentaire",
+    "kumite": "Kumite",
+    "kumiteDesc": "Techniques de combat et pratique"
+  },
+  "study": {
+    "title": "Section d'Étude",
+    "description": "Leçons interactives et tests pour améliorer vos connaissances",
+    "quizzes": "Quiz",
+    "flashcards": "Cartes-mémoire",
+    "tests": "Tests",
+    "startStudy": "Commencer l'Étude"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Personnalisez votre expérience de l'application",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": "Notifications",
+    "darkMode": "Mode Sombre",
+    "about": "À propos"
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  }
+} 

@@ -60,6 +60,7 @@ const AppContent = () => {
         <Route path="/study/:id" element={<StudyDetailPage />} />
         <Route path="/gradings" element={<GradingsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </MobileLayout>
   );

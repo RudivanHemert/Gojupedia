@@ -1,12 +1,15 @@
 import React from 'react';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const Strikes = () => {
   return (
-    <Accordion type="single" collapsible className="w-full">
-      <AccordionItem value="basic-strikes">
-        <AccordionTrigger>Basic Strikes</AccordionTrigger>
-        <AccordionContent>
+    <div className="space-y-6">
+      <p className="text-muted-foreground mb-4">Various striking techniques typically executed with open hands or other parts of the body.</p>
+      
+      <div className="border border-muted rounded-md mb-2 overflow-hidden">
+        <div className="bg-muted/30 px-4 py-3 text-sm font-medium text-secondary-foreground">
+          Basic Strikes
+        </div>
+        <div className="px-4 py-2 bg-card">
           <ul className="list-disc pl-4 space-y-2">
             <li>Shuto Uchi (手刀打ち) - Knife Hand Strike</li>
             <li>Haito Uchi (背刀打ち) - Ridge Hand Strike</li>
@@ -19,9 +22,9 @@ const Strikes = () => {
             <li>Koken Uchi (虎拳打ち) - Tiger Mouth Strike</li>
             <li>Washide Uchi (鷲手打ち) - Eagle Hand Strike</li>
           </ul>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+        </div>
+      </div>
+    </div>
   );
 };
 

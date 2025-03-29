@@ -840,16 +840,7 @@ const GradingsPage = () => {
   };
 
   return (
-    <MobileLayout>
-      <div className="bg-stone-100 border-b border-stone-200">
-        <div className="px-4 py-6">
-          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">Grading Requirements</h1>
-          <p className="text-stone-600 text-center text-sm">
-            IOGKF Kyu Grading Kata & Bunkai Requirements
-          </p>
-        </div>
-      </div>
-
+    <MobileLayout hideHeader={true}>
       <div className="p-4">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="grid grid-cols-4 mb-4 h-auto">
