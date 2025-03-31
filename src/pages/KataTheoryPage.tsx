@@ -13,7 +13,7 @@ import KataTechniques from './kata/KataTechniques';
 
 const KataTheoryPage = () => {
   return (
-    <MobileLayout>
+    <MobileLayout hideHeader={true}>
       <div className="relative h-40 overflow-hidden">
         <img 
           src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2142&auto=format&fit=crop" 
