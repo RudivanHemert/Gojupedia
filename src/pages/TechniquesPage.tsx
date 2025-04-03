@@ -1,82 +1,62 @@
 import React from 'react';
 import MobileLayout from '@/components/layout/MobileLayout';
-import { techniques } from '@/data';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { ChevronRight } from 'lucide-react';
+import { techniqueData } from '@/data/techniques'; // Import from the new data file
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
+const itemVariants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.4,
+    }
+  }
+};
 
 const TechniquesPage = () => {
-  // Group techniques by category
-  const techniquesByCategory = techniques.reduce((acc, technique) => {
-    if (!acc[technique.category]) {
-      acc[technique.category] = [];
-    }
-    acc[technique.category].push(technique);
-    return acc;
-  }, {} as Record<string, typeof techniques>);
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.4,
-      }
-    }
-  };
-
-  // Convert categories to array for mapping
-  const categories = Object.keys(techniquesByCategory);
-
   return (
+    // Using hideHeader=true as requested for section pages
     <MobileLayout hideHeader={true}>
-      {/* Techniques List by Category */}
       <div className="p-4">
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="space-y-8"
+          className="space-y-6" // Adjusted spacing between categories
         >
-          {categories.map((category) => (
-            <motion.div key={category} className="space-y-4" variants={itemVariants}>
-              <h2 className="text-2xl font-serif font-semibold capitalize">{category}</h2>
-              
-              <div className="grid grid-cols-1 gap-4">
-                {techniquesByCategory[category].map((technique) => (
-                  <Link to={`/techniques/${technique.id}`} key={technique.id}>
-                    <Card className="overflow-hidden hover:shadow-md transition-shadow">
-                      <CardContent className="p-0">
-                        <div className="flex h-24">
-                          <div 
-                            className="w-1/3 h-full bg-cover bg-center" 
-                            style={{ backgroundImage: `url(${technique.images[0]})` }}
-                          ></div>
-                          <div className="w-2/3 p-3 flex flex-col justify-between">
-                            <div>
-                              <h3 className="font-semibold">{technique.name}</h3>
-                              <p className="text-sm text-gray-500">{technique.japaneseName}</p>
-                            </div>
-                            <Badge variant="outline" className="w-fit">{category}</Badge>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </Link>
+          {techniqueData.map((category) => (
+            <motion.div key={category.title} variants={itemVariants} className="bg-card p-4 rounded-lg shadow-sm border border-muted">
+              <h2 className="text-xl font-serif font-semibold capitalize mb-3 text-primary">{category.title}</h2>
+              <ul className="space-y-2">
+                {category.techniques.map((technique) => (
+                  <li key={technique.id}>
+                    <Link 
+                      to={`/techniques/${technique.id}`} 
+                      className="flex justify-between items-center p-2 rounded hover:bg-muted transition-colors group"
+                    >
+                      <div>
+                        <span className="font-medium text-secondary-foreground group-hover:text-primary">{technique.name}</span>
+                        <span className="text-sm text-muted-foreground ml-2">({technique.japaneseName})</span>
+                        <span className="text-sm text-muted-foreground"> - {technique.englishName}</span>
+                      </div>
+                      <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary" />
+                    </Link>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </motion.div>
           ))}
         </motion.div>

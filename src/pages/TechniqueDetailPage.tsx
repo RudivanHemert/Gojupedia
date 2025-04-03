@@ -1,126 +1,145 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { techniques } from '@/data';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
-import { Badge } from '@/components/ui/badge';
-import { ChevronLeft, ChevronRight, PlayCircle } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+import { ChevronLeft, Image as ImageIcon, Video as VideoIcon, AlertCircle } from 'lucide-react';
+import { techniqueData } from '@/data/techniques'; // Import from the new data file
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+
 
 const TechniqueDetailPage = () => {
   const { id } = useParams<{ id: string }>();
-  const technique = techniques.find(t => t.id === id);
   
+  // Find the technique from the imported data
+  let technique = null;
+  let categoryTitle = '';
+  for (const category of techniqueData) {
+    const found = category.techniques.find(t => t.id === id);
+    if (found) {
+      technique = found;
+      categoryTitle = category.title;
+      break;
+    }
+  }
+
   if (!technique) {
     return (
-      <MobileLayout>
+      <MobileLayout hideHeader={true}>
         <div className="p-4">
-          <h1 className="text-2xl font-bold">Technique not found</h1>
-          <p className="mb-4">The technique you're looking for doesn't exist.</p>
-          <Button asChild>
-            <Link to="/techniques">Back to Techniques</Link>
+          <Alert variant="destructive">
+            <AlertCircle className="h-4 w-4" />
+            <AlertTitle>Error</AlertTitle>
+            <AlertDescription>
+              Technique not found. The technique you're looking for doesn't exist.
+            </AlertDescription>
+          </Alert>
+          <Button asChild variant="outline" className="mt-4">
+            <Link to="/techniques">
+              <ChevronLeft className="mr-2 h-4 w-4" />
+              Back to Techniques
+            </Link>
           </Button>
         </div>
       </MobileLayout>
     );
   }
-  
-  const relatedTechniqueItems = technique.relatedTechniques
-    .map(relId => techniques.find(t => t.id === relId))
-    .filter(Boolean);
 
   return (
-    <MobileLayout>
-      {/* Hero Image */}
-      <div className="relative h-56 overflow-hidden">
-        <img 
-          src={technique.images[0]} 
-          alt={technique.name} 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-        <div className="absolute bottom-0 left-0 p-5 w-full">
-          <Badge className="mb-2 capitalize">{technique.category}</Badge>
-          <h1 className="text-white text-3xl font-bold mb-1">{technique.name}</h1>
-          <p className="text-white/80 font-serif">{technique.japaneseName}</p>
-        </div>
-      </div>
-
-      {/* Content */}
+    // Ensure hideHeader is true
+    <MobileLayout hideHeader={true}>
+      {/* Content Area */}
       <div className="p-5 space-y-6">
+        {/* Basic Info */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-serif font-semibold mb-3">Description</h2>
-          <p className="text-gray-700 leading-relaxed">{technique.description}</p>
+          <h1 className="text-3xl font-bold mb-1">{technique.name}</h1>
+          <p className="text-lg text-muted-foreground font-serif mb-1">{technique.japaneseName}</p>
+          <p className="text-md text-muted-foreground italic mb-4">({technique.englishName})</p>
+          <p className="text-sm text-primary font-medium">Category: {categoryTitle}</p>
         </motion.div>
-
+        
+        {/* Description */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
+          className="bg-card p-4 rounded-lg shadow-sm border border-muted"
         >
-          <h2 className="text-2xl font-serif font-semibold mb-3">Steps</h2>
-          <ol className="list-decimal pl-5 space-y-2">
-            {technique.steps.map((step, index) => (
-              <li key={index} className="text-gray-700">{step}</li>
-            ))}
-          </ol>
+          <h2 className="text-xl font-serif font-semibold mb-3">Description</h2>
+          {technique.description ? (
+            <p className="text-secondary-foreground leading-relaxed">{technique.description}</p>
+          ) : (
+            <p className="text-muted-foreground italic">
+              Detailed description for {technique.name} will be added here.
+            </p>
+          )}
         </motion.div>
 
-        {technique.video && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="my-6"
-          >
-            <h2 className="text-2xl font-serif font-semibold mb-3">Video Demonstration</h2>
-            <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video flex items-center justify-center">
-              <PlayCircle className="h-16 w-16 text-karate opacity-90" />
-              <p className="absolute bottom-4 text-sm text-center text-gray-500 w-full">
-                Video available in the full version
-              </p>
-            </div>
-          </motion.div>
-        )}
+        {/* Steps */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="bg-card p-4 rounded-lg shadow-sm border border-muted"
+        >
+          <h2 className="text-xl font-serif font-semibold mb-3">Execution & Key Points</h2>
+          {technique.execution && technique.execution.length > 0 ? (
+            <ul className="list-disc pl-5 space-y-2">
+              {technique.execution.map((step, index) => (
+                <li key={index} className="text-secondary-foreground">{step}</li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-muted-foreground italic">
+              Step-by-step instructions for {technique.name} will be added here.
+            </p>
+          )}
+        </motion.div>
 
-        {relatedTechniqueItems.length > 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            <h2 className="text-2xl font-serif font-semibold mb-3">Related Techniques</h2>
-            <div className="space-y-3">
-              {relatedTechniqueItems.map((relTechnique) => 
-                relTechnique ? (
-                  <Link to={`/techniques/${relTechnique.id}`} key={relTechnique.id}>
-                    <Card className="p-3 flex items-center justify-between hover:bg-gray-50 transition-colors">
-                      <div>
-                        <h3 className="font-medium">{relTechnique.name}</h3>
-                        <p className="text-sm text-gray-500">{relTechnique.japaneseName}</p>
-                      </div>
-                      <ChevronRight className="h-5 w-5 text-gray-400" />
-                    </Card>
-                  </Link>
-                ) : null
-              )}
-            </div>
-          </motion.div>
-        )}
+        {/* Images Placeholder */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="bg-card p-4 rounded-lg shadow-sm border border-muted"
+        >
+          <h2 className="text-xl font-serif font-semibold mb-3 flex items-center">
+            <ImageIcon className="mr-2 h-5 w-5" /> Images
+          </h2>
+          <p className="text-muted-foreground italic">
+            Images demonstrating {technique.name} will be added here.
+          </p>
+          {/* Add image display logic here */}
+        </motion.div>
+
+        {/* Video Placeholder */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="bg-card p-4 rounded-lg shadow-sm border border-muted"
+        >
+          <h2 className="text-xl font-serif font-semibold mb-3 flex items-center">
+            <VideoIcon className="mr-2 h-5 w-5" /> Video Demonstration
+          </h2>
+          <p className="text-muted-foreground italic">
+            Video demonstration for {technique.name} will be added here.
+          </p>
+          {/* Add video embed/player logic here */}
+        </motion.div>
+
       </div>
 
       {/* Navigation Button */}
-      <div className="sticky bottom-20 px-5 pb-4 pt-2 bg-gradient-to-t from-white to-transparent">
+      <div className="sticky bottom-20 px-5 pb-4 pt-2 bg-gradient-to-t from-background to-transparent">
         <Button asChild variant="outline" className="w-full">
           <Link to="/techniques">
             <ChevronLeft className="mr-2 h-4 w-4" />
-            Back to Techniques
+            Back to Techniques List
           </Link>
         </Button>
       </div>
