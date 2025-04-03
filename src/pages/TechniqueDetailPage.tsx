@@ -116,7 +116,7 @@ const TechniqueDetailPage = () => {
           {/* Add image display logic here */}
         </motion.div>
 
-        {/* Video Placeholder */}
+        {/* Video Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -126,10 +126,24 @@ const TechniqueDetailPage = () => {
           <h2 className="text-xl font-serif font-semibold mb-3 flex items-center">
             <VideoIcon className="mr-2 h-5 w-5" /> Video Demonstration
           </h2>
-          <p className="text-muted-foreground italic">
-            Video demonstration for {technique.name} will be added here.
-          </p>
-          {/* Add video embed/player logic here */}
+          {technique.youtubeVideoId ? (
+            <div className="aspect-video">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src={`https://www.youtube.com/embed/${technique.youtubeVideoId}`}
+                title={`YouTube video player for ${technique.name}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+                className="rounded"
+              ></iframe>
+            </div>
+          ) : (
+            <p className="text-muted-foreground italic">
+              Video demonstration for {technique.name} will be added here.
+            </p>
+          )}
         </motion.div>
 
       </div>

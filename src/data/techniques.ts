@@ -6,6 +6,7 @@ export interface TechniqueItem {
   hasButton?: boolean; 
   description?: string;
   execution?: string[];
+  youtubeVideoId?: string; // Optional field for YouTube video ID
 }
 
 export interface TechniqueSubCategory {
@@ -26,7 +27,8 @@ export const techniqueData: TechniqueSubCategory[] = [
           "Swing the forearm upward in a diagonal motion, rotating the wrist outward.",
           "Stop at forehead level, forearm angled at 45°.",
           "Key Points: Use hip rotation for power. The non-blocking hand retracts to the hip (hikite)."
-        ]
+        ],
+        youtubeVideoId: 'dQw4w9WgXcQ' // Placeholder Rick Roll Video ID
       },
       { 
         id: 'gedan-barai', name: 'Gedan Barai', japaneseName: '下段払い', englishName: 'Downward Sweep', hasButton: true,
@@ -36,7 +38,8 @@ export const techniqueData: TechniqueSubCategory[] = [
           "Sweep downward diagonally, ending just above the knee.",
           "The other hand pulls back to the hip.",
           "Key Points: Keep the forearm firm to absorb impact."
-        ]
+        ],
+        youtubeVideoId: 'oHg5SJYRHA0' // Placeholder Cat Video ID
       },
       { 
         id: 'soto-uke', name: 'Soto Uke', japaneseName: '外受け', englishName: 'Outside Block', hasButton: true,
