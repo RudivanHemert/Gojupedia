@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import MobileLayout from '@/components/layout/MobileLayout';
-import MarkdownRenderer from '@/components/utils/MarkdownRenderer'; // Updated import path
+import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 // Remove direct import of hojoUndoData, we might not need it directly if using i18n keys
 // import { hojoUndoData } from '@/data/hojoUndoData'; 
 import { Button } from '@/components/ui/button';

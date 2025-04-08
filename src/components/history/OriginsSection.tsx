@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionWrapper from './SectionWrapper';
 import { motion } from 'framer-motion';
-import MarkdownRenderer from '@/components/utils/MarkdownRenderer';
+import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 
 // Import the specific markdown file
 import markdownContent from '@/content/history/origins.md?raw';

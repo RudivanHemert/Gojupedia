@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import MarkdownRenderer from '@/components/utils/MarkdownRenderer';
+import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 
 // Import the specific markdown file
 import markdownContent from '@/content/kata-theory/what-are-kata.md?raw';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import MarkdownRenderer from '@/components/utils/MarkdownRenderer';
+import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 
 // Import the specific markdown file
 import markdownContent from '@/content/history/tetsuji-nakamura.md?raw';

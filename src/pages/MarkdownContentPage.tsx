@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import MobileLayout from '@/components/layout/MobileLayout';
-import MarkdownRenderer from '@/components/utils/MarkdownRenderer'; 
+import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer'; 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ChevronLeft } from 'lucide-react';
