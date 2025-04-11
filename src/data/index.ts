@@ -1,4 +1,5 @@
 import { Category, Technique, Kata, HistoricalFigure, Article, Principle, Study } from "../types";
+import { TechniqueData } from "./techniquesData";
 
 export const categories: Category[] = [
   {
@@ -703,5 +704,57 @@ export const studies: Study[] = [
         explanation: "The name Goju Ryu reflects the principle of balancing hard (Go) and soft (Ju) techniques in training."
       }
     ]
-  }
+  },
+  {
+    id: 'stance-quiz',
+    title: 'Goju Ryu Stance Quiz',
+    description: 'Test your knowledge of Goju Ryu stances.',
+    category: 'techniques',
+    difficulty: 'intermediate',
+    type: 'quiz',
+    image: '/images/quiz/stance-quiz-banner.jpg',
+    questions: [],
+  },
+  {
+    id: 'kick-quiz',
+    title: 'Goju Ryu Kick Quiz',
+    description: 'Test your knowledge of Goju Ryu kicks.',
+    category: 'techniques',
+    difficulty: 'intermediate',
+    type: 'quiz',
+    image: '/images/quiz/kick-quiz-banner.jpg',
+    questions: [],
+  },
+  {
+    id: 'punch-quiz',
+    title: 'Goju Ryu Punch Quiz',
+    description: 'Test your knowledge of Goju Ryu punches.',
+    category: 'techniques',
+    difficulty: 'intermediate',
+    type: 'quiz',
+    image: '/images/quiz/punch-quiz-banner.jpg',
+    questions: [],
+  },
+  {
+    id: 'block-quiz',
+    title: 'Goju Ryu Block Quiz',
+    description: 'Test your knowledge of Goju Ryu blocks.',
+    category: 'techniques',
+    difficulty: 'intermediate',
+    type: 'quiz',
+    image: '/images/quiz/block-quiz-banner.jpg',
+    questions: [],
+  },
+  {
+    id: 'strike-quiz',
+    title: 'Goju Ryu Strike Quiz',
+    description: 'Test your knowledge of Goju Ryu strikes.',
+    category: 'techniques',
+    difficulty: 'intermediate',
+    type: 'quiz',
+    image: '/images/quiz/strike-quiz-banner.jpg',
+    questions: [],
+  },
 ];
+
+export { techniquesData } from './techniquesData';

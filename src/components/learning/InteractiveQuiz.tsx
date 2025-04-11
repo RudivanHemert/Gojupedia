@@ -282,10 +282,10 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
             </div>
             
             <div className="space-y-1">
-              <p className="text-xl font-semibold">
+              <div className="text-xl font-semibold">
                 You scored {score} out of {totalPoints} points
-              </p>
-              <p className="text-gray-600">{feedback}</p>
+              </div>
+              <div className="text-gray-600">{feedback}</div>
             </div>
           </div>
         </CardContent>
@@ -512,10 +512,13 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
               
               {/* Explanation (shown when showAnswer is true) */}
               {showAnswer && showExplanations && currentQuestion.explanation && (
-                <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-md">
-                  <h3 className="font-semibold mb-1">Explanation:</h3>
-                  <p className="text-sm text-gray-700">{currentQuestion.explanation}</p>
-                </div>
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="mt-4 text-sm text-muted-foreground"
+                >
+                  {currentQuestion.explanation}
+                </motion.div>
               )}
             </div>
           </motion.div>

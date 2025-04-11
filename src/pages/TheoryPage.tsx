@@ -21,8 +21,15 @@ const TheoryPage = () => {
       path: '/history',
     },
     {
+      id: 'philosophy',
+      name: 'Philosophy',
+      description: 'Core principles and values of Goju Ryu',
+      icon: <Book className="h-5 w-5 text-karate" />,
+      path: '/philosophy',
+    },
+    {
       id: 'kata',
-      name: 'Kata',
+      name: 'Kata Theory',
       description: 'Principles and theory behind traditional forms',
       icon: <ChevronDown className="h-5 w-5 text-karate" />,
       path: '/theory/kata',
@@ -39,7 +46,7 @@ const TheoryPage = () => {
   return (
     <MobileLayout hideHeader={true}>
       <TheoryHeader 
-        title="Theory"
+        title="Study"
         description="Principles and knowledge of Goju Ryu"
         imageUrl="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?q=80&w=2041&auto=format&fit=crop"
       />

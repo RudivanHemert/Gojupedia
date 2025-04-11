@@ -125,9 +125,9 @@ const StudyPage = () => {
                 </div>
               )}
               <CardContent className="pt-4 pb-0">
-                <p className="text-sm text-stone-600">
+                <div className="text-sm text-stone-600">
                   <strong>{study.questions.length}</strong> questions • Category: <Badge variant="outline" className="text-xs">{study.category}</Badge>
-                </p>
+                </div>
               </CardContent>
               <CardFooter className="pt-4">
                 <Button className="w-full" onClick={() => navigate(`/study/${study.id}`)}>
