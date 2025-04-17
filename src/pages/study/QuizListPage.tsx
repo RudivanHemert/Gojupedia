@@ -1,0 +1,37 @@
+import React from 'react';
+// Remove MobileLayout import if no longer needed directly
+// import MobileLayout from '@/components/layout/MobileLayout'; 
+import { studies } from '@/data';
+import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
+
+const QuizListPage = () => {
+  // Filter for quizzes
+  const quizStudies = studies.filter(study => study.type === 'quiz');
+
+  return (
+    <>
+      {/* Header */}
+      <div className="bg-stone-100 border-b border-stone-200">
+        <div className="px-4 py-6">
+          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">Available Quizzes</h1>
+          <p className="text-stone-600 text-center text-sm">
+            Test your knowledge on various topics.
+          </p>
+        </div>
+      </div>
+
+      {/* Quiz Cards - Revert to Vertical List Layout */}
+      <div className="px-4 py-6 space-y-4">
+        {quizStudies.length > 0 ? (
+          quizStudies.map(study => (
+            <StudyCard key={study.id} study={study} />
+          ))
+        ) : (
+          <p className="text-center text-stone-500 italic">No quizzes available currently.</p>
+        )}
+      </div>
+    </>
+  );
+};
+
+export default QuizListPage; 

@@ -12,21 +12,31 @@ import { ArrowRight, ArrowLeft, Book, Check, X, RotateCcw, Trophy, Brain } from 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { toast } from '@/hooks/use-toast';
 import TechniqueQuiz from '@/components/learning/TechniqueQuiz';
+import TechniqueFlashcards from '@/components/learning/TechniqueFlashcards';
+import { techniquesData, TechniqueData } from '@/data/techniquesData';
 
-// Define the categories we have quizzes for (could be dynamic later)
-const quizCategories = ['Stances', 'Kicks', 'Punches', 'Blocks', 'Strikes'] as const; // Keep this for now
-type QuizCategory = typeof quizCategories[number];
+// Get all possible categories from the source data
+const allTerminologyCategories = [
+    ...new Set(techniquesData.map(item => item.category))
+] as const;
+type TerminologyCategory = typeof allTerminologyCategories[number];
 
-// Helper to check if an ID matches a category quiz format
-const isCategoryQuizId = (id: string): id is `${Lowercase<QuizCategory>}-quiz` => {
-  return quizCategories.some(cat => id === `${cat.toLowerCase()}-quiz`);
+// Helper to generate slug from category name (consistent with data/index.ts)
+const generateSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
+
+// New helper function to parse category and type from generated IDs
+const parseGeneratedStudyId = (id: string): { category: TerminologyCategory | undefined, type: 'quiz' | 'flashcard' | undefined } => {
+    for (const category of allTerminologyCategories) {
+        const categorySlug = generateSlug(category);
+        if (id === `${categorySlug}-quiz`) {
+            return { category, type: 'quiz' };
+        }
+        if (id === `${categorySlug}-flashcard`) {
+            return { category, type: 'flashcard' };
+        }
+    }
+    return { category: undefined, type: undefined }; // Not a recognized generated ID
 };
-
-// Helper to extract category name from ID
-const getCategoryFromId = (id: `${Lowercase<QuizCategory>}-quiz`): QuizCategory | undefined => {
-  const matchedCategory = quizCategories.find(cat => id === `${cat.toLowerCase()}-quiz`);
-  return matchedCategory;
-}
 
 const StudyDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -113,7 +123,7 @@ const StudyDetailPage = () => {
   // --- Main Component Return Logic --- 
 
   // 1. Handle Loading State
-  if (!study) {
+  if (!study || !id) {
     return (
       <div className="flex items-center justify-center h-60">
         <p className="text-stone-600">Loading study...</p>
@@ -143,24 +153,28 @@ const StudyDetailPage = () => {
     </div>
   );
 
-  // 2. Handle Category Quizzes
-  if (id && isCategoryQuizId(id)) {
-    const category = getCategoryFromId(id);
+  // 2. Attempt to parse as a Dynamically Generated Study Module
+  const { category: generatedCategory, type: generatedType } = parseGeneratedStudyId(id);
+  
+  if (generatedCategory && generatedType) {
+    // It's a dynamically generated study, render the correct component
     return (
-      <>
-        {renderHeader()}
-        <div className="p-4">
-          {category ? (
-            <TechniqueQuiz category={category} title={study.title} />
-          ) : (
-            <div className="text-center text-red-500">Error: Could not determine quiz category for ID '{id}'.</div>
-          )}
-        </div>
-      </>
-    );
+        <>
+          {renderHeader()}
+          <div className="p-4">
+            {generatedType === 'quiz' ? (
+              <TechniqueQuiz category={generatedCategory} title={study.title} />
+            ) : ( // Must be 'flashcard'
+              <TechniqueFlashcards category={generatedCategory} title={study.title} />
+            )}
+          </div>
+        </>
+      );
   }
 
-  // 3. Handle All Other Study Types
+  // 3. Handle Manually Defined Study Types (if not a generated study)
+  
+  // Check if completed first
   if (quizCompleted) {
     return (
       <>
@@ -204,16 +218,16 @@ const StudyDetailPage = () => {
     );
   }
 
-  // Define currentQuestion for non-category types
+  // Define currentQuestion for manual study types
   const currentQuestion = study.questions?.[currentQuestionIndex];
 
-  // Handle missing question for non-category types
+  // Handle missing question for manual study types
   if (!currentQuestion) {
     return (
       <>
         {renderHeader()}
         <div className="p-4 text-center text-stone-500">
-          No question found at index {currentQuestionIndex} for this study.
+          No question found at index {currentQuestionIndex} for this manual study.
         </div>
       </>
     );
@@ -235,7 +249,7 @@ const StudyDetailPage = () => {
           </div>
         </div>
 
-        {/* --- Render Specific Study Type UI --- */} 
+        {/* --- Render Specific Manual Study Type UI --- */}
         {study.type === 'flashcard' ? (
           <Card 
             className={`border border-stone-200 mb-6 cursor-pointer transition-all transform ${flipped ? 'bg-stone-50' : ''}`}
@@ -372,7 +386,7 @@ const StudyDetailPage = () => {
           </Card>
         )}
 
-        {/* --- Navigation Buttons (Shared for non-category quizzes) --- */} 
+        {/* --- Navigation Buttons (Shared for manual study types) --- */} 
         <div className="flex justify-between mt-6 pb-6">
           <Button
             variant="outline"

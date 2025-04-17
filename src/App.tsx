@@ -40,6 +40,10 @@ import EquipmentOverview from './pages/hojo-undo/EquipmentOverview';
 // Import the generic markdown page component
 import MarkdownContentPage from './pages/MarkdownContentPage';
 
+// Import the new list pages
+import QuizListPage from './pages/study/QuizListPage';
+import FlashcardListPage from './pages/study/FlashcardListPage';
+
 const queryClient = new QueryClient();
 
 const AppContent = () => {
@@ -77,8 +81,17 @@ const AppContent = () => {
         <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
 
         <Route path="/kumite" element={<KumitePage />} />
+        
+        {/* Main Study Hub */}
         <Route path="/study" element={<StudyPage />} />
+        
+        {/* Specific List Pages - MUST come BEFORE the dynamic :id route */}
+        <Route path="/study/quizzes" element={<QuizListPage />} />
+        <Route path="/study/flashcards" element={<FlashcardListPage />} />
+        
+        {/* Dynamic Detail Page for individual study items */}
         <Route path="/study/:id" element={<StudyDetailPage />} />
+        
         <Route path="/gradings" element={<GradingsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="*" element={<NotFound />} />

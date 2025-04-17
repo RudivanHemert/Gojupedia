@@ -1,5 +1,5 @@
-import { Category, Technique, Kata, HistoricalFigure, Article, Principle, Study } from "../types";
-import { TechniqueData } from "./techniquesData";
+import { Category, Technique, Kata, HistoricalFigure, Article, Principle, Study, StudyQuestion } from "../types";
+import { techniquesData, TechniqueData } from "./techniquesData";
 
 export const categories: Category[] = [
   {
@@ -604,157 +604,89 @@ export const principles: Principle[] = [
   }
 ];
 
-export const studies: Study[] = [
+// Get all unique categories from the techniques data
+const allTerminologyCategories = [
+    ...new Set(techniquesData.map(item => item.category))
+] as const;
+
+// Type for category names derived from data
+type TerminologyCategory = typeof allTerminologyCategories[number];
+
+// Helper to generate slug from category name
+const generateSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
+
+// Generate BOTH quiz and flashcard studies for each terminology category
+const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[]): Study[] => {
+    const generatedStudies: Study[] = [];
+
+    categories.forEach(category => {
+        const categorySlug = generateSlug(category);
+        const categoryHasData = techniquesData.some(item => item.category === category);
+
+        if (!categoryHasData) {
+            console.warn(`Skipping study generation for empty category: ${category}`);
+            return; // Skip empty categories
+        }
+
+        // Create Quiz Study
+        generatedStudies.push({
+            id: `${categorySlug}-quiz`, // e.g., stances-quiz
+            title: `${category} Quiz`,
+            description: `Test your knowledge of ${category.toLowerCase()}.`,
+            type: 'quiz',
+            difficulty: 'beginner',
+            category: 'Techniques', // Broad category for filtering on StudyPage if re-enabled
+            image: '', // Optional: Add relevant images later
+            questions: [] // Questions are generated dynamically in TechniqueQuiz
+        });
+
+        // Create Flashcard Study
+        generatedStudies.push({
+            id: `${categorySlug}-flashcard`, // e.g., stances-flashcard
+            title: `${category} Flashcards`,
+            description: `Review ${category.toLowerCase()} using flashcards.`,
+            type: 'flashcard',
+            difficulty: 'beginner',
+            category: 'Techniques',
+            image: '',
+            questions: [] // Cards are generated dynamically in TechniqueFlashcards
+        });
+    });
+
+    return generatedStudies;
+};
+
+// --- Manually Defined Studies --- 
+// (Can keep specific manual studies if they offer unique content/structure)
+const manualStudies: Study[] = [
+  // Example: Keep a manually defined study if it has specific questions or structure
+  /*
   {
-    id: "basic-stances",
-    title: "Basic Goju Ryu Stances",
-    description: "Test your knowledge of fundamental stances in Goju Ryu karate.",
+    id: "goju-ryu-history-quiz",
+    title: "Goju Ryu History Quiz",
+    description: "Test your knowledge of the key figures and events in Goju Ryu history.",
     type: "quiz",
-    category: "techniques",
-    difficulty: "beginner",
-    image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop",
-    questions: [
-      {
-        id: "q1",
-        question: "Which stance is known as the 'hour-glass stance' in Goju Ryu?",
-        options: ["Sanchin Dachi", "Shiko Dachi", "Zenkutsu Dachi", "Neko Ashi Dachi"],
-        correctAnswer: "Sanchin Dachi",
-        explanation: "Sanchin Dachi (三戦立ち) is known as the 'hour-glass stance' and forms the foundation of Goju Ryu karate."
-      },
-      {
-        id: "q2",
-        question: "In Sanchin Dachi, how should the feet be positioned?",
-        options: [
-          "Shoulder-width apart with toes pointing slightly inward",
-          "Wide apart with toes pointing outward",
-          "One foot forward, one foot back",
-          "Both feet together"
-        ],
-        correctAnswer: "Shoulder-width apart with toes pointing slightly inward",
-        explanation: "In Sanchin Dachi, feet should be shoulder-width apart with toes pointing slightly inward to create stability."
-      },
-      {
-        id: "q3",
-        question: "What is a key aspect of proper breathing in Goju Ryu stances?",
-        options: [
-          "Shallow, rapid breathing",
-          "Holding your breath for stability",
-          "Deep, controlled abdominal breathing",
-          "Only breathing through the mouth"
-        ],
-        correctAnswer: "Deep, controlled abdominal breathing",
-        explanation: "Proper breathing in Goju Ryu involves deep, controlled abdominal breathing that works in harmony with movement."
-      }
-    ]
-  },
-  {
-    id: "kata-principles",
-    title: "Kata Principles Flashcards",
-    description: "Learn and memorize the important principles behind kata practice.",
-    type: "flashcard",
-    category: "kata",
-    difficulty: "intermediate",
-    image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
-    questions: [
-      {
-        id: "k1",
-        question: "What does the term Sanchin (三戦) mean?",
-        correctAnswer: "Three Battles/Conflicts",
-        explanation: "Sanchin refers to the 'three battles' of mind, body, and spirit that practitioners must overcome."
-      },
-      {
-        id: "k2",
-        question: "What is the primary purpose of Sanchin kata in Goju Ryu?",
-        correctAnswer: "To develop proper breathing, stance, and internal body tension",
-        explanation: "Sanchin focuses on proper breathing techniques, rooted stance, and developing internal strength through muscular contraction."
-      },
-      {
-        id: "k3",
-        question: "What does the name Saifa (砕破) mean?",
-        correctAnswer: "Smash and Tear",
-        explanation: "Saifa translates to 'smash and tear', reflecting the kata's tearing and pulling techniques for close combat."
-      }
-    ]
-  },
-  {
-    id: "history-matching",
-    title: "Goju Ryu Founders & History",
-    description: "Match the important figures to their contributions in Goju Ryu history.",
-    type: "matching",
-    category: "history",
-    difficulty: "intermediate",
+    difficulty: "Intermediate",
+    category: "History",
     image: "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop",
     questions: [
-      {
-        id: "h1",
-        question: "Chojun Miyagi",
-        correctAnswer: "Founder of Goju Ryu karate",
-        explanation: "Chojun Miyagi (1888-1953) systematized and named the Goju Ryu style, emphasizing both hard and soft techniques."
-      },
-      {
-        id: "h2",
-        question: "Kanryo Higaonna",
-        correctAnswer: "Teacher of Chojun Miyagi who studied martial arts in China",
-        explanation: "Kanryo Higaonna (1853-1916) traveled to Fuzhou, China to study martial arts before returning to Okinawa to teach."
-      },
-      {
-        id: "h3",
-        question: "Go and Ju Principle",
-        correctAnswer: "The balance of hardness and softness",
-        explanation: "The name Goju Ryu reflects the principle of balancing hard (Go) and soft (Ju) techniques in training."
-      }
-    ]
+       // ... specific history questions ... 
+    ],
+    tags: ["history", "quiz"]
   },
-  {
-    id: 'stance-quiz',
-    title: 'Goju Ryu Stance Quiz',
-    description: 'Test your knowledge of Goju Ryu stances.',
-    category: 'techniques',
-    difficulty: 'intermediate',
-    type: 'quiz',
-    image: '/images/quiz/stance-quiz-banner.jpg',
-    questions: [],
-  },
-  {
-    id: 'kick-quiz',
-    title: 'Goju Ryu Kick Quiz',
-    description: 'Test your knowledge of Goju Ryu kicks.',
-    category: 'techniques',
-    difficulty: 'intermediate',
-    type: 'quiz',
-    image: '/images/quiz/kick-quiz-banner.jpg',
-    questions: [],
-  },
-  {
-    id: 'punch-quiz',
-    title: 'Goju Ryu Punch Quiz',
-    description: 'Test your knowledge of Goju Ryu punches.',
-    category: 'techniques',
-    difficulty: 'intermediate',
-    type: 'quiz',
-    image: '/images/quiz/punch-quiz-banner.jpg',
-    questions: [],
-  },
-  {
-    id: 'block-quiz',
-    title: 'Goju Ryu Block Quiz',
-    description: 'Test your knowledge of Goju Ryu blocks.',
-    category: 'techniques',
-    difficulty: 'intermediate',
-    type: 'quiz',
-    image: '/images/quiz/block-quiz-banner.jpg',
-    questions: [],
-  },
-  {
-    id: 'strike-quiz',
-    title: 'Goju Ryu Strike Quiz',
-    description: 'Test your knowledge of Goju Ryu strikes.',
-    category: 'techniques',
-    difficulty: 'intermediate',
-    type: 'quiz',
-    image: '/images/quiz/strike-quiz-banner.jpg',
-    questions: [],
-  },
+  */
 ];
 
-export { techniquesData } from './techniquesData';
+// --- Combine and Export Studies --- 
+
+// Generate studies from all detected terminology categories
+const generatedTerminologyStudies = generateStudiesFromTechniques(allTerminologyCategories);
+
+// Combine manual studies with automatically generated ones
+export const studies: Study[] = [
+    ...manualStudies, 
+    ...generatedTerminologyStudies
+];
+
+// Export other data as needed (ensure TechniqueData is not exported twice)
+export { techniquesData }; 

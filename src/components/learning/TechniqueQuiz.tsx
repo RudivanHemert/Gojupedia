@@ -40,52 +40,73 @@ const generateQuizQuestions = (
   const allDataForOptions = data;
 
   selectedData.forEach((item) => {
-    const questionType: QuestionType = Math.random() < 0.5 ? 'multiple-choice' : 'text-input';
+    // Force multiple-choice for all questions
+    const questionType: QuestionType = 'multiple-choice'; 
 
     if (questionType === 'multiple-choice') {
       const questionText = `What is the English translation for "${item.japanese}"${item.kanji ? ` (${item.kanji})` : ''}?`;
       const correctAnswer = item.english;
+      const correctCategory = item.category;
 
-      // Generate incorrect options from the *entire* dataset, excluding the correct answer
-      let incorrectOptions = shuffle(allDataForOptions.filter(d => d.id !== item.id && d.english !== correctAnswer))
-        .slice(0, 3) // Attempt to get 3 unique wrong answers
-        .map(d => ({ id: d.id, text: d.english, isCorrect: false }));
+      let incorrectOptions: QuizOption[] = [];
 
-      // Fill remaining incorrect options if necessary (ensuring variety)
-      while (incorrectOptions.length < 3 && allDataForOptions.length > incorrectOptions.length + 1) {
-        const potentialOption = shuffle(allDataForOptions.filter(d => 
-          d.id !== item.id && 
-          d.english !== correctAnswer && 
-          !incorrectOptions.some(opt => opt.id === d.id)
-        ))[0];
-        if (potentialOption) {
-          incorrectOptions.push({ id: potentialOption.id, text: potentialOption.english, isCorrect: false });
-        } else {
-          break; // Avoid infinite loop if options exhausted
-        }
-      }
+      // --- New Distractor Logic ---
       
-      // If still not enough options (very small dataset), duplicate is acceptable
-      if (incorrectOptions.length < 3) {
-          // Find a fallback option, ensuring it's not the current item
-          const fallbackOptionData = shuffle(allDataForOptions.filter(d => d.id !== item.id))[0] || 
-                                   { id: 'fallback', japanese:'Fallback', english: 'Other Term', category: 'General' }; // Basic fallback data
-          
-          // Ensure the fallback data is transformed into a QuizOption structure
-          const fallbackQuizOption: QuizOption = {
-              id: fallbackOptionData.id, 
-              text: fallbackOptionData.english, 
-              isCorrect: false 
-          };
+      // 1. Try to get 2 distractors from the same category
+      const sameCategoryDistractors = shuffle(
+          allDataForOptions.filter(d => 
+              d.category === correctCategory && 
+              d.id !== item.id && 
+              d.english !== correctAnswer
+          )
+      ).slice(0, 2);
 
-          while (incorrectOptions.length < 3) {
-              // Add copies of the formatted fallback option with unique IDs
-              incorrectOptions.push({
-                  ...fallbackQuizOption, 
-                  id: `${fallbackQuizOption.id}-fallback-${incorrectOptions.length}` 
-              });
-          }
+      incorrectOptions.push(...sameCategoryDistractors.map(d => ({ id: d.id, text: d.english, isCorrect: false })));
+
+      // 2. Try to get 1 distractor from other categories
+      if (incorrectOptions.length < 3) { // Only if needed
+          const otherCategoryDistractors = shuffle(
+              allDataForOptions.filter(d => 
+                  d.category !== correctCategory && // Different category
+                  d.id !== item.id && 
+                  d.english !== correctAnswer &&
+                  !incorrectOptions.some(opt => opt.id === d.id) // Not already selected
+              )
+          ).slice(0, 3 - incorrectOptions.length); // Get remaining needed
+
+          incorrectOptions.push(...otherCategoryDistractors.map(d => ({ id: d.id, text: d.english, isCorrect: false })));
       }
+
+      // --- Fallback Logic (if still not enough options) ---
+
+      // 3. If still needed, fill remaining from ANY category (including same, but excluding correct/already chosen)
+      if (incorrectOptions.length < 3) {
+          console.warn(`Needed fallback distractors for item '${item.id}' in category '${correctCategory}'.`);
+          const additionalNeeded = 3 - incorrectOptions.length;
+          const fallbackOptions = shuffle(
+              allDataForOptions.filter(d => 
+                  d.id !== item.id && 
+                  d.english !== correctAnswer && 
+                  !incorrectOptions.some(opt => opt.id === d.id)
+              )
+          ).slice(0, additionalNeeded);
+          incorrectOptions.push(...fallbackOptions.map(d => ({ id: d.id, text: d.english, isCorrect: false })));
+      }
+
+      // 4. Final fallback with placeholders if absolutely necessary
+      while (incorrectOptions.length < 3) {
+           console.warn(`Using generic fallback distractors for item '${item.id}'. Dataset might be too small.`);
+           const fallbackQuizOption: QuizOption = {
+               id: `fallback-${item.id}-${incorrectOptions.length}`,
+               text: `Other Term ${incorrectOptions.length + 1}`, 
+               isCorrect: false 
+           };
+           incorrectOptions.push(fallbackQuizOption);
+      }
+      // --- End of New Distractor Logic ---
+
+      // Ensure we only have 3 incorrect options exactly
+      incorrectOptions = incorrectOptions.slice(0, 3);
 
       const options = shuffle([
         { id: item.id, text: correctAnswer, isCorrect: true },
@@ -98,17 +119,6 @@ const generateQuizQuestions = (
         question: questionText,
         options: options,
         explanation: `"${item.japanese}" means "${item.english}".`,
-        points: 1,
-      });
-    } else {
-      // English -> Japanese Text Input
-      const questionText = `What is the Japanese term (Romaji) for "${item.english}"?`;
-      questions.push({
-        id: `${item.id}-txt-eng-jap`,
-        type: 'text-input',
-        question: questionText,
-        correctAnswer: item.japanese,
-        explanation: `The Japanese term for "${item.english}" is "${item.japanese}"${item.kanji ? ` (${item.kanji})` : ''}.`,
         points: 1,
       });
     }
