@@ -1,27 +1,30 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
-import { InfoIcon } from 'lucide-react';
+import { Loader2 } from 'lucide-react';
 
 export const LanguageSelector: React.FC = () => {
-  const { i18n } = useTranslation();
+  const { language, setLanguage, supportedLanguages, loadingTranslations } = useLanguage();
 
   return (
     <Card className="p-4">
       <h3 className="text-lg font-semibold mb-4">Language</h3>
       <div className="flex flex-col gap-2">
-        <Button
-          variant="default"
-          className="w-full"
-          disabled
-        >
-          English
-        </Button>
-        <div className="text-sm text-muted-foreground mt-2 flex items-start gap-2">
-          <InfoIcon size={16} className="mt-0.5 flex-shrink-0" />
-          <span>Multilingual support is temporarily disabled.</span>
-        </div>
+        {Object.entries(supportedLanguages).map(([code, name]) => (
+          <Button
+            key={code}
+            variant={language === code ? "default" : "outline"}
+            className="w-full justify-between"
+            onClick={() => setLanguage(code as any)}
+            disabled={loadingTranslations}
+          >
+            <span>{name}</span>
+            {loadingTranslations && language === code && (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            )}
+          </Button>
+        ))}
       </div>
     </Card>
   );

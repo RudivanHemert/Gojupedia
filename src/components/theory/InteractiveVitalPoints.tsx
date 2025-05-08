@@ -10,8 +10,8 @@ interface VitalPoint {
   name: string;
   japanese: string;
   number?: number;
-  x: number;
-  y: number;
+    x: number;
+    y: number;
   view: 'front' | 'back';
 }
 
@@ -488,7 +488,7 @@ const InteractiveVitalPoints = () => {
   const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
 
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
-
+  
   const handleImageClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!showCoordinates) return;
     
@@ -524,16 +524,16 @@ const InteractiveVitalPoints = () => {
             />
             <Label htmlFor="show-coordinates">Show Coordinates</Label>
           </div>
-        </div>
-        <Button
-          variant="outline"
+      </div>
+        <Button 
+          variant="outline" 
           onClick={() => setSelectedPoint(null)}
           disabled={!selectedPoint}
         >
           Close Details
         </Button>
       </div>
-
+      
       <Tabs value={activeView} onValueChange={(value) => setActiveView(value as 'front' | 'back')}>
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="front">Front View</TabsTrigger>
@@ -595,14 +595,14 @@ const InteractiveVitalPoints = () => {
                     >
                       {point.number ? `${point.number}. ${point.japanese}` : point.japanese}
                     </Button>
-                  </div>
+              </div>
                 </motion.div>
-              ))}
+        ))}
             </motion.div>
           )}
         </AnimatePresence>
       </div>
-
+      
       <AnimatePresence>
         {selectedPoint && (
           <motion.div
@@ -634,8 +634,8 @@ const InteractiveVitalPoints = () => {
                     </div>
                     <div className="text-gray-600 ml-6">
                       {point.name}
-                    </div>
-                  </div>
+              </div>
+              </div>
                 ))}
             </div>
           </div>
@@ -654,8 +654,8 @@ const InteractiveVitalPoints = () => {
                     <div className="text-gray-600 ml-6">
                       {point.name}
                     </div>
-                  </div>
-                ))}
+            </div>
+          ))}
             </div>
           </div>
         </div>
