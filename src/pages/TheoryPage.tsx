@@ -3,41 +3,43 @@ import MobileLayout from '@/components/layout/MobileLayout';
 import { Book, Scroll, Target, ChevronDown } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 import { TheorySectionList } from '@/components/theory/TheorySection';
+import { useTranslation } from 'react-i18next';
 
 const TheoryPage = () => {
+  const { t } = useTranslation();
   const sections = [
     {
       id: 'terminology',
-      name: 'Terminology',
-      description: 'Japanese terminology and vocabulary used in Goju Ryu',
+      name: t('theory.terminology'),
+      description: t('theory.terminologyDesc'),
       icon: <Book className="h-5 w-5 text-karate" />,
       path: '/terminology',
     },
     {
       id: 'history',
-      name: 'History',
-      description: 'The origins and evolution of Goju Ryu Karate',
+      name: t('theory.history'),
+      description: t('theory.historyDesc'),
       icon: <Scroll className="h-5 w-5 text-karate" />,
       path: '/history',
     },
     {
       id: 'philosophy',
-      name: 'Philosophy',
-      description: 'Core principles and values of Goju Ryu',
+      name: t('theory.philosophy', 'Philosophy'),
+      description: t('theory.philosophyDesc', 'Core principles and values of Goju Ryu'),
       icon: <Book className="h-5 w-5 text-karate" />,
       path: '/philosophy',
     },
     {
       id: 'kata',
-      name: 'Kata Theory',
-      description: 'Principles and theory behind traditional forms',
+      name: t('theory.kata'),
+      description: t('theory.kataDesc'),
       icon: <ChevronDown className="h-5 w-5 text-karate" />,
       path: '/theory/kata',
     },
     {
       id: 'vital-points',
-      name: 'Vital Points',
-      description: 'Study of pressure points and vulnerable areas',
+      name: t('theory.vitalPoints'),
+      description: t('theory.vitalPointsDesc'),
       icon: <Target className="h-5 w-5 text-karate" />,
       path: '/vital-points',
     }
@@ -46,8 +48,8 @@ const TheoryPage = () => {
   return (
     <MobileLayout hideHeader={true}>
       <TheoryHeader 
-        title="Study"
-        description="Principles and knowledge of Goju Ryu"
+        title={t('theory.title')}
+        description={t('theory.description')}
         imageUrl="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?q=80&w=2041&auto=format&fit=crop"
       />
 

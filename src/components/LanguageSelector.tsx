@@ -1,31 +1,67 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Loader2 } from 'lucide-react';
 
-export const LanguageSelector: React.FC = () => {
+// Memoize the language button to prevent unnecessary re-renders
+const LanguageButton = React.memo(({ 
+  code, 
+  name, 
+  isCurrent, 
+  isLoading, 
+  onSelect 
+}: { 
+  code: string; 
+  name: string; 
+  isCurrent: boolean; 
+  isLoading: boolean; 
+  onSelect: (code: string) => void;
+}) => {
+  const handleClick = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    onSelect(code);
+  }, [code, onSelect]);
+
+  return (
+    <Button
+      type="button"
+      variant={isCurrent ? "default" : "outline"}
+      className="w-full justify-between"
+      onClick={handleClick}
+      disabled={isLoading}
+    >
+      <span>{name}</span>
+      {isLoading && isCurrent && (
+        <Loader2 className="h-4 w-4 animate-spin" />
+      )}
+    </Button>
+  );
+});
+
+export const LanguageSelector = React.memo(() => {
   const { language, setLanguage, supportedLanguages, loadingTranslations } = useLanguage();
+
+  const handleLanguageSelect = useCallback((code: string) => {
+    setLanguage(code as any);
+  }, [setLanguage]);
 
   return (
     <Card className="p-4">
       <h3 className="text-lg font-semibold mb-4">Language</h3>
       <div className="flex flex-col gap-2">
         {Object.entries(supportedLanguages).map(([code, name]) => (
-          <Button
+          <LanguageButton
             key={code}
-            variant={language === code ? "default" : "outline"}
-            className="w-full justify-between"
-            onClick={() => setLanguage(code as any)}
-            disabled={loadingTranslations}
-          >
-            <span>{name}</span>
-            {loadingTranslations && language === code && (
-              <Loader2 className="h-4 w-4 animate-spin" />
-            )}
-          </Button>
+            code={code}
+            name={name}
+            isCurrent={language === code}
+            isLoading={loadingTranslations}
+            onSelect={handleLanguageSelect}
+          />
         ))}
       </div>
     </Card>
   );
-}; 
+}); 

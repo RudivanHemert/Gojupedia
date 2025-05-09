@@ -1,15 +1,14 @@
 import React from 'react';
 import SectionWrapper from './SectionWrapper';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-
-// Import the specific markdown file
-import markdownContent from '@/content/history/chojun-miyagi.md?raw';
+import { useMarkdownContent } from '@/utils/markdown';
 
 const ChojunMiyagiSection = () => {
+  const markdownContent = useMarkdownContent('../content/history/chojun-miyagi');
+
   return (
     <SectionWrapper title="Chojun Miyagi (1888 - 1953)">
-      {/* Render the imported Markdown content */}
-      <MarkdownRenderer markdownContent={markdownContent} />
+      {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
     </SectionWrapper>
   );
 };

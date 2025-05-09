@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState, useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SupportedLanguage, supportedLanguages } from '@/i18n';
 
@@ -24,7 +24,9 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const isRtl = ['ar', 'he', 'fa'].includes(language);
   
   // Set language function
-  const setLanguage = async (lang: SupportedLanguage) => {
+  const setLanguage = useCallback(async (lang: SupportedLanguage) => {
+    if (lang === language) return; // Don't change if it's the same language
+    
     setLoadingTranslations(true);
     try {
       await i18n.changeLanguage(lang);
@@ -36,12 +38,12 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     } finally {
       setLoadingTranslations(false);
     }
-  };
+  }, [i18n, language, isRtl]);
   
   // Wrapper for translation function
-  const t = (key: string, vars?: Record<string, string>): string => {
+  const t = useCallback((key: string, vars?: Record<string, string>): string => {
     return i18nT(key, vars);
-  };
+  }, [i18nT]);
   
   // Initialize language on mount
   useEffect(() => {
@@ -49,17 +51,19 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     if (savedLang && Object.keys(supportedLanguages).includes(savedLang)) {
       setLanguage(savedLang);
     }
-  }, []);
+  }, [setLanguage]);
+  
+  const value = useMemo(() => ({
+    language,
+    setLanguage,
+    t,
+    isRtl,
+    loadingTranslations,
+    supportedLanguages
+  }), [language, setLanguage, t, isRtl, loadingTranslations]);
   
   return (
-    <LanguageContext.Provider value={{ 
-      language, 
-      setLanguage, 
-      t, 
-      isRtl, 
-      loadingTranslations,
-      supportedLanguages
-    }}>
+    <LanguageContext.Provider value={value}>
       {children}
     </LanguageContext.Provider>
   );

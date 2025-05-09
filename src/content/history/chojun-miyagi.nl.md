@@ -1,0 +1,84 @@
+## Chojun Miyagi (1888 - 1953)
+
+![Chojun Miyagi](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ch%C5%8Djun_Miyagi.jpg/330px-Ch%C5%8Djun_Miyagi.jpg)
+
+Chojun Miyagi werd geboren op 25 april 1888 in Naha, Okinawa, in een welgestelde familie van scheepseigenaren. Vanaf jonge leeftijd toonde hij een sterke interesse in vechtkunsten, beginnend met zijn formele training op 11-jarige leeftijd onder Ryuko Aragaki, die hem later in 1902 voorstelde aan Kanryo Higaonna.
+
+In 1902, op 14-jarige leeftijd, werd Chojun Miyagi leerling van Meester Kanryo. Twee jaar eerder, toen hij 12 was, wilde zijn moeder dat hij sterk en goed voorbereid zou worden om familieresponsibiliteiten op zich te nemen. Ze bracht hem naar Aragaki Ryuko, een bekende vechtsportbeoefenaar in Okinawa.
+
+De aanpak van Aragaki Ryuko was voornamelijk gericht op het vechten zelf. Hij onderwees niet echt vechtkunsten als zodanig. Hij leerde de jonge Chojun Miyagi makiwara-training en legde de nadruk op verschillende conditioneringsoefeningen om het lichaam te versterken, zoals het tillen van zware stenen en chi-ishi training.
+
+![Aragaki Ryuko](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aragaki.jpg/220px-Aragaki.jpg)
+
+Chojun Miyagi was een buitengewoon enthousiaste student, en vanwege zijn toewijding introduceerde Aragaki Ryuko hem bij de beroemde Kanryo. Chojun Miyagi was toen veertien jaar oud. Hij was student aan wat nu de Shuri Middelbare School heet.
+
+Voor de jonge Chojun Miyagi was dit het begin van serieuze training. Hoewel hij nog zo jong was, wijdde Chojun Miyagi zijn hele leven aan karate. Elke dag rende hij de lange afstand tussen zijn huis in Naha en de school in Shuri. Na school ging hij naar het strand waar grote en zware stenen te vinden waren om mee te trainen. Omdat hij dagelijks zo hard trainde, maakte hij snel vooruitgang.
+
+De training in de dojo, vooral de Sanchin kata onder leiding van zijn leraar Kanryo, werd steeds zwaarder naarmate de tijd verstreek. Niettemin was karate op dat moment in zijn leven het enige wat hij wilde doen. Hij dacht alleen aan karate, en zelfs nog op school zag hij zijn toekomst alleen in karate. Karate was het belangrijkste in zijn leven geworden.
+
+Meester Kanryo maakte een diepe indruk op Chojun Miyagi. Zelfs na zijn vijftigste bezat Kanryo nog steeds ongelooflijke kracht en snelheid. Bijvoorbeeld, wanneer hij de laatste technieken in de Sesan kata demonstreerde, kon je het geluid van splijtend hout horen wanneer hij met zijn voet op de vloer stampte. Eens vroeg Meester Kanryo aan Chojun Miyagi om onder de vloer te kijken om hem de stille kracht van zijn techniek te tonen. Chojun Miyagi zag dat een van de zware dwarsbalken die de vloer ondersteunden, gebroken was. Chojun Miyagi vertelde vaak zulke opvallende verhalen over de harde en onvoorstelbare training van zijn leraar in China.
+
+Chojun Miyagi was de meest getalenteerde en toegewijde student in de dojo. Op 20-jarige leeftijd werd hij de beste leerling van Meester Kanryo. Rond dezelfde tijd trouwde hij. Op 22-jarige leeftijd vertrok hij naar het Japanse vasteland om zijn militaire dienst te vervullen. Volgens Seibun Nakamto Sensei sprak Kanryo tijdens zijn afwezigheid voortdurend met tederheid over zijn beste leerling.
+
+Na twee jaar militaire dienst keerde Chojun Miyagi terug naar Okinawa. Hij was gretig om weer te beginnen met trainen en nodigde Meester Kanryo uit om hem thuis les te geven. Gedurende drie jaar na zijn terugkeer uit Japan gaf Kanryo hem privélessen. Wanneer Meester Kanryo groepen lesgaf in zijn huis, liet hij Chojun Miyagi achter om verder met hem te trainen. Het was tijdens deze periode dat hij zijn leerling de technieken van het hoogste niveau leerde. Naast het onderwijzen van ongewapende vormen van de vechtkunsten, leerde Kanryo Chojun Miyagi ook wapens.
+
+Voordat Chojun Miyagi vertrok voor zijn militaire dienst, was Meester Kanryo begonnen hem bo-jutsu te leren om hem voor te bereiden op ju-ken of bajonetgevecht, dat in het leger werd beoefend. Meester Kanryo's vaardigheid met de bo was van zeer hoog niveau. Er wordt gezegd dat als hij zijn bo in een grote lege pot gooide, de pot, in plaats van in stukken te breken, simpelweg werd doorboord vanwege de snelheid en precisie van de worp. Het was tijdens deze periode dat Chojun Miyagi begon te beseffen hoe uitgebreid de studie van zijn leraar in China was geweest.
+
+Er waren veel vechtsportbeoefenaars in Naha in die tijd, maar niemand kon de vaardigheid en expertise van Meester Kanryo evenaren. Hij was werkelijk in een klasse apart. Zijn faam was zo groot dat wanneer de politie werd geconfronteerd met een gevaarlijke man met een mes, ze hem riepen om de situatie te hanteren. Volgens omstanders waren zijn bewegingen zo snel als de bliksem.
+
+Meester Kanryo werd synoniem met Naha-te. Wanneer Naha-te werd genoemd, dachten mensen altijd aan hem. Hij was degene die verantwoordelijk was voor het naar voren brengen van Naha-te als vechtkunst op Okinawa. Kanryo Higaonna was in alle opzichten een grote meester; hij stierf in 1915. Zijn beste leerling Chojun Miyagi (26 jaar) voelde dat zijn niveau nog ver onder dat van zijn leraar lag. Hij had veel over China gehoord van zijn leraar, en gretig om zichzelf te verbeteren en meer kennis op te doen, plande hij een reis naar China om in de voetsporen van zijn leraar te treden.
+
+Tijdens de voorbereiding van zijn reis ontmoette Chojun Miyagi Eizo Nakamoto, die Engels had gedoceerd aan het Fuzhou College in Fuzhou en net was teruggekeerd naar Naha. Hij introduceerde Chojun Miyagi bij een vriend van hem die in Fuzhou woonde. Bij aankomst in China bracht deze vriend Chojun naar een voormalige leerling van de legendarische meester Ryu-Ryu Ko. Na de gebruikelijke begroetingsrituelen voerde Chojun de kata's uit die hij had geleerd van Meester Kanryo voor de oude man. Hij demonstreerde alle kata van Saifa tot Suparinpei. Hij vergat echter de kata Sanseru, waarschijnlijk omdat het zijn minst favoriete kata was. De oude man complimenteerde hem met zijn kata's maar merkte ook op dat hij er een had gemist. Dit was de kata Sanseru, en de oude man demonstreerde het voor Chojun Miyagi.
+
+In China bezocht Chojun Miyagi ook het graf van Meester Ryu Ryu Ko om zijn respect te betuigen. Hij bezocht ook de tempel waar Ryu Ryu Ko de vechtkunsten had bestudeerd. Deze tempel lag hoog op de berg, gehuld in mist. In de binnenplaats waar de vechtkunsten werden beoefend, zag hij vele versleten voetafdrukken in de verharde grond, en er was een verscheidenheid aan traditionele trainingsapparatuur. Meester Chojun Miyagi bleef die keer twee maanden in Fuzhou, waar hij de vechtkunsten bestudeerde en zijn eigen onderzoek deed.
+
+De tweede keer dat Chojun Miyagi naar China ging was ergens tussen 1920 en 1930. Hij werd vergezeld door een Chinese theehandelaar, meneer Kogenki, een goede vriend die bekwaamheid had verworven in de Witte Kraanvogel stijl van Chinese vechtkunsten. Helaas waren de betrekkingen tussen China en Japan in die tijd verre van goed. Als gevolg daarvan had Chojun Miyagi weinig succes met zijn onderzoeken.
+
+In 1936 ging hij voor de derde keer naar China. Deze keer ging hij alleen. Hij nam een boot van Kyushu (vasteland van Japan) naar Shanghai, waar hij een ontmoeting had geregeld met de Shanghai Martial Arts Federation. Deze reis was veel vruchtbaarder dan de vorige twee, en hij legde goede contacten met de Chinese vechtsportbeoefenaars die hij daar ontmoette.
+
+![Bubishi](https://upload.wikimedia.org/wikipedia/commons/c/c9/Bubishi.jpg)
+
+Twee jaar eerder, in 1934, was hij naar Hawaii gereisd op uitnodiging van een Hawaiiaans krantenbedrij. Zijn hoofddoel was om les te geven aan de vele Okinawanen die daar werkten. Hij bleef elf maanden in Hawaii, en tijdens deze periode probeerde hij Goju-Ryu karate daar te verspreiden. In 1933 werd karate, dankzij de inspanningen van Chojun Miyagi, erkend als een Japanse vechtkunst door de Butokukai. De Butokukai was gevestigd in Kyoto en was het centrale punt voor alle Japanse vechtkunsten, wat het de machtigste en invloedrijkste groep in het land maakte. Rond deze tijd werd de naam Goju-Ryu karate-do ook officieel bij hen geregistreerd.
+
+Het volgende jaar, 1934, werd Chojun Miyagi benoemd tot afgevaardigde van de Dai Nippon Butokukai voor Okinawa. Na zijn benoeming zette hij zijn inspanningen voort om karate te verspreiden en te populariseren. In 1937 werd hij, samen met drie anderen, onderscheiden met de eretitel 'Kyoshi Ko' door de Butokukai. Het was de eerste keer dat een karate-afgevaardigde deze titel ontving.
+
+De naam Goju-Ryu was meer toevallig dan opzettelijk. Op 5 mei 1930 werd het Japanse Vechtkunsten Festival gehouden bij het Meiji-heiligdom in Tokyo. Chojun Miyagi stuurde zijn beste leerling Jinan Shinzato om een demonstratie te geven. Na deze demonstratie vroeg een leraar in Japanse kobudo hem tot welke karatestijl hij behoorde. Jinan Shinzato wist niet wat hij moest zeggen omdat mensen in Okinawa niet gewend waren om stijlen te benoemen zoals gebruikelijk was in het Japanse vasteland. Shinzato Sensei vertelde Chojun Miyagi over dit incident na zijn terugkeer naar Okinawa. Chojun Miyagi besloot, na alles te hebben overwogen, om de stijl een naam te geven om erkenning te krijgen als Japanse vechtkunst en de toekomstige ontwikkeling ervan te bevorderen.
+
+Hij koos de naam Go-Ju Ryu, een naam uit een gedicht in de Bubishi. De Bubishi is een enorme Chinese tekst die een reeks onderwerpen behandelt, waaronder vechtkunsten. Dit gedicht bevat acht voorschriften voor de beoefening van vechtkunsten. Het voorschrift waaruit Chojun Miyagi de naam afleidde was "Houwa Goiu Wo Donto Su" - inademen is zacht, uitademen is hard. De meeste vechtsportbeoefenaars in Okinawa en Japan kennen dit verhaal, aangezien dit de eerste officiële naamgeving van een karatestijl was.
+
+1.  **Jinshi wa tenchi ni onaji** - De geest is één met Hemel en Aarde.
+2.  **Ketsumyaku wa nichigetsu ni nitari** - Het circulatieritme van het lichaam bootst de cyclus van de Zon en de Maan na.
+3.  **Ho wa Goju wo donto su** - De manier van in- en uitademen is hardheid en zachtheid.
+4.  **Mi wa toki ni shitagai hen ni ozu** - Het lichaam past zich voortdurend aan en verandert.
+5.  **Te wa ku ni ai sunwachi hairu** - Ware vechtsport vindt plaats in afwezigheid van bewust denken.
+6.  **Shintai wa hakarite riho su** - De voeten moeten vooruit en achteruit gaan, scheiden en samenkomen.
+7.  **Me wa shiho wo rniru woyosu** - De ogen missen zelfs de kleinste verandering niet.
+8.  **Mimi wa yoku happo wo kiku** - De oren kunnen in alle richtingen luisteren.
+
+Hoewel Chojun Miyagi zijn stijl een naam had gegeven, verwees hij er nooit naar wanneer hij lesgaf of over karate sprak. Hij gebruikte simpelweg de term "Ti", het woord dat Okinawanen gebruiken om vechtkunsten te beschrijven, of "Bu", wat vechtkunst betekent. Er was geen naambord aan de buitenkant van zijn dojo zoals gebruikelijk was op het Japanse vasteland. Toch vertelde hij zijn leerlingen dat als hen werd gevraagd naar hun stijl, ze Goju-Ryu moesten antwoorden. Zelfs na de Tweede Wereldoorlog hing hij geen naambord op.
+
+De naam werd bij de Butokukai geregistreerd als Goju-Ryu karate-do. Het woord 'karate' wordt geschreven met twee Chinese karakters. Het eerste karakter 'To' betekende vroeger 'Chinees' en betekent tegenwoordig 'leeg'. In Goju-Ryu karate-do wordt de betekenis 'Chinees' behouden. De latere betekenis 'leeg' wordt gebruikt in Shotokan-Ryu, Shito-Ryu en Wado-Ryu karate-do.
+
+In Okinawa wilden de oudere meesters hun kunst onder de aandacht van het publiek brengen en officiële erkenning krijgen als een bonafide vechtkunstdiscipline. Om dit te bereiken werd de "Okinawa Karate Kenkyu Kai" opgericht in 1925. Er werd speciaal hiervoor een nieuw gebouw opgericht in het Walaso-cho gebied van een district in Naha. Chojun Miyagi werd benoemd tot hoofdinstructeur, en andere bekende Okinawaanse meesters waren betrokken. Meesters zoals Chomo Hanashiri, Choyu Motosu en Kenwa Mabuni gaven er allemaal les. Via deze vereniging werkten bekende karatemeesters aan de verspreiding en popularisering van karate. Helaas moest de Kenkyu Kai in 1929 sluiten omdat er niet genoeg fondsen konden worden geworven voor het onderhoud.
+
+![Goju-Ryu embleem](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goju-ryu_crest.svg/200px-Goju-ryu_crest.svg.png)
+
+In het begin van de jaren '20 formuleerde en ontwikkelde Chojun Miyagi Junbi Undo, of warming-up oefeningen, die uniek zijn voor Goju-Ryu. Na zorgvuldig onderzoek en met de hulp van een bevriende arts ontwikkelde hij deze oefeningen gebaseerd op medische en wetenschappelijke principes. In dezelfde periode begon hij ook les te geven op scholen. Tijdens deze periode ontwikkelde hij ook de kata Tensho uit de Chinese vechtkunst kata Rokkishu.
+
+Jihan Shinzato was Chojun Miyagi's beste leerling voor de Tweede Wereldoorlog. Shinzato Sensei was een detective bij de politie. Hij was extreem toegewijd aan karate, en hij beoefende ook Judo. Shinzato Sensei trainde hard onder Chojun Miyagi, en hij deed ook zijn eigen onderzoek in de vechtkunsten. Hij creëerde zelfs zijn eigen kata. Zijn favoriete technieken waren naga-waza, werptechnieken, en ne-waza, grondtechnieken. Shinzato Sensei was uitzonderlijk begaafd, en het was algemeen bekend dat hij Chojun Miyagi's opvolger zou worden om Goju-Ryu verder te verspreiden. Helaas werd hij gedood tijdens de Tweede Wereldoorlog. Naast Shinzato verloor Chojun Miyagi ook twee dochters en zijn derde zoon tijdens de oorlog. Na de oorlog gaf Chojun Miyagi les aan de politieacademie, en toen deze in 1947 naar Naha verhuisde, verhuisde Chojun Miyagi ook. Hij vond een huis in het Tsuboya-cho district.
+
+Als leerling van Higaonna toonde Miyagi uitzonderlijke toewijding en vaardigheid, en trainde rigoureus gedurende 13 jaar tot de dood van zijn meester in 1915. Erkend als Higaonna's beste leerling, erfde Miyagi de verantwoordelijkheid om de leringen van zijn meester te behouden en vooruit te brengen.
+
+Na Higaonna's overlijden reisde Miyagi in 1915 naar Fuzhou, China, om de wortels van de vechtkunst die hij had geleerd verder te onderzoeken. Hoewel hij moeilijkheden ondervond bij het lokaliseren van Higaonna's oorspronkelijke leraar, Ryu Ryu Ko, leverde zijn reis waardevolle inzichten op in Chinese vechtkunsten die later zijn ontwikkeling van Goju-Ryu zouden beïnvloeden.
+
+In 1921 had Miyagi de eer om zijn vechtkunst te demonstreren aan Kroonprins Hirohito tijdens zijn bezoek aan Okinawa. Deze demonstratie hielp de status van Okinawaans karate in Japan te verhogen. In 1926 richtte Miyagi de Karate Research Club op in het Wakas-Cho district, waarmee hij een formele trainingsomgeving creëerde voor zijn groeiende aantal studenten.
+
+Een belangrijk moment in de geschiedenis van Goju-Ryu kwam in 1930 tijdens een vechtkunsttoernooi in Japan. Toen Miyagi's leerling Jinan Shinzato werd gevraagd naar de naam van zijn stijl, antwoordde hij dat deze geen naam had, wat Miyagi ertoe aanzette om later de naam "Goju-Ryu" te formaliseren, gebaseerd op principes uit de Bubishi, een klassieke Chinese tekst over vechtkunsten. De naam weerspiegelt het evenwicht van harde (go) en zachte (ju) technieken die de stijl kenmerken.
+
+Gedurende de jaren '30 groeide Miyagi's reputatie internationaal. In 1934 werd hij benoemd tot officiële vertegenwoordiger van de Dai Nippon Butokukai, Japan's belangrijkste vechtkunstorganisatie. In 1936 reisde hij naar Hawaii op uitnodiging van een krant om karate te introduceren op de Hawaiiaanse eilanden, wat een van de eerste gevallen markeerde waarin Goju-Ryu buiten Japan werd onderwezen.
+
+De Tweede Wereldoorlog bracht enorme ontberingen naar Okinawa. Tijdens de Slag om Okinawa in 1945 verloor Miyagi zijn huis, veel familieleden en waardevolle trainingsdocumenten. Ondanks deze verwoestende verliezen hervatte hij het lesgeven na de oorlog, zich concentrerend op de wederopbouw van de beoefening van Goju-Ryu tot aan zijn dood door hartfalen op 8 oktober 1953.
+
+Miyagi's erfenis leeft voort door zijn leerlingen en de wereldwijde verspreiding van Goju-Ryu karate. Hij wordt niet alleen herinnerd om zijn technische innovaties en systematische benadering van training, maar ook om zijn nadruk op de filosofische en spirituele aspecten van vechtkunsten. Zijn creatie van de kata Tensho en zijn verfijning van de bestaande kata's tonen zijn toewijding aan het balanceren van harde en zachte elementen in karate.
+
+Bovenal benadrukte Miyagi dat karate niet alleen ging over vechten maar over persoonlijke ontwikkeling en het streven naar vrede. Zijn beroemde uitspraak, "Het uiteindelijke doel van karate-do is karakter opbouwen, menselijke ellende overwinnen en spirituele vrijheid vinden", blijft practitioners van Goju-Ryu wereldwijd inspireren. 

@@ -49,7 +49,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children, hideHeader = fals
       >
         {children}
       </motion.main>
-      <SubNavigation currentPath={currentPath} />
+      {!hideHeader && <SubNavigation currentPath={currentPath} />}
       <div className="fixed bottom-0 w-full max-w-md bg-stone-50 border-t border-stone-200 z-50">
         <MainNavigation activeTab={activeTab} />
       </div>

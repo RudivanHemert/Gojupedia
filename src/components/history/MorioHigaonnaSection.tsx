@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-
-// Import the specific markdown file
-import markdownContent from '@/content/history/morio-higaonna.md?raw';
+import { useMarkdownContent } from '@/utils/markdown';
 
 const MorioHigaonnaSection = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const markdownContent = useMarkdownContent('../content/history/morio-higaonna');
 
   return (
     <section className="space-y-4 mt-8">
@@ -17,7 +16,7 @@ const MorioHigaonnaSection = () => {
           {isOpen ? <ChevronUp className="h-6 w-6 text-gray-500" /> : <ChevronDown className="h-6 w-6 text-gray-500" />}
         </CollapsibleTrigger>
         <CollapsibleContent className="pt-4 px-4">
-          <MarkdownRenderer markdownContent={markdownContent} />
+          {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
         </CollapsibleContent>
       </Collapsible>
     </section>

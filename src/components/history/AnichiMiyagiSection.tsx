@@ -1,17 +1,17 @@
 import React from 'react';
 import SectionWrapper from './SectionWrapper';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-
-// Import the specific markdown file
-import markdownContent from '@/content/history/anichi-miyagi.md?raw';
+import { useMarkdownContent } from '@/utils/markdown';
 
 const AnichiMiyagiSection = () => {
+  const markdownContent = useMarkdownContent('../content/history/anichi-miyagi');
+
   return (
     <SectionWrapper title="An'ichi Miyagi (1931-2009)">
       {/* Render the imported Markdown content */}
       {/* Note: Complex layouts with side images might require custom rendering logic */}
       {/* or adjustments to the Markdown structure/CSS if basic rendering is insufficient. */}
-      <MarkdownRenderer markdownContent={markdownContent} />
+      {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
     </SectionWrapper>
   );
 };

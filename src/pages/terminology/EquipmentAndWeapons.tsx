@@ -1,13 +1,16 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const EquipmentAndWeapons = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="space-y-6">
-      <p className="text-muted-foreground mb-4">Traditional training equipment and weapons used in Goju Ryu and Okinawan martial arts.</p>
+      <p className="text-muted-foreground mb-4">{t('terminology.sections.equipment-weapons-desc')}</p>
       
       <div className="border border-muted rounded-md mb-2 overflow-hidden">
         <div className="bg-muted/30 px-4 py-3 text-sm font-medium text-secondary-foreground">
-          Equipment & Weapons
+          {t('terminology.sections.equipment-weapons')}
         </div>
         <div className="px-4 py-2 bg-card">
           <ul className="list-disc pl-4 space-y-2">

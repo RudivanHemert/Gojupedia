@@ -14,6 +14,7 @@ import { toast } from '@/hooks/use-toast';
 import TechniqueQuiz from '@/components/learning/TechniqueQuiz';
 import TechniqueFlashcards from '@/components/learning/TechniqueFlashcards';
 import { techniquesData, TechniqueData } from '@/data/techniquesData';
+import { useTranslation } from 'react-i18next';
 
 // Get all possible categories from the source data
 const allTerminologyCategories = [
@@ -48,6 +49,7 @@ const StudyDetailPage = () => {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const { t } = useTranslation();
 
   // Find the study by ID
   useEffect(() => {
@@ -126,7 +128,7 @@ const StudyDetailPage = () => {
   if (!study || !id) {
     return (
       <div className="flex items-center justify-center h-60">
-        <p className="text-stone-600">Loading study...</p>
+        <p className="text-stone-600">{t('study.loading')}</p>
       </div>
     );
   }
@@ -183,11 +185,11 @@ const StudyDetailPage = () => {
           <div className="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center mb-4">
             <Trophy className="h-8 w-8 text-karate" />
           </div>
-          <h2 className="text-2xl font-serif mb-2">Study Completed!</h2>
+          <h2 className="text-2xl font-serif mb-2">{t('study.completed')}</h2>
           {(study.type === 'quiz' || study.type === 'matching') && study.questions && study.questions.length > 0 && (
             <>
               <p className="text-lg mb-4">
-                Your score: <span className="font-semibold">{score}</span> out of {study.questions.length}
+                {t('study.yourScore', { score, total: study.questions.length })}
               </p>
               <div className="w-full max-w-xs mb-6 bg-stone-100 rounded-full h-2.5">
                 <div 
@@ -204,13 +206,13 @@ const StudyDetailPage = () => {
               onClick={handleRestart}
             >
               <RotateCcw className="mr-2 h-4 w-4" />
-              Study Again
+              {t('study.studyAgain')}
             </Button>
             <Button 
               className="w-full"
               onClick={() => navigate('/study')}
             >
-              Back to Study Section
+              {t('study.backToStudySection')}
             </Button>
           </div>
         </div>
@@ -227,7 +229,7 @@ const StudyDetailPage = () => {
       <>
         {renderHeader()}
         <div className="p-4 text-center text-stone-500">
-          No question found at index {currentQuestionIndex} for this manual study.
+          {t('study.noQuestionFound', { index: currentQuestionIndex })}
         </div>
       </>
     );
@@ -240,7 +242,7 @@ const StudyDetailPage = () => {
       <div className="pt-4 px-4">
         {/* Progress Indicator */}
         <div className="flex justify-between items-center mb-4 text-sm text-stone-600">
-          <span>Question {currentQuestionIndex + 1} of {study.questions.length}</span>
+          <span>{t('study.question', { index: currentQuestionIndex + 1, total: study.questions.length })}</span>
           <div className="w-32 bg-stone-100 rounded-full h-1.5">
             <div 
               className="bg-karate h-1.5 rounded-full" 
@@ -256,7 +258,7 @@ const StudyDetailPage = () => {
             onClick={handleFlip}
           >
             <div className="absolute top-3 right-3">
-              <Badge variant="outline">Tap to flip</Badge>
+              <Badge variant="outline">{t('study.tapToFlip')}</Badge>
             </div>
             <div className="min-h-[250px] flex items-center justify-center p-6">
               {!flipped ? (
@@ -305,18 +307,18 @@ const StudyDetailPage = () => {
                   {userAnswers[currentQuestion.id] === currentQuestion.correctAnswer ? (
                     <>
                       <Check className="h-5 w-5 text-green-500" />
-                      <span className="font-medium">Correct!</span>
+                      <span className="font-medium">{t('study.correct')}</span>
                     </>
                   ) : (
                     <>
                       <X className="h-5 w-5 text-red-500" />
-                      <span className="font-medium">Incorrect</span>
+                      <span className="font-medium">{t('study.incorrect')}</span>
                     </>
                   )}
                 </div>
                 <Collapsible open={showExplanation} onOpenChange={setShowExplanation}>
                   <CollapsibleTrigger className="text-sm text-stone-600 underline">
-                    {showExplanation ? "Hide explanation" : "Show explanation"}
+                    {showExplanation ? t('study.hideExplanation') : t('study.showExplanation')}
                   </CollapsibleTrigger>
                   <CollapsibleContent className="text-sm text-stone-600 pt-2">
                     {currentQuestion.explanation}
@@ -378,7 +380,7 @@ const StudyDetailPage = () => {
               </RadioGroup>
               {quizCompleted && currentQuestion.explanation && (
                 <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-md">
-                  <h3 className="font-semibold mb-1">Explanation:</h3>
+                  <h3 className="font-semibold mb-1">{t('study.explanation')}:</h3>
                   <p className="text-sm text-gray-700">{currentQuestion.explanation}</p>
                 </div>
               )}
@@ -394,13 +396,13 @@ const StudyDetailPage = () => {
             disabled={currentQuestionIndex === 0}
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Previous
+            {t('study.previous')}
           </Button>
           <Button
             onClick={handleNextQuestion}
             disabled={study.type !== 'flashcard' && !userAnswers[currentQuestion.id]}
           >
-            {currentQuestionIndex < study.questions.length - 1 ? 'Next' : 'Finish'}
+            {currentQuestionIndex < study.questions.length - 1 ? t('study.next') : t('study.finish')}
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>

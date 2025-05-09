@@ -3,13 +3,12 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import translations
-import en from './en.json';
-import de from './de.json';
-import es from './es.json';
-import fr from './fr.json';
-import it from './it.json';
-import nl from './nl.json';
-import ja from './ja.json';
+import en from './locales/en.json';
+import de from './locales/de.json';
+import es from './locales/es.json';
+import fr from './locales/fr.json';
+import it from './locales/it.json';
+import nl from './locales/nl.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -18,8 +17,7 @@ export const supportedLanguages = {
   es: 'Español',
   fr: 'Français',
   it: 'Italiano',
-  nl: 'Nederlands',
-  ja: '日本語'
+  nl: 'Nederlands'
 } as const;
 
 export type SupportedLanguage = keyof typeof supportedLanguages;
@@ -34,8 +32,7 @@ i18n
       es: { translation: es },
       fr: { translation: fr },
       it: { translation: it },
-      nl: { translation: nl },
-      ja: { translation: ja }
+      nl: { translation: nl }
     },
     fallbackLng: 'en',
     supportedLngs: Object.keys(supportedLanguages),

@@ -1,0 +1,43 @@
+## Tetsuji Nakamura (1965 - )
+
+![Maestro de Karate](https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?q=80&w=1974&auto=format&fit=crop)
+
+Sensei Tetsuji Nakamura, el hombre a quien el Maestro Higaonna confió el deber de toda una vida de proteger el Goju-ryu tradicional y transmitirlo a la siguiente generación. En julio de 2012, Sensei Higaonna anunció a sus estudiantes avanzados en todo el mundo que pasaría la llama del Goju-ryu a Sensei Nakamura – un hombre que ha sido uno de sus estudiantes más cercanos y leales.
+
+A la edad de solo 47 años, Sensei Nakamura afirma que es joven y que todavía tiene mucho que aprender como Karate-ka; demostrando el tipo de humildad que hemos llegado a esperar de su propio instructor. Se ha comprometido a dedicar el resto de su vida a seguir protegiendo y desarrollando el Okinawa Goju-ryu Karate-do.
+
+### Comienzos
+
+Sensei Tetsuji Nakamura no tenía idea de que cuando comenzó su entrenamiento en artes marciales a los 12 años, su viaje se convertiría en una búsqueda tan seria de vida como lo ha sido. Nació en Osaka, Japón, el 3 de abril de 1965 y comenzó a practicar Judo a los 12 años, iniciando la práctica de Karate en la escuela secundaria superior a los 15 años. Continuó su práctica de Judo durante seis años, alcanzando el nivel de 2º Dan (cinturón negro) en este arte. Su compromiso con el entrenamiento en artes marciales comenzó a una edad temprana, entrenando Judo un mínimo de cinco veces por semana.
+
+Cuando ingresó a la escuela secundaria superior, tuvo su primera introducción al Karate, practicando en un club Goju Kai durante tres años. Aunque admite que su enfoque estaba más en el Judo en ese momento, obviamente había una pasión y apreciación por el Karate que lo llevó a unirse a otra escuela de Karate al ingresar a la universidad.
+
+![Entrenamiento de Karate](https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1974&auto=format&fit=crop)
+
+Sensei Nakamura asistió a la Universidad de Kagawa y mientras estaba allí comenzó a entrenar con otro club de estilo Goju. El entrenamiento era físico, pero se centraba mucho en el combate libre ya que el club estaba lleno de jóvenes entusiastas que querían probarse a sí mismos en el suelo del dojo. Sensei Nakamura era uno que se mantenía firme y cuando le dijo al instructor del club que se dirigía con algunos amigos de vacaciones a Okinawa durante su descanso universitario, su instructor insistió en que debería ponerse en contacto con uno de sus propios Senseis.
+
+Siendo siempre un estudiante leal, al llegar a Okinawa, Sensei Nakamura llamó por teléfono a un hombre llamado Shuichi Aragaki. Sin saberlo, Sensei Nakamura estaba llamando a un Maestro de Karate que era uno de los únicos dos estudiantes privados del fundador del estilo Goju-ryu, Bushi Chojun Miyagi, después de la devastación de la Segunda Guerra Mundial. Aragaki Sensei fue muy amable con este joven extraño y lo invitó a su casa a cenar. Durante la comida, Aragaki Sensei le contó sobre su entrenamiento con Chojun Miyagi Sensei y de qué se trataba realmente el verdadero karate. Después de que Nakamura Sensei regresó al continente, comenzó a pensar a menudo en las historias de Aragaki Sensei. Decidió regresar a Okinawa y visitar a Aragaki Sensei una vez más para aprender más sobre su Karate antes de graduarse de la universidad.
+
+Al regresar a Okinawa, Sensei Nakamura contactó a Aragaki Sensei y lo visitó nuevamente. El Maestro de Karate llevó entonces al joven al dojo Uehara en Okinawa. Después de las presentaciones, comenzó el entrenamiento. El Maestro envejecido le pidió al joven Nakamura Sensei que lo golpeara. Consciente de la diferencia de edad, Sensei Nakamura golpeó lentamente al Maestro Aragaki, quien se sorprendió. Pidió nuevamente al joven que lo golpeara con toda su fuerza. Sensei Nakamura cargó y rápidamente se encontró en el suelo numerosas veces. Más tarde explicó que cada uno de los golpes del Maestro Aragaki aterrizaba precisamente en áreas vitales cada vez y que sentía que el Sensei podría haberlo matado si hubiera elegido hacerlo. El entrenamiento eventualmente pasó al entrenamiento de Kata. Después de que el Maestro vio la ejecución de su Kata, le preguntó: "¿Qué es esto? Esto no es Karate tradicional."
+
+### Mudanza a los Estados Unidos de América
+
+Así que una vez más, Sensei Nakamura empacó su vida por el Karate y partió hacia América para continuar su entrenamiento bajo su nuevo Maestro. Al llegar por primera vez a California, Sensei Nakamura vivía con el Maestro Higaonna y su familia, convirtiéndose en un Uchi Deshi (literalmente un estudiante de la casa). Entrenaba todas las mañanas con el Maestro de Goju-ryu en su garaje y luego nuevamente con él por la tarde y noche en su Dojo en San Marcos – el Instituto de Karate Tradicional. El entrenamiento en clase con el Maestro Higaonna ya es físico de por sí, ni hablar de estar uno a uno con él y no tener lugar para esconderse o dejar espacio para errores. El entrenamiento era agotador y ayudó a forjar a Sensei Nakamura en el guerrero de Karate que llegaría a ser.
+
+### Regreso a Japón
+
+En el mismo año, el Maestro Higaonna se dio cuenta de la necesidad de que Japón continental tuviera una sede fuerte y decidió regresar a Tokio para establecer el Ryubukan, un Dojo que se convertiría en el centro del Goju-ryu en Japón. Le pidió a Sensei Nakamura que lo acompañara y los dos se mudaron juntos a Tokio.
+
+### Solo el Camino Tradicional
+
+En 1994, Tetsuji Nakamura Sensei tenía 29 años y acababa de lograr su objetivo de ganar el campeonato mundial de IOGKF en la categoría de combate libre – una tarea que sentía presión por lograr siendo instructor en el Dojo Honbu de IOGKF. Pero mientras yacía en la cama a la mañana siguiente, pensó para sí mismo: "¿Soy realmente el mejor del mundo?" Su respuesta para sí mismo fue no. Aunque había logrado una impresionante victoria en todo el torneo, todavía sentía que en comparación con muchos de los instructores senior internacionales de IOGKF, solo estaba comenzando como un buen artista marcial tradicional.
+
+Fue en este punto que decidió terminar su carrera competitiva para enfocarse únicamente en el Okinawa Goju-ryu Karate-do tradicional. Cambió su horario de entrenamiento personal para reflejar un mayor énfasis en Hojo Undo (entrenamiento suplementario específico para Goju-ryu) y la práctica de Sanchin. Sintió que su Karate, fuerza, poder y velocidad mejoraron drásticamente cuando entró en sus treinta años.
+
+Cuando Sensei Nakamura declaró a sus padres que sus intenciones eran seguir su llamado al Karate después de terminar su título universitario, no estaban muy impresionados. Su madre no le habló durante un largo período. Pero cuando sus padres viajaron a Canadá en 2000 para unas vacaciones, rápidamente se dieron cuenta de la felicidad y la vida que el Karate le había dado a su hijo. A partir de este punto, aceptaron y apoyaron la búsqueda de Sensei Nakamura de convertirse en la mejor persona que podía ser y difundir el Goju-ryu por todo el mundo.
+
+IOGKF Canadá realmente comenzó a crecer bajo la mano de Sensei Nakamura y a finales de 2003 decidió que era hora de establecer su propio Dojo. Este fue el comienzo de Shudokan, ahora uno de los Dojos de Goju-ryu más populares del mundo. Durante varios años enseñó en un Dojo construido específicamente, pero cuando su popularidad creció y pronto estaba manejando más de 180 estudiantes entrenando regularmente, se decidió que se necesitaba un lugar más grande. En 2011, se creó una labor de amor. Un taller mecánico muy grande de dos pisos se transformó en el nuevo Dojo Shudokan. Estudiantes de todo Canadá y el mundo ayudaron a construir el nuevo hogar de IOGKF Canadá y pronto de IOGKF World.
+
+![Entrenamiento Tradicional de Goju-ryu](https://images.unsplash.com/photo-1599580326852-a633c16dc58b?q=80&w=1974&auto=format&fit=crop)
+
+Hoy, Sensei Tetsuji Nakamura todavía reside en Canadá con su esposa Rania y sus dos hijas, Emilie y Sophia. Es un hombre de familia cariñoso y dedica su tiempo entre su vida familiar y la práctica e instrucción de Karate. Todavía te dirá hoy que no es el mejor del mundo. Sin embargo, es esta humildad, junto con las miles de horas de práctica e investigación sincera y dedicada, lo que realmente hace de Sensei Tetsuji Nakamura uno de los mejores del mundo. Una vez comentó que no cree que pueda alcanzar el nivel del Maestro Higaonna, pero que nunca dejará de esforzarse por lograrlo. Con esta pasión y espíritu hacia el entrenamiento y con el respaldo del mundo, el futuro del Goju-ryu está seguro y continuará prosperando bajo su liderazgo. 

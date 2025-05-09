@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { I18nextProvider } from 'react-i18next';
+import { LanguageProvider } from '@/contexts/LanguageContext';
 import i18n from '@/i18n';
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -44,9 +45,19 @@ import MarkdownContentPage from './pages/MarkdownContentPage';
 import QuizListPage from './pages/study/QuizListPage';
 import FlashcardListPage from './pages/study/FlashcardListPage';
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5 * 60 * 1000, // 5 minutes
+      gcTime: 10 * 60 * 1000, // 10 minutes (replaces cacheTime)
+      refetchOnWindowFocus: false,
+      retry: 1
+    }
+  }
+});
 
-const AppContent = () => {
+// Memoize the AppContent to prevent unnecessary re-renders
+const AppContent = React.memo(() => {
   const location = useLocation();
   
   return (
@@ -67,53 +78,82 @@ const AppContent = () => {
         <Route path="/kata/:id" element={<KataDetailPage />} />
         <Route path="/bunkai" element={<BunkaiPage />} />
         <Route path="/bunkai/:id" element={<BunkaiDetailPage />} />
-        
-        {/* Main Hojo Undo page */}
         <Route path="/hojo-undo" element={<HojoUndoPage />} />
-        
-        {/* Re-add specific routes for the /general/ sections BEFORE the dynamic route */}
         <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
         <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
         <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
         <Route path="/hojo-undo/general/equipment" element={<EquipmentOverview />} />
-
-        {/* Dynamic route for equipment-specific sections (now catches paths NOT matched above) */}
         <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
-
         <Route path="/kumite" element={<KumitePage />} />
-        
-        {/* Main Study Hub */}
         <Route path="/study" element={<StudyPage />} />
-        
-        {/* Specific List Pages - MUST come BEFORE the dynamic :id route */}
         <Route path="/study/quizzes" element={<QuizListPage />} />
         <Route path="/study/flashcards" element={<FlashcardListPage />} />
-        
-        {/* Dynamic Detail Page for individual study items */}
         <Route path="/study/:id" element={<StudyDetailPage />} />
-        
         <Route path="/gradings" element={<GradingsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </MobileLayout>
   );
-};
+});
+
+// Memoize the providers wrapper to prevent unnecessary re-renders
+const Providers = React.memo(({ children }: { children: React.ReactNode }) => {
+  // Memoize the providers to prevent unnecessary re-renders
+  const providers = React.useMemo(() => (
+    <QueryClientProvider client={queryClient}>
+      <I18nextProvider i18n={i18n}>
+        <LanguageProvider>
+          <TooltipProvider>
+            <ThemeProvider>
+              {children}
+            </ThemeProvider>
+          </TooltipProvider>
+        </LanguageProvider>
+      </I18nextProvider>
+    </QueryClientProvider>
+  ), [children]);
+
+  return providers;
+});
+
+// Error boundary to catch and handle errors
+class ErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { hasError: boolean }
+> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
+    console.error('Error caught by boundary:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <div>Something went wrong. Please refresh the page.</div>;
+    }
+
+    return this.props.children;
+  }
+}
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <ThemeProvider>
-        <I18nextProvider i18n={i18n}>
-          <Toaster />
-          <Sonner />
-          <BrowserRouter>
-            <AppContent />
-          </BrowserRouter>
-        </I18nextProvider>
-      </ThemeProvider>
-    </TooltipProvider>
-  </QueryClientProvider>
+  <ErrorBoundary>
+    <BrowserRouter>
+      <Providers>
+        <Toaster />
+        <Sonner />
+        <AppContent />
+      </Providers>
+    </BrowserRouter>
+  </ErrorBoundary>
 );
 
 export default App;

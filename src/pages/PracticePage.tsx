@@ -1,37 +1,38 @@
 import React from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Swords, User, Dumbbell, Users } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const PracticePage = () => {
+  const { t } = useTranslation();
   const sections = [
     {
       id: 'techniques',
-      name: 'Techniques',
-      description: 'Learn fundamental Goju Ryu techniques',
+      name: t('practice.techniques'),
+      description: t('practice.techniquesDesc'),
       icon: <Swords className="h-5 w-5 text-karate" />,
       path: '/techniques',
     },
     {
       id: 'kata',
-      name: 'Kata',
-      description: 'Traditional forms and patterns',
+      name: t('practice.kata'),
+      description: t('practice.kataDesc'),
       icon: <User className="h-5 w-5 text-karate" />,
       path: '/kata',
     },
     {
       id: 'hojo-undo',
-      name: 'Hojo Undo',
-      description: 'Supplementary training methods and tools',
+      name: t('practice.hojoUndo'),
+      description: t('practice.hojoUndoDesc'),
       icon: <Dumbbell className="h-5 w-5 text-karate" />,
       path: '/hojo-undo',
     },
     {
       id: 'kumite',
-      name: 'Kumite',
-      description: 'Sparring techniques and practice',
+      name: t('practice.kumite'),
+      description: t('practice.kumiteDesc'),
       icon: <Users className="h-5 w-5 text-karate" />,
       path: '/kumite',
     }
@@ -59,19 +60,19 @@ const PracticePage = () => {
   };
 
   return (
-    <MobileLayout hideHeader={true}>
+    <>
       {/* Header Image */}
       <div className="relative h-40 overflow-hidden">
         <img 
           src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop" 
-          alt="Practice of Goju Ryu" 
+          alt={t('practice.title')} 
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
         <div className="absolute bottom-0 left-0 p-5 w-full">
-          <h1 className="text-white text-3xl font-bold">Practice</h1>
+          <h1 className="text-white text-3xl font-bold">{t('practice.title')}</h1>
           <p className="text-white opacity-90">
-            Training methods and applications
+            {t('practice.description')}
           </p>
         </div>
       </div>
@@ -107,7 +108,7 @@ const PracticePage = () => {
           ))}
         </motion.div>
       </div>
-    </MobileLayout>
+    </>
   );
 };
 

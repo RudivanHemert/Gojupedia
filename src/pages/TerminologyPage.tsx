@@ -16,23 +16,25 @@ import Punches from './terminology/Punches';
 import Stances from './terminology/Stances';
 import Strikes from './terminology/Strikes';
 import VitalPoints from './terminology/VitalPoints';
+import { useTranslation } from 'react-i18next';
 
 const TerminologyPage = () => {
+  const { t } = useTranslation();
   const sections = [
-    { id: 'general-terms', title: 'General Terms', component: <GeneralTerminology /> },
-    { id: 'numbers', title: 'Numbers', component: <Numbers /> },
-    { id: 'tournament-terms', title: 'Tournament Terminology', component: <TournamentTerminology /> },
-    { id: 'equipment-weapons', title: 'Equipment & Weapons', component: <EquipmentAndWeapons /> },
-    { id: 'karate-goju-ryu', title: 'Karate & Goju ryu Terminology', component: <KarateGojuRyuTerminology /> },
-    { id: 'karate-titles', title: 'Karate Titles', component: <KarateTitles /> },
-    { id: 'phrases-etiquette', title: 'Phrases & Etiquette', component: <PhrasesAndEtiquette /> },
-    { id: 'kata-terms', title: 'Kata Terminology', component: <KataTerminology /> },
-    { id: 'blocks', title: 'Blocks', component: <Blocks /> },
-    { id: 'kicks', title: 'Kicks', component: <Kicks /> },
-    { id: 'punches', title: 'Punches', component: <Punches /> },
-    { id: 'stances', title: 'Stances', component: <Stances /> },
-    { id: 'strikes', title: 'Strikes', component: <Strikes /> },
-    { id: 'vital-points', title: 'Vital Points', component: <VitalPoints /> }
+    { id: 'general-terms', title: t('terminology.sections.general-terms'), component: <GeneralTerminology /> },
+    { id: 'numbers', title: t('terminology.sections.numbers'), component: <Numbers /> },
+    { id: 'tournament-terms', title: t('terminology.sections.tournament-terms'), component: <TournamentTerminology /> },
+    { id: 'equipment-weapons', title: t('terminology.sections.equipment-weapons'), component: <EquipmentAndWeapons /> },
+    { id: 'karate-goju-ryu', title: t('terminology.sections.karate-goju-ryu'), component: <KarateGojuRyuTerminology /> },
+    { id: 'karate-titles', title: t('terminology.sections.karate-titles'), component: <KarateTitles /> },
+    { id: 'phrases-etiquette', title: t('terminology.sections.phrases-etiquette'), component: <PhrasesAndEtiquette /> },
+    { id: 'kata-terms', title: t('terminology.sections.kata-terms'), component: <KataTerminology /> },
+    { id: 'blocks', title: t('terminology.sections.blocks'), component: <Blocks /> },
+    { id: 'kicks', title: t('terminology.sections.kicks'), component: <Kicks /> },
+    { id: 'punches', title: t('terminology.sections.punches'), component: <Punches /> },
+    { id: 'stances', title: t('terminology.sections.stances'), component: <Stances /> },
+    { id: 'strikes', title: t('terminology.sections.strikes'), component: <Strikes /> },
+    { id: 'vital-points', title: t('terminology.sections.vital-points'), component: <VitalPoints /> }
   ];
 
   return (
@@ -40,7 +42,7 @@ const TerminologyPage = () => {
       <div className="relative h-40 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1524684009724-bee13ad8305f?q=80&w=2970&auto=format&fit"
-          alt="Japanese Terminology"
+          alt={t('terminology.title')}
           className="absolute inset-0 w-full h-full object-cover"
         />
         <motion.div
@@ -55,7 +57,7 @@ const TerminologyPage = () => {
           transition={{ duration: 0.5 }}
           className="relative z-10 text-white text-4xl font-bold text-center mt-16"
         >
-          Karate Terminology
+          {t('terminology.title')}
         </motion.h1>
       </div>
       <div className="container mx-auto px-4 py-8">

@@ -1,13 +1,15 @@
 import React from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
+// import MobileLayout from '@/components/layout/MobileLayout';
 import { katas } from '@/data';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Book } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const KataPage = () => {
+  const { t } = useTranslation();
   // Group katas by level
   const katasByLevel = katas.reduce((acc, kata) => {
     if (!acc[kata.level]) {
@@ -42,7 +44,7 @@ const KataPage = () => {
   const levels = Object.keys(katasByLevel);
 
   return (
-    <MobileLayout hideHeader={true}>
+    <>
       {/* Theory Card */}
       <div className="p-4 mb-2">
         <Link to="/theory/kata">
@@ -52,8 +54,8 @@ const KataPage = () => {
                 <Book size={20} className="text-stone-700" />
               </div>
               <div>
-                <h3 className="font-semibold">Kata Theory</h3>
-                <p className="text-sm text-stone-600">Learn about the principles and practice of kata</p>
+                <h3 className="font-semibold">{t('theory.kata')}</h3>
+                <p className="text-sm text-stone-600">{t('theory.kataDesc')}</p>
               </div>
             </CardContent>
           </Card>
@@ -100,7 +102,7 @@ const KataPage = () => {
           ))}
         </motion.div>
       </div>
-    </MobileLayout>
+    </>
   );
 };
 

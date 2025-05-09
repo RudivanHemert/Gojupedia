@@ -2,20 +2,21 @@ import React from 'react';
 import SectionWrapper from './SectionWrapper';
 import { motion } from 'framer-motion';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-
-// Import the specific markdown file
-import markdownContent from '@/content/history/origins.md?raw';
+import { useTranslation } from 'react-i18next';
+import { useMarkdownContent } from '@/utils/markdown';
 
 const OriginsSection = () => {
+  const { t } = useTranslation();
+  const markdownContent = useMarkdownContent('../content/history/origins');
+
   return (
-    <SectionWrapper title="Origins in Okinawa">
+    <SectionWrapper title={t('history.origins')}>
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
       >
-        {/* Render the imported Markdown content */}
-        <MarkdownRenderer markdownContent={markdownContent} />
+        {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
       </motion.div>
     </SectionWrapper>
   );

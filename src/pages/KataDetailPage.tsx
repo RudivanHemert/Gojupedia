@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { katas } from '@/data';
-import MobileLayout from '@/components/layout/MobileLayout';
+// import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, AlertTriangle } from 'lucide-react';
@@ -188,15 +188,13 @@ const KataDetailPage = () => {
   
   if (!kata) {
     return (
-      <MobileLayout>
-        <div className="p-4 text-center">
-          <h1 className="text-2xl font-bold mb-4">Kata Not Found</h1>
-          <p className="mb-4">The kata you're looking for doesn't exist in our database.</p>
-          <Button onClick={() => navigate('/kata')}>
-            Back to Kata List
-          </Button>
-        </div>
-      </MobileLayout>
+      <div className="p-4 text-center">
+        <h1 className="text-2xl font-bold mb-4">Kata Not Found</h1>
+        <p className="mb-4">The kata you're looking for doesn't exist in our database.</p>
+        <Button onClick={() => navigate('/kata')}>
+          Back to Kata List
+        </Button>
+      </div>
     );
   }
 
@@ -218,7 +216,7 @@ const KataDetailPage = () => {
   const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
-    <MobileLayout>
+    <>
       {/* Header with Navigation */}
       <div className="relative">
         <div className="h-64 overflow-hidden">
@@ -232,16 +230,6 @@ const KataDetailPage = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
         </div>
-        
-        <Button 
-          variant="ghost" 
-          size="icon" 
-          className="absolute top-4 left-4 bg-black/30 text-white hover:bg-black/50"
-          onClick={() => navigate('/kata')}
-        >
-          <ChevronLeft className="h-5 w-5" />
-        </Button>
-        
         <div className="absolute bottom-0 left-0 p-5 w-full">
           <div className="flex justify-between items-end">
             <div>
@@ -454,7 +442,7 @@ const KataDetailPage = () => {
           </motion.div>
         </TabsContent>
       </Tabs>
-    </MobileLayout>
+    </>
   );
 };
 

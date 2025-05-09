@@ -5,10 +5,28 @@ import { Home, Menu, ArrowLeft } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import NavigationMenu from './NavigationMenu';
 
+const TOP_LEVEL_ROUTES = [
+  '/',
+  '/kata',
+  '/practice',
+  '/theory',
+  '/terminology',
+  '/history',
+  '/philosophy',
+  '/vital-points',
+  '/gradings',
+  '/hojo-undo',
+  '/kumite',
+  '/bunkai',
+  '/techniques',
+  '/study',
+  '/settings',
+];
+
 const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const isAtRoot = location.pathname === '/';
+  const isTopLevel = TOP_LEVEL_ROUTES.includes(location.pathname);
 
   const handleBack = () => {
     navigate(-1);
@@ -21,14 +39,8 @@ const Header = () => {
       transition={{ duration: 0.3 }}
       className="px-4 py-3 flex items-center justify-between border-b border-stone-200 bg-stone-50"
     >
-      {isAtRoot ? (
-        <Link 
-          to="/"
-          className="p-2 -ml-2 hover:bg-stone-100 rounded-full transition-colors"
-          aria-label="Go Home"
-        >
-          <Home size={20} />
-        </Link>
+      {isTopLevel ? (
+        <span className="p-2 -ml-2" />
       ) : (
         <button
           onClick={handleBack}

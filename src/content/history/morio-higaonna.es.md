@@ -1,0 +1,31 @@
+## Morio Higaonna (1939 - )
+
+![Morio Higaonna](https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1974&auto=format&fit=crop)
+
+En esta época (1954), Morio Higaonna se unió al dojo del fallecido Chojun Miyagi. Antes de esto, Higaonna Sensei había entrenado en Goju-Ryu y Shorin-Ryu bajo la tutela de Tsunetaka Shimabukuru, Kenji Kaneshiro y Yoshishige Omine. Por recomendación de Tsunetaka Shimabukuru, Higaonna Sensei se unió oficialmente al dojo en marzo de 1955. Durante su primera visita al dojo, conoció a Yasuo Iba Sensei. Iba Sensei le dijo al joven Higaonna que fuera con Anichi Miyagi Sensei, ya que era el más reconocido en el dojo. Aunque Higaonna Sensei ya había practicado karate durante dos años, quería empezar desde el principio. Había entrenado en Junbi Undo y se había ejercitado en los kata Gekisai y Sanchin. Recuerda haber practicado Kakie interminablemente, y su cuerpo fue condicionado a través de ejercicios Hojo Undo como Nigiri kamae y Makiwara.
+
+Inicialmente, el entrenamiento bajo el maestro Anichi Miyagi era relativamente tranquilo; sin embargo, cuando Higaonna Sensei progresó y especialmente cuando comenzó a practicar el kata Sanchin, el entrenamiento se volvió muy intenso. Higaonna Sensei recuerda que los primeros diez años que entrenó bajo Anichi Miyagi se centraron en desarrollar velocidad y potencia y repetir constantemente kata. Solo más tarde recibió instrucción detallada.
+
+Mirando atrás en la historia, GOJU-RYU comienza con el maestro Ryu Ryu Ko en Fuzhou, sur de China. Desde allí, fue transmitido al gran artista marcial de Okinawa, Kanryo Higaonna. El maestro Kanryo Higaonna llevó el Goju-Ryu a Okinawa, donde se convirtió en un arte okinawense, y transmitió su arte al maestro Chojun Miyagi. A través de Chojun Miyagi, se dio a conocer como Goju-Ryu karate-do. Estaba destinado a ser transmitido al maestro Jinan Shinzato. Sin embargo, este murió trágicamente durante la Segunda Guerra Mundial. Después de la Segunda Guerra Mundial, Chojun Miyagi transmitió su arte a su estudiante más diligente, el maestro Anichi Miyagi. Le enseñó todo hasta el más mínimo detalle, el nivel más alto (Okuden) de técnicas, incluyendo el Hiden, o técnicas secretas.
+
+![Traditional Karate Training](https://images.unsplash.com/photo-1588479839125-7d66cfc0c734?q=80&w=1974&auto=format&fit=crop)
+
+El karate de Anichi Miyagi es hermoso de ver; su habilidad ha alcanzado verdaderamente el nivel de un arte. Este es el resultado de seis años de instrucción privada de Chojun Miyagi.
+
+En agosto de 1957, Eiichi Miyazato construyó un gran dojo en el distrito de Asato de Naha, al que llamó Jundokan - el nombre del primer dojo de judo de Jigoro Kano. Miyazato, quien también estaba ocupado con el judo después de la guerra, se convirtió en campeón de judo alrededor de 1950-51 e incluso fue a Japón en abril de 1953 para asistir al seminario Japan Kodokan. Eventualmente, Miyazato se convirtió en un prominente maestro de judo y también presidente de la Federación de Judo de Okinawa. Debido a su autoridad y posición como inspector de policía, Miyazato se hizo cargo oficialmente del dojo, con Koshin Iha como su asistente y responsable de las cuotas de matrícula. Sin embargo, rara vez enseñaban y dejaban las responsabilidades diarias de enseñanza a An'ichi Miyagi. Fue An'ichi Miyagi quien, por ejemplo, enseñó a Iha el kata suparinpei.
+
+En 1959, An'ichi Miyagi dejó Okinawa para trabajar en un petrolero de propiedad estadounidense. Encontrar trabajo en Okinawa era muy difícil en ese momento, y An'ichi todavía tenía la responsabilidad de mantener a su familia. Un año después, Morio Higaonna decidió ir a Tokio, en el Japón continental, para asistir a la Universidad Takushoku. Durante sus estudios, solo podía regresar a Okinawa dos veces al año - un mes cada invierno y dos o tres meses cada verano. En estas ocasiones, continuaba su entrenamiento y desarrollo adicional bajo An'ichi Miyagi.
+
+La Okinawa Karate-do Renmei se estableció en mayo de 1956 con Choshin Chibana - el fundador del Shorin-Ryu - como su primer presidente. El 30 de diciembre de 1960, esta organización potencialmente poderosa celebró sus primeros exámenes de dan para todos los estilos. Shoshin Nagamine de Matsubayashi Shorin-Ryu era el presidente en ese momento. Los instructores principales de cada estilo se graduaron a godan, veinticinco karate-ka se graduaron a sandan (entre ellos Morio Higaonna); veintitrés se graduaron a nidan; y cuarenta se graduaron a shodan.
+
+Morio Higaonna enseñó durante veinte años en un dojo en Yoyogi, un suburbio de Tokio. Durante esos veinte años, construyó el dojo hasta convertirlo en uno que ganó reconocimiento mundial, resultando en que personas con diversos antecedentes en artes marciales vinieran a entrenar con él. Higaonna también introdujo a su maestro An'ichi Miyagi en Tokio. Durante estos años, An'ichi Miyagi enseñó a su estudiante, Morio Higaonna, las técnicas secretas y más altas del Goju-Ryu.
+
+En 1979, con la ayuda de la familia de Chojun Miyagi, Ken Miyagi - el cuarto hijo del fundador del Goju-Ryu - y muchos de los estudiantes senior de Chojun Miyagi, se estableció la International Okinawan Goju-Ryu Karate-Do Federation (IOGKF). Su objetivo era preservar las técnicas originales del Goju-Ryu sin cambios y promover el desarrollo técnico así como la popularidad, de acuerdo con el deseo de Chojun Miyagi. An'ichi Miyagi fue nombrado presidente honorario; Morio Higaonna fue nombrado instructor jefe mundial.
+
+En 1981, Higaonna se mudó a Okinawa para realizar más investigaciones y abrió un dojo en Naha (dojo Higaonna). Aquí fue elegido por Howard Reid y Michael Croucher - documentalistas de la BBC - para representar el karate tradicional en la serie "The Way of the Warrior".
+
+En 1987, Higaonna fue a los Estados Unidos para promover el Goju-Ryu. Desde 1987, visitó Fuzhou muchas veces para aumentar su conocimiento sobre las 'raíces' chinas del Goju-Ryu. A través de estas visitas, se forjó un estrecho vínculo entre la IOGKF y la China Fuzhou Wushu Association (CFWA).
+
+![IOGKF Training](https://images.unsplash.com/photo-1600881333123-ef51e8550e4a?q=80&w=1974&auto=format&fit=crop)
+
+Hoy en día, la IOGKF tiene un enorme seguimiento en todo el mundo; decenas de miles de estudiantes en aproximadamente cuarenta y cinco países. 

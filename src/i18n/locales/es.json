@@ -1,59 +1,62 @@
 {
+  "common": {
+    "appName": "Goju Ryu Wiki",
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "theory": "Teoría",
+    "practice": "Práctica",
+    "study": "Estudio",
+    "settings": "Configuración"
+  },
+  "home": {
+    "welcome": "Bienvenido a Goju Ryu Wiki",
+    "description": "Descubre el arte del Karate Goju Ryu",
+    "getStarted": "Comenzar"
+  },
+  "theory": {
+    "title": "Teoría",
+    "description": "Principios y conocimientos del Goju Ryu",
+    "terminology": "Terminología",
+    "terminologyDesc": "Terminología y vocabulario japonés utilizados en el Goju Ryu",
+    "history": "Historia",
+    "historyDesc": "Los orígenes y la evolución del Karate Goju Ryu",
+    "philosophy": "Filosofía",
+    "philosophyDesc": "Principios fundamentales y valores del Goju Ryu",
+    "kata": "Teoría del Kata",
+    "kataDesc": "Principios y teoría detrás de las formas tradicionales",
+    "vitalPoints": "Puntos Vitales",
+    "vitalPointsDesc": "Estudio de los puntos de presión y zonas vulnerables"
+  },
+  "terminology": {
+    "title": "Terminología de Karate",
+    "sections": {
+      "general-terms": "Términos generales",
+      "numbers": "Números",
+      "tournament-terms": "Terminología de torneo",
+      "equipment-weapons": "Equipamiento & Armas",
+      "karate-goju-ryu": "Terminología de Karate & Goju Ryu",
+      "karate-titles": "Títulos de Karate",
+      "phrases-etiquette": "Frases & Etiqueta",
+      "kata-terms": "Terminología de Kata",
+      "blocks": "Bloqueos",
+      "kicks": "Patadas",
+      "punches": "Puñetazos",
+      "stances": "Posiciones",
+      "strikes": "Golpes",
+      "vital-points": "Puntos vitales"
+    }
+  },
   "blocks": {
     "title": "Bloqueos Básicos",
-    "ageUke": {
-      "name": "Age Uke",
-      "japanese": "上げ受け",
-      "english": "Bloqueo Ascendente",
-      "description": "Age Uke (Bloqueo Ascendente) es una técnica básica de bloqueo utilizada para defender contra ataques al rostro o la parte superior del cuerpo. El antebrazo se mueve hacia arriba para desviar el ataque, mientras que la otra mano se retira a la cadera en preparación para un contraataque."
-    },
-    "gedanBarai": {
-      "name": "Gedan Barai",
-      "japanese": "下段払い",
-      "english": "Bloqueo Descendente",
-      "description": "Gedan Barai (Bloqueo Descendente) es un bloqueo descendente que defiende contra ataques bajos. El brazo se mueve en un arco descendente para desviar golpes dirigidos a la parte inferior del cuerpo, mientras que el otro brazo se retira a la posición de la cadera."
-    },
-    "sotoUke": {
-      "name": "Soto Uke",
-      "japanese": "外受け",
-      "english": "Bloqueo Exterior",
-      "description": "Soto Uke (Bloqueo Exterior) es un bloqueo hacia afuera utilizado para desviar ataques que vienen de dentro hacia fuera. El antebrazo se mueve desde dentro hacia afuera en un camino horizontal para redirigir el golpe del oponente."
-    },
-    "uchiUke": {
-      "name": "Uchi Uke",
-      "japanese": "内受け",
-      "english": "Bloqueo Interior"
-    },
-    "shutoUke": {
-      "name": "Shuto Uke",
-      "japanese": "手刀受け",
-      "english": "Bloqueo de Mano Cuchillo"
-    },
-    "empiUke": {
-      "name": "Empi Uke",
-      "japanese": "肘受け",
-      "english": "Bloqueo de Codo"
-    },
-    "kosaUke": {
-      "name": "Kosa Uke",
-      "japanese": "交差受け",
-      "english": "Bloqueo Cruzado"
-    },
-    "jujiUke": {
-      "name": "Juji Uke",
-      "japanese": "十字受け",
-      "english": "Bloqueo en X"
-    },
-    "haiwanUke": {
-      "name": "Haiwan Uke",
-      "japanese": "背腕受け",
-      "english": "Bloqueo de Brazo Trasero"
-    },
-    "osaeUke": {
-      "name": "Osae Uke",
-      "japanese": "押さえ受け",
-      "english": "Bloqueo Presionante"
-    },
     "viewButton": "Ver",
     "videoError": {
       "title": "Las demostraciones en video estarán visibles en la aplicación móvil",
@@ -64,6 +67,197 @@
         "gedanBarai": "gedan-barai.mp4",
         "sotoUke": "soto-uke.mp4"
       }
+    },
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Bloqueo Ascendente",
+      "description": "Una técnica de bloqueo que desvía un ataque hacia arriba y protege la cara y la parte superior del cuerpo."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Bloqueo Descendente",
+      "description": "Un bloqueo de barrido que desvía ataques a la parte inferior del cuerpo."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Bloqueo Exterior",
+      "description": "Un bloqueo que desvía un ataque de adentro hacia afuera."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Bloqueo Interior",
+      "description": "Un bloqueo que desvía un ataque de afuera hacia adentro."
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Bloqueo de Mano Cuchillo",
+      "description": "Un bloqueo realizado con el lateral de la mano."
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Bloqueo de Codo",
+      "description": "Un bloqueo realizado con el codo."
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Bloqueo Cruzado",
+      "description": "Un bloqueo realizado con las muñecas cruzadas."
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "Bloqueo en X",
+      "description": "Un bloqueo realizado con los brazos cruzados en forma de X."
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Bloqueo de Brazo Trasero",
+      "description": "Un bloqueo realizado con la parte posterior del antebrazo."
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Bloqueo Presionante",
+      "description": "Un bloqueo presionante hacia abajo."
+    }
+  },
+  "practice": {
+    "title": "Práctica",
+    "description": "Métodos de entrenamiento y aplicaciones",
+    "techniques": "Técnicas",
+    "techniquesDesc": "Aprende las técnicas fundamentales del Goju Ryu",
+    "kata": "Kata",
+    "kataDesc": "Formas y patrones tradicionales",
+    "hojoUndo": "Hojo Undo",
+    "hojoUndoDesc": "Métodos y herramientas de entrenamiento suplementario",
+    "kumite": "Kumite",
+    "kumiteDesc": "Técnicas y práctica de combate"
+  },
+  "study": {
+    "title": "Sección de Estudio",
+    "description": "Lecciones interactivas y cuestionarios para profundizar tus conocimientos",
+    "quizzes": "Cuestionarios",
+    "quizDesc": "Pon a prueba tus conocimientos sobre varios temas.",
+    "noQuizzes": "No hay cuestionarios disponibles actualmente.",
+    "flashcards": "Tarjetas de memoria",
+    "flashcardDesc": "Repasa términos y conceptos con tarjetas de memoria.",
+    "noFlashcards": "No hay conjuntos de tarjetas de memoria disponibles actualmente.",
+    "tests": "Pruebas",
+    "startStudy": "Comenzar estudio"
+  },
+  "settings": {
+    "title": "Configuración",
+    "description": "Personaliza tu experiencia en la aplicación",
+    "language": "Idioma",
+    "theme": "Tema",
+    "notifications": "Notificaciones",
+    "darkMode": "Modo Oscuro",
+    "about": "Acerca de"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "kata": {
+    "sanchin": {
+      "meaning": "Tres batallas/conflictos",
+      "description": "El kata más fundamental de Goju Ryu. Se centra en la respiración adecuada, la postura y la tensión en todo el cuerpo. Las 'tres batallas' se refieren a la mente, el cuerpo y el espíritu.",
+      "history": "Significa literalmente 'tres batallas'. No se refiere a una pelea real, sino a la lucha interna para fortalecer el cuerpo, la mente y el espíritu mediante la fuerza de voluntad. El kata consiste en técnicas lentas realizadas con tensión muscular continua y respiración abdominal profunda. El Sanchin moderno es una variante desarrollada por Miyagi Chojun sensei (fundador, 1888-1953) basada en el original transmitido por Higaonna Kanryo sensei. La respiración en la versión original era más explosiva y el cuerpo giraba dos veces 180 grados. Los estudiantes avanzados pueden ser probados en la tensión muscular correcta durante Sanchin por otros estudiantes, que verifican la ejecución sintiendo y golpeando ciertas partes del cuerpo. Esta prueba se llama shime. Material de examen para gokyu (quinto kyu, cinturón verde) y superior.",
+      "culturalSignificance": "Sanchin se considera la esencia del karate Goju Ryu, encarnando los principios de respiración, postura y concentración que son centrales en el estilo."
+    },
+    "tensho": {
+      "meaning": "Palmas giratorias",
+      "description": "Significa literalmente 'palmas giratorias'. Este kata fue desarrollado por Miyagi Chojun sensei como contraparte de Sanchin. Al igual que Sanchin, se realiza con respiración profunda y tensión muscular general, pero su carácter es muy diferente. Mientras que Sanchin es cerrado, angular y duro (go), Tensho es abierto, elegante y suave (ju), con muchas técnicas circulares de manos y muñecas. Material de examen para sandan (tercer dan) y superior.",
+      "history": "Creado por Chojun Miyagi como contraparte de Sanchin, Tensho representa el aspecto suave y circular del Goju Ryu.",
+      "culturalSignificance": "Tensho demuestra el lado 'ju' (suave) del Goju Ryu, complementando el 'go' (duro) de Sanchin."
+    },
+    "gekisai-dai-ichi": {
+      "meaning": "Atacar y destruir, primera forma",
+      "description": "Uno de los dos kata Gekisai creados por Chojun Miyagi para la educación física en las escuelas. Enseña técnicas fundamentales y patrones de respiración en un formato más simple que los kata antiguos.",
+      "history": "Significa literalmente 'atacar y destruir 1'. Este nombre inusualmente agresivo para el karate refleja la época en que Okinawa era un campo de batalla para acciones de guerra japonesas y estadounidenses. El kata fue desarrollado en 1940 por el fundador del Goju-ryu Karate-do de Okinawa, Miyagi Chojun sensei. Consiste en varias combinaciones de técnicas básicas simples, que facilitan el aprendizaje de los kata clásicos más difíciles. Material de examen para kukyu (noveno kyu, cinturón blanco) y superior.",
+      "culturalSignificance": "Este kata fue parte del esfuerzo de Miyagi para popularizar el karate y hacerlo accesible a una audiencia más amplia, especialmente a la generación más joven."
+    },
+    "gekisai-dai-ni": {
+      "meaning": "Atacar y destruir, segunda forma",
+      "description": "El segundo de los dos kata Gekisai. Se basa en las técnicas de Gekisai Dai Ichi con movimientos adicionales y patrones ligeramente más complejos.",
+      "history": "Significa literalmente 'atacar y destruir 2'. Al igual que Gekisai Dai Ichi, desarrollado por Miyagi Chojun sensei por las mismas razones. Material de examen para nanakyu (séptimo kyu, cinturón amarillo) y superior.",
+      "culturalSignificance": "Representa la evolución de la instrucción de karate a medida que se estandarizaba para una enseñanza más amplia."
+    },
+    "saifa": {
+      "meaning": "Desgarrar y romper",
+      "description": "Un kata que enfatiza los cambios rápidos de dirección y las técnicas a corta distancia. Contiene movimientos de agarre, tracción y desgarro diseñados para el combate cercano.",
+      "history": "Significa algo así como 'golpes destructivos'. 'Sai' significa, como en Gekisai, 'destruir'. 'Fa' significa, entre otras cosas, 'golpear'. Típico de Saifa son las muchas técnicas de golpeo, como uraken uchi, tettsui uchi y haito uchi. Saifa es el primer kata clásico koryu. El kata fue transmitido por Ryu Ryu Ko a Higaonna Kanryo sensei. En comparación con los kata Gekisai Dai, a partir de Saifa la dificultad aumenta y aparecen cada vez más combinaciones de técnicas de mano y pie que requieren buena coordinación. Material de examen para gokyu (quinto kyu, cinturón verde) y superior.",
+      "culturalSignificance": "Saifa representa la evolución de las técnicas de artes marciales diseñadas para situaciones prácticas de autodefensa en entornos concurridos."
+    },
+    "seiyunchin": {
+      "meaning": "Controlar y tirar en combate",
+      "description": "Un kata centrado en controlar el equilibrio y la fuerza de un oponente. Enseña técnicas para agarrar, tirar y manipular la fuerza de un atacante.",
+      "history": "Significa algo así como 'desequilibrar en combate'. Este kata es el único kata kaishu sin técnicas de patada y enfatiza la formación de posturas fuertes y estables. El bunkai kumite (aplicaciones) consiste en varias técnicas de lucha y lanzamiento muy adecuadas para el combate cercano. Material de examen para sankyu (tercer kyu, cinturón marrón) y superior.",
+      "culturalSignificance": "Este kata demuestra el aspecto 'ju' (suave, flexible) del Goju Ryu, mostrando cómo redirigir la energía de un oponente en lugar de enfrentarse a ella directamente."
+    },
+    "shisochin": {
+      "meaning": "Luchar en cuatro direcciones",
+      "description": "Este kata enfatiza técnicas que se pueden aplicar en cuatro direcciones, enseñando al practicante a estar atento y defenderse de múltiples atacantes.",
+      "history": "Significa literalmente 'luchar en 4 direcciones'. Otra traducción es '4 puertas'. La palabra 'puerta' es simbólica para el lugar donde un posible oponente puede atacar, puede 'entrar'. El kata contiene una combinación de ataque típica, que se realiza en cuatro direcciones. Material de examen para ikkyu (primer kyu, cinturón marrón) y superior.",
+      "culturalSignificance": "El kata enfatiza la conciencia situacional y la importancia de estar preparado para amenazas desde todas las direcciones, un aspecto crucial de la sabiduría tradicional de las artes marciales."
+    },
+    "sanseru": {
+      "meaning": "Treinta y seis",
+      "description": "Nombrado por los 36 puntos vitales del cuerpo, este kata contiene potentes técnicas de golpeo dirigidas a estos puntos, así como movimientos defensivos.",
+      "history": "Los nombres de los kata Sanseru, Sepai, Sesan y Suparinpei son nombres chinos. En la escritura, se añade la palabra 'manos' a los cuatro, pero en el habla se omite, y por ejemplo, se dice Sanseru en lugar de Sanseru shu. Estos cuatro nombres son todos números que se refieren al simbolismo budista. Sanseru significa '36 (manos)'. 36 es la multiplicación simbólica de 6 * 6. El primer 6 representa ojo, oído, nariz, lengua, cuerpo y mente. El segundo 6 simboliza color, voz, gusto, olor, tacto y justicia. Material de examen para nidan (segundo dan) y superior.",
+      "culturalSignificance": "El número 36 tiene significado en muchas tradiciones marciales y filosóficas asiáticas, representando la armonía entre la técnica física y la comprensión más profunda."
+    },
+    "sepai": {
+      "meaning": "Dieciocho",
+      "description": "Nombrado por los 18 Arhats (discípulos iluminados de Buda), este kata se centra en técnicas y aplicaciones avanzadas, incluyendo golpes a puntos vitales y manipulaciones articulares.",
+      "history": "Significa '18 (manos)'. 18 es la multiplicación de 6 x 3. La explicación del 6 es la misma que la del segundo 6 del kata Sanseru. El 3 representa bueno, malo y paz. Sepai, Kururunfa, Sesan y Suparinpei enfatizan, a través de su alternancia de duro y suave, de go y ju, de ken y kon, la verdadera esencia del Goju-ryu Karate-do de Okinawa. Material de examen para sandan (tercer dan) y superior.",
+      "culturalSignificance": "El número 18 tiene significado en las tradiciones marciales budistas y chinas, representando diferentes aspectos de la iluminación y el camino hacia la maestría."
+    },
+    "kururunfa": {
+      "meaning": "Silencio antes de la tormenta",
+      "description": "Un kata que demuestra transiciones rápidas entre técnicas suaves y duras, con énfasis en la potencia explosiva y los cambios repentinos de ritmo.",
+      "history": "Traducido libremente como 'silencio antes de la tormenta'. 'Kuru' significa algo así como 'persistir' o 'esperar'. 'Run' en caligrafía es la pausa o el retraso en el movimiento del pincel antes de que se realice un nuevo movimiento. 'Fa' significa 'estallar'. El kata contiene muchos cambios repentinos de ritmo y técnicas explosivas. Material de examen para yondan (cuarto dan) y superior.",
+      "culturalSignificance": "Kururunfa encarna el principio de acción explosiva repentina tras la calma, un concepto clave tanto en las artes marciales como en la filosofía oriental."
+    },
+    "sesan": {
+      "meaning": "Trece",
+      "description": "Nombrado por los 13 principios de lucha, este kata contiene técnicas para el combate tanto a corta como a larga distancia, con énfasis en golpes y patadas rápidas.",
+      "history": "Significa '13 (manos)'. El número 13 en la cultura china representa la suerte y la prosperidad. El kata Sesan era el favorito del fundador Miyagi Chojun sensei y de su primer alumno destacado Shinzato Jinan sensei. Material de examen para godan (quinto dan) y superior.",
+      "culturalSignificance": "El número 13 en este contexto representa la integridad en la teoría marcial más que la superstición occidental de la mala suerte."
+    },
+    "suparinpei": {
+      "meaning": "108",
+      "description": "El kata más largo y avanzado del sistema Goju Ryu, nombrado por las 108 impurezas del hombre en la filosofía budista. Contiene una colección completa de técnicas de todo el sistema.",
+      "history": "Significa '108 (manos)'. El número 108, según el simbolismo numérico budista, se compone de la multiplicación 3 x 36. El simbolismo del 3 y el 36 es el de los kata Sanseru y Sepai. 108 se refiere a las 108 pasiones malignas que, según el budismo, tiene el ser humano. Suparinpei es el kata más avanzado y largo del plan de estudios de Okinawa Goju-ryu Karate-do y es material de examen para rokudan (sexto dan) y superior.",
+      "culturalSignificance": "El número 108 es importante en muchas tradiciones orientales, y el kata simboliza el dominio del sistema completo de Goju Ryu."
+    }
+  },
+  "history": {
+    "title": "Historia",
+    "origins": "Orígenes en Okinawa",
+    "origins-desc": "El Karate Goju-Ryu fue desarrollado a principios del siglo XX por Chojun Miyagi en Okinawa, Japón. El nombre 'Goju' proviene del principio 'duro-suave' de las artes marciales chinas tradicionales, reflejando la doble naturaleza del sistema: combina técnicas de golpeo duras con movimientos más suaves y circulares tanto para el ataque como para la defensa.",
+    "development": "Desarrollo",
+    "development-desc": "El desarrollo y la difusión del Goju Ryu por todo el mundo",
+    "lineage": "Línea de Maestros",
+    "lineage-desc": "Los principales maestros y sus contribuciones al estilo",
+    "subsections": {
+      "early-history": "Historia Temprana",
+      "early-history-desc": "Los orígenes del Goju Ryu se remontan a las artes marciales chinas y su integración en la cultura okinawense.",
+      "miyagi-era": "La Era de Miyagi",
+      "miyagi-era-desc": "El desarrollo y sistematización del estilo Goju Ryu por Chojun Miyagi en las décadas de 1920 y 1930.",
+      "post-war": "Posguerra",
+      "post-war-desc": "La expansión y desarrollo del Goju Ryu después de la Segunda Guerra Mundial.",
+      "modern-era": "Era Moderna",
+      "modern-era-desc": "El desarrollo actual y la difusión mundial del Goju Ryu."
     }
   }
 } 

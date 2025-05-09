@@ -3,8 +3,10 @@ import React from 'react';
 // import MobileLayout from '@/components/layout/MobileLayout'; 
 import { studies } from '@/data';
 import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
+import { useTranslation } from 'react-i18next';
 
 const QuizListPage = () => {
+  const { t } = useTranslation();
   // Filter for quizzes
   const quizStudies = studies.filter(study => study.type === 'quiz');
 
@@ -13,9 +15,9 @@ const QuizListPage = () => {
       {/* Header */}
       <div className="bg-stone-100 border-b border-stone-200">
         <div className="px-4 py-6">
-          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">Available Quizzes</h1>
+          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">{t('study.quizzes')}</h1>
           <p className="text-stone-600 text-center text-sm">
-            Test your knowledge on various topics.
+            {t('study.quizDesc', 'Test your knowledge on various topics.')}
           </p>
         </div>
       </div>
@@ -27,7 +29,7 @@ const QuizListPage = () => {
             <StudyCard key={study.id} study={study} />
           ))
         ) : (
-          <p className="text-center text-stone-500 italic">No quizzes available currently.</p>
+          <p className="text-center text-stone-500 italic">{t('study.noQuizzes', 'No quizzes available currently.')}</p>
         )}
       </div>
     </>

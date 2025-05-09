@@ -6,14 +6,15 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ChevronLeft } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useLanguage } from '@/contexts/LanguageContext';
 
-// Import all general markdown content
-const markdownContentModules = import.meta.glob('../content/*.md', { 
+// Import all markdown content with language variants
+const markdownContentModules = import.meta.glob('../content/**/*.{md,*.md}', { 
   query: '?raw', 
   import: 'default', 
   eager: true 
 });
-console.log('[MarkdownContentPage] Loaded general markdown modules:', markdownContentModules);
+console.log('[MarkdownContentPage] Loaded markdown modules:', markdownContentModules);
 
 type MarkdownPageParams = {
   pageKey: string; // e.g., 'theory', 'history'
@@ -22,6 +23,7 @@ type MarkdownPageParams = {
 const MarkdownContentPage = () => {
   const { pageKey } = useParams<MarkdownPageParams>();
   const { t } = useTranslation();
+  const { language } = useLanguage();
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -31,7 +33,7 @@ const MarkdownContentPage = () => {
   const translatedPageTitle = t(pageTitleKey, pageKey); // Fallback to pageKey
 
   useEffect(() => {
-    console.log(`[MarkdownContentPage] Effect triggered for: pageKey=${pageKey}`);
+    console.log(`[MarkdownContentPage] Effect triggered for: pageKey=${pageKey}, language=${language}`);
     setIsLoading(true);
     setError(null);
     setMarkdown(null);
@@ -43,24 +45,38 @@ const MarkdownContentPage = () => {
       return;
     }
 
-    // Construct the expected path key relative to this file
-    const targetPath = `../content/${pageKey}.md`;
-    console.log(`[MarkdownContentPage] Looking for path: ${targetPath}`);
+    // First try to load the language-specific file
+    const languageSpecificPath = `../content/${pageKey}/${pageKey}.${language}.md`;
+    const fallbackPath = `../content/${pageKey}/${pageKey}.md`;
 
-    // Check if the path exists in the loaded modules
-    if (targetPath in markdownContentModules) {
-      const loadedContent = markdownContentModules[targetPath];
+    console.log(`[MarkdownContentPage] Looking for paths: ${languageSpecificPath} or ${fallbackPath}`);
+
+    // Try language-specific file first
+    if (languageSpecificPath in markdownContentModules) {
+      const loadedContent = markdownContentModules[languageSpecificPath];
       if (typeof loadedContent === 'string') {
-        console.log('[MarkdownContentPage] Found markdown content.');
+        console.log('[MarkdownContentPage] Found language-specific markdown content.');
+        setMarkdown(loadedContent);
+        setError(null);
+        setIsLoading(false);
+        return;
+      }
+    }
+
+    // Fallback to default file if language-specific file not found
+    if (fallbackPath in markdownContentModules) {
+      const loadedContent = markdownContentModules[fallbackPath];
+      if (typeof loadedContent === 'string') {
+        console.log('[MarkdownContentPage] Found fallback markdown content.');
         setMarkdown(loadedContent);
         setError(null);
       } else {
-        console.error(`[MarkdownContentPage] Content for path ${targetPath} is not a string:`, loadedContent);
+        console.error(`[MarkdownContentPage] Content for path ${fallbackPath} is not a string:`, loadedContent);
         setError(`Invalid content format for ${pageKey}.`);
         setMarkdown(null);
       }
     } else {
-      console.error(`[MarkdownContentPage] Markdown file not found in glob results for path: ${targetPath}`);
+      console.error(`[MarkdownContentPage] Markdown file not found in glob results for paths: ${languageSpecificPath} or ${fallbackPath}`);
       setError(`Content file not found for ${pageKey}.`);
       setMarkdown(null);
     }
@@ -68,7 +84,7 @@ const MarkdownContentPage = () => {
     setIsLoading(false);
     console.log('[MarkdownContentPage] Processing finished.');
 
-  }, [pageKey]); // Removed 't' from dependencies, unlikely to change
+  }, [pageKey, language]);
 
   console.log(`[MarkdownContentPage] Rendering with: isLoading=${isLoading}, error=${error}, hasMarkdown=${!!markdown}, title=${translatedPageTitle}`);
 

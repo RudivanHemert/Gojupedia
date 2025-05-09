@@ -1,6 +1,6 @@
 import React from 'react';
+// import MobileLayout from '@/components/layout/MobileLayout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import MobileLayout from '@/components/layout/MobileLayout';
 import WhatAreKata from './kata/WhatAreKata';
 import KataAndKarate from './kata/KataAndKarate';
 import BunkaiAndTechniques from './kata/BunkaiAndTechniques';
@@ -13,7 +13,7 @@ import KataTechniques from './kata/KataTechniques';
 
 const KataTheoryPage = () => {
   return (
-    <MobileLayout hideHeader={true}>
+    <>
       <div className="relative h-40 overflow-hidden">
         <img 
           src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2142&auto=format&fit=crop" 
@@ -84,7 +84,7 @@ const KataTheoryPage = () => {
           </div>
         </Tabs>
       </div>
-    </MobileLayout>
+    </>
   );
 };
 

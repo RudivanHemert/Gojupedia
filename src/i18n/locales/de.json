@@ -1,59 +1,62 @@
 {
+  "common": {
+    "appName": "Goju Ryu Wiki",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "retry": "Wiederholen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "back": "Zurück"
+  },
+  "navigation": {
+    "home": "Start",
+    "theory": "Theorie",
+    "practice": "Praxis",
+    "study": "Lernen",
+    "settings": "Einstellungen"
+  },
+  "home": {
+    "welcome": "Willkommen bei Goju Ryu Wiki",
+    "description": "Entdecke die Kunst des Goju Ryu Karate",
+    "getStarted": "Loslegen"
+  },
+  "theory": {
+    "title": "Theorie",
+    "description": "Prinzipien und Wissen des Goju Ryu",
+    "terminology": "Terminologie",
+    "terminologyDesc": "Japanische Terminologie und Vokabular im Goju Ryu",
+    "history": "Geschichte",
+    "historyDesc": "Die Ursprünge und Entwicklung des Goju Ryu Karate",
+    "philosophy": "Philosophie",
+    "philosophyDesc": "Grundprinzipien und Werte des Goju Ryu",
+    "kata": "Kata-Theorie",
+    "kataDesc": "Prinzipien und Theorie hinter traditionellen Formen",
+    "vitalPoints": "Vitalpunkte",
+    "vitalPointsDesc": "Studium der Druckpunkte und verwundbaren Bereiche"
+  },
+  "terminology": {
+    "title": "Karate Terminologie",
+    "sections": {
+      "general-terms": "Allgemeine Begriffe",
+      "numbers": "Zahlen",
+      "tournament-terms": "Turnier-Terminologie",
+      "equipment-weapons": "Ausrüstung & Waffen",
+      "karate-goju-ryu": "Karate & Goju Ryu Terminologie",
+      "karate-titles": "Karate Titel",
+      "phrases-etiquette": "Ausdrücke & Etikette",
+      "kata-terms": "Kata Terminologie",
+      "blocks": "Blöcke",
+      "kicks": "Tritte",
+      "punches": "Schläge",
+      "stances": "Stände",
+      "strikes": "Treffer",
+      "vital-points": "Vitalpunkte"
+    }
+  },
   "blocks": {
     "title": "Grundlegende Blöcke",
-    "ageUke": {
-      "name": "Age Uke",
-      "japanese": "上げ受け",
-      "english": "Aufsteigender Block",
-      "description": "Age Uke (Aufsteigender Block) ist eine grundlegende Blocktechnik, die verwendet wird, um Angriffe auf das Gesicht oder den oberen Körper abzuwehren. Der Unterarm bewegt sich nach oben, um den Angriff abzulenken, während die andere Hand zur Hüfte zurückgezogen wird, um sich auf einen Gegenangriff vorzubereiten."
-    },
-    "gedanBarai": {
-      "name": "Gedan Barai",
-      "japanese": "下段払い",
-      "english": "Abwärtsblock",
-      "description": "Gedan Barai (Abwärtsblock) ist ein abwärts gerichteter Block, der tiefe Angriffe abwehrt. Der Arm bewegt sich in einem abwärts gerichteten Bogen, um Schläge zum Unterkörper abzulenken, während der andere Arm zur Hüfte zurückgezogen wird."
-    },
-    "sotoUke": {
-      "name": "Soto Uke",
-      "japanese": "外受け",
-      "english": "Außenblock",
-      "description": "Soto Uke (Außenblock) ist ein nach außen gerichteter Block, der verwendet wird, um Angriffe von innen nach außen abzulenken. Der Unterarm bewegt sich von innen nach außen in einem horizontalen Pfad, um den Schlag des Gegners umzuleiten."
-    },
-    "uchiUke": {
-      "name": "Uchi Uke",
-      "japanese": "内受け",
-      "english": "Innenblock"
-    },
-    "shutoUke": {
-      "name": "Shuto Uke",
-      "japanese": "手刀受け",
-      "english": "Messerhand-Block"
-    },
-    "empiUke": {
-      "name": "Empi Uke",
-      "japanese": "肘受け",
-      "english": "Ellbogen-Block"
-    },
-    "kosaUke": {
-      "name": "Kosa Uke",
-      "japanese": "交差受け",
-      "english": "Kreuz-Block"
-    },
-    "jujiUke": {
-      "name": "Juji Uke",
-      "japanese": "十字受け",
-      "english": "X-Block"
-    },
-    "haiwanUke": {
-      "name": "Haiwan Uke",
-      "japanese": "背腕受け",
-      "english": "Rückenarm-Block"
-    },
-    "osaeUke": {
-      "name": "Osae Uke",
-      "japanese": "押さえ受け",
-      "english": "Drückender Block"
-    },
     "viewButton": "Anzeigen",
     "videoError": {
       "title": "Videodemonstrationen sind in der mobilen App sichtbar",
@@ -64,6 +67,137 @@
         "gedanBarai": "gedan-barai.mp4",
         "sotoUke": "soto-uke.mp4"
       }
+    },
+    "ageUke": {
+      "name": "Age Uke",
+      "japanese": "上げ受け",
+      "english": "Aufsteigender Block",
+      "description": "Eine Blocktechnik, die einen Angriff nach oben abwehrt und das Gesicht und den Oberkörper schützt."
+    },
+    "gedanBarai": {
+      "name": "Gedan Barai",
+      "japanese": "下段払い",
+      "english": "Abwärtsblock",
+      "description": "Ein fegender Block, der Angriffe auf den Unterkörper abwehrt."
+    },
+    "sotoUke": {
+      "name": "Soto Uke",
+      "japanese": "外受け",
+      "english": "Außenblock",
+      "description": "Ein Block, der einen Angriff von innen nach außen abwehrt."
+    },
+    "uchiUke": {
+      "name": "Uchi Uke",
+      "japanese": "内受け",
+      "english": "Innenblock",
+      "description": "Ein Block, der einen Angriff von außen nach innen abwehrt."
+    },
+    "shutoUke": {
+      "name": "Shuto Uke",
+      "japanese": "手刀受け",
+      "english": "Handkantenblock",
+      "description": "Ein Block, der mit der Seite der Hand ausgeführt wird."
+    },
+    "empiUke": {
+      "name": "Empi Uke",
+      "japanese": "肘受け",
+      "english": "Ellbogenblock",
+      "description": "Ein Block, der mit dem Ellbogen ausgeführt wird."
+    },
+    "kosaUke": {
+      "name": "Kosa Uke",
+      "japanese": "交差受け",
+      "english": "Kreuzblock",
+      "description": "Ein Block, der mit gekreuzten Handgelenken ausgeführt wird."
+    },
+    "jujiUke": {
+      "name": "Juji Uke",
+      "japanese": "十字受け",
+      "english": "X-Block",
+      "description": "Ein Block, der mit gekreuzten Armen in X-Form ausgeführt wird."
+    },
+    "haiwanUke": {
+      "name": "Haiwan Uke",
+      "japanese": "背腕受け",
+      "english": "Rückenarmblock",
+      "description": "Ein Block, der mit der Rückseite des Unterarms ausgeführt wird."
+    },
+    "osaeUke": {
+      "name": "Osae Uke",
+      "japanese": "押さえ受け",
+      "english": "Drückender Block",
+      "description": "Ein nach unten drückender Block."
+    }
+  },
+  "practice": {
+    "title": "Praxis",
+    "description": "Trainingsmethoden und Anwendungen",
+    "techniques": "Techniken",
+    "techniquesDesc": "Lerne die grundlegenden Techniken des Goju Ryu",
+    "kata": "Kata",
+    "kataDesc": "Traditionelle Formen und Muster",
+    "hojoUndo": "Hojo Undo",
+    "hojoUndoDesc": "Ergänzende Trainingsmethoden und Werkzeuge",
+    "kumite": "Kumite",
+    "kumiteDesc": "Kampftechniken und Übung"
+  },
+  "study": {
+    "title": "Lernbereich",
+    "description": "Interaktive Lektionen und Quiz zum Vertiefen deines Wissens",
+    "quizzes": "Quiz",
+    "quizDesc": "Teste dein Wissen zu verschiedenen Themen.",
+    "noQuizzes": "Derzeit keine Quiz verfügbar.",
+    "flashcards": "Lernkarten",
+    "flashcardDesc": "Wiederhole Begriffe und Konzepte mit Lernkarten.",
+    "noFlashcards": "Derzeit keine Lernkarten-Sets verfügbar.",
+    "tests": "Tests",
+    "startStudy": "Mit dem Lernen beginnen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "description": "Passe deine App-Erfahrung an",
+    "language": "Sprache",
+    "theme": "Design",
+    "notifications": "Benachrichtigungen",
+    "darkMode": "Dunkelmodus",
+    "about": "Über"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "kata": {
+    "sanchin": {
+      "meaning": "Drei Kämpfe/Konflikte",
+      "description": "Das grundlegendste Kata im Goju Ryu. Es konzentriert sich auf richtige Atmung, Stand und Spannung im ganzen Körper. Die 'drei Kämpfe' beziehen sich auf Geist, Körper und Seele.",
+      "history": "Bedeutet wörtlich 'drei Kämpfe'. Es bezieht sich nicht auf einen tatsächlichen Kampf, sondern auf den inneren Kampf, Körper, Geist und Seele durch Willenskraft zu stärken. Das Kata besteht aus langsam ausgeführten Techniken mit kontinuierlicher Muskelspannung und tiefer Bauchatmung. Das moderne Sanchin ist eine von Miyagi Chojun Sensei (Begründer, 1888-1953) entwickelte Variante des Originals von Higaonna Kanryo Sensei. Die Atmung in der Originalversion war explosiver, und der Körper drehte sich zweimal um 180 Grad. Fortgeschrittene Schüler können während der Ausführung von Sanchin auf korrekte Muskelspannung getestet werden. Diese Prüfung wird Shime genannt. Prüfungsstoff für Gokyu (fünfter Kyu, grüner Gürtel) und höher.",
+      "culturalSignificance": "Sanchin gilt als die Essenz des Goju Ryu Karate und verkörpert die Prinzipien von Atmung, Stand und Fokus, die für den Stil zentral sind."
+    },
+    "tensho": {
+      "meaning": "Drehende Handflächen",
+      "description": "Bedeutet wörtlich 'drehende Handflächen'. Dieses Kata wurde von Miyagi Chojun Sensei als Gegenstück zu Sanchin entwickelt. Wie Sanchin wird es mit tiefer Atmung und allgemeiner Muskelspannung ausgeführt, aber sein Charakter ist ganz anders. Während Sanchin geschlossen, eckig und hart (go) ist, ist Tensho offen, anmutig und weich (ju), mit vielen kreisförmigen Hand- und Handgelenktechniken. Prüfungsstoff für Sandan (dritter Dan) und höher.",
+      "history": "Von Chojun Miyagi als Gegenstück zu Sanchin entwickelt, repräsentiert Tensho den weichen, kreisförmigen Aspekt des Goju Ryu.",
+      "culturalSignificance": "Tensho demonstriert das 'ju' (weiche) Element des Goju Ryu und ergänzt das 'go' (harte) von Sanchin."
+    }
+  },
+  "history": {
+    "title": "Geschichte",
+    "origins": "Ursprünge in Okinawa",
+    "origins-desc": "Goju-Ryu Karate wurde Anfang des 20. Jahrhunderts von Chojun Miyagi in Okinawa, Japan, entwickelt. Der Name 'Goju' stammt vom Prinzip 'hart-weich' aus den traditionellen chinesischen Kampfkünsten und spiegelt die doppelte Natur des Systems wider – die Kombination harter Schlagtechniken mit weicheren, kreisförmigen Bewegungen für Angriff und Verteidigung.",
+    "development": "Entwicklung",
+    "development-desc": "Die Entwicklung und Verbreitung von Goju Ryu in der ganzen Welt",
+    "lineage": "Linie der Meister",
+    "lineage-desc": "Die wichtigsten Lehrer und ihre Beiträge zum Stil",
+    "subsections": {
+      "early-history": "Frühe Geschichte",
+      "early-history-desc": "Die Wurzeln des Goju Ryu reichen zurück bis zu den chinesischen Kampfkünsten und ihrer Integration in die okinawanische Kultur.",
+      "miyagi-era": "Die Ära von Miyagi",
+      "miyagi-era-desc": "Chojun Miyagi's Entwicklung und Systematisierung des Goju Ryu Stils in den 1920er und 1930er Jahren.",
+      "post-war": "Nachkriegszeit",
+      "post-war-desc": "Die Verbreitung und Entwicklung des Goju Ryu nach dem Zweiten Weltkrieg.",
+      "modern-era": "Moderne Ära",
+      "modern-era-desc": "Die aktuelle Entwicklung und weltweite Verbreitung des Goju Ryu."
     }
   }
 } 

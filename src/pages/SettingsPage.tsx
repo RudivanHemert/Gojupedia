@@ -2,14 +2,16 @@ import React from 'react';
 import { LanguageSelector } from '@/components/LanguageSelector';
 import { ThemeSelector } from '@/components/ThemeSelector';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { useTranslation } from 'react-i18next';
 
 const SettingsPage = () => {
+  const { t } = useTranslation();
   return (
     <div className="container mx-auto p-4 space-y-4">
       <Card>
         <CardHeader>
-          <CardTitle>Settings</CardTitle>
-          <CardDescription>Customize your app experience</CardDescription>
+          <CardTitle>{t('settings.title')}</CardTitle>
+          <CardDescription>{t('settings.description')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
           <LanguageSelector />

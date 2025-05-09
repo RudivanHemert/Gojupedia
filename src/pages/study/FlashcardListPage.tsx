@@ -4,8 +4,10 @@ import React from 'react';
 // import MobileLayout from '@/components/layout/MobileLayout';
 import { studies } from '@/data';
 import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
+import { useTranslation } from 'react-i18next';
 
 const FlashcardListPage = () => {
+  const { t } = useTranslation();
   // Filter for flashcards
   const flashcardStudies = studies.filter(study => study.type === 'flashcard');
 
@@ -15,9 +17,9 @@ const FlashcardListPage = () => {
       {/* Header */}
       <div className="bg-stone-100 border-b border-stone-200">
         <div className="px-4 py-6">
-          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">Available Flashcard Sets</h1>
+          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">{t('study.flashcards')}</h1>
           <p className="text-stone-600 text-center text-sm">
-            Review terms and concepts using flashcards.
+            {t('study.flashcardDesc', 'Review terms and concepts using flashcards.')}
           </p>
         </div>
       </div>
@@ -29,7 +31,7 @@ const FlashcardListPage = () => {
             <StudyCard key={study.id} study={study} />
           ))
         ) : (
-          <p className="text-center text-stone-500 italic">No flashcard sets available currently.</p>
+          <p className="text-center text-stone-500 italic">{t('study.noFlashcards', 'No flashcard sets available currently.')}</p>
         )}
       </div>
     </>

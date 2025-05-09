@@ -3,6 +3,7 @@ import { techniquesData, TechniqueData } from '@/data/techniquesData'; // Adjust
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, RefreshCw } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card'; // Assuming shadcn/ui Card
+import { useTranslation } from 'react-i18next';
 
 interface TechniqueFlashcardsProps {
   category: TechniqueData['category'];
@@ -10,6 +11,7 @@ interface TechniqueFlashcardsProps {
 }
 
 const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, title }) => {
+  const { t } = useTranslation();
   const [cards, setCards] = useState<TechniqueData[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -35,11 +37,11 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
   };
 
   if (cards.length === 0) {
-    return <div>No flashcards found for the category: {category}.</div>;
+    return <div>{t('study.noFlashcardsForCategory', { category })}</div>;
   }
 
   const currentCard = cards[currentIndex];
-  const cardTitle = title || `${category} Flashcards`;
+  const cardTitle = title || `${category} ${t('study.flashcards')}`;
 
   return (
     <div className="flex flex-col items-center space-y-4 p-4">
@@ -64,13 +66,13 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
 
       <div className="flex justify-between w-full max-w-md space-x-2">
         <Button onClick={handlePrev} disabled={cards.length <= 1}>
-          <ArrowLeft className="mr-2 h-4 w-4" /> Previous
+          <ArrowLeft className="mr-2 h-4 w-4" /> {t('common.previous')}
         </Button>
         <Button onClick={handleFlip}>
-            Flip <RefreshCw size={16} className="ml-2 h-4 w-4"/>
+          {t('common.flip')} <RefreshCw size={16} className="ml-2 h-4 w-4"/>
         </Button>
         <Button onClick={handleNext} disabled={cards.length <= 1}>
-          Next <ArrowRight className="ml-2 h-4 w-4" />
+          {t('common.next')} <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
     </div>
