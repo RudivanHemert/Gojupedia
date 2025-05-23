@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
-import { Swords, User, Dumbbell, Users } from 'lucide-react';
+import { Swords, User, Dumbbell, Users, ListChecks } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const PracticePage = () => {
@@ -21,6 +21,13 @@ const PracticePage = () => {
       description: t('practice.kataDesc'),
       icon: <User className="h-5 w-5 text-karate" />,
       path: '/kata',
+    },
+    {
+      id: 'bunkai',
+      name: t('bunkai.title'),
+      description: t('bunkai.description'),
+      icon: <ListChecks className="h-5 w-5 text-karate" />,
+      path: '/bunkai',
     },
     {
       id: 'hojo-undo',
@@ -60,24 +67,11 @@ const PracticePage = () => {
   };
 
   return (
-    <>
-      {/* Header Image */}
-      <div className="relative h-40 overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop" 
-          alt={t('practice.title')} 
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
-        <div className="absolute bottom-0 left-0 p-5 w-full">
-          <h1 className="text-white text-3xl font-bold">{t('practice.title')}</h1>
-          <p className="text-white opacity-90">
-            {t('practice.description')}
-          </p>
-        </div>
+    <div className="min-h-screen bg-white">
+      <div className="py-8 px-4 text-center">
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('practice.title')}</h1>
+        <p className="text-gray-700 text-lg">{t('practice.description')}</p>
       </div>
-
-      {/* Practice Sections */}
       <div className="p-4">
         <motion.div
           variants={containerVariants}
@@ -108,7 +102,7 @@ const PracticePage = () => {
           ))}
         </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

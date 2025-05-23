@@ -1,22 +1,23 @@
 import React from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
-import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 import VitalPoints from './terminology/VitalPoints';
 
 const VitalPointsPage = () => {
+  const { t } = useTranslation();
+
   return (
-    <MobileLayout hideHeader={true}>
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('vitalPoints.title')}
+        description={t('vitalPoints.description')}
+      />
       <div className="p-4">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="bg-white rounded-lg shadow p-4"
-        >
+        <div className="max-w-4xl mx-auto">
           <VitalPoints />
-        </motion.div>
+        </div>
       </div>
-    </MobileLayout>
+    </div>
   );
 };
 

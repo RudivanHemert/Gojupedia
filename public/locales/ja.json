@@ -46,7 +46,16 @@
     "steps": "手順",
     "details": "詳細",
     "media": "メディア",
-    "history": "歴史"
+    "history": "歴史",
+    "theory": {
+      "title": "型理論",
+      "description": "型の原則と実践を理解する"
+    },
+    "levels": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
   },
   "terminology": {
     "number": "番号",
@@ -68,7 +77,9 @@
     "showLabels": "ラベルを表示",
     "hideLabels": "ラベルを隠す",
     "showCoordinates": "座標を表示",
-    "hideCoordinates": "座標を隠す"
+    "hideCoordinates": "座標を隠す",
+    "title": "急所",
+    "description": "剛柔流空手の重要な急所とターゲットを理解する"
   },
   "quiz": {
     "question": "問題",
@@ -110,5 +121,42 @@
     "pageNotFound": "ページが見つかりません",
     "serverError": "サーバーエラー。後でもう一度お試しください。",
     "unexpectedError": "予期しないエラーが発生しました"
+  },
+  "techniques": {
+    "title": "技術",
+    "description": "剛柔流空手の基本技術をマスターする",
+    "sections": {
+      "blocks": "受け技",
+      "kicks": "蹴り技",
+      "punches": "突き技",
+      "stances": "立ち方",
+      "strikes": "打ち技"
+    }
+  },
+  "bunkai": {
+    "title": "分解",
+    "description": "型の技術の実践的な応用を探る"
+  },
+  "hojoUndo": {
+    "title": "補助運動",
+    "description": "剛柔流空手の伝統的な補助運動とトレーニング器具",
+    "sections": {
+      "introduction": "紹介",
+      "equipment": "器具",
+      "techniques": "技術",
+      "benefits": "利点",
+      "training": "トレーニング"
+    }
+  },
+  "kumite": {
+    "title": "組手",
+    "description": "剛柔流空手の組手技術と原則を学ぶ",
+    "sections": {
+      "basics": "基本",
+      "types": "種類",
+      "principles": "原則",
+      "training": "トレーニング",
+      "competition": "競技"
+    }
   }
 } 

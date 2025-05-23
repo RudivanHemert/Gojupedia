@@ -167,7 +167,232 @@
     "dark": "Dunkel",
     "system": "System"
   },
+  "bunkai": {
+    "title": "[DE] Bunkai",
+    "description": "[DE] Application and analysis of kata techniques",
+    "overview": "[DE] Overview",
+    "details": {
+      "attack": "[DE] Attack",
+      "defense": "[DE] Defense",
+      "counterAttack": "[DE] Counter-attack",
+      "footwork": "[DE] Footwork",
+      "vitalPoints": "[DE] Vital Points",
+      "notes": "[DE] Important Notes"
+    },
+    "kata": {
+      "gekisaiDaiIchi": {
+        "title": "[DE] Gekisai Dai Ichi Bunkai",
+        "description": "[DE] Literally means 'attack and destroy 1'. This unusually aggressive name for karate reflects the era when Okinawa was a battlefield for Japanese-American war actions. The kata was developed in 1940 by the founder of Okinawa Goju-ryu Karate-do, Miyagi Chojun sensei. It consists of various combinations of simple basic techniques, which facilitate learning the later, more difficult classical koryu kata.",
+        "bunkai1": {
+          "name": "[DE] Jodan Age Uke + Jodan Oi Zuki",
+          "attack": "[DE] Jodan Oi Zuki.",
+          "defense": "[DE] Jodan Age Uke.",
+          "counterAttack": "[DE] Jodan Oi Zuki.",
+          "footwork": "[DE] 45° diagonal step back to Heiko Sanchin Dachi + foot switch (in-out).",
+          "vitalPoints": "[DE] E.g. Eye [Seimo], [Gansei] or [Kasumi].",
+          "notes": "[DE] Always maintain Zanchin. This applies to all bunkai!"
+        },
+        "bunkai2": {
+          "name": "[DE] Gedan Harai Uke",
+          "attack": "[DE] Gedan Oi Zuki.",
+          "defense": "[DE] Gedan Harai Uke (as strike and block simultaneously).",
+          "counterAttack": "[DE] Block = attack.",
+          "footwork": "[DE] Sideways step outward into Shiko Dachi.",
+          "vitalPoints": "[DE] Elbow [Soto Hijitsume].",
+          "notes": "[DE] When training with hard contact, do not attack the vital point [Hijitsume] but the forearm!"
+        },
+        "bunkai3": {
+          "name": "[DE] Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
+          "attack": "[DE] Chudan Oi Zuki.",
+          "defense": "[DE] Chudan Yoko Uke.",
+          "counterAttack": "[DE] Gedan Mae Geri + Chudan Hiji Ate + Jodan Uraken Uchi.",
+          "footwork": "[DE] Sayu Tenshin + after Mae Geri step forward into Zenkutsu Dachi.",
+          "vitalPoints": "[DE] E.g. [Kinteki] (Mae Geri) + [Ganka] or [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
+          "notes": "[DE] The low front kick is executed with the ball of the foot, the front of the ankle, or the shin depending on the distance. The attacker evades the Chudan Hiji Ate with a backward Suri Ashi."
+        },
+        "bunkai4": {
+          "name": "[DE] Gedan Harai Uke + Chudan Gyaku Zuki",
+          "attack": "[DE] Gedan Oi Zuki.",
+          "defense": "[DE] Gedan Harai Uke.",
+          "counterAttack": "[DE] Chudan Gyaku Zuki.",
+          "footwork": "[DE] Step back diagonally.",
+          "vitalPoints": "[DE] E.g. [Ganka].",
+          "notes": "[DE] Advanced students (from brown belt) must practice the block and counter-attack as one movement. The last two Bunkai Kumite must also be trained as one unit by advanced students."
+        },
+        "bunkai5": {
+          "name": "[DE] Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
+          "attack": "[DE] Chudan Oi Zuki.",
+          "defense": "[DE] Chudan Yoko Uke + Tsukkami (= grabbing).",
+          "counterAttack": "[DE] Ashi Barai + Yoko Shuto Uchi + Fumikomi Geri.",
+          "footwork": "[DE] Sayu Tenshin with 45-degree turn.",
+          "vitalPoints": "[DE] E.g. [Jinchu] or Adam's apple [Nodo Botoku] (Yoko Shuto Uchi) + neck (Fumikomi Geri).",
+          "notes": "[DE] Quickly return the foot after Ashi Barai to prevent the opponent from attacking your leg. For the opponent's safety, the Yoko Shuto Uchi is not executed as a strike to a Kyusho, but more as a push to the chest and shoulder. The Fumikomi Geri can be executed with either leg, depending on how the opponent falls. However, in the Kata it is the same leg as the one used for the sweep. Advanced karateka can also make an irimi step and sweep the opponent from close range. In this advanced variation, the elbow is also locked on the chest."
+        },
+        "bunkai6": {
+          "name": "[DE] Awase Zuki",
+          "attack": "[DE] Chudan Oi Zuki.",
+          "defense": "[DE] Nagashi Seiken Ura Uke (variant of Chudan Yoko Uke).",
+          "counterAttack": "[DE] Awase Zuki + Awase Oshi.",
+          "footwork": "[DE] Sayu Tenshin + step into Zenkutsu Dachi.",
+          "vitalPoints": "[DE] E.g. [Ganka] (Gyaku Zuki) and [Inazuma] (Ura Zuki).",
+          "notes": "[DE] The attack must be intercepted early. The Awase Zuki must first be powerfully focused before continuing as a push. To do this, you must first relax inward and downward and let the breath come in. The Awase Zuki is a miniaturized, closed-hand version of the Tora Guchi."
+        }
+      },
+      "gekisaiDaiNi": {
+        "title": "[DE] Gekisai Dai Ni Bunkai",
+        "description": "[DE] Literally means 'attack and destroy 2'. Like Gekisai Dai Ichi, developed by Miyagi Chojun sensei for the same reasons. The kata consists of various combinations of simple basic techniques, which facilitate learning the later, more difficult classical koryu kata.",
+        "bunkai1": {
+          "name": "[DE] Hiki Uke",
+          "attack": "[DE] Chudan Oi Zuki.",
+          "defense": "[DE] Hiki Uke + grab with 'Sukui Uke'.",
+          "counterAttack": "[DE] Grab at the throat.",
+          "footwork": "[DE] Sayu Tenshin + forward Suri Ashi.",
+          "vitalPoints": "[DE] E.g. Adam's apple [Nodo Botoke] and/or carotid artery [Matsukaze].",
+          "notes": "[DE] When slipping in (Suri Ashi), hook the front foot around the attacker's front foot and apply a leg lock, or place your front foot on the attacker's front foot. Lock the attacking arm between your upper arm and flank."
+        },
+        "bunkai2": {
+          "name": "[DE] Nihon Hiki Uke",
+          "attack": "[DE] Chudan Oi Zuki + Jodan Gyaku Zuki.",
+          "defense": "[DE] Two Hiki Uke.",
+          "counterAttack": "[DE] Nukite Zuki.",
+          "footwork": "[DE] One step back or two Sayu Tenshin.",
+          "vitalPoints": "[DE] Eye [Gansei] or Carotid artery [Matsukaze].",
+          "notes": "[DE] With the hand/arm of the second attack, you lock up the other arm. Optionally apply pressure with the big toe on the forefoot [Kori]."
+        },
+        "bunkai3": {
+          "name": "[DE] Tora Guchi",
+          "attack": "[DE] Jodan Oi Zuki.",
+          "defense": "[DE] Jodan Haishu Osae Uke.",
+          "counterAttack": "[DE] Morote Tsukkami and Morote Oshi.",
+          "footwork": "[DE] Sayu Tenshin to Neko Ashi Dachi, then step out. After the push, pull back the rear foot.",
+          "vitalPoints": "[DE] E.g. [Kinteki] and carotid artery/Adam's apple [Matsukaze]/[Nodo Botoke].",
+          "notes": "[DE] Intercept attack early and execute with Muchimi."
+        }
+      },
+      "saifa": {
+        "title": "[DE] Saifa Bunkai",
+        "description": "[DE] Means something like 'destructive strikes'. 'Sai' means, as in Gekisai, 'destroy'. 'Fa' means, among other things, 'strike'. Typical for kata Saifa are the many striking techniques, such as uraken uchi, tettsui uchi, and haito uchi. Saifa is the first classical koryu kata.",
+        "bunkai1": {
+          "name": "[DE] Hazushi Waza + Otoshi Uke + Jodan Uraken Uchi",
+          "attack": "[DE] 1. Kote Dori. 2. Chudan Gyaku Zuki.",
+          "defense": "[DE] 1. Hazushi Waza (release technique). 2. Shotei Otoshi Uke.",
+          "counterAttack": "[DE] Jodan Uraken Uchi.",
+          "footwork": "[DE] 45° step in and turn into Heiko Dachi, then step in or back to Shiko Dachi.",
+          "vitalPoints": "[DE] E.g. [Jinchu].",
+          "notes": "[DE] When stepping in, press the knuckles of the grabbed hand/arm against the opponent's forearm to weaken their grip (maintain pressure from the start). When pulling free (Hazushi Waza), keep your arms close to your body. After the Otoshi Uke, grab the arm (don't grab immediately). The block can also be executed in Osae or Nagashi form."
+        },
+        "bunkai2": {
+          "name": "[DE] Sukui Uke + Shotei Gedan Harai Uke + Hiza Ate + Mae Geri",
+          "attack": "[DE] Chudan Oi Zuki + Mae Geri.",
+          "defense": "[DE] Sukui Uke + Shotei Gedan Harai Uke.",
+          "counterAttack": "[DE] Hiza Ate + Gedan Mae Geri.",
+          "footwork": "[DE] From Heiko Dachi back with Suri Ashi to Heiko Sanchin Dachi.",
+          "vitalPoints": "[DE] E.g. [Ein] (Hiza Geri) and [Kinteki] (Mae Geri).",
+          "notes": "[DE] With the Sukui Uke, the other hand is used as protection. The attacker must immediately retract the Mae Geri. When the attacker turns their torso sideways after retracting the Mae Geri, make the Mae Geri to the flank."
+        },
+        "bunkai3": {
+          "name": "[DE] (Morote Hiki Uke +) Heiko Zuki",
+          "attack": "[DE] Nihon Chudan Zuki.",
+          "defense": "[DE] Nihon Hiki Uke.",
+          "counterAttack": "[DE] Morote Nukite Zuki + Morote Oshi.",
+          "footwork": "[DE] One foot back + forward Suri Ashi or Ayumi Ashi (depending on distance). In case of large, strong opponent: two Sayu Tenshin.",
+          "vitalPoints": "[DE] E.g. under the collarbone (Nukite) and [Ganka] (Oshi).",
+          "notes": "[DE] The Morote Nukite Zuki and Morote Oshi are executed as much as possible in one movement."
+        },
+        "bunkai4": {
+          "name": "[DE] (Morote) Gedan Furi Uchi",
+          "attack": "[DE] Ashi Dori.",
+          "defense": "[DE] Step away.",
+          "counterAttack": "[DE] Morote Gedan Furi Uchi + Kubi Nage.",
+          "footwork": "[DE] Kotai Ayumi Ashi possibly turn away when throwing.",
+          "vitalPoints": "[DE] E.g. Both ears or temples: [Komekami].",
+          "notes": "[DE] Grab at the ears or at the jaw and hair."
+        },
+        "bunkai5": {
+          "name": "[DE] Tettsui Uchi + TsukamiHiki + Ura Zuki + Jodan Gyaku 'Zuki'",
+          "attack": "[DE] Chudan Oi Zuki.",
+          "defense": "[DE] Gedan Uchi Nagashi Uke.",
+          "counterAttack": "[DE] Tettsui Uchi + Tsukkamihiki + Ura Zuki + Jodan (Gyaku) Oshi.",
+          "footwork": "[DE] Tai Sabaki, then step out for the Ura Zuki and possibly step through for the push (Ayumi Ashi).",
+          "vitalPoints": "[DE] E.g. fontanel [Shomon] (Tettsui Uchi) + nose (Ura Zuki) + possibly Eye [Gansei] (Oshi).",
+          "notes": "[DE] Keep the arm round and close to the body during the low block (don't 'scoop')."
+        },
+        "bunkai6": {
+          "name": "[DE] Haito Uchi",
+          "attack": "[DE] Chudan Oi Zuki.",
+          "defense": "[DE] Ura Hiki Uke.",
+          "counterAttack": "[DE] Haito Uchi.",
+          "footwork": "[DE] Sayu Tenshin to Neko Ashi Dachi.",
+          "vitalPoints": "[DE] E.g. Floating rib/kidneys [Ushiro Denko] or neck [Keichu].",
+          "notes": "[DE] In the Kata, the Haito Uchi is a Chudan technique."
+        },
+        "bunkai7": {
+          "name": "[DE] Tora Guchi",
+          "attack": "[DE] Jodan Oi Zuki.",
+          "defense": "[DE] Jodan Haishu Osae Uke.",
+          "counterAttack": "[DE] Morote Tsukkami and Morote Oshi.",
+          "footwork": "[DE] Sayu Tenshin to Neko Ashi Dachi, then step out. After the push, pull back the rear foot.",
+          "vitalPoints": "[DE] E.g. [Kinteki] and carotid artery/Adam's apple [Matsukaze]/[Nodo Botoke].",
+          "notes": "[DE] Intercept attack early and execute with Muchimi."
+        }
+      },
+      "seiyunchin": {
+        "title": "[DE] Seiyunchin Bunkai",
+        "overviewTitle": "[DE] Bunkai Overview Seiyunchin",
+        "description": "[DE] Literally means 'to unbalance in battle'. This kata is the only kaishu kata without kicking techniques and emphasizes the formation of strong, stable stances. The bunkai kumite (applications) consist of various wrestling and throwing techniques that are very suitable for close combat. Exam material for sankyu (third kyu, brown belt) and above.",
+        "bunkai1": { "name": "[DE] Morote Gedan Harai Uke", "attack": "[DE] Morote Kote Dori.", "defense": "[DE] Hazushi Waza ~ 'Morote Gedan Harai Uke').", "counterAttack": "[DE] Hiza Geri or Mae Geri (front or back leg).", "footwork": "[DE] First step forward, then diagonally back to Shiko Dachi.", "vitalPoints": "[DE] E.g. [Kinteki].", "notes": "[DE] It is important to first weaken the opponent's grip (double upward thrust). The meaning of dropping into Shiko Dachi is to learn to use your weight as power in release techniques." },
+        "bunkai2": { "name": "[DE] Sukui Uke + Hiki Uke + Hira Nukite Zuki", "attack": "[DE] Chudan Oi Zuki + Hikite.", "defense": "[DE] Sukui Uke + grab over.", "counterAttack": "[DE] Hira Nukite Zuki.", "footwork": "[DE] One foot back, then step out to Shiko Dachi.", "vitalPoints": "[DE] E.g. below the floating ribs.", "notes": "[DE] With Nukite Zuki, first make contact, then apply force." },
+        "bunkai3": { "name": "[DE] Hojo Oshi", "attack": "[DE] Chudan Oi Zuki Shotei", "defense": "[DE] Otoshi Uke", "counterAttack": "[DE] Chudan Nakadaka Ippon Ken Zuki + Morote Shotei Hojo Oshi", "footwork": "[DE] Turn into Heiko Sanchin Dachi + Suri Ashi forward during the push.", "vitalPoints": "[DE] E.g. [Danchu] (Chudan Nakadaka Ippon Ken Zuki).", "notes": "" },
+        "bunkai4": { "name": "[DE] Chudan Hiji Ate", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Otoshi Uke.", "counterAttack": "[DE] Chudan Hiji Ate.", "footwork": "[DE] One foot back, then the other forward.", "vitalPoints": "[DE] E.g. [Ganka]", "notes": "" },
+        "bunkai5": { "name": "[DE] Hojo Uke + Gedan Harai Uchi", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Chudan Yoko Uke.", "counterAttack": "[DE] Jodan Shotei Uchi", "footwork": "[DE] Sayu Tenshin, 45 degree turn", "vitalPoints": "[DE] E.g. ear (Jodan Shotei Uchi)", "notes": "[DE] From Shodan level, these bunkai and the next (with Gedan Barai) are performed as one continuous technique." },
+        "bunkai6": { "name": "[DE] Hari Uke", "attack": "[DE] Jodan Oi Zuki + Mae Geri", "defense": "[DE] Kaishu Jodan Age Uke (+ grab) + Gedan Shotei Harai Uke (+ grab)", "counterAttack": "[DE] Hari Uke Nage + Otoshi Zuki.", "footwork": "[DE] One foot back, then the other foot to the opponent's supporting leg and then Tai Sabaki. For lighter karateka, two times Sayu Tenshin.", "vitalPoints": "[DE] E.g. [Inazuma].", "notes": "[DE] For safety, the throw is performed with a large turning movement. In a self-defense situation, with a not too heavy opponent, the throw is short and the head is..." },
+        "bunkai7": { "name": "[DE] Chudan Yoko Shotei Uke / Jodan Uchi Uke > Jodan Uraken Uchi", "attack": "[DE] Chudan Gyaku Zuki + Jodan Jun Zuki", "defense": "[DE] Otoshi Uke (+ grab) + Jodan Uchi Uke.", "counterAttack": "[DE] (optionally Ashi Barai with front leg +) Jodan Uraken Uchi", "footwork": "[DE] One foot back. Optionally slip in with Jodan Uraken Uchi.", "vitalPoints": "[DE] E.g. [Jinchu] (Jodan Uraken Uchi).", "notes": "[DE] Only make the Ashi Barai if the distance allows." },
+        "bunkai8": { "name": "[DE] (Doji Uke +) Age Zuki + Jodan Uraken Uchi + Gedan Harai Uke (Uchi)", "attack": "[DE] Chudan Oi Zuki + Mae Geri", "defense": "[DE] Otoshi Uke.", "counterAttack": "[DE] Age Zuki + Jodan Uraken Uchi + Gedan Harai Uchi.", "footwork": "[DE] One foot back, then step out to Shiko Dachi.", "vitalPoints": "[DE] E.g. jaw [Mikazuki] (Age Zuki) + [Jinchu] (Jodan Uraken Uchi) + [Kinteki] (Gedan Harai Uchi).", "notes": "[DE] Advanced students should also practice this against Chudan Zuki + Gedan Zuki or Mae Geri (application of Doji Uke)." },
+        "bunkai9": { "name": "[DE] Hiji Age", "attack": "[DE] Grab from behind (torso and arms).", "defense": "[DE] Hiji Age + Ushiro Hiji Ate (simultaneously) then turn out to Kamae.", "counterAttack": "[DE] Attack = defense.", "footwork": "[DE] After being grabbed, step forward to 'Neko Ashi Dachi'.", "vitalPoints": "[DE] E.g. [Inazuma].", "notes": "[DE] If the grip is too strong, first attack a Kyusho. For example, with a backward headbutt, kick to the foot, strike to the groin, etc." },
+        "bunkai10": { "name": "[DE] Otoshi Uke + Jodan Uraken Uchi", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Otoshi Uke (+ grab).", "counterAttack": "[DE] Jodan Uraken Uchi.", "footwork": "[DE] Turning Suri Ashi.", "vitalPoints": "[DE] E.g. [Jinchu].", "notes": "[DE] The block and the strike follow each other smoothly." },
+        "bunkai11": { "name": "[DE] Morote Kuri Uke", "attack": "[DE] Morote Kubi Dori.", "defense": "[DE] Morote Kuri Uke as a release technique.", "counterAttack": "[DE] Morote Nukite Zuki.", "footwork": "[DE] Step back and fall into Neko Ashi Dachi.", "vitalPoints": "[DE] E.g. eyes [Gansei].", "notes": "[DE] As in the kata, it is important that the forearms come together well above the opponent's arms." },
+        "bunkai12": { "name": "[DE] Chudan Oi Zuki > Chudan Yoko Uke + grab wrist > Gedan Harai Uke (Uchi)", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Chudan Yoko Uke + immediately continue to grab the wrist.", "counterAttack": "[DE] Gedan Harai Uke (Uchi).", "footwork": "[DE] Sayu Tenshin, 30 degree turn + foot switch (back-in) to Shiko Dachi.", "vitalPoints": "[DE] E.g. [Kinteki] (Gedan Harai Uchi).", "notes": "[DE] When moving to Shiko Dachi, turn in such a way that you can hit the groin unimpeded." }
+      },
+      "shisochin": {
+        "title": "[DE] Shisochin Bunkai",
+        "overviewTitle": "[DE] Bunkai Overview Shisochin",
+        "description": "[DE] Literally means 'fight in 4 directions'. Another translation is '4 doors'. The word door is a symbolic word for the place where a potential opponent can attack, can 'enter'. The kata contains a typical attack combination, which is performed in four directions. Exam material for ikkyu (first kyu, brown belt) and above.",
+        "bunkai1": { "name": "[DE] Chudan Nukite Zuki", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Chudan Haishu NagAshi Uke.", "counterAttack": "[DE] Chudan Nukite Zuki.", "footwork": "[DE] Sayu Tenshin.", "vitalPoints": "[DE] E.g. solar plexus [Suigetsu]) or carotid artery [Matsukaze].", "notes": "[DE] An attack to Suigetsu will only be realistic with a large strength difference and strong hands." },
+        "bunkai2": { "name": "[DE] Morote Sukui Uke + 'Morote Gedan Harai Uke'", "attack": "[DE] Morete Kubi Dori.", "defense": "[DE] Morete Sukui Uke + grab + 'Morete Gedan Harai Uke'.", "counterAttack": "[DE] Mae Geri or Hiza Geri with rear leg.", "footwork": "[DE] Step back to avoid the attack and to grab the opponent's thumbs or wrists.", "vitalPoints": "[DE] E.g. solar plexus [Suigetsu].", "notes": "[DE] The same bunkai can also be performed if both wrists are grabbed." },
+        "bunkai3": { "name": "[DE] Chudan Ura Kake Uke (Doji Uke) + Gyaku Te", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Chudan Ura Kake Uke.", "counterAttack": "[DE] Gyaku Te + Otoshi Hij Ate.", "footwork": "[DE] Sayu Tenshin, then turn in with the outer leg and then stretch it to unbalance the opponent. Then turn to Shiko Dachi for Otoshi Hiji Ate.", "vitalPoints": "[DE] E.g. [Kassatsu] (Otoshi Hiji Ate).", "notes": "[DE] Advanced students should perform the block and Gyaku Te in one movement. The technique in question does not have a name of its own but is named after the application. Namely: Gyaku Te, which is a collective name for locks, grips, etc." },
+        "bunkai4": { "name": "[DE] Hiji Age / Ushiro Hiji Ate", "attack": "[DE] Grab from behind, one arm trapped.", "defense": "[DE] Jodan Ushiro Zuki + Ushiro Hiji Ate.", "counterAttack": "[DE] Defense is counterattack.", "footwork": "", "vitalPoints": "[DE] E.g. [Jinchu] (Jodan Ushiro Zuki) + [Inazuma] (Ushiro Hiji Ate)", "notes": "[DE] If the hold is too strong, it is better to attack a Kyusho first. For example, the point [Koin] (on the foot) with the heel or the testicles [Kinteki] with the hand." },
+        "bunkai5": { "name": "[DE] Nagashi Shotei Gedan Harai Uke + Shotei Zuki", "attack": "[DE] Chudan Oi Zuki", "defense": "[DE] Nagashi Shotei Gedan Harai Uke.", "counterAttack": "[DE] Shotei Zuki", "footwork": "[DE] Step in and turn away in one movement.", "vitalPoints": "[DE] E.g. jaw [Mikazuki].", "notes": "[DE] The upward effect in the movement helps uproot the opponent. In the case of an attack on the eyes, the opponent's hand is more difficult to see coming because it comes from below." },
+        "bunkai6": { "name": "[DE] Hiki Uke + Mae Geri + Chudan Hiji Ate", "attack": "[DE] Chudan Oi Zuki.", "defense": "[DE] Hiki Uke.", "counterAttack": "[DE] Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.", "footwork": "[DE] Sayu Tenshin. After Mae Geri move forward into Zenkutsu Dachi.", "vitalPoints": "[DE] E.g. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + Eyes [Gansei] (Nihon Nukite).", "notes": "" },
+        "bunkai7": { "name": "[DE] Otoshi Uke + Hiji Ate", "attack": "[DE] Chudan Oi Zuki", "defense": "[DE] Osae Uke.", "counterAttack": "[DE] Hiji Ate", "footwork": "[DE] Step in.", "vitalPoints": "[DE] E.g. [Suigetsu]", "notes": "[DE] The attack must be intercepted early and pressed inward and (then) downward." },
+        "bunkai8": { "name": "[DE] Morote Hiji Ate", "attack": "[DE] Morote Kote Dori.", "defense": "[DE] Morote Hiji Age.", "counterAttack": "[DE] Otoshi Hiji Age.", "footwork": "[DE] One foot back for stability then step in.", "vitalPoints": "[DE] E.g. collarbone or chest (Otoshi Hiji Ate).", "notes": "[DE] Note: For the execution of Morote Hiji Age, the hands are raised and spread open." },
+        "bunkai9": { "name": "[DE] Doji Uke", "attack": "[DE] Mae Geri.", "defense": "[DE] Shuto Gedan Harai Uke.", "counterAttack": "[DE] Jodan Haishu Uchi.", "footwork": "[DE] Sayu Tenshin to Neko Ashi Dachi, then forward Suri Ashi in Neko Ashi Dachi.", "vitalPoints": "[DE] E.g. nose (Jodan Haishu Uchi).", "notes": "" }
+      },
+      "sanseru": {
+        "title": "[DE] Sanseru Bunkai",
+        "overviewTitle": "[DE] Bunkai Overview Sanseru",
+        "description": "[DE] Sanseru literally means '36 hands'. The name refers to Buddhist symbolism: 36 is the symbolic multiplication of 6 × 6. The first 6 stands for eye, ear, nose, tongue, body, and mind. The second 6 symbolizes color, voice, taste, smell, touch, and justice. This kata is exam material for nidan (second dan) and above. The bunkai focus on close-range defense, joint locks, and takedowns.",
+        "bunkai1": { "name": "[DE] Chudan Yoko Uke > Chudan Gyaku Zuki", "attack": "[DE] Right Chudan Oi Zuki", "defense": "[DE] Left Chudan Yoko Uke", "counterAttack": "[DE] Right Chudan Gyaku Zuki", "footwork": "[DE] Right foot Sayu Tenshin with a turn to left Heiko Sanchin Dachi.", "vitalPoints": "[DE] E.g. [Suigetsu], [Ganka] (solar plexus, eye area)", "notes": "" },
+        "bunkai2": { "name": "[DE] Kakate Uke > Hazushi Waza", "attack": "[DE] Kote Dori - left hand grabs right wrist", "defense": "[DE] Kake Uke + Hazushi Waza with the left hand on the wrist/forearm.", "counterAttack": "[DE] Strike off the wrist", "footwork": "[DE] Step in with right to weaken the grip; step back with right to add force while performing Hazushi Waza.", "vitalPoints": "", "notes": "[DE] When performing Hazushi Waza, keep the arm close to the body, let the fingers go upward and then spread, then 'cut' with the knife hand." },
+        "bunkai3": { "name": "[DE] Ashi Dori > Mae Geri > Kansetsu Geri", "attack": "[DE] Right Mae Geri (front kick)", "defense": "[DE] Ashi Dori (right Shotei Uchi Gedan Harai Uke)", "counterAttack": "[DE] Chudan Ashi Dori + right Kin Geri + Kansetsu Geri Nage or Gedan Fumikomi.", "footwork": "[DE] Remain standing, turn the body away (Tai Sabaki in place).", "vitalPoints": "[DE] [Kinteki] (groin)", "notes": "[DE] After the groin kick, turn the right hand and place the right thumb into the inner thigh muscle (quadriceps). After the kick, keep the knee inside the thigh and place the foot above the other knee. Use a lever motion for the takedown." },
+        "bunkai4": { "name": "[DE] Mae Hiji Ate > Gedan Gyaku Zuki > Kansetsu Geri", "attack": "[DE] 1. Right Chudan Oi Zuki. 2. Left Gedan Gyaku Zuki.", "defense": "[DE] 1. Left Chudan Shotei Osae/Otoshi Uke. 2. Right Gedan Harai Uke.", "counterAttack": "[DE] 1. Right Chudan Hiji Ate + Left Gedan Gyaku Zuki + Right Kansetsu Geri.", "footwork": "[DE] 1. Foot switch (Uke + Hiji Ate). Kotai Suri Ashi (Uke) + left Sayu Tenshin (Kansetsu Geri).", "vitalPoints": "[DE] E.g. the knee", "notes": "" },
+        "bunkai5": { "name": "[DE] Gedan Seiken Juji Uke", "attack": "[DE] Right Mae Geri", "defense": "[DE] Both fists Gedan Kosa Uke", "counterAttack": "[DE] Vertical fist Gedan Zuki.", "footwork": "[DE] Right foot steps back into low Shiko Dachi.", "vitalPoints": "[DE] E.g. teeth or [Kinteki] (groin)", "notes": "" },
+        "bunkai6": { "name": "[DE] Gedan Kaishu Juji Uke", "attack": "[DE] Right Mae Geri", "defense": "[DE] Both fists Gedan Kosa Uke", "counterAttack": "[DE] Vertical hand Gedan Nukite.", "footwork": "[DE] Right foot steps back into low Shiko Dachi.", "vitalPoints": "[DE] E.g. teeth or [Yako] (jaw).", "notes": "" },
+        "bunkai7": { "name": "[DE] Mawashi Uke > Awase Zuki", "attack": "[DE] 1. Right Gedan Mae Geri. 2. Right Jodan Oi Zuki.", "defense": "[DE] 1. Gedan Shotei Harai Uke + grab. 2. Open hand Age Uke + grab (Gyaku Sukui Uke)", "counterAttack": "[DE] Awase Zuki Nage (combined punch and throw)", "footwork": "[DE] Step in with Sayu Tenshin turn (45 degrees)", "vitalPoints": "", "notes": "" },
+        "bunkai8": { "name": "[DE] Kami Kiri No Kamae", "attack": "[DE] Right Chudan Gyaku Zuki + Left Jodan Oi Zuki", "defense": "[DE] Left Chudan Yoko Ko Uke + Right Age Ko Uke", "counterAttack": "[DE] Double finger thrust + double palm strike + leg grab throw + downward palm strike.", "footwork": "[DE] First return to Heiko Sanchin (during Yoko Ko Uke), then step in to Shiko Dachi (Age Ko Uke)", "vitalPoints": "[DE] E.g. [Gansei] (eyes), [Inazuma] (temple), [Kinteki] (groin)", "notes": "" }
+      }
+    }
+  },
   "kata": {
+    "theory": {
+      "title": "[DE] Kata Theorie",
+      "description": "[DE] Die Prinzipien und Praxis der Kata verstehen"
+    },
+    "levels": {
+      "beginner": "[DE] Anfänger",
+      "intermediate": "[DE] Mittelstufe",
+      "advanced": "[DE] Fortgeschritten",
+      "master": "[DE] Meister"
+    },
     "sanchin": {
       "meaning": "Drei Kämpfe/Konflikte",
       "description": "Das grundlegendste Kata im Goju Ryu. Es konzentriert sich auf richtige Atmung, Stand und Spannung im ganzen Körper. Die 'drei Kämpfe' beziehen sich auf Geist, Körper und Seele.",

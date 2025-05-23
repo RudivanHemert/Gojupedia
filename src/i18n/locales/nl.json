@@ -188,6 +188,16 @@
     }
   },
   "kata": {
+    "theory": {
+      "title": "[NL] Kata Theorie",
+      "description": "[NL] De principes en praktijk van kata begrijpen"
+    },
+    "levels": {
+      "beginner": "[NL] Beginner",
+      "intermediate": "[NL] Gevorderd",
+      "advanced": "[NL] Expert",
+      "master": "[NL] Meester"
+    },
     "sanchin": {
       "meaning": "Drie gevechten/conflicten",
       "description": "Het meest fundamentele kata in Goju Ryu. Het richt zich op correcte ademhaling, stand en spanning door het hele lichaam. De 'drie gevechten' verwijzen naar geest, lichaam en spirit.",
@@ -259,6 +269,453 @@
       "description": "Het langste en meest geavanceerde kata in het Goju Ryu-systeem, vernoemd naar de 108 bezoedelingen van de mens in de boeddhistische filosofie. Het bevat een uitgebreide verzameling technieken uit het hele systeem.",
       "history": "Betekent '108 (handen)'. Het getal 108 is volgens de boeddhistische getalssymboliek opgebouwd uit de vermenigvuldiging 3 x 36. De symboliek van 3 en 36 is die van kata Sanseru en Sepai. 108 verwijst naar de 108 kwade hartstochten die de mens volgens het boeddhisme heeft. Suparinpei is het meest gevorderde en langste kata uit het Okinawa Goju-ryu Karate-do curriculum en behoort tot de examenstof voor rokudan (zesde dan) en hoger.",
       "culturalSignificance": "Het getal 108 is belangrijk in veel oosterse tradities en het kata symboliseert de beheersing van het volledige Goju Ryu-systeem."
+    }
+  },
+  "bunkai": {
+    "title": "Bunkai",
+    "description": "Toepassing en analyse van kata technieken",
+    "overview": "Overzicht",
+    "details": {
+      "attack": "Aanval",
+      "defense": "Verdediging",
+      "counterAttack": "Tegenaanval",
+      "footwork": "Voetenwerk",
+      "vitalPoints": "Vitale Punten",
+      "notes": "Aandachtspunten"
+    },
+    "kata": {
+      "gekisaiDaiIchi": {
+        "title": "Gekisai Dai Ichi Bunkai",
+        "description": "Betekent letterlijk 'aanval en vernietiging 1'. Deze voor het karate wat ongebruikelijk agressieve benaming weerspiegelt de tijd waarin het Japanse eiland Okinawa het slagveld voor Japans-Amerikaanse oorlogshandelingen was. Het kata werd in 1940 ontwikkeld door de grondlegger van het Okinawa Goju-ryu Karate-do, Myagi Chojun sensei. Het bestaat uit diverse combinaties van eenvoudige basistechnieken, die het aanleren van de latere moeilijkere klassieke koryu kata vergemakkelijken.",
+        "bunkai1": {
+          "name": "Jodan Age Uke + Jodan Oi Zuki",
+          "attack": "Jodan Oi Zuki.",
+          "defense": "Jodan Age Uke.",
+          "counterAttack": "Jodan Oi Zuki.",
+          "footwork": "45° schuin naar achteren uitstappen naar Heiko Sanchin Dachi + voetwissel (in-uit).",
+          "vitalPoints": "Bijv. Oog [Seimo], [Gansei] of [Kasumi].",
+          "notes": "Behoud steeds Zanchin. Dit geldt voor alle bunkai!"
+        },
+        "bunkai2": {
+          "name": "Gedan Harai Uke",
+          "attack": "Gedan Oi Zuki.",
+          "defense": "Gedan Harai Uke (als slag en wering tegelijk).",
+          "counterAttack": "Wering = aanval.",
+          "footwork": "Zijwaarts uitstappen naar buiten in Shiko Dachi.",
+          "vitalPoints": "Elleboog [Soto Hijitsume].",
+          "notes": "Bij training met hard contact niet het vitale punt [Hijitsume] aanvallen maar de onderarm!"
+        },
+        "bunkai3": {
+          "name": "Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Yoko Uke.",
+          "counterAttack": "Gedan Mae Geri + Chudan Hiji Ate + Jodan Uraken Uchi.",
+          "footwork": "Sayu Tenshin + na Mae Geri inkomen naar voren met Zenkutsu Dachi.",
+          "vitalPoints": "Bijv. [Kinteki] (Mae Geri) + [Ganka] of [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
+          "notes": "De lage voorwaartse trap wordt al naar gelang de afstand uitgevoerd met de bal van de voet, de voorzijde van de enkel of het scheenbeen. De aanvaller ontwijkt de Chudan Hiji Ate met een achterwaartse Suri Ashi."
+        },
+        "bunkai4": {
+          "name": "Gedan Harai Uke + Chudan Gyaku Zuki",
+          "attack": "Gedan Oi Zuki.",
+          "defense": "Gedan Harai Uke.",
+          "counterAttack": "Chudan Gyaku Zuki.",
+          "footwork": "Schuin naar achteren weg stappen.",
+          "vitalPoints": "Bijv. [Ganka].",
+          "notes": "Gevorderden (vanaf bruine band) moeten de wering en tegenaanval als één beweging oefenen. De laatste twee Bunkai Kumite moeten door gevorderden ook als één geheel worden getraind."
+        },
+        "bunkai5": {
+          "name": "Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Yoko Uke + Tsukkami (= beetpakken).",
+          "counterAttack": "Ashi Barai + Yoko Shuto Uchi + Fumikomi Geri.",
+          "footwork": "Sayu Tenshin met 45 graden draai.",
+          "vitalPoints": "Bijv. [Jinchu] of Adamsappel [Nodo Botoku] (Yoko Shuto Uchi) + nek (Fumikomi Geri).",
+          "notes": "Na de Ashi Barai de voet snel terugbrengen, om te voorkomen dat de tegenstander tegen je been aanvalt. Voor de veiligheid van de tegenstander wordt de Yoko Shuto Uchi niet slaand uitgevoerd naar een Kyusho, maar meer duwend bijvoorbeeld op borst en schouder. De Fumikomi Geri kan met beide benen worden uitgevoerd, afhankelijk van hoe de tegenstander valt. In de Kata is het echter hetzelfde been als die waarmee de veeg wordt uitgevoerd. Gevorderde karateka kunnen ook een irimi stap maken en de tegenstander van dichtbij vegen. Bij deze gevorderden variatie wordt tevens de elleboog op de borst klem gezet."
+        },
+        "bunkai6": {
+          "name": "Awase Zuki",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Nagashi Seiken Ura Uke (variant van Chudan Yoko Uke).",
+          "counterAttack": "Awase Zuki + Awase Oshi.",
+          "footwork": "Sayu Tenshin + uitstappen naar Zenkutsu Dachi.",
+          "vitalPoints": "Bijv. [Ganka] (Gyaku Zuki) en [Inazuma] (Ura Zuki).",
+          "notes": "De aanval moet vroeg onderschept worden. De Awase Zuki moet eerst krachtig gefocust worden voordat deze als duw wordt voortgezet. Om dit te kunnen doen, moet je eerst naar binnen en beneden ontspannen en de adem binnen laten komen. De Awase Zuki is een verkleinde, gesloten hand versie van de Tora Guchi."
+        }
+      },
+      "gekisaiDaiNi": {
+        "title": "Gekisai Dai Ni Bunkai",
+        "description": "Betekent letterlijk 'aanval en vernietiging 2'. Net als Gekisai Dai Ichi ontwikkeld door Miyagi Chojun sensei om dezelfde redenen. Het kata bestaat uit diverse combinaties van eenvoudige basistechnieken, die het aanleren van de latere moeilijkere klassieke koryu kata vergemakkelijken.",
+        "bunkai1": {
+          "name": "Hiki Uke",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Hiki Uke + overpakken met 'Sukui Uke'.",
+          "counterAttack": "Beetpakken bij de keel.",
+          "footwork": "Sayu Tenshin + voorwaartse Suri Ashi.",
+          "vitalPoints": "Bijv. adamsappel [Nodo Botoke] en/of halsslagader [Matsukaze].",
+          "notes": "Bij het inslippen (Suri Ashi) de voorste voet om de voorste voet van de aanvaller haken en een been klem aanleggen of de voorste voet op de voorste voet van de aanvaller zetten. De aanvalsarm vastklemmen tussen je eigen bovenarm en flank."
+        },
+        "bunkai2": {
+          "name": "Nihon Hiki Uke",
+          "attack": "Chudan Oi Zuki + Jodan Gyaku Zuki.",
+          "defense": "Twee keer Hiki Uke.",
+          "counterAttack": "Nukite Zuki.",
+          "footwork": "Een voet terugstappen of twee keer Sayu Tenshin.",
+          "vitalPoints": "Oog [Gansei] of Halssalgader [Matsukaze].",
+          "notes": "Met de hand/arm van de tweede aanval sluit je de andere arm op. Evt. met de grote teen op voorvoet druk zetten [Kori]."
+        },
+        "bunkai3": {
+          "name": "Tora Guchi",
+          "attack": "Jodan Oi Zuki.",
+          "defense": "Jodan Haishu Osae Uke.",
+          "counterAttack": "Morote Tsukkami en Morote Oshi.",
+          "footwork": "Sayu Tenshin naar Neko Ashi Dachi, daarna uitstappen. Na de duw de achterste voet bijtrekken.",
+          "vitalPoints": "Bijv. [Kinteki] en halsslagader/Adamsappel ([Matsukaze]/[Nodo Botoke]).",
+          "notes": "Aanval vroeg onderscheppen en met Muchimi uitvoeren."
+        }
+      },
+      "saifa": {
+        "title": "Saifa Bunkai",
+        "description": "Betekent zoiets als 'vernietigende slagen'. Sai betekent, net als in Gekisai, 'vernietigen'. Fa betekent ondermeer 'slaan'. Typerend voor kata Saifa zijn de vele slagtechnieken, zoals uraken uchi, tettsui uchi en haito uchi. Saifa is het eerste klassieke koryu kata.",
+        "bunkai1": {
+          "name": "Hazushi Waza + Otoshi Uke + Jodan Uraken Uchi",
+          "attack": "1. Kote Dori. 2. Chudan Gyaku Zuki.",
+          "defense": "1. Hazushi Waza (bevrijdingstechniek). 2. Shotei Otoshi Uke.",
+          "counterAttack": "Jodan Uraken Uchi.",
+          "footwork": "45° instappen en indraaien naar Heiko Dachi, daarna in of terug stappen naar Shiko Dachi.",
+          "vitalPoints": "Bijv. [Jinchu].",
+          "notes": "Bij het instappen de knokkels van de beetgepakte hand/arm tegen de onderarm van de tegenstander drukken om zijn greep te verzwakken (van meet af aan druk houden). Bij het lostrekken (Hazushi Waza) je armen dicht bij het lichaam houden. Na de Otoshi Uke de arm beetpakken (niet gelijk grijpen). De wering kan ook worden uitgevoerd in Osae of Nagashi vorm."
+        },
+        "bunkai2": {
+          "name": "Sukui Uke + Shotei Gedan Harai Uke + Hiza Ate + Mae Geri",
+          "attack": "Chudan Oi Zuki + Mae Geri.",
+          "defense": "Sukui Uke + Shotei Gedan Harai Uke.",
+          "counterAttack": "Hiza Ate + Gedan Mae Geri.",
+          "footwork": "Vanuit Heiko Dachi terug met Suri Ashi naar Heiko Sanchin Dachi.",
+          "vitalPoints": "Bijv. [Ein] (Hiza Geri) en [Kinteki] (Mae Geri).",
+          "notes": "Bij de Sukui Uke wordt de andere hand gebruikt als bescherming. De aanvaller moet de Mae Geri gelijk terugtrekken. Wanneer de aanvaller, na het terug trekken van de Mae Geri, de romp zijwaarts draait, maak je de Mae Geri naar de flank."
+        },
+        "bunkai3": {
+          "name": "(Morote Hiki Uke +) Heiko Zuki",
+          "attack": "Nihon Chudan Zuki.",
+          "defense": "Nihon Hiki Uke.",
+          "counterAttack": "Morote Nukite Zuki + Morote Oshi.",
+          "footwork": "Een voet naar achteren + voorwaartse Suri Ashi of Ayumi Ashi (al naar gelang de afstand). In geval van grote, sterke tegenstander: twee keer Sayu Tenshin.",
+          "vitalPoints": "Bijv. onder het sleutelbeen (Nukite) en [Ganka] (Oshi).",
+          "notes": "De Morote Nukite Zuki en Morote Oshi worden zoveel mogelijk in een beweging uitgevoerd."
+        },
+        "bunkai4": {
+          "name": "(Morote) Gedan Furi Uchi",
+          "attack": "Ashi Dori.",
+          "defense": "Wegstappen.",
+          "counterAttack": "Morote Gedan Furi Uchi + Kubi Nage.",
+          "footwork": "Kotai Ayumi Ashi eventueel wegdraaien bij het werpen.",
+          "vitalPoints": "Bijv. Beide oren of slapen: [Komekami].",
+          "notes": "Beetpakken bij de oren of bij de kaak en haren."
+        },
+        "bunkai5": {
+          "name": "Tettsui Uchi + TsukamiHiki + Ura Zuki + Jodan Gyaku 'Zuki'",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Gedan Uchi Nagashi Uke.",
+          "counterAttack": "Tettsui Uchi + Tsukkamihiki + Ura Zuki + Jodan (Gyaku) Oshi.",
+          "footwork": "Tai Sabaki, daarna uitstappen voor de Ura Zuki en eventueel doorstappen voor de duw (Ayumi Ashi).",
+          "vitalPoints": "Bijv. fontanel [Shomon] (Tettsui Uchi) + neus (Ura Zuki) + evt. Oog [Gansei] (Oshi).",
+          "notes": "Bij de lage wering de arm rond en kort bij het lichaam houden (niet 'scheppen')."
+        },
+        "bunkai6": {
+          "name": "Haito Uchi",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Ura Hiki Uke.",
+          "counterAttack": "Haito Uchi.",
+          "footwork": "Sayu Tenshin naar Neko Ashi Dachi.",
+          "vitalPoints": "Bijv. Zwevende rib/nieren [Ushiro Denko] of nek [Keichu].",
+          "notes": "In de Kata is de Haito Uchi een Chudan techniek."
+        },
+        "bunkai7": {
+          "name": "Tora Guchi",
+          "attack": "Jodan Oi Zuki.",
+          "defense": "Jodan Haishu Osae Uke.",
+          "counterAttack": "Morote Tsukkami en Morote Oshi.",
+          "footwork": "Sayu Tenshin naar Neko Ashi Dachi, daarna uitstappen. Na de duw de achterste voet bijtrekken.",
+          "vitalPoints": "Bijv. [Kinteki] en halsslagader/adamsappel [Matsukaze]/[Nodo Botoke].",
+          "notes": "Aanval vroeg onderscheppen en met Muchimi uitvoeren."
+        }
+      },
+      "seiyunchin": {
+        "title": "Seiyunchin Bunkai",
+        "overviewTitle": "Bunkai-overzicht Seiyunchin",
+        "description": "Betekent zoiets als 'in het gevecht uit balans brengen'. Het kata is het enige kaishu kata dat geen traptechnieken bevat en benadrukt de vorming van sterke stabiele standen. De bunkai kumite (toepassingen) bestaan uit diverse worstel- en werptechnieken die uitermate geschikt zijn in 'close-combat'. Examenstof voor sankyu (derde kyu, bruine band) en hoger.",
+        "bunkai1": {
+          "name": "Morote Gedan Harai Uke",
+          "attack": "Morote Kote Dori.",
+          "defense": "Hazushi Waza ~ 'Morote Gedan Harai Uke').",
+          "counterAttack": "Hiza Geri of Mae Geri (voorste of achterste been).",
+          "footwork": "Eerst een voet naar voren, dan schuin terug naar Shiko Dachi.",
+          "vitalPoints": "Bijv. [Kinteki].",
+          "notes": "Belangrijk is eerst de greep van de aanvaller te verzwakken (dubbele steek omhoog). De betekenis van het in Shiko Dachi vallen is leren gebruik te maken van je gewicht als kracht in bevrijdingstechnieken."
+        },
+        "bunkai2": {
+          "name": "Sukui Uke + Hiki Uke + Hira Nukite Zuki",
+          "attack": "Chudan Oi Zuki + Hikite.",
+          "defense": "Sukui Uke+ overpakken.",
+          "counterAttack": "Hira Nukite Zuki.",
+          "footwork": "Eén voet naar achteren dan uitstappen naar Shiko Dachi.",
+          "vitalPoints": "Bijv. onder de zwevende ribben.",
+          "notes": "Bij de Nukite Zuki maak je eerst contact, dan zet je kracht."
+        },
+        "bunkai3": {
+          "name": "Hojo Oshi",
+          "attack": "Chudan Oi Zuki Shotei",
+          "defense": "Otoshi Uke",
+          "counterAttack": "Chudan Nakadaka Ippon Ken Zuki + Morote Shotei Hojo Oshi",
+          "footwork": "Indraaien naar Heiko Sanchin Dachi + Suri Ashi naar voren tijdens de duw.",
+          "vitalPoints": "Bijv. [Danchu] (Chudan Nakadaka Ippon Ken Zuki).",
+          "notes": ""
+        },
+        "bunkai4": {
+          "name": "Chudan Hiji Ate",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Otoshi Uke.",
+          "counterAttack": "Chudan Hiji Ate.",
+          "footwork": "Een voet naar achteren, vervolgens met de andere naar voren.",
+          "vitalPoints": "Bijv. [Ganka]",
+          "notes": ""
+        },
+        "bunkai5": {
+          "name": "Hojo Uke + Gedan Harai Uchi",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Yoko Uke.",
+          "counterAttack": "Jodan Shotei Uchi",
+          "footwork": "Sayu Tenshin, 45 graden draai",
+          "vitalPoints": "Bijv. oor (Jodan Shotei Uchi)",
+          "notes": "Vanaf Shodan level worden deze bunkai en de volgende (met Gedan Barai), als één doorlopende techniek uitgevoerd."
+        },
+        "bunkai6": {
+          "name": "Hari Uke",
+          "attack": "Jodan Oi Zuki + Mae Geri",
+          "defense": "Kaishu Jodan Age Uke (+ Tsukkami) + Gedan Shotei Harai Uke (+ Tsukkami)",
+          "counterAttack": "Hari Uke Nage + Otoshi Zuki.",
+          "footwork": "Eén voet terug, dan met andere voet naar het standbeen van de tegenstander toe en vervolgens Tai Sabaki. Voor lichte Karateka twee keer Sayu Tenshin.",
+          "vitalPoints": "Bijv. [Inazuma].",
+          "notes": "Voor de veiligheid wordt de worp met een grote draaibeweging uitgevoerd. In een zelfverdedigingssituatie, bij een niet te zware tegenstander is de worp kort en wordt het hoofd tegen de"
+        },
+        "bunkai7": {
+          "name": "Chudan Yoko Shotei Uke / Jodan Uchi Uke > Jodan Uraken Uchi",
+          "attack": "Chudan Gyaku Zuki + Jodan Jun Zuki",
+          "defense": "Otoshi Uke (+ Tsukkami) + Jodan Uchi Uke.",
+          "counterAttack": "(evt. Ashi Baraï met voorste been +) Jodan Uraken Uchi",
+          "footwork": "Eén voet naar achteren. Eventueel inslippen bij Jodan Uraken Uchi.",
+          "vitalPoints": "Bijv. [Jinchu] (Jodan Uraken Uchi).",
+          "notes": "De Ashi Barai alleen maken als de afstand dit toelaat."
+        },
+        "bunkai8": {
+          "name": "(Doji Uke +) Age Zuki + Jodan Uraken Uchi + Gedan Harai Uke (Uchi)",
+          "attack": "Chudan Oi Zuki + Mae Geri",
+          "defense": "Otoshi Uke.",
+          "counterAttack": "Age Zuki + Jodan Uraken Uchi + Gedan Harai Uchi.",
+          "footwork": "Een voet naar achteren, dan uitstappen naar Shiko Dachi.",
+          "vitalPoints": "Bijv. kaak [Mikazuki] (Age Zuki) + [Jinchu] (Jodan Uraken Uchi) + [Kinteki] (Gedan Harai Uchi).",
+          "notes": "Gevorderden moeten deze ook oefenen tegen Chudan Zuki + Gedan Zuki of Mae Geri (toepassing van de Doji Uke)."
+        },
+        "bunkai9": {
+          "name": "Hiji Age",
+          "attack": "Omstrengeling van achteren (romp en armen).",
+          "defense": "Hiji Age + Ushiro Hiji Ate (tegelijkertijd) daarna eruit draaien naar Kamae.",
+          "counterAttack": "Aanval = verdediging.",
+          "footwork": "Na te zijn beetgepakt een voet naar voren zetten naar 'Neko Ashi Dachi'.",
+          "vitalPoints": "Bijv. [Inazuma].",
+          "notes": "Als de greep te sterk is dan eerst een Kyusho aanvallen. Bijvoorbeeld door een achterwaartse kopstoot, trap op de voet, slag naar het kruis, etc."
+        },
+        "bunkai10": {
+          "name": "Otoshi Uke + Jodan Uraken Uchi",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Otoshi Uke (+ Tsukkami).",
+          "counterAttack": "Jodan Uraken Uchi.",
+          "footwork": "Indraaiende Suri Ashi.",
+          "vitalPoints": "Bijv. [Jinchu].",
+          "notes": "De wering en de slag volgen elkaar vloeiend op."
+        },
+        "bunkai11": {
+          "name": "Morote Kuri Uke",
+          "attack": "Morote Kubi Dori.",
+          "defense": "Morote Kuri Uke als bevrijdingstechniek.",
+          "counterAttack": "Morote Nukite Zuki.",
+          "footwork": "Naar achteren stappen en in Neko Ashi Dachi 'vallen'.",
+          "vitalPoints": "Bijv. ogen [Gansei].",
+          "notes": "Het is, net als in de Kata, belangrijk dat de onderarmen ruim boven de armen van de aanvaller bij elkaar komen."
+        },
+        "bunkai12": {
+          "name": "Chudan Oi Zuki > Chudan Yoko Uke + pols beetpakken > Gedan Harai Uke (Uchi)",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Yoko Uke + meteen doorgaand de pols beetpakken.",
+          "counterAttack": "Gedan Harai Uke (Uchi).",
+          "footwork": "Sayu Tenshin, 30 graden draai + voetwissel (terug-in) naar Shiko Dachi.",
+          "vitalPoints": "Bijv. [Kinteki] (Gedan Harai Uchi).",
+          "notes": "Bij de verplaatsing naar Shiko Dachi zo indraaien, dat je onbelemmerd het kruis kan raken."
+        }
+      },
+      "shisochin": {
+        "title": "Shisochin Bunkai",
+        "overviewTitle": "Bunkai-overzicht Shisochin",
+        "description": "Betekent letterlijk 'gevecht in 4 richtingen'. Een andere vertaling is '4 deuren'. Het woord deur is een symbolisch woord voor de plaats waar een eventuele tegenstander een aanval kan plegen, kan 'binnenkomen'. Het kata bevat een typische aanvalscombinatie, welke in vier richtingen uitgevoerd wordt. Examenstof voor ikkyu (eerste kyu, bruine band) en hoger.",
+        "bunkai1": {
+          "name": "Chudan Nukite Zuki",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Haishu NagAshi Uke.",
+          "counterAttack": "Chudan Nukite Zuki.",
+          "footwork": "Sayu Tenshin.",
+          "vitalPoints": "Bijv. zonnevlecht [Suigetsu]) of halssalgader [Matsukaze].",
+          "notes": "Een aanval naar Suigetsu zal alleen reëel zijn bij een groot krachtsverschil en sterke handen."
+        },
+        "bunkai2": {
+          "name": "Morote Sukui Uke + 'Morote Gedan Harai Uke'",
+          "attack": "Morete Kubi Dori.",
+          "defense": "Morete Sukui Uke + Tsukkami + 'Morete Gedan Harai Uke'.",
+          "counterAttack": "Mae Geri of Hiza Geri met achterste been.",
+          "footwork": "Naar achteren stappen om de aanval te ontwijken en de duimen of polsen van de tegenstander beet te kunnen pakken.",
+          "vitalPoints": "Bijv. zonnevlecht [Suigetsu].",
+          "notes": "Dezelfde Bunkai kan ook worden uitgevoerd indien beide polsen worden beetgepakt."
+        },
+        "bunkai3": {
+          "name": "Chudan Ura Kake Uke (Doji Uke) + Gyaku Te",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Ura Kake Uke.",
+          "counterAttack": "Gyaku Te + Otoshi Hij Ate.",
+          "footwork": "Sayu Tenshin, dan indraaien met buitenste been en deze vervolgens strekken om de tegenstander uit balans te brengen. Dan naar Shiko Dachi draaien voor Otoshi Hiji Ate.",
+          "vitalPoints": "Bijv. [Kassatsu] (Otoshi Hiji Ate).",
+          "notes": "Door gevorderden moet de wering en de Gyaku Te in één beweging worden uitgevoerd. De techniek in kwestie heeft geen op zich zelf staande naam maar wordt vernoemd naar de toepassing. Namelijk: Gyaku Te, wat een verzamelnaam is voor klemmen, grepen, e.d."
+        },
+        "bunkai4": {
+          "name": "Hiji Age / Ushiro Hiji Ate",
+          "attack": "Omstrengeling van achteren, één arm ingesloten.",
+          "defense": "Jodan Ushiro Zuki + Ushiro Hiji Ate.",
+          "counterAttack": "Verdedigings is tegenaanval.",
+          "footwork": "",
+          "vitalPoints": "Bijv. [Jinchu] (Jodan Ushiro Zuki) + [Inazuma] (Ushiro Hiji Ate)",
+          "notes": "Wanneer de omarming te sterk is kun je beter eerst een Kyusho aanvallen. Bijvoorbeeld het punt [Koin] (op de voet) met de hak of de testikels [Kinteki] met de hand."
+        },
+        "bunkai5": {
+          "name": "Nagashi Shotei Gedan Harai Uke + Shotei Zuki",
+          "attack": "Chudan Oi Zuki",
+          "defense": "Nagashi Shotei Gedan Harai Uke.",
+          "counterAttack": "Shotei Zuki",
+          "footwork": "Instappen en wegdraaien in een beweging.",
+          "vitalPoints": "Bijv. kaak [Mikazuki].",
+          "notes": "Het opwaartse effect in de beweging helpt het ontwortelen van de tegenstander. In het geval van een aanval op de ogen kan de tegenstander hand .' moeilijker zien aankomen omdat deze van onderen komt."
+        },
+        "bunkai6": {
+          "name": "Hiki Uke + Mae Geri + Chudan Hiji Ate",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Hiki Uke.",
+          "counterAttack": "Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.",
+          "footwork": "Sayu Tenshin. Na Mae Geri naar voren gaan in Zenkutsu Dachi.",
+          "vitalPoints": "Bijv. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + Ogen [Gansei] (Nihon Nukite).",
+          "notes": ""
+        },
+        "bunkai7": {
+          "name": "Otoshi Uke + Hiji Ate",
+          "attack": "Chudan Oi Zuki",
+          "defense": "Osae Uke.",
+          "counterAttack": "Hiji Ate",
+          "footwork": "Instappen.",
+          "vitalPoints": "Bijv. [Suigetsu]",
+          "notes": "De aanval moet vroegtijdig worden onderschept en naar binnen en (dan) naar beneden worden gedrukt."
+        },
+        "bunkai8": {
+          "name": "Morote Hiji Ate",
+          "attack": "Morote Kote Dori.",
+          "defense": "Morote Hiji Age.",
+          "counterAttack": "Otoshi Hiji Age.",
+          "footwork": "Een voet naar achteren voor stabiliteit daar na instappen.",
+          "vitalPoints": "Bijv. sleutelbeen of borst (Otoshi Hiji Ate).",
+          "notes": "Aandachtspunt(en): Voor de inzet van de Morote Hiji Age worden de handen opgetild en open gesperd."
+        },
+        "bunkai9": {
+          "name": "Doji Uke",
+          "attack": "Mae Geri.",
+          "defense": "Shuto Gedan Harai Uke.",
+          "counterAttack": "Jodan Haishu Uchi.",
+          "footwork": "Sayu Tenshin naar Neko Ashi Dachi, dan voorwaartse Suri Ashi in Neko Ashi Dachi.",
+          "vitalPoints": "Bijv. neus (Jodan Haishu Uchi).",
+          "notes": ""
+        }
+      },
+      "sanseru": {
+        "title": "Sanseru Bunkai",
+        "overviewTitle": "Bunkai-overzicht Sanseru",
+        "description": "De namen van de kata Sanseru, Sepai, Sesan en Suparinpei zijn Chinese namen. In de schrijftaal wordt achter alle 4 het woord 'handen' toegevoegd, hetgeen in de spreektaal echter weggelaten wordt en wordt bijvoorbeeld Sanseru gezegd in plaats van Sanseru shu. Deze 4 namen zijn allemaal getallen die verwijzen naar boedhistische symboliek. Zo staat Sanseru voor '36 (handen)' 36 is de symbolische vermenigvuldiging van 6 × 6. De eerste 6 staat voor oog, oor, neus, tong, lichaam en geest. De tweede 6 symboliseert kleur, stem, smaak, reuk, tast en rechtvaardigheid. Examenstof voor nidan (tweede dan) en hoger.",
+        "bunkai1": {
+          "name": "Chudan Yoko Uke > Chudan Gyaku Zuki",
+          "attack": "Migi Chudan Oi Zuki",
+          "defense": "Hidari Chudan Yoko Uke",
+          "counterAttack": "Migi Chudan Gyaku Zuki",
+          "footwork": "Rechter voet Sayu Tenshin met draai naar Hidari Heiko Sanchin Dachi.",
+          "vitalPoints": "Bijv. [Suigetsu] [Ganka]",
+          "notes": ""
+        },
+        "bunkai2": {
+          "name": "Kakate Uke > Hazushi Waza",
+          "attack": "Kote Dori - links op rechts",
+          "defense": "Kake Uke + Hazushi Waza met linkerhand op de pols/onderarm.",
+          "counterAttack": "Afslaan op de pols",
+          "footwork": "Instappen met rechts om greep te verzwakken; terugstappen met rechts op kracht bij te zetten terwijl je de Hazushi Waza uitvoert.",
+          "vitalPoints": "",
+          "notes": "Bij de Hazushi Waza de arm niet te ver van het lichaam laten komen en de vingers binnendoor opwaarts laten gaan en dan uitspreiden en vervolgens 'snijden' met de meshand."
+        },
+        "bunkai3": {
+          "name": "Ashi Dori > Mae Geri > Kansetsu Geri",
+          "attack": "Migi Mae Geri",
+          "defense": "Ashi Dori (Migi Shotei Uchi Gedan Harai Uke)",
+          "counterAttack": "Chudan Ashi Dori (Migi Shotei Uchi Gedan Harai Uke) + Migi Kin Geri + Kansetsu Geri Nage Ò Gedan fumikomi.",
+          "footwork": "Blijven staan, lichaam afwenden (Tai Sabaki op de plaats).",
+          "vitalPoints": "[Kinteki]",
+          "notes": "Na de Kinteki Geri wordt de rechterhand omgedraaid en de rechterduim in de binnenste kop van de dijbeenspier; de musculus quadriceps femoris, gezet (dit is het vitale punt). Houd na de trap, 1; de knie aan de binnenkant van het bovenbeen en 2. plaats de voet boven de knie van het andere been. Zet middels een hevel de takedown in."
+        },
+        "bunkai4": {
+          "name": "Mae Hiji Ate > Gedan Gyaku Zuki > Kansetsu  Geri",
+          "attack": "1 Migi Chudan Oi Zuki. 2 Hidari Gedan Gyaku Zuki.",
+          "defense": "1 Hidari Chudan Shotei Osae/Otoshi Uke. 2 Migi Gedan Harai Uke",
+          "counterAttack": "1 Migi Chudan Hiji Ate + Hidari Gedan Gyaku Zuki + Migi Kansetsu Geri.",
+          "footwork": "1 Voetwissel (Uke + Hiji Ate). Kotai Suri Ashi (Uke) + Hidari Sayu Tenshin (Kansetsu Geri).",
+          "vitalPoints": "Bijv. de knie",
+          "notes": ""
+        },
+        "bunkai5": {
+          "name": "Gedan Seiken Juji Uke",
+          "attack": "Migi Mae Geri",
+          "defense": "Ryo Ken Gedan Kosa Uke",
+          "counterAttack": "Tateken Gedan Zuki.",
+          "footwork": "Rechter voet stapt terug in hikui Shiko Dachi",
+          "vitalPoints": "Bijv. tanden of [Kinteki]",
+          "notes": ""
+        },
+        "bunkai6": {
+          "name": "Gedan Kaishu Juji Uke",
+          "attack": "Migi Mae Geri",
+          "defense": "Ryo Ken Gedan Kosa Uke",
+          "counterAttack": "Tateken Gedan Nukite.",
+          "footwork": "Rechter voet stapt terug in hikui Shiko Dachi",
+          "vitalPoints": "Bijv. tanden or [Yako].",
+          "notes": ""
+        },
+        "bunkai7": {
+          "name": "Mawashi Uke > Awase Zuki",
+          "attack": "1. Migi Gedan Mae Geri. 2. Migi Jodan Oi Zuki.",
+          "defense": "1. Gedan Shotei Harai Uke + Tsukami 2. Kaishu Age Uke + Tsukami (Gyaku Sukui Uke)",
+          "counterAttack": "Awase Zuki Nage",
+          "footwork": "Instap met Sayu Tenchin draai (45 graden)",
+          "vitalPoints": "",
+          "notes": ""
+        },
+        "bunkai8": {
+          "name": "Kami Kiri No KaMae",
+          "attack": "Migi Chudan Gyaku Zuki + Hidari Jodan Oi Zuki",
+          "defense": "Hidari Chudan Yoko Ko Uke + Migi Age Ko Uke",
+          "counterAttack": "Nihon Nukite Zuki + Chudan Morote Hasami Shotei Uchi + 'Ashi Dori Nage' + Otoshi Shotei Uchi.",
+          "footwork": "Eerst terug naar Heiko Sanchin (tijdens Yoko Ko Uke) daarna instappen naar Shiko Dachi (Age Ko Uke)",
+          "vitalPoints": "Bijv. [Gansei] (Nihon Nukite Zuki); [Inazuma] (Hasami Shotei Uchi); [Kinteki] (Otoshi Shotei Uchi).",
+          "notes": ""
+        }
+      }
     }
   }
 } 

@@ -50,7 +50,6 @@ const TheoryPage = () => {
       <TheoryHeader 
         title={t('theory.title')}
         description={t('theory.description')}
-        imageUrl="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?q=80&w=2041&auto=format&fit=crop"
       />
 
       <div className="p-4">

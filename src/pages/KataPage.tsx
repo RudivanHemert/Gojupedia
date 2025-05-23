@@ -1,15 +1,16 @@
 import React from 'react';
-// import MobileLayout from '@/components/layout/MobileLayout';
-import { katas } from '@/data';
-import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { ChevronRight } from 'lucide-react';
+import TheoryHeader from '@/components/theory/TheoryHeader';
+import { katas } from '@/data';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Book } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 
 const KataPage = () => {
   const { t } = useTranslation();
+
   // Group katas by level
   const katasByLevel = katas.reduce((acc, kata) => {
     if (!acc[kata.level]) {
@@ -30,68 +31,58 @@ const KataPage = () => {
   };
 
   const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
-      y: 0,
       opacity: 1,
+      y: 0,
       transition: {
-        duration: 0.4,
+        duration: 0.5
       }
     }
   };
 
-  // Convert levels to array for mapping
-  const levels = Object.keys(katasByLevel);
-
   return (
-    <>
-      {/* Theory Card */}
-      <div className="p-4 mb-2">
-        <Link to="/theory/kata">
-          <Card className="bg-stone-50 hover:bg-stone-100 transition-colors">
-            <CardContent className="p-4 flex items-center gap-3">
-              <div className="bg-stone-200 p-2 rounded-full">
-                <Book size={20} className="text-stone-700" />
-              </div>
-              <div>
-                <h3 className="font-semibold">{t('theory.kata')}</h3>
-                <p className="text-sm text-stone-600">{t('theory.kataDesc')}</p>
-              </div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      {/* Kata List by Level */}
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('kata.theory.title')}
+        description={t('kata.theory.description')}
+      />
       <div className="p-4">
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="space-y-8"
+          className="max-w-4xl mx-auto space-y-8"
         >
-          {levels.map((level) => (
-            <motion.div key={level} className="space-y-4" variants={itemVariants}>
-              <h2 className="text-2xl font-serif font-semibold">{level}</h2>
-              
-              <div className="grid grid-cols-1 gap-4">
-                {katasByLevel[level].map((kata) => (
-                  <Link to={`/kata/${kata.id}`} key={kata.id}>
-                    <Card className="overflow-hidden hover:shadow-md transition-shadow">
-                      <CardContent className="p-0">
-                        <div className="flex h-24">
-                          <div 
-                            className="w-1/3 h-full bg-cover bg-center" 
-                            style={{ backgroundImage: `url(${kata.images[0]})` }}
-                          ></div>
-                          <div className="w-2/3 p-3 flex flex-col justify-between">
-                            <div>
-                              <h3 className="font-semibold">{kata.name}</h3>
-                              <p className="text-sm text-gray-500">{kata.japaneseName}</p>
-                              <p className="text-xs italic text-gray-500 mt-1">{kata.meaning}</p>
+          {Object.entries(katasByLevel).map(([level, levelKatas]) => (
+            <motion.div key={level} variants={itemVariants}>
+              <h2 className="text-2xl font-bold mb-4 text-gray-800">
+                {t(`kata.levels.${level.toLowerCase()}`)}
+              </h2>
+              <div className="grid gap-4">
+                {levelKatas.map((kata) => (
+                  <Link 
+                    key={kata.id} 
+                    to={`/kata/${kata.id}`}
+                    className="block transition-transform hover:scale-[1.02]"
+                  >
+                    <Card className="overflow-hidden border border-gray-200 hover:border-red-500 transition-colors">
+                      <CardContent className="p-6">
+                        <div className="flex items-start justify-between">
+                          <div className="space-y-2">
+                            <div className="flex items-center gap-2">
+                              <h3 className="text-xl font-semibold text-gray-900">
+                                {kata.name}
+                              </h3>
+                              <Badge variant="secondary" className="bg-red-100 text-red-800">
+                                {kata.japaneseName}
+                              </Badge>
                             </div>
-                            <Badge variant="outline" className="w-fit">{level}</Badge>
+                            <p className="text-gray-600 italic">
+                              {kata.meaning}
+                            </p>
                           </div>
+                          <ChevronRight className="h-6 w-6 text-gray-400 flex-shrink-0" />
                         </div>
                       </CardContent>
                     </Card>
@@ -102,7 +93,7 @@ const KataPage = () => {
           ))}
         </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

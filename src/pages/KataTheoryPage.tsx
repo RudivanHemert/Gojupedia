@@ -1,6 +1,7 @@
 import React from 'react';
-// import MobileLayout from '@/components/layout/MobileLayout';
+import { useTranslation } from 'react-i18next';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 import WhatAreKata from './kata/WhatAreKata';
 import KataAndKarate from './kata/KataAndKarate';
 import BunkaiAndTechniques from './kata/BunkaiAndTechniques';
@@ -12,25 +13,16 @@ import PowerTransfer from './kata/PowerTransfer';
 import KataTechniques from './kata/KataTechniques';
 
 const KataTheoryPage = () => {
-  return (
-    <>
-      <div className="relative h-40 overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2142&auto=format&fit=crop" 
-          alt="Kata Theory" 
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
-        <div className="absolute bottom-0 left-0 p-5 w-full">
-          <h1 className="text-white text-3xl font-bold">Kata Theory</h1>
-          <p className="text-white opacity-90">
-            Understanding the principles and practice of kata
-          </p>
-        </div>
-      </div>
+  const { t } = useTranslation();
 
+  return (
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('kata.theory.title')}
+        description={t('kata.theory.description')}
+      />
       <div className="p-4">
-        <Tabs defaultValue="what-are-kata" className="w-full">
+        <Tabs defaultValue="what-are-kata" className="w-full max-w-4xl mx-auto">
           <div className="overflow-x-auto pb-2">
             <TabsList className="w-max">
               <TabsTrigger value="what-are-kata">What are Kata?</TabsTrigger>
@@ -84,7 +76,7 @@ const KataTheoryPage = () => {
           </div>
         </Tabs>
       </div>
-    </>
+    </div>
   );
 };
 

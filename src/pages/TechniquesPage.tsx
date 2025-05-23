@@ -1,67 +1,58 @@
 import React from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { ChevronRight } from 'lucide-react';
-import { techniqueData } from '@/data/techniques'; // Import from the new data file
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1
-    }
-  }
-};
-
-const itemVariants = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.4,
-    }
-  }
-};
+import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import Blocks from './terminology/Blocks';
+import Kicks from './terminology/Kicks';
+import Punches from './terminology/Punches';
+import Stances from './terminology/Stances';
+import Strikes from './terminology/Strikes';
 
 const TechniquesPage = () => {
+  const { t } = useTranslation();
+
   return (
-    // Using hideHeader=true as requested for section pages
-    <MobileLayout hideHeader={true}>
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('techniques.title')}
+        description={t('techniques.description')}
+      />
       <div className="p-4">
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="space-y-6" // Adjusted spacing between categories
-        >
-          {techniqueData.map((category) => (
-            <motion.div key={category.title} variants={itemVariants} className="bg-card p-4 rounded-lg shadow-sm border border-muted">
-              <h2 className="text-xl font-serif font-semibold capitalize mb-3 text-primary">{category.title}</h2>
-              <ul className="space-y-2">
-                {category.techniques.map((technique) => (
-                  <li key={technique.id}>
-                    <Link 
-                      to={`/techniques/${technique.id}`} 
-                      className="flex justify-between items-center p-2 rounded hover:bg-muted transition-colors group"
-                    >
-                      <div>
-                        <span className="font-medium text-secondary-foreground group-hover:text-primary">{technique.name}</span>
-                        <span className="text-sm text-muted-foreground ml-2">({technique.japaneseName})</span>
-                        <span className="text-sm text-muted-foreground"> - {technique.englishName}</span>
-                      </div>
-                      <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary" />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          ))}
-        </motion.div>
+        <Tabs defaultValue="blocks" className="w-full max-w-4xl mx-auto">
+          <div className="overflow-x-auto pb-2">
+            <TabsList className="w-max">
+              <TabsTrigger value="blocks">{t('techniques.sections.blocks')}</TabsTrigger>
+              <TabsTrigger value="kicks">{t('techniques.sections.kicks')}</TabsTrigger>
+              <TabsTrigger value="punches">{t('techniques.sections.punches')}</TabsTrigger>
+              <TabsTrigger value="stances">{t('techniques.sections.stances')}</TabsTrigger>
+              <TabsTrigger value="strikes">{t('techniques.sections.strikes')}</TabsTrigger>
+            </TabsList>
+          </div>
+          
+          <div className="mt-4 bg-white p-4 rounded-lg shadow-sm">
+            <TabsContent value="blocks">
+              <Blocks />
+            </TabsContent>
+            
+            <TabsContent value="kicks">
+              <Kicks />
+            </TabsContent>
+            
+            <TabsContent value="punches">
+              <Punches />
+            </TabsContent>
+            
+            <TabsContent value="stances">
+              <Stances />
+            </TabsContent>
+            
+            <TabsContent value="strikes">
+              <Strikes />
+            </TabsContent>
+          </div>
+        </Tabs>
       </div>
-    </MobileLayout>
+    </div>
   );
 };
 

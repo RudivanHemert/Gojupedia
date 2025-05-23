@@ -6,21 +6,21 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
 
-const KumitePage = () => {
+const PhilosophyPage = () => {
   const { t } = useTranslation();
   const sections = [
-    { id: 'basics', content: useMarkdownContent('../content/kumite/basics') },
-    { id: 'types', content: useMarkdownContent('../content/kumite/types') },
-    { id: 'principles', content: useMarkdownContent('../content/kumite/principles') },
-    { id: 'training', content: useMarkdownContent('../content/kumite/training') },
-    { id: 'competition', content: useMarkdownContent('../content/kumite/competition') }
+    { id: 'dojo-kun', content: useMarkdownContent('../content/philosophy/dojo-kun') },
+    { id: 'goju-ryu', content: useMarkdownContent('../content/philosophy/goju-ryu') },
+    { id: 'karate-do', content: useMarkdownContent('../content/philosophy/karate-do') },
+    { id: 'mind-body', content: useMarkdownContent('../content/philosophy/mind-body') },
+    { id: 'respect', content: useMarkdownContent('../content/philosophy/respect') }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('kumite.title')}
-        description={t('kumite.description')}
+        title={t('philosophy.title')}
+        description={t('philosophy.description')}
       />
       <div className="p-4">
         <motion.div
@@ -33,7 +33,7 @@ const KumitePage = () => {
             {sections.map((section) => (
               <AccordionItem key={section.id} value={section.id}>
                 <AccordionTrigger>
-                  {t(`kumite.sections.${section.id}`)}
+                  {t(`philosophy.sections.${section.id}`)}
                 </AccordionTrigger>
                 <AccordionContent>
                   {section.content && <MarkdownRenderer markdownContent={section.content} />}
@@ -47,4 +47,4 @@ const KumitePage = () => {
   );
 };
 
-export default KumitePage;
+export default PhilosophyPage; 

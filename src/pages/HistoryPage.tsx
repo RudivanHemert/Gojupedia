@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
+import TheoryHeader from '@/components/theory/TheoryHeader';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import OriginsSection from '@/components/history/OriginsSection';
 import KanryoHigaonnaSection from '@/components/history/KanryoHigaonnaSection';
@@ -12,6 +13,7 @@ import NavigationTable from '@/components/history/NavigationTable';
 import { ArrowUp } from 'lucide-react';
 
 const HistoryPage = () => {
+  const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState<string | null>(null);
 
   const scrollToSection = (sectionId: string) => {
@@ -27,13 +29,17 @@ const HistoryPage = () => {
   };
 
   return (
-    <MobileLayout hideHeader={true}>
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('history.title')}
+        description={t('history.description')}
+      />
       <div className="p-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="space-y-8"
+          className="space-y-8 max-w-4xl mx-auto"
         >
           <NavigationTable onNavigate={scrollToSection} />
           
@@ -67,14 +73,14 @@ const HistoryPage = () => {
 
           <button 
             onClick={scrollToTop}
-            className="fixed bottom-6 right-6 bg-red-600 text-white p-2 rounded-full shadow-lg"
+            className="fixed bottom-6 right-6 bg-red-600 text-white p-2 rounded-full shadow-lg hover:bg-red-700 transition-colors"
             aria-label="Scroll to top"
           >
             <ArrowUp size={20} />
           </button>
         </motion.div>
       </div>
-    </MobileLayout>
+    </div>
   );
 };
 

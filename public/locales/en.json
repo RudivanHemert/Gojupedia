@@ -160,5 +160,58 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "techniques": {
+    "title": "Techniques",
+    "description": "Master the fundamental techniques of Goju-Ryu Karate",
+    "sections": {
+      "blocks": "Blocks",
+      "kicks": "Kicks",
+      "punches": "Punches",
+      "stances": "Stances",
+      "strikes": "Strikes"
+    }
+  },
+  "bunkai": {
+    "title": "Bunkai",
+    "description": "Explore the practical applications of kata techniques"
+  },
+  "vitalPoints": {
+    "title": "Vital Points",
+    "description": "Understanding the key pressure points and targets in Goju-Ryu Karate"
+  },
+  "hojoUndo": {
+    "title": "Hojo Undo",
+    "description": "Traditional supplementary exercises and training equipment of Goju-Ryu Karate",
+    "sections": {
+      "introduction": "Introduction",
+      "equipment": "Equipment",
+      "techniques": "Techniques",
+      "benefits": "Benefits",
+      "training": "Training"
+    }
+  },
+  "kumite": {
+    "title": "Kumite",
+    "description": "Learn the sparring techniques and principles of Goju-Ryu Karate",
+    "sections": {
+      "basics": "Basics",
+      "types": "Types",
+      "principles": "Principles",
+      "training": "Training",
+      "competition": "Competition"
+    }
+  },
+  "kata": {
+    "theory": {
+      "title": "Kata Theory",
+      "description": "Understanding the principles and practice of kata"
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "master": "Master"
+    }
   }
 } 
