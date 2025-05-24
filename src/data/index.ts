@@ -1,35 +1,36 @@
 import { Category, Technique, Kata, HistoricalFigure, Article, Principle, Study, StudyQuestion } from "../types";
 import { techniquesData, TechniqueData } from "./techniquesData";
+import i18n from '@/i18n'; // Import i18n instance
 
 export const categories: Category[] = [
   {
     id: "techniques",
-    name: "Techniques",
-    description: "Learn fundamental Goju Ryu techniques including stances, blocks, strikes, and kicks",
+    name: i18n.t('categories.techniques_name'),
+    description: i18n.t('categories.techniques_description'),
     icon: "swords",
     image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop",
     slug: "techniques"
   },
   {
     id: "kata",
-    name: "Kata",
-    description: "Explore the traditional forms of Goju Ryu with detailed instructions and videos",
+    name: i18n.t('categories.kata_name'),
+    description: i18n.t('categories.kata_description'),
     icon: "user",
     image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
     slug: "kata"
   },
   {
     id: "history",
-    name: "History",
-    description: "Discover the rich history and lineage of Goju Ryu Karate",
+    name: i18n.t('categories.history_name'),
+    description: i18n.t('categories.history_description'),
     icon: "scroll",
     image: "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop",
     slug: "history"
   },
   {
     id: "philosophy",
-    name: "Philosophy",
-    description: "Understand the principles and philosophy behind Goju Ryu practice",
+    name: i18n.t('categories.philosophy_name'),
+    description: i18n.t('categories.philosophy_description'),
     icon: "brain",
     image: "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?q=80&w=2041&auto=format&fit=crop",
     slug: "philosophy"

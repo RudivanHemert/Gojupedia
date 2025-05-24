@@ -3,6 +3,7 @@ import { Play, AlertCircle, Info } from 'lucide-react';
 import { Dialog, DialogContent, DialogTitle, DialogHeader, DialogDescription } from '@/components/ui/dialog';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
 
 // Placeholder component to show when videos don't load
 const PlaceholderAnimation = ({ title }: { title: string }) => {
@@ -19,197 +20,119 @@ const PlaceholderAnimation = ({ title }: { title: string }) => {
   );
 };
 
-// Temporary hardcoded strings (from en.json)
-const translations = {
-  blocks: {
-    title: "Blocks",
-    viewButton: "View",
-    videoError: {
-      title: "Unable to load video",
-      pathError: "Failed to load: {{path}}",
-      instructions: "Please ensure the following files exist:",
-      files: {
-        ageUke: "age-uke.mp4",
-        gedanBarai: "gedan-barai.mp4",
-        sotoUke: "soto-uke.mp4"
-      }
-    },
-    ageUke: {
-      name: "Age Uke",
-      japanese: "上げ受け",
-      english: "Rising Block",
-      description: "A block that deflects an attack upward, protecting the face and upper body."
-    },
-    gedanBarai: {
-      name: "Gedan Barai",
-      japanese: "下段払い",
-      english: "Downward Sweep",
-      description: "A sweeping block that deflects attacks aimed at the lower body."
-    },
-    sotoUke: {
-      name: "Soto Uke",
-      japanese: "外受け",
-      english: "Outside Block",
-      description: "A block that deflects an attack from the inside to the outside."
-    },
-    uchiUke: {
-      name: "Uchi Uke",
-      japanese: "内受け",
-      english: "Inside Block",
-      description: "A block that deflects an attack from the outside to the inside."
-    },
-    shutoUke: {
-      name: "Shuto Uke",
-      japanese: "手刀受け",
-      english: "Knife Hand Block",
-      description: "A block performed with the side of the hand."
-    },
-    empiUke: {
-      name: "Empi Uke",
-      japanese: "肘受け",
-      english: "Elbow Block",
-      description: "A block performed with the elbow."
-    },
-    kosaUke: {
-      name: "Kosa Uke",
-      japanese: "交差受け",
-      english: "Cross Block",
-      description: "A block performed with crossed wrists."
-    },
-    jujiUke: {
-      name: "Juji Uke",
-      japanese: "十字受け",
-      english: "X Block",
-      description: "A block performed with crossed arms forming an X shape."
-    },
-    haiwanUke: {
-      name: "Haiwan Uke",
-      japanese: "背腕受け",
-      english: "Back Arm Block",
-      description: "A block performed with the back of the forearm."
-    },
-    osaeUke: {
-      name: "Osae Uke",
-      japanese: "押さえ受け",
-      english: "Pressing Block",
-      description: "A downward pressing block."
-    }
-  }
-};
-
 const Blocks = () => {
+  const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
-  const [selectedTechnique, setSelectedTechnique] = useState<string>('');
-  const [selectedTitle, setSelectedTitle] = useState('');
+  const [selectedTechniqueKey, setSelectedTechniqueKey] = useState<string>('');
+  const [selectedTitle, setSelectedTitle] = useState<string>('');
+  const [selectedDescription, setSelectedDescription] = useState<string>('');
   const [videoError, setVideoError] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  const showTechnique = (technique: string, title: string) => {
-    setSelectedTechnique(technique);
-    setSelectedTitle(title);
-    setVideoError(false);
-    setOpen(true);
+  const blockTerms = i18n.t('terminology.sections.blocks-content.terms', { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string; details?: string; videoFile?: string }>;
+  const termKeys = blockTerms && typeof blockTerms === 'object' ? Object.keys(blockTerms) : [];
+
+  const showTechnique = (termKey: string) => {
+    const term = blockTerms[termKey];
+    if (term) {
+      // Use videoFile field if present, otherwise construct from termKey
+      const videoFileName = term.videoFile || termKey.toLowerCase().replace(/ /g, '-');
+      setSelectedTechniqueKey(videoFileName);
+      setSelectedTitle(`${term.name} - ${term.english}`);
+      setSelectedDescription(term.details || t('terminology.sections.blocks-content.videoNotAvailableDescription'));
+      setVideoError(false);
+      setOpen(true);
+    }
   };
 
   useEffect(() => {
-    // Reset states when dialog closes
     if (!open) {
       setVideoError(false);
-    } else {
-      // Try to play the video when dialog opens
-      if (videoRef.current) {
-        const playPromise = videoRef.current.play();
-        if (playPromise) {
-          playPromise.catch(() => {
-            setVideoError(true);
-          });
-        }
+      setSelectedTechniqueKey(''); // Reset selected technique when dialog closes
+      setSelectedTitle('');
+      setSelectedDescription('');
+    } else if (videoRef.current && selectedTechniqueKey) {
+      videoRef.current.src = `/video/blocks/${selectedTechniqueKey}.mp4`; // Set src directly
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          setVideoError(true);
+        });
       }
     }
-  }, [open]);
+  }, [open, selectedTechniqueKey]);
 
   const handleVideoError = () => {
     setVideoError(true);
   };
 
-  // Simple translation helper
-  const t = (key: string) => {
-    const keys = key.split('.');
-    let result: any = translations;
-    for (const k of keys) {
-      if (result && result[k]) {
-        result = result[k];
-      } else {
-        return key;
-      }
-    }
-    return result;
+  // Helper to check if a video should be available (for button display)
+  // This can be refined based on actual video availability
+  const hasVideo = (termKey: string) => {
+    const term = blockTerms[termKey];
+    if (term?.videoFile) return true; // If explicitly defined
+    // Add more conditions if needed, e.g. checking a list of known videos
+    const knownVideos = ['age-uke', 'gedan-barai', 'soto-uke'];
+    return knownVideos.includes(termKey.toLowerCase().replace(/ /g, '-'));
   };
+
 
   return (
     <>
       <div className="space-y-6">
-        <p className="text-muted-foreground mb-4">Common defensive techniques used to block or deflect attacks.</p>
+        <p className="text-muted-foreground mb-4">{t('terminology.sections.blocks-content.description')}</p>
         
         <div className="border border-muted rounded-md mb-2 overflow-hidden">
           <div className="bg-muted/30 px-4 py-3 text-sm font-medium text-secondary-foreground">
-            Basic Blocks
+            {t('terminology.sections.blocks-content.basicBlocksTitle', 'Basic Blocks')}
           </div>
           <div className="px-4 py-2 bg-card">
             <ul className="list-disc pl-4 space-y-2">
-              <li className="flex items-center gap-2">
-                {t('blocks.ageUke.name')} ({t('blocks.ageUke.japanese')}) - {t('blocks.ageUke.english')}
-                <Button
-                  onClick={() => showTechnique('age-uke', `${t('blocks.ageUke.name')} - ${t('blocks.ageUke.english')}`)}
-                  variant="outline"
-                  size="sm"
-                  className="h-7 px-2 bg-stone-100"
-                  aria-label={`Show ${t('blocks.ageUke.name')} demonstration`}
-                >
-                  <Play size={14} className="mr-1" /> {t('blocks.viewButton')}
-                </Button>
-              </li>
-              <li className="flex items-center gap-2">
-                {t('blocks.gedanBarai.name')} ({t('blocks.gedanBarai.japanese')}) - {t('blocks.gedanBarai.english')}
-                <Button
-                  onClick={() => showTechnique('gedan-barai', `${t('blocks.gedanBarai.name')} - ${t('blocks.gedanBarai.english')}`)}
-                  variant="outline"
-                  size="sm"
-                  className="h-7 px-2 bg-stone-100"
-                  aria-label={`Show ${t('blocks.gedanBarai.name')} demonstration`}
-                >
-                  <Play size={14} className="mr-1" /> {t('blocks.viewButton')}
-                </Button>
-              </li>
-              <li className="flex items-center gap-2">
-                {t('blocks.sotoUke.name')} ({t('blocks.sotoUke.japanese')}) - {t('blocks.sotoUke.english')}
-                <Button
-                  onClick={() => showTechnique('soto-uke', `${t('blocks.sotoUke.name')} - ${t('blocks.sotoUke.english')}`)}
-                  variant="outline"
-                  size="sm"
-                  className="h-7 px-2 bg-stone-100"
-                  aria-label={`Show ${t('blocks.sotoUke.name')} demonstration`}
-                >
-                  <Play size={14} className="mr-1" /> {t('blocks.viewButton')}
-                </Button>
-              </li>
-              <li>{t('blocks.uchiUke.name')} ({t('blocks.uchiUke.japanese')}) - {t('blocks.uchiUke.english')}</li>
-              <li>{t('blocks.shutoUke.name')} ({t('blocks.shutoUke.japanese')}) - {t('blocks.shutoUke.english')}</li>
+              {termKeys
+                .filter(key => ['age-uke', 'gedan-barai', 'soto-uke', 'uchi-uke', 'shuto-uke'].includes(key))
+                .map(termKey => {
+                  const term = blockTerms[termKey];
+                  if (!term) return null;
+                  return (
+                    <li key={termKey} className="flex items-center justify-between">
+                      <div>
+                        {term.name} {term.japanese && `(${term.japanese})`} - {term.english}
+                      </div>
+                      {hasVideo(termKey) && (
+                        <Button
+                          onClick={() => showTechnique(termKey)}
+                          variant="outline"
+                          size="sm"
+                          className="h-7 px-2 bg-stone-100 ml-2"
+                          aria-label={`Show ${term.name} demonstration`}
+                        >
+                          <Play size={14} className="mr-1" /> {t('common.viewButton', 'View')}
+                        </Button>
+                      )}
+                    </li>
+                  );
+              })}
             </ul>
           </div>
         </div>
 
         <div className="border border-muted rounded-md mb-2 overflow-hidden">
           <div className="bg-muted/30 px-4 py-3 text-sm font-medium text-secondary-foreground">
-            Advanced Blocks
+            {t('terminology.sections.blocks-content.advancedBlocksTitle', 'Advanced Blocks')}
           </div>
           <div className="px-4 py-2 bg-card">
             <ul className="list-disc pl-4 space-y-2">
-              <li>{t('blocks.empiUke.name')} ({t('blocks.empiUke.japanese')}) - {t('blocks.empiUke.english')}</li>
-              <li>{t('blocks.kosaUke.name')} ({t('blocks.kosaUke.japanese')}) - {t('blocks.kosaUke.english')}</li>
-              <li>{t('blocks.jujiUke.name')} ({t('blocks.jujiUke.japanese')}) - {t('blocks.jujiUke.english')}</li>
-              <li>{t('blocks.haiwanUke.name')} ({t('blocks.haiwanUke.japanese')}) - {t('blocks.haiwanUke.english')}</li>
-              <li>{t('blocks.osaeUke.name')} ({t('blocks.osaeUke.japanese')}) - {t('blocks.osaeUke.english')}</li>
+             {termKeys
+                .filter(key => ['empi-uke', 'kosa-uke', 'juji-uke', 'haiwan-uke', 'osae-uke'].includes(key))
+                .map(termKey => {
+                  const term = blockTerms[termKey];
+                  if (!term) return null;
+                  return (
+                    <li key={termKey}>
+                      {term.name} {term.japanese && `(${term.japanese})`} - {term.english}
+                    </li>
+                  );
+              })}
             </ul>
           </div>
         </div>
@@ -219,56 +142,42 @@ const Blocks = () => {
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle>{selectedTitle}</DialogTitle>
-            <DialogDescription>
-              {t('blocks.videoError.title')}
-            </DialogDescription>
+            {selectedDescription && (
+                <DialogDescription>
+                    {selectedDescription}
+                </DialogDescription>
+            )}
           </DialogHeader>
           <div className="flex justify-center p-2 flex-col items-center">
-            {videoError && (
+            {videoError && selectedTechniqueKey && (
               <Alert className="mb-4 bg-stone-50">
-                <Info className="h-4 w-4" />
+                <AlertCircle className="h-4 w-4" />
                 <AlertDescription>
-                  {t('blocks.videoError.title')}
+                  {t('terminology.sections.blocks-content.videoLoadError', { file: `${selectedTechniqueKey}.mp4` })}
                 </AlertDescription>
               </Alert>
             )}
 
             <div className="relative w-full">
-              {selectedTechnique && (
-                videoError ? (
-                  <PlaceholderAnimation title={selectedTitle} />
-                ) : (
-                  <video 
-                    ref={videoRef}
-                    className="w-full rounded-md" 
-                    src={`/images/blocks/${selectedTechnique}.gif`}
-                    poster={`/images/blocks/${selectedTechnique}-poster.jpg`}
-                    loop
-                    controls
-                    onError={handleVideoError}
-                  />
-                )
+              {selectedTechniqueKey && !videoError && (
+                <video 
+                  ref={videoRef}
+                  className="w-full rounded-md" 
+                  // src is set in useEffect
+                  poster={`/images/blocks/${selectedTechniqueKey}-poster.jpg`} // Assuming posters might exist
+                  loop
+                  controls
+                  onError={handleVideoError}
+                  playsInline 
+                />
+              )}
+              {selectedTechniqueKey && videoError && (
+                 <PlaceholderAnimation title={selectedTitle} />
               )}
             </div>
-
-            <div className="w-full mt-4 bg-stone-50 p-3 rounded-lg">
-              <h3 className="text-sm font-medium mb-2">About this technique</h3>
-              {selectedTechnique === 'age-uke' && (
-                <p className="text-sm text-stone-600">
-                  {t('blocks.ageUke.description')}
-                </p>
-              )}
-              {selectedTechnique === 'gedan-barai' && (
-                <p className="text-sm text-stone-600">
-                  {t('blocks.gedanBarai.description')}
-                </p>
-              )}
-              {selectedTechnique === 'soto-uke' && (
-                <p className="text-sm text-stone-600">
-                  {t('blocks.sotoUke.description')}
-                </p>
-              )}
-            </div>
+            {!selectedTechniqueKey && ( // Show placeholder if no technique selected (e.g. on initial dialog open before selection)
+                <PlaceholderAnimation title={t('terminology.sections.blocks-content.selectVideoTitle', 'Select a technique to view')} />
+            )}
           </div>
         </DialogContent>
       </Dialog>

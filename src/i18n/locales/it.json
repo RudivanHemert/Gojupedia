@@ -8,7 +8,8 @@
     "save": "Salva",
     "delete": "Elimina",
     "edit": "Modifica",
-    "back": "Indietro"
+    "back": "Indietro",
+    "errorBoundary": "Si è verificato un errore. Si prega di aggiornare la pagina."
   },
   "navigation": {
     "home": "Home",
@@ -18,9 +19,14 @@
     "settings": "Impostazioni"
   },
   "home": {
-    "welcome": "Benvenuto su Goju Ryu Wiki",
+    "welcome": "Benvenuti su Goju Ryu Wiki",
     "description": "Scopri l'arte del Karate Goju Ryu",
-    "getStarted": "Inizia"
+    "getStarted": "Inizia",
+    "heroSubtitle": "Goju Ryu Karate-Do",
+    "heroTagline": "La Via Dura e Morbida della Mano Vuota",
+    "introTitle": "La Via del Goju Ryu",
+    "introText": "Il Goju Ryu (剛柔流) è uno dei principali stili tradizionali di karate di Okinawa, caratterizzato da una combinazione di tecniche dure e morbide. Sviluppato da Chojun Miyagi all'inizio del XX secolo, quest'arte marziale enfatizza sia la forza che la fluidità del movimento.",
+    "studyAreasTitle": "Aree di Studio"
   },
   "theory": {
     "title": "Teoria",
@@ -52,16 +58,286 @@
       "punches": "Pugni",
       "stances": "Posizioni",
       "strikes": "Colpi",
-      "vital-points": "Punti vitali"
+      "vital-points": "Punti vitali",
+      "tournament-terms-content": {
+        "description": "Termini comunemente usati nelle competizioni di karate.",
+        "scoringTitle": "Punteggio",
+        "penaltiesTitle": "Penalità",
+        "terms": {
+          "ippon": "Un Punto",
+          "waza-ari": "Mezzo Punto",
+          "aiuchi": "Punti Simultanei",
+          "torimasen": "Nessun Punto",
+          "hikiwake": "Pareggio",
+          "kachi": "Vittoria",
+          "hansoku": "Fallo",
+          "chui": "Avvertimento",
+          "shikkaku": "Squalifica",
+          "hantei": "Decisione/Giudizio",
+          "encho-sen": "Round Supplementare",
+          "fukushin-shugo": "Conferenza dei Giudici",
+          "keikoku": "Avvertimento Ufficiale (penalità)",
+          "shobu-hajime": "Inizio Incontro",
+          "yame": "Stop Incontro",
+          "tsuzukete-hajime": "Riprendi Incontro (dopo interruzione)",
+          "aka-no-kachi": "Vittoria del Rosso",
+          "ao-no-kachi": "Vittoria del Blu"
+        },
+        "officialsTitle": "Ufficiali di Gara",
+        "officialsTerms": {
+          "shushin": "Arbitro Centrale",
+          "fukushin": "Giudice",
+          "kansa": "Arbitro (Supervisore)"
+        },
+        "commandsTitle": "Comandi",
+        "commandsTerms": {
+          "hajime": "Inizio",
+          "yame": "Stop",
+          "tsuzukete": "Continua",
+          "moto-no-ichi": "Tornare alla Posizione Iniziale",
+          "sore-made": "Fine Incontro",
+          "atoshi-baraku": "30 Secondi Rimanenti"
+        },
+        "otherTitle": "Altri Termini",
+        "otherTerms": {
+          "shiai": "Incontro",
+          "jogai": "Uscita dall'Area di Combattimento",
+          "ma-ai-ga-to": "Distanza Inadeguata",
+          "ukete-iru": "Parato",
+          "nukete-iru": "Fuori Bersaglio",
+          "fujubun": "Potenza Insufficiente",
+          "yowai": "Focus Debole"
+        }
+      },
+      "general-terms-content": {
+        "description": "Termini giapponesi di uso comune nel contesto delle arti marziali.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Sala di addestramento, luogo della via" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Insegnante, istruttore (colui che è andato prima)" },
+          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Studente anziano" },
+          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Studente giovane" },
+          "obi": { "name": "Obi", "japanese": "帯", "english": "Cintura" },
+          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Uniforme da allenamento" },
+          "kiai": { "name": "Kiai", "japanese": "気合", "english": "Urlo spirituale, concentrazione di energia" },
+          "reishiki": { "name": "Reishiki", "japanese": "礼式", "english": "Etichetta, maniere" }
+        }
+      },
+      "numbers-content": {
+        "description": "Sistema di numerazione giapponese usato per contare durante l'allenamento.",
+        "terms": {
+          "ichi": { "name": "Ichi", "japanese": "一", "english": "Uno" },
+          "ni": { "name": "Ni", "japanese": "二", "english": "Due" },
+          "san": { "name": "San", "japanese": "三", "english": "Tre" },
+          "shi": { "name": "Shi / Yon", "japanese": "四", "english": "Quattro" },
+          "go": { "name": "Go", "japanese": "五", "english": "Cinque" },
+          "roku": { "name": "Roku", "japanese": "六", "english": "Sei" },
+          "shichi": { "name": "Shichi / Nana", "japanese": "七", "english": "Sette" },
+          "hachi": { "name": "Hachi", "japanese": "八", "english": "Otto" },
+          "ku": { "name": "Ku / Kyu", "japanese": "九", "english": "Nove" },
+          "ju": { "name": "Ju", "japanese": "十", "english": "Dieci" }
+        }
+      },
+      "equipment-weapons-content": {
+        "description": "Termini relativi all'attrezzatura da allenamento e alle armi tradizionali di Okinawa talvolta associate alla pratica del Karate.",
+        "terms": {
+          "makiwara": { "name": "Makiwara", "japanese": "巻藁", "english": "Palo per colpire" },
+          "bo": { "name": "Bo", "japanese": "棒", "english": "Bastone lungo (circa 1,8 m)" },
+          "sai": { "name": "Sai", "japanese": "釵", "english": "Tridente metallico" },
+          "tonfa": { "name": "Tonfa", "japanese": "トンファー", "english": "Bastone con manico laterale" },
+          "nunchaku": { "name": "Nunchaku", "japanese": "ヌンチャク", "english": "Flagello (due sezioni collegate da catena/corda)" },
+          "kama": { "name": "Kama", "japanese": "鎌", "english": "Falce" }
+        }
+      },
+      "karate-goju-ryu-content": {
+        "description": "Termini fondamentali specifici del Karate e dello stile Goju-Ryu.",
+        "terms": {
+          "karate": { "name": "Karate", "japanese": "空手", "english": "Mano Vuota" },
+          "karate-do": { "name": "Karate-Do", "japanese": "空手道", "english": "La Via della Mano Vuota" },
+          "goju-ryu": { "name": "Goju-Ryu", "japanese": "剛柔流", "english": "Stile Duro-Morbido" },
+          "go": { "name": "Go", "japanese": "剛", "english": "Duro" },
+          "ju": { "name": "Ju", "japanese": "柔", "english": "Morbido" },
+          "budo": { "name": "Budo", "japanese": "武道", "english": "Via Marziale" },
+          "kumite": { "name": "Kumite", "japanese": "組手", "english": "Combattimento, mani che si afferrano" },
+          "kata": { "name": "Kata", "japanese": "型", "english": "Forma, modello" },
+          "bunkai": { "name": "Bunkai", "japanese": "分解", "english": "Analisi, applicazione del kata" }
+        }
+      },
+      "karate-titles-content": {
+        "description": "Titoli e gradi usati nel Karate.",
+        "terms": {
+          "kyu": { "name": "Kyu", "japanese": "級", "english": "Grado (cinture colorate, sotto la cintura nera)" },
+          "dan": { "name": "Dan", "japanese": "段", "english": "Livello (gradi di cintura nera)" },
+          "shodan": { "name": "Shodan", "japanese": "初段", "english": "Primo livello cintura nera" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Insegnante, istruttore" },
+          "shihan": { "name": "Shihan", "japanese": "師範", "english": "Maestro istruttore, insegnante di insegnanti" },
+          "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Istruttore raffinato (un titolo di insegnamento)" },
+          "kyoshi": { "name": "Kyoshi", "japanese": "教士", "english": "Insegnante avanzato (un titolo di insegnamento)" },
+          "hanshi": { "name": "Hanshi", "japanese": "範士", "english": "Insegnante esemplare, maestro (un titolo di insegnamento)" }
+        }
+      },
+      "phrases-etiquette-content": {
+        "description": "Frasi comuni ed espressioni di etichetta usate nel dojo.",
+        "terms": {
+          "onegaishimasu": { "name": "Onegaishimasu", "japanese": "お願いします", "english": "Per favore (allenati con me / insegnami)" },
+          "arigato-gozaimasu": { "name": "Arigato gozaimasu", "japanese": "ありがとうございます", "english": "Grazie (formale)" },
+          "domo-arigato-gozaimashita": { "name": "Domo arigato gozaimashita", "japanese": "どうもありがとうございました", "english": "Molte grazie (per ciò che è stato fatto)" },
+          "rei": { "name": "Rei", "japanese": "礼", "english": "Saluto (inchino)" },
+          "seiza": { "name": "Seiza", "japanese": "正座", "english": "Postura seduta formale" },
+          "mokuso": { "name": "Mokuso", "japanese": "黙想", "english": "Meditazione (contemplazione silenziosa)" },
+          "yame": { "name": "Yame", "japanese": "止め", "english": "Stop" },
+          "hajime": { "name": "Hajime", "japanese": "始め", "english": "Inizio" }
+        }
+      },
+      "kata-terms-content": {
+        "description": "Terminologia relativa alla pratica del Kata.",
+        "terms": {
+          "embusen": { "name": "Embusen", "japanese": "演武線", "english": "Linea/schema di esecuzione di un kata" },
+          "kime": { "name": "Kime", "japanese": "決め", "english": "Concentrazione di potenza, decisione" },
+          "zanshin": { "name": "Zanshin", "japanese": "残心", "english": "Mente/consapevolezza residua dopo una tecnica" },
+          "hyoshi": { "name": "Hyoshi", "japanese": "拍子", "english": "Ritmo, tempismo" },
+          "waza": { "name": "Waza", "japanese": "技", "english": "Tecnica" },
+          "koryu": { "name": "Koryu", "japanese": "古流", "english": "Vecchio stile/scuola (riferito al kata classico)" }
+        }
+      },
+      "kicks-content": {
+        "description": "Tecniche di base di calci (Geri Waza).",
+        "terms": {
+          "mae-geri": { "name": "Mae Geri", "japanese": "前蹴り", "english": "Calcio Frontale" },
+          "mawashi-geri": { "name": "Mawashi Geri", "japanese": "回し蹴り", "english": "Calcio Circolare" },
+          "yoko-geri": { "name": "Yoko Geri", "japanese": "横蹴り", "english": "Calcio Laterale" },
+          "ushiro-geri": { "name": "Ushiro Geri", "japanese": "後ろ蹴り", "english": "Calcio Posteriore" },
+          "hiza-geri": { "name": "Hiza Geri", "japanese": "膝蹴り", "english": "Colpo/Calcio di Ginocchio" },
+          "kin-geri": { "name": "Kin Geri", "japanese": "金蹴り", "english": "Calcio all'Inguine" },
+          "kansetsu-geri": { "name": "Kansetsu Geri", "japanese": "関節蹴り", "english": "Calcio all'Articolazione (calcio a pestare sul ginocchio)" }
+        }
+      },
+      "punches-content": {
+        "description": "Tecniche di base di pugni (Tsuki/Zuki Waza).",
+        "terms": {
+          "oi-zuki": { "name": "Oi Zuki", "japanese": "追い突き", "english": "Pugno in Affondo (pugno avanzando)" },
+          "gyaku-zuki": { "name": "Gyaku Zuki", "japanese": "逆突き", "english": "Pugno Contrario" },
+          "kizami-zuki": { "name": "Kizami Zuki", "japanese": "刻み突き", "english": "Jab (pugno guida)" },
+          "ura-zuki": { "name": "Ura Zuki", "japanese": "裏突き", "english": "Pugno Ravvicinato / Montante" },
+          "tate-zuki": { "name": "Tate Zuki", "japanese": "立て突き", "english": "Pugno Verticale" },
+          "age-zuki": { "name": "Age Zuki", "japanese": "上げ突き", "english": "Pugno Ascendente" }
+        }
+      },
+      "stances-content": {
+        "description": "Posizioni di base (Dachi Waza).",
+        "terms": {
+          "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Posizione delle Tre Battaglie / Posizione a Clessidra" },
+          "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Posizione Frontale / Posizione Inclinata in Avanti" },
+          "shiko-dachi": { "name": "Shiko Dachi", "japanese": "四股立ち", "english": "Posizione Quadrata / Posizione del Cavaliere (piedi a 45 gradi)" },
+          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立ち", "english": "Posizione del Piede di Gatto" },
+          "heiko-dachi": { "name": "Heiko Dachi", "japanese": "平行立ち", "english": "Posizione Parallela" },
+          "musubi-dachi": { "name": "Musubi Dachi", "japanese": "結び立ち", "english": "Posizione Formale di Attenzione (talloni uniti, piedi divaricati)" },
+          "kiba-dachi": { "name": "Kiba Dachi", "japanese": "騎馬立ち", "english": "Posizione del Cavaliere (piedi paralleli)" }
+        }
+      },
+      "strikes-content": {
+        "description": "Tecniche di base di colpi con mani e braccia, diversi dai pugni (Uchi Waza).",
+        "terms": {
+          "shuto-uchi": { "name": "Shuto Uchi", "japanese": "手刀打ち", "english": "Colpo di Taglio della Mano" },
+          "uraken-uchi": { "name": "Uraken Uchi", "japanese": "裏拳打ち", "english": "Colpo di Dorso del Pugno" },
+          "tettsui-uchi": { "name": "Tettsui Uchi", "japanese": "鉄槌打ち", "english": "Colpo di Pugno a Martello" },
+          "empi-uchi": { "name": "Empi Uchi / Hiji Ate", "japanese": "猿臂打ち / 肘当て", "english": "Colpo di Gomito" },
+          "haito-uchi": { "name": "Haito Uchi", "japanese": "背刀打ち", "english": "Colpo di Taglio Interno della Mano" },
+          "nukite": { "name": "Nukite", "japanese": "貫手", "english": "Colpo di Mano a Lancia" }
+        }
+      },
+      "vital-points-content": {
+        "description": "Termini per alcuni punti vitali (Kyusho) bersagliati nel Karate.",
+        "terms": {
+          "jinchu": { "name": "Jinchu", "japanese": "人中", "english": "Filtro (base del naso)" },
+          "kasumi": { "name": "Kasumi", "japanese": "霞", "english": "Tempia" },
+          "suigetsu": { "name": "Suigetsu", "japanese": "水月", "english": "Plesso solare" },
+          "kinteki": { "name": "Kinteki", "japanese": "金的", "english": "Inguine" },
+          "dokko": { "name": "Dokko", "japanese": "独鈷", "english": "Processo mastoideo (dietro l'orecchio)" },
+          "nodo": { "name": "Nodo", "japanese": "喉", "english": "Gola" }
+        }
+      },
+      "blocks-content": {
+        "description": "Tecniche difensive comuni utilizzate per bloccare o deviare gli attacchi. Clicca su \"Visualizza\" per una dimostrazione, se disponibile.",
+        "basicBlocksTitle": "Parate di Base",
+        "advancedBlocksTitle": "Parate Avanzate",
+        "videoNotAvailableDescription": "Una dimostrazione video per questa tecnica non è attualmente disponibile.",
+        "videoLoadError": "Impossibile caricare il video per '{{file}}'. Verifica che il file esista in public/video/blocks/.",
+        "selectVideoTitle": "Seleziona una tecnica da visualizzare",
+        "terms": {
+          "age-uke": {
+            "name": "Age Uke",
+            "japanese": "上げ受け",
+            "english": "Parata Ascendente",
+            "details": "Age Uke (Parata Ascendente) è una tecnica fondamentale di parata verso l'alto utilizzata per difendersi da attacchi al viso o alla parte superiore del corpo. L'avambraccio si muove verso l'alto per deviare l'attacco, mentre l'altra mano viene ritirata all'anca in preparazione di un contrattacco.",
+            "videoFile": "age-uke"
+          },
+          "gedan-barai": {
+            "name": "Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Parata Discendente",
+            "details": "Gedan Barai (Parata Discendente) è una parata ampia verso il basso che difende da attacchi bassi. Il braccio descrive un arco discendente per deviare i colpi diretti alla parte inferiore del corpo, mentre l'altro braccio si ritrae in posizione all'anca.",
+            "videoFile": "gedan-barai"
+          },
+          "soto-uke": {
+            "name": "Soto Uke",
+            "japanese": "外受け",
+            "english": "Parata Esterna",
+            "details": "Soto Uke (Parata Esterna) è una parata dall'esterno verso l'interno utilizzata per deviare attacchi provenienti dall'esterno. L'avambraccio si muove dall'esterno verso l'interno lungo una traiettoria orizzontale per reindirizzare il colpo dell'avversario.",
+            "videoFile": "soto-uke"
+          },
+          "uchi-uke": {
+            "name": "Uchi Uke",
+            "japanese": "内受け",
+            "english": "Parata Interna",
+            "details": "Uchi Uke (Parata Interna) è una parata dall'interno verso l'esterno utilizzata per deviare attacchi provenienti dall'interno. L'avambraccio si muove dall'interno verso l'esterno lungo una traiettoria orizzontale."
+          },
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Parata con Taglio della Mano",
+            "details": "Shuto Uke (Parata con Taglio della Mano) viene eseguita con il taglio della mano (shuto). Può essere utilizzata per parare attacchi alla sezione centrale o alla testa, spesso implicando un movimento circolare."
+          },
+          "empi-uke": {
+            "name": "Empi Uke",
+            "japanese": "肘受け",
+            "english": "Parata di Gomito",
+            "details": "Empi Uke (Parata di Gomito) utilizza il gomito برای parare un attacco in arrivo, spesso efficace a distanza ravvicinata e contro colpi al corpo."
+          },
+          "kosa-uke": {
+            "name": "Kosa Uke",
+            "japanese": "交差受け",
+            "english": "Parata Incrociata",
+            "details": "Kosa Uke (Parata Incrociata) comporta l'incrocio dei polsi o degli avambracci per creare una barriera contro un attacco. Può essere eseguita a diverse altezze (jodan, chudan, gedan)."
+          },
+          "juji-uke": {
+            "name": "Juji Uke",
+            "japanese": "十字受け",
+            "english": "Parata a X",
+            "details": "Juji Uke (Parata a X) utilizza le braccia incrociate a forma di 'X' per parare un attacco, tipicamente un colpo discendente o un calcio. Le mani possono essere aperte o chiuse."
+          },
+          "haiwan-uke": {
+            "name": "Haiwan Uke",
+            "japanese": "背腕受け",
+            "english": "Parata con Dorso dell'Avambraccio",
+            "details": "Haiwan Uke (Parata con Dorso dell'Avambraccio) utilizza il dorso dell'avambraccio per parare una tecnica in arrivo. Viene spesso utilizzata per deviare colpi diretti al fianco del corpo o alla testa."
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Parata Pressante",
+            "details": "Osae Uke (Parata Pressante) è una tecnica in cui l'attacco dell'avversario viene premuto o immobilizzato, spesso utilizzata per controllare un arto dell'avversario o creare un'apertura."
+          }
+        }
+      }
     }
   },
   "blocks": {
     "title": "Parate di Base",
-    "viewButton": "Vedi",
+    "viewButton": "Visualizza",
     "videoError": {
       "title": "Le dimostrazioni video saranno visibili nell'app mobile",
       "pathError": "Impossibile caricare il video da: {{path}}",
-      "instructions": "Assicurati che i file MP4 siano posizionati nella directory public/Video/Blocks con questi nomi di file:",
+      "instructions": "Assicurati che i file MP4 siano inseriti nella directory public/Video/Blocks con questi nomi file:",
       "files": {
         "ageUke": "age-uke.mp4",
         "gedanBarai": "gedan-barai.mp4",
@@ -72,19 +348,19 @@
       "name": "Age Uke",
       "japanese": "上げ受け",
       "english": "Parata Ascendente",
-      "description": "Una tecnica di parata che devia un attacco verso l'alto e protegge il viso e la parte superiore del corpo."
+      "description": "Age Uke (Parata Ascendente) è una tecnica di parata basilare verso l'alto usata per difendersi da attacchi al viso o alla parte superiore del corpo. L'avambraccio si muove verso l'alto per deviare l'attacco, mentre l'altra mano viene ritirata al fianco in preparazione di un contrattacco."
     },
     "gedanBarai": {
       "name": "Gedan Barai",
       "japanese": "下段払い",
       "english": "Parata Discendente",
-      "description": "Una parata a spazzata che devia gli attacchi alla parte inferiore del corpo."
+      "description": "Gedan Barai (Parata Discendente) è una parata a spazzare verso il basso che difende da attacchi bassi. Il braccio si muove con un arco discendente per deviare i colpi mirati alla parte inferiore del corpo, mentre l'altro braccio si ritrae in posizione al fianco."
     },
     "sotoUke": {
       "name": "Soto Uke",
       "japanese": "外受け",
       "english": "Parata Esterna",
-      "description": "Una parata che devia un attacco dall'interno verso l'esterno."
+      "description": "Soto Uke (Parata Esterna) è una parata verso l'esterno usata per deviare attacchi provenienti dall'interno verso l'esterno. L'avambraccio si muove dall'interno verso l'esterno con una traiettoria orizzontale per reindirizzare il colpo dell'avversario."
     },
     "uchiUke": {
       "name": "Uchi Uke",
@@ -95,13 +371,13 @@
     "shutoUke": {
       "name": "Shuto Uke",
       "japanese": "手刀受け",
-      "english": "Parata Mano Coltello",
-      "description": "Una parata eseguita con il lato della mano."
+      "english": "Parata con Taglio della Mano",
+      "description": "Una parata eseguita con il taglio della mano."
     },
     "empiUke": {
       "name": "Empi Uke",
       "japanese": "肘受け",
-      "english": "Parata del Gomito",
+      "english": "Parata di Gomito",
       "description": "Una parata eseguita con il gomito."
     },
     "kosaUke": {
@@ -119,14 +395,14 @@
     "haiwanUke": {
       "name": "Haiwan Uke",
       "japanese": "背腕受け",
-      "english": "Parata del Braccio Posteriore",
-      "description": "Una parata eseguita con la parte posteriore dell'avambraccio."
+      "english": "Parata con Dorso dell'Avambraccio",
+      "description": "Una parata eseguita con il dorso dell'avambraccio."
     },
     "osaeUke": {
       "name": "Osae Uke",
       "japanese": "押さえ受け",
-      "english": "Parata Premente",
-      "description": "Una parata verso il basso."
+      "english": "Parata Pressante",
+      "description": "Una parata pressante verso il basso."
     }
   },
   "practice": {
@@ -144,345 +420,371 @@
   "study": {
     "title": "Sezione Studio",
     "description": "Lezioni interattive e quiz per approfondire le tue conoscenze",
+    "pageHeaderTitle": "Studio",
+    "pageHeaderDescription": "Risorse di apprendimento complete per praticanti di Karate Goju-Ryu",
+    "studySectionTitle": "Sezione Studio",
+    "studySectionDescription": "Scegli un metodo di studio per migliorare la tua conoscenza del Goju Ryu.",
     "quizzes": "Quiz",
     "quizDesc": "Metti alla prova le tue conoscenze su vari argomenti.",
+    "quizzesCardTitle": "Quiz",
+    "quizzesCardDescription": "Metti alla prueba le tue conoscenze con domande a risposta multipla.",
     "noQuizzes": "Nessun quiz disponibile al momento.",
-    "flashcards": "Carte di memoria",
-    "flashcardDesc": "Ripassa termini e concetti con le carte di memoria.",
-    "noFlashcards": "Nessun set di carte di memoria disponibile al momento.",
+    "flashcards": "Flashcard",
+    "flashcardDesc": "Rivedi termini e concetti usando le flashcard.",
+    "flashcardsCardTitle": "Flashcard",
+    "flashcardsCardDescription": "Rivedi termini e concetti usando flashcard interattive.",
+    "noFlashcards": "Nessun set di flashcard disponibile al momento.",
     "tests": "Test",
-    "startStudy": "Inizia lo studio"
+    "startStudy": "Inizia a studiare"
   },
   "settings": {
     "title": "Impostazioni",
-    "description": "Personalizza la tua esperienza dell'app",
-    "language": "Lingua",
-    "theme": "Tema",
+    "description": "Personalizza la tua esperienza con l'app",
+    "language": {
+      "title": "Lingua"
+    },
+    "theme": {
+      "title": "Tema",
+      "description": "Scegli il tuo tema preferito",
+      "selectThemeTitle": "Seleziona Tema",
+      "options": {
+        "light": "Chiaro",
+        "dark": "Scuro",
+        "system": "Sistema"
+      }
+    },
     "notifications": "Notifiche",
     "darkMode": "Modalità Scura",
-    "about": "Info"
-  },
-  "theme": {
-    "light": "Chiaro",
-    "dark": "Scuro",
-    "system": "Sistema"
-  },
-  "bunkai": {
-    "title": "[IT] Bunkai",
-    "description": "[IT] Application and analysis of kata techniques",
-    "overview": "[IT] Overview",
-    "details": {
-      "attack": "[IT] Attack",
-      "defense": "[IT] Defense",
-      "counterAttack": "[IT] Counter-attack",
-      "footwork": "[IT] Footwork",
-      "vitalPoints": "[IT] Vital Points",
-      "notes": "[IT] Important Notes"
-    },
-    "kata": {
-      "gekisaiDaiIchi": {
-        "title": "[IT] Gekisai Dai Ichi Bunkai",
-        "description": "[IT] Literally means 'attack and destroy 1'. This unusually aggressive name for karate reflects the era when Okinawa was a battlefield for Japanese-American war actions. The kata was developed in 1940 by the founder of Okinawa Goju-ryu Karate-do, Miyagi Chojun sensei. It consists of various combinations of simple basic techniques, which facilitate learning the later, more difficult classical koryu kata.",
-        "bunkai1": {
-          "name": "[IT] Jodan Age Uke + Jodan Oi Zuki",
-          "attack": "[IT] Jodan Oi Zuki.",
-          "defense": "[IT] Jodan Age Uke.",
-          "counterAttack": "[IT] Jodan Oi Zuki.",
-          "footwork": "[IT] 45° diagonal step back to Heiko Sanchin Dachi + foot switch (in-out).",
-          "vitalPoints": "[IT] E.g. Eye [Seimo], [Gansei] or [Kasumi].",
-          "notes": "[IT] Always maintain Zanchin. This applies to all bunkai!"
-        },
-        "bunkai2": {
-          "name": "[IT] Gedan Harai Uke",
-          "attack": "[IT] Gedan Oi Zuki.",
-          "defense": "[IT] Gedan Harai Uke (as strike and block simultaneously).",
-          "counterAttack": "[IT] Block = attack.",
-          "footwork": "[IT] Sideways step outward into Shiko Dachi.",
-          "vitalPoints": "[IT] Elbow [Soto Hijitsume].",
-          "notes": "[IT] When training with hard contact, do not attack the vital point [Hijitsume] but the forearm!"
-        },
-        "bunkai3": {
-          "name": "[IT] Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
-          "attack": "[IT] Chudan Oi Zuki.",
-          "defense": "[IT] Chudan Yoko Uke.",
-          "counterAttack": "[IT] Gedan Mae Geri + Chudan Hiji Ate + Jodan Uraken Uchi.",
-          "footwork": "[IT] Sayu Tenshin + after Mae Geri step forward into Zenkutsu Dachi.",
-          "vitalPoints": "[IT] E.g. [Kinteki] (Mae Geri) + [Ganka] or [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
-          "notes": "[IT] The low front kick is executed with the ball of the foot, the front of the ankle, or the shin depending on the distance. The attacker evades the Chudan Hiji Ate with a backward Suri Ashi."
-        },
-        "bunkai4": {
-          "name": "[IT] Gedan Harai Uke + Chudan Gyaku Zuki",
-          "attack": "[IT] Gedan Oi Zuki.",
-          "defense": "[IT] Gedan Harai Uke.",
-          "counterAttack": "[IT] Chudan Gyaku Zuki.",
-          "footwork": "[IT] Step back diagonally.",
-          "vitalPoints": "[IT] E.g. [Ganka].",
-          "notes": "[IT] Advanced students (from brown belt) must practice the block and counter-attack as one movement. The last two Bunkai Kumite must also be trained as one unit by advanced students."
-        },
-        "bunkai5": {
-          "name": "[IT] Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
-          "attack": "[IT] Chudan Oi Zuki.",
-          "defense": "[IT] Chudan Yoko Uke + Tsukkami (= grabbing).",
-          "counterAttack": "[IT] Ashi Barai + Yoko Shuto Uchi + Fumikomi Geri.",
-          "footwork": "[IT] Sayu Tenshin with 45-degree turn.",
-          "vitalPoints": "[IT] E.g. [Jinchu] or Adam's apple [Nodo Botoku] (Yoko Shuto Uchi) + neck (Fumikomi Geri).",
-          "notes": "[IT] Quickly return the foot after Ashi Barai to prevent the opponent from attacking your leg. For the opponent's safety, the Yoko Shuto Uchi is not executed as a strike to a Kyusho, but more as a push to the chest and shoulder. The Fumikomi Geri can be executed with either leg, depending on how the opponent falls. However, in the Kata it is the same leg as the one used for the sweep. Advanced karateka can also make an irimi step and sweep the opponent from close range. In this advanced variation, the elbow is also locked on the chest."
-        },
-        "bunkai6": {
-          "name": "[IT] Awase Zuki",
-          "attack": "[IT] Chudan Oi Zuki.",
-          "defense": "[IT] Nagashi Seiken Ura Uke (variant of Chudan Yoko Uke).",
-          "counterAttack": "[IT] Awase Zuki + Awase Oshi.",
-          "footwork": "[IT] Sayu Tenshin + step into Zenkutsu Dachi.",
-          "vitalPoints": "[IT] E.g. [Ganka] (Gyaku Zuki) and [Inazuma] (Ura Zuki).",
-          "notes": "[IT] The attack must be intercepted early. The Awase Zuki must first be powerfully focused before continuing as a push. To do this, you must first relax inward and downward and let the breath come in. The Awase Zuki is a miniaturized, closed-hand version of the Tora Guchi."
-        }
-      },
-      "gekisaiDaiNi": {
-        "title": "[IT] Gekisai Dai Ni Bunkai",
-        "description": "[IT] Literally means 'attack and destroy 2'. Like Gekisai Dai Ichi, developed by Miyagi Chojun sensei for the same reasons. The kata consists of various combinations of simple basic techniques, which facilitate learning the later, more difficult classical koryu kata.",
-        "bunkai1": {
-          "name": "[IT] Hiki Uke",
-          "attack": "[IT] Chudan Oi Zuki.",
-          "defense": "[IT] Hiki Uke + grab with 'Sukui Uke'.",
-          "counterAttack": "[IT] Grab at the throat.",
-          "footwork": "[IT] Sayu Tenshin + forward Suri Ashi.",
-          "vitalPoints": "[IT] E.g. Adam's apple [Nodo Botoke] and/or carotid artery [Matsukaze].",
-          "notes": "[IT] When slipping in (Suri Ashi), hook the front foot around the attacker's front foot and apply a leg lock, or place your front foot on the attacker's front foot. Lock the attacking arm between your upper arm and flank."
-        },
-        "bunkai2": {
-          "name": "[IT] Nihon Hiki Uke",
-          "attack": "[IT] Chudan Oi Zuki + Jodan Gyaku Zuki.",
-          "defense": "[IT] Two Hiki Uke.",
-          "counterAttack": "[IT] Nukite Zuki.",
-          "footwork": "[IT] One step back or two Sayu Tenshin.",
-          "vitalPoints": "[IT] Eye [Gansei] or Carotid artery [Matsukaze].",
-          "notes": "[IT] With the hand/arm of the second attack, you lock up the other arm. Optionally apply pressure with the big toe on the forefoot [Kori]."
-        },
-        "bunkai3": {
-          "name": "[IT] Tora Guchi",
-          "attack": "[IT] Jodan Oi Zuki.",
-          "defense": "[IT] Jodan Haishu Osae Uke.",
-          "counterAttack": "[IT] Morote Tsukkami and Morote Oshi.",
-          "footwork": "[IT] Sayu Tenshin to Neko Ashi Dachi, then step out. After the push, pull back the rear foot.",
-          "vitalPoints": "[IT] E.g. [Kinteki] and carotid artery/Adam's apple [Matsukaze]/[Nodo Botoke].",
-          "notes": "[IT] Intercept attack early and execute with Muchimi."
-        }
-      },
-      "saifa": {
-        "title": "[IT] Saifa Bunkai",
-        "description": "[IT] Means something like 'destructive strikes'. 'Sai' means, as in Gekisai, 'destroy'. 'Fa' means, among other things, 'strike'. Typical for kata Saifa are the many striking techniques, such as uraken uchi, tettsui uchi, and haito uchi. Saifa is the first classical koryu kata.",
-        "bunkai1": {
-          "name": "[IT] Hazushi Waza + Otoshi Uke + Jodan Uraken Uchi",
-          "attack": "[IT] 1. Kote Dori. 2. Chudan Gyaku Zuki.",
-          "defense": "[IT] 1. Hazushi Waza (release technique). 2. Shotei Otoshi Uke.",
-          "counterAttack": "[IT] Jodan Uraken Uchi.",
-          "footwork": "[IT] 45° step in and turn into Heiko Dachi, then step in or back to Shiko Dachi.",
-          "vitalPoints": "[IT] E.g. [Jinchu].",
-          "notes": "[IT] When stepping in, press the knuckles of the grabbed hand/arm against the opponent's forearm to weaken their grip (maintain pressure from the start). When pulling free (Hazushi Waza), keep your arms close to your body. After the Otoshi Uke, grab the arm (don't grab immediately). The block can also be executed in Osae or Nagashi form."
-        },
-        "bunkai2": {
-          "name": "[IT] Sukui Uke + Shotei Gedan Harai Uke + Hiza Ate + Mae Geri",
-          "attack": "[IT] Chudan Oi Zuki + Mae Geri.",
-          "defense": "[IT] Sukui Uke + Shotei Gedan Harai Uke.",
-          "counterAttack": "[IT] Hiza Ate + Gedan Mae Geri.",
-          "footwork": "[IT] From Heiko Dachi back with Suri Ashi to Heiko Sanchin Dachi.",
-          "vitalPoints": "[IT] E.g. [Ein] (Hiza Geri) and [Kinteki] (Mae Geri).",
-          "notes": "[IT] With the Sukui Uke, the other hand is used as protection. The attacker must immediately retract the Mae Geri. When the attacker turns their torso sideways after retracting the Mae Geri, make the Mae Geri to the flank."
-        },
-        "bunkai3": {
-          "name": "[IT] (Morote Hiki Uke +) Heiko Zuki",
-          "attack": "[IT] Nihon Chudan Zuki.",
-          "defense": "[IT] Nihon Hiki Uke.",
-          "counterAttack": "[IT] Morote Nukite Zuki + Morote Oshi.",
-          "footwork": "[IT] One foot back + forward Suri Ashi or Ayumi Ashi (depending on distance). In case of large, strong opponent: two Sayu Tenshin.",
-          "vitalPoints": "[IT] E.g. under the collarbone (Nukite) and [Ganka] (Oshi).",
-          "notes": "[IT] The Morote Nukite Zuki and Morote Oshi are executed as much as possible in one movement."
-        },
-        "bunkai4": {
-          "name": "[IT] (Morote) Gedan Furi Uchi",
-          "attack": "[IT] Ashi Dori.",
-          "defense": "[IT] Step away.",
-          "counterAttack": "[IT] Morote Gedan Furi Uchi + Kubi Nage.",
-          "footwork": "[IT] Kotai Ayumi Ashi possibly turn away when throwing.",
-          "vitalPoints": "[IT] E.g. Both ears or temples: [Komekami].",
-          "notes": "[IT] Grab at the ears or at the jaw and hair."
-        },
-        "bunkai5": {
-          "name": "[IT] Tettsui Uchi + TsukamiHiki + Ura Zuki + Jodan Gyaku 'Zuki'",
-          "attack": "[IT] Chudan Oi Zuki.",
-          "defense": "[IT] Gedan Uchi Nagashi Uke.",
-          "counterAttack": "[IT] Tettsui Uchi + Tsukkamihiki + Ura Zuki + Jodan (Gyaku) Oshi.",
-          "footwork": "[IT] Tai Sabaki, then step out for the Ura Zuki and possibly step through for the push (Ayumi Ashi).",
-          "vitalPoints": "[IT] E.g. fontanel [Shomon] (Tettsui Uchi) + nose (Ura Zuki) + possibly Eye [Gansei] (Oshi).",
-          "notes": "[IT] Keep the arm round and close to the body during the low block (don't 'scoop')."
-        },
-        "bunkai6": {
-          "name": "[IT] Haito Uchi",
-          "attack": "[IT] Chudan Oi Zuki.",
-          "defense": "[IT] Ura Hiki Uke.",
-          "counterAttack": "[IT] Haito Uchi.",
-          "footwork": "[IT] Sayu Tenshin to Neko Ashi Dachi.",
-          "vitalPoints": "[IT] E.g. Floating rib/kidneys [Ushiro Denko] or neck [Keichu].",
-          "notes": "[IT] In the Kata, the Haito Uchi is a Chudan technique."
-        },
-        "bunkai7": {
-          "name": "[IT] Tora Guchi",
-          "attack": "[IT] Jodan Oi Zuki.",
-          "defense": "[IT] Jodan Haishu Osae Uke.",
-          "counterAttack": "[IT] Morote Tsukkami and Morote Oshi.",
-          "footwork": "[IT] Sayu Tenshin to Neko Ashi Dachi, then step out. After the push, pull back the rear foot.",
-          "vitalPoints": "[IT] E.g. [Kinteki] and carotid artery/Adam's apple [Matsukaze]/[Nodo Botoke].",
-          "notes": "[IT] Intercept attack early and execute with Muchimi."
-        }
-      },
-      "seiyunchin": {
-        "title": "[IT] Seiyunchin Bunkai",
-        "overviewTitle": "[IT] Bunkai Overview Seiyunchin",
-        "description": "[IT] Literally means 'to unbalance in battle'. This kata is the only kaishu kata without kicking techniques and emphasizes the formation of strong, stable stances. The bunkai kumite (applications) consist of various wrestling and throwing techniques that are very suitable for close combat. Exam material for sankyu (third kyu, brown belt) and above.",
-        "bunkai1": { "name": "[IT] Morote Gedan Harai Uke", "attack": "[IT] Morote Kote Dori.", "defense": "[IT] Hazushi Waza ~ 'Morote Gedan Harai Uke').", "counterAttack": "[IT] Hiza Geri or Mae Geri (front or back leg).", "footwork": "[IT] First step forward, then diagonally back to Shiko Dachi.", "vitalPoints": "[IT] E.g. [Kinteki].", "notes": "[IT] It is important to first weaken the opponent's grip (double upward thrust). The meaning of dropping into Shiko Dachi is to learn to use your weight as power in release techniques." },
-        "bunkai2": { "name": "[IT] Sukui Uke + Hiki Uke + Hira Nukite Zuki", "attack": "[IT] Chudan Oi Zuki + Hikite.", "defense": "[IT] Sukui Uke + grab over.", "counterAttack": "[IT] Hira Nukite Zuki.", "footwork": "[IT] One foot back, then step out to Shiko Dachi.", "vitalPoints": "[IT] E.g. below the floating ribs.", "notes": "[IT] With Nukite Zuki, first make contact, then apply force." },
-        "bunkai3": { "name": "[IT] Hojo Oshi", "attack": "[IT] Chudan Oi Zuki Shotei", "defense": "[IT] Otoshi Uke", "counterAttack": "[IT] Chudan Nakadaka Ippon Ken Zuki + Morote Shotei Hojo Oshi", "footwork": "[IT] Turn into Heiko Sanchin Dachi + Suri Ashi forward during the push.", "vitalPoints": "[IT] E.g. [Danchu] (Chudan Nakadaka Ippon Ken Zuki).", "notes": "" },
-        "bunkai4": { "name": "[IT] Chudan Hiji Ate", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Otoshi Uke.", "counterAttack": "[IT] Chudan Hiji Ate.", "footwork": "[IT] One foot back, then the other forward.", "vitalPoints": "[IT] E.g. [Ganka]", "notes": "" },
-        "bunkai5": { "name": "[IT] Hojo Uke + Gedan Harai Uchi", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Chudan Yoko Uke.", "counterAttack": "[IT] Jodan Shotei Uchi", "footwork": "[IT] Sayu Tenshin, 45 degree turn", "vitalPoints": "[IT] E.g. ear (Jodan Shotei Uchi)", "notes": "[IT] From Shodan level, these bunkai and the next (with Gedan Barai) are performed as one continuous technique." },
-        "bunkai6": { "name": "[IT] Hari Uke", "attack": "[IT] Jodan Oi Zuki + Mae Geri", "defense": "[IT] Kaishu Jodan Age Uke (+ grab) + Gedan Shotei Harai Uke (+ grab)", "counterAttack": "[IT] Hari Uke Nage + Otoshi Zuki.", "footwork": "[IT] One foot back, then the other foot to the opponent's supporting leg and then Tai Sabaki. For lighter karateka, two times Sayu Tenshin.", "vitalPoints": "[IT] E.g. [Inazuma].", "notes": "[IT] For safety, the throw is performed with a large turning movement. In a self-defense situation, with a not too heavy opponent, the throw is short and the head is..." },
-        "bunkai7": { "name": "[IT] Chudan Yoko Shotei Uke / Jodan Uchi Uke > Jodan Uraken Uchi", "attack": "[IT] Chudan Gyaku Zuki + Jodan Jun Zuki", "defense": "[IT] Otoshi Uke (+ grab) + Jodan Uchi Uke.", "counterAttack": "[IT] (optionally Ashi Barai with front leg +) Jodan Uraken Uchi", "footwork": "[IT] One foot back. Optionally slip in with Jodan Uraken Uchi.", "vitalPoints": "[IT] E.g. [Jinchu] (Jodan Uraken Uchi).", "notes": "[IT] Only make the Ashi Barai if the distance allows." },
-        "bunkai8": { "name": "[IT] (Doji Uke +) Age Zuki + Jodan Uraken Uchi + Gedan Harai Uke (Uchi)", "attack": "[IT] Chudan Oi Zuki + Mae Geri", "defense": "[IT] Otoshi Uke.", "counterAttack": "[IT] Age Zuki + Jodan Uraken Uchi + Gedan Harai Uchi.", "footwork": "[IT] One foot back, then step out to Shiko Dachi.", "vitalPoints": "[IT] E.g. jaw [Mikazuki] (Age Zuki) + [Jinchu] (Jodan Uraken Uchi) + [Kinteki] (Gedan Harai Uchi).", "notes": "[IT] Advanced students should also practice this against Chudan Zuki + Gedan Zuki or Mae Geri (application of Doji Uke)." },
-        "bunkai9": { "name": "[IT] Hiji Age", "attack": "[IT] Grab from behind (torso and arms).", "defense": "[IT] Hiji Age + Ushiro Hiji Ate (simultaneously) then turn out to Kamae.", "counterAttack": "[IT] Attack = defense.", "footwork": "[IT] After being grabbed, step forward to 'Neko Ashi Dachi'.", "vitalPoints": "[IT] E.g. [Inazuma].", "notes": "[IT] If the grip is too strong, first attack a Kyusho. For example, with a backward headbutt, kick to the foot, strike to the groin, etc." },
-        "bunkai10": { "name": "[IT] Otoshi Uke + Jodan Uraken Uchi", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Otoshi Uke (+ grab).", "counterAttack": "[IT] Jodan Uraken Uchi.", "footwork": "[IT] Turning Suri Ashi.", "vitalPoints": "[IT] E.g. [Jinchu].", "notes": "[IT] The block and the strike follow each other smoothly." },
-        "bunkai11": { "name": "[IT] Morote Kuri Uke", "attack": "[IT] Morote Kubi Dori.", "defense": "[IT] Morote Kuri Uke as a release technique.", "counterAttack": "[IT] Morote Nukite Zuki.", "footwork": "[IT] Step back and fall into Neko Ashi Dachi.", "vitalPoints": "[IT] E.g. eyes [Gansei].", "notes": "[IT] As in the kata, it is important that the forearms come together well above the opponent's arms." },
-        "bunkai12": { "name": "[IT] Chudan Oi Zuki > Chudan Yoko Uke + grab wrist > Gedan Harai Uke (Uchi)", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Chudan Yoko Uke + immediately continue to grab the wrist.", "counterAttack": "[IT] Gedan Harai Uke (Uchi).", "footwork": "[IT] Sayu Tenshin, 30 degree turn + foot switch (back-in) to Shiko Dachi.", "vitalPoints": "[IT] E.g. [Kinteki] (Gedan Harai Uchi).", "notes": "[IT] When moving to Shiko Dachi, turn in such a way that you can hit the groin unimpeded." }
-      },
-      "shisochin": {
-        "title": "[IT] Shisochin Bunkai",
-        "overviewTitle": "[IT] Bunkai Overview Shisochin",
-        "description": "[IT] Literally means 'fight in 4 directions'. Another translation is '4 doors'. The word door is a symbolic word for the place where a potential opponent can attack, can 'enter'. The kata contains a typical attack combination, which is performed in four directions. Exam material for ikkyu (first kyu, brown belt) and above.",
-        "bunkai1": { "name": "[IT] Chudan Nukite Zuki", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Chudan Haishu NagAshi Uke.", "counterAttack": "[IT] Chudan Nukite Zuki.", "footwork": "[IT] Sayu Tenshin.", "vitalPoints": "[IT] E.g. solar plexus [Suigetsu]) or carotid artery [Matsukaze].", "notes": "[IT] An attack to Suigetsu will only be realistic with a large strength difference and strong hands." },
-        "bunkai2": { "name": "[IT] Morote Sukui Uke + 'Morote Gedan Harai Uke'", "attack": "[IT] Morete Kubi Dori.", "defense": "[IT] Morete Sukui Uke + grab + 'Morete Gedan Harai Uke'.", "counterAttack": "[IT] Mae Geri or Hiza Geri with rear leg.", "footwork": "[IT] Step back to avoid the attack and to grab the opponent's thumbs or wrists.", "vitalPoints": "[IT] E.g. solar plexus [Suigetsu].", "notes": "[IT] The same bunkai can also be performed if both wrists are grabbed." },
-        "bunkai3": { "name": "[IT] Chudan Ura Kake Uke (Doji Uke) + Gyaku Te", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Chudan Ura Kake Uke.", "counterAttack": "[IT] Gyaku Te + Otoshi Hij Ate.", "footwork": "[IT] Sayu Tenshin, then turn in with the outer leg and then stretch it to unbalance the opponent. Then turn to Shiko Dachi for Otoshi Hiji Ate.", "vitalPoints": "[IT] E.g. [Kassatsu] (Otoshi Hiji Ate).", "notes": "[IT] Advanced students should perform the block and Gyaku Te in one movement. The technique in question does not have a name of its own but is named after the application. Namely: Gyaku Te, which is a collective name for locks, grips, etc." },
-        "bunkai4": { "name": "[IT] Hiji Age / Ushiro Hiji Ate", "attack": "[IT] Grab from behind, one arm trapped.", "defense": "[IT] Jodan Ushiro Zuki + Ushiro Hiji Ate.", "counterAttack": "[IT] Defense is counterattack.", "footwork": "", "vitalPoints": "[IT] E.g. [Jinchu] (Jodan Ushiro Zuki) + [Inazuma] (Ushiro Hiji Ate)", "notes": "[IT] If the hold is too strong, it is better to attack a Kyusho first. For example, the point [Koin] (on the foot) with the heel or the testicles [Kinteki] with the hand." },
-        "bunkai5": { "name": "[IT] Nagashi Shotei Gedan Harai Uke + Shotei Zuki", "attack": "[IT] Chudan Oi Zuki", "defense": "[IT] Nagashi Shotei Gedan Harai Uke.", "counterAttack": "[IT] Shotei Zuki", "footwork": "[IT] Step in and turn away in one movement.", "vitalPoints": "[IT] E.g. jaw [Mikazuki].", "notes": "[IT] The upward effect in the movement helps uproot the opponent. In the case of an attack on the eyes, the opponent's hand is more difficult to see coming because it comes from below." },
-        "bunkai6": { "name": "[IT] Hiki Uke + Mae Geri + Chudan Hiji Ate", "attack": "[IT] Chudan Oi Zuki.", "defense": "[IT] Hiki Uke.", "counterAttack": "[IT] Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.", "footwork": "[IT] Sayu Tenshin. After Mae Geri move forward into Zenkutsu Dachi.", "vitalPoints": "[IT] E.g. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + Eyes [Gansei] (Nihon Nukite).", "notes": "" },
-        "bunkai7": { "name": "[IT] Otoshi Uke + Hiji Ate", "attack": "[IT] Chudan Oi Zuki", "defense": "[IT] Osae Uke.", "counterAttack": "[IT] Hiji Ate", "footwork": "[IT] Step in.", "vitalPoints": "[IT] E.g. [Suigetsu]", "notes": "[IT] The attack must be intercepted early and pressed inward and (then) downward." },
-        "bunkai8": { "name": "[IT] Morote Hiji Ate", "attack": "[IT] Morote Kote Dori.", "defense": "[IT] Morote Hiji Age.", "counterAttack": "[IT] Otoshi Hiji Age.", "footwork": "[IT] One foot back for stability then step in.", "vitalPoints": "[IT] E.g. collarbone or chest (Otoshi Hiji Ate).", "notes": "[IT] Note: For the execution of Morote Hiji Age, the hands are raised and spread open." },
-        "bunkai9": { "name": "[IT] Doji Uke", "attack": "[IT] Mae Geri.", "defense": "[IT] Shuto Gedan Harai Uke.", "counterAttack": "[IT] Jodan Haishu Uchi.", "footwork": "[IT] Sayu Tenshin to Neko Ashi Dachi, then forward Suri Ashi in Neko Ashi Dachi.", "vitalPoints": "[IT] E.g. nose (Jodan Haishu Uchi).", "notes": "" }
-      },
-      "sanseru": {
-        "title": "[IT] Sanseru Bunkai",
-        "overviewTitle": "[IT] Bunkai Overview Sanseru",
-        "description": "[IT] Sanseru literally means '36 hands'. The name refers to Buddhist symbolism: 36 is the symbolic multiplication of 6 × 6. The first 6 stands for eye, ear, nose, tongue, body, and mind. The second 6 symbolizes color, voice, taste, smell, touch, and justice. This kata is exam material for nidan (second dan) and above. The bunkai focus on close-range defense, joint locks, and takedowns.",
-        "bunkai1": { "name": "[IT] Chudan Yoko Uke > Chudan Gyaku Zuki", "attack": "[IT] Right Chudan Oi Zuki", "defense": "[IT] Left Chudan Yoko Uke", "counterAttack": "[IT] Right Chudan Gyaku Zuki", "footwork": "[IT] Right foot Sayu Tenshin with a turn to left Heiko Sanchin Dachi.", "vitalPoints": "[IT] E.g. [Suigetsu], [Ganka] (solar plexus, eye area)", "notes": "" },
-        "bunkai2": { "name": "[IT] Kakate Uke > Hazushi Waza", "attack": "[IT] Kote Dori - left hand grabs right wrist", "defense": "[IT] Kake Uke + Hazushi Waza with the left hand on the wrist/forearm.", "counterAttack": "[IT] Strike off the wrist", "footwork": "[IT] Step in with right to weaken the grip; step back with right to add force while performing Hazushi Waza.", "vitalPoints": "", "notes": "[IT] When performing Hazushi Waza, keep the arm close to the body, let the fingers go upward and then spread, then 'cut' with the knife hand." },
-        "bunkai3": { "name": "[IT] Ashi Dori > Mae Geri > Kansetsu Geri", "attack": "[IT] Right Mae Geri (front kick)", "defense": "[IT] Ashi Dori (right Shotei Uchi Gedan Harai Uke)", "counterAttack": "[IT] Chudan Ashi Dori + right Kin Geri + Kansetsu Geri Nage or Gedan Fumikomi.", "footwork": "[IT] Remain standing, turn the body away (Tai Sabaki in place).", "vitalPoints": "[IT] [Kinteki] (groin)", "notes": "[IT] After the groin kick, turn the right hand and place the right thumb into the inner thigh muscle (quadriceps). After the kick, keep the knee inside the thigh and place the foot above the other knee. Use a lever motion for the takedown." },
-        "bunkai4": { "name": "[IT] Mae Hiji Ate > Gedan Gyaku Zuki > Kansetsu Geri", "attack": "[IT] 1. Right Chudan Oi Zuki. 2. Left Gedan Gyaku Zuki.", "defense": "[IT] 1. Left Chudan Shotei Osae/Otoshi Uke. 2. Right Gedan Harai Uke.", "counterAttack": "[IT] 1. Right Chudan Hiji Ate + Left Gedan Gyaku Zuki + Right Kansetsu Geri.", "footwork": "[IT] 1. Foot switch (Uke + Hiji Ate). Kotai Suri Ashi (Uke) + left Sayu Tenshin (Kansetsu Geri).", "vitalPoints": "[IT] E.g. the knee", "notes": "" },
-        "bunkai5": { "name": "[IT] Gedan Seiken Juji Uke", "attack": "[IT] Right Mae Geri", "defense": "[IT] Both fists Gedan Kosa Uke", "counterAttack": "[IT] Vertical fist Gedan Zuki.", "footwork": "[IT] Right foot steps back into low Shiko Dachi.", "vitalPoints": "[IT] E.g. teeth or [Kinteki] (groin)", "notes": "" },
-        "bunkai6": { "name": "[IT] Gedan Kaishu Juji Uke", "attack": "[IT] Right Mae Geri", "defense": "[IT] Both fists Gedan Kosa Uke", "counterAttack": "[IT] Vertical hand Gedan Nukite.", "footwork": "[IT] Right foot steps back into low Shiko Dachi.", "vitalPoints": "[IT] E.g. teeth or [Yako] (jaw).", "notes": "" },
-        "bunkai7": { "name": "[IT] Mawashi Uke > Awase Zuki", "attack": "[IT] 1. Right Gedan Mae Geri. 2. Right Jodan Oi Zuki.", "defense": "[IT] 1. Gedan Shotei Harai Uke + grab. 2. Open hand Age Uke + grab (Gyaku Sukui Uke)", "counterAttack": "[IT] Awase Zuki Nage (combined punch and throw)", "footwork": "[IT] Step in with Sayu Tenshin turn (45 degrees)", "vitalPoints": "", "notes": "" },
-        "bunkai8": { "name": "[IT] Kami Kiri No Kamae", "attack": "[IT] Right Chudan Gyaku Zuki + Left Jodan Oi Zuki", "defense": "[IT] Left Chudan Yoko Ko Uke + Right Age Ko Uke", "counterAttack": "[IT] Double finger thrust + double palm strike + leg grab throw + downward palm strike.", "footwork": "[IT] First return to Heiko Sanchin (during Yoko Ko Uke), then step in to Shiko Dachi (Age Ko Uke)", "vitalPoints": "[IT] E.g. [Gansei] (eyes), [Inazuma] (temple), [Kinteki] (groin)", "notes": "" }
-      }
-    }
-  },
-  "kata": {
-    "theory": {
-      "title": "[IT] Teoria dei Kata",
-      "description": "[IT] Comprendere i principi e la pratica dei kata"
-    },
-    "levels": {
-      "beginner": "[IT] Principiante",
-      "intermediate": "[IT] Intermedio",
-      "advanced": "[IT] Avanzato",
-      "master": "[IT] Maestro"
-    },
-    "sanchin": {
-      "meaning": "Tre battaglie/conflitti",
-      "description": "Il kata più fondamentale del Goju Ryu. Si concentra sulla corretta respirazione, posizione e tensione in tutto il corpo. Le 'tre battaglie' si riferiscono a mente, corpo e spirito.",
-      "history": "Significa letteralmente 'tre battaglie'. Non si riferisce a un vero combattimento, ma alla lotta interna per rafforzare corpo, mente e spirito attraverso la forza di volontà. Il kata consiste in tecniche lente eseguite con tensione muscolare continua e respirazione addominale profonda. Il Sanchin moderno è una variante sviluppata da Miyagi Chojun sensei (fondatore, 1888-1953) basata sull'originale trasmesso da Higaonna Kanryo sensei. La respirazione nella versione originale era più esplosiva e il corpo ruotava due volte di 180 gradi. Gli studenti avanzati possono essere testati sulla corretta tensione muscolare durante il Sanchin da altri studenti, che verificano l'esecuzione toccando e colpendo alcune parti del corpo. Questo test si chiama shime. Materiale d'esame per gokyu (quinto kyu, cintura verde) e superiore.",
-      "culturalSignificance": "Sanchin è considerato l'essenza del karate Goju Ryu, incarnando i principi di respirazione, posizione e concentrazione che sono centrali nello stile."
-    },
-    "tensho": {
-      "meaning": "Palmi rotanti",
-      "description": "Significa letteralmente 'palmi rotanti'. Questo kata è stato sviluppato da Miyagi Chojun sensei come controparte di Sanchin. Come Sanchin, viene eseguito con respirazione profonda e tensione muscolare generale, ma il suo carattere è molto diverso. Mentre Sanchin è chiuso, angolare e duro (go), Tensho è aperto, aggraziato e morbido (ju), con molte tecniche circolari di mani e polsi. Materiale d'esame per sandan (terzo dan) e superiore.",
-      "history": "Creato da Chojun Miyagi come controparte di Sanchin, Tensho rappresenta l'aspetto morbido e circolare del Goju Ryu.",
-      "culturalSignificance": "Tensho dimostra il lato 'ju' (morbido) del Goju Ryu, completando il 'go' (duro) di Sanchin."
-    },
-    "gekisai-dai-ichi": {
-      "meaning": "Attaccare e distruggere, prima forma",
-      "description": "Uno dei due kata Gekisai creati da Chojun Miyagi per l'educazione fisica nelle scuole. Insegna tecniche fondamentali e schemi di respirazione in un formato più semplice rispetto ai kata più antichi.",
-      "history": "Significa letteralmente 'attaccare e distruggere 1'. Questo nome insolitamente aggressivo per il karate riflette l'epoca in cui Okinawa era un campo di battaglia per le azioni di guerra giapponesi e americane. Il kata è stato sviluppato nel 1940 dal fondatore del Goju-ryu Karate-do di Okinawa, Miyagi Chojun sensei. Consiste in varie combinazioni di tecniche di base semplici, che facilitano l'apprendimento dei kata classici più difficili. Materiale d'esame per kukyu (nono kyu, cintura bianca) e superiore.",
-      "culturalSignificance": "Questo kata faceva parte dello sforzo di Miyagi per rendere popolare il karate e renderlo accessibile a un pubblico più ampio, in particolare alle giovani generazioni."
-    },
-    "gekisai-dai-ni": {
-      "meaning": "Attaccare e distruggere, seconda forma",
-      "description": "Il secondo dei due kata Gekisai. Si basa sulle tecniche di Gekisai Dai Ichi con movimenti aggiuntivi e schemi leggermente più complessi.",
-      "history": "Significa letteralmente 'attaccare e distruggere 2'. Come Gekisai Dai Ichi, sviluppato da Miyagi Chojun sensei per le stesse ragioni. Materiale d'esame per nanakyu (settimo kyu, cintura gialla) e superiore.",
-      "culturalSignificance": "Rappresenta l'evoluzione dell'insegnamento del karate mentre veniva standardizzato per un insegnamento più ampio."
-    },
-    "saifa": {
-      "meaning": "Distruggere e strappare",
-      "description": "Un kata che enfatizza i rapidi cambi di direzione e le tecniche a corta distanza. Contiene movimenti di presa, trazione e strappo progettati per il combattimento ravvicinato.",
-      "history": "Significa qualcosa come 'colpi distruttivi'. 'Sai' significa, come in Gekisai, 'distruggere'. 'Fa' significa, tra le altre cose, 'colpire'. Tipico di Saifa sono le molte tecniche di colpo, come uraken uchi, tettsui uchi e haito uchi. Saifa è il primo kata classico koryu. Il kata è stato trasmesso da Ryu Ryu Ko a Higaonna Kanryo sensei. Rispetto ai kata Gekisai Dai, da Saifa in poi la difficoltà aumenta e compaiono sempre più combinazioni di tecniche di mano e piede che richiedono una buona coordinazione. Materiale d'esame per gokyu (quinto kyu, cintura verde) e superiore.",
-      "culturalSignificance": "Saifa rappresenta l'evoluzione delle tecniche di arti marziali progettate per situazioni pratiche di autodifesa in ambienti affollati."
-    },
-    "seiyunchin": {
-      "meaning": "Controllare e tirare in combattimento",
-      "description": "Un kata focalizzato sul controllo dell'equilibrio e della forza di un avversario. Insegna tecniche per afferrare, tirare e manipolare la forza di un attaccante.",
-      "history": "Significa qualcosa come 'sbilanciare in combattimento'. Questo kata è l'unico kata kaishu senza tecniche di calcio e sottolinea la formazione di posizioni forti e stabili. Il bunkai kumite (applicazioni) consiste in varie tecniche di lotta e proiezione molto adatte al combattimento ravvicinato. Materiale d'esame per sankyu (terzo kyu, cintura marrone) e superiore.",
-      "culturalSignificance": "Questo kata dimostra l'aspetto 'ju' (morbido, flessibile) del Goju Ryu, mostrando come reindirizzare l'energia di un avversario invece di affrontarla direttamente."
-    },
-    "shisochin": {
-      "meaning": "Combattere in quattro direzioni",
-      "description": "Questo kata enfatizza tecniche che possono essere applicate in quattro direzioni, insegnando al praticante a essere consapevole e a difendersi da più avversari.",
-      "history": "Significa letteralmente 'combattere in 4 direzioni'. Un'altra traduzione è '4 porte'. La parola 'porta' è simbolica per il luogo in cui un potenziale avversario può attaccare, può 'entrare'. Il kata contiene una tipica combinazione di attacco, che viene eseguita in quattro direzioni. Materiale d'esame per ikkyu (primo kyu, cintura marrone) e superiore.",
-      "culturalSignificance": "Il kata enfatizza la consapevolezza situazionale e l'importanza di essere preparati alle minacce da tutte le direzioni, un aspetto cruciale della saggezza tradizionale delle arti marziali."
-    },
-    "sanseru": {
-      "meaning": "Trentasei",
-      "description": "Chiamato così per i 36 punti vitali del corpo, questo kata contiene potenti tecniche di colpo mirate a questi punti, oltre a movimenti difensivi.",
-      "history": "I nomi dei kata Sanseru, Sepai, Sesan e Suparinpei sono nomi cinesi. Nella scrittura, la parola 'mani' viene aggiunta a tutti e quattro, ma nel parlato viene omessa, e ad esempio si dice Sanseru invece di Sanseru shu. Questi quattro nomi sono tutti numeri che si riferiscono al simbolismo buddista. Sanseru significa '36 (mani)'. 36 è la moltiplicazione simbolica di 6 * 6. Il primo 6 rappresenta occhio, orecchio, naso, lingua, corpo e mente. Il secondo 6 simboleggia colore, voce, gusto, odore, tatto e giustizia. Materiale d'esame per nidan (secondo dan) e superiore.",
-      "culturalSignificance": "Il numero 36 ha significato in molte tradizioni marziali e filosofiche asiatiche, rappresentando l'armonia tra tecnica fisica e comprensione più profonda."
-    },
-    "sepai": {
-      "meaning": "Diciotto",
-      "description": "Chiamato così per i 18 Arhat (discepoli illuminati del Buddha), questo kata si concentra su tecniche e applicazioni avanzate, inclusi colpi a punti vitali e manipolazioni articolari.",
-      "history": "Significa '18 (mani)'. 18 è la moltiplicazione di 6 x 3. La spiegazione del 6 è la stessa del secondo 6 del kata Sanseru. Il 3 rappresenta buono, cattivo e pace. Sepai, Kururunfa, Sesan e Suparinpei enfatizzano, attraverso la loro alternanza di duro e morbido, di go e ju, di ken e kon, la vera essenza del Goju-ryu Karate-do di Okinawa. Materiale d'esame per sandan (terzo dan) e superiore.",
-      "culturalSignificance": "Il numero 18 ha significato nelle tradizioni marziali buddiste e cinesi, rappresentando diversi aspetti dell'illuminazione e del percorso verso la maestria."
-    },
-    "kururunfa": {
-      "meaning": "Silenzio prima della tempesta",
-      "description": "Un kata che dimostra transizioni rapide tra tecniche morbide e dure, con enfasi sulla potenza esplosiva e sui cambiamenti improvvisi di ritmo.",
-      "history": "Tradotto liberamente come 'silenzio prima della tempesta'. 'Kuru' significa qualcosa come 'persistere' o 'aspettare'. 'Run' nella calligrafia è la pausa o il ritardo nel movimento del pennello prima che venga eseguito un nuovo movimento. 'Fa' significa 'scoppiare'. Il kata contiene molti cambiamenti improvvisi di ritmo e tecniche esplosive. Materiale d'esame per yondan (quarto dan) e superiore.",
-      "culturalSignificance": "Kururunfa incarna il principio dell'azione esplosiva improvvisa dopo la calma, un concetto chiave sia nelle arti marziali che nella filosofia orientale."
-    },
-    "sesan": {
-      "meaning": "Tredici",
-      "description": "Chiamato così per i 13 principi del combattimento, questo kata contiene tecniche per il combattimento sia a corta che a lunga distanza, con enfasi su colpi e calci rapidi.",
-      "history": "Significa '13 (mani)'. Il numero 13 nella cultura cinese rappresenta la fortuna e la prosperità. Il kata Sesan era il kata preferito dal fondatore Miyagi Chojun sensei e dal suo primo allievo di spicco Shinzato Jinan sensei. Materiale d'esame per godan (quinto dan) e superiore.",
-      "culturalSignificance": "Il numero 13 in questo contesto rappresenta la completezza nella teoria marziale piuttosto che la superstizione occidentale della sfortuna."
-    },
-    "suparinpei": {
-      "meaning": "108",
-      "description": "Il kata più lungo e avanzato del sistema Goju Ryu, chiamato così per le 108 impurità dell'uomo nella filosofia buddista. Contiene una raccolta completa di tecniche di tutto il sistema.",
-      "history": "Significa '108 (mani)'. Il numero 108, secondo il simbolismo numerico buddista, è composto dalla moltiplicazione 3 x 36. Il simbolismo del 3 e del 36 è quello dei kata Sanseru e Sepai. 108 si riferisce alle 108 passioni malvagie che, secondo il buddismo, l'uomo possiede. Suparinpei è il kata più avanzato e lungo del curriculum di Okinawa Goju-ryu Karate-do ed è materiale d'esame per rokudan (sesto dan) e superiore.",
-      "culturalSignificance": "Il numero 108 è importante in molte tradizioni orientali, e il kata simboleggia la padronanza dell'intero sistema Goju Ryu."
-    }
+    "about": "Informazioni"
   },
   "history": {
     "title": "Storia",
     "origins": "Origini a Okinawa",
-    "origins-desc": "Il Karate Goju-Ryu è stato sviluppato all'inizio del XX secolo da Chojun Miyagi a Okinawa, in Giappone. Il nome 'Goju' deriva dal principio 'duro-morbido' delle arti marziali cinesi tradizionali, riflettendo la doppia natura del sistema: combina tecniche di colpo dure con movimenti più morbidi e circolari sia per l'attacco che per la difesa.",
+    "origins-desc": "Il karate Goju-Ryu è stato sviluppato a Okinawa, in Giappone, all'inizio del XX secolo da Chojun Miyagi. Il nome 'Goju' deriva dal principio 'duro-morbido' delle arti marziali cinesi tradizionali e riflette il duplice carattere del sistema: combina tecniche di colpo dure con movimenti più morbidi e circolari sia per l'attacco che per la difesa.",
     "development": "Sviluppo",
-    "development-desc": "Lo sviluppo e la diffusione del Goju Ryu in tutto il mondo",
-    "lineage": "Linea dei Maestri",
-    "lineage-desc": "I principali maestri e i loro contributi allo stile",
+    "development-desc": "Lo sviluppo e la diffusione del Goju Ryu nel mondo",
+    "lineage": "Lignaggio dei Maestri",
+    "lineage-desc": "Gli insegnanti più importanti e i loro contributi allo stile",
     "subsections": {
       "early-history": "Storia Antica",
-      "early-history-desc": "Le origini del Goju Ryu risalgono alle arti marziali cinesi e alla loro integrazione nella cultura okinawense.",
-      "miyagi-era": "L'Era di Miyagi",
+      "early-history-desc": "Le radici del Goju Ryu risalgono alle arti marziali cinesi e alla loro integrazione nella cultura di Okinawa.",
+      "miyagi-era": "L'Era Miyagi",
       "miyagi-era-desc": "Lo sviluppo e la sistematizzazione dello stile Goju Ryu da parte di Chojun Miyagi negli anni '20 e '30.",
-      "post-war": "Dopoguerra",
-      "post-war-desc": "L'espansione e lo sviluppo del Goju Ryu dopo la Seconda Guerra Mondiale.",
+      "post-war": "Periodo Post-Bellico",
+      "post-war-desc": "La diffusione e lo sviluppo del Goju Ryu dopo la Seconda Guerra Mondiale.",
       "modern-era": "Era Moderna",
-      "modern-era-desc": "Lo sviluppo attuale e la diffusione mondiale del Goju Ryu."
+      "modern-era-desc": "L'attuale sviluppo e la diffusione mondiale del Goju Ryu."
+    }
+  },
+  "kata": {
+    "theory": {
+      "title": "Teoria del Kata",
+      "description": "Comprendere i principi e la pratica del kata"
+    },
+    "levels": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzato",
+      "master": "Maestro"
+    },
+    "sanchin": {
+      "meaning": "Tre Battaglie/Conflitti",
+      "description": "Il kata più fondamentale del Goju Ryu. Si concentra sulla corretta respirazione, postura e tensione in tutto il corpo. Le 'tre battaglie' si riferiscono alla mente, al corpo e allo spirito.",
+      "history": "Significa letteralmente 'tre battaglie'. Non si riferisce a un combattimento reale, ma alla lotta interiore per temprare corpo, mente e spirito attraverso la forza di volontà. Il kata consiste in tecniche lente eseguite con continua tensione muscolare e profonda respirazione addominale. Il Sanchin moderno è una variante sviluppata da Miyagi Chojun sensei (fondatore, 1888-1953) basata sull'originale tramandatogli da Higaonna Kanryo sensei. La respirazione nella versione originale era più esplosiva e il corpo ruotava di 180 gradi due volte. Gli studenti avanzati possono essere testati sulla corretta tensione muscolare durante Sanchin da altri studenti, che verificano l'esecuzione sentendo e colpendo determinate parti del corpo. Questo test è chiamato shime. Materiale d'esame per gokyu (quinto kyu, cintura verde) e superiori.",
+      "culturalSignificance": "Sanchin è considerato l'essenza del karate Goju Ryu, incarnando i principi di respirazione, postura e concentrazione che sono centrali per la filosofia dello stile."
+    },
+    "tensho": {
+      "meaning": "Palmi Rotanti",
+      "description": "Significa letteralmente 'palmi rotanti'. Questo kata è stato sviluppato da Miyagi Chojun sensei come controparte di Sanchin. Come Sanchin, viene eseguito con respirazione profonda e tensione muscolare generale, ma il suo carattere è piuttosto diverso. Mentre Sanchin è chiuso, spigoloso e duro (go), Tensho è aperto, aggraziato e morbido (ju), con molte tecniche circolari di mano e polso. Materiale d'esame per sandan (terzo dan) e superiori.",
+      "history": "Creato da Chojun Miyagi come controparte di Sanchin, Tensho rappresenta l'aspetto morbido e circolare del Goju Ryu.",
+      "culturalSignificance": "Tensho dimostra il lato 'ju' (morbido) del Goju Ryu, integrando le qualità 'go' (dure) di Sanchin."
+    },
+    "gekisai-dai-ichi": {
+      "meaning": "Attaccare e Distruggere, Prima Forma",
+      "description": "Uno dei due kata Gekisai creati da Chojun Miyagi per l'educazione fisica nelle scuole. Insegna tecniche fondamentali e schemi di respirazione in un formato più semplice rispetto ai kata più vecchi.",
+      "history": "Significa letteralmente 'attaccare e distruggere 1'. Questo nome insolitamente aggressivo per il karate riflette l'epoca in cui Okinawa era un campo di battaglia per le azioni di guerra tra Giappone e Stati Uniti. Il kata è stato sviluppato nel 1940 dal fondatore del Goju-ryu Karate-do di Okinawa, Miyagi Chojun sensei. Consiste in varie combinazioni di semplici tecniche di base, che facilitano l'apprendimento dei successivi e più difficili kata koryu classici. Materiale d'esame per kukyu (nono kyu, cintura bianca) e superiori.",
+      "culturalSignificance": "Questo kata faceva parte dello sforzo di Miyagi per rendere popolare il karate e renderlo accessibile a un pubblico più ampio, in particolare alle giovani generazioni."
+    },
+    "gekisai-dai-ni": {
+      "meaning": "Attaccare e Distruggere, Seconda Forma",
+      "description": "Il secondo dei due kata Gekisai. Si basa sulle tecniche di Gekisai Dai Ichi con movimenti aggiuntivi e schemi leggermente più complessi.",
+      "history": "Significa letteralmente 'attaccare e distruggere 2'. Come Gekisai Dai Ichi, è stato sviluppato da Miyagi Chojun sensei per le stesse ragioni. Materiale d'esame per nanakyu (settimo kyu, cintura gialla) e superiori.",
+      "culturalSignificance": "Rappresenta l'evoluzione dell'istruzione del karate man mano che veniva standardizzata per applicazioni didattiche più ampie."
+    },
+    "saifa": {
+      "meaning": "Distruggere e Lacerare",
+      "description": "Un kata che enfatizza i rapidi cambi di direzione e le tecniche a corta distanza. Contiene movimenti di presa, trazione e lacerazione progettati per il combattimento ravvicinato.",
+      "history": "Significa qualcosa come 'colpi distruttivi'. 'Sai' significa, come in Gekisai, 'distruggere'. 'Fa' significa, tra le altre cose, 'colpire'. Tipiche di Saifa sono le numerose tecniche di colpo, come uraken uchi, tettsui uchi e haito uchi. Saifa è il primo kata koryu classico. Il kata è stato trasmesso da Ryu Ryu Ko a Higaonna Kanryo sensei. Rispetto al kata Gekisai Dai, da Saifa in poi la difficoltà aumenta e compaiono sempre più combinazioni di tecniche di mano e piede, che richiedono una buona coordinazione. Materiale d'esame per gokyu (quinto kyu, cintura verde) e superiori.",
+      "culturalSignificance": "Saifa rappresenta l'evoluzione delle tecniche di arti marziali progettate per situazioni pratiche di autodifesa in ambienti affollati."
+    },
+    "seiyunchin": {
+      "meaning": "Controllare e Tirare in Battaglia",
+      "description": "Un kata focalizzato sul controllo dell'equilibrio e della potenza di un avversario. Insegna tecniche per afferrare, tirare e manipolare la forza di un attaccante.",
+      "history": "Significa qualcosa come 'squilibrare in battaglia'. Questo kata è l'unico kata kaishu senza tecniche di calcio e sottolinea la formazione di posizioni forti e stabili. I bunkai kumite (applicazioni) consistono in varie tecniche di lotta e proiezione molto adatte al combattimento ravvicinato. Materiale d'esame per sankyu (terzo kyu, cintura marrone) e superiori.",
+      "culturalSignificance": "Questo kata dimostra l'aspetto 'ju' (morbido, cedevole) del Goju Ryu, mostrando come reindirizzare l'energia di un avversario invece di affrontarla direttamente."
+    },
+    "shisochin": {
+      "meaning": "Combattere in Quattro Direzioni",
+      "description": "Questo kata enfatizza tecniche che possono essere applicate in quattro direzioni, insegnando al praticante a essere consapevole e a difendersi da più attaccanti.",
+      "history": "Significa letteralmente 'combattimento in 4 direzioni'. Un'altra traduzione è '4 porte'. La parola porta è una parola simbolica per il luogo in cui un potenziale avversario può lanciare un attacco, può 'entrare'. Il kata contiene una tipica combinazione di attacco, che viene eseguita in quattro direzioni. Materiale d'esame per ikkyu (primo kyu, cintura marrone) e superiori.",
+      "culturalSignificance": "Il kata sottolinea la consapevolezza situazionale e l'importanza di essere preparati alle minacce da tutte le direzioni, un aspetto cruciale della saggezza marziale tradizionale."
+    },
+    "sanseru": {
+      "meaning": "Trentasei",
+      "description": "Chiamato così per i 36 punti vitali del corpo, questo kata contiene potenti tecniche di colpo mirate a questi punti, così come movimenti difensivi.",
+      "history": "I nomi dei kata Sanseru, Sepai, Sesan e Suparinpei sono nomi cinesi. Nella lingua scritta, la parola 'mani' viene aggiunta dopo i 4, ma questa viene omessa nella lingua parlata, e ad esempio si dice Sanseru invece di Sanseru shu. Questi 4 nomi sono tutti numeri che si riferiscono al simbolismo buddista. Quindi, Sanseru significa '36 (mani)'. 36 è la moltiplicazione simbolica di 6 * 6. Il primo 6 rappresenta occhio, orecchio, naso, lingua, corpo e mente. Il secondo 6 simboleggia colore, voce, gusto, olfatto, tatto e giustizia. Materiale d'esame per nidan (secondo dan) e superiori.",
+      "culturalSignificance": "Il numero 36 ha un significato in molte arti marziali e tradizioni filosofiche asiatiche, rappresentando l'armonia tra la tecnica fisica e una comprensione più profonda."
+    },
+    "sepai": {
+      "meaning": "Diciotto",
+      "description": "Rappresentando il numero 18, questo kata è caratterizzato dai suoi movimenti circolari e dalle tecniche per deviare e reindirizzare la forza di un avversario.",
+      "history": "Sepai significa '18 (mani)'. 18 è la moltiplicazione simbolica di 6 * 3. Il primo 6 rappresenta occhio, orecchio, naso, lingua, corpo e mente. Il 3 simboleggia il bene, il male e la pace. Materiale d'esame per shodan (primo dan) e superiori.",
+      "culturalSignificance": "Il numero 18 è significativo anche nella filosofia buddista, spesso associato ai 18 Lohan (Arhat), discepoli illuminati di Buddha."
+    },
+    "kururunfa": {
+      "meaning": "Tenere e Colpire Improvvisamente",
+      "description": "Un kata che insegna tecniche per rompere l'equilibrio di un avversario e colpire con velocità e precisione. Implica il combattimento a corta distanza e la manipolazione delle articolazioni.",
+      "history": "Kururunfa significa 'tenere a lungo e colpire improvvisamente'. Questo kata è caratterizzato dai suoi movimenti ingannevoli e dalle rapide transizioni tra difesa e attacco. Materiale d'esame per sandan (terzo dan) e superiori.",
+      "culturalSignificance": "Questo kata incarna il principio del 'muchimi' (mani appiccicose), sottolineando la sensibilità e la reattività nel combattimento ravvicinato."
+    },
+    "sesan": {
+      "meaning": "Tredici",
+      "description": "Rappresentando il numero 13, questo kata è una delle forme più antiche e tradizionali del Goju Ryu, con tecniche potenti e dirette.",
+      "history": "Sesan significa '13 (mani)'. Anche questo è un numero simbolico. Questo kata è caratterizzato dai suoi movimenti potenti e diretti e dalla sua enfasi sul combattimento ravvicinato. Materiale d'esame per yondan (quarto dan) e superiori.",
+      "culturalSignificance": "Sesan è considerato un kata fondamentale del Goju Ryu, che preserva tecniche e principi antichi."
+    },
+    "suparinpei": {
+      "meaning": "Centootto",
+      "description": "Il kata più lungo e avanzato del sistema Goju Ryu, Suparinpei (che significa 108) contiene una vasta gamma di tecniche e incarna tutti i principi dello stile.",
+      "history": "Suparinpei significa '108 (mani)'. Anche questo è un numero simbolico, basato sulla moltiplicazione 3 * 36. Il 3 simboleggia passato, presente e futuro. Il 36 si riferisce a Sanseru. Questo kata è il più lungo e avanzato del Goju Ryu e contiene una vasta gamma di tecniche. Materiale d'esame per godan (quinto dan) e superiori.",
+      "culturalSignificance": "Il numero 108 ha un profondo significato nel buddismo e in altre filosofie orientali, rappresentando spesso la totalità o la completezza dell'esistenza. Suparinpei è considerato l'apice dei kata Goju Ryu."
+    }
+  },
+  "philosophy": {
+    "title": "Filosofia",
+    "description": "Principi e valori fondamentali del Goju Ryu",
+    "sections": {
+      "dojo-kun": "Dojo Kun (Regole della Sala di Allenamento)",
+      "goju-ryu": "Il Significato di Goju-Ryu",
+      "karate-do": "La Via del Karate (Karate-Do)",
+      "mind-body": "Connessione Mente-Corpo",
+      "respect": "Rispetto nelle Arti Marziali"
+    }
+  },
+  "bunkai": {
+    "title": "Bunkai",
+    "description": "Applicazione e analisi delle tecniche di kata",
+    "overview": "Panoramica",
+    "details": {
+      "attack": "Attacco",
+      "defense": "Difesa",
+      "counterAttack": "Contrattacco",
+      "footwork": "Gioco di Piedi",
+      "vitalPoints": "Punti Vitali",
+      "notes": "Note Importanti"
+    },
+    "kata": {
+      "gekisaiDaiIchi": {
+        "title": "Bunkai di Gekisai Dai Ichi",
+        "description": "Significa letteralmente 'attaccare e distruggere 1'. Questo nome insolitamente aggressivo per il karate riflette l'epoca in cui Okinawa era un campo di battaglia per le azioni di guerra tra Giappone e Stati Uniti. Il kata è stato sviluppato nel 1940 dal fondatore del Goju-ryu Karate-do di Okinawa, Miyagi Chojun sensei. Consiste in varie combinazioni di semplici tecniche di base, che facilitano l'apprendimento dei successivi e più difficili kata koryu classici.",
+        "bunkai1": {
+          "name": "Jodan Age Uke + Jodan Oi Zuki",
+          "attack": "Jodan Oi Zuki.",
+          "defense": "Jodan Age Uke.",
+          "counterAttack": "Jodan Oi Zuki.",
+          "footwork": "Passo diagonale di 45° all'indietro in Heiko Sanchin Dachi + cambio di piede (interno-esterno).",
+          "vitalPoints": "Es. Occhio [Seimo], [Gansei] o [Kasumi].",
+          "notes": "Mantenere sempre Zanshin. Questo vale per tutti i bunkai!"
+        },
+        "bunkai2": {
+          "name": "Gedan Harai Uke",
+          "attack": "Gedan Oi Zuki.",
+          "defense": "Gedan Harai Uke (come colpo e parata contemporaneamente).",
+          "counterAttack": "Parata = attacco.",
+          "footwork": "Passo laterale verso l'esterno in Shiko Dachi.",
+          "vitalPoints": "Gomito [Soto Hijitsume].",
+          "notes": "Durante l'allenamento con contatto duro, non attaccare il punto vitale [Hijitsume] ma l'avambraccio!"
+        },
+        "bunkai3": {
+          "name": "Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Yoko Uke.",
+          "counterAttack": "Gedan Mae Geri + Chudan Hiji Ate + Jodan Uraken Uchi.",
+          "footwork": "Sayu Tenshin + dopo Mae Geri passo avanti in Zenkutsu Dachi.",
+          "vitalPoints": "Es. [Kinteki] (Mae Geri) + [Ganka] o [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
+          "notes": "Il calcio frontale basso viene eseguito con la pianta del piede, la parte anteriore della caviglia o la tibia a seconda della distanza. L'attaccante schiva il Chudan Hiji Ate con un Suri Ashi all'indietro."
+        },
+        "bunkai4": {
+          "name": "Gedan Harai Uke + Chudan Gyaku Zuki",
+          "attack": "Gedan Oi Zuki.",
+          "defense": "Gedan Harai Uke.",
+          "counterAttack": "Chudan Gyaku Zuki.",
+          "footwork": "Passo indietro in diagonale.",
+          "vitalPoints": "Es. [Ganka].",
+          "notes": "Gli studenti avanzati (dalla cintura marrone) devono praticare la parata e il contrattacco come un unico movimento. Anche gli ultimi due Bunkai Kumite devono essere allenati come un'unica unità dagli studenti avanzati."
+        },
+        "bunkai5": {
+          "name": "Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Chudan Yoko Uke + Tsukkami (= presa).",
+          "counterAttack": "Ashi Barai + Yoko Shuto Uchi + Fumikomi Geri.",
+          "footwork": "Sayu Tenshin con rotazione di 45 gradi.",
+          "vitalPoints": "Es. [Jinchu] o pomo d'Adamo [Nodo Botoku] (Yoko Shuto Uchi) + collo (Fumikomi Geri).",
+          "notes": "Riportare rapidamente il piede dopo Ashi Barai per evitare che l'avversario attacchi la tua gamba. Per la sicurezza dell'avversario, lo Yoko Shuto Uchi non viene eseguito come un colpo a un Kyusho, ma piuttosto come una spinta al petto e alla spalla. Il Fumikomi Geri può essere eseguito con entrambe le gambe, a seconda di come cade l'avversario. Tuttavia, nel Kata è la stessa gamba usata per la spazzata. I karateka avanzati possono anche fare un passo irimi e spazzare l'avversario da distanza ravvicinata. In questa variante avanzata, il gomito è anche bloccato sul petto."
+        },
+        "bunkai6": {
+          "name": "Awase Zuki",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Nagashi Seiken Ura Uke (variante di Chudan Yoko Uke).",
+          "counterAttack": "Awase Zuki + Awase Oshi.",
+          "footwork": "Sayu Tenshin + passo in Zenkutsu Dachi.",
+          "vitalPoints": "Es. [Ganka] (Gyaku Zuki) e [Inazuma] (Ura Zuki).",
+          "notes": "L'attacco deve essere intercettato presto. L'Awase Zuki deve prima essere focalizzato potentemente prima di continuare come una spinta. Per fare ciò, devi prima rilassarti verso l'interno e verso il basso e far entrare il respiro. L'Awase Zuki è una versione miniaturizzata, a mano chiusa, del Tora Guchi."
+        }
+      },
+      "gekisaiDaiNi": {
+        "title": "Bunkai di Gekisai Dai Ni",
+        "description": "Significa letteralmente 'attaccare e distruggere 2'. Come Gekisai Dai Ichi, è stato sviluppato da Miyagi Chojun sensei per le stesse ragioni. Il kata consiste in varie combinazioni di semplici tecniche di base, che facilitano l'apprendimento dei successivi e più difficili kata koryu classici.",
+        "bunkai1": {
+          "name": "Hiki Uke",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Hiki Uke + presa con 'Sukui Uke'.",
+          "counterAttack": "Presa alla gola.",
+          "footwork": "Sayu Tenshin + Suri Ashi in avanti.",
+          "vitalPoints": "Es. pomo d'Adamo [Nodo Botoke] e/o arteria carotide [Matsukaze].",
+          "notes": "Hiki Uke è una parata a trazione. Il braccio dell'attaccante viene tirato oltre il proprio corpo, mentre contemporaneamente si fa un passo avanti e si afferra la gola. Questo può anche essere visto come una parata 'invitante': tirando il braccio oltre, si invita l'avversario ad avvicinarsi per poi contrattaccare efficacemente."
+        },
+        "bunkai2": {
+          "name": "Kake Uke + Mae Geri + Hiji Ate + Uraken Uchi",
+          "attack": "Chudan Oi Zuki.",
+          "defense": "Kake Uke.",
+          "counterAttack": "Mae Geri + Hiji Ate + Uraken Uchi.",
+          "footwork": "Passo avanti con Mae Geri e poi in Zenkutsu Dachi per Hiji Ate e Uraken Uchi.",
+          "vitalPoints": "Inguine [Kinteki] (Mae Geri), Plesso Solare [Suigetsu] o Costole [Denko] (Hiji Ate), Tempia [Kasumi] o Filtro [Jinchu] (Uraken Uchi).",
+          "notes": "Kake Uke è una parata a gancio. Viene spesso usata per controllare il braccio dell'avversario. Dopo la parata, viene sferrato un calcio frontale, seguito da un colpo di gomito e un colpo di rovescio. Assicurare transizioni fluide tra le tecniche."
+        },
+        "bunkai3": {
+          "name": "Mawashi Uke",
+          "attack": "Jodan Oi Zuki seguito da Chudan Gyaku Zuki.",
+          "defense": "Mawashi Uke (parata circolare).",
+          "counterAttack": "Potenziale di parata e colpo simultanei all'interno di Mawashi Uke.",
+          "footwork": "Mantenere Sanchin Dachi stabile o adattare secondo necessità per l'equilibrio.",
+          "vitalPoints": "Dipende dall'applicazione specifica all'interno di Mawashi Uke; potrebbe mirare a viso, costole o plesso solare.",
+          "notes": "Mawashi Uke è una parata circolare versatile che può difendere da più attacchi o essere usata per preparare un contrattacco. Incarna l'aspetto 'morbido' del Goju-Ryu, reindirizzando la forza invece di affrontarla direttamente."
+        }
+      },
+      "saifa": {
+        "title": "Bunkai di Saifa",
+        "description": "'Distruggere e Lacerare'. Saifa enfatizza il combattimento a corta distanza con tecniche di trazione, colpo e manipolazione delle articolazioni. È noto per i suoi movimenti potenti e decisi.",
+        "bunkai1": {
+          "name": "Doppia Gedan Barai + Doppia Jodan Uke",
+          "attack": "Attacchi bassi e alti simultanei (es., Gedan Mae Geri e Jodan Oi Zuki).",
+          "defense": "Doppia Gedan Barai per coprire l'attacco basso, seguita da Doppia Jodan Uke per l'attacco alto.",
+          "counterAttack": "Transizioni a vari colpi a seconda della reazione dell'avversario.",
+          "footwork": "Posizione stabile, spesso Neko Ashi Dachi o Sanchin Dachi, con rapidi spostamenti.",
+          "vitalPoints": "Possibili bersagli multipli dopo la difesa, come plesso solare, costole, viso.",
+          "notes": "Questa sequenza dimostra la difesa contro minacce multiple simultanee. Concentrarsi sulla coordinazione del corpo e sulla rapida transizione tra le parate."
+        },
+        "bunkai2": {
+          "name": "Haito Uchi + Hiza Geri",
+          "attack": "L'avversario tenta di afferrare o colpire.",
+          "defense": "Parata o blocco che porta a Haito Uchi (colpo di taglio di mano).",
+          "counterAttack": "Haito Uchi al collo o alla clavicola, seguito da Hiza Geri (ginocchiata) alle costole o alla coscia.",
+          "footwork": "Spesso comporta un passo per ridurre la distanza per una ginocchiata efficace.",
+          "vitalPoints": "Collo [Keichu], Clavicola [Sakotsu], Costole [Denko], Coscia [Fukuto].",
+          "notes": "Haito Uchi è un colpo potente che usa il taglio della mano. L'Hiza Geri aggiunge un forte seguito, tipico dell'enfasi di Saifa sul combattimento ravvicinato."
+        }
+      },
+      "seiyunchin": {
+        "title": "Bunkai di Seiyunchin",
+        "description": "'Controllare e Tirare in Battaglia'. Seiyunchin si concentra su tecniche per squilibrare e controllare un avversario, spesso usando movimenti di trazione e presa. È degno di nota per l'assenza di calci e per le sue posizioni forti e basse.",
+        "bunkai1": {
+          "name": "Tirare e Colpire in Shiko Dachi",
+          "attack": "L'avversario afferra il polso o il bavero.",
+          "defense": "Assicurare la mano che afferra dell'avversario, abbassarsi in Shiko Dachi (posizione del cavaliere) mentre si tira l'avversario per squilibrarlo.",
+          "counterAttack": "Colpire un'area vulnerabile (es., viso, costole) con la mano libera.",
+          "footwork": "Shiko Dachi forte e basso per generare potenza e stabilità.",
+          "vitalPoints": "Viso [Tento, Jinchu], Costole [Denko], Plesso Solare [Suigetsu].",
+          "notes": "Questo bunkai enfatizza l'uso del peso corporeo e della posizione per controllare un avversario più forte. La trazione e il colpo vengono eseguiti simultaneamente."
+        },
+        "bunkai2": {
+          "name": "Nage Waza (Tecnica di Proiezione)",
+          "attack": "L'avversario attacca con un pugno o una presa.",
+          "defense": "Bloccare o parare, quindi assicurare una presa sull'avversario (es., braccio e collo).",
+          "counterAttack": "Eseguire una proiezione squilibrando l'avversario e usando l'anca o la gamba per spazzare/sollevare.",
+          "footwork": "Richiede un gioco di piedi preciso per entrare, squilibrare ed eseguire la proiezione efficacemente.",
+          "vitalPoints": "N/D per la proiezione stessa, ma le tecniche di seguito possono mirare a punti vitali.",
+          "notes": "Seiyunchin contiene molte proiezioni e atterramenti impliciti. Questo bunkai rappresenta un'applicazione comune. Il controllo è fondamentale, sia nella proiezione che nel potenziale seguito."
+        }
+      },
+      "shisochin": {
+        "title": "Bunkai di Shisochin",
+        "description": "'Combattere in Quattro Direzioni'. Shisochin insegna la difesa contro più avversari ed enfatizza tecniche a mano aperta, leve articolari e colpi ai punti vitali.",
+        "bunkai1": {
+          "name": "Parata e Colpo a Mano Aperta",
+          "attack": "Pugno diretto (es., Jodan Oi Zuki).",
+          "defense": "Parare con la mano aperta, reindirizzando il braccio dell'avversario.",
+          "counterAttack": "Colpo simultaneo con l'altra mano (es., Nukite - mano a lancia) alla gola o agli occhi.",
+          "footwork": "Spesso comporta un'angolazione fuori dalla linea di attacco (Tenshin).",
+          "vitalPoints": "Gola [Nodo Botoke], Occhi [Gansei].",
+          "notes": "Shisochin fa ampio uso di tecniche a mano aperta. Questo bunkai mostra una comune applicazione di parata e colpo. La precisione è cruciale quando si mirano a piccoli punti vitali."
+        },
+        "bunkai2": {
+          "name": "Leva Articolare e Atterramento",
+          "attack": "L'avversario afferra il polso.",
+          "defense": "Assicurare la mano dell'avversario, applicare una leva al polso (es., Kote Gaeshi).",
+          "counterAttack": "Usare la leva articolare per portare l'avversario a terra.",
+          "footwork": "Implica un movimento del corpo per applicare efficacemente la leva per la leva e l'atterramento.",
+          "vitalPoints": "Articolazione del polso (per la leva). Le tecniche di seguito possono mirare a vari punti.",
+          "notes": "Le leve articolari (Kansetsu Waza) sono una caratteristica di Shisochin. Questo bunkai dimostra un'applicazione tipica che porta a un atterramento, consentendo il controllo o una tecnica di finalizzazione."
+        }
+      },
+      "sanseru": {
+        "title": "Bunkai di Sanseru",
+        "description": "'Trentasei'. Sanseru coinvolge tecniche che attaccano i 36 punti vitali. È caratterizzato da movimenti dinamici e colpi potenti.",
+        "bunkai1": {
+          "name": "Combinazione di Triplo Colpo",
+          "attack": "L'avversario avanza o attacca.",
+          "defense": "Parata iniziale o schivata che porta alla combinazione.",
+          "counterAttack": "Una rapida sequenza di tre colpi, spesso mirati a diversi livelli (es., calcio basso, pugno al corpo, colpo al viso).",
+          "footwork": "Passi dinamici per sferrare i colpi efficacemente e mantenere l'equilibrio.",
+          "vitalPoints": "I bersagli variano con i colpi specifici, es., Inguine [Kinteki], Costole [Denko], Mento [Mikazuki].",
+          "notes": "Sanseru presenta molte combinazioni di colpi potenti e diretti. Questo bunkai esemplifica una tale sequenza, enfatizzando la velocità e il puntamento dei punti vitali."
+        },
+        "bunkai2": {
+          "name": "Difesa Contro Presa e Colpo",
+          "attack": "L'avversario afferra e tenta di colpire.",
+          "defense": "Rompere la presa dell'avversario mentre si blocca o si schiva simultaneamente il colpo in arrivo.",
+          "counterAttack": "Contrattacco immediato a un punto vulnerabile (es., gomitata alle costole, pugno al viso).",
+          "footwork": "Spostamento del peso corporeo e angolazione per creare aperture per il contrattacco.",
+          "vitalPoints": "Costole [Denko], Viso [Jinchu, Kasumi], Plesso Solare [Suigetsu].",
+          "notes": "Questo bunkai dimostra l'autodifesa pratica contro uno scenario di attacco comune. I movimenti sono progettati per essere efficienti e decisivi."
+        }
+      }
+    }
+  },
+  "categories": {
+    "techniques_name": "Tecniche",
+    "techniques_description": "Impara le tecniche fondamentali del Goju Ryu, incluse posizioni, parate, colpi e calci",
+    "kata_name": "Kata",
+    "kata_description": "Esplora le forme tradizionali del Goju Ryu con istruzioni dettagliate e video",
+    "history_name": "Storia",
+    "history_description": "Scopri la ricca storia e il lignaggio del Karate Goju Ryu",
+    "philosophy_name": "Filosofia",
+    "philosophy_description": "Comprendi i principi e la filosofia alla base della pratica del Goju Ryu"
+  },
+  "media": {
+    "vitalPointsFrontView": {
+      "title": "Punti Vitali - Vista Frontale",
+      "description": "Diagramma completo che mostra i punti vitali sulla parte anteriore del corpo umano"
+    },
+    "vitalPointsBackView": {
+      "title": "Punti Vitali - Vista Posteriore",
+      "description": "Diagramma completo che mostra i punti vitali sulla parte posteriore del corpo umano"
+    },
+    "references": {
+      "vitalPointsFrontContext": "Il corpo umano contiene numerosi punti vitali che possono essere bersagliati nelle tecniche di arti marziali. Il diagramma seguente mostra i punti chiave dalla vista frontale.",
+      "vitalPointsBackContext": "La vista posteriore mostra ulteriori punti vitali che è importante comprendere nella pratica delle arti marziali."
     }
   }
 } 

@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Loader2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 // Memoize the language button to prevent unnecessary re-renders
 const LanguageButton = React.memo(({ 
@@ -42,6 +43,7 @@ const LanguageButton = React.memo(({
 
 export const LanguageSelector = React.memo(() => {
   const { language, setLanguage, supportedLanguages, loadingTranslations } = useLanguage();
+  const { t } = useTranslation();
 
   const handleLanguageSelect = useCallback((code: string) => {
     setLanguage(code as any);
@@ -49,7 +51,7 @@ export const LanguageSelector = React.memo(() => {
 
   return (
     <Card className="p-4">
-      <h3 className="text-lg font-semibold mb-4">Language</h3>
+      <h3 className="text-lg font-semibold mb-4">{t('settings.language.title')}</h3>
       <div className="flex flex-col gap-2">
         {Object.entries(supportedLanguages).map(([code, name]) => (
           <LanguageButton

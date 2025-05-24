@@ -1,6 +1,7 @@
 import React from 'react';
 import { Dialog, DialogContent } from '@/components/ui/dialog';
-import { mediaItems } from '@/data/media';
+import { getMediaItems } from '@/data/media';
+import { useTranslation } from 'react-i18next';
 
 interface MediaManagerProps {
   mediaId: string;
@@ -8,6 +9,8 @@ interface MediaManagerProps {
 }
 
 const MediaManager: React.FC<MediaManagerProps> = ({ mediaId, onClose }) => {
+  const { t } = useTranslation();
+  const mediaItems = getMediaItems(t);
   const mediaItem = mediaItems.find(item => item.id === mediaId);
 
   if (!mediaItem) {

@@ -18,9 +18,14 @@
     "settings": "Instellingen"
   },
   "home": {
-    "welcome": "Welkom bij Goju Ryu Wiki",
-    "description": "Ontdek de kunst van Goju Ryu Karate",
-    "getStarted": "Begin"
+    "welcome": "[NL] Welcome to Goju Ryu Wiki",
+    "description": "[NL] Discover the art of Goju Ryu Karate",
+    "getStarted": "[NL] Get Started",
+    "heroSubtitle": "[NL] Goju Ryu Karate-Do",
+    "heroTagline": "[NL] The Hard and Soft Way of the Empty Hand",
+    "introTitle": "[NL] The Way of Goju Ryu",
+    "introText": "[NL] Goju Ryu (剛柔流) is one of the main traditional Okinawan styles of karate, featuring a combination of hard and soft techniques. Developed by Chojun Miyagi in the early 20th century, this martial art emphasizes both strength and fluidity in movement.",
+    "studyAreasTitle": "[NL] Study Areas"
   },
   "theory": {
     "title": "Theorie",
@@ -273,7 +278,7 @@
   },
   "bunkai": {
     "title": "Bunkai",
-    "description": "Toepassing en analyse van kata technieken",
+    "description": "Toepassing en analyse van kata-technieken",
     "overview": "Overzicht",
     "details": {
       "attack": "Aanval",
@@ -717,5 +722,15 @@
         }
       }
     }
+  },
+  "categories": {
+    "techniques_name": "[NL] Techniques",
+    "techniques_description": "[NL] Learn fundamental Goju Ryu techniques including stances, blocks, strikes, and kicks",
+    "kata_name": "[NL] Kata",
+    "kata_description": "[NL] Explore the traditional forms of Goju Ryu with detailed instructions and videos",
+    "history_name": "[NL] History",
+    "history_description": "[NL] Discover the rich history and lineage of Goju Ryu Karate",
+    "philosophy_name": "[NL] Philosophy",
+    "philosophy_description": "[NL] Understand the principles and philosophy behind Goju Ryu practice"
   }
 } 

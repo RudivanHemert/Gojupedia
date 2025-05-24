@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
+import MobileLayout from '@/components/layout/MobileLayout';
 
 const PhilosophyPage = () => {
   const { t } = useTranslation();
@@ -17,33 +18,35 @@ const PhilosophyPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
-      <TheoryHeader 
-        title={t('philosophy.title')}
-        description={t('philosophy.description')}
-      />
-      <div className="p-4">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
-        >
-          <Accordion type="single" collapsible className="w-full">
-            {sections.map((section) => (
-              <AccordionItem key={section.id} value={section.id}>
-                <AccordionTrigger>
-                  {t(`philosophy.sections.${section.id}`)}
-                </AccordionTrigger>
-                <AccordionContent>
-                  {section.content && <MarkdownRenderer markdownContent={section.content} />}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </motion.div>
+    <MobileLayout hideHeader={true}>
+      <div className="min-h-screen bg-white">
+        <TheoryHeader 
+          title={t('philosophy.title')}
+          description={t('philosophy.description')}
+        />
+        <div className="p-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="max-w-4xl mx-auto"
+          >
+            <Accordion type="single" collapsible className="w-full">
+              {sections.map((section) => (
+                <AccordionItem key={section.id} value={section.id}>
+                  <AccordionTrigger>
+                    {t(`philosophy.sections.${section.id}`)}
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    {section.content && <MarkdownRenderer markdownContent={section.content} />}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </motion.div>
+        </div>
       </div>
-    </div>
+    </MobileLayout>
   );
 };
 

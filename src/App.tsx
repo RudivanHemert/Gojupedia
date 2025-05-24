@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect, ReactNode } from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/ThemeContext";
-import { I18nextProvider } from 'react-i18next';
+import { I18nextProvider, useTranslation } from 'react-i18next';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import i18n from '@/i18n';
 import Index from "./pages/Index";
@@ -31,6 +31,7 @@ import SettingsPage from "./pages/SettingsPage";
 import MobileLayout from '@/components/layout/MobileLayout';
 import SubNavigation from '@/components/layout/SubNavigation';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
+import PhilosophyPage from './pages/PhilosophyPage';
 
 // Re-add imports for the general Hojo Undo pages
 import GeneralIntro from './pages/hojo-undo/GeneralIntro';
@@ -56,7 +57,6 @@ const queryClient = new QueryClient({
   }
 });
 
-// Memoize the AppContent to prevent unnecessary re-renders
 const AppContent = React.memo(() => {
   const location = useLocation();
   
@@ -68,7 +68,7 @@ const AppContent = React.memo(() => {
         <Route path="/theory" element={<TheoryPage />} />
         <Route path="/terminology" element={<TerminologyPage />} />
         <Route path="/history" element={<HistoryPage />} />
-        <Route path="/philosophy" element={<MarkdownContentPage />} />
+        <Route path="/philosophy" element={<PhilosophyPage />} />
         <Route path="/vital-points" element={<VitalPointsPage />} />
         <Route path="/theory/kata" element={<KataTheoryPage />} />
         <Route path="/practice" element={<PracticePage />} />
@@ -97,9 +97,7 @@ const AppContent = React.memo(() => {
   );
 });
 
-// Memoize the providers wrapper to prevent unnecessary re-renders
 const Providers = React.memo(({ children }: { children: React.ReactNode }) => {
-  // Memoize the providers to prevent unnecessary re-renders
   const providers = React.useMemo(() => (
     <QueryClientProvider client={queryClient}>
       <I18nextProvider i18n={i18n}>
@@ -117,32 +115,41 @@ const Providers = React.memo(({ children }: { children: React.ReactNode }) => {
   return providers;
 });
 
-// Error boundary to catch and handle errors
-class ErrorBoundary extends React.Component<
-  { children: React.ReactNode },
-  { hasError: boolean }
-> {
-  constructor(props: { children: React.ReactNode }) {
-    super(props);
-    this.state = { hasError: false };
-  }
-
-  static getDerivedStateFromError() {
-    return { hasError: true };
-  }
-
-  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    console.error('Error caught by boundary:', error, errorInfo);
-  }
-
-  render() {
-    if (this.state.hasError) {
-      return <div>Something went wrong. Please refresh the page.</div>;
-    }
-
-    return this.props.children;
-  }
+interface ErrorBoundaryProps {
+  children: ReactNode;
 }
+
+const ErrorBoundary: React.FC<ErrorBoundaryProps> = ({ children }) => {
+  const [hasError, setHasError] = useState(false);
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    const errorHandler = (error: ErrorEvent) => {
+      console.error('Error caught by boundary:', error.error, error.message);
+      setHasError(true);
+    };
+
+    window.addEventListener('error', errorHandler);
+    window.addEventListener('unhandledrejection', event => {
+      console.error('Unhandled rejection caught by boundary:', event.reason);
+      setHasError(true);
+    });
+
+    return () => {
+      window.removeEventListener('error', errorHandler);
+      window.removeEventListener('unhandledrejection', event => {
+        console.error('Unhandled rejection caught by boundary:', event.reason);
+        setHasError(true);
+      });
+    };
+  }, []);
+
+  if (hasError) {
+    return <div>{t('common.errorBoundary')}</div>;
+  }
+
+  return <>{children}</>;
+};
 
 const App = () => (
   <ErrorBoundary>

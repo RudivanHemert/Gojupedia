@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Swords, User, Scroll, Brain, ChevronRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
+import { useTranslation } from 'react-i18next';
 
 // Map category IDs to their corresponding icons
 const categoryIcons: Record<string, React.ReactNode> = {
@@ -20,6 +21,7 @@ const Index = () => {
   const { scrollY } = useScroll();
   const headerOpacity = useTransform(scrollY, [0, 100], [1, 0.8]);
   const headerScale = useTransform(scrollY, [0, 100], [1, 0.95]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     setMounted(true);
@@ -85,7 +87,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Goju Ryu Karate-Do
+            {t('home.heroSubtitle')}
           </motion.p>
           <motion.p 
             className="text-gray-600 text-sm"
@@ -93,7 +95,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            The Hard and Soft Way of the Empty Hand
+            {t('home.heroTagline')}
           </motion.p>
         </motion.div>
       </motion.div>
@@ -122,7 +124,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            The Way of Goju Ryu
+            {t('home.introTitle')}
           </motion.h2>
           <motion.p 
             className="text-gray-700 leading-relaxed text-center text-lg"
@@ -130,10 +132,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
           >
-            Goju Ryu (剛柔流) is one of the main traditional Okinawan styles of karate, 
-            featuring a combination of hard and soft techniques. Developed by Chojun Miyagi 
-            in the early 20th century, this martial art emphasizes both strength and fluidity
-            in movement.
+            {t('home.introText')}
           </motion.p>
         </motion.div>
       </div>
@@ -152,7 +151,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9 }}
           >
-            Study Areas
+            {t('home.studyAreasTitle')}
           </motion.h2>
 
           {mounted && (
