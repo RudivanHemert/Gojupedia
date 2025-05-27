@@ -14,16 +14,16 @@ export interface KataStep {
   number: number;
   title: string;
   description: string;
-  image?: string;
 }
 
 interface KataStepsProps {
   kataId: string;
   kataName: string;
   steps: KataStep[];
+  showImages?: boolean;
 }
 
-const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, steps }) => {
+const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, steps, showImages = false }) => {
   // Safeguard against undefined or empty steps
   const validSteps = Array.isArray(steps) && steps.length > 0 ? steps : [];
 
@@ -46,7 +46,6 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
   }
 
   const [currentStep, setCurrentStep] = useState(0);
-  const [showImages, setShowImages] = useState(true);
   const [progressPercent, setProgressPercent] = useState(0);
   const [error, setError] = useState<string | null>(null);
   
@@ -162,54 +161,6 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
   // Direction of slide animation
   const [direction, setDirection] = useState(0);
   
-  // Function to resolve image path issues
-  const resolveImagePath = (imagePath) => {
-    if (!imagePath) return null;
-    
-    if (imagePath.startsWith('http')) {
-      return imagePath;
-    }
-    
-    // For the new structure with capital 'I' in Images folder
-    if (imagePath.startsWith('/Images/')) {
-      return imagePath;
-    }
-    
-    // For older paths that might still use lowercase 'images'
-    if (imagePath.startsWith('/images/')) {
-      // Return the corrected path with capital 'I'
-      return imagePath.replace('/images/', '/Images/');
-    }
-    
-    // If it's just a filename without a path
-    if (!imagePath.includes('/')) {
-      return `/Images/Kata/${imagePath}`;
-    }
-    
-    return imagePath;
-  };
-  
-  const renderStepImage = () => {
-    if (!currentStepData || !currentStepData.image) return null;
-    
-    const resolvedImagePath = resolveImagePath(currentStepData.image);
-    
-    return (
-      <div className="mb-4 rounded-lg overflow-hidden">
-        <img 
-          src={resolvedImagePath}
-          alt={`Step ${currentStepData.number} - ${currentStepData.title}`}
-          className="w-full object-cover max-h-[250px]"
-          onError={(e) => {
-            console.error(`Error loading image: ${resolvedImagePath}`);
-            // Fallback to placeholder
-            (e.target as HTMLImageElement).src = '/Images/placeholder.jpg';
-          }}
-        />
-      </div>
-    );
-  };
-  
   if (error) {
     return (
       <div className="bg-amber-50 dark:bg-amber-900 border border-amber-200 dark:border-amber-700 text-amber-800 dark:text-amber-100 p-6 rounded-lg">
@@ -249,74 +200,56 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
           <span>Stap {currentStep + 1} van {totalSteps}</span>
           <span>{Math.round((currentStep / totalSteps) * 100)}%</span>
         </div>
-        <Progress value={(currentStep / totalSteps) * 100} className="h-1 w-full" />
+        <Progress value={progressPercent} className="h-1" />
       </div>
 
-      {/* Content */}
+      {/* Step content */}
       <div className="p-4">
-        {/* Step title */}
-        <h2 className="text-xl font-semibold mb-2">{currentStepData.title}</h2>
-        
-        {/* Step image */}
-        {renderStepImage()}
-        
-        {/* Step description */}
-        <div className="prose max-w-none mb-6 dark:prose-invert">
-          {currentStepData.description.split('\n\n').map((paragraph, i) => (
-            <p key={i} className="mb-4">{paragraph}</p>
-          ))}
-        </div>
-
-        {/* Navigation buttons */}
-        <div className="flex justify-between pt-2 mb-8">
-          <Button
-            variant="outline"
-            onClick={handlePrevStep}
-            disabled={currentStep === 0}
-            className={`${isDarkMode ? 'dark:border-gray-700 dark:text-gray-300' : ''}`}
+        <AnimatePresence initial={false} custom={direction} mode="wait">
+          <motion.div
+            key={currentStep}
+            custom={direction}
+            variants={variants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{
+              x: { type: "spring", stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 }
+            }}
+            className="relative"
           >
-            Vorige
-          </Button>
-          <Button
-            onClick={handleNextStep}
-            className={`${isDarkMode ? 'dark:bg-blue-600 dark:hover:bg-blue-700' : ''}`}
-          >
-            {currentStep === totalSteps - 1 ? 'Afronden' : 'Volgende'}
-          </Button>
-        </div>
-
-        {/* Step navigation */}
-        <div className="mb-4">
-          <h3 className="text-sm font-medium mb-2 text-gray-500 dark:text-gray-400">Alle stappen:</h3>
-          <div className="flex flex-wrap gap-2">
-            {validSteps.map((step) => (
-              <button
-                key={step.id}
-                onClick={() => goToStep(step.number - 1)}
-                className={`w-8 h-8 rounded-full flex items-center justify-center text-sm
-                  ${currentStep === step.number - 1 
-                    ? (isDarkMode ? 'bg-blue-600 text-white' : 'bg-blue-500 text-white') 
-                    : (isDarkMode ? 'bg-gray-800 text-gray-300 hover:bg-gray-700' : 'bg-gray-200 hover:bg-gray-300')}
-                  transition-colors`}
-              >
-                {step.number}
-              </button>
-            ))}
-          </div>
-        </div>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold">{currentStepData.title}</h3>
+              <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">
+                {currentStepData.description}
+              </p>
+            </div>
+          </motion.div>
+        </AnimatePresence>
       </div>
 
-      {/* Complete button */}
-      {/* {showCompleteButton && (
-        <div className={`sticky bottom-0 w-full p-4 ${isDarkMode ? 'bg-gray-900' : 'bg-white'} border-t shadow-lg flex justify-center`}>
-          <Button 
-            className="w-full sm:w-auto"
-            onClick={handleComplete}
-          >
-            <CheckCircle className="mr-2 h-4 w-4" /> {completeText}
-          </Button>
-        </div>
-      )} */}
+      {/* Navigation buttons */}
+      <div className="sticky bottom-0 w-full bg-white dark:bg-gray-900 border-t p-4 flex justify-between items-center">
+        <Button
+          variant="outline"
+          onClick={handlePrevStep}
+          disabled={currentStep === 0}
+          className="flex items-center"
+        >
+          <ChevronLeft className="h-4 w-4 mr-2" />
+          Previous
+        </Button>
+        <Button
+          variant="outline"
+          onClick={handleNextStep}
+          disabled={currentStep === totalSteps - 1}
+          className="flex items-center"
+        >
+          Next
+          <ChevronRight className="h-4 w-4 ml-2" />
+        </Button>
+      </div>
     </div>
   );
 };

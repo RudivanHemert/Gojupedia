@@ -494,22 +494,71 @@
       "culturalSignificance": "Sanchin gilt als die Essenz des Goju Ryu Karate und verkörpert die Prinzipien von Atmung, Haltung und Fokus, die für die Philosophie des Stils zentral sind."
     },
     "tensho": {
-      "meaning": "Drehende Handflächen",
-      "description": "Bedeutet wörtlich 'drehende Handflächen'. Diese Kata wurde von Miyagi Chojun Sensei als Gegenstück zu Sanchin entwickelt. Wie Sanchin wird sie mit tiefer Atmung und allgemeiner Muskelspannung ausgeführt, aber ihr Charakter ist ganz anders. Wo Sanchin geschlossen, eckig und hart (go) ist, ist Tensho offen, anmutig und weich (ju), mit vielen kreisförmigen Hand- und Handgelenktechniken. Prüfungsmaterial für Sandan (dritter Dan) und höher.",
-      "history": "Von Chojun Miyagi als Gegenstück zu Sanchin geschaffen, repräsentiert Tensho den weichen, kreisförmigen Aspekt des Goju Ryu.",
-      "culturalSignificance": "Tensho demonstriert die 'Ju'-Seite (weich) des Goju Ryu und ergänzt Sanchins 'Go'-Qualitäten (hart)."
+      "name": "Tensho",
+      "japaneseName": "転掌",
+      "meaning": "Drehende Hände",
+      "description": "[DE] Developed by Chojun Miyagi as a counterpart to Sanchin, Tensho represents the soft, circular aspect of Goju Ryu. It focuses on flowing movements and breath control.",
+      "history": "[DE] Tensho was created by Chojun Miyagi to complement Sanchin. While Sanchin emphasizes 'Go' (hard), Tensho embodies 'Ju' (soft), completing the Goju concept.",
+      "culturalSignificance": "[DE] Tensho demonstrates the 'ju' (soft) aspect of Goju Ryu, balancing the 'go' (hard) of Sanchin, and is crucial for understanding the full scope of the style."
     },
     "gekisai-dai-ichi": {
-      "meaning": "Angreifen und Zerstören, Erste Form",
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Angriff und Zerstörung, Erste Form",
       "description": "Eine der beiden Gekisai-Kata, die von Chojun Miyagi für den Sportunterricht in Schulen geschaffen wurden. Sie lehrt grundlegende Techniken und Atemmuster in einem einfacheren Format als die älteren Kata.",
-      "history": "Bedeutet wörtlich 'Angriff und Zerstörung 1'. Dieser ungewöhnlich aggressive Name für Karate spiegelt die Ära wider, als Okinawa ein Schlachtfeld für japanisch-amerikanische Kriegshandlungen war. Die Kata wurde 1940 vom Gründer des Okinawa Goju-Ryu Karate-Do, Miyagi Chojun Sensei, entwickelt. Sie besteht aus verschiedenen Kombinationen einfacher Grundtechniken, die das Erlernen der späteren, schwierigeren klassischen Koryu-Kata erleichtern. Prüfungsmaterial für Kukyu (neunter Kyu, weißer Gürtel) und höher.",
-      "culturalSignificance": "Diese Kata war Teil von Miyagis Bemühungen, Karate populär zu machen und einem breiteren Publikum zugänglich zu machen, insbesondere der jüngeren Generation."
+      "history": "Erstellt 1940 von Chojun Miyagi, wurde Gekisai Dai Ichi entwickelt, um das Erlernen und Lehren zu erleichtern und Karate bei Jugendlichen und in Schulen bekannt zu machen. Sein Name spiegelt die turbulenten Zeiten seiner Entstehung wider.",
+      "culturalSignificance": "Diese Kata war Teil von Miyagis Bemühungen, Karate bekannt zu machen und einem breiteren Publikum, insbesondere der jüngeren Generation, zugänglich zu machen.",
+      "stepsCount": 8,
+      "steps": {
+        "step1": {
+          "title": "Aufwärtsblock (Jodan Age Uke)",
+          "description": "Aus Musubi Dachi mit dem rechten Fuß vortreten, auf den Fußballen beider Füße drehen und den Block gleichzeitig ausführen. Dein Stand sollte zwei Fußbreit sein. Der blockende Arm bewegt sich nah am Körper, anfangs horizontal vor dem Zwerchfell, dann gerade nach oben und dreht sich erst im letzten Moment. Achte auf minimale Schulterspannung. Der Arm ist eine Faustbreite von der Stirn entfernt fokussiert. Der Hikite-Arm bewegt sich anfangs nach oben, bleibt während der Körperdrehung hoch und wird dann aktiv und kraftvoll zur Seite gezogen. Kraftvoll fokussieren. Beim Blocken ist dein Gewicht auf beide Füße verteilt. Fortgeschrittene können den Ellbogen während des Kime leicht nach unten drehen und die Technik mit einer etwas runderen Bewegung ausführen.",
+          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
+        },
+        "step2": {
+          "title": "Hoher Fauststoß (Jodan Zuki)",
+          "description": "Durch Drücken des vorderen Fußes in den Boden abstoßen und gerade in Han Zenkutsu Dachi (drei Fuß lang) treten. Das Becken dreht sich nicht mit dem Fauststoß. Während des Kime des Fauststoßes lasten etwa 70% deines Gewichts auf dem vorderen Bein. Der Fauststoß erfolgt auf Augenhöhe. Verwende auch einen kraftvollen Hikite und beiße die Zähne während des Kime zusammen. Nutze primär die Kraft aus dem Abstoßen und der Bewegung und halte deine Schultern so lange wie möglich entspannt.",
+          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
+        },
+        "step3": {
+          "title": "Tiefer Fegerblock (Gedan Barai)",
+          "description": "Mit dem rechten Bein zurück in Shiko Dachi treten, gleichzeitig das Becken öffnen und fallen lassen. Schaue weiterhin zur Seite. Der Hikite wird kraftvoll zurückgezogen (ziehe deinen Ellbogen nach hinten und unten). Bis zum Kime gibt es keine Spannung im Arm, und die Faust endet eine Faustbreite vom Knie entfernt (im Bunkai wird der tiefe Block als Angriff auf den Ellbogen ausgeführt und endet weiter vom Knie entfernt). Während des Kime bleibt das Becken geöffnet, aber die Zähne beißen zusammen.\n\nHinweis: Im Shiko Dachi ist der Scheitel nach oben gerichtet und das Kinn leicht eingezogen (Ohren gespitzt). Der Rücken bildet ein \"S\", die Schulterblätter sind zusammen und nach unten gerichtet. Das Becken ist geöffnet und somit nach vorne gekippt, das Schienbein steht senkrecht zum Boden, und die Knie befinden sich direkt über den Füßen (anfangs müssen viele Karateka die Knie und Oberschenkel aktiv nach hinten drücken). Die Hüfte ist etwas höher als die Knie (Wasser würde langsam den Oberschenkel hinunterfließen). Die Füße (besonders der große Zeh und die Innenseite des Fußes) werden kraftvoll in den Boden gedrückt und greifen während des Kime den Boden.",
+          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
+        },
+        "step4": {
+          "title": "Mittelblock (Chudan Uke)",
+          "description": "Den linken Fuß zum anderen Fuß ziehen und dann in einem Kreis nach vorne (Knöchel passieren sich) in Sanchin Dachi. Die Faust der blockenden Hand beginnt weit unterhalb des Ellbogens des anderen Arms. Die Technik wird mit Muchimi ausgeführt. Diese Bewegung wird mit einer ziemlich großen kreisförmigen Bewegung ausgeführt, und Fuß und Arm bewegen sich gleichzeitig.",
+          "image": null
+        },
+        "step5": {
+          "title": "Vorwärtstritt (Mae Geri), Ellbogenstoß und Stampfen (Hiji Ate und Fumikomi Geri), Faustrückenschlag (Uraken Uchi), Tiefer Block (Gedan Barai) und Mittlerer Verkehrter Fauststoß (Chudan Gyaku Zuki)",
+          "description": "Die Techniken in dieser Serie (außer Ellbogenstoß und Stampfen) müssen separat und kraftvoll ausgeführt werden. Es ist wichtig, sich (zwischendurch) nach jeder Technik zu entspannen. Bei der klassischen Ausführung von Gekisai Dai Ichi gibt es einen Zählstopp vor dem Faustrückenschlag, damit sich der Körper besser entspannen kann. Der Rhythmus ist 1-2 und 1-2-3.\n\nBehalte den Block und Hikite während des Vorwärtstritts bei. Der Tritt – Knie hochheben, bis der Oberschenkel parallel zum Boden ist – ist Keage (also ohne Beckenkippung und Hüftrotation). Der Tritt erfolgt gerade nach vorne mit dem Fußballen zum Schritt. Vor dem Tritt etwas auf dem Standbein einsinken, und während des Tritts stützt sich der Körper vollständig auf das Standbein. Du kannst dein Becken leicht einziehen (nicht notwendig) und es nicht blockieren. Nach dem Tritt entspannen, das untere Bein aktiv zurückziehen, bis es unter dem Knie ist. Von dort wird es in Zenkutsu Dachi hinuntergestampft.\n\nDer Ellbogenstoß ist primär nach vorne gerichtet, die Faust endet am Kiefer. Ziehe den Hikite kraftvoll zurück. Der Ellbogenstoß und das Stampfen werden zusammen ausgeführt und können je nach Niveau des Karateka auf drei Arten erfolgen:\n1. Der Fuß wird hinuntergestampft, und der Rückprall vom Boden wird im Ellbogenstoß verwendet. Der Rhythmus ist 1 ..... 2.\n2. Der Fuß wird hinuntergestampft, und unmittelbar danach wird der Ellbogenstoß ausgeführt. Der Rhythmus ist Pam-Bam.\n3. Das Stampfen und der Ellbogenstoß werden gleichzeitig ausgeführt. Aus dem Hara geht die Kraft gleichzeitig zum Fuß und zum Ellbogen. Dies wird als \"Kraft spalten\" bezeichnet.\n\nDer Faustrückenschlag wird vom Becken initiiert, und während des Impulses bleiben Schultern, Ellbogen und Handgelenk entspannt. Die Technik ist ein peitschenartiger Schlag (es gibt also kein Kime) auf Jinchu (Vitalpunkt in der Mitte der Oberlippe). Nach der Technik schnappt die Faust zurück, und der Ellbogen bildet einen 90-Grad-Winkel.\n\nDer tiefe Fegerblock macht eine relativ kleine Ausholbewegung und dreht sich um den Ellbogen. Während der Ausführung gibt es keine Spannung in Schultern und Ellbogen. Während des Fokus dreht sich der Arm leicht. Der Hikite ist kraftvoll.\n\nDer verkehrte Fauststoß wird mit viel Kraft und Geschwindigkeit ausgeführt. Die Bewegung beginnt mit dem Strecken des hinteren Beins. Dies bewirkt, dass sich das Becken eindreht; dies wird für den kraftvollen Impuls des Fauststoßes verwendet, der auf Suigetsu fokussiert und ausgeführt wird. Verwende auch einen kraftvollen und schnellen Hikite. Kiai!",
+          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
+        },
+        "step6": {
+          "title": "Fußfeger (Ashi Barai) und Handkantenschlag (Shuto Uchi)",
+          "description": "Den hinteren Fuß zum anderen ziehen und einen kleinen Fußfeger ausführen; der fegende Fuß hält langen Kontakt mit dem Boden und passiert den anderen nicht. Konzentriere dich auf die Seite der Fußinnenseite und achte darauf, tief zu fegen. Stampfe den Fuß in Hachiji Dachi (= 'natürlicher Stand') hinunter und nutze den Rückprall vom Boden für den Impuls zum Handkantenschlag; verwende auch einen kraftvollen Hikite (bleibt eine Faust). Spreize während des Fegers auch deine Schulterblätter auseinander und etwas nach vorne (der Rücken bleibt gerade, du schaust weiter nach vorne) und nutze auch das Zurückschnappen der Schulterblätter beim Handkantenschlag. Beim Handkantenschlag sind Schultern und Ellbogen spannungsfrei. Die Technik ist schnell und kurz auf Augenhöhe fokussiert (\"schwerer Schlag\"). Bei der Handkante sind die Finger gerade, und der gebeugte Daumen liegt an der Seite des Grundgelenks des Zeigefingers an. Konzentriere dich auch auf den Auftreffpunkt mit dem Handballen der Kleinfingerseite.",
+          "image": null
+        },
+        "step7": {
+          "title": "Doppelter Fauststoß (Awase Zuki): Mittlerer und Verkehrter Fauststoß (Chudan und Ura Zuki)",
+          "description": "Der doppelte Fauststoß ist eine kleine und geschlossene Form des Tora Guchi. Aus Hachiji Dachi in gerader Linie rückwärts (leicht diagonal) in Zenkutsu Dachi treten und die Hand aktiv zur Seite ziehen (als ob man jemanden zieht) (Knöchel bleiben oben). Strecke dein Bein und lege deinen ganzen Körper hinter den doppelten Fauststoß; nutze besonders die Kraft vom Boden und deine Rückenmuskulatur (die Faust des verkehrten Fauststoßes befindet sich über dem Knie). Tritt mit dem linken Bein vorwärts und erhebe dich nicht beim Fußwechsel (Füße sind kurz nebeneinander; es gibt einen Moment vergleichbar mit dem Sitzen auf einer Toilette). Führe beim Fußwechsel einen mittleren Innenblock (Chudan Uchi Uke) mit der rechten Hand und einen mittleren Außenblock (Chudan Soto Uke) mit der linken Hand aus, sodass du auf den Rücken beider Fäuste schaust. Tritt zurück und ziehe gleichzeitig die Fäuste kraftvoll zur Seite zurück. Nutze den Rückprall vom Boden, das Strecken des Beins/Drehen des Beckens und die Rückenmuskulatur für einen weiteren kraftvollen doppelten Fauststoß (Awase Zuki: Ura Zuki (verkehrter Fauststoß) und Chudan Zuki (mittlerer Fauststoß)). Bei der Faust, die den mittleren Fauststoß ausführt, befindet sich der Hikite während des Wechsels mit den Knöcheln nach oben an der Seite. Der Ura Zuki (Knöchel nach unten während des Wechsels) zielt auf die siebte Rippe (Denko), der Chudan Zuki auf den 5. Interkostalraum, direkt unter der Brustwarze (Ganka).\n\nHinweis: Anfänger können den Chudan Soto Uke auch als 'regulären' Chudan Uke ausführen, bei dem man auf die Fingerseite der Faust schaut.",
+          "image": "/Images/Kata/gekisai-dai-ichi-3.png"
+        },
+        "step8": {
+          "title": "Abschluss",
+          "description": "Öffne die linke Hand und lege die rechte Faust mit einer kleinen kreisförmigen Bewegung in die linke. Drehe den linken Fuß nach außen, bringe den rechten Fuß heran in Musubi Dachi und drehe gleichzeitig die Hände. Beende die Kata.",
+          "image": null
+        }
+      }
     },
     "gekisai-dai-ni": {
-      "meaning": "Angreifen und Zerstören, Zweite Form",
-      "description": "Die zweite der beiden Gekisai-Kata. Sie baut auf den Techniken von Gekisai Dai Ichi mit zusätzlichen Bewegungen und etwas komplexeren Mustern auf.",
-      "history": "Bedeutet wörtlich 'Angriff und Zerstörung 2'. Wie Gekisai Dai Ichi von Miyagi Chojun Sensei aus denselben Gründen entwickelt. Prüfungsmaterial für Nanakyu (siebter Kyu, gelber Gürtel) und höher.",
-      "culturalSignificance": "Repräsentiert die Entwicklung des Karateunterrichts, als er für breitere Unterrichtsanwendungen standardisiert wurde."
+      "name": "[DE] Gekisai Dai Ni",
+      "japaneseName": "[DE] 撃砕第二",
+      "meaning": "[DE] Angriff und Zerstörung, Zweite Form",
+      "description": "[DE] Die zweite der beiden Gekisai-Kata. Sie baut auf den Techniken von Gekisai Dai Ichi auf, mit zusätzlichen Bewegungen und etwas komplexeren Mustern.",
+      "history": "[DE] Wie Gekisai Dai Ichi von Chojun Miyagi aus ähnlichen Gründen entwickelt, um Karate zugänglicher zu machen.",
+      "culturalSignificance": "[DE] Stellt die Weiterentwicklung des Karateunterrichts dar, wie er für breitere Bildungsanwendungen standardisiert wurde."
     },
     "saifa": {
       "meaning": "Zerschmettern und Reißen",

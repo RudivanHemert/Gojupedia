@@ -25,11 +25,23 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   
   // Set language function
   const setLanguage = useCallback(async (lang: SupportedLanguage) => {
-    if (lang === language) return; // Don't change if it's the same language
+    console.log('Attempting to change language to:', lang);
+    console.log('Current language:', language);
+    console.log('Current localStorage value:', localStorage.getItem('i18nextLng'));
+    
+    if (lang === language) {
+      console.log('Language unchanged - same as current');
+      return;
+    }
     
     setLoadingTranslations(true);
     try {
+      console.log('Changing language via i18n...');
       await i18n.changeLanguage(lang);
+      console.log('Language changed successfully');
+      console.log('New i18n language:', i18n.language);
+      console.log('New localStorage value:', localStorage.getItem('i18nextLng'));
+      
       // Update HTML attributes
       document.documentElement.lang = lang;
       document.documentElement.dir = isRtl ? 'rtl' : 'ltr';

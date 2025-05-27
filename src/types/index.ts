@@ -1,4 +1,3 @@
-
 export interface Category {
   id: string;
   name: string;
@@ -22,10 +21,10 @@ export interface Technique {
 
 export interface Kata {
   id: string;
-  name: string;
-  japaneseName: string;
-  meaning: string;
-  description: string;
+  name?: string;
+  japaneseName?: string;
+  meaning?: string;
+  description?: string;
   level: string;
   steps: string[];
   images: string[];

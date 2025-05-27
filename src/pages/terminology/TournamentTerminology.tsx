@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { mediaItems } from '@/data/media';
-import MediaManager from '@/components/media/MediaManager';
+// import { mediaItems } from '@/data/media';
+// import MediaManager from '@/components/media/MediaManager';
 import { useTranslation } from 'react-i18next';
 
 const TournamentTerminology = () => {
   const { t } = useTranslation();
-  const [selectedMedia, setSelectedMedia] = useState<string | null>(null);
+  // const [selectedMedia, setSelectedMedia] = useState<string | null>(null);
 
-  const tournamentMedia = mediaItems.filter(item => 
-    item.tags.includes('tournament') || item.category === 'terminology'
-  );
+  // const tournamentMedia = mediaItems.filter(item => 
+  //   item.tags.includes('tournament') || item.category === 'terminology'
+  // );
 
   const scoringTerms = [
     { term: "Ippon (一本)", meaningKey: "ippon" },
@@ -126,12 +126,12 @@ const TournamentTerminology = () => {
         </div>
       </div>
 
-      {selectedMedia && (
+      {/* {selectedMedia && (
         <MediaManager
           mediaId={selectedMedia}
           onClose={() => setSelectedMedia(null)}
         />
-      )}
+      )} */}
     </div>
   );
 };

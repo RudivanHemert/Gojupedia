@@ -72,14 +72,14 @@ const KataPage = () => {
                           <div className="space-y-2">
                             <div className="flex items-center gap-2">
                               <h3 className="text-xl font-semibold text-gray-900">
-                                {kata.name}
+                                {t(`kata.${kata.id}.name`)}
                               </h3>
                               <Badge variant="secondary" className="bg-red-100 text-red-800">
-                                {kata.japaneseName}
+                                {t(`kata.${kata.id}.japaneseName`)}
                               </Badge>
                             </div>
                             <p className="text-gray-600 italic">
-                              {kata.meaning}
+                              {t(`kata.${kata.id}.meaning`)}
                             </p>
                           </div>
                           <ChevronRight className="h-6 w-6 text-gray-400 flex-shrink-0" />

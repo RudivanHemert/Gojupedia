@@ -1,6 +1,7 @@
 {
   "common": {
     "appName": "Goju Ryu Wiki",
+    "shortAppName": "Goju Ryu",
     "loading": "Cargando...",
     "error": "Error",
     "retry": "Reintentar",
@@ -9,14 +10,19 @@
     "delete": "Eliminar",
     "edit": "Editar",
     "back": "Atrás",
-    "errorBoundary": "Algo salió mal. Por favor, actualice la página."
+    "errorBoundary": "Algo salió mal. Por favor, actualice la página.",
+    "openMenu": "Abrir Menú",
+    "menuTitle": "Menú"
   },
   "navigation": {
     "home": "Inicio",
     "theory": "Teoría",
     "practice": "Práctica",
     "study": "Estudio",
-    "settings": "Configuración"
+    "settings": "Configuración",
+    "philosophy": "Filosofía",
+    "overview": "Resumen",
+    "learningMaterials": "Materiales de Aprendizaje"
   },
   "home": {
     "welcome": "Bienvenido a Goju Ryu Wiki",
@@ -32,15 +38,23 @@
     "title": "Teoría",
     "description": "Principios y conocimientos del Goju Ryu",
     "terminology": "Terminología",
-    "terminologyDesc": "Terminología y vocabulario japonés utilizados en el Goju Ryu",
+    "terminologyDesc": "Terminología y vocabulario japonés utilizado en Goju Ryu",
     "history": "Historia",
     "historyDesc": "Los orígenes y la evolución del Karate Goju Ryu",
     "philosophy": "Filosofía",
-    "philosophyDesc": "Principios fundamentales y valores del Goju Ryu",
-    "kata": "Teoría del Kata",
+    "philosophyDesc": "Principios y valores fundamentales del Goju Ryu",
+    "kata": "Teoría de Kata",
     "kataDesc": "Principios y teoría detrás de las formas tradicionales",
     "vitalPoints": "Puntos Vitales",
-    "vitalPointsDesc": "Estudio de los puntos de presión y zonas vulnerables"
+    "vitalPointsDesc": "Estudio de los puntos de presión y áreas vulnerables",
+    "nav": {
+      "terminology": "Terminología",
+      "history": "Historia",
+      "philosophy": "Filosofía",
+      "kata": "Kata",
+      "vitalPoints": "Puntos Vitales",
+      "gradings": "Exámenes"
+    }
   },
   "terminology": {
     "title": "Terminología de Karate",
@@ -409,13 +423,20 @@
     "title": "Práctica",
     "description": "Métodos de entrenamiento y aplicaciones",
     "techniques": "Técnicas",
-    "techniquesDesc": "Aprende las técnicas fundamentales del Goju Ryu",
+    "techniquesDesc": "Aprende técnicas fundamentales de Goju Ryu",
     "kata": "Kata",
     "kataDesc": "Formas y patrones tradicionales",
     "hojoUndo": "Hojo Undo",
     "hojoUndoDesc": "Métodos y herramientas de entrenamiento suplementario",
     "kumite": "Kumite",
-    "kumiteDesc": "Técnicas y práctica de combate"
+    "kumiteDesc": "Técnicas de combate y práctica",
+    "nav": {
+      "techniques": "Técnicas",
+      "kata": "Kata",
+      "bunkai": "Bunkai",
+      "hojoUndo": "Hojo Undo",
+      "kumite": "Kumite"
+    }
   },
   "study": {
     "title": "Sección de Estudio",
@@ -460,20 +481,23 @@
   "history": {
     "title": "Historia",
     "origins": "Orígenes en Okinawa",
-    "origins-desc": "El karate Goju-Ryu fue desarrollado en Okinawa, Japón, a principios del siglo XX por Chojun Miyagi. El nombre 'Goju' proviene del principio 'duro-suave' de las artes marciales chinas tradicionales y refleja el carácter dual del sistema: combina técnicas de golpeo duras con movimientos más suaves y circulares tanto para el ataque como para la defensa.",
+    "origins-desc": "El karate Goju-Ryu fue desarrollado en Okinawa, Japón, a principios del siglo XX por Chojun Miyagi. El nombre 'Goju' proviene del principio 'duro-suave' de las artes marciales chinas tradicionales y refleja la naturaleza dual del sistema: combina técnicas de golpeo duro con movimientos más suaves y circulares tanto para la ofensiva como para la defensiva.",
     "development": "Desarrollo",
-    "development-desc": "El desarrollo y la difusión del Goju Ryu en todo el mundo",
+    "development-desc": "El crecimiento y la expansión del Goju Ryu por todo el mundo",
     "lineage": "Linaje de Maestros",
-    "lineage-desc": "Los maestros más importantes y sus contribuciones al estilo",
+    "lineage-desc": "Los maestros clave y sus contribuciones al estilo",
     "subsections": {
       "early-history": "Historia Temprana",
       "early-history-desc": "Las raíces del Goju Ryu se remontan a las artes marciales chinas y su integración en la cultura de Okinawa.",
       "miyagi-era": "La Era Miyagi",
       "miyagi-era-desc": "El desarrollo y la sistematización del estilo Goju Ryu por Chojun Miyagi en las décadas de 1920 y 1930.",
       "post-war": "Período de Posguerra",
-      "post-war-desc": "La difusión y el desarrollo del Goju Ryu después de la Segunda Guerra Mundial.",
+      "post-war-desc": "La difusión y evolución del Goju Ryu después de la Segunda Guerra Mundial.",
       "modern-era": "Era Moderna",
-      "modern-era-desc": "El desarrollo actual y la difusión mundial del Goju Ryu."
+      "modern-era-desc": "El desarrollo contemporáneo y la difusión global del Goju Ryu.",
+      "morioHigaonna": {
+        "title": "Morio Higaonna (1939 - )"
+      }
     }
   },
   "kata": {
@@ -494,22 +518,71 @@
       "culturalSignificance": "Sanchin se considera la esencia del karate Goju Ryu, encarnando los principios de respiración, postura y concentración que son fundamentales para la filosofía del estilo."
     },
     "tensho": {
-      "meaning": "Palmas Giratorias",
-      "description": "Significa literalmente 'palmas giratorias'. Este kata fue desarrollado por Miyagi Chojun sensei como contraparte de Sanchin. Al igual que Sanchin, se realiza con respiración profunda y tensión muscular general, pero su carácter es bastante diferente. Mientras que Sanchin es cerrado, angular y duro (go), Tensho es abierto, elegante y suave (ju), con muchas técnicas circulares de mano y muñeca. Material de examen para sandan (tercer dan) y superiores.",
-      "history": "Creado por Chojun Miyagi como contraparte de Sanchin, Tensho representa el aspecto suave y circular del Goju Ryu.",
-      "culturalSignificance": "Tensho demuestra el lado 'ju' (suave) del Goju Ryu, complementando las cualidades 'go' (duras) de Sanchin."
+      "name": "[ES] Tensho",
+      "japaneseName": "[ES] 転掌",
+      "meaning": "[ES] Manos Giratorias",
+      "description": "[ES] Desarrollado por Chojun Miyagi como contraparte de Sanchin, Tensho representa el aspecto suave y circular de Goju Ryu. Se centra en movimientos fluidos y control de la respiración.",
+      "history": "[ES] Tensho fue creado por Chojun Miyagi para complementar Sanchin. Mientras Sanchin enfatiza 'Go' (duro), Tensho encarna 'Ju' (suave), completando el concepto Goju.",
+      "culturalSignificance": "[ES] Tensho demuestra el aspecto 'ju' (suave) de Goju Ryu, equilibrando el 'go' (duro) de Sanchin, y es crucial para comprender el alcance completo del estilo."
     },
     "gekisai-dai-ichi": {
-      "meaning": "Atacar y Destruir, Primera Forma",
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Ataque y Destrucción, Número Uno",
       "description": "Uno de los dos katas Gekisai creados por Chojun Miyagi para la educación física en las escuelas. Enseña técnicas fundamentales y patrones de respiración en un formato más simple que los katas más antiguos.",
-      "history": "Significa literalmente 'atacar y destruir 1'. Este nombre inusualmente agresivo para el karate refleja la época en que Okinawa era un campo de batalla para las acciones de guerra entre Japón y Estados Unidos. El kata fue desarrollado en 1940 por el fundador del Karate-do Goju-ryu de Okinawa, Miyagi Chojun sensei. Consiste en varias combinaciones de técnicas básicas simples, que facilitan el aprendizaje de los katas koryu clásicos posteriores y más difíciles. Material de examen para kukyu (noveno kyu, cinturón blanco) y superiores.",
-      "culturalSignificance": "Este kata fue parte del esfuerzo de Miyagi por popularizar el karate y hacerlo accesible a un público más amplio, particularmente a la generación más joven."
+      "history": "Con el significado de 'Ataque y Destrucción Número Uno', este kata fue creado por Chojun Miyagi en 1940. Fue diseñado para ser más simple que los katas tradicionales, haciendo el karate más accesible para jóvenes estudiantes y principiantes. Introduce bloqueos básicos, golpes y trabajo de posturas.",
+      "culturalSignificance": "Este kata fue parte del esfuerzo de Miyagi por popularizar el karate y hacerlo accesible a una audiencia más amplia, particularmente a la generación más joven.",
+      "stepsCount": 8,
+      "steps": {
+        "step1": {
+          "title": "Bloqueo Ascendente (Jodan Uke)",
+          "description": "Avanza con el pie derecho desde musubi dachi, pivota sobre la parte anterior de ambos pies y ejecuta el bloqueo simultáneamente. Tu postura debe tener dos pies de ancho. El brazo que bloquea se mueve cerca del cuerpo, inicialmente horizontal frente al diafragma, luego recto hacia arriba, girando solo en el último momento. Asegura una tensión mínima en los hombros. El brazo se enfoca a un puño de distancia de la frente. El brazo hikite se mueve inicialmente hacia arriba, permanece alto durante el giro del cuerpo y luego se tira activa y enérgicamente hacia el costado. Enfoca con potencia. Al bloquear, tu peso se distribuye sobre ambos pies. Los practicantes avanzados pueden girar ligeramente el codo hacia abajo durante el kime y realizar la técnica con un movimiento algo más redondeado.",
+          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
+        },
+        "step2": {
+          "title": "Puñetazo Alto (Jodan Zuki)",
+          "description": "Impúlsate presionando el pie delantero contra el suelo y da un paso recto hacia han zenkutsu dachi (tres pies de largo). La pelvis no gira con el puñetazo. Durante el kime del puñetazo, aproximadamente el 70% de tu peso está en la pierna delantera. El puñetazo es a la altura de los ojos. Usa también un hikite potente y aprieta los dientes durante el kime. Utiliza principalmente la fuerza del impulso y el movimiento, manteniendo los hombros relajados el mayor tiempo posible.",
+          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
+        },
+        "step3": {
+          "title": "Bloqueo Barredor Bajo (Gedan Barai)",
+          "description": "Retrocede con la pierna derecha hacia shiko dachi, abriendo simultáneamente la pelvis y dejándola caer. Sigue mirando hacia el lado. El hikite se tira con fuerza hacia atrás (tira del codo hacia atrás y hacia abajo). Hasta el kime, no hay tensión en el brazo, y el puño termina a un puño de distancia de la rodilla (en bunkai, el bloqueo bajo se realiza como un ataque al codo y termina más lejos de la rodilla). Durante el kime, la pelvis permanece abierta, pero los dientes se aprietan.\n\nNota: en shiko dachi, la coronilla está hacia arriba y la barbilla ligeramente metida (orejas alerta). La espalda forma una \"S\", los omóplatos están juntos y apuntando hacia abajo. La pelvis está abierta y, por lo tanto, inclinada hacia adelante, la tibia está perpendicular al suelo y las rodillas están directamente sobre los pies (inicialmente, muchos karatekas necesitan empujar activamente las rodillas y el muslo hacia atrás para esto). La cadera está ligeramente más alta que las rodillas (el agua fluiría lentamente por el muslo). Los pies (especialmente el dedo gordo y la parte interna del pie) se presionan con fuerza contra el suelo y agarran el suelo durante el kime.",
+          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
+        },
+        "step4": {
+          "title": "Bloqueo Medio (Chudan Uke)",
+          "description": "Lleva el pie izquierdo hacia el otro pie y luego en círculo hacia adelante (los tobillos se cruzan) hacia sanchin dachi. El puño de la mano que bloquea comienza muy por debajo del codo del otro brazo. La técnica se realiza con muchimi. Este movimiento se ejecuta con un movimiento circular bastante amplio, y el pie y el brazo se mueven simultáneamente.",
+          "image": null
+        },
+        "step5": {
+          "title": "Patada Frontal (Mae Geri), Golpe de Codo y Pisotón (Hiji Ate y Fumikomi Geri), Golpe de Revés de Puño (Uraken Uchi), Bloqueo Bajo (Gedan Barai) y Puñetazo Inverso a Nivel Medio (Chudan Gyaku Zuki)",
+          "description": "Las técnicas de esta serie (excepto el golpe de codo y el pisotón) deben realizarse por separado y con potencia. Es importante relajarse (entremedio) después de cada técnica. En la ejecución clásica de Gekisai Dai Ichi, hay una parada de conteo antes del golpe de revés de puño, lo que permite que el cuerpo se relaje mejor. El ritmo es 1-2 y 1-2-3.\n\nMantén el bloqueo y el hikite durante la patada frontal. La patada – levanta la rodilla hasta que el muslo esté paralelo al suelo – es keage (sin inclinación pélvica ni rotación de cadera). La patada es recta hacia adelante con la parte anterior del pie hacia la ingle. Antes de la patada, húndete ligeramente sobre la pierna de apoyo y, durante la patada, el cuerpo se apoya completamente en la pierna de apoyo. Puedes meter ligeramente la pelvis (no es necesario) y no bloquearla. Después de la patada, relájate, tira activamente de la parte inferior de la pierna hacia atrás hasta que esté debajo de la rodilla. Desde allí, se pisa hacia abajo en zenkutsu dachi.\n\nEl golpe de codo es principalmente hacia adelante, el puño termina en la mandíbula. Tira del hikite con fuerza hacia atrás. El golpe de codo y el pisotón se realizan simultáneamente. Desde el hara, la potencia va simultáneamente al pie y al codo. Esto se llama \"dividir la potencia\".\n\nEl golpe de revés de puño se inicia desde la pelvis y, durante el impulso, los hombros, el codo y la muñeca permanecen relajados. La técnica es un golpe similar a un látigo (por lo que no hay kime) hacia jinchu (punto vital en el centro del labio superior). Después de la técnica, el puño retrocede y el codo forma un ángulo de 90 grados.\n\nEl bloqueo barredor bajo realiza un movimiento relativamente pequeño y gira alrededor del codo. Durante la ejecución, no hay tensión en los hombros ni en el codo. Durante el enfoque, el brazo gira ligeramente. El hikite es potente.\n\nEl puñetazo inverso se ejecuta con mucha potencia y velocidad. El movimiento comienza enderezando la pierna trasera. Esto hace que la pelvis gire hacia adentro; esto se usa para el impulso potente del puñetazo, enfocado y ejecutado hacia suigetsu. Usa también un hikite potente y rápido. ¡Kiai!",
+          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
+        },
+        "step6": {
+          "title": "Barrido de Pie (Ashi Barai) y Golpe de Mano de Cuchillo (Shuto Uchi)",
+          "description": "Lleva el pie trasero hacia el otro y realiza un pequeño barrido de pie; el pie que barre mantiene un contacto prolongado con el suelo y no pasa al otro. Concéntrate en el lado interno del pie, asegurándote de barrer bajo. Pisa el pie hacia abajo en hachiji dachi (= 'postura natural') y usa el rebote del suelo para el impulso del golpe de mano de cuchillo; usa también un hikite potente (permanece como puño). Durante el barrido, también separa los omóplatos y llévalos un poco hacia adelante (la espalda permanece recta, sigues mirando hacia adelante) y usa también el retroceso de los omóplatos en el golpe de mano de cuchillo. En el golpe de mano de cuchillo, los hombros y los codos están libres de tensión. La técnica es rápida y se enfoca brevemente a la altura de los ojos (\"golpe pesado\"). Para la mano de cuchillo, los dedos están rectos y el pulgar doblado descansa contra el lado de la base del dedo índice. Concéntrate también en el punto de impacto con el talón de la palma del lado del meñique.",
+          "image": null
+        },
+        "step7": {
+          "title": "Puñetazo Doble (Awase Zuki): Puñetazo a Nivel Medio e Inverso (Chudan y Ura Zuki)",
+          "description": "El puñetazo doble es una forma pequeña y cerrada del tora guchi. Desde hachiji dachi, da un paso en línea recta hacia atrás (ligeramente diagonal) hacia zenkutsu dachi y tira activamente de la mano (como si arrastraras a alguien) hacia tu costado (los nudillos permanecen hacia arriba). Endereza la pierna y pon todo tu cuerpo detrás del puñetazo doble; usa especialmente la potencia del suelo y los músculos de la espalda (el puño del puñetazo inverso está sobre la rodilla). Da un paso adelante con la pierna izquierda y no te levantes al cambiar de pie (los pies están brevemente uno al lado del otro; hay un momento comparable a sentarse en un inodoro). Al cambiar de pie, realiza un bloqueo interno a nivel medio (chudan uchi uke) con la mano derecha y un bloqueo externo a nivel medio (chudan soto uke) con la mano izquierda, de modo que mires el dorso de ambos puños. Retrocede y tira simultáneamente de los puños con fuerza hacia el costado. Usa el rebote del suelo, enderezando la pierna/girando la pelvis y los músculos de la espalda para otro potente puñetazo doble (awase zuki: ura zuki (puñetazo inverso) y chudan zuki (puñetazo a nivel medio)). Para el puño que realiza el puñetazo a nivel medio, durante el cambio, el hikite está en el costado con los nudillos hacia arriba. El ura zuki (nudillos hacia abajo durante el cambio) va a la séptima costilla (denko), el chudan zuki al quinto espacio intercostal, justo debajo del pezón (ganka).\n\nNota: los principiantes también pueden realizar el chudan soto uke como un chudan uke 'regular', donde se mira el lado de los dedos del puño.",
+          "image": "/Images/Kata/gekisai-dai-ichi-3.png"
+        },
+        "step8": {
+          "title": "Cierre",
+          "description": "Abre la mano izquierda y coloca el puño derecho en la izquierda con un pequeño movimiento circular. Gira el pie izquierdo hacia afuera, junta el pie derecho en musubi dachi y gira simultáneamente las manos. Concluye el kata.",
+          "image": null
+        }
+      }
     },
     "gekisai-dai-ni": {
-      "meaning": "Atacar y Destruir, Segunda Forma",
-      "description": "El segundo de los dos katas Gekisai. Se basa en las técnicas de Gekisai Dai Ichi con movimientos adicionales y patrones ligeramente más complejos.",
-      "history": "Significa literalmente 'atacar y destruir 2'. Al igual que Gekisai Dai Ichi, fue desarrollado por Miyagi Chojun sensei por las mismas razones. Material de examen para nanakyu (séptimo kyu, cinturón amarillo) y superiores.",
-      "culturalSignificance": "Representa la evolución de la instrucción del karate a medida que se estandarizaba para aplicaciones de enseñanza más amplias."
+      "name": "[ES] Gekisai Dai Ni",
+      "japaneseName": "[ES] 撃砕第二",
+      "meaning": "[ES] Ataque y Destrucción, Segunda Forma",
+      "description": "[ES] El segundo de los dos katas Gekisai. Se basa en las técnicas de Gekisai Dai Ichi, con movimientos adicionales y patrones ligeramente más complejos.",
+      "history": "[ES] Al igual que Gekisai Dai Ichi, desarrollado por Chojun Miyagi por razones similares para hacer el karate más accesible.",
+      "culturalSignificance": "[ES] Representa la evolución de la instrucción del karate a medida que se estandarizaba para aplicaciones educativas más amplias."
     },
     "saifa": {
       "meaning": "Destrozar y Rasgar",
@@ -785,6 +858,32 @@
     "references": {
       "vitalPointsFrontContext": "El cuerpo humano contiene numerosos puntos vitales que pueden ser objetivo en las técnicas de artes marciales. El siguiente diagrama muestra los puntos clave desde la vista frontal.",
       "vitalPointsBackContext": "La vista trasera muestra puntos vitales adicionales que son importantes de entender en la práctica de las artes marciales."
+    }
+  },
+  "kataDetailPage": {
+    "tabs": {
+      "overview": "Visión General",
+      "steps": "Pasos",
+      "bunkai": "Bunkai",
+      "shime": "Shime"
+    },
+    "overview": {
+      "descriptionTitle": "Descripción",
+      "historyTitle": "Historia",
+      "culturalSignificanceTitle": "Significado Cultural",
+      "atAGlanceTitle": "De un Vistazo",
+      "movementsLabel": "Movimientos",
+      "durationLabel": "Duración",
+      "originLabel": "Origen",
+      "levelLabel": "Nivel"
+    },
+    "bunkai": {
+      "videoTitle": "Demostración en Video de Bunkai"
+    },
+    "shime": {
+      "title": "Shime (Acondicionamiento Corporal)",
+      "description": "Shime es una parte crucial de la práctica de Sanchin, que implica recibir golpes para acondicionar el cuerpo. Esta sección demuestra el proceso de Shime.",
+      "videoTitle": "Demostración en Video de Shime"
     }
   }
 } 

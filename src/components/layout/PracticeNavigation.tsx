@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { useTranslation } from 'react-i18next';
 
 interface PracticeNavigationProps {
   currentPath: string;
@@ -8,6 +9,7 @@ interface PracticeNavigationProps {
 
 const PracticeNavigation: React.FC<PracticeNavigationProps> = ({ currentPath }) => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const basePath = '/' + currentPath.split('/')[1];
   
   if (basePath !== '/practice' && 
@@ -36,19 +38,19 @@ const PracticeNavigation: React.FC<PracticeNavigationProps> = ({ currentPath }) 
     >
       <TabsList className="grid grid-cols-5 h-12 bg-stone-100">
         <TabsTrigger value="/techniques" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">Techniques</span>
+          <span className="text-xs">{t('practice.nav.techniques')}</span>
         </TabsTrigger>
         <TabsTrigger value="/kata" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">Kata</span>
+          <span className="text-xs">{t('practice.nav.kata')}</span>
         </TabsTrigger>
         <TabsTrigger value="/bunkai" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">Bunkai</span>
+          <span className="text-xs">{t('practice.nav.bunkai')}</span>
         </TabsTrigger>
         <TabsTrigger value="/hojo-undo" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">Hojo Undo</span>
+          <span className="text-xs">{t('practice.nav.hojoUndo')}</span>
         </TabsTrigger>
         <TabsTrigger value="/kumite" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">Kumite</span>
+          <span className="text-xs">{t('practice.nav.kumite')}</span>
         </TabsTrigger>
       </TabsList>
     </Tabs>
