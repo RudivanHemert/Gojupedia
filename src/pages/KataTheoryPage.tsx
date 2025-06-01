@@ -25,55 +25,53 @@ const KataTheoryPage = () => {
         <Tabs defaultValue="what-are-kata" className="w-full max-w-4xl mx-auto">
           <div className="overflow-x-auto pb-2">
             <TabsList className="w-max">
-              <TabsTrigger value="what-are-kata">What are Kata?</TabsTrigger>
-              <TabsTrigger value="kata-and-karate">Kata and Karate</TabsTrigger>
-              <TabsTrigger value="bunkai">Bunkai</TabsTrigger>
-              <TabsTrigger value="origins">Origins</TabsTrigger>
-              <TabsTrigger value="power-movement">Power & Movement</TabsTrigger>
-              <TabsTrigger value="sources-power">Sources of Power</TabsTrigger>
-              <TabsTrigger value="okinawan-concepts">Okinawan Concepts</TabsTrigger>
-              <TabsTrigger value="power-transfer">Power Transfer</TabsTrigger>
-              <TabsTrigger value="techniques">Techniques</TabsTrigger>
+              <TabsTrigger value="what-are-kata">{t('kata.theory.sections.what-are-kata')}</TabsTrigger>
+              <TabsTrigger value="kata-and-karate">{t('kata.theory.sections.kata-and-karate')}</TabsTrigger>
+              <TabsTrigger value="bunkai">{t('kata.theory.sections.bunkai-and-techniques')}</TabsTrigger>
+              <TabsTrigger value="origins">{t('kata.theory.sections.kata-origins')}</TabsTrigger>
+              <TabsTrigger value="power-movement">{t('kata.theory.sections.power-and-movement')}</TabsTrigger>
+              <TabsTrigger value="sources-power">{t('kata.theory.sections.sources-of-power')}</TabsTrigger>
+              <TabsTrigger value="okinawan-concepts">{t('kata.theory.sections.okinawan-concepts')}</TabsTrigger>
+              <TabsTrigger value="power-transfer">{t('kata.theory.sections.power-transfer')}</TabsTrigger>
+              <TabsTrigger value="techniques">{t('kata.theory.sections.kata-techniques')}</TabsTrigger>
             </TabsList>
           </div>
           
-          <div className="mt-4 bg-white p-4 rounded-lg shadow-sm">
-            <TabsContent value="what-are-kata">
-              <WhatAreKata />
-            </TabsContent>
-            
-            <TabsContent value="kata-and-karate">
-              <KataAndKarate />
-            </TabsContent>
-            
-            <TabsContent value="bunkai">
-              <BunkaiAndTechniques />
-            </TabsContent>
-            
-            <TabsContent value="origins">
-              <KataOrigins />
-            </TabsContent>
-            
-            <TabsContent value="power-movement">
-              <PowerAndMovement />
-            </TabsContent>
-            
-            <TabsContent value="sources-power">
-              <SourcesOfPower />
-            </TabsContent>
-            
-            <TabsContent value="okinawan-concepts">
-              <OkinawanConcepts />
-            </TabsContent>
-            
-            <TabsContent value="power-transfer">
-              <PowerTransfer />
-            </TabsContent>
-            
-            <TabsContent value="techniques">
-              <KataTechniques />
-            </TabsContent>
-          </div>
+          <TabsContent value="what-are-kata">
+            <WhatAreKata />
+          </TabsContent>
+          
+          <TabsContent value="kata-and-karate">
+            <KataAndKarate />
+          </TabsContent>
+          
+          <TabsContent value="bunkai">
+            <BunkaiAndTechniques />
+          </TabsContent>
+          
+          <TabsContent value="origins">
+            <KataOrigins />
+          </TabsContent>
+          
+          <TabsContent value="power-movement">
+            <PowerAndMovement />
+          </TabsContent>
+          
+          <TabsContent value="sources-power">
+            <SourcesOfPower />
+          </TabsContent>
+          
+          <TabsContent value="okinawan-concepts">
+            <OkinawanConcepts />
+          </TabsContent>
+          
+          <TabsContent value="power-transfer">
+            <PowerTransfer />
+          </TabsContent>
+          
+          <TabsContent value="techniques">
+            <KataTechniques />
+          </TabsContent>
         </Tabs>
       </div>
     </div>

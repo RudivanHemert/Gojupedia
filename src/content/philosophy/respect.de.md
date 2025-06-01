@@ -1,41 +1,41 @@
-[DE] # Respect in Martial Arts
+# Respekt in den Kampfkünsten
 
-[DE] Respect (Reigi - 礼儀) is a foundational pillar of Goju-Ryu Karate and all traditional martial arts. It is not merely a suggestion but an integral part of the training, woven into every interaction and practice within the dojo and expected to extend into daily life. The Goju-Ryu Dojo Kun explicitly states, *"Hitotsu Reigi O Omon Zuru Koto"* (Respect others), and its five precepts include, *"We are courteous in manners."
+Respekt (Reigi - 礼儀) ist eine grundlegende Säule des Goju-Ryu Karate und aller traditionellen Kampfkünste. Er ist nicht nur eine Empfehlung, sondern ein integraler Bestandteil des Trainings, verwoben in jede Interaktion und Übung im Dojo, und es wird erwartet, dass er sich auf das tägliche Leben erstreckt. Im Goju-Ryu Dojo Kun heißt es ausdrücklich: *"Hitotsu Reigi O Omon Zuru Koto"* (Respektiere andere), und seine fünf Gebote beinhalten: *"Wir sind höflich in unseren Umgangsformen."
 
-[DE] ## Dimensions of Respect in Goju-Ryu:
+## Dimensionen des Respekts im Goju-Ryu:
 
-[DE] 1.  **Respect for Oneself (Jison - 自尊):**
-[DE]     This begins with self-care – maintaining personal hygiene, wearing a clean and neat gi (uniform), and striving for self-improvement. It involves recognizing one's own potential and taking responsibility for one's actions and development.
+1.  **Respekt vor sich selbst (Jison - 自尊):**
+    Dies beginnt mit Selbstfürsorge – Aufrechterhaltung der persönlichen Hygiene, Tragen eines sauberen und ordentlichen Gi (Uniform) und Streben nach Selbstverbesserung. Es beinhaltet das Erkennen des eigenen Potenzials und die Übernahme von Verantwortung für die eigenen Handlungen und Entwicklungen.
 
-[DE] 2.  **Respect for Instructors (Sensei - 先生) and Seniors (Senpai - 先輩):**
-[DE]     Instructors and senior students are shown respect for their knowledge, experience, and dedication to guiding others. This is demonstrated by:
-[DE]     *   Listening attentively to instruction.
-[DE]     *   Responding promptly and with sincerity (e.g., with "Oss").
-[DE]     *   Following dojo rules and instructor guidance.
-[DE]     *   Valuing the time and effort they invest in teaching.
+2.  **Respekt vor Lehrern (Sensei - 先生) und Älteren (Senpai - 先輩):**
+    Lehrern und älteren Schülern wird Respekt für ihr Wissen, ihre Erfahrung und ihr Engagement bei der Anleitung anderer entgegengebracht. Dies zeigt sich durch:
+    *   Aufmerksames Zuhören bei Anweisungen.
+    *   Prompte und aufrichtige Reaktion (z. B. mit "Oss").
+    *   Befolgen der Dojo-Regeln und der Anleitung des Lehrers.
+    *   Wertschätzung der Zeit und Mühe, die sie in den Unterricht investieren.
 
-[DE] 3.  **Respect for Training Partners (Dōhai - 同輩) and Juniors (Kōhai - 後輩):**
-[DE]     All practitioners, regardless of rank, are treated with consideration and courtesy. This means:
-[DE]     *   Training safely and cooperatively, being mindful of a partner's abilities and well-being.
-[DE]     *   Being humble in victory and gracious in defeat during kumite (sparring).
-[DE]     *   Supporting and encouraging fellow students in their training journey.
+3.  **Respekt vor Trainingspartnern (Dōhai - 同輩) und Jüngeren (Kōhai - 後輩):**
+    Alle Praktizierenden, unabhängig vom Rang, werden mit Rücksicht und Höflichkeit behandelt. Das bedeutet:
+    *   Sicheres und kooperatives Training unter Berücksichtigung der Fähigkeiten und des Wohlbefindens des Partners.
+    *   Bescheidenheit im Sieg und Anstand in der Niederlage während des Kumite (Sparring).
+    *   Unterstützung und Ermutigung von Mitschülern auf ihrem Trainingsweg.
 
-[DE] 4.  **Respect for the Dojo (道場 - Training Hall):**
-[DE]     The dojo is a special place of learning and development. Respect is shown by:
-[DE]     *   Bowing (rei) upon entering and leaving the dojo.
-[DE]     *   Helping to keep the dojo clean and orderly.
-[DE]     *   Maintaining a serious and focused attitude during training.
-[DE]     *   Treating training equipment with care.
+4.  **Respekt vor dem Dojo (道場 - Trainingshalle):**
+    Das Dojo ist ein besonderer Ort des Lernens und der Entwicklung. Respekt wird gezeigt durch:
+    *   Verbeugen (Rei) beim Betreten und Verlassen des Dojos.
+    *   Mithilfe, das Dojo sauber und ordentlich zu halten.
+    *   Aufrechterhaltung einer ernsten und konzentrierten Haltung während des Trainings.
+    *   Sorgsamer Umgang mit Trainingsgeräten.
 
-[DE] 5.  **Respect for the Art and its Traditions:**
-[DE]     This involves valuing the history, philosophy, and techniques of Goju-Ryu Karate passed down through generations. It includes a commitment to preserving the integrity of the art.
+5.  **Respekt vor der Kunst und ihren Traditionen:**
+    Dies beinhaltet die Wertschätzung der Geschichte, Philosophie und Techniken des Goju-Ryu Karate, die über Generationen weitergegeben wurden. Es schließt die Verpflichtung ein, die Integrität der Kunst zu wahren.
 
-[DE] ## Manifestations of Respect:
+## Erscheinungsformen des Respekts:
 
-[DE] *   **Bowing (Rei - 礼):** The bow is a primary physical expression of respect. It is performed at the beginning and end of class, when partnering for drills, and when entering or leaving the dojo. It signifies humility, gratitude, and acknowledgement.
-[DE] *   **Etiquette (Reishiki - 礼式):** Adherence to dojo etiquette – the established rules of conduct – demonstrates respect for the training environment and its participants.
-[DE] *   **Language and Attitude:** Using polite language, maintaining a humble attitude, and showing genuine attentiveness are all part of practicing respect.
+*   **Verbeugen (Rei - 礼):** Die Verbeugung ist ein primärer körperlicher Ausdruck des Respekts. Sie wird zu Beginn und am Ende des Unterrichts, bei der Partnerwahl für Übungen und beim Betreten oder Verlassen des Dojos ausgeführt. Sie bedeutet Demut, Dankbarkeit und Anerkennung.
+*   **Etikette (Reishiki - 礼式):** Die Einhaltung der Dojo-Etikette – der etablierten Verhaltensregeln – zeigt Respekt für die Trainingsumgebung und ihre Teilnehmer.
+*   **Sprache und Haltung:** Die Verwendung höflicher Sprache, die Aufrechterhaltung einer bescheidenen Haltung und das Zeigen echter Aufmerksamkeit sind alles Teile der Respektpraxis.
 
-[DE] ## The Deeper Meaning:
+## Die tiefere Bedeutung:
 
-[DE] Respect in Goju-Ryu is not about blind obedience but about fostering an environment conducive to learning, growth, and mutual well-being. It acknowledges the inherent worth of each individual and the value of the shared journey in martial arts. By cultivating respect, practitioners develop not only their technical skills but also their character, contributing to a more disciplined, harmonious, and ethical approach to life. 
+Respekt im Goju-Ryu geht nicht um blinden Gehorsam, sondern um die Förderung einer Umgebung, die dem Lernen, dem Wachstum und dem gegenseitigen Wohlbefinden förderlich ist. Er erkennt den inhärenten Wert jedes Einzelnen und den Wert der gemeinsamen Reise in den Kampfkünsten an. Durch die Kultivierung von Respekt entwickeln die Praktizierenden nicht nur ihre technischen Fähigkeiten, sondern auch ihren Charakter und tragen so zu einer disziplinierteren, harmonischeren und ethischeren Lebensweise bei. 

@@ -9,7 +9,50 @@
     "delete": "Löschen",
     "edit": "Bearbeiten",
     "back": "Zurück",
-    "errorBoundary": "Etwas ist schiefgelaufen. Bitte aktualisieren Sie die Seite."
+    "errorBoundary": "Etwas ist schiefgelaufen. Bitte aktualisieren Sie die Seite.",
+    "descriptionNotAvailable": "Beschreibung nicht verfügbar",
+    "description": "Beschreibung"
+  },
+  "kataDetailPage": {
+    "tabs": {
+      "overview": "Übersicht",
+      "steps": "Schritte",
+      "bunkai": "Bunkai",
+      "shime": "Shime"
+    },
+    "overview": {
+      "descriptionTitle": "Beschreibung",
+      "historyTitle": "Geschichte",
+      "culturalSignificanceTitle": "Kulturelle Bedeutung",
+      "atAGlanceTitle": "Auf einen Blick",
+      "movementsLabel": "Bewegungen",
+      "durationLabel": "Dauer",
+      "originLabel": "Ursprung",
+      "levelLabel": "Niveau",
+      "mastersLabel": "Meister",
+      "keyFeaturesLabel": "Schlüsselmerkmale",
+      "videoNotAvailable": "Video nicht verfügbar",
+      "bunkaiVideoNotAvailable": "Bunkai-Video nicht verfügbar",
+      "shimeVideoNotAvailable": "Shime-Video nicht verfügbar",
+      "viewOnYouTube": "Auf YouTube ansehen"
+    },
+    "steps": {
+      "interactiveStepsTitle": "Interaktive Schritte",
+      "viewAllSteps": "Alle Schritte ansehen"
+    },
+    "bunkai": {
+      "title": "Bunkai-Analyse",
+      "introduction": "Detaillierte Analyse der Anwendungen der Kata."
+    },
+    "shime": {
+      "title": "Shime (Test)",
+      "introduction": "Informationen zum Shime (Test) dieser Kata."
+    },
+    "notFound": {
+      "title": "Kata nicht gefunden",
+      "message": "Die gesuchte Kata existiert nicht in unserer Datenbank.",
+      "backButton": "Zurück zur Kata-Liste"
+    }
   },
   "navigation": {
     "home": "Start",
@@ -164,15 +207,45 @@
       },
       "karate-titles-content": {
         "description": "Titel und Ränge, die im Karate verwendet werden.",
-        "terms": {
-          "kyu": { "name": "Kyu", "japanese": "級", "english": "Rang (farbige Gürtel, unter Schwarzgurt)" },
-          "dan": { "name": "Dan", "japanese": "段", "english": "Stufe (Schwarzgurtränge)" },
-          "shodan": { "name": "Shodan", "japanese": "初段", "english": "Schwarzgurt ersten Grades" },
-          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Lehrer, Ausbilder" },
-          "shihan": { "name": "Shihan", "japanese": "師範", "english": "Meisterausbilder, Lehrer der Lehrer" },
-          "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Polierter Ausbilder (ein Lehrtitel)" },
-          "kyoshi": { "name": "Kyoshi", "japanese": "教士", "english": "Fortgeschrittener Lehrer (ein Lehrtitel)" },
-          "hanshi": { "name": "Hanshi", "japanese": "範士", "english": "Vorbildlicher Lehrer, Meister (ein Lehrtitel)" }
+        "instructorTitles": {
+          "title": "Instruktorentitel",
+          "terms": {
+            "hanshi": { "name": "Hanshi", "japanese": "範士", "english": "Leiter einer Organisation" },
+            "kyoshi": { "name": "Kyoshi", "japanese": "教士", "english": "Meisterausbilder" },
+            "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Polierter Ausbilder" },
+            "sensei": { "name": "Sensei", "japanese": "先生", "english": "Lehrer" },
+            "shihan": { "name": "Shihan", "japanese": "師範", "english": "Meisterausbilder, Lehrer der Lehrer" }
+          }
+        },
+        "studentTitles": {
+          "title": "Schülertitel",
+          "terms": {
+            "karateka": { "name": "Karateka", "japanese": "空手家", "english": "Karate-Praktizierender" },
+            "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Älterer Schüler" },
+            "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Jüngerer Schüler" },
+            "yudansha": { "name": "Yudansha", "japanese": "有段者", "english": "Schwarzgurtträger" },
+            "mudansha": { "name": "Mudansha", "japanese": "無段者", "english": "Schüler ohne Schwarzgurt" },
+            "uchiDeshi": { "name": "Uchi Deshi", "japanese": "内弟子", "english": "Interner Schüler" }
+          }
+        },
+        "otherTitles": {
+          "title": "Andere Titel",
+          "terms": {
+            "bushi": { "name": "Bushi", "japanese": "武士", "english": "Großer Kampfkünstler" },
+            "shushin": { "name": "Shushin", "japanese": "主審", "english": "Schiedsrichter" },
+            "fukushin": { "name": "Fukushin", "japanese": "副審", "english": "Assistenzschiedsrichter" },
+            "kansa": { "name": "Kansa", "japanese": "監査", "english": "Richter" }
+          }
+        },
+        "genericTerms": {
+            "kyu": { "name": "Kyu", "japanese": "級", "english": "Rang (farbige Gürtel, unter Schwarzgurt)" },
+            "dan": { "name": "Dan", "japanese": "段", "english": "Stufe (Schwarzgurtränge)" },
+            "shodan": { "name": "Shodan", "japanese": "初段", "english": "Schwarzgurt ersten Grades" },
+            "sensei": { "name": "Sensei", "japanese": "先生", "english": "Lehrer, Ausbilder" },
+            "shihan": { "name": "Shihan", "japanese": "師範", "english": "Meisterausbilder, Lehrer der Lehrer" },
+            "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Polierter Ausbilder (ein Lehrtitel)" },
+            "kyoshi": { "name": "Kyoshi", "japanese": "教士", "english": "Fortgeschrittener Lehrer (ein Lehrtitel)" },
+            "hanshi": { "name": "Hanshi", "japanese": "範士", "english": "Vorbildlicher Lehrer, Meister (ein Lehrtitel)" }
         }
       },
       "phrases-etiquette-content": {
@@ -224,6 +297,7 @@
       },
       "stances-content": {
         "description": "Grundlegende Stände (Dachi Waza).",
+        "title": "Stände",
         "terms": {
           "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Drei-Kämpfe-Stand / Sanduhr-Stand" },
           "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Vorwärtsstand / Vorwärts geneigter Stand" },
@@ -476,148 +550,30 @@
       "modern-era-desc": "Die aktuelle Entwicklung und weltweite Verbreitung von Goju Ryu."
     }
   },
-  "kata": {
-    "theory": {
-      "title": "Kata-Theorie",
-      "description": "Die Prinzipien und Praxis der Kata verstehen"
-    },
-    "levels": {
-      "beginner": "Anfänger",
-      "intermediate": "Mittelstufe",
-      "advanced": "Fortgeschritten",
-      "master": "Meister"
-    },
-    "sanchin": {
-      "meaning": "Drei Kämpfe/Konflikte",
-      "description": "Die grundlegendste Kata im Goju Ryu. Sie konzentriert sich auf korrekte Atmung, Haltung und Spannung im gesamten Körper. Die 'drei Kämpfe' beziehen sich auf Geist, Körper und Seele.",
-      "history": "Bedeutet wörtlich 'drei Kämpfe'. Es bezieht sich nicht auf einen tatsächlichen Kampf, sondern auf den inneren Kampf, Körper, Geist und Seele durch Willenskraft zu härten. Die Kata besteht aus langsamen Techniken, die mit kontinuierlicher Muskelspannung und tiefer Bauchatmung ausgeführt werden. Die moderne Sanchin ist eine Variante, die von Miyagi Chojun Sensei (Gründer, 1888-1953) auf der Grundlage des ihm von Higaonna Kanryo Sensei überlieferten Originals entwickelt wurde. Die Atmung in der Originalversion war explosiver, und der Körper drehte sich zweimal um 180 Grad. Fortgeschrittene Schüler können während Sanchin von Mitschülern auf korrekte Muskelspannung getestet werden, die die Ausführung durch Fühlen und Schlagen bestimmter Körperteile überprüfen. Dieses Testen wird Shime genannt. Prüfungsmaterial für Gokyu (fünfter Kyu, grüner Gürtel) und höher.",
-      "culturalSignificance": "Sanchin gilt als die Essenz des Goju Ryu Karate und verkörpert die Prinzipien von Atmung, Haltung und Fokus, die für die Philosophie des Stils zentral sind."
-    },
-    "tensho": {
-      "name": "Tensho",
-      "japaneseName": "転掌",
-      "meaning": "Drehende Hände",
-      "description": "[DE] Developed by Chojun Miyagi as a counterpart to Sanchin, Tensho represents the soft, circular aspect of Goju Ryu. It focuses on flowing movements and breath control.",
-      "history": "[DE] Tensho was created by Chojun Miyagi to complement Sanchin. While Sanchin emphasizes 'Go' (hard), Tensho embodies 'Ju' (soft), completing the Goju concept.",
-      "culturalSignificance": "[DE] Tensho demonstrates the 'ju' (soft) aspect of Goju Ryu, balancing the 'go' (hard) of Sanchin, and is crucial for understanding the full scope of the style."
-    },
-    "gekisai-dai-ichi": {
-      "name": "Gekisai Dai Ichi",
-      "japaneseName": "撃砕第一",
-      "meaning": "Angriff und Zerstörung, Erste Form",
-      "description": "Eine der beiden Gekisai-Kata, die von Chojun Miyagi für den Sportunterricht in Schulen geschaffen wurden. Sie lehrt grundlegende Techniken und Atemmuster in einem einfacheren Format als die älteren Kata.",
-      "history": "Erstellt 1940 von Chojun Miyagi, wurde Gekisai Dai Ichi entwickelt, um das Erlernen und Lehren zu erleichtern und Karate bei Jugendlichen und in Schulen bekannt zu machen. Sein Name spiegelt die turbulenten Zeiten seiner Entstehung wider.",
-      "culturalSignificance": "Diese Kata war Teil von Miyagis Bemühungen, Karate bekannt zu machen und einem breiteren Publikum, insbesondere der jüngeren Generation, zugänglich zu machen.",
-      "stepsCount": 8,
-      "steps": {
-        "step1": {
-          "title": "Aufwärtsblock (Jodan Age Uke)",
-          "description": "Aus Musubi Dachi mit dem rechten Fuß vortreten, auf den Fußballen beider Füße drehen und den Block gleichzeitig ausführen. Dein Stand sollte zwei Fußbreit sein. Der blockende Arm bewegt sich nah am Körper, anfangs horizontal vor dem Zwerchfell, dann gerade nach oben und dreht sich erst im letzten Moment. Achte auf minimale Schulterspannung. Der Arm ist eine Faustbreite von der Stirn entfernt fokussiert. Der Hikite-Arm bewegt sich anfangs nach oben, bleibt während der Körperdrehung hoch und wird dann aktiv und kraftvoll zur Seite gezogen. Kraftvoll fokussieren. Beim Blocken ist dein Gewicht auf beide Füße verteilt. Fortgeschrittene können den Ellbogen während des Kime leicht nach unten drehen und die Technik mit einer etwas runderen Bewegung ausführen.",
-          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
-        },
-        "step2": {
-          "title": "Hoher Fauststoß (Jodan Zuki)",
-          "description": "Durch Drücken des vorderen Fußes in den Boden abstoßen und gerade in Han Zenkutsu Dachi (drei Fuß lang) treten. Das Becken dreht sich nicht mit dem Fauststoß. Während des Kime des Fauststoßes lasten etwa 70% deines Gewichts auf dem vorderen Bein. Der Fauststoß erfolgt auf Augenhöhe. Verwende auch einen kraftvollen Hikite und beiße die Zähne während des Kime zusammen. Nutze primär die Kraft aus dem Abstoßen und der Bewegung und halte deine Schultern so lange wie möglich entspannt.",
-          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
-        },
-        "step3": {
-          "title": "Tiefer Fegerblock (Gedan Barai)",
-          "description": "Mit dem rechten Bein zurück in Shiko Dachi treten, gleichzeitig das Becken öffnen und fallen lassen. Schaue weiterhin zur Seite. Der Hikite wird kraftvoll zurückgezogen (ziehe deinen Ellbogen nach hinten und unten). Bis zum Kime gibt es keine Spannung im Arm, und die Faust endet eine Faustbreite vom Knie entfernt (im Bunkai wird der tiefe Block als Angriff auf den Ellbogen ausgeführt und endet weiter vom Knie entfernt). Während des Kime bleibt das Becken geöffnet, aber die Zähne beißen zusammen.\n\nHinweis: Im Shiko Dachi ist der Scheitel nach oben gerichtet und das Kinn leicht eingezogen (Ohren gespitzt). Der Rücken bildet ein \"S\", die Schulterblätter sind zusammen und nach unten gerichtet. Das Becken ist geöffnet und somit nach vorne gekippt, das Schienbein steht senkrecht zum Boden, und die Knie befinden sich direkt über den Füßen (anfangs müssen viele Karateka die Knie und Oberschenkel aktiv nach hinten drücken). Die Hüfte ist etwas höher als die Knie (Wasser würde langsam den Oberschenkel hinunterfließen). Die Füße (besonders der große Zeh und die Innenseite des Fußes) werden kraftvoll in den Boden gedrückt und greifen während des Kime den Boden.",
-          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
-        },
-        "step4": {
-          "title": "Mittelblock (Chudan Uke)",
-          "description": "Den linken Fuß zum anderen Fuß ziehen und dann in einem Kreis nach vorne (Knöchel passieren sich) in Sanchin Dachi. Die Faust der blockenden Hand beginnt weit unterhalb des Ellbogens des anderen Arms. Die Technik wird mit Muchimi ausgeführt. Diese Bewegung wird mit einer ziemlich großen kreisförmigen Bewegung ausgeführt, und Fuß und Arm bewegen sich gleichzeitig.",
-          "image": null
-        },
-        "step5": {
-          "title": "Vorwärtstritt (Mae Geri), Ellbogenstoß und Stampfen (Hiji Ate und Fumikomi Geri), Faustrückenschlag (Uraken Uchi), Tiefer Block (Gedan Barai) und Mittlerer Verkehrter Fauststoß (Chudan Gyaku Zuki)",
-          "description": "Die Techniken in dieser Serie (außer Ellbogenstoß und Stampfen) müssen separat und kraftvoll ausgeführt werden. Es ist wichtig, sich (zwischendurch) nach jeder Technik zu entspannen. Bei der klassischen Ausführung von Gekisai Dai Ichi gibt es einen Zählstopp vor dem Faustrückenschlag, damit sich der Körper besser entspannen kann. Der Rhythmus ist 1-2 und 1-2-3.\n\nBehalte den Block und Hikite während des Vorwärtstritts bei. Der Tritt – Knie hochheben, bis der Oberschenkel parallel zum Boden ist – ist Keage (also ohne Beckenkippung und Hüftrotation). Der Tritt erfolgt gerade nach vorne mit dem Fußballen zum Schritt. Vor dem Tritt etwas auf dem Standbein einsinken, und während des Tritts stützt sich der Körper vollständig auf das Standbein. Du kannst dein Becken leicht einziehen (nicht notwendig) und es nicht blockieren. Nach dem Tritt entspannen, das untere Bein aktiv zurückziehen, bis es unter dem Knie ist. Von dort wird es in Zenkutsu Dachi hinuntergestampft.\n\nDer Ellbogenstoß ist primär nach vorne gerichtet, die Faust endet am Kiefer. Ziehe den Hikite kraftvoll zurück. Der Ellbogenstoß und das Stampfen werden zusammen ausgeführt und können je nach Niveau des Karateka auf drei Arten erfolgen:\n1. Der Fuß wird hinuntergestampft, und der Rückprall vom Boden wird im Ellbogenstoß verwendet. Der Rhythmus ist 1 ..... 2.\n2. Der Fuß wird hinuntergestampft, und unmittelbar danach wird der Ellbogenstoß ausgeführt. Der Rhythmus ist Pam-Bam.\n3. Das Stampfen und der Ellbogenstoß werden gleichzeitig ausgeführt. Aus dem Hara geht die Kraft gleichzeitig zum Fuß und zum Ellbogen. Dies wird als \"Kraft spalten\" bezeichnet.\n\nDer Faustrückenschlag wird vom Becken initiiert, und während des Impulses bleiben Schultern, Ellbogen und Handgelenk entspannt. Die Technik ist ein peitschenartiger Schlag (es gibt also kein Kime) auf Jinchu (Vitalpunkt in der Mitte der Oberlippe). Nach der Technik schnappt die Faust zurück, und der Ellbogen bildet einen 90-Grad-Winkel.\n\nDer tiefe Fegerblock macht eine relativ kleine Ausholbewegung und dreht sich um den Ellbogen. Während der Ausführung gibt es keine Spannung in Schultern und Ellbogen. Während des Fokus dreht sich der Arm leicht. Der Hikite ist kraftvoll.\n\nDer verkehrte Fauststoß wird mit viel Kraft und Geschwindigkeit ausgeführt. Die Bewegung beginnt mit dem Strecken des hinteren Beins. Dies bewirkt, dass sich das Becken eindreht; dies wird für den kraftvollen Impuls des Fauststoßes verwendet, der auf Suigetsu fokussiert und ausgeführt wird. Verwende auch einen kraftvollen und schnellen Hikite. Kiai!",
-          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
-        },
-        "step6": {
-          "title": "Fußfeger (Ashi Barai) und Handkantenschlag (Shuto Uchi)",
-          "description": "Den hinteren Fuß zum anderen ziehen und einen kleinen Fußfeger ausführen; der fegende Fuß hält langen Kontakt mit dem Boden und passiert den anderen nicht. Konzentriere dich auf die Seite der Fußinnenseite und achte darauf, tief zu fegen. Stampfe den Fuß in Hachiji Dachi (= 'natürlicher Stand') hinunter und nutze den Rückprall vom Boden für den Impuls zum Handkantenschlag; verwende auch einen kraftvollen Hikite (bleibt eine Faust). Spreize während des Fegers auch deine Schulterblätter auseinander und etwas nach vorne (der Rücken bleibt gerade, du schaust weiter nach vorne) und nutze auch das Zurückschnappen der Schulterblätter beim Handkantenschlag. Beim Handkantenschlag sind Schultern und Ellbogen spannungsfrei. Die Technik ist schnell und kurz auf Augenhöhe fokussiert (\"schwerer Schlag\"). Bei der Handkante sind die Finger gerade, und der gebeugte Daumen liegt an der Seite des Grundgelenks des Zeigefingers an. Konzentriere dich auch auf den Auftreffpunkt mit dem Handballen der Kleinfingerseite.",
-          "image": null
-        },
-        "step7": {
-          "title": "Doppelter Fauststoß (Awase Zuki): Mittlerer und Verkehrter Fauststoß (Chudan und Ura Zuki)",
-          "description": "Der doppelte Fauststoß ist eine kleine und geschlossene Form des Tora Guchi. Aus Hachiji Dachi in gerader Linie rückwärts (leicht diagonal) in Zenkutsu Dachi treten und die Hand aktiv zur Seite ziehen (als ob man jemanden zieht) (Knöchel bleiben oben). Strecke dein Bein und lege deinen ganzen Körper hinter den doppelten Fauststoß; nutze besonders die Kraft vom Boden und deine Rückenmuskulatur (die Faust des verkehrten Fauststoßes befindet sich über dem Knie). Tritt mit dem linken Bein vorwärts und erhebe dich nicht beim Fußwechsel (Füße sind kurz nebeneinander; es gibt einen Moment vergleichbar mit dem Sitzen auf einer Toilette). Führe beim Fußwechsel einen mittleren Innenblock (Chudan Uchi Uke) mit der rechten Hand und einen mittleren Außenblock (Chudan Soto Uke) mit der linken Hand aus, sodass du auf den Rücken beider Fäuste schaust. Tritt zurück und ziehe gleichzeitig die Fäuste kraftvoll zur Seite zurück. Nutze den Rückprall vom Boden, das Strecken des Beins/Drehen des Beckens und die Rückenmuskulatur für einen weiteren kraftvollen doppelten Fauststoß (Awase Zuki: Ura Zuki (verkehrter Fauststoß) und Chudan Zuki (mittlerer Fauststoß)). Bei der Faust, die den mittleren Fauststoß ausführt, befindet sich der Hikite während des Wechsels mit den Knöcheln nach oben an der Seite. Der Ura Zuki (Knöchel nach unten während des Wechsels) zielt auf die siebte Rippe (Denko), der Chudan Zuki auf den 5. Interkostalraum, direkt unter der Brustwarze (Ganka).\n\nHinweis: Anfänger können den Chudan Soto Uke auch als 'regulären' Chudan Uke ausführen, bei dem man auf die Fingerseite der Faust schaut.",
-          "image": "/Images/Kata/gekisai-dai-ichi-3.png"
-        },
-        "step8": {
-          "title": "Abschluss",
-          "description": "Öffne die linke Hand und lege die rechte Faust mit einer kleinen kreisförmigen Bewegung in die linke. Drehe den linken Fuß nach außen, bringe den rechten Fuß heran in Musubi Dachi und drehe gleichzeitig die Hände. Beende die Kata.",
-          "image": null
-        }
-      }
-    },
-    "gekisai-dai-ni": {
-      "name": "[DE] Gekisai Dai Ni",
-      "japaneseName": "[DE] 撃砕第二",
-      "meaning": "[DE] Angriff und Zerstörung, Zweite Form",
-      "description": "[DE] Die zweite der beiden Gekisai-Kata. Sie baut auf den Techniken von Gekisai Dai Ichi auf, mit zusätzlichen Bewegungen und etwas komplexeren Mustern.",
-      "history": "[DE] Wie Gekisai Dai Ichi von Chojun Miyagi aus ähnlichen Gründen entwickelt, um Karate zugänglicher zu machen.",
-      "culturalSignificance": "[DE] Stellt die Weiterentwicklung des Karateunterrichts dar, wie er für breitere Bildungsanwendungen standardisiert wurde."
-    },
-    "saifa": {
-      "meaning": "Zerschmettern und Reißen",
-      "description": "Eine Kata, die schnelle Richtungswechsel und Nahkampftechniken betont. Sie enthält Greif-, Zieh- und Reißbewegungen für den Nahkampf.",
-      "history": "Bedeutet so viel wie 'zerstörerische Schläge'. 'Sai' bedeutet, wie in Gekisai, 'zerstören'. 'Fa' bedeutet unter anderem 'Schlag'. Typisch für Saifa sind die vielen Schlagtechniken wie Uraken Uchi, Tettsui Uchi und Haito Uchi. Saifa ist die erste klassische Koryu-Kata. Die Kata wurde von Ryu Ryu Ko an Higaonna Kanryo Sensei weitergegeben. Im Vergleich zur Gekisai Dai Kata steigt ab Saifa der Schwierigkeitsgrad und es treten immer mehr Kombinationen von Hand- und Fußtechniken auf, die eine gute Koordination erfordern. Prüfungsmaterial für Gokyu (fünfter Kyu, grüner Gürtel) und höher.",
-      "culturalSignificance": "Saifa repräsentiert die Entwicklung von Kampfkunsttechniken, die für praktische Selbstverteidigungssituationen in überfüllten Umgebungen entwickelt wurden."
-    },
-    "seiyunchin": {
-      "meaning": "Kontrollieren und Ziehen im Kampf",
-      "description": "Eine Kata, die sich auf die Kontrolle des Gleichgewichts und der Kraft eines Gegners konzentriert. Sie lehrt Techniken zum Greifen, Ziehen und Manipulieren der Kraft eines Angreifers.",
-      "history": "Bedeutet so viel wie 'im Kampf aus dem Gleichgewicht bringen'. Diese Kata ist die einzige Kaishu-Kata ohne Tritttechniken und betont die Bildung starker, stabiler Stellungen. Die Bunkai Kumite (Anwendungen) bestehen aus verschiedenen Ringer- und Wurftechniken, die sich hervorragend für den Nahkampf eignen. Prüfungsmaterial für Sankyu (dritter Kyu, brauner Gürtel) und höher.",
-      "culturalSignificance": "Diese Kata demonstriert den 'Ju'-Aspekt (weich, nachgiebig) des Goju Ryu und zeigt, wie man die Energie eines Gegners umleitet, anstatt ihr direkt zu begegnen."
-    },
-    "shisochin": {
-      "meaning": "Kampf in vier Richtungen",
-      "description": "Diese Kata betont Techniken, die in vier Richtungen angewendet werden können, und lehrt den Übenden, sich mehrerer Angreifer bewusst zu sein und sich gegen sie zu verteidigen.",
-      "history": "Bedeutet wörtlich 'Kampf in 4 Richtungen'. Eine andere Übersetzung ist '4 Türen'. Das Wort Tür ist ein symbolisches Wort für den Ort, an dem ein potenzieller Gegner einen Angriff starten kann, 'eintreten' kann. Die Kata enthält eine typische Angriffskombination, die in vier Richtungen ausgeführt wird. Prüfungsmaterial für Ikkyu (erster Kyu, brauner Gürtel) und höher.",
-      "culturalSignificance": "Die Kata betont das Situationsbewusstsein und die Wichtigkeit, auf Bedrohungen aus allen Richtungen vorbereitet zu sein, ein entscheidender Aspekt traditioneller Kampfkunstweisheit."
-    },
-    "sanseru": {
-      "meaning": "Sechsunddreißig",
-      "description": "Benannt nach den 36 Vitalpunkten des Körpers, enthält diese Kata kraftvolle Schlagtechniken, die auf diese Punkte abzielen, sowie Abwehrbewegungen.",
-      "history": "Die Namen der Kata Sanseru, Sepai, Sesan und Suparinpei sind chinesische Namen. In der Schriftsprache wird nach allen 4 das Wort 'Hände' hinzugefügt, das jedoch in der gesprochenen Sprache weggelassen wird, und es wird beispielsweise Sanseru anstelle von Sanseru shu gesagt. Diese 4 Namen sind alles Zahlen, die sich auf buddhistische Symbolik beziehen. So steht Sanseru für '36 (Hände)'. 36 ist die symbolische Multiplikation von 6 * 6. Die erste 6 steht für Auge, Ohr, Nase, Zunge, Körper und Geist. Die zweite 6 symbolisiert Farbe, Stimme, Geschmack, Geruch, Berührung und Gerechtigkeit. Prüfungsmaterial für Nidan (zweiter Dan) und höher.",
-      "culturalSignificance": "Die Zahl 36 hat in vielen asiatischen Kampfkünsten und philosophischen Traditionen eine Bedeutung und repräsentiert die Harmonie zwischen körperlicher Technik und tieferem Verständnis."
-    },
-    "sepai": {
-      "meaning": "Achtzehn",
-      "description": "Diese Kata, die die Zahl 18 darstellt, zeichnet sich durch ihre kreisförmigen Bewegungen und Techniken zum Ablenken und Umleiten der Kraft eines Gegners aus.",
-      "history": "Sepai bedeutet '18 (Hände)'. 18 ist die symbolische Multiplikation von 6 * 3. Die erste 6 steht für Auge, Ohr, Nase, Zunge, Körper und Geist. Die 3 symbolisiert Gut, Böse und Frieden. Prüfungsmaterial für Shodan (erster Dan) und höher.",
-      "culturalSignificance": "Die Zahl 18 ist auch in der buddhistischen Philosophie von Bedeutung und wird oft mit den 18 Lohan (Arhats), erleuchteten Schülern Buddhas, in Verbindung gebracht."
-    },
-    "kururunfa": {
-      "meaning": "Festhalten und plötzlich zuschlagen",
-      "description": "Eine Kata, die Techniken lehrt, um das Gleichgewicht eines Gegners zu brechen und mit Geschwindigkeit und Präzision zuzuschlagen. Sie beinhaltet Nahkampf und Gelenkmanipulation.",
-      "history": "Kururunfa bedeutet 'lange festhalten und plötzlich zuschlagen'. Diese Kata zeichnet sich durch ihre trügerischen Bewegungen und schnellen Übergänge zwischen Verteidigung und Angriff aus. Prüfungsmaterial für Sandan (dritter Dan) und höher.",
-      "culturalSignificance": "Diese Kata verkörpert das Prinzip des 'Muchimi' (klebrige Hände) und betont Sensibilität und Reaktionsfähigkeit im Nahkampf."
-    },
-    "sesan": {
-      "meaning": "Dreizehn",
-      "description": "Diese Kata, die die Zahl 13 darstellt, ist eine der ältesten und traditionellsten Formen im Goju Ryu und zeichnet sich durch kraftvolle, direkte Techniken aus.",
-      "history": "Sesan bedeutet '13 (Hände)'. Dies ist auch eine symbolische Zahl. Diese Kata zeichnet sich durch ihre kraftvollen, direkten Bewegungen und die Betonung des Nahkampfs aus. Prüfungsmaterial für Yondan (vierter Dan) und höher.",
-      "culturalSignificance": "Sesan gilt als Eckpfeiler-Kata des Goju Ryu und bewahrt alte Techniken und Prinzipien."
-    },
-    "suparinpei": {
-      "meaning": "Einhundertacht",
-      "description": "Die längste und fortgeschrittenste Kata im Goju Ryu, Suparinpei (Bedeutung 108), enthält eine umfassende Palette von Techniken und verkörpert die vollen Prinzipien des Stils.",
-      "history": "Suparinpei bedeutet '108 (Hände)'. Dies ist auch eine symbolische Zahl, basierend auf der Multiplikation 3 * 36. Die 3 symbolisiert Vergangenheit, Gegenwart und Zukunft. Die 36 bezieht sich auf Sanseru. Diese Kata ist die längste und fortgeschrittenste im Goju Ryu und enthält eine umfassende Palette von Techniken. Prüfungsmaterial für Godan (fünfter Dan) und höher.",
-      "culturalSignificance": "Die Zahl 108 hat eine tiefe Bedeutung im Buddhismus und anderen östlichen Philosophien und repräsentiert oft Vollständigkeit oder die Gesamtheit der Existenz. Suparinpei gilt als der Höhepunkt der Goju Ryu Kata."
-    }
-  },
   "philosophy": {
     "title": "Philosophie",
     "description": "Kernprinzipien und Werte des Goju Ryu",
     "sections": {
-      "dojo-kun": "Dojo Kun (Trainingshallenregeln)",
+      "dojo-kun": "Dojo Kun (Dojo Regeln)",
       "goju-ryu": "Die Bedeutung von Goju-Ryu",
       "karate-do": "Der Weg des Karate (Karate-Do)",
-      "mind-body": "Verbindung von Geist und Körper",
+      "mind-body": "Geist-Körper-Verbindung",
       "respect": "Respekt in den Kampfkünsten"
+    }
+  },
+  "kata.theory": {
+    "title": "Kata Theorie",
+    "description": "Vertiefende Untersuchung der Prinzipien und Konzepte hinter Goju Ryu Kata.",
+    "sections": {
+      "what-are-kata": "Was sind Kata?",
+      "kata-and-karate": "Kata und Karate",
+      "bunkai-and-techniques": "Bunkai & Techniken",
+      "kata-origins": "Ursprünge der Kata",
+      "power-and-movement": "Kraft & Bewegung",
+      "sources-of-power": "Quellen der Kraft",
+      "okinawan-concepts": "Okinawanische Konzepte",
+      "power-transfer": "Kraftübertragung",
+      "kata-techniques": "Kata Techniken"
     }
   },
   "bunkai": {
@@ -835,5 +791,207 @@
       "vitalPointsFrontContext": "Der menschliche Körper enthält zahlreiche Vitalpunkte, die in Kampfkunsttechniken anvisiert werden können. Das folgende Diagramm zeigt die wichtigsten Punkte aus der Vorderansicht.",
       "vitalPointsBackContext": "Die Rückansicht zeigt zusätzliche Vitalpunkte, die für das Verständnis in der Kampfkunstpraxis wichtig sind."
     }
+  },
+  "noTermsAvailable": "Für diesen Abschnitt sind keine Begriffe verfügbar.",
+  "gekisai-dai-ni": {
+    "name": "Gekisai Dai Ni",
+    "japaneseName": "撃砕第二",
+    "meaning": "Angriff und Zerschlagung, Zweite Form",
+    "description": "Die zweite der Gekisai-Kata, baut auf Gekisai Dai Ichi mit mehr Techniken mit offener Hand auf.",
+    "history": "Entwickelt von Chojun Miyagi, wie Gekisai Dai Ichi, um Karate zugänglicher zu machen.",
+    "culturalSignificance": "Stellt eine Weiterentwicklung im Erlernen grundlegender Kata dar.",
+    "stepsCount": 6,
+    "steps": {
+      "step1": {
+        "title": "Schritt 1: Platzhalter Titel",
+        "description": "Platzhalterbeschreibung für Schritt 1 von Gekisai Dai Ni."
+      },
+      "step2": {
+        "title": "Schritt 2: Platzhalter Titel",
+        "description": "Platzhalterbeschreibung für Schritt 2 von Gekisai Dai Ni."
+      },
+      "step3": {
+        "title": "Schritt 3: Platzhalter Titel",
+        "description": "Platzhalterbeschreibung für Schritt 3 von Gekisai Dai Ni."
+      },
+      "step4": {
+        "title": "Schritt 4: Platzhalter Titel",
+        "description": "Platzhalterbeschreibung für Schritt 4 von Gekisai Dai Ni."
+      },
+      "step5": {
+        "title": "Schritt 5: Platzhalter Titel",
+        "description": "Platzhalterbeschreibung für Schritt 5 von Gekisai Dai Ni."
+      },
+      "step6": {
+        "title": "Schritt 6: Platzhalter Titel",
+        "description": "Platzhalterbeschreibung für Schritt 6 von Gekisai Dai Ni."
+      }
+    }
+  },
+  "tensho": {
+    "name": "Tensho",
+    "japaneseName": "転掌",
+    "meaning": "Drehende Hände",
+    "description": "Eine weiche, kreisförmige Kata, die die 'Ju'-Aspekte (weich) des Goju Ryu verkörpert und Sanchin ergänzt.",
+    "history": "Entwickelt von Chojun Miyagi als Gegenstück zu Sanchin.",
+    "culturalSignificance": "Demonstriert die fließenden und weichen Prinzipien im Goju Ryu.",
+    "stepsCount": 5,
+    "steps": {
+      "step1": {
+        "title": "Schritt 1: Placeholder Titel",
+        "description": "Platzhalterbeschreibung für Schritt 1 von Tensho."
+      },
+      "step2": {
+        "title": "Schritt 2: Placeholder Titel",
+        "description": "Platzhalterbeschreibung für Schritt 2 von Tensho."
+      },
+      "step3": {
+        "title": "Schritt 3: Placeholder Titel",
+        "description": "Platzhalterbeschreibung für Schritt 3 von Tensho."
+      },
+      "step4": {
+        "title": "Schritt 4: Placeholder Titel",
+        "description": "Platzhalterbeschreibung für Schritt 4 von Tensho."
+      },
+      "step5": {
+        "title": "Schritt 5: Placeholder Titel",
+        "description": "Platzhalterbeschreibung für Schritt 5 von Tensho."
+      }
+    }
+  },
+  "shisochin": {
+    "name": "Shisochin",
+    "japaneseName": "四向戦",
+    "meaning": "Vier Richtungen Kampf",
+    "description": "Eine Kata, die Angriffe aus vier Richtungen simuliert und Techniken mit offener Hand hervorhebt.",
+    "history": "Abgeleitet vom Weißkranich-Stil, beeinflusst von Kanryo Higaonna.",
+    "culturalSignificance": "Wichtig für die Entwicklung von Bewusstsein und Techniken gegen mehrere Gegner.",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Shisochin", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Shisochin", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Shisochin", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "sanseru": {
+    "name": "Sanseru",
+    "japaneseName": "三十六手",
+    "meaning": "36 Hände",
+    "description": "Eine dynamische Kata, die 36 Vitalpunkte angreift und harte und weiche Techniken kombiniert.",
+    "history": "Wahrscheinlich vom Weißkranich- oder Tiger-Stil, weitergegeben von Kanryo Higaonna.",
+    "culturalSignificance": "Symbolisiert die Komplexität und Effektivität der Goju Ryu Techniken.",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Sanseru", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Sanseru", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Sanseru", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "saifa": {
+    "name": "Saifa",
+    "japaneseName": "砕破",
+    "meaning": "Zerschlagen und Zerreißen",
+    "description": "Eine Kata, die sich auf den Nahkampf konzentriert, mit Zerreiß- und Brechtechniken.",
+    "history": "Ursprünglich aus chinesischen Kampfkünsten, eingeführt von Kanryo Higaonna.",
+    "culturalSignificance": "Zeigt die praktische Anwendung von Goju Ryu in der Selbstverteidigung.",
+    "stepsCount": 6,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Saifa", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Saifa", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Saifa", "description": "Platzhalterbeschreibung."},
+      "step4": {"title": "Schritt 4: Placeholder Saifa", "description": "Platzhalterbeschreibung."},
+      "step5": {"title": "Schritt 5: Placeholder Saifa", "description": "Platzhalterbeschreibung."},
+      "step6": {"title": "Schritt 6: Placeholder Saifa", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "seiyunchin": {
+    "name": "Seiyunchin",
+    "japaneseName": "制引戦",
+    "meaning": "Kontroll- und Ziehkampf",
+    "description": "Eine Kata, die tiefe, stabile Stände und kraftvolle Zugtechniken ohne Tritte hervorhebt.",
+    "history": "Aus Fujian, China, möglicherweise Xingyi Quan oder Mönchfaustboxen.",
+    "culturalSignificance": "Betont die Bedeutung von Gleichgewichtsstörung und Kontrolle.",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Seiyunchin", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Seiyunchin", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Seiyunchin", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "sepai": {
+    "name": "Sepai",
+    "japaneseName": "十八手",
+    "meaning": "18 Hände",
+    "description": "Eine Kata, die die Zahl 18 symbolisiert, mit kreisförmigen Bewegungen und Nahkampftechniken.",
+    "history": "Abgeleitet vom Weißkranich-Stil, weitergegeben von Kanryo Higaonna.",
+    "culturalSignificance": "Repräsentiert ein fortgeschrittenes Niveau des Goju Ryu, mit Fokus auf Fluss und Grappling.",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Sepai", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Sepai", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Sepai", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "kururunfa": {
+    "name": "Kururunfa",
+    "japaneseName": "久留頓破",
+    "meaning": "Lange Festhalten und plötzlich Schlagen",
+    "description": "Eine Kata, die das Prinzip des 'Festhaltens und plötzlichen Brechens' mit schnellen Übergängen hervorhebt.",
+    "history": "Aus Fujian, China, spezifischer Stil unbekannt.",
+    "culturalSignificance": "Illustriert den Gebrauch von Täuschung und 'Muchimi' (klebende Hände).",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Kururunfa", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Kururunfa", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Kururunfa", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "sesan": {
+    "name": "Sesan",
+    "japaneseName": "十三手",
+    "meaning": "13 Hände",
+    "description": "Eine der ältesten Goju Ryu Kata, mit kraftvollen, direkten Techniken und starken Ständen.",
+    "history": "Aus Fujian, China, möglicherweise Mönchfaustboxen oder Löwenfaust.",
+    "culturalSignificance": "Repräsentiert die alten Wurzeln und die Kraft des Goju Ryu.",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Sesan", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Sesan", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Sesan", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "suparinpei": {
+    "name": "Suparinpei",
+    "japaneseName": "壱百零八手",
+    "meaning": "108 Hände",
+    "description": "Die längste und komplexeste Kata, die das gesamte Spektrum der Goju Ryu Techniken umfasst.",
+    "history": "Abgeleitet vom Weißkranich-Stil, symbolisiert die 108 irdischen Begierden im Buddhismus.",
+    "culturalSignificance": "Der Höhepunkt des Goju Ryu Trainings, verkörpert harte und weiche Prinzipien.",
+    "stepsCount": 3,
+    "steps": {
+      "step1": {"title": "Schritt 1: Placeholder Suparinpei", "description": "Platzhalterbeschreibung."},
+      "step2": {"title": "Schritt 2: Placeholder Suparinpei", "description": "Platzhalterbeschreibung."},
+      "step3": {"title": "Schritt 3: Placeholder Suparinpei", "description": "Platzhalterbeschreibung."}
+    }
+  },
+  "levels": {
+    "beginner": "Anfänger",
+    "intermediate": "Mittelstufe",
+    "advanced": "Fortgeschritten",
+    "master": "Meister"
+  },
+  "bunkaiDetailPage": {
+    "kataNotFound": "Kata nicht gefunden",
+    "noBunkaiAvailable": "Kein Bunkai für dieses Kata verfügbar.",
+    "videoTitle": "Bunkai Video",
+    "videoDescription": "Sieh dir das Bunkai-Demonstrationsvideo auf YouTube an.",
+    "watchOnYouTube": "Auf YouTube ansehen",
+    "noBunkaiDetails": "Keine detaillierten Bunkai-Informationen verfügbar.",
+    "attack": "Angriff",
+    "defense": "Verteidigung",
+    "counterAttack": "Gegenangriff",
+    "footwork": "Fußarbeit",
+    "vitalPoints": "Vitalpunkte",
+    "notes": "Anmerkungen"
   }
 } 

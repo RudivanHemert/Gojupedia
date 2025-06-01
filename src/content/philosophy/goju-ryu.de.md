@@ -1,17 +1,17 @@
-[DE] # The Meaning of Goju-Ryu
+# Die Bedeutung von Goju-Ryu
 
-[DE] Goju-Ryu, translating to "Hard-Soft Style," is a traditional Okinawan karate style deeply rooted in the principle of harmonizing contrasting forces. The name itself encapsulates its core philosophy:
+Goju-Ryu, was so viel wie "Hart-Weich-Stil" bedeutet, ist ein traditioneller okinawanischer Karatestil, der tief im Prinzip der Harmonisierung gegensätzlicher Kräfte verwurzelt ist. Der Name selbst fasst die Kernphilosophie zusammen:
 
-[DE] *   **Go (剛):** Represents "hard" or "external." This aspect involves closed-hand techniques, direct linear movements, and the application of physical strength.
-[DE] *   **Ju (柔):** Represents "soft" or "internal." This aspect emphasizes open-hand techniques, circular movements, and the development of *chi* (vital energy).
+*   **Go (剛):** Steht für "hart" oder "extern". Dieser Aspekt umfasst Techniken mit geschlossener Hand, direkte lineare Bewegungen und den Einsatz von körperlicher Kraft.
+*   **Ju (柔):** Steht für "weich" oder "intern". Dieser Aspekt betont offene Handtechniken, kreisförmige Bewegungen und die Entwicklung von *chi* (vitaler Energie).
 
-[DE] The style was formally named by its founder, Chojun Miyagi Sensei. He derived the terms "Go" and "Ju" from a line in the *Bubishi*, a classical Chinese martial arts text, specifically from the Kenpo Haku (Eight Poems of the Fist): *"Ho Go Ju donto"* (法剛柔呑吐), which translates to "The way of inhaling and exhaling is hardness and softness."
+Der Stil wurde offiziell von seinem Begründer, Chojun Miyagi Sensei, benannt. Er entnahm die Begriffe "Go" und "Ju" einer Zeile aus der *Bubishi*, einem klassischen chinesischen Kampfkunsttext, insbesondere aus dem Kenpo Haku (Acht Gedichte der Faust): *"Ho Go Ju donto"* (法剛柔呑吐), was übersetzt so viel bedeutet wie "Der Weg des Ein- und Ausatmens ist Härte und Weichheit".
 
-[DE] Goju-Ryu seamlessly blends these hard and soft elements, combining powerful, direct attacks with fluid, circular blocks and evasive maneuvers. It's characterized by:
+Goju-Ryu vereint nahtlos diese harten und weichen Elemente, kombiniert kraftvolle, direkte Angriffe mit fließenden, kreisförmigen Blöcken und ausweichenden Bewegungen. Charakteristisch sind:
 
-[DE] *   **Close-range combat:** Techniques are often designed for infighting.
-[DE] *   **Breathing techniques (Ibuki and Ibuki Sankai):** Proper breathing is integral for power generation, focus, and connecting mind and body. Different breathing methods are used for different applications, some being audible and forceful, others silent and internal.
-[DE] *   **Combination of Okinawan and Chinese principles:** It integrates native Okinawan fighting methods with both internal (soft, focused on chi and circularity) and external (hard, focused on physical power) Chinese martial concepts.
-[DE] *   **Emphasis on Sanchin Kata:** This foundational kata, meaning "Three Battles," trains proper stance, breathing, tension, and the unification of mind, body, and spirit. Tensho kata, meaning "Rotating Palms," complements Sanchin by emphasizing the "Ju" aspects.
+*   **Nahkampf:** Techniken sind oft für den Kampf auf kurze Distanz ausgelegt.
+*   **Atemtechniken (Ibuki und Ibuki Sankai):** Richtiges Atmen ist wesentlich für die Kraftentwicklung, den Fokus und die Verbindung von Körper und Geist. Verschiedene Atemmethoden werden je nach Anwendung eingesetzt, einige sind hörbar und kraftvoll, andere leise und intern.
+*   **Kombination okinawanischer und chinesischer Prinzipien:** Der Stil integriert einheimische okinawanische Kampftechniken mit sowohl internen (weich, auf chi und Kreisbewegungen fokussiert) als auch externen (hart, auf körperliche Kraft fokussiert) chinesischen Kampfkunstkonzepten.
+*   **Betonung des Sanchin Kata:** Diese grundlegende Kata, die "Drei Kämpfe" bedeutet, schult Haltung, Atmung, Spannung und die Einheit von Geist, Körper und Seele. Tensho Kata, was "Drehende Handflächen" bedeutet, ergänzt Sanchin, indem sie die "Ju"-Aspekte hervorhebt.
 
-[DE] The ultimate goal in Goju-Ryu is not just physical prowess but the cultivation of a balanced individual, capable of adapting to any situation by applying hardness and softness appropriately, both in combat and in life. 
+Das ultimative Ziel im Goju-Ryu ist nicht nur körperliche Stärke, sondern die Entwicklung einer ausgeglichenen Persönlichkeit, die in der Lage ist, sich jeder Situation anzupassen, indem sie Härte und Weichheit sowohl im Kampf als auch im Leben angemessen anwendet. 

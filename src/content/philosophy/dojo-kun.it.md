@@ -1,19 +1,19 @@
-[IT] # Dojo Kun (Training Hall Rules)
+# Dojo Kun (Regole del Dojo)
 
-[IT] Hitotsu Reigi O Omon Zuru Koto
-[IT] _(Respect others)_
+Hitotsu Reigi O Omon Zuru Koto
+_(Rispetta gli altri)_
 
-[IT] Hitotsu Yuki O Yashinau Koto
-[IT] _(Be courageous)_
+Hitotsu Yuki O Yashinau Koto
+_(Sii coraggioso)_
 
-[IT] Hitotsu Shinshin O Renmashi
-[IT] _(Train your mind and body)_
+Hitotsu Shinshin O Renmashi
+_(Allena la mente e il corpo)_
 
-[IT] Hitotsu Dento Karate O Mamori Hibino Tanren O Okotarazu Tsune Ni Kenkyu Kufu O Suru Koto
-[IT] _(Practice daily and protect traditional karate-do)_
+Hitotsu Dento Karate O Mamori Hibino Tanren O Okotarazu Tsune Ni Kenkyu Kufu O Suru Koto
+_(Pratica ogni giorno e proteggi il karate-do tradizionale)_
 
-[IT] Hitotsu Goju Ryu Karate No Shinzui O Kiwameru Koto
-[IT] _(Strive to reach the essence of Goju Ryu)_
+Hitotsu Goju Ryu Karate No Shinzui O Kiwameru Koto
+_(Sforzati di raggiungere l'essenza del Goju Ryu)_
 
-[IT] Hitotsu Futofukutsu No Seishin O Yashinau Koto
-[IT] _(Never give up)_ 
+Hitotsu Futofukutsu No Seishin O Yashinau Koto
+_(Non arrenderti mai)_ 

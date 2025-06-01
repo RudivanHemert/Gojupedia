@@ -1,0 +1,29 @@
+## Kraftübertragung und -verarbeitung
+
+Die Kraftübertragung bezieht sich hauptsächlich auf Schläge, Stöße und Tritte; die Kraftverarbeitung auf Blocks und Ausweichmanöver. Für die Kraftübertragung ist es natürlich wichtig, ob es sich um eine Arm- oder Beintechnik handelt, aber auch, ob es sich um einen Schlag (kreisförmig) oder einen Stoß (geradlinig) handelt.
+
+### Schläge und Stöße
+
+Ein Stoß ist im Allgemeinen geradlinig. Im Moment des Treffens gibt es immer einen Fokus. Ein Schlag hat im Allgemeinen eine kreisförmige Bahn. Bei einem 'schweren Schlag' wird die Wirkung durch die Geschwindigkeit und Masse des Arms oder Beins (te no omomi) bestimmt. Ein 'harter Schlag' ist fokussiert, und die Gelenke werden im Moment des Treffens kurz fixiert. Ein Beispiel ist der Kreisschlag (mawashi furi zuki) in Sepai und der Hammerschlag (tettsui uchi) in Saifa.
+
+Bei einem 'kontinuierlichen Schlag' wird die kreisförmige Bahn der Technik sozusagen 'durch den Körper des Gegners gezogen'. Je nach Grad der Muskelspannung im Moment des Treffens ähnelt dies einem schweren oder harten Schlag. Der letzte ist der 'Peitschenschlag'. Hier schnellt der Arm oder Fuß nach dem Treffen zurück. Es gibt keinen Fokus, und diese Techniken werden ohne Spannung in den Muskeln und Gelenken des Oberkörpers ausgeführt. Solche Techniken haben weniger Wirkung und werden am Anfang von Kombinationen oder bei Angriffen auf Vitalpunkte ausgeführt. Zum Beispiel der Knöchelschlag (uraken uchi) in den Gekisai Dai's und der Uraken Uchi in Saifa und Seiyunchin auf den Vitalpunkt direkt über der Oberlippe (jinchu).
+
+Nicht alle Bewegungen sind auf einen Moment fokussiert. Dies sind im Allgemeinen kontinuierliche Bewegungen, zum Beispiel bestimmte Blocks, die in einer mehr oder weniger kreisförmigen Bewegung ausgeführt werden. Der Karateka muss sicherstellen, dass während der Ausführung in der Kata die Aufmerksamkeit auf den imaginären (manchmal gleitenden) Kontaktpunkt dieser Bewegung gerichtet ist. Dies ist bei vielen Blocks der Fall, wie dem Tora Uchi ("Tigermund"), dem Ziehblock (Hiki Uke) in Saifa und vielen subtilen Blocks in den höheren Kata.
+
+Drücken und Ziehen sind ebenfalls nicht im Moment des Kontakts fokussiert. Es gibt keinen harten Kontakt, und die Bewegung wird über eine längere Bahn ausgeführt. Die Kraft für den Stoß wird immer aus dem Boden erzeugt.
+
+### Tritte
+
+Bei der Klassifizierung von Tritten werden die Begriffe 'Keage' und 'Kekomi' verwendet. Keage bezeichnet einen schlagenden Tritt. Dieser ist im Moment des Treffens weniger fokussiert und wird im Allgemeinen ohne Beckenkippung/-drehung ausgeführt, möglicherweise mit einer (kleinen) Beckendehnung. Sie sind oft auf Vitalpunkte wie den Schritt (mit dem Fußballen in den Gekisai's, Saifa, Shisochin, Sanseru und Kururunfa) oder die Hoden (mit dem Spann oder Fußballen) bei Kin Geri gerichtet.
+
+Kekomi bezeichnet einen stoßenden Tritt. Dieser ist immer fokussiert, und der Einsatz des Beckens wird explizit genutzt. Fast alle Tritte in der Kata sind Keage; nur der Seitwärtstritt (Kansetsu Geri) in Sanseru ist Kekomi. Kekomi-Tritte müssen jedoch häufig trainiert werden (es wird angegeben, dass für eine gute Entwicklung der Muskeln für Tritte etwa die Hälfte auf einem Schlagpolster oder Makiwara ausgeführt werden sollte).
+
+### Blocks und Ausweichmanöver
+
+Als Selbstverteidigungskunst befasst sich Karate natürlich mit Blocks und Ausweichmanövern. Am konfrontativsten ist der harte, zusammenstoßende Block (sehr "go"), bei dem es kein Ausweichen gibt und der Angriff vollständig geblockt wird. Hier trainieren Sie nicht nur die Aufrechterhaltung Ihres eigenen Raums, sondern auch die richtige Haltung während dieser harten Konfrontation; Sie lernen, "nicht auszuweichen". Vergleichbar damit, aber etwas schwieriger, ist das Zurückdrängen des Angriffs. Hier dringen Sie als Verteidiger in den Raum des Angreifers ein. Sie kommen also beim Blocken nach vorne. Die Ausführung des Offenhandblocks (Shotei Uchi Uke) gleichzeitig mit der Vorwärtsbewegung des gesamten Körpers in Seiyunchin ist ein Beispiel dafür.
+
+Eine dritte Möglichkeit zum "Blocken" ist das Absorbieren des Angriffs. Natürlich werden die Muskeln im Moment des Kontakts angespannt; nicht jeder Körperteil eignet sich hierfür gleichermaßen gut. Ein Beispiel für eine Technik mit einem Körper, "der einen Schlag einstecken kann", ist die sogenannte "Mittagsatmung". Hier halten Sie den Atem an, damit der Körper angespannt bleibt. Der tiefe Fegeblock (Gedan Harai Uke) mit dem Offenhandstoß (Shotei Oshi) in Sepai wird mit dieser Atmung ausgeführt. Beim Absorbieren einer Kraft können Sie die Kraft des Gegners absorbieren und in Ihrer nachfolgenden Technik verwenden. Im Kaki-e üben Sie dies, und es wird auch 'Schlucken-und-Spucken' genannt.
+
+Beim Ablenken wird die Kraft der Aktion des Gegners aufgefangen und in einer kreisförmigen Bewegung in der Richtung geändert und an Ihnen vorbeigeführt. Dies ist der häufigste Block in der Kata. Es kann auch vorkommen, dass beim Ablenken die Kraft des Gegners verlängert wird, wie es bei einem Ziehblock (Hiki Uke) der Fall ist.
+
+Der letzte Block ist das Ausweichen. Hier wird die Kraft des Gegners nicht mehr absorbiert. Idealerweise wird nicht nur ausgewichen, damit der Angriff verfehlt, sondern es wird auch eine strategisch günstige Position für einen Gegenangriff eingenommen. Versuchen Sie, den Gegner aus dem Gleichgewicht zu bringen und stellen Sie sicher, dass Sie nach dem Ausweichen in einer Kampfhaltung landen, die auch für einen Angriff geeignet ist. Natürlich trainieren Sie ein solches Ausweichen mit allen größeren seitlichen und rückwärtigen Bewegungen aus der Kata. 

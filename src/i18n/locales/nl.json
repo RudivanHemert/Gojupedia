@@ -8,7 +8,9 @@
     "save": "Opslaan",
     "delete": "Verwijderen",
     "edit": "Bewerken",
-    "back": "Terug"
+    "back": "Terug",
+    "descriptionNotAvailable": "Beschrijving niet beschikbaar",
+    "description": "Beschrijving"
   },
   "navigation": {
     "home": "Home",
@@ -18,14 +20,14 @@
     "settings": "Instellingen"
   },
   "home": {
-    "welcome": "[NL] Welcome to Goju Ryu Wiki",
-    "description": "[NL] Discover the art of Goju Ryu Karate",
-    "getStarted": "[NL] Get Started",
-    "heroSubtitle": "[NL] Goju Ryu Karate-Do",
-    "heroTagline": "[NL] The Hard and Soft Way of the Empty Hand",
-    "introTitle": "[NL] The Way of Goju Ryu",
-    "introText": "[NL] Goju Ryu (剛柔流) is one of the main traditional Okinawan styles of karate, featuring a combination of hard and soft techniques. Developed by Chojun Miyagi in the early 20th century, this martial art emphasizes both strength and fluidity in movement.",
-    "studyAreasTitle": "[NL] Study Areas"
+    "welcome": "Welcome to Goju Ryu Wiki",
+    "description": "Discover the art of Goju Ryu Karate",
+    "getStarted": "Get Started",
+    "heroSubtitle": "Goju Ryu Karate-Do",
+    "heroTagline": "The Hard and Soft Way of the Empty Hand",
+    "introTitle": "The Way of Goju Ryu",
+    "introText": "Goju Ryu (剛柔流) is one of the main traditional Okinawan styles of karate, featuring a combination of hard and soft techniques. Developed by Chojun Miyagi in the early 20th century, this martial art emphasizes both strength and fluidity in movement.",
+    "studyAreasTitle": "Study Areas"
   },
   "theory": {
     "title": "Theorie",
@@ -164,6 +166,36 @@
       },
       "karate-titles-content": {
         "description": "Titels en rangen gebruikt in Karate.",
+        "instructorTitles": {
+          "title": "Instructeur Titels",
+          "terms": {
+            "hanshi": { "name": "Hanshi", "japanese": "範士", "english": "Hoofdpersoon van een Organisatie" },
+            "kyoshi": { "name": "Kyoshi", "japanese": "教士", "english": "Meester Instructeur" },
+            "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Gepolijste Instructeur" },
+            "sensei": { "name": "Sensei", "japanese": "先生", "english": "Leraar" },
+            "shihan": { "name": "Shihan", "japanese": "師範", "english": "Meester Instructeur, Leraar van Leraren" }
+          }
+        },
+        "studentTitles": {
+          "title": "Student Titels",
+          "terms": {
+            "karateka": { "name": "Karateka", "japanese": "空手家", "english": "Karate Beoefenaar" },
+            "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Senior Student" },
+            "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Junior Student" },
+            "yudansha": { "name": "Yudansha", "japanese": "有段者", "english": "Zwarte Band Houder" },
+            "mudansha": { "name": "Mudansha", "japanese": "無段者", "english": "Student Zonder Zwarte Band" },
+            "uchiDeshi": { "name": "Uchi Deshi", "japanese": "内弟子", "english": "Interne Student" }
+          }
+        },
+        "otherTitles": {
+          "title": "Andere Titels",
+          "terms": {
+            "bushi": { "name": "Bushi", "japanese": "武士", "english": "Groot Krijgskunstenaar" },
+            "shushin": { "name": "Shushin", "japanese": "主審", "english": "Scheidsrechter" },
+            "fukushin": { "name": "Fukushin", "japanese": "副審", "english": "Assistent Scheidsrechter" },
+            "kansa": { "name": "Kansa", "japanese": "監査", "english": "Rechter" }
+          }
+        },
         "terms": {
           "kyu": { "name": "Kyu", "japanese": "級", "english": "Rang (gekleurde banden, onder zwarte band)" },
           "dan": { "name": "Dan", "japanese": "段", "english": "Niveau (zwarte band rangen)" },
@@ -224,6 +256,7 @@
       },
       "stances-content": {
         "description": "Basis standen (Dachi Waza).",
+        "title": "Standen",
         "terms": {
           "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Drie Gevechten Stand / Zandloperstand" },
           "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Voorwaartse Stand / Voorovergebogen Stand" },
@@ -329,756 +362,18 @@
           }
         }
       }
-    }
-  },
-  "blocks": {
-    "title": "Blokkeringen",
-    "viewButton": "Bekijk",
-    "videoError": {
-      "title": "Kan video niet laden",
-      "pathError": "Kon niet laden: {{path}}",
-      "instructions": "Zorg ervoor dat de volgende bestanden bestaan:",
-      "files": {
-        "ageUke": "age-uke.mp4",
-        "gedanBarai": "gedan-barai.mp4",
-        "sotoUke": "soto-uke.mp4"
-      }
     },
-    "ageUke": {
-      "name": "Age Uke",
-      "japanese": "上げ受け",
-      "english": "Opwaartse Blokkering",
-      "description": "Een blokkering die een aanval omhoog afweert en het gezicht en bovenlichaam beschermt."
-    },
-    "gedanBarai": {
-      "name": "Gedan Barai",
-      "japanese": "下段払い",
-      "english": "Neerwaartse Veeg",
-      "description": "Een vegende blokkering die aanvallen op het onderlichaam afweert."
-    },
-    "sotoUke": {
-      "name": "Soto Uke",
-      "japanese": "外受け",
-      "english": "Buitenwaartse Blokkering",
-      "description": "Een blokkering die een aanval van binnen naar buiten afweert."
-    },
-    "uchiUke": {
-      "name": "Uchi Uke",
-      "japanese": "内受け",
-      "english": "Binnenwaartse Blokkering",
-      "description": "Een blokkering die een aanval van buiten naar binnen afweert."
-    },
-    "shutoUke": {
-      "name": "Shuto Uke",
-      "japanese": "手刀受け",
-      "english": "Meshand Blokkering",
-      "description": "Een blokkering uitgevoerd met de zijkant van de hand."
-    },
-    "empiUke": {
-      "name": "Empi Uke",
-      "japanese": "肘受け",
-      "english": "Elleboog Blokkering",
-      "description": "Een blokkering uitgevoerd met de elleboog."
-    },
-    "kosaUke": {
-      "name": "Kosa Uke",
-      "japanese": "交差受け",
-      "english": "Kruis Blokkering",
-      "description": "Een blokkering uitgevoerd met gekruiste polsen."
-    },
-    "jujiUke": {
-      "name": "Juji Uke",
-      "japanese": "十字受け",
-      "english": "X-Blokkering",
-      "description": "Een blokkering uitgevoerd met gekruiste armen in X-vorm."
-    },
-    "haiwanUke": {
-      "name": "Haiwan Uke",
-      "japanese": "背腕受け",
-      "english": "Achterarm Blokkering",
-      "description": "Een blokkering uitgevoerd met de achterkant van de onderarm."
-    },
-    "osaeUke": {
-      "name": "Osae Uke",
-      "japanese": "押さえ受け",
-      "english": "Drukkende Blokkering",
-      "description": "Een naar beneden drukkende blokkering."
-    }
-  },
-  "practice": {
-    "title": "Oefening",
-    "description": "Trainingsmethoden en toepassingen",
-    "techniques": "Technieken",
-    "techniquesDesc": "Leer fundamentele Goju Ryu technieken",
-    "kata": "Kata",
-    "kataDesc": "Traditionele vormen en patronen",
-    "hojoUndo": "Hojo Undo",
-    "hojoUndoDesc": "Aanvullende trainingsmethoden en hulpmiddelen",
-    "kumite": "Kumite",
-    "kumiteDesc": "Sparring technieken en oefening"
-  },
-  "study": {
-    "title": "Studiesectie",
-    "description": "Interactieve lessen en quizzen om je kennis uit te breiden",
-    "quizzes": "Quizzen",
-    "quizDesc": "Test je kennis over verschillende onderwerpen.",
-    "noQuizzes": "Momenteel geen quizzen beschikbaar.",
-    "flashcards": "Flashcards",
-    "flashcardDesc": "Herhaal termen en concepten met flashcards.",
-    "noFlashcards": "Momenteel geen flashcard sets beschikbaar.",
-    "tests": "Tests",
-    "startStudy": "Begin met Studeren"
-  },
-  "settings": {
-    "title": "Instellingen",
-    "description": "Pas je app-ervaring aan",
-    "language": "Taal",
-    "theme": "Thema",
-    "notifications": "Meldingen",
-    "darkMode": "Donkere Modus",
-    "about": "Over"
-  },
-  "theme": {
-    "light": "Licht",
-    "dark": "Donker",
-    "system": "Systeem"
-  },
-  "history": {
-    "title": "Geschiedenis",
-    "origins": "Oorsprong in Okinawa",
-    "origins-desc": "Goju-Ryu karate werd ontwikkeld in Okinawa, Japan in het begin van de 20e eeuw door Chojun Miyagi. De naam 'Goju' komt van het 'hard-zacht' principe uit de traditionele Chinese krijgskunsten en weerspiegelt het dubbele karakter van het systeem: het combineert harde stoottechnieken met zachtere, cirkelvormige bewegingen voor zowel aanval als verdediging.",
-    "development": "Ontwikkeling",
-    "development-desc": "De ontwikkeling en verspreiding van Goju Ryu over de wereld",
-    "lineage": "Lijn van Meesters",
-    "lineage-desc": "De belangrijkste leraren en hun bijdragen aan de stijl",
-    "subsections": {
-      "early-history": "Vroege Geschiedenis",
-      "early-history-desc": "De wortels van Goju Ryu gaan terug tot de Chinese krijgskunsten en hun integratie in de Okinawaanse cultuur.",
-      "miyagi-era": "Het Tijdperk van Miyagi",
-      "miyagi-era-desc": "De ontwikkeling en systematisering van de Goju Ryu stijl door Chojun Miyagi in de jaren 1920 en 1930.",
-      "post-war": "Naoorlogse Periode",
-      "post-war-desc": "De verspreiding en ontwikkeling van Goju Ryu na de Tweede Wereldoorlog.",
-      "modern-era": "Moderne Tijd",
-      "modern-era-desc": "De huidige ontwikkeling en wereldwijde verspreiding van Goju Ryu.",
-      "morioHigaonna": {
-        "title": "Morio Higaonna (1939 - )"
-      }
-    }
-  },
-  "kata": {
-    "theory": {
-      "title": "[NL] Kata Theorie",
-      "description": "[NL] De principes en praktijk van kata begrijpen"
-    },
-    "levels": {
-      "beginner": "[NL] Beginner",
-      "intermediate": "[NL] Gevorderd",
-      "advanced": "[NL] Expert",
-      "master": "[NL] Meester"
-    },
-    "sanchin": {
-      "meaning": "Drie gevechten/conflicten",
-      "description": "Het meest fundamentele kata in Goju Ryu. Het richt zich op correcte ademhaling, stand en spanning door het hele lichaam. De 'drie gevechten' verwijzen naar geest, lichaam en spirit.",
-      "history": "Betekent letterlijk '3 gevechten'. Het verwijst niet naar een feitelijk gevecht, maar naar de interne strijd om lichaam, geest en spirit door wilskracht te harden. Het kata bestaat uit langzaam uitgevoerde technieken, welke met continue spierspanning en diepe buikademhaling worden uitgevoerd. De hedendaags gelopen Sanchin is een variant ontwikkeld door Miyagi Chojun sensei (grondlegger, 1888-1953) op het aan hem overgeleverde origineel van Higaonna Kanryo sensei. De ademhaling in de originele versie had een explosiever karakter en het lichaam maakte twee keer een lichaamsdraai van 180 graden. Gevorderde karatestudenten kunnen tijdens de uitvoering van kata Sanchin getest worden op correcte spierspanning door medeleerlingen, die middels voelen en het slaan op bepaalde lichaamsdelen correcte uitvoering controleren. Dit testen wordt shime genoemd. Examenstof voor gokyu (vijfde kyu, groene band) en hoger.",
-      "culturalSignificance": "Sanchin wordt beschouwd als de essentie van Goju Ryu karate en belichaamt de principes van ademhaling, stand en focus die centraal staan in de stijl."
-    },
-    "tensho": {
-      "name": "Tensho",
-      "japaneseName": "転掌",
-      "meaning": "Draaiende palmen",
-      "description": "Betekent letterlijk 'draaiende palmen'. Dit kata werd door Miyagi Chojun sensei ontwikkeld als tegenhanger van kata Sanchin. Net als Sanchin wordt het uitgevoerd met diepe ademhaling en algehele spierspanning, maar het karakter is heel anders. Waar Sanchin gesloten, hoekig en hard (go) is, is Tensho open, sierlijk en zacht (ju), met veel ronde hand- en polstechnieken. Examenstof voor sandan (derde dan) en hoger.",
-      "history": "Ontwikkeld door Chojun Miyagi als tegenhanger van Sanchin, vertegenwoordigt Tensho het zachte, circulaire aspect van Goju Ryu.",
-      "culturalSignificance": "Tensho demonstreert het 'ju' (zachte) aspect van Goju Ryu en vult het 'go' (harde) van Sanchin aan.",
-      "stepsCount": 6,
-      "steps": {
-        "step1": {
-          "title": "[NL] Opening Sequence: Kamae and Breathing",
-          "description": "[NL] Begin in musubi dachi, bow. Step out with the left foot into sanchin dachi. Perform yoi with deep ibuki breathing. Bring hands to the center, right hand over left, palms up. Inhale slowly, drawing hands up the centerline. Exhale, pushing hands forward and rotating palms outward (Tensho uke - palm heel block/push). Repeat this initial sequence three times, focusing on smooth transitions and coordinated breath."
-        },
-        "step2": {
-          "title": "[NL] Circular Blocks and Strikes (Mawashi Uke)",
-          "description": "[NL] From the extended palm position, inhale while drawing both hands in large circles outwards and then inwards towards the chest (Mawashi uke - circular block). Exhale while pushing both hands forward in a double palm strike. Repeat this sequence three times. Focus on the continuous flow and the feeling of gathering and projecting energy."
-        },
-        "step3": {
-          "title": "[NL] Low Circular Blocks (Gedan Mawashi Uke)",
-          "description": "[NL] Inhale, drawing hands down in large circular motions to perform low circular blocks (Gedan Mawashi uke), protecting the lower body. Exhale, pushing hands forward and slightly upward. Repeat this sequence three times. Maintain sanchin dachi and core engagement."
-        },
-        "step4": {
-          "title": "[NL] Hooking Blocks (Kake Uke) and Palm Strikes",
-          "description": "[NL] Inhale, performing a right hooking block (Kake uke) across the body, then exhale with a left palm strike. Inhale, performing a left hooking block, then exhale with a right palm strike. Repeat this alternating sequence three times on each side. Focus on the trapping and striking application."
-        },
-        "step5": {
-          "title": "[NL] Double Hand Techniques (Morote Uke and Strikes)",
-          "description": "[NL] Inhale, bringing both hands up in a double rising block. Exhale, pushing both hands down in a double downward block. Inhale, bringing hands to the sides, then exhale with a double middle palm strike (Morote shotei zuki). Repeat this sequence three times. Emphasize the coordination of both hands working together."
-        },
-        "step6": {
-          "title": "[NL] Closing Sequence: Breathing and Zanshin",
-          "description": "[NL] Perform the initial Tensho uke (palm heel block/push) sequence one final time. Bring hands back to the center, left hand over right, palms up. Perform deep ibuki breathing. Step back with the left foot to musubi dachi. Bow, maintaining zanshin."
-        }
-      }
-    },
-    "gekisai-dai-ichi": {
-      "name": "Gekisai Dai Ichi",
-      "japaneseName": "撃砕第一",
-      "meaning": "Aanval en vernietiging, eerste vorm",
-      "description": "Een van de twee Gekisai kata gecreëerd door Chojun Miyagi voor lichamelijke opvoeding op scholen. Het leert fundamentele technieken en ademhalingspatronen in een eenvoudiger formaat dan de oudere kata.",
-      "history": "Betekent letterlijk 'aanval en vernietiging 1'. Deze voor het karate wat ongebruikelijk agressieve benaming weerspiegelt de tijd waarin het Japanse eiland Okinawa het slagveld voor Japans-Amerikaanse oorlogshandelingen was. Het kata werd in 1940 ontwikkeld door de grondlegger van het Okinawa Goju-ryu Karate-do, Miyagi Chojun sensei. Het bestaat uit diverse combinaties van eenvoudige basistechnieken, die het aanleren van de latere moeilijkere klassieke koryu kata vergemakkelijken. Examenstof voor kukyu (negende kyu, witte band) en hoger.",
-      "culturalSignificance": "Dit kata was onderdeel van Miyagi's poging om karate te populariseren en toegankelijk te maken voor een breder publiek, met name de jongere generatie.",
-      "stepsCount": 8,
-      "steps": {
-        "step1": {
-          "title": "Opwaartse wering (jodan uke)",
-          "description": "Stap vanuit musubi dachi met de rechtervoet recht vooruit en draai op de bal van beide voeten en voer gelijktijdig de wering uit. De lengte van je stand is twee voeten. De werende arm gaat vlak langs het lichaam en aanvankelijk horizontaal voor het middenrif langs en daarna recht omhoog en draait pas op het laatste moment. Zorg voor zo min mogelijk spanning in je schouders. De arm wordt gefocust op een vuist-breedte van het voorhoofd. De hikite-arm gaat aanvankelijk omhoog, blijft hoog tijdens de draai van het lichaam en wordt vandaar actief en krachtig naar de zij getrokken. Focus krachtig. Als je blokt is je gewicht verdeeld over beide voeten. Gevorderden kunnen tijdens de kime de elleboog iets naar beneden draaien en de techniek uitvoeren met een wat rondere beweging.",
-          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
-        },
-        "step2": {
-          "title": "Hoge stoot (jodan zuki)",
-          "description": "Zet af door de voorste voet in de grond te drukken en stap rechtdoor in han zenkutsu dachi (drie voeten lang). Het bekken draait niet in bij de stoot. Tijdens de kime van de stoot is ongeveer 70% van je gewicht op het voorste been. De stoot is op ooghoogte. Gebruik ook de krachtige hikite en sluit je tanden tijdens de kime. Gebruik vooral de kracht van de afzet en de verplaatsing, houd je schouders zo lang mogelijk ontspannen.",
-          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
-        },
-        "step3": {
-          "title": "Lage vegende wering (gedan barai)",
-          "description": "Stap met je rechterbeen terug in shiko dachi en open gelijktijdig je bekken en laat het vallen. Je blijft naar de zijkant kijken. De hikite wordt krachtig teruggetrokken (trek je elleboog naar achteren en naar beneden). Tot de kime is er geen spanning in de arm en de vuist eindigt een vuist-breedte van de knie (in de bunkai wordt de lage wering uitgevoerd als een aanval naar de elleboog en eindigt verder van de knie). Tijdens de kime blijft het bekken open, maar het tanden sluit.\n\nOpmerking: in shiko dachi is de kruin omhoog en de kin iets in (oren gespitst). De rug maakt een \"S\", de schouderbladen liggen tegen elkaar aan en zijn naar beneden gericht. Het bekken is open en dus naar voren gekanteld, het scheenbeen staat loodrecht op de vloer en de knieën staan recht boven de voeten (aanvankelijk moeten veel karateka's hiervoor de knieën en het dijbeen actief naar achteren duwen). De heup is iets hoger dan de knieën (water zou langzaam naar beneden stromen over het dijbeen). De voeten (vooral de grote teen en de binnenzijde van de voet) worden krachtig in de grond gedrukt en grijpen de vloer tijdens de kime.",
-           "image": "/Images/Kata/gekisai-dai-ichi-2.png"
-        },
-        "step4": {
-          "title": "Middenhoge wering (chudan uke)",
-          "description": "Trek de linkervoet naar de andere voet en daarna in een cirkel naar voren (de enkels gaan langs elkaar heen) in sanchin dachi. De vuist van de werende hand begint ver onder de elleboog van de andere arm. De techniek wordt uitgevoerd met muchimi. Deze beweging wordt uitgevoerd met een vrij grote circulaire beweging en de voet en de arm bewegen gelijktijdig.",
-          "image": null
-        },
-        "step5": {
-          "title": "Voorwaartse trap (mae geri), elleboogstoot en stamp (hiji ate en fumikomi geri), uraken uchi (knokkelslag), gedan barai en middenhoge tegengestelde stoot (chudan gyaku zuki)",
-          "description": "De technieken in deze serie (behalve de elleboogstoot en de stamp) moeten afzonderlijk en krachtig worden uitgevoerd. Het is belangrijk om (tussendoor) te ontspannen na elke techniek. Bij de klassikale uitvoering van Gekisai dai ichi zit een telstop voor de knokkelslag, hierdoor kan het lichaam beter worden ontspannen. Het ritme is 1-2 en 1-2-3.\n\nBehoud het blok en hikite tijdens de voorwaartse trap. De trap – knie hoog heffen totdat het dijbeen evenwijdig is aan de vloer - is keage (dus zonder bekkenkanteling en heupdraai). De trap is recht naar voren met de bal van de voet naar het kruis. Voor de trap zink je iets in op je standbeen en tijdens de trap steunt het lichaam volledig op het standbeen. Het bekken mag je iets instrekken (hoeft niet) en zet je niet vast. Na de trap ontspan je, trek het onderbeen actief terug totdat hij onder de knie is. Vandaaruit wordt hij neergestampt in zenkutsu dachi.\n\nDe elleboogstoot gaat vooral naar voren, de vuist eindigt bij de kaak. Trek de hikite krachtig terug. De elleboogstoot en de stamp worden gezamenlijk uitgevoerd en afhankelijk van het niveau van de karateka kan dit op drie manieren:\n1. De voet wordt neergestampt en de kaatsing van de grond wordt gebruikt in de elleboogstoot. Het ritme is 1 ….. 2.\n2. De voet wordt neergestampt en meteen daarna wordt de elleboogstoot uitgevoerd. Het ritme in pam-bam.\n3. De stamp en de elleboogstoot worden gelijktijdig uitgevoerd. Vanuit hara gaat de kracht gelijktijdig naar de voet als naar de elleboog. Dit heet \"splitting power\".\n\nDe knokkelslag wordt ingezet vanuit het bekken en tijdens de impuls blijven de schouders, elleboog en pols ontspannen. De techniek is een zweepslag (er is dus geen kime) naar jinchu (vitaal punt bij het midden van de bovenlip). Na de techniek klapt de vuist terug en maakt de elleboog een hoek van 90 graden.\n\nDe lage vegende wering maakt een relatief kleine zwaai en draait om de elleboog. Tijdens de uitvoering is er geen spanning in de schouders en de elleboog. Tijdens de focus draait de arm iets. De hikite is krachtig.\n\nDe tegengestelde stoot wordt uitgevoerd met heel veel kracht en snelheid. De beweging begint door het achterste been te strekken. Daardoor draait het bekken in; dit wordt gebruikt voor de krachtige impuls van de stoot, gefocust en uitgevoerd naar suigetsu. Gebruik ook de krachtige en snelle hikite. Kiai!",
-          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
-        },
-        "step6": {
-          "title": "Voetveeg (ashi barai) en meshandslag (shuto uchi)",
-          "description": "Trek de achterste voet richting de andere en maak een kleine voetveeg; de vegende voet houdt lang contact met de grond en passeert de andere niet. Focus op de zijkant van de binnenkant van de voet, let er op dat je laag veegt. Stamp de voet neer in hachiji dachi (= 'natuurlijke stand') en gebruik de weerkaatsing van de grond voor de impuls naar de meshandslag; gebruik ook de krachtige hikite (blijft een vuist). Trek tijdens de veeg ook je schouderbladen uit elkaar en wat naar voren (de rug blijft recht, je blijft naar voren kijken) en gebruik ook het terugspringen van de schouderbladen in de meshandslag. Bij de meshandslag zijn de schouders en ellebogen vrij van spanning. De techniek is snel en wordt kort gefocust op ooghoogte (\"zware slag\"). Bij de meshand zijn de vingers recht en de gebogen duim ligt tegen zijkant van de basis van de wijsvinger. Focus ook op het raakpunt met de pinkmuis.",
-          "image": null
-        },
-        "step7": {
-          "title": "Dubbele stoot (awase zuki): middenhoge en omgekeerde stoot (chudan en ura zuki)",
-          "description": "De dubbele stoot is een kleine en gesloten vorm van de tora guchi. Stap vanuit hachiji dachi in een rechte lijn naar achteren (iets schuin) in zenkutsu dachi en trek je hand actief (alsof je iemand meesleurt) in je zij (de knokkels blijven naar boven). Strek je been en zet je hele lichaam achter de dubbele stoot; gebruik vooral de kracht vanuit de grond en je rugspieren (de vuist van de omgekeerde stoot is boven de knie). Stap met je linkerbeen naar voren en kom niet omhoog tijdens het wisselen van de voeten (de voeten staan even naast elkaar; er is een moment vergelijkbaar met op de wc gaan zitten). Voer tijdens het wisselen van de voeten met de rechterhand een middenhoge binnenwaartse wering (chudan uchi uke) uit en met de linkerhand een middenhoge buitenwaartse wering (chudan soto uke), waarbij je (dus) tegen de rug van beide vuisten aankijkt. Stap terug en trek gelijktijdig de vuisten krachtig terug in de zij. Gebruik het weerkaatsen van de grond, het strekken van het been/indraaien bekken en de rugspieren voor nog een krachtige dubbele stoot (awase zuki: ura zuki (omgekeerde stoot) en chudan zuki (middenhoge stoot). Van de vuist die de middenhoge stoot gaat maken, is tijdens de wissel de hikite in de zij met de knokkels naar boven. De ura zuki (knokkels naar beneden tijdens de wissel) is naar de zevende rib (denko), de chudan zuki naar de 5e tussenribruimte, net onder de tepel (ganka).\n\nOpmerking: beginners mogen de chudan soto uke ook als een 'gewone' chudan uke uitvoeren, waarbij je dus tegen de vingerzijde van de vuist kijkt.",
-          "image": "/Images/Kata/gekisai-dai-ichi-3.png"
-        },
-        "step8": {
-          "title": "Afsluiting",
-          "description": "Open de linkerhand en leg de rechtervuist met een kleine circulaire beweging in de linker. Draai de linkervoet naar buiten, sluit met de rechtervoet aan in musubi dachi en draai gelijktijdig de handen. Sluit de kata af.",
-          "image": null
-        }
-      }
-    },
-    "gekisai-dai-ni": {
-      "meaning": "Aanval en vernietiging, tweede vorm",
-      "description": "De tweede van de twee Gekisai kata. Het bouwt voort op de technieken van Gekisai Dai Ichi met extra bewegingen en iets complexere patronen.",
-      "history": "Betekent letterlijk 'aanval en vernietiging 2'. Net als Gekisai Dai Ichi ontwikkeld door Miyagi Chojun sensei om dezelfde redenen. Examenstof voor nanakyu (zevende kyu, gele band) en hoger.",
-      "culturalSignificance": "Vertegenwoordigt de evolutie van karate-instructie zoals die werd gestandaardiseerd voor bredere onderwijstoepassingen."
-    },
-    "saifa": {
-      "meaning": "Vernietigen en scheuren",
-      "description": "Een kata die snelle richtingsveranderingen en technieken op korte afstand benadrukt. Het bevat grijp-, trek- en scheurbewegingen die zijn ontworpen voor gevechten op korte afstand.",
-      "history": "Betekent zoiets als 'vernietigende slagen'. Sai betekent, net als in Gekisai, 'vernietigen'. Fa betekent onder meer 'slaan'. Typerend voor kata Saifa zijn de vele slagtechnieken, zoals uraken uchi, tettsui uchi en haito uchi. Saifa is het eerste klassieke koryu kata. Het kata werd overgeleverd door Ryu Ryu Ko aan Higaonna Kanryo sensei. Vergeleken met het Gekisai Dai kata neemt vanaf Saifa de moeilijkheidsgraad toe en verschijnen meer en meer combinaties van hand- en beentechnieken die goede coördinatie vergen. Examenstof voor gokyu (vijfde kyu, groene band) en hoger.",
-      "culturalSignificance": "Saifa vertegenwoordigt de evolutie van vechtkunsttechnieken die zijn ontworpen voor praktische zelfverdedigingssituaties in drukke omgevingen."
-    },
-    "seiyunchin": {
-      "meaning": "Beheersen en trekken in gevecht",
-      "description": "Een kata gericht op het beheersen van het evenwicht en de kracht van een tegenstander. Het leert technieken voor grijpen, trekken en het manipuleren van de kracht van een aanvaller.",
-      "history": "Betekent zoiets als 'in het gevecht uit balans brengen'. Dit kata is het enige kaishu kata zonder traptechnieken en benadrukt de vorming van sterke, stabiele standen. De bunkai kumite (toepassingen) bestaan uit diverse worstel- en werptechnieken die uitermate geschikt zijn voor close-combat. Examenstof voor sankyu (derde kyu, bruine band) en hoger.",
-      "culturalSignificance": "Dit kata demonstreert het 'ju' (zachte, meegaande) aspect van Goju Ryu, en laat zien hoe je de energie van een tegenstander kunt ombuigen in plaats van deze direct te ontmoeten."
-    },
-    "shisochin": {
-      "meaning": "Vecht in vier richtingen",
-      "description": "Dit kata benadrukt technieken die in vier richtingen kunnen worden toegepast en leert de beoefenaar zich bewust te zijn van en te verdedigen tegen meerdere aanvallers.",
-      "history": "Betekent letterlijk 'gevecht in 4 richtingen'. Een andere vertaling is '4 deuren'. Het woord deur is een symbolisch woord voor de plaats waar een eventuele tegenstander een aanval kan plegen, kan 'binnenkomen'. Het kata bevat een typische aanvalscombinatie, welke in vier richtingen uitgevoerd wordt. Examenstof voor ikkyu (eerste kyu, bruine band) en hoger.",
-      "culturalSignificance": "Het kata benadrukt situationeel bewustzijn en het belang van voorbereid zijn op bedreigingen uit alle richtingen, een cruciaal aspect van traditionele krijgskunst."
-    },
-    "sanseru": {
-      "meaning": "Zesendertig",
-      "description": "Vernoemd naar de 36 vitale punten van het lichaam, bevat dit kata krachtige stoottechnieken gericht op deze punten, evenals verdedigende bewegingen.",
-      "history": "De namen van de kata Sanseru, Sepai, Sesan en Suparinpei zijn Chinese namen. In de schrijftaal wordt achter alle 4 het woord 'handen' toegevoegd, hetgeen in de spreektaal echter weggelaten wordt en wordt bijvoorbeeld Sanseru gezegd in plaats van Sanseru shu. Deze 4 namen zijn allemaal getallen die verwijzen naar boeddhistische symboliek. Zo staat Sanseru voor '36 (handen)'. 36 is de symbolische vermenigvuldiging van 6 * 6. De eerste 6 staat voor oog, oor, neus, tong, lichaam en geest. De tweede 6 symboliseert kleur, stem, smaak, reuk, tast en rechtvaardigheid. Examenstof voor nidan (tweede dan) en hoger.",
-      "culturalSignificance": "Het getal 36 heeft betekenis in veel Aziatische krijgskunst- en filosofische tradities en staat voor de harmonie tussen fysieke techniek en diepere inzichten."
-    },
-    "sepai": {
-      "meaning": "Achttien",
-      "description": "Vernoemd naar de 18 Arhats (verlichte discipelen van Boeddha), richt dit kata zich op geavanceerde technieken en toepassingen, waaronder stoten naar vitale punten en gewrichtsmanipulaties.",
-      "history": "Betekent '18 (handen)'. 18 is de vermenigvuldiging van 6 x 3. De uitleg van de 6 is hetzelfde als de tweede 6 van kata Sanseru. De 3 staat voor goed, slecht en vrede. Sepai, Kururunfa, Sesan en Suparinpei benadrukken door hun afwisseling van hard en zacht, van go en ju, van ken en kon, de ware essentie van het Okinawa Goju-ryu Karate-do. Examenstof voor sandan (derde dan) en hoger.",
-      "culturalSignificance": "Het getal 18 heeft betekenis in boeddhistische en Chinese krijgstradities en staat voor verschillende aspecten van verlichting en het pad naar meesterschap."
-    },
-    "kururunfa": {
-      "meaning": "Stilte voor de storm",
-      "description": "Een kata die snelle overgangen tussen zachte en harde technieken demonstreert, met de nadruk op explosieve kracht en plotselinge ritmewisselingen.",
-      "history": "Vrij vertaald 'stilte voor de storm'. Kuru betekent zoiets als 'aanhouden' of 'afwachten'. Run betekent in de kalligrafie de pauze of vertraging in de beweging van de kwast, voordat er een nieuwe beweging wordt gemaakt. Fa betekent 'uitbarsten'. Het kata bevat veel plotselinge ritmewisselingen en explosieve technieken. Examenstof voor yondan (vierde dan) en hoger.",
-      "culturalSignificance": "Kururunfa belichaamt het principe van plotselinge, explosieve actie na kalmte, een belangrijk concept in zowel krijgskunst als oosterse filosofie."
-    },
-    "sesan": {
-      "meaning": "Dertien",
-      "description": "Vernoemd naar de 13 principes van het gevecht, bevat dit kata technieken voor zowel gevechten op korte als lange afstand, met de nadruk op snelle stoten en trappen.",
-      "history": "Betekent '13 (handen)'. Het getal 13 staat in de Chinese cultuur voor geluk en welvarendheid. Kata Sesan was het favoriete kata van grondlegger Miyagi Chojun sensei en diens vroegtijdig overleden topleerling Shinzato Jinan sensei. Examenstof voor godan (vijfde dan) en hoger.",
-      "culturalSignificance": "Het getal 13 staat in deze context voor volledigheid in krijgskunsttheorie, niet voor het westerse bijgeloof van ongeluk."
-    },
-    "suparinpei": {
-      "meaning": "108",
-      "description": "Het langste en meest geavanceerde kata in het Goju Ryu-systeem, vernoemd naar de 108 bezoedelingen van de mens in de boeddhistische filosofie. Het bevat een uitgebreide verzameling technieken uit het hele systeem.",
-      "history": "Betekent '108 (handen)'. Het getal 108 is volgens de boeddhistische getalssymboliek opgebouwd uit de vermenigvuldiging 3 x 36. De symboliek van 3 en 36 is die van kata Sanseru en Sepai. 108 verwijst naar de 108 kwade hartstochten die de mens volgens het boeddhisme heeft. Suparinpei is het meest gevorderde en langste kata uit het Okinawa Goju-ryu Karate-do curriculum en behoort tot de examenstof voor rokudan (zesde dan) en hoger.",
-      "culturalSignificance": "Het getal 108 is belangrijk in veel oosterse tradities en het kata symboliseert de beheersing van het volledige Goju Ryu-systeem."
-    }
-  },
-  "bunkai": {
-    "title": "Bunkai",
-    "description": "Toepassing en analyse van kata-technieken",
-    "overview": "Overzicht",
-    "details": {
-      "attack": "Aanval",
-      "defense": "Verdediging",
-      "counterAttack": "Tegenaanval",
-      "footwork": "Voetenwerk",
-      "vitalPoints": "Vitale Punten",
-      "notes": "Aandachtspunten"
-    },
-    "kata": {
-      "gekisaiDaiIchi": {
-        "title": "Gekisai Dai Ichi Bunkai",
-        "description": "Betekent letterlijk 'aanval en vernietiging 1'. Deze voor het karate wat ongebruikelijk agressieve benaming weerspiegelt de tijd waarin het Japanse eiland Okinawa het slagveld voor Japans-Amerikaanse oorlogshandelingen was. Het kata werd in 1940 ontwikkeld door de grondlegger van het Okinawa Goju-ryu Karate-do, Myagi Chojun sensei. Het bestaat uit diverse combinaties van eenvoudige basistechnieken, die het aanleren van de latere moeilijkere klassieke koryu kata vergemakkelijken.",
-        "bunkai1": {
-          "name": "Jodan Age Uke + Jodan Oi Zuki",
-          "attack": "Jodan Oi Zuki.",
-          "defense": "Jodan Age Uke.",
-          "counterAttack": "Jodan Oi Zuki.",
-          "footwork": "45° schuin naar achteren uitstappen naar Heiko Sanchin Dachi + voetwissel (in-uit).",
-          "vitalPoints": "Bijv. Oog [Seimo], [Gansei] of [Kasumi].",
-          "notes": "Behoud steeds Zanchin. Dit geldt voor alle bunkai!"
-        },
-        "bunkai2": {
-          "name": "Gedan Harai Uke",
-          "attack": "Gedan Oi Zuki.",
-          "defense": "Gedan Harai Uke (als slag en wering tegelijk).",
-          "counterAttack": "Wering = aanval.",
-          "footwork": "Zijwaarts uitstappen naar buiten in Shiko Dachi.",
-          "vitalPoints": "Elleboog [Soto Hijitsume].",
-          "notes": "Bij training met hard contact niet het vitale punt [Hijitsume] aanvallen maar de onderarm!"
-        },
-        "bunkai3": {
-          "name": "Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Chudan Yoko Uke.",
-          "counterAttack": "Gedan Mae Geri + Chudan Hiji Ate + Jodan Uraken Uchi.",
-          "footwork": "Sayu Tenshin + na Mae Geri inkomen naar voren met Zenkutsu Dachi.",
-          "vitalPoints": "Bijv. [Kinteki] (Mae Geri) + [Ganka] of [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
-          "notes": "De lage voorwaartse trap wordt al naar gelang de afstand uitgevoerd met de bal van de voet, de voorzijde van de enkel of het scheenbeen. De aanvaller ontwijkt de Chudan Hiji Ate met een achterwaartse Suri Ashi."
-        },
-        "bunkai4": {
-          "name": "Gedan Harai Uke + Chudan Gyaku Zuki",
-          "attack": "Gedan Oi Zuki.",
-          "defense": "Gedan Harai Uke.",
-          "counterAttack": "Chudan Gyaku Zuki.",
-          "footwork": "Schuin naar achteren weg stappen.",
-          "vitalPoints": "Bijv. [Ganka].",
-          "notes": "Gevorderden (vanaf bruine band) moeten de wering en tegenaanval als één beweging oefenen. De laatste twee Bunkai Kumite moeten door gevorderden ook als één geheel worden getraind."
-        },
-        "bunkai5": {
-          "name": "Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Chudan Yoko Uke + Tsukkami (= beetpakken).",
-          "counterAttack": "Ashi Barai + Yoko Shuto Uchi + Fumikomi Geri.",
-          "footwork": "Sayu Tenshin met 45 graden draai.",
-          "vitalPoints": "Bijv. [Jinchu] of Adamsappel [Nodo Botoku] (Yoko Shuto Uchi) + nek (Fumikomi Geri).",
-          "notes": "Na de Ashi Barai de voet snel terugbrengen, om te voorkomen dat de tegenstander tegen je been aanvalt. Voor de veiligheid van de tegenstander wordt de Yoko Shuto Uchi niet slaand uitgevoerd naar een Kyusho, maar meer duwend bijvoorbeeld op borst en schouder. De Fumikomi Geri kan met beide benen worden uitgevoerd, afhankelijk van hoe de tegenstander valt. In de Kata is het echter hetzelfde been als die waarmee de veeg wordt uitgevoerd. Gevorderde karateka kunnen ook een irimi stap maken en de tegenstander van dichtbij vegen. Bij deze gevorderden variatie wordt tevens de elleboog op de borst klem gezet."
-        },
-        "bunkai6": {
-          "name": "Awase Zuki",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Nagashi Seiken Ura Uke (variant van Chudan Yoko Uke).",
-          "counterAttack": "Awase Zuki + Awase Oshi.",
-          "footwork": "Sayu Tenshin + uitstappen naar Zenkutsu Dachi.",
-          "vitalPoints": "Bijv. [Ganka] (Gyaku Zuki) en [Inazuma] (Ura Zuki).",
-          "notes": "De aanval moet vroeg onderschept worden. De Awase Zuki moet eerst krachtig gefocust worden voordat deze als duw wordt voortgezet. Om dit te kunnen doen, moet je eerst naar binnen en beneden ontspannen en de adem binnen laten komen. De Awase Zuki is een verkleinde, gesloten hand versie van de Tora Guchi."
-        }
-      },
-      "gekisaiDaiNi": {
-        "title": "Gekisai Dai Ni Bunkai",
-        "description": "Betekent letterlijk 'aanval en vernietiging 2'. Net als Gekisai Dai Ichi ontwikkeld door Miyagi Chojun sensei om dezelfde redenen. Het kata bestaat uit diverse combinaties van eenvoudige basistechnieken, die het aanleren van de latere moeilijkere klassieke koryu kata vergemakkelijken.",
-        "bunkai1": {
-          "name": "Hiki Uke",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Hiki Uke + overpakken met 'Sukui Uke'.",
-          "counterAttack": "Beetpakken bij de keel.",
-          "footwork": "Sayu Tenshin + voorwaartse Suri Ashi.",
-          "vitalPoints": "Bijv. adamsappel [Nodo Botoke] en/of halsslagader [Matsukaze].",
-          "notes": "Bij het inslippen (Suri Ashi) de voorste voet om de voorste voet van de aanvaller haken en een been klem aanleggen of de voorste voet op de voorste voet van de aanvaller zetten. De aanvalsarm vastklemmen tussen je eigen bovenarm en flank."
-        },
-        "bunkai2": {
-          "name": "Nihon Hiki Uke",
-          "attack": "Chudan Oi Zuki + Jodan Gyaku Zuki.",
-          "defense": "Twee keer Hiki Uke.",
-          "counterAttack": "Nukite Zuki.",
-          "footwork": "Een voet terugstappen of twee keer Sayu Tenshin.",
-          "vitalPoints": "Oog [Gansei] of Halssalgader [Matsukaze].",
-          "notes": "Met de hand/arm van de tweede aanval sluit je de andere arm op. Evt. met de grote teen op voorvoet druk zetten [Kori]."
-        },
-        "bunkai3": {
-          "name": "Tora Guchi",
-          "attack": "Jodan Oi Zuki.",
-          "defense": "Jodan Haishu Osae Uke.",
-          "counterAttack": "Morote Tsukkami en Morote Oshi.",
-          "footwork": "Sayu Tenshin naar Neko Ashi Dachi, daarna uitstappen. Na de duw de achterste voet bijtrekken.",
-          "vitalPoints": "Bijv. [Kinteki] en halsslagader/Adamsappel ([Matsukaze]/[Nodo Botoke]).",
-          "notes": "Aanval vroeg onderscheppen en met Muchimi uitvoeren."
-        }
-      },
-      "saifa": {
-        "title": "Saifa Bunkai",
-        "description": "Betekent zoiets als 'vernietigende slagen'. Sai betekent, net als in Gekisai, 'vernietigen'. Fa betekent ondermeer 'slaan'. Typerend voor kata Saifa zijn de vele slagtechnieken, zoals uraken uchi, tettsui uchi en haito uchi. Saifa is het eerste klassieke koryu kata.",
-        "bunkai1": {
-          "name": "Hazushi Waza + Otoshi Uke + Jodan Uraken Uchi",
-          "attack": "1. Kote Dori. 2. Chudan Gyaku Zuki.",
-          "defense": "1. Hazushi Waza (bevrijdingstechniek). 2. Shotei Otoshi Uke.",
-          "counterAttack": "Jodan Uraken Uchi.",
-          "footwork": "45° instappen en indraaien naar Heiko Dachi, daarna in of terug stappen naar Shiko Dachi.",
-          "vitalPoints": "Bijv. [Jinchu].",
-          "notes": "Bij het instappen de knokkels van de beetgepakte hand/arm tegen de onderarm van de tegenstander drukken om zijn greep te verzwakken (van meet af aan druk houden). Bij het lostrekken (Hazushi Waza) je armen dicht bij het lichaam houden. Na de Otoshi Uke de arm beetpakken (niet gelijk grijpen). De wering kan ook worden uitgevoerd in Osae of Nagashi vorm."
-        },
-        "bunkai2": {
-          "name": "Sukui Uke + Shotei Gedan Harai Uke + Hiza Ate + Mae Geri",
-          "attack": "Chudan Oi Zuki + Mae Geri.",
-          "defense": "Sukui Uke + Shotei Gedan Harai Uke.",
-          "counterAttack": "Hiza Ate + Gedan Mae Geri.",
-          "footwork": "Vanuit Heiko Dachi terug met Suri Ashi naar Heiko Sanchin Dachi.",
-          "vitalPoints": "Bijv. [Ein] (Hiza Geri) en [Kinteki] (Mae Geri).",
-          "notes": "Bij de Sukui Uke wordt de andere hand gebruikt als bescherming. De aanvaller moet de Mae Geri gelijk terugtrekken. Wanneer de aanvaller, na het terug trekken van de Mae Geri, de romp zijwaarts draait, maak je de Mae Geri naar de flank."
-        },
-        "bunkai3": {
-          "name": "(Morote Hiki Uke +) Heiko Zuki",
-          "attack": "Nihon Chudan Zuki.",
-          "defense": "Nihon Hiki Uke.",
-          "counterAttack": "Morote Nukite Zuki + Morote Oshi.",
-          "footwork": "Een voet naar achteren + voorwaartse Suri Ashi of Ayumi Ashi (al naar gelang de afstand). In geval van grote, sterke tegenstander: twee keer Sayu Tenshin.",
-          "vitalPoints": "Bijv. onder het sleutelbeen (Nukite) en [Ganka] (Oshi).",
-          "notes": "De Morote Nukite Zuki en Morote Oshi worden zoveel mogelijk in een beweging uitgevoerd."
-        },
-        "bunkai4": {
-          "name": "(Morote) Gedan Furi Uchi",
-          "attack": "Ashi Dori.",
-          "defense": "Wegstappen.",
-          "counterAttack": "Morote Gedan Furi Uchi + Kubi Nage.",
-          "footwork": "Kotai Ayumi Ashi eventueel wegdraaien bij het werpen.",
-          "vitalPoints": "Bijv. Beide oren of slapen: [Komekami].",
-          "notes": "Beetpakken bij de oren of bij de kaak en haren."
-        },
-        "bunkai5": {
-          "name": "Tettsui Uchi + TsukamiHiki + Ura Zuki + Jodan Gyaku 'Zuki'",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Gedan Uchi Nagashi Uke.",
-          "counterAttack": "Tettsui Uchi + Tsukkamihiki + Ura Zuki + Jodan (Gyaku) Oshi.",
-          "footwork": "Tai Sabaki, daarna uitstappen voor de Ura Zuki en eventueel doorstappen voor de duw (Ayumi Ashi).",
-          "vitalPoints": "Bijv. fontanel [Shomon] (Tettsui Uchi) + neus (Ura Zuki) + evt. Oog [Gansei] (Oshi).",
-          "notes": "Bij de lage wering de arm rond en kort bij het lichaam houden (niet 'scheppen')."
-        },
-        "bunkai6": {
-          "name": "Haito Uchi",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Ura Hiki Uke.",
-          "counterAttack": "Haito Uchi.",
-          "footwork": "Sayu Tenshin naar Neko Ashi Dachi.",
-          "vitalPoints": "Bijv. Zwevende rib/nieren [Ushiro Denko] of nek [Keichu].",
-          "notes": "In de Kata is de Haito Uchi een Chudan techniek."
-        },
-        "bunkai7": {
-          "name": "Tora Guchi",
-          "attack": "Jodan Oi Zuki.",
-          "defense": "Jodan Haishu Osae Uke.",
-          "counterAttack": "Morote Tsukkami en Morote Oshi.",
-          "footwork": "Sayu Tenshin naar Neko Ashi Dachi, daarna uitstappen. Na de duw de achterste voet bijtrekken.",
-          "vitalPoints": "Bijv. [Kinteki] en halsslagader/adamsappel [Matsukaze]/[Nodo Botoke].",
-          "notes": "Aanval vroeg onderscheppen en met Muchimi uitvoeren."
-        }
-      },
-      "seiyunchin": {
-        "title": "Seiyunchin Bunkai",
-        "overviewTitle": "Bunkai-overzicht Seiyunchin",
-        "description": "Betekent zoiets als 'in het gevecht uit balans brengen'. Het kata is het enige kaishu kata dat geen traptechnieken bevat en benadrukt de vorming van sterke stabiele standen. De bunkai kumite (toepassingen) bestaan uit diverse worstel- en werptechnieken die uitermate geschikt zijn in 'close-combat'. Examenstof voor sankyu (derde kyu, bruine band) en hoger.",
-        "bunkai1": {
-          "name": "Morote Gedan Harai Uke",
-          "attack": "Morote Kote Dori.",
-          "defense": "Hazushi Waza ~ 'Morote Gedan Harai Uke').",
-          "counterAttack": "Hiza Geri of Mae Geri (voorste of achterste been).",
-          "footwork": "Eerst een voet naar voren, dan schuin terug naar Shiko Dachi.",
-          "vitalPoints": "Bijv. [Kinteki].",
-          "notes": "Belangrijk is eerst de greep van de aanvaller te verzwakken (dubbele steek omhoog). De betekenis van het in Shiko Dachi vallen is leren gebruik te maken van je gewicht als kracht in bevrijdingstechnieken."
-        },
-        "bunkai2": {
-          "name": "Sukui Uke + Hiki Uke + Hira Nukite Zuki",
-          "attack": "Chudan Oi Zuki + Hikite.",
-          "defense": "Sukui Uke+ overpakken.",
-          "counterAttack": "Hira Nukite Zuki.",
-          "footwork": "Eén voet naar achteren dan uitstappen naar Shiko Dachi.",
-          "vitalPoints": "Bijv. onder de zwevende ribben.",
-          "notes": "Bij de Nukite Zuki maak je eerst contact, dan zet je kracht."
-        },
-        "bunkai3": {
-          "name": "Hojo Oshi",
-          "attack": "Chudan Oi Zuki Shotei",
-          "defense": "Otoshi Uke",
-          "counterAttack": "Chudan Nakadaka Ippon Ken Zuki + Morote Shotei Hojo Oshi",
-          "footwork": "Indraaien naar Heiko Sanchin Dachi + Suri Ashi naar voren tijdens de duw.",
-          "vitalPoints": "Bijv. [Danchu] (Chudan Nakadaka Ippon Ken Zuki).",
-          "notes": ""
-        },
-        "bunkai4": {
-          "name": "Chudan Hiji Ate",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Otoshi Uke.",
-          "counterAttack": "Chudan Hiji Ate.",
-          "footwork": "Een voet naar achteren, vervolgens met de andere naar voren.",
-          "vitalPoints": "Bijv. [Ganka]",
-          "notes": ""
-        },
-        "bunkai5": {
-          "name": "Hojo Uke + Gedan Harai Uchi",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Chudan Yoko Uke.",
-          "counterAttack": "Jodan Shotei Uchi",
-          "footwork": "Sayu Tenshin, 45 graden draai",
-          "vitalPoints": "Bijv. oor (Jodan Shotei Uchi)",
-          "notes": "Vanaf Shodan level worden deze bunkai en de volgende (met Gedan Barai), als één doorlopende techniek uitgevoerd."
-        },
-        "bunkai6": {
-          "name": "Hari Uke",
-          "attack": "Jodan Oi Zuki + Mae Geri",
-          "defense": "Kaishu Jodan Age Uke (+ Tsukkami) + Gedan Shotei Harai Uke (+ Tsukkami)",
-          "counterAttack": "Hari Uke Nage + Otoshi Zuki.",
-          "footwork": "Eén voet terug, dan met andere voet naar het standbeen van de tegenstander toe en vervolgens Tai Sabaki. Voor lichte Karateka twee keer Sayu Tenshin.",
-          "vitalPoints": "Bijv. [Inazuma].",
-          "notes": "Voor de veiligheid wordt de worp met een grote draaibeweging uitgevoerd. In een zelfverdedigingssituatie, bij een niet te zware tegenstander is de worp kort en wordt het hoofd tegen de"
-        },
-        "bunkai7": {
-          "name": "Chudan Yoko Shotei Uke / Jodan Uchi Uke > Jodan Uraken Uchi",
-          "attack": "Chudan Gyaku Zuki + Jodan Jun Zuki",
-          "defense": "Otoshi Uke (+ Tsukkami) + Jodan Uchi Uke.",
-          "counterAttack": "(evt. Ashi Baraï met voorste been +) Jodan Uraken Uchi",
-          "footwork": "Eén voet naar achteren. Eventueel inslippen bij Jodan Uraken Uchi.",
-          "vitalPoints": "Bijv. [Jinchu] (Jodan Uraken Uchi).",
-          "notes": "De Ashi Barai alleen maken als de afstand dit toelaat."
-        },
-        "bunkai8": {
-          "name": "(Doji Uke +) Age Zuki + Jodan Uraken Uchi + Gedan Harai Uke (Uchi)",
-          "attack": "Chudan Oi Zuki + Mae Geri",
-          "defense": "Otoshi Uke.",
-          "counterAttack": "Age Zuki + Jodan Uraken Uchi + Gedan Harai Uchi.",
-          "footwork": "Een voet naar achteren, dan uitstappen naar Shiko Dachi.",
-          "vitalPoints": "Bijv. kaak [Mikazuki] (Age Zuki) + [Jinchu] (Jodan Uraken Uchi) + [Kinteki] (Gedan Harai Uchi).",
-          "notes": "Gevorderden moeten deze ook oefenen tegen Chudan Zuki + Gedan Zuki of Mae Geri (toepassing van de Doji Uke)."
-        },
-        "bunkai9": {
-          "name": "Hiji Age",
-          "attack": "Omstrengeling van achteren (romp en armen).",
-          "defense": "Hiji Age + Ushiro Hiji Ate (tegelijkertijd) daarna eruit draaien naar Kamae.",
-          "counterAttack": "Aanval = verdediging.",
-          "footwork": "Na te zijn beetgepakt een voet naar voren zetten naar 'Neko Ashi Dachi'.",
-          "vitalPoints": "Bijv. [Inazuma].",
-          "notes": "Als de greep te sterk is dan eerst een Kyusho aanvallen. Bijvoorbeeld door een achterwaartse kopstoot, trap op de voet, slag naar het kruis, etc."
-        },
-        "bunkai10": {
-          "name": "Otoshi Uke + Jodan Uraken Uchi",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Otoshi Uke (+ Tsukkami).",
-          "counterAttack": "Jodan Uraken Uchi.",
-          "footwork": "Indraaiende Suri Ashi.",
-          "vitalPoints": "Bijv. [Jinchu].",
-          "notes": "De wering en de slag volgen elkaar vloeiend op."
-        },
-        "bunkai11": {
-          "name": "Morote Kuri Uke",
-          "attack": "Morote Kubi Dori.",
-          "defense": "Morote Kuri Uke als bevrijdingstechniek.",
-          "counterAttack": "Morote Nukite Zuki.",
-          "footwork": "Naar achteren stappen en in Neko Ashi Dachi 'vallen'.",
-          "vitalPoints": "Bijv. ogen [Gansei].",
-          "notes": "Het is, net als in de Kata, belangrijk dat de onderarmen ruim boven de armen van de aanvaller bij elkaar komen."
-        },
-        "bunkai12": {
-          "name": "Chudan Oi Zuki > Chudan Yoko Uke + pols beetpakken > Gedan Harai Uke (Uchi)",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Chudan Yoko Uke + meteen doorgaand de pols beetpakken.",
-          "counterAttack": "Gedan Harai Uke (Uchi).",
-          "footwork": "Sayu Tenshin, 30 graden draai + voetwissel (terug-in) naar Shiko Dachi.",
-          "vitalPoints": "Bijv. [Kinteki] (Gedan Harai Uchi).",
-          "notes": "Bij de verplaatsing naar Shiko Dachi zo indraaien, dat je onbelemmerd het kruis kan raken."
-        }
-      },
-      "shisochin": {
-        "title": "Shisochin Bunkai",
-        "overviewTitle": "Bunkai-overzicht Shisochin",
-        "description": "Betekent letterlijk 'gevecht in 4 richtingen'. Een andere vertaling is '4 deuren'. Het woord deur is een symbolisch woord voor de plaats waar een eventuele tegenstander een aanval kan plegen, kan 'binnenkomen'. Het kata bevat een typische aanvalscombinatie, welke in vier richtingen uitgevoerd wordt. Examenstof voor ikkyu (eerste kyu, bruine band) en hoger.",
-        "bunkai1": {
-          "name": "Chudan Nukite Zuki",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Chudan Haishu NagAshi Uke.",
-          "counterAttack": "Chudan Nukite Zuki.",
-          "footwork": "Sayu Tenshin.",
-          "vitalPoints": "Bijv. zonnevlecht [Suigetsu]) of halssalgader [Matsukaze].",
-          "notes": "Een aanval naar Suigetsu zal alleen reëel zijn bij een groot krachtsverschil en sterke handen."
-        },
-        "bunkai2": {
-          "name": "Morote Sukui Uke + 'Morote Gedan Harai Uke'",
-          "attack": "Morete Kubi Dori.",
-          "defense": "Morete Sukui Uke + Tsukkami + 'Morete Gedan Harai Uke'.",
-          "counterAttack": "Mae Geri of Hiza Geri met achterste been.",
-          "footwork": "Naar achteren stappen om de aanval te ontwijken en de duimen of polsen van de tegenstander beet te kunnen pakken.",
-          "vitalPoints": "Bijv. zonnevlecht [Suigetsu].",
-          "notes": "Dezelfde Bunkai kan ook worden uitgevoerd indien beide polsen worden beetgepakt."
-        },
-        "bunkai3": {
-          "name": "Chudan Ura Kake Uke (Doji Uke) + Gyaku Te",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Chudan Ura Kake Uke.",
-          "counterAttack": "Gyaku Te + Otoshi Hij Ate.",
-          "footwork": "Sayu Tenshin, dan indraaien met buitenste been en deze vervolgens strekken om de tegenstander uit balans te brengen. Dan naar Shiko Dachi draaien voor Otoshi Hiji Ate.",
-          "vitalPoints": "Bijv. [Kassatsu] (Otoshi Hiji Ate).",
-          "notes": "Door gevorderden moet de wering en de Gyaku Te in één beweging worden uitgevoerd. De techniek in kwestie heeft geen op zich zelf staande naam maar wordt vernoemd naar de toepassing. Namelijk: Gyaku Te, wat een verzamelnaam is voor klemmen, grepen, e.d."
-        },
-        "bunkai4": {
-          "name": "Hiji Age / Ushiro Hiji Ate",
-          "attack": "Omstrengeling van achteren, één arm ingesloten.",
-          "defense": "Jodan Ushiro Zuki + Ushiro Hiji Ate.",
-          "counterAttack": "Verdedigings is tegenaanval.",
-          "footwork": "",
-          "vitalPoints": "Bijv. [Jinchu] (Jodan Ushiro Zuki) + [Inazuma] (Ushiro Hiji Ate)",
-          "notes": "Wanneer de omarming te sterk is kun je beter eerst een Kyusho aanvallen. Bijvoorbeeld het punt [Koin] (op de voet) met de hak of de testikels [Kinteki] met de hand."
-        },
-        "bunkai5": {
-          "name": "Nagashi Shotei Gedan Harai Uke + Shotei Zuki",
-          "attack": "Chudan Oi Zuki",
-          "defense": "Nagashi Shotei Gedan Harai Uke.",
-          "counterAttack": "Shotei Zuki",
-          "footwork": "Instappen en wegdraaien in een beweging.",
-          "vitalPoints": "Bijv. kaak [Mikazuki].",
-          "notes": "Het opwaartse effect in de beweging helpt het ontwortelen van de tegenstander. In het geval van een aanval op de ogen kan de tegenstander hand .' moeilijker zien aankomen omdat deze van onderen komt."
-        },
-        "bunkai6": {
-          "name": "Hiki Uke + Mae Geri + Chudan Hiji Ate",
-          "attack": "Chudan Oi Zuki.",
-          "defense": "Hiki Uke.",
-          "counterAttack": "Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.",
-          "footwork": "Sayu Tenshin. Na Mae Geri naar voren gaan in Zenkutsu Dachi.",
-          "vitalPoints": "Bijv. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + Ogen [Gansei] (Nihon Nukite).",
-          "notes": ""
-        },
-        "bunkai7": {
-          "name": "Otoshi Uke + Hiji Ate",
-          "attack": "Chudan Oi Zuki",
-          "defense": "Osae Uke.",
-          "counterAttack": "Hiji Ate",
-          "footwork": "Instappen.",
-          "vitalPoints": "Bijv. [Suigetsu]",
-          "notes": "De aanval moet vroegtijdig worden onderschept en naar binnen en (dan) naar beneden worden gedrukt."
-        },
-        "bunkai8": {
-          "name": "Morote Hiji Ate",
-          "attack": "Morote Kote Dori.",
-          "defense": "Morote Hiji Age.",
-          "counterAttack": "Otoshi Hiji Age.",
-          "footwork": "Een voet naar achteren voor stabiliteit daar na instappen.",
-          "vitalPoints": "Bijv. sleutelbeen of borst (Otoshi Hiji Ate).",
-          "notes": "Aandachtspunt(en): Voor de inzet van de Morote Hiji Age worden de handen opgetild en open gesperd."
-        },
-        "bunkai9": {
-          "name": "Doji Uke",
-          "attack": "Mae Geri.",
-          "defense": "Shuto Gedan Harai Uke.",
-          "counterAttack": "Jodan Haishu Uchi.",
-          "footwork": "Sayu Tenshin naar Neko Ashi Dachi, dan voorwaartse Suri Ashi in Neko Ashi Dachi.",
-          "vitalPoints": "Bijv. neus (Jodan Haishu Uchi).",
-          "notes": ""
-        }
-      },
-      "sanseru": {
-        "title": "Sanseru Bunkai",
-        "overviewTitle": "Bunkai-overzicht Sanseru",
-        "description": "De namen van de kata Sanseru, Sepai, Sesan en Suparinpei zijn Chinese namen. In de schrijftaal wordt achter alle 4 het woord 'handen' toegevoegd, hetgeen in de spreektaal echter weggelaten wordt en wordt bijvoorbeeld Sanseru gezegd in plaats van Sanseru shu. Deze 4 namen zijn allemaal getallen die verwijzen naar boedhistische symboliek. Zo staat Sanseru voor '36 (handen)' 36 is de symbolische vermenigvuldiging van 6 × 6. De eerste 6 staat voor oog, oor, neus, tong, lichaam en geest. De tweede 6 symboliseert kleur, stem, smaak, reuk, tast en rechtvaardigheid. Examenstof voor nidan (tweede dan) en hoger.",
-        "bunkai1": {
-          "name": "Chudan Yoko Uke > Chudan Gyaku Zuki",
-          "attack": "Migi Chudan Oi Zuki",
-          "defense": "Hidari Chudan Yoko Uke",
-          "counterAttack": "Migi Chudan Gyaku Zuki",
-          "footwork": "Rechter voet Sayu Tenshin met draai naar Hidari Heiko Sanchin Dachi.",
-          "vitalPoints": "Bijv. [Suigetsu] [Ganka]",
-          "notes": ""
-        },
-        "bunkai2": {
-          "name": "Kakate Uke > Hazushi Waza",
-          "attack": "Kote Dori - links op rechts",
-          "defense": "Kake Uke + Hazushi Waza met linkerhand op de pols/onderarm.",
-          "counterAttack": "Afslaan op de pols",
-          "footwork": "Instappen met rechts om greep te verzwakken; terugstappen met rechts op kracht bij te zetten terwijl je de Hazushi Waza uitvoert.",
-          "vitalPoints": "",
-          "notes": "Bij de Hazushi Waza de arm niet te ver van het lichaam laten komen en de vingers binnendoor opwaarts laten gaan en dan uitspreiden en vervolgens 'snijden' met de meshand."
-        },
-        "bunkai3": {
-          "name": "Ashi Dori > Mae Geri > Kansetsu Geri",
-          "attack": "Migi Mae Geri",
-          "defense": "Ashi Dori (Migi Shotei Uchi Gedan Harai Uke)",
-          "counterAttack": "Chudan Ashi Dori (Migi Shotei Uchi Gedan Harai Uke) + Migi Kin Geri + Kansetsu Geri Nage Ò Gedan fumikomi.",
-          "footwork": "Blijven staan, lichaam afwenden (Tai Sabaki op de plaats).",
-          "vitalPoints": "[Kinteki]",
-          "notes": "Na de Kinteki Geri wordt de rechterhand omgedraaid en de rechterduim in de binnenste kop van de dijbeenspier; de musculus quadriceps femoris, gezet (dit is het vitale punt). Houd na de trap, 1; de knie aan de binnenkant van het bovenbeen en 2. plaats de voet boven de knie van het andere been. Zet middels een hevel de takedown in."
-        },
-        "bunkai4": {
-          "name": "Mae Hiji Ate > Gedan Gyaku Zuki > Kansetsu  Geri",
-          "attack": "1 Migi Chudan Oi Zuki. 2 Hidari Gedan Gyaku Zuki.",
-          "defense": "1 Hidari Chudan Shotei Osae/Otoshi Uke. 2 Migi Gedan Harai Uke",
-          "counterAttack": "1 Migi Chudan Hiji Ate + Hidari Gedan Gyaku Zuki + Migi Kansetsu Geri.",
-          "footwork": "1 Voetwissel (Uke + Hiji Ate). Kotai Suri Ashi (Uke) + Hidari Sayu Tenshin (Kansetsu Geri).",
-          "vitalPoints": "Bijv. de knie",
-          "notes": ""
-        },
-        "bunkai5": {
-          "name": "Gedan Seiken Juji Uke",
-          "attack": "Migi Mae Geri",
-          "defense": "Ryo Ken Gedan Kosa Uke",
-          "counterAttack": "Tateken Gedan Zuki.",
-          "footwork": "Rechter voet stapt terug in hikui Shiko Dachi",
-          "vitalPoints": "Bijv. tanden of [Kinteki]",
-          "notes": ""
-        },
-        "bunkai6": {
-          "name": "Gedan Kaishu Juji Uke",
-          "attack": "Migi Mae Geri",
-          "defense": "Ryo Ken Gedan Kosa Uke",
-          "counterAttack": "Tateken Gedan Nukite.",
-          "footwork": "Rechter voet stapt terug in hikui Shiko Dachi",
-          "vitalPoints": "Bijv. tanden or [Yako].",
-          "notes": ""
-        },
-        "bunkai7": {
-          "name": "Mawashi Uke > Awase Zuki",
-          "attack": "1. Migi Gedan Mae Geri. 2. Migi Jodan Oi Zuki.",
-          "defense": "1. Gedan Shotei Harai Uke + Tsukami 2. Kaishu Age Uke + Tsukami (Gyaku Sukui Uke)",
-          "counterAttack": "Awase Zuki Nage",
-          "footwork": "Instap met Sayu Tenchin draai (45 graden)",
-          "vitalPoints": "",
-          "notes": ""
-        },
-        "bunkai8": {
-          "name": "Kami Kiri No KaMae",
-          "attack": "Migi Chudan Gyaku Zuki + Hidari Jodan Oi Zuki",
-          "defense": "Hidari Chudan Yoko Ko Uke + Migi Age Ko Uke",
-          "counterAttack": "Nihon Nukite Zuki + Chudan Morote Hasami Shotei Uchi + 'Ashi Dori Nage' + Otoshi Shotei Uchi.",
-          "footwork": "Eerst terug naar Heiko Sanchin (tijdens Yoko Ko Uke) daarna instappen naar Shiko Dachi (Age Ko Uke)",
-          "vitalPoints": "Bijv. [Gansei] (Nihon Nukite Zuki); [Inazuma] (Hasami Shotei Uchi); [Kinteki] (Otoshi Shotei Uchi).",
-          "notes": ""
-        }
-      }
-    }
+    "noTermsAvailable": "Geen termen beschikbaar voor deze sectie."
   },
   "categories": {
-    "techniques_name": "[NL] Techniques",
-    "techniques_description": "[NL] Learn fundamental Goju Ryu techniques including stances, blocks, strikes, and kicks",
-    "kata_name": "[NL] Kata",
-    "kata_description": "[NL] Explore the traditional forms of Goju Ryu with detailed instructions and videos",
-    "history_name": "[NL] History",
-    "history_description": "[NL] Discover the rich history and lineage of Goju Ryu Karate",
-    "philosophy_name": "[NL] Philosophy",
-    "philosophy_description": "[NL] Understand the principles and philosophy behind Goju Ryu practice"
+    "techniques_name": "Techniques",
+    "techniques_description": "Learn fundamental Goju Ryu techniques including stances, blocks, strikes, and kicks",
+    "kata_name": "Kata",
+    "kata_description": "Explore the traditional forms of Goju Ryu with detailed instructions and videos",
+    "history_name": "History",
+    "history_description": "Discover the rich history and lineage of Goju Ryu Karate",
+    "philosophy_name": "Philosophy",
+    "philosophy_description": "Understand the principles and philosophy behind Goju Ryu practice"
   },
   "kataDetailPage": {
     "tabs": {
@@ -1091,19 +386,341 @@
       "descriptionTitle": "Beschrijving",
       "historyTitle": "Geschiedenis",
       "culturalSignificanceTitle": "Culturele Betekenis",
-      "atAGlanceTitle": "In één oogopslag",
+      "atAGlanceTitle": "In Een Oogopslag",
       "movementsLabel": "Bewegingen",
       "durationLabel": "Duur",
       "originLabel": "Oorsprong",
-      "levelLabel": "Niveau"
+      "levelLabel": "Niveau",
+      "mastersLabel": "Meesters",
+      "keyFeaturesLabel": "Kernmerken",
+      "videoNotAvailable": "Video niet beschikbaar",
+      "bunkaiVideoNotAvailable": "Bunkai video niet beschikbaar",
+      "shimeVideoNotAvailable": "Shime video niet beschikbaar",
+      "viewOnYouTube": "Bekijk op YouTube"
+    },
+    "steps": {
+      "interactiveStepsTitle": "Interactieve Stappen",
+      "viewAllSteps": "Bekijk Alle Stappen"
     },
     "bunkai": {
-      "videoTitle": "Bunkai Video Demonstratie"
+      "title": "Bunkai Analyse",
+      "introduction": "Gedetailleerde analyse van de toepassingen van de kata."
     },
     "shime": {
-      "title": "Shime (Lichaamsconditionering)",
-      "description": "Shime is een cruciaal onderdeel van de Sanchin-oefening, waarbij het lichaam slagen ontvangt om te conditioneren. Dit gedeelte demonstreert het Shime-proces.",
-      "videoTitle": "Shime Video Demonstratie"
+      "title": "Shime (Test)",
+      "introduction": "Informatie over de Shime (test) van deze kata."
+    },
+    "notFound": {
+      "title": "Kata Niet Gevonden",
+      "message": "De kata die je zoekt bestaat niet in onze database.",
+      "backButton": "Terug naar Kata Lijst"
     }
+  },
+  "philosophy": {
+    "title": "Filosofie",
+    "description": "Kernprincipes en waarden van Goju Ryu",
+    "sections": {
+      "dojo-kun": "Dojo Kun (Dojo regels)",
+      "goju-ryu": "De betekenis van Goju-Ryu",
+      "karate-do": "De weg van Karate (Karate-Do)",
+      "mind-body": "Geest-lichaam verbinding",
+      "respect": "Respect in de krijgskunsten"
+    }
+  },
+  "kata.theory": {
+    "title": "Kata Theorie",
+    "description": "Diepgaande studie van de principes en concepten achter Goju Ryu kata.",
+    "sections": {
+      "what-are-kata": "Wat zijn Kata?",
+      "kata-and-karate": "Kata en Karate",
+      "bunkai-and-techniques": "Bunkai & Technieken",
+      "kata-origins": "Oorsprong van Kata",
+      "power-and-movement": "Kracht & Beweging",
+      "sources-of-power": "Bronnen van Kracht",
+      "okinawan-concepts": "Okinawaanse Concepten",
+      "power-transfer": "Krachtoverdracht",
+      "kata-techniques": "Kata Technieken"
+    }
+  },
+  "kata": {
+    "sanchin": {
+      "name": "Sanchin",
+      "japaneseName": "三戦",
+      "meaning": "Drie Gevechten",
+      "description": "Sanchin is de meest fundamentele kata in Goju Ryu, gericht op ademhaling, houding en spanning.",
+      "history": "Overgeleverd door Kanryo Higaonna en verder ontwikkeld door Chojun Miyagi.",
+      "culturalSignificance": "Vertegenwoordigt de essentie van Goju Ryu en de connectie tussen geest, lichaam en adem.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Startpositie en voorwaartse stap",
+          "description": "Begin in natuurlijke stand, stap voorwaarts in sanchin dachi."
+        },
+        "step2": {
+          "title": "Drie stoten",
+          "description": "Voer drie stoten uit met correcte ademhaling."
+        },
+        "step3": {
+          "title": "Draai 180 graden",
+          "description": "Draai 180 graden met behoud van spanning."
+        },
+        "step4": {
+          "title": "Vervolg reeks",
+          "description": "Vervolg de reeks met gecontroleerde bewegingen en ademhaling."
+        },
+        "step5": {
+          "title": "Behoud spierspanning",
+          "description": "Behoud spierspanning gedurende de gehele vorm."
+        },
+        "step6": {
+          "title": "Afsluiting",
+          "description": "Keer terug naar de beginpositie en sluit af."
+        }
+      }
+    },
+    "gekisai-dai-ni": {
+      "name": "Gekisai Dai Ni",
+      "japaneseName": "撃砕第二",
+      "meaning": "Aanval en Vernietiging, Tweede Vorm",
+      "description": "De tweede van de Gekisai kata, bouwt voort op Gekisai Dai Ichi met meer open-hand technieken.",
+      "history": "Ontwikkeld door Chojun Miyagi, net als Gekisai Dai Ichi, om karate toegankelijker te maken.",
+      "culturalSignificance": "Vertegenwoordigt een progressie in het leren van basis kata.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Stap 1: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 1 van Gekisai Dai Ni."
+        },
+        "step2": {
+          "title": "Stap 2: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 2 van Gekisai Dai Ni."
+        },
+        "step3": {
+          "title": "Stap 3: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 3 van Gekisai Dai Ni."
+        },
+        "step4": {
+          "title": "Stap 4: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 4 van Gekisai Dai Ni."
+        },
+        "step5": {
+          "title": "Stap 5: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 5 van Gekisai Dai Ni."
+        },
+        "step6": {
+          "title": "Stap 6: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 6 van Gekisai Dai Ni."
+        }
+      }
+    },
+    "gekisai-dai-ichi": {
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Aanval en Vernietiging, Eerste Vorm",
+      "description": "Een van de twee Gekisai kata, gemaakt door Chojun Miyagi voor sportlessen op scholen. Het leert basistechnieken en ademhalingspatronen in een eenvoudiger formaat dan de oudere kata's.",
+      "history": "Gemaakt in 1940 door Chojun Miyagi, Gekisai Dai Ichi is ontwikkeld om het leren en onderwijzen te vergemakkelijken, en om karate populair te maken bij jongeren en op scholen. De naam weerspiegelt de turbulente tijden van zijn creatie.",
+      "culturalSignificance": "Deze kata was onderdeel van Miyagi's inspanningen om karate te populariseren en toegankelijker te maken voor een breder publiek, met name de jongere generatie.",
+      "stepsCount": 8,
+      "steps": {
+        "step1": {
+          "title": "Opwaartse wering (jodan uke)",
+          "description": "Stap vanuit musubi dachi met de rechtervoet recht vooruit en draai op de bal van beide voeten en voer gelijktijdig de wering uit. De lengte van je stand is twee voeten. De werende arm gaat vlak langs het lichaam en aanvankelijk horizontaal voor het middenrif langs en daarna recht omhoog en draait pas op het laatste moment. Zorg voor zo min mogelijk spanning in je schouders. De arm wordt gefocust op een vuist-breedte van het voorhoofd. De hikite-arm gaat aanvankelijk omhoog, blijft hoog tijdens de draai van het lichaam en wordt vandaar actief en krachtig naar de zij getrokken. Focus krachtig. Als je blokt is je gewicht verdeeld over beide voeten. Gevorderden kunnen tijdens de kime de elleboog iets naar beneden draaien en de techniek uitvoeren met een wat rondere beweging."
+        },
+        "step2": {
+          "title": "Hoge stoot (jodan zuki)",
+          "description": "Zet af door de voorste voet in de grond te drukken en stap rechtdoor in han zenkutsu dachi (drie voeten lang). Het bekken draait niet in bij de stoot. Tijdens de kime van de stoot is ongeveer 70% van je gewicht op het voorste been. De stoot is op ooghoogte. Gebruik ook de krachtige hikite en sluit je tanden tijdens de kime. Gebruik vooral de kracht van de afzet en de verplaatsing, houd je schouders zo lang mogelijk ontspannen."
+        },
+        "step3": {
+          "title": "Lage vegende wering (gedan barai)",
+          "description": "Stap met je rechterbeen terug in shiko dachi en open gelijktijdig je bekken en laat het vallen. Je blijft naar de zijkant kijken. De hikite wordt krachtig teruggetrokken (trek je elleboog naar achteren en naar beneden). Tot de kime is er geen spanning in de arm en de vuist eindigt een vuist-breedte van de knie (in de bunkai wordt de lage wering uitgevoerd als een aanval naar de elleboog en eindigt verder van de knie). Tijdens de kime blijft het bekken open, maar het tanden sluit.\n\nOpmerking: in shiko dachi is de kruin omhoog en de kin iets in (oren gespitst). De rug maakt een \"S\", de schouderbladen liggen tegen elkaar aan en zijn naar beneden gericht. Het bekken is open en dus naar voren gekanteld, het scheenbeen staat loodrecht op de vloer en de knieën staan recht boven de voeten (aanvankelijk moeten veel karateka's hiervoor de knieën en het dijbeen actief naar achteren duwen). De heup is iets hoger dan de knieën (water zou langzaam naar beneden stromen over het dijbeen). De voeten (vooral de grote teen en de binnenzijde van de voet) worden krachtig in de grond gedrukt en grijpen de vloer tijdens de kime."
+        },
+        "step4": {
+          "title": "Middenhoge wering (chudan uke)",
+          "description": "Trek de linkervoet naar de andere voet en daarna in een cirkel naar voren (de enkels gaan langs elkaar heen) in sanchin dachi. De vuist van de werende hand begint ver onder de elleboog van de andere arm. De techniek wordt uitgevoerd met muchimi. Deze beweging wordt uitgevoerd met een vrij grote circulaire beweging en de voet en de arm bewegen gelijktijdig."
+        },
+        "step5": {
+          "title": "Voorwaartse trap (mae geri), elleboogstoot en stamp (hiji ate en fumikomi geri), uraken uchi (knokkelslag), gedan barai en middenhoge tegengestelde stoot (chudan gyaku zuki)",
+          "description": "De technieken in deze serie (behalve de elleboogstoot en de stamp) moeten afzonderlijk en krachtig worden uitgevoerd. Het is belangrijk om (tussendoor) te ontspannen na elke techniek. Bij de klassikale uitvoering van Gekisai dai ichi zit een telstop voor de knokkelslag, hierdoor kan het lichaam beter worden ontspannen. Het ritme is 1-2 en 1-2-3.\n\nBehoud het blok en hikite tijdens de voorwaartse trap. De trap – knie hoog heffen totdat het dijbeen evenwijdig is aan de vloer - is keage (dus zonder bekkenkanteling en heupdraai). De trap is recht naar voren met de bal van de voet naar het kruis. Voor de trap zink je iets in op je standbeen en tijdens de trap steunt het lichaam volledig op het standbeen. Het bekken mag je iets instrekken (hoeft niet) en zet je niet vast. Na de trap ontspan je, trek het onderbeen actief terug totdat hij onder de knie is. Vandaaruit wordt hij neergestampt in zenkutsu dachi.\n\nDe elleboogstoot gaat vooral naar voren, de vuist eindigt bij de kaak. Trek de hikite krachtig terug. De elleboogstoot en de stamp worden gezamenlijk uitgevoerd en afhankelijk van het niveau van de karateka kan dit op drie manieren:\n1. De voet wordt neergestampt en de kaatsing van de grond wordt gebruikt in de elleboogstoot. Het ritme is 1 ….. 2.\n2. De voet wordt neergestampt en meteen daarna wordt de elleboogstoot uitgevoerd. Het ritme in pam-bam.\n3. De stamp en de elleboogstoot worden gelijktijdig uitgevoerd. Vanuit hara gaat de kracht gelijktijdig naar de voet als naar de elleboog. Dit heet \"splitting power\".\n\nDe knokkelslag wordt ingezet vanuit het bekken en tijdens de impuls blijven de schouders, elleboog en pols ontspannen. De techniek is een zweepslag (er is dus geen kime) naar jinchu (vitaal punt bij het midden van de bovenlip). Na de techniek klapt de vuist terug en maakt de elleboog een hoek van 90 graden.\n\nDe lage vegende wering maakt een relatief kleine zwaai en draait om de elleboog. Tijdens de uitvoering is er geen spanning in de schouders en de elleboog. Tijdens de focus draait de arm iets. De hikite is krachtig.\n\nDe tegengestelde stoot wordt uitgevoerd met heel veel kracht en snelheid. De beweging begint door het achterste been te strekken. Daardoor draait het bekken in; dit wordt gebruikt voor de krachtige impuls van de stoot, gefocust en uitgevoerd naar suigetsu. Gebruik ook de krachtige en snelle hikite. Kiai!"
+        },
+        "step6": {
+          "title": "Voetveeg (ashi barai) en meshandslag (shuto uchi)",
+          "description": "Trek de achterste voet richting de andere en maak een kleine voetveeg; de vegende voet houdt lang contact met de grond en passeert de andere niet. Focus op de zijkant van de binnenkant van de voet, let er op dat je laag veegt. Stamp de voet neer in hachiji dachi (= 'natuurlijke stand') en gebruik de weerkaatsing van de grond voor de impuls naar de meshandslag; gebruik ook de krachtige hikite (blijft een vuist). Trek tijdens de veeg ook je schouderbladen uit elkaar en wat naar voren (de rug blijft recht, je blijft naar voren kijken) en gebruik ook het terugspringen van de schouderbladen in de meshandslag. Bij de meshandslag zijn de schouders en ellebogen vrij van spanning. De techniek is snel en wordt kort gefocust op ooghoogte (\"zware slag\"). Bij de meshand zijn de vingers recht en de gebogen duim ligt tegen zijkant van de basis van de wijsvinger. Focus ook op het raakpunt met de pinkmuis."
+        },
+        "step7": {
+          "title": "Dubbele stoot (awase zuki): middenhoge en omgekeerde stoot (chudan en ura zuki)",
+          "description": "De dubbele stoot is een kleine en gesloten vorm van de tora guchi. Stap vanuit hachiji dachi in een rechte lijn naar achteren (iets schuin) in zenkutsu dachi en trek je hand actief (alsof je iemand meesleurt) in je zij (de knokkels blijven naar boven). Strek je been en zet je hele lichaam achter de dubbele stoot; gebruik vooral de kracht vanuit de grond en je rugspieren (de vuist van de omgekeerde stoot is boven de knie). Stap met je linkerbeen naar voren en kom niet omhoog tijdens het wisselen van de voeten (de voeten staan even naast elkaar; er is een moment vergelijkbaar met op de wc gaan zitten). Voer tijdens het wisselen van de voeten met de rechterhand een middenhoge binnenwaartse wering (chudan uchi uke) uit en met de linkerhand een middenhoge buitenwaartse wering (chudan soto uke), waarbij je (dus) tegen de rug van beide vuisten aankijkt. Stap terug en trek gelijktijdig de vuisten krachtig terug in de zij. Gebruik het weerkaatsen van de grond, het strekken van het been/indraaien bekken en de rugspieren voor nog een krachtige dubbele stoot (awase zuki: ura zuki (omgekeerde stoot) en chudan zuki (middenhoge stoot). Van de vuist die de middenhoge stoot gaat maken, is tijdens de wissel de hikite in de zij met de knokkels naar boven. De ura zuki (knokkels naar beneden tijdens de wissel) is naar de zevende rib (denko), de chudan zuki naar de 5e tussenribruimte, net onder de tepel (ganka).\n\nOpmerking: beginners mogen de chudan soto uke ook als een 'gewone' chudan uke uitvoeren, waarbij je dus tegen de vingerzijde van de vuist kijkt."
+        },
+        "step8": {
+          "title": "Afsluiting",
+          "description": "Open de linkerhand en leg de rechtervuist met een kleine circulaire beweging in de linker. Draai de linkervoet naar buiten, sluit met de rechtervoet aan in musubi dachi en draai gelijktijdig de handen. Sluit de kata af."
+        }
+      }
+    },
+    "tensho": {
+      "name": "Tensho",
+      "japaneseName": "転掌",
+      "meaning": "Draaiende Handen",
+      "description": "Een zachte, circulaire kata die de 'Ju' (zacht) aspecten van Goju Ryu belichaamt, complementair aan Sanchin.",
+      "history": "Ontwikkeld door Chojun Miyagi als tegenhanger van Sanchin.",
+      "culturalSignificance": "Demonstreert de vloeiende en zachte principes binnen Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Stap 1: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 1 van Tensho."
+        },
+        "step2": {
+          "title": "Stap 2: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 2 van Tensho."
+        },
+        "step3": {
+          "title": "Stap 3: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 3 van Tensho."
+        },
+        "step4": {
+          "title": "Stap 4: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 4 van Tensho."
+        },
+        "step5": {
+          "title": "Stap 5: Placeholder Titel",
+          "description": "Placeholder beschrijving voor stap 5 van Tensho."
+        }
+      }
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Gemiddeld",
+      "advanced": "Gevorderd",
+      "master": "Meester"
+    },
+    "shisochin": {
+      "name": "Shisochin",
+      "japaneseName": "四向戦",
+      "meaning": "Vier Richtingen Strijd",
+      "description": "Een kata die aanvallen vanuit vier richtingen simuleert, met nadruk op open-hand technieken.",
+      "history": "Afkomstig uit de Witte Kraanvogel stijl, beïnvloed door Kanryo Higaonna.",
+      "culturalSignificance": "Belangrijk voor het ontwikkelen van bewustzijn en technieken tegen meerdere aanvallers.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Shisochin", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Shisochin", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Shisochin", "description": "Placeholder beschrijving."}
+      }
+    },
+    "sanseru": {
+      "name": "Sanseru",
+      "japaneseName": "三十六手",
+      "meaning": "36 Handen",
+      "description": "Een dynamische kata die 36 vitale punten aanvalt, combineert harde en zachte technieken.",
+      "history": "Waarschijnlijk afkomstig uit de Witte Kraanvogel of Tijger stijl, doorgegeven door Kanryo Higaonna.",
+      "culturalSignificance": "Symboliseert de complexiteit en effectiviteit van Goju Ryu technieken.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Sanseru", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Sanseru", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Sanseru", "description": "Placeholder beschrijving."}
+      }
+    },
+    "saifa": {
+      "name": "Saifa",
+      "japaneseName": "砕破",
+      "meaning": "Vernietigen en Breken",
+      "description": "Een kata die zich richt op close-combat, met technieken voor het vastgrijpen en ontwrichten.",
+      "history": "Afkomstig uit Chinese vechtkunsten, geïntroduceerd door Kanryo Higaonna.",
+      "culturalSignificance": "Toont de praktische toepassing van Goju Ryu in zelfverdediging.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Saifa", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Saifa", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Saifa", "description": "Placeholder beschrijving."},
+        "step4": {"title": "Stap 4: Placeholder Saifa", "description": "Placeholder beschrijving."},
+        "step5": {"title": "Stap 5: Placeholder Saifa", "description": "Placeholder beschrijving."},
+        "step6": {"title": "Stap 6: Placeholder Saifa", "description": "Placeholder beschrijving."}
+      }
+    },
+    "seiyunchin": {
+      "name": "Seiyunchin",
+      "japaneseName": "制引戦",
+      "meaning": "Controle en Trek Strijd",
+      "description": "Een kata die lage, stabiele standen en krachtige trek-technieken benadrukt, zonder trappen.",
+      "history": "Afkomstig uit Fujian, China, mogelijk uit Xingyi Quan of Monnikvuist Boksen.",
+      "culturalSignificance": "Benadrukt het belang van balansverstoring en controle.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Seiyunchin", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Seiyunchin", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Seiyunchin", "description": "Placeholder beschrijving."}
+      }
+    },
+    "sepai": {
+      "name": "Sepai",
+      "japaneseName": "十八手",
+      "meaning": "18 Handen",
+      "description": "Een kata die het getal 18 symboliseert, met circulaire bewegingen en close-combat technieken.",
+      "history": "Afkomstig uit de Witte Kraanvogel stijl, doorgegeven door Kanryo Higaonna.",
+      "culturalSignificance": "Vertegenwoordigt een gevorderd niveau van Goju Ryu, met focus op flow en grappling.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Sepai", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Sepai", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Sepai", "description": "Placeholder beschrijving."}
+      }
+    },
+    "kururunfa": {
+      "name": "Kururunfa",
+      "japaneseName": "久留頓破",
+      "meaning": "Lang Vasthouden en Plotseling Aanvallen",
+      "description": "Een kata die het principe van 'vasthouden en plotseling breken' benadrukt, met snelle overgangen.",
+      "history": "Afkomstig uit Fujian, China, specifieke stijl onbekend.",
+      "culturalSignificance": "Illustreert het gebruik van misleiding en 'Muchimi' (plakkende handen).",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Kururunfa", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Kururunfa", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Kururunfa", "description": "Placeholder beschrijving."}
+      }
+    },
+    "sesan": {
+      "name": "Sesan",
+      "japaneseName": "十三手",
+      "meaning": "13 Handen",
+      "description": "Een van de oudste Goju Ryu kata, met krachtige, directe technieken en sterke standen.",
+      "history": "Afkomstig uit Fujian, China, mogelijk Monnikvuist Boksen of Leeuwenvuist.",
+      "culturalSignificance": "Vertegenwoordigt de oude wortels en de kracht van Goju Ryu.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Sesan", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Sesan", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Sesan", "description": "Placeholder beschrijving."}
+      }
+    },
+    "suparinpei": {
+      "name": "Suparinpei",
+      "japaneseName": "壱百零八手",
+      "meaning": "108 Handen",
+      "description": "De langste en meest complexe kata, die het volledige spectrum van Goju Ryu technieken omvat.",
+      "history": "Afkomstig uit de Witte Kraanvogel stijl, symboliseert de 108 aardse verlangens in het Boeddhisme.",
+      "culturalSignificance": "De culminatie van Goju Ryu training, belichaamt harde en zachte principes.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {"title": "Stap 1: Placeholder Suparinpei", "description": "Placeholder beschrijving."},
+        "step2": {"title": "Stap 2: Placeholder Suparinpei", "description": "Placeholder beschrijving."},
+        "step3": {"title": "Stap 3: Placeholder Suparinpei", "description": "Placeholder beschrijving."}
+      }
+    }
+  },
+  "bunkaiDetailPage": {
+    "kataNotFound": "Kata niet gevonden",
+    "noBunkaiAvailable": "Geen Bunkai beschikbaar voor deze kata.",
+    "videoTitle": "Bunkai Video",
+    "videoDescription": "Bekijk de bunkai demonstratie video op YouTube.",
+    "watchOnYouTube": "Bekijk op YouTube",
+    "noBunkaiDetails": "Geen gedetailleerde Bunkai informatie beschikbaar.",
+    "attack": "Aanval",
+    "defense": "Verdediging",
+    "counterAttack": "Tegenaanval",
+    "footwork": "Voetenwerk",
+    "vitalPoints": "Vitale Punten",
+    "notes": "Aandachtspunten"
   }
 } 

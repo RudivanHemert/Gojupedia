@@ -19,6 +19,18 @@ export interface Technique {
   relatedTechniques: string[];
 }
 
+export interface BunkaiDetail {
+  id: string;
+  title: string;
+  attack: string;
+  defense: string;
+  counterAttack: string;
+  footwork: string;
+  vitalPoints: string;
+  notes: string;
+  kata: string; // Should match a Kata id
+}
+
 export interface Kata {
   id: string;
   name?: string;
@@ -34,7 +46,7 @@ export interface Kata {
   duration?: string;
   origin?: string;
   videoUrl?: string;
-  bunkai?: string;
+  bunkai?: string | BunkaiDetail[];
   history?: string;
   culturalSignificance?: string;
   masters?: string[];

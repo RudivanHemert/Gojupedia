@@ -136,7 +136,7 @@ export const katas: Kata[] = [
       "Chojun Miyagi"
     ],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=QM7IZ0gnOzw"
   },
   {
     id: "gekisai-dai-ichi",
@@ -167,7 +167,74 @@ export const katas: Kata[] = [
       "Eiichi Miyazato"
     ],
     videoUrl: "https://www.youtube.com/watch?v=vKLX3tZN1JQ",
-    bunkai: "https://www.youtube.com/watch?v=MdIoFWQNY4M"
+    bunkai: [
+      {
+        id: "gdi-bunkai-1",
+        title: "Jodan Age Uke + Jodan Oi Zuki",
+        attack: "Jodan Oi Zuki.",
+        defense: "Jodan Age Uke.",
+        counterAttack: "Jodan Oi Zuki.",
+        footwork: "45° schuin naar achteren uitstappen naar Heiko Sanchin Dachi + voetwissel (in-uit).",
+        vitalPoints: "Bijv. Oog [Seimo], [Gansei] of [Kasumi].",
+        notes: "Behoud steeds Zanshin. Dit geldt voor alle bunkai!",
+        kata: "gekisai-dai-ichi"
+      },
+      {
+        id: "gdi-bunkai-2",
+        title: "Gedan Harai Uke",
+        attack: "Gedan Oi Zuki.",
+        defense: "Gedan Harai Uke (als slag en wering tegelijk).",
+        counterAttack: "Wering = aanval.",
+        footwork: "Zijwaarts uitstappen naar buiten in Shiko Dachi.",
+        vitalPoints: "Elleboog [Soto Hijitsume].",
+        notes: "Bij training met hard contact niet het vitale punt [Hijitsume] aanvallen maar de onderarm!",
+        kata: "gekisai-dai-ichi"
+      },
+      {
+        id: "gdi-bunkai-3",
+        title: "Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
+        attack: "Chudan Oi Zuki.",
+        defense: "Chudan Yoko Uke.",
+        counterAttack: "Gedan Mae Geri + Chudan Hiji Ate + Jodan Uraken Uchi.",
+        footwork: "Sayu Tenshin + na Mae Geri inkomen naar voren met Zenkutsu Dachi.",
+        vitalPoints: "Bijv. [Kinteki] (Mae Geri) + [Ganka] of [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
+        notes: "De lage voorwaartse trap wordt al naar gelang de afstand uitgevoerd met de bal van de voet, de voorzijde van de enkel of het scheenbeen. De aanvaller ontwijkt de Chudan Hiji Ate met een achterwaartse Suri Ashi.",
+        kata: "gekisai-dai-ichi"
+      },
+      {
+        id: "gdi-bunkai-4",
+        title: "Gedan Harai Uke + Chudan Gyaku Zuki",
+        attack: "Gedan Oi Zuki.",
+        defense: "Gedan Harai Uke.",
+        counterAttack: "Chudan Gyaku Zuki.",
+        footwork: "Schuin naar achteren weg stappen.",
+        vitalPoints: "Bijv. [Ganka].",
+        notes: "Gevorderden (vanaf bruine band) moeten de wering en tegenaanval als één beweging oefenen. De laatste twee Bunkai Kumite moeten door gevorderden ook als één geheel worden getraind.",
+        kata: "gekisai-dai-ichi"
+      },
+      {
+        id: "gdi-bunkai-5",
+        title: "Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
+        attack: "Chudan Oi Zuki.",
+        defense: "Chudan Yoko Uke + Tsukkami (= beetpakken).",
+        counterAttack: "Ashi Baraï + Yoko Shuto Uchi + Fumikomi Geri.",
+        footwork: "Sayu Tenshin met 45 graden draai.",
+        vitalPoints: "Bijv. [Jinchu] of Adamsappel [Nodo Botoku] (Yoko Shuto Uchi) + nek (Fumikomi Geri).",
+        notes: "Na de Ashi Barai de voet snel terugbrengen, om te voorkomen dat de tegenstander tegen je been aanvalt. Voor de veiligheid van de tegenstander wordt de Yoko Shuto Uchi niet slaand uitgevoerd naar een Kyusho, maar meer duwend bijvoorbeeld op borst en schouder. De Fumikomi Geri kan met beide benen worden uitgevoerd, afhankelijk van hoe de tegenstander valt. In de Kata is het echter hetzelfde been als die waarmee de veeg wordt uitgevoerd. Gevorderde karata kunnen ook een irimi stap maken en de tegenstander van dichtbij vegen. Bij deze gevorderden variatie wordt tevens de elleboog op de borst klem gezet.",
+        kata: "gekisai-dai-ichi"
+      },
+      {
+        id: "gdi-bunkai-6",
+        title: "Awase Zuki",
+        attack: "Chudan Oi Zuki.",
+        defense: "Nagashi Seiken Ura Uke (variant van Chudan Yoko Uke).",
+        counterAttack: "Awase Zuki + Awase Oshi.",
+        footwork: "Sayu Tenshin + uitstappen naar Zenkutsu Dachi.",
+        vitalPoints: "Bijv. [Ganka] (Gyaku Zuki) en [Inazuma] (Ura Zuki).",
+        notes: "De aanval moet vroeg onderschept worden. De Awase Zuki moet eerst krachtig gefocust worden voordat deze als duw wordt voortgezet. Om dit te kunnen doen, moet je eerst naar binnen en beneden ontspannen en de adem binnen laten komen. De Awase Zuki is een verkleinde, gesloten hand versie van de Tora Guchi.",
+        kata: "gekisai-dai-ichi"
+      }
+    ]
   },
   {
     id: "gekisai-dai-ni",
@@ -249,7 +316,7 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely from Xingyi Quan or Monk Fist Boxing)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=VfyccUJZEqs"
   },
   {
     id: "shisochin",
@@ -270,7 +337,107 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: [
+      {
+        id: "shisochin-bunkai-01",
+        title: "01. Chudan Nukite Zuki",
+        attack: "Chudan Oi Zuki.",
+        defense: "Chudan Haishu Nagashi Uke.",
+        counterAttack: "Chudan Nukite Zuki.",
+        footwork: "Sayu Tenshin.",
+        vitalPoints: "Bijv. zonnevlecht [Suigetsu]) of halssalgader [Matsukaze].",
+        notes: "Een aanval naar Suigetsu zal alleen reëel zijn bij een groot krachtsverschil en sterke handen.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-02",
+        title: "02. Morote Sukui Uke + 'Morote Gedan Harai Uke'",
+        attack: "Morete Kubi Dori.",
+        defense: "Morete Sukui Uke + Tsukkami + 'Morete Gedan Harai Uke'.",
+        counterAttack: "Mae Geri of Hiza Geri met achterste been.",
+        footwork: "Naar achteren stappen om de aanval te ontwijken en de duimen of polsen van de tegenstander beet te kunnen pakken.",
+        vitalPoints: "Bijv. zonnevlecht [Suigetsu].",
+        notes: "Dezelfde Bunkai kan ook worden uitgevoerd indien beide polsen worden beetgepakt.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-03",
+        title: "03. Chudan Ura Kake Uke Uke (Doji Uke) + Gyaku Te",
+        attack: "Chudan Oi Zuki.",
+        defense: "Chudan Ura Kake Uke.",
+        counterAttack: "Gyaku Te + Otoshi Hij Ate.",
+        footwork: "Sayu Tenshin, dan indraaien met buitenste been en deze vervolgens strekken om de tegenstander uit balans te brengen. Dan naar Shiko Dachi draaien voor Otoshi Hiji Ate.",
+        vitalPoints: "Bijv. [Kassatsu] (Otoshi Hiji Ate).",
+        notes: "Door gevorderden moet de wering en de Gyaku Te in één beweging worden uitgevoerd. De techniek in kwestie heeft geen op zich zelf staande naam maar wordt vernoemd naar de toepassing. Namelijk: Gyaku Te, wat een verzamelnaam is voor klemmen, grepen, e.d.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-04",
+        title: "04. Hiji Age / Ushiro Hiji Ate",
+        attack: "Omstrengeling van achteren, één arm ingesloten.",
+        defense: "Jodan Ushiro Zuki + Ushiro Hiji Ate.",
+        counterAttack: "Verdedigings is tegenaanval.",
+        footwork: "",
+        vitalPoints: "Bijv. [Jinchu] (Jodan Ushiro Zuki) + [Inazuma] (Ushiro Hiji Ate)",
+        notes: "Wanneer de omarming te sterk is kun je beter eerst een Kyusho aanvallen. Bijvoorbeeld het punt [Koin] (op de voet) met de hak of de testikels [Kinteki] met de hand.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-05",
+        title: "05. Nagashi Shotei Gedan Harai Uke + Shotei Zuki",
+        attack: "Chudan Oi Zuki",
+        defense: "Nagashi Shotei Gedan Harai Uke.",
+        counterAttack: "Shotei Zuki",
+        footwork: "Instappen en wegdraaien in een beweging.",
+        vitalPoints: "Bijv. kaak [Mikazuki].",
+        notes: "Het opwaartse effect in de beweging helpt het ontwortelen van de tegenstander. In het geval van een aanval op de ogen kan de tegenstander hand .' moeilijker zien aankomen omdat deze van onderen komt.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-06",
+        title: "06. Hiki Uke + Mae Geri + Chudan Hiji Ate",
+        attack: "Chudan Oi Zuki.",
+        defense: "Hiki Uke.",
+        counterAttack: "Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.",
+        footwork: "Sayu Tenshin. Na Mae Geri naar voren gaan in Zenkutsu Dachi.",
+        vitalPoints: "Bijv. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + Ogen [Gansei] (Nihon Nukite).",
+        notes: "",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-07",
+        title: "07. Otoshi Uke + Hiji Ate",
+        attack: "Chudan Oi Zuki",
+        defense: "Osae Uke.",
+        counterAttack: "Hiji Ate",
+        footwork: "Instappen.",
+        vitalPoints: "Bijv. [Suigetsu]",
+        notes: "De aanval moet vroegtijdig worden onderschept en naar binnen en (dan) naar beneden worden gedrukt.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-08",
+        title: "08. Morote Hiji Ate",
+        attack: "Morote Kote Dori.",
+        defense: "Morote Hiji Age.",
+        counterAttack: "Otoshi Hiji Age.",
+        footwork: "Een voet naar achteren voor stabiliteit daar na instappen.",
+        vitalPoints: "Bijv. sleutelbeen of borst (Otoshi Hiji Ate).",
+        notes: "Aandachtspunt(en): Voor de inzet van de Morote Hiji Age worden de handen opgetild en open gesperd.",
+        kata: "shisochin"
+      },
+      {
+        id: "shisochin-bunkai-09",
+        title: "09. Doji Uke",
+        attack: "Mae Geri.",
+        defense: "Shuto Gedan Harai Uke.",
+        counterAttack: "Jodan Haishu Uchi.",
+        footwork: "Sayu Tenshin naar Neko Ashi Dachi, dan voorwaartse Suri Ashi in Neko Ashi Dachi.",
+        vitalPoints: "Bijv. neus (Jodan Haishu Uchi).",
+        notes: "",
+        kata: "shisochin"
+      }
+    ]
   },
   {
     id: "sanseru",
@@ -291,7 +458,7 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely White Crane or Tiger style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=fKYlZZnkjoM"
   },
   {
     id: "sepai",
@@ -312,7 +479,7 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=BrBc1_vGZDM"
   },
   {
     id: "kururunfa",
@@ -333,7 +500,7 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (unknown specific style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=nSX19q6_gNM"
   },
   {
     id: "sesan",
@@ -354,7 +521,7 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely Monk Fist Boxing or Lion\'s Fist)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=LBVbeDCv1jo"
   },
   {
     id: "suparinpei",
@@ -375,7 +542,7 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: ""
+    bunkai: "https://www.youtube.com/watch?v=w4wIpiz6l-0"
   }
 ];
 

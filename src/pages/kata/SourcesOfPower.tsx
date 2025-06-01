@@ -1,15 +1,18 @@
 import React from 'react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-
-// Import the specific markdown file
-import markdownContent from '@/content/kata-theory/sources-of-power.md?raw';
+import { useMarkdownContent } from '@/utils/markdown';
 
 const SourcesOfPower = () => {
+  const markdownContent = useMarkdownContent('kata-theory/sources-of-power');
+
+  if (!markdownContent) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <ScrollArea className="h-[calc(100vh-14rem)] pr-4">
-      <div className="space-y-4">
-        {/* Render the imported Markdown content */}
+      <div className="prose dark:prose-invert max-w-none">
         <MarkdownRenderer markdownContent={markdownContent} />
       </div>
     </ScrollArea>

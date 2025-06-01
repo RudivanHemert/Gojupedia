@@ -1,0 +1,9 @@
+## Was sind Kata?
+
+Kata sind individuelle Übungen, die aus einer Reihe verschiedener Techniken bestehen, die in einer festgelegten und logischen Weise aufeinander folgen. Die Ausführung ist detailliert vorgeschrieben. Obwohl sie nicht alle Techniken eines bestimmten Stils enthalten, enthalten sie doch die meisten davon und alle Grundprinzipien bezüglich Kampfszenarien, Haltung, Kraftentfaltung usw.
+
+Kata sind ein zentraler Bestandteil der Karatepraxis und charakteristisch für einen bestimmten Stil. Die Kata des Goju-Ryu werden in Heishugata (geschlossene Hand) und Kaishugata (offene Hand) unterteilt. Bei den "geschlossene Hand"-Kata ist das Tanden kontinuierlich geschlossen. Das bedeutet, dass Ihr Unterbauch kontinuierlich angespannt ist und Ihr Becken nach hinten gekippt ist, als ob der Atem im Unterbauch aufgerollt wäre. Bei den "offene Hand"-Kata wird das Tanden nur im Moment des Fokus geschlossen. Sie zeichnen sich durch den Wechsel von Spannung und Entspannung aus.
+
+Goju-Ryu hat 12 Kata, von denen zwei Heishugata sind: Sanchin und Tensho. Sanchin wird in zwei Formen trainiert: die von Sensei Kanryo Higaonna gelehrte Form und die von Chojun Miyagi, dem Begründer unseres Stils, entwickelte Sanchin. Die anderen 10 Kata sind Kaishugata. Dies sind Gekisai dai ichi, Gekisai dai ni, Saifa, Seiyunchin, Shisochin, Sanseru, Sepai, Kururunfa, Sesan und Suparinpei.
+
+Die Kata wurden von Meistern der Kampfkünste entwickelt, und es ist oft nicht bekannt, wer, wann und warum die Kata geschaffen hat. Da die ursprüngliche Absicht des Schöpfers oft unbekannt ist, ist es unerwünscht, eine Kata zu verändern. 

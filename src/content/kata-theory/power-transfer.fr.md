@@ -1,0 +1,29 @@
+## Transférer et Traiter la Puissance
+
+Transférer la puissance concerne principalement les coups de poing, les frappes et les coups de pied ; traiter la puissance concerne les blocages et les esquives. Pour le transfert de puissance, il est bien sûr important de savoir s'il s'agit d'une technique de bras ou de jambe, mais aussi s'il s'agit d'une frappe (circulaire) ou d'un coup de poing (direct).
+
+### Frappes et Coups de Poing
+
+Un coup de poing est généralement direct. Au moment de l'impact, il y a toujours une concentration. Une frappe a généralement une trajectoire circulaire. Avec une 'frappe lourde', l'impact est déterminé par la vitesse et la masse du bras ou de la jambe (te no omomi). Une 'frappe dure' est concentrée, et les articulations sont brièvement fixées au moment de l'impact. Un exemple est la frappe circulaire (mawashi furi zuki) dans Sepai et la frappe marteau (tettsui uchi) dans Saifa.
+
+Avec une 'frappe continue', la trajectoire circulaire de la technique est, pour ainsi dire, tirée 'à travers le corps de l'adversaire'. Selon le degré de tension musculaire au moment de l'impact, cela ressemble à une frappe lourde ou dure. La dernière est la 'frappe fouettée'. Ici, le bras ou le pied revient en arrière après l'impact. Il n'y a pas de concentration, et ces techniques sont exécutées sans tension dans les muscles et les articulations du haut du corps. De telles techniques ont moins d'impact et sont exécutées au début des combinaisons ou lors d'attaques sur des points vitaux. Par exemple, la frappe du revers du poing (uraken uchi) dans les Gekisai dai et l'uraken uchi dans Saifa et Seiyunchin vers le point vital juste au-dessus de la lèvre supérieure (jinchu).
+
+Tous les mouvements ne sont pas concentrés à un seul moment. Ce sont généralement des mouvements continus, par exemple, certains blocages qui sont exécutés dans un mouvement plus ou moins circulaire. Le karatéka doit s'assurer que pendant l'exécution dans le kata, l'attention se porte sur le point de contact imaginaire (parfois glissant) de ce mouvement. C'est le cas de nombreux blocages, tels que le tora uchi ("bouche du tigre"), le blocage en traction (hiki uke) dans Saifa, et de nombreux blocages subtils dans les katas supérieurs.
+
+Les poussées et les tractions ne sont pas non plus concentrées au moment du contact. Il n'y a pas de contact dur, et le mouvement est exécuté sur une trajectoire plus longue. La puissance de la poussée est toujours générée à partir du sol.
+
+### Coups de Pied
+
+Dans la classification des coups de pied, les termes 'keage' et 'kekomi' sont utilisés. Keage concerne un coup de pied frappé. Celui-ci est moins concentré au moment de l'impact et est généralement exécuté sans basculement/rotation du bassin, éventuellement avec une (petite) extension du bassin. Ils sont souvent dirigés vers des points vitaux tels que l'entrejambe (avec la plante du pied dans les Gekisai, Saifa, Shisochin, Sanseru et Kururunfa) ou les testicules (avec le cou-de-pied ou la plante du pied) dans le kin geri.
+
+Kekomi concerne un coup de pied pénétrant. Celui-ci est toujours concentré, et l'utilisation du bassin est explicitement employée. Presque tous les coups de pied dans les katas sont des keage ; seul le coup de pied latéral (kansetsu geri) dans Sanseru est un kekomi. Les coups de pied kekomi doivent cependant être fréquemment entraînés (il est indiqué que pour un bon développement des muscles pour les coups de pied, environ la moitié doit être exécutée sur un coussin de frappe ou un makiwara).
+
+### Blocages et Esquives
+
+En tant qu'art d'autodéfense, le karaté traite bien sûr des blocages et des esquives. Le plus conflictuel est le blocage dur et percutant (très "go"), où il n'y a pas d'esquive et où l'attaque est complètement bloquée. Ici, vous entraînez non seulement le maintien de votre propre espace mais aussi la posture correcte lors de cette confrontation difficile ; vous apprenez à "ne pas vous écarter". Comparable à cela, mais un peu plus difficile, est de repousser l'attaque. Ici, en tant que défenseur, vous pénétrez dans l'espace de l'attaquant. Vous avancez donc en bloquant. L'exécution du blocage à main ouverte (shotei uchi uke) simultanément avec le mouvement vers l'avant de tout le corps dans Seiyunchin en est un exemple.
+
+Une troisième possibilité de "blocage" est d'absorber l'attaque. Bien sûr, les muscles sont tendus au moment du contact ; toutes les parties du corps ne s'y prêtent pas aussi bien. Un exemple de technique avec un corps "qui peut encaisser un coup" est la respiration dite "de midi". Ici, vous retenez votre souffle pour que le corps reste tendu. Le blocage bas balayé (gedan harai uke) avec la poussée à main ouverte (shotei oshi) dans Sepai est exécuté avec cette respiration. En absorbant une force, vous pouvez absorber la puissance de l'adversaire et l'utiliser dans votre technique suivante. En kaki-e, vous pratiquez cela, et cela s'appelle aussi 'avaler-et-cracher'.
+
+Avec la déviation, la force de l'action de l'adversaire est captée et changée de direction dans un mouvement circulaire et guidée au-delà de vous. C'est le blocage le plus courant dans les katas. Il peut également arriver que lors de la déviation, la force de l'adversaire soit prolongée, comme c'est le cas avec un blocage en traction (hiki uke).
+
+Le dernier blocage est l'esquive. Ici, la force de l'adversaire n'est plus absorbée. Idéalement, non seulement une esquive est faite pour que l'attaque manque, mais une position stratégiquement favorable est également prise pour une contre-attaque. Essayez de déséquilibrer l'adversaire et assurez-vous qu'après l'esquive, vous vous retrouvez dans une posture de combat qui convient également à l'attaque. Bien sûr, vous entraînez une telle esquive avec tous les mouvements latéraux et arrière plus importants du kata. 

@@ -1,17 +1,17 @@
-[NL] # The Meaning of Goju-Ryu
+# De betekenis van Goju-Ryu
 
-[NL] Goju-Ryu, translating to "Hard-Soft Style," is a traditional Okinawan karate style deeply rooted in the principle of harmonizing contrasting forces. The name itself encapsulates its core philosophy:
+Goju-Ryu, wat "Hard-Zacht Stijl" betekent, is een traditionele Okinawaanse karatestijl die diep geworteld is in het principe van het harmoniseren van tegengestelde krachten. De naam zelf vat de kernfilosofie samen:
 
-[NL] *   **Go (剛):** Represents "hard" or "external." This aspect involves closed-hand techniques, direct linear movements, and the application of physical strength.
-[NL] *   **Ju (柔):** Represents "soft" or "internal." This aspect emphasizes open-hand techniques, circular movements, and the development of *chi* (vital energy).
+*   **Go (剛):** Staat voor "hard" of "extern". Dit aspect omvat technieken met gesloten handen, directe lineaire bewegingen en het gebruik van fysieke kracht.
+*   **Ju (柔):** Staat voor "zacht" of "intern". Dit aspect legt de nadruk op open-hand technieken, cirkelvormige bewegingen en de ontwikkeling van *chi* (vitale energie).
 
-[NL] The style was formally named by its founder, Chojun Miyagi Sensei. He derived the terms "Go" and "Ju" from a line in the *Bubishi*, a classical Chinese martial arts text, specifically from the Kenpo Haku (Eight Poems of the Fist): *"Ho Go Ju donto"* (法剛柔呑吐), which translates to "The way of inhaling and exhaling is hardness and softness."
+De stijl werd officieel benoemd door de grondlegger, Chojun Miyagi Sensei. Hij haalde de termen "Go" en "Ju" uit een regel in de *Bubishi*, een klassiek Chinees krijgskunstboek, specifiek uit de Kenpo Haku (Acht Gedichten van de Vuist): *"Ho Go Ju donto"* (法剛柔呑吐), wat vertaald kan worden als "De manier van in- en uitademen is hardheid en zachtheid".
 
-[NL] Goju-Ryu seamlessly blends these hard and soft elements, combining powerful, direct attacks with fluid, circular blocks and evasive maneuvers. It's characterized by:
+Goju-Ryu combineert naadloos deze harde en zachte elementen, met krachtige, directe aanvallen en vloeiende, cirkelvormige blokkeringen en ontwijkende bewegingen. Kenmerkend zijn:
 
-[NL] *   **Close-range combat:** Techniques are often designed for infighting.
-[NL] *   **Breathing techniques (Ibuki and Ibuki Sankai):** Proper breathing is integral for power generation, focus, and connecting mind and body. Different breathing methods are used for different applications, some being audible and forceful, others silent and internal.
-[NL] *   **Combination of Okinawan and Chinese principles:** It integrates native Okinawan fighting methods with both internal (soft, focused on chi and circularity) and external (hard, focused on physical power) Chinese martial concepts.
-[NL] *   **Emphasis on Sanchin Kata:** This foundational kata, meaning "Three Battles," trains proper stance, breathing, tension, and the unification of mind, body, and spirit. Tensho kata, meaning "Rotating Palms," complements Sanchin by emphasizing the "Ju" aspects.
+*   **Gevechten op korte afstand:** Technieken zijn vaak ontworpen voor dichtbij.
+*   **Ademhalingstechnieken (Ibuki en Ibuki Sankai):** Juiste ademhaling is essentieel voor krachtopbouw, focus en het verbinden van lichaam en geest. Verschillende ademhalingsmethoden worden gebruikt voor verschillende toepassingen, sommige hoorbaar en krachtig, andere stil en intern.
+*   **Combinatie van Okinawaanse en Chinese principes:** De stijl integreert inheemse Okinawaanse vechtmethoden met zowel interne (zacht, gericht op chi en circulariteit) als externe (hard, gericht op fysieke kracht) Chinese krijgskunstconcepten.
+*   **Nadruk op Sanchin Kata:** Deze fundamentele kata, wat "Drie Gevechten" betekent, traint houding, ademhaling, spanning en de eenheid van geest, lichaam en ziel. Tensho kata, wat "Draaiende Handpalmen" betekent, vult Sanchin aan door de "Ju"-aspecten te benadrukken.
 
-[NL] The ultimate goal in Goju-Ryu is not just physical prowess but the cultivation of a balanced individual, capable of adapting to any situation by applying hardness and softness appropriately, both in combat and in life. 
+Het uiteindelijke doel in Goju-Ryu is niet alleen fysieke bekwaamheid, maar het ontwikkelen van een evenwichtig individu dat zich kan aanpassen aan elke situatie door hardheid en zachtheid op de juiste manier toe te passen, zowel in gevecht als in het dagelijks leven. 

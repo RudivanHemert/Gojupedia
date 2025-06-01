@@ -238,6 +238,7 @@
       },
       "stances-content": {
         "description": "Posizioni di base (Dachi Waza).",
+        "title": "Posizioni",
         "terms": {
           "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Posizione delle Tre Battaglie / Posizione a Clessidra" },
           "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Posizione Frontale / Posizione Inclinata in Avanti" },
@@ -345,6 +346,7 @@
       }
     }
   },
+  "noTermsAvailable": "Nessun termine disponibile per questa sezione.",
   "blocks": {
     "title": "Parate di Base",
     "viewButton": "Visualizza",
@@ -496,7 +498,18 @@
   "kata": {
     "theory": {
       "title": "Teoria del Kata",
-      "description": "Comprendere i principi e la pratica del kata"
+      "description": "Comprendere i principi e la pratica dei kata",
+      "sections": {
+        "what-are-kata": "Cosa sono i Kata?",
+        "kata-and-karate": "Kata e Karate",
+        "bunkai-and-techniques": "Bunkai e Tecniche",
+        "kata-origins": "Origini dei Kata",
+        "power-and-movement": "Potenza e Movimento",
+        "sources-of-power": "Fonti di Potenza",
+        "okinawan-concepts": "Concetti Okinawensi",
+        "power-transfer": "Trasferimento di Potenza",
+        "kata-techniques": "Tecniche dei Kata"
+      }
     },
     "levels": {
       "beginner": "Principiante",

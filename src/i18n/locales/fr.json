@@ -12,7 +12,8 @@
     "back": "Retour",
     "errorBoundary": "Quelque chose s'est mal passé. Veuillez actualiser la page.",
     "openMenu": "Ouvrir le menu",
-    "menuTitle": "Menu"
+    "menuTitle": "Menu",
+    "gradings": "Passages de Grade"
   },
   "navigation": {
     "home": "Accueil",
@@ -56,25 +57,48 @@
       "gradings": "Passages de Grade"
     }
   },
+  "history": {
+    "title": "Histoire",
+    "origins": "Origines à Okinawa",
+    "origins-desc": "Le karaté Goju-Ryu a été développé à Okinawa, au Japon, au début du XXe siècle par Chojun Miyagi. Le nom 'Goju' vient du principe 'dur-souple' des arts martiaux chinois traditionnels et reflète la nature double du système : il combine des techniques de frappe dures avec des mouvements plus souples et circulaires pour l'attaque et la défense.",
+    "development": "Développement",
+    "development-desc": "La croissance et la diffusion du Goju Ryu à travers le monde",
+    "lineage": "Lignée des Maîtres",
+    "lineage-desc": "Les enseignants clés et leurs contributions au style",
+    "subsections": {
+      "early-history": "Histoire Ancienne",
+      "early-history-desc": "Les racines du Goju Ryu remontent aux arts martiaux chinois et à leur intégration dans la culture d'Okinawa.",
+      "miyagi-era": "L'Ère Miyagi",
+      "miyagi-era-desc": "Le développement et la systématisation du style Goju Ryu par Chojun Miyagi dans les années 1920 et 1930.",
+      "post-war": "Période d'Après-Guerre",
+      "post-war-desc": "La diffusion et l'évolution du Goju Ryu après la Seconde Guerre mondiale.",
+      "modern-era": "Ère Moderne",
+      "modern-era-desc": "Le développement contemporain et la diffusion mondiale du Goju Ryu.",
+      "morioHigaonna": {
+        "title": "Morio Higaonna (1939 - )"
+      }
+    }
+  },
   "terminology": {
-    "title": "Terminologie du Karate",
+    "title": "Terminologie du Karaté",
+    "description": "Un aperçu des termes japonais courants utilisés en Karaté et en Goju-Ryu.",
     "sections": {
-      "general-terms": "Termes généraux",
+      "general-terms": "Termes Généraux",
       "numbers": "Nombres",
-      "tournament-terms": "Terminologie de tournoi",
+      "tournament-terms": "Terminologie de Tournoi",
       "equipment-weapons": "Équipement & Armes",
-      "karate-goju-ryu": "Terminologie Karate & Goju Ryu",
-      "karate-titles": "Titres de Karate",
-      "phrases-etiquette": "Expressions & Étiquette",
-      "kata-terms": "Terminologie des Kata",
+      "karate-goju-ryu": "Terminologie Karaté & Goju Ryu",
+      "karate-titles": "Titres de Karaté",
+      "phrases-etiquette": "Phrases & Étiquette",
+      "kata-terms": "Terminologie des Katas",
       "blocks": "Blocages",
-      "kicks": "Coups de pied",
-      "punches": "Coups de poing",
+      "kicks": "Coups de Pied",
+      "punches": "Coups de Poing",
       "stances": "Positions",
       "strikes": "Frappes",
-      "vital-points": "Points vitaux",
+      "vital-points": "Points Vitaux",
       "tournament-terms-content": {
-        "description": "Termes couramment utilisés dans le cadre des tournois de karaté.",
+        "description": "Termes couramment utilisés dans les compétitions de karaté.",
         "scoringTitle": "Pointage",
         "penaltiesTitle": "Pénalités",
         "terms": {
@@ -88,7 +112,7 @@
           "chui": "Avertissement",
           "shikkaku": "Disqualification",
           "hantei": "Décision/Jugement",
-          "encho-sen": "Round Supplémentaire",
+          "encho-sen": "Round de Prolongation",
           "fukushin-shugo": "Conférence des Juges",
           "keikoku": "Avertissement Officiel (pénalité)",
           "shobu-hajime": "Commencer le Match",
@@ -97,9 +121,9 @@
           "aka-no-kachi": "Victoire du Rouge",
           "ao-no-kachi": "Victoire du Bleu"
         },
-        "officialsTitle": "Officiels du Tournoi",
+        "officialsTitle": "Officiels de Tournoi",
         "officialsTerms": {
-          "shushin": "Arbitre Principal",
+          "shushin": "Arbitre",
           "fukushin": "Juge",
           "kansa": "Arbitre (Superviseur)"
         },
@@ -124,20 +148,20 @@
         }
       },
       "general-terms-content": {
-        "description": "Termes japonais couramment utilisés dans le contexte des arts martiaux.",
+        "description": "Termes japonais couramment utilisés dans un contexte d'arts martiaux.",
         "terms": {
           "dojo": { "name": "Dojo", "japanese": "道場", "english": "Salle d'entraînement, lieu de la voie" },
-          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Professeur, instructeur (celui qui est allé avant)" },
-          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Élève avancé" },
-          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Élève débutant" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Professeur, instructeur (celui qui est passé avant)" },
+          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Élève senior" },
+          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Élève junior" },
           "obi": { "name": "Obi", "japanese": "帯", "english": "Ceinture" },
-          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Tenue d'entraînement" },
+          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Uniforme d'entraînement" },
           "kiai": { "name": "Kiai", "japanese": "気合", "english": "Cri spirituel, concentration d'énergie" },
           "reishiki": { "name": "Reishiki", "japanese": "礼式", "english": "Étiquette, manières" }
         }
       },
       "numbers-content": {
-        "description": "Système de numération japonais utilisé pour compter pendant l'entraînement.",
+        "description": "Système de numération japonais utilisé pour compter à l'entraînement.",
         "terms": {
           "ichi": { "name": "Ichi", "japanese": "一", "english": "Un" },
           "ni": { "name": "Ni", "japanese": "二", "english": "Deux" },
@@ -152,11 +176,11 @@
         }
       },
       "equipment-weapons-content": {
-        "description": "Termes relatifs à l'équipement d'entraînement et aux armes traditionnelles d'Okinawa parfois associés à la pratique du Karaté.",
+        "description": "Termes relatifs à l'équipement d'entraînement et aux armes traditionnelles d'Okinawa parfois associées à la pratique du Karaté.",
         "terms": {
           "makiwara": { "name": "Makiwara", "japanese": "巻藁", "english": "Poteau de frappe" },
           "bo": { "name": "Bo", "japanese": "棒", "english": "Bâton long (environ 1,80 m)" },
-          "sai": { "name": "Sai", "japanese": "釵", "english": "Trident métallique" },
+          "sai": { "name": "Sai", "japanese": "釵", "english": "Trident en métal" },
           "tonfa": { "name": "Tonfa", "japanese": "トンファー", "english": "Bâton à poignée latérale" },
           "nunchaku": { "name": "Nunchaku", "japanese": "ヌンチャク", "english": "Fléau (deux sections reliées par une chaîne/corde)" },
           "kama": { "name": "Kama", "japanese": "鎌", "english": "Faucille" }
@@ -165,23 +189,53 @@
       "karate-goju-ryu-content": {
         "description": "Termes fondamentaux spécifiques au Karaté et au style Goju-Ryu.",
         "terms": {
-          "karate": { "name": "Karate", "japanese": "空手", "english": "Main Vide" },
-          "karate-do": { "name": "Karate-Do", "japanese": "空手道", "english": "La Voie de la Main Vide" },
+          "karate": { "name": "Karaté", "japanese": "空手", "english": "Main Vide" },
+          "karate-do": { "name": "Karaté-Do", "japanese": "空手道", "english": "La Voie de la Main Vide" },
           "goju-ryu": { "name": "Goju-Ryu", "japanese": "剛柔流", "english": "Style Dur-Souple" },
           "go": { "name": "Go", "japanese": "剛", "english": "Dur" },
           "ju": { "name": "Ju", "japanese": "柔", "english": "Souple" },
           "budo": { "name": "Budo", "japanese": "武道", "english": "Voie Martiale" },
-          "kumite": { "name": "Kumite", "japanese": "組手", "english": "Combat, mains qui s'accrochent" },
+          "kumite": { "name": "Kumite", "japanese": "組手", "english": "Combat, mains qui se rencontrent" },
           "kata": { "name": "Kata", "japanese": "型", "english": "Forme, modèle" },
           "bunkai": { "name": "Bunkai", "japanese": "分解", "english": "Analyse, application du kata" }
         }
       },
       "karate-titles-content": {
         "description": "Titres et grades utilisés en Karaté.",
-        "terms": {
+        "instructorTitles": {
+          "title": "Titres d'Instructeur",
+          "terms": {
+            "hanshi": { "name": "Hanshi", "japanese": "範士", "english": "Chef d'une Organisation" },
+            "kyoshi": { "name": "Kyoshi", "japanese": "教士", "english": "Maître Instructeur" },
+            "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Instructeur Émérite" },
+            "sensei": { "name": "Sensei", "japanese": "先生", "english": "Professeur" },
+            "shihan": { "name": "Shihan", "japanese": "師範", "english": "Maître Instructeur, Professeur de Professeurs" }
+          }
+        },
+        "studentTitles": {
+          "title": "Titres d'Élève",
+          "terms": {
+            "karateka": { "name": "Karatéka", "japanese": "空手家", "english": "Pratiquant de Karaté" },
+            "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Élève Senior" },
+            "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Élève Junior" },
+            "yudansha": { "name": "Yudansha", "japanese": "有段者", "english": "Détenteur de Ceinture Noire" },
+            "mudansha": { "name": "Mudansha", "japanese": "無段者", "english": "Élève sans Ceinture Noire" },
+            "uchiDeshi": { "name": "Uchi Deshi", "japanese": "内弟子", "english": "Élève Interne" }
+          }
+        },
+        "otherTitles": {
+          "title": "Autres Titres",
+          "terms": {
+            "bushi": { "name": "Bushi", "japanese": "武士", "english": "Grand Artiste Martial" },
+            "shushin": { "name": "Shushin", "japanese": "主審", "english": "Arbitre" },
+            "fukushin": { "name": "Fukushin", "japanese": "副審", "english": "Arbitre Assistant" },
+            "kansa": { "name": "Kansa", "japanese": "監査", "english": "Juge" }
+          }
+        },
+        "genericTerms": {
           "kyu": { "name": "Kyu", "japanese": "級", "english": "Grade (ceintures de couleur, avant la ceinture noire)" },
           "dan": { "name": "Dan", "japanese": "段", "english": "Niveau (grades de ceinture noire)" },
-          "shodan": { "name": "Shodan", "japanese": "初段", "english": "Premier niveau de ceinture noire" },
+          "shodan": { "name": "Shodan", "japanese": "初段", "english": "Ceinture noire premier niveau" },
           "sensei": { "name": "Sensei", "japanese": "先生", "english": "Professeur, instructeur" },
           "shihan": { "name": "Shihan", "japanese": "師範", "english": "Maître instructeur, professeur de professeurs" },
           "renshi": { "name": "Renshi", "japanese": "錬士", "english": "Instructeur émérite (un titre d'enseignement)" },
@@ -190,12 +244,12 @@
         }
       },
       "phrases-etiquette-content": {
-        "description": "Phrases courantes et expressions d'étiquette utilisées au dojo.",
+        "description": "Phrases courantes et expressions d'étiquette utilisées dans le dojo.",
         "terms": {
           "onegaishimasu": { "name": "Onegaishimasu", "japanese": "お願いします", "english": "S'il vous plaît (entraînez-vous avec moi / enseignez-moi)" },
           "arigato-gozaimasu": { "name": "Arigato gozaimasu", "japanese": "ありがとうございます", "english": "Merci (formel)" },
           "domo-arigato-gozaimashita": { "name": "Domo arigato gozaimashita", "japanese": "どうもありがとうございました", "english": "Merci beaucoup (pour ce qui a été fait)" },
-          "rei": { "name": "Rei", "japanese": "礼", "english": "Salut (inclinaison)" },
+          "rei": { "name": "Rei", "japanese": "礼", "english": "Salutation (inclinaison)" },
           "seiza": { "name": "Seiza", "japanese": "正座", "english": "Posture assise formelle" },
           "mokuso": { "name": "Mokuso", "japanese": "黙想", "english": "Méditation (contemplation silencieuse)" },
           "yame": { "name": "Yame", "japanese": "止め", "english": "Arrêter" },
@@ -203,18 +257,18 @@
         }
       },
       "kata-terms-content": {
-        "description": "Terminologie relative à la pratique du Kata.",
+        "description": "Terminologie relative à la pratique des Katas.",
         "terms": {
           "embusen": { "name": "Embusen", "japanese": "演武線", "english": "Ligne/schéma d'exécution d'un kata" },
           "kime": { "name": "Kime", "japanese": "決め", "english": "Concentration de puissance, décision" },
-          "zanshin": { "name": "Zanshin", "japanese": "残心", "english": "Esprit/vigilance restante après une technique" },
-          "hyoshi": { "name": "Hyoshi", "japanese": "拍子", "english": "Rythme, synchronisation" },
+          "zanshin": { "name": "Zanshin", "japanese": "残心", "english": "Esprit/vigilance persistante après la technique" },
+          "hyoshi": { "name": "Hyoshi", "japanese": "拍子", "english": "Rythme, timing" },
           "waza": { "name": "Waza", "japanese": "技", "english": "Technique" },
-          "koryu": { "name": "Koryu", "japanese": "古流", "english": "Ancien style/école (en référence au kata classique)" }
+          "koryu": { "name": "Koryu", "japanese": "古流", "english": "Ancien style/école (en référence aux katas classiques)" }
         }
       },
       "kicks-content": {
-        "description": "Techniques de base de coups de pied (Geri Waza).",
+        "description": "Techniques de coups de pied de base (Geri Waza).",
         "terms": {
           "mae-geri": { "name": "Mae Geri", "japanese": "前蹴り", "english": "Coup de Pied Frontal" },
           "mawashi-geri": { "name": "Mawashi Geri", "japanese": "回し蹴り", "english": "Coup de Pied Circulaire" },
@@ -222,15 +276,15 @@
           "ushiro-geri": { "name": "Ushiro Geri", "japanese": "後ろ蹴り", "english": "Coup de Pied Arrière" },
           "hiza-geri": { "name": "Hiza Geri", "japanese": "膝蹴り", "english": "Coup de Genou" },
           "kin-geri": { "name": "Kin Geri", "japanese": "金蹴り", "english": "Coup de Pied à l'Entrejambe" },
-          "kansetsu-geri": { "name": "Kansetsu Geri", "japanese": "関節蹴り", "english": "Coup de Pied à l'Articulation (coup de pied écrasant au genou)" }
+          "kansetsu-geri": { "name": "Kansetsu Geri", "japanese": "関節蹴り", "english": "Coup de Pied Articulaire (coup de pied écrasant au genou)" }
         }
       },
       "punches-content": {
-        "description": "Techniques de base de coups de poing (Tsuki/Zuki Waza).",
+        "description": "Techniques de coups de poing de base (Tsuki/Zuki Waza).",
         "terms": {
           "oi-zuki": { "name": "Oi Zuki", "japanese": "追い突き", "english": "Coup de Poing en Fente (coup de poing en avançant)" },
           "gyaku-zuki": { "name": "Gyaku Zuki", "japanese": "逆突き", "english": "Coup de Poing Inversé" },
-          "kizami-zuki": { "name": "Kizami Zuki", "japanese": "刻み突き", "english": "Jab (coup de poing avant)" },
+          "kizami-zuki": { "name": "Kizami Zuki", "japanese": "刻み突き", "english": "Jab (coup de poing de la main avant)" },
           "ura-zuki": { "name": "Ura Zuki", "japanese": "裏突き", "english": "Coup de Poing Rapproché / Uppercut" },
           "tate-zuki": { "name": "Tate Zuki", "japanese": "立て突き", "english": "Coup de Poing Vertical" },
           "age-zuki": { "name": "Age Zuki", "japanese": "上げ突き", "english": "Coup de Poing Ascendant" }
@@ -238,11 +292,12 @@
       },
       "stances-content": {
         "description": "Positions de base (Dachi Waza).",
+        "title": "Positions",
         "terms": {
           "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Position des Trois Batailles / Position du Sablier" },
           "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Position Avant / Position Penchée en Avant" },
           "shiko-dachi": { "name": "Shiko Dachi", "japanese": "四股立ち", "english": "Position Carrée / Position du Cavalier (pieds à 45 degrés)" },
-          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立ち", "english": "Position du Pied de Chat" },
+          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立ち", "english": "Position du Chat" },
           "heiko-dachi": { "name": "Heiko Dachi", "japanese": "平行立ち", "english": "Position Parallèle" },
           "musubi-dachi": { "name": "Musubi Dachi", "japanese": "結び立ち", "english": "Position d'Attention Formelle (talons joints, pieds vers l'extérieur)" },
           "kiba-dachi": { "name": "Kiba Dachi", "japanese": "騎馬立ち", "english": "Position du Cavalier (pieds parallèles)" }
@@ -254,17 +309,17 @@
           "shuto-uchi": { "name": "Shuto Uchi", "japanese": "手刀打ち", "english": "Frappe du Tranchant de la Main" },
           "uraken-uchi": { "name": "Uraken Uchi", "japanese": "裏拳打ち", "english": "Frappe du Revers du Poing" },
           "tettsui-uchi": { "name": "Tettsui Uchi", "japanese": "鉄槌打ち", "english": "Frappe du Poing Marteau" },
-          "empi-uchi": { "name": "Empi Uchi / Hiji Ate", "japanese": "猿臂打ち / 肘当て", "english": "Frappe du Coude" },
+          "empi-uchi": { "name": "Empi Uchi / Hiji Ate", "japanese": "猿臂打ち / 肘当て", "english": "Coup de Coude" },
           "haito-uchi": { "name": "Haito Uchi", "japanese": "背刀打ち", "english": "Frappe du Tranchant Interne de la Main" },
           "nukite": { "name": "Nukite", "japanese": "貫手", "english": "Frappe de la Main en Pique" }
         }
       },
       "vital-points-content": {
-        "description": "Termes pour certains points vitaux (Kyusho) ciblés en Karaté.",
+        "description": "Termes désignant certains points vitaux (Kyusho) ciblés en Karaté.",
         "terms": {
           "jinchu": { "name": "Jinchu", "japanese": "人中", "english": "Philtrum (base du nez)" },
           "kasumi": { "name": "Kasumi", "japanese": "霞", "english": "Temple" },
-          "suigetsu": { "name": "Suigetsu", "japanese": "水月", "english": "Plexus Solaire" },
+          "suigetsu": { "name": "Suigetsu", "japanese": "水月", "english": "Plexus solaire" },
           "kinteki": { "name": "Kinteki", "japanese": "金的", "english": "Entrejambe" },
           "dokko": { "name": "Dokko", "japanese": "独鈷", "english": "Apophyse mastoïde (derrière l'oreille)" },
           "nodo": { "name": "Nodo", "japanese": "喉", "english": "Gorge" }
@@ -274,22 +329,22 @@
         "description": "Techniques défensives courantes utilisées pour bloquer ou dévier les attaques. Cliquez sur \"Voir\" pour une démonstration si disponible.",
         "basicBlocksTitle": "Blocages de Base",
         "advancedBlocksTitle": "Blocages Avancés",
-        "videoNotAvailableDescription": "Une démonstration vidéo pour cette technique n'est pas disponible actuellement.",
-        "videoLoadError": "La vidéo pour '{{file}}' n'a pas pu être chargée. Veuillez vérifier que le fichier existe dans public/video/blocks/.",
+        "videoNotAvailableDescription": "Une démonstration vidéo pour cette technique n'est actuellement pas disponible.",
+        "videoLoadError": "Impossible de charger la vidéo pour '{{file}}'. Veuillez vérifier que le fichier existe dans public/video/blocks/.",
         "selectVideoTitle": "Sélectionnez une technique à visualiser",
         "terms": {
           "age-uke": {
             "name": "Age Uke",
             "japanese": "上げ受け",
             "english": "Blocage Ascendant",
-            "details": "Age Uke (Blocage Ascendant) est une technique fondamentale de blocage vers le haut utilisée pour se défendre contre les attaques au visage ou au haut du corps. L'avant-bras monte pour dévier l'attaque, tandis que l'autre main est retirée à la hanche en préparation d'une contre-attaque.",
+            "details": "Age Uke (Blocage Ascendant) est une technique de blocage ascendante fondamentale utilisée pour se défendre contre les attaques au visage ou au haut du corps. L'avant-bras se déplace vers le haut pour dévier l'attaque, tandis que l'autre main est retirée à la hanche en préparation d'une contre-attaque.",
             "videoFile": "age-uke"
           },
           "gedan-barai": {
             "name": "Gedan Barai",
             "japanese": "下段払い",
-            "english": "Blocage Descendant",
-            "details": "Gedan Barai (Blocage Descendant) est un blocage balayant vers le bas qui défend contre les attaques basses. Le bras décrit un arc descendant pour dévier les frappes visant le bas du corps, tandis que l'autre bras se rétracte en position de hanche.",
+            "english": "Blocage Balayant Descendant",
+            "details": "Gedan Barai (Blocage Balayant Descendant) est un blocage descendant balayant qui défend contre les attaques basses. Le bras se déplace en arc de cercle vers le bas pour dévier les frappes visant le bas du corps, l'autre bras se rétractant en position de hanche.",
             "videoFile": "gedan-barai"
           },
           "soto-uke": {
@@ -309,7 +364,7 @@
             "name": "Shuto Uke",
             "japanese": "手刀受け",
             "english": "Blocage du Tranchant de la Main",
-            "details": "Shuto Uke (Blocage du Tranchant de la Main) est exécuté avec le tranchant de la main (shuto). Il peut être utilisé pour bloquer les attaques au torse ou à la tête, impliquant souvent un mouvement circulaire."
+            "details": "Shuto Uke (Blocage du Tranchant de la Main) est exécuté en utilisant le tranchant de la main (shuto). Il peut être utilisé pour bloquer les attaques au niveau moyen ou à la tête, souvent avec un mouvement circulaire."
           },
           "empi-uke": {
             "name": "Empi Uke",
@@ -321,19 +376,19 @@
             "name": "Kosa Uke",
             "japanese": "交差受け",
             "english": "Blocage Croisé",
-            "details": "Kosa Uke (Blocage Croisé) consiste à croiser les poignets ou les avant-bras pour créer une barrière contre une attaque. Il peut être exécuté à différentes hauteurs (jodan, chudan, gedan)."
+            "details": "Kosa Uke (Blocage Croisé) implique de croiser les poignets ou les avant-bras pour créer une barrière contre une attaque. Il peut être exécuté à différentes hauteurs (jodan, chudan, gedan)."
           },
           "juji-uke": {
             "name": "Juji Uke",
             "japanese": "十字受け",
             "english": "Blocage en X",
-            "details": "Juji Uke (Blocage en X) utilise les bras croisés en forme de 'X' pour bloquer une attaque, typiquement une frappe descendante ou un coup de pied. Les mains peuvent être ouvertes ou fermées."
+            "details": "Juji Uke (Blocage en X) utilise les bras croisés en forme de 'X' pour bloquer une attaque, généralement une frappe descendante ou un coup de pied. Les mains peuvent être ouvertes ou fermées."
           },
           "haiwan-uke": {
             "name": "Haiwan Uke",
             "japanese": "背腕受け",
-            "english": "Blocage du Dos de l'Avant-bras",
-            "details": "Haiwan Uke (Blocage du Dos de l'Avant-bras) utilise le dos de l'avant-bras pour bloquer une technique entrante. Il est souvent utilisé pour dévier les frappes venant vers le côté du corps ou la tête."
+            "english": "Blocage de l'Arrière-Bras",
+            "details": "Haiwan Uke (Blocage de l'Arrière-Bras) utilise l'arrière de l'avant-bras pour bloquer une technique entrante. Il est souvent utilisé pour dévier les frappes venant vers le côté du corps ou la tête."
           },
           "osae-uke": {
             "name": "Osae Uke",
@@ -343,80 +398,6 @@
           }
         }
       }
-    }
-  },
-  "blocks": {
-    "title": "Blocages de Base",
-    "viewButton": "Voir",
-    "videoError": {
-      "title": "Les démonstrations vidéo seront visibles dans l'application mobile",
-      "pathError": "Impossible de charger la vidéo depuis : {{path}}",
-      "instructions": "Veuillez vous assurer que les fichiers MP4 sont placés dans le répertoire public/Video/Blocks avec ces noms de fichiers :",
-      "files": {
-        "ageUke": "age-uke.mp4",
-        "gedanBarai": "gedan-barai.mp4",
-        "sotoUke": "soto-uke.mp4"
-      }
-    },
-    "ageUke": {
-      "name": "Age Uke",
-      "japanese": "上げ受け",
-      "english": "Blocage Ascendant",
-      "description": "Age Uke (Blocage Ascendant) est une technique de blocage de base vers le haut utilisée pour se défendre contre les attaques au visage ou au haut du corps. L'avant-bras monte pour dévier l'attaque, tandis que l'autre main est ramenée à la hanche en préparation d'une contre-attaque."
-    },
-    "gedanBarai": {
-      "name": "Gedan Barai",
-      "japanese": "下段払い",
-      "english": "Blocage Descendant",
-      "description": "Gedan Barai (Blocage Descendant) est un blocage balayant vers le bas qui défend contre les attaques basses. Le bras effectue un arc descendant pour dévier les frappes visant le bas du corps, tandis que l'autre bras se rétracte en position de hanche."
-    },
-    "sotoUke": {
-      "name": "Soto Uke",
-      "japanese": "外受け",
-      "english": "Blocage Extérieur",
-      "description": "Soto Uke (Blocage Extérieur) est un blocage vers l'extérieur utilisé pour dévier les attaques venant de l'intérieur vers l'extérieur. L'avant-bras se déplace de l'intérieur vers l'extérieur sur une trajectoire horizontale pour rediriger la frappe de l'adversaire."
-    },
-    "uchiUke": {
-      "name": "Uchi Uke",
-      "japanese": "内受け",
-      "english": "Blocage Intérieur",
-      "description": "Un blocage qui dévie une attaque de l'extérieur vers l'intérieur."
-    },
-    "shutoUke": {
-      "name": "Shuto Uke",
-      "japanese": "手刀受け",
-      "english": "Blocage du Tranchant de la Main",
-      "description": "Un blocage effectué avec le tranchant de la main."
-    },
-    "empiUke": {
-      "name": "Empi Uke",
-      "japanese": "肘受け",
-      "english": "Blocage du Coude",
-      "description": "Un blocage effectué avec le coude."
-    },
-    "kosaUke": {
-      "name": "Kosa Uke",
-      "japanese": "交差受け",
-      "english": "Blocage Croisé",
-      "description": "Un blocage effectué avec les poignets croisés."
-    },
-    "jujiUke": {
-      "name": "Juji Uke",
-      "japanese": "十字受け",
-      "english": "Blocage en X",
-      "description": "Un blocage effectué avec les bras croisés en forme de X."
-    },
-    "haiwanUke": {
-      "name": "Haiwan Uke",
-      "japanese": "背腕受け",
-      "english": "Blocage du Dos de l'Avant-bras",
-      "description": "Un blocage effectué avec le dos de l'avant-bras."
-    },
-    "osaeUke": {
-      "name": "Osae Uke",
-      "japanese": "押さえ受け",
-      "english": "Blocage Pressant",
-      "description": "Un blocage pressant vers le bas."
     }
   },
   "practice": {
@@ -470,161 +451,6 @@
     "notifications": "Notifications",
     "darkMode": "Mode Sombre",
     "about": "À propos"
-  },
-  "history": {
-    "title": "Histoire",
-    "origins": "Origines à Okinawa",
-    "origins-desc": "Le karaté Goju-Ryu a été développé à Okinawa, au Japon, au début du XXe siècle par Chojun Miyagi. Le nom 'Goju' vient du principe 'dur-souple' des arts martiaux chinois traditionnels et reflète la nature double du système : il combine des techniques de frappe dures avec des mouvements plus souples et circulaires pour l'attaque et la défense.",
-    "development": "Développement",
-    "development-desc": "La croissance et la diffusion du Goju Ryu à travers le monde",
-    "lineage": "Lignée des Maîtres",
-    "lineage-desc": "Les enseignants clés et leurs contributions au style",
-    "subsections": {
-      "early-history": "Histoire Ancienne",
-      "early-history-desc": "Les racines du Goju Ryu remontent aux arts martiaux chinois et à leur intégration dans la culture d'Okinawa.",
-      "miyagi-era": "L'Ère Miyagi",
-      "miyagi-era-desc": "Le développement et la systématisation du style Goju Ryu par Chojun Miyagi dans les années 1920 et 1930.",
-      "post-war": "Période d'Après-Guerre",
-      "post-war-desc": "La diffusion et l'évolution du Goju Ryu après la Seconde Guerre mondiale.",
-      "modern-era": "Ère Moderne",
-      "modern-era-desc": "Le développement contemporain et la diffusion mondiale du Goju Ryu.",
-      "morioHigaonna": {
-        "title": "Morio Higaonna (1939 - )"
-      }
-    }
-  },
-  "kata": {
-    "theory": {
-      "title": "Théorie des Kata",
-      "description": "Comprendre les principes et la pratique des kata"
-    },
-    "levels": {
-      "beginner": "Débutant",
-      "intermediate": "Intermédiaire",
-      "advanced": "Avancé",
-      "master": "Maître"
-    },
-    "sanchin": {
-      "meaning": "Trois Batailles/Conflits",
-      "description": "Le kata le plus fondamental du Goju Ryu. Il se concentre sur la respiration correcte, la posture et la tension dans tout le corps. Les 'trois batailles' font référence à l'esprit, au corps et à l'âme.",
-      "history": "Signifie littéralement 'trois batailles'. Il ne s'agit pas d'un combat réel, mais de la lutte interne pour endurcir le corps, l'esprit et l'âme par la volonté. Le kata consiste en des techniques lentes exécutées avec une tension musculaire continue et une respiration abdominale profonde. Le Sanchin moderne est une variante développée par Miyagi Chojun sensei (fondateur, 1888-1953) à partir de l'original transmis par Higaonna Kanryo sensei. La respiration dans la version originale était plus explosive et le corps tournait deux fois de 180 degrés. Les étudiants avancés peuvent être testés sur la tension musculaire correcte pendant Sanchin par d'autres étudiants, qui vérifient l'exécution en sentant et en frappant certaines parties du corps. Ce test s'appelle shime. Matière d'examen pour le gokyu (cinquième kyu, ceinture verte) et plus.",
-      "culturalSignificance": "Sanchin est considéré comme l'essence du karaté Goju Ryu, incarnant les principes de respiration, de posture et de concentration qui sont au cœur de la philosophie du style."
-    },
-    "tensho": {
-      "name": "[FR] Tensho",
-      "japaneseName": "[FR] 転掌",
-      "meaning": "[FR] Mains Tournantes",
-      "description": "[FR] Développé par Chojun Miyagi en contrepartie de Sanchin, Tensho représente l'aspect souple et circulaire du Goju Ryu. Il se concentre sur les mouvements fluides et le contrôle de la respiration.",
-      "history": "[FR] Tensho a été créé par Chojun Miyagi pour compléter Sanchin. Tandis que Sanchin met l'accent sur le 'Go' (dur), Tensho incarne le 'Ju' (souple), complétant ainsi le concept Goju.",
-      "culturalSignificance": "[FR] Tensho démontre l'aspect 'ju' (souple) du Goju Ryu, équilibrant le 'go' (dur) de Sanchin, et est crucial pour comprendre toute la portée du style."
-    },
-    "gekisai-dai-ichi": {
-      "name": "Gekisai Dai Ichi",
-      "japaneseName": "撃砕第一",
-      "meaning": "Attaque et Destruction, Numéro Un",
-      "description": "L'un des deux katas Gekisai créés par Chojun Miyagi pour l'éducation physique dans les écoles. Il enseigne les techniques fondamentales et les schémas respiratoires dans un format plus simple que les katas plus anciens.",
-      "history": "Signifiant 'Attaque et Écrasement Numéro Un', ce kata a été créé par Chojun Miyagi en 1940. Il a été conçu pour être plus simple que les katas traditionnels, rendant le karaté plus accessible aux jeunes étudiants et aux débutants. Il introduit les blocages de base, les frappes et le travail des postures.",
-      "culturalSignificance": "Ce kata faisait partie des efforts de Miyagi pour populariser le karaté et le rendre accessible à un public plus large, en particulier à la jeune génération.",
-      "stepsCount": 8,
-      "steps": {
-        "step1": {
-          "title": "Blocage Ascendant (Jodan Uke)",
-          "description": "Avancez avec le pied droit depuis musubi dachi, pivotez sur la plante des deux pieds et exécutez le blocage simultanément. Votre posture doit être large de deux pieds. Le bras qui bloque se déplace près du corps, d'abord horizontalement devant le diaphragme, puis directement vers le haut, ne tournant qu'au dernier moment. Assurez une tension minimale des épaules. Le bras est focalisé à une largeur de poing du front. Le bras hikite monte initialement, reste haut pendant la rotation du corps, puis est activement et puissamment tiré sur le côté. Concentrez-vous puissamment. Lors du blocage, votre poids est réparti sur les deux pieds. Les pratiquants avancés peuvent légèrement tourner le coude vers le bas pendant le kime et exécuter la technique avec un mouvement un peu plus arrondi.",
-          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
-        },
-        "step2": {
-          "title": "Coup de Poing Haut (Jodan Zuki)",
-          "description": "Poussez en appuyant le pied avant dans le sol et avancez directement en han zenkutsu dachi (longueur de trois pieds). Le bassin ne tourne pas avec le coup de poing. Pendant le kime du coup de poing, environ 70% de votre poids est sur la jambe avant. Le coup de poing est au niveau des yeux. Utilisez également un hikite puissant et serrez les dents pendant le kime. Utilisez principalement la force de la poussée et du mouvement, en gardant les épaules détendues aussi longtemps que possible.",
-          "image": "/Images/Kata/gekisai-dai-ichi-1.png"
-        },
-        "step3": {
-          "title": "Blocage Balayant Bas (Gedan Barai)",
-          "description": "Reculez avec votre jambe droite en shiko dachi, en ouvrant simultanément votre bassin et en le laissant tomber. Continuez à regarder sur le côté. Le hikite est tiré avec force en arrière (tirez votre coude en arrière et vers le bas). Jusqu'au kime, il n'y a pas de tension dans le bras, et le poing se termine à une largeur de poing du genou (en bunkai, le blocage bas est exécuté comme une attaque au coude et se termine plus loin du genou). Pendant le kime, le bassin reste ouvert, mais les dents se serrent.\n\nNote : en shiko dachi, le sommet de la tête est vers le haut et le menton légèrement rentré (oreilles alertes). Le dos forme un \"S\", les omoplates sont ensemble et pointent vers le bas. Le bassin est ouvert et donc incliné vers l'avant, le tibia est perpendiculaire au sol, et les genoux sont directement au-dessus des pieds (initialement, de nombreux karatékas doivent activement pousser les genoux et la cuisse vers l'arrière pour cela). La hanche est légèrement plus haute que les genoux (l'eau coulerait lentement le long de la cuisse). Les pieds (en particulier le gros orteil et l'intérieur du pied) sont enfoncés avec force dans le sol et agrippent le sol pendant le kime.",
-          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
-        },
-        "step4": {
-          "title": "Blocage Moyen (Chudan Uke)",
-          "description": "Tirez le pied gauche vers l'autre pied puis en cercle vers l'avant (les chevilles se croisent) en sanchin dachi. Le poing de la main qui bloque commence loin en dessous du coude de l'autre bras. La technique est exécutée avec muchimi. Ce mouvement est exécuté avec un mouvement circulaire assez ample, et le pied et le bras bougent simultanément.",
-          "image": null
-        },
-        "step5": {
-          "title": "Coup de Pied Frontal (Mae Geri), Coup de Coude et Écrasement (Hiji Ate et Fumikomi Geri), Coup de Revers du Poing (Uraken Uchi), Blocage Bas (Gedan Barai) et Coup de Poing Inversé Niveau Moyen (Chudan Gyaku Zuki)",
-          "description": "Les techniques de cette série (sauf le coup de coude et l'écrasement) doivent être exécutées séparément et avec puissance. Il est important de se détendre (entre les deux) après chaque technique. Dans l'exécution classique de Gekisai Dai Ichi, il y a un arrêt de comptage avant le coup de revers du poing, permettant au corps de mieux se détendre. Le rythme est 1-2 et 1-2-3.\n\nMaintenez le blocage et le hikite pendant le coup de pied frontal. Le coup de pied – levez le genou haut jusqu'à ce que la cuisse soit parallèle au sol – est keage (donc sans bascule du bassin ni rotation de la hanche). Le coup de pied est droit devant avec la plante du pied vers l'aine. Avant le coup de pied, descendez légèrement sur votre jambe d'appui, et pendant le coup de pied, le corps est entièrement soutenu par la jambe d'appui. Vous pouvez légèrement rentrer votre bassin (pas nécessaire) et ne pas le bloquer. Après le coup de pied, détendez-vous, tirez activement le bas de la jambe en arrière jusqu'à ce qu'il soit sous le genou. De là, il est écrasé en zenkutsu dachi.\n\nLe coup de coude est principalement vers l'avant, le poing se terminant à la mâchoire. Tirez le hikite avec force en arrière. Le coup de coude et l'écrasement sont exécutés ensemble et, selon le niveau du karatéka, peuvent être effectués de trois manières :\n1. Le pied est écrasé, et le rebond du sol est utilisé dans le coup de coude. Le rythme est 1 ..... 2.\n2. Le pied est écrasé, et immédiatement après, le coup de coude est exécuté. Le rythme est pam-bam.\n3. L'écrasement et le coup de coude sont exécutés simultanément. Depuis le hara, la puissance va simultanément au pied et au coude. C'est ce qu'on appelle \"diviser la puissance\".\n\nLe coup de revers du poing est initié depuis le bassin, et pendant l'impulsion, les épaules, le coude et le poignet restent détendus. La technique est une frappe semblable à un fouet (il n'y a donc pas de kime) à jinchu (point vital au centre de la lèvre supérieure). Après la technique, le poing revient en arrière, et le coude forme un angle de 90 degrés.\n\nLe blocage balayant bas effectue un balancement relativement petit et tourne autour du coude. Pendant l'exécution, il n'y a pas de tension dans les épaules et le coude. Pendant la concentration, le bras tourne légèrement. Le hikite est puissant.\n\nLe coup de poing inversé est exécuté avec beaucoup de puissance et de vitesse. Le mouvement commence par le redressement de la jambe arrière. Cela provoque la rotation du bassin vers l'intérieur ; ceci est utilisé pour l'impulsion puissante du coup de poing, concentré et exécuté vers suigetsu. Utilisez également un hikite puissant et rapide. Kiai !",
-          "image": "/Images/Kata/gekisai-dai-ichi-2.png"
-        },
-        "step6": {
-          "title": "Balayage du Pied (Ashi Barai) et Coup de Tranchant de Main (Shuto Uchi)",
-          "description": "Tirez le pied arrière vers l'autre et effectuez un petit balayage du pied ; le pied balayant maintient un long contact avec le sol et ne dépasse pas l'autre. Concentrez-vous sur le côté de l'intérieur du pied, en veillant à balayer bas. Écrasez le pied en hachiji dachi (= 'posture naturelle') et utilisez le rebond du sol pour l'impulsion du coup de tranchant de main ; utilisez également un hikite puissant (reste un poing). Pendant le balayage, écartez également vos omoplates et un peu vers l'avant (le dos reste droit, vous continuez à regarder vers l'avant) et utilisez également le retour en arrière des omoplates lors du coup de tranchant de main. Lors du coup de tranchant de main, les épaules et les coudes sont sans tension. La technique est rapide et brièvement concentrée au niveau des yeux (\"frappe lourde\"). Pour le tranchant de main, les doigts sont droits, et le pouce plié repose contre le côté de la base de l'index. Concentrez-vous également sur le point d'impact avec le talon de la paume du côté du petit doigt.",
-          "image": null
-        },
-        "step7": {
-          "title": "Double Coup de Poing (Awase Zuki) : Coup de Poing Niveau Moyen et Inversé (Chudan et Ura Zuki)",
-          "description": "Le double coup de poing est une forme petite et fermée du tora guchi. Depuis hachiji dachi, reculez en ligne droite (légèrement en diagonale) en zenkutsu dachi et tirez activement votre main (comme si vous traîniez quelqu'un) sur votre côté (les articulations restent vers le haut). Redressez votre jambe et mettez tout votre corps derrière le double coup de poing ; utilisez en particulier la puissance du sol et vos muscles du dos (le poing du coup de poing inversé est au-dessus du genou). Avancez avec votre jambe gauche et ne vous levez pas en changeant de pied (les pieds sont brièvement côte à côte ; il y a un moment comparable à s'asseoir sur des toilettes). En changeant de pied, effectuez un blocage intérieur de niveau moyen (chudan uchi uke) avec la main droite et un blocage extérieur de niveau moyen (chudan soto uke) avec la main gauche, de sorte que vous regardiez le dos des deux poings. Reculez et tirez simultanément les poings avec force sur le côté. Utilisez le rebond du sol, le redressement de la jambe/rotation du bassin, et les muscles du dos pour un autre double coup de poing puissant (awase zuki : ura zuki (coup de poing inversé) et chudan zuki (coup de poing de niveau moyen)). Pour le poing effectuant le coup de poing de niveau moyen, pendant le changement, le hikite est sur le côté avec les articulations vers le haut. L'ura zuki (articulations vers le bas pendant le changement) vise la septième côte (denko), le chudan zuki le 5ème espace intercostal, juste en dessous du mamelon (ganka).\n\nNote : les débutants peuvent également exécuter le chudan soto uke comme un chudan uke 'régulier', où l'on regarde le côté des doigts du poing.",
-          "image": "/Images/Kata/gekisai-dai-ichi-3.png"
-        },
-        "step8": {
-          "title": "Fermeture",
-          "description": "Ouvrez la main gauche et placez le poing droit dans la gauche avec un petit mouvement circulaire. Tournez le pied gauche vers l'extérieur, ramenez le pied droit pour le rejoindre en musubi dachi, et tournez simultanément les mains. Concluez le kata.",
-          "image": null
-        }
-      }
-    },
-    "gekisai-dai-ni": {
-      "name": "[FR] Gekisai Dai Ni",
-      "japaneseName": "[FR] 撃砕第二",
-      "meaning": "[FR] Attaque et Destruction, Deuxième Forme",
-      "description": "[FR] Le deuxième des deux katas Gekisai. Il s'appuie sur les techniques de Gekisai Dai Ichi, avec des mouvements supplémentaires et des schémas légèrement plus complexes.",
-      "history": "[FR] Comme Gekisai Dai Ichi, développé par Chojun Miyagi pour des raisons similaires afin de rendre le karaté plus accessible.",
-      "culturalSignificance": "[FR] Représente l'évolution de l'enseignement du karaté tel qu'il a été normalisé pour des applications éducatives plus larges."
-    },
-    "saifa": {
-      "meaning": "Écraser et Déchirer",
-      "description": "Un kata qui met l'accent sur les changements rapides de direction et les techniques à courte portée. Il contient des mouvements de saisie, de traction et de déchirement conçus pour le combat rapproché.",
-      "history": "Signifie quelque chose comme 'coups destructeurs'. 'Sai' signifie, comme dans Gekisai, 'détruire'. 'Fa' signifie, entre autres, 'frapper'. Typique de Saifa sont les nombreuses techniques de frappe, telles que uraken uchi, tettsui uchi et haito uchi. Saifa est le premier kata koryu classique. Le kata a été transmis par Ryu Ryu Ko à Higaonna Kanryo sensei. Comparé au kata Gekisai Dai, à partir de Saifa, la difficulté augmente et de plus en plus de combinaisons de techniques de main et de pied apparaissent, nécessitant une bonne coordination. Matière d'examen pour le gokyu (cinquième kyu, ceinture verte) et plus.",
-      "culturalSignificance": "Saifa représente l'évolution des techniques d'arts martiaux conçues pour des situations pratiques d'autodéfense dans des environnements bondés."
-    },
-    "seiyunchin": {
-      "meaning": "Contrôler et Tirer au Combat",
-      "description": "Un kata axé sur le contrôle de l'équilibre et de la puissance d'un adversaire. Il enseigne des techniques pour saisir, tirer et manipuler la force d'un attaquant.",
-      "history": "Signifie quelque chose comme 'déséquilibrer au combat'. Ce kata est le seul kata kaishu sans techniques de coup de pied et met l'accent sur la formation de postures fortes et stables. Les bunkai kumite (applications) consistent en diverses techniques de lutte et de projection qui conviennent très bien au combat rapproché. Matière d'examen pour le sankyu (troisième kyu, ceinture marron) et plus.",
-      "culturalSignificance": "Ce kata démontre l'aspect 'ju' (doux, cédant) du Goju Ryu, montrant comment rediriger l'énergie d'un adversaire plutôt que de s'y opposer directement."
-    },
-    "shisochin": {
-      "meaning": "Combattre dans Quatre Directions",
-      "description": "Ce kata met l'accent sur les techniques qui peuvent être appliquées dans quatre directions, enseignant au pratiquant à être conscient et à se défendre contre plusieurs attaquants.",
-      "history": "Signifie littéralement 'combat dans 4 directions'. Une autre traduction est '4 portes'. Le mot porte est un mot symbolique pour l'endroit où un adversaire potentiel peut lancer une attaque, peut 'entrer'. Le kata contient une combinaison d'attaque typique, qui est exécutée dans quatre directions. Matière d'examen pour l'ikkyu (premier kyu, ceinture marron) et plus.",
-      "culturalSignificance": "Le kata met l'accent sur la conscience situationnelle et l'importance d'être préparé aux menaces de toutes les directions, un aspect crucial de la sagesse traditionnelle des arts martiaux."
-    },
-    "sanseru": {
-      "meaning": "Trente-Six",
-      "description": "Nommé d'après les 36 points vitaux du corps, ce kata contient des techniques de frappe puissantes ciblant ces points, ainsi que des mouvements défensifs.",
-      "history": "Les noms des katas Sanseru, Sepai, Sesan et Suparinpei sont des noms chinois. Dans la langue écrite, le mot 'mains' est ajouté après les 4, mais cela est omis dans la langue parlée, et par exemple, on dit Sanseru au lieu de Sanseru shu. Ces 4 noms sont tous des nombres qui font référence au symbolisme bouddhiste. Ainsi, Sanseru signifie '36 (mains)'. 36 est la multiplication symbolique de 6 * 6. Le premier 6 représente l'œil, l'oreille, le nez, la langue, le corps et l'esprit. Le deuxième 6 symbolise la couleur, la voix, le goût, l'odorat, le toucher et la justice. Matière d'examen pour le nidan (deuxième dan) et plus.",
-      "culturalSignificance": "Le nombre 36 a une signification dans de nombreux arts martiaux et traditions philosophiques asiatiques, représentant l'harmonie entre la technique physique et une compréhension plus profonde."
-    },
-    "sepai": {
-      "meaning": "Dix-Huit",
-      "description": "Représentant le nombre 18, ce kata se caractérise par ses mouvements circulaires et ses techniques pour dévier et rediriger la force d'un adversaire.",
-      "history": "Sepai signifie '18 (mains)'. 18 est la multiplication symbolique de 6 * 3. Le premier 6 représente l'œil, l'oreille, le nez, la langue, le corps et l'esprit. Le 3 symbolise le bien, le mal et la paix. Matière d'examen pour le shodan (premier dan) et plus.",
-      "culturalSignificance": "Le nombre 18 est également significatif dans la philosophie bouddhiste, souvent associé aux 18 Lohan (Arhats), disciples éclairés de Bouddha."
-    },
-    "kururunfa": {
-      "meaning": "Tenir et Frapper Soudainement",
-      "description": "Un kata qui enseigne des techniques pour briser l'équilibre d'un adversaire et frapper avec vitesse et précision. Il implique le combat rapproché et la manipulation des articulations.",
-      "history": "Kururunfa signifie 'tenir longtemps et frapper soudainement'. Ce kata se caractérise par ses mouvements trompeurs et ses transitions rapides entre la défense et l'attaque. Matière d'examen pour le sandan (troisième dan) et plus.",
-      "culturalSignificance": "Ce kata incarne le principe du 'muchimi' (mains collantes), soulignant la sensibilité et la réactivité en combat rapproché."
-    },
-    "sesan": {
-      "meaning": "Treize",
-      "description": "Représentant le nombre 13, ce kata est l'une des formes les plus anciennes et les plus traditionnelles du Goju Ryu, avec des techniques puissantes et directes.",
-      "history": "Sesan signifie '13 (mains)'. C'est aussi un nombre symbolique. Ce kata se caractérise par ses mouvements puissants et directs et son accent sur le combat rapproché. Matière d'examen pour le yondan (quatrième dan) et plus.",
-      "culturalSignificance": "Sesan est considéré comme un kata fondamental du Goju Ryu, préservant des techniques et des principes anciens."
-    },
-    "suparinpei": {
-      "meaning": "Cent Huit",
-      "description": "Le kata le plus long et le plus avancé du système Goju Ryu, Suparinpei (signifiant 108) contient un large éventail de techniques et incarne tous les principes du style.",
-      "history": "Suparinpei signifie '108 (mains)'. C'est aussi un nombre symbolique, basé sur la multiplication 3 * 36. Le 3 symbolise le passé, le présent et l'avenir. Le 36 fait référence à Sanseru. Ce kata est le plus long et le plus avancé du Goju Ryu, et contient un large éventail de techniques. Matière d'examen pour le godan (cinquième dan) et plus.",
-      "culturalSignificance": "Le nombre 108 a une profonde signification dans le bouddhisme et d'autres philosophies orientales, représentant souvent la totalité ou l'exhaustivité de l'existence. Suparinpei est considéré comme le summum des katas Goju Ryu."
-    }
   },
   "philosophy": {
     "title": "Philosophie",
@@ -878,5 +704,6 @@
       "description": "Shime est une partie cruciale de la pratique du Sanchin, impliquant de recevoir des frappes pour conditionner le corps. Cette section démontre le processus du Shime.",
       "videoTitle": "Démonstration Vidéo de Shime"
     }
-  }
-} 
+  },
+  "noTermsAvailable": "Aucun terme disponible pour cette section."
+}

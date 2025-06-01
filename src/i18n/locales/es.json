@@ -238,6 +238,7 @@
       },
       "stances-content": {
         "description": "Posiciones básicas (Dachi Waza).",
+        "title": "Posiciones",
         "terms": {
           "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Posición de Tres Batallas / Posición de Reloj de Arena" },
           "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Posición Frontal / Posición Inclinada Hacia Adelante" },
@@ -343,7 +344,8 @@
           }
         }
       }
-    }
+    },
+    "noTermsAvailable": "No hay términos disponibles para esta sección."
   },
   "blocks": {
     "title": "Bloqueos Básicos",
@@ -502,8 +504,19 @@
   },
   "kata": {
     "theory": {
-      "title": "Teoría del Kata",
-      "description": "Comprender los principios y la práctica del kata"
+      "title": "Teoría de Kata",
+      "description": "Comprender los principios y la práctica de los katas",
+      "sections": {
+        "what-are-kata": "¿Qué son los Kata?",
+        "kata-and-karate": "Kata y Karate",
+        "bunkai-and-techniques": "Bunkai y Técnicas",
+        "kata-origins": "Orígenes de los Kata",
+        "power-and-movement": "Potencia y Movimiento",
+        "sources-of-power": "Fuentes de Potencia",
+        "okinawan-concepts": "Conceptos Okinawenses",
+        "power-transfer": "Transferencia de Potencia",
+        "kata-techniques": "Técnicas de Kata"
+      }
     },
     "levels": {
       "beginner": "Principiante",

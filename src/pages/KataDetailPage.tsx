@@ -75,7 +75,7 @@ const KataDetailPage = () => {
             id: `${kata.id}-step-${index + 1}`,
             number: index + 1,
             title: t(`kata.${kata.id}.steps.step${index + 1}.title`, `Stap ${index + 1} (fallback)`),
-            description: t(`kata.${kata.id}.steps.step${index + 1}.description`, typeof stepContent === 'string' ? stepContent : 'Beschrijving niet beschikbaar (fallback)')
+            description: t(`kata.${kata.id}.steps.step${index + 1}.description`, typeof stepContent === 'string' ? stepContent : t('common.descriptionNotAvailable'))
           };
           return step;
         });
@@ -119,11 +119,14 @@ const KataDetailPage = () => {
   if (!kata) {
     return (
       <div className="p-4 text-center">
-        <h1 className="text-2xl font-bold mb-4">Kata Not Found</h1>
-        <p className="mb-4">The kata you're looking for doesn't exist in our database.</p>
-        <Button onClick={() => navigate('/kata')}>
-          Back to Kata List
-        </Button>
+        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+          <AlertTriangle className="mx-auto h-16 w-16 text-destructive mb-4" />
+          <h1 className="text-2xl font-bold mb-2 text-destructive">{t('kataDetailPage.notFound.title')}</h1>
+          <p className="mb-6 text-muted-foreground">{t('kataDetailPage.notFound.message')}</p>
+          <Button onClick={() => navigate('/kata')} variant="outline">
+            <ChevronLeft className="mr-2 h-4 w-4" /> {t('kataDetailPage.notFound.backButton')}
+          </Button>
+        </motion.div>
       </div>
     );
   }
@@ -148,7 +151,7 @@ const KataDetailPage = () => {
   return (
     <>
       {/* Header with Navigation */}
-      <div className="relative">
+      {/* <div className="relative">
         <div className="h-64 overflow-hidden">
           <img 
             src={kata.images[0]} 
@@ -170,7 +173,7 @@ const KataDetailPage = () => {
             <Badge>{t(`kata.levels.${kata.level.toLowerCase()}`)}</Badge>
           </div>
         </div>
-      </div>
+      </div> */}
       
       {/* {dataLoadError && (
         <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 m-4 rounded-md flex items-start space-x-2">

@@ -1,17 +1,17 @@
-[FR] # The Meaning of Goju-Ryu
+# La signification du Goju-Ryu
 
-[FR] Goju-Ryu, translating to "Hard-Soft Style," is a traditional Okinawan karate style deeply rooted in the principle of harmonizing contrasting forces. The name itself encapsulates its core philosophy:
+Goju-Ryu, qui signifie « Style Dur-Souple », est un style de karaté traditionnel d’Okinawa profondément ancré dans le principe d’harmonisation des forces opposées. Le nom lui-même résume sa philosophie fondamentale :
 
-[FR] *   **Go (剛):** Represents "hard" or "external." This aspect involves closed-hand techniques, direct linear movements, and the application of physical strength.
-[FR] *   **Ju (柔):** Represents "soft" or "internal." This aspect emphasizes open-hand techniques, circular movements, and the development of *chi* (vital energy).
+*   **Go (剛) :** Représente le « dur » ou l’« externe ». Cet aspect implique des techniques à main fermée, des mouvements linéaires directs et l’utilisation de la force physique.
+*   **Ju (柔) :** Représente le « souple » ou l’« interne ». Cet aspect met l’accent sur les techniques à main ouverte, les mouvements circulaires et le développement du *chi* (énergie vitale).
 
-[FR] The style was formally named by its founder, Chojun Miyagi Sensei. He derived the terms "Go" and "Ju" from a line in the *Bubishi*, a classical Chinese martial arts text, specifically from the Kenpo Haku (Eight Poems of the Fist): *"Ho Go Ju donto"* (法剛柔呑吐), which translates to "The way of inhaling and exhaling is hardness and softness."
+Le style a été officiellement nommé par son fondateur, Chojun Miyagi Sensei. Il a tiré les termes « Go » et « Ju » d’une ligne du *Bubishi*, un texte classique chinois sur les arts martiaux, plus précisément du Kenpo Haku (Huit Poèmes du Poing) : *« Ho Go Ju donto »* (法剛柔呑吐), qui se traduit par « La manière d’inspirer et d’expirer est dureté et souplesse ».
 
-[FR] Goju-Ryu seamlessly blends these hard and soft elements, combining powerful, direct attacks with fluid, circular blocks and evasive maneuvers. It's characterized by:
+Goju-Ryu fusionne harmonieusement ces éléments durs et souples, combinant des attaques puissantes et directes avec des blocages circulaires fluides et des manœuvres d’évitement. Il se caractérise par :
 
-[FR] *   **Close-range combat:** Techniques are often designed for infighting.
-[FR] *   **Breathing techniques (Ibuki and Ibuki Sankai):** Proper breathing is integral for power generation, focus, and connecting mind and body. Different breathing methods are used for different applications, some being audible and forceful, others silent and internal.
-[FR] *   **Combination of Okinawan and Chinese principles:** It integrates native Okinawan fighting methods with both internal (soft, focused on chi and circularity) and external (hard, focused on physical power) Chinese martial concepts.
-[FR] *   **Emphasis on Sanchin Kata:** This foundational kata, meaning "Three Battles," trains proper stance, breathing, tension, and the unification of mind, body, and spirit. Tensho kata, meaning "Rotating Palms," complements Sanchin by emphasizing the "Ju" aspects.
+*   **Combat rapproché :** Les techniques sont souvent conçues pour le corps à corps.
+*   **Techniques de respiration (Ibuki et Ibuki Sankai) :** Une bonne respiration est essentielle pour générer de la puissance, se concentrer et relier le corps et l’esprit. Différentes méthodes de respiration sont utilisées selon l’application, certaines étant audibles et puissantes, d’autres silencieuses et internes.
+*   **Combinaison de principes okinawanais et chinois :** Le style intègre des méthodes de combat indigènes d’Okinawa avec des concepts martiaux chinois internes (souples, axés sur le chi et la circularité) et externes (durs, axés sur la puissance physique).
+*   **Accent sur le kata Sanchin :** Ce kata fondamental, signifiant « Trois Combats », entraîne la posture, la respiration, la tension et l’unification de l’esprit, du corps et de l’âme. Le kata Tensho, signifiant « Paumes Tournantes », complète Sanchin en mettant l’accent sur les aspects « Ju ».
 
-[FR] The ultimate goal in Goju-Ryu is not just physical prowess but the cultivation of a balanced individual, capable of adapting to any situation by applying hardness and softness appropriately, both in combat and in life. 
+L’objectif ultime du Goju-Ryu n’est pas seulement la prouesse physique, mais le développement d’un individu équilibré, capable de s’adapter à toute situation en appliquant la dureté et la souplesse de manière appropriée, tant dans le combat que dans la vie. 
