@@ -1,37 +1,57 @@
 {
   "study": {
-    "title": "Studie",
-    "description": "Teste dein Wissen und übe Techniken",
+    "title": "Lernbereich",
+    "description": "Interaktive Lektionen und Quiz zur Verbesserung Ihres Wissens",
     "testTypes": {
       "quiz": "Quiz",
       "flashcards": "Flashcards"
     },
-    "noQuizzes": "Derzeit sind keine Quizze verfügbar.",
-    "noFlashcards": "Derzeit sind keine Flashcard-Sets verfügbar.",
+    "noQuizzes": "Derzeit sind keine Quiz verfügbar.",
+    "noFlashcards": "Derzeit sind keine Karteikartensätze verfügbar.",
     "tests": "Tests",
-    "startStudy": "Mit dem Studium beginnen",
-    "pageHeaderTitle": "Studie",
-    "pageHeaderDescription": "Teste dein Wissen und übe Techniken",
-    "studySectionTitle": "Studienmaterial",
-    "studySectionDescription": "Wähle, wie du Goju Ryu Techniken und Konzepte studieren möchtest.",
-    "quizzesCardTitle": "Quizze",
-    "quizzesCardDescription": "Teste dein Wissen mit interaktiven Quizzen",
-    "flashcardsCardTitle": "Flashcards",
-    "flashcardsCardDescription": "Übe Terminologie und Konzepte",
-    "loading": "Studienmaterial wird geladen...",
-    "completed": "Studie abgeschlossen!",
+    "startStudy": "Mit dem Lernen beginnen",
+    "pageHeaderTitle": "Lernen",
+    "pageHeaderDescription": "Testen Sie Ihr Wissen und üben Sie Techniken",
+    "studySectionTitle": "Lernmaterialien",
+    "studySectionDescription": "Wählen Sie, wie Sie Goju Ryu Techniken und Konzepte lernen möchten.",
+    "quizzesCardTitle": "Quiz",
+    "quizzesCardDescription": "Testen Sie Ihr Wissen mit interaktiven Quiz",
+    "flashcardsCardTitle": "Karteikarten",
+    "flashcardsCardDescription": "Üben Sie Terminologie und Konzepte",
+    "loading": "Lernmaterial wird geladen...",
+    "completed": "Lernen abgeschlossen!",
     "tapToFlip": "Tippen zum Umdrehen",
     "notFound": {
-      "title": "Studie nicht gefunden",
-      "description": "Das angeforderte Studienmaterial konnte nicht gefunden werden."
+      "title": "Lernmaterial nicht gefunden",
+      "description": "Das angeforderte Lernmaterial konnte nicht gefunden werden."
     },
-    "quizzes": "Quizze",
-    "quizDesc": "Teste dein Wissen über verschiedene Themen.",
+    "quizzes": "Quiz",
+    "quizDesc": "Testen Sie Ihr Wissen zu verschiedenen Themen.",
     "questions": "Fragen",
     "cards": "Karten",
     "category": "Kategorie",
     "start": "Start",
     "quiz": "Quiz",
-    "flashcards": "Flashcards"
+    "flashcards": "Karteikarten",
+    "quizTypes": {
+      "stances": {
+        "title": "Stellungen Quiz",
+        "description": "Testen Sie Ihr Wissen über Stellungen."
+      },
+      "kicks": {
+        "title": "Tritte Quiz",
+        "description": "Testen Sie Ihr Wissen über Tritte."
+      },
+      "punches": {
+        "title": "Schläge Quiz",
+        "description": "Testen Sie Ihr Wissen über Schläge."
+      },
+      "blocks": {
+        "title": "Blöcke Quiz",
+        "description": "Testen Sie Ihr Wissen über Blöcke."
+      }
+    },
+    "techniques": "Techniken",
+    "startQuiz": "Quiz starten"
   }
 } 

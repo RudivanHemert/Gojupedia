@@ -30,6 +30,26 @@
     "category": "Category",
     "start": "Start",
     "quiz": "Quiz",
-    "flashcards": "Flashcards"
+    "flashcards": "Flashcards",
+    "quizTypes": {
+      "stances": {
+        "title": "Stances Quiz",
+        "description": "Test your knowledge of stances."
+      },
+      "kicks": {
+        "title": "Kicks Quiz",
+        "description": "Test your knowledge of kicks."
+      },
+      "punches": {
+        "title": "Punches Quiz",
+        "description": "Test your knowledge of punches."
+      },
+      "blocks": {
+        "title": "Blocks Quiz",
+        "description": "Test your knowledge of blocks."
+      }
+    },
+    "techniques": "Techniques",
+    "startQuiz": "Start Quiz"
   }
 } 

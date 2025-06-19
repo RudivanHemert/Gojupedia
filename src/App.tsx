@@ -57,71 +57,12 @@ const queryClient = new QueryClient({
   }
 });
 
-const AppContent = React.memo(() => {
-  const location = useLocation();
-  
-  return (
-    <MobileLayout>
-      <SubNavigation currentPath={location.pathname} />
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/theory" element={<TheoryPage />} />
-        <Route path="/terminology" element={<TerminologyPage />} />
-        <Route path="/history" element={<HistoryPage />} />
-        <Route path="/philosophy" element={<PhilosophyPage />} />
-        <Route path="/vital-points" element={<VitalPointsPage />} />
-        <Route path="/theory/kata" element={<KataTheoryPage />} />
-        <Route path="/practice" element={<PracticePage />} />
-        <Route path="/techniques" element={<TechniquesPage />} />
-        <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
-        <Route path="/kata" element={<KataPage />} />
-        <Route path="/kata/:id" element={<KataDetailPage />} />
-        <Route path="/bunkai" element={<BunkaiPage />} />
-        <Route path="/bunkai/:id" element={<BunkaiDetailPage />} />
-        <Route path="/hojo-undo" element={<HojoUndoPage />} />
-        <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
-        <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
-        <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
-        <Route path="/hojo-undo/general/equipment" element={<EquipmentOverview />} />
-        <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
-        <Route path="/kumite" element={<KumitePage />} />
-        <Route path="/study" element={<StudyPage />} />
-        <Route path="/study/quizzes" element={<QuizListPage />} />
-        <Route path="/study/flashcards" element={<FlashcardListPage />} />
-        <Route path="/study/:id" element={<StudyDetailPage />} />
-        <Route path="/gradings" element={<GradingsPage />} />
-        <Route path="/settings" element={<SettingsPage />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </MobileLayout>
-  );
-});
-
-const Providers = React.memo(({ children }: { children: React.ReactNode }) => {
-  const providers = React.useMemo(() => (
-    <QueryClientProvider client={queryClient}>
-      <I18nextProvider i18n={i18n}>
-        <LanguageProvider>
-          <TooltipProvider>
-            <ThemeProvider>
-              {children}
-            </ThemeProvider>
-          </TooltipProvider>
-        </LanguageProvider>
-      </I18nextProvider>
-    </QueryClientProvider>
-  ), [children]);
-
-  return providers;
-});
-
 interface ErrorBoundaryProps {
   children: ReactNode;
 }
 
 const ErrorBoundary: React.FC<ErrorBoundaryProps> = ({ children }) => {
   const [hasError, setHasError] = useState(false);
-  const { t } = useTranslation();
 
   useEffect(() => {
     const errorHandler = (error: ErrorEvent) => {
@@ -145,22 +86,80 @@ const ErrorBoundary: React.FC<ErrorBoundaryProps> = ({ children }) => {
   }, []);
 
   if (hasError) {
-    return <div>{t('common.errorBoundary')}</div>;
+    return <div className="p-4 text-center">Something went wrong. Please refresh the page.</div>;
   }
 
   return <>{children}</>;
 };
 
+const AppContent = React.memo(() => {
+  const location = useLocation();
+  
+  return (
+    <ErrorBoundary>
+      <MobileLayout>
+        <SubNavigation currentPath={location.pathname} />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/theory" element={<TheoryPage />} />
+          <Route path="/terminology" element={<TerminologyPage />} />
+          <Route path="/history" element={<HistoryPage />} />
+          <Route path="/philosophy" element={<PhilosophyPage />} />
+          <Route path="/vital-points" element={<VitalPointsPage />} />
+          <Route path="/theory/kata" element={<KataTheoryPage />} />
+          <Route path="/practice" element={<PracticePage />} />
+          <Route path="/techniques" element={<TechniquesPage />} />
+          <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
+          <Route path="/kata" element={<KataPage />} />
+          <Route path="/kata/:id" element={<KataDetailPage />} />
+          <Route path="/bunkai" element={<BunkaiPage />} />
+          <Route path="/bunkai/:id" element={<BunkaiDetailPage />} />
+          <Route path="/hojo-undo" element={<HojoUndoPage />} />
+          <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
+          <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
+          <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
+          <Route path="/hojo-undo/general/equipment" element={<EquipmentOverview />} />
+          <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
+          <Route path="/kumite" element={<KumitePage />} />
+          <Route path="/study" element={<StudyPage />} />
+          <Route path="/study/quizzes" element={<QuizListPage />} />
+          <Route path="/study/flashcards" element={<FlashcardListPage />} />
+          <Route path="/study/:id" element={<StudyDetailPage />} />
+          <Route path="/gradings" element={<GradingsPage />} />
+          <Route path="/settings" element={<SettingsPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </MobileLayout>
+    </ErrorBoundary>
+  );
+});
+
+const Providers = React.memo(({ children }: { children: React.ReactNode }) => {
+  const providers = React.useMemo(() => (
+    <QueryClientProvider client={queryClient}>
+      <I18nextProvider i18n={i18n}>
+        <LanguageProvider>
+          <TooltipProvider>
+            <ThemeProvider>
+              {children}
+            </ThemeProvider>
+          </TooltipProvider>
+        </LanguageProvider>
+      </I18nextProvider>
+    </QueryClientProvider>
+  ), [children]);
+
+  return providers;
+});
+
 const App = () => (
-  <ErrorBoundary>
-    <BrowserRouter>
-      <Providers>
-        <Toaster />
-        <Sonner />
-        <AppContent />
-      </Providers>
-    </BrowserRouter>
-  </ErrorBoundary>
+  <BrowserRouter>
+    <Providers>
+      <Toaster />
+      <Sonner />
+      <AppContent />
+    </Providers>
+  </BrowserRouter>
 );
 
 export default App;

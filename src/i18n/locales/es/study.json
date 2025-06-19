@@ -1,37 +1,55 @@
 {
   "study": {
-    "title": "Estudio",
-    "description": "Prueba tu conocimiento y practica técnicas",
-    "testTypes": {
-      "quiz": "Quiz",
-      "flashcards": "Flashcards"
-    },
-    "noQuizzes": "No hay quiz disponibles en este momento.",
-    "noFlashcards": "No hay sets de flashcards disponibles en este momento.",
+    "title": "Sección de Estudio",
+    "description": "Lecciones interactivas y cuestionarios para mejorar tu conocimiento",
+    "quizzes": "Cuestionarios",
+    "quizDesc": "Pon a prueba tu conocimiento sobre varios temas.",
+    "noQuizzes": "No hay cuestionarios disponibles en este momento.",
+    "flashcards": "Tarjetas de Memoria",
+    "flashcardDesc": "Revisa términos y conceptos con tarjetas de memoria.",
+    "noFlashcards": "No hay conjuntos de tarjetas de memoria disponibles en este momento.",
     "tests": "Pruebas",
-    "startStudy": "Comenzar a estudiar",
+    "startStudy": "Comenzar a Estudiar",
     "pageHeaderTitle": "Estudio",
-    "pageHeaderDescription": "Prueba tu conocimiento y practica técnicas",
+    "pageHeaderDescription": "Pon a prueba tu conocimiento y practica técnicas",
     "studySectionTitle": "Material de Estudio",
     "studySectionDescription": "Elige cómo quieres estudiar técnicas y conceptos de Goju Ryu.",
-    "quizzesCardTitle": "Quiz",
-    "quizzesCardDescription": "Prueba tu conocimiento con quiz interactivos",
-    "flashcardsCardTitle": "Flashcards",
+    "quizzesCardTitle": "Cuestionarios",
+    "quizzesCardDescription": "Pon a prueba tu conocimiento con cuestionarios interactivos",
+    "flashcardsCardTitle": "Tarjetas de Memoria",
     "flashcardsCardDescription": "Practica terminología y conceptos",
     "loading": "Cargando material de estudio...",
-    "completed": "¡Estudio completado!",
+    "completed": "¡Estudio Completado!",
     "tapToFlip": "Toca para voltear",
     "notFound": {
       "title": "Estudio no encontrado",
       "description": "El material de estudio solicitado no pudo ser encontrado."
     },
-    "quizzes": "Quiz",
-    "quizDesc": "Prueba tu conocimiento sobre varios temas.",
     "questions": "preguntas",
     "cards": "tarjetas",
     "category": "Categoría",
     "start": "Comenzar",
-    "quiz": "Quiz",
-    "flashcards": "Flashcards"
+    "quiz": "Cuestionario",
+    "flashcards": "Tarjetas de Memoria",
+    "quizTypes": {
+      "stances": {
+        "title": "Cuestionario de Posturas",
+        "description": "Pon a prueba tu conocimiento de posturas."
+      },
+      "kicks": {
+        "title": "Cuestionario de Patadas",
+        "description": "Pon a prueba tu conocimiento de patadas."
+      },
+      "punches": {
+        "title": "Cuestionario de Golpes",
+        "description": "Pon a prueba tu conocimiento de golpes."
+      },
+      "blocks": {
+        "title": "Cuestionario de Bloques",
+        "description": "Pon a prueba tu conocimiento de bloques."
+      }
+    },
+    "techniques": "Técnicas",
+    "startQuiz": "Comenzar Cuestionario"
   }
 } 

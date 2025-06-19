@@ -31,47 +31,23 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
 
   // Helper function to get translated title and description
   const getTranslatedContent = (study: Study) => {
-    const isDutch = t('common.language') === 'nl';
-    
-    // For dynamically generated studies, create translated content
+    // For dynamically generated studies, use translation keys
     if (study.id.includes('-quiz') || study.id.includes('-flashcard')) {
       const category = study.id.split('-')[0];
       const type = study.id.includes('-quiz') ? 'quiz' : 'flashcard';
       
-      // Map category slugs to readable names
-      const categoryMap: Record<string, string> = {
-        'stances': isDutch ? 'Houdingen' : 'Stances',
-        'kicks': isDutch ? 'Trappen' : 'Kicks',
-        'punches': isDutch ? 'Stoten' : 'Punches',
-        'blocks': isDutch ? 'Blokken' : 'Blocks',
-        'strikes': isDutch ? 'Slagen' : 'Strikes',
-        'throws': isDutch ? 'Worpen' : 'Throws',
-        'joint-locks': isDutch ? 'Gewrichtsloten' : 'Joint Locks',
-        'chokes': isDutch ? 'Wurgingen' : 'Chokes',
-        'pressure-points': isDutch ? 'Drukpunten' : 'Pressure Points',
-        'footwork': isDutch ? 'Voetwerk' : 'Footwork',
-        'movement': isDutch ? 'Beweging' : 'Movement',
-        'balance': isDutch ? 'Balans' : 'Balance',
-        'breathing': isDutch ? 'Ademhaling' : 'Breathing',
-        'meditation': isDutch ? 'Meditatie' : 'Meditation',
-        'philosophy': isDutch ? 'Filosofie' : 'Philosophy',
-        'history': isDutch ? 'Geschiedenis' : 'History',
-        'terminology': isDutch ? 'Terminologie' : 'Terminology',
-        'etiquette': isDutch ? 'Etiquette' : 'Etiquette',
-        'traditions': isDutch ? 'Tradities' : 'Traditions'
-      };
-      
-      const categoryName = categoryMap[category] || category;
-      
       if (type === 'quiz') {
+        // Use the translation keys we added to study.json
+        const quizTypeKey = `study.quizTypes.${category}`;
         return {
-          title: isDutch ? `${categoryName} Quiz` : `${categoryName} Quiz`,
-          description: isDutch ? `Test je kennis van ${categoryName.toLowerCase()}.` : `Test your knowledge of ${categoryName.toLowerCase()}.`
+          title: t(`${quizTypeKey}.title`, `${category} Quiz`),
+          description: t(`${quizTypeKey}.description`, `Test your knowledge of ${category}.`)
         };
       } else {
+        // For flashcards, we can add similar translation keys later if needed
         return {
-          title: isDutch ? `${categoryName} Flashcards` : `${categoryName} Flashcards`,
-          description: isDutch ? `Bekijk ${categoryName.toLowerCase()} met flashcards.` : `Review ${categoryName.toLowerCase()} using flashcards.`
+          title: `${t(`study.${category}`, category)} ${t('study.flashcards')}`,
+          description: t('study.flashcardDesc')
         };
       }
     }
@@ -118,12 +94,12 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
           {study.questions?.length > 0 && (
               <><strong>{study.questions.length}</strong> {study.type === 'quiz' ? t('study.questions') : t('study.cards')} • </> 
           )}
-          {t('study.category')}: <Badge variant="outline" className="text-xs">{study.category}</Badge>
+          {t('study.category')}: <Badge variant="outline" className="text-xs">{t(`study.${study.category}`, study.category)}</Badge>
         </div>
       </CardContent>
       <CardFooter className="pt-4">
         <Button className="w-full" onClick={() => navigate(`/study/${study.id}`)}>
-          {t('study.start')} {study.type === 'quiz' ? t('study.quiz') : t('study.flashcards')}
+          {t('study.startQuiz')}
         </Button>
       </CardFooter>
     </Card>
