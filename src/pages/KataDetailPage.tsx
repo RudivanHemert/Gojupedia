@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { katas } from '@/data';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -255,7 +255,15 @@ const KataDetailPage = () => {
             </TabsContent>
             
             <TabsContent value="bunkai" className="p-4 bg-card rounded-lg shadow">
-              <h3 className="text-xl font-semibold mb-3">{t('bunkai.title')}</h3>
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold">{t('bunkai.title')}</h3>
+                <Link 
+                  to="/bunkai" 
+                  className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors text-sm"
+                >
+                  {t('bunkaiDetailPage.viewAllBunkai')}
+                </Link>
+              </div>
               <p className="text-muted-foreground mb-4">
                 {t(`bunkai.kata.${kata.id}.description`)}
               </p>

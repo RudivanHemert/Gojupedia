@@ -12,14 +12,14 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/
 const BunkaiPage = () => {
   const { t } = useTranslation();
 
-  // Filter katas that have bunkai and group them by level
-  const bunkaiByLevel = katas
-    .filter(kata => kata.bunkai && kata.bunkai.length > 0)
+  // Filter katas that have bunkai and group them by category
+  const bunkaiByCategory = katas
+    .filter(kata => kata.bunkai && (typeof kata.bunkai === 'string' || kata.bunkai.length > 0))
     .reduce((acc, kata) => {
-      if (!acc[kata.level]) {
-        acc[kata.level] = [];
+      if (!acc[kata.category]) {
+        acc[kata.category] = [];
       }
-      acc[kata.level].push(kata);
+      acc[kata.category].push(kata);
       return acc;
     }, {} as Record<string, typeof katas>);
 
@@ -44,6 +44,28 @@ const BunkaiPage = () => {
     }
   };
 
+  const getCategoryTitle = (category: string) => {
+    switch (category) {
+      case 'kaishugata':
+        return t('kata.categories.kaishugata');
+      case 'heishugata':
+        return t('kata.categories.heishugata');
+      default:
+        return category;
+    }
+  };
+
+  const getCategoryDescription = (category: string) => {
+    switch (category) {
+      case 'kaishugata':
+        return t('kata.categories.kaishugataDescription');
+      case 'heishugata':
+        return t('kata.categories.heishugataDescription');
+      default:
+        return '';
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
@@ -57,13 +79,18 @@ const BunkaiPage = () => {
           animate="visible"
           className="max-w-4xl mx-auto space-y-8"
         >
-          {Object.entries(bunkaiByLevel).map(([level, levelKatas]) => (
-            <motion.div key={level} variants={itemVariants}>
-              <h2 className="text-2xl font-bold mb-4 text-gray-800">
-                {t(`kata.levels.${level.toLowerCase()}`)}
-              </h2>
+          {Object.entries(bunkaiByCategory).map(([category, categoryKatas]) => (
+            <motion.div key={category} variants={itemVariants}>
+              <div className="mb-6">
+                <h2 className="text-3xl font-bold mb-2 text-gray-800">
+                  {getCategoryTitle(category)}
+                </h2>
+                <p className="text-gray-600 text-lg">
+                  {getCategoryDescription(category)}
+                </p>
+              </div>
               <div className="grid gap-4">
-                {levelKatas.map((kata) => (
+                {categoryKatas.map((kata) => (
                   <Link 
                     key={kata.id} 
                     to={`/bunkai/${kata.id}`}
