@@ -4,6 +4,7 @@ import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { useTranslation } from 'react-i18next';
 
 interface VitalPoint {
   id: string;
@@ -481,6 +482,7 @@ const vitalPointsData: VitalPoint[] = [
 ];
 
 const InteractiveVitalPoints = () => {
+  const { t } = useTranslation();
   const [showLabels, setShowLabels] = useState(true);
   const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
@@ -514,30 +516,30 @@ const InteractiveVitalPoints = () => {
               checked={showLabels}
               onCheckedChange={setShowLabels}
             />
-            <Label htmlFor="show-labels">Show Labels</Label>
+            <Label htmlFor="show-labels">{t('vitalPoints.interactive.showLabels')}</Label>
           </div>
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <Switch
               id="show-coordinates"
               checked={showCoordinates}
               onCheckedChange={setShowCoordinates}
             />
             <Label htmlFor="show-coordinates">Show Coordinates</Label>
-          </div>
+          </div> */}
       </div>
         <Button 
           variant="outline" 
           onClick={() => setSelectedPoint(null)}
           disabled={!selectedPoint}
         >
-          Close Details
+          {t('vitalPoints.interactive.closeDetails')}
         </Button>
       </div>
       
       <Tabs value={activeView} onValueChange={(value) => setActiveView(value as 'front' | 'back')}>
         <TabsList className="grid w-full grid-cols-2">
-          <TabsTrigger value="front">Front View</TabsTrigger>
-          <TabsTrigger value="back">Back View</TabsTrigger>
+          <TabsTrigger value="front">{t('vitalPoints.interactive.frontViewTab')}</TabsTrigger>
+          <TabsTrigger value="back">{t('vitalPoints.interactive.backViewTab')}</TabsTrigger>
         </TabsList>
       </Tabs>
 
@@ -593,7 +595,7 @@ const InteractiveVitalPoints = () => {
                         setSelectedPoint(point);
                       }}
                     >
-                      {point.number ? `${point.number}. ${point.japanese}` : point.japanese}
+                      {point.number ? `${point.number}. ${t('vitalPoints.points.' + point.id + '.name')}` : t('vitalPoints.points.shomon.name')}
                     </Button>
               </div>
                 </motion.div>
@@ -612,9 +614,9 @@ const InteractiveVitalPoints = () => {
             className="bg-white p-4 rounded-lg shadow-lg"
           >
             <h3 className="text-xl font-bold mb-2">
-              {selectedPoint.number ? `${selectedPoint.number}. ` : ''}{selectedPoint.name}
+              {selectedPoint.number ? `${selectedPoint.number}. ` : ''}{t('vitalPoints.points.' + selectedPoint.id + '.area')}
             </h3>
-            <p className="text-lg text-gray-600 mb-2">{selectedPoint.japanese}</p>
+            <p className="text-lg text-gray-600 mb-2">{t('vitalPoints.points.' + selectedPoint.id + '.name')}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -622,7 +624,7 @@ const InteractiveVitalPoints = () => {
       <div className="mt-8 space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">Front View Vital Points</h2>
+            <h2 className="text-2xl font-bold">{t('vitalPoints.interactive.frontViewTitle')}</h2>
             <div className="space-y-2">
               {vitalPointsData
                 .filter(point => point.view === 'front')
@@ -630,18 +632,18 @@ const InteractiveVitalPoints = () => {
                 .map(point => (
                   <div key={point.id} className="p-2 rounded hover:bg-gray-50">
                     <div className="font-semibold">
-                      {point.number}. {point.japanese}
+                      {point.number}. {t('vitalPoints.points.' + point.id + '.name')}
                     </div>
                     <div className="text-gray-600 ml-6">
-                      {point.name}
-              </div>
-              </div>
+                      {t('vitalPoints.points.' + point.id + '.area')}
+                    </div>
+                  </div>
                 ))}
             </div>
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">Back View Vital Points</h2>
+            <h2 className="text-2xl font-bold">{t('vitalPoints.interactive.backViewTitle')}</h2>
             <div className="space-y-2">
               {vitalPointsData
                 .filter(point => point.view === 'back')
@@ -649,13 +651,13 @@ const InteractiveVitalPoints = () => {
                 .map(point => (
                   <div key={point.id} className="p-2 rounded hover:bg-gray-50">
                     <div className="font-semibold">
-                      {point.number}. {point.japanese}
+                      {point.number}. {t('vitalPoints.points.' + point.id + '.name')}
                     </div>
                     <div className="text-gray-600 ml-6">
-                      {point.name}
+                      {t('vitalPoints.points.' + point.id + '.area')}
                     </div>
-            </div>
-          ))}
+                  </div>
+                ))}
             </div>
           </div>
         </div>

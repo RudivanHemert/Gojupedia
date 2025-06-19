@@ -1,0 +1,67 @@
+{
+  "kata": {
+    "title": "Kata",
+    "description": "Traditionele vormen van Goju Ryu",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Gemiddeld",
+      "advanced": "Gevorderd"
+    },
+    "gekisai-dai-ichi": {
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Vernietigen Nr. 1",
+      "description": "De eerste kata in de Gekisai serie, ontworpen om basistechnieken en principes van Goju Ryu te introduceren.",
+      "stepsCount": "7"
+    },
+    "sanchin": {
+      "name": "Sanchin",
+      "japaneseName": "三戦",
+      "meaning": "Drie Gevechten",
+      "description": "De fundamentele kata van Goju Ryu, gericht op ademhaling, spanning en basisbewegingen."
+    },
+    "tensho": {
+      "name": "Tensho",
+      "japaneseName": "転掌",
+      "meaning": "Draaiende Handpalmen",
+      "description": "Een vloeiende kata die de zachte aspecten van Goju Ryu benadrukt."
+    }
+  },
+  "kataDetailPage": {
+    "tabs": {
+      "overview": "Overzicht",
+      "steps": "Stappen",
+      "bunkai": "Bunkai",
+      "shime": "Shime"
+    },
+    "overview": {
+      "descriptionTitle": "Beschrijving",
+      "historyTitle": "Geschiedenis",
+      "culturalSignificanceTitle": "Culturele Betekenis",
+      "atAGlanceTitle": "In één oogopslag",
+      "movementsLabel": "Bewegingen:",
+      "durationLabel": "Duur:",
+      "originLabel": "Oorsprong:",
+      "levelLabel": "Niveau:"
+    },
+    "steps": {
+      "sequenceTitle": "Volgorde van Bewegingen",
+      "noSteps": "Geen stappen beschikbaar voor deze kata.",
+      "stepsDataMissing": "Stappendata wordt mogelijk geladen of ontbreekt.",
+      "totalSteps": "Totaal aantal stappen: {{count}}"
+    },
+    "bunkai": {
+      "videoTitle": "Bunkai Video"
+    },
+    "shime": {
+      "title": "Shime",
+      "description": "Shime verwijst naar het testen en conditioneren van het lichaam tijdens kata-oefening.",
+      "videoTitle": "Shime Demonstratie"
+    },
+    "notFound": {
+      "title": "Kata Niet Gevonden",
+      "message": "De gevraagde kata kon niet worden gevonden.",
+      "backButton": "Terug naar Kata Lijst"
+    }
+  }
+} 

@@ -5,32 +5,32 @@ import i18n from '@/i18n'; // Import i18n instance
 export const categories: Category[] = [
   {
     id: "techniques",
-    name: i18n.t('categories.techniques_name'),
-    description: i18n.t('categories.techniques_description'),
+    name: "Techniques",
+    description: "Learn the basic techniques of Goju Ryu",
     icon: "swords",
     image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2342&auto=format&fit=crop",
     slug: "techniques"
   },
   {
     id: "kata",
-    name: i18n.t('categories.kata_name'),
-    description: i18n.t('categories.kata_description'),
+    name: "Kata",
+    description: "Traditional forms and their applications",
     icon: "user",
     image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
     slug: "kata"
   },
   {
     id: "history",
-    name: i18n.t('categories.history_name'),
-    description: i18n.t('categories.history_description'),
+    name: "History",
+    description: "The origins and evolution of Goju Ryu",
     icon: "scroll",
     image: "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop",
     slug: "history"
   },
   {
     id: "philosophy",
-    name: i18n.t('categories.philosophy_name'),
-    description: i18n.t('categories.philosophy_description'),
+    name: "Philosophy",
+    description: "Core principles and values of Goju Ryu",
     icon: "brain",
     image: "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?q=80&w=2041&auto=format&fit=crop",
     slug: "philosophy"

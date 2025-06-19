@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import VitalPoints from './terminology/VitalPoints';
+import InteractiveVitalPoints from '../components/theory/InteractiveVitalPoints';
 
 const VitalPointsPage = () => {
   const { t } = useTranslation();
@@ -14,7 +14,7 @@ const VitalPointsPage = () => {
       />
       <div className="p-4">
         <div className="max-w-4xl mx-auto">
-          <VitalPoints />
+          <InteractiveVitalPoints />
         </div>
       </div>
     </div>

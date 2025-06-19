@@ -1,0 +1,34 @@
+{
+  "common": {
+    "appName": "Goju Ryu Wiki",
+    "shortAppName": "Goju Ryu",
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "errorBoundary": "Algo salió mal. Por favor, actualiza la página.",
+    "openMenu": "Abrir Menú",
+    "menuTitle": "Menú",
+    "gradings": "Graduaciones",
+    "descriptionNotAvailable": "Descripción no disponible",
+    "description": "Descripción",
+    "notFound": {
+      "message": "¡Ups! Página no encontrada",
+      "returnHome": "Volver al Inicio"
+    },
+    "categories": {
+      "techniques_name": "Técnicas",
+      "techniques_description": "Aprende las técnicas básicas de Goju Ryu",
+      "kata_name": "Kata",
+      "kata_description": "Formas tradicionales y sus aplicaciones",
+      "history_name": "Historia",
+      "history_description": "Los orígenes y evolución de Goju Ryu",
+      "philosophy_name": "Filosofía", 
+      "philosophy_description": "Principios fundamentales y valores de Goju Ryu"
+    }
+  }
+} 

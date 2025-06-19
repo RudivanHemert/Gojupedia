@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "title": "Settings",
+    "description": "Customize your app experience",
+    "language": {
+      "title": "Language"
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Choose your preferred theme",
+      "options": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "selectLabel": "Select Theme"
+    },
+    "notifications": "Notifications",
+    "about": "About"
+  }
+} 

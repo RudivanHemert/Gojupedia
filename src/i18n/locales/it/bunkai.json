@@ -1,0 +1,29 @@
+{
+  "bunkai": {
+    "title": "Bunkai",
+    "description": "Application and analysis of kata techniques",
+    "overview": "Overview",
+    "details": {
+      "attack": "Attack",
+      "defense": "Defense",
+      "counterAttack": "Counter Attack",
+      "footwork": "Footwork",
+      "vitalPoints": "Vital Points",
+      "notes": "Notes"
+    }
+  },
+  "bunkaiDetailPage": {
+    "kataNotFound": "Kata not found",
+    "noBunkaiAvailable": "No Bunkai available for this kata.",
+    "videoTitle": "Bunkai Video",
+    "videoDescription": "Watch the bunkai demonstration video on YouTube.",
+    "watchOnYouTube": "Watch on YouTube",
+    "noBunkaiDetails": "No detailed Bunkai information available.",
+    "attack": "Attack",
+    "defense": "Defense",
+    "counterAttack": "Counter-Attack",
+    "footwork": "Footwork",
+    "vitalPoints": "Vital Points",
+    "notes": "Notes"
+  }
+} 

@@ -1,0 +1,29 @@
+{
+  "study": {
+    "title": "Studie",
+    "description": "Test je kennis en oefen technieken",
+    "testTypes": {
+      "quiz": "Quiz",
+      "flashcards": "Flashcards"
+    },
+    "noQuizzes": "Geen quizzen beschikbaar op dit moment.",
+    "noFlashcards": "Geen flashcard sets beschikbaar op dit moment.",
+    "tests": "Tests",
+    "startStudy": "Begin met studeren",
+    "pageHeaderTitle": "Studie",
+    "pageHeaderDescription": "Test je kennis en oefen technieken",
+    "studySectionTitle": "Studiemateriaal",
+    "studySectionDescription": "Kies hoe je Goju Ryu technieken en concepten wilt bestuderen.",
+    "quizzesCardTitle": "Quizzen",
+    "quizzesCardDescription": "Test je kennis met interactieve quizzen",
+    "flashcardsCardTitle": "Flashcards",
+    "flashcardsCardDescription": "Oefen terminologie en concepten",
+    "loading": "Studiemateriaal laden...",
+    "completed": "Studie voltooid!",
+    "tapToFlip": "Tik om om te draaien",
+    "notFound": {
+      "title": "Studie niet gevonden",
+      "description": "Het gevraagde studiemateriaal kon niet worden gevonden."
+    }
+  }
+} 

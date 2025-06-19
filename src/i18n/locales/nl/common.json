@@ -1,0 +1,34 @@
+{
+  "common": {
+    "appName": "Goju Ryu Wiki",
+    "shortAppName": "Goju Ryu",
+    "loading": "Laden...",
+    "error": "Fout",
+    "retry": "Opnieuw proberen",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "back": "Terug",
+    "errorBoundary": "Er is iets misgegaan. Ververs de pagina.",
+    "openMenu": "Menu openen",
+    "menuTitle": "Menu",
+    "gradings": "Graderingen",
+    "descriptionNotAvailable": "Beschrijving niet beschikbaar",
+    "description": "Beschrijving",
+    "notFound": {
+      "message": "Oeps! Pagina niet gevonden",
+      "returnHome": "Terug naar Home"
+    },
+    "categories": {
+      "techniques_name": "Technieken",
+      "techniques_description": "Leer de basistechnieken van Goju Ryu",
+      "kata_name": "Kata",
+      "kata_description": "Traditionele vormen en hun toepassingen",
+      "history_name": "Geschiedenis",
+      "history_description": "De oorsprong en evolutie van Goju Ryu",
+      "philosophy_name": "Filosofie", 
+      "philosophy_description": "Kernprincipes en waarden van Goju Ryu"
+    }
+  }
+} 

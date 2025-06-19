@@ -1,0 +1,136 @@
+{
+  "kata": {
+    "theory": {
+      "title": "Kata Theory",
+      "description": "Understanding the principles and practice of kata",
+      "sections": {
+        "what-are-kata": "What are Kata?",
+        "kata-and-karate": "Kata and Karate",
+        "bunkai-and-techniques": "Bunkai & Techniques",
+        "kata-origins": "Kata Origins",
+        "power-and-movement": "Power & Movement",
+        "sources-of-power": "Sources of Power",
+        "okinawan-concepts": "Okinawan Concepts",
+        "power-transfer": "Power Transfer",
+        "kata-techniques": "Kata Techniques"
+      }
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "master": "Master"
+    },
+    "sanchin": {
+      "name": "Sanchin",
+      "japaneseName": "三戦",
+      "meaning": "Three Battles",
+      "description": "The most fundamental kata in Goju Ryu, focusing on breathing, posture, and tension.",
+      "history": "Passed down from Kanryo Higaonna and further developed by Chojun Miyagi.",
+      "culturalSignificance": "Represents the essence of Goju Ryu and the connection of mind, body, and breath.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Starting position and forward step",
+          "description": "Begin in natural stance facing forward"
+        },
+        "step2": {
+          "title": "Three punches",
+          "description": "Step forward into sanchin dachi"
+        },
+        "step3": {
+          "title": "Turn 180 degrees",
+          "description": "Perform three punches while maintaining proper breathing"
+        },
+        "step4": {
+          "title": "Continue sequence",
+          "description": "Turn 180 degrees while maintaining tension"
+        },
+        "step5": {
+          "title": "Maintain muscle tension",
+          "description": "Continue sequence with controlled movements and breathing"
+        },
+        "step6": {
+          "title": "Conclusion",
+          "description": "Maintain muscle tension throughout the entire form"
+        }
+      }
+    },
+    "gekisai-dai-ni": {
+      "name": "Gekisai Dai Ni",
+      "japaneseName": "撃砕第二",
+      "meaning": "Attack and Smash, Second Form",
+      "description": "The second of the Gekisai kata, building upon Gekisai Dai Ichi with more open-hand techniques.",
+      "history": "Developed by Chojun Miyagi, like Gekisai Dai Ichi, to make karate more accessible.",
+      "culturalSignificance": "Represents a progression in learning basic kata.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Step 1: Placeholder Title",
+          "description": "Placeholder description for step 1 of Gekisai Dai Ni."
+        },
+        "step2": {
+          "title": "Step 2: Placeholder Title",
+          "description": "Placeholder description for step 2 of Gekisai Dai Ni."
+        },
+        "step3": {
+          "title": "Step 3: Placeholder Title",
+          "description": "Placeholder description for step 3 of Gekisai Dai Ni."
+        },
+        "step4": {
+          "title": "Step 4: Placeholder Title",
+          "description": "Placeholder description for step 4 of Gekisai Dai Ni."
+        },
+        "step5": {
+          "title": "Step 5: Placeholder Title",
+          "description": "Placeholder description for step 5 of Gekisai Dai Ni."
+        },
+        "step6": {
+          "title": "Step 6: Placeholder Title",
+          "description": "Placeholder description for step 6 of Gekisai Dai Ni."
+        }
+      }
+    }
+  },
+  "kataDetailPage": {
+    "tabs": {
+      "overview": "Overview",
+      "steps": "Steps",
+      "bunkai": "Bunkai",
+      "shime": "Shime"
+    },
+    "overview": {
+      "descriptionTitle": "Description",
+      "historyTitle": "History",
+      "culturalSignificanceTitle": "Cultural Significance",
+      "atAGlanceTitle": "At a Glance",
+      "movementsLabel": "Movements",
+      "durationLabel": "Duration",
+      "originLabel": "Origin",
+      "levelLabel": "Level",
+      "mastersLabel": "Masters",
+      "keyFeaturesLabel": "Key Features",
+      "videoNotAvailable": "Video not available",
+      "bunkaiVideoNotAvailable": "Bunkai video not available",
+      "shimeVideoNotAvailable": "Shime video not available",
+      "viewOnYouTube": "View on YouTube"
+    },
+    "steps": {
+      "interactiveStepsTitle": "Interactive Steps",
+      "viewAllSteps": "View All Steps"
+    },
+    "bunkai": {
+      "title": "Bunkai Analysis",
+      "introduction": "Detailed analysis of the kata's applications."
+    },
+    "shime": {
+      "title": "Shime (Test)",
+      "introduction": "Information about the Shime (test) of this kata."
+    },
+    "notFound": {
+      "title": "Kata Not Found",
+      "message": "The kata you are looking for does not exist in our database.",
+      "backButton": "Back to Kata List"
+    }
+  }
+} 

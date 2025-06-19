@@ -14,7 +14,6 @@ const markdownContentModules = import.meta.glob('../content/**/*.{md,*.md}', {
   import: 'default', 
   eager: true 
 });
-console.log('[MarkdownContentPage] Loaded markdown modules:', markdownContentModules);
 
 type MarkdownPageParams = {
   pageKey: string; // e.g., 'theory', 'history'

@@ -1,7 +1,6 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { katas } from '@/data';
-// import MobileLayout from '@/components/layout/MobileLayout';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, AlertTriangle } from 'lucide-react';
@@ -11,8 +10,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ScrollingText } from '@/components/ui/scrolling-text';
 import MediaGallery from '@/components/media/MediaGallery';
 import InteractiveKataSteps, { KataStep } from '@/components/practice/InteractiveKataSteps';
-// Comment out the problematic import to use local data instead
-// import { gekisaiDaiIchiSteps } from '../data/gekisai-dai-ichi';
 import { useProgress } from '@/hooks/useProgress';
 import { useTranslation } from 'react-i18next';
 
@@ -21,24 +18,6 @@ const KataDetailPage = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const { markAccessed } = useProgress();
-  // const [dataLoadError, setDataLoadError] = useState<string | null>(null);
-  
-  // Immediately test if gekisaiDaiIchiSteps is available
-  // useEffect(() => {
-  //   console.log('KataDetailPage: Checking availability of gekisaiDaiIchiSteps on mount');
-  //   try {
-  //     if (!gekisaiDaiIchiSteps) {
-  //       console.error('KataDetailPage: gekisaiDaiIchiSteps is undefined or null');
-  //       setDataLoadError('Unable to load gekisaiDaiIchiSteps data. Using fallback data.');
-  //     } else {
-  //       console.log('KataDetailPage: gekisaiDaiIchiSteps is available with', gekisaiDaiIchiSteps.length, 'steps');
-  //       setDataLoadError(null);
-  //     }
-  //   } catch (error) {
-  //     console.error('KataDetailPage: Error accessing gekisaiDaiIchiSteps:', error);
-  //     setDataLoadError(`Error: ${error instanceof Error ? error.message : 'Unknown error'}`);
-  //   }
-  // }, []);
   
   // Get kata data based on ID
   const kata = id ? katas.find(k => k.id === id) : null;
@@ -53,7 +32,6 @@ const KataDetailPage = () => {
   // Format kata steps for the interactive component
   const formattedSteps = useMemo(() => {
     if (!kata) {
-      console.log('KataDetailPage: No kata data found');
       return [];
     }
 
@@ -64,11 +42,9 @@ const KataDetailPage = () => {
     if (rawStepsCount && !isNaN(parseInt(rawStepsCount, 10))) {
       stepsCount = parseInt(rawStepsCount, 10);
     } else {
-      console.warn(`KataDetailPage: Invalid, missing, or non-numeric stepsCount for ${kata.id}. Key: ${stepsCountKey}, Raw Value: '${rawStepsCount}'. Defaulting to 0 steps.`);
       // If stepsCount is not found or invalid, try to infer from kata.steps if it exists and is an array
       // This is a fallback for older data structure before full i18n of steps
       if (Array.isArray(kata.steps) && kata.steps.length > 0) {
-        console.warn(`KataDetailPage: Falling back to kata.steps array length for ${kata.id}. This kata's steps might not be translated.`);
         // This path should ideally not be taken if all katas are migrated to i18n steps
         return kata.steps.map((stepContent, index) => {
           const step = {
@@ -84,7 +60,6 @@ const KataDetailPage = () => {
     }
 
     if (stepsCount <= 0) {
-        console.warn(`KataDetailPage: stepsCount is 0 or less for ${kata.id}. No steps will be generated.`);
         return [];
     }
     
@@ -111,10 +86,6 @@ const KataDetailPage = () => {
     }
     return translatedSteps;
   }, [kata, t]);
-
-  useEffect(() => {
-    // console.log('KataDetailPage: Steps passed to InteractiveKataSteps:', formattedSteps);
-  }, [formattedSteps]);
   
   if (!kata) {
     return (
@@ -257,18 +228,18 @@ const KataDetailPage = () => {
             
             <TabsContent value="steps">
               <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
-                <h2 className="text-xl font-serif font-semibold mb-2">Sequence of Movements</h2>
+                <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.steps.sequenceTitle')}</h2>
                 
                 {formattedSteps.length === 0 ? (
                   <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 rounded-md">
-                    <p className="text-sm font-medium">No steps available for this kata.</p>
-                    <p className="text-xs mt-1">Steps data may be loading or missing.</p>
+                    <p className="text-sm font-medium">{t('kataDetailPage.steps.noSteps')}</p>
+                    <p className="text-xs mt-1">{t('kataDetailPage.steps.stepsDataMissing')}</p>
                   </div>
                 ) : (
                   <>
                     <div className="mb-2">
                       <p className="text-sm text-gray-500">
-                        Total steps: {formattedSteps.length}
+                        {t('kataDetailPage.steps.totalSteps', { count: formattedSteps.length })}
                       </p>
                     </div>
                     <InteractiveKataSteps 

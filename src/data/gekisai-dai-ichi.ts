@@ -71,5 +71,5 @@ Opmerking: beginners mogen de chudan soto uke ook als een 'gewone' chudan uke ui
   }
 ];
 
-// Add a console log to check if this file is being loaded
+// Add a console log to check if this file is being loaded    
 console.log('gekisai-dai-ichi.ts loaded successfully:', gekisaiDaiIchiSteps.length, 'steps available'); 

@@ -180,10 +180,10 @@ const Index = () => {
                         </motion.div>
                         <div className="flex-1">
                           <div className="flex items-center justify-between">
-                            <h3 className="text-xl text-gray-800 font-serif font-medium mb-2">{category.name}</h3>
+                            <h3 className="text-xl text-gray-800 font-serif font-medium mb-2">{t(`common.categories.${category.id}_name`)}</h3>
                             <ChevronRight className="h-5 w-5 text-gray-400" />
                           </div>
-                          <p className="text-gray-600">{category.description}</p>
+                          <p className="text-gray-600">{t(`common.categories.${category.id}_description`)}</p>
                         </div>
                       </div>
                     </Card>
@@ -204,10 +204,9 @@ const Index = () => {
           className="max-w-2xl mx-auto"
         >
           <p className="text-gray-700 text-lg italic mb-4">
-            "In karate, striking, thrusting, and kicking are not the only methods. 
-            Throwing techniques and pressure against joints are included."
+            {t('home.miyagiQuote')}
           </p>
-          <p className="text-karate font-serif">- Chojun Miyagi</p>
+          <p className="text-karate font-serif">{t('home.miyagiAuthor')}</p>
           <motion.div 
             className="mt-6 flex justify-center"
             initial={{ opacity: 0, scale: 0.8 }}

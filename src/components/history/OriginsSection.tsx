@@ -7,7 +7,7 @@ import { useMarkdownContent } from '@/utils/markdown';
 
 const OriginsSection = () => {
   const { t } = useTranslation();
-  const markdownContent = useMarkdownContent('../content/history/origins');
+  const markdownContent = useMarkdownContent('history/origins');
 
   return (
     <SectionWrapper title={t('history.origins')}>

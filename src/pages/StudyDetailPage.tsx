@@ -65,13 +65,13 @@ const StudyDetailPage = () => {
       setFlipped(false);
     } else {
       toast({
-        title: "Study not found",
-        description: "The requested study could not be found.",
+        title: t('study.notFound.title'),
+        description: t('study.notFound.description'),
         variant: "destructive"
       });
       navigate('/study');
     }
-  }, [id, navigate]);
+  }, [id, navigate, t]);
 
   // --- Event Handlers --- 
   const handleAnswerChange = (answer: string) => {
