@@ -1,0 +1,111 @@
+{
+  "title": "Hojo Undo (補助運動)",
+  "description": "Allenamento di forza tradizionale del Goju-ryu Karate-do",
+  "introduction": {
+    "title": "Introduzione",
+    "whatIs": "Cos'è Hojo Undo?",
+    "twoParts": "Due componenti principali",
+    "strengthExercises": "Esercizi di forza",
+    "hardeningExercises": "Esercizi di indurimento",
+    "centralPrinciples": "Principi centrali",
+    "historicalBackground": "Contesto storico",
+    "trainingEffects": "Effetti dell'allenamento",
+    "safetyGuidelines": "Linee guida di sicurezza"
+  },
+  "equipment": {
+    "title": "Attrezzatura",
+    "overview": "Panoramica",
+    "overviewDescription": "Panoramica di tutti gli strumenti di allenamento tradizionali",
+    "mainEquipment": "Attrezzatura Principale",
+    "additionalEquipment": "Attrezzatura Aggiuntiva",
+    "origin": "Origine",
+    "weight": "Peso",
+    "moreInfo": "Maggiori Informazioni",
+    "chiIshi": {
+      "name": "Chi Ishi",
+      "translation": "Peso leva di pietra",
+      "description": "Peso leva di pietra per forza del polso e della presa",
+      "origin": "Cina (Fuzhou)",
+      "weight": "2-10 kg",
+      "function": "Funzione",
+      "construction": "Costruzione",
+      "attentionPoints": "Punti di Attenzione",
+      "exercises": "Esercizi"
+    },
+    "nigiriGame": {
+      "name": "Nigiri Game",
+      "translation": "Vasi di presa",
+      "description": "Vasi di presa per forza delle dita e delle mani",
+      "origin": "Cina",
+      "weight": "3-5 kg",
+      "function": "Funzione",
+      "construction": "Costruzione",
+      "attentionPoints": "Punti di Attenzione",
+      "exercises": "Esercizi"
+    },
+    "kongoken": {
+      "name": "Kongoken",
+      "translation": "Ovale di ferro",
+      "description": "Ovale di ferro per condizionamento corporeo totale",
+      "origin": "Hawaii",
+      "weight": "30-40 kg",
+      "exercises": "Esercizi",
+      "classicExercises": "Esercizi Classici"
+    },
+    "ishiSashi": {
+      "name": "Ishi Sashi",
+      "translation": "Lucchetti di pietra",
+      "description": "Lucchetti di pietra per forza della presa e tecnica",
+      "origin": "Cina/Okinawa",
+      "weight": "2-8 kg",
+      "function": "Funzione",
+      "construction": "Costruzione",
+      "attentionPoints": "Punti di Attenzione",
+      "exercises": "Esercizi"
+    }
+  },
+  "sections": {
+    "introduction": "Introduzione",
+    "equipment": "Attrezzatura",
+    "techniques": "Tecniche",
+    "benefits": "Benefici",
+    "training": "Allenamento"
+  },
+  "common": {
+    "function": "Funzione",
+    "construction": "Costruzione",
+    "attentionPoints": "Punti di attenzione",
+    "exercises": "Esercizi",
+    "classicExercises": "Esercizi classici",
+    "safety": "Sicurezza",
+    "tips": "Consigli",
+    "variations": "Variazioni",
+    "applications": "Applicazioni"
+  },
+  "additionalEquipment": {
+    "tekkan": "Anelli di ferro",
+    "tekkanDescription": "Per allenamento del polso e dell'avambraccio",
+    "tetsuGeta": "Sandali di ferro",
+    "tetsuGetaDescription": "Per forza delle gambe e dei piedi",
+    "ishiGeta": "Sandali di pietra",
+    "ishiGetaDescription": "Per forza delle gambe e dei piedi",
+    "chikaraIshi": "Pesi di pietra",
+    "chikaraIshiDescription": "Per allenamento generale di forza",
+    "ukiKago": "Cesto intrecciato",
+    "ukiKagoDescription": "Per equilibrio e stabilità",
+    "sashiIshi": "Pietra pesante",
+    "sashiIshiDescription": "Per forza e resistenza",
+    "to": "Fascio di bambù",
+    "toDescription": "Per flessibilità e forza",
+    "tan": "Bilanciere (barbell)",
+    "tanDescription": "Per allenamento generale di forza",
+    "tetsuarei": "Manubrio (dumbbell)",
+    "tetsuareiDescription": "Per gruppi muscolari specifici",
+    "sunabako": "Secchio di sabbia",
+    "sunabakoDescription": "Per forza delle gambe e dei piedi",
+    "jariBako": "Secchio di ghiaia",
+    "jariBakoDescription": "Per forza delle gambe e dei piedi",
+    "makiwara": "Tavola da colpo",
+    "makiwaraDescription": "Per indurimento di pugni e piedi"
+  }
+} 

@@ -1,0 +1,87 @@
+{
+  "title": "Hojo Undo (補助運動)",
+  "description": "Traditionele krachttraining van het Goju-ryu Karate-do",
+  "introduction": {
+    "title": "Inleiding"
+  },
+  "equipment": {
+    "overview": "Overzicht",
+    "overviewDescription": "Overzicht van alle traditionele hulpmiddelen",
+    "mainEquipment": "Hoofdhulpmiddelen",
+    "additionalEquipment": "Aanvullende hulpmiddelen",
+    "origin": "Herkomst",
+    "weight": "Gewicht",
+    "moreInfo": "Meer informatie",
+    "chiIshi": {
+      "name": "Chi Ishi",
+      "translation": "Stenen hefboom gewicht",
+      "description": "Stenen hefboom gewicht voor pols- en grijpkracht",
+      "origin": "China (Fuzhou)",
+      "weight": "2-10 kg",
+      "function": "Functie",
+      "construction": "Constructie",
+      "attentionPoints": "Aandachtspunten",
+      "exercises": "Oefeningen"
+    },
+    "nigiriGame": {
+      "name": "Nigiri Game",
+      "translation": "Grijpvazen",
+      "description": "Grijpvazen voor vinger- en handkracht",
+      "origin": "China",
+      "weight": "3-5 kg",
+      "function": "Functie",
+      "construction": "Constructie",
+      "attentionPoints": "Aandachtspunten",
+      "exercises": "Oefeningen"
+    },
+    "kongoken": {
+      "name": "Kongoken",
+      "translation": "Ijzeren ovaal",
+      "description": "Ijzeren ovaal voor totale lichaamsconditionering",
+      "origin": "Hawaï",
+      "weight": "30-40 kg",
+      "function": "Functie",
+      "construction": "Constructie",
+      "attentionPoints": "Aandachtspunten",
+      "exercises": "Oefeningen",
+      "classicExercises": "Klassieke oefeningen"
+    },
+    "ishiSashi": {
+      "name": "Ishi Sashi",
+      "translation": "Stenen hangsloten",
+      "description": "Stenen hangsloten voor grijpkracht en techniek",
+      "origin": "China/Okinawa",
+      "weight": "2-8 kg",
+      "function": "Functie",
+      "construction": "Constructie",
+      "attentionPoints": "Aandachtspunten",
+      "exercises": "Oefeningen"
+    }
+  },
+  "additionalEquipment": {
+    "tekkan": "Ijzeren ringen",
+    "tekkanDescription": "Voor pols- en onderarm training",
+    "tetsuGeta": "Ijzeren slippers",
+    "tetsuGetaDescription": "Voor been- en voetkracht",
+    "ishiGeta": "Stenen slippers",
+    "ishiGetaDescription": "Voor been- en voetkracht",
+    "chikaraIshi": "Stenen gewichten",
+    "chikaraIshiDescription": "Voor algemene krachttraining",
+    "ukiKago": "Rieten mand",
+    "ukiKagoDescription": "Voor balans en stabiliteit",
+    "sashiIshi": "Zware steen",
+    "sashiIshiDescription": "Voor kracht en uithoudingsvermogen",
+    "to": "Bamboe bundel",
+    "toDescription": "Voor flexibiliteit en kracht",
+    "tan": "Halter (barbell)",
+    "tanDescription": "Voor algemene krachttraining",
+    "tetsuarei": "Kleine halter (dumbbell)",
+    "tetsuareiDescription": "Voor specifieke spiergroepen",
+    "sunabako": "Zandemmer",
+    "sunabakoDescription": "Voor been- en voetkracht",
+    "jariBako": "Grindemmer",
+    "jariBakoDescription": "Voor been- en voetkracht",
+    "makiwara": "Stootplank",
+    "makiwaraDescription": "Voor harding van vuisten en voeten"
+  }
+} 

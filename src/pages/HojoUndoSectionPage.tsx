@@ -1,49 +1,158 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import TheoryHeader from '@/components/theory/TheoryHeader';
-import { motion } from 'framer-motion';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { useParams, Link } from 'react-router-dom';
+import MobileLayout from '@/components/layout/MobileLayout';
+import { Button } from '@/components/ui/button';
+import { ChevronLeft } from 'lucide-react';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
 
 const HojoUndoSectionPage = () => {
   const { t } = useTranslation();
-  const sections = [
-    { id: 'introduction', content: useMarkdownContent('hojo-undo/introduction') },
-    { id: 'equipment', content: useMarkdownContent('hojo-undo/equipment') },
-    { id: 'techniques', content: useMarkdownContent('hojo-undo/techniques') },
-    { id: 'benefits', content: useMarkdownContent('hojo-undo/benefits') },
-    { id: 'training', content: useMarkdownContent('hojo-undo/training') }
-  ];
+  const { equipmentId, sectionKey } = useParams();
+
+  // Map section keys to content paths
+  const getContentPath = () => {
+    if (!equipmentId || !sectionKey) return null;
+    
+    // Convert kebab-case to camelCase for section key
+    const camelCaseKey = sectionKey.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+    
+    return `hojo-undo/${equipmentId}/${camelCaseKey}`;
+  };
+
+  const contentPath = getContentPath();
+  const markdownContent = useMarkdownContent(contentPath);
+
+  // Get equipment name for display
+  const getEquipmentName = () => {
+    if (!equipmentId) return '';
+    
+    const equipmentMap: Record<string, string> = {
+      'chi-ishi': t('hojoUndo.equipment.chiIshi.name'),
+      'nigiri-game': t('hojoUndo.equipment.nigiriGame.name'),
+      'kongoken': t('hojoUndo.equipment.kongoken.name'),
+      'ishi-sashi': t('hojoUndo.equipment.ishiSashi.name'),
+    };
+    
+    return equipmentMap[equipmentId] || equipmentId;
+  };
+
+  // Get section name for display
+  const getSectionName = () => {
+    if (!sectionKey) return '';
+    
+    const sectionMap: Record<string, string> = {
+      // Chi Ishi sections
+      'function': t('hojoUndo.equipment.chiIshi.function'),
+      'construction': t('hojoUndo.equipment.chiIshi.construction'),
+      'attention-points': t('hojoUndo.equipment.chiIshi.attentionPoints'),
+      'exercises': t('hojoUndo.equipment.chiIshi.exercises'),
+      
+      // Nigiri Game sections
+      'nigiri-game-function': t('hojoUndo.equipment.nigiriGame.function'),
+      'nigiri-game-construction': t('hojoUndo.equipment.nigiriGame.construction'),
+      'nigiri-game-attention-points': t('hojoUndo.equipment.nigiriGame.attentionPoints'),
+      'nigiri-game-exercises': t('hojoUndo.equipment.nigiriGame.exercises'),
+      
+      // Kongoken sections
+      'kongoken-function': t('hojoUndo.equipment.kongoken.function'),
+      'kongoken-construction': t('hojoUndo.equipment.kongoken.construction'),
+      'kongoken-attention-points': t('hojoUndo.equipment.kongoken.attentionPoints'),
+      'kongoken-exercises': t('hojoUndo.equipment.kongoken.exercises'),
+      'classic-exercises': t('hojoUndo.equipment.kongoken.classicExercises'),
+      
+      // Ishi Sashi sections
+      'ishi-sashi-function': t('hojoUndo.equipment.ishiSashi.function'),
+      'ishi-sashi-construction': t('hojoUndo.equipment.ishiSashi.construction'),
+      'ishi-sashi-attention-points': t('hojoUndo.equipment.ishiSashi.attentionPoints'),
+      'ishi-sashi-exercises': t('hojoUndo.equipment.ishiSashi.exercises'),
+    };
+    
+    return sectionMap[sectionKey] || sectionKey;
+  };
+
+  // Get navigation buttons for the current equipment
+  const getNavigationButtons = () => {
+    if (!equipmentId) return null;
+
+    const buttonConfigs = {
+      'chi-ishi': [
+        { key: 'function', label: t('hojoUndo.equipment.chiIshi.function') },
+        { key: 'construction', label: t('hojoUndo.equipment.chiIshi.construction') },
+        { key: 'attention-points', label: t('hojoUndo.equipment.chiIshi.attentionPoints') },
+        { key: 'exercises', label: t('hojoUndo.equipment.chiIshi.exercises') }
+      ],
+      'nigiri-game': [
+        { key: 'function', label: t('hojoUndo.equipment.nigiriGame.function') },
+        { key: 'construction', label: t('hojoUndo.equipment.nigiriGame.construction') },
+        { key: 'attention-points', label: t('hojoUndo.equipment.nigiriGame.attentionPoints') },
+        { key: 'exercises', label: t('hojoUndo.equipment.nigiriGame.exercises') }
+      ],
+      'kongoken': [
+        { key: 'function', label: t('hojoUndo.equipment.kongoken.function') },
+        { key: 'construction', label: t('hojoUndo.equipment.kongoken.construction') },
+        { key: 'attention-points', label: t('hojoUndo.equipment.kongoken.attentionPoints') },
+        { key: 'exercises', label: t('hojoUndo.equipment.kongoken.exercises') },
+        { key: 'classic-exercises', label: t('hojoUndo.equipment.kongoken.classicExercises') }
+      ],
+      'ishi-sashi': [
+        { key: 'function', label: t('hojoUndo.equipment.ishiSashi.function') },
+        { key: 'construction', label: t('hojoUndo.equipment.ishiSashi.construction') },
+        { key: 'attention-points', label: t('hojoUndo.equipment.ishiSashi.attentionPoints') },
+        { key: 'exercises', label: t('hojoUndo.equipment.ishiSashi.exercises') }
+      ]
+    };
+
+    const buttons = buttonConfigs[equipmentId as keyof typeof buttonConfigs];
+    if (!buttons) return null;
+
+    return (
+      <div className="flex gap-3 mt-6">
+        {buttons.map((button) => (
+          <Button
+            key={button.key}
+            asChild
+            variant={sectionKey === button.key ? "default" : "outline"}
+            className="flex-1"
+          >
+            <Link to={`/hojo-undo/${equipmentId}/${button.key}`}>
+              {button.label}
+            </Link>
+          </Button>
+        ))}
+      </div>
+    );
+  };
 
   return (
-    <div className="min-h-screen bg-white">
-      <TheoryHeader 
-        title={t('hojoUndo.title')}
-        description={t('hojoUndo.description')}
-      />
+    <MobileLayout hideHeader={true}>
       <div className="p-4">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
-        >
-          <Accordion type="single" collapsible className="w-full">
-            {sections.map((section) => (
-              <AccordionItem key={section.id} value={section.id}>
-                <AccordionTrigger>
-                  {t(`hojoUndo.sections.${section.id}`)}
-                </AccordionTrigger>
-                <AccordionContent>
-                  {section.content && <MarkdownRenderer markdownContent={section.content} />}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </motion.div>
+        <div className="mb-6">
+          <Button asChild variant="outline" className="mb-4">
+            <Link to="/hojo-undo/equipment">
+              <ChevronLeft className="mr-2 h-4 w-4" />
+              {t('common.back')}
+            </Link>
+          </Button>
+          <h1 className="text-2xl font-bold mb-2">{getEquipmentName()}</h1>
+          <p className="text-muted-foreground">{getSectionName()}</p>
+        </div>
+        
+        {markdownContent ? (
+          <div className="prose prose-stone dark:prose-invert max-w-none">
+            <MarkdownRenderer markdownContent={markdownContent} />
+            {getNavigationButtons()}
+          </div>
+        ) : (
+          <div className="text-center py-8">
+            <p className="text-muted-foreground">Content niet gevonden</p>
+            <p className="text-sm text-muted-foreground mt-2">Path: {contentPath}</p>
+            {getNavigationButtons()}
+          </div>
+        )}
       </div>
-    </div>
+    </MobileLayout>
   );
 };
 

@@ -13,10 +13,66 @@ import InteractiveKataSteps, { KataStep } from '@/components/practice/Interactiv
 import { useProgress } from '@/hooks/useProgress';
 import { useTranslation } from 'react-i18next';
 
+// Import detailed kata steps for all languages
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsEn } from '@/data/gekisai-dai-ichi.en';
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsDe } from '@/data/gekisai-dai-ichi.de';
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsEs } from '@/data/gekisai-dai-ichi.es';
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsFr } from '@/data/gekisai-dai-ichi.fr';
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsIt } from '@/data/gekisai-dai-ichi.it';
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsNl } from '@/data/gekisai-dai-ichi.nl';
+
+// Import detailed Gekisai Dai Ni steps for all languages
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsEn } from '@/data/gekisai-dai-ni.en';
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsDe } from '@/data/gekisai-dai-ni.de';
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsEs } from '@/data/gekisai-dai-ni.es';
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsFr } from '@/data/gekisai-dai-ni.fr';
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsIt } from '@/data/gekisai-dai-ni.it';
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsNl } from '@/data/gekisai-dai-ni.nl';
+
+// Import detailed Sanchin steps for all languages
+import { sanchinSteps as sanchinStepsEn } from '@/data/sanchin.en';
+import { sanchinSteps as sanchinStepsDe } from '@/data/sanchin.de';
+import { sanchinSteps as sanchinStepsEs } from '@/data/sanchin.es';
+import { sanchinSteps as sanchinStepsFr } from '@/data/sanchin.fr';
+import { sanchinSteps as sanchinStepsIt } from '@/data/sanchin.it';
+import { sanchinSteps as sanchinStepsNl } from '@/data/sanchin.nl';
+
+// Import detailed Shisochin steps for all languages
+import { shisochinSteps as shisochinStepsEn } from '@/data/shisochin.en';
+import { shisochinSteps as shisochinStepsDe } from '@/data/shisochin.de';
+import { shisochinSteps as shisochinStepsEs } from '@/data/shisochin.es';
+import { shisochinSteps as shisochinStepsFr } from '@/data/shisochin.fr';
+import { shisochinSteps as shisochinStepsIt } from '@/data/shisochin.it';
+import { shisochinSteps as shisochinStepsNl } from '@/data/shisochin.nl';
+
+// Import detailed Sanseru steps for all languages
+import { sanseruSteps as sanseruStepsEn } from '@/data/sanseru.en';
+import { sanseruSteps as sanseruStepsDe } from '@/data/sanseru.de';
+import { sanseruSteps as sanseruStepsEs } from '@/data/sanseru.es';
+import { sanseruSteps as sanseruStepsFr } from '@/data/sanseru.fr';
+import { sanseruSteps as sanseruStepsIt } from '@/data/sanseru.it';
+import { sanseruSteps as sanseruStepsNl } from '@/data/sanseru.nl';
+
+// Import detailed Saifa steps for all languages
+import { saifaSteps as saifaStepsEn } from '@/data/saifa.en';
+import { saifaSteps as saifaStepsDe } from '@/data/saifa.de';
+import { saifaSteps as saifaStepsEs } from '@/data/saifa.es';
+import { saifaSteps as saifaStepsFr } from '@/data/saifa.fr';
+import { saifaSteps as saifaStepsIt } from '@/data/saifa.it';
+import { saifaSteps as saifaStepsNl } from '@/data/saifa.nl';
+
+// Import detailed Seiyunchin steps for all languages
+import { seiyunchinSteps as seiyunchinStepsEn } from '@/data/seiyunchin.en';
+import { seiyunchinSteps as seiyunchinStepsDe } from '@/data/seiyunchin.de';
+import { seiyunchinSteps as seiyunchinStepsEs } from '@/data/seiyunchin.es';
+import { seiyunchinSteps as seiyunchinStepsFr } from '@/data/seiyunchin.fr';
+import { seiyunchinSteps as seiyunchinStepsIt } from '@/data/seiyunchin.it';
+import { seiyunchinSteps as seiyunchinStepsNl } from '@/data/seiyunchin.nl';
+
 const KataDetailPage = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { markAccessed } = useProgress();
   
   // Get kata data based on ID
@@ -29,23 +85,142 @@ const KataDetailPage = () => {
     }
   }, [kata, markAccessed]);
   
+  // Get detailed kata steps based on current language
+  const getDetailedSteps = (kataId: string): KataStep[] => {
+    const currentLang = i18n.language;
+    
+    switch (kataId) {
+      case 'gekisai-dai-ichi':
+        switch (currentLang) {
+          case 'de':
+            return gekisaiDaiIchiStepsDe;
+          case 'es':
+            return gekisaiDaiIchiStepsEs;
+          case 'fr':
+            return gekisaiDaiIchiStepsFr;
+          case 'it':
+            return gekisaiDaiIchiStepsIt;
+          case 'nl':
+            return gekisaiDaiIchiStepsNl;
+          default:
+            return gekisaiDaiIchiStepsEn;
+        }
+      case 'gekisai-dai-ni':
+        switch (currentLang) {
+          case 'de':
+            return gekisaiDaiNiStepsDe;
+          case 'es':
+            return gekisaiDaiNiStepsEs;
+          case 'fr':
+            return gekisaiDaiNiStepsFr;
+          case 'it':
+            return gekisaiDaiNiStepsIt;
+          case 'nl':
+            return gekisaiDaiNiStepsNl;
+          default:
+            return gekisaiDaiNiStepsEn;
+        }
+      case 'sanchin':
+        switch (currentLang) {
+          case 'de':
+            return sanchinStepsDe;
+          case 'es':
+            return sanchinStepsEs;
+          case 'fr':
+            return sanchinStepsFr;
+          case 'it':
+            return sanchinStepsIt;
+          case 'nl':
+            return sanchinStepsNl;
+          default:
+            return sanchinStepsEn;
+        }
+      case 'shisochin':
+        switch (currentLang) {
+          case 'de':
+            return shisochinStepsDe;
+          case 'es':
+            return shisochinStepsEs;
+          case 'fr':
+            return shisochinStepsFr;
+          case 'it':
+            return shisochinStepsIt;
+          case 'nl':
+            return shisochinStepsNl;
+          default:
+            return shisochinStepsEn;
+        }
+      case 'sanseru':
+        switch (currentLang) {
+          case 'de':
+            return sanseruStepsDe;
+          case 'es':
+            return sanseruStepsEs;
+          case 'fr':
+            return sanseruStepsFr;
+          case 'it':
+            return sanseruStepsIt;
+          case 'nl':
+            return sanseruStepsNl;
+          default:
+            return sanseruStepsEn;
+        }
+      case 'saifa':
+        switch (currentLang) {
+          case 'de':
+            return saifaStepsDe;
+          case 'es':
+            return saifaStepsEs;
+          case 'fr':
+            return saifaStepsFr;
+          case 'it':
+            return saifaStepsIt;
+          case 'nl':
+            return saifaStepsNl;
+          default:
+            return saifaStepsEn;
+        }
+      case 'seiyunchin':
+        switch (currentLang) {
+          case 'de':
+            return seiyunchinStepsDe;
+          case 'es':
+            return seiyunchinStepsEs;
+          case 'fr':
+            return seiyunchinStepsFr;
+          case 'it':
+            return seiyunchinStepsIt;
+          case 'nl':
+            return seiyunchinStepsNl;
+          default:
+            return seiyunchinStepsEn;
+        }
+      // Add other kata cases here as needed
+      default:
+        return [];
+    }
+  };
+
   // Format kata steps for the interactive component
   const formattedSteps = useMemo(() => {
     if (!kata) {
       return [];
     }
 
+    // First try to get detailed steps
+    const detailedSteps = getDetailedSteps(kata.id);
+    if (detailedSteps.length > 0) {
+      return detailedSteps;
+    }
+
+    // Fallback to translation-based steps
     const stepsCountKey = `kata.${kata.id}.stepsCount`;
     const rawStepsCount = t(stepsCountKey);
-    // Attempt to parse stepsCount, default to 0 if an error occurs or not a number
     let stepsCount = 0;
     if (rawStepsCount && !isNaN(parseInt(rawStepsCount, 10))) {
       stepsCount = parseInt(rawStepsCount, 10);
     } else {
-      // If stepsCount is not found or invalid, try to infer from kata.steps if it exists and is an array
-      // This is a fallback for older data structure before full i18n of steps
       if (Array.isArray(kata.steps) && kata.steps.length > 0) {
-        // This path should ideally not be taken if all katas are migrated to i18n steps
         return kata.steps.map((stepContent, index) => {
           const step = {
             id: `${kata.id}-step-${index + 1}`,
@@ -56,7 +231,7 @@ const KataDetailPage = () => {
           return step;
         });
       }
-      return []; // Return empty if no stepsCount and no fallback kata.steps
+      return [];
     }
 
     if (stepsCount <= 0) {
@@ -72,7 +247,6 @@ const KataDetailPage = () => {
       const title = t(titleKey);
       const description = t(descriptionKey);
 
-      // Check if translation returned the key itself, indicating missing translation
       const finalTitle = title === titleKey ? `Step ${stepNum} Title Missing (Key: ${titleKey})` : title;
       const finalDescription = description === descriptionKey ? `Step ${stepNum} Description Missing (Key: ${descriptionKey})` : description;
 

@@ -19,6 +19,7 @@ import enVitalPoints from './locales/en/vitalPoints.json';
 import enTechniques from './locales/en/techniques.json';
 import enGraduations from './locales/en/graduations.json';
 import enQuiz from './locales/en/quiz.json';
+import enHojoUndo from './locales/en/hojoUndo.json';
 
 import deCommon from './locales/de/common.json';
 import deNavigation from './locales/de/navigation.json';
@@ -36,6 +37,7 @@ import deVitalPoints from './locales/de/vitalPoints.json';
 import deTechniques from './locales/de/techniques.json';
 import deGraduations from './locales/de/graduations.json';
 import deQuiz from './locales/de/quiz.json';
+import deHojoUndo from './locales/de/hojoUndo.json';
 
 import esCommon from './locales/es/common.json';
 import esNavigation from './locales/es/navigation.json';
@@ -53,6 +55,7 @@ import esVitalPoints from './locales/es/vitalPoints.json';
 import esTechniques from './locales/es/techniques.json';
 import esGraduations from './locales/es/graduations.json';
 import esQuiz from './locales/es/quiz.json';
+import esHojoUndo from './locales/es/hojoUndo.json';
 
 import frCommon from './locales/fr/common.json';
 import frNavigation from './locales/fr/navigation.json';
@@ -70,6 +73,7 @@ import frVitalPoints from './locales/fr/vitalPoints.json';
 import frTechniques from './locales/fr/techniques.json';
 import frGraduations from './locales/fr/graduations.json';
 import frQuiz from './locales/fr/quiz.json';
+import frHojoUndo from './locales/fr/hojoUndo.json';
 
 import itCommon from './locales/it/common.json';
 import itNavigation from './locales/it/navigation.json';
@@ -87,6 +91,7 @@ import itVitalPoints from './locales/it/vitalPoints.json';
 import itTechniques from './locales/it/techniques.json';
 import itGraduations from './locales/it/graduations.json';
 import itQuiz from './locales/it/quiz.json';
+import itHojoUndo from './locales/it/hojoUndo.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlNavigation from './locales/nl/navigation.json';
@@ -104,6 +109,7 @@ import nlVitalPoints from './locales/nl/vitalPoints.json';
 import nlTechniques from './locales/nl/techniques.json';
 import nlGraduations from './locales/nl/graduations.json';
 import nlQuiz from './locales/nl/quiz.json';
+import nlHojoUndo from './locales/nl/hojoUndo.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -119,9 +125,18 @@ export type SupportedLanguage = keyof typeof supportedLanguages;
 
 // Combine all translations for each language
 const combineTranslations = (modules: Record<string, any>) => {
-  return Object.keys(modules).reduce((acc, key) => {
+  const result = Object.keys(modules).reduce((acc, key) => {
     return { ...acc, ...modules[key] };
   }, {});
+  
+  // Debug log to check if hojoUndo is included
+  if (result.hojoUndo) {
+    console.log('hojoUndo translations loaded:', Object.keys(result.hojoUndo));
+  } else {
+    console.log('hojoUndo translations NOT found in:', Object.keys(modules));
+  }
+  
+  return result;
 };
 
 const enTranslations = combineTranslations({
@@ -141,6 +156,7 @@ const enTranslations = combineTranslations({
   techniques: enTechniques,
   graduations: enGraduations,
   quiz: enQuiz,
+  hojoUndo: enHojoUndo,
 });
 
 const deTranslations = combineTranslations({
@@ -160,6 +176,7 @@ const deTranslations = combineTranslations({
   techniques: deTechniques,
   graduations: deGraduations,
   quiz: deQuiz,
+  hojoUndo: deHojoUndo,
 });
 
 const esTranslations = combineTranslations({
@@ -179,6 +196,7 @@ const esTranslations = combineTranslations({
   techniques: esTechniques,
   graduations: esGraduations,
   quiz: esQuiz,
+  hojoUndo: esHojoUndo,
 });
 
 const frTranslations = combineTranslations({
@@ -198,6 +216,7 @@ const frTranslations = combineTranslations({
   techniques: frTechniques,
   graduations: frGraduations,
   quiz: frQuiz,
+  hojoUndo: frHojoUndo,
 });
 
 const itTranslations = combineTranslations({
@@ -217,6 +236,7 @@ const itTranslations = combineTranslations({
   techniques: itTechniques,
   graduations: itGraduations,
   quiz: itQuiz,
+  hojoUndo: itHojoUndo,
 });
 
 const nlTranslations = combineTranslations({
@@ -236,6 +256,7 @@ const nlTranslations = combineTranslations({
   techniques: nlTechniques,
   graduations: nlGraduations,
   quiz: nlQuiz,
+  hojoUndo: nlHojoUndo,
 });
 
 i18n

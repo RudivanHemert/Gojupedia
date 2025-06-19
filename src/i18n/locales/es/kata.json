@@ -336,28 +336,23 @@
         }
       }
     },
-    "suparinpei": {
-      "name": "Suparinpei",
-      "japaneseName": "壱百零八手",
-      "meaning": "108 Manos",
-      "description": "La kata más larga y compleja, encarnando todos los principios del Goju Ryu.",
-      "history": "Una de las kata originales de China, probablemente del estilo Grulla Blanca.",
-      "culturalSignificance": "Representa el número 108 (3x36) y la culminación del Goju Ryu.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Técnicas comprehensivas",
-          "description": "Gama comprehensiva de técnicas del Goju Ryu"
-        },
-        "step2": {
-          "title": "Kata más larga",
-          "description": "Kata más larga y compleja"
-        },
-        "step3": {
-          "title": "Principios duros y suaves",
-          "description": "Encarnación de principios duros y suaves"
-        }
-      }
+    "peichurin": {
+      "name": "Peichurin",
+      "description": "La kata más larga y avanzada de Goju Ryu, que representa 108 movimientos (3x36).",
+      "level": "Maestro",
+      "category": "Kaishugata",
+      "origin": "Provincia de Fujian, China",
+      "duration": "5-7 minutos",
+      "movements": "108 movimientos primarios (simbólicos)",
+      "keyFeatures": [
+        "Representa el número 108 (3x36)",
+        "Kata más larga y avanzada",
+        "Culminación de los principios de Goju Ryu"
+      ],
+      "masters": [
+        "Kanryo Higaonna",
+        "Chojun Miyagi"
+      ]
     }
   },
   "kataDetailPage": {

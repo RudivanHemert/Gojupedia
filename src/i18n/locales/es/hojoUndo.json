@@ -1,0 +1,111 @@
+{
+  "title": "Hojo Undo (補助運動)",
+  "description": "Entrenamiento de fuerza tradicional del Goju-ryu Karate-do",
+  "introduction": {
+    "title": "Introducción",
+    "whatIs": "¿Qué es Hojo Undo?",
+    "twoParts": "Dos componentes principales",
+    "strengthExercises": "Ejercicios de fuerza",
+    "hardeningExercises": "Ejercicios de endurecimiento",
+    "centralPrinciples": "Principios centrales",
+    "historicalBackground": "Antecedentes históricos",
+    "trainingEffects": "Efectos del entrenamiento",
+    "safetyGuidelines": "Pautas de seguridad"
+  },
+  "equipment": {
+    "title": "Equipamiento",
+    "overview": "Resumen",
+    "overviewDescription": "Resumen de todas las herramientas de entrenamiento tradicionales",
+    "mainEquipment": "Equipamiento Principal",
+    "additionalEquipment": "Equipamiento Adicional",
+    "origin": "Origen",
+    "weight": "Peso",
+    "moreInfo": "Más Información",
+    "chiIshi": {
+      "name": "Chi Ishi",
+      "translation": "Peso de palanca de piedra",
+      "description": "Peso de palanca de piedra para fuerza de muñeca y agarre",
+      "origin": "China (Fuzhou)",
+      "weight": "2-10 kg",
+      "function": "Función",
+      "construction": "Construcción",
+      "attentionPoints": "Puntos de Atención",
+      "exercises": "Ejercicios"
+    },
+    "nigiriGame": {
+      "name": "Nigiri Game",
+      "translation": "Jarras de agarre",
+      "description": "Jarras de agarre para fuerza de dedos y manos",
+      "origin": "China",
+      "weight": "3-5 kg",
+      "function": "Función",
+      "construction": "Construcción",
+      "attentionPoints": "Puntos de Atención",
+      "exercises": "Ejercicios"
+    },
+    "kongoken": {
+      "name": "Kongoken",
+      "translation": "Óvalo de hierro",
+      "description": "Óvalo de hierro para acondicionamiento corporal total",
+      "origin": "Hawai",
+      "weight": "30-40 kg",
+      "exercises": "Ejercicios",
+      "classicExercises": "Ejercicios Clásicos"
+    },
+    "ishiSashi": {
+      "name": "Ishi Sashi",
+      "translation": "Candados de piedra",
+      "description": "Candados de piedra para fuerza de agarre y técnica",
+      "origin": "China/Okinawa",
+      "weight": "2-8 kg",
+      "function": "Función",
+      "construction": "Construcción",
+      "attentionPoints": "Puntos de Atención",
+      "exercises": "Ejercicios"
+    }
+  },
+  "sections": {
+    "introduction": "Introducción",
+    "equipment": "Equipamiento",
+    "techniques": "Técnicas",
+    "benefits": "Beneficios",
+    "training": "Entrenamiento"
+  },
+  "common": {
+    "function": "Función",
+    "construction": "Construcción",
+    "attentionPoints": "Puntos de atención",
+    "exercises": "Ejercicios",
+    "classicExercises": "Ejercicios clásicos",
+    "safety": "Seguridad",
+    "tips": "Consejos",
+    "variations": "Variaciones",
+    "applications": "Aplicaciones"
+  },
+  "additionalEquipment": {
+    "tekkan": "Anillos de hierro",
+    "tekkanDescription": "Para entrenamiento de muñeca y antebrazo",
+    "tetsuGeta": "Sandalias de hierro",
+    "tetsuGetaDescription": "Para fuerza de piernas y pies",
+    "ishiGeta": "Sandalias de piedra",
+    "ishiGetaDescription": "Para fuerza de piernas y pies",
+    "chikaraIshi": "Pesos de piedra",
+    "chikaraIshiDescription": "Para entrenamiento general de fuerza",
+    "ukiKago": "Cesta tejida",
+    "ukiKagoDescription": "Para equilibrio y estabilidad",
+    "sashiIshi": "Piedra pesada",
+    "sashiIshiDescription": "Para fuerza y resistencia",
+    "to": "Haz de bambú",
+    "toDescription": "Para flexibilidad y fuerza",
+    "tan": "Barra (barbell)",
+    "tanDescription": "Para entrenamiento general de fuerza",
+    "tetsuarei": "Pesa pequeña (dumbbell)",
+    "tetsuareiDescription": "Para grupos musculares específicos",
+    "sunabako": "Cubo de arena",
+    "sunabakoDescription": "Para fuerza de piernas y pies",
+    "jariBako": "Cubo de grava",
+    "jariBakoDescription": "Para fuerza de piernas y pies",
+    "makiwara": "Tabla de golpeo",
+    "makiwaraDescription": "Para endurecimiento de puños y pies"
+  }
+} 

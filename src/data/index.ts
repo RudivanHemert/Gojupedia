@@ -79,7 +79,7 @@ export const techniques: Technique[] = [
 ];
 
 export const katas: Kata[] = [
-  // Kaishugata (Open Hand Forms)
+  // Kaishugata (Open Hand Forms) - Reordered according to traditional progression
   {
     id: "gekisai-dai-ichi",
     level: "Beginner",
@@ -265,28 +265,6 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=VfyccUJZEqs"
   },
   {
-    id: "sepai",
-    level: "Master",
-    category: "kaishugata",
-    steps: [
-      "Circular movements",
-      "Deflecting and redirecting opponent\'s force",
-      "Advanced combination techniques"
-    ],
-    images: [],
-    keyFeatures: [
-      "Representing the number 18 (6x3)",
-      "Circular and flowing movements",
-      "Techniques for close-range combat and grappling"
-    ],
-    movements: "18 primary movements (symbolic)",
-    duration: "3-4 minutes",
-    origin: "Fujian Province, China (likely White Crane style)",
-    masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
-    bunkai: "https://www.youtube.com/watch?v=BrBc1_vGZDM"
-  },
-  {
     id: "shisochin",
     level: "Advanced",
     category: "kaishugata",
@@ -398,12 +376,12 @@ export const katas: Kata[] = [
       {
         id: "shisochin-bunkai-09",
         title: "09. Doji Uke",
-        attack: "Mae Geri.",
-        defense: "Shuto Gedan Harai Uke.",
-        counterAttack: "Jodan Haishu Uchi.",
-        footwork: "Sayu Tenshin naar Neko Ashi Dachi, dan voorwaartse Suri Ashi in Neko Ashi Dachi.",
-        vitalPoints: "Bijv. neus (Jodan Haishu Uchi).",
-        notes: "",
+        attack: "Chudan Oi Zuki.",
+        defense: "Doji Uke.",
+        counterAttack: "Gyaku Te + Otoshi Hiji Ate.",
+        footwork: "Sayu Tenshin, dan indraaien met buitenste been en deze vervolgens strekken om de tegenstander uit balans te brengen. Dan naar Shiko Dachi draaien voor Otoshi Hiji Ate.",
+        vitalPoints: "Bijv. [Kassatsu] (Otoshi Hiji Ate).",
+        notes: "Door gevorderden moet de wering en de Gyaku Te in één beweging worden uitgevoerd. De techniek in kwestie heeft geen op zich zelf staande naam maar wordt vernoemd naar de toepassing. Namelijk: Gyaku Te, wat een verzamelnaam is voor klemmen, grepen, e.d.",
         kata: "shisochin"
       }
     ]
@@ -431,6 +409,28 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=fKYlZZnkjoM"
   },
   {
+    id: "sepai",
+    level: "Master",
+    category: "kaishugata",
+    steps: [
+      "Circular movements",
+      "Deflecting and redirecting opponent\'s force",
+      "Advanced combination techniques"
+    ],
+    images: [],
+    keyFeatures: [
+      "Representing the number 18 (6x3)",
+      "Circular and flowing movements",
+      "Techniques for close-range combat and grappling"
+    ],
+    movements: "18 primary movements (symbolic)",
+    duration: "3-4 minutes",
+    origin: "Fujian Province, China (likely White Crane style)",
+    masters: ["Kanryo Higaonna", "Chojun Miyagi"],
+    videoUrl: "",
+    bunkai: "https://www.youtube.com/watch?v=BrBc1_vGZDM"
+  },
+  {
     id: "kururunfa",
     level: "Master",
     category: "kaishugata",
@@ -453,7 +453,7 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=nSX19q6_gNM"
   },
   {
-    id: "sesan",
+    id: "peichurin",
     level: "Master",
     category: "kaishugata",
     steps: [
@@ -475,7 +475,7 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=LBVbeDCv1jo"
   },
   {
-    id: "suparinpei",
+    id: "peichuin",
     level: "Master",
     category: "kaishugata",
     steps: [
