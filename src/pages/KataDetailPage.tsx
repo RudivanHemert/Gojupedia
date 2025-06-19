@@ -258,7 +258,7 @@ const KataDetailPage = () => {
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-semibold">{t('bunkai.title')}</h3>
                 <Link 
-                  to="/bunkai" 
+                  to={`/bunkai/${kata.id}`}
                   className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors text-sm"
                 >
                   {t('bunkaiDetailPage.viewAllBunkai')}
