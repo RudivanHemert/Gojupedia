@@ -56,18 +56,302 @@
         }
       }
     },
+    "tensho": {
+      "name": "Tensho", 
+      "japaneseName": "転掌",
+      "meaning": "Rotating Palms",
+      "description": "A flowing kata that emphasizes the soft aspects of Goju Ryu.",
+      "history": "Created by Chojun Miyagi as a complement to Sanchin.",
+      "culturalSignificance": "Represents the 'ju' (soft) aspect of Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Begin in sanchin stance",
+          "description": "Start in the foundational sanchin stance"
+        },
+        "step2": {
+          "title": "Circular open-hand techniques",
+          "description": "Perform circular open-hand techniques"
+        },
+        "step3": {
+          "title": "Maintain muscle tension",
+          "description": "Maintain muscle tension throughout"
+        },
+        "step4": {
+          "title": "Fluid circular movements",
+          "description": "Focus on fluid, circular movements"
+        },
+        "step5": {
+          "title": "Proper breathing",
+          "description": "Maintain proper breathing throughout kata"
+        }
+      }
+    },
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
       "japaneseName": "撃砕第一",
       "meaning": "To Destroy No. 1",
       "description": "The first kata in the Gekisai series, designed to introduce basic techniques and principles of Goju Ryu.",
-      "stepsCount": "7"
+      "history": "Created by Chojun Miyagi in 1940 as part of his efforts to modernize karate instruction.",
+      "culturalSignificance": "Represents the introduction to Goju Ryu principles for beginners.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Begin in natural stance",
+          "description": "Begin in natural stance facing forward"
+        },
+        "step2": {
+          "title": "Step into sanchin dachi",
+          "description": "Step into sanchin dachi with double block"
+        },
+        "step3": {
+          "title": "Execute punch sequence",
+          "description": "Execute punch sequence"
+        },
+        "step4": {
+          "title": "Perform blocks and counters",
+          "description": "Perform blocks and counters to the sides"
+        },
+        "step5": {
+          "title": "Return to center",
+          "description": "Return to center and complete final techniques"
+        },
+        "step6": {
+          "title": "Return to starting position",
+          "description": "Return to starting position"
+        }
+      }
     },
-    "tensho": {
-      "name": "Tensho", 
-      "japaneseName": "転掌",
-      "meaning": "Rotating Palms",
-      "description": "A flowing kata that emphasizes the soft aspects of Goju Ryu."
+    "gekisai-dai-ni": {
+      "name": "Gekisai Dai Ni",
+      "japaneseName": "撃砕第二",
+      "meaning": "To Destroy No. 2",
+      "description": "The second kata in the Gekisai series, introducing more advanced techniques including open hand techniques.",
+      "history": "Created by Chojun Miyagi as a progression from Gekisai Dai Ichi.",
+      "culturalSignificance": "Builds upon the foundation established in Gekisai Dai Ichi.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Begin in natural stance",
+          "description": "Begin in natural stance facing forward"
+        },
+        "step2": {
+          "title": "Open hand block",
+          "description": "Step into sanchin dachi with open hand block"
+        },
+        "step3": {
+          "title": "Punch and block sequence",
+          "description": "Execute punch and block sequence"
+        },
+        "step4": {
+          "title": "Kicks and strikes",
+          "description": "Perform kicks and strikes in multiple directions"
+        },
+        "step5": {
+          "title": "Final blocking sequence",
+          "description": "Complete final blocking sequence"
+        },
+        "step6": {
+          "title": "Return to starting position",
+          "description": "Return to starting position"
+        }
+      }
+    },
+    "saifa": {
+      "name": "Saifa",
+      "japaneseName": "砕破",
+      "meaning": "To Smash and Tear",
+      "description": "An intermediate kata that emphasizes circular movements and close-range combat techniques.",
+      "history": "One of the original kata brought from China by Kanryo Higaonna.",
+      "culturalSignificance": "Represents the transition from basic to intermediate level techniques.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Begin in natural stance",
+          "description": "Begin in natural stance facing forward"
+        },
+        "step2": {
+          "title": "Opening sequence",
+          "description": "Execute opening sequence with simultaneous blocks"
+        },
+        "step3": {
+          "title": "Circular elbow strike",
+          "description": "Perform circular elbow strike followed by grab and pull motion"
+        },
+        "step4": {
+          "title": "Turning sequence",
+          "description": "Execute turning sequence with kicks and strikes"
+        },
+        "step5": {
+          "title": "Final sequence",
+          "description": "Complete final sequence returning to starting position"
+        },
+        "step6": {
+          "title": "Formal closing",
+          "description": "End with formal closing"
+        }
+      }
+    },
+    "seiyunchin": {
+      "name": "Seiyunchin",
+      "japaneseName": "制引戦",
+      "meaning": "To Control and Pull into Battle",
+      "description": "A kata emphasizing low stances and powerful pulling/unbalancing techniques.",
+      "history": "One of the original kata from China, likely from Xingyi Quan or Monk Fist Boxing.",
+      "culturalSignificance": "Demonstrates the importance of balance and unbalancing techniques.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Low stances",
+          "description": "Emphasis on low stances and powerful pulling/unbalancing techniques"
+        },
+        "step2": {
+          "title": "Breathing patterns",
+          "description": "Unique breathing patterns"
+        },
+        "step3": {
+          "title": "No kicking techniques",
+          "description": "No kicking techniques"
+        }
+      }
+    },
+    "shisochin": {
+      "name": "Shisochin",
+      "japaneseName": "四向戦",
+      "meaning": "Four Direction Battle",
+      "description": "An advanced kata featuring four-directional movements and open-hand techniques.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents defending against multiple opponents from all directions.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Four-directional movements",
+          "description": "Four-directional movements"
+        },
+        "step2": {
+          "title": "Open-hand techniques",
+          "description": "Open-hand techniques (Nukite, Shotei)"
+        },
+        "step3": {
+          "title": "Joint locks and pressure points",
+          "description": "Joint locks and pressure point strikes"
+        }
+      }
+    },
+    "sanseru": {
+      "name": "Sanseru",
+      "japaneseName": "三十六手",
+      "meaning": "36 Hands",
+      "description": "A dynamic kata with powerful strikes and combination techniques targeting vital points.",
+      "history": "One of the original kata from China, likely from White Crane or Tiger style.",
+      "culturalSignificance": "Represents the 36 vital points of the body.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Dynamic movements",
+          "description": "Dynamic movements and powerful strikes"
+        },
+        "step2": {
+          "title": "Combination techniques",
+          "description": "Combination techniques targeting vital points"
+        },
+        "step3": {
+          "title": "Footwork for evasion",
+          "description": "Footwork for evasion and attack"
+        }
+      }
+    },
+    "sepai": {
+      "name": "Sepai",
+      "japaneseName": "十八手",
+      "meaning": "18 Hands",
+      "description": "A master-level kata emphasizing circular movements and deflecting techniques.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents the number 18 (6x3) and circular principles.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Circular movements",
+          "description": "Circular movements"
+        },
+        "step2": {
+          "title": "Deflecting techniques",
+          "description": "Deflecting and redirecting opponent's force"
+        },
+        "step3": {
+          "title": "Advanced combinations",
+          "description": "Advanced combination techniques"
+        }
+      }
+    },
+    "kururunfa": {
+      "name": "Kururunfa",
+      "japaneseName": "久留頓破",
+      "meaning": "Holding on Long and Striking Suddenly",
+      "description": "A master kata focusing on holding and breaking balance with sudden, fast strikes.",
+      "history": "One of the original kata from China, origin unknown.",
+      "culturalSignificance": "Demonstrates the principle of deception and sudden attack.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Holding and breaking balance",
+          "description": "Holding and breaking balance"
+        },
+        "step2": {
+          "title": "Sudden strikes",
+          "description": "Sudden, fast strikes"
+        },
+        "step3": {
+          "title": "Close-quarter combat",
+          "description": "Close-quarter combat and joint manipulation"
+        }
+      }
+    },
+    "sesan": {
+      "name": "Sesan",
+      "japaneseName": "十三手",
+      "meaning": "13 Hands",
+      "description": "One of the oldest Goju Ryu kata with powerful, direct techniques.",
+      "history": "One of the original kata from China, likely from Monk Fist Boxing or Lion's Fist.",
+      "culturalSignificance": "Represents the number 13 and one of the foundational kata.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Powerful techniques",
+          "description": "Powerful, direct techniques"
+        },
+        "step2": {
+          "title": "Close-quarters fighting",
+          "description": "Close-quarters fighting"
+        },
+        "step3": {
+          "title": "Strong stances",
+          "description": "Strong stances and rooting"
+        }
+      }
+    },
+    "suparinpei": {
+      "name": "Suparinpei",
+      "japaneseName": "壱百零八手",
+      "meaning": "108 Hands",
+      "description": "The longest and most complex kata, embodying all Goju Ryu principles.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents the number 108 (3x36) and the culmination of Goju Ryu.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Comprehensive techniques",
+          "description": "Comprehensive range of Goju Ryu techniques"
+        },
+        "step2": {
+          "title": "Longest kata",
+          "description": "Longest and most complex kata"
+        },
+        "step3": {
+          "title": "Hard and soft principles",
+          "description": "Embodiment of hard and soft principles"
+        }
+      }
     }
   },
   "kataDetailPage": {

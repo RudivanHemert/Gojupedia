@@ -18,7 +18,8 @@
     "levels": {
       "beginner": "Beginner",
       "intermediate": "Gemiddeld",
-      "advanced": "Gevorderd"
+      "advanced": "Gevorderd",
+      "master": "Meester"
     },
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
@@ -31,13 +32,298 @@
       "name": "Sanchin",
       "japaneseName": "三戦",
       "meaning": "Drie Gevechten",
-      "description": "De fundamentele kata van Goju Ryu, gericht op ademhaling, spanning en basisbewegingen."
+      "description": "De fundamentele kata van Goju Ryu, gericht op ademhaling, spanning en basisbewegingen.",
+      "history": "Doorgegeven door Kanryo Higaonna en verder ontwikkeld door Chojun Miyagi.",
+      "culturalSignificance": "Vertegenwoordigt de essentie van Goju Ryu en de verbinding van geest, lichaam en adem.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Startpositie en voorwaartse stap",
+          "description": "Begin in natuurlijke houding naar voren gericht"
+        },
+        "step2": {
+          "title": "Drie stoten",
+          "description": "Stap voorwaarts in sanchin dachi"
+        },
+        "step3": {
+          "title": "180 graden draaien",
+          "description": "Voer drie stoten uit terwijl je de juiste ademhaling behoudt"
+        },
+        "step4": {
+          "title": "Reeks voortzetten",
+          "description": "Draai 180 graden terwijl je de spanning behoudt"
+        },
+        "step5": {
+          "title": "Spierspanning behouden",
+          "description": "Zet de reeks voort met gecontroleerde bewegingen en ademhaling"
+        },
+        "step6": {
+          "title": "Conclusie",
+          "description": "Behoud spierspanning gedurende de hele vorm"
+        }
+      }
     },
     "tensho": {
       "name": "Tensho",
       "japaneseName": "転掌",
       "meaning": "Draaiende Handpalmen",
-      "description": "Een vloeiende kata die de zachte aspecten van Goju Ryu benadrukt."
+      "description": "Een vloeiende kata die de zachte aspecten van Goju Ryu benadrukt.",
+      "history": "Gecreëerd door Chojun Miyagi als aanvulling op Sanchin.",
+      "culturalSignificance": "Vertegenwoordigt het 'ju' (zachte) aspect van Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Beginnen in sanchin houding",
+          "description": "Begin in de fundamentele sanchin houding"
+        },
+        "step2": {
+          "title": "Circulaire open hand technieken",
+          "description": "Voer circulaire open hand technieken uit"
+        },
+        "step3": {
+          "title": "Spierspanning behouden",
+          "description": "Behoud spierspanning gedurende de hele tijd"
+        },
+        "step4": {
+          "title": "Vloeiende circulaire bewegingen",
+          "description": "Concentreer je op vloeiende, circulaire bewegingen"
+        },
+        "step5": {
+          "title": "Juiste ademhaling",
+          "description": "Behoud de juiste ademhaling gedurende de hele kata"
+        }
+      }
+    },
+    "gekisai-dai-ni": {
+      "name": "Gekisai Dai Ni",
+      "japaneseName": "撃砕第二",
+      "meaning": "Vernietigen No. 2",
+      "description": "De tweede kata in de Gekisai serie, introducerend meer geavanceerde technieken inclusief open hand technieken.",
+      "history": "Gecreëerd door Chojun Miyagi als voortgang van Gekisai Dai Ichi.",
+      "culturalSignificance": "Bouwt voort op de basis gevestigd in Gekisai Dai Ichi.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Beginnen in natuurlijke houding",
+          "description": "Begin in natuurlijke houding naar voren gericht"
+        },
+        "step2": {
+          "title": "Open hand blokkering",
+          "description": "Stap in sanchin dachi met open hand blokkering"
+        },
+        "step3": {
+          "title": "Stoot en blokkering reeks",
+          "description": "Voer de stoot en blokkering reeks uit"
+        },
+        "step4": {
+          "title": "Trappen en stoten",
+          "description": "Voer trappen en stoten uit in meerdere richtingen"
+        },
+        "step5": {
+          "title": "Finale blokkering reeks",
+          "description": "Voltooi de finale blokkering reeks"
+        },
+        "step6": {
+          "title": "Terug naar startpositie",
+          "description": "Ga terug naar de startpositie"
+        }
+      }
+    },
+    "saifa": {
+      "name": "Saifa",
+      "japaneseName": "砕破",
+      "meaning": "Vernietigen en Scheuren",
+      "description": "Een intermediaire kata die circulaire bewegingen en close-combat technieken benadrukt.",
+      "history": "Een van de originele kata gebracht uit China door Kanryo Higaonna.",
+      "culturalSignificance": "Vertegenwoordigt de overgang van basis naar intermediaire technieken.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Beginnen in natuurlijke houding",
+          "description": "Begin in natuurlijke houding naar voren gericht"
+        },
+        "step2": {
+          "title": "Opening reeks",
+          "description": "Voer de opening reeks uit met gelijktijdige blokkeringen"
+        },
+        "step3": {
+          "title": "Circulaire elleboog stoot",
+          "description": "Voer een circulaire elleboog stoot uit gevolgd door grijp en trek beweging"
+        },
+        "step4": {
+          "title": "Draai reeks",
+          "description": "Voer de draai reeks uit met trappen en stoten"
+        },
+        "step5": {
+          "title": "Finale reeks",
+          "description": "Voltooi de finale reeks door terug te gaan naar startpositie"
+        },
+        "step6": {
+          "title": "Formele afsluiting",
+          "description": "Eindig met formele afsluiting"
+        }
+      }
+    },
+    "seiyunchin": {
+      "name": "Seiyunchin",
+      "japaneseName": "制引戦",
+      "meaning": "Controleren en in Gevecht Trekken",
+      "description": "Een kata die lage houdingen en krachtige trek/balansverstoring technieken benadrukt.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van Xingyi Quan of Monk Fist Boxing.",
+      "culturalSignificance": "Demonstreert het belang van balans en balansverstoring technieken.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Lage houdingen",
+          "description": "Nadruk op lage houdingen en krachtige trek/balansverstoring technieken"
+        },
+        "step2": {
+          "title": "Ademhalingspatronen",
+          "description": "Unieke ademhalingspatronen"
+        },
+        "step3": {
+          "title": "Geen traptechnieken",
+          "description": "Geen traptechnieken"
+        }
+      }
+    },
+    "shisochin": {
+      "name": "Shisochin",
+      "japaneseName": "四向戦",
+      "meaning": "Vier Richtingen Gevecht",
+      "description": "Een geavanceerde kata met vierrichtingsbewegingen en open hand technieken.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van White Crane stijl.",
+      "culturalSignificance": "Vertegenwoordigt verdediging tegen meerdere tegenstanders uit alle richtingen.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Vierrichtingsbewegingen",
+          "description": "Vierrichtingsbewegingen"
+        },
+        "step2": {
+          "title": "Open hand technieken",
+          "description": "Open hand technieken (Nukite, Shotei)"
+        },
+        "step3": {
+          "title": "Gewrichtsloten en drukpunten",
+          "description": "Gewrichtsloten en drukpuntslagen"
+        }
+      }
+    },
+    "sanseru": {
+      "name": "Sanseru",
+      "japaneseName": "三十六手",
+      "meaning": "36 Handen",
+      "description": "Een dynamische kata met krachtige slagen en combinatie technieken gericht op vitale punten.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van White Crane of Tiger stijl.",
+      "culturalSignificance": "Vertegenwoordigt de 36 vitale punten van het lichaam.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Dynamische bewegingen",
+          "description": "Dynamische bewegingen en krachtige slagen"
+        },
+        "step2": {
+          "title": "Combinatie technieken",
+          "description": "Combinatie technieken gericht op vitale punten"
+        },
+        "step3": {
+          "title": "Voetenwerk voor ontwijking",
+          "description": "Voetenwerk voor ontwijking en aanval"
+        }
+      }
+    },
+    "sepai": {
+      "name": "Sepai",
+      "japaneseName": "十八手",
+      "meaning": "18 Handen",
+      "description": "Een meester niveau kata die circulaire bewegingen en afleiding technieken benadrukt.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van White Crane stijl.",
+      "culturalSignificance": "Vertegenwoordigt het getal 18 (6x3) en circulaire principes.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Circulaire bewegingen",
+          "description": "Circulaire bewegingen"
+        },
+        "step2": {
+          "title": "Afleiding technieken",
+          "description": "Afleiden en omleiden van de kracht van de tegenstander"
+        },
+        "step3": {
+          "title": "Geavanceerde combinaties",
+          "description": "Geavanceerde combinatie technieken"
+        }
+      }
+    },
+    "kururunfa": {
+      "name": "Kururunfa",
+      "japaneseName": "久留頓破",
+      "meaning": "Lang Vasthouden en Plotseling Slaan",
+      "description": "Een meester kata gericht op vasthouden en breken van balans met plotselinge, snelle slagen.",
+      "history": "Een van de originele kata uit China, oorsprong onbekend.",
+      "culturalSignificance": "Demonstreert het principe van misleiding en plotselinge aanval.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Balans vasthouden en breken",
+          "description": "Balans vasthouden en breken"
+        },
+        "step2": {
+          "title": "Plotselinge slagen",
+          "description": "Plotselinge, snelle slagen"
+        },
+        "step3": {
+          "title": "Close combat",
+          "description": "Close combat en gewrichtsmanipulatie"
+        }
+      }
+    },
+    "sesan": {
+      "name": "Sesan",
+      "japaneseName": "十三手",
+      "meaning": "13 Handen",
+      "description": "Een van de oudste Goju Ryu kata met krachtige, directe technieken.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van Monk Fist Boxing of Lion's Fist.",
+      "culturalSignificance": "Vertegenwoordigt het getal 13 en een van de fundamentele kata.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Krachtige technieken",
+          "description": "Krachtige, directe technieken"
+        },
+        "step2": {
+          "title": "Close combat",
+          "description": "Close combat"
+        },
+        "step3": {
+          "title": "Sterke houdingen",
+          "description": "Sterke houdingen en worteling"
+        }
+      }
+    },
+    "suparinpei": {
+      "name": "Suparinpei",
+      "japaneseName": "壱百零八手",
+      "meaning": "108 Handen",
+      "description": "De langste en meest complexe kata, belichamend alle Goju Ryu principes.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van White Crane stijl.",
+      "culturalSignificance": "Vertegenwoordigt het getal 108 (3x36) en de culminatie van Goju Ryu.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Uitgebreide technieken",
+          "description": "Uitgebreide reeks van Goju Ryu technieken"
+        },
+        "step2": {
+          "title": "Langste kata",
+          "description": "Langste en meest complexe kata"
+        },
+        "step3": {
+          "title": "Harde en zachte principes",
+          "description": "Belichaming van harde en zachte principes"
+        }
+      }
     }
   },
   "kataDetailPage": {
@@ -51,24 +337,34 @@
       "descriptionTitle": "Beschrijving",
       "historyTitle": "Geschiedenis",
       "culturalSignificanceTitle": "Culturele Betekenis",
-      "atAGlanceTitle": "In één oogopslag",
+      "atAGlanceTitle": "In één Oogopslag",
       "movementsLabel": "Bewegingen:",
       "durationLabel": "Duur:",
       "originLabel": "Oorsprong:",
-      "levelLabel": "Niveau:"
+      "levelLabel": "Niveau:",
+      "mastersLabel": "Meesters",
+      "keyFeaturesLabel": "Belangrijke Kenmerken",
+      "videoNotAvailable": "Video niet beschikbaar",
+      "bunkaiVideoNotAvailable": "Bunkai video niet beschikbaar",
+      "shimeVideoNotAvailable": "Shime video niet beschikbaar",
+      "viewOnYouTube": "Bekijk op YouTube"
     },
     "steps": {
-      "sequenceTitle": "Volgorde van Bewegingen",
+      "interactiveStepsTitle": "Interactieve Stappen",
+      "viewAllSteps": "Bekijk Alle Stappen",
+      "sequenceTitle": "Bewegingsreeks",
       "noSteps": "Geen stappen beschikbaar voor deze kata.",
-      "stepsDataMissing": "Stappendata wordt mogelijk geladen of ontbreekt.",
-      "totalSteps": "Totaal aantal stappen: {{count}}"
+      "stepsDataMissing": "Stapgegevens kunnen worden geladen of ontbreken.",
+      "totalSteps": "Totaal stappen: {{count}}"
     },
     "bunkai": {
+      "title": "Bunkai Analyse",
+      "introduction": "Gedetailleerde analyse van de toepassingen van de kata.",
       "videoTitle": "Bunkai Video"
     },
     "shime": {
       "title": "Shime",
-      "description": "Shime verwijst naar het testen en conditioneren van het lichaam tijdens kata-oefening.",
+      "description": "Shime verwijst naar het testen en conditioneren van het lichaam tijdens kata praktijk.",
       "videoTitle": "Shime Demonstratie"
     },
     "notFound": {

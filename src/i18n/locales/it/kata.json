@@ -1,136 +1,404 @@
 {
   "kata": {
     "theory": {
-      "title": "Kata Theory",
-      "description": "Understanding the principles and practice of kata",
+      "title": "Teoria dei Kata",
+      "description": "Comprensione dei principi e della pratica dei kata",
       "sections": {
-        "what-are-kata": "What are Kata?",
-        "kata-and-karate": "Kata and Karate",
-        "bunkai-and-techniques": "Bunkai & Techniques",
-        "kata-origins": "Kata Origins",
-        "power-and-movement": "Power & Movement",
-        "sources-of-power": "Sources of Power",
-        "okinawan-concepts": "Okinawan Concepts",
-        "power-transfer": "Power Transfer",
-        "kata-techniques": "Kata Techniques"
+        "what-are-kata": "Cosa sono i Kata?",
+        "kata-and-karate": "Kata e Karate",
+        "bunkai-and-techniques": "Bunkai e Tecniche",
+        "kata-origins": "Origini dei Kata",
+        "power-and-movement": "Potere e Movimento",
+        "sources-of-power": "Fonti di Potere",
+        "okinawan-concepts": "Concetti di Okinawa",
+        "power-transfer": "Trasferimento di Potere",
+        "kata-techniques": "Tecniche di Kata"
       }
     },
     "levels": {
-      "beginner": "Beginner",
-      "intermediate": "Intermediate",
-      "advanced": "Advanced",
-      "master": "Master"
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzato",
+      "master": "Maestro"
     },
     "sanchin": {
       "name": "Sanchin",
       "japaneseName": "三戦",
-      "meaning": "Three Battles",
-      "description": "The most fundamental kata in Goju Ryu, focusing on breathing, posture, and tension.",
-      "history": "Passed down from Kanryo Higaonna and further developed by Chojun Miyagi.",
-      "culturalSignificance": "Represents the essence of Goju Ryu and the connection of mind, body, and breath.",
+      "meaning": "Tre Battaglie",
+      "description": "Il kata fondamentale del Goju Ryu, concentrandosi sulla respirazione, tensione e movimenti di base.",
+      "history": "Trasmesso da Kanryo Higaonna e sviluppato da Chojun Miyagi.",
+      "culturalSignificance": "Rappresenta l'essenza del Goju Ryu e la connessione di mente, corpo e respirazione.",
       "stepsCount": 6,
       "steps": {
         "step1": {
-          "title": "Starting position and forward step",
-          "description": "Begin in natural stance facing forward"
+          "title": "Posizione di partenza e passo in avanti",
+          "description": "Inizia in posizione naturale rivolto in avanti"
         },
         "step2": {
-          "title": "Three punches",
-          "description": "Step forward into sanchin dachi"
+          "title": "Tre pugni",
+          "description": "Passo in avanti in sanchin dachi"
         },
         "step3": {
-          "title": "Turn 180 degrees",
-          "description": "Perform three punches while maintaining proper breathing"
+          "title": "Girare di 180 gradi",
+          "description": "Esegui tre pugni mantenendo la respirazione corretta"
         },
         "step4": {
-          "title": "Continue sequence",
-          "description": "Turn 180 degrees while maintaining tension"
+          "title": "Continuare la sequenza",
+          "description": "Gira di 180 gradi mantenendo la tensione"
         },
         "step5": {
-          "title": "Maintain muscle tension",
-          "description": "Continue sequence with controlled movements and breathing"
+          "title": "Mantenere la tensione muscolare",
+          "description": "Continua la sequenza con movimenti controllati e respirazione"
         },
         "step6": {
-          "title": "Conclusion",
-          "description": "Maintain muscle tension throughout the entire form"
+          "title": "Conclusione",
+          "description": "Mantieni la tensione muscolare durante tutta la forma"
+        }
+      }
+    },
+    "tensho": {
+      "name": "Tensho", 
+      "japaneseName": "転掌",
+      "meaning": "Palmi Rotanti",
+      "description": "Un kata fluido che enfatizza gli aspetti morbidi del Goju Ryu.",
+      "history": "Creato da Chojun Miyagi come complemento a Sanchin.",
+      "culturalSignificance": "Rappresenta l'aspetto 'ju' (morbido) del Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Iniziare in posizione sanchin",
+          "description": "Inizia nella posizione fondamentale sanchin"
+        },
+        "step2": {
+          "title": "Tecniche circolari a mano aperta",
+          "description": "Esegui tecniche circolari a mano aperta"
+        },
+        "step3": {
+          "title": "Mantenere la tensione muscolare",
+          "description": "Mantieni la tensione muscolare durante tutto il tempo"
+        },
+        "step4": {
+          "title": "Movimenti circolari fluidi",
+          "description": "Concentrati su movimenti circolari fluidi"
+        },
+        "step5": {
+          "title": "Respirazione corretta",
+          "description": "Mantieni la respirazione corretta durante tutto il kata"
+        }
+      }
+    },
+    "gekisai-dai-ichi": {
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Distruggere No. 1",
+      "description": "Il primo kata della serie Gekisai, progettato per introdurre tecniche e principi di base del Goju Ryu.",
+      "history": "Creato da Chojun Miyagi nel 1940 come parte dei suoi sforzi per modernizzare l'istruzione del karate.",
+      "culturalSignificance": "Rappresenta l'introduzione ai principi del Goju Ryu per i principianti.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Iniziare in posizione naturale",
+          "description": "Inizia in posizione naturale rivolto in avanti"
+        },
+        "step2": {
+          "title": "Passo in sanchin dachi",
+          "description": "Passo in sanchin dachi con doppio blocco"
+        },
+        "step3": {
+          "title": "Eseguire sequenza di colpi",
+          "description": "Esegui la sequenza di colpi"
+        },
+        "step4": {
+          "title": "Eseguire blocchi e contrattacchi",
+          "description": "Esegui blocchi e contrattacchi ai lati"
+        },
+        "step5": {
+          "title": "Tornare al centro",
+          "description": "Torna al centro e completa le tecniche finali"
+        },
+        "step6": {
+          "title": "Tornare alla posizione iniziale",
+          "description": "Torna alla posizione iniziale"
         }
       }
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
       "japaneseName": "撃砕第二",
-      "meaning": "Attack and Smash, Second Form",
-      "description": "The second of the Gekisai kata, building upon Gekisai Dai Ichi with more open-hand techniques.",
-      "history": "Developed by Chojun Miyagi, like Gekisai Dai Ichi, to make karate more accessible.",
-      "culturalSignificance": "Represents a progression in learning basic kata.",
+      "meaning": "Distruggere No. 2",
+      "description": "Il secondo kata della serie Gekisai, introducendo tecniche più avanzate inclusi tecniche a mano aperta.",
+      "history": "Creato da Chojun Miyagi come progressione da Gekisai Dai Ichi.",
+      "culturalSignificance": "Costruisce sulla base stabilita in Gekisai Dai Ichi.",
       "stepsCount": 6,
       "steps": {
         "step1": {
-          "title": "Step 1: Placeholder Title",
-          "description": "Placeholder description for step 1 of Gekisai Dai Ni."
+          "title": "Iniziare in posizione naturale",
+          "description": "Inizia in posizione naturale rivolto in avanti"
         },
         "step2": {
-          "title": "Step 2: Placeholder Title",
-          "description": "Placeholder description for step 2 of Gekisai Dai Ni."
+          "title": "Blocco a mano aperta",
+          "description": "Passo in sanchin dachi con blocco a mano aperta"
         },
         "step3": {
-          "title": "Step 3: Placeholder Title",
-          "description": "Placeholder description for step 3 of Gekisai Dai Ni."
+          "title": "Sequenza di colpi e blocchi",
+          "description": "Esegui la sequenza di colpi e blocchi"
         },
         "step4": {
-          "title": "Step 4: Placeholder Title",
-          "description": "Placeholder description for step 4 of Gekisai Dai Ni."
+          "title": "Calci e colpi",
+          "description": "Esegui calci e colpi in più direzioni"
         },
         "step5": {
-          "title": "Step 5: Placeholder Title",
-          "description": "Placeholder description for step 5 of Gekisai Dai Ni."
+          "title": "Sequenza finale di blocchi",
+          "description": "Completa la sequenza finale di blocchi"
         },
         "step6": {
-          "title": "Step 6: Placeholder Title",
-          "description": "Placeholder description for step 6 of Gekisai Dai Ni."
+          "title": "Tornare alla posizione iniziale",
+          "description": "Torna alla posizione iniziale"
+        }
+      }
+    },
+    "saifa": {
+      "name": "Saifa",
+      "japaneseName": "砕破",
+      "meaning": "Frantumare e Lacerare",
+      "description": "Un kata intermedio che enfatizza movimenti circolari e tecniche di combattimento ravvicinato.",
+      "history": "Uno dei kata originali portato dalla Cina da Kanryo Higaonna.",
+      "culturalSignificance": "Rappresenta la transizione dalle tecniche di base a quelle intermedie.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Iniziare in posizione naturale",
+          "description": "Inizia in posizione naturale rivolto in avanti"
+        },
+        "step2": {
+          "title": "Sequenza di apertura",
+          "description": "Esegui la sequenza di apertura con blocchi simultanei"
+        },
+        "step3": {
+          "title": "Colpo di gomito circolare",
+          "description": "Esegui un colpo di gomito circolare seguito da movimento di presa e trazione"
+        },
+        "step4": {
+          "title": "Sequenza di rotazione",
+          "description": "Esegui la sequenza di rotazione con calci e colpi"
+        },
+        "step5": {
+          "title": "Sequenza finale",
+          "description": "Completa la sequenza finale tornando alla posizione iniziale"
+        },
+        "step6": {
+          "title": "Chiusura formale",
+          "description": "Termina con chiusura formale"
+        }
+      }
+    },
+    "seiyunchin": {
+      "name": "Seiyunchin",
+      "japaneseName": "制引戦",
+      "meaning": "Controllare e Trascinare in Battaglia",
+      "description": "Un kata che enfatizza posizioni basse e tecniche potenti di trazione/sbilanciamento.",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dal Xingyi Quan o Boxe del Pugno del Monaco.",
+      "culturalSignificance": "Dimostra l'importanza dell'equilibrio e delle tecniche di sbilanciamento.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Posizioni basse",
+          "description": "Enfasi su posizioni basse e tecniche potenti di trazione/sbilanciamento"
+        },
+        "step2": {
+          "title": "Modelli di respirazione",
+          "description": "Modelli di respirazione unici"
+        },
+        "step3": {
+          "title": "Senza tecniche di calcio",
+          "description": "Senza tecniche di calcio"
+        }
+      }
+    },
+    "shisochin": {
+      "name": "Shisochin",
+      "japaneseName": "四向戦",
+      "meaning": "Battaglia delle Quattro Direzioni",
+      "description": "Un kata avanzato con movimenti in quattro direzioni e tecniche a mano aperta.",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dallo stile Gru Bianca.",
+      "culturalSignificance": "Rappresenta la difesa contro più avversari da tutte le direzioni.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Movimenti in quattro direzioni",
+          "description": "Movimenti in quattro direzioni"
+        },
+        "step2": {
+          "title": "Tecniche a mano aperta",
+          "description": "Tecniche a mano aperta (Nukite, Shotei)"
+        },
+        "step3": {
+          "title": "Leve articolari e punti di pressione",
+          "description": "Leve articolari e colpi ai punti di pressione"
+        }
+      }
+    },
+    "sanseru": {
+      "name": "Sanseru",
+      "japaneseName": "三十六手",
+      "meaning": "36 Mani",
+      "description": "Un kata dinamico con colpi potenti e tecniche di combinazione mirate ai punti vitali.",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dallo stile Gru Bianca o Tigre.",
+      "culturalSignificance": "Rappresenta i 36 punti vitali del corpo.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Movimenti dinamici",
+          "description": "Movimenti dinamici e colpi potenti"
+        },
+        "step2": {
+          "title": "Tecniche di combinazione",
+          "description": "Tecniche di combinazione mirate ai punti vitali"
+        },
+        "step3": {
+          "title": "Lavoro dei piedi per l'evasione",
+          "description": "Lavoro dei piedi per l'evasione e l'attacco"
+        }
+      }
+    },
+    "sepai": {
+      "name": "Sepai",
+      "japaneseName": "十八手",
+      "meaning": "18 Mani",
+      "description": "Un kata di livello maestro che enfatizza movimenti circolari e tecniche di deviazione.",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dallo stile Gru Bianca.",
+      "culturalSignificance": "Rappresenta il numero 18 (6x3) e principi circolari.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Movimenti circolari",
+          "description": "Movimenti circolari"
+        },
+        "step2": {
+          "title": "Tecniche di deviazione",
+          "description": "Deviare e reindirizzare la forza dell'avversario"
+        },
+        "step3": {
+          "title": "Combinazioni avanzate",
+          "description": "Tecniche di combinazione avanzate"
+        }
+      }
+    },
+    "kururunfa": {
+      "name": "Kururunfa",
+      "japaneseName": "久留頓破",
+      "meaning": "Tenere a Lungo e Colpire Improvvisamente",
+      "description": "Un kata maestro focalizzato sul mantenere e rompere l'equilibrio con colpi improvvisi e rapidi.",
+      "history": "Uno dei kata originali dalla Cina, origine sconosciuta.",
+      "culturalSignificance": "Dimostra il principio di inganno e attacco improvviso.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Mantenere e rompere l'equilibrio",
+          "description": "Mantenere e rompere l'equilibrio"
+        },
+        "step2": {
+          "title": "Colpi improvvisi",
+          "description": "Colpi improvvisi e rapidi"
+        },
+        "step3": {
+          "title": "Combattimento ravvicinato",
+          "description": "Combattimento ravvicinato e manipolazione articolare"
+        }
+      }
+    },
+    "sesan": {
+      "name": "Sesan",
+      "japaneseName": "十三手",
+      "meaning": "13 Mani",
+      "description": "Uno dei kata più antichi del Goju Ryu con tecniche potenti e dirette.",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dalla Boxe del Pugno del Monaco o Pugno del Leone.",
+      "culturalSignificance": "Rappresenta il numero 13 e uno dei kata fondamentali.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Tecniche potenti",
+          "description": "Tecniche potenti e dirette"
+        },
+        "step2": {
+          "title": "Combattimento ravvicinato",
+          "description": "Combattimento ravvicinato"
+        },
+        "step3": {
+          "title": "Posizioni forti",
+          "description": "Posizioni forti e radicamento"
+        }
+      }
+    },
+    "suparinpei": {
+      "name": "Suparinpei",
+      "japaneseName": "壱百零八手",
+      "meaning": "108 Mani",
+      "description": "Il kata più lungo e complesso, incarnando tutti i principi del Goju Ryu.",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dallo stile Gru Bianca.",
+      "culturalSignificance": "Rappresenta il numero 108 (3x36) e la culminazione del Goju Ryu.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Tecniche complete",
+          "description": "Gamma completa di tecniche del Goju Ryu"
+        },
+        "step2": {
+          "title": "Kata più lungo",
+          "description": "Kata più lungo e complesso"
+        },
+        "step3": {
+          "title": "Principi duri e morbidi",
+          "description": "Incarnazione di principi duri e morbidi"
         }
       }
     }
   },
   "kataDetailPage": {
     "tabs": {
-      "overview": "Overview",
-      "steps": "Steps",
+      "overview": "Panoramica",
+      "steps": "Passi",
       "bunkai": "Bunkai",
       "shime": "Shime"
     },
     "overview": {
-      "descriptionTitle": "Description",
-      "historyTitle": "History",
-      "culturalSignificanceTitle": "Cultural Significance",
-      "atAGlanceTitle": "At a Glance",
-      "movementsLabel": "Movements",
-      "durationLabel": "Duration",
-      "originLabel": "Origin",
-      "levelLabel": "Level",
-      "mastersLabel": "Masters",
-      "keyFeaturesLabel": "Key Features",
-      "videoNotAvailable": "Video not available",
-      "bunkaiVideoNotAvailable": "Bunkai video not available",
-      "shimeVideoNotAvailable": "Shime video not available",
-      "viewOnYouTube": "View on YouTube"
+      "descriptionTitle": "Descrizione",
+      "historyTitle": "Storia",
+      "culturalSignificanceTitle": "Significato Culturale",
+      "atAGlanceTitle": "A Colpo d'Occhio",
+      "movementsLabel": "Movimenti:",
+      "durationLabel": "Durata:",
+      "originLabel": "Origine:",
+      "levelLabel": "Livello:",
+      "mastersLabel": "Maestri",
+      "keyFeaturesLabel": "Caratteristiche Chiave",
+      "videoNotAvailable": "Video non disponibile",
+      "bunkaiVideoNotAvailable": "Video di bunkai non disponibile",
+      "shimeVideoNotAvailable": "Video di shime non disponibile",
+      "viewOnYouTube": "Guarda su YouTube"
     },
     "steps": {
-      "interactiveStepsTitle": "Interactive Steps",
-      "viewAllSteps": "View All Steps"
+      "interactiveStepsTitle": "Passi Interattivi",
+      "viewAllSteps": "Vedi Tutti i Passi",
+      "sequenceTitle": "Sequenza di Movimenti",
+      "noSteps": "Nessun passo disponibile per questo kata.",
+      "stepsDataMissing": "I dati dei passi potrebbero essere in caricamento o mancanti.",
+      "totalSteps": "Totale passi: {{count}}"
     },
     "bunkai": {
-      "title": "Bunkai Analysis",
-      "introduction": "Detailed analysis of the kata's applications."
+      "title": "Analisi di Bunkai",
+      "introduction": "Analisi dettagliata delle applicazioni del kata.",
+      "videoTitle": "Video di Bunkai"
     },
     "shime": {
-      "title": "Shime (Test)",
-      "introduction": "Information about the Shime (test) of this kata."
+      "title": "Shime",
+      "description": "Shime si riferisce ai test e al condizionamento del corpo durante la pratica del kata.",
+      "videoTitle": "Dimostrazione di Shime"
     },
     "notFound": {
-      "title": "Kata Not Found",
-      "message": "The kata you are looking for does not exist in our database.",
-      "backButton": "Back to Kata List"
+      "title": "Kata Non Trovata",
+      "message": "Il kata richiesto non è stato trovato.",
+      "backButton": "Torna alla Lista dei Kata"
     }
   }
 } 
