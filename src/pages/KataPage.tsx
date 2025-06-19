@@ -104,9 +104,6 @@ const KataPage = () => {
                               <Badge variant="secondary" className="bg-red-100 text-red-800">
                                 {t(`kata.${kata.id}.japaneseName`)}
                               </Badge>
-                              <Badge variant="outline" className="text-xs">
-                                {t(`kata.levels.${kata.level.toLowerCase()}`)}
-                              </Badge>
                             </div>
                             <p className="text-gray-600 italic">
                               {t(`kata.${kata.id}.meaning`)}
