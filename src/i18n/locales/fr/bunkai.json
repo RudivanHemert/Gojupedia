@@ -1,29 +1,67 @@
 {
   "bunkai": {
     "title": "Bunkai",
-    "description": "Application and analysis of kata techniques",
-    "overview": "Overview",
+    "description": "Application et analyse des techniques de kata",
+    "overview": "Aperçu",
     "details": {
-      "attack": "Attack",
-      "defense": "Defense",
-      "counterAttack": "Counter Attack",
-      "footwork": "Footwork",
-      "vitalPoints": "Vital Points",
+      "attack": "Attaque",
+      "defense": "Défense",
+      "counterAttack": "Contre-attaque",
+      "footwork": "Jeu de Jambes",
+      "vitalPoints": "Points Vitaux",
       "notes": "Notes"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "Le bunkai de Gekisai Dai Ichi se concentre sur les combinaisons de blocage et de frappe de base, introduisant les applications fondamentales d'autodéfense."
+      },
+      "gekisai-dai-ni": {
+        "description": "Le bunkai de Gekisai Dai Ni s'appuie sur la première kata avec des techniques plus avancées incluant des frappes à main ouverte et un jeu de jambes amélioré."
+      },
+      "saifa": {
+        "description": "Le bunkai de Saifa met l'accent sur les mouvements circulaires et les techniques de combat rapproché, incluant les applications de saisie et de déchirement."
+      },
+      "seiyunchin": {
+        "description": "Le bunkai de Seiyunchin se concentre sur les positions basses, les techniques de traction puissantes et le déséquilibrage de l'adversaire par le positionnement stratégique."
+      },
+      "sepai": {
+        "description": "Le bunkai de Sepai démontre les mouvements circulaires et les techniques pour dévier et rediriger la force de l'adversaire."
+      },
+      "shisochin": {
+        "description": "Le bunkai de Shisochin présente des mouvements dans quatre directions avec des techniques à main ouverte, des clés articulaires et des frappes aux points vitaux."
+      },
+      "sanseru": {
+        "description": "Le bunkai de Sanseru inclut des mouvements dynamiques et des frappes puissantes ciblant 36 points vitaux dans tout le corps."
+      },
+      "kururunfa": {
+        "description": "Le bunkai de Kururunfa met l'accent sur le maintien et la rupture de l'équilibre, avec des frappes rapides et soudaines et des techniques de combat rapproché."
+      },
+      "sesan": {
+        "description": "Le bunkai de Sesan se concentre sur les techniques puissantes et directes et le combat rapproché avec des positions fortes et l'enracinement."
+      },
+      "suparinpei": {
+        "description": "Le bunkai de Suparinpei représente l'aboutissement des principes de Goju Ryu avec des techniques complètes et la séquence de kata la plus longue."
+      },
+      "sanchin": {
+        "description": "Le bunkai de Sanchin met l'accent sur la coordination de la respiration, la tension musculaire et le développement de l'énergie interne à travers des mouvements contrôlés."
+      },
+      "tensho": {
+        "description": "Le bunkai de Tensho se concentre sur les mouvements circulaires et fluides et les techniques à main ouverte qui représentent l'aspect doux de Goju Ryu."
+      }
     }
   },
   "bunkaiDetailPage": {
-    "kataNotFound": "Kata not found",
-    "noBunkaiAvailable": "No Bunkai available for this kata.",
-    "videoTitle": "Bunkai Video",
-    "videoDescription": "Watch the bunkai demonstration video on YouTube.",
-    "watchOnYouTube": "Watch on YouTube",
-    "noBunkaiDetails": "No detailed Bunkai information available.",
-    "attack": "Attack",
-    "defense": "Defense",
-    "counterAttack": "Counter-Attack",
-    "footwork": "Footwork",
-    "vitalPoints": "Vital Points",
+    "kataNotFound": "Kata non trouvé",
+    "noBunkaiAvailable": "Aucun Bunkai disponible pour cette kata.",
+    "videoTitle": "Vidéo de Bunkai",
+    "videoDescription": "Regardez la vidéo de démonstration de bunkai sur YouTube.",
+    "watchOnYouTube": "Regarder sur YouTube",
+    "noBunkaiDetails": "Aucune information détaillée de Bunkai disponible.",
+    "attack": "Attaque",
+    "defense": "Défense",
+    "counterAttack": "Contre-attaque",
+    "footwork": "Jeu de Jambes",
+    "vitalPoints": "Points Vitaux",
     "notes": "Notes"
   }
 } 

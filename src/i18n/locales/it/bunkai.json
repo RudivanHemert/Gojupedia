@@ -1,29 +1,67 @@
 {
   "bunkai": {
     "title": "Bunkai",
-    "description": "Application and analysis of kata techniques",
-    "overview": "Overview",
+    "description": "Applicazione e analisi delle tecniche di kata",
+    "overview": "Panoramica",
     "details": {
-      "attack": "Attack",
-      "defense": "Defense",
-      "counterAttack": "Counter Attack",
-      "footwork": "Footwork",
-      "vitalPoints": "Vital Points",
-      "notes": "Notes"
+      "attack": "Attacco",
+      "defense": "Difesa",
+      "counterAttack": "Contrattacco",
+      "footwork": "Lavoro di Gambe",
+      "vitalPoints": "Punti Vitali",
+      "notes": "Note"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "Il bunkai di Gekisai Dai Ichi si concentra su combinazioni di blocco e colpo di base, introducendo applicazioni fondamentali di autodifesa."
+      },
+      "gekisai-dai-ni": {
+        "description": "Il bunkai di Gekisai Dai Ni si basa sulla prima kata con tecniche più avanzate inclusi colpi a mano aperta e lavoro di gambe migliorato."
+      },
+      "saifa": {
+        "description": "Il bunkai di Saifa enfatizza movimenti circolari e tecniche di combattimento ravvicinato, incluse applicazioni di presa e strappo."
+      },
+      "seiyunchin": {
+        "description": "Il bunkai di Seiyunchin si concentra su posizioni basse, tecniche di trazione potenti e squilibrare l'avversario attraverso il posizionamento strategico."
+      },
+      "sepai": {
+        "description": "Il bunkai di Sepai dimostra movimenti circolari e tecniche per deviare e reindirizzare la forza dell'avversario."
+      },
+      "shisochin": {
+        "description": "Il bunkai di Shisochin presenta movimenti in quattro direzioni con tecniche a mano aperta, leve articolari e colpi ai punti vitali."
+      },
+      "sanseru": {
+        "description": "Il bunkai di Sanseru include movimenti dinamici e colpi potenti mirati a 36 punti vitali in tutto il corpo."
+      },
+      "kururunfa": {
+        "description": "Il bunkai di Kururunfa enfatizza il mantenimento e la rottura dell'equilibrio, con colpi rapidi e improvvisi e tecniche di combattimento ravvicinato."
+      },
+      "sesan": {
+        "description": "Il bunkai di Sesan si concentra su tecniche potenti e dirette e combattimento ravvicinato con posizioni forti e radicamento."
+      },
+      "suparinpei": {
+        "description": "Il bunkai di Suparinpei rappresenta il culmine dei principi di Goju Ryu con tecniche complete e la sequenza di kata più lunga."
+      },
+      "sanchin": {
+        "description": "Il bunkai di Sanchin enfatizza la coordinazione della respirazione, tensione muscolare e sviluppo dell'energia interna attraverso movimenti controllati."
+      },
+      "tensho": {
+        "description": "Il bunkai di Tensho si concentra su movimenti circolari e fluidi e tecniche a mano aperta che rappresentano l'aspetto morbido di Goju Ryu."
+      }
     }
   },
   "bunkaiDetailPage": {
-    "kataNotFound": "Kata not found",
-    "noBunkaiAvailable": "No Bunkai available for this kata.",
-    "videoTitle": "Bunkai Video",
-    "videoDescription": "Watch the bunkai demonstration video on YouTube.",
-    "watchOnYouTube": "Watch on YouTube",
-    "noBunkaiDetails": "No detailed Bunkai information available.",
-    "attack": "Attack",
-    "defense": "Defense",
-    "counterAttack": "Counter-Attack",
-    "footwork": "Footwork",
-    "vitalPoints": "Vital Points",
-    "notes": "Notes"
+    "kataNotFound": "Kata non trovata",
+    "noBunkaiAvailable": "Nessun Bunkai disponibile per questa kata.",
+    "videoTitle": "Video di Bunkai",
+    "videoDescription": "Guarda il video di dimostrazione del bunkai su YouTube.",
+    "watchOnYouTube": "Guarda su YouTube",
+    "noBunkaiDetails": "Nessuna informazione dettagliata di Bunkai disponibile.",
+    "attack": "Attacco",
+    "defense": "Difesa",
+    "counterAttack": "Contrattacco",
+    "footwork": "Lavoro di Gambe",
+    "vitalPoints": "Punti Vitali",
+    "notes": "Note"
   }
 } 

@@ -1,29 +1,67 @@
 {
   "bunkai": {
     "title": "Bunkai",
-    "description": "Application and analysis of kata techniques",
-    "overview": "Overview",
+    "description": "Aplicación y análisis de técnicas de kata",
+    "overview": "Resumen",
     "details": {
-      "attack": "Attack",
-      "defense": "Defense",
-      "counterAttack": "Counter Attack",
-      "footwork": "Footwork",
-      "vitalPoints": "Vital Points",
-      "notes": "Notes"
+      "attack": "Ataque",
+      "defense": "Defensa",
+      "counterAttack": "Contraataque",
+      "footwork": "Trabajo de Piernas",
+      "vitalPoints": "Puntos Vitales",
+      "notes": "Notas"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "El bunkai de Gekisai Dai Ichi se enfoca en combinaciones básicas de bloqueo y golpeo, introduciendo aplicaciones fundamentales de autodefensa."
+      },
+      "gekisai-dai-ni": {
+        "description": "El bunkai de Gekisai Dai Ni se basa en la primera kata con técnicas más avanzadas incluyendo golpes de mano abierta y trabajo de piernas mejorado."
+      },
+      "saifa": {
+        "description": "El bunkai de Saifa enfatiza movimientos circulares y técnicas de combate cuerpo a cuerpo, incluyendo aplicaciones de agarre y desgarre."
+      },
+      "seiyunchin": {
+        "description": "El bunkai de Seiyunchin se enfoca en posturas bajas, técnicas de tracción poderosas y desequilibrar al oponente a través del posicionamiento estratégico."
+      },
+      "sepai": {
+        "description": "El bunkai de Sepai demuestra movimientos circulares y técnicas para desviar y redirigir la fuerza del oponente."
+      },
+      "shisochin": {
+        "description": "El bunkai de Shisochin presenta movimientos en cuatro direcciones con técnicas de mano abierta, palancas articulares y golpes a puntos vitales."
+      },
+      "sanseru": {
+        "description": "El bunkai de Sanseru incluye movimientos dinámicos y golpes poderosos dirigidos a 36 puntos vitales en todo el cuerpo."
+      },
+      "kururunfa": {
+        "description": "El bunkai de Kururunfa enfatiza mantener y romper el equilibrio, con golpes rápidos y súbitos y técnicas de combate cuerpo a cuerpo."
+      },
+      "sesan": {
+        "description": "El bunkai de Sesan se enfoca en técnicas poderosas y directas y combate cuerpo a cuerpo con posturas fuertes y enraizamiento."
+      },
+      "suparinpei": {
+        "description": "El bunkai de Suparinpei representa la culminación de los principios de Goju Ryu con técnicas comprehensivas y la secuencia de kata más larga."
+      },
+      "sanchin": {
+        "description": "El bunkai de Sanchin enfatiza la coordinación de la respiración, tensión muscular y desarrollo de energía interna a través de movimientos controlados."
+      },
+      "tensho": {
+        "description": "El bunkai de Tensho se enfoca en movimientos circulares y fluidos y técnicas de mano abierta que representan el aspecto suave de Goju Ryu."
+      }
     }
   },
   "bunkaiDetailPage": {
-    "kataNotFound": "Kata not found",
-    "noBunkaiAvailable": "No Bunkai available for this kata.",
-    "videoTitle": "Bunkai Video",
-    "videoDescription": "Watch the bunkai demonstration video on YouTube.",
-    "watchOnYouTube": "Watch on YouTube",
-    "noBunkaiDetails": "No detailed Bunkai information available.",
-    "attack": "Attack",
-    "defense": "Defense",
-    "counterAttack": "Counter-Attack",
-    "footwork": "Footwork",
-    "vitalPoints": "Vital Points",
-    "notes": "Notes"
+    "kataNotFound": "Kata no encontrada",
+    "noBunkaiAvailable": "No hay Bunkai disponible para esta kata.",
+    "videoTitle": "Video de Bunkai",
+    "videoDescription": "Mira el video de demostración de bunkai en YouTube.",
+    "watchOnYouTube": "Ver en YouTube",
+    "noBunkaiDetails": "No hay información detallada de Bunkai disponible.",
+    "attack": "Ataque",
+    "defense": "Defensa",
+    "counterAttack": "Contraataque",
+    "footwork": "Trabajo de Piernas",
+    "vitalPoints": "Puntos Vitales",
+    "notes": "Notas"
   }
 } 

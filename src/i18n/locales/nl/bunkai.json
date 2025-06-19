@@ -7,23 +7,61 @@
       "attack": "Aanval",
       "defense": "Verdediging",
       "counterAttack": "Tegenaanval",
-      "footwork": "Voetwerk",
-      "vitalPoints": "Vitale Punten",
+      "footwork": "Voetenwerk",
+      "vitalPoints": "Vitalepunten",
       "notes": "Notities"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "Het bunkai van Gekisai Dai Ichi richt zich op basis blok- en slagcombinaties en introduceert fundamentele zelfverdedigingstoepassingen."
+      },
+      "gekisai-dai-ni": {
+        "description": "Gekisai Dai Ni bunkai bouwt voort op de eerste kata met meer geavanceerde technieken inclusief open hand slagen en verbeterd voetenwerk."
+      },
+      "saifa": {
+        "description": "Saifa bunkai benadrukt cirkelvormige bewegingen en close-combat technieken, inclusief grijp- en scheurtoepassingen."
+      },
+      "seiyunchin": {
+        "description": "Seiyunchin bunkai richt zich op lage standen, krachtige trektechnieken en het uit balans brengen van de tegenstander door strategische positionering."
+      },
+      "sepai": {
+        "description": "Sepai bunkai demonstreert cirkelvormige bewegingen en technieken voor het afbuigen en omleiden van de kracht van de tegenstander."
+      },
+      "shisochin": {
+        "description": "Shisochin bunkai kenmerkt zich door vierrichtingsbewegingen met open hand technieken, gewrichtsklemmen en vitalepunt aanvallen."
+      },
+      "sanseru": {
+        "description": "Sanseru bunkai omvat dynamische bewegingen en krachtige slagen gericht op 36 vitalepunten in het hele lichaam."
+      },
+      "kururunfa": {
+        "description": "Kururunfa bunkai benadrukt het vasthouden en breken van balans, met plotselinge snelle slagen en close-combat technieken."
+      },
+      "sesan": {
+        "description": "Sesan bunkai richt zich op krachtige, directe technieken en close-combat met sterke standen en worteling."
+      },
+      "suparinpei": {
+        "description": "Suparinpei bunkai vertegenwoordigt de culminatie van Goju Ryu principes met uitgebreide technieken en de langste kata-sequentie."
+      },
+      "sanchin": {
+        "description": "Sanchin bunkai benadrukt ademhalingscoördinatie, spierspanning en interne energieontwikkeling door gecontroleerde bewegingen."
+      },
+      "tensho": {
+        "description": "Tensho bunkai richt zich op cirkelvormige, vloeiende bewegingen en open hand technieken die het zachte aspect van Goju Ryu vertegenwoordigen."
+      }
     }
   },
   "bunkaiDetailPage": {
     "kataNotFound": "Kata niet gevonden",
-    "noBunkaiAvailable": "Geen bunkai beschikbaar voor deze kata.",
+    "noBunkaiAvailable": "Geen Bunkai beschikbaar voor deze kata.",
     "videoTitle": "Bunkai Video",
-    "videoDescription": "Bekijk de bunkai demonstratievideo op YouTube.",
+    "videoDescription": "Bekijk de bunkai demonstratie video op YouTube.",
     "watchOnYouTube": "Bekijk op YouTube",
-    "noBunkaiDetails": "Geen gedetailleerde bunkai-informatie beschikbaar.",
+    "noBunkaiDetails": "Geen gedetailleerde Bunkai informatie beschikbaar.",
     "attack": "Aanval",
     "defense": "Verdediging",
     "counterAttack": "Tegenaanval",
-    "footwork": "Voetwerk",
-    "vitalPoints": "Vitale Punten",
+    "footwork": "Voetenwerk",
+    "vitalPoints": "Vitalepunten",
     "notes": "Notities"
   }
 } 

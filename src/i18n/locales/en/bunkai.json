@@ -10,6 +10,44 @@
       "footwork": "Footwork",
       "vitalPoints": "Vital Points",
       "notes": "Notes"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "The bunkai of Gekisai Dai Ichi focuses on basic blocking and striking combinations, introducing fundamental self-defense applications."
+      },
+      "gekisai-dai-ni": {
+        "description": "Gekisai Dai Ni bunkai builds upon the first kata with more advanced techniques including open hand strikes and enhanced footwork."
+      },
+      "saifa": {
+        "description": "Saifa bunkai emphasizes circular movements and close-range combat techniques, including grabbing and tearing applications."
+      },
+      "seiyunchin": {
+        "description": "Seiyunchin bunkai focuses on low stances, powerful pulling techniques, and unbalancing the opponent through strategic positioning."
+      },
+      "sepai": {
+        "description": "Sepai bunkai demonstrates circular movements and techniques for deflecting and redirecting the opponent's force."
+      },
+      "shisochin": {
+        "description": "Shisochin bunkai features four-directional movements with open-hand techniques, joint locks, and pressure point strikes."
+      },
+      "sanseru": {
+        "description": "Sanseru bunkai includes dynamic movements and powerful strikes targeting 36 vital points throughout the body."
+      },
+      "kururunfa": {
+        "description": "Kururunfa bunkai emphasizes holding and breaking balance, with sudden fast strikes and close-quarter combat techniques."
+      },
+      "sesan": {
+        "description": "Sesan bunkai focuses on powerful, direct techniques and close-quarters fighting with strong stances and rooting."
+      },
+      "suparinpei": {
+        "description": "Suparinpei bunkai represents the culmination of Goju Ryu principles with comprehensive techniques and the longest kata sequence."
+      },
+      "sanchin": {
+        "description": "Sanchin bunkai emphasizes breathing coordination, muscle tension, and internal energy development through controlled movements."
+      },
+      "tensho": {
+        "description": "Tensho bunkai focuses on circular, flowing movements and open-hand techniques representing the soft aspect of Goju Ryu."
+      }
     }
   },
   "bunkaiDetailPage": {
