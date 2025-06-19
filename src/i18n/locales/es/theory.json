@@ -1,37 +1,39 @@
 {
   "theory": {
-    "title": "Theory",
-    "description": "Principles and knowledge of Goju Ryu",
-    "terminology": "Terminology",
-    "terminologyDesc": "Japanese terminology and vocabulary used in Goju Ryu",
-    "history": "History",
-    "historyDesc": "The origins and evolution of Goju Ryu Karate",
-    "philosophy": "Philosophy",
-    "philosophyDesc": "Core principles and values of Goju Ryu",
-    "kata": "Kata Theory",
-    "kataDesc": "Principles and theory behind traditional forms",
+    "title": "Teoría",
+    "description": "Principios y conocimiento de Goju Ryu",
+    "terminology": "Terminología",
+    "terminologyDesc": "Terminología japonesa y vocabulario utilizado en Goju Ryu",
+    "history": "Historia",
+    "historyDesc": "Los orígenes y evolución del Karate Goju Ryu",
+    "philosophy": "Filosofía",
+    "philosophyDesc": "Principios fundamentales y valores de Goju Ryu",
+    "kata": "Teoría de Kata",
+    "kataDesc": "Principios y teoría detrás de las formas tradicionales",
+    "vitalPoints": "Puntos Vitales",
+    "vitalPointsDesc": "Estudio de puntos de presión y áreas vulnerables",
     "nav": {
-      "terminology": "Terminology",
-      "history": "History",
-      "philosophy": "Philosophy",
+      "terminology": "Terminología",
+      "history": "Historia",
+      "philosophy": "Filosofía",
       "kata": "Kata",
-      "vitalPoints": "Vital Points",
-      "gradings": "Gradings"
+      "vitalPoints": "Puntos Vitales",
+      "gradings": "Graduaciones"
     }
   },
   "kata.theory": {
-    "title": "Kata Theory",
-    "description": "In-depth study of the principles and concepts behind Goju Ryu kata.",
+    "title": "Teoría de Kata",
+    "description": "Estudio profundo de los principios y conceptos detrás de los kata de Goju Ryu.",
     "sections": {
-      "what-are-kata": "What are Kata?",
-      "kata-and-karate": "Kata and Karate",
-      "bunkai-and-techniques": "Bunkai & Techniques",
-      "kata-origins": "Origins of Kata",
-      "power-and-movement": "Power & Movement",
-      "sources-of-power": "Sources of Power",
-      "okinawan-concepts": "Okinawan Concepts",
-      "power-transfer": "Power Transfer",
-      "kata-techniques": "Kata Techniques"
+      "what-are-kata": "¿Qué son los Kata?",
+      "kata-and-karate": "Kata y Karate",
+      "bunkai-and-techniques": "Bunkai & Técnicas",
+      "kata-origins": "Orígenes de Kata",
+      "power-and-movement": "Poder & Movimiento",
+      "sources-of-power": "Fuentes de Poder",
+      "okinawan-concepts": "Conceptos de Okinawa",
+      "power-transfer": "Transferencia de Poder",
+      "kata-techniques": "Técnicas de Kata"
     }
   }
 } 
