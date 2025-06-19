@@ -108,15 +108,16 @@ const KataDetailPage = () => {
   };
 
   // Function to extract YouTube video ID from URL
-  const getYouTubeId = (url) => {
-    if (!url) return null;
+  const getYouTubeId = (url: string | undefined | null) => {
+    if (!url || typeof url !== 'string') return null;
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
     const match = url.match(regExp);
     return (match && match[2].length === 11) ? match[2] : null;
   };
 
   const kataVideoId = getYouTubeId(kata.videoUrl);
-  const bunkaiVideoId = getYouTubeId(kata.bunkai);
+  // Handle bunkai which can be either a string (URL) or array of BunkaiDetail objects
+  const bunkaiVideoId = typeof kata.bunkai === 'string' ? getYouTubeId(kata.bunkai) : null;
   const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
