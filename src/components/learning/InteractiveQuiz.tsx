@@ -8,6 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Check, X, Award, RotateCcw, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export type QuestionType = 'multiple-choice' | 'text-input' | 'multiple-select' | 'true-false' | 'matching';
 
@@ -47,6 +48,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
   shuffleOptions = true,
   timeLimit
 }) => {
+  const { t } = useTranslation();
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
@@ -248,7 +250,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
   const totalPoints = questions.reduce((sum, q) => sum + (q.points || 1), 0);
   
   if (questions.length === 0) {
-    return <div className="flex justify-center p-8">Loading quiz...</div>;
+    return <div className="flex justify-center p-8">{t('quiz.loading')}</div>;
   }
   
   // Quiz completion screen
@@ -257,13 +259,13 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     let feedback = '';
     
     if (percentage >= 90) {
-      feedback = 'Excellent! You have mastered this material.';
+      feedback = t('quiz.feedback.excellent');
     } else if (percentage >= 75) {
-      feedback = 'Great job! You have a strong understanding of the content.';
+      feedback = t('quiz.feedback.great');
     } else if (percentage >= 60) {
-      feedback = 'Good effort! Keep studying to improve your knowledge.';
+      feedback = t('quiz.feedback.good');
     } else {
-      feedback = 'Keep practicing! Review the material and try again.';
+      feedback = t('quiz.feedback.keepPracticing');
     }
     
     return (
@@ -271,11 +273,11 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
         <CardContent className="pt-6 pb-4 px-6">
           <div className="text-center space-y-6">
             <Award className="w-16 h-16 mx-auto text-primary" />
-            <h2 className="text-2xl font-bold">{title} - Results</h2>
+            <h2 className="text-2xl font-bold">{title} - {t('quiz.results')}</h2>
             
             <div className="space-y-2">
               <div className="flex justify-between text-sm text-gray-500">
-                <span>Score</span>
+                <span>{t('quiz.score')}</span>
                 <span>{percentage}%</span>
               </div>
               <Progress value={percentage} className="h-3" />
@@ -283,7 +285,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
             
             <div className="space-y-1">
               <div className="text-xl font-semibold">
-                You scored {score} out of {totalPoints} points
+                {t('quiz.youScored')} {score} {t('quiz.outOf')} {totalPoints} {t('quiz.points')}
               </div>
               <div className="text-gray-600">{feedback}</div>
             </div>
@@ -296,7 +298,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
             onClick={resetQuiz}
           >
             <RotateCcw className="w-4 h-4 mr-2" />
-            Retake Quiz
+            {t('quiz.retakeQuiz')}
           </Button>
         </CardFooter>
       </Card>
@@ -309,14 +311,14 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">{title}</h2>
           <span className="text-sm text-gray-500">
-            Question {currentQuestionIndex + 1} of {totalQuestions}
+            {t('quiz.question')} {currentQuestionIndex + 1} {t('quiz.of')} {totalQuestions}
           </span>
         </div>
         
         {timeLimit && (
           <div className="mb-4">
             <div className="flex justify-between text-sm text-gray-500">
-              <span>Time Remaining</span>
+              <span>{t('quiz.timeRemaining')}</span>
               <span>
                 {Math.floor(remainingTime! / 60)}:
                 {(remainingTime! % 60).toString().padStart(2, '0')}
@@ -349,7 +351,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                 <div className="flex justify-center my-4">
                   <img 
                     src={currentQuestion.imageUrl} 
-                    alt="Question visual"
+                    alt={t('quiz.questionVisual')}
                     className="max-h-64 rounded-lg"
                   />
                 </div>
@@ -400,7 +402,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                 <div className="space-y-4">
                   <Input
                     type="text"
-                    placeholder="Type your answer here"
+                    placeholder={t('quiz.typeYourAnswer')}
                     value={textInput}
                     onChange={handleTextInputChange}
                     disabled={showAnswer}
@@ -412,7 +414,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                   />
                   {showAnswer && (
                     <div className="text-sm">
-                      <span className="font-semibold">Correct answer: </span>
+                      <span className="font-semibold">{t('quiz.correctAnswer')}: </span>
                       <span>{currentQuestion.correctAnswer}</span>
                     </div>
                   )}
@@ -422,7 +424,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
               {/* Multiple Select */}
               {currentQuestion.type === 'multiple-select' && (
                 <div className="space-y-2">
-                  <p className="text-sm text-gray-500 mb-2">Select all that apply</p>
+                  <p className="text-sm text-gray-500 mb-2">{t('quiz.selectAllThatApply')}</p>
                   {currentQuestion.options?.map((option) => (
                     <div 
                       key={option.id} 
@@ -470,8 +472,8 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                 >
                   <div className="space-y-2">
                     {[
-                      { id: 'true', text: 'True' },
-                      { id: 'false', text: 'False' }
+                      { id: 'true', text: t('quiz.true') },
+                      { id: 'false', text: t('quiz.false') }
                     ].map((option) => {
                       const trueOption = currentQuestion.options?.find(o => o.id === 'true');
                       const isTrueCorrect = trueOption?.isCorrect || false;
@@ -534,17 +536,17 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
             } 
             onClick={checkAnswer}
           >
-            Check Answer
+            {t('quiz.checkAnswer')}
           </Button>
         ) : (
           <Button onClick={nextQuestion}>
             {currentQuestionIndex < totalQuestions - 1 ? (
               <>
-                Next Question
+                {t('quiz.nextQuestion')}
                 <ChevronRight className="ml-2 h-4 w-4" />
               </>
             ) : (
-              'Finish Quiz'
+              t('quiz.finishQuiz')
             )}
           </Button>
         )}

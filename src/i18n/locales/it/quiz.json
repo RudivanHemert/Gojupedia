@@ -1,0 +1,32 @@
+{
+  "quiz": {
+    "loading": "Caricamento quiz...",
+    "question": "Domanda",
+    "of": "di",
+    "timeRemaining": "Tempo rimanente",
+    "score": "Punteggio",
+    "points": "punti",
+    "correctAnswer": "Risposta corretta",
+    "selectAllThatApply": "Seleziona tutte quelle che si applicano",
+    "typeYourAnswer": "Scrivi la tua risposta qui",
+    "checkAnswer": "Controlla risposta",
+    "nextQuestion": "Prossima domanda",
+    "finishQuiz": "Termina quiz",
+    "retakeQuiz": "Ripeti quiz",
+    "results": "Risultati",
+    "youScored": "Hai ottenuto",
+    "outOf": "di",
+    "feedback": {
+      "excellent": "Eccellente! Hai padroneggiato questo materiale.",
+      "great": "Ottimo lavoro! Hai una solida comprensione del contenuto.",
+      "good": "Buon sforzo! Continua a studiare per migliorare le tue conoscenze.",
+      "keepPracticing": "Continua a praticare! Rivedi il materiale e riprova."
+    },
+    "true": "Vero",
+    "false": "Falso",
+    "questionVisual": "Immagine della domanda",
+    "quiz": "Quiz",
+    "techniqueQuiz": "Quiz di Tecniche",
+    "noQuestionsForCategory": "Nessuna domanda di quiz trovata per la categoria:"
+  }
+} 

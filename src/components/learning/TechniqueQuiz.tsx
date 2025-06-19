@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import InteractiveQuiz, { QuizQuestion, QuestionType, QuizOption } from './InteractiveQuiz';
 import { techniquesData, TechniqueData } from '@/data/techniquesData'; // Adjust path as needed
+import { useTranslation } from 'react-i18next';
 
 // Utility function to shuffle an array (Fisher-Yates algorithm)
 const shuffle = <T,>(array: T[]): T[] => {
@@ -19,7 +20,8 @@ type TechniqueCategory = TechniqueData['category'];
 const generateQuizQuestions = (
   data: TechniqueData[], 
   numQuestions: number = 10, 
-  category?: TechniqueCategory
+  category?: TechniqueCategory,
+  language: string = 'en'
 ): QuizQuestion[] => {
   // Filter data by category if provided
   const filteredData = category ? data.filter(item => item.category === category) : data;
@@ -44,8 +46,14 @@ const generateQuizQuestions = (
     const questionType: QuestionType = 'multiple-choice'; 
 
     if (questionType === 'multiple-choice') {
-      const questionText = `What is the English translation for "${item.japanese}"${item.kanji ? ` (${item.kanji})` : ''}?`;
-      const correctAnswer = item.english;
+      // Use Dutch translation if available, otherwise fall back to English
+      const isDutch = language === 'nl';
+      const correctAnswer = item.english; // For now, always use English as fallback
+      
+      const questionText = isDutch 
+        ? `Wat is de Nederlandse vertaling voor "${item.japanese}"${item.kanji ? ` (${item.kanji})` : ''}?`
+        : `What is the English translation for "${item.japanese}"${item.kanji ? ` (${item.kanji})` : ''}?`;
+      
       const correctCategory = item.category;
 
       let incorrectOptions: QuizOption[] = [];
@@ -61,7 +69,11 @@ const generateQuizQuestions = (
           )
       ).slice(0, 2);
 
-      incorrectOptions.push(...sameCategoryDistractors.map(d => ({ id: d.id, text: d.english, isCorrect: false })));
+      incorrectOptions.push(...sameCategoryDistractors.map(d => ({ 
+        id: d.id, 
+        text: d.english, 
+        isCorrect: false 
+      })));
 
       // 2. Try to get 1 distractor from other categories
       if (incorrectOptions.length < 3) { // Only if needed
@@ -74,7 +86,11 @@ const generateQuizQuestions = (
               )
           ).slice(0, 3 - incorrectOptions.length); // Get remaining needed
 
-          incorrectOptions.push(...otherCategoryDistractors.map(d => ({ id: d.id, text: d.english, isCorrect: false })));
+          incorrectOptions.push(...otherCategoryDistractors.map(d => ({ 
+            id: d.id, 
+            text: d.english, 
+            isCorrect: false 
+          })));
       }
 
       // --- Fallback Logic (if still not enough options) ---
@@ -90,7 +106,11 @@ const generateQuizQuestions = (
                   !incorrectOptions.some(opt => opt.id === d.id)
               )
           ).slice(0, additionalNeeded);
-          incorrectOptions.push(...fallbackOptions.map(d => ({ id: d.id, text: d.english, isCorrect: false })));
+          incorrectOptions.push(...fallbackOptions.map(d => ({ 
+            id: d.id, 
+            text: d.english, 
+            isCorrect: false 
+          })));
       }
 
       // 4. Final fallback with placeholders if absolutely necessary
@@ -98,7 +118,7 @@ const generateQuizQuestions = (
            console.warn(`Using generic fallback distractors for item '${item.id}'. Dataset might be too small.`);
            const fallbackQuizOption: QuizOption = {
                id: `fallback-${item.id}-${incorrectOptions.length}`,
-               text: `Other Term ${incorrectOptions.length + 1}`, 
+               text: isDutch ? `Andere Term ${incorrectOptions.length + 1}` : `Other Term ${incorrectOptions.length + 1}`, 
                isCorrect: false 
            };
            incorrectOptions.push(fallbackQuizOption);
@@ -113,12 +133,16 @@ const generateQuizQuestions = (
         ...incorrectOptions,
       ]);
 
+      const explanation = isDutch
+        ? `"${item.japanese}" betekent "${correctAnswer}".`
+        : `"${item.japanese}" means "${correctAnswer}".`;
+
       questions.push({
-        id: `${item.id}-mc-jap-eng`,
+        id: `${item.id}-mc-jap-${language}`,
         type: 'multiple-choice',
         question: questionText,
         options: options,
-        explanation: `"${item.japanese}" means "${item.english}".`,
+        explanation: explanation,
         points: 1,
       });
     }
@@ -134,12 +158,13 @@ interface TechniqueQuizProps {
 }
 
 const TechniqueQuiz: React.FC<TechniqueQuizProps> = ({ category, title }) => {
+  const { t, i18n } = useTranslation();
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
 
   useEffect(() => {
-    // Pass category to generator
-    setQuizQuestions(generateQuizQuestions(techniquesData, 10, category)); 
-  }, [category]); // Re-generate if category changes
+    // Pass category and language to generator
+    setQuizQuestions(generateQuizQuestions(techniquesData, 10, category, i18n.language)); 
+  }, [category, i18n.language]); // Re-generate if category or language changes
 
   const handleQuizComplete = (score: number, totalPossible: number) => {
     console.log(`Quiz Complete! [${category || 'All'}] Score: ${score}/${totalPossible}`);
@@ -147,13 +172,13 @@ const TechniqueQuiz: React.FC<TechniqueQuizProps> = ({ category, title }) => {
 
   if (quizQuestions.length === 0 && category) {
       // Specific message if category is empty
-      return <div>No quiz questions found for the category: {category}.</div>;
+      return <div>{t('quiz.noQuestionsForCategory', 'No quiz questions found for the category:')} {category}.</div>;
   } else if (quizQuestions.length === 0) {
-    return <div>Loading quiz...</div>;
+    return <div>{t('quiz.loading')}</div>;
   }
 
   // Use dynamic title based on category or prop
-  const quizTitle = title || (category ? `${category} Quiz` : 'Technique Quiz');
+  const quizTitle = title || (category ? `${category} ${t('quiz.quiz')}` : t('quiz.techniqueQuiz', 'Technique Quiz'));
 
   return (
     <InteractiveQuiz

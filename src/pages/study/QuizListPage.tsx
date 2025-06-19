@@ -17,7 +17,7 @@ const QuizListPage = () => {
         <div className="px-4 py-6">
           <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">{t('study.quizzes')}</h1>
           <p className="text-stone-600 text-center text-sm">
-            {t('study.quizDesc', 'Test your knowledge on various topics.')}
+            {t('study.quizDesc')}
           </p>
         </div>
       </div>

@@ -24,6 +24,12 @@
     "notFound": {
       "title": "Study not found",
       "description": "The requested study could not be found."
-    }
+    },
+    "questions": "questions",
+    "cards": "cards",
+    "category": "Category",
+    "start": "Start",
+    "quiz": "Quiz",
+    "flashcards": "Flashcards"
   }
 } 

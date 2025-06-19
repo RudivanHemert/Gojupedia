@@ -1,0 +1,32 @@
+{
+  "quiz": {
+    "loading": "Loading quiz...",
+    "question": "Question",
+    "of": "of",
+    "timeRemaining": "Time Remaining",
+    "score": "Score",
+    "points": "points",
+    "correctAnswer": "Correct answer",
+    "selectAllThatApply": "Select all that apply",
+    "typeYourAnswer": "Type your answer here",
+    "checkAnswer": "Check Answer",
+    "nextQuestion": "Next Question",
+    "finishQuiz": "Finish Quiz",
+    "retakeQuiz": "Retake Quiz",
+    "results": "Results",
+    "youScored": "You scored",
+    "outOf": "out of",
+    "feedback": {
+      "excellent": "Excellent! You have mastered this material.",
+      "great": "Great job! You have a strong understanding of the content.",
+      "good": "Good effort! Keep studying to improve your knowledge.",
+      "keepPracticing": "Keep practicing! Review the material and try again."
+    },
+    "true": "True",
+    "false": "False",
+    "questionVisual": "Question visual",
+    "quiz": "Quiz",
+    "techniqueQuiz": "Technique Quiz",
+    "noQuestionsForCategory": "No quiz questions found for the category:"
+  }
+} 
