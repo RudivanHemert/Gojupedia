@@ -79,68 +79,11 @@ export const techniques: Technique[] = [
 ];
 
 export const katas: Kata[] = [
-  {
-    id: "sanchin",
-    level: "Beginner",
-    steps: [
-      "Begin in natural stance facing forward",
-      "Step forward into sanchin dachi",
-      "Perform three punches while maintaining proper breathing",
-      "Turn 180 degrees while maintaining tension",
-      "Continue sequence with controlled movements and breathing",
-      "Maintain muscle tension throughout the entire form"
-    ],
-    images: [
-      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
-    ],
-    keyFeatures: [
-      "Heavy emphasis on breathing technique",
-      "Maintains consistent muscle tension",
-      "Focuses on internal energy development",
-      "Foundation for all other Goju Ryu kata"
-    ],
-    movements: "13 primary movements",
-    duration: "1-3 minutes",
-    origin: "Fujian Province, China",
-    masters: [
-      "Chojun Miyagi",
-      "Kanryo Higaonna",
-      "Seiko Higa"
-    ],
-    videoUrl: "https://www.youtube.com/watch?v=kybxNOlnl20",
-    bunkai: "https://www.youtube.com/watch?v=Ym-dPP2Mb_c"
-  },
-  {
-    id: "tensho",
-    level: "Advanced",
-    steps: [
-      "Begin in sanchin stance",
-      "Perform circular open-hand techniques",
-      "Maintain muscle tension throughout",
-      "Focus on fluid, circular movements",
-      "Maintain proper breathing throughout kata"
-    ],
-    images: [
-      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
-    ],
-    keyFeatures: [
-      "Circular, flowing movements",
-      "Open-hand techniques",
-      "Contrast to Sanchin\'s hard techniques",
-      "Represents the \'ju\' (soft) aspect of Goju Ryu"
-    ],
-    movements: "16 primary movements",
-    duration: "1-2 minutes",
-    origin: "Okinawa, Japan",
-    masters: [
-      "Chojun Miyagi"
-    ],
-    videoUrl: "",
-    bunkai: "https://www.youtube.com/watch?v=QM7IZ0gnOzw"
-  },
+  // Kaishugata (Open Hand Forms)
   {
     id: "gekisai-dai-ichi",
     level: "Beginner",
+    category: "kaishugata",
     steps: [
       "Begin in natural stance facing forward",
       "Step into sanchin dachi with double block",
@@ -239,6 +182,7 @@ export const katas: Kata[] = [
   {
     id: "gekisai-dai-ni",
     level: "Beginner",
+    category: "kaishugata",
     steps: [
       "Begin in natural stance facing forward",
       "Step into sanchin dachi with open hand block",
@@ -270,6 +214,7 @@ export const katas: Kata[] = [
   {
     id: "saifa",
     level: "Intermediate",
+    category: "kaishugata",
     steps: [
       "Begin in natural stance facing forward",
       "Execute opening sequence with simultaneous blocks",
@@ -300,6 +245,7 @@ export const katas: Kata[] = [
   {
     id: "seiyunchin",
     level: "Intermediate",
+    category: "kaishugata",
     steps: [
       "Emphasis on low stances and powerful pulling/unbalancing techniques",
       "Unique breathing patterns",
@@ -319,8 +265,31 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=VfyccUJZEqs"
   },
   {
+    id: "sepai",
+    level: "Master",
+    category: "kaishugata",
+    steps: [
+      "Circular movements",
+      "Deflecting and redirecting opponent\'s force",
+      "Advanced combination techniques"
+    ],
+    images: [],
+    keyFeatures: [
+      "Representing the number 18 (6x3)",
+      "Circular and flowing movements",
+      "Techniques for close-range combat and grappling"
+    ],
+    movements: "18 primary movements (symbolic)",
+    duration: "3-4 minutes",
+    origin: "Fujian Province, China (likely White Crane style)",
+    masters: ["Kanryo Higaonna", "Chojun Miyagi"],
+    videoUrl: "",
+    bunkai: "https://www.youtube.com/watch?v=BrBc1_vGZDM"
+  },
+  {
     id: "shisochin",
     level: "Advanced",
+    category: "kaishugata",
     steps: [
       "Four-directional movements",
       "Open-hand techniques (Nukite, Shotei)",
@@ -442,6 +411,7 @@ export const katas: Kata[] = [
   {
     id: "sanseru",
     level: "Advanced",
+    category: "kaishugata",
     steps: [
       "Dynamic movements and powerful strikes",
       "Combination techniques targeting vital points",
@@ -461,29 +431,9 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=fKYlZZnkjoM"
   },
   {
-    id: "sepai",
-    level: "Master",
-    steps: [
-      "Circular movements",
-      "Deflecting and redirecting opponent\'s force",
-      "Advanced combination techniques"
-    ],
-    images: [],
-    keyFeatures: [
-      "Representing the number 18 (6x3)",
-      "Circular and flowing movements",
-      "Techniques for close-range combat and grappling"
-    ],
-    movements: "18 primary movements (symbolic)",
-    duration: "3-4 minutes",
-    origin: "Fujian Province, China (likely White Crane style)",
-    masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
-    bunkai: "https://www.youtube.com/watch?v=BrBc1_vGZDM"
-  },
-  {
     id: "kururunfa",
     level: "Master",
+    category: "kaishugata",
     steps: [
       "Holding and breaking balance",
       "Sudden, fast strikes",
@@ -505,6 +455,7 @@ export const katas: Kata[] = [
   {
     id: "sesan",
     level: "Master",
+    category: "kaishugata",
     steps: [
       "Powerful, direct techniques",
       "Close-quarters fighting",
@@ -526,6 +477,7 @@ export const katas: Kata[] = [
   {
     id: "suparinpei",
     level: "Master",
+    category: "kaishugata",
     steps: [
       "Comprehensive range of Goju Ryu techniques",
       "Longest and most complex kata",
@@ -543,6 +495,68 @@ export const katas: Kata[] = [
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
     bunkai: "https://www.youtube.com/watch?v=w4wIpiz6l-0"
+  },
+  // Heishugata (Closed Hand Forms)
+  {
+    id: "sanchin",
+    level: "Beginner",
+    category: "heishugata",
+    steps: [
+      "Begin in natural stance facing forward",
+      "Step forward into sanchin dachi",
+      "Perform three punches while maintaining proper breathing",
+      "Turn 180 degrees while maintaining tension",
+      "Continue sequence with controlled movements and breathing",
+      "Maintain muscle tension throughout the entire form"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Heavy emphasis on breathing technique",
+      "Maintains consistent muscle tension",
+      "Focuses on internal energy development",
+      "Foundation for all other Goju Ryu kata"
+    ],
+    movements: "13 primary movements",
+    duration: "1-3 minutes",
+    origin: "Fujian Province, China",
+    masters: [
+      "Chojun Miyagi",
+      "Kanryo Higaonna",
+      "Seiko Higa"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=kybxNOlnl20",
+    bunkai: "https://www.youtube.com/watch?v=Ym-dPP2Mb_c"
+  },
+  {
+    id: "tensho",
+    level: "Advanced",
+    category: "heishugata",
+    steps: [
+      "Begin in sanchin stance",
+      "Perform circular open-hand techniques",
+      "Maintain muscle tension throughout",
+      "Focus on fluid, circular movements",
+      "Maintain proper breathing throughout kata"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop"
+    ],
+    keyFeatures: [
+      "Circular, flowing movements",
+      "Open-hand techniques",
+      "Contrast to Sanchin\'s hard techniques",
+      "Represents the \'ju\' (soft) aspect of Goju Ryu"
+    ],
+    movements: "16 primary movements",
+    duration: "1-2 minutes",
+    origin: "Okinawa, Japan",
+    masters: [
+      "Chojun Miyagi"
+    ],
+    videoUrl: "",
+    bunkai: "https://www.youtube.com/watch?v=QM7IZ0gnOzw"
   }
 ];
 

@@ -4,6 +4,27 @@
     "description": "Traditionele vormen van Goju Ryu",
     "theoryTitle": "Kata Theorie",
     "theoryDescription": "Inzicht in de principes en praktijk van kata",
+    "theory": {
+      "title": "Kata Theorie",
+      "description": "Begrip van de principes en praktijk van kata",
+      "sections": {
+        "what-are-kata": "Wat zijn Kata?",
+        "kata-and-karate": "Kata en Karate",
+        "bunkai-and-techniques": "Bunkai & Technieken",
+        "kata-origins": "Kata Oorsprong",
+        "power-and-movement": "Kracht & Beweging",
+        "sources-of-power": "Krachtbronnen",
+        "okinawan-concepts": "Okinawaanse Concepten",
+        "power-transfer": "Krachtoverbrenging",
+        "kata-techniques": "Kata Technieken"
+      }
+    },
+    "categories": {
+      "kaishugata": "Kaishugata (開手型)",
+      "kaishugataDescription": "Open Hand Vormen - De kerngevechts-kata van Goju Ryu, die praktische gevechtstoepassingen en dynamische bewegingen benadrukt.",
+      "heishugata": "Heishugata (閉手型)",
+      "heishugataDescription": "Gesloten Hand Vormen - De fundamentele kata die zich richten op ademhaling, spanning en interne energieontwikkeling."
+    },
     "sections": {
       "whatAreKata": "Wat zijn Kata?",
       "kataAndKarate": "Kata en Karate",
@@ -17,8 +38,8 @@
     },
     "levels": {
       "beginner": "Beginner",
-      "intermediate": "Gemiddeld",
-      "advanced": "Gevorderd",
+      "intermediate": "Gevorderd",
+      "advanced": "Uitgebreid",
       "master": "Meester"
     },
     "gekisai-dai-ichi": {

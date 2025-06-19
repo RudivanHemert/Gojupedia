@@ -1,19 +1,25 @@
 {
   "kata": {
     "theory": {
-      "title": "Kata Theorie",
-      "description": "Verständnis der Prinzipien und Praxis der Kata",
+      "title": "Kata-Theorie",
+      "description": "Verständnis der Prinzipien und Praxis von Kata",
       "sections": {
         "what-are-kata": "Was sind Kata?",
         "kata-and-karate": "Kata und Karate",
         "bunkai-and-techniques": "Bunkai & Techniken",
-        "kata-origins": "Kata Ursprünge",
+        "kata-origins": "Kata-Ursprünge",
         "power-and-movement": "Kraft & Bewegung",
         "sources-of-power": "Kraftquellen",
         "okinawan-concepts": "Okinawanische Konzepte",
         "power-transfer": "Kraftübertragung",
-        "kata-techniques": "Kata Techniken"
+        "kata-techniques": "Kata-Techniken"
       }
+    },
+    "categories": {
+      "kaishugata": "Kaishugata (開手型)",
+      "kaishugataDescription": "Offene Handformen - Die Kernkampf-Kata des Goju Ryu, die praktische Kampfanwendungen und dynamische Bewegungen betonen.",
+      "heishugata": "Heishugata (閉手型)",
+      "heishugataDescription": "Geschlossene Handformen - Die grundlegenden Kata, die sich auf Atmung, Spannung und innere Energieentwicklung konzentrieren."
     },
     "levels": {
       "beginner": "Anfänger",

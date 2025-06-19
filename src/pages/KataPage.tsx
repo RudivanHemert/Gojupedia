@@ -11,12 +11,12 @@ import { Badge } from '@/components/ui/badge';
 const KataPage = () => {
   const { t } = useTranslation();
 
-  // Group katas by level
-  const katasByLevel = katas.reduce((acc, kata) => {
-    if (!acc[kata.level]) {
-      acc[kata.level] = [];
+  // Group katas by category
+  const katasByCategory = katas.reduce((acc, kata) => {
+    if (!acc[kata.category]) {
+      acc[kata.category] = [];
     }
-    acc[kata.level].push(kata);
+    acc[kata.category].push(kata);
     return acc;
   }, {} as Record<string, typeof katas>);
 
@@ -41,6 +41,28 @@ const KataPage = () => {
     }
   };
 
+  const getCategoryTitle = (category: string) => {
+    switch (category) {
+      case 'kaishugata':
+        return t('kata.categories.kaishugata');
+      case 'heishugata':
+        return t('kata.categories.heishugata');
+      default:
+        return category;
+    }
+  };
+
+  const getCategoryDescription = (category: string) => {
+    switch (category) {
+      case 'kaishugata':
+        return t('kata.categories.kaishugataDescription');
+      case 'heishugata':
+        return t('kata.categories.heishugataDescription');
+      default:
+        return '';
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
@@ -54,13 +76,18 @@ const KataPage = () => {
           animate="visible"
           className="max-w-4xl mx-auto space-y-8"
         >
-          {Object.entries(katasByLevel).map(([level, levelKatas]) => (
-            <motion.div key={level} variants={itemVariants}>
-              <h2 className="text-2xl font-bold mb-4 text-gray-800">
-                {t(`kata.levels.${level.toLowerCase()}`)}
-              </h2>
+          {Object.entries(katasByCategory).map(([category, categoryKatas]) => (
+            <motion.div key={category} variants={itemVariants}>
+              <div className="mb-6">
+                <h2 className="text-3xl font-bold mb-2 text-gray-800">
+                  {getCategoryTitle(category)}
+                </h2>
+                <p className="text-gray-600 text-lg">
+                  {getCategoryDescription(category)}
+                </p>
+              </div>
               <div className="grid gap-4">
-                {levelKatas.map((kata) => (
+                {categoryKatas.map((kata) => (
                   <Link 
                     key={kata.id} 
                     to={`/kata/${kata.id}`}
@@ -76,6 +103,9 @@ const KataPage = () => {
                               </h3>
                               <Badge variant="secondary" className="bg-red-100 text-red-800">
                                 {t(`kata.${kata.id}.japaneseName`)}
+                              </Badge>
+                              <Badge variant="outline" className="text-xs">
+                                {t(`kata.levels.${kata.level.toLowerCase()}`)}
                               </Badge>
                             </div>
                             <p className="text-gray-600 italic">

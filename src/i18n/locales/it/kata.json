@@ -10,10 +10,16 @@
         "kata-origins": "Origini dei Kata",
         "power-and-movement": "Potere e Movimento",
         "sources-of-power": "Fonti di Potere",
-        "okinawan-concepts": "Concetti di Okinawa",
+        "okinawan-concepts": "Concetti Okinawensi",
         "power-transfer": "Trasferimento di Potere",
         "kata-techniques": "Tecniche di Kata"
       }
+    },
+    "categories": {
+      "kaishugata": "Kaishugata (開手型)",
+      "kaishugataDescription": "Forme a Mani Aperte - I kata di combattimento centrali del Goju Ryu, enfatizzando applicazioni di combattimento pratiche e movimenti dinamici.",
+      "heishugata": "Heishugata (閉手型)",
+      "heishugataDescription": "Forme a Mani Chiuse - I kata fondamentali che si concentrano sulla respirazione, tensione e sviluppo dell'energia interna."
     },
     "levels": {
       "beginner": "Principiante",

@@ -38,6 +38,7 @@ export interface Kata {
   meaning?: string;
   description?: string;
   level: string;
+  category: 'kaishugata' | 'heishugata'; // Traditional Goju Ryu categories
   steps: string[];
   images: string[];
   video?: string;
