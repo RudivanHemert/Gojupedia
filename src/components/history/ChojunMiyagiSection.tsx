@@ -4,7 +4,7 @@ import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
 
 const ChojunMiyagiSection = () => {
-  const markdownContent = useMarkdownContent('../content/history/chojun-miyagi');
+  const markdownContent = useMarkdownContent('history/chojun-miyagi');
 
   return (
     <SectionWrapper title="Chojun Miyagi (1888 - 1953)">

@@ -6,7 +6,7 @@ import { useMarkdownContent } from '@/utils/markdown';
 
 const TetsujiNakamuraSection = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const markdownContent = useMarkdownContent('../content/history/tetsuji-nakamura');
+  const markdownContent = useMarkdownContent('history/tetsuji-nakamura');
 
   return (
     <section className="space-y-4 mt-8">

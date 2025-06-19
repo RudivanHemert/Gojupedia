@@ -1,29 +1,29 @@
 {
   "bunkai": {
     "title": "Bunkai",
-    "description": "Application and analysis of kata techniques",
-    "overview": "Overview",
+    "description": "Toepassing en analyse van kata-technieken",
+    "overview": "Overzicht",
     "details": {
-      "attack": "Attack",
-      "defense": "Defense",
-      "counterAttack": "Counter Attack",
-      "footwork": "Footwork",
-      "vitalPoints": "Vital Points",
-      "notes": "Notes"
+      "attack": "Aanval",
+      "defense": "Verdediging",
+      "counterAttack": "Tegenaanval",
+      "footwork": "Voetwerk",
+      "vitalPoints": "Vitale Punten",
+      "notes": "Notities"
     }
   },
   "bunkaiDetailPage": {
-    "kataNotFound": "Kata not found",
-    "noBunkaiAvailable": "No Bunkai available for this kata.",
+    "kataNotFound": "Kata niet gevonden",
+    "noBunkaiAvailable": "Geen bunkai beschikbaar voor deze kata.",
     "videoTitle": "Bunkai Video",
-    "videoDescription": "Watch the bunkai demonstration video on YouTube.",
-    "watchOnYouTube": "Watch on YouTube",
-    "noBunkaiDetails": "No detailed Bunkai information available.",
-    "attack": "Attack",
-    "defense": "Defense",
-    "counterAttack": "Counter-Attack",
-    "footwork": "Footwork",
-    "vitalPoints": "Vital Points",
-    "notes": "Notes"
+    "videoDescription": "Bekijk de bunkai demonstratievideo op YouTube.",
+    "watchOnYouTube": "Bekijk op YouTube",
+    "noBunkaiDetails": "Geen gedetailleerde bunkai-informatie beschikbaar.",
+    "attack": "Aanval",
+    "defense": "Verdediging",
+    "counterAttack": "Tegenaanval",
+    "footwork": "Voetwerk",
+    "vitalPoints": "Vitale Punten",
+    "notes": "Notities"
   }
 } 

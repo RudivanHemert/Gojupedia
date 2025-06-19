@@ -1,0 +1,245 @@
+{
+  "graduations": {
+    "title": "Graduierungen & Ränge",
+    "description": "Übersicht über die verschiedenen Gürtel, Grade und Titel im Goju Ryu Karate.",
+    "sections": {
+      "ranks": {
+        "title": "Gürtel und Grade",
+        "description": "Das Graduierungssystem im Goju Ryu Karate",
+        "kyu": {
+          "name": "Kyu",
+          "japanese": "級",
+          "description": "Kyu (farbige Gürtel, unter Schwarzgurt)"
+        },
+        "dan": {
+          "name": "Dan",
+          "japanese": "段",
+          "description": "Dan (Schwarzgurt-Ränge)"
+        },
+        "ranks": {
+          "shodan": {
+            "name": "Shodan",
+            "japanese": "初段",
+            "description": "Erster Dan (erster Schwarzgurt-Grad)"
+          },
+          "nidan": {
+            "name": "Nidan",
+            "japanese": "二段",
+            "description": "Zweiter Dan"
+          },
+          "sandan": {
+            "name": "Sandan",
+            "japanese": "三段",
+            "description": "Dritter Dan"
+          },
+          "yondan": {
+            "name": "Yondan",
+            "japanese": "四段",
+            "description": "Vierter Dan"
+          },
+          "godan": {
+            "name": "Godan",
+            "japanese": "五段",
+            "description": "Fünfter Dan"
+          },
+          "rokudan": {
+            "name": "Rokudan",
+            "japanese": "六段",
+            "description": "Sechster Dan"
+          },
+          "nanadan": {
+            "name": "Nanadan",
+            "japanese": "七段",
+            "description": "Siebter Dan"
+          },
+          "hachidan": {
+            "name": "Hachidan",
+            "japanese": "八段",
+            "description": "Achter Dan"
+          },
+          "kudan": {
+            "name": "Kudan",
+            "japanese": "九段",
+            "description": "Neunter Dan"
+          },
+          "judan": {
+            "name": "Judan",
+            "japanese": "十段",
+            "description": "Zehnter Dan"
+          }
+        }
+      },
+      "beltColors": {
+        "title": "Gürtelfarben (Kyu-Grade)",
+        "description": "Die verschiedenen Farben der Kyu-Grade",
+        "colors": {
+          "white": {
+            "name": "Weiß",
+            "japanese": "白帯",
+            "description": "Anfänger - Reinheit und Lernbereitschaft"
+          },
+          "yellow": {
+            "name": "Gelb",
+            "japanese": "黄帯",
+            "description": "Erster Schritt - die aufgehende Sonne"
+          },
+          "orange": {
+            "name": "Orange",
+            "japanese": "橙帯",
+            "description": "Die Sonne wird stärker"
+          },
+          "green": {
+            "name": "Grün",
+            "japanese": "緑帯",
+            "description": "Die Pflanze wächst - Entwicklung der Fähigkeiten"
+          },
+          "blue": {
+            "name": "Blau",
+            "japanese": "青帯",
+            "description": "Der Himmel - Freiheit und Möglichkeiten"
+          },
+          "brown": {
+            "name": "Braun",
+            "japanese": "茶帯",
+            "description": "Die Erde - Stabilität und Kraft"
+          },
+          "black": {
+            "name": "Schwarz",
+            "japanese": "黒帯",
+            "description": "Reife - die Reise beginnt erst"
+          }
+        }
+      },
+      "titles": {
+        "title": "Titel",
+        "description": "Verschiedene Titel und Ränge in der Karate-Welt",
+        "studentTitles": {
+          "title": "Schüler-Titel",
+          "titles": {
+            "mudansha": {
+              "name": "Mudansha",
+              "japanese": "無段者",
+              "description": "Schüler ohne Schwarzgurt"
+            },
+            "yudansha": {
+              "name": "Yudansha",
+              "japanese": "有段者",
+              "description": "Schwarzgurt-Träger"
+            },
+            "karateka": {
+              "name": "Karateka",
+              "japanese": "空手家",
+              "description": "Karate-Praktizierender"
+            },
+            "sempai": {
+              "name": "Sempai",
+              "japanese": "先輩",
+              "description": "Senior-Schüler"
+            },
+            "kohai": {
+              "name": "Kohai",
+              "japanese": "後輩",
+              "description": "Junior-Schüler"
+            },
+            "uchiDeshi": {
+              "name": "Uchi Deshi",
+              "japanese": "内弟子",
+              "description": "Wohnschüler"
+            }
+          }
+        },
+        "instructorTitles": {
+          "title": "Lehrer-Titel",
+          "titles": {
+            "sensei": {
+              "name": "Sensei",
+              "japanese": "先生",
+              "description": "Lehrer"
+            },
+            "shihan": {
+              "name": "Shihan",
+              "japanese": "師範",
+              "description": "Meister-Lehrer, Lehrer der Lehrer"
+            },
+            "renshi": {
+              "name": "Renshi",
+              "japanese": "錬士",
+              "description": "Geschliffener Lehrer (Lehr-Titel)"
+            },
+            "kyoshi": {
+              "name": "Kyoshi",
+              "japanese": "教士",
+              "description": "Fortgeschrittener Lehrer (Lehr-Titel)"
+            },
+            "hanshi": {
+              "name": "Hanshi",
+              "japanese": "範士",
+              "description": "Vorbildlicher Lehrer, Meister (Lehr-Titel)"
+            }
+          }
+        },
+        "otherTitles": {
+          "title": "Andere Titel",
+          "titles": {
+            "bushi": {
+              "name": "Bushi",
+              "japanese": "武士",
+              "description": "Großer Kampfkünstler"
+            },
+            "shushin": {
+              "name": "Shushin",
+              "japanese": "主審",
+              "description": "Schiedsrichter"
+            },
+            "fukushin": {
+              "name": "Fukushin",
+              "japanese": "副審",
+              "description": "Assistenz-Schiedsrichter"
+            },
+            "kansa": {
+              "name": "Kansa",
+              "japanese": "監査",
+              "description": "Richter"
+            }
+          }
+        }
+      },
+      "gradingSystem": {
+        "title": "Graduierungssystem",
+        "description": "Wie das Graduierungssystem funktioniert",
+        "kyuSystem": {
+          "title": "Kyu-System",
+          "description": "Das Kyu-System für farbige Gürtel",
+          "levels": {
+            "10th_kyu": "10. Kyu - Weißer Gürtel",
+            "9th_kyu": "9. Kyu - Weißer Gürtel",
+            "8th_kyu": "8. Kyu - Gelber Gürtel",
+            "7th_kyu": "7. Kyu - Oranger Gürtel",
+            "6th_kyu": "6. Kyu - Grüner Gürtel",
+            "5th_kyu": "5. Kyu - Blauer Gürtel",
+            "4th_kyu": "4. Kyu - Blauer Gürtel",
+            "3rd_kyu": "3. Kyu - Brauner Gürtel",
+            "2nd_kyu": "2. Kyu - Brauner Gürtel",
+            "1st_kyu": "1. Kyu - Brauner Gürtel"
+          }
+        },
+        "danSystem": {
+          "title": "Dan-System",
+          "description": "Das Dan-System für Schwarzgurte",
+          "levels": {
+            "shodan": "Shodan - 1. Dan",
+            "nidan": "Nidan - 2. Dan",
+            "sandan": "Sandan - 3. Dan",
+            "yondan": "Yondan - 4. Dan",
+            "godan": "Godan - 5. Dan",
+            "rokudan": "Rokudan - 6. Dan",
+            "nanadan": "Nanadan - 7. Dan",
+            "hachidan": "Hachidan - 8. Dan",
+            "kudan": "Kudan - 9. Dan",
+            "judan": "Judan - 10. Dan"
+          }
+        }
+      }
+    }
+  }
+} 

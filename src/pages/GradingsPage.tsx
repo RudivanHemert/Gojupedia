@@ -10,15 +10,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from '@/components/ui/badge';
-import {
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart";
-import { Cell, Pie, PieChart } from "recharts";
+import { useTranslation } from 'react-i18next';
 
 const GradingsPage = () => {
   const [activeTab, setActiveTab] = useState("10th-kyu");
+  const { t } = useTranslation();
 
   const gradingLevels = [
     { 
@@ -102,6 +98,29 @@ const GradingsPage = () => {
       textColor: "text-white", 
       borderColor: "border-gray-800" 
     },
+  ];
+
+  const sections = [
+    { 
+      id: "ranks", 
+      label: t('graduations.sections.ranks.title'),
+      icon: <Award className="h-4 w-4" />
+    },
+    { 
+      id: "beltColors", 
+      label: t('graduations.sections.beltColors.title'),
+      icon: <GraduationCap className="h-4 w-4" />
+    },
+    { 
+      id: "titles", 
+      label: t('graduations.sections.titles.title'),
+      icon: <Book className="h-4 w-4" />
+    },
+    { 
+      id: "gradingSystem", 
+      label: t('graduations.sections.gradingSystem.title'),
+      icon: <Swords className="h-4 w-4" />
+    }
   ];
 
   const tenthKyuData = {
@@ -805,24 +824,6 @@ const GradingsPage = () => {
 
   const activeGradingData = getGradingData(activeTab);
 
-  const chartData = [
-    { name: "Required Classes", value: activeGradingData.requirements.classes || 0 },
-    { name: "Months of Training", value: activeGradingData.requirements.months || 0 }
-  ];
-
-  const chartColors = ["#9f7aea", "#3182ce"];
-
-  const chartConfig = {
-    classes: {
-      label: "Required Classes",
-      color: "#9f7aea"
-    },
-    months: {
-      label: "Months of Training",
-      color: "#3182ce"
-    }
-  };
-
   const renderStripes = (count) => {
     if (count <= 0) return null;
     
@@ -839,9 +840,306 @@ const GradingsPage = () => {
     return stripes;
   };
 
+  const renderRanks = () => {
+    const ranks = t('graduations.sections.ranks', { returnObjects: true }) as any;
+    
+    if (!ranks || !ranks.kyu || !ranks.dan || !ranks.ranks) {
+      return (
+        <div className="space-y-6">
+          <div className="text-muted-foreground">
+            Loading graduations data...
+          </div>
+        </div>
+      );
+    }
+    
+    return (
+      <div className="space-y-6">
+        <div className="text-muted-foreground">
+          {ranks.description}
+        </div>
+
+        <div className="grid gap-4">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <span className="text-lg font-japanese">{ranks.kyu.japanese}</span>
+                <span>{ranks.kyu.name}</span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground">{ranks.kyu.description}</p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <span className="text-lg font-japanese">{ranks.dan.japanese}</span>
+                <span>{ranks.dan.name}</span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground">{ranks.dan.description}</p>
+            </CardContent>
+          </Card>
+
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold">Dan Ranks</h3>
+            <div className="grid gap-3">
+              {Object.entries(ranks.ranks).map(([key, rank]: [string, any]) => (
+                <Card key={key}>
+                  <CardContent className="pt-4">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-lg font-japanese">{rank.japanese}</span>
+                          <span className="font-semibold">{rank.name}</span>
+                        </div>
+                        <p className="text-sm text-muted-foreground mt-1">{rank.description}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const renderBeltColors = () => {
+    const gradingSystem = t('graduations.sections.gradingSystem', { returnObjects: true }) as any;
+    
+    if (!gradingSystem || !gradingSystem.kyuSystem) {
+      return (
+        <div className="space-y-6">
+          <div className="text-muted-foreground">
+            Loading kyu grades data...
+          </div>
+        </div>
+      );
+    }
+    
+    return (
+      <div className="space-y-6">
+        <div className="text-muted-foreground">
+          {gradingSystem.kyuSystem.description}
+        </div>
+
+        <div className="grid gap-3">
+          {Object.entries(gradingSystem.kyuSystem.levels).map(([key, level]: [string, any]) => (
+            <Card key={key}>
+              <CardContent className="pt-4">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <span className="font-semibold">{level}</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  const renderTitles = () => {
+    const titles = t('graduations.sections.titles', { returnObjects: true }) as any;
+    
+    if (!titles || !titles.studentTitles || !titles.instructorTitles || !titles.otherTitles) {
+      return (
+        <div className="space-y-6">
+          <div className="text-muted-foreground">
+            Loading titles data...
+          </div>
+        </div>
+      );
+    }
+    
+    return (
+      <div className="space-y-6">
+        <div className="text-muted-foreground">
+          {titles.description}
+        </div>
+
+        <Accordion type="single" collapsible className="w-full space-y-4">
+          <AccordionItem value="studentTitles" className="border rounded-lg overflow-hidden">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+              <div className="flex items-center">
+                <Book className="mr-2 h-5 w-5 text-karate" />
+                <h3 className="font-semibold text-stone-700">
+                  {titles.studentTitles.title}
+                </h3>
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="p-4 pt-2">
+              <div className="grid gap-3">
+                {Object.entries(titles.studentTitles.titles).map(([key, title]: [string, any]) => (
+                  <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg font-japanese">{title.japanese}</span>
+                        <span className="font-semibold">{title.name}</span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{title.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="instructorTitles" className="border rounded-lg overflow-hidden">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+              <div className="flex items-center">
+                <Award className="mr-2 h-5 w-5 text-karate" />
+                <h3 className="font-semibold text-stone-700">
+                  {titles.instructorTitles.title}
+                </h3>
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="p-4 pt-2">
+              <div className="grid gap-3">
+                {Object.entries(titles.instructorTitles.titles).map(([key, title]: [string, any]) => (
+                  <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg font-japanese">{title.japanese}</span>
+                        <span className="font-semibold">{title.name}</span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{title.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="otherTitles" className="border rounded-lg overflow-hidden">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+              <div className="flex items-center">
+                <GraduationCap className="mr-2 h-5 w-5 text-karate" />
+                <h3 className="font-semibold text-stone-700">
+                  {titles.otherTitles.title}
+                </h3>
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="p-4 pt-2">
+              <div className="grid gap-3">
+                {Object.entries(titles.otherTitles.titles).map(([key, title]: [string, any]) => (
+                  <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg font-japanese">{title.japanese}</span>
+                        <span className="font-semibold">{title.name}</span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{title.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      </div>
+    );
+  };
+
+  const renderGradingSystem = () => {
+    const gradingSystem = t('graduations.sections.gradingSystem', { returnObjects: true }) as any;
+    
+    if (!gradingSystem || !gradingSystem.kyuSystem || !gradingSystem.danSystem) {
+      return (
+        <div className="space-y-6">
+          <div className="text-muted-foreground">
+            Loading grading system data...
+          </div>
+        </div>
+      );
+    }
+    
+    return (
+      <div className="space-y-6">
+        <div className="text-muted-foreground">
+          {gradingSystem.description}
+        </div>
+
+        <Accordion type="single" collapsible className="w-full space-y-4">
+          <AccordionItem value="kyuSystem" className="border rounded-lg overflow-hidden">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+              <div className="flex items-center">
+                <Swords className="mr-2 h-5 w-5 text-karate" />
+                <h3 className="font-semibold text-stone-700">
+                  {gradingSystem.kyuSystem.title}
+                </h3>
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="p-4 pt-2">
+              <p className="text-muted-foreground mb-4">{gradingSystem.kyuSystem.description}</p>
+              <div className="grid gap-2">
+                {Object.entries(gradingSystem.kyuSystem.levels).map(([key, level]: [string, any]) => (
+                  <div key={key} className="flex items-center justify-between p-2 bg-stone-50 rounded">
+                    <span className="font-medium">{level}</span>
+                  </div>
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="danSystem" className="border rounded-lg overflow-hidden">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+              <div className="flex items-center">
+                <Award className="mr-2 h-5 w-5 text-karate" />
+                <h3 className="font-semibold text-stone-700">
+                  {gradingSystem.danSystem.title}
+                </h3>
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="p-4 pt-2">
+              <p className="text-muted-foreground mb-4">{gradingSystem.danSystem.description}</p>
+              <div className="grid gap-2">
+                {Object.entries(gradingSystem.danSystem.levels).map(([key, level]: [string, any]) => (
+                  <div key={key} className="flex items-center justify-between p-2 bg-stone-50 rounded">
+                    <span className="font-medium">{level}</span>
+                  </div>
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      </div>
+    );
+  };
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case "ranks":
+        return renderRanks();
+      case "beltColors":
+        return renderBeltColors();
+      case "titles":
+        return renderTitles();
+      case "gradingSystem":
+        return renderGradingSystem();
+      default:
+        return renderRanks();
+    }
+  };
+
   return (
     <MobileLayout hideHeader={true}>
       <div className="p-4">
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-stone-900 mb-2">
+            {t('graduations.title')}
+          </h1>
+          <p className="text-stone-600">
+            {t('graduations.description')}
+          </p>
+        </div>
+
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="grid grid-cols-4 mb-4 h-auto">
             {gradingLevels.map((level) => (
@@ -884,33 +1182,6 @@ const GradingsPage = () => {
                           <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.months}</p>
                         </div>
                       </div>
-
-                      {(gradingData.requirements.classes > 0) && (
-                        <div className="mt-4 h-44">
-                          <ChartContainer config={chartConfig}>
-                            <PieChart>
-                              <Pie
-                                data={chartData}
-                                dataKey="value"
-                                nameKey="name"
-                                cx="50%"
-                                cy="50%"
-                                outerRadius={70}
-                                label={(entry) => `${entry.name}: ${entry.value}`}
-                              >
-                                {chartData.map((entry, index) => (
-                                  <Cell key={`cell-${index}`} fill={chartColors[index % chartColors.length]} />
-                                ))}
-                              </Pie>
-                              <ChartTooltip
-                                content={
-                                  <ChartTooltipContent />
-                                }
-                              />
-                            </PieChart>
-                          </ChartContainer>
-                        </div>
-                      )}
                     </div>
 
                     <Accordion type="single" collapsible className="w-full space-y-4">
@@ -987,4 +1258,4 @@ const GradingsPage = () => {
   );
 };
 
-export default GradingsPage;
+export default GradingsPage; 

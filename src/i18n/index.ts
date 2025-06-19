@@ -16,6 +16,8 @@ import enKata from './locales/en/kata.json';
 import enBunkai from './locales/en/bunkai.json';
 import enPhilosophy from './locales/en/philosophy.json';
 import enVitalPoints from './locales/en/vitalPoints.json';
+import enTechniques from './locales/en/techniques.json';
+import enGraduations from './locales/en/graduations.json';
 
 import deCommon from './locales/de/common.json';
 import deNavigation from './locales/de/navigation.json';
@@ -30,6 +32,8 @@ import deKata from './locales/de/kata.json';
 import deBunkai from './locales/de/bunkai.json';
 import dePhilosophy from './locales/de/philosophy.json';
 import deVitalPoints from './locales/de/vitalPoints.json';
+import deTechniques from './locales/de/techniques.json';
+import deGraduations from './locales/de/graduations.json';
 
 import esCommon from './locales/es/common.json';
 import esNavigation from './locales/es/navigation.json';
@@ -44,6 +48,8 @@ import esKata from './locales/es/kata.json';
 import esBunkai from './locales/es/bunkai.json';
 import esPhilosophy from './locales/es/philosophy.json';
 import esVitalPoints from './locales/es/vitalPoints.json';
+import esTechniques from './locales/es/techniques.json';
+import esGraduations from './locales/es/graduations.json';
 
 import frCommon from './locales/fr/common.json';
 import frNavigation from './locales/fr/navigation.json';
@@ -58,6 +64,8 @@ import frKata from './locales/fr/kata.json';
 import frBunkai from './locales/fr/bunkai.json';
 import frPhilosophy from './locales/fr/philosophy.json';
 import frVitalPoints from './locales/fr/vitalPoints.json';
+import frTechniques from './locales/fr/techniques.json';
+import frGraduations from './locales/fr/graduations.json';
 
 import itCommon from './locales/it/common.json';
 import itNavigation from './locales/it/navigation.json';
@@ -72,6 +80,8 @@ import itKata from './locales/it/kata.json';
 import itBunkai from './locales/it/bunkai.json';
 import itPhilosophy from './locales/it/philosophy.json';
 import itVitalPoints from './locales/it/vitalPoints.json';
+import itTechniques from './locales/it/techniques.json';
+import itGraduations from './locales/it/graduations.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlNavigation from './locales/nl/navigation.json';
@@ -86,6 +96,8 @@ import nlKata from './locales/nl/kata.json';
 import nlBunkai from './locales/nl/bunkai.json';
 import nlPhilosophy from './locales/nl/philosophy.json';
 import nlVitalPoints from './locales/nl/vitalPoints.json';
+import nlTechniques from './locales/nl/techniques.json';
+import nlGraduations from './locales/nl/graduations.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -120,6 +132,8 @@ const enTranslations = combineTranslations({
   bunkai: enBunkai,
   philosophy: enPhilosophy,
   vitalPoints: enVitalPoints,
+  techniques: enTechniques,
+  graduations: enGraduations,
 });
 
 const deTranslations = combineTranslations({
@@ -136,6 +150,8 @@ const deTranslations = combineTranslations({
   bunkai: deBunkai,
   philosophy: dePhilosophy,
   vitalPoints: deVitalPoints,
+  techniques: deTechniques,
+  graduations: deGraduations,
 });
 
 const esTranslations = combineTranslations({
@@ -152,6 +168,8 @@ const esTranslations = combineTranslations({
   bunkai: esBunkai,
   philosophy: esPhilosophy,
   vitalPoints: esVitalPoints,
+  techniques: esTechniques,
+  graduations: esGraduations,
 });
 
 const frTranslations = combineTranslations({
@@ -168,6 +186,8 @@ const frTranslations = combineTranslations({
   bunkai: frBunkai,
   philosophy: frPhilosophy,
   vitalPoints: frVitalPoints,
+  techniques: frTechniques,
+  graduations: frGraduations,
 });
 
 const itTranslations = combineTranslations({
@@ -184,6 +204,8 @@ const itTranslations = combineTranslations({
   bunkai: itBunkai,
   philosophy: itPhilosophy,
   vitalPoints: itVitalPoints,
+  techniques: itTechniques,
+  graduations: itGraduations,
 });
 
 const nlTranslations = combineTranslations({
@@ -200,6 +222,8 @@ const nlTranslations = combineTranslations({
   bunkai: nlBunkai,
   philosophy: nlPhilosophy,
   vitalPoints: nlVitalPoints,
+  techniques: nlTechniques,
+  graduations: nlGraduations,
 });
 
 i18n

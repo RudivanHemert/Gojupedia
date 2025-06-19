@@ -9,11 +9,11 @@ import { useMarkdownContent } from '@/utils/markdown';
 const KumitePage = () => {
   const { t } = useTranslation();
   const sections = [
-    { id: 'basics', content: useMarkdownContent('../content/kumite/basics') },
-    { id: 'types', content: useMarkdownContent('../content/kumite/types') },
-    { id: 'principles', content: useMarkdownContent('../content/kumite/principles') },
-    { id: 'training', content: useMarkdownContent('../content/kumite/training') },
-    { id: 'competition', content: useMarkdownContent('../content/kumite/competition') }
+    { id: 'basics', content: useMarkdownContent('kumite/basics') },
+    { id: 'types', content: useMarkdownContent('kumite/types') },
+    { id: 'principles', content: useMarkdownContent('kumite/principles') },
+    { id: 'training', content: useMarkdownContent('kumite/training') },
+    { id: 'competition', content: useMarkdownContent('kumite/competition') }
   ];
 
   return (

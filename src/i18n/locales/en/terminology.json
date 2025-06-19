@@ -189,6 +189,7 @@
       },
       "kicks-content": {
         "description": "Basic kicking techniques (Geri Waza).",
+        "title": "Kicks",
         "terms": {
           "mae-geri": { "name": "Mae Geri", "japanese": "前蹴り", "english": "Front Kick" },
           "mawashi-geri": { "name": "Mawashi Geri", "japanese": "回し蹴り", "english": "Roundhouse Kick" },
@@ -201,6 +202,7 @@
       },
       "punches-content": {
         "description": "Basic punching techniques (Tsuki/Zuki Waza).",
+        "title": "Punches",
         "terms": {
           "oi-zuki": { "name": "Oi Zuki", "japanese": "追い突き", "english": "Lunge Punch (stepping punch)" },
           "gyaku-zuki": { "name": "Gyaku Zuki", "japanese": "逆突き", "english": "Reverse Punch" },
@@ -225,6 +227,7 @@
       },
       "strikes-content": {
         "description": "Basic striking techniques with hands and arms, other than punches (Uchi Waza).",
+        "title": "Strikes",
         "terms": {
           "shuto-uchi": { "name": "Shuto Uchi", "japanese": "手刀打ち", "english": "Knife Hand Strike" },
           "uraken-uchi": { "name": "Uraken Uchi", "japanese": "裏拳打ち", "english": "Back Fist Strike" },

@@ -1,0 +1,253 @@
+{
+  "graduations": {
+    "title": "Graduations & Ranks",
+    "description": "Overview of the different belts, grades and titles within Goju Ryu Karate.",
+    "basicRequirements": "Basic Requirements",
+    "minimumClasses": "Minimum Classes",
+    "monthsTraining": "Months of Training",
+    "techniques": "Techniques",
+    "knowledgeTerminology": "Knowledge & Terminology",
+    "history": "History",
+    "months": "months",
+    "classes": "classes",
+    "sections": {
+      "ranks": {
+        "title": "Belts and Grades",
+        "description": "The graduation system in Goju Ryu Karate",
+        "kyu": {
+          "name": "Kyu",
+          "japanese": "級",
+          "description": "Kyu (colored belt, below black belt)"
+        },
+        "dan": {
+          "name": "Dan",
+          "japanese": "段",
+          "description": "Dan (black belt ranks)"
+        },
+        "ranks": {
+          "shodan": {
+            "name": "Shodan",
+            "japanese": "初段",
+            "description": "First Dan (first level black belt)"
+          },
+          "nidan": {
+            "name": "Nidan",
+            "japanese": "二段",
+            "description": "Second Dan"
+          },
+          "sandan": {
+            "name": "Sandan",
+            "japanese": "三段",
+            "description": "Third Dan"
+          },
+          "yondan": {
+            "name": "Yondan",
+            "japanese": "四段",
+            "description": "Fourth Dan"
+          },
+          "godan": {
+            "name": "Godan",
+            "japanese": "五段",
+            "description": "Fifth Dan"
+          },
+          "rokudan": {
+            "name": "Rokudan",
+            "japanese": "六段",
+            "description": "Sixth Dan"
+          },
+          "nanadan": {
+            "name": "Nanadan",
+            "japanese": "七段",
+            "description": "Seventh Dan"
+          },
+          "hachidan": {
+            "name": "Hachidan",
+            "japanese": "八段",
+            "description": "Eighth Dan"
+          },
+          "kudan": {
+            "name": "Kudan",
+            "japanese": "九段",
+            "description": "Ninth Dan"
+          },
+          "judan": {
+            "name": "Judan",
+            "japanese": "十段",
+            "description": "Tenth Dan"
+          }
+        }
+      },
+      "beltColors": {
+        "title": "Belt Colors (Kyu Grades)",
+        "description": "The different colors of the kyu grades",
+        "colors": {
+          "white": {
+            "name": "White",
+            "japanese": "白帯",
+            "description": "Beginner - purity and readiness to learn"
+          },
+          "yellow": {
+            "name": "Yellow",
+            "japanese": "黄帯",
+            "description": "First step - the rising sun"
+          },
+          "orange": {
+            "name": "Orange",
+            "japanese": "橙帯",
+            "description": "The sun becomes stronger"
+          },
+          "green": {
+            "name": "Green",
+            "japanese": "緑帯",
+            "description": "The plant grows - development of skills"
+          },
+          "blue": {
+            "name": "Blue",
+            "japanese": "青帯",
+            "description": "The sky - freedom and possibilities"
+          },
+          "brown": {
+            "name": "Brown",
+            "japanese": "茶帯",
+            "description": "The earth - stability and strength"
+          },
+          "black": {
+            "name": "Black",
+            "japanese": "黒帯",
+            "description": "Maturity - the journey only begins"
+          }
+        }
+      },
+      "titles": {
+        "title": "Titles",
+        "description": "Different titles and ranks in the karate world",
+        "studentTitles": {
+          "title": "Student Titles",
+          "titles": {
+            "mudansha": {
+              "name": "Mudansha",
+              "japanese": "無段者",
+              "description": "Student without black belt"
+            },
+            "yudansha": {
+              "name": "Yudansha",
+              "japanese": "有段者",
+              "description": "Black belt holder"
+            },
+            "karateka": {
+              "name": "Karateka",
+              "japanese": "空手家",
+              "description": "Karate practitioner"
+            },
+            "sempai": {
+              "name": "Sempai",
+              "japanese": "先輩",
+              "description": "Senior student"
+            },
+            "kohai": {
+              "name": "Kohai",
+              "japanese": "後輩",
+              "description": "Junior student"
+            },
+            "uchiDeshi": {
+              "name": "Uchi Deshi",
+              "japanese": "内弟子",
+              "description": "Live-in student"
+            }
+          }
+        },
+        "instructorTitles": {
+          "title": "Instructor Titles",
+          "titles": {
+            "sensei": {
+              "name": "Sensei",
+              "japanese": "先生",
+              "description": "Teacher"
+            },
+            "shihan": {
+              "name": "Shihan",
+              "japanese": "師範",
+              "description": "Master instructor, teacher of teachers"
+            },
+            "renshi": {
+              "name": "Renshi",
+              "japanese": "錬士",
+              "description": "Polished instructor (teaching title)"
+            },
+            "kyoshi": {
+              "name": "Kyoshi",
+              "japanese": "教士",
+              "description": "Advanced teacher (teaching title)"
+            },
+            "hanshi": {
+              "name": "Hanshi",
+              "japanese": "範士",
+              "description": "Exemplary teacher, master (teaching title)"
+            }
+          }
+        },
+        "otherTitles": {
+          "title": "Other Titles",
+          "titles": {
+            "bushi": {
+              "name": "Bushi",
+              "japanese": "武士",
+              "description": "Great martial artist"
+            },
+            "shushin": {
+              "name": "Shushin",
+              "japanese": "主審",
+              "description": "Referee"
+            },
+            "fukushin": {
+              "name": "Fukushin",
+              "japanese": "副審",
+              "description": "Assistant referee"
+            },
+            "kansa": {
+              "name": "Kansa",
+              "japanese": "監査",
+              "description": "Judge"
+            }
+          }
+        }
+      },
+      "gradingSystem": {
+        "title": "Grading System",
+        "description": "How the grading system works",
+        "kyuSystem": {
+          "title": "Kyu System",
+          "description": "The kyu system for colored belts",
+          "levels": {
+            "10th_kyu": "10th Kyu",
+            "9th_kyu": "9th Kyu",
+            "8th_kyu": "8th Kyu",
+            "7th_kyu": "7th Kyu",
+            "6th_kyu": "6th Kyu",
+            "5th_kyu": "5th Kyu",
+            "4th_kyu": "4th Kyu",
+            "3rd_kyu": "3rd Kyu",
+            "2nd_kyu": "2nd Kyu",
+            "1st_kyu": "1st Kyu"
+          }
+        },
+        "danSystem": {
+          "title": "Dan System",
+          "description": "The dan system for black belts",
+          "levels": {
+            "shodan": "Shodan",
+            "nidan": "Nidan",
+            "sandan": "Sandan",
+            "yondan": "Yondan",
+            "godan": "Godan",
+            "rokudan": "Rokudan",
+            "nanadan": "Nanadan",
+            "hachidan": "Hachidan",
+            "kudan": "Kudan",
+            "judan": "Judan"
+          }
+        }
+      }
+    }
+  }
+} 

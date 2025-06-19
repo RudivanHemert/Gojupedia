@@ -9,11 +9,11 @@ import { useMarkdownContent } from '@/utils/markdown';
 const HojoUndoSectionPage = () => {
   const { t } = useTranslation();
   const sections = [
-    { id: 'introduction', content: useMarkdownContent('../content/hojo-undo/introduction') },
-    { id: 'equipment', content: useMarkdownContent('../content/hojo-undo/equipment') },
-    { id: 'techniques', content: useMarkdownContent('../content/hojo-undo/techniques') },
-    { id: 'benefits', content: useMarkdownContent('../content/hojo-undo/benefits') },
-    { id: 'training', content: useMarkdownContent('../content/hojo-undo/training') }
+    { id: 'introduction', content: useMarkdownContent('hojo-undo/introduction') },
+    { id: 'equipment', content: useMarkdownContent('hojo-undo/equipment') },
+    { id: 'techniques', content: useMarkdownContent('hojo-undo/techniques') },
+    { id: 'benefits', content: useMarkdownContent('hojo-undo/benefits') },
+    { id: 'training', content: useMarkdownContent('hojo-undo/training') }
   ];
 
   return (

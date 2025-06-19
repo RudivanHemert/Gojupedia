@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 const MorioHigaonnaSection = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  const markdownContent = useMarkdownContent('../content/history/morio-higaonna');
+  const markdownContent = useMarkdownContent('history/morio-higaonna');
 
   return (
     <section className="space-y-4 mt-8">

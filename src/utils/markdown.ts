@@ -1,7 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 
 // Import all markdown content with language variants
-const markdownContentModules = import.meta.glob('../content/**/*.{md,*.md}', { 
+const markdownContentModules = import.meta.glob('../content/**/*.md', { 
   query: '?raw', 
   import: 'default', 
   eager: true 
@@ -21,10 +21,14 @@ export const useMarkdownContent = (basePath: string) => {
   const fallbackPath = `../content/${basePath}.md`;
   const englishFallbackPath = `../content/${basePath}.en.md`; // Added English fallback
 
+  console.log(`[useMarkdownContent] Looking for: ${languageSpecificPath}, ${englishFallbackPath}, or ${fallbackPath}`);
+  console.log(`[useMarkdownContent] Available modules:`, Object.keys(markdownContentModules));
+
   // Try language-specific file first
   if (languageSpecificPath in markdownContentModules) {
     const content = markdownContentModules[languageSpecificPath];
     if (typeof content === 'string') {
+      console.log(`[useMarkdownContent] Found language-specific content for ${languageSpecificPath}`);
       return removeLanguageCodes(content);
     }
   }
@@ -33,6 +37,7 @@ export const useMarkdownContent = (basePath: string) => {
   if (englishFallbackPath in markdownContentModules) {
     const content = markdownContentModules[englishFallbackPath];
     if (typeof content === 'string') {
+      console.log(`[useMarkdownContent] Found English fallback content for ${englishFallbackPath}`);
       return removeLanguageCodes(content);
     }
   }
@@ -41,9 +46,11 @@ export const useMarkdownContent = (basePath: string) => {
   if (fallbackPath in markdownContentModules) {
     const content = markdownContentModules[fallbackPath];
     if (typeof content === 'string') {
+      console.log(`[useMarkdownContent] Found base content for ${fallbackPath}`);
       return removeLanguageCodes(content);
     }
   }
 
+  console.log(`[useMarkdownContent] No content found for ${basePath}`);
   return null;
 }; 

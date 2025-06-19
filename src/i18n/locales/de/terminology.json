@@ -188,50 +188,53 @@
         }
       },
       "kicks-content": {
-        "description": "Basic kicking techniques (Geri Waza).",
+        "description": "Grundlegende Tritttechniken (Geri Waza).",
+        "title": "Tritte",
         "terms": {
-          "mae-geri": { "name": "Mae Geri", "japanese": "前蹴り", "english": "Front Kick" },
-          "mawashi-geri": { "name": "Mawashi Geri", "japanese": "回し蹴り", "english": "Roundhouse Kick" },
-          "yoko-geri": { "name": "Yoko Geri", "japanese": "横蹴り", "english": "Side Kick" },
-          "ushiro-geri": { "name": "Ushiro Geri", "japanese": "後ろ蹴り", "english": "Back Kick" },
-          "hiza-geri": { "name": "Hiza Geri", "japanese": "膝蹴り", "english": "Knee Strike/Kick" },
-          "kin-geri": { "name": "Kin Geri", "japanese": "金蹴り", "english": "Groin Kick" },
-          "kansetsu-geri": { "name": "Kansetsu Geri", "japanese": "関節蹴り", "english": "Joint Kick (stamping kick to knee)" }
+          "mae-geri": { "name": "Mae Geri", "japanese": "前蹴り", "english": "Fronttritt" },
+          "mawashi-geri": { "name": "Mawashi Geri", "japanese": "回し蹴り", "english": "Rundtritt" },
+          "yoko-geri": { "name": "Yoko Geri", "japanese": "横蹴り", "english": "Seitentritt" },
+          "ushiro-geri": { "name": "Ushiro Geri", "japanese": "後ろ蹴り", "english": "Rücktritt" },
+          "hiza-geri": { "name": "Hiza Geri", "japanese": "膝蹴り", "english": "Knietritt" },
+          "kin-geri": { "name": "Kin Geri", "japanese": "金蹴り", "english": "Leistentritt" },
+          "kansetsu-geri": { "name": "Kansetsu Geri", "japanese": "関節蹴り", "english": "Gelenktritt (Stampftritt zum Knie)" }
         }
       },
       "punches-content": {
-        "description": "Basic punching techniques (Tsuki/Zuki Waza).",
+        "description": "Grundlegende Stoßtechniken (Tsuki/Zuki Waza).",
+        "title": "Stöße",
         "terms": {
-          "oi-zuki": { "name": "Oi Zuki", "japanese": "追い突き", "english": "Lunge Punch (stepping punch)" },
-          "gyaku-zuki": { "name": "Gyaku Zuki", "japanese": "逆突き", "english": "Reverse Punch" },
-          "kizami-zuki": { "name": "Kizami Zuki", "japanese": "刻み突き", "english": "Jab (leading hand punch)" },
-          "ura-zuki": { "name": "Ura Zuki", "japanese": "裏突き", "english": "Close Punch / Uppercut" },
-          "tate-zuki": { "name": "Tate Zuki", "japanese": "立て突き", "english": "Vertical Fist Punch" },
-          "age-zuki": { "name": "Age Zuki", "japanese": "上げ突き", "english": "Rising Punch" }
+          "oi-zuki": { "name": "Oi Zuki", "japanese": "追い突き", "english": "Ausfallstoß (schreitender Stoß)" },
+          "gyaku-zuki": { "name": "Gyaku Zuki", "japanese": "逆突き", "english": "Gegenstoß" },
+          "kizami-zuki": { "name": "Kizami Zuki", "japanese": "刻み突き", "english": "Jab (führender Handstoß)" },
+          "ura-zuki": { "name": "Ura Zuki", "japanese": "裏突き", "english": "Nahstoß / Uppercut" },
+          "tate-zuki": { "name": "Tate Zuki", "japanese": "立て突き", "english": "Vertikaler Fauststoß" },
+          "age-zuki": { "name": "Age Zuki", "japanese": "上げ突き", "english": "Aufwärtsstoß" }
         }
       },
       "stances-content": {
-        "description": "Basic stances (Dachi Waza).",
-        "title": "Stances",
+        "description": "Grundlegende Stellungen (Dachi Waza).",
+        "title": "Stellungen",
         "terms": {
-          "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Three Battles Stance / Hourglass Stance" },
-          "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Forward Stance / Front-leaning Stance" },
-          "shiko-dachi": { "name": "Shiko Dachi", "japanese": "四股立ち", "english": "Square Stance / Horse Stance (feet at 45 degrees)" },
-          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立ち", "english": "Cat Foot Stance" },
-          "heiko-dachi": { "name": "Heiko Dachi", "japanese": "平行立ち", "english": "Parallel Stance" },
-          "musubi-dachi": { "name": "Musubi Dachi", "japanese": "結び立ち", "english": "Formal Attention Stance (heels together, feet out)" },
-          "kiba-dachi": { "name": "Kiba Dachi", "japanese": "騎馬立ち", "english": "Horse Riding Stance (feet parallel)" }
+          "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Drei-Kämpfe-Stellung / Sanduhr-Stellung" },
+          "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Vorwärtsstellung / Vorwärtsgeneigte Stellung" },
+          "shiko-dachi": { "name": "Shiko Dachi", "japanese": "四股立ち", "english": "Viereckstellung / Pferdestellung (Füße in 45°)" },
+          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立ち", "english": "Katzenfußstellung" },
+          "heiko-dachi": { "name": "Heiko Dachi", "japanese": "平行立ち", "english": "Parallelstellung" },
+          "musubi-dachi": { "name": "Musubi Dachi", "japanese": "結び立ち", "english": "Formelle Achtungsstellung (Fersen zusammen, Füße nach außen)" },
+          "kiba-dachi": { "name": "Kiba Dachi", "japanese": "騎馬立ち", "english": "Reitstellung (Füße parallel)" }
         }
       },
       "strikes-content": {
-        "description": "Basic striking techniques with hands and arms, other than punches (Uchi Waza).",
+        "description": "Grundlegende Schlagtechniken mit Händen und Armen, außer Stößen (Uchi Waza).",
+        "title": "Schläge",
         "terms": {
-          "shuto-uchi": { "name": "Shuto Uchi", "japanese": "手刀打ち", "english": "Knife Hand Strike" },
-          "uraken-uchi": { "name": "Uraken Uchi", "japanese": "裏拳打ち", "english": "Back Fist Strike" },
-          "tettsui-uchi": { "name": "Tettsui Uchi", "japanese": "鉄槌打ち", "english": "Hammer Fist Strike" },
-          "empi-uchi": { "name": "Empi Uchi / Hiji Ate", "japanese": "猿臂打ち / 肘当て", "english": "Elbow Strike" },
-          "haito-uchi": { "name": "Haito Uchi", "japanese": "背刀打ち", "english": "Ridge Hand Strike" },
-          "nukite": { "name": "Nukite", "japanese": "貫手", "english": "Spear Hand Strike" }
+          "shuto-uchi": { "name": "Shuto Uchi", "japanese": "手刀打ち", "english": "Messerhandschlag" },
+          "uraken-uchi": { "name": "Uraken Uchi", "japanese": "裏拳打ち", "english": "Rückfaustschlag" },
+          "tettsui-uchi": { "name": "Tettsui Uchi", "japanese": "鉄槌打ち", "english": "Hammerfaustschlag" },
+          "empi-uchi": { "name": "Empi Uchi / Hiji Ate", "japanese": "猿臂打ち / 肘当て", "english": "Ellenbogenschlag" },
+          "haito-uchi": { "name": "Haito Uchi", "japanese": "背刀打ち", "english": "Rückenhandschlag" },
+          "nukite": { "name": "Nukite", "japanese": "貫手", "english": "Speerhandschlag" }
         }
       },
       "vital-points-content": {
@@ -246,75 +249,75 @@
         }
       },
       "blocks-content": {
-        "description": "Common defensive techniques used to block or deflect attacks. Click \"View\" for a demonstration if available.",
-        "basicBlocksTitle": "Basic Blocks",
-        "advancedBlocksTitle": "Advanced Blocks",
-        "videoNotAvailableDescription": "A video demonstration for this technique is not currently available.",
-        "videoLoadError": "Could not load video for '{{file}}'. Please check that the file exists in public/video/blocks/.",
-        "selectVideoTitle": "Select a technique to view",
+        "description": "Häufig verwendete defensive Techniken zum Blockieren oder Ablenken von Angriffen. Klicken Sie \"Anzeigen\" für eine Demonstration, falls verfügbar.",
+        "basicBlocksTitle": "Grundlegende Blöcke",
+        "advancedBlocksTitle": "Fortgeschrittene Blöcke",
+        "videoNotAvailableDescription": "Eine Videodemonstration für diese Technik ist derzeit nicht verfügbar.",
+        "videoLoadError": "Video konnte nicht geladen werden für '{{file}}'. Bitte überprüfen Sie, ob die Datei in public/video/blocks/ existiert.",
+        "selectVideoTitle": "Wählen Sie eine Technik zum Anzeigen",
         "terms": {
           "age-uke": {
             "name": "Age Uke",
             "japanese": "上げ受け",
-            "english": "Rising Block",
-            "details": "Age Uke (Rising Block) is a fundamental upward blocking technique used to defend against attacks to the face or upper body. The forearm moves upwards to deflect the attack, while the other hand is withdrawn to the hip in preparation for a counter-attack.",
+            "english": "Aufwärtsblock",
+            "details": "Age Uke (Aufwärtsblock) ist eine grundlegende aufwärts gerichtete Blockierungstechnik, die verwendet wird, um Angriffe auf das Gesicht oder den Oberkörper abzuwehren. Der Unterarm bewegt sich nach oben, um den Angriff abzulenken, während die andere Hand zur Hüfte zurückgezogen wird, um sich auf einen Gegenangriff vorzubereiten.",
             "videoFile": "age-uke"
           },
           "gedan-barai": {
             "name": "Gedan Barai",
             "japanese": "下段払い",
-            "english": "Downward Sweep Block",
-            "details": "Gedan Barai (Downward Sweep Block) is a sweeping downward block that defends against low attacks. The arm moves in a downward arc to deflect strikes aimed at the lower body, with the other arm retracting to the hip position.",
+            "english": "Abwärtsfeger-Block",
+            "details": "Gedan Barai (Abwärtsfeger-Block) ist ein fegender abwärts gerichteter Block, der niedrige Angriffe abwehrt. Der Arm bewegt sich in einem abwärts gerichteten Bogen, um Schläge abzulenken, die auf den Unterkörper gerichtet sind, während der andere Arm zur Hüftposition zurückzieht.",
             "videoFile": "gedan-barai"
           },
           "soto-uke": {
             "name": "Soto Uke",
             "japanese": "外受け",
-            "english": "Outside Block",
-            "details": "Soto Uke (Outside Block) is an outside-to-inside block used to deflect attacks coming from the outside. The forearm moves from outside to inside in a horizontal path to redirect the opponent's strike.",
+            "english": "Außenblock",
+            "details": "Soto Uke (Außenblock) ist ein von-außen-nach-innen Block, der verwendet wird, um Angriffe von außen abzulenken. Der Unterarm bewegt sich von außen nach innen in einem horizontalen Pfad, um den Schlag des Gegners umzuleiten.",
             "videoFile": "soto-uke"
           },
           "uchi-uke": {
             "name": "Uchi Uke",
             "japanese": "内受け",
-            "english": "Inside Block",
-            "details": "Uchi Uke (Inside Block) is an inside-to-outside block used to deflect attacks coming from the inside. The forearm moves from inside to outside in a horizontal path."
+            "english": "Innenblock",
+            "details": "Uchi Uke (Innenblock) ist ein von-innen-nach-außen Block, der verwendet wird, um Angriffe von innen abzulenken. Der Unterarm bewegt sich von innen nach außen in einem horizontalen Pfad."
           },
           "shuto-uke": {
             "name": "Shuto Uke",
             "japanese": "手刀受け",
-            "english": "Knife Hand Block",
-            "details": "Shuto Uke (Knife Hand Block) is performed using the edge of the hand (shuto). It can be used to block attacks to the midsection or head, often with a circular motion."
+            "english": "Messerhand-Block",
+            "details": "Shuto Uke (Messerhand-Block) wird mit der Kante der Hand (shuto) ausgeführt. Er kann verwendet werden, um Angriffe auf den Mittelkörper oder Kopf zu blockieren, oft mit einer kreisförmigen Bewegung."
           },
           "empi-uke": {
             "name": "Empi Uke",
             "japanese": "肘受け",
-            "english": "Elbow Block",
-            "details": "Empi Uke (Elbow Block) uses the elbow to block an incoming attack, often effective at close range and against strikes to the body."
+            "english": "Ellenbogen-Block",
+            "details": "Empi Uke (Ellenbogen-Block) verwendet den Ellenbogen, um einen eingehenden Angriff zu blockieren, oft effektiv auf kurze Distanz und gegen Schläge zum Körper."
           },
           "kosa-uke": {
             "name": "Kosa Uke",
             "japanese": "交差受け",
-            "english": "Cross Block",
-            "details": "Kosa Uke (Cross Block) involves crossing the wrists or forearms to create a barrier against an attack. It can be performed at various heights (jodan, chudan, gedan)."
+            "english": "Kreuzblock",
+            "details": "Kosa Uke (Kreuzblock) beinhaltet das Kreuzen der Handgelenke oder Unterarme, um eine Barriere gegen einen Angriff zu schaffen. Er kann in verschiedenen Höhen ausgeführt werden (jodan, chudan, gedan)."
           },
           "juji-uke": {
             "name": "Juji Uke",
             "japanese": "十字受け",
             "english": "X-Block",
-            "details": "Juji Uke (X-Block) uses the arms crossed in an 'X' shape to block an attack, typically a downward strike or kick. The hands can be open or closed."
+            "details": "Juji Uke (X-Block) verwendet die Arme gekreuzt in einer 'X'-Form, um einen Angriff zu blockieren, typischerweise einen abwärts gerichteten Schlag oder Tritt. Die Hände können offen oder geschlossen sein."
           },
           "haiwan-uke": {
             "name": "Haiwan Uke",
             "japanese": "背腕受け",
-            "english": "Back Arm Block",
-            "details": "Haiwan Uke (Back Arm Block) uses the back of the forearm to block an incoming technique. It is often used to deflect strikes coming towards the side of the body or head."
+            "english": "Rückenarm-Block",
+            "details": "Haiwan Uke (Rückenarm-Block) verwendet die Rückseite des Unterarms, um eine eingehende Technik zu blockieren. Er wird oft verwendet, um Schläge abzulenken, die zur Seite des Körpers oder Kopfes kommen."
           },
           "osae-uke": {
             "name": "Osae Uke",
             "japanese": "押さえ受け",
-            "english": "Pressing Block",
-            "details": "Osae Uke (Pressing Block) is a technique that presses down or pins an opponent's attack, often used to control an opponent's limb or create an opening."
+            "english": "Drückblock",
+            "details": "Osae Uke (Drückblock) ist eine Technik, die nach unten drückt oder einen Angriff des Gegners festhält, oft verwendet, um ein Glied des Gegners zu kontrollieren oder eine Öffnung zu schaffen."
           }
         }
       }

@@ -4,7 +4,7 @@ import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
 
 const AnichiMiyagiSection = () => {
-  const markdownContent = useMarkdownContent('../content/history/anichi-miyagi');
+  const markdownContent = useMarkdownContent('history/anichi-miyagi');
 
   return (
     <SectionWrapper title="An'ichi Miyagi (1931-2009)">

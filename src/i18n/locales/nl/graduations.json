@@ -1,0 +1,573 @@
+{
+  "graduations": {
+    "title": "Graduaties & Rangen",
+    "description": "Overzicht van de verschillende banden, graden en titels binnen Goju Ryu Karate.",
+    "basicRequirements": "Basis Vereisten",
+    "minimumClasses": "Minimale Lessen",
+    "monthsTraining": "Maanden Training",
+    "techniques": "Technieken",
+    "knowledgeTerminology": "Kennis & Terminologie",
+    "history": "Geschiedenis",
+    "months": "maanden",
+    "classes": "lessen",
+    "translations": {
+      "techniques": {
+        "kihonWaza": "Kihon Waza (Basis Technieken)",
+        "stances": "Tachi Kata (Stances)",
+        "footwork": "Unsoku Ho (Voetwerk)",
+        "movingBasics": "Ido (Bewegende Basis)",
+        "kata": "Kata",
+        "kumite": "Kumite",
+        "bunkai": "Bunkai",
+        "supplementalTraining": "Hojo Undo (Aanvullende Training)",
+        "techniqueNames": {
+          "jodanAgeUke": "Jodan age uke (Bovenste stijgende blok)",
+          "chudanYokoUke": "Chudan (soto) yoko uke (Middel/buiten/zijwaartse blok)",
+          "gedanHaraiUke": "Gedan harai uke / gedan barai (Onderste veegblok)",
+          "seikenZuki": "Seiken zuki (Juiste vuiststoot)",
+          "maeGeri": "Mae geri (Voorwaartse trap)",
+          "mawashiGeri": "Mawashi geri (Ronde trap)",
+          "urakenUchi": "Uraken uchi (Achtervuist slag; voor, zij en achter)",
+          "shutoUchi": "Shuto uchi (Meshand slag, bovenste niveau zij)",
+          "ageHijiAte": "Age hiji ate (Stijgende elleboog slag)",
+          "namiGaeshi": "Nami gaeshi (Voetveeg en stamp)",
+          "shikodachiGedanHaraiUke": "Shikodachi gedan harai uke (Onderste veegblok met spreidstand)",
+          "chudanUraZuki": "Chudan ura zuki (Middel niveau korte stoot)",
+          "jodanAgeZuki": "Jodan age zuki (Bovenste stoot)",
+          "sanbonZuki": "Sanbon zuki (Drievoudige stoot)",
+          "hizaGeri": "Hiza geri (Knie trap)",
+          "chudanHikiUke": "Chudan hiki uke (Middel niveau trekkende blok)",
+          "toraGuchi": "Tora guchi (Tijgermond blok)",
+          "sanbonUke": "Sanbon uke (Drievoudige blok)",
+          "kizamiZuki": "Kizami zuki (Snap stoot)",
+          "yokoGeri": "Yoko geri (Zijwaartse trap)",
+          "kinGeri": "Kin geri (Lies trap)",
+          "fumikomiGeri": "Fumikomi geri (Stempel trap)",
+          "chudanUchiUke": "Chudan uchi uke (Middel niveau binnenwaartse blok)",
+          "gedanUchiUke": "Gedan uchi uke (Onderste niveau binnenwaartse blok)",
+          "tatekenZuki": "Tateken zuki (Verticale vuist stoot)",
+          "haitoUchi": "Haito uchi (Ruggehand slag)",
+          "ushiroGeri": "Ushiro geri (Achterwaartse trap)",
+          "sukuiUke": "Sukui uke (Schepblok)",
+          "kaishuGedanHaraiUke": "Kaishu gedan harai uke (Open hand onderste niveau veegblok)",
+          "mawashiHijiAte": "Mawashi hiji ate (Ronde elleboog slag)",
+          "ushiroHijiAte": "Ushiro hiji ate (Achterwaartse elleboog slag)",
+          "shoteiZuki": "Shotei zuki (Handpalm stoot)",
+          "shutoUchiFront": "Shuto uchi (Voor- jodan, gedan)",
+          "tobiMaeGeri": "Tobi mae geri (Springende voorwaartse trap)",
+          "nukiteZuki": "Nukite zuki (Meshand stoot) jodan, chudan, gedan",
+          "furiZuki": "Furi zuki (Zwaai stoot)",
+          "kaitenUshiroGeri": "Kaiten ushiro geri (Draaiende achterwaartse trap)",
+          "kagiZuki": "Kagi zuki (Haak stoot)",
+          "kansetsuGeri": "Kansetsu geri (Gewricht trap)",
+          "jodanKoUke": "Jodan ko uke (Bovenste niveau pols blok)",
+          "jodanHaishuAgeUke": "Jodan haishu/haiwan age uke (Bovenste niveau achterhand stijgende blok)",
+          "chudanHaishuOtoshiUke": "Chudan haishu/haiwan otoshi uke (Middel niveau achterhand dalende blok)"
+        },
+        "stances": {
+          "musubiDachi": "Musubi dachi (Gereedheidshouding)",
+          "heikoDachi": "Heiko dachi (Parallelle houding)",
+          "zenkutsuDachi": "Zenkutsu dachi (Voorwaartse houding)",
+          "shikoDachi": "Shiko dachi (Spreidstand)",
+          "hanZenkutsuDachi": "Han zenkutsu dachi (Halve voorwaartse houding)",
+          "hachijiDachi": "Hachiji dachi (Natuurlijke houding, tenen licht naar buiten)",
+          "nekoAshiDachi": "Neko ashi dachi (Kattenhouding)",
+          "sanchinDachi": "Sanchin dachi (Zandloperhouding/sanchin houding)",
+          "sagiAshiDachi": "Sagi ashi dachi (Ooievaarshouding)",
+          "bensokuDachi": "Bensoku dachi (Kruisbeen houding)",
+          "renojiDachi": "Renoji dachi (Vinkje houding)",
+          "heisokuDachi": "Heisoku dachi (Voeten samen houding)"
+        },
+        "footwork": {
+          "zenkutsuDachi": "Zenkutsu dachi",
+          "hanZenkutsuDachi": "Han zenkutsu dachi",
+          "shikoDachi": "Shiko dachi",
+          "heikoDachiSuriAshi": "Heiko dachi suri ashi (Zijwaarts)",
+          "nekoAshiDachiSuriAshi": "Neko ashi dachi suri ashi (Voorwaarts, achterwaarts, zijwaarts)",
+          "sanchinDachi": "Sanchin dachi",
+          "nekoAshiDachiTurn": "Neko ashi dachi (Draai, 45 graden voorwaarts en achterwaarts)",
+          "sagiAshiDachiSideStep": "Sagi ashi dachi (Zijwaartse stap)",
+          "bensokuDachi": "Bensoku dachi",
+          "renojiDachi": "Renoji dachi",
+          "nekoAshiDachiShihoSabaki": "Neko ashi dachi shiho sabaki (Vier richtingen stap)"
+        },
+        "movingBasics": {
+          "oiZuki": "Oi zuki (Uitval stoot)",
+          "gyakuZuki": "Gyaku zuki (Tegenstoot)",
+          "jodanAgeUke": "Jodan age uke (Bovenste stijgende blok)",
+          "chudanYokoUke": "Chudan yoko uke (Middel buitenwaartse blok)",
+          "gedanHaraiUke": "Gedan harai uke (Onderste veegblok)",
+          "maeGeri": "Mae geri (Voorwaartse trap)",
+          "mawashiGeri": "Mawashi geri (Ronde trap)",
+          "hizaGeri": "Hiza geri",
+          "yokoGeri": "Yoko geri",
+          "hikiUke": "Hiki uke",
+          "chudanUchiUke": "Chudan uchi uke (Middel niveau binnenwaartse blok)",
+          "gedanUchiUke": "Gedan uchi uke (Onderste niveau binnenwaartse blok)",
+          "jodanOiZuki": "Jodan oi zuki, chudan gyaku zuki",
+          "maeGeriGyakuZuki": "Mae geri, gyaku zuki",
+          "mawashiGeriGyakuZuki": "Mawashi geri, gyaku zuki",
+          "jodanAgeUkeGyakuZuki": "Jodan age uke, gyaku zuki",
+          "chudanYokoUkeGyakuZuki": "Chudan yoko uke, gyaku zuki",
+          "gedanHaraiUkeGyakuZuki": "Gedan harai uke, gyaku zuki",
+          "shikoDachiGedanHaraiUke": "Shiko dachi gedan harai uke",
+          "oneMenSandanGi": "One men sandan gi",
+          "sonobaSandanGi": "Sonoba sandan gi",
+          "hikiUkeGyakuZuki": "Hiki uke, gyaku zuki",
+          "yokoGeriHachijiDachi": "Yoko geri (Hachiji dachi, zijwaartse stap)",
+          "shikoDachiGedanHaraiUkeZenkutsuDachi": "Shiko dachi gedan harai uke, zenkutsu dachi chudan gyaku zuki, shiko dachi gedan harai uke",
+          "chudanUchiUkeHaitoUchi": "Chudan uchi uke, haito uchi",
+          "gedanUchiUkeJodanTatekenZuki": "Gedan uchi uke, jodan tateken zuki",
+          "nekoAshiDachiHikiUke": "Neko ashi dachi, hiki uke",
+          "nekoAshiDachiHikiUkeMaeAshiKinGeri": "Neko ashi dachi, hiki uke, mae ashi kin geri",
+          "nekoAshiDachiHikiUkeZenkutsuDachi": "Neko ashi dachi, hiki uke, zenkutsu dachi, gyaku zuki, neko ashi dachi, hiki uke",
+          "jodanOiZukiJodanFuriZuki": "Jodan oi zuki, jodan furi zuki",
+          "jodanOiZukiChudanGyakuZukiJodanKagiZuki": "Jodan oi zuki, chudan gyaku zuki, jodan kaki zuki",
+          "nekoAshiDachiKaishuSandanUke": "Neko ashi dachi, kaishu sandan uke",
+          "nekoAshiDachiChudanHaishuOtoshiUke": "Neko ashi dachi chudan haishu otoshi uke",
+          "nekoAshiDachiChudanHikiUkeMaeAshiKinGeri": "Neko ashi dachi chudan hiki uke, mae ashi kin geri, zenkutsu dachi chudan gyaku zuki, neko ashi dachi chudan hiki uke",
+          "nekoAshiDachiChudanHaishuOtoshiUkeMaeAshiKinGeri": "Neko ashi dachi chudan chudan, haishu otoshi uke, mae ashi kin geri, zenkutsu dachi chudan gyaku zuki, neko ashi dachi chudan haishu otoshi uke"
+        },
+        "kata": {
+          "gekisaiDaiIchi": "Gekisai Dai Ichi",
+          "gekisaiDaiNi": "Gekisai Dai Ni",
+          "sanchin": "Sanchin",
+          "saifa": "Saifa",
+          "seiyunchin": "Seiyunchin",
+          "shisochin": "Shisochin"
+        },
+        "kumite": {
+          "basicBlocksWithPartner": "Basis blokken met partner (Jodan, chudan, gedan)",
+          "kihonIpponKumite": "Kihon ippon kumite (Jodan, chudan, gedan)",
+          "sandanGi": "Sandan gi",
+          "basicBlockWithPartnerHikiUke": "Basis blok met partner – hiki uke",
+          "kakieBasic": "Kakie – basis",
+          "ipponKumite": "Ippon kumite",
+          "chudanUchiUkeJodanAgeZuki": "Chudan uchi uke, jodan age zuki",
+          "gedanUchiUkeChudanGyakuZuki": "Gedan uchi uke, chudan gyaku zuki",
+          "chudanHikiUkeChudanMawashiGeri": "Chudan hiki uke, chudan mawashi geri, chudan gyaku zuki",
+          "udeTanren": "Ude tanren (kote gitae) chudan gedan binnen en buiten",
+          "basicBlockChudanUchiUke": "Basis blok – chudan uchi uke, gedan uchi uke, jodan shotei uchi uke",
+          "udeTanrenCombination": "Ude tanren combinatie",
+          "hachijiSabaki": "Hachiji sabaki (Chudan uchi uke, gedan uchi uke)",
+          "kakieWithSuriAshi": "Kakie met suri ashi",
+          "kakieWithBalanceBreaking": "Kakie met balansverbrekende technieken",
+          "irikumiJu": "Irikumi ju",
+          "basicBlockSukuiUke": "Basis blok – sukui uke, kaishu gedan harai uke",
+          "kakieKoteGaeshi": "Kakie – kote gaeshi",
+          "kakieGekisaiDaiNiHikiUkeBunkai": "Kakie – Gekisai Dai Ni hiki uke bunkai (Nodo tsukami)",
+          "thighConditioning": "Dijconditionering",
+          "stomachConditioning": "Buikconditionering",
+          "kakieGekisaiDaiIchiShutoUchi": "Kakie - Gekisai Dai Ichi #4 (Shuto uchi)",
+          "kakieSeikenZuki": "Kakie – seiken zuki (Jodan, chudan, gedan)",
+          "kakieJodanShutoUchi": "Kakie – jodan shuto uchi",
+          "kakieChudanAgeHijiAte": "Kakie – chudan age hiji ate",
+          "kakieJodanMawashiHijiAte": "Kakie – jodan mawashi hiji ate",
+          "kakieGedanKinGeri": "Kakie – gedan kin geri",
+          "shoulderConditioning": "Schouderconditionering",
+          "backConditioning": "Rugconditionering",
+          "basicBlockJodanKoUke": "Basis blokken met partner – jodan ko uke",
+          "sandanGiOpenHandBlocks": "Sandan gi – open hand blokken",
+          "kakieHijiTori": "Kakie – hiji tori (Shisochin)",
+          "kakieJodanUdeGarami": "Kakie – jodan ude garami",
+          "chudanHikiUkeKansetsuGeri": "Chudan hiki uke, kansetsu geri",
+          "chudanYokoUkeJodanKagiZuki": "Chudan yoko uke, jodan kagi zuki",
+          "basicBlockJodanHaishuAgeUke": "Basis blok met partner – jodan haishu age uke, chudan haishu otoshi uke",
+          "sandanGiNekoAshiDachi": "Sandan gi – neko ashi dachi open hand blok",
+          "niohnKumite": "Niohn kumite (Twee aanvallen sparring)",
+          "kakieShutoUchiNage": "Kakie – shuto uchi nage (Gekisai Dai Ichi)",
+          "kakieGedanMaeGeriChudanAgeHijiAte": "Kakie – gedan mae geri, chudan age hiji ate, uraken uchi (Gekisai Dai Ichi)",
+          "kakieAwaseZuki": "Kakie – awase zuki (Gekisai Dai Ichi)",
+          "kakieToraguchiOshi": "Kakie – toraguchi oshi (Gekisai Dai Ni)",
+          "kakieGedanUdeGarami": "Kakie – gedan ude garami",
+          "kakieAshiGarami": "Kakie – ashi garami",
+          "kakieHijiToriAshiGarami": "Kakie – hiji tori, ashi garami",
+          "jiyuIpponKumite": "Jiyu ippon kumite (Vrije één aanval sparring)"
+        },
+        "bunkai": {
+          "gekisaiDaiIchi": "Gekisai Dai Ichi",
+          "gekisaiDaiNi": "Gekisai Dai Ni",
+          "saifa": "Saifa",
+          "seiyunchinFirst6": "Seiyunchin (Eerste 6 bunkai)",
+          "seiyunchinLast6": "Seiyunchin (Laatste 6 bunkai)",
+          "shisochin": "Shisochin",
+          "gekisaiDaiIchiRenzoku": "Gekisai Dai Ichi renzoku bunkai"
+        },
+        "supplementalTraining": {
+          "makiwara": "Makiwara (Focus pad)",
+          "oGyakuZuki": "O gyaku zuki (Tegenstoot)",
+          "oMaeGeri": "O mae geri (Voorwaartse trap)",
+          "oMawashiGeri": "O mawashi geri (Ronde trap)",
+          "makiwaraUrakenUchi": "Makiwara - Uraken uchi, jodan yoko shuto uchi, chudan age hiji ate",
+          "kakatoOtoshi": "Kakato otoshi",
+          "makiwaraHizaGeri": "Makiwara - Hiza geri, jodan age zuki, chudan ura zuki",
+          "ukemi": "Ukemi (Mae & ushiro)",
+          "makiwaraYokoGeri": "Makiwara - Yoko geri, kingeri, kizami zuki",
+          "taiOtoshi": "Tai otoshi",
+          "makiwaraTatekenZuki": "Makiwara – tateken zuki, haito uchi, ushiro geri",
+          "tenTsuki": "Ten tsuki (Enkele hand, dubbele handen)",
+          "furiSute": "Furi sute",
+          "ukemiYokoMaeKaiten": "Ukemi (Yoko, mae, kaiten)",
+          "makiwaraMawashiHijiAte": "Makiwara – mawashi hiji ate, ushiro hiji ate",
+          "chiishi": "Chiishi – voor en achter/zij aan zij",
+          "nekoUndo": "Neko undo",
+          "makiwaraShoteiZuki": "Makiwara (Focus pad) – shotei zuki, shuto uchi, tobi mae geri",
+          "chiishiRotatePush": "Chiishi - draai en duw",
+          "chiishiSwingAroundBody": "Chiishi - zwaai rond lichaam en pak op",
+          "nigiriGameSanchinStep": "Nigiri game - Sanchin stap",
+          "makiwaraFuriZuki": "Makiwara – furi zuki, kaiten ushiro geri",
+          "chiishiSwingThrust": "Chiishi – zwaai en stoot met naname shiko dachi",
+          "chiishiSqueeze": "Chiishi – knijp (Omhoog, omlaag en draai, voorwaarts)",
+          "makiwaraFuriZukiKagiZuki": "Makiwara – furi zuki, kagi zuki",
+          "kongoKenTwist": "Kongo ken – draai",
+          "kongoKenLiftUp": "Kongo ken – til op",
+          "kongoKenShikoDachiSquat": "Kongo ken – shiko dachi squat",
+          "kongoKenChestShoulderPush": "Kongo ken – borst en schouder duw",
+          "kongoKenCatchPush": "Kongo ken – vang en duw (Twee mannen)",
+          "ishiSashiShisochinNukiteZuki": "Ishi sashi – Shisochin, nukite zuki",
+          "ishiSashiShisochinShoteiZuki": "Ishi sashi – Shisochin shotei zuki",
+          "ishiSashiShikoDachiOpenClose": "Ishi sashi – shiko dachi open en sluit",
+          "ishiSashiBentOverOpenClose": "Ishi sashi – voorovergebogen open en sluit",
+          "udetateRyoashiAshiGeriOtoshi": "Udetate ryoashi ashi geri otoshi",
+          "kusshinTobi": "Kusshin tobi (Hurksprong)",
+          "nigiriGameShikoDachi": "Nigiri game – shiko dachi",
+          "nigiriGameNekoAshiDachi": "Nigiri game – neko ashi dachi"
+        }
+      },
+      "terminology": {
+        "onegaiShimasu": "Onegai shimasu - Alstublieft leer/help me",
+        "arigatoGozaimashita": "Arigato gozaimashita - Dank u voor het leren/helpen",
+        "sayonara": "Sayonara - Tot ziens",
+        "sensei": "Sensei - Leraar/instructeur",
+        "sempai": "Sempai - Senior studenten",
+        "kohai": "Kohai - Junior studenten",
+        "haiSensei": "Hai Sensei - Ja, leraar",
+        "karate": "Karate - Letterlijk betekent lege handen",
+        "dojo": "Dojo - Martial arts school",
+        "gi": "Gi/dogi - Trainingsuniform",
+        "obi": "Obi - Band",
+        "jodanChudanGedan": "Jodan, chudan, gedan - Bovenste niveau, middel niveau, onderste niveau",
+        "shugo": "Shugo - Opstellen",
+        "hajime": "Hajime - Begin",
+        "yame": "Yame - Stop",
+        "yoi": "Yoi - Gereed",
+        "kamae": "Kamae - Gevechtshouding",
+        "semete": "Semete - Aanvaller",
+        "ukete": "Ukete - Verdediger",
+        "iogkf": "International Okinawan Goju-Ryu Karate-Do Federation (IOGKF)",
+        "kenkonTenchi": "Kenkon/tenchi",
+        "mon": "Mon",
+        "countTo10": "Tel tot 10 in het Japans",
+        "shitsureiShimasu": "Shitsurei shimasu",
+        "moichido": "Moichido",
+        "karateka": "Karate-ka",
+        "kata": "Kata",
+        "kihon": "Kihon",
+        "kiai": "Kiai",
+        "zukiTsuki": "Zuki / tsuki",
+        "uchi": "Uchi",
+        "geriKeri": "Geri / keri",
+        "seiza": "Seiza",
+        "mokuso": "Mokuso",
+        "dojoKun": "Dojo kun",
+        "maeYokoMigiHidariUshiroNaname": "Mae/yoko/migi/hidari/ushiro/naname",
+        "ashiKaete": "Ashi kaete",
+        "shomenShimoza": "Shomen/shimoza",
+        "josekiShimoseki": "Joseki/shimoseki",
+        "kime": "Kime",
+        "budo": "Budo",
+        "do": "Do",
+        "honbu": "Honbu",
+        "yudansha": "Yudansha",
+        "mudansha": "Mudansha",
+        "waza": "Waza",
+        "goreiNashi": "Gorei nashi",
+        "mawatte": "Mawatte",
+        "irikumi": "Irikumi",
+        "reigiReishiki": "Reigi/reishiki",
+        "dojoKunJapanese": "Dojo kun in het Japans en zijn betekenis",
+        "openingClosingCeremony": "Opening en sluitingsceremonie in het Japans",
+        "gasshuku": "Gasshuku",
+        "zenshin": "Zenshin",
+        "kotai": "Kotai",
+        "kyu": "Kyu",
+        "dan": "Dan",
+        "ryu": "Ryu",
+        "junbiUndo": "Junbi undo",
+        "hojoUndo": "Hojo undo",
+        "makiwara": "Makiwara",
+        "gyakuWaza": "Gyaku waza",
+        "hazushiWaza": "Hazushi waza",
+        "nageWaza": "Nage waza",
+        "neWaza": "Ne waza",
+        "zanshin": "Zanshin",
+        "morote": "Morote",
+        "moroteWaza": "Morote waza",
+        "renzoku": "Renzoku",
+        "kenpoHakku": "Kenpo hakku",
+        "heijoShin": "Heijo shin (fudo shin)",
+        "sabakiTaiSabaki": "Sabaki / tai sabaki",
+        "shihan": "Shihan",
+        "bubishi": "Bubishi",
+        "muchimi": "Muchimi",
+        "chiruNoChanChan": "Chiru no chan chan",
+        "chinKuchiKakin": "Chin kuchi kakin",
+        "shimeJurasan": "Shime jurasan",
+        "kaishuGata": "Kaishu gata",
+        "heishuGata": "Heishu gata",
+        "shoDanNiDanSanDan": "Sho dan, ni dan, san dan, yon dan, go dan, rok udan, shichi dan, hachi dan, kyu dan, ju dan",
+        "ritsuRei": "Ritsu rei",
+        "zaRei": "Za rei",
+        "hoshin": "Hoshin",
+        "uchiDeshi": "Uchi deshi",
+        "unsokuHo": "Unsoku ho",
+        "josokutei": "Josokutei",
+        "kakato": "Kakato",
+        "sokuto": "Sokuto",
+        "haisoku": "Haisoku",
+        "tsumasaki": "Tsumasaki",
+        "kasokutei": "Kasokutei",
+        "bodyPartsJapanese": "Lichaamsdelen in het Japans"
+      }
+    },
+    "sections": {
+      "ranks": {
+        "title": "Banden en Graden",
+        "description": "Het graduatiesysteem in Goju Ryu Karate",
+        "kyu": {
+          "name": "Kyu",
+          "japanese": "級",
+          "description": "Kyu (gekleurde band, onder zwarte band)"
+        },
+        "dan": {
+          "name": "Dan",
+          "japanese": "段",
+          "description": "Dan (zwarte band rangen)"
+        },
+        "ranks": {
+          "shodan": {
+            "name": "Shodan",
+            "japanese": "初段",
+            "description": "Eerste Dan (eerste niveau zwarte band)"
+          },
+          "nidan": {
+            "name": "Nidan",
+            "japanese": "二段",
+            "description": "Tweede Dan"
+          },
+          "sandan": {
+            "name": "Sandan",
+            "japanese": "三段",
+            "description": "Derde Dan"
+          },
+          "yondan": {
+            "name": "Yondan",
+            "japanese": "四段",
+            "description": "Vierde Dan"
+          },
+          "godan": {
+            "name": "Godan",
+            "japanese": "五段",
+            "description": "Vijfde Dan"
+          },
+          "rokudan": {
+            "name": "Rokudan",
+            "japanese": "六段",
+            "description": "Zesde Dan"
+          },
+          "nanadan": {
+            "name": "Nanadan",
+            "japanese": "七段",
+            "description": "Zevende Dan"
+          },
+          "hachidan": {
+            "name": "Hachidan",
+            "japanese": "八段",
+            "description": "Achtste Dan"
+          },
+          "kudan": {
+            "name": "Kudan",
+            "japanese": "九段",
+            "description": "Negende Dan"
+          },
+          "judan": {
+            "name": "Judan",
+            "japanese": "十段",
+            "description": "Tiende Dan"
+          }
+        }
+      },
+      "beltColors": {
+        "title": "Bandkleuren (Kyu Graden)",
+        "description": "De verschillende kleuren van de kyu graden",
+        "colors": {
+          "white": {
+            "name": "Wit",
+            "japanese": "白帯",
+            "description": "Beginner - zuiverheid en bereidheid om te leren"
+          },
+          "yellow": {
+            "name": "Geel",
+            "japanese": "黄帯",
+            "description": "Eerste stap - de opkomende zon"
+          },
+          "orange": {
+            "name": "Oranje",
+            "japanese": "橙帯",
+            "description": "De zon wordt sterker"
+          },
+          "green": {
+            "name": "Groen",
+            "japanese": "緑帯",
+            "description": "De plant groeit - ontwikkeling van vaardigheden"
+          },
+          "blue": {
+            "name": "Blauw",
+            "japanese": "青帯",
+            "description": "De lucht - vrijheid en mogelijkheden"
+          },
+          "brown": {
+            "name": "Bruin",
+            "japanese": "茶帯",
+            "description": "De aarde - stabiliteit en kracht"
+          },
+          "black": {
+            "name": "Zwart",
+            "japanese": "黒帯",
+            "description": "Volwassenheid - de reis begint pas"
+          }
+        }
+      },
+      "titles": {
+        "title": "Titels",
+        "description": "Verschillende titels en rangen in de karate wereld",
+        "studentTitles": {
+          "title": "Student Titels",
+          "titles": {
+            "mudansha": {
+              "name": "Mudansha",
+              "japanese": "無段者",
+              "description": "Student zonder zwarte band"
+            },
+            "yudansha": {
+              "name": "Yudansha",
+              "japanese": "有段者",
+              "description": "Zwarte band drager"
+            },
+            "karateka": {
+              "name": "Karateka",
+              "japanese": "空手家",
+              "description": "Karate beoefenaar"
+            },
+            "sempai": {
+              "name": "Sempai",
+              "japanese": "先輩",
+              "description": "Senior student"
+            },
+            "kohai": {
+              "name": "Kohai",
+              "japanese": "後輩",
+              "description": "Junior student"
+            },
+            "uchiDeshi": {
+              "name": "Uchi Deshi",
+              "japanese": "内弟子",
+              "description": "Inwonende student"
+            }
+          }
+        },
+        "instructorTitles": {
+          "title": "Instructeur Titels",
+          "titles": {
+            "sensei": {
+              "name": "Sensei",
+              "japanese": "先生",
+              "description": "Leraar"
+            },
+            "shihan": {
+              "name": "Shihan",
+              "japanese": "師範",
+              "description": "Meester instructeur, leraar van leraren"
+            },
+            "renshi": {
+              "name": "Renshi",
+              "japanese": "錬士",
+              "description": "Geslepen instructeur (onderwijstitel)"
+            },
+            "kyoshi": {
+              "name": "Kyoshi",
+              "japanese": "教士",
+              "description": "Gevorderde leraar (onderwijstitel)"
+            },
+            "hanshi": {
+              "name": "Hanshi",
+              "japanese": "範士",
+              "description": "Voorbeeldige leraar, meester (onderwijstitel)"
+            }
+          }
+        },
+        "otherTitles": {
+          "title": "Andere Titels",
+          "titles": {
+            "bushi": {
+              "name": "Bushi",
+              "japanese": "武士",
+              "description": "Grote krijgskunstenaar"
+            },
+            "shushin": {
+              "name": "Shushin",
+              "japanese": "主審",
+              "description": "Scheidsrechter"
+            },
+            "fukushin": {
+              "name": "Fukushin",
+              "japanese": "副審",
+              "description": "Assistent scheidsrechter"
+            },
+            "kansa": {
+              "name": "Kansa",
+              "japanese": "監査",
+              "description": "Rechter"
+            }
+          }
+        }
+      },
+      "gradingSystem": {
+        "title": "Graduatiesysteem",
+        "description": "Hoe het graduatiesysteem werkt",
+        "kyuSystem": {
+          "title": "Kyu Systeem",
+          "description": "Het kyu systeem voor gekleurde banden",
+          "levels": {
+            "10th_kyu": "10e Kyu",
+            "9th_kyu": "9e Kyu",
+            "8th_kyu": "8e Kyu",
+            "7th_kyu": "7e Kyu",
+            "6th_kyu": "6e Kyu",
+            "5th_kyu": "5e Kyu",
+            "4th_kyu": "4e Kyu",
+            "3rd_kyu": "3e Kyu",
+            "2nd_kyu": "2e Kyu",
+            "1st_kyu": "1e Kyu"
+          }
+        },
+        "danSystem": {
+          "title": "Dan Systeem",
+          "description": "Het dan systeem voor zwarte banden",
+          "levels": {
+            "shodan": "Shodan",
+            "nidan": "Nidan",
+            "sandan": "Sandan",
+            "yondan": "Yondan",
+            "godan": "Godan",
+            "rokudan": "Rokudan",
+            "nanadan": "Nanadan",
+            "hachidan": "Hachidan",
+            "kudan": "Kudan",
+            "judan": "Judan"
+          }
+        }
+      }
+    }
+  }
+} 

@@ -2,6 +2,19 @@
   "kata": {
     "title": "Kata",
     "description": "Traditionele vormen van Goju Ryu",
+    "theoryTitle": "Kata Theorie",
+    "theoryDescription": "Inzicht in de principes en praktijk van kata",
+    "sections": {
+      "whatAreKata": "Wat zijn Kata?",
+      "kataAndKarate": "Kata en Karate",
+      "bunkaiAndTechniques": "Bunkai & Technieken",
+      "kataOrigins": "Oorsprong van Kata",
+      "powerAndMovement": "Kracht & Beweging",
+      "sourcesOfPower": "Bronnen van Kracht",
+      "okinawanConcepts": "Okinawaanse Concepten",
+      "powerTransfer": "Krachtsoverdracht",
+      "kataTechniques": "Kata Technieken"
+    },
     "levels": {
       "beginner": "Beginner",
       "intermediate": "Gemiddeld",
