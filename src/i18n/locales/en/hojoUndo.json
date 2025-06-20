@@ -113,6 +113,94 @@
     "historicalNote": "These hardening exercises are developed to prepare the body for the impact of karate techniques. They are essential for developing real fighting power.",
     "safetyNotice": "Hardening exercises should always be performed under expert guidance. Start carefully and build up gradually to prevent injuries."
   },
+  "benefits": {
+    "physicalBenefits": "Physical Benefits",
+    "technicalBenefits": "Technical Benefits",
+    "mentalBenefits": "Mental Benefits",
+    "safetyBenefits": "Safety Benefits",
+    "progressionBenefits": "Progression Benefits",
+    "qualityBenefits": "Quality Benefits",
+    "chiIshi": {
+      "physical": [
+        "Strengthening of wrist and hand muscles",
+        "Improvement of shoulder and arm strength",
+        "Development of core stability",
+        "Increase in general body strength"
+      ],
+      "technical": [
+        "More effective grip techniques",
+        "Improved lock techniques",
+        "More powerful holds",
+        "Better control at vital points"
+      ],
+      "mental": [
+        "Development of concentration",
+        "Improvement of mental discipline",
+        "Increase in self-confidence",
+        "Better focus during training"
+      ]
+    },
+    "nigiriGame": {
+      "physical": [
+        "Strengthening of finger and hand muscles",
+        "Improvement of wrist stability",
+        "Development of forearm strength",
+        "Increase in grip endurance"
+      ],
+      "technical": [
+        "More effective grip techniques",
+        "Improved lock techniques",
+        "More powerful holds",
+        "Better control at vital points"
+      ],
+      "mental": [
+        "Development of concentration",
+        "Improvement of mental discipline",
+        "Increase in self-confidence",
+        "Better focus during training"
+      ]
+    },
+    "construction": {
+      "practical": [
+        "Cost-effective training tool",
+        "Adaptable to personal needs",
+        "Durable and long-lasting use",
+        "Easy to maintain"
+      ],
+      "training": [
+        "Weight can be adjusted to level",
+        "Different lengths for different techniques",
+        "Stable construction for safe training",
+        "Mobile and storable"
+      ],
+      "quality": [
+        "Handmade quality",
+        "Traditional construction methods",
+        "Reliable materials",
+        "Tested design"
+      ]
+    },
+    "attentionPoints": {
+      "safety": [
+        "Prevents injuries through correct technique",
+        "Builds strength gradually",
+        "Protects joints and muscles",
+        "Creates awareness of body signals"
+      ],
+      "technical": [
+        "Improved body posture",
+        "Better breathing control",
+        "More precise movements",
+        "More effective power transfer"
+      ],
+      "progression": [
+        "Structured strength building",
+        "Sustainable training development",
+        "Prevents overtraining",
+        "Maximum training effects"
+      ]
+    }
+  },
   "common": {
     "function": "Function",
     "construction": "Construction",
@@ -162,5 +250,601 @@
     "jariBakoDescription": "For leg and foot strength",
     "makiwara": "Striking board",
     "makiwaraDescription": "For hardening fists and feet"
+  },
+  "chiIshi": {
+    "function": {
+      "title": "Chi Ishi Function",
+      "subtitle": "Function",
+      "japaneseTitle": "力石の機能",
+      "badgeText": "Stone lever weight",
+      "description": "The chi ishi is a 'stone lever weight'. It is still used in China, among others in the province of Fuzhou.",
+      "mainComponents": {
+        "forearmStrength": {
+          "title": "Strengthens forearm and hand muscles",
+          "subtitle": "Strengthens forearm and hand muscles",
+          "items": [
+            "Support of wrist stability in punching and striking techniques",
+            "Strengthening of grip for close combat techniques",
+            "Improvement of hand coordination and control",
+            "Development of finger and hand muscles"
+          ]
+        },
+        "muchimiPower": {
+          "title": "Development of muchimi power",
+          "subtitle": "Development of muchimi power",
+          "items": [
+            "Increased resistance in total movement",
+            "Non-explosive movements for optimal development",
+            "Integration of body and mind",
+            "Development of sticky power"
+          ]
+        },
+        "chinkuchiPower": {
+          "title": "Development of chinkuchi kakin power",
+          "subtitle": "Development of chinkuchi kakin power",
+          "items": [
+            "Squeezing the stick at the end of movements",
+            "Concentration of power in specific points",
+            "Development of explosive power",
+            "Improvement of kime (focus)"
+          ]
+        },
+        "breathingCoordination": {
+          "title": "Breathing coordination",
+          "subtitle": "Breathing coordination",
+          "items": [
+            "Integration of breathing with movement",
+            "Development of kokyu (breathing power)",
+            "Improvement of mental focus",
+            "Coordination of body, breath and mind"
+          ]
+        }
+      },
+      "principles": [
+        "Coordination of body, breath and mind",
+        "Technique is more important than weight",
+        "Move slowly and controlled",
+        "Focus on correct grip technique",
+        "Breathe regularly and controlled",
+        "Gradually build up in intensity"
+      ],
+      "navigationLinks": {
+        "construction": {
+          "label": "Construction",
+          "description": "Learn how to make a Chi Ishi"
+        },
+        "attentionPoints": {
+          "label": "Attention Points",
+          "description": "Safety and training tips"
+        },
+        "exercises": {
+          "label": "Exercises",
+          "description": "Practical training routines"
+        }
+      },
+      "historicalNote": "The Chi Ishi originates from China and is still used in the province of Fuzhou. It is one of the oldest Hojo Undo tools and is essential for traditional karate training.",
+      "safetyNotice": "Expert guidance is essential for Chi Ishi training. Always start with light weights and focus on correct technique before increasing intensity."
+    },
+    "construction": {
+      "title": "Chi Ishi Construction",
+      "subtitle": "Construction",
+      "japaneseTitle": "力石の構造",
+      "badgeText": "Build your own Chi Ishi",
+      "description": "Learn how to make a traditional Chi Ishi with the right materials and techniques",
+      "mainComponents": {
+        "materials": {
+          "title": "Materials",
+          "subtitle": "Materials",
+          "items": [
+            "Wooden stick (usually oak)",
+            "Stone weight (granite or concrete)",
+            "Strong rope or chain",
+            "Fastening materials"
+          ]
+        },
+        "dimensions": {
+          "title": "Dimensions",
+          "subtitle": "Dimensions",
+          "items": [
+            "Stick: 60-90 cm length",
+            "Diameter: 3-4 cm",
+            "Weight: 5-15 kg (depending on level)",
+            "Weight distance: 15-20 cm from end"
+          ]
+        },
+        "constructionSteps": {
+          "title": "Construction Steps",
+          "subtitle": "Construction Steps",
+          "items": [
+            "Preparation of materials",
+            "Attaching weight to stick",
+            "Applying handgrips",
+            "Quality control and testing"
+          ]
+        },
+        "safetyMeasures": {
+          "title": "Safety Measures",
+          "subtitle": "Safety Measures",
+          "items": [
+            "Careful attachment of weight",
+            "Check for loose parts",
+            "Testing stability",
+            "Regular inspection"
+          ]
+        }
+      },
+      "principles": [
+        "Use only high-quality materials",
+        "Ensure solid attachment of all parts",
+        "Test the construction thoroughly before use",
+        "Check regularly for wear and damage",
+        "Adjust weight to your training level",
+        "Store the Chi Ishi in a dry, safe place"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Function",
+          "description": "Learn about the functions of the Chi Ishi"
+        },
+        "attentionPoints": {
+          "label": "Attention Points",
+          "description": "Safety and training tips"
+        },
+        "exercises": {
+          "label": "Exercises",
+          "description": "Practical training routines"
+        }
+      },
+      "historicalNote": "Traditionally, Chi Ishi were made from natural materials that were locally available. Modern versions often use concrete or granite for the weight, but the basic construction remains the same.",
+      "safetyNotice": "Make sure all parts are firmly attached before using the Chi Ishi. Check regularly for wear and replace damaged parts immediately."
+    },
+    "attentionPoints": {
+      "title": "Chi Ishi Attention Points",
+      "subtitle": "Attention Points",
+      "japaneseTitle": "力石の注意点",
+      "badgeText": "Safety and Technique",
+      "description": "Important attention points for safe and effective Chi Ishi training",
+      "mainComponents": {
+        "safetyMeasures": {
+          "title": "Safety Measures",
+          "subtitle": "Safety Measures",
+          "items": [
+            "Check the construction before each training",
+            "Always start with light weights",
+            "Stop at pain or discomfort",
+            "Use only on solid ground"
+          ]
+        },
+        "technicalFocusPoints": {
+          "title": "Technical Focus Points",
+          "subtitle": "Technical Focus Points",
+          "items": [
+            "Keep the back straight during exercises",
+            "Breathe regularly and controlled",
+            "Focus on correct grip technique",
+            "Move slowly and controlled"
+          ]
+        },
+        "trainingProgression": {
+          "title": "Training Progression",
+          "subtitle": "Training Progression",
+          "items": [
+            "Gradually build up in weight",
+            "First increase the number of repetitions",
+            "Then adjust the weight",
+            "Take sufficient rest between sessions"
+          ]
+        },
+        "mentalFocus": {
+          "title": "Mental Focus",
+          "subtitle": "Mental Focus",
+          "items": [
+            "Concentrate on the movement",
+            "Visualize the technique",
+            "Stay focused on breathing",
+            "Avoid distractions during training"
+          ]
+        }
+      },
+      "principles": [
+        "Safety always comes first",
+        "Technique is more important than weight",
+        "Listen to your body",
+        "Build up gradually",
+        "Stay focused during training",
+        "Take sufficient rest and recovery"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Function",
+          "description": "Learn about the functions of the Chi Ishi"
+        },
+        "construction": {
+          "label": "Construction",
+          "description": "Learn how to make a Chi Ishi"
+        },
+        "exercises": {
+          "label": "Exercises",
+          "description": "Practical training routines"
+        }
+      },
+      "historicalNote": "Traditionally, these attention points were passed down orally from master to student. They are based on centuries of experience and are essential for safe training.",
+      "safetyNotice": "Expert guidance is essential for Chi Ishi training. Always start under the supervision of an experienced instructor and stop immediately at pain or discomfort."
+    },
+    "exercises": {
+      "title": "Chi Ishi Exercises",
+      "subtitle": "Exercises",
+      "japaneseTitle": "力石の練習",
+      "badgeText": "Practical Training",
+      "description": "Learn effective exercises with the Chi Ishi for strength development and technique improvement",
+      "mainComponents": {
+        "basicExercises": {
+          "title": "Basic Exercises",
+          "subtitle": "Basic Exercises",
+          "items": [
+            "Chi Ishi Kamae - Basic stance",
+            "Chi Ishi Uke - Blocking with weight",
+            "Chi Ishi Tsuki - Punching with weight",
+            "Chi Ishi Uchi - Striking with weight"
+          ]
+        },
+        "advancedExercises": {
+          "title": "Advanced Exercises",
+          "subtitle": "Advanced Exercises",
+          "items": [
+            "Chi Ishi Kata - Kata with weight",
+            "Chi Ishi Kumite - Partner exercises",
+            "Chi Ishi Hojo Undo - Supporting training",
+            "Chi Ishi Kihon - Basic techniques"
+          ]
+        },
+        "specialTechniques": {
+          "title": "Special Techniques",
+          "subtitle": "Special Techniques",
+          "items": [
+            "Muchimi training - Sticky power",
+            "Chinkuchi training - Power concentration",
+            "Kime training - Focus and explosiveness",
+            "Kokyu training - Breathing and power"
+          ]
+        },
+        "trainingRoutines": {
+          "title": "Training Routines",
+          "subtitle": "Training Routines",
+          "items": [
+            "Daily routine for beginners",
+            "Weekly routine for advanced",
+            "Monthly progression schedule",
+            "Seasonal training adjustments"
+          ]
+        }
+      },
+      "principles": [
+        "Always start with light weights",
+        "Focus on correct technique",
+        "Breathe regularly and controlled",
+        "Gradually build up in intensity",
+        "Take sufficient rest between sets",
+        "Listen to your body"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Function",
+          "description": "Learn about the functions of the Chi Ishi"
+        },
+        "construction": {
+          "label": "Construction",
+          "description": "Learn how to make a Chi Ishi"
+        },
+        "attentionPoints": {
+          "label": "Attention Points",
+          "description": "Safety and training tips"
+        }
+      },
+      "historicalNote": "These exercises have been passed down from master to student for centuries. They are developed to create functional strength that is directly applicable in karate techniques.",
+      "safetyNotice": "Perform all exercises under expert guidance. Start with light weights and focus on correct technique before increasing intensity."
+    }
+  },
+  "nigiriGame": {
+    "function": {
+      "title": "Nigiri Game Function",
+      "subtitle": "Function",
+      "japaneseTitle": "握り甕の機能",
+      "badgeText": "Grip Strength Training",
+      "description": "Discover the functions and benefits of the traditional Nigiri Game in karate training",
+      "mainComponents": {
+        "fingerHandStrength": {
+          "title": "Finger and Hand Strength",
+          "subtitle": "Finger and Hand Strength",
+          "items": [
+            "Strengthening of finger muscles",
+            "Development of grip strength",
+            "Improvement of hand coordination",
+            "Increase in finger endurance"
+          ]
+        },
+        "wristStability": {
+          "title": "Wrist Stability",
+          "subtitle": "Wrist Stability",
+          "items": [
+            "Strengthening of wrist muscles",
+            "Improvement of wrist stability",
+            "Development of wrist control",
+            "Increase in wrist endurance"
+          ]
+        },
+        "forearmStrength": {
+          "title": "Forearm Strength",
+          "subtitle": "Forearm Strength",
+          "items": [
+            "Strengthening of forearm muscles",
+            "Development of grip endurance",
+            "Improvement of forearm stability",
+            "Increase in general arm strength"
+          ]
+        },
+        "mentalDiscipline": {
+          "title": "Mental Discipline",
+          "subtitle": "Mental Discipline",
+          "items": [
+            "Development of concentration",
+            "Improvement of patience",
+            "Increase in mental focus",
+            "Better control over movements"
+          ]
+        }
+      },
+      "principles": [
+        "Start with light weights and gradually build up",
+        "Focus on correct grip technique",
+        "Breathe regularly and controlled",
+        "Take sufficient rest between sets",
+        "Listen to your body",
+        "Combine with other Hojo Undo exercises"
+      ],
+      "navigationLinks": {
+        "construction": {
+          "label": "Construction",
+          "description": "Learn how to make Nigiri Game jars"
+        },
+        "attentionPoints": {
+          "label": "Attention Points",
+          "description": "Safety and training tips"
+        },
+        "exercises": {
+          "label": "Exercises",
+          "description": "Practical training routines"
+        }
+      },
+      "historicalNote": "The Nigiri Game is of Chinese origin and was traditionally used for developing grip strength. The jars were filled with sand or gravel to adjust the weight.",
+      "safetyNotice": "Expert guidance is essential for Nigiri Game training. Always start with light weights and focus on correct technique before increasing weight."
+    },
+    "construction": {
+      "title": "Nigiri Game Construction",
+      "subtitle": "Construction",
+      "japaneseTitle": "握り甕の構造",
+      "badgeText": "Build your own Nigiri Game",
+      "description": "Learn how to make traditional Nigiri Game jars with the right materials and techniques",
+      "mainComponents": {
+        "materials": {
+          "title": "Materials",
+          "subtitle": "Materials",
+          "items": [
+            "Clay or ceramics for the jars",
+            "Sand or gravel for weight",
+            "Tools for processing",
+            "Oven for baking"
+          ]
+        },
+        "dimensions": {
+          "title": "Dimensions",
+          "subtitle": "Dimensions",
+          "items": [
+            "Diameter: 8-12 cm",
+            "Height: 10-15 cm",
+            "Wall thickness: 1-2 cm",
+            "Weight: 2-8 kg (depending on level)"
+          ]
+        },
+        "constructionSteps": {
+          "title": "Construction Steps",
+          "subtitle": "Construction Steps",
+          "items": [
+            "Shaping the jars",
+            "Drying the clay",
+            "Baking in the oven",
+            "Filling with weight"
+          ]
+        },
+        "qualityControl": {
+          "title": "Quality Control",
+          "subtitle": "Quality Control",
+          "items": [
+            "Check for cracks",
+            "Test strength",
+            "Check weight",
+            "Safety test"
+          ]
+        }
+      },
+      "principles": [
+        "Use only high-quality materials",
+        "Ensure solid construction",
+        "Test the jars thoroughly",
+        "Check regularly for damage",
+        "Adjust weight to level",
+        "Store in a dry, safe place"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Function",
+          "description": "Learn about the functions of the Nigiri Game"
+        },
+        "attentionPoints": {
+          "label": "Attention Points",
+          "description": "Safety and training tips"
+        },
+        "exercises": {
+          "label": "Exercises",
+          "description": "Practical training routines"
+        }
+      },
+      "historicalNote": "Traditionally, Nigiri Game jars were made from clay and filled with sand or gravel. Modern versions often use ceramics or concrete for durability.",
+      "safetyNotice": "Make sure the jars are solid before using them. Check regularly for cracks and replace damaged jars immediately."
+    },
+    "attentionPoints": {
+      "title": "Nigiri Game Attention Points",
+      "subtitle": "Attention Points",
+      "japaneseTitle": "握り甕の注意点",
+      "badgeText": "Safety and Technique",
+      "description": "Important attention points for safe and effective Nigiri Game training",
+      "mainComponents": {
+        "safetyMeasures": {
+          "title": "Safety Measures",
+          "subtitle": "Safety Measures",
+          "items": [
+            "Check the jars before each training",
+            "Always start with light weights",
+            "Stop at pain or discomfort",
+            "Use only on solid ground"
+          ]
+        },
+        "technicalFocusPoints": {
+          "title": "Technical Focus Points",
+          "subtitle": "Technical Focus Points",
+          "items": [
+            "Keep the back straight during exercises",
+            "Breathe regularly and controlled",
+            "Focus on correct grip technique",
+            "Move slowly and controlled"
+          ]
+        },
+        "trainingProgression": {
+          "title": "Training Progression",
+          "subtitle": "Training Progression",
+          "items": [
+            "Gradually build up in weight",
+            "First increase the number of repetitions",
+            "Then adjust the weight",
+            "Take sufficient rest between sessions"
+          ]
+        },
+        "mentalFocus": {
+          "title": "Mental Focus",
+          "subtitle": "Mental Focus",
+          "items": [
+            "Concentrate on the movement",
+            "Visualize the technique",
+            "Stay focused on breathing",
+            "Avoid distractions during training"
+          ]
+        }
+      },
+      "principles": [
+        "Safety always comes first",
+        "Technique is more important than weight",
+        "Listen to your body",
+        "Build up gradually",
+        "Stay focused during training",
+        "Take sufficient rest and recovery"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Function",
+          "description": "Learn about the functions of the Nigiri Game"
+        },
+        "construction": {
+          "label": "Construction",
+          "description": "Learn how to make Nigiri Game jars"
+        },
+        "exercises": {
+          "label": "Exercises",
+          "description": "Practical training routines"
+        }
+      },
+      "historicalNote": "Traditionally, these attention points were passed down orally from master to student. They are based on centuries of experience and are essential for safe training.",
+      "safetyNotice": "Expert guidance is essential for Nigiri Game training. Always start under the supervision of an experienced instructor and stop immediately at pain or discomfort."
+    },
+    "exercises": {
+      "title": "Nigiri Game Exercises",
+      "subtitle": "Exercises",
+      "japaneseTitle": "握り甕の練習",
+      "badgeText": "Practical Training",
+      "description": "Learn effective exercises with the Nigiri Game for grip strength development and technique improvement",
+      "mainComponents": {
+        "basicExercises": {
+          "title": "Basic Exercises",
+          "subtitle": "Basic Exercises",
+          "items": [
+            "Nigiri Game Kamae - Basic stance",
+            "Nigiri Game Uke - Blocking with jars",
+            "Nigiri Game Tsuki - Punching with jars",
+            "Nigiri Game Uchi - Striking with jars"
+          ]
+        },
+        "advancedExercises": {
+          "title": "Advanced Exercises",
+          "subtitle": "Advanced Exercises",
+          "items": [
+            "Nigiri Game Kata - Kata with jars",
+            "Nigiri Game Kumite - Partner exercises",
+            "Nigiri Game Hojo Undo - Supporting training",
+            "Nigiri Game Kihon - Basic techniques"
+          ]
+        },
+        "specialTechniques": {
+          "title": "Special Techniques",
+          "subtitle": "Special Techniques",
+          "items": [
+            "Grip training - Grip strength development",
+            "Finger training - Finger strength",
+            "Wrist training - Wrist stability",
+            "Forearm training - Forearm strength"
+          ]
+        },
+        "trainingRoutines": {
+          "title": "Training Routines",
+          "subtitle": "Training Routines",
+          "items": [
+            "Daily routine for beginners",
+            "Weekly routine for advanced",
+            "Monthly progression schedule",
+            "Seasonal training adjustments"
+          ]
+        }
+      },
+      "principles": [
+        "Always start with light weights",
+        "Focus on correct grip technique",
+        "Breathe regularly and controlled",
+        "Gradually build up in intensity",
+        "Take sufficient rest between sets",
+        "Listen to your body"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Function",
+          "description": "Learn about the functions of the Nigiri Game"
+        },
+        "construction": {
+          "label": "Construction",
+          "description": "Learn how to make Nigiri Game jars"
+        },
+        "attentionPoints": {
+          "label": "Attention Points",
+          "description": "Safety and training tips"
+        }
+      },
+      "historicalNote": "These exercises have been passed down from master to student for centuries. They are developed to create functional grip strength that is directly applicable in karate techniques.",
+      "safetyNotice": "Perform all exercises under expert guidance. Start with light weights and focus on correct technique before increasing intensity."
+    }
+  },
+  "benefitCategories": {
+    "practicalBenefits": "Practical Benefits",
+    "trainingBenefits": "Training Benefits",
+    "qualityBenefits": "Quality Benefits",
+    "safetyBenefits": "Safety Benefits",
+    "technicalBenefits": "Technical Benefits",
+    "progressionBenefits": "Progression Benefits"
   }
 } 

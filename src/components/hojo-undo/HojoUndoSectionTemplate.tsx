@@ -92,9 +92,9 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
           <div className="text-center">
             <h2 className="text-2xl font-bold flex items-center justify-center mb-2">
               <Users className="mr-3 h-6 w-6" />
-              Hoofdonderdelen
+              {t('hojoUndo.template.mainComponents')}
             </h2>
-            <p className="text-muted-foreground">De belangrijkste aspecten van deze training</p>
+            <p className="text-muted-foreground">{t('hojoUndo.template.mainComponentsDescription')}</p>
           </div>
           
           <div className="grid gap-6">
@@ -137,16 +137,15 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
           <div className="text-center mb-6">
             <h2 className="text-2xl font-bold flex items-center justify-center mb-2">
               <Target className="mr-3 h-6 w-6 text-orange-500" />
-              Belangrijke Principes
+              {t('hojoUndo.template.principles')}
             </h2>
-            <p className="text-muted-foreground">De fundamenten van deze training</p>
+            <p className="text-muted-foreground">{t('hojoUndo.template.principlesDescription')}</p>
           </div>
           
           <Card className="p-6">
             <CardContent>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                De kern van deze training is de <strong>gecoördineerde inzet van lichaam, adem en geest</strong>. 
-                Deze harmonisatie volgt dezelfde principes als de heishugata (Sanchin en Tensho).
+                {t('hojoUndo.template.coreTraining')} <strong>{t('hojoUndo.template.harmonization')}</strong>
               </p>
               <div className="grid gap-4">
                 {principles.map((principle, index) => (
@@ -170,9 +169,9 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
           <div className="text-center">
             <h2 className="text-2xl font-bold flex items-center justify-center mb-2">
               <Clock className="mr-3 h-6 w-6" />
-              Trainingseffecten
+              {t('hojoUndo.template.trainingEffects')}
             </h2>
-            <p className="text-muted-foreground">Wat je kunt verwachten van deze training</p>
+            <p className="text-muted-foreground">{t('hojoUndo.template.trainingEffectsDescription')}</p>
           </div>
           
           <div className="space-y-6">
@@ -209,9 +208,9 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
           <div className="text-center">
             <h2 className="text-2xl font-bold flex items-center justify-center mb-2">
               <ArrowRight className="mr-3 h-6 w-6" />
-              Gerelateerde Secties
+              {t('hojoUndo.template.relatedSections')}
             </h2>
-            <p className="text-muted-foreground">Verken andere aspecten van Hojo Undo</p>
+            <p className="text-muted-foreground">{t('hojoUndo.template.relatedSectionsDescription')}</p>
           </div>
           
           <div className="space-y-4">
@@ -243,7 +242,7 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
             className="space-y-4"
           >
             <div className="text-center">
-              <h3 className="text-xl font-bold text-amber-700 dark:text-amber-400">Historische Achtergrond</h3>
+              <h3 className="text-xl font-bold text-amber-700 dark:text-amber-400">{t('hojoUndo.template.historicalBackground')}</h3>
             </div>
             <Card className="border-l-4 border-l-amber-500 p-6">
               <CardContent className="p-0">
@@ -264,13 +263,13 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
             className="space-y-4"
           >
             <div className="text-center">
-              <h3 className="text-xl font-bold text-red-700 dark:text-red-400">Veiligheidsinformatie</h3>
+              <h3 className="text-xl font-bold text-red-700 dark:text-red-400">{t('hojoUndo.template.safetyInformation')}</h3>
             </div>
             <Card className="border-l-4 border-l-red-500 bg-red-50 dark:bg-red-950/20 p-6">
               <CardHeader className="p-0 pb-4">
                 <CardTitle className="text-red-700 dark:text-red-400 flex items-center text-lg">
                   <Shield className="mr-3 h-5 w-5" />
-                  Belangrijke Veiligheidsnota
+                  {t('hojoUndo.template.importantSafetyNotice')}
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-0">

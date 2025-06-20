@@ -3,6 +3,7 @@
   "description": "Entraînement de force traditionnel du Goju-ryu Karate-do",
   "introduction": {
     "title": "Introduction",
+    "translation": "Introduction & Aperçu",
     "whatIs": "Qu'est-ce que Hojo Undo?",
     "twoParts": "Deux composants principaux",
     "strengthExercises": "Exercices de force",
@@ -72,7 +73,45 @@
     "equipment": "Équipement",
     "techniques": "Techniques",
     "benefits": "Avantages",
-    "training": "Entraînement"
+    "training": "Entraînement",
+    "trainingSections": "Sections d'Entraînement"
+  },
+  "template": {
+    "mainComponents": "Composants Principaux",
+    "mainComponentsDescription": "Les aspects clés de cet entraînement",
+    "principles": "Principes Importants",
+    "principlesDescription": "Les fondements de cet entraînement",
+    "trainingEffects": "Effets d'Entraînement",
+    "trainingEffectsDescription": "Ce que vous pouvez attendre de cet entraînement",
+    "relatedSections": "Sections Connexes",
+    "relatedSectionsDescription": "Explorez d'autres aspects de Hojo Undo",
+    "historicalBackground": "Contexte Historique",
+    "safetyInformation": "Informations de Sécurité",
+    "importantSafetyNotice": "Avis de Sécurité Important",
+    "coreTraining": "Le cœur de cet entraînement est l'utilisation coordonnée du corps, de la respiration et de l'esprit.",
+    "harmonization": "Cette harmonisation suit les mêmes principes que les heishugata (Sanchin et Tensho)."
+  },
+  "strengthExercises": {
+    "title": "Exercices de Force",
+    "subtitle": "Entraînement de Force Traditionnel",
+    "description": "Développez une force fonctionnelle avec les outils traditionnels Hojo Undo pour un entraînement karaté efficace",
+    "chiIshiTraining": "Entraînement Chi Ishi",
+    "nigiriGameTraining": "Entraînement Nigiri Game",
+    "kongokenTraining": "Entraînement Kongoken",
+    "ishiSashiTraining": "Entraînement Ishi Sashi",
+    "historicalNote": "Ces exercices de force ont été transmis de maître à élève pendant des siècles. Ils sont développés pour créer une force fonctionnelle directement applicable dans les techniques de karaté.",
+    "safetyNotice": "Une guidance experte est essentielle pour tous les exercices de force. Commencez toujours avec des poids légers et concentrez-vous sur la technique correcte avant d'augmenter l'intensité."
+  },
+  "hardeningExercises": {
+    "title": "Exercices de Durcissement",
+    "subtitle": "Conditionnement et Durcissement",
+    "description": "Développez la résistance physique et mentale avec des exercices de durcissement traditionnels pour un entraînement karaté efficace",
+    "makiwaraTraining": "Entraînement Makiwara",
+    "sunaBakoTraining": "Entraînement Suna Bako",
+    "jariBakoTraining": "Entraînement Jari Bako",
+    "tanrenKumite": "Tanren Kumite",
+    "historicalNote": "Ces exercices de durcissement sont développés pour préparer le corps à l'impact des techniques de karaté. Ils sont essentiels pour développer une véritable puissance de combat.",
+    "safetyNotice": "Les exercices de durcissement doivent toujours être effectués sous guidance experte. Commencez prudemment et augmentez progressivement pour éviter les blessures."
   },
   "common": {
     "function": "Fonction",
@@ -83,7 +122,20 @@
     "safety": "Sécurité",
     "tips": "Conseils",
     "variations": "Variations",
-    "applications": "Applications"
+    "applications": "Applications",
+    "traditionalStrengthTraining": "Entraînement de Force Traditionnel",
+    "learnFundamentals": "Apprenez les fondamentaux et la philosophie",
+    "overviewEquipment": "Aperçu de tous les équipements d'entraînement",
+    "understandingPurpose": "Comprendre le but et les avantages",
+    "buildMaintain": "Comment construire et maintenir l'équipement",
+    "safetyTechnique": "Points importants de sécurité et de technique",
+    "specificExercises": "Exercices d'entraînement spécifiques et routines",
+    "traditionalMethods": "Méthodes d'entraînement traditionnelles et classiques",
+    "modernRoutines": "Routines d'entraînement modernes et adaptées"
+  },
+  "categories": {
+    "introduction": "Introduction",
+    "primaryEquipment": "Équipement Primaire"
   },
   "additionalEquipment": {
     "tekkan": "Anneaux en fer",

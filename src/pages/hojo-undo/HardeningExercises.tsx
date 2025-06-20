@@ -1,11 +1,14 @@
 import React from 'react';
 import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Dumbbell } from 'lucide-react';
 import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
+import { useTranslation } from 'react-i18next';
 
 const HardeningExercises = () => {
+  const { t } = useTranslation();
+
   const mainComponents = [
     {
-      title: "Makiwara Training",
+      title: t('hojoUndo.hardeningExercises.makiwaraTraining'),
       subtitle: "Striking Post",
       icon: Target,
       color: "bg-red-500",
@@ -17,7 +20,7 @@ const HardeningExercises = () => {
       ]
     },
     {
-      title: "Suna Bako Training",
+      title: t('hojoUndo.hardeningExercises.sunaBakoTraining'),
       subtitle: "Sand Box",
       icon: Weight,
       color: "bg-orange-500",
@@ -29,7 +32,7 @@ const HardeningExercises = () => {
       ]
     },
     {
-      title: "Jari Bako Training",
+      title: t('hojoUndo.hardeningExercises.jariBakoTraining'),
       subtitle: "Gravel Box",
       icon: Shield,
       color: "bg-yellow-500",
@@ -41,7 +44,7 @@ const HardeningExercises = () => {
       ]
     },
     {
-      title: "Tanren Kumite",
+      title: t('hojoUndo.hardeningExercises.tanrenKumite'),
       subtitle: "Partner Hardening",
       icon: Users,
       color: "bg-purple-500",
@@ -122,17 +125,17 @@ const HardeningExercises = () => {
 
   return (
     <HojoUndoSectionTemplate
-      title="Hardingsoefeningen"
-      subtitle="Hardening Exercises"
+      title={t('hojoUndo.hardeningExercises.title')}
+      subtitle={t('hojoUndo.hardeningExercises.subtitle')}
       japaneseTitle="鍛錬運動"
-      badgeText="Conditioning en Verharding"
-      description="Ontwikkel fysieke en mentale weerstand met traditionele hardening oefeningen voor effectieve karate training"
+      badgeText={t('hojoUndo.hardeningExercises.subtitle')}
+      description={t('hojoUndo.hardeningExercises.description')}
       mainComponents={mainComponents}
       benefits={benefits}
       principles={principles}
       navigationLinks={navigationLinks}
-      historicalNote="Deze hardening oefeningen zijn ontwikkeld om het lichaam voor te bereiden op de impact van karate technieken. Ze zijn essentieel voor het ontwikkelen van echte vechtkracht."
-      safetyNotice="Hardening oefeningen moeten altijd onder deskundige begeleiding worden uitgevoerd. Begin voorzichtig en bouw geleidelijk op om blessures te voorkomen."
+      historicalNote={t('hojoUndo.hardeningExercises.historicalNote')}
+      safetyNotice={t('hojoUndo.hardeningExercises.safetyNotice')}
       backPath="/hojo-undo"
     />
   );

@@ -1,138 +1,99 @@
 import React from 'react';
 import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Wrench } from 'lucide-react';
 import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
+import { useTranslation } from 'react-i18next';
 
 const ChiIshiConstruction = () => {
+  const { t } = useTranslation('hojoUndo');
+
   const mainComponents = [
     {
-      title: "Materialen",
-      subtitle: "Materials",
+      title: t('chiIshi.construction.mainComponents.materials.title'),
+      subtitle: t('chiIshi.construction.mainComponents.materials.subtitle'),
       icon: Weight,
       color: "bg-blue-500",
-      items: [
-        "Houten stok (meestal eikenhout)",
-        "Stenen gewicht (graniet of beton)",
-        "Sterke touw of ketting",
-        "Bevestigingsmaterialen"
-      ]
+      items: t('chiIshi.construction.mainComponents.materials.items', { returnObjects: true }) as string[]
     },
     {
-      title: "Afmetingen",
-      subtitle: "Dimensions",
+      title: t('chiIshi.construction.mainComponents.dimensions.title'),
+      subtitle: t('chiIshi.construction.mainComponents.dimensions.subtitle'),
       icon: Target,
       color: "bg-green-500",
-      items: [
-        "Stok: 60-90 cm lengte",
-        "Diameter: 3-4 cm",
-        "Gewicht: 5-15 kg (afhankelijk van niveau)",
-        "Gewicht afstand: 15-20 cm van einde"
-      ]
+      items: t('chiIshi.construction.mainComponents.dimensions.items', { returnObjects: true }) as string[]
     },
     {
-      title: "Constructie Stappen",
-      subtitle: "Construction Steps",
+      title: t('chiIshi.construction.mainComponents.constructionSteps.title'),
+      subtitle: t('chiIshi.construction.mainComponents.constructionSteps.subtitle'),
       icon: Wrench,
       color: "bg-orange-500",
-      items: [
-        "Voorbereiding van materialen",
-        "Bevestiging van gewicht aan stok",
-        "Aanbrengen van handgrepen",
-        "Kwaliteitscontrole en testen"
-      ]
+      items: t('chiIshi.construction.mainComponents.constructionSteps.items', { returnObjects: true }) as string[]
     },
     {
-      title: "Veiligheidsmaatregelen",
-      subtitle: "Safety Measures",
+      title: t('chiIshi.construction.mainComponents.safetyMeasures.title'),
+      subtitle: t('chiIshi.construction.mainComponents.safetyMeasures.subtitle'),
       icon: Shield,
       color: "bg-purple-500",
-      items: [
-        "Zorgvuldige bevestiging van gewicht",
-        "Controle op losse onderdelen",
-        "Testen van stabiliteit",
-        "Regelmatige inspectie"
-      ]
+      items: t('chiIshi.construction.mainComponents.safetyMeasures.items', { returnObjects: true }) as string[]
     }
   ];
 
   const benefits = [
     {
-      category: "Praktische Voordelen",
+      category: t('benefitCategories.practicalBenefits'),
       icon: Weight,
       color: "text-blue-500",
-      items: [
-        "Kosteneffectieve trainingstool",
-        "Aanpasbaar aan persoonlijke behoeften",
-        "Duurzaam en langdurig gebruik",
-        "Eenvoudig te onderhouden"
-      ]
+      items: t('benefits.construction.practical', { returnObjects: true }) as string[]
     },
     {
-      category: "Training Voordelen",
+      category: t('benefitCategories.trainingBenefits'),
       icon: Target,
       color: "text-green-500", 
-      items: [
-        "Gewicht kan aangepast worden aan niveau",
-        "Verschillende lengtes voor verschillende technieken",
-        "Stabiele constructie voor veilige training",
-        "Mobiel en opbergbaar"
-      ]
+      items: t('benefits.construction.training', { returnObjects: true }) as string[]
     },
     {
-      category: "Kwaliteitsvoordelen",
+      category: t('benefitCategories.qualityBenefits'),
       icon: Brain,
       color: "text-purple-500",
-      items: [
-        "Handgemaakte kwaliteit",
-        "Traditionele constructiemethoden",
-        "Betrouwbare materialen",
-        "Getest ontwerp"
-      ]
+      items: t('benefits.construction.quality', { returnObjects: true }) as string[]
     }
   ];
 
-  const principles = [
-    "Gebruik alleen hoogwaardige materialen",
-    "Zorg voor stevige bevestiging van alle onderdelen",
-    "Test de constructie grondig voordat gebruik",
-    "Controleer regelmatig op slijtage en schade",
-    "Pas het gewicht aan aan je trainingsniveau",
-    "Bewaar de Chi Ishi op een droge, veilige plek"
-  ];
+  const principles = t('chiIshi.construction.principles', { returnObjects: true }) as string[];
 
   const navigationLinks = [
     { 
       path: '/hojo-undo/chi-ishi/function', 
-      label: 'Functie', 
-      description: 'Leer over de functies van de Chi Ishi',
+      label: t('chiIshi.construction.navigationLinks.function.label'), 
+      description: t('chiIshi.construction.navigationLinks.function.description'),
       icon: Target 
     },
     { 
       path: '/hojo-undo/chi-ishi/attention-points', 
-      label: 'Aandachtspunten', 
-      description: 'Veiligheids- en trainingstips',
+      label: t('chiIshi.construction.navigationLinks.attentionPoints.label'), 
+      description: t('chiIshi.construction.navigationLinks.attentionPoints.description'),
       icon: Shield 
     },
     { 
       path: '/hojo-undo/chi-ishi/exercises', 
-      label: 'Oefeningen', 
-      description: 'Praktische trainingsroutines',
+      label: t('chiIshi.construction.navigationLinks.exercises.label'), 
+      description: t('chiIshi.construction.navigationLinks.exercises.description'),
       icon: Weight 
     }
   ];
 
   return (
     <HojoUndoSectionTemplate
-      title="Chi Ishi Constructie"
-      subtitle="Construction"
-      japaneseTitle="力石の構造"
-      badgeText="Bouw je eigen Chi Ishi"
-      description="Leer hoe je een traditionele Chi Ishi kunt maken met de juiste materialen en technieken"
+      title={t('chiIshi.construction.title')}
+      subtitle={t('chiIshi.construction.subtitle')}
+      japaneseTitle={t('chiIshi.construction.japaneseTitle')}
+      badgeText={t('chiIshi.construction.badgeText')}
+      description={t('chiIshi.construction.description')}
       mainComponents={mainComponents}
       benefits={benefits}
       principles={principles}
       navigationLinks={navigationLinks}
-      historicalNote="Traditioneel werden Chi Ishi gemaakt van natuurlijke materialen die lokaal beschikbaar waren. Moderne versies gebruiken vaak beton of graniet voor het gewicht, maar de basisconstructie blijft hetzelfde."
-      safetyNotice="Zorg ervoor dat alle onderdelen stevig bevestigd zijn voordat je de Chi Ishi gebruikt. Controleer regelmatig op slijtage en vervang beschadigde onderdelen onmiddellijk."
+      historicalNote={t('chiIshi.construction.historicalNote')}
+      safetyNotice={t('chiIshi.construction.safetyNotice')}
       backPath="/hojo-undo"
     />
   );

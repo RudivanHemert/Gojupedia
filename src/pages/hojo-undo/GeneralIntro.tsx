@@ -103,7 +103,7 @@ const GeneralIntro = () => {
           <h1 className="text-3xl font-bold">Hojo Undo</h1>
           <p className="text-xl text-muted-foreground">補助運動</p>
           <Badge variant="secondary" className="text-lg px-4 py-2">
-            Traditionele Krachttraining
+            {t('hojoUndo.common.traditionalStrengthTraining')}
           </Badge>
           <p className="text-muted-foreground max-w-md mx-auto">
             Ondersteunende training voor het ontwikkelen van kracht, techniek en mentale discipline in Goju-ryu Karate-do
@@ -119,7 +119,7 @@ const GeneralIntro = () => {
         >
           <h2 className="text-xl font-semibold flex items-center">
             <Users className="mr-2 h-5 w-5" />
-            Twee Hoofdonderdelen
+            {t('hojoUndo.introduction.twoParts')}
           </h2>
           <div className="grid gap-4">
             {mainComponents.map((component, index) => (
@@ -162,13 +162,13 @@ const GeneralIntro = () => {
             <CardHeader>
               <CardTitle className="flex items-center">
                 <Target className="mr-2 h-5 w-5 text-orange-500" />
-                Centrale Principes
+                {t('hojoUndo.introduction.centralPrinciples')}
               </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">
-                De kern van hojo undo is de <strong>gecoördineerde inzet van lichaam, adem (ki & ademhaling) en geest</strong>. 
-                Deze harmonisatie volgt dezelfde principes als de heishugata (Sanchin en Tensho).
+                {t('hojoUndo.template.coreTraining')} <strong>{t('hojoUndo.template.coreTraining')}</strong>. 
+                {t('hojoUndo.template.harmonization')}
               </p>
               <div className="grid gap-2">
                 {principles.map((principle, index) => (
@@ -191,7 +191,7 @@ const GeneralIntro = () => {
         >
           <h2 className="text-xl font-semibold flex items-center">
             <Clock className="mr-2 h-5 w-5" />
-            Trainingseffecten
+            {t('hojoUndo.introduction.trainingEffects')}
           </h2>
           <div className="space-y-4">
             {benefits.map((benefit, index) => (
@@ -226,7 +226,7 @@ const GeneralIntro = () => {
           <Card className="border-l-4 border-l-amber-500">
             <CardContent className="pt-6">
               <p className="text-sm text-muted-foreground italic">
-                <strong>Historische Achtergrond:</strong> De meeste hojo undo hulpmiddelen zijn van Chinese origine 
+                <strong>{t('hojoUndo.template.historicalBackground')}:</strong> De meeste hojo undo hulpmiddelen zijn van Chinese origine 
                 uit de zuidelijke Shaolin-vuiststijl. De kongoken werd door Chojun Miyagi ontdekt in Hawaï (1934). 
                 De makiwara is een uniek Okinawaans trainingshulpmiddel.
               </p>
@@ -244,7 +244,7 @@ const GeneralIntro = () => {
             <CardHeader>
               <CardTitle className="text-red-700 dark:text-red-400 flex items-center">
                 <Shield className="mr-2 h-5 w-5" />
-                Belangrijke Veiligheidsnota
+                {t('hojoUndo.template.importantSafetyNotice')}
               </CardTitle>
             </CardHeader>
             <CardContent>

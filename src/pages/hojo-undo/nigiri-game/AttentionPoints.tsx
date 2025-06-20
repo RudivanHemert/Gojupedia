@@ -1,138 +1,99 @@
 import React from 'react';
 import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Eye } from 'lucide-react';
 import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
+import { useTranslation } from 'react-i18next';
 
 const NigiriGameAttentionPoints = () => {
+  const { t } = useTranslation('hojoUndo');
+
   const mainComponents = [
     {
-      title: "Veiligheidsmaatregelen",
-      subtitle: "Safety Measures",
+      title: t('nigiriGame.attentionPoints.mainComponents.safetyMeasures.title'),
+      subtitle: t('nigiriGame.attentionPoints.mainComponents.safetyMeasures.subtitle'),
       icon: Shield,
       color: "bg-red-500",
-      items: [
-        "Controleer de vazen voor elke training",
-        "Begin altijd met lichte gewichten",
-        "Stop bij pijn of ongemak",
-        "Gebruik alleen op vaste ondergrond"
-      ]
+      items: t('nigiriGame.attentionPoints.mainComponents.safetyMeasures.items', { returnObjects: true }) as string[]
     },
     {
-      title: "Technische Aandachtspunten",
-      subtitle: "Technical Focus Points",
+      title: t('nigiriGame.attentionPoints.mainComponents.technicalFocusPoints.title'),
+      subtitle: t('nigiriGame.attentionPoints.mainComponents.technicalFocusPoints.subtitle'),
       icon: Target,
       color: "bg-blue-500",
-      items: [
-        "Houd de rug recht tijdens oefeningen",
-        "Adem regelmatig en gecontroleerd",
-        "Focus op correcte grip techniek",
-        "Beweeg langzaam en gecontroleerd"
-      ]
+      items: t('nigiriGame.attentionPoints.mainComponents.technicalFocusPoints.items', { returnObjects: true }) as string[]
     },
     {
-      title: "Training Progressie",
-      subtitle: "Training Progression",
+      title: t('nigiriGame.attentionPoints.mainComponents.trainingProgression.title'),
+      subtitle: t('nigiriGame.attentionPoints.mainComponents.trainingProgression.subtitle'),
       icon: Weight,
       color: "bg-green-500",
-      items: [
-        "Bouw geleidelijk op in gewicht",
-        "Verhoog eerst het aantal herhalingen",
-        "Pas daarna het gewicht aan",
-        "Neem voldoende rust tussen sessies"
-      ]
+      items: t('nigiriGame.attentionPoints.mainComponents.trainingProgression.items', { returnObjects: true }) as string[]
     },
     {
-      title: "Mentale Focus",
-      subtitle: "Mental Focus",
+      title: t('nigiriGame.attentionPoints.mainComponents.mentalFocus.title'),
+      subtitle: t('nigiriGame.attentionPoints.mainComponents.mentalFocus.subtitle'),
       icon: Brain,
       color: "bg-purple-500",
-      items: [
-        "Concentreer op de beweging",
-        "Visualiseer de techniek",
-        "Blijf gefocust op ademhaling",
-        "Vermijd afleidingen tijdens training"
-      ]
+      items: t('nigiriGame.attentionPoints.mainComponents.mentalFocus.items', { returnObjects: true }) as string[]
     }
   ];
 
   const benefits = [
     {
-      category: "Veiligheidsvoordelen",
+      category: t('benefitCategories.safetyBenefits'),
       icon: Shield,
       color: "text-red-500",
-      items: [
-        "Voorkomt blessures door correcte techniek",
-        "Bouwt geleidelijk kracht op",
-        "Beschermt gewrichten en spieren",
-        "Creëert bewustzijn van lichaamssignalen"
-      ]
+      items: t('benefits.attentionPoints.safety', { returnObjects: true }) as string[]
     },
     {
-      category: "Technische Voordelen",
+      category: t('benefitCategories.technicalBenefits'),
       icon: Target,
       color: "text-blue-500", 
-      items: [
-        "Verbeterde lichaamshouding",
-        "Betere ademhalingscontrole",
-        "Preciezere bewegingen",
-        "Effectievere krachtoverdracht"
-      ]
+      items: t('benefits.attentionPoints.technical', { returnObjects: true }) as string[]
     },
     {
-      category: "Progressie Voordelen",
+      category: t('benefitCategories.progressionBenefits'),
       icon: Weight,
       color: "text-green-500",
-      items: [
-        "Gestructureerde opbouw van kracht",
-        "Duurzame trainingsontwikkeling",
-        "Voorkomt overtraining",
-        "Maximale trainingseffecten"
-      ]
+      items: t('benefits.attentionPoints.progression', { returnObjects: true }) as string[]
     }
   ];
 
-  const principles = [
-    "Veiligheid staat altijd voorop",
-    "Techniek is belangrijker dan gewicht",
-    "Luister naar je lichaam",
-    "Bouw geleidelijk op",
-    "Blijf gefocust tijdens training",
-    "Neem voldoende rust en herstel"
-  ];
+  const principles = t('nigiriGame.attentionPoints.principles', { returnObjects: true }) as string[];
 
   const navigationLinks = [
     { 
       path: '/hojo-undo/nigiri-game/function', 
-      label: 'Functie', 
-      description: 'Leer over de functies van de Nigiri Game',
+      label: t('nigiriGame.attentionPoints.navigationLinks.function.label'), 
+      description: t('nigiriGame.attentionPoints.navigationLinks.function.description'),
       icon: Target 
     },
     { 
       path: '/hojo-undo/nigiri-game/construction', 
-      label: 'Constructie', 
-      description: 'Leer hoe je Nigiri Game vazen maakt',
+      label: t('nigiriGame.attentionPoints.navigationLinks.construction.label'), 
+      description: t('nigiriGame.attentionPoints.navigationLinks.construction.description'),
       icon: Info 
     },
     { 
       path: '/hojo-undo/nigiri-game/exercises', 
-      label: 'Oefeningen', 
-      description: 'Praktische trainingsroutines',
+      label: t('nigiriGame.attentionPoints.navigationLinks.exercises.label'), 
+      description: t('nigiriGame.attentionPoints.navigationLinks.exercises.description'),
       icon: Weight 
     }
   ];
 
   return (
     <HojoUndoSectionTemplate
-      title="Nigiri Game Aandachtspunten"
-      subtitle="Attention Points"
-      japaneseTitle="握り甕の注意点"
-      badgeText="Veiligheid en Techniek"
-      description="Belangrijke aandachtspunten voor veilige en effectieve Nigiri Game training"
+      title={t('nigiriGame.attentionPoints.title')}
+      subtitle={t('nigiriGame.attentionPoints.subtitle')}
+      japaneseTitle={t('nigiriGame.attentionPoints.japaneseTitle')}
+      badgeText={t('nigiriGame.attentionPoints.badgeText')}
+      description={t('nigiriGame.attentionPoints.description')}
       mainComponents={mainComponents}
       benefits={benefits}
       principles={principles}
       navigationLinks={navigationLinks}
-      historicalNote="Traditioneel werden deze aandachtspunten mondeling doorgegeven van meester op leerling. Ze zijn gebaseerd op eeuwenlange ervaring en zijn essentieel voor veilige training."
-      safetyNotice="Deskundige begeleiding is essentieel voor Nigiri Game training. Begin altijd onder toezicht van een ervaren instructeur en stop onmiddellijk bij pijn of ongemak."
+      historicalNote={t('nigiriGame.attentionPoints.historicalNote')}
+      safetyNotice={t('nigiriGame.attentionPoints.safetyNotice')}
       backPath="/hojo-undo"
     />
   );

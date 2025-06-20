@@ -67,6 +67,131 @@
     "training": "Training",
     "trainingSections": "Trainingssecties"
   },
+  "template": {
+    "mainComponents": "Hoofdonderdelen",
+    "mainComponentsDescription": "De belangrijkste aspecten van deze training",
+    "principles": "Belangrijke Principes",
+    "principlesDescription": "De fundamenten van deze training",
+    "trainingEffects": "Trainingseffecten",
+    "trainingEffectsDescription": "Wat je kunt verwachten van deze training",
+    "relatedSections": "Gerelateerde Secties",
+    "relatedSectionsDescription": "Verken andere aspecten van Hojo Undo",
+    "historicalBackground": "Historische Achtergrond",
+    "safetyInformation": "Veiligheidsinformatie",
+    "importantSafetyNotice": "Belangrijke Veiligheidsnota",
+    "coreTraining": "De kern van deze training is de gecoördineerde inzet van lichaam, adem en geest.",
+    "harmonization": "Deze harmonisatie volgt dezelfde principes als de heishugata (Sanchin en Tensho)."
+  },
+  "strengthExercises": {
+    "title": "Krachtoefeningen",
+    "subtitle": "Traditionele Krachttraining",
+    "description": "Ontwikkel functionele kracht met traditionele Hojo Undo instrumenten voor effectieve karate training",
+    "chiIshiTraining": "Chi Ishi Training",
+    "nigiriGameTraining": "Nigiri Game Training",
+    "kongokenTraining": "Kongoken Training",
+    "ishiSashiTraining": "Ishi Sashi Training",
+    "historicalNote": "Deze krachtoefeningen zijn eeuwenlang doorgegeven van meester op leerling. Ze zijn ontwikkeld om functionele kracht te creëren die direct toepasbaar is in karate technieken.",
+    "safetyNotice": "Deskundige begeleiding is essentieel voor alle krachtoefeningen. Begin altijd met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
+  },
+  "hardeningExercises": {
+    "title": "Hardingsoefeningen",
+    "subtitle": "Conditioning en Verharding",
+    "description": "Ontwikkel fysieke en mentale weerstand met traditionele hardening oefeningen voor effectieve karate training",
+    "makiwaraTraining": "Makiwara Training",
+    "sunaBakoTraining": "Suna Bako Training",
+    "jariBakoTraining": "Jari Bako Training",
+    "tanrenKumite": "Tanren Kumite",
+    "historicalNote": "Deze hardening oefeningen zijn ontwikkeld om het lichaam voor te bereiden op de impact van karate technieken. Ze zijn essentieel voor het ontwikkelen van echte vechtkracht.",
+    "safetyNotice": "Hardening oefeningen moeten altijd onder deskundige begeleiding worden uitgevoerd. Begin voorzichtig en bouw geleidelijk op om blessures te voorkomen."
+  },
+  "benefits": {
+    "physicalBenefits": "Fysieke Voordelen",
+    "technicalBenefits": "Technische Voordelen",
+    "mentalBenefits": "Mentale Voordelen",
+    "safetyBenefits": "Veiligheidsvoordelen",
+    "progressionBenefits": "Progressie Voordelen",
+    "qualityBenefits": "Kwaliteitsvoordelen",
+    "chiIshi": {
+      "physical": [
+        "Versterking van pols- en handspieren",
+        "Verbetering van schouder- en armkracht",
+        "Ontwikkeling van core stabiliteit",
+        "Toename van algemene lichaamssterkte"
+      ],
+      "technical": [
+        "Effectievere grijptechnieken",
+        "Verbeterde klemtechnieken",
+        "Krachtigere pakkingen",
+        "Betere controle bij vitale punten"
+      ],
+      "mental": [
+        "Ontwikkeling van concentratie",
+        "Verbetering van mentale discipline",
+        "Toename van zelfvertrouwen",
+        "Betere focus tijdens training"
+      ]
+    },
+    "nigiriGame": {
+      "physical": [
+        "Versterking van vinger- en handspieren",
+        "Verbetering van polsstabiliteit",
+        "Ontwikkeling van voorarmkracht",
+        "Toename van grijpuithoudingsvermogen"
+      ],
+      "technical": [
+        "Effectievere grijptechnieken",
+        "Verbeterde klemtechnieken",
+        "Krachtigere pakkingen",
+        "Betere controle bij vitale punten"
+      ],
+      "mental": [
+        "Ontwikkeling van concentratie",
+        "Verbetering van mentale discipline",
+        "Toename van zelfvertrouwen",
+        "Betere focus tijdens training"
+      ]
+    },
+    "construction": {
+      "practical": [
+        "Kosteneffectieve trainingstool",
+        "Aanpasbaar aan persoonlijke behoeften",
+        "Duurzaam en langdurig gebruik",
+        "Eenvoudig te onderhouden"
+      ],
+      "training": [
+        "Gewicht kan aangepast worden aan niveau",
+        "Verschillende lengtes voor verschillende technieken",
+        "Stabiele constructie voor veilige training",
+        "Mobiel en opbergbaar"
+      ],
+      "quality": [
+        "Handgemaakte kwaliteit",
+        "Traditionele constructiemethoden",
+        "Betrouwbare materialen",
+        "Getest ontwerp"
+      ]
+    },
+    "attentionPoints": {
+      "safety": [
+        "Voorkomt blessures door correcte techniek",
+        "Bouwt geleidelijk kracht op",
+        "Beschermt gewrichten en spieren",
+        "Creëert bewustzijn van lichaamssignalen"
+      ],
+      "technical": [
+        "Verbeterde lichaamshouding",
+        "Betere ademhalingscontrole",
+        "Preciezere bewegingen",
+        "Effectievere krachtoverdracht"
+      ],
+      "progression": [
+        "Gestructureerde opbouw van kracht",
+        "Duurzame trainingsontwikkeling",
+        "Voorkomt overtraining",
+        "Maximale trainingseffecten"
+      ]
+    }
+  },
   "common": {
     "function": "Functie",
     "construction": "Constructie",
@@ -116,5 +241,601 @@
     "jariBakoDescription": "Voor been- en voetkracht",
     "makiwara": "Stootplank",
     "makiwaraDescription": "Voor harding van vuisten en voeten"
+  },
+  "chiIshi": {
+    "function": {
+      "title": "Chi Ishi Functie",
+      "subtitle": "Function",
+      "japaneseTitle": "力石の機能",
+      "badgeText": "Stenen hefboom gewicht",
+      "description": "De chi ishi is een 'stenen hefboom gewicht'. Het wordt nog steeds gebruikt in China, o.a. in de provincie Fuzhou.",
+      "mainComponents": {
+        "forearmStrength": {
+          "title": "Versterkt met name de spieren van de onderarm en hand",
+          "subtitle": "Strengthens forearm and hand muscles",
+          "items": [
+            "Ondersteuning van polsstabiliteit bij stoot- en slagtechnieken",
+            "Versterking van grip voor nabijgevecht technieken",
+            "Verbetering van handcoördinatie en controle",
+            "Ontwikkeling van vinger- en handspieren"
+          ]
+        },
+        "muchimiPower": {
+          "title": "Ontwikkeling van muchimi kracht",
+          "subtitle": "Development of muchimi power",
+          "items": [
+            "Verhoogde weerstand in totale beweging",
+            "Niet-explosieve bewegingen voor optimale ontwikkeling",
+            "Integratie van lichaam en geest",
+            "Ontwikkeling van kleverige kracht"
+          ]
+        },
+        "chinkuchiPower": {
+          "title": "Ontwikkeling van chinkuchi kakin kracht",
+          "subtitle": "Development of chinkuchi kakin power",
+          "items": [
+            "Vastknijpen van stok aan einde van bewegingen",
+            "Concentratie van kracht in specifieke punten",
+            "Ontwikkeling van explosieve kracht",
+            "Verbetering van kime (focus)"
+          ]
+        },
+        "breathingCoordination": {
+          "title": "Ademhalingscoördinatie",
+          "subtitle": "Breathing coordination",
+          "items": [
+            "Integratie van ademhaling met beweging",
+            "Ontwikkeling van kokyu (ademhalingskracht)",
+            "Verbetering van mentale focus",
+            "Coördinatie van lichaam, adem en geest"
+          ]
+        }
+      },
+      "principles": [
+        "Coördinatie van lichaam, adem en geest",
+        "Techniek is belangrijker dan gewicht",
+        "Beweeg langzaam en gecontroleerd",
+        "Focus op correcte grip techniek",
+        "Adem regelmatig en gecontroleerd",
+        "Bouw geleidelijk op in intensiteit"
+      ],
+      "navigationLinks": {
+        "construction": {
+          "label": "Constructie",
+          "description": "Leer hoe je een Chi Ishi maakt"
+        },
+        "attentionPoints": {
+          "label": "Aandachtspunten",
+          "description": "Veiligheids- en trainingstips"
+        },
+        "exercises": {
+          "label": "Oefeningen",
+          "description": "Praktische trainingsroutines"
+        }
+      },
+      "historicalNote": "De Chi Ishi heeft zijn oorsprong in China en wordt nog steeds gebruikt in de provincie Fuzhou. Het is een van de oudste Hojo Undo instrumenten en is essentieel voor traditionele karate training.",
+      "safetyNotice": "Deskundige begeleiding is essentieel voor Chi Ishi training. Begin altijd met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
+    },
+    "construction": {
+      "title": "Chi Ishi Constructie",
+      "subtitle": "Construction",
+      "japaneseTitle": "力石の構造",
+      "badgeText": "Bouw je eigen Chi Ishi",
+      "description": "Leer hoe je een traditionele Chi Ishi kunt maken met de juiste materialen en technieken",
+      "mainComponents": {
+        "materials": {
+          "title": "Materialen",
+          "subtitle": "Materials",
+          "items": [
+            "Houten stok (meestal eikenhout)",
+            "Stenen gewicht (graniet of beton)",
+            "Sterke touw of ketting",
+            "Bevestigingsmaterialen"
+          ]
+        },
+        "dimensions": {
+          "title": "Afmetingen",
+          "subtitle": "Dimensions",
+          "items": [
+            "Stok: 60-90 cm lengte",
+            "Diameter: 3-4 cm",
+            "Gewicht: 5-15 kg (afhankelijk van niveau)",
+            "Gewicht afstand: 15-20 cm van einde"
+          ]
+        },
+        "constructionSteps": {
+          "title": "Constructie Stappen",
+          "subtitle": "Construction Steps",
+          "items": [
+            "Voorbereiding van materialen",
+            "Bevestiging van gewicht aan stok",
+            "Aanbrengen van handgrepen",
+            "Kwaliteitscontrole en testen"
+          ]
+        },
+        "safetyMeasures": {
+          "title": "Veiligheidsmaatregelen",
+          "subtitle": "Safety Measures",
+          "items": [
+            "Zorgvuldige bevestiging van gewicht",
+            "Controle op losse onderdelen",
+            "Testen van stabiliteit",
+            "Regelmatige inspectie"
+          ]
+        }
+      },
+      "principles": [
+        "Gebruik alleen hoogwaardige materialen",
+        "Zorg voor stevige bevestiging van alle onderdelen",
+        "Test de constructie grondig voordat gebruik",
+        "Controleer regelmatig op slijtage en schade",
+        "Pas het gewicht aan aan je trainingsniveau",
+        "Bewaar de Chi Ishi op een droge, veilige plek"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Functie",
+          "description": "Leer over de functies van de Chi Ishi"
+        },
+        "attentionPoints": {
+          "label": "Aandachtspunten",
+          "description": "Veiligheids- en trainingstips"
+        },
+        "exercises": {
+          "label": "Oefeningen",
+          "description": "Praktische trainingsroutines"
+        }
+      },
+      "historicalNote": "Traditioneel werden Chi Ishi gemaakt van natuurlijke materialen die lokaal beschikbaar waren. Moderne versies gebruiken vaak beton of graniet voor het gewicht, maar de basisconstructie blijft hetzelfde.",
+      "safetyNotice": "Zorg ervoor dat alle onderdelen stevig bevestigd zijn voordat je de Chi Ishi gebruikt. Controleer regelmatig op slijtage en vervang beschadigde onderdelen onmiddellijk."
+    },
+    "attentionPoints": {
+      "title": "Chi Ishi Aandachtspunten",
+      "subtitle": "Attention Points",
+      "japaneseTitle": "力石の注意点",
+      "badgeText": "Veiligheid en Techniek",
+      "description": "Belangrijke aandachtspunten voor veilige en effectieve Chi Ishi training",
+      "mainComponents": {
+        "safetyMeasures": {
+          "title": "Veiligheidsmaatregelen",
+          "subtitle": "Safety Measures",
+          "items": [
+            "Controleer de constructie voor elke training",
+            "Begin altijd met lichte gewichten",
+            "Stop bij pijn of ongemak",
+            "Gebruik alleen op vaste ondergrond"
+          ]
+        },
+        "technicalFocusPoints": {
+          "title": "Technische Aandachtspunten",
+          "subtitle": "Technical Focus Points",
+          "items": [
+            "Houd de rug recht tijdens oefeningen",
+            "Adem regelmatig en gecontroleerd",
+            "Focus op correcte grip techniek",
+            "Beweeg langzaam en gecontroleerd"
+          ]
+        },
+        "trainingProgression": {
+          "title": "Training Progressie",
+          "subtitle": "Training Progression",
+          "items": [
+            "Bouw geleidelijk op in gewicht",
+            "Verhoog eerst het aantal herhalingen",
+            "Pas daarna het gewicht aan",
+            "Neem voldoende rust tussen sessies"
+          ]
+        },
+        "mentalFocus": {
+          "title": "Mentale Focus",
+          "subtitle": "Mental Focus",
+          "items": [
+            "Concentreer op de beweging",
+            "Visualiseer de techniek",
+            "Blijf gefocust op ademhaling",
+            "Vermijd afleidingen tijdens training"
+          ]
+        }
+      },
+      "principles": [
+        "Veiligheid staat altijd voorop",
+        "Techniek is belangrijker dan gewicht",
+        "Luister naar je lichaam",
+        "Bouw geleidelijk op",
+        "Blijf gefocust tijdens training",
+        "Neem voldoende rust en herstel"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Functie",
+          "description": "Leer over de functies van de Chi Ishi"
+        },
+        "construction": {
+          "label": "Constructie",
+          "description": "Leer hoe je een Chi Ishi maakt"
+        },
+        "exercises": {
+          "label": "Oefeningen",
+          "description": "Praktische trainingsroutines"
+        }
+      },
+      "historicalNote": "Traditioneel werden deze aandachtspunten mondeling doorgegeven van meester op leerling. Ze zijn gebaseerd op eeuwenlange ervaring en zijn essentieel voor veilige training.",
+      "safetyNotice": "Deskundige begeleiding is essentieel voor Chi Ishi training. Begin altijd onder toezicht van een ervaren instructeur en stop onmiddellijk bij pijn of ongemak."
+    },
+    "exercises": {
+      "title": "Chi Ishi Oefeningen",
+      "subtitle": "Exercises",
+      "japaneseTitle": "力石の練習",
+      "badgeText": "Praktische Training",
+      "description": "Leer effectieve oefeningen met de Chi Ishi voor krachtontwikkeling en techniekverbetering",
+      "mainComponents": {
+        "basicExercises": {
+          "title": "Basis Oefeningen",
+          "subtitle": "Basic Exercises",
+          "items": [
+            "Chi Ishi Kamae - Basis houding",
+            "Chi Ishi Uke - Blokken met gewicht",
+            "Chi Ishi Tsuki - Stoten met gewicht",
+            "Chi Ishi Uchi - Slagen met gewicht"
+          ]
+        },
+        "advancedExercises": {
+          "title": "Gevorderde Oefeningen",
+          "subtitle": "Advanced Exercises",
+          "items": [
+            "Chi Ishi Kata - Kata met gewicht",
+            "Chi Ishi Kumite - Partner oefeningen",
+            "Chi Ishi Hojo Undo - Ondersteunende training",
+            "Chi Ishi Kihon - Basis technieken"
+          ]
+        },
+        "specialTechniques": {
+          "title": "Speciale Technieken",
+          "subtitle": "Special Techniques",
+          "items": [
+            "Muchimi training - Kleverige kracht",
+            "Chinkuchi training - Kracht concentratie",
+            "Kime training - Focus en explosiviteit",
+            "Kokyu training - Ademhaling en kracht"
+          ]
+        },
+        "trainingRoutines": {
+          "title": "Training Routines",
+          "subtitle": "Training Routines",
+          "items": [
+            "Dagelijkse routine voor beginners",
+            "Weekelijkse routine voor gevorderden",
+            "Maandelijkse progressie schema",
+            "Seizoensgebonden training aanpassingen"
+          ]
+        }
+      },
+      "principles": [
+        "Begin altijd met lichte gewichten",
+        "Focus op correcte techniek",
+        "Adem regelmatig en gecontroleerd",
+        "Bouw geleidelijk op in intensiteit",
+        "Neem voldoende rust tussen sets",
+        "Luister naar je lichaam"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Functie",
+          "description": "Leer over de functies van de Chi Ishi"
+        },
+        "construction": {
+          "label": "Constructie",
+          "description": "Leer hoe je een Chi Ishi maakt"
+        },
+        "attentionPoints": {
+          "label": "Aandachtspunten",
+          "description": "Veiligheids- en trainingstips"
+        }
+      },
+      "historicalNote": "Deze oefeningen zijn eeuwenlang doorgegeven van meester op leerling. Ze zijn ontwikkeld om functionele kracht te creëren die direct toepasbaar is in karate technieken.",
+      "safetyNotice": "Voer alle oefeningen uit onder deskundige begeleiding. Begin met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
+    }
+  },
+  "nigiriGame": {
+    "function": {
+      "title": "Nigiri Game Functie",
+      "subtitle": "Function",
+      "japaneseTitle": "握り甕の機能",
+      "badgeText": "Grijpkracht Training",
+      "description": "Ontdek de functies en voordelen van de traditionele Nigiri Game in karate training",
+      "mainComponents": {
+        "fingerHandStrength": {
+          "title": "Vinger- en Handkracht",
+          "subtitle": "Finger and Hand Strength",
+          "items": [
+            "Versterking van vingerspieren",
+            "Ontwikkeling van grijpkracht",
+            "Verbetering van handcoördinatie",
+            "Toename van vingeruithoudingsvermogen"
+          ]
+        },
+        "wristStability": {
+          "title": "Pols Stabiliteit",
+          "subtitle": "Wrist Stability",
+          "items": [
+            "Versterking van polsspieren",
+            "Verbetering van polsstabiliteit",
+            "Ontwikkeling van polscontrole",
+            "Toename van polsuithoudingsvermogen"
+          ]
+        },
+        "forearmStrength": {
+          "title": "Voorarm Kracht",
+          "subtitle": "Forearm Strength",
+          "items": [
+            "Versterking van voorarmspieren",
+            "Ontwikkeling van grip uithoudingsvermogen",
+            "Verbetering van voorarm stabiliteit",
+            "Toename van algemene armkracht"
+          ]
+        },
+        "mentalDiscipline": {
+          "title": "Mentale Discipline",
+          "subtitle": "Mental Discipline",
+          "items": [
+            "Ontwikkeling van concentratie",
+            "Verbetering van geduld",
+            "Toename van mentale focus",
+            "Betere controle over bewegingen"
+          ]
+        }
+      },
+      "principles": [
+        "Begin met lichte gewichten en bouw geleidelijk op",
+        "Focus op correcte grip techniek",
+        "Adem regelmatig en gecontroleerd",
+        "Neem voldoende rust tussen sets",
+        "Luister naar je lichaam",
+        "Combineer met andere Hojo Undo oefeningen"
+      ],
+      "navigationLinks": {
+        "construction": {
+          "label": "Constructie",
+          "description": "Leer hoe je Nigiri Game vazen maakt"
+        },
+        "attentionPoints": {
+          "label": "Aandachtspunten",
+          "description": "Veiligheids- en trainingstips"
+        },
+        "exercises": {
+          "label": "Oefeningen",
+          "description": "Praktische trainingsroutines"
+        }
+      },
+      "historicalNote": "De Nigiri Game is van Chinese origine en werd traditioneel gebruikt voor het ontwikkelen van grijpkracht. De vazen werden gevuld met zand of grind om het gewicht aan te passen.",
+      "safetyNotice": "Deskundige begeleiding is essentieel voor Nigiri Game training. Begin altijd met lichte gewichten en focus op correcte techniek voordat je het gewicht verhoogt."
+    },
+    "construction": {
+      "title": "Nigiri Game Constructie",
+      "subtitle": "Construction",
+      "japaneseTitle": "握り甕の構造",
+      "badgeText": "Bouw je eigen Nigiri Game",
+      "description": "Leer hoe je traditionele Nigiri Game vazen kunt maken met de juiste materialen en technieken",
+      "mainComponents": {
+        "materials": {
+          "title": "Materialen",
+          "subtitle": "Materials",
+          "items": [
+            "Klei of keramiek voor de vazen",
+            "Zand of grind voor gewicht",
+            "Gereedschap voor bewerking",
+            "Oven voor het bakken"
+          ]
+        },
+        "dimensions": {
+          "title": "Afmetingen",
+          "subtitle": "Dimensions",
+          "items": [
+            "Diameter: 8-12 cm",
+            "Hoogte: 10-15 cm",
+            "Wanddikte: 1-2 cm",
+            "Gewicht: 2-8 kg (afhankelijk van niveau)"
+          ]
+        },
+        "constructionSteps": {
+          "title": "Constructie Stappen",
+          "subtitle": "Construction Steps",
+          "items": [
+            "Vormen van de vazen",
+            "Drogen van de klei",
+            "Bakken in de oven",
+            "Vullen met gewicht"
+          ]
+        },
+        "qualityControl": {
+          "title": "Kwaliteitscontrole",
+          "subtitle": "Quality Control",
+          "items": [
+            "Controle op scheuren",
+            "Testen van stevigheid",
+            "Controle van gewicht",
+            "Veiligheidstest"
+          ]
+        }
+      },
+      "principles": [
+        "Gebruik alleen hoogwaardige materialen",
+        "Zorg voor stevige constructie",
+        "Test de vazen grondig",
+        "Controleer regelmatig op schade",
+        "Pas het gewicht aan aan niveau",
+        "Bewaar op een droge, veilige plek"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Functie",
+          "description": "Leer over de functies van de Nigiri Game"
+        },
+        "attentionPoints": {
+          "label": "Aandachtspunten",
+          "description": "Veiligheids- en trainingstips"
+        },
+        "exercises": {
+          "label": "Oefeningen",
+          "description": "Praktische trainingsroutines"
+        }
+      },
+      "historicalNote": "Traditioneel werden Nigiri Game vazen gemaakt van klei en gevuld met zand of grind. Moderne versies gebruiken vaak keramiek of beton voor duurzaamheid.",
+      "safetyNotice": "Zorg ervoor dat de vazen stevig zijn voordat je ze gebruikt. Controleer regelmatig op scheuren en vervang beschadigde vazen onmiddellijk."
+    },
+    "attentionPoints": {
+      "title": "Nigiri Game Aandachtspunten",
+      "subtitle": "Attention Points",
+      "japaneseTitle": "握り甕の注意点",
+      "badgeText": "Veiligheid en Techniek",
+      "description": "Belangrijke aandachtspunten voor veilige en effectieve Nigiri Game training",
+      "mainComponents": {
+        "safetyMeasures": {
+          "title": "Veiligheidsmaatregelen",
+          "subtitle": "Safety Measures",
+          "items": [
+            "Controleer de vazen voor elke training",
+            "Begin altijd met lichte gewichten",
+            "Stop bij pijn of ongemak",
+            "Gebruik alleen op vaste ondergrond"
+          ]
+        },
+        "technicalFocusPoints": {
+          "title": "Technische Aandachtspunten",
+          "subtitle": "Technical Focus Points",
+          "items": [
+            "Houd de rug recht tijdens oefeningen",
+            "Adem regelmatig en gecontroleerd",
+            "Focus op correcte grip techniek",
+            "Beweeg langzaam en gecontroleerd"
+          ]
+        },
+        "trainingProgression": {
+          "title": "Training Progressie",
+          "subtitle": "Training Progression",
+          "items": [
+            "Bouw geleidelijk op in gewicht",
+            "Verhoog eerst het aantal herhalingen",
+            "Pas daarna het gewicht aan",
+            "Neem voldoende rust tussen sessies"
+          ]
+        },
+        "mentalFocus": {
+          "title": "Mentale Focus",
+          "subtitle": "Mental Focus",
+          "items": [
+            "Concentreer op de beweging",
+            "Visualiseer de techniek",
+            "Blijf gefocust op ademhaling",
+            "Vermijd afleidingen tijdens training"
+          ]
+        }
+      },
+      "principles": [
+        "Veiligheid staat altijd voorop",
+        "Techniek is belangrijker dan gewicht",
+        "Luister naar je lichaam",
+        "Bouw geleidelijk op",
+        "Blijf gefocust tijdens training",
+        "Neem voldoende rust en herstel"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Functie",
+          "description": "Leer over de functies van de Nigiri Game"
+        },
+        "construction": {
+          "label": "Constructie",
+          "description": "Leer hoe je Nigiri Game vazen maakt"
+        },
+        "exercises": {
+          "label": "Oefeningen",
+          "description": "Praktische trainingsroutines"
+        }
+      },
+      "historicalNote": "Traditioneel werden deze aandachtspunten mondeling doorgegeven van meester op leerling. Ze zijn gebaseerd op eeuwenlange ervaring en zijn essentieel voor veilige training.",
+      "safetyNotice": "Deskundige begeleiding is essentieel voor Nigiri Game training. Begin altijd onder toezicht van een ervaren instructeur en stop onmiddellijk bij pijn of ongemak."
+    },
+    "exercises": {
+      "title": "Nigiri Game Oefeningen",
+      "subtitle": "Exercises",
+      "japaneseTitle": "握り甕の練習",
+      "badgeText": "Praktische Training",
+      "description": "Leer effectieve oefeningen met de Nigiri Game voor grijpkrachtontwikkeling en techniekverbetering",
+      "mainComponents": {
+        "basicExercises": {
+          "title": "Basis Oefeningen",
+          "subtitle": "Basic Exercises",
+          "items": [
+            "Nigiri Game Kamae - Basis houding",
+            "Nigiri Game Uke - Blokken met vazen",
+            "Nigiri Game Tsuki - Stoten met vazen",
+            "Nigiri Game Uchi - Slagen met vazen"
+          ]
+        },
+        "advancedExercises": {
+          "title": "Gevorderde Oefeningen",
+          "subtitle": "Advanced Exercises",
+          "items": [
+            "Nigiri Game Kata - Kata met vazen",
+            "Nigiri Game Kumite - Partner oefeningen",
+            "Nigiri Game Hojo Undo - Ondersteunende training",
+            "Nigiri Game Kihon - Basis technieken"
+          ]
+        },
+        "specialTechniques": {
+          "title": "Speciale Technieken",
+          "subtitle": "Special Techniques",
+          "items": [
+            "Grip training - Grijpkracht ontwikkeling",
+            "Finger training - Vingerkracht",
+            "Wrist training - Polsstabiliteit",
+            "Forearm training - Voorarmkracht"
+          ]
+        },
+        "trainingRoutines": {
+          "title": "Training Routines",
+          "subtitle": "Training Routines",
+          "items": [
+            "Dagelijkse routine voor beginners",
+            "Weekelijkse routine voor gevorderden",
+            "Maandelijkse progressie schema",
+            "Seizoensgebonden training aanpassingen"
+          ]
+        }
+      },
+      "principles": [
+        "Begin altijd met lichte gewichten",
+        "Focus op correcte grip techniek",
+        "Adem regelmatig en gecontroleerd",
+        "Bouw geleidelijk op in intensiteit",
+        "Neem voldoende rust tussen sets",
+        "Luister naar je lichaam"
+      ],
+      "navigationLinks": {
+        "function": {
+          "label": "Functie",
+          "description": "Leer over de functies van de Nigiri Game"
+        },
+        "construction": {
+          "label": "Constructie",
+          "description": "Leer hoe je Nigiri Game vazen maakt"
+        },
+        "attentionPoints": {
+          "label": "Aandachtspunten",
+          "description": "Veiligheids- en trainingstips"
+        }
+      },
+      "historicalNote": "Deze oefeningen zijn eeuwenlang doorgegeven van meester op leerling. Ze zijn ontwikkeld om functionele grijpkracht te creëren die direct toepasbaar is in karate technieken.",
+      "safetyNotice": "Voer alle oefeningen uit onder deskundige begeleiding. Begin met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
+    }
+  },
+  "benefitCategories": {
+    "practicalBenefits": "Praktische Voordelen",
+    "trainingBenefits": "Training Voordelen",
+    "qualityBenefits": "Kwaliteitsvoordelen",
+    "safetyBenefits": "Veiligheidsvoordelen",
+    "technicalBenefits": "Technische Voordelen",
+    "progressionBenefits": "Progressie Voordelen"
   }
 } 

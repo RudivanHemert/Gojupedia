@@ -1,11 +1,14 @@
 import React from 'react';
 import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Dumbbell } from 'lucide-react';
 import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
+import { useTranslation } from 'react-i18next';
 
 const StrengthExercises = () => {
+  const { t } = useTranslation();
+
   const mainComponents = [
     {
-      title: "Chi Ishi Training",
+      title: t('hojoUndo.strengthExercises.chiIshiTraining'),
       subtitle: "Stone Lever Weight",
       icon: Weight,
       color: "bg-blue-500",
@@ -17,7 +20,7 @@ const StrengthExercises = () => {
       ]
     },
     {
-      title: "Nigiri Game Training",
+      title: t('hojoUndo.strengthExercises.nigiriGameTraining'),
       subtitle: "Gripping Jars",
       icon: Dumbbell,
       color: "bg-green-500",
@@ -29,7 +32,7 @@ const StrengthExercises = () => {
       ]
     },
     {
-      title: "Kongoken Training",
+      title: t('hojoUndo.strengthExercises.kongokenTraining'),
       subtitle: "Iron Oval",
       icon: Target,
       color: "bg-orange-500",
@@ -41,7 +44,7 @@ const StrengthExercises = () => {
       ]
     },
     {
-      title: "Ishi Sashi Training",
+      title: t('hojoUndo.strengthExercises.ishiSashiTraining'),
       subtitle: "Stone Padlocks",
       icon: Shield,
       color: "bg-purple-500",
@@ -122,17 +125,17 @@ const StrengthExercises = () => {
 
   return (
     <HojoUndoSectionTemplate
-      title="Krachtoefeningen"
-      subtitle="Strength Exercises"
+      title={t('hojoUndo.strengthExercises.title')}
+      subtitle={t('hojoUndo.strengthExercises.subtitle')}
       japaneseTitle="力運動"
-      badgeText="Traditionele Krachttraining"
-      description="Ontwikkel functionele kracht met traditionele Hojo Undo instrumenten voor effectieve karate training"
+      badgeText={t('hojoUndo.strengthExercises.subtitle')}
+      description={t('hojoUndo.strengthExercises.description')}
       mainComponents={mainComponents}
       benefits={benefits}
       principles={principles}
       navigationLinks={navigationLinks}
-      historicalNote="Deze krachtoefeningen zijn eeuwenlang doorgegeven van meester op leerling. Ze zijn ontwikkeld om functionele kracht te creëren die direct toepasbaar is in karate technieken."
-      safetyNotice="Deskundige begeleiding is essentieel voor alle krachtoefeningen. Begin altijd met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
+      historicalNote={t('hojoUndo.strengthExercises.historicalNote')}
+      safetyNotice={t('hojoUndo.strengthExercises.safetyNotice')}
       backPath="/hojo-undo"
     />
   );
