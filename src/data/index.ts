@@ -248,155 +248,56 @@ export const katas: Kata[] = [
     category: "kaishugata",
     steps: [
       "Emphasis on low stances and powerful pulling/unbalancing techniques",
-      "Unique breathing patterns",
-      "No kicking techniques"
+      "Series of blocks and strikes while maintaining a low center of gravity",
+      "No kicks are used in this kata"
     ],
     images: [],
     keyFeatures: [
-      "Strong, stable stances (Shiko Dachi)",
-      "Pulling and unbalancing techniques",
-      "Close-range fighting strategies"
+      "Dynamic tension and powerful breathing",
+      "Focus on unbalancing and controlling the opponent",
+      "Absence of kicking techniques"
     ],
-    movements: "Approximately 34 movements",
+    movements: "Approximately 36 movements",
     duration: "2-3 minutes",
-    origin: "Fujian Province, China (likely from Xingyi Quan or Monk Fist Boxing)",
+    origin: "Fujian Province, China (unknown specific style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: "https://www.youtube.com/watch?v=VfyccUJZEqs"
+    bunkai: "https://www.youtube.com/watch?v=rplwXor-d2A"
   },
   {
     id: "shisochin",
-    level: "Advanced",
+    level: "Intermediate",
     category: "kaishugata",
     steps: [
-      "Four-directional movements",
-      "Open-hand techniques (Nukite, Shotei)",
-      "Joint locks and pressure point strikes"
+      "Combination of powerful linear techniques and soft circular movements",
+      "Open-handed strikes and blocks",
+      "Four-directional movements"
     ],
     images: [],
     keyFeatures: [
-      "Defending against multiple opponents",
-      "Open-hand strikes and blocks",
-      "Emphasis on precision and control"
+      "Fighting in four directions",
+      "Combination of hard and soft techniques",
+      "Use of open-handed strikes (nukite)"
     ],
-    movements: "Approximately 40 movements",
+    movements: "Approximately 44 movements",
     duration: "2-3 minutes",
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
-    bunkai: [
-      {
-        id: "shisochin-bunkai-01",
-        title: "01. Chudan Nukite Zuki",
-        attack: "Chudan Oi Zuki.",
-        defense: "Chudan Haishu Nagashi Uke.",
-        counterAttack: "Chudan Nukite Zuki.",
-        footwork: "Sayu Tenshin.",
-        vitalPoints: "Bijv. zonnevlecht [Suigetsu]) of halssalgader [Matsukaze].",
-        notes: "Een aanval naar Suigetsu zal alleen reëel zijn bij een groot krachtsverschil en sterke handen.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-02",
-        title: "02. Morote Sukui Uke + 'Morote Gedan Harai Uke'",
-        attack: "Morete Kubi Dori.",
-        defense: "Morete Sukui Uke + Tsukkami + 'Morete Gedan Harai Uke'.",
-        counterAttack: "Mae Geri of Hiza Geri met achterste been.",
-        footwork: "Naar achteren stappen om de aanval te ontwijken en de duimen of polsen van de tegenstander beet te kunnen pakken.",
-        vitalPoints: "Bijv. zonnevlecht [Suigetsu].",
-        notes: "Dezelfde Bunkai kan ook worden uitgevoerd indien beide polsen worden beetgepakt.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-03",
-        title: "03. Chudan Ura Kake Uke Uke (Doji Uke) + Gyaku Te",
-        attack: "Chudan Oi Zuki.",
-        defense: "Chudan Ura Kake Uke.",
-        counterAttack: "Gyaku Te + Otoshi Hij Ate.",
-        footwork: "Sayu Tenshin, dan indraaien met buitenste been en deze vervolgens strekken om de tegenstander uit balans te brengen. Dan naar Shiko Dachi draaien voor Otoshi Hiji Ate.",
-        vitalPoints: "Bijv. [Kassatsu] (Otoshi Hiji Ate).",
-        notes: "Door gevorderden moet de wering en de Gyaku Te in één beweging worden uitgevoerd. De techniek in kwestie heeft geen op zich zelf staande naam maar wordt vernoemd naar de toepassing. Namelijk: Gyaku Te, wat een verzamelnaam is voor klemmen, grepen, e.d.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-04",
-        title: "04. Hiji Age / Ushiro Hiji Ate",
-        attack: "Omstrengeling van achteren, één arm ingesloten.",
-        defense: "Jodan Ushiro Zuki + Ushiro Hiji Ate.",
-        counterAttack: "Verdedigings is tegenaanval.",
-        footwork: "",
-        vitalPoints: "Bijv. [Jinchu] (Jodan Ushiro Zuki) + [Inazuma] (Ushiro Hiji Ate)",
-        notes: "Wanneer de omarming te sterk is kun je beter eerst een Kyusho aanvallen. Bijvoorbeeld het punt [Koin] (op de voet) met de hak of de testikels [Kinteki] met de hand.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-05",
-        title: "05. Nagashi Shotei Gedan Harai Uke + Shotei Zuki",
-        attack: "Chudan Oi Zuki",
-        defense: "Nagashi Shotei Gedan Harai Uke.",
-        counterAttack: "Shotei Zuki",
-        footwork: "Instappen en wegdraaien in een beweging.",
-        vitalPoints: "Bijv. kaak [Mikazuki].",
-        notes: "Het opwaartse effect in de beweging helpt het ontwortelen van de tegenstander. In het geval van een aanval op de ogen kan de tegenstander hand .' moeilijker zien aankomen omdat deze van onderen komt.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-06",
-        title: "06. Hiki Uke + Mae Geri + Chudan Hiji Ate",
-        attack: "Chudan Oi Zuki.",
-        defense: "Hiki Uke.",
-        counterAttack: "Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.",
-        footwork: "Sayu Tenshin. Na Mae Geri naar voren gaan in Zenkutsu Dachi.",
-        vitalPoints: "Bijv. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + Ogen [Gansei] (Nihon Nukite).",
-        notes: "",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-07",
-        title: "07. Otoshi Uke + Hiji Ate",
-        attack: "Chudan Oi Zuki",
-        defense: "Osae Uke.",
-        counterAttack: "Hiji Ate",
-        footwork: "Instappen.",
-        vitalPoints: "Bijv. [Suigetsu]",
-        notes: "De aanval moet vroegtijdig worden onderschept en naar binnen en (dan) naar beneden worden gedrukt.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-08",
-        title: "08. Morote Hiji Ate",
-        attack: "Morote Kote Dori.",
-        defense: "Morote Hiji Age.",
-        counterAttack: "Otoshi Hiji Age.",
-        footwork: "Een voet naar achteren voor stabiliteit daar na instappen.",
-        vitalPoints: "Bijv. sleutelbeen of borst (Otoshi Hiji Ate).",
-        notes: "Aandachtspunt(en): Voor de inzet van de Morote Hiji Age worden de handen opgetild en open gesperd.",
-        kata: "shisochin"
-      },
-      {
-        id: "shisochin-bunkai-09",
-        title: "09. Doji Uke",
-        attack: "Chudan Oi Zuki.",
-        defense: "Doji Uke.",
-        counterAttack: "Gyaku Te + Otoshi Hiji Ate.",
-        footwork: "Sayu Tenshin, dan indraaien met buitenste been en deze vervolgens strekken om de tegenstander uit balans te brengen. Dan naar Shiko Dachi draaien voor Otoshi Hiji Ate.",
-        vitalPoints: "Bijv. [Kassatsu] (Otoshi Hiji Ate).",
-        notes: "Door gevorderden moet de wering en de Gyaku Te in één beweging worden uitgevoerd. De techniek in kwestie heeft geen op zich zelf staande naam maar wordt vernoemd naar de toepassing. Namelijk: Gyaku Te, wat een verzamelnaam is voor klemmen, grepen, e.d.",
-        kata: "shisochin"
-      }
-    ]
+    bunkai: "https://www.youtube.com/watch?v=2T_aBnzU-VA"
   },
   {
     id: "sanseru",
     level: "Advanced",
     category: "kaishugata",
     steps: [
-      "Dynamic movements and powerful strikes",
-      "Combination techniques targeting vital points",
-      "Footwork for evasion and attack"
+      "Fast and slow movements",
+      "Dynamic combination of attacks and defenses",
+      "Techniques against multiple opponents"
     ],
     images: [],
     keyFeatures: [
+      "Representing the number 36 (6x6)",
       "Attacking 36 vital points",
       "Combination of hard and soft techniques",
       "Dynamic and powerful movements"
@@ -414,7 +315,7 @@ export const katas: Kata[] = [
     category: "kaishugata",
     steps: [
       "Circular movements",
-      "Deflecting and redirecting opponent\'s force",
+      "Deflecting and redirecting opponent's force",
       "Advanced combination techniques"
     ],
     images: [],
@@ -441,9 +342,9 @@ export const katas: Kata[] = [
     ],
     images: [],
     keyFeatures: [
-      "\'Holding on long and striking suddenly\'",
+      "'Holding on long and striking suddenly'",
       "Deceptive movements and quick transitions",
-      "\'Muchimi\' (sticky hands) principle"
+      "'Muchimi' (sticky hands) principle"
     ],
     movements: "Approximately 23 movements",
     duration: "3-4 minutes",
@@ -453,7 +354,7 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=nSX19q6_gNM"
   },
   {
-    id: "peichurin",
+    id: "sesan",
     level: "Master",
     category: "kaishugata",
     steps: [
@@ -469,13 +370,13 @@ export const katas: Kata[] = [
     ],
     movements: "13 primary movements (symbolic)",
     duration: "3-4 minutes",
-    origin: "Fujian Province, China (likely Monk Fist Boxing or Lion\'s Fist)",
+    origin: "Fujian Province, China (likely Monk Fist Boxing or Lion's Fist)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "",
     bunkai: "https://www.youtube.com/watch?v=LBVbeDCv1jo"
   },
   {
-    id: "peichuin",
+    id: "peichurin",
     level: "Master",
     category: "kaishugata",
     steps: [
@@ -546,8 +447,8 @@ export const katas: Kata[] = [
     keyFeatures: [
       "Circular, flowing movements",
       "Open-hand techniques",
-      "Contrast to Sanchin\'s hard techniques",
-      "Represents the \'ju\' (soft) aspect of Goju Ryu"
+      "Contrast to Sanchin's hard techniques",
+      "Represents the 'ju' (soft) aspect of Goju Ryu"
     ],
     movements: "16 primary movements",
     duration: "1-2 minutes",
@@ -597,135 +498,123 @@ export const articles: Article[] = [
   {
     id: "breathing-importance",
     title: "The Importance of Proper Breathing in Goju Ryu",
-    content: "Breathing is perhaps the most critical yet often overlooked aspect of Goju Ryu karate. Proper breathing enhances power, endurance, and mental focus while practicing. The founder of Goju Ryu, Chojun Miyagi, placed great emphasis on breathing techniques, as evidenced in the fundamental kata Sanchin. This article explores the various breathing methods in Goju Ryu and their applications in both kata and kumite.",
-    category: "techniques",
-    image: "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?q=80&w=2041&auto=format&fit=crop",
-    author: "Karate Master",
-    date: "2023-01-15"
+    author: "John Doe",
+    date: "2023-01-15",
+    content: "Proper breathing, or 'kokyu', is a cornerstone of Goju Ryu practice. It is not merely about inhaling and exhaling, but about coordinating breath with movement to generate power, maintain stability, and cultivate internal energy (ki). The Sanchin kata is a primary vehicle for developing this skill, teaching the practitioner to maintain a state of dynamic tension throughout the body, synchronized with a deep, resonant breathing pattern. This not only strengthens the body but also forges a deep connection between mind and body, a critical aspect of martial arts mastery.",
+    tags: ["breathing", "kokyu", "sanchin", "ki"]
   },
   {
-    id: "okinawan-history",
-    title: "The Okinawan Roots of Goju Ryu",
-    content: "Goju Ryu karate's development is deeply intertwined with the rich history of Okinawa. As a trading hub between Japan, China, and Southeast Asia, Okinawa became a melting pot of martial arts influences. This article traces the historical events that shaped Goju Ryu, from the ban on weapons during the Satsuma domain's rule to the cultural exchange with Chinese martial artists that influenced the style's development.",
-    category: "history",
-    image: "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop",
-    author: "Karate Historian",
-    date: "2023-02-21"
+    id: "history-of-goju-ryu",
+    title: "A Brief History of Goju Ryu Karate",
+    author: "Jane Smith",
+    date: "2023-02-20",
+    content: "Goju Ryu's roots can be traced back to the Okinawan master Kanryo Higaonna, who studied Chinese martial arts in Fuzhou. His top student, Chojun Miyagi, synthesized these teachings with native Okinawan techniques to create the system we know today. The name 'Goju Ryu' itself, meaning 'hard-soft style', was inspired by a line from the Bubishi, a classic Chinese text on martial arts. This name perfectly encapsulates the style's core philosophy: the seamless integration of hard, linear attacks with soft, circular blocks and deflections.",
+    tags: ["history", "chojun-miyagi", "kanryo-higaonna", "okinawa"]
   }
 ];
 
 export const principles: Principle[] = [
   {
     id: "go-ju",
-    name: "Go and Ju",
+    name: "Go and Ju (Hard and Soft)",
     japaneseName: "剛柔",
-    description: "The balance of hardness and softness",
-    explanation: [
-      "Go (hard) represents linear, forceful techniques that meet force with greater force",
-      "Ju (soft) represents circular, yielding techniques that redirect an opponent's energy",
-      "The concept teaches practitioners to appropriately balance these opposing forces",
-      "In application, this means knowing when to stand firm and when to yield",
-      "This duality extends beyond physical technique to mental approach and life philosophy"
-    ]
+    description: "The core principle of Goju Ryu, representing the balance between hard (Go) and soft (Ju) techniques. This philosophy extends beyond physical movements to encompass a balanced approach to life.",
+    relatedKatas: ["Sanchin", "Tensho"]
   },
   {
-    id: "ikken-hissatsu",
-    name: "Ikken Hissatsu",
-    japaneseName: "一拳必殺",
-    description: "To kill with one blow",
-    explanation: [
-      "Represents the ideal of maximum efficiency in technique",
-      "Teaches practitioners to develop focus, power, and precision",
-      "Not literally about killing, but about resolving conflict decisively",
-      "Emphasizes quality of technique over quantity",
-      "Encourages mental focus and commitment to each action"
-    ]
+    id: "muchimi",
+    name: "Muchimi (Sticky Hands)",
+    japaneseName: "鞭身",
+    description: "The ability to maintain constant contact with an opponent, feeling their energy and intentions. This allows for fluid transitions between offense and defense, sticking to the opponent like glue.",
+    relatedKatas: ["Kururunfa"]
+  },
+  {
+    id: "kokyu",
+    name: "Kokyu (Breathing)",
+    japaneseName: "呼吸",
+    description: "The art of coordinating breath with movement. Proper breathing is essential for generating power (kime), maintaining stamina, and focusing the mind.",
+    relatedKatas: ["Sanchin", "Tensho"]
   }
 ];
 
-// Get all unique categories from the techniques data
-const allTerminologyCategories = [
-    ...new Set(techniquesData.map(item => item.category))
-] as const;
+export const allTerminologyCategories = ["common", "stances", "blocks", "punches", "kicks", "strikes", "body-parts", "commands", "numbers", "ranks", "weapons", "concepts", "kata-specific", "kumite", "dojo"] as const;
 
-// Type for category names derived from data
-type TerminologyCategory = typeof allTerminologyCategories[number];
+export type TerminologyCategory = typeof allTerminologyCategories[number];
 
-// Helper to generate slug from category name
+// Helper function to generate a URL-friendly slug
 const generateSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
-// Generate BOTH quiz and flashcard studies for each terminology category
+// Function to generate study materials from techniques
 const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[]): Study[] => {
-    const generatedStudies: Study[] = [];
+  const studies: Study[] = [];
 
-    categories.forEach(category => {
-        const categorySlug = generateSlug(category);
-        const categoryHasData = techniquesData.some(item => item.category === category);
+  categories.forEach(category => {
+    // Correctly type the keys for the i18n object
+    const i18nKey = `terminology.sections.${category}-content.terms` as const;
+    
+    // Check if the key exists in the translations
+    if (!i18n.exists(i18nKey, { ns: 'terminology' })) {
+      console.warn(`Translation key not found: ${i18nKey}`);
+      return;
+    }
 
-        if (!categoryHasData) {
-            console.warn(`Skipping study generation for empty category: ${category}`);
-            return; // Skip empty categories
-        }
+    const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string; details?: string }>;
 
-        // Create Quiz Study
-        generatedStudies.push({
-            id: `${categorySlug}-quiz`, // e.g., stances-quiz
-            title: `${category} Quiz`,
-            description: `Test your knowledge of ${category.toLowerCase()}.`,
-            type: 'quiz',
-            difficulty: 'beginner',
-            category: 'Techniques', // Broad category for filtering on StudyPage if re-enabled
-            image: '', // Optional: Add relevant images later
-            questions: [] // Questions are generated dynamically in TechniqueQuiz
+    if (terms && typeof terms === 'object') {
+      const questions: StudyQuestion[] = Object.entries(terms).map(([key, term]) => ({
+        id: `${category}-${key}`,
+        question: `What is the meaning of "${term.name}"?`,
+        options: [term.english], // Correct answer
+        correctAnswer: term.english,
+        explanation: term.details || `Japanese: ${term.japanese || 'N/A'}`
+      }));
+
+      if (questions.length > 0) {
+        studies.push({
+          id: category,
+          title: `Quiz: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
+          description: `Test your knowledge of ${category} terminology.`,
+          type: "quiz",
+          questions: questions,
+          category: "terminology",
+          image: "https://images.unsplash.com/photo-1593340578844-89a1c5d33c5e?q=80&w=2070&auto=format&fit=crop"
         });
+      }
+    }
+  });
 
-        // Create Flashcard Study
-        generatedStudies.push({
-            id: `${categorySlug}-flashcard`, // e.g., stances-flashcard
-            title: `${category} Flashcards`,
-            description: `Review ${category.toLowerCase()} using flashcards.`,
-            type: 'flashcard',
-            difficulty: 'beginner',
-            category: 'Techniques',
-            image: '',
-            questions: [] // Cards are generated dynamically in TechniqueFlashcards
-        });
-    });
-
-    return generatedStudies;
+  return studies;
 };
 
-// --- Manually Defined Studies --- 
-// (Can keep specific manual studies if they offer unique content/structure)
-const manualStudies: Study[] = [
-  // Example: Keep a manually defined study if it has specific questions or structure
-  /*
-  {
-    id: "goju-ryu-history-quiz",
-    title: "Goju Ryu History Quiz",
-    description: "Test your knowledge of the key figures and events in Goju Ryu history.",
-    type: "quiz",
-    difficulty: "Intermediate",
-    category: "History",
-    image: "https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop",
-    questions: [
-       // ... specific history questions ... 
-    ],
-    tags: ["history", "quiz"]
-  },
-  */
-];
+// Generate study materials for all terminology categories
+export const studies: Study[] = generateStudiesFromTechniques(allTerminologyCategories);
 
-// --- Combine and Export Studies --- 
+// Add flashcard studies
+allTerminologyCategories.forEach(category => {
+  const i18nKey = `terminology.sections.${category}-content.terms` as const;
 
-// Generate studies from all detected terminology categories
-const generatedTerminologyStudies = generateStudiesFromTechniques(allTerminologyCategories);
+  if (!i18n.exists(i18nKey, { ns: 'terminology' })) {
+    return;
+  }
+  
+  const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
 
-// Combine manual studies with automatically generated ones
-export const studies: Study[] = [
-    ...manualStudies, 
-    ...generatedTerminologyStudies
-];
+  if (terms && typeof terms === 'object') {
+    studies.push({
+      id: `${category}-flashcards`,
+      title: `Flashcards: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
+      description: `Practice ${category} terminology with flashcards.`,
+      type: "flashcards",
+      category: "terminology",
+      image: "https://images.unsplash.com/photo-1588725193539-7a723a247ab6?q=80&w=2070&auto=format&fit=crop",
+      cards: Object.entries(terms).map(([key, term]) => ({
+        id: `${category}-flashcard-${key}`,
+        front: term.name,
+        back: `${term.english}${term.japanese ? ` (${term.japanese})` : ''}`
+      }))
+    });
+  }
+});
 
 // Export other data as needed (ensure TechniqueData is not exported twice)
 export { techniquesData }; 

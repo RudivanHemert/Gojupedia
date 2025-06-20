@@ -16,7 +16,131 @@
       "punches": "Stoten",
       "stances": "Stances",
       "strikes": "Slagen",
-      "vital-points": "Vitale Punten"
+      "vital-points": "Vitale Punten",
+      "common-content": {
+        "description": "Veelgebruikte termen in karate training.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Trainingshal, plaats van de weg" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Leraar, instructeur (iemand die voor is gegaan)" },
+          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Senior student" },
+          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Junior student" },
+          "obi": { "name": "Obi", "japanese": "帯", "english": "Band" },
+          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Trainingsuniform" },
+          "kiai": { "name": "Kiai", "japanese": "気合", "english": "Geestkreet, energie focus" },
+          "reishiki": { "name": "Reishiki", "japanese": "礼式", "english": "Etiquette, manieren" }
+        }
+      },
+      "body-parts-content": {
+        "description": "Termen voor lichaamsdelen vaak genoemd in karate.",
+        "terms": {
+          "ashi": { "name": "Ashi", "japanese": "足", "english": "Voet/Ben" },
+          "te": { "name": "Te", "japanese": "手", "english": "Hand" },
+          "hiji": { "name": "Hiji", "japanese": "肘", "english": "Elleboog" },
+          "hiza": { "name": "Hiza", "japanese": "膝", "english": "Knie" },
+          "atama": { "name": "Atama", "japanese": "頭", "english": "Hoofd" },
+          "kata": { "name": "Kata", "japanese": "肩", "english": "Schouder" },
+          "mune": { "name": "Mune", "japanese": "胸", "english": "Borst" },
+          "hara": { "name": "Hara", "japanese": "腹", "english": "Maag/Buik" }
+        }
+      },
+      "commands-content": {
+        "description": "Veelgebruikte commando's in karate training.",
+        "terms": {
+          "hajime": { "name": "Hajime", "japanese": "始め", "english": "Begin" },
+          "yame": { "name": "Yame", "japanese": "止め", "english": "Stop" },
+          "yasume": { "name": "Yasume", "japanese": "休め", "english": "Rust/Op je gemak" },
+          "naore": { "name": "Naore", "japanese": "直れ", "english": "Terug naar gereed positie" },
+          "mokuso": { "name": "Mokuso", "japanese": "黙想", "english": "Meditatie" },
+          "mokuso-yame": { "name": "Mokuso Yame", "japanese": "黙想止め", "english": "Einde meditatie" },
+          "rei": { "name": "Rei", "japanese": "礼", "english": "Buiging" },
+          "seiza": { "name": "Seiza", "japanese": "正座", "english": "Formele zithouding" }
+        }
+      },
+      "numbers-content": {
+        "description": "Japans telstelsel gebruikt voor tellen tijdens training.",
+        "terms": {
+          "ichi": { "name": "Ichi", "japanese": "一", "english": "Één" },
+          "ni": { "name": "Ni", "japanese": "二", "english": "Twee" },
+          "san": { "name": "San", "japanese": "三", "english": "Drie" },
+          "shi": { "name": "Shi / Yon", "japanese": "四", "english": "Vier" },
+          "go": { "name": "Go", "japanese": "五", "english": "Vijf" },
+          "roku": { "name": "Roku", "japanese": "六", "english": "Zes" },
+          "shichi": { "name": "Shichi / Nana", "japanese": "七", "english": "Zeven" },
+          "hachi": { "name": "Hachi", "japanese": "八", "english": "Acht" },
+          "ku": { "name": "Ku / Kyu", "japanese": "九", "english": "Negen" },
+          "ju": { "name": "Ju", "japanese": "十", "english": "Tien" }
+        }
+      },
+      "ranks-content": {
+        "description": "Termen gerelateerd aan karate rangen en graden.",
+        "terms": {
+          "kyu": { "name": "Kyu", "japanese": "級", "english": "Rang (gekleurde banden, onder zwarte band)" },
+          "dan": { "name": "Dan", "japanese": "段", "english": "Niveau (zwarte band rangen)" },
+          "shodan": { "name": "Shodan", "japanese": "初段", "english": "Eerste niveau zwarte band" },
+          "nidan": { "name": "Nidan", "japanese": "二段", "english": "Tweede niveau zwarte band" },
+          "sandan": { "name": "Sandan", "japanese": "三段", "english": "Derde niveau zwarte band" },
+          "yondan": { "name": "Yondan", "japanese": "四段", "english": "Vierde niveau zwarte band" },
+          "godan": { "name": "Godan", "japanese": "五段", "english": "Vijfde niveau zwarte band" }
+        }
+      },
+      "weapons-content": {
+        "description": "Termen gerelateerd aan traditionele Okinawaanse wapens.",
+        "terms": {
+          "bo": { "name": "Bo", "japanese": "棒", "english": "Lange staf (ongeveer 6 ft)" },
+          "sai": { "name": "Sai", "japanese": "釵", "english": "Drietandige knuppel" },
+          "tonfa": { "name": "Tonfa", "japanese": "トンファー", "english": "Zijhandvat knuppel" },
+          "nunchaku": { "name": "Nunchaku", "japanese": "ヌンチャク", "english": "Dorsvlegel (twee delen verbonden door ketting/touw)" },
+          "kama": { "name": "Kama", "japanese": "鎌", "english": "Sikkel" },
+          "tekko": { "name": "Tekko", "japanese": "鉄甲", "english": "Knokkel duster" }
+        }
+      },
+      "concepts-content": {
+        "description": "Belangrijke concepten en principes in karate.",
+        "terms": {
+          "kime": { "name": "Kime", "japanese": "決め", "english": "Focus van kracht, beslissing" },
+          "zanshin": { "name": "Zanshin", "japanese": "残心", "english": "Blijvende geest/bewustzijn na techniek" },
+          "mushin": { "name": "Mushin", "japanese": "無心", "english": "Geen geest, staat van mentale helderheid" },
+          "kokyu": { "name": "Kokyu", "japanese": "呼吸", "english": "Ademhaling" },
+          "ki": { "name": "Ki", "japanese": "気", "english": "Energie, geest, levenskracht" },
+          "ma-ai": { "name": "Ma-ai", "japanese": "間合", "english": "Afstand, timing" },
+          "hyoshi": { "name": "Hyoshi", "japanese": "拍子", "english": "Ritme, timing" }
+        }
+      },
+      "kata-specific-content": {
+        "description": "Termen specifiek voor kata beoefening en uitvoering.",
+        "terms": {
+          "embusen": { "name": "Embusen", "japanese": "演武線", "english": "Uitvoeringslijn/patroon van een kata" },
+          "bunkai": { "name": "Bunkai", "japanese": "分解", "english": "Analyse, toepassing van kata" },
+          "oyo": { "name": "Oyo", "japanese": "応用", "english": "Toepassing, praktisch gebruik" },
+          "henka": { "name": "Henka", "japanese": "変化", "english": "Variatie, modificatie" },
+          "kakie": { "name": "Kakie", "japanese": "掛け合い", "english": "Duwende handen, gevoeligheidstraining" },
+          "koryu": { "name": "Koryu", "japanese": "古流", "english": "Oude stijl/school (verwijzend naar klassieke kata)" }
+        }
+      },
+      "kumite-content": {
+        "description": "Termen gerelateerd aan sparren en vechten.",
+        "terms": {
+          "kumite": { "name": "Kumite", "japanese": "組手", "english": "Sparren, worstelende handen" },
+          "ippon": { "name": "Ippon", "japanese": "一本", "english": "Één punt" },
+          "waza-ari": { "name": "Waza-ari", "japanese": "技あり", "english": "Half punt" },
+          "aiuchi": { "name": "Aiuchi", "japanese": "相打ち", "english": "Gelijktijdige punten" },
+          "hikiwake": { "name": "Hikiwake", "japanese": "引き分け", "english": "Gelijkspel" },
+          "hansoku": { "name": "Hansoku", "japanese": "反則", "english": "Overtreding" },
+          "shiai": { "name": "Shiai", "japanese": "試合", "english": "Wedstrijd, competitie" }
+        }
+      },
+      "dojo-content": {
+        "description": "Termen gerelateerd aan de dojo en trainingsomgeving.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Trainingshal, plaats van de weg" },
+          "kamiza": { "name": "Kamiza", "japanese": "上座", "english": "Bovenste plaats, voorkant van dojo" },
+          "shimoza": { "name": "Shimoza", "japanese": "下座", "english": "Onderste plaats, achterkant van dojo" },
+          "joseki": { "name": "Joseki", "japanese": "上席", "english": "Bovenste kant, rechterkant van dojo" },
+          "shimoseki": { "name": "Shimoseki", "japanese": "下席", "english": "Onderste kant, linkerkant van dojo" },
+          "shomen": { "name": "Shomen", "japanese": "正面", "english": "Voorkant, hoofdmuur van dojo" },
+          "tatami": { "name": "Tatami", "japanese": "畳", "english": "Traditionele Japanse vloermat" }
+        }
+      }
     },
     "noTermsAvailable": "Geen termen beschikbaar voor deze sectie."
   }

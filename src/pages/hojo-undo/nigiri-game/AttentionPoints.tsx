@@ -2,7 +2,7 @@ import React from 'react';
 import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Eye } from 'lucide-react';
 import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
 
-const ChiIshiAttentionPoints = () => {
+const NigiriGameAttentionPoints = () => {
   const mainComponents = [
     {
       title: "Veiligheidsmaatregelen",
@@ -10,7 +10,7 @@ const ChiIshiAttentionPoints = () => {
       icon: Shield,
       color: "bg-red-500",
       items: [
-        "Controleer de constructie voor elke training",
+        "Controleer de vazen voor elke training",
         "Begin altijd met lichte gewichten",
         "Stop bij pijn of ongemak",
         "Gebruik alleen op vaste ondergrond"
@@ -101,19 +101,19 @@ const ChiIshiAttentionPoints = () => {
 
   const navigationLinks = [
     { 
-      path: '/hojo-undo/chi-ishi/function', 
+      path: '/hojo-undo/nigiri-game/function', 
       label: 'Functie', 
-      description: 'Leer over de functies van de Chi Ishi',
+      description: 'Leer over de functies van de Nigiri Game',
       icon: Target 
     },
     { 
-      path: '/hojo-undo/chi-ishi/construction', 
+      path: '/hojo-undo/nigiri-game/construction', 
       label: 'Constructie', 
-      description: 'Leer hoe je een Chi Ishi maakt',
+      description: 'Leer hoe je Nigiri Game vazen maakt',
       icon: Info 
     },
     { 
-      path: '/hojo-undo/chi-ishi/exercises', 
+      path: '/hojo-undo/nigiri-game/exercises', 
       label: 'Oefeningen', 
       description: 'Praktische trainingsroutines',
       icon: Weight 
@@ -122,20 +122,20 @@ const ChiIshiAttentionPoints = () => {
 
   return (
     <HojoUndoSectionTemplate
-      title="Chi Ishi Aandachtspunten"
+      title="Nigiri Game Aandachtspunten"
       subtitle="Attention Points"
-      japaneseTitle="力石の注意点"
+      japaneseTitle="握り甕の注意点"
       badgeText="Veiligheid en Techniek"
-      description="Belangrijke aandachtspunten voor veilige en effectieve Chi Ishi training"
+      description="Belangrijke aandachtspunten voor veilige en effectieve Nigiri Game training"
       mainComponents={mainComponents}
       benefits={benefits}
       principles={principles}
       navigationLinks={navigationLinks}
       historicalNote="Traditioneel werden deze aandachtspunten mondeling doorgegeven van meester op leerling. Ze zijn gebaseerd op eeuwenlange ervaring en zijn essentieel voor veilige training."
-      safetyNotice="Deskundige begeleiding is essentieel voor Chi Ishi training. Begin altijd onder toezicht van een ervaren instructeur en stop onmiddellijk bij pijn of ongemak."
+      safetyNotice="Deskundige begeleiding is essentieel voor Nigiri Game training. Begin altijd onder toezicht van een ervaren instructeur en stop onmiddellijk bij pijn of ongemak."
       backPath="/hojo-undo"
     />
   );
 };
 
-export default ChiIshiAttentionPoints; 
+export default NigiriGameAttentionPoints; 

@@ -258,45 +258,45 @@
       "name": "Sepai",
       "japaneseName": "十八手",
       "meaning": "18 Handen",
-      "description": "Een meester niveau kata die circulaire bewegingen en afleiding technieken benadrukt.",
+      "description": "Een geavanceerde kata die de 18 vitale punten van het lichaam vertegenwoordigt met circulaire en vloeiende bewegingen.",
       "history": "Een van de originele kata uit China, waarschijnlijk van White Crane stijl.",
-      "culturalSignificance": "Vertegenwoordigt het getal 18 (6x3) en circulaire principes.",
+      "culturalSignificance": "Vertegenwoordigt de 18 vitale punten.",
       "stepsCount": 3,
       "steps": {
         "step1": {
-          "title": "Circulaire bewegingen",
-          "description": "Circulaire bewegingen"
+          "title": "Circulaire en vloeiende bewegingen",
+          "description": "Circulaire en vloeiende bewegingen"
         },
         "step2": {
-          "title": "Afleiding technieken",
-          "description": "Afleiden en omleiden van de kracht van de tegenstander"
+          "title": "Close-range gevecht",
+          "description": "Close-range gevechtstechnieken en grappling"
         },
         "step3": {
-          "title": "Geavanceerde combinaties",
-          "description": "Geavanceerde combinatie technieken"
+          "title": "Snelle overgangen",
+          "description": "Snelle overgangen tussen technieken"
         }
       }
     },
     "kururunfa": {
       "name": "Kururunfa",
       "japaneseName": "久留頓破",
-      "meaning": "Lang Vasthouden en Plotseling Slaan",
-      "description": "Een meester kata gericht op vasthouden en breken van balans met plotselinge, snelle slagen.",
-      "history": "Een van de originele kata uit China, oorsprong onbekend.",
-      "culturalSignificance": "Demonstreert het principe van misleiding en plotselinge aanval.",
+      "meaning": "Lang vasthouden en plotseling aanvallen",
+      "description": "Een meesterkata met bedrieglijke bewegingen, snelle overgangen en 'kleverige handen' (Muchimi) principe.",
+      "history": "Een van de originele kata uit China, specifieke stijl onbekend.",
+      "culturalSignificance": "Benadrukt het principe van 'Muchimi' en het beheersen van de tegenstander.",
       "stepsCount": 3,
       "steps": {
         "step1": {
-          "title": "Balans vasthouden en breken",
-          "description": "Balans vasthouden en breken"
+          "title": "Bedrieglijke bewegingen",
+          "description": "Bedrieglijke bewegingen en snelle overgangen"
         },
         "step2": {
-          "title": "Plotselinge slagen",
-          "description": "Plotselinge, snelle slagen"
+          "title": "'Kleverige handen' (Muchimi)",
+          "description": "'Kleverige handen' (Muchimi) principe"
         },
         "step3": {
-          "title": "Close combat",
-          "description": "Close combat en gewrichtsmanipulatie"
+          "title": "Gewricht manipulatie",
+          "description": "Close-quarter gevecht en gewricht manipulatie"
         }
       }
     },
@@ -304,42 +304,47 @@
       "name": "Sesan",
       "japaneseName": "十三手",
       "meaning": "13 Handen",
-      "description": "Een van de oudste Goju Ryu kata met krachtige, directe technieken.",
+      "description": "Een van de oudste Goju Ryu kata, met krachtige, directe bewegingen en close-quarters gevechten.",
       "history": "Een van de originele kata uit China, waarschijnlijk van Monk Fist Boxing of Lion's Fist.",
-      "culturalSignificance": "Vertegenwoordigt het getal 13 en een van de fundamentele kata.",
+      "culturalSignificance": "Vertegenwoordigt de 13 vitale punten.",
       "stepsCount": 3,
       "steps": {
         "step1": {
-          "title": "Krachtige technieken",
-          "description": "Krachtige, directe technieken"
+          "title": "Krachtige en directe technieken",
+          "description": "Krachtige en directe technieken"
         },
         "step2": {
-          "title": "Close combat",
-          "description": "Close combat"
+          "title": "Close-quarters gevecht",
+          "description": "Close-quarters gevecht"
         },
         "step3": {
-          "title": "Sterke houdingen",
-          "description": "Sterke houdingen en worteling"
+          "title": "Sterke standen en aarding",
+          "description": "Sterke standen en aarding"
         }
       }
     },
     "peichurin": {
       "name": "Peichurin",
-      "description": "De langste en meest geavanceerde kata van Goju Ryu, die 108 bewegingen vertegenwoordigt (3x36).",
-      "level": "Meester",
-      "category": "Kaishugata",
-      "origin": "Fujian Provincie, China",
-      "duration": "5-7 minuten",
-      "movements": "108 primaire bewegingen (symbolisch)",
-      "keyFeatures": [
-        "Vertegenwoordigt het getal 108 (3x36)",
-        "Langste en meest geavanceerde kata",
-        "Culminatie van Goju Ryu principes"
-      ],
-      "masters": [
-        "Kanryo Higaonna",
-        "Chojun Miyagi"
-      ]
+      "japaneseName": "壱百零八",
+      "meaning": "108 Handen",
+      "description": "De langste en meest geavanceerde kata, die de culminatie van Goju Ryu principes vertegenwoordigt.",
+      "history": "Een van de originele kata uit China, waarschijnlijk van White Crane stijl.",
+      "culturalSignificance": "Vertegenwoordigt de 108 aardse verlangens in het Boeddhisme.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Uitgebreid scala aan technieken",
+          "description": "Uitgebreid scala aan Goju Ryu technieken"
+        },
+        "step2": {
+          "title": "Langste en meest complexe kata",
+          "description": "Langste en meest complexe kata"
+        },
+        "step3": {
+          "title": "Belichaming van harde en zachte principes",
+          "description": "Belichaming van harde en zachte principes"
+        }
+      }
     }
   },
   "kataDetailPage": {

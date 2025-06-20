@@ -1,13 +1,125 @@
 {
   "techniques": {
     "title": "Technieken",
-    "description": "Leer de fundamentele technieken van Goju Ryu karate",
+    "description": "Fundamentele technieken van Goju Ryu Karate",
     "sections": {
-      "blocks": "Blokken",
-      "kicks": "Trappen",
-      "punches": "Stoten",
-      "stances": "Stances",
-      "strikes": "Slagen"
+      "blocks": {
+        "title": "Blokken",
+        "description": "Verdedigingstechnieken"
+      },
+      "kicks": {
+        "title": "Trappen",
+        "description": "Verschillende soorten trappen"
+      },
+      "punches": {
+        "title": "Stoten",
+        "description": "Verschillende soorten stoten"
+      },
+      "stances": {
+        "title": "Stances",
+        "description": "Basis stances van Goju Ryu"
+      },
+      "strikes": {
+        "title": "Slagen",
+        "description": "Hand- en arm slagen"
+      },
+      "hoeiJukuStances": {
+        "title": "Hoei Juku Stances",
+        "description": "Gedetailleerde stances uit de Hoei Juku Training Manual"
+      },
+      "hoeiJukuWarmup": {
+        "title": "Hoei Juku Opwarming",
+        "description": "Opwarmingsoefeningen ontwikkeld door Master Miyagi"
+      },
+      "warmup": {
+        "title": "Opwarming",
+        "description": "Opwarmingsoefeningen en voorbereiding"
+      }
+    }
+  },
+  "stances": {
+    "musubiDachi": {
+      "title": "Musubi Dachi",
+      "description": "Formele stance met hielen tegen elkaar"
+    },
+    "sanchinDachi": {
+      "title": "Sanchin Dachi",
+      "description": "Krachtige stance voor Sanchin en Tensho kata"
+    },
+    "zenkutsuDachi": {
+      "title": "Zenkutsu Dachi",
+      "description": "Aanvallende voorste stance"
+    },
+    "shikoDachi": {
+      "title": "Shiko Dachi",
+      "description": "Wijdbeense stance voor dichtbij gevecht"
+    },
+    "nekoAshiDachi": {
+      "title": "Neko Ashi Dachi",
+      "description": "Kattenstance voor verdediging"
+    }
+  },
+  "punches": {
+    "seikenZuki": {
+      "title": "Seiken Zuki",
+      "description": "Vuiststoot met gesloten vuist"
+    },
+    "gyakuZuki": {
+      "title": "Gyaku Zuki",
+      "description": "Tegenstoot met achterste hand"
+    },
+    "oiZuki": {
+      "title": "Oi Zuki",
+      "description": "Lopende stoot"
+    }
+  },
+  "kicks": {
+    "maeGeri": {
+      "title": "Mae Geri",
+      "description": "Voorwaartse trap"
+    },
+    "yokoGeri": {
+      "title": "Yoko Geri",
+      "description": "Zijwaartse trap"
+    },
+    "ushiroGeri": {
+      "title": "Ushiro Geri",
+      "description": "Achterwaartse trap"
+    }
+  },
+  "blocks": {
+    "ageUke": {
+      "title": "Age Uke",
+      "description": "Omhoog blok"
+    },
+    "sotoUke": {
+      "title": "Soto Uke",
+      "description": "Van buiten naar binnen blok"
+    },
+    "gedanBarai": {
+      "title": "Gedan Barai",
+      "description": "Laag blok"
+    }
+  },
+  "hoeiJuku": {
+    "stances": {
+      "title": "Hoei Juku Stances",
+      "description": "Gedetailleerde stances uit de training manual",
+      "keyPoints": "Belangrijke punten voor alle stances",
+      "trainingTips": "Training tips"
+    },
+    "warmup": {
+      "title": "Hoei Juku Opwarming",
+      "description": "Opwarmingsoefeningen ontwikkeld door Master Miyagi",
+      "purpose": "Doel van opwarming",
+      "meditation": "Meditatie (Mokuso)",
+      "sequence": "Opwarmingsreeks",
+      "strength": "Kracht en uithoudingsvermogen oefeningen",
+      "breathing": "Ademhaling tijdens oefeningen",
+      "warmdown": "Afkoeling",
+      "additional": "Extra training",
+      "principles": "Belangrijke principes",
+      "benefits": "Voordelen"
     }
   }
 } 

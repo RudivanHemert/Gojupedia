@@ -3,6 +3,7 @@
   "description": "Traditional strength training of Goju-ryu Karate-do",
   "introduction": {
     "title": "Introduction",
+    "translation": "Introduction & Overview",
     "whatIs": "What is Hojo Undo?",
     "twoParts": "Two main components",
     "strengthExercises": "Strength exercises",
@@ -23,7 +24,7 @@
     "moreInfo": "More Information",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Stone lever weight",
+      "translation": "Stone Lever Weight",
       "description": "Stone lever weight for wrist and grip strength",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
@@ -34,7 +35,7 @@
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Gripping jars",
+      "translation": "Gripping Jars",
       "description": "Gripping jars for finger and hand strength",
       "origin": "China",
       "weight": "3-5 kg",
@@ -45,7 +46,7 @@
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Iron oval",
+      "translation": "Iron Ring",
       "description": "Iron oval for total body conditioning",
       "origin": "Hawaii",
       "weight": "30-40 kg",
@@ -57,7 +58,7 @@
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Stone padlocks",
+      "translation": "Stone Lock",
       "description": "Stone padlocks for grip strength and technique",
       "origin": "China/Okinawa",
       "weight": "2-8 kg",
@@ -72,7 +73,45 @@
     "equipment": "Equipment",
     "techniques": "Techniques",
     "benefits": "Benefits",
-    "training": "Training"
+    "training": "Training",
+    "trainingSections": "Training Sections"
+  },
+  "template": {
+    "mainComponents": "Main Components",
+    "mainComponentsDescription": "The key aspects of this training",
+    "principles": "Important Principles",
+    "principlesDescription": "The foundations of this training",
+    "trainingEffects": "Training Effects",
+    "trainingEffectsDescription": "What you can expect from this training",
+    "relatedSections": "Related Sections",
+    "relatedSectionsDescription": "Explore other aspects of Hojo Undo",
+    "historicalBackground": "Historical Background",
+    "safetyInformation": "Safety Information",
+    "importantSafetyNotice": "Important Safety Notice",
+    "coreTraining": "The core of this training is the coordinated use of body, breath and mind.",
+    "harmonization": "This harmonization follows the same principles as the heishugata (Sanchin and Tensho)."
+  },
+  "strengthExercises": {
+    "title": "Strength Exercises",
+    "subtitle": "Traditional Strength Training",
+    "description": "Develop functional strength with traditional Hojo Undo tools for effective karate training",
+    "chiIshiTraining": "Chi Ishi Training",
+    "nigiriGameTraining": "Nigiri Game Training",
+    "kongokenTraining": "Kongoken Training",
+    "ishiSashiTraining": "Ishi Sashi Training",
+    "historicalNote": "These strength exercises have been passed down from master to student for centuries. They are developed to create functional strength that is directly applicable in karate techniques.",
+    "safetyNotice": "Expert guidance is essential for all strength exercises. Always start with light weights and focus on correct technique before increasing intensity."
+  },
+  "hardeningExercises": {
+    "title": "Hardening Exercises",
+    "subtitle": "Conditioning and Hardening",
+    "description": "Develop physical and mental resistance with traditional hardening exercises for effective karate training",
+    "makiwaraTraining": "Makiwara Training",
+    "sunaBakoTraining": "Suna Bako Training",
+    "jariBakoTraining": "Jari Bako Training",
+    "tanrenKumite": "Tanren Kumite",
+    "historicalNote": "These hardening exercises are developed to prepare the body for the impact of karate techniques. They are essential for developing real fighting power.",
+    "safetyNotice": "Hardening exercises should always be performed under expert guidance. Start carefully and build up gradually to prevent injuries."
   },
   "common": {
     "function": "Function",
@@ -83,7 +122,20 @@
     "safety": "Safety",
     "tips": "Tips",
     "variations": "Variations",
-    "applications": "Applications"
+    "applications": "Applications",
+    "traditionalStrengthTraining": "Traditional Strength Training",
+    "learnFundamentals": "Learn about the fundamentals and philosophy",
+    "overviewEquipment": "Overview of all training equipment",
+    "understandingPurpose": "Understanding the purpose and benefits",
+    "buildMaintain": "How to build and maintain the equipment",
+    "safetyTechnique": "Important safety and technique points",
+    "specificExercises": "Specific training exercises and routines",
+    "traditionalMethods": "Traditional and classic training methods",
+    "modernRoutines": "Modern and adapted training routines"
+  },
+  "categories": {
+    "introduction": "Introduction",
+    "primaryEquipment": "Primary Equipment"
   },
   "additionalEquipment": {
     "tekkan": "Iron rings",

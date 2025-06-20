@@ -40,36 +40,37 @@ const HojoUndoSectionPage = () => {
 
   // Get section name for display
   const getSectionName = () => {
-    if (!sectionKey) return '';
+    if (!sectionKey || !equipmentId) return '';
     
-    const sectionMap: Record<string, string> = {
-      // Chi Ishi sections
-      'function': t('hojoUndo.equipment.chiIshi.function'),
-      'construction': t('hojoUndo.equipment.chiIshi.construction'),
-      'attention-points': t('hojoUndo.equipment.chiIshi.attentionPoints'),
-      'exercises': t('hojoUndo.equipment.chiIshi.exercises'),
-      
-      // Nigiri Game sections
-      'nigiri-game-function': t('hojoUndo.equipment.nigiriGame.function'),
-      'nigiri-game-construction': t('hojoUndo.equipment.nigiriGame.construction'),
-      'nigiri-game-attention-points': t('hojoUndo.equipment.nigiriGame.attentionPoints'),
-      'nigiri-game-exercises': t('hojoUndo.equipment.nigiriGame.exercises'),
-      
-      // Kongoken sections
-      'kongoken-function': t('hojoUndo.equipment.kongoken.function'),
-      'kongoken-construction': t('hojoUndo.equipment.kongoken.construction'),
-      'kongoken-attention-points': t('hojoUndo.equipment.kongoken.attentionPoints'),
-      'kongoken-exercises': t('hojoUndo.equipment.kongoken.exercises'),
-      'classic-exercises': t('hojoUndo.equipment.kongoken.classicExercises'),
-      
-      // Ishi Sashi sections
-      'ishi-sashi-function': t('hojoUndo.equipment.ishiSashi.function'),
-      'ishi-sashi-construction': t('hojoUndo.equipment.ishiSashi.construction'),
-      'ishi-sashi-attention-points': t('hojoUndo.equipment.ishiSashi.attentionPoints'),
-      'ishi-sashi-exercises': t('hojoUndo.equipment.ishiSashi.exercises'),
+    const sectionMaps: Record<string, Record<string, string>> = {
+      'chi-ishi': {
+        'function': t('hojoUndo.equipment.chiIshi.function'),
+        'construction': t('hojoUndo.equipment.chiIshi.construction'),
+        'attention-points': t('hojoUndo.equipment.chiIshi.attentionPoints'),
+        'exercises': t('hojoUndo.equipment.chiIshi.exercises'),
+      },
+      'nigiri-game': {
+        'function': t('hojoUndo.equipment.nigiriGame.function'),
+        'construction': t('hojoUndo.equipment.nigiriGame.construction'),
+        'attention-points': t('hojoUndo.equipment.nigiriGame.attentionPoints'),
+        'exercises': t('hojoUndo.equipment.nigiriGame.exercises'),
+      },
+      'kongoken': {
+        'function': t('hojoUndo.equipment.kongoken.function'),
+        'construction': t('hojoUndo.equipment.kongoken.construction'),
+        'attention-points': t('hojoUndo.equipment.kongoken.attentionPoints'),
+        'exercises': t('hojoUndo.equipment.kongoken.exercises'),
+        'classic-exercises': t('hojoUndo.equipment.kongoken.classicExercises'),
+      },
+      'ishi-sashi': {
+        'function': t('hojoUndo.equipment.ishiSashi.function'),
+        'construction': t('hojoUndo.equipment.ishiSashi.construction'),
+        'attention-points': t('hojoUndo.equipment.ishiSashi.attentionPoints'),
+        'exercises': t('hojoUndo.equipment.ishiSashi.exercises'),
+      }
     };
     
-    return sectionMap[sectionKey] || sectionKey;
+    return sectionMaps[equipmentId]?.[sectionKey] || sectionKey;
   };
 
   // Get navigation buttons for the current equipment
@@ -108,13 +109,13 @@ const HojoUndoSectionPage = () => {
     if (!buttons) return null;
 
     return (
-      <div className="flex gap-3 mt-6">
+      <div className="flex gap-3 mt-6 flex-wrap">
         {buttons.map((button) => (
           <Button
             key={button.key}
             asChild
             variant={sectionKey === button.key ? "default" : "outline"}
-            className="flex-1"
+            className="flex-1 min-w-fit"
           >
             <Link to={`/hojo-undo/${equipmentId}/${button.key}`}>
               {button.label}
@@ -130,7 +131,7 @@ const HojoUndoSectionPage = () => {
       <div className="p-4">
         <div className="mb-6">
           <Button asChild variant="outline" className="mb-4">
-            <Link to="/hojo-undo/equipment">
+            <Link to="/hojo-undo">
               <ChevronLeft className="mr-2 h-4 w-4" />
               {t('common.back')}
             </Link>
@@ -146,7 +147,7 @@ const HojoUndoSectionPage = () => {
           </div>
         ) : (
           <div className="text-center py-8">
-            <p className="text-muted-foreground">Content niet gevonden</p>
+            <p className="text-muted-foreground">{t('common.contentNotFound', 'Content niet gevonden')}</p>
             <p className="text-sm text-muted-foreground mt-2">Path: {contentPath}</p>
             {getNavigationButtons()}
           </div>
@@ -156,4 +157,4 @@ const HojoUndoSectionPage = () => {
   );
 };
 
-export default HojoUndoSectionPage; 
+export default HojoUndoSectionPage;

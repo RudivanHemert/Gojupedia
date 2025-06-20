@@ -271,22 +271,22 @@
       "name": "Sepai",
       "japaneseName": "十八手",
       "meaning": "18 Hands",
-      "description": "A master-level kata emphasizing circular movements and deflecting techniques.",
+      "description": "An advanced kata representing the 18 vital points of the body with circular and flowing movements.",
       "history": "One of the original kata from China, likely from White Crane style.",
-      "culturalSignificance": "Represents the number 18 (6x3) and circular principles.",
+      "culturalSignificance": "Represents the 18 vital points.",
       "stepsCount": 3,
       "steps": {
         "step1": {
-          "title": "Circular movements",
-          "description": "Circular movements"
+          "title": "Circular and flowing movements",
+          "description": "Circular and flowing movements"
         },
         "step2": {
-          "title": "Deflecting techniques",
-          "description": "Deflecting and redirecting opponent's force"
+          "title": "Close-range combat",
+          "description": "Close-range combat techniques and grappling"
         },
         "step3": {
-          "title": "Advanced combinations",
-          "description": "Advanced combination techniques"
+          "title": "Quick transitions",
+          "description": "Quick transitions between techniques"
         }
       }
     },
@@ -294,21 +294,21 @@
       "name": "Kururunfa",
       "japaneseName": "久留頓破",
       "meaning": "Holding on Long and Striking Suddenly",
-      "description": "A master kata focusing on holding and breaking balance with sudden, fast strikes.",
-      "history": "One of the original kata from China, origin unknown.",
-      "culturalSignificance": "Demonstrates the principle of deception and sudden attack.",
+      "description": "A master kata featuring deceptive movements, quick transitions, and 'sticky hands' (Muchimi) principle.",
+      "history": "One of the original kata from China, specific style unknown.",
+      "culturalSignificance": "Emphasizes the principle of 'Muchimi' and controlling the opponent.",
       "stepsCount": 3,
       "steps": {
         "step1": {
-          "title": "Holding and breaking balance",
-          "description": "Holding and breaking balance"
+          "title": "Deceptive movements",
+          "description": "Deceptive movements and quick transitions"
         },
         "step2": {
-          "title": "Sudden strikes",
-          "description": "Sudden, fast strikes"
+          "title": "'Sticky hands' (Muchimi)",
+          "description": "'Sticky hands' (Muchimi) principle"
         },
         "step3": {
-          "title": "Close-quarter combat",
+          "title": "Joint manipulation",
           "description": "Close-quarter combat and joint manipulation"
         }
       }
@@ -317,42 +317,47 @@
       "name": "Sesan",
       "japaneseName": "十三手",
       "meaning": "13 Hands",
-      "description": "One of the oldest Goju Ryu kata with powerful, direct techniques.",
+      "description": "One of the oldest Goju Ryu kata, featuring powerful, direct movements and close-quarters combat.",
       "history": "One of the original kata from China, likely from Monk Fist Boxing or Lion's Fist.",
-      "culturalSignificance": "Represents the number 13 and one of the foundational kata.",
+      "culturalSignificance": "Represents the 13 vital points.",
       "stepsCount": 3,
       "steps": {
         "step1": {
-          "title": "Powerful techniques",
-          "description": "Powerful, direct techniques"
+          "title": "Powerful and direct techniques",
+          "description": "Powerful and direct techniques"
         },
         "step2": {
-          "title": "Close-quarters fighting",
-          "description": "Close-quarters fighting"
+          "title": "Close-quarters combat",
+          "description": "Close-quarters combat"
         },
         "step3": {
-          "title": "Strong stances",
+          "title": "Strong stances and rooting",
           "description": "Strong stances and rooting"
         }
       }
     },
     "peichurin": {
       "name": "Peichurin",
-      "description": "The longest and most advanced kata of Goju Ryu, representing 108 movements (3x36).",
-      "level": "Master",
-      "category": "Kaishugata",
-      "origin": "Fujian Province, China",
-      "duration": "5-7 minutes",
-      "movements": "108 primary movements (symbolic)",
-      "keyFeatures": [
-        "Represents the number 108 (3x36)",
-        "Longest and most advanced kata",
-        "Culmination of Goju Ryu principles"
-      ],
-      "masters": [
-        "Kanryo Higaonna",
-        "Chojun Miyagi"
-      ]
+      "japaneseName": "壱百零八",
+      "meaning": "108 Hands",
+      "description": "The longest and most advanced kata, representing the culmination of Goju Ryu principles.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents the 108 earthly desires in Buddhism.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Comprehensive range of techniques",
+          "description": "Comprehensive range of Goju Ryu techniques"
+        },
+        "step2": {
+          "title": "Longest and most complex kata",
+          "description": "Longest and most complex kata"
+        },
+        "step3": {
+          "title": "Embodiment of hard and soft principles",
+          "description": "Embodiment of hard and soft principles"
+        }
+      }
     }
   },
   "kataDetailPage": {

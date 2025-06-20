@@ -34,7 +34,7 @@ const PhilosophyPage = () => {
             {sections.map((section) => (
               <AccordionItem key={section.id} value={section.id}>
                 <AccordionTrigger>
-                  {t(`philosophy.sections.${section.id}`)}
+                  {t(`philosophy.sections.${section.id}.title`)}
                 </AccordionTrigger>
                 <AccordionContent>
                   {section.content && <MarkdownRenderer markdownContent={section.content} />}

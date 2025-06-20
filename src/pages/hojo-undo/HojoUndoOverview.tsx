@@ -3,13 +3,66 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { ChevronLeft, Dumbbell, Target, Brain, Shield, Clock, Users } from 'lucide-react';
+import { ChevronLeft, Dumbbell, Target, Brain, Shield, Clock, Users, Weight, HandMetal, Hammer, Eye, Wrench, Flag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import MobileLayout from '@/components/layout/MobileLayout';
 import { useTranslation } from 'react-i18next';
 
-const GeneralIntro = () => {
+const HojoUndoOverview = () => {
   const { t } = useTranslation();
+
+  const subsections = [
+    {
+      title: "Chi Ishi",
+      subtitle: "Stenen hefboom gewicht voor pols- en grijpkracht",
+      icon: Weight,
+      color: "bg-blue-500",
+      textColor: "text-blue-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/chi-ishi/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/chi-ishi/construction", icon: Wrench },
+        { title: "Aandachtspunten", path: "/hojo-undo/chi-ishi/attention-points", icon: Eye },
+        { title: "Oefeningen", path: "/hojo-undo/chi-ishi/exercises", icon: Dumbbell }
+      ]
+    },
+    {
+      title: "Nigiri Game",
+      subtitle: "Grijpvazen voor vinger- en handkracht",
+      icon: HandMetal,
+      color: "bg-green-500",
+      textColor: "text-green-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/nigiri-game/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/nigiri-game/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/nigiri-game/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/nigiri-game/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Kongoken",
+      subtitle: "Ijzeren ovaal voor totale lichaamsconditionering",
+      icon: Hammer,
+      color: "bg-orange-500",
+      textColor: "text-orange-500",
+      items: [
+        { title: "Klassieke oefeningen", path: "/hojo-undo/kongoken/classic-exercises", icon: Clock },
+        { title: "Oefeningen", path: "/hojo-undo/kongoken/exercises", icon: Dumbbell }
+      ]
+    },
+    {
+      title: "Ishi Sashi",
+      subtitle: "Stenen hangsloten voor grijpkracht en techniek",
+      icon: Weight,
+      color: "bg-purple-500",
+      textColor: "text-purple-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/ishi-sashi/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/ishi-sashi/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/ishi-sashi/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/ishi-sashi/attention-points", icon: Eye }
+      ]
+    }
+  ];
 
   const mainComponents = [
     {
@@ -94,7 +147,7 @@ const GeneralIntro = () => {
           </Link>
         </Button>
 
-        {/* Header */}
+        {/* Header - Inleiding */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -103,14 +156,14 @@ const GeneralIntro = () => {
           <h1 className="text-3xl font-bold">Hojo Undo</h1>
           <p className="text-xl text-muted-foreground">補助運動</p>
           <Badge variant="secondary" className="text-lg px-4 py-2">
-            Traditionele Krachttraining
+            Traditionele krachttraining van het Goju-ryu Karate-do
           </Badge>
           <p className="text-muted-foreground max-w-md mx-auto">
             Ondersteunende training voor het ontwikkelen van kracht, techniek en mentale discipline in Goju-ryu Karate-do
           </p>
         </motion.div>
 
-        {/* Main Components */}
+        {/* Overzicht Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -119,7 +172,7 @@ const GeneralIntro = () => {
         >
           <h2 className="text-xl font-semibold flex items-center">
             <Users className="mr-2 h-5 w-5" />
-            Twee Hoofdonderdelen
+            Overzicht
           </h2>
           <div className="grid gap-4">
             {mainComponents.map((component, index) => (
@@ -152,11 +205,61 @@ const GeneralIntro = () => {
           </div>
         </motion.div>
 
-        {/* Central Principles */}
+        {/* Subsections List */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
+          className="space-y-6"
+        >
+          {subsections.map((section, index) => (
+            <motion.div
+              key={section.title}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader className="pb-3">
+                  <CardTitle className="flex items-center text-lg">
+                    <div className={`p-2 rounded-full ${section.color} text-white mr-3`}>
+                      <section.icon className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <div>{section.title}</div>
+                      <div className="text-sm text-muted-foreground font-normal">
+                        {section.subtitle}
+                      </div>
+                    </div>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-2">
+                    {section.items.map((item, idx) => (
+                      <Button
+                        key={idx}
+                        asChild
+                        variant="ghost"
+                        className="w-full justify-start h-auto p-2 text-left"
+                      >
+                        <Link to={item.path}>
+                          <item.icon className="h-4 w-4 mr-2 text-muted-foreground" />
+                          <span className="text-sm">{item.title}</span>
+                        </Link>
+                      </Button>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+          ))}
+        </motion.div>
+
+        {/* Central Principles */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
         >
           <Card>
             <CardHeader>
@@ -186,7 +289,7 @@ const GeneralIntro = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.4 }}
           className="space-y-4"
         >
           <h2 className="text-xl font-semibold flex items-center">
@@ -221,7 +324,7 @@ const GeneralIntro = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
+          transition={{ delay: 0.5 }}
         >
           <Card className="border-l-4 border-l-amber-500">
             <CardContent className="pt-6">
@@ -238,7 +341,7 @@ const GeneralIntro = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 0.6 }}
         >
           <Card className="border-l-4 border-l-red-500 bg-red-50 dark:bg-red-950/20">
             <CardHeader>
@@ -261,4 +364,4 @@ const GeneralIntro = () => {
   );
 };
 
-export default GeneralIntro; 
+export default HojoUndoOverview; 

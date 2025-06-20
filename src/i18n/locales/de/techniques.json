@@ -1,13 +1,117 @@
 {
   "techniques": {
     "title": "Techniken",
-    "description": "Lernen Sie die Grundtechniken des Goju Ryu Karate",
+    "description": "Grundlegende Techniken des Goju Ryu Karate",
     "sections": {
-      "blocks": "Blöcke",
-      "kicks": "Tritte",
-      "punches": "Schläge",
-      "stances": "Stände",
-      "strikes": "Schläge"
+      "blocks": {
+        "title": "Blöcke",
+        "description": "Verteidigungstechniken"
+      },
+      "kicks": {
+        "title": "Tritte",
+        "description": "Verschiedene Arten von Tritten"
+      },
+      "punches": {
+        "title": "Schläge",
+        "description": "Verschiedene Arten von Schlägen"
+      },
+      "stances": {
+        "title": "Stände",
+        "description": "Grundlegende Stände des Goju Ryu"
+      },
+      "strikes": {
+        "title": "Schläge",
+        "description": "Hand- und Armschläge"
+      },
+      "warmup": {
+        "title": "Aufwärmen",
+        "description": "Aufwärmübungen und Vorbereitung"
+      }
+    }
+  },
+  "stances": {
+    "musubiDachi": {
+      "title": "Musubi Dachi",
+      "description": "Formeller Stand mit Fersen zusammen"
+    },
+    "sanchinDachi": {
+      "title": "Sanchin Dachi",
+      "description": "Kraftvoller Stand für Sanchin und Tensho Kata"
+    },
+    "zenkutsuDachi": {
+      "title": "Zenkutsu Dachi",
+      "description": "Vorwärtsangriffsstand"
+    },
+    "shikoDachi": {
+      "title": "Shiko Dachi",
+      "description": "Weiter Stand für Nahkampf"
+    },
+    "nekoAshiDachi": {
+      "title": "Neko Ashi Dachi",
+      "description": "Katzenstand für Verteidigung"
+    }
+  },
+  "punches": {
+    "seikenZuki": {
+      "title": "Seiken Zuki",
+      "description": "Faustschlag mit geschlossener Faust"
+    },
+    "gyakuZuki": {
+      "title": "Gyaku Zuki",
+      "description": "Gegenschlag mit hinterer Hand"
+    },
+    "oiZuki": {
+      "title": "Oi Zuki",
+      "description": "Ausfallschlag"
+    }
+  },
+  "kicks": {
+    "maeGeri": {
+      "title": "Mae Geri",
+      "description": "Fronttritt"
+    },
+    "yokoGeri": {
+      "title": "Yoko Geri",
+      "description": "Seitentritt"
+    },
+    "ushiroGeri": {
+      "title": "Ushiro Geri",
+      "description": "Rücktritt"
+    }
+  },
+  "blocks": {
+    "ageUke": {
+      "title": "Age Uke",
+      "description": "Aufwärtsblock"
+    },
+    "sotoUke": {
+      "title": "Soto Uke",
+      "description": "Außen-zu-Innen-Block"
+    },
+    "gedanBarai": {
+      "title": "Gedan Barai",
+      "description": "Abwärtsblock"
+    }
+  },
+  "hoeiJuku": {
+    "stances": {
+      "title": "Hoei Juku Stände",
+      "description": "Detaillierte Stände aus dem Trainingshandbuch",
+      "keyPoints": "Wichtige Punkte für alle Stände",
+      "trainingTips": "Trainingstipps"
+    },
+    "warmup": {
+      "title": "Hoei Juku Aufwärmen",
+      "description": "Aufwärmübungen entwickelt von Meister Miyagi",
+      "purpose": "Zweck des Aufwärmens",
+      "meditation": "Meditation (Mokuso)",
+      "sequence": "Aufwärmsequenz",
+      "strength": "Kraft- und Ausdauerübungen",
+      "breathing": "Atmung während der Übungen",
+      "warmdown": "Abkühlung",
+      "additional": "Zusätzliches Training",
+      "principles": "Wichtige Prinzipien",
+      "benefits": "Vorteile"
     }
   }
 } 

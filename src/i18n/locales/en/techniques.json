@@ -1,13 +1,99 @@
 {
   "techniques": {
     "title": "Techniques",
-    "description": "Learn fundamental Goju Ryu karate techniques",
+    "description": "Fundamental techniques of Goju Ryu Karate",
     "sections": {
       "blocks": "Blocks",
       "kicks": "Kicks",
       "punches": "Punches",
       "stances": "Stances",
-      "strikes": "Strikes"
+      "strikes": "Strikes",
+      "warmup": "Warm-up"
+    }
+  },
+  "stances": {
+    "musubiDachi": {
+      "title": "Musubi Dachi",
+      "description": "Formal stance with heels together"
+    },
+    "sanchinDachi": {
+      "title": "Sanchin Dachi",
+      "description": "Powerful stance for Sanchin and Tensho kata"
+    },
+    "zenkutsuDachi": {
+      "title": "Zenkutsu Dachi",
+      "description": "Forward attacking stance"
+    },
+    "shikoDachi": {
+      "title": "Shiko Dachi",
+      "description": "Wide stance for close combat"
+    },
+    "nekoAshiDachi": {
+      "title": "Neko Ashi Dachi",
+      "description": "Cat stance for defense"
+    }
+  },
+  "punches": {
+    "seikenZuki": {
+      "title": "Seiken Zuki",
+      "description": "Fist punch with closed fist"
+    },
+    "gyakuZuki": {
+      "title": "Gyaku Zuki",
+      "description": "Reverse punch with back hand"
+    },
+    "oiZuki": {
+      "title": "Oi Zuki",
+      "description": "Lunge punch"
+    }
+  },
+  "kicks": {
+    "maeGeri": {
+      "title": "Mae Geri",
+      "description": "Front kick"
+    },
+    "yokoGeri": {
+      "title": "Yoko Geri",
+      "description": "Side kick"
+    },
+    "ushiroGeri": {
+      "title": "Ushiro Geri",
+      "description": "Back kick"
+    }
+  },
+  "blocks": {
+    "ageUke": {
+      "title": "Age Uke",
+      "description": "Rising block"
+    },
+    "sotoUke": {
+      "title": "Soto Uke",
+      "description": "Outside to inside block"
+    },
+    "gedanBarai": {
+      "title": "Gedan Barai",
+      "description": "Downward block"
+    }
+  },
+  "hoeiJuku": {
+    "stances": {
+      "title": "Hoei Juku Stances",
+      "description": "Detailed stances from the training manual",
+      "keyPoints": "Key points for all stances",
+      "trainingTips": "Training tips"
+    },
+    "warmup": {
+      "title": "Hoei Juku Warm-up",
+      "description": "Warm-up exercises developed by Master Miyagi",
+      "purpose": "Purpose of warm-up",
+      "meditation": "Meditation (Mokuso)",
+      "sequence": "Warm-up sequence",
+      "strength": "Strength and stamina exercises",
+      "breathing": "Breathing during exercises",
+      "warmdown": "Cool-down",
+      "additional": "Additional training",
+      "principles": "Key principles",
+      "benefits": "Benefits"
     }
   }
 } 

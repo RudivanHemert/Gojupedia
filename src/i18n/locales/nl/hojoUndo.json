@@ -2,7 +2,8 @@
   "title": "Hojo Undo (補助運動)",
   "description": "Traditionele krachttraining van het Goju-ryu Karate-do",
   "introduction": {
-    "title": "Inleiding"
+    "title": "Inleiding",
+    "translation": "Inleiding & Overzicht"
   },
   "equipment": {
     "overview": "Overzicht",
@@ -14,7 +15,7 @@
     "moreInfo": "Meer informatie",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Stenen hefboom gewicht",
+      "translation": "Stenen Hefboom Gewicht",
       "description": "Stenen hefboom gewicht voor pols- en grijpkracht",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
@@ -36,7 +37,7 @@
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Ijzeren ovaal",
+      "translation": "Ijzeren Ring",
       "description": "Ijzeren ovaal voor totale lichaamsconditionering",
       "origin": "Hawaï",
       "weight": "30-40 kg",
@@ -48,7 +49,7 @@
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Stenen hangsloten",
+      "translation": "Stenen Slot",
       "description": "Stenen hangsloten voor grijpkracht en techniek",
       "origin": "China/Okinawa",
       "weight": "2-8 kg",
@@ -57,6 +58,38 @@
       "attentionPoints": "Aandachtspunten",
       "exercises": "Oefeningen"
     }
+  },
+  "sections": {
+    "introduction": "Inleiding",
+    "equipment": "Hulpmiddelen",
+    "techniques": "Technieken",
+    "benefits": "Voordelen",
+    "training": "Training",
+    "trainingSections": "Trainingssecties"
+  },
+  "common": {
+    "function": "Functie",
+    "construction": "Constructie",
+    "attentionPoints": "Aandachtspunten",
+    "exercises": "Oefeningen",
+    "classicExercises": "Klassieke oefeningen",
+    "safety": "Veiligheid",
+    "tips": "Tips",
+    "variations": "Variaties",
+    "applications": "Toepassingen",
+    "traditionalStrengthTraining": "Traditionele Krachttraining",
+    "learnFundamentals": "Leer over de fundamenten en filosofie",
+    "overviewEquipment": "Overzicht van alle trainingshulpmiddelen",
+    "understandingPurpose": "Begrijp het doel en de voordelen",
+    "buildMaintain": "Hoe je het hulpmiddel bouwt en onderhoudt",
+    "safetyTechnique": "Belangrijke veiligheids- en techniekpunten",
+    "specificExercises": "Specifieke trainingsoefeningen en routines",
+    "traditionalMethods": "Traditionele en klassieke trainingsmethoden",
+    "modernRoutines": "Moderne en aangepaste trainingsroutines"
+  },
+  "categories": {
+    "introduction": "Inleiding",
+    "primaryEquipment": "Primaire Hulpmiddelen"
   },
   "additionalEquipment": {
     "tekkan": "Ijzeren ringen",

@@ -2,7 +2,7 @@ import React from 'react';
 import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Dumbbell } from 'lucide-react';
 import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
 
-const ChiIshiExercises = () => {
+const NigiriGameExercises = () => {
   const mainComponents = [
     {
       title: "Basis Oefeningen",
@@ -10,10 +10,10 @@ const ChiIshiExercises = () => {
       icon: Weight,
       color: "bg-blue-500",
       items: [
-        "Chi Ishi Kamae - Basis houding",
-        "Chi Ishi Uke - Blokken met gewicht",
-        "Chi Ishi Tsuki - Stoten met gewicht",
-        "Chi Ishi Uchi - Slagen met gewicht"
+        "Nigiri Game Kamae - Basis houding",
+        "Nigiri Game Uke - Blokken met vazen",
+        "Nigiri Game Tsuki - Stoten met vazen",
+        "Nigiri Game Uchi - Slagen met vazen"
       ]
     },
     {
@@ -22,10 +22,10 @@ const ChiIshiExercises = () => {
       icon: Target,
       color: "bg-green-500",
       items: [
-        "Chi Ishi Kata - Kata met gewicht",
-        "Chi Ishi Kumite - Partner oefeningen",
-        "Chi Ishi Hojo Undo - Ondersteunende training",
-        "Chi Ishi Kihon - Basis technieken"
+        "Nigiri Game Kata - Kata met vazen",
+        "Nigiri Game Kumite - Partner oefeningen",
+        "Nigiri Game Hojo Undo - Ondersteunende training",
+        "Nigiri Game Kihon - Basis technieken"
       ]
     },
     {
@@ -34,10 +34,10 @@ const ChiIshiExercises = () => {
       icon: Zap,
       color: "bg-orange-500",
       items: [
-        "Muchimi training - Kleverige kracht",
-        "Chinkuchi training - Kracht concentratie",
-        "Kime training - Focus en explosiviteit",
-        "Kokyu training - Ademhaling en kracht"
+        "Grip training - Grijpkracht ontwikkeling",
+        "Finger training - Vingerkracht",
+        "Wrist training - Polsstabiliteit",
+        "Forearm training - Voorarmkracht"
       ]
     },
     {
@@ -60,10 +60,10 @@ const ChiIshiExercises = () => {
       icon: Weight,
       color: "text-blue-500",
       items: [
-        "Versterking van pols- en handspieren",
-        "Verbetering van schouder- en armkracht",
-        "Ontwikkeling van core stabiliteit",
-        "Toename van algemene lichaamssterkte"
+        "Versterking van vinger- en handspieren",
+        "Verbetering van polsstabiliteit",
+        "Ontwikkeling van voorarmkracht",
+        "Toename van grijpuithoudingsvermogen"
       ]
     },
     {
@@ -71,10 +71,10 @@ const ChiIshiExercises = () => {
       icon: Target,
       color: "text-green-500", 
       items: [
-        "Verbeterde techniek uitvoering",
-        "Krachtigere stoot- en slagtechnieken",
-        "Betere controle over bewegingen",
-        "Effectievere krachtoverdracht"
+        "Effectievere grijptechnieken",
+        "Verbeterde klemtechnieken",
+        "Krachtigere pakkingen",
+        "Betere controle bij vitale punten"
       ]
     },
     {
@@ -92,7 +92,7 @@ const ChiIshiExercises = () => {
 
   const principles = [
     "Begin altijd met lichte gewichten",
-    "Focus op correcte techniek",
+    "Focus op correcte grip techniek",
     "Adem regelmatig en gecontroleerd",
     "Bouw geleidelijk op in intensiteit",
     "Neem voldoende rust tussen sets",
@@ -101,19 +101,19 @@ const ChiIshiExercises = () => {
 
   const navigationLinks = [
     { 
-      path: '/hojo-undo/chi-ishi/function', 
+      path: '/hojo-undo/nigiri-game/function', 
       label: 'Functie', 
-      description: 'Leer over de functies van de Chi Ishi',
+      description: 'Leer over de functies van de Nigiri Game',
       icon: Target 
     },
     { 
-      path: '/hojo-undo/chi-ishi/construction', 
+      path: '/hojo-undo/nigiri-game/construction', 
       label: 'Constructie', 
-      description: 'Leer hoe je een Chi Ishi maakt',
+      description: 'Leer hoe je Nigiri Game vazen maakt',
       icon: Info 
     },
     { 
-      path: '/hojo-undo/chi-ishi/attention-points', 
+      path: '/hojo-undo/nigiri-game/attention-points', 
       label: 'Aandachtspunten', 
       description: 'Veiligheids- en trainingstips',
       icon: Shield 
@@ -122,20 +122,20 @@ const ChiIshiExercises = () => {
 
   return (
     <HojoUndoSectionTemplate
-      title="Chi Ishi Oefeningen"
+      title="Nigiri Game Oefeningen"
       subtitle="Exercises"
-      japaneseTitle="力石の練習"
+      japaneseTitle="握り甕の練習"
       badgeText="Praktische Training"
-      description="Leer effectieve oefeningen met de Chi Ishi voor krachtontwikkeling en techniekverbetering"
+      description="Leer effectieve oefeningen met de Nigiri Game voor grijpkrachtontwikkeling en techniekverbetering"
       mainComponents={mainComponents}
       benefits={benefits}
       principles={principles}
       navigationLinks={navigationLinks}
-      historicalNote="Deze oefeningen zijn eeuwenlang doorgegeven van meester op leerling. Ze zijn ontwikkeld om functionele kracht te creëren die direct toepasbaar is in karate technieken."
+      historicalNote="Deze oefeningen zijn eeuwenlang doorgegeven van meester op leerling. Ze zijn ontwikkeld om functionele grijpkracht te creëren die direct toepasbaar is in karate technieken."
       safetyNotice="Voer alle oefeningen uit onder deskundige begeleiding. Begin met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
       backPath="/hojo-undo"
     />
   );
 };
 
-export default ChiIshiExercises; 
+export default NigiriGameExercises; 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ReactNode } from 'react';
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "./components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -37,7 +37,6 @@ import PhilosophyPage from './pages/PhilosophyPage';
 import GeneralIntro from './pages/hojo-undo/GeneralIntro';
 import StrengthExercises from './pages/hojo-undo/StrengthExercises';
 import HardeningExercises from './pages/hojo-undo/HardeningExercises';
-import EquipmentOverview from './pages/hojo-undo/EquipmentOverview';
 
 // Import the generic markdown page component
 import MarkdownContentPage from './pages/MarkdownContentPage';
@@ -118,7 +117,6 @@ const AppContent = React.memo(() => {
           <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
           <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
           <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
-          <Route path="/hojo-undo/general/equipment" element={<EquipmentOverview />} />
           <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
           <Route path="/kumite" element={<KumitePage />} />
           <Route path="/study" element={<StudyPage />} />

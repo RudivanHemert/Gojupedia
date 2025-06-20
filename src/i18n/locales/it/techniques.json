@@ -1,13 +1,117 @@
 {
   "techniques": {
     "title": "Tecniche",
-    "description": "Impara le tecniche fondamentali del karate Goju Ryu",
+    "description": "Tecniche fondamentali del Goju Ryu Karate",
     "sections": {
-      "blocks": "Parate",
-      "kicks": "Calci",
-      "punches": "Pugni",
-      "stances": "Posizioni",
-      "strikes": "Colpi"
+      "blocks": {
+        "title": "Parate",
+        "description": "Tecniche difensive"
+      },
+      "kicks": {
+        "title": "Calci",
+        "description": "Diversi tipi di calci"
+      },
+      "punches": {
+        "title": "Pugni",
+        "description": "Diversi tipi di pugni"
+      },
+      "stances": {
+        "title": "Posizioni",
+        "description": "Posizioni di base del Goju Ryu"
+      },
+      "strikes": {
+        "title": "Colpi",
+        "description": "Colpi di mano e braccio"
+      },
+      "warmup": {
+        "title": "Riscaldamento",
+        "description": "Esercizi di riscaldamento e preparazione"
+      }
+    }
+  },
+  "stances": {
+    "musubiDachi": {
+      "title": "Musubi Dachi",
+      "description": "Posizione formale con talloni uniti"
+    },
+    "sanchinDachi": {
+      "title": "Sanchin Dachi",
+      "description": "Posizione potente per kata Sanchin e Tensho"
+    },
+    "zenkutsuDachi": {
+      "title": "Zenkutsu Dachi",
+      "description": "Posizione di attacco frontale"
+    },
+    "shikoDachi": {
+      "title": "Shiko Dachi",
+      "description": "Posizione ampia per combattimento ravvicinato"
+    },
+    "nekoAshiDachi": {
+      "title": "Neko Ashi Dachi",
+      "description": "Posizione del gatto per difesa"
+    }
+  },
+  "punches": {
+    "seikenZuki": {
+      "title": "Seiken Zuki",
+      "description": "Pugno con pugno chiuso"
+    },
+    "gyakuZuki": {
+      "title": "Gyaku Zuki",
+      "description": "Pugno inverso con mano posteriore"
+    },
+    "oiZuki": {
+      "title": "Oi Zuki",
+      "description": "Pugno in affondo"
+    }
+  },
+  "kicks": {
+    "maeGeri": {
+      "title": "Mae Geri",
+      "description": "Calcio frontale"
+    },
+    "yokoGeri": {
+      "title": "Yoko Geri",
+      "description": "Calcio laterale"
+    },
+    "ushiroGeri": {
+      "title": "Ushiro Geri",
+      "description": "Calcio posteriore"
+    }
+  },
+  "blocks": {
+    "ageUke": {
+      "title": "Age Uke",
+      "description": "Parata ascendente"
+    },
+    "sotoUke": {
+      "title": "Soto Uke",
+      "description": "Parata dall'esterno verso l'interno"
+    },
+    "gedanBarai": {
+      "title": "Gedan Barai",
+      "description": "Parata discendente"
+    }
+  },
+  "hoeiJuku": {
+    "stances": {
+      "title": "Posizioni Hoei Juku",
+      "description": "Posizioni dettagliate dal manuale di allenamento",
+      "keyPoints": "Punti chiave per tutte le posizioni",
+      "trainingTips": "Consigli di allenamento"
+    },
+    "warmup": {
+      "title": "Riscaldamento Hoei Juku",
+      "description": "Esercizi di riscaldamento sviluppati dal Maestro Miyagi",
+      "purpose": "Scopo del riscaldamento",
+      "meditation": "Meditazione (Mokuso)",
+      "sequence": "Sequenza di riscaldamento",
+      "strength": "Esercizi di forza e resistenza",
+      "breathing": "Respirazione durante gli esercizi",
+      "warmdown": "Defaticamento",
+      "additional": "Allenamento aggiuntivo",
+      "principles": "Principi chiave",
+      "benefits": "Benefici"
     }
   }
 } 

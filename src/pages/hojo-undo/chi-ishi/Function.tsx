@@ -1,168 +1,140 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import MobileLayout from '@/components/layout/MobileLayout';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ChevronLeft, Weight, Target, Zap, Shield } from 'lucide-react';
+import { Target, Brain, Shield, Clock, Users, Info, ArrowRight, Weight, Zap, Dumbbell } from 'lucide-react';
+import HojoUndoSectionTemplate from '@/components/hojo-undo/HojoUndoSectionTemplate';
 
 const ChiIshiFunction = () => {
-  const { t } = useTranslation();
-
-  const functions = [
+  const mainComponents = [
     {
-      title: "Pols- en grijpkracht",
-      description: "De Chi Ishi traint de spieren van de onderarmen, polsen en handen. Door het gewicht te tillen en te dragen worden de grijpspieren versterkt, wat essentieel is voor effectieve karate technieken.",
+      title: "Versterkt met name de spieren van de onderarm en hand",
+      subtitle: "Strengthens forearm and hand muscles",
+      icon: Dumbbell,
+      color: "bg-blue-500",
+      items: [
+        "Ondersteuning van polsstabiliteit bij stoot- en slagtechnieken",
+        "Versterking van grip voor nabijgevecht technieken",
+        "Verbetering van handcoördinatie en controle",
+        "Ontwikkeling van vinger- en handspieren"
+      ]
+    },
+    {
+      title: "Ontwikkeling van muchimi kracht",
+      subtitle: "Development of muchimi power",
+      icon: Brain,
+      color: "bg-green-500",
+      items: [
+        "Verhoogde weerstand in totale beweging",
+        "Niet-explosieve bewegingen voor optimale ontwikkeling",
+        "Integratie van lichaam en geest",
+        "Ontwikkeling van kleverige kracht"
+      ]
+    },
+    {
+      title: "Ontwikkeling van chinkuchi kakin kracht",
+      subtitle: "Development of chinkuchi kakin power",
       icon: Target,
-      benefits: [
-        "Versterking van de grijpspieren",
-        "Verbetering van polsstabiliteit",
-        "Toename van handkracht",
-        "Betere controle over technieken"
+      color: "bg-orange-500",
+      items: [
+        "Vastknijpen van stok aan einde van bewegingen",
+        "Concentratie van kracht in specifieke punten",
+        "Ontwikkeling van explosieve kracht",
+        "Verbetering van kime (focus)"
       ]
     },
     {
-      title: "Schouder- en armkracht",
-      description: "Het tillen en dragen van de Chi Ishi ontwikkelt de spieren van de schouders, armen en borst. Dit zorgt voor meer kracht in stoot- en blokkeertechnieken.",
-      icon: Zap,
-      benefits: [
-        "Versterking van schouderspieren",
-        "Toename van armkracht",
-        "Verbetering van uithoudingsvermogen",
-        "Betere techniek uitvoering"
-      ]
-    },
-    {
-      title: "Core stabiliteit",
-      description: "Het balanceren van het gewicht tijdens oefeningen traint de core spieren. Dit verbetert de stabiliteit en balans, wat cruciaal is voor effectieve karate bewegingen.",
+      title: "Ademhalingscoördinatie",
+      subtitle: "Breathing coordination",
       icon: Shield,
-      benefits: [
-        "Versterking van buikspieren",
-        "Verbetering van balans",
-        "Toename van stabiliteit",
-        "Betere houding"
+      color: "bg-purple-500",
+      items: [
+        "Integratie van ademhaling met beweging",
+        "Ontwikkeling van kokyu (ademhalingskracht)",
+        "Verbetering van mentale focus",
+        "Coördinatie van lichaam, adem en geest"
+      ]
+    }
+  ];
+
+  const benefits = [
+    {
+      category: "Fysieke Voordelen",
+      icon: Weight,
+      color: "text-blue-500",
+      items: [
+        "Versterking van pols- en handspieren",
+        "Verbetering van schouder- en armkracht",
+        "Ontwikkeling van core stabiliteit",
+        "Toename van algemene lichaamssterkte"
       ]
     },
     {
-      title: "Geestelijke discipline",
-      description: "Het werken met de Chi Ishi vereist concentratie en geduld. Dit ontwikkelt mentale discipline en focus, belangrijke aspecten van karate training.",
-      icon: Weight,
-      benefits: [
-        "Verbetering van concentratie",
-        "Ontwikkeling van geduld",
-        "Toename van mentale kracht",
+      category: "Technische Voordelen",
+      icon: Target,
+      color: "text-green-500", 
+      items: [
+        "Effectievere grijptechnieken",
+        "Verbeterde klemtechnieken",
+        "Krachtigere pakkingen",
+        "Betere controle bij vitale punten"
+      ]
+    },
+    {
+      category: "Mentale Voordelen",
+      icon: Brain,
+      color: "text-purple-500",
+      items: [
+        "Ontwikkeling van concentratie",
+        "Verbetering van mentale discipline",
+        "Toename van zelfvertrouwen",
         "Betere focus tijdens training"
       ]
     }
   ];
 
-  const trainingPrinciples = [
-    "Begin altijd met lichtere gewichten en bouw geleidelijk op",
-    "Focus op correcte techniek in plaats van zware gewichten",
-    "Adem regelmatig en gecontroleerd tijdens oefeningen",
-    "Neem voldoende rust tussen sets",
-    "Luister naar je lichaam en stop bij pijn of ongemak",
-    "Combineer Chi Ishi training met andere Hojo Undo oefeningen"
+  const principles = [
+    "Coördinatie van lichaam, adem en geest",
+    "Techniek is belangrijker dan gewicht",
+    "Beweeg langzaam en gecontroleerd",
+    "Focus op correcte grip techniek",
+    "Adem regelmatig en gecontroleerd",
+    "Bouw geleidelijk op in intensiteit"
+  ];
+
+  const navigationLinks = [
+    { 
+      path: '/hojo-undo/chi-ishi/construction', 
+      label: 'Constructie', 
+      description: 'Leer hoe je een Chi Ishi maakt',
+      icon: Info 
+    },
+    { 
+      path: '/hojo-undo/chi-ishi/attention-points', 
+      label: 'Aandachtspunten', 
+      description: 'Veiligheids- en trainingstips',
+      icon: Shield 
+    },
+    { 
+      path: '/hojo-undo/chi-ishi/exercises', 
+      label: 'Oefeningen', 
+      description: 'Praktische trainingsroutines',
+      icon: Weight 
+    }
   ];
 
   return (
-    <MobileLayout hideHeader={true}>
-      <div className="p-4">
-        <div className="mb-6">
-          <Button asChild variant="outline" className="mb-4">
-            <Link to="/hojo-undo/equipment">
-              <ChevronLeft className="mr-2 h-4 w-4" />
-              {t('common.back')}
-            </Link>
-          </Button>
-          <h1 className="text-2xl font-bold mb-2">Chi Ishi - Functie</h1>
-          <p className="text-muted-foreground">Stenen hefboom gewicht voor traditionele krachttraining</p>
-        </div>
-
-        <div className="space-y-6">
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center">
-                <Weight className="mr-2 h-5 w-5 text-primary" />
-                Wat is de Chi Ishi?
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="mb-4">
-                De Chi Ishi (力石) is een traditioneel hulpmiddel uit de Okinawaanse karate traditie. 
-                Het bestaat uit een stenen gewicht dat aan een houten handvat is bevestigd, waardoor 
-                het een hefboom effect creëert. Dit ontwerp maakt het mogelijk om specifieke spiergroepen 
-                te trainen die essentieel zijn voor effectieve karate technieken.
-              </p>
-              <p>
-                De naam "Chi Ishi" betekent letterlijk "krachtsteen" en verwijst naar het gebruik van 
-                natuurlijke materialen in de traditionele training. Dit hulpmiddel werd oorspronkelijk 
-                gebruikt door karate meesters om hun leerlingen te trainen in de ontwikkeling van 
-                functionele kracht en techniek.
-              </p>
-            </CardContent>
-          </Card>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-4">Hoofdfuncties</h2>
-            <div className="space-y-4">
-              {functions.map((func, index) => (
-                <Card key={index}>
-                  <CardHeader>
-                    <CardTitle className="flex items-center text-lg">
-                      <func.icon className="mr-2 h-5 w-5 text-primary" />
-                      {func.title}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="mb-3">{func.description}</p>
-                    <div>
-                      <h4 className="font-semibold mb-2">Voordelen:</h4>
-                      <ul className="list-disc list-inside space-y-1 text-sm">
-                        {func.benefits.map((benefit, idx) => (
-                          <li key={idx}>{benefit}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Training Principes</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="list-disc list-inside space-y-2">
-                {trainingPrinciples.map((principle, index) => (
-                  <li key={index}>{principle}</li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-
-          <div className="flex gap-3">
-            <Button asChild variant="outline" className="flex-1">
-              <Link to="/hojo-undo/chi-ishi/construction">
-                Constructie
-              </Link>
-            </Button>
-            <Button asChild variant="outline" className="flex-1">
-              <Link to="/hojo-undo/chi-ishi/attention-points">
-                Aandachtspunten
-              </Link>
-            </Button>
-            <Button asChild variant="outline" className="flex-1">
-              <Link to="/hojo-undo/chi-ishi/exercises">
-                Oefeningen
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </div>
-    </MobileLayout>
+    <HojoUndoSectionTemplate
+      title="Chi Ishi Functie"
+      subtitle="Function"
+      japaneseTitle="力石の機能"
+      badgeText="Stenen hefboom gewicht"
+      description="De chi ishi is een 'stenen hefboom gewicht'. Het wordt nog steeds gebruikt in China, o.a. in de provincie Fuzhou."
+      mainComponents={mainComponents}
+      benefits={benefits}
+      principles={principles}
+      navigationLinks={navigationLinks}
+      historicalNote="De Chi Ishi heeft zijn oorsprong in China en wordt nog steeds gebruikt in de provincie Fuzhou. Het is een van de oudste Hojo Undo instrumenten en is essentieel voor traditionele karate training."
+      safetyNotice="Deskundige begeleiding is essentieel voor Chi Ishi training. Begin altijd met lichte gewichten en focus op correcte techniek voordat je de intensiteit verhoogt."
+      backPath="/hojo-undo"
+    />
   );
 };
 

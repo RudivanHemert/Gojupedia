@@ -126,15 +126,14 @@ export type SupportedLanguage = keyof typeof supportedLanguages;
 // Combine all translations for each language
 const combineTranslations = (modules: Record<string, any>) => {
   const result = Object.keys(modules).reduce((acc, key) => {
-    return { ...acc, ...modules[key] };
+    if (key === 'hojoUndo') {
+      // Keep hojoUndo as a separate namespace
+      return { ...acc, [key]: modules[key] };
+    } else {
+      // Merge other modules into the root level
+      return { ...acc, ...modules[key] };
+    }
   }, {});
-  
-  // Debug log to check if hojoUndo is included
-  if (result.hojoUndo) {
-    console.log('hojoUndo translations loaded:', Object.keys(result.hojoUndo));
-  } else {
-    console.log('hojoUndo translations NOT found in:', Object.keys(modules));
-  }
   
   return result;
 };

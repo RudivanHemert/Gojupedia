@@ -1,13 +1,117 @@
 {
   "techniques": {
     "title": "Techniques",
-    "description": "Apprenez les techniques fondamentales du karaté Goju Ryu",
+    "description": "Techniques fondamentales du Goju Ryu Karate",
     "sections": {
-      "blocks": "Blocages",
-      "kicks": "Coups de pied",
-      "punches": "Coups de poing",
-      "stances": "Positions",
-      "strikes": "Coups"
+      "blocks": {
+        "title": "Blocages",
+        "description": "Techniques défensives"
+      },
+      "kicks": {
+        "title": "Coups de pied",
+        "description": "Différents types de coups de pied"
+      },
+      "punches": {
+        "title": "Coups de poing",
+        "description": "Différents types de coups de poing"
+      },
+      "stances": {
+        "title": "Positions",
+        "description": "Positions de base du Goju Ryu"
+      },
+      "strikes": {
+        "title": "Frappes",
+        "description": "Frappes de main et de bras"
+      },
+      "warmup": {
+        "title": "Échauffement",
+        "description": "Exercices d'échauffement et préparation"
+      }
+    }
+  },
+  "stances": {
+    "musubiDachi": {
+      "title": "Musubi Dachi",
+      "description": "Position formelle avec talons joints"
+    },
+    "sanchinDachi": {
+      "title": "Sanchin Dachi",
+      "description": "Position puissante pour kata Sanchin et Tensho"
+    },
+    "zenkutsuDachi": {
+      "title": "Zenkutsu Dachi",
+      "description": "Position d'attaque avant"
+    },
+    "shikoDachi": {
+      "title": "Shiko Dachi",
+      "description": "Position large pour combat rapproché"
+    },
+    "nekoAshiDachi": {
+      "title": "Neko Ashi Dachi",
+      "description": "Position du chat pour défense"
+    }
+  },
+  "punches": {
+    "seikenZuki": {
+      "title": "Seiken Zuki",
+      "description": "Coup de poing avec poing fermé"
+    },
+    "gyakuZuki": {
+      "title": "Gyaku Zuki",
+      "description": "Coup de poing inverse avec main arrière"
+    },
+    "oiZuki": {
+      "title": "Oi Zuki",
+      "description": "Coup de poing en fente"
+    }
+  },
+  "kicks": {
+    "maeGeri": {
+      "title": "Mae Geri",
+      "description": "Coup de pied avant"
+    },
+    "yokoGeri": {
+      "title": "Yoko Geri",
+      "description": "Coup de pied latéral"
+    },
+    "ushiroGeri": {
+      "title": "Ushiro Geri",
+      "description": "Coup de pied arrière"
+    }
+  },
+  "blocks": {
+    "ageUke": {
+      "title": "Age Uke",
+      "description": "Blocage montant"
+    },
+    "sotoUke": {
+      "title": "Soto Uke",
+      "description": "Blocage de l'extérieur vers l'intérieur"
+    },
+    "gedanBarai": {
+      "title": "Gedan Barai",
+      "description": "Blocage descendant"
+    }
+  },
+  "hoeiJuku": {
+    "stances": {
+      "title": "Positions Hoei Juku",
+      "description": "Positions détaillées du manuel d'entraînement",
+      "keyPoints": "Points clés pour toutes les positions",
+      "trainingTips": "Conseils d'entraînement"
+    },
+    "warmup": {
+      "title": "Échauffement Hoei Juku",
+      "description": "Exercices d'échauffement développés par le Maître Miyagi",
+      "purpose": "But de l'échauffement",
+      "meditation": "Méditation (Mokuso)",
+      "sequence": "Séquence d'échauffement",
+      "strength": "Exercices de force et d'endurance",
+      "breathing": "Respiration pendant les exercices",
+      "warmdown": "Retour au calme",
+      "additional": "Entraînement supplémentaire",
+      "principles": "Principes clés",
+      "benefits": "Avantages"
     }
   }
 } 

@@ -320,6 +320,115 @@
             "details": "Osae Uke (Pressing Block) is a technique that presses down or pins an opponent's attack, often used to control an opponent's limb or create an opening."
           }
         }
+      },
+      "common-content": {
+        "description": "Common terms used in karate training.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Training hall, place of the way" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Teacher, instructor (one who has gone before)" },
+          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Senior student" },
+          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Junior student" },
+          "obi": { "name": "Obi", "japanese": "帯", "english": "Belt" },
+          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Training uniform" },
+          "kiai": { "name": "Kiai", "japanese": "気合", "english": "Spirit shout, energy focus" },
+          "reishiki": { "name": "Reishiki", "japanese": "礼式", "english": "Etiquette, manners" }
+        }
+      },
+      "body-parts-content": {
+        "description": "Terms for body parts commonly referenced in karate.",
+        "terms": {
+          "ashi": { "name": "Ashi", "japanese": "足", "english": "Foot/Leg" },
+          "te": { "name": "Te", "japanese": "手", "english": "Hand" },
+          "hiji": { "name": "Hiji", "japanese": "肘", "english": "Elbow" },
+          "hiza": { "name": "Hiza", "japanese": "膝", "english": "Knee" },
+          "atama": { "name": "Atama", "japanese": "頭", "english": "Head" },
+          "kata": { "name": "Kata", "japanese": "肩", "english": "Shoulder" },
+          "mune": { "name": "Mune", "japanese": "胸", "english": "Chest" },
+          "hara": { "name": "Hara", "japanese": "腹", "english": "Stomach/Abdomen" }
+        }
+      },
+      "commands-content": {
+        "description": "Common commands used in karate training.",
+        "terms": {
+          "hajime": { "name": "Hajime", "japanese": "始め", "english": "Begin" },
+          "yame": { "name": "Yame", "japanese": "止め", "english": "Stop" },
+          "yasume": { "name": "Yasume", "japanese": "休め", "english": "Rest/At ease" },
+          "naore": { "name": "Naore", "japanese": "直れ", "english": "Return to ready position" },
+          "mokuso": { "name": "Mokuso", "japanese": "黙想", "english": "Meditation" },
+          "mokuso-yame": { "name": "Mokuso Yame", "japanese": "黙想止め", "english": "End meditation" },
+          "rei": { "name": "Rei", "japanese": "礼", "english": "Bow" },
+          "seiza": { "name": "Seiza", "japanese": "正座", "english": "Formal sitting position" }
+        }
+      },
+      "ranks-content": {
+        "description": "Terms related to karate ranks and grading.",
+        "terms": {
+          "kyu": { "name": "Kyu", "japanese": "級", "english": "Rank (colored belts, below black belt)" },
+          "dan": { "name": "Dan", "japanese": "段", "english": "Level (black belt ranks)" },
+          "shodan": { "name": "Shodan", "japanese": "初段", "english": "First level black belt" },
+          "nidan": { "name": "Nidan", "japanese": "二段", "english": "Second level black belt" },
+          "sandan": { "name": "Sandan", "japanese": "三段", "english": "Third level black belt" },
+          "yondan": { "name": "Yondan", "japanese": "四段", "english": "Fourth level black belt" },
+          "godan": { "name": "Godan", "japanese": "五段", "english": "Fifth level black belt" }
+        }
+      },
+      "weapons-content": {
+        "description": "Terms related to traditional Okinawan weapons.",
+        "terms": {
+          "bo": { "name": "Bo", "japanese": "棒", "english": "Long staff (approx. 6 ft)" },
+          "sai": { "name": "Sai", "japanese": "釵", "english": "Three-pronged truncheon" },
+          "tonfa": { "name": "Tonfa", "japanese": "トンファー", "english": "Side-handled baton" },
+          "nunchaku": { "name": "Nunchaku", "japanese": "ヌンチャク", "english": "Flail (two sections linked by chain/rope)" },
+          "kama": { "name": "Kama", "japanese": "鎌", "english": "Sickle" },
+          "tekko": { "name": "Tekko", "japanese": "鉄甲", "english": "Knuckle duster" }
+        }
+      },
+      "concepts-content": {
+        "description": "Important concepts and principles in karate.",
+        "terms": {
+          "kime": { "name": "Kime", "japanese": "決め", "english": "Focus of power, decision" },
+          "zanshin": { "name": "Zanshin", "japanese": "残心", "english": "Lingering mind/awareness after technique" },
+          "mushin": { "name": "Mushin", "japanese": "無心", "english": "No mind, state of mental clarity" },
+          "kokyu": { "name": "Kokyu", "japanese": "呼吸", "english": "Breathing" },
+          "ki": { "name": "Ki", "japanese": "気", "english": "Energy, spirit, life force" },
+          "ma-ai": { "name": "Ma-ai", "japanese": "間合", "english": "Distance, timing" },
+          "hyoshi": { "name": "Hyoshi", "japanese": "拍子", "english": "Rhythm, timing" }
+        }
+      },
+      "kata-specific-content": {
+        "description": "Terms specific to kata practice and performance.",
+        "terms": {
+          "embusen": { "name": "Embusen", "japanese": "演武線", "english": "Performance line/pattern of a kata" },
+          "bunkai": { "name": "Bunkai", "japanese": "分解", "english": "Analysis, application of kata" },
+          "oyo": { "name": "Oyo", "japanese": "応用", "english": "Application, practical use" },
+          "henka": { "name": "Henka", "japanese": "変化", "english": "Variation, modification" },
+          "kakie": { "name": "Kakie", "japanese": "掛け合い", "english": "Pushing hands, sensitivity training" },
+          "koryu": { "name": "Koryu", "japanese": "古流", "english": "Old style/school (referring to classical kata)" }
+        }
+      },
+      "kumite-content": {
+        "description": "Terms related to sparring and fighting.",
+        "terms": {
+          "kumite": { "name": "Kumite", "japanese": "組手", "english": "Sparring, grappling hands" },
+          "ippon": { "name": "Ippon", "japanese": "一本", "english": "One point" },
+          "waza-ari": { "name": "Waza-ari", "japanese": "技あり", "english": "Half point" },
+          "aiuchi": { "name": "Aiuchi", "japanese": "相打ち", "english": "Simultaneous points" },
+          "hikiwake": { "name": "Hikiwake", "japanese": "引き分け", "english": "Draw" },
+          "hansoku": { "name": "Hansoku", "japanese": "反則", "english": "Foul" },
+          "shiai": { "name": "Shiai", "japanese": "試合", "english": "Match, competition" }
+        }
+      },
+      "dojo-content": {
+        "description": "Terms related to the dojo and training environment.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Training hall, place of the way" },
+          "kamiza": { "name": "Kamiza", "japanese": "上座", "english": "Upper seat, front of dojo" },
+          "shimoza": { "name": "Shimoza", "japanese": "下座", "english": "Lower seat, back of dojo" },
+          "joseki": { "name": "Joseki", "japanese": "上席", "english": "Upper side, right side of dojo" },
+          "shimoseki": { "name": "Shimoseki", "japanese": "下席", "english": "Lower side, left side of dojo" },
+          "shomen": { "name": "Shomen", "japanese": "正面", "english": "Front, main wall of dojo" },
+          "tatami": { "name": "Tatami", "japanese": "畳", "english": "Traditional Japanese floor mat" }
+        }
       }
     },
     "noTermsAvailable": "No terms available for this section."
