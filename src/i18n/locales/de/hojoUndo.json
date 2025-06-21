@@ -6,11 +6,73 @@
     "whatIs": "Was ist Hojo Undo?",
     "twoParts": "Zwei Hauptkomponenten",
     "strengthExercises": "Kraftübungen",
-    "hardeningExercises": "Härtungsübungen",
+    "hardeningExercises": "Abhärtungsübungen",
     "centralPrinciples": "Zentrale Prinzipien",
     "historicalBackground": "Historischer Hintergrund",
     "trainingEffects": "Trainingseffekte",
-    "safetyGuidelines": "Sicherheitsrichtlinien"
+    "safetyGuidelines": "Sicherheitsrichtlinien",
+    "content": {
+      "title": "Hojo Undo (補助運動): Traditionelles Krafttraining",
+      "description": "Hojo undo, was wörtlich 'unterstützendes Training' bedeutet, ist ein wesentlicher Bestandteil des Okinawa Goju-ryu Karate-do Systems.",
+      "twoMainComponents": {
+        "title": "Zwei Hauptkomponenten",
+        "strengthExercises": {
+          "title": "Kraftübungen",
+          "tools": [
+            "Chi ishi: Steinhebelgewicht",
+            "Nigiri game: Greifvasen",
+            "Kongoken: Eisener Oval",
+            "Ishi sashi: Steinvorhängeschlösser"
+          ]
+        },
+        "hardeningExercises": {
+          "title": "Abhärtungsübungen",
+          "tools": [
+            "Makiwara: Schlagbrett",
+            "Suna bako: Sandeimer",
+            "Jari bako: Kieseimer",
+            "Tanren kumite: Abhärtungsübungen mit Partner"
+          ]
+        }
+      },
+      "centralPrinciples": {
+        "title": "Zentrale Prinzipien",
+        "description": "Der Kern von hojo undo ist die koordinierte Nutzung von Körper, Atem und Geist. Diese Harmonisierung folgt den gleichen Prinzipien wie die heishugata (Sanchin und Tensho)."
+      },
+      "historicalBackground": {
+        "title": "Historischer Hintergrund",
+        "description": "Die meisten hojo undo Werkzeuge sind chinesischen Ursprungs. Der kongoken wurde von Chojun Miyagi in Hawaii (1934) entdeckt."
+      },
+      "trainingEffects": {
+        "title": "Trainingseffekte",
+        "physical": [
+          "Kraftentwicklung von Muskeln und Muskelketten",
+          "Verbesserung der Kraftausdauer",
+          "Entwicklung motorischer Fähigkeiten",
+          "Verbesserung von Haltung und Gleichgewicht"
+        ],
+        "technical": [
+          "Kata-Verbesserung (kaishugata und heishugata)",
+          "Kraftvollere und stabilere Grundtechniken",
+          "Effektivere Kampftechniken"
+        ],
+        "mental": [
+          "Verbesserte Konzentration und mentale Disziplin",
+          "Entwicklung mentaler Stärke",
+          "Zunahme des Selbstvertrauens"
+        ]
+      },
+      "safetyGuidelines": {
+        "title": "Sicherheitsrichtlinien",
+        "points": [
+          "Fachkundige Anleitung ist unerlässlich",
+          "Fokus auf Koordination von Körper, Atem und Geist",
+          "Intensität schrittweise steigern (Anfänger: 2-3 kg)",
+          "Technik vor Gewicht",
+          "Ausreichende Ruhe zwischen Trainingssitzungen"
+        ]
+      }
+    }
   },
   "equipment": {
     "title": "Ausrüstung",
@@ -24,47 +86,212 @@
     "chiIshi": {
       "name": "Chi Ishi",
       "translation": "Steinhebelgewicht",
-      "description": "Steinhebelgewicht für Handgelenk- und Griffkraft",
+      "description": "Steinhebelgewicht für Handgelenk- und Greifkraft",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
-      "function": "Funktion",
-      "construction": "Konstruktion",
-      "attentionPoints": "Aufmerksamkeitspunkte",
-      "exercises": "Übungen"
+      "function": {
+        "title": "Funktion",
+        "description": "Der chi ishi ist ein 'Steinhebelgewicht', das noch heute in China verwendet wird.",
+        "mainFunctions": [
+          "Stärkt Muskeln von Unterarm und Hand",
+          "Unterstützt Handgelenkstabilität bei Stoß- und Schlagtechniken",
+          "Stärkt Griff für Nahkampftechniken",
+          "Entwickelt muchimi Kraft und chinkuchi kakin Kraft"
+        ],
+        "trainingEffects": [
+          "Verbesserte Handgelenkstabilität",
+          "Gestärkte Greifkraft",
+          "Bessere Muskelkoordination",
+          "Effiziente Kraftübertragung",
+          "Integrierte Atmung"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "dimensions": {
+          "stickLength": "Empfohlen: Schulterbreite",
+          "stickDiameter": "Dicke bestimmt Trainingseffekt",
+          "stoneDiameter": "Nicht mehr als 20-30 cm",
+          "stoneHeight": "Nicht höher als 10-15 cm"
+        },
+        "materials": {
+          "stone": "Betonmischung mit feinem Kies",
+          "connection": "Nägel, Schrauben oder Schraubanker"
+        },
+        "weight": {
+          "beginners": "2-3 kg",
+          "advanced": "6-10 kg"
+        }
+      },
+      "attentionPoints": {
+        "title": "Aufmerksamkeitspunkte",
+        "importantPoints": [
+          "'Setze die Schulter nach unten fest'",
+          "'Spanne den latissimus dorsi an'",
+          "'Spanne das Handgelenk an'",
+          "'Greife fest'",
+          "'Atme aus dem tanden aus'"
+        ],
+        "breathingTechniques": {
+          "slow": "Sanchin-Atmung mit H(u)ah und Hatt Klängen",
+          "fast": "H(u)ah Klang fällt für Fortgeschrittene weg",
+          "natural": "Natürliche Atmung für erfahrene Karateka"
+        },
+        "safetyGuidelines": [
+          "Beginne mit leichteren Gewichten",
+          "Fokus auf korrekte Ausführung",
+          "Nimm ausreichende Ruhe",
+          "Stoppe bei Schmerz oder Unbehagen",
+          "Trainiere unter fachkundiger Anleitung"
+        ]
+      },
+      "exercises": {
+        "title": "Übungen",
+        "chiIshiKata": {
+          "title": "Chi Ishi Kata",
+          "description": "Grundübungsmaterial aufgeführt in 'Traditional Karate, Band I' von Morio Higaonna",
+          "basicSeries": [
+            "Von innen nach außen heben + von außen nach innen heben",
+            "Von hinten nach vorne + von unten nach oben",
+            "Um und über die Schulter schwingen und vorwärts drücken",
+            "Innen herum schwingen und von außen heben",
+            "Drehen mit dem Stein oben",
+            "Drehen mit dem Stein unten",
+            "Nach hinten drehen mit Vorbeugen",
+            "Ura hiki uke",
+            "Morote chi ishi zuki"
+          ]
+        },
+        "advancedExercises": [
+          "Handgelenk-Schwingübungen",
+          "Schattenkampf",
+          "Abhärtungstraining mit Stein",
+          "Schienbein-Training mit Stock"
+        ],
+        "practicalTips": [
+          "Beginne mit leichteren Gewichten",
+          "Fokus zuerst auf korrekte Ausführung",
+          "Integriere sanchin Atmung",
+          "Nimm ausreichende Ruhe zwischen Serien",
+          "Wechsle zwischen verschiedenen Übungen"
+        ]
+      }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Griffvasen",
-      "description": "Griffvasen für Finger- und Handkraft",
+      "translation": "Greifvasen",
+      "description": "Greifvasen für Finger- und Handkraft",
       "origin": "China",
       "weight": "3-5 kg",
-      "function": "Funktion",
-      "construction": "Konstruktion",
-      "attentionPoints": "Aufmerksamkeitspunkte",
-      "exercises": "Übungen"
+      "function": {
+        "title": "Funktion",
+        "description": "Traditionelle Greifvasen zur Entwicklung von Finger- und Handkraft",
+        "mainFunctions": [
+          "Stärkt Finger- und Handmuskeln",
+          "Verbessert Greifkraft und Ausdauer",
+          "Entwickelt Unterarmkraft",
+          "Verbessert Handgelenkstabilität"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Traditionelle Ton- oder Keramikvasen",
+          "Moderne Alternativen: Beton oder Metallbehälter",
+          "Griffdurchmesser: 3-5 cm für optimales Greiftraining"
+        ],
+        "weight": "Gewicht kann durch Füllen mit Sand, Kies oder anderen Materialien angepasst werden"
+      },
+      "exercises": [
+        "Statische Greifhaltungen",
+        "Gehen mit Vasen",
+        "Kreisbewegungen",
+        "Auf und ab Bewegungen"
+      ]
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Eisernes Oval",
-      "description": "Eisernes Oval für Ganzkörperkonditionierung",
+      "translation": "Eisener Ring",
+      "description": "Eisener Oval für Ganzkörperkonditionierung",
       "origin": "Hawaii",
       "weight": "30-40 kg",
-      "function": "Funktion",
-      "construction": "Konstruktion",
-      "attentionPoints": "Aufmerksamkeitspunkte",
-      "exercises": "Übungen",
-      "classicExercises": "Klassische Übungen"
+      "function": {
+        "title": "Funktion",
+        "description": "Schweres eisernes Oval für Ganzkörperkonditionierung und Kraftentwicklung",
+        "mainFunctions": [
+          "Ganzkörper-Kraftentwicklung",
+          "Kernstabilitätsverbesserung",
+          "Griff- und Unterarmstärkung",
+          "Ausdauer- und Konditionsaufbau"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Massive Eisenkonstruktion",
+          "Ovale Form für ausgewogene Gewichtsverteilung",
+          "Glatte Oberfläche zur Verhinderung von Verletzungen",
+          "Verstärkte Griffe für sicheren Halt"
+        ],
+        "dimensions": {
+          "length": "60-80 cm",
+          "width": "30-40 cm",
+          "handleDiameter": "3-4 cm",
+          "weight": "30-40 kg"
+        }
+      },
+      "exercises": [
+        "Heben und Tragen",
+        "Gehübungen",
+        "Statische Haltungen",
+        "Grundschwünge",
+        "Dynamische Bewegungen",
+        "Integration mit Kata"
+      ],
+      "safetyPoints": [
+        "Erfordert fachkundige Anleitung",
+        "Beginne mit gutem Aufwärmen",
+        "Fokus auf korrekte Hebetechnik",
+        "Trainiere nie allein mit schweren Gewichten"
+      ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Steinvorhängeschlösser",
-      "description": "Steinvorhängeschlösser für Griffkraft und Technik",
+      "translation": "Steinvorhängeschloss",
+      "description": "Steinvorhängeschlösser für Greifkraft und Technik",
       "origin": "China/Okinawa",
       "weight": "2-8 kg",
-      "function": "Funktion",
-      "construction": "Konstruktion",
-      "attentionPoints": "Aufmerksamkeitspunkte",
-      "exercises": "Übungen"
+      "function": {
+        "title": "Funktion",
+        "description": "Steinvorhängeschlösser zur Entwicklung von Greifkraft und Technik",
+        "mainFunctions": [
+          "Greifkraftentwicklung",
+          "Handgelenkstabilitätsverbesserung",
+          "Unterarmmuskelstärkung",
+          "Technikverfeinerung"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Stein- oder Betonkörper",
+          "Holz- oder Metallgriff",
+          "Sichere Verbindung zwischen Körper und Griff",
+          "Glatte Oberflächenveredelung"
+        ],
+        "dimensions": {
+          "body": "15-25 cm Länge",
+          "handle": "3-4 cm Durchmesser",
+          "weight": "2-8 kg je nach Niveau",
+          "shape": "Rechteckig oder zylindrisch"
+        }
+      },
+      "exercises": [
+        "Statische Greifhaltungen",
+        "Gehübungen",
+        "Hebebewegungen",
+        "Rotationsübungen"
+      ]
     }
   },
   "sections": {
@@ -110,5 +337,29 @@
     "jariBakoDescription": "Für Bein- und Fußkraft",
     "makiwara": "Schlagbrett",
     "makiwaraDescription": "Für Härtung von Fäusten und Füßen"
+  },
+  "training": {
+    "title": "Training",
+    "principles": {
+      "title": "Trainingsprinzipien",
+      "bodyBreathMind": "Koordination von Körper, Atem und Geist",
+      "gradualProgression": "Schrittweise Steigerung in Gewicht und Intensität",
+      "correctTechnique": "Korrekte Technik vor Gewichtserhöhung",
+      "safetyFirst": "Sicherheit zuerst bei allen Übungen"
+    },
+    "safety": {
+      "title": "Sicherheitsrichtlinien",
+      "expertGuidance": "Fachkundige Anleitung ist unerlässlich",
+      "properWarmup": "Gutes Aufwärmen vor dem Training",
+      "gradualBuildUp": "Schrittweise Steigerung der Intensität",
+      "listenToBody": "Höre auf deine Körpersignale"
+    }
+  },
+  "benefits": {
+    "title": "Vorteile",
+    "physical": "Körperliche Vorteile",
+    "technical": "Technische Vorteile",
+    "mental": "Mentale Vorteile",
+    "safety": "Sicherheitsvorteile"
   }
 } 

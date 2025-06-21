@@ -3,7 +3,6 @@
   "description": "Entraînement de force traditionnel du Goju-ryu Karate-do",
   "introduction": {
     "title": "Introduction",
-    "translation": "Introduction & Aperçu",
     "whatIs": "Qu'est-ce que Hojo Undo?",
     "twoParts": "Deux composants principaux",
     "strengthExercises": "Exercices de force",
@@ -11,156 +10,306 @@
     "centralPrinciples": "Principes centraux",
     "historicalBackground": "Contexte historique",
     "trainingEffects": "Effets de l'entraînement",
-    "safetyGuidelines": "Directives de sécurité"
+    "safetyGuidelines": "Directives de sécurité",
+    "content": {
+      "title": "Hojo Undo (補助運動): Entraînement de Force Traditionnel",
+      "description": "Hojo undo, qui signifie littéralement 'entraînement de soutien', est une partie essentielle du système Okinawa Goju-ryu Karate-do.",
+      "twoMainComponents": {
+        "title": "Deux Composants Principaux",
+        "strengthExercises": {
+          "title": "Exercices de Force",
+          "tools": [
+            "Chi ishi: Poids de levier en pierre",
+            "Nigiri game: Pots de préhension",
+            "Kongoken: Ovale de fer",
+            "Ishi sashi: Cadenas en pierre"
+          ]
+        },
+        "hardeningExercises": {
+          "title": "Exercices de Durcissement",
+          "tools": [
+            "Makiwara: Planche de frappe",
+            "Suna bako: Seau de sable",
+            "Jari bako: Seau de gravier",
+            "Tanren kumite: Exercices de durcissement avec partenaire"
+          ]
+        }
+      },
+      "centralPrinciples": {
+        "title": "Principes Centraux",
+        "description": "Le cœur du hojo undo est l'utilisation coordonnée du corps, de la respiration et de l'esprit. Cette harmonisation suit les mêmes principes que les heishugata (Sanchin et Tensho)."
+      },
+      "historicalBackground": {
+        "title": "Contexte Historique",
+        "description": "La plupart des outils hojo undo sont d'origine chinoise. Le kongoken a été découvert par Chojun Miyagi à Hawaii (1934)."
+      },
+      "trainingEffects": {
+        "title": "Effets de l'Entraînement",
+        "physical": [
+          "Développement de la force des muscles et chaînes musculaires",
+          "Amélioration de l'endurance de force",
+          "Développement des compétences motrices",
+          "Amélioration de la posture et de l'équilibre"
+        ],
+        "technical": [
+          "Amélioration des kata (kaishugata et heishugata)",
+          "Techniques de base plus puissantes et stables",
+          "Techniques de combat plus efficaces"
+        ],
+        "mental": [
+          "Meilleure concentration et discipline mentale",
+          "Développement de la force mentale",
+          "Augmentation de la confiance en soi"
+        ]
+      },
+      "safetyGuidelines": {
+        "title": "Directives de Sécurité",
+        "points": [
+          "L'encadrement expert est essentiel",
+          "Focus sur la coordination du corps, de la respiration et de l'esprit",
+          "Augmenter l'intensité progressivement (débutants: 2-3 kg)",
+          "Technique avant poids",
+          "Repos suffisant entre les sessions d'entraînement"
+        ]
+      }
+    }
   },
   "equipment": {
     "title": "Équipement",
     "overview": "Aperçu",
-    "overviewDescription": "Aperçu de tous les outils d'entraînement traditionnels",
-    "mainEquipment": "Équipement Principal",
-    "additionalEquipment": "Équipement Supplémentaire",
-    "origin": "Origine",
-    "weight": "Poids",
-    "moreInfo": "Plus d'Informations",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Poids de levier en pierre",
-      "description": "Poids de levier en pierre pour la force du poignet et de la prise",
+      "translation": "Poids de Levier en Pierre",
+      "description": "Poids de levier en pierre pour la force du poignet et de la préhension",
       "origin": "Chine (Fuzhou)",
       "weight": "2-10 kg",
-      "function": "Fonction",
-      "construction": "Construction",
-      "attentionPoints": "Points d'Attention",
-      "exercises": "Exercices"
+      "function": {
+        "title": "Fonction",
+        "description": "Le chi ishi est un 'poids de levier en pierre' qui est encore utilisé en Chine.",
+        "mainFunctions": [
+          "Renforce les muscles de l'avant-bras et de la main",
+          "Soutient la stabilité du poignet dans les techniques de coup de poing et de frappe",
+          "Renforce la préhension pour les techniques de combat rapproché",
+          "Développe la force muchimi et chinkuchi kakin"
+        ],
+        "trainingEffects": [
+          "Meilleure stabilité du poignet",
+          "Force de préhension renforcée",
+          "Meilleure coordination musculaire",
+          "Transfert de force efficace",
+          "Respiration intégrée"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "dimensions": {
+          "stickLength": "Recommandé: Largeur d'épaules",
+          "stickDiameter": "L'épaisseur détermine l'effet d'entraînement",
+          "stoneDiameter": "Pas plus de 20-30 cm",
+          "stoneHeight": "Pas plus haut que 10-15 cm"
+        },
+        "materials": {
+          "stone": "Mélange de béton avec gravier fin",
+          "connection": "Clous, vis ou ancres à vis"
+        },
+        "weight": {
+          "beginners": "2-3 kg",
+          "advanced": "6-10 kg"
+        }
+      },
+      "attentionPoints": {
+        "title": "Points d'Attention",
+        "importantPoints": [
+          "'Fixez fermement l'épaule vers le bas'",
+          "'Tendez le latissimus dorsi'",
+          "'Tendez le poignet'",
+          "'Saisissez fermement'",
+          "'Respirez depuis le tanden'"
+        ],
+        "breathingTechniques": {
+          "slow": "Respiration sanchin avec sons H(u)ah et Hatt",
+          "fast": "Le son H(u)ah disparaît pour les pratiquants avancés",
+          "natural": "Respiration naturelle pour les karatékas expérimentés"
+        },
+        "safetyGuidelines": [
+          "Commencez avec des poids plus légers",
+          "Focus sur l'exécution correcte",
+          "Prenez suffisamment de repos",
+          "Arrêtez en cas de douleur ou d'inconfort",
+          "Entraînez-vous sous encadrement expert"
+        ]
+      },
+      "exercises": {
+        "title": "Exercices",
+        "chiIshiKata": {
+          "title": "Chi Ishi Kata",
+          "description": "Matériel d'exercice de base listé dans 'Traditional Karate, volume I' de Morio Higaonna",
+          "basicSeries": [
+            "Soulever de l'intérieur + soulever de l'extérieur",
+            "De l'arrière vers l'avant + de bas en haut",
+            "Balancer autour et au-dessus de l'épaule et pousser vers l'avant",
+            "Balancer autour par l'intérieur et soulever de l'extérieur",
+            "Tordre avec la pierre en haut",
+            "Tordre avec la pierre en bas",
+            "Tordre vers l'arrière avec inclinaison vers l'avant",
+            "Ura hiki uke",
+            "Morote chi ishi zuki"
+          ]
+        },
+        "advancedExercises": [
+          "Exercices de balancement du poignet",
+          "Combat d'ombre",
+          "Entraînement de durcissement avec pierre",
+          "Entraînement du tibia avec bâton"
+        ],
+        "practicalTips": [
+          "Commencez avec des poids plus légers",
+          "Focus d'abord sur l'exécution correcte",
+          "Intégrez la respiration sanchin",
+          "Prenez suffisamment de repos entre les séries",
+          "Alternez entre différents exercices"
+        ]
+      }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Jarres de préhension",
-      "description": "Jarres de préhension pour la force des doigts et des mains",
+      "translation": "Pots de Préhension",
+      "description": "Pots de préhension pour la force des doigts et des mains",
       "origin": "Chine",
       "weight": "3-5 kg",
-      "function": "Fonction",
-      "construction": "Construction",
-      "attentionPoints": "Points d'Attention",
-      "exercises": "Exercices"
+      "function": {
+        "title": "Fonction",
+        "description": "Pots de préhension traditionnels pour développer la force des doigts et des mains",
+        "mainFunctions": [
+          "Renforce les muscles des doigts et des mains",
+          "Améliore la force de préhension et l'endurance",
+          "Développe la force de l'avant-bras",
+          "Améliore la stabilité du poignet"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Pots traditionnels en argile ou céramique",
+          "Alternatives modernes: conteneurs en béton ou métal",
+          "Diamètre de la poignée: 3-5 cm pour un entraînement de préhension optimal"
+        ],
+        "weight": "Le poids peut être ajusté en remplissant avec du sable, du gravier ou d'autres matériaux"
+      },
+      "exercises": [
+        "Préhensions statiques",
+        "Marcher avec les pots",
+        "Mouvements circulaires",
+        "Mouvements de haut en bas"
+      ]
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Oval en fer",
-      "description": "Oval en fer pour le conditionnement corporel total",
-      "origin": "Hawai",
+      "translation": "Anneau de Fer",
+      "description": "Ovale de fer pour conditionnement corporel total",
+      "origin": "Hawaii",
       "weight": "30-40 kg",
-      "function": "Fonction",
-      "construction": "Construction",
-      "attentionPoints": "Points d'Attention",
-      "exercises": "Exercices",
-      "classicExercises": "Exercices Classiques"
+      "function": {
+        "title": "Fonction",
+        "description": "Ovale de fer lourd utilisé pour le conditionnement corporel total et le développement de la force",
+        "mainFunctions": [
+          "Développement de la force corporelle totale",
+          "Amélioration de la stabilité du noyau",
+          "Renforcement de la préhension et de l'avant-bras",
+          "Construction d'endurance et de condition physique"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Construction en fer massif",
+          "Forme ovale pour distribution équilibrée du poids",
+          "Surface lisse pour prévenir les blessures",
+          "Poignées renforcées pour une préhension sûre"
+        ],
+        "dimensions": {
+          "length": "60-80 cm",
+          "width": "30-40 cm",
+          "handleDiameter": "3-4 cm",
+          "weight": "30-40 kg"
+        }
+      },
+      "exercises": [
+        "Soulever et porter",
+        "Exercices de marche",
+        "Préhensions statiques",
+        "Balancements de base",
+        "Mouvements dynamiques",
+        "Intégration avec kata"
+      ],
+      "safetyPoints": [
+        "Nécessite un encadrement expert",
+        "Commencez avec un bon échauffement",
+        "Focus sur la technique de levage correcte",
+        "N'entraînez jamais seul avec des poids lourds"
+      ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Cadenas en pierre",
+      "translation": "Cadenas de Pierre",
       "description": "Cadenas en pierre pour la force de préhension et la technique",
       "origin": "Chine/Okinawa",
       "weight": "2-8 kg",
-      "function": "Fonction",
-      "construction": "Construction",
-      "attentionPoints": "Points d'Attention",
-      "exercises": "Exercices"
+      "function": {
+        "title": "Fonction",
+        "description": "Cadenas en pierre utilisés pour développer la force de préhension et la technique",
+        "mainFunctions": [
+          "Développement de la force de préhension",
+          "Amélioration de la stabilité du poignet",
+          "Renforcement musculaire de l'avant-bras",
+          "Raffinement de la technique"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Corps en pierre ou béton",
+          "Poignée en bois ou métal",
+          "Connexion sûre entre le corps et la poignée",
+          "Finition de surface lisse"
+        ],
+        "dimensions": {
+          "body": "15-25 cm de longueur",
+          "handle": "3-4 cm de diamètre",
+          "weight": "2-8 kg selon le niveau",
+          "shape": "Rectangulaire ou cylindrique"
+        }
+      },
+      "exercises": [
+        "Préhensions statiques",
+        "Exercices de marche",
+        "Mouvements de levage",
+        "Exercices de rotation"
+      ]
     }
   },
-  "sections": {
-    "introduction": "Introduction",
-    "equipment": "Équipement",
-    "techniques": "Techniques",
-    "benefits": "Avantages",
-    "training": "Entraînement",
-    "trainingSections": "Sections d'Entraînement"
+  "training": {
+    "title": "Entraînement",
+    "principles": {
+      "title": "Principes d'Entraînement",
+      "bodyBreathMind": "Coordination du corps, de la respiration et de l'esprit",
+      "gradualProgression": "Progression graduelle en poids et intensité",
+      "correctTechnique": "Technique correcte avant d'augmenter le poids",
+      "safetyFirst": "Sécurité d'abord dans tous les exercices"
+    },
+    "safety": {
+      "title": "Directives de Sécurité",
+      "expertGuidance": "L'encadrement expert est essentiel",
+      "properWarmup": "Bon échauffement avant l'entraînement",
+      "gradualBuildUp": "Construction graduelle de l'intensité",
+      "listenToBody": "Écoutez les signaux de votre corps"
+    }
   },
-  "template": {
-    "mainComponents": "Composants Principaux",
-    "mainComponentsDescription": "Les aspects clés de cet entraînement",
-    "principles": "Principes Importants",
-    "principlesDescription": "Les fondements de cet entraînement",
-    "trainingEffects": "Effets d'Entraînement",
-    "trainingEffectsDescription": "Ce que vous pouvez attendre de cet entraînement",
-    "relatedSections": "Sections Connexes",
-    "relatedSectionsDescription": "Explorez d'autres aspects de Hojo Undo",
-    "historicalBackground": "Contexte Historique",
-    "safetyInformation": "Informations de Sécurité",
-    "importantSafetyNotice": "Avis de Sécurité Important",
-    "coreTraining": "Le cœur de cet entraînement est l'utilisation coordonnée du corps, de la respiration et de l'esprit.",
-    "harmonization": "Cette harmonisation suit les mêmes principes que les heishugata (Sanchin et Tensho)."
-  },
-  "strengthExercises": {
-    "title": "Exercices de Force",
-    "subtitle": "Entraînement de Force Traditionnel",
-    "description": "Développez une force fonctionnelle avec les outils traditionnels Hojo Undo pour un entraînement karaté efficace",
-    "chiIshiTraining": "Entraînement Chi Ishi",
-    "nigiriGameTraining": "Entraînement Nigiri Game",
-    "kongokenTraining": "Entraînement Kongoken",
-    "ishiSashiTraining": "Entraînement Ishi Sashi",
-    "historicalNote": "Ces exercices de force ont été transmis de maître à élève pendant des siècles. Ils sont développés pour créer une force fonctionnelle directement applicable dans les techniques de karaté.",
-    "safetyNotice": "Une guidance experte est essentielle pour tous les exercices de force. Commencez toujours avec des poids légers et concentrez-vous sur la technique correcte avant d'augmenter l'intensité."
-  },
-  "hardeningExercises": {
-    "title": "Exercices de Durcissement",
-    "subtitle": "Conditionnement et Durcissement",
-    "description": "Développez la résistance physique et mentale avec des exercices de durcissement traditionnels pour un entraînement karaté efficace",
-    "makiwaraTraining": "Entraînement Makiwara",
-    "sunaBakoTraining": "Entraînement Suna Bako",
-    "jariBakoTraining": "Entraînement Jari Bako",
-    "tanrenKumite": "Tanren Kumite",
-    "historicalNote": "Ces exercices de durcissement sont développés pour préparer le corps à l'impact des techniques de karaté. Ils sont essentiels pour développer une véritable puissance de combat.",
-    "safetyNotice": "Les exercices de durcissement doivent toujours être effectués sous guidance experte. Commencez prudemment et augmentez progressivement pour éviter les blessures."
-  },
-  "common": {
-    "function": "Fonction",
-    "construction": "Construction",
-    "attentionPoints": "Points d'attention",
-    "exercises": "Exercices",
-    "classicExercises": "Exercices classiques",
-    "safety": "Sécurité",
-    "tips": "Conseils",
-    "variations": "Variations",
-    "applications": "Applications",
-    "traditionalStrengthTraining": "Entraînement de Force Traditionnel",
-    "learnFundamentals": "Apprenez les fondamentaux et la philosophie",
-    "overviewEquipment": "Aperçu de tous les équipements d'entraînement",
-    "understandingPurpose": "Comprendre le but et les avantages",
-    "buildMaintain": "Comment construire et maintenir l'équipement",
-    "safetyTechnique": "Points importants de sécurité et de technique",
-    "specificExercises": "Exercices d'entraînement spécifiques et routines",
-    "traditionalMethods": "Méthodes d'entraînement traditionnelles et classiques",
-    "modernRoutines": "Routines d'entraînement modernes et adaptées"
-  },
-  "categories": {
-    "introduction": "Introduction",
-    "primaryEquipment": "Équipement Primaire"
-  },
-  "additionalEquipment": {
-    "tekkan": "Anneaux en fer",
-    "tekkanDescription": "Pour l'entraînement du poignet et de l'avant-bras",
-    "tetsuGeta": "Sandales en fer",
-    "tetsuGetaDescription": "Pour la force des jambes et des pieds",
-    "ishiGeta": "Sandales en pierre",
-    "ishiGetaDescription": "Pour la force des jambes et des pieds",
-    "chikaraIshi": "Poids en pierre",
-    "chikaraIshiDescription": "Pour l'entraînement général de force",
-    "ukiKago": "Panier tressé",
-    "ukiKagoDescription": "Pour l'équilibre et la stabilité",
-    "sashiIshi": "Pierre lourde",
-    "sashiIshiDescription": "Pour la force et l'endurance",
-    "to": "Faisceau de bambou",
-    "toDescription": "Pour la flexibilité et la force",
-    "tan": "Barre (barbell)",
-    "tanDescription": "Pour l'entraînement général de force",
-    "tetsuarei": "Haltère (dumbbell)",
-    "tetsuareiDescription": "Pour des groupes musculaires spécifiques",
-    "sunabako": "Seau de sable",
-    "sunabakoDescription": "Pour la force des jambes et des pieds",
-    "jariBako": "Seau de gravier",
-    "jariBakoDescription": "Pour la force des jambes et des pieds",
-    "makiwara": "Planche de frappe",
-    "makiwaraDescription": "Pour le durcissement des poings et des pieds"
+  "benefits": {
+    "title": "Avantages",
+    "physical": "Avantages Physiques",
+    "technical": "Avantages Techniques",
+    "mental": "Avantages Mentaux",
+    "safety": "Avantages de Sécurité"
   }
 } 

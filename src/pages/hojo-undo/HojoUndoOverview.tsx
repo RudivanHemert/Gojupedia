@@ -143,7 +143,7 @@ const HojoUndoOverview = () => {
         <Button asChild variant="outline" className="mb-4">
           <Link to="/hojo-undo">
             <ChevronLeft className="mr-2 h-4 w-4" />
-            {t('common.back')}
+            {t('hojoUndo.common.back')}
           </Link>
         </Button>
 

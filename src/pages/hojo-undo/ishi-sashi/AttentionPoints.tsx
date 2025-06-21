@@ -1,14 +1,14 @@
 import React from 'react';
 import HojoUndoModernSection from '@/components/hojo-undo/HojoUndoModernSection';
 
-const NigiriGameConstruction = () => {
+const IshiSashiAttentionPoints = () => {
   return (
     <HojoUndoModernSection
-      equipmentKey="nigiriGame"
-      sectionKey="construction"
+      equipmentKey="ishiSashi"
+      sectionKey="attentionPoints"
       backPath="/hojo-undo"
     />
   );
 };
 
-export default NigiriGameConstruction; 
+export default IshiSashiAttentionPoints; 

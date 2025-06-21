@@ -15,7 +15,9 @@ import {
   Target,
   Shield,
   Users,
-  Brain
+  Brain,
+  ArrowRight,
+  Info
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import MobileLayout from '@/components/layout/MobileLayout';
@@ -24,14 +26,78 @@ import { useTranslation } from 'react-i18next';
 const HojoUndoPage = () => {
   const { t } = useTranslation();
 
-  const mainSections = [
+  const getEquipmentData = () => {
+    const equipment = ['chiIshi', 'nigiriGame', 'kongoken', 'ishiSashi'];
+    return equipment.map(key => {
+      const data = t(`hojoUndo.equipment.${key}`, { returnObjects: true }) as any;
+      return {
+        key,
+        data: data || {
+          name: key,
+          translation: '',
+          description: '',
+          function: { title: 'Function' },
+          construction: { title: 'Construction' },
+          attentionPoints: { title: 'Attention Points' },
+          exercises: { title: 'Exercises' }
+        }
+      };
+    });
+  };
+
+  const equipment = getEquipmentData();
+
+  const getEquipmentIcon = (key: string) => {
+    const icons = {
+      chiIshi: Weight,
+      nigiriGame: HandMetal,
+      kongoken: Target,
+      ishiSashi: Shield
+    };
+    return icons[key as keyof typeof icons] || Info;
+  };
+
+  const getEquipmentColor = (key: string) => {
+    const colors = {
+      chiIshi: 'bg-blue-500',
+      nigiriGame: 'bg-green-500',
+      kongoken: 'bg-orange-500',
+      ishiSashi: 'bg-purple-500'
+    };
+    return colors[key as keyof typeof colors] || 'bg-gray-500';
+  };
+
+  const getEquipmentTextColor = (key: string) => {
+    const colors = {
+      chiIshi: 'text-blue-500',
+      nigiriGame: 'text-green-500',
+      kongoken: 'text-orange-500',
+      ishiSashi: 'text-purple-500'
+    };
+    return colors[key as keyof typeof colors] || 'text-gray-500';
+  };
+
+  const mainSections: Array<{
+    title: string;
+    translation?: string;
+    description: string;
+    icon: React.ComponentType<any>;
+    color: string;
+    textColor: string;
+    category: string;
+    links: Array<{
+      name: string;
+      path: string;
+      icon: React.ComponentType<any>;
+      description: string;
+    }>;
+  }> = [
     {
       title: t('hojoUndo.introduction.title'),
-      translation: t('hojoUndo.introduction.translation'),
-      description: t('hojoUndo.description'),
+      description: t('hojoUndo.introduction.content.description'),
       icon: BookOpen,
-      color: 'bg-blue-500',
-      textColor: 'text-blue-500',
+      color: 'bg-indigo-500',
+      textColor: 'text-indigo-500',
       category: t('hojoUndo.categories.introduction'),
       links: [
         { 
@@ -42,134 +108,47 @@ const HojoUndoPage = () => {
         },
       ],
     },
-    {
-      title: t('hojoUndo.equipment.chiIshi.name'),
-      translation: t('hojoUndo.equipment.chiIshi.translation'),
-      description: t('hojoUndo.equipment.chiIshi.description'),
-      icon: Weight,
-      color: 'bg-green-500',
-      textColor: 'text-green-500',
-      category: t('hojoUndo.categories.primaryEquipment'),
-      links: [
-        { 
-          name: t('hojoUndo.equipment.chiIshi.function'), 
-          path: '/hojo-undo/chi-ishi/function',
-          icon: Target,
-          description: t('hojoUndo.common.understandingPurpose')
-        },
-        { 
-          name: t('hojoUndo.equipment.chiIshi.construction'), 
-          path: '/hojo-undo/chi-ishi/construction',
-          icon: Hammer,
-          description: t('hojoUndo.common.buildMaintain')
-        },
-        { 
-          name: t('hojoUndo.equipment.chiIshi.attentionPoints'), 
-          path: '/hojo-undo/chi-ishi/attention-points',
-          icon: Shield,
-          description: t('hojoUndo.common.safetyTechnique')
-        },
-        { 
-          name: t('hojoUndo.equipment.chiIshi.exercises'), 
-          path: '/hojo-undo/chi-ishi/exercises',
-          icon: Dumbbell,
-          description: t('hojoUndo.common.specificExercises')
-        },
-      ]
-    },
-    {
-      title: t('hojoUndo.equipment.nigiriGame.name'),
-      translation: t('hojoUndo.equipment.nigiriGame.translation'),
-      description: t('hojoUndo.equipment.nigiriGame.description'),
-      icon: HandMetal,
-      color: 'bg-orange-500',
-      textColor: 'text-orange-500',
-      category: t('hojoUndo.categories.primaryEquipment'),
-      links: [
-        { 
-          name: t('hojoUndo.equipment.nigiriGame.function'), 
-          path: '/hojo-undo/nigiri-game/function',
-          icon: Target,
-          description: t('hojoUndo.common.understandingPurpose')
-        },
-        { 
-          name: t('hojoUndo.equipment.nigiriGame.construction'), 
-          path: '/hojo-undo/nigiri-game/construction',
-          icon: Hammer,
-          description: t('hojoUndo.common.buildMaintain')
-        },
-        { 
-          name: t('hojoUndo.equipment.nigiriGame.exercises'), 
-          path: '/hojo-undo/nigiri-game/exercises',
-          icon: Dumbbell,
-          description: t('hojoUndo.common.specificExercises')
-        },
-        { 
-          name: t('hojoUndo.equipment.nigiriGame.attentionPoints'), 
-          path: '/hojo-undo/nigiri-game/attention-points',
-          icon: Shield,
-          description: t('hojoUndo.common.safetyTechnique')
-        },
-      ]
-    },
-    {
-      title: t('hojoUndo.equipment.kongoken.name'),
-      translation: t('hojoUndo.equipment.kongoken.translation'),
-      description: t('hojoUndo.equipment.kongoken.description'),
-      icon: Hammer,
-      color: 'bg-purple-500',
-      textColor: 'text-purple-500',
-      category: t('hojoUndo.categories.primaryEquipment'),
-      links: [
-        { 
-          name: t('hojoUndo.equipment.kongoken.classicExercises'), 
-          path: '/hojo-undo/kongoken/classic-exercises',
-          icon: BookOpen,
-          description: t('hojoUndo.common.traditionalMethods')
-        },
-        { 
-          name: t('hojoUndo.equipment.kongoken.exercises'), 
-          path: '/hojo-undo/kongoken/exercises',
-          icon: Dumbbell,
-          description: t('hojoUndo.common.modernRoutines')
-        },
-      ]
-    },
-    {
-      title: t('hojoUndo.equipment.ishiSashi.name'),
-      translation: t('hojoUndo.equipment.ishiSashi.translation'),
-      description: t('hojoUndo.equipment.ishiSashi.description'),
-      icon: Weight,
-      color: 'bg-pink-500',
-      textColor: 'text-pink-500',
-      category: t('hojoUndo.categories.primaryEquipment'),
-      links: [
-        { 
-          name: t('hojoUndo.equipment.ishiSashi.function'), 
-          path: '/hojo-undo/ishi-sashi/function',
-          icon: Target,
-          description: t('hojoUndo.common.understandingPurpose')
-        },
-        { 
-          name: t('hojoUndo.equipment.ishiSashi.construction'), 
-          path: '/hojo-undo/ishi-sashi/construction',
-          icon: Hammer,
-          description: t('hojoUndo.common.buildMaintain')
-        },
-        { 
-          name: t('hojoUndo.equipment.ishiSashi.exercises'), 
-          path: '/hojo-undo/ishi-sashi/exercises',
-          icon: Dumbbell,
-          description: t('hojoUndo.common.specificExercises')
-        },
-        { 
-          name: t('hojoUndo.equipment.ishiSashi.attentionPoints'), 
-          path: '/hojo-undo/ishi-sashi/attention-points',
-          icon: Shield,
-          description: t('hojoUndo.common.safetyTechnique')
-        },
-      ]
-    },
+    ...equipment.map(item => {
+      const Icon = getEquipmentIcon(item.key);
+      const color = getEquipmentColor(item.key);
+      const textColor = getEquipmentTextColor(item.key);
+      
+      return {
+        title: item.data.name,
+        translation: item.data.translation,
+        description: item.data.description,
+        icon: Icon,
+        color,
+        textColor,
+        category: t('hojoUndo.categories.primaryEquipment'),
+        links: [
+          { 
+            name: item.data.function?.title || 'Function', 
+            path: `/hojo-undo/${item.key}/function`,
+            icon: Target,
+            description: t('hojoUndo.common.understandingPurpose')
+          },
+          { 
+            name: item.data.construction?.title || 'Construction', 
+            path: `/hojo-undo/${item.key}/construction`,
+            icon: Hammer,
+            description: t('hojoUndo.common.buildMaintain')
+          },
+          { 
+            name: item.data.attentionPoints?.title || 'Attention Points', 
+            path: `/hojo-undo/${item.key}/attentionPoints`,
+            icon: Shield,
+            description: t('hojoUndo.common.safetyTechnique')
+          },
+          { 
+            name: item.data.exercises?.title || 'Exercises', 
+            path: `/hojo-undo/${item.key}/exercises`,
+            icon: Dumbbell,
+            description: t('hojoUndo.common.specificExercises')
+          },
+        ]
+      };
+    })
   ];
 
   return (
@@ -183,10 +162,10 @@ const HojoUndoPage = () => {
         >
           <h1 className="text-3xl font-bold">{t('hojoUndo.title')}</h1>
           <Badge variant="secondary" className="text-lg px-4 py-2">
-            {t('hojoUndo.common.traditionalStrengthTraining')}
+            {t('hojoUndo.description')}
           </Badge>
           <p className="text-muted-foreground max-w-md mx-auto">
-            {t('hojoUndo.description')}
+            {t('hojoUndo.introduction.content.description')}
           </p>
         </motion.div>
 
@@ -218,9 +197,11 @@ const HojoUndoPage = () => {
                         </div>
                         <div>
                           <div className="text-lg">{section.title}</div>
-                          <div className="text-sm text-muted-foreground font-normal">
-                            {section.translation}
-                          </div>
+                          {section.translation && (
+                            <div className="text-sm text-muted-foreground font-normal">
+                              {section.translation}
+                            </div>
+                          )}
                         </div>
                       </div>
                       <Badge variant="outline" className="text-xs">
@@ -254,6 +235,27 @@ const HojoUndoPage = () => {
               </motion.div>
             ))}
           </div>
+        </motion.div>
+
+        {/* Quick Access to Overview */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="space-y-4"
+        >
+          <div className="text-center">
+            <h3 className="text-lg font-semibold flex items-center justify-center">
+              <ArrowRight className="mr-2 h-5 w-5" />
+              {t('hojoUndo.common.quickAccess')}
+            </h3>
+          </div>
+          <Button asChild variant="outline" className="w-full">
+            <Link to="/hojo-undo/general/intro">
+              <BookOpen className="mr-2 h-4 w-4" />
+              {t('hojoUndo.common.viewCompleteOverview')}
+            </Link>
+          </Button>
         </motion.div>
       </div>
     </MobileLayout>

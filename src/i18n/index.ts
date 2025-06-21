@@ -128,7 +128,7 @@ const combineTranslations = (modules: Record<string, any>) => {
   const result = Object.keys(modules).reduce((acc, key) => {
     if (key === 'hojoUndo') {
       // Keep hojoUndo as a separate namespace
-      return { ...acc, [key]: modules[key] };
+      return { ...acc, hojoUndo: modules[key] };
     } else {
       // Merge other modules into the root level
       return { ...acc, ...modules[key] };

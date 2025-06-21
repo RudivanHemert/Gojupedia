@@ -10,58 +10,282 @@
     "centralPrinciples": "Principios centrales",
     "historicalBackground": "Antecedentes históricos",
     "trainingEffects": "Efectos del entrenamiento",
-    "safetyGuidelines": "Pautas de seguridad"
+    "safetyGuidelines": "Pautas de seguridad",
+    "content": {
+      "title": "Hojo Undo (補助運動): Entrenamiento de Fuerza Tradicional",
+      "description": "Hojo undo, que literalmente significa 'entrenamiento de apoyo', es una parte esencial del sistema Okinawa Goju-ryu Karate-do.",
+      "twoMainComponents": {
+        "title": "Dos Componentes Principales",
+        "strengthExercises": {
+          "title": "Ejercicios de Fuerza",
+          "tools": [
+            "Chi ishi: Peso de palanca de piedra",
+            "Nigiri game: Jarras de agarre",
+            "Kongoken: Óvalo de hierro",
+            "Ishi sashi: Candados de piedra"
+          ]
+        },
+        "hardeningExercises": {
+          "title": "Ejercicios de Endurecimiento",
+          "tools": [
+            "Makiwara: Tabla de golpeo",
+            "Suna bako: Cubo de arena",
+            "Jari bako: Cubo de grava",
+            "Tanren kumite: Ejercicios de endurecimiento con compañero"
+          ]
+        }
+      },
+      "centralPrinciples": {
+        "title": "Principios Centrales",
+        "description": "El núcleo de hojo undo es el uso coordinado de cuerpo, respiración y mente. Esta armonización sigue los mismos principios que los heishugata (Sanchin y Tensho)."
+      },
+      "historicalBackground": {
+        "title": "Antecedentes Históricos",
+        "description": "La mayoría de las herramientas hojo undo son de origen chino. El kongoken fue descubierto por Chojun Miyagi en Hawaii (1934)."
+      },
+      "trainingEffects": {
+        "title": "Efectos del Entrenamiento",
+        "physical": [
+          "Desarrollo de fuerza de músculos y cadenas musculares",
+          "Mejora de la resistencia de fuerza",
+          "Desarrollo de habilidades motoras",
+          "Mejora de postura y equilibrio"
+        ],
+        "technical": [
+          "Mejora de kata (kaishugata y heishugata)",
+          "Técnicas básicas más potentes y estables",
+          "Técnicas de combate más efectivas"
+        ],
+        "mental": [
+          "Mejor concentración y disciplina mental",
+          "Desarrollo de fuerza mental",
+          "Aumento de la confianza en sí mismo"
+        ]
+      },
+      "safetyGuidelines": {
+        "title": "Pautas de Seguridad",
+        "points": [
+          "La orientación experta es esencial",
+          "Enfoque en la coordinación de cuerpo, respiración y mente",
+          "Aumentar la intensidad gradualmente (principiantes: 2-3 kg)",
+          "Técnica sobre peso",
+          "Descanso suficiente entre sesiones de entrenamiento"
+        ]
+      }
+    }
   },
   "equipment": {
     "title": "Equipamiento",
-    "overview": "Resumen",
-    "overviewDescription": "Resumen de todas las herramientas de entrenamiento tradicionales",
-    "mainEquipment": "Equipamiento Principal",
-    "additionalEquipment": "Equipamiento Adicional",
-    "origin": "Origen",
-    "weight": "Peso",
-    "moreInfo": "Más Información",
+    "overview": "Descripción General",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Peso de palanca de piedra",
+      "translation": "Peso de Palanca de Piedra",
       "description": "Peso de palanca de piedra para fuerza de muñeca y agarre",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
-      "function": "Función",
-      "construction": "Construcción",
-      "attentionPoints": "Puntos de Atención",
-      "exercises": "Ejercicios"
+      "function": {
+        "title": "Función",
+        "description": "El chi ishi es un 'peso de palanca de piedra' que aún se usa en China.",
+        "mainFunctions": [
+          "Fortalece músculos del antebrazo y mano",
+          "Apoya la estabilidad de la muñeca en técnicas de puñetazo y golpe",
+          "Fortalece el agarre para técnicas de combate cercano",
+          "Desarrolla fuerza muchimi y chinkuchi kakin"
+        ],
+        "trainingEffects": [
+          "Mejor estabilidad de muñeca",
+          "Fuerza de agarre fortalecida",
+          "Mejor coordinación muscular",
+          "Transferencia de fuerza eficiente",
+          "Respiración integrada"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "dimensions": {
+          "stickLength": "Recomendado: Ancho de hombros",
+          "stickDiameter": "El grosor determina el efecto del entrenamiento",
+          "stoneDiameter": "No más de 20-30 cm",
+          "stoneHeight": "No más alto que 10-15 cm"
+        },
+        "materials": {
+          "stone": "Mezcla de hormigón con grava fina",
+          "connection": "Clavos, tornillos o anclajes de tornillo"
+        },
+        "weight": {
+          "beginners": "2-3 kg",
+          "advanced": "6-10 kg"
+        }
+      },
+      "attentionPoints": {
+        "title": "Puntos de Atención",
+        "importantPoints": [
+          "'Fija el hombro hacia abajo firmemente'",
+          "'Tensa el latissimus dorsi'",
+          "'Tensa la muñeca'",
+          "'Agarra firmemente'",
+          "'Respira desde el tanden'"
+        ],
+        "breathingTechniques": {
+          "slow": "Respiración sanchin con sonidos H(u)ah y Hatt",
+          "fast": "El sonido H(u)ah desaparece para practicantes avanzados",
+          "natural": "Respiración natural para karatekas experimentados"
+        },
+        "safetyGuidelines": [
+          "Comienza con pesos más ligeros",
+          "Enfoque en la ejecución correcta",
+          "Toma descanso suficiente",
+          "Detente ante dolor o malestar",
+          "Entrena bajo orientación experta"
+        ]
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "chiIshiKata": {
+          "title": "Chi Ishi Kata",
+          "description": "Material de ejercicio básico listado en 'Traditional Karate, volumen I' de Morio Higaonna",
+          "basicSeries": [
+            "Levantar desde adentro + levantar desde afuera",
+            "De atrás hacia adelante + de abajo hacia arriba",
+            "Balancear alrededor y sobre el hombro y empujar hacia adelante",
+            "Balancear alrededor por dentro y levantar desde afuera",
+            "Torcer con la piedra arriba",
+            "Torcer con la piedra abajo",
+            "Torcer hacia atrás con inclinación hacia adelante",
+            "Ura hiki uke",
+            "Morote chi ishi zuki"
+          ]
+        },
+        "advancedExercises": [
+          "Ejercicios de balanceo de muñeca",
+          "Combate de sombra",
+          "Entrenamiento de endurecimiento con piedra",
+          "Entrenamiento de espinilla con palo"
+        ],
+        "practicalTips": [
+          "Comienza con pesos más ligeros",
+          "Enfoque primero en la ejecución correcta",
+          "Integra la respiración sanchin",
+          "Toma descanso suficiente entre series",
+          "Alterna entre diferentes ejercicios"
+        ]
+      }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Jarras de agarre",
+      "translation": "Jarras de Agarre",
       "description": "Jarras de agarre para fuerza de dedos y manos",
       "origin": "China",
       "weight": "3-5 kg",
-      "function": "Función",
-      "construction": "Construcción",
-      "attentionPoints": "Puntos de Atención",
-      "exercises": "Ejercicios"
+      "function": {
+        "title": "Función",
+        "description": "Jarras de agarre tradicionales para desarrollar fuerza de dedos y manos",
+        "mainFunctions": [
+          "Fortalece músculos de dedos y manos",
+          "Mejora la fuerza de agarre y resistencia",
+          "Desarrolla fuerza del antebrazo",
+          "Mejora la estabilidad de la muñeca"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "materials": [
+          "Jarras tradicionales de arcilla o cerámica",
+          "Alternativas modernas: contenedores de hormigón o metal",
+          "Diámetro del mango: 3-5 cm para entrenamiento de agarre óptimo"
+        ],
+        "weight": "El peso se puede ajustar llenando con arena, grava u otros materiales"
+      },
+      "exercises": [
+        "Agarres estáticos",
+        "Caminar con jarras",
+        "Movimientos circulares",
+        "Movimientos arriba y abajo"
+      ]
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Óvalo de hierro",
+      "translation": "Anillo de Hierro",
       "description": "Óvalo de hierro para acondicionamiento corporal total",
-      "origin": "Hawai",
+      "origin": "Hawaii",
       "weight": "30-40 kg",
-      "exercises": "Ejercicios",
-      "classicExercises": "Ejercicios Clásicos"
+      "function": {
+        "title": "Función",
+        "description": "Óvalo de hierro pesado usado para acondicionamiento corporal total y desarrollo de fuerza",
+        "mainFunctions": [
+          "Desarrollo de fuerza corporal total",
+          "Mejora de la estabilidad del núcleo",
+          "Fortalecimiento de agarre y antebrazo",
+          "Construcción de resistencia y condición física"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "materials": [
+          "Construcción de hierro sólido",
+          "Forma ovalada para distribución equilibrada del peso",
+          "Superficie lisa para prevenir lesiones",
+          "Mangos reforzados para agarre seguro"
+        ],
+        "dimensions": {
+          "length": "60-80 cm",
+          "width": "30-40 cm",
+          "handleDiameter": "3-4 cm",
+          "weight": "30-40 kg"
+        }
+      },
+      "exercises": [
+        "Levantar y cargar",
+        "Ejercicios de caminata",
+        "Agarres estáticos",
+        "Balanceos básicos",
+        "Movimientos dinámicos",
+        "Integración con kata"
+      ],
+      "safetyPoints": [
+        "Requiere orientación experta",
+        "Comienza con buen calentamiento",
+        "Enfoque en técnica de levantamiento correcta",
+        "Nunca entrenes solo con pesos pesados"
+      ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Candados de piedra",
+      "translation": "Candado de Piedra",
       "description": "Candados de piedra para fuerza de agarre y técnica",
       "origin": "China/Okinawa",
       "weight": "2-8 kg",
-      "function": "Función",
-      "construction": "Construcción",
-      "attentionPoints": "Puntos de Atención",
-      "exercises": "Ejercicios"
+      "function": {
+        "title": "Función",
+        "description": "Candados de piedra usados para desarrollar fuerza de agarre y técnica",
+        "mainFunctions": [
+          "Desarrollo de fuerza de agarre",
+          "Mejora de la estabilidad de la muñeca",
+          "Fortalecimiento muscular del antebrazo",
+          "Refinamiento de técnica"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "materials": [
+          "Cuerpo de piedra u hormigón",
+          "Mango de madera o metal",
+          "Conexión segura entre cuerpo y mango",
+          "Acabado de superficie lisa"
+        ],
+        "dimensions": {
+          "body": "15-25 cm de longitud",
+          "handle": "3-4 cm de diámetro",
+          "weight": "2-8 kg dependiendo del nivel",
+          "shape": "Rectangular o cilíndrico"
+        }
+      },
+      "exercises": [
+        "Agarres estáticos",
+        "Ejercicios de caminata",
+        "Movimientos de levantamiento",
+        "Ejercicios de rotación"
+      ]
     }
   },
   "sections": {
@@ -107,5 +331,29 @@
     "jariBakoDescription": "Para fuerza de piernas y pies",
     "makiwara": "Tabla de golpeo",
     "makiwaraDescription": "Para endurecimiento de puños y pies"
+  },
+  "training": {
+    "title": "Entrenamiento",
+    "principles": {
+      "title": "Principios de Entrenamiento",
+      "bodyBreathMind": "Coordinación de cuerpo, respiración y mente",
+      "gradualProgression": "Progresión gradual en peso e intensidad",
+      "correctTechnique": "Técnica correcta antes de aumentar peso",
+      "safetyFirst": "Seguridad primero en todos los ejercicios"
+    },
+    "safety": {
+      "title": "Pautas de Seguridad",
+      "expertGuidance": "La orientación experta es esencial",
+      "properWarmup": "Buen calentamiento antes del entrenamiento",
+      "gradualBuildUp": "Construcción gradual de la intensidad",
+      "listenToBody": "Escucha las señales de tu cuerpo"
+    }
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "physical": "Beneficios Físicos",
+    "technical": "Beneficios Técnicos",
+    "mental": "Beneficios Mentales",
+    "safety": "Beneficios de Seguridad"
   }
 } 

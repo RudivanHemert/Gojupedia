@@ -1,14 +1,14 @@
 import React from 'react';
 import HojoUndoModernSection from '@/components/hojo-undo/HojoUndoModernSection';
 
-const NigiriGameConstruction = () => {
+const KongokenFunction = () => {
   return (
     <HojoUndoModernSection
-      equipmentKey="nigiriGame"
-      sectionKey="construction"
+      equipmentKey="kongoken"
+      sectionKey="function"
       backPath="/hojo-undo"
     />
   );
 };
 
-export default NigiriGameConstruction; 
+export default KongokenFunction; 

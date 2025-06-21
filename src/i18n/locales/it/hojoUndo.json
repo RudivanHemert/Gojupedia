@@ -10,7 +10,69 @@
     "centralPrinciples": "Principi centrali",
     "historicalBackground": "Contesto storico",
     "trainingEffects": "Effetti dell'allenamento",
-    "safetyGuidelines": "Linee guida di sicurezza"
+    "safetyGuidelines": "Linee guida di sicurezza",
+    "content": {
+      "title": "Hojo Undo (補助運動): Allenamento di Forza Tradizionale",
+      "description": "Hojo undo, che letteralmente significa 'allenamento di supporto', è una parte essenziale del sistema Okinawa Goju-ryu Karate-do.",
+      "twoMainComponents": {
+        "title": "Due Componenti Principali",
+        "strengthExercises": {
+          "title": "Esercizi di Forza",
+          "tools": [
+            "Chi ishi: Peso a leva di pietra",
+            "Nigiri game: Vasi di presa",
+            "Kongoken: Ovale di ferro",
+            "Ishi sashi: Lucchetti di pietra"
+          ]
+        },
+        "hardeningExercises": {
+          "title": "Esercizi di Indurimento",
+          "tools": [
+            "Makiwara: Tavola di percussione",
+            "Suna bako: Secchio di sabbia",
+            "Jari bako: Secchio di ghiaia",
+            "Tanren kumite: Esercizi di indurimento con partner"
+          ]
+        }
+      },
+      "centralPrinciples": {
+        "title": "Principi Centrali",
+        "description": "Il cuore del hojo undo è l'uso coordinato di corpo, respirazione e mente. Questa armonizzazione segue gli stessi principi degli heishugata (Sanchin e Tensho)."
+      },
+      "historicalBackground": {
+        "title": "Contesto Storico",
+        "description": "La maggior parte degli strumenti hojo undo sono di origine cinese. Il kongoken fu scoperto da Chojun Miyagi alle Hawaii (1934)."
+      },
+      "trainingEffects": {
+        "title": "Effetti dell'Allenamento",
+        "physical": [
+          "Sviluppo della forza di muscoli e catene muscolari",
+          "Miglioramento della resistenza di forza",
+          "Sviluppo delle abilità motorie",
+          "Miglioramento della postura e dell'equilibrio"
+        ],
+        "technical": [
+          "Miglioramento dei kata (kaishugata e heishugata)",
+          "Tecniche di base più potenti e stabili",
+          "Tecniche di combattimento più efficaci"
+        ],
+        "mental": [
+          "Migliore concentrazione e disciplina mentale",
+          "Sviluppo della forza mentale",
+          "Aumento della fiducia in se stessi"
+        ]
+      },
+      "safetyGuidelines": {
+        "title": "Linee Guida di Sicurezza",
+        "points": [
+          "La guida esperta è essenziale",
+          "Focus sulla coordinazione di corpo, respirazione e mente",
+          "Aumentare l'intensità gradualmente (principianti: 2-3 kg)",
+          "Tecnica prima del peso",
+          "Riposo sufficiente tra le sessioni di allenamento"
+        ]
+      }
+    }
   },
   "equipment": {
     "title": "Attrezzatura",
@@ -23,45 +85,213 @@
     "moreInfo": "Maggiori Informazioni",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Peso leva di pietra",
-      "description": "Peso leva di pietra per forza del polso e della presa",
+      "translation": "Peso a Leva di Pietra",
+      "description": "Peso a leva di pietra per forza del polso e presa",
       "origin": "Cina (Fuzhou)",
       "weight": "2-10 kg",
-      "function": "Funzione",
-      "construction": "Costruzione",
-      "attentionPoints": "Punti di Attenzione",
-      "exercises": "Esercizi"
+      "function": {
+        "title": "Funzione",
+        "description": "Il chi ishi è un 'peso a leva di pietra' che è ancora utilizzato in Cina.",
+        "mainFunctions": [
+          "Rafforza i muscoli dell'avambraccio e della mano",
+          "Supporta la stabilità del polso nelle tecniche di pugno e percussione",
+          "Rafforza la presa per tecniche di combattimento ravvicinato",
+          "Sviluppa la forza muchimi e chinkuchi kakin"
+        ],
+        "trainingEffects": [
+          "Migliore stabilità del polso",
+          "Forza di presa rafforzata",
+          "Migliore coordinazione muscolare",
+          "Trasferimento di forza efficiente",
+          "Respirazione integrata"
+        ]
+      },
+      "construction": {
+        "title": "Costruzione",
+        "dimensions": {
+          "stickLength": "Raccomandato: Larghezza delle spalle",
+          "stickDiameter": "Lo spessore determina l'effetto dell'allenamento",
+          "stoneDiameter": "Non più di 20-30 cm",
+          "stoneHeight": "Non più alto di 10-15 cm"
+        },
+        "materials": {
+          "stone": "Miscela di cemento con ghiaia fine",
+          "connection": "Chiodi, viti o ancore a vite"
+        },
+        "weight": {
+          "beginners": "2-3 kg",
+          "advanced": "6-10 kg"
+        }
+      },
+      "attentionPoints": {
+        "title": "Punti di Attenzione",
+        "importantPoints": [
+          "'Fissa saldamente la spalla verso il basso'",
+          "'Tendi il latissimus dorsi'",
+          "'Tendi il polso'",
+          "'Afferra saldamente'",
+          "'Respira dal tanden'"
+        ],
+        "breathingTechniques": {
+          "slow": "Respirazione sanchin con suoni H(u)ah e Hatt",
+          "fast": "Il suono H(u)ah scompare per praticanti avanzati",
+          "natural": "Respirazione naturale per karateka esperti"
+        },
+        "safetyGuidelines": [
+          "Inizia con pesi più leggeri",
+          "Focus sull'esecuzione corretta",
+          "Prendi riposo sufficiente",
+          "Fermati in caso di dolore o disagio",
+          "Allenati sotto guida esperta"
+        ]
+      },
+      "exercises": {
+        "title": "Esercizi",
+        "chiIshiKata": {
+          "title": "Chi Ishi Kata",
+          "description": "Materiale di esercizio di base elencato in 'Traditional Karate, volume I' di Morio Higaonna",
+          "basicSeries": [
+            "Sollevare dall'interno + sollevare dall'esterno",
+            "Da dietro in avanti + dal basso verso l'alto",
+            "Oscillare intorno e sopra la spalla e spingere in avanti",
+            "Oscillare intorno dall'interno e sollevare dall'esterno",
+            "Torcere con la pietra in alto",
+            "Torcere con la pietra in basso",
+            "Torcere all'indietro con inclinazione in avanti",
+            "Ura hiki uke",
+            "Morote chi ishi zuki"
+          ]
+        },
+        "advancedExercises": [
+          "Esercizi di oscillazione del polso",
+          "Combattimento ombra",
+          "Allenamento di indurimento con pietra",
+          "Allenamento dello stinco con bastone"
+        ],
+        "practicalTips": [
+          "Inizia con pesi più leggeri",
+          "Focus prima sull'esecuzione corretta",
+          "Integra la respirazione sanchin",
+          "Prendi riposo sufficiente tra le serie",
+          "Alterna tra diversi esercizi"
+        ]
+      }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Vasi di presa",
-      "description": "Vasi di presa per forza delle dita e delle mani",
+      "translation": "Vasi di Presa",
+      "description": "Vasi di presa per forza di dita e mani",
       "origin": "Cina",
       "weight": "3-5 kg",
-      "function": "Funzione",
-      "construction": "Costruzione",
-      "attentionPoints": "Punti di Attenzione",
-      "exercises": "Esercizi"
+      "function": {
+        "title": "Funzione",
+        "description": "Vasi di presa tradizionali per sviluppare la forza di dita e mani",
+        "mainFunctions": [
+          "Rafforza i muscoli di dita e mani",
+          "Migliora la forza di presa e resistenza",
+          "Sviluppa la forza dell'avambraccio",
+          "Migliora la stabilità del polso"
+        ]
+      },
+      "construction": {
+        "title": "Costruzione",
+        "materials": [
+          "Vasi tradizionali in argilla o ceramica",
+          "Alternative moderne: contenitori in cemento o metallo",
+          "Diametro della maniglia: 3-5 cm per allenamento di presa ottimale"
+        ],
+        "weight": "Il peso può essere regolato riempiendo con sabbia, ghiaia o altri materiali"
+      },
+      "exercises": [
+        "Prese statiche",
+        "Camminare con i vasi",
+        "Movimenti circolari",
+        "Movimenti su e giù"
+      ]
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Ovale di ferro",
+      "translation": "Anello di Ferro",
       "description": "Ovale di ferro per condizionamento corporeo totale",
       "origin": "Hawaii",
       "weight": "30-40 kg",
-      "exercises": "Esercizi",
-      "classicExercises": "Esercizi Classici"
+      "function": {
+        "title": "Funzione",
+        "description": "Ovale di ferro pesante utilizzato per condizionamento corporeo totale e sviluppo della forza",
+        "mainFunctions": [
+          "Sviluppo della forza corporea totale",
+          "Miglioramento della stabilità del core",
+          "Rafforzamento della presa e dell'avambraccio",
+          "Costruzione di resistenza e condizione fisica"
+        ]
+      },
+      "construction": {
+        "title": "Costruzione",
+        "materials": [
+          "Costruzione in ferro massiccio",
+          "Forma ovale per distribuzione equilibrata del peso",
+          "Superficie liscia per prevenire lesioni",
+          "Maniglie rinforzate per presa sicura"
+        ],
+        "dimensions": {
+          "length": "60-80 cm",
+          "width": "30-40 cm",
+          "handleDiameter": "3-4 cm",
+          "weight": "30-40 kg"
+        }
+      },
+      "exercises": [
+        "Sollevare e trasportare",
+        "Esercizi di camminata",
+        "Prese statiche",
+        "Oscillazioni di base",
+        "Movimenti dinamici",
+        "Integrazione con kata"
+      ],
+      "safetyPoints": [
+        "Richiede guida esperta",
+        "Inizia con buon riscaldamento",
+        "Focus sulla tecnica di sollevamento corretta",
+        "Non allenarti mai da solo con pesi pesanti"
+      ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Lucchetti di pietra",
-      "description": "Lucchetti di pietra per forza della presa e tecnica",
+      "translation": "Lucchetti di Pietra",
+      "description": "Lucchetti di pietra per forza di presa e tecnica",
       "origin": "Cina/Okinawa",
       "weight": "2-8 kg",
-      "function": "Funzione",
-      "construction": "Costruzione",
-      "attentionPoints": "Punti di Attenzione",
-      "exercises": "Esercizi"
+      "function": {
+        "title": "Funzione",
+        "description": "Lucchetti di pietra utilizzati per sviluppare forza di presa e tecnica",
+        "mainFunctions": [
+          "Sviluppo della forza di presa",
+          "Miglioramento della stabilità del polso",
+          "Rafforzamento muscolare dell'avambraccio",
+          "Raffinamento della tecnica"
+        ]
+      },
+      "construction": {
+        "title": "Costruzione",
+        "materials": [
+          "Corpo in pietra o cemento",
+          "Maniglia in legno o metallo",
+          "Connessione sicura tra corpo e maniglia",
+          "Finitura superficiale liscia"
+        ],
+        "dimensions": {
+          "body": "15-25 cm di lunghezza",
+          "handle": "3-4 cm di diametro",
+          "weight": "2-8 kg a seconda del livello",
+          "shape": "Rettangolare o cilindrico"
+        }
+      },
+      "exercises": [
+        "Prese statiche",
+        "Esercizi di camminata",
+        "Movimenti di sollevamento",
+        "Esercizi di rotazione"
+      ]
     }
   },
   "sections": {
@@ -107,5 +337,29 @@
     "jariBakoDescription": "Per forza delle gambe e dei piedi",
     "makiwara": "Tavola da colpo",
     "makiwaraDescription": "Per indurimento di pugni e piedi"
+  },
+  "training": {
+    "title": "Allenamento",
+    "principles": {
+      "title": "Principi di Allenamento",
+      "bodyBreathMind": "Coordinazione di corpo, respirazione e mente",
+      "gradualProgression": "Progressione graduale in peso e intensità",
+      "correctTechnique": "Tecnica corretta prima di aumentare il peso",
+      "safetyFirst": "Sicurezza prima di tutto in tutti gli esercizi"
+    },
+    "safety": {
+      "title": "Linee Guida di Sicurezza",
+      "expertGuidance": "La guida esperta è essenziale",
+      "properWarmup": "Buon riscaldamento prima dell'allenamento",
+      "gradualBuildUp": "Costruzione graduale dell'intensità",
+      "listenToBody": "Ascolta i segnali del tuo corpo"
+    }
+  },
+  "benefits": {
+    "title": "Benefici",
+    "physical": "Benefici Fisici",
+    "technical": "Benefici Tecnici",
+    "mental": "Benefici Mentali",
+    "safety": "Benefici di Sicurezza"
   }
 } 
