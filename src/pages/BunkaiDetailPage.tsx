@@ -129,38 +129,40 @@ const BunkaiDetailPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="p-4 md:p-6">
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="bg-gradient-to-r from-red-600 to-red-800 text-white p-6 shadow-lg"
+        className="max-w-4xl mx-auto mb-6"
       >
-        <div className="max-w-4xl mx-auto">
-          <Link to="/bunkai" className="inline-flex items-center text-sm hover:underline mb-4 opacity-90 hover:opacity-100 transition-opacity">
+        <Button asChild variant="outline" className="mb-4">
+          <Link to="/bunkai">
             <ArrowLeft className="mr-2 h-4 w-4" />
             {t('common.backToBunkai', 'Terug naar Bunkai Overzicht')}
           </Link>
-          <h1 className="text-4xl font-bold">{t(`kata.${kata.id}.name`, kata.name || kata.id)} - {t('bunkai.title', 'Bunkai')}</h1>
-          <p className="mt-2 text-lg opacity-90">{t(`kata.${kata.id}.description`, kata.description || '')}</p>
-           <div className="mt-3">
-            <Badge variant="secondary" className="bg-white text-red-700 text-sm">
+        </Button>
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-3xl font-bold">{t(`kata.${kata.id}.name`, kata.name || kata.id)} - {t('bunkai.title', 'Bunkai')}</CardTitle>
+            <CardDescription className="text-lg">{t(`kata.${kata.id}.description`, kata.description || '')}</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Badge variant="secondary" className="text-sm">
               {t(`kata.levels.${kata.level.toLowerCase()}`, kata.level)}
             </Badge>
-          </div>
-        </div>
+          </CardContent>
+        </Card>
       </motion.div>
 
-      <div className="p-4 md:p-6">
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="max-w-4xl mx-auto space-y-6"
-        >
-          {renderBunkaiContent()}
-        </motion.div>
-      </div>
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        className="max-w-4xl mx-auto space-y-4"
+      >
+        {renderBunkaiContent()}
+      </motion.div>
     </div>
   );
 };
