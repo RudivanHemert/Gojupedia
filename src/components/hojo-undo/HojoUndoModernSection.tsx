@@ -141,8 +141,8 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
                   <div className="grid gap-4">
                     {Object.entries(section.dimensions).map(([key, value]) => (
                       <div key={key} className="flex justify-between items-center p-3 bg-muted rounded-lg">
-                        <span className="font-medium capitalize">{key.replace(/([A-Z])/g, ' $1').trim()}</span>
-                        <span className="text-muted-foreground">{value as string}</span>
+                        <span className="font-medium">{(value as any).label || key}</span>
+                        <span className="text-muted-foreground">{(value as any).value || value}</span>
                       </div>
                     ))}
                   </div>
@@ -201,10 +201,10 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
                     <p className="text-base leading-relaxed">{section.weight}</p>
                   ) : (
                     <div className="space-y-4">
-                      {Object.entries(section.weight).map(([key, value]) => (
+                      {Object.entries(section.weight).map(([key, item]: [string, any]) => (
                         <div key={key} className="flex justify-between items-center p-3 bg-muted rounded-lg">
-                          <span className="font-medium capitalize">{key.replace(/([A-Z])/g, ' $1').trim()}</span>
-                          <span className="text-muted-foreground">{value as string}</span>
+                          <span className="font-medium">{item.label}</span>
+                          <span className="text-muted-foreground">{item.value}</span>
                         </div>
                       ))}
                     </div>
@@ -503,7 +503,7 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
                   <link.icon className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-medium">{link.label}</div>
-                    {link.isActive && link.description && (
+                    {link.isActive && link.description && !link.path.endsWith('/function') && (
                       <div className="text-sm text-muted-foreground mt-1 whitespace-normal">
                         {link.description}
                       </div>

@@ -5,7 +5,12 @@
     "back": "Terug",
     "mainFunctions": "Hoofdfuncties",
     "trainingEffects": "Trainingseffecten",
-    "dimensions": "Afmetingen",
+    "dimensions": {
+      "stickLength": "Stoklengte",
+      "stickDiameter": "Stokdiameter",
+      "stoneDiameter": "Steendiameter",
+      "stoneHeight": "Steenhoogte"
+    },
     "materials": "Materialen",
     "weightRecommendations": "Gewichtsaanbevelingen",
     "importantPoints": "Belangrijke Punten",
@@ -136,13 +141,13 @@
       "construction": {
         "title": "Constructie",
         "dimensions": {
-          "stickLength": "Aanbevolen: Schouderbreedte",
-          "stickDiameter": "Dikte bepaalt trainingseffect",
-          "stoneDiameter": "Niet meer dan 20-30 cm",
-          "stoneHeight": "Niet hoger dan 10-15 cm"
+          "stickLength": { "label": "Stoklengte", "value": "Aanbevolen: Schouderbreedte" },
+          "stickDiameter": { "label": "Stokdiameter", "value": "Dikte bepaalt trainingseffect" },
+          "stoneDiameter": { "label": "Steendiameter", "value": "Niet meer dan 20-30 cm" },
+          "stoneHeight": { "label": "Steenhoogte", "value": "Niet hoger dan 10-15 cm" }
         },
         "materials": {
-          "stone": "Betonmengsel met fijn grind",
+          "stone": "Betonmix met fijn grind",
           "connection": "Spijkers, schroeven of schroefankers"
         },
         "weight": {
@@ -276,10 +281,10 @@
           "Versterkte handvatten voor veilige grip"
         ],
         "dimensions": {
-          "length": "60-80 cm",
-          "width": "30-40 cm",
-          "handleDiameter": "3-4 cm",
-          "weight": "30-40 kg"
+          "length": { "label": "Lengte", "value": "60-80 cm" },
+          "width": { "label": "Breedte", "value": "30-40 cm" },
+          "handleDiameter": { "label": "Diameter Handvat", "value": "3-4 cm" },
+          "weight": { "label": "Gewicht", "value": "30-40 kg" }
         }
       },
       "attentionPoints": {
@@ -331,10 +336,10 @@
           "Glad oppervlak afwerking"
         ],
         "dimensions": {
-          "body": "15-25 cm lengte",
-          "handle": "3-4 cm diameter",
-          "weight": "2-8 kg afhankelijk van niveau",
-          "shape": "Rechthoekig of cilindrisch"
+          "body": { "label": "Lichaam", "value": "15-25 cm lengte" },
+          "handle": { "label": "Diameter Handvat", "value": "3-4 cm" },
+          "weight": { "label": "Gewicht", "value": "2-8 kg afhankelijk van niveau" },
+          "shape": { "label": "Vorm", "value": "Rechthoekig of cilindrisch" }
         }
       },
       "attentionPoints": {

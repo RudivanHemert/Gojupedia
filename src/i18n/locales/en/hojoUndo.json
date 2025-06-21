@@ -136,10 +136,10 @@
       "construction": {
         "title": "Construction",
         "dimensions": {
-          "stickLength": "Recommended: Shoulder width",
-          "stickDiameter": "Thickness determines training effect",
-          "stoneDiameter": "No more than 20-30 cm",
-          "stoneHeight": "No higher than 10-15 cm"
+          "stickLength": { "label": "Stick Length", "value": "Recommended: Shoulder width" },
+          "stickDiameter": { "label": "Stick Diameter", "value": "Thickness determines training effect" },
+          "stoneDiameter": { "label": "Stone Diameter", "value": "No more than 20-30 cm" },
+          "stoneHeight": { "label": "Stone Height", "value": "No higher than 10-15 cm" }
         },
         "materials": {
           "stone": "Concrete mixture with fine gravel",
@@ -276,10 +276,10 @@
           "Reinforced handles for secure grip"
         ],
         "dimensions": {
-          "length": "60-80 cm",
-          "width": "30-40 cm",
-          "handleDiameter": "3-4 cm",
-          "weight": "30-40 kg"
+          "length": { "label": "Length", "value": "60-80 cm" },
+          "width": { "label": "Width", "value": "30-40 cm" },
+          "handleDiameter": { "label": "Handle Diameter", "value": "3-4 cm" },
+          "weight": { "label": "Weight", "value": "30-40 kg" }
         }
       },
       "attentionPoints": {
@@ -331,10 +331,10 @@
           "Smooth surface finish"
         ],
         "dimensions": {
-          "body": "15-25 cm length",
-          "handle": "3-4 cm diameter",
-          "weight": "2-8 kg depending on level",
-          "shape": "Rectangular or cylindrical"
+          "body": { "label": "Body", "value": "15-25 cm length" },
+          "handle": { "label": "Handle Diameter", "value": "3-4 cm" },
+          "weight": { "label": "Weight", "value": "2-8 kg depending on level" },
+          "shape": { "label": "Shape", "value": "Rectangular or cylindrical" }
         }
       },
       "attentionPoints": {
