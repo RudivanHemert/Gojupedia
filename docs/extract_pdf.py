@@ -15,12 +15,17 @@ def extract_pdf_text(pdf_path):
             all_text += f"\n--- PAGINA {i+1} ---\n" + text
             
         # Save to text file
-        with open('docs/extracted_text.txt', 'w', encoding='utf-8') as f:
+        output_filename = pdf_path.replace('.pdf', '_extracted.txt')
+        with open(output_filename, 'w', encoding='utf-8') as f:
             f.write(all_text)
-        print("Tekst opgeslagen in docs/extracted_text.txt")
+        print(f"Tekst opgeslagen in {output_filename}")
         
     except Exception as e:
         print(f"Fout bij het lezen van PDF: {e}")
 
 if __name__ == "__main__":
-    extract_pdf_text('docs/technieken-van-de-kata.pdf') 
+    if len(sys.argv) > 1:
+        pdf_file = sys.argv[1]
+    else:
+        pdf_file = 'Gojuryu_newaza.pdf'
+    extract_pdf_text(pdf_file) 

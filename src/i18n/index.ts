@@ -20,6 +20,7 @@ import enTechniques from './locales/en/techniques.json';
 import enGraduations from './locales/en/graduations.json';
 import enQuiz from './locales/en/quiz.json';
 import enHojoUndo from './locales/en/hojoUndo.json';
+import enNewaza from './locales/en/newaza.json';
 
 import deCommon from './locales/de/common.json';
 import deNavigation from './locales/de/navigation.json';
@@ -38,6 +39,7 @@ import deTechniques from './locales/de/techniques.json';
 import deGraduations from './locales/de/graduations.json';
 import deQuiz from './locales/de/quiz.json';
 import deHojoUndo from './locales/de/hojoUndo.json';
+import deNewaza from './locales/de/newaza.json';
 
 import esCommon from './locales/es/common.json';
 import esNavigation from './locales/es/navigation.json';
@@ -56,6 +58,7 @@ import esTechniques from './locales/es/techniques.json';
 import esGraduations from './locales/es/graduations.json';
 import esQuiz from './locales/es/quiz.json';
 import esHojoUndo from './locales/es/hojoUndo.json';
+import esNewaza from './locales/es/newaza.json';
 
 import frCommon from './locales/fr/common.json';
 import frNavigation from './locales/fr/navigation.json';
@@ -74,6 +77,7 @@ import frTechniques from './locales/fr/techniques.json';
 import frGraduations from './locales/fr/graduations.json';
 import frQuiz from './locales/fr/quiz.json';
 import frHojoUndo from './locales/fr/hojoUndo.json';
+import frNewaza from './locales/fr/newaza.json';
 
 import itCommon from './locales/it/common.json';
 import itNavigation from './locales/it/navigation.json';
@@ -92,6 +96,7 @@ import itTechniques from './locales/it/techniques.json';
 import itGraduations from './locales/it/graduations.json';
 import itQuiz from './locales/it/quiz.json';
 import itHojoUndo from './locales/it/hojoUndo.json';
+import itNewaza from './locales/it/newaza.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlNavigation from './locales/nl/navigation.json';
@@ -110,6 +115,7 @@ import nlTechniques from './locales/nl/techniques.json';
 import nlGraduations from './locales/nl/graduations.json';
 import nlQuiz from './locales/nl/quiz.json';
 import nlHojoUndo from './locales/nl/hojoUndo.json';
+import nlNewaza from './locales/nl/newaza.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -156,6 +162,7 @@ const enTranslations = combineTranslations({
   graduations: enGraduations,
   quiz: enQuiz,
   hojoUndo: enHojoUndo,
+  newaza: enNewaza,
 });
 
 const deTranslations = combineTranslations({
@@ -176,6 +183,7 @@ const deTranslations = combineTranslations({
   graduations: deGraduations,
   quiz: deQuiz,
   hojoUndo: deHojoUndo,
+  newaza: deNewaza,
 });
 
 const esTranslations = combineTranslations({
@@ -196,6 +204,7 @@ const esTranslations = combineTranslations({
   graduations: esGraduations,
   quiz: esQuiz,
   hojoUndo: esHojoUndo,
+  newaza: esNewaza,
 });
 
 const frTranslations = combineTranslations({
@@ -216,6 +225,7 @@ const frTranslations = combineTranslations({
   graduations: frGraduations,
   quiz: frQuiz,
   hojoUndo: frHojoUndo,
+  newaza: frNewaza,
 });
 
 const itTranslations = combineTranslations({
@@ -236,6 +246,7 @@ const itTranslations = combineTranslations({
   graduations: itGraduations,
   quiz: itQuiz,
   hojoUndo: itHojoUndo,
+  newaza: itNewaza,
 });
 
 const nlTranslations = combineTranslations({
@@ -256,6 +267,7 @@ const nlTranslations = combineTranslations({
   graduations: nlGraduations,
   quiz: nlQuiz,
   hojoUndo: nlHojoUndo,
+  newaza: nlNewaza,
 });
 
 i18n

@@ -23,6 +23,7 @@ import KataTheoryPage from "./pages/KataTheoryPage";
 import BunkaiPage from "./pages/BunkaiPage";
 import BunkaiDetailPage from "./pages/BunkaiDetailPage";
 import HojoUndoPage from "./pages/HojoUndoPage";
+import NewazaPage from "./pages/NewazaPage";
 import KumitePage from "./pages/KumitePage";
 import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
@@ -37,6 +38,14 @@ import PhilosophyPage from './pages/PhilosophyPage';
 import GeneralIntro from './pages/hojo-undo/GeneralIntro';
 import StrengthExercises from './pages/hojo-undo/StrengthExercises';
 import HardeningExercises from './pages/hojo-undo/HardeningExercises';
+
+// Import Newaza sub-pages
+import NewazaIntroduction from './pages/newaza/Introduction';
+import NewazaTrainingElements from './pages/newaza/TrainingElements';
+import NewazaGroundPositions from './pages/newaza/GroundPositions';
+import NewazaKakie from './pages/newaza/Kakie';
+import NewazaTechniques from './pages/newaza/Techniques';
+import NewazaDrills from './pages/newaza/Drills';
 
 // Import the generic markdown page component
 import MarkdownContentPage from './pages/MarkdownContentPage';
@@ -118,6 +127,13 @@ const AppContent = React.memo(() => {
           <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
           <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
           <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
+          <Route path="/newaza" element={<NewazaPage />} />
+          <Route path="/newaza/introduction" element={<NewazaIntroduction />} />
+          <Route path="/newaza/training-elements" element={<NewazaTrainingElements />} />
+          <Route path="/newaza/ground-positions" element={<NewazaGroundPositions />} />
+          <Route path="/newaza/kakie" element={<NewazaKakie />} />
+          <Route path="/newaza/techniques" element={<NewazaTechniques />} />
+          <Route path="/newaza/drills" element={<NewazaDrills />} />
           <Route path="/kumite" element={<KumitePage />} />
           <Route path="/study" element={<StudyPage />} />
           <Route path="/study/quizzes" element={<QuizListPage />} />

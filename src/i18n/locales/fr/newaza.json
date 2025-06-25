@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Combat au Sol)",
+    "description": "Techniques et principes de combat au sol de Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "description": "Fondamentaux et philosophie de Newaza"
+      },
+      "training-elements": {
+        "title": "Éléments d'Entraînement",
+        "description": "Exercices préparatoires et entraînement de base"
+      },
+      "ground-positions": {
+        "title": "Positions au Sol",
+        "description": "Positions, mouvements et contrôle"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Exercices de Kakie pour le combat au sol"
+      },
+      "techniques": {
+        "title": "Techniques",
+        "description": "Techniques de combat au sol et applications"
+      },
+      "drills": {
+        "title": "Exercices et Pratiques",
+        "description": "Exercices avec partenaire et randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Combat au Sol)",
+        "subtitle": "Introduction",
+        "description": "Goju-ryu possède de nombreuses techniques traditionnelles où l'adversaire est amené au sol. En conséquence, des coups décisifs ou des clés articulaires sont appliqués pour arrêter l'adversaire dans son comportement agressif."
+      },
+      "training-elements": {
+        "title": "Éléments d'Entraînement pour Newaza",
+        "subtitle": "Exercices préparatoires et méthodes d'entraînement de base"
+      },
+      "ground-positions": {
+        "title": "Positions et Mouvements au Sol",
+        "subtitle": "Positions, mouvements et techniques de contrôle"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Exercices de Kakie adaptés pour le combat au sol"
+      },
+      "techniques": {
+        "title": "Techniques de Combat au Sol",
+        "subtitle": "Techniques Go et Ju pour le combat au sol"
+      },
+      "drills": {
+        "title": "Exercices et Pratiques",
+        "subtitle": "Pratique avec partenaire et méthodes d'entraînement"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Retour à Newaza",
+      "loading": "Chargement...",
+      "contentError": "Le contenu n'a pas pu être chargé."
+    }
+  }
+} 

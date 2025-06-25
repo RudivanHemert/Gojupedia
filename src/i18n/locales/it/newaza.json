@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Combattimento a Terra)",
+    "description": "Tecniche e principi di combattimento a terra di Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Introduzione",
+        "description": "Fondamenti e filosofia di Newaza"
+      },
+      "training-elements": {
+        "title": "Elementi di Allenamento",
+        "description": "Esercizi preparatori e allenamento di base"
+      },
+      "ground-positions": {
+        "title": "Posizioni a Terra",
+        "description": "Posizioni, movimenti e controllo"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Esercizi di Kakie per combattimento a terra"
+      },
+      "techniques": {
+        "title": "Tecniche",
+        "description": "Tecniche di combattimento a terra e applicazioni"
+      },
+      "drills": {
+        "title": "Esercizi e Pratiche",
+        "description": "Esercizi con partner e randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Combattimento a Terra)",
+        "subtitle": "Introduzione",
+        "description": "Goju-ryu ha molte tecniche tradizionali dove l'avversario viene portato a terra. Come conseguenza, vengono applicati colpi decisivi o leve articolari per fermare l'avversario nel suo comportamento aggressivo."
+      },
+      "training-elements": {
+        "title": "Elementi di Allenamento per Newaza",
+        "subtitle": "Esercizi preparatori e metodi di allenamento di base"
+      },
+      "ground-positions": {
+        "title": "Posizioni e Movimenti a Terra",
+        "subtitle": "Posizioni, movimenti e tecniche di controllo"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Esercizi di Kakie adattati per combattimento a terra"
+      },
+      "techniques": {
+        "title": "Tecniche di Combattimento a Terra",
+        "subtitle": "Tecniche Go e Ju per combattimento a terra"
+      },
+      "drills": {
+        "title": "Esercizi e Pratiche",
+        "subtitle": "Pratica con partner e metodi di allenamento"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Torna a Newaza",
+      "loading": "Caricamento...",
+      "contentError": "Il contenuto non è stato caricato."
+    }
+  }
+} 

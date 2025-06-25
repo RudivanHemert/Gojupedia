@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Bodenkampf)",
+    "description": "Bodenkampf-Techniken und Prinzipien von Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "description": "Grundlagen und Philosophie von Newaza"
+      },
+      "training-elements": {
+        "title": "Trainingselemente",
+        "description": "Vorbereitende Übungen und Grundlagentraining"
+      },
+      "ground-positions": {
+        "title": "Bodenpositionen",
+        "description": "Positionen, Bewegungen und Kontrolle"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Kakie-Übungen für Bodenkampf"
+      },
+      "techniques": {
+        "title": "Techniken",
+        "description": "Bodenkampf-Techniken und Anwendungen"
+      },
+      "drills": {
+        "title": "Drills & Übungen",
+        "description": "Partnerübungen und Randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Bodenkampf)",
+        "subtitle": "Einführung",
+        "description": "Goju-ryu hat viele traditionelle Techniken, bei denen der Gegner zu Boden gebracht wird. Als Folge werden entweder entscheidende Schläge oder Gelenkhebel angewendet, um den Gegner in seinem aggressiven Verhalten zu stoppen."
+      },
+      "training-elements": {
+        "title": "Trainingselemente für Newaza",
+        "subtitle": "Vorbereitende Übungen und Grundlagentrainingsmethoden"
+      },
+      "ground-positions": {
+        "title": "Bodenpositionen und Bewegungen",
+        "subtitle": "Positionen, Bewegungen und Kontrolltechniken"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Kakie-Übungen angepasst für Bodenkampf"
+      },
+      "techniques": {
+        "title": "Bodenkampf-Techniken",
+        "subtitle": "Go- und Ju-Techniken für Bodenkampf"
+      },
+      "drills": {
+        "title": "Drills & Übungen",
+        "subtitle": "Partnerpraxis und Trainingsmethoden"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Zurück zu Newaza",
+      "loading": "Laden...",
+      "contentError": "Inhalt konnte nicht geladen werden."
+    }
+  }
+} 

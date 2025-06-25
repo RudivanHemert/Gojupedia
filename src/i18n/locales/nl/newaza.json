@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Grondgevecht)",
+    "description": "Grondgevecht technieken en principes van Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Inleiding",
+        "description": "Grondbeginselen en filosofie van Newaza"
+      },
+      "training-elements": {
+        "title": "Trainingselementen",
+        "description": "Voorbereidende oefeningen en basis training"
+      },
+      "ground-positions": {
+        "title": "Grondposities",
+        "description": "Posities, bewegingen en controle"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Kakie oefeningen voor grondgevecht"
+      },
+      "techniques": {
+        "title": "Technieken",
+        "description": "Grondgevecht technieken en toepassingen"
+      },
+      "drills": {
+        "title": "Drills & Oefeningen",
+        "description": "Partner oefeningen en randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Grondgevecht)",
+        "subtitle": "Inleiding",
+        "description": "Goju-ryu heeft vele traditionele technieken waarbij de tegenstander naar de grond wordt gebracht. Als vervolg worden er beslissende slagen of gewrichtsloten toegepast om de tegenstander te stoppen in zijn agressieve gedrag."
+      },
+      "training-elements": {
+        "title": "Trainingselementen voor Newaza",
+        "subtitle": "Voorbereidende oefeningen en basis trainingsmethoden"
+      },
+      "ground-positions": {
+        "title": "Grondposities en Bewegingen",
+        "subtitle": "Posities, bewegingen en controle technieken"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Kakie oefeningen aangepast voor grondgevecht"
+      },
+      "techniques": {
+        "title": "Grondgevecht Technieken",
+        "subtitle": "Go en Ju technieken voor grondgevecht"
+      },
+      "drills": {
+        "title": "Drills & Oefeningen",
+        "subtitle": "Partner praktijk en trainingsmethoden"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Terug naar Newaza",
+      "loading": "Laden...",
+      "contentError": "Content kon niet worden geladen."
+    }
+  }
+} 

@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Lucha en el Suelo)",
+    "description": "Técnicas y principios de lucha en el suelo de Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Introducción",
+        "description": "Fundamentos y filosofía de Newaza"
+      },
+      "training-elements": {
+        "title": "Elementos de Entrenamiento",
+        "description": "Ejercicios preparatorios y entrenamiento básico"
+      },
+      "ground-positions": {
+        "title": "Posiciones en el Suelo",
+        "description": "Posiciones, movimientos y control"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Ejercicios de Kakie para lucha en el suelo"
+      },
+      "techniques": {
+        "title": "Técnicas",
+        "description": "Técnicas de lucha en el suelo y aplicaciones"
+      },
+      "drills": {
+        "title": "Ejercicios y Prácticas",
+        "description": "Ejercicios con compañero y randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Lucha en el Suelo)",
+        "subtitle": "Introducción",
+        "description": "Goju-ryu tiene muchas técnicas tradicionales donde el oponente es llevado al suelo. Como seguimiento, se aplican golpes decisivos o bloqueos de articulaciones para detener al oponente en su comportamiento agresivo."
+      },
+      "training-elements": {
+        "title": "Elementos de Entrenamiento para Newaza",
+        "subtitle": "Ejercicios preparatorios y métodos de entrenamiento básico"
+      },
+      "ground-positions": {
+        "title": "Posiciones y Movimientos en el Suelo",
+        "subtitle": "Posiciones, movimientos y técnicas de control"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Ejercicios de Kakie adaptados para lucha en el suelo"
+      },
+      "techniques": {
+        "title": "Técnicas de Lucha en el Suelo",
+        "subtitle": "Técnicas Go y Ju para lucha en el suelo"
+      },
+      "drills": {
+        "title": "Ejercicios y Prácticas",
+        "subtitle": "Práctica con compañero y métodos de entrenamiento"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Volver a Newaza",
+      "loading": "Cargando...",
+      "contentError": "El contenido no se pudo cargar."
+    }
+  }
+} 

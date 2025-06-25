@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Ground Fighting)",
+    "description": "Ground fighting techniques and principles of Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "description": "Fundamentals and philosophy of Newaza"
+      },
+      "training-elements": {
+        "title": "Training Elements",
+        "description": "Preparatory exercises and basic training"
+      },
+      "ground-positions": {
+        "title": "Ground Positions",
+        "description": "Positions, movements and control"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Kakie exercises for ground fighting"
+      },
+      "techniques": {
+        "title": "Techniques",
+        "description": "Ground fighting techniques and applications"
+      },
+      "drills": {
+        "title": "Drills & Exercises",
+        "description": "Partner exercises and randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Ground Fighting)",
+        "subtitle": "Introduction",
+        "description": "Goju-ryu has many traditional techniques where the opponent is taken down to the ground. As a follow-up, either decisive blows or joint locks are applied to stop the opponent in their aggressive behavior."
+      },
+      "training-elements": {
+        "title": "Training Elements for Newaza",
+        "subtitle": "Preparatory exercises and basic training methods"
+      },
+      "ground-positions": {
+        "title": "Ground Positions and Movements",
+        "subtitle": "Positions, movements and control techniques"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Kakie exercises adapted for ground fighting"
+      },
+      "techniques": {
+        "title": "Ground Fighting Techniques",
+        "subtitle": "Go and Ju techniques for ground fighting"
+      },
+      "drills": {
+        "title": "Drills & Exercises",
+        "subtitle": "Partner practice and training methods"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Back to Newaza",
+      "loading": "Loading...",
+      "contentError": "Content could not be loaded."
+    }
+  }
+} 
