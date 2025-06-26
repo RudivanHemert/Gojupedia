@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "Goju Wiki Quest",
+    "appName": "GojuPedia",
     "shortAppName": "Goju Ryu",
     "loading": "Laden...",
     "error": "Fout",
@@ -30,5 +30,42 @@
       "philosophy_name": "Filosofie", 
       "philosophy_description": "Kernprincipes en waarden van Goju Ryu"
     }
+  },
+  "search": {
+    "title": "Zoeken",
+    "description": "Zoek door kata, technieken, filosofie en meer",
+    "placeholder": "Zoek naar kata, technieken, filosofie...",
+    "filters": "Filters",
+    "clear": "Wissen",
+    "contentType": "Inhoudstype",
+    "tags": "Tags",
+    "results": "Resultaten",
+    "noResults": "Geen resultaten gevonden",
+    "noResultsDescription": "Probeer je zoektermen of filters aan te passen"
+  },
+  "navigation": {
+    "home": "Home",
+    "theory": "Theorie",
+    "practice": "Oefenen",
+    "study": "Studie",
+    "search": "Zoeken",
+    "settings": "Instellingen",
+    "theoryOverview": "Theorie Overzicht",
+    "terminology": "Terminologie",
+    "history": "Geschiedenis",
+    "philosophy": "Filosofie",
+    "kataTheory": "Kata Theorie",
+    "vitalPoints": "Vitale Punten",
+    "gradings": "Gradaties",
+    "practiceOverview": "Overzicht Oefenen",
+    "techniques": "Technieken",
+    "kata": "Kata",
+    "bunkai": "Bunkai",
+    "hojoUndo": "Hojo Undo",
+    "kumite": "Kumite",
+    "newaza": "Newaza",
+    "studyOverview": "Overzicht Studie",
+    "quizzes": "Quizzen",
+    "flashcards": "Flashcards"
   }
 } 

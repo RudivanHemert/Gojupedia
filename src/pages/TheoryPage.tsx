@@ -1,5 +1,4 @@
 import React from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { Book, Scroll, Target, ChevronDown } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 import { TheorySectionList } from '@/components/theory/TheorySection';
@@ -46,16 +45,14 @@ const TheoryPage = () => {
   ];
 
   return (
-    <MobileLayout hideHeader={true}>
+    <div className="p-4">
       <TheoryHeader 
         title={t('theory.title')}
         description={t('theory.description')}
       />
 
-      <div className="p-4">
-        <TheorySectionList sections={sections} />
-      </div>
-    </MobileLayout>
+      <TheorySectionList sections={sections} />
+    </div>
   );
 };
 

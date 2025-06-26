@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ChevronLeft, BookOpen, Dumbbell, Target, Zap, Play, Users, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { useTranslation } from 'react-i18next';
 
 interface NewazaSectionRendererProps {

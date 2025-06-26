@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { ChevronLeft, Image as ImageIcon, Video as VideoIcon, AlertCircle } from 'lucide-react';
@@ -25,30 +24,26 @@ const TechniqueDetailPage = () => {
 
   if (!technique) {
     return (
-      <MobileLayout hideHeader={true}>
-        <div className="p-4">
-          <Alert variant="destructive">
-            <AlertCircle className="h-4 w-4" />
-            <AlertTitle>Error</AlertTitle>
-            <AlertDescription>
-              Technique not found. The technique you're looking for doesn't exist.
-            </AlertDescription>
-          </Alert>
-          <Button asChild variant="outline" className="mt-4">
-            <Link to="/techniques">
-              <ChevronLeft className="mr-2 h-4 w-4" />
-              Back to Techniques
-            </Link>
-          </Button>
-        </div>
-      </MobileLayout>
+      <div className="p-4">
+        <Alert variant="destructive">
+          <AlertCircle className="h-4 w-4" />
+          <AlertTitle>Error</AlertTitle>
+          <AlertDescription>
+            Technique not found. The technique you're looking for doesn't exist.
+          </AlertDescription>
+        </Alert>
+        <Button asChild variant="outline" className="mt-4">
+          <Link to="/techniques">
+            <ChevronLeft className="mr-2 h-4 w-4" />
+            Back to Techniques
+          </Link>
+        </Button>
+      </div>
     );
   }
 
   return (
-    // Ensure hideHeader is true
-    <MobileLayout hideHeader={true}>
-      {/* Content Area */}
+    <>
       <div className="p-5 space-y-6">
         {/* Basic Info */}
         <motion.div
@@ -145,10 +140,8 @@ const TechniqueDetailPage = () => {
             </p>
           )}
         </motion.div>
-
       </div>
 
-      {/* Navigation Button */}
       <div className="sticky bottom-20 px-5 pb-4 pt-2 bg-gradient-to-t from-background to-transparent">
         <Button asChild variant="outline" className="w-full">
           <Link to="/techniques">
@@ -157,7 +150,7 @@ const TechniqueDetailPage = () => {
           </Link>
         </Button>
       </div>
-    </MobileLayout>
+    </>
   );
 };
 

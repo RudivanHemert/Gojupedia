@@ -4,7 +4,6 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import modular translation files
 import enCommon from './locales/en/common.json';
-import enNavigation from './locales/en/navigation.json';
 import enHome from './locales/en/home.json';
 import enTheory from './locales/en/theory.json';
 import enTerminology from './locales/en/terminology.json';
@@ -23,7 +22,6 @@ import enHojoUndo from './locales/en/hojoUndo.json';
 import enNewaza from './locales/en/newaza.json';
 
 import deCommon from './locales/de/common.json';
-import deNavigation from './locales/de/navigation.json';
 import deHome from './locales/de/home.json';
 import deTheory from './locales/de/theory.json';
 import deTerminology from './locales/de/terminology.json';
@@ -42,7 +40,6 @@ import deHojoUndo from './locales/de/hojoUndo.json';
 import deNewaza from './locales/de/newaza.json';
 
 import esCommon from './locales/es/common.json';
-import esNavigation from './locales/es/navigation.json';
 import esHome from './locales/es/home.json';
 import esTheory from './locales/es/theory.json';
 import esTerminology from './locales/es/terminology.json';
@@ -61,7 +58,6 @@ import esHojoUndo from './locales/es/hojoUndo.json';
 import esNewaza from './locales/es/newaza.json';
 
 import frCommon from './locales/fr/common.json';
-import frNavigation from './locales/fr/navigation.json';
 import frHome from './locales/fr/home.json';
 import frTheory from './locales/fr/theory.json';
 import frTerminology from './locales/fr/terminology.json';
@@ -80,7 +76,6 @@ import frHojoUndo from './locales/fr/hojoUndo.json';
 import frNewaza from './locales/fr/newaza.json';
 
 import itCommon from './locales/it/common.json';
-import itNavigation from './locales/it/navigation.json';
 import itHome from './locales/it/home.json';
 import itTheory from './locales/it/theory.json';
 import itTerminology from './locales/it/terminology.json';
@@ -99,7 +94,6 @@ import itHojoUndo from './locales/it/hojoUndo.json';
 import itNewaza from './locales/it/newaza.json';
 
 import nlCommon from './locales/nl/common.json';
-import nlNavigation from './locales/nl/navigation.json';
 import nlHome from './locales/nl/home.json';
 import nlTheory from './locales/nl/theory.json';
 import nlTerminology from './locales/nl/terminology.json';
@@ -146,7 +140,6 @@ const combineTranslations = (modules: Record<string, any>) => {
 
 const enTranslations = combineTranslations({
   common: enCommon,
-  navigation: enNavigation,
   home: enHome,
   theory: enTheory,
   terminology: enTerminology,
@@ -167,7 +160,6 @@ const enTranslations = combineTranslations({
 
 const deTranslations = combineTranslations({
   common: deCommon,
-  navigation: deNavigation,
   home: deHome,
   theory: deTheory,
   terminology: deTerminology,
@@ -188,7 +180,6 @@ const deTranslations = combineTranslations({
 
 const esTranslations = combineTranslations({
   common: esCommon,
-  navigation: esNavigation,
   home: esHome,
   theory: esTheory,
   terminology: esTerminology,
@@ -209,7 +200,6 @@ const esTranslations = combineTranslations({
 
 const frTranslations = combineTranslations({
   common: frCommon,
-  navigation: frNavigation,
   home: frHome,
   theory: frTheory,
   terminology: frTerminology,
@@ -230,7 +220,6 @@ const frTranslations = combineTranslations({
 
 const itTranslations = combineTranslations({
   common: itCommon,
-  navigation: itNavigation,
   home: itHome,
   theory: itTheory,
   terminology: itTerminology,
@@ -251,7 +240,6 @@ const itTranslations = combineTranslations({
 
 const nlTranslations = combineTranslations({
   common: nlCommon,
-  navigation: nlNavigation,
   home: nlHome,
   theory: nlTheory,
   terminology: nlTerminology,

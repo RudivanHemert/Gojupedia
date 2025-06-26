@@ -1,224 +1,115 @@
-import React, { useState, useEffect } from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
-import { categories } from '@/data';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Swords, User, Scroll, Brain, ChevronRight } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
-import { Card, CardContent } from '@/components/ui/card';
 import { useTranslation } from 'react-i18next';
+import { Card } from '@/components/ui/card';
+import { ChevronRight, Swords, User, Scroll, Brain, BookOpen, Heart } from 'lucide-react';
 
-// Map category IDs to their corresponding icons
-const categoryIcons: Record<string, React.ReactNode> = {
-  techniques: <Swords className="h-6 w-6 text-karate" />,
-  kata: <User className="h-6 w-6 text-karate" />,
-  history: <Scroll className="h-6 w-6 text-karate" />,
-  philosophy: <Brain className="h-6 w-6 text-karate" />,
-};
+const miyagiImg = 'https://upload.wikimedia.org/wikipedia/commons/d/d6/Miyagi_Chojun.jpg';
 
-const Index = () => {
-  const [mounted, setMounted] = useState(false);
-  const { scrollY } = useScroll();
-  const headerOpacity = useTransform(scrollY, [0, 100], [1, 0.8]);
-  const headerScale = useTransform(scrollY, [0, 100], [1, 0.95]);
+const IndexPage = () => {
   const { t } = useTranslation();
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.5,
-      }
-    }
-  };
+  const studyAreas = [
+    {
+      id: 'techniques',
+      title: t('common.categories.techniques_name'),
+      subtitle: t('common.categories.techniques_description'),
+      icon: <Swords className="h-6 w-6 text-red-500" />, 
+      path: '/techniques',
+    },
+    {
+      id: 'kata',
+      title: t('common.categories.kata_name'),
+      subtitle: t('common.categories.kata_description'),
+      icon: <User className="h-6 w-6 text-red-500" />, 
+      path: '/kata',
+    },
+    {
+      id: 'history',
+      title: t('common.categories.history_name'),
+      subtitle: t('common.categories.history_description'),
+      icon: <Scroll className="h-6 w-6 text-red-500" />, 
+      path: '/history',
+    },
+    {
+      id: 'philosophy',
+      title: t('common.categories.philosophy_name'),
+      subtitle: t('common.categories.philosophy_description'),
+      icon: <Heart className="h-6 w-6 text-red-500" />, 
+      path: '/philosophy',
+    },
+    {
+      id: 'theory',
+      title: t('home.kataTheoryTitle', 'Kata Theorie'),
+      subtitle: t('home.kataTheorySubtitle', 'Principes en theorie achter traditionele vormen'),
+      icon: <BookOpen className="h-6 w-6 text-red-500" />, 
+      path: '/theory/kata',
+    },
+    {
+      id: 'terminology',
+      title: t('home.terminologyTitle', 'Terminologie'),
+      subtitle: t('home.terminologySubtitle', 'Japanse terminologie en vocabulaire'),
+      icon: <Brain className="h-6 w-6 text-red-500" />, 
+      path: '/terminology',
+    },
+  ];
 
   return (
-    <MobileLayout>
-      {/* Enhanced Traditional Header */}
-      <motion.div 
-        className="relative h-72 overflow-hidden bg-gradient-to-b from-stone-100 to-stone-50 border-b-2 border-gray-300"
-        style={{ opacity: headerOpacity, scale: headerScale }}
-      >
-        <div className="absolute inset-0 bg-paper-texture opacity-10"></div>
-        <motion.div 
-          className="absolute inset-0 flex flex-col items-center justify-center text-center p-4"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <motion.div 
-            className="mb-6"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Miyagi_Chojun.jpg" 
-              alt="Chojun Miyagi" 
-              className="w-24 h-24 object-cover rounded-full border-2 border-karate shadow-lg"
-            />
-          </motion.div>
-          <motion.h1 
-            className="text-karate text-4xl font-serif font-bold mb-2"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-          >
-            剛柔流
-          </motion.h1>
-          <motion.p 
-            className="text-gray-700 text-xl italic mb-1"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-          >
-            {t('home.heroSubtitle')}
-          </motion.p>
-          <motion.p 
-            className="text-gray-600 text-sm"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-          >
-            {t('home.heroTagline')}
-          </motion.p>
-        </motion.div>
-      </motion.div>
+    <div className="flex flex-col items-center w-full min-h-screen bg-stone-50">
+      <div className="flex flex-col items-center w-full max-w-2xl mx-auto mt-8">
+        {/* Hero block */}
+        <div className="flex flex-col items-center mb-6">
+          <img
+            src={miyagiImg}
+            alt="Chojun Miyagi"
+            className="w-28 h-28 rounded-full border-4 border-red-500 object-cover mb-2"
+          />
+          <div className="text-3xl font-bold text-red-600 mt-2">剛柔流</div>
+          <div className="text-lg italic text-stone-700 mb-1">Goju Ryu Karate-Do</div>
+          <div className="text-sm text-stone-500 mb-2">{t('home.heroTagline')}</div>
+        </div>
 
-      {/* Decorative Scroll Indicator */}
-      <motion.div 
-        className="flex justify-center -mt-4 mb-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.6 }}
-      >
-        <div className="bg-karate/20 h-1 w-24 rounded-full"></div>
-      </motion.div>
-
-      {/* Enhanced Introduction */}
-      <div className="px-6 py-12 bg-gradient-to-b from-stone-50 to-white border-b border-gray-200">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
-          className="max-w-2xl mx-auto"
-        >
-          <motion.h2 
-            className="text-3xl font-serif font-semibold mb-6 text-center text-gray-800"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-          >
-            {t('home.introTitle')}
-          </motion.h2>
-          <motion.p 
-            className="text-gray-700 leading-relaxed text-center text-lg"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7 }}
-          >
+        {/* Intro block */}
+        <div className="bg-white rounded-xl shadow p-6 mb-8 w-full text-center">
+          <h2 className="text-2xl font-serif font-bold mb-2">{t('home.introTitle')}</h2>
+          <div className="text-base text-stone-700 leading-relaxed">
             {t('home.introText')}
-          </motion.p>
-        </motion.div>
-      </div>
+          </div>
+        </div>
 
-      {/* Enhanced Categories Section */}
-      <div className="px-6 py-12 bg-white">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
-          className="max-w-3xl mx-auto"
-        >
-          <motion.h2 
-            className="text-3xl font-serif font-semibold mb-8 text-center text-gray-800"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.9 }}
-          >
-            {t('home.studyAreasTitle')}
-          </motion.h2>
+        {/* Study areas */}
+        <div className="w-full mb-8">
+          <h3 className="text-xl font-serif font-bold mb-4 text-center">{t('home.studyAreasTitle')}</h3>
+          <div className="flex flex-col gap-3">
+            {studyAreas.map((area) => (
+              <Link
+                to={area.path}
+                key={area.id}
+                className="bg-white rounded-xl shadow flex items-center px-4 py-3 hover:bg-stone-100 transition group"
+              >
+                <div className="mr-4">{area.icon}</div>
+                <div className="flex-1">
+                  <div className="font-semibold text-base text-stone-900 group-hover:text-red-600">
+                    {area.title}
+                  </div>
+                  <div className="text-xs text-stone-500">{area.subtitle}</div>
+                </div>
+                <ChevronRight className="text-stone-300 group-hover:text-red-500" />
+              </Link>
+            ))}
+          </div>
+        </div>
 
-          {mounted && (
-            <motion.div 
-              variants={containerVariants}
-              initial="hidden"
-              animate="visible"
-              className="space-y-6"
-            >
-              {categories.map((category) => (
-                <motion.div 
-                  key={category.id} 
-                  variants={itemVariants}
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  <Link to={`/${category.slug}`} className="block">
-                    <Card className="overflow-hidden border border-gray-200 hover:border-karate transition-all shadow-sm hover:shadow-lg bg-gradient-to-r from-white to-stone-50">
-                      <div className="flex items-center p-6">
-                        <motion.div 
-                          className="bg-stone-100 p-4 rounded-full mr-6 border border-gray-200 shadow-sm"
-                          whileHover={{ scale: 1.1, rotate: 5 }}
-                          whileTap={{ scale: 0.9 }}
-                        >
-                          {categoryIcons[category.id]}
-                        </motion.div>
-                        <div className="flex-1">
-                          <div className="flex items-center justify-between">
-                            <h3 className="text-xl text-gray-800 font-serif font-medium mb-2">{t(`common.categories.${category.id}_name`)}</h3>
-                            <ChevronRight className="h-5 w-5 text-gray-400" />
-                          </div>
-                          <p className="text-gray-600">{t(`common.categories.${category.id}_description`)}</p>
-                        </div>
-                      </div>
-                    </Card>
-                  </Link>
-                </motion.div>
-              ))}
-            </motion.div>
-          )}
-        </motion.div>
+        {/* Quote */}
+        <div className="w-full flex flex-col items-center mt-4 mb-8">
+          <div className="italic text-stone-600 text-center max-w-xl mb-2">
+            “{t('home.miyagiQuote')}”
+          </div>
+          <div className="text-stone-400 text-sm">{t('home.miyagiAuthor')}</div>
+        </div>
       </div>
-
-      {/* Enhanced Footer */}
-      <div className="px-6 py-12 text-center bg-gradient-to-b from-white to-stone-100 border-t border-gray-200">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.2 }}
-          className="max-w-2xl mx-auto"
-        >
-          <p className="text-gray-700 text-lg italic mb-4">
-            {t('home.miyagiQuote')}
-          </p>
-          <p className="text-karate font-serif">{t('home.miyagiAuthor')}</p>
-          <motion.div 
-            className="mt-6 flex justify-center"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1.4 }}
-          >
-            <div className="w-16 h-1 bg-karate/30 rounded-full"></div>
-          </motion.div>
-        </motion.div>
-      </div>
-    </MobileLayout>
+    </div>
   );
 };
 
-export default Index;
+export default IndexPage;

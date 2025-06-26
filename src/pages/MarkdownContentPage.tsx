@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import MobileLayout from '@/components/layout/MobileLayout';
-import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer'; 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ChevronLeft } from 'lucide-react';
@@ -88,32 +86,28 @@ const MarkdownContentPage = () => {
   console.log(`[MarkdownContentPage] Rendering with: isLoading=${isLoading}, error=${error}, hasMarkdown=${!!markdown}, title=${translatedPageTitle}`);
 
   return (
-    // Assuming MobileLayout handles header visibility based on route or context?
-    // Might need adjustment if header should always be hidden/shown here.
-    <MobileLayout> 
-      <div className="p-4">
-        <h1 className="text-2xl font-bold mb-4">{translatedPageTitle}</h1>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">{translatedPageTitle}</h1>
 
-        {isLoading && <p>Loading...</p>}
-        {error && <p className="text-red-500 font-semibold">Error: {error}</p>}
-        
-        {!isLoading && !error && markdown !== null && (
-          <MarkdownRenderer markdownContent={markdown} />
-        )}
-        
-        {!isLoading && !error && markdown === null && (
-          <p>Content could not be displayed.</p>
-        )}
+      {isLoading && <p>Loading...</p>}
+      {error && <p className="text-red-500 font-semibold">Error: {error}</p>}
+      
+      {!isLoading && !error && markdown !== null && (
+        <MarkdownRenderer markdownContent={markdown} />
+      )}
+      
+      {!isLoading && !error && markdown === null && (
+        <p>Content could not be displayed.</p>
+      )}
 
-        {/* Consider a more dynamic back button or removing it if MobileLayout handles global nav */}
-        <Button asChild variant="outline" className="mt-6">
-          <Link to={`/`}> {/* Link back to home for now */}
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            {t('navigation.backToHome', 'Back to Home')}
-          </Link>
-        </Button>
-      </div>
-    </MobileLayout>
+      {/* Consider a more dynamic back button or removing it if MobileLayout handles global nav */}
+      <Button asChild variant="outline" className="mt-6">
+        <Link to={`/`}> {/* Link back to home for now */}
+          <ChevronLeft className="mr-2 h-4 w-4" />
+          {t('navigation.backToHome', 'Back to Home')}
+        </Link>
+      </Button>
+    </div>
   );
 };
 

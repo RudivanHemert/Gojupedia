@@ -29,7 +29,8 @@ import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
 import GradingsPage from "./pages/GradingsPage";
 import SettingsPage from "./pages/SettingsPage";
-import MobileLayout from '@/components/layout/MobileLayout';
+import SearchPage from "./pages/SearchPage";
+import SidebarLayout from '@/components/layout/SidebarLayout';
 import SubNavigation from '@/components/layout/SubNavigation';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
 import PhilosophyPage from './pages/PhilosophyPage';
@@ -105,45 +106,50 @@ const AppContent = React.memo(() => {
   
   return (
     <ErrorBoundary>
-      <MobileLayout>
-        <SubNavigation currentPath={location.pathname} />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/theory" element={<TheoryPage />} />
-          <Route path="/terminology" element={<TerminologyPage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route path="/philosophy" element={<PhilosophyPage />} />
-          <Route path="/vital-points" element={<VitalPointsPage />} />
-          <Route path="/theory/kata" element={<KataTheoryPage />} />
-          <Route path="/practice" element={<PracticePage />} />
-          <Route path="/techniques" element={<TechniquesPage />} />
-          <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
-          <Route path="/kata" element={<KataPage />} />
-          <Route path="/kata/:id" element={<KataDetailPage />} />
-          <Route path="/bunkai" element={<BunkaiPage />} />
-          <Route path="/bunkai/:id" element={<BunkaiDetailPage />} />
-          <Route path="/hojo-undo" element={<HojoUndoPage />} />
-          <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
-          <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
-          <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
-          <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
-          <Route path="/newaza" element={<NewazaPage />} />
-          <Route path="/newaza/introduction" element={<NewazaIntroduction />} />
-          <Route path="/newaza/training-elements" element={<NewazaTrainingElements />} />
-          <Route path="/newaza/ground-positions" element={<NewazaGroundPositions />} />
-          <Route path="/newaza/kakie" element={<NewazaKakie />} />
-          <Route path="/newaza/techniques" element={<NewazaTechniques />} />
-          <Route path="/newaza/drills" element={<NewazaDrills />} />
-          <Route path="/kumite" element={<KumitePage />} />
-          <Route path="/study" element={<StudyPage />} />
-          <Route path="/study/quizzes" element={<QuizListPage />} />
-          <Route path="/study/flashcards" element={<FlashcardListPage />} />
-          <Route path="/study/:id" element={<StudyDetailPage />} />
-          <Route path="/gradings" element={<GradingsPage />} />
-          <Route path="/settings" element={<SettingsPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </MobileLayout>
+      <SidebarLayout>
+        <div className="p-6">
+          <SubNavigation currentPath={location.pathname} />
+          <div className="mt-4">
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/theory" element={<TheoryPage />} />
+              <Route path="/terminology" element={<TerminologyPage />} />
+              <Route path="/history" element={<HistoryPage />} />
+              <Route path="/philosophy" element={<PhilosophyPage />} />
+              <Route path="/vital-points" element={<VitalPointsPage />} />
+              <Route path="/theory/kata" element={<KataTheoryPage />} />
+              <Route path="/practice" element={<PracticePage />} />
+              <Route path="/techniques" element={<TechniquesPage />} />
+              <Route path="/techniques/:id" element={<TechniqueDetailPage />} />
+              <Route path="/kata" element={<KataPage />} />
+              <Route path="/kata/:id" element={<KataDetailPage />} />
+              <Route path="/bunkai" element={<BunkaiPage />} />
+              <Route path="/bunkai/:id" element={<BunkaiDetailPage />} />
+              <Route path="/hojo-undo" element={<HojoUndoPage />} />
+              <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
+              <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
+              <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
+              <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
+              <Route path="/newaza" element={<NewazaPage />} />
+              <Route path="/newaza/introduction" element={<NewazaIntroduction />} />
+              <Route path="/newaza/training-elements" element={<NewazaTrainingElements />} />
+              <Route path="/newaza/ground-positions" element={<NewazaGroundPositions />} />
+              <Route path="/newaza/kakie" element={<NewazaKakie />} />
+              <Route path="/newaza/techniques" element={<NewazaTechniques />} />
+              <Route path="/newaza/drills" element={<NewazaDrills />} />
+              <Route path="/kumite" element={<KumitePage />} />
+              <Route path="/study" element={<StudyPage />} />
+              <Route path="/study/quizzes" element={<QuizListPage />} />
+              <Route path="/study/flashcards" element={<FlashcardListPage />} />
+              <Route path="/study/:id" element={<StudyDetailPage />} />
+              <Route path="/gradings" element={<GradingsPage />} />
+              <Route path="/settings" element={<SettingsPage />} />
+              <Route path="/search" element={<SearchPage />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
+        </div>
+      </SidebarLayout>
     </ErrorBoundary>
   );
 });

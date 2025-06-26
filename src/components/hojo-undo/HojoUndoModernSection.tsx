@@ -24,7 +24,6 @@ import {
   Ruler
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { useTranslation } from 'react-i18next';
 
 interface HojoUndoModernSectionProps {
@@ -418,104 +417,102 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
   };
 
   return (
-    <MobileLayout hideHeader={true}>
-      <div className="p-4 space-y-6">
-        {/* Back Button */}
-        <Button asChild variant="outline" className="w-full">
-          <Link to={backPath}>
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            {t('hojoUndo.common.back')}
-          </Link>
-        </Button>
+    <div className="p-4 space-y-6">
+      {/* Back Button */}
+      <Button asChild variant="outline" className="w-full">
+        <Link to={backPath}>
+          <ChevronLeft className="mr-2 h-4 w-4" />
+          {t('hojoUndo.common.back')}
+        </Link>
+      </Button>
 
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-center space-y-4"
-        >
-          <h1 className="text-3xl font-bold">{equipment.name}</h1>
-          <p className="text-xl text-muted-foreground">{equipment.translation}</p>
-          <Badge variant="secondary" className="text-lg px-4 py-2">
-            {section.title}
-          </Badge>
-          {section.description && (
-            <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              {section.description}
-            </p>
-          )}
-        </motion.div>
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-center space-y-4"
+      >
+        <h1 className="text-3xl font-bold">{equipment.name}</h1>
+        <p className="text-xl text-muted-foreground">{equipment.translation}</p>
+        <Badge variant="secondary" className="text-lg px-4 py-2">
+          {section.title}
+        </Badge>
+        {section.description && (
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            {section.description}
+          </p>
+        )}
+      </motion.div>
 
-        {/* Equipment Info */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-        >
-          <Card>
-            <CardContent className="p-4">
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="font-medium">{t('hojoUndo.common.origin')}:</span>
-                    <span className="text-muted-foreground">{equipment.origin}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="font-medium">{t('hojoUndo.common.weight')}:</span>
-                    <span className="text-muted-foreground">{equipment.weight}</span>
-                  </div>
+      {/* Equipment Info */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
+      >
+        <Card>
+          <CardContent className="p-4">
+            <div className="grid grid-cols-2 gap-4 text-sm">
+              <div className="space-y-2">
+                <div className="flex justify-between">
+                  <span className="font-medium">{t('hojoUndo.common.origin')}:</span>
+                  <span className="text-muted-foreground">{equipment.origin}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="font-medium">{t('hojoUndo.common.weight')}:</span>
+                  <span className="text-muted-foreground">{equipment.weight}</span>
                 </div>
               </div>
-            </CardContent>
-          </Card>
-        </motion.div>
+            </div>
+          </CardContent>
+        </Card>
+      </motion.div>
 
-        {/* Main Content */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-        >
-          {renderContent()}
-        </motion.div>
+      {/* Main Content */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+      >
+        {renderContent()}
+      </motion.div>
 
-        {/* Navigation */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="space-y-4"
-        >
-          <Separator />
-          <h3 className="text-lg font-semibold flex items-center">
-            <BookOpen className="mr-2 h-5 w-5" />
-            {t('hojoUndo.common.relatedSections')}
-          </h3>
-          <div className="flex flex-wrap gap-3">
-            {getNavigationLinks().map((link, index) => (
-              <Button
-                key={index}
-                asChild
-                variant={link.isActive ? "default" : "outline"}
-                className="flex-1 min-w-[calc(50%-0.375rem)] justify-start h-auto p-4 text-left"
-              >
-                <Link to={link.path} className="flex items-start">
-                  <link.icon className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <div className="font-medium">{link.label}</div>
-                    {link.isActive && link.description && !link.path.endsWith('/function') && (
-                      <div className="text-sm text-muted-foreground mt-1 whitespace-normal">
-                        {link.description}
-                      </div>
-                    )}
-                  </div>
-                </Link>
-              </Button>
-            ))}
-          </div>
-        </motion.div>
-      </div>
-    </MobileLayout>
+      {/* Navigation */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className="space-y-4"
+      >
+        <Separator />
+        <h3 className="text-lg font-semibold flex items-center">
+          <BookOpen className="mr-2 h-5 w-5" />
+          {t('hojoUndo.common.relatedSections')}
+        </h3>
+        <div className="flex flex-wrap gap-3">
+          {getNavigationLinks().map((link, index) => (
+            <Button
+              key={index}
+              asChild
+              variant={link.isActive ? "default" : "outline"}
+              className="flex-1 min-w-[calc(50%-0.375rem)] justify-start h-auto p-4 text-left"
+            >
+              <Link to={link.path} className="flex items-start">
+                <link.icon className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-medium">{link.label}</div>
+                  {link.isActive && link.description && !link.path.endsWith('/function') && (
+                    <div className="text-sm text-muted-foreground mt-1 whitespace-normal">
+                      {link.description}
+                    </div>
+                  )}
+                </div>
+              </Link>
+            </Button>
+          ))}
+        </div>
+      </motion.div>
+    </div>
   );
 };
 

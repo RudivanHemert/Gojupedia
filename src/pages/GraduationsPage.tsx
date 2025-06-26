@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ChevronDown, ChevronUp, Award, Book, GraduationCap, Swords } from 'lucide-react';
@@ -345,37 +344,35 @@ const GraduationsPage = () => {
   };
 
   return (
-    <MobileLayout>
-      <div className="p-4">
-        <div className="mb-6">
-          <h1 className="text-2xl font-bold text-stone-900 mb-2">
-            {t('graduations.title')}
-          </h1>
-          <p className="text-stone-600">
-            {t('graduations.description')}
-          </p>
-        </div>
-
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-2 mb-6 h-auto">
-            {sections.map((section) => (
-              <TabsTrigger
-                key={section.id}
-                value={section.id}
-                className="h-12 p-2 text-xs flex items-center gap-2"
-              >
-                {section.icon}
-                <span className="hidden sm:inline">{section.label}</span>
-              </TabsTrigger>
-            ))}
-          </TabsList>
-
-          <TabsContent value={activeTab} className="space-y-6">
-            {renderContent()}
-          </TabsContent>
-        </Tabs>
+    <div className="p-4">
+      <div className="mb-6">
+        <h1 className="text-2xl font-bold text-stone-900 mb-2">
+          {t('graduations.title')}
+        </h1>
+        <p className="text-stone-600">
+          {t('graduations.description')}
+        </p>
       </div>
-    </MobileLayout>
+
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+        <TabsList className="grid grid-cols-2 mb-6 h-auto">
+          {sections.map((section) => (
+            <TabsTrigger
+              key={section.id}
+              value={section.id}
+              className="h-12 p-2 text-xs flex items-center gap-2"
+            >
+              {section.icon}
+              <span className="hidden sm:inline">{section.label}</span>
+            </TabsTrigger>
+          ))}
+        </TabsList>
+
+        <TabsContent value={activeTab} className="space-y-6">
+          {renderContent()}
+        </TabsContent>
+      </Tabs>
+    </div>
   );
 };
 

@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Settings } from 'lucide-react';
+import { Settings, Search as SearchIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const NavigationMenu = () => {
   const { t } = useTranslation();
   return (
     <nav className="space-y-2">
+      <Link to="/search" className="block p-2 hover:bg-stone-100 rounded transition-colors flex items-center gap-2">
+        <SearchIcon className="h-4 w-4" />
+        <span>{t('common.search') || 'Zoeken'}</span>
+      </Link>
       <Link to="/" className="block p-2 hover:bg-stone-100 rounded transition-colors">{t('navigation.home')}</Link>
       
       <div className="pt-2 border-t border-gray-100">

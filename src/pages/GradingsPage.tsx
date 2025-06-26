@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import MobileLayout from '@/components/layout/MobileLayout';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ChevronDown, ChevronUp, Calendar, Clock, Award, Book, Dumbbell, GraduationCap, Swords } from 'lucide-react';
@@ -540,132 +539,130 @@ const GradingsPage = () => {
   };
 
   return (
-    <MobileLayout hideHeader={true}>
-      <div className="p-4">
-        <div className="mb-6">
-          <h1 className="text-2xl font-bold text-stone-900 mb-2">
-            {t('graduations.title')}
-          </h1>
-          <p className="text-stone-600">
-            {t('graduations.description')}
-          </p>
-        </div>
+    <div className="p-4">
+      <div className="mb-6">
+        <h1 className="text-2xl font-bold text-stone-900 mb-2">
+          {t('graduations.title')}
+        </h1>
+        <p className="text-stone-600">
+          {t('graduations.description')}
+        </p>
+      </div>
 
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-4 mb-4 h-auto">
-            {gradingLevels.map((level) => (
-              <TabsTrigger
-                key={level.id}
-                value={level.id}
-                className={`h-12 p-1 text-xs relative ${level.color} ${level.textColor || 'text-stone-800'} overflow-hidden pr-${level.stripes > 0 ? (level.stripes * 2 + 2) : 0}
-                  data-[state=active]:border-2 data-[state=active]:border-karate`}
-              >
-                {level.label}
-                {renderStripes(level.stripes)}
-              </TabsTrigger>
-            ))}
-          </TabsList>
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+        <TabsList className="grid grid-cols-4 mb-4 h-auto">
+          {gradingLevels.map((level) => (
+            <TabsTrigger
+              key={level.id}
+              value={level.id}
+              className={`h-12 p-1 text-xs relative ${level.color} ${level.textColor || 'text-stone-800'} overflow-hidden pr-${level.stripes > 0 ? (level.stripes * 2 + 2) : 0}
+                data-[state=active]:border-2 data-[state=active]:border-karate`}
+            >
+              {level.label}
+              {renderStripes(level.stripes)}
+            </TabsTrigger>
+          ))}
+        </TabsList>
 
-          {gradingLevels.map((level) => {
-            const gradingData = getGradingData(level.id);
-            return (
-              <TabsContent key={level.id} value={level.id} className="space-y-6">
-                <Card>
-                  <CardHeader className={`${level.color} ${level.textColor || 'text-stone-800'} relative overflow-hidden border-b ${level.borderColor}`}>
-                    {renderStripes(level.stripes)}
-                    <CardTitle className="text-xl font-serif text-center relative z-10">{gradingData.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="pt-6">
-                    <div className="mb-6">
-                      <h3 className="font-semibold mb-3 flex items-center text-stone-700 text-lg">
-                        <Award className="mr-2 h-5 w-5 text-karate" />
-                        Basic Requirements
-                      </h3>
-                      <div className="grid grid-cols-2 gap-4">
-                        {gradingData.requirements.classes > 0 && (
-                          <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center">
-                            <p className="text-xs text-stone-500">Minimum Classes</p>
-                            <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.classes}</p>
-                          </div>
-                        )}
+        {gradingLevels.map((level) => {
+          const gradingData = getGradingData(level.id);
+          return (
+            <TabsContent key={level.id} value={level.id} className="space-y-6">
+              <Card>
+                <CardHeader className={`${level.color} ${level.textColor || 'text-stone-800'} relative overflow-hidden border-b ${level.borderColor}`}>
+                  {renderStripes(level.stripes)}
+                  <CardTitle className="text-xl font-serif text-center relative z-10">{gradingData.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="pt-6">
+                  <div className="mb-6">
+                    <h3 className="font-semibold mb-3 flex items-center text-stone-700 text-lg">
+                      <Award className="mr-2 h-5 w-5 text-karate" />
+                      Basic Requirements
+                    </h3>
+                    <div className="grid grid-cols-2 gap-4">
+                      {gradingData.requirements.classes > 0 && (
                         <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center">
-                          <p className="text-xs text-stone-500">Months of Training</p>
-                          <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.months}</p>
+                          <p className="text-xs text-stone-500">Minimum Classes</p>
+                          <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.classes}</p>
                         </div>
+                      )}
+                      <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center">
+                        <p className="text-xs text-stone-500">Months of Training</p>
+                        <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.months}</p>
                       </div>
                     </div>
+                  </div>
 
-                    <Accordion type="single" collapsible className="w-full space-y-4">
-                      <AccordionItem value="techniques" className="border rounded-lg overflow-hidden">
+                  <Accordion type="single" collapsible className="w-full space-y-4">
+                    <AccordionItem value="techniques" className="border rounded-lg overflow-hidden">
+                      <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+                        <div className="flex items-center">
+                          <Swords className="mr-2 h-5 w-5 text-karate" />
+                          <h3 className="font-semibold text-stone-700">
+                            Techniques
+                          </h3>
+                        </div>
+                      </AccordionTrigger>
+                      <AccordionContent className="p-4 pt-2">
+                        {renderTechniques(gradingData.techniques)}
+                      </AccordionContent>
+                    </AccordionItem>
+
+                    {gradingData.knowledge && gradingData.knowledge.length > 0 && (
+                      <AccordionItem value="knowledge" className="border rounded-lg overflow-hidden">
                         <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
                           <div className="flex items-center">
-                            <Swords className="mr-2 h-5 w-5 text-karate" />
+                            <Book className="mr-2 h-5 w-5 text-karate" />
                             <h3 className="font-semibold text-stone-700">
-                              Techniques
+                              Knowledge & Terminology
                             </h3>
                           </div>
                         </AccordionTrigger>
                         <AccordionContent className="p-4 pt-2">
-                          {renderTechniques(gradingData.techniques)}
+                          {renderKnowledge(gradingData.knowledge)}
                         </AccordionContent>
                       </AccordionItem>
+                    )}
 
-                      {gradingData.knowledge && gradingData.knowledge.length > 0 && (
-                        <AccordionItem value="knowledge" className="border rounded-lg overflow-hidden">
-                          <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
-                            <div className="flex items-center">
-                              <Book className="mr-2 h-5 w-5 text-karate" />
-                              <h3 className="font-semibold text-stone-700">
-                                Knowledge & Terminology
-                              </h3>
-                            </div>
-                          </AccordionTrigger>
-                          <AccordionContent className="p-4 pt-2">
-                            {renderKnowledge(gradingData.knowledge)}
-                          </AccordionContent>
-                        </AccordionItem>
-                      )}
+                    {gradingData.history && gradingData.history.length > 0 && (
+                      <AccordionItem value="history" className="border rounded-lg overflow-hidden">
+                        <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+                          <div className="flex items-center">
+                            <GraduationCap className="mr-2 h-5 w-5 text-karate" />
+                            <h3 className="font-semibold text-stone-700">
+                              History
+                            </h3>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent className="p-4 pt-2">
+                          {renderHistory(gradingData.history)}
+                        </AccordionContent>
+                      </AccordionItem>
+                    )}
+                  </Accordion>
 
-                      {gradingData.history && gradingData.history.length > 0 && (
-                        <AccordionItem value="history" className="border rounded-lg overflow-hidden">
-                          <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
-                            <div className="flex items-center">
-                              <GraduationCap className="mr-2 h-5 w-5 text-karate" />
-                              <h3 className="font-semibold text-stone-700">
-                                History
-                              </h3>
-                            </div>
-                          </AccordionTrigger>
-                          <AccordionContent className="p-4 pt-2">
-                            {renderHistory(gradingData.history)}
-                          </AccordionContent>
-                        </AccordionItem>
-                      )}
-                    </Accordion>
-
-                    <div className="mt-4 border-t pt-4 flex justify-between items-center text-sm text-stone-500">
-                      <div className="flex items-center">
-                        <Clock className="h-4 w-4 mr-1" />
-                        <span>{gradingData.requirements.months} months</span>
-                      </div>
-                      {gradingData.requirements.classes > 0 && (
-                        <div className="flex items-center">
-                          <Calendar className="h-4 w-4 mr-1" />
-                          <span>{gradingData.requirements.classes} classes</span>
-                        </div>
-                      )}
-                      <Badge variant="outline" className="text-xs">
-                        {level.label}
-                      </Badge>
+                  <div className="mt-4 border-t pt-4 flex justify-between items-center text-sm text-stone-500">
+                    <div className="flex items-center">
+                      <Clock className="h-4 w-4 mr-1" />
+                      <span>{gradingData.requirements.months} months</span>
                     </div>
-                  </CardContent>
-                </Card>
-              </TabsContent>
-            );
-          })}
-        </Tabs>
-      </div>
-    </MobileLayout>
+                    {gradingData.requirements.classes > 0 && (
+                      <div className="flex items-center">
+                        <Calendar className="h-4 w-4 mr-1" />
+                        <span>{gradingData.requirements.classes} classes</span>
+                      </div>
+                    )}
+                    <Badge variant="outline" className="text-xs">
+                      {level.label}
+                    </Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            </TabsContent>
+          );
+        })}
+      </Tabs>
+    </div>
   );
 };
 

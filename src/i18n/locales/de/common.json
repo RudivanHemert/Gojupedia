@@ -30,5 +30,42 @@
       "philosophy_name": "Philosophie", 
       "philosophy_description": "Grundprinzipien und Werte von Goju Ryu"
     }
+  },
+  "search": {
+    "title": "Suche",
+    "description": "Durchsuchen Sie Kata, Techniken, Philosophie und mehr",
+    "placeholder": "Suchen Sie nach Kata, Techniken, Philosophie...",
+    "filters": "Filter",
+    "clear": "Löschen",
+    "contentType": "Inhaltstyp",
+    "tags": "Tags",
+    "results": "Ergebnisse",
+    "noResults": "Keine Ergebnisse gefunden",
+    "noResultsDescription": "Versuchen Sie, Ihre Suchbegriffe oder Filter anzupassen"
+  },
+  "navigation": {
+    "home": "Start",
+    "theory": "Theorie",
+    "practice": "Übung",
+    "study": "Studium",
+    "search": "Suche",
+    "settings": "Einstellungen",
+    "theoryOverview": "Theorie Übersicht",
+    "terminology": "Terminologie",
+    "history": "Geschichte",
+    "philosophy": "Philosophie",
+    "kataTheory": "Kata Theorie",
+    "vitalPoints": "Vitalpunkte",
+    "gradings": "Graduierungen",
+    "practiceOverview": "Übersicht Übung",
+    "techniques": "Techniken",
+    "kata": "Kata",
+    "bunkai": "Bunkai",
+    "hojoUndo": "Hojo Undo",
+    "kumite": "Kumite",
+    "newaza": "Newaza",
+    "studyOverview": "Übersicht Studium",
+    "quizzes": "Quizze",
+    "flashcards": "Karteikarten"
   }
 } 

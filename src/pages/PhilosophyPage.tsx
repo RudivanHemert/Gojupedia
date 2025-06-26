@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
-import MobileLayout from '@/components/layout/MobileLayout';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const PhilosophyPage = () => {
