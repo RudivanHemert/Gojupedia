@@ -141,15 +141,6 @@ const TechniqueDetailPage = () => {
           )}
         </motion.div>
       </div>
-
-      <div className="sticky bottom-20 px-5 pb-4 pt-2 bg-gradient-to-t from-background to-transparent">
-        <Button asChild variant="outline" className="w-full">
-          <Link to="/techniques">
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            Back to Techniques List
-          </Link>
-        </Button>
-      </div>
     </>
   );
 };

@@ -19,44 +19,9 @@ const TechniquesPage = () => {
         description={t('techniques.description')}
       />
       <div className="p-4">
-        <Tabs defaultValue="blocks" className="w-full max-w-4xl mx-auto">
-          <div className="overflow-x-auto pb-2">
-            <TabsList className="w-max">
-              <TabsTrigger value="blocks">{t('techniques.sections.blocks.title')}</TabsTrigger>
-              <TabsTrigger value="kicks">{t('techniques.sections.kicks.title')}</TabsTrigger>
-              <TabsTrigger value="punches">{t('techniques.sections.punches.title')}</TabsTrigger>
-              <TabsTrigger value="stances">{t('techniques.sections.stances.title')}</TabsTrigger>
-              <TabsTrigger value="strikes">{t('techniques.sections.strikes.title')}</TabsTrigger>
-              <TabsTrigger value="warmup">{t('techniques.sections.warmup.title')}</TabsTrigger>
-            </TabsList>
-          </div>
-          
-          <div className="mt-4 bg-white p-4 rounded-lg shadow-sm">
-            <TabsContent value="blocks">
-              <Blocks />
-            </TabsContent>
-            
-            <TabsContent value="kicks">
-              <Kicks />
-            </TabsContent>
-            
-            <TabsContent value="punches">
-              <Punches />
-            </TabsContent>
-            
-            <TabsContent value="stances">
-              <Stances />
-            </TabsContent>
-            
-            <TabsContent value="strikes">
-              <Strikes />
-            </TabsContent>
-            
-            <TabsContent value="warmup">
-              <Warmup />
-            </TabsContent>
-          </div>
-        </Tabs>
+        <div className="w-full max-w-4xl mx-auto mt-4 bg-white p-4 rounded-lg shadow-sm">
+          <Blocks />
+        </div>
       </div>
     </div>
   );

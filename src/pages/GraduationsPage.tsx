@@ -328,21 +328,6 @@ const GraduationsPage = () => {
     );
   };
 
-  const renderContent = () => {
-    switch (activeTab) {
-      case "ranks":
-        return renderRanks();
-      case "beltColors":
-        return renderBeltColors();
-      case "titles":
-        return renderTitles();
-      case "gradingSystem":
-        return renderGradingSystem();
-      default:
-        return renderRanks();
-    }
-  };
-
   return (
     <div className="p-4">
       <div className="mb-6">
@@ -353,25 +338,15 @@ const GraduationsPage = () => {
           {t('graduations.description')}
         </p>
       </div>
-
-      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList className="grid grid-cols-2 mb-6 h-auto">
-          {sections.map((section) => (
-            <TabsTrigger
-              key={section.id}
-              value={section.id}
-              className="h-12 p-2 text-xs flex items-center gap-2"
-            >
-              {section.icon}
-              <span className="hidden sm:inline">{section.label}</span>
-            </TabsTrigger>
-          ))}
-        </TabsList>
-
-        <TabsContent value={activeTab} className="space-y-6">
-          {renderContent()}
-        </TabsContent>
-      </Tabs>
+      <div className="space-y-12">
+        <section>{renderRanks()}</section>
+        <hr />
+        <section>{renderBeltColors()}</section>
+        <hr />
+        <section>{renderTitles()}</section>
+        <hr />
+        <section>{renderGradingSystem()}</section>
+      </div>
     </div>
   );
 };

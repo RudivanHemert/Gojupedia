@@ -31,7 +31,6 @@ import GradingsPage from "./pages/GradingsPage";
 import SettingsPage from "./pages/SettingsPage";
 import SearchPage from "./pages/SearchPage";
 import SidebarLayout from '@/components/layout/SidebarLayout';
-import SubNavigation from '@/components/layout/SubNavigation';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
 import PhilosophyPage from './pages/PhilosophyPage';
 
@@ -108,7 +107,6 @@ const AppContent = React.memo(() => {
     <ErrorBoundary>
       <SidebarLayout>
         <div className="p-6">
-          <SubNavigation currentPath={location.pathname} />
           <div className="mt-4">
             <Routes>
               <Route path="/" element={<Index />} />

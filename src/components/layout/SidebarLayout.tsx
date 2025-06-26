@@ -18,11 +18,11 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
 
   return (
     <div className="flex min-h-screen bg-stone-50">
-      {/* Sidebar */}
+      {/* Sidebar - now overlays content */}
       <CustomSidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
       
-      {/* Main Content */}
-      <main className="flex-1 flex flex-col min-h-screen transition-all duration-300" style={{ marginLeft: sidebarOpen ? 256 : 64 }}>
+      {/* Main Content - takes full width */}
+      <main className="flex-1 flex flex-col min-h-screen w-full transition-all duration-300">
         {/* Top Header with Menu Button */}
         {!hideHeader && (
           <header className="bg-white border-b border-stone-200 px-4 py-3 flex items-center justify-between sticky top-0 z-30">

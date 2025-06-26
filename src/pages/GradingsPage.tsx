@@ -548,26 +548,11 @@ const GradingsPage = () => {
           {t('graduations.description')}
         </p>
       </div>
-
-      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList className="grid grid-cols-4 mb-4 h-auto">
-          {gradingLevels.map((level) => (
-            <TabsTrigger
-              key={level.id}
-              value={level.id}
-              className={`h-12 p-1 text-xs relative ${level.color} ${level.textColor || 'text-stone-800'} overflow-hidden pr-${level.stripes > 0 ? (level.stripes * 2 + 2) : 0}
-                data-[state=active]:border-2 data-[state=active]:border-karate`}
-            >
-              {level.label}
-              {renderStripes(level.stripes)}
-            </TabsTrigger>
-          ))}
-        </TabsList>
-
+      <div className="space-y-12">
         {gradingLevels.map((level) => {
           const gradingData = getGradingData(level.id);
           return (
-            <TabsContent key={level.id} value={level.id} className="space-y-6">
+            <section key={level.id} className="mb-12">
               <Card>
                 <CardHeader className={`${level.color} ${level.textColor || 'text-stone-800'} relative overflow-hidden border-b ${level.borderColor}`}>
                   {renderStripes(level.stripes)}
@@ -658,10 +643,10 @@ const GradingsPage = () => {
                   </div>
                 </CardContent>
               </Card>
-            </TabsContent>
+            </section>
           );
         })}
-      </Tabs>
+      </div>
     </div>
   );
 };

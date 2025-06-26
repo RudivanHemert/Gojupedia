@@ -339,194 +339,183 @@ const KataDetailPage = () => {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto"
         >
-          <Tabs defaultValue="overview" className="w-full">
-            <TabsList className="grid w-full grid-cols-4 mb-4">
-              <TabsTrigger value="overview">{t('kataDetailPage.tabs.overview')}</TabsTrigger>
-              <TabsTrigger value="steps">{t('kataDetailPage.tabs.steps')}</TabsTrigger>
-              <TabsTrigger value="bunkai">{t('kataDetailPage.tabs.bunkai')}</TabsTrigger>
-              <TabsTrigger value="shime">{t('kataDetailPage.tabs.shime')}</TabsTrigger>
-            </TabsList>
+          {/* Overview Section */}
+          <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
+            <Card>
+              <CardContent className="pt-6">
+                <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.descriptionTitle')}</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  {t(`kata.${kata.id}.description`)}
+                </p>
+              </CardContent>
+            </Card>
 
-            <TabsContent value="overview">
-              <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
-                <Card>
-                  <CardContent className="pt-6">
-                    <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.descriptionTitle')}</h2>
-                    <p className="text-gray-700 leading-relaxed">
-                      {t(`kata.${kata.id}.description`)}
-                    </p>
-                  </CardContent>
-                </Card>
+            {kata.history && (
+              <Card>
+                <CardContent className="pt-6">
+                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.historyTitle')}</h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t(`kata.${kata.id}.history`)}
+                  </p>
+                </CardContent>
+              </Card>
+            )}
 
-                {kata.history && (
-                  <Card>
-                    <CardContent className="pt-6">
-                      <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.historyTitle')}</h2>
-                      <p className="text-gray-700 leading-relaxed">
-                        {t(`kata.${kata.id}.history`)}
-                      </p>
-                    </CardContent>
-                  </Card>
-                )}
+            {kata.culturalSignificance && (
+              <Card>
+                <CardContent className="pt-6">
+                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.culturalSignificanceTitle')}</h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t(`kata.${kata.id}.culturalSignificance`)}
+                  </p>
+                </CardContent>
+              </Card>
+            )}
 
-                {kata.culturalSignificance && (
-                  <Card>
-                    <CardContent className="pt-6">
-                      <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.culturalSignificanceTitle')}</h2>
-                      <p className="text-gray-700 leading-relaxed">
-                        {t(`kata.${kata.id}.culturalSignificance`)}
-                      </p>
-                    </CardContent>
-                  </Card>
-                )}
-
-                <Card>
-                  <CardContent className="p-4">
-                    <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.overview.atAGlanceTitle')}</h2>
-                    <div className="grid grid-cols-2 gap-y-2">
-                      <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.movementsLabel')}</div>
-                      <div className="font-medium">{kata.movements}</div>
-                      
-                      <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.durationLabel')}</div>
-                      <div className="font-medium">{kata.duration}</div>
-                      
-                      <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.originLabel')}</div>
-                      <div className="font-medium">{kata.origin}</div>
-                      
-                      <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.levelLabel')}</div>
-                      <div className="font-medium">{t(`kata.levels.${kata.level.toLowerCase()}`)}</div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </TabsContent>
+            <Card>
+              <CardContent className="p-4">
+                <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.overview.atAGlanceTitle')}</h2>
+                <div className="grid grid-cols-2 gap-y-2">
+                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.movementsLabel')}</div>
+                  <div className="font-medium">{kata.movements}</div>
+                  
+                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.durationLabel')}</div>
+                  <div className="font-medium">{kata.duration}</div>
+                  
+                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.originLabel')}</div>
+                  <div className="font-medium">{kata.origin}</div>
+                  
+                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.levelLabel')}</div>
+                  <div className="font-medium">{t(`kata.levels.${kata.level.toLowerCase()}`)}</div>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+          <hr className="my-8" />
+          {/* Steps Section */}
+          <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
+            <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.steps.sequenceTitle')}</h2>
             
-            <TabsContent value="steps">
-              <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
-                <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.steps.sequenceTitle')}</h2>
-                
-                {formattedSteps.length === 0 ? (
-                  <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 rounded-md">
-                    <p className="text-sm font-medium">{t('kataDetailPage.steps.noSteps')}</p>
-                    <p className="text-xs mt-1">{t('kataDetailPage.steps.stepsDataMissing')}</p>
+            {formattedSteps.length === 0 ? (
+              <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 rounded-md">
+                <p className="text-sm font-medium">{t('kataDetailPage.steps.noSteps')}</p>
+                <p className="text-xs mt-1">{t('kataDetailPage.steps.stepsDataMissing')}</p>
+              </div>
+            ) : (
+              <>
+                <div className="mb-2">
+                  <p className="text-sm text-gray-500">
+                    {t('kataDetailPage.steps.totalSteps', { count: formattedSteps.length })}
+                  </p>
+                </div>
+                <InteractiveKataSteps 
+                  kataId={kata.id}
+                  kataName={kata.name}
+                  steps={formattedSteps}
+                  showImages={false} // Explicitly set showImages to false for kata steps
+                />
+              </>
+            )}
+          </motion.div>
+          <hr className="my-8" />
+          {/* Bunkai Section */}
+          <div className="p-4 bg-card rounded-lg shadow">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl font-semibold">{t('bunkai.title')}</h3>
+              <Link 
+                to={`/bunkai/${kata.id}`}
+                className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors text-sm"
+              >
+                {t('bunkaiDetailPage.viewAllBunkai')}
+              </Link>
+            </div>
+            <p className="text-muted-foreground mb-4">
+              {t(`bunkai.kata.${kata.id}.description`)}
+            </p>
+            {/* Bunkai video display will go here */}
+            {bunkaiVideoId && (
+              <Card>
+                <CardContent className="pt-6">
+                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.bunkai.videoTitle')}</h2>
+                  <div className="aspect-video bg-gray-100 rounded overflow-hidden">
+                    <iframe 
+                      className="w-full h-full"
+                      src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
+                      title={t('kataDetailPage.bunkai.videoTitle')}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    >
+                    </iframe>
                   </div>
-                ) : (
-                  <>
-                    <div className="mb-2">
-                      <p className="text-sm text-gray-500">
-                        {t('kataDetailPage.steps.totalSteps', { count: formattedSteps.length })}
-                      </p>
-                    </div>
-                    <InteractiveKataSteps 
-                      kataId={kata.id}
-                      kataName={kata.name}
-                      steps={formattedSteps}
-                      showImages={false} // Explicitly set showImages to false for kata steps
-                    />
-                  </>
-                )}
-              </motion.div>
-            </TabsContent>
-            
-            <TabsContent value="bunkai" className="p-4 bg-card rounded-lg shadow">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold">{t('bunkai.title')}</h3>
-                <Link 
-                  to={`/bunkai/${kata.id}`}
-                  className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors text-sm"
-                >
-                  {t('bunkaiDetailPage.viewAllBunkai')}
-                </Link>
-              </div>
-              <p className="text-muted-foreground mb-4">
-                {t(`bunkai.kata.${kata.id}.description`)}
-              </p>
-              {/* Bunkai video display will go here */}
-              {bunkaiVideoId && (
-                <Card>
-                  <CardContent className="pt-6">
-                    <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.bunkai.videoTitle')}</h2>
-                    <div className="aspect-video bg-gray-100 rounded overflow-hidden">
-                      <iframe 
-                        className="w-full h-full"
-                        src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
-                        title={t('kataDetailPage.bunkai.videoTitle')}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      >
-                      </iframe>
-                    </div>
-                  </CardContent>
-                </Card>
-              )}
-              {/* Placeholder for detailed bunkai steps */}
-              <div className="mt-6 space-y-4">
-                {kata && Array.from({ length: 10 }).map((_, index) => {
-                  const bunkaiNum = index + 1;
-                  const nameKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.name`;
-                  const attackKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.attack`;
-                  const defenseKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.defense`;
-                  const counterAttackKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.counterAttack`;
-                  const footworkKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.footwork`;
-                  const vitalPointsKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.vitalPoints`;
-                  const notesKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.notes`;
+                </CardContent>
+              </Card>
+            )}
+            {/* Placeholder for detailed bunkai steps */}
+            <div className="mt-6 space-y-4">
+              {kata && Array.from({ length: 10 }).map((_, index) => {
+                const bunkaiNum = index + 1;
+                const nameKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.name`;
+                const attackKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.attack`;
+                const defenseKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.defense`;
+                const counterAttackKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.counterAttack`;
+                const footworkKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.footwork`;
+                const vitalPointsKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.vitalPoints`;
+                const notesKey = `bunkai.kata.${kata.id}.bunkai${bunkaiNum}.notes`;
 
-                  const name = t(nameKey);
-                  // If the name translation is the key itself, it means the bunkai item doesn't exist
-                  if (name === nameKey) {
-                    return null;
-                  }
+                const name = t(nameKey);
+                // If the name translation is the key itself, it means the bunkai item doesn't exist
+                if (name === nameKey) {
+                  return null;
+                }
 
-                  return (
-                    <Card key={bunkaiNum}>
-                      <CardHeader>
-                        <CardTitle>{name}</CardTitle>
-                      </CardHeader>
-                      <CardContent className="space-y-2">
-                        {t(attackKey) !== attackKey && <p><strong>{t('bunkai.details.attack')}:</strong> {t(attackKey)}</p>}
-                        {t(defenseKey) !== defenseKey && <p><strong>{t('bunkai.details.defense')}:</strong> {t(defenseKey)}</p>}
-                        {t(counterAttackKey) !== counterAttackKey && <p><strong>{t('bunkai.details.counterAttack')}:</strong> {t(counterAttackKey)}</p>}
-                        {t(footworkKey) !== footworkKey && <p><strong>{t('bunkai.details.footwork')}:</strong> {t(footworkKey)}</p>}
-                        {t(vitalPointsKey) !== vitalPointsKey && <p><strong>{t('bunkai.details.vitalPoints')}:</strong> {t(vitalPointsKey)}</p>}
-                        {t(notesKey) !== notesKey && <p><strong>{t('bunkai.details.notes')}:</strong> {t(notesKey)}</p>}
-                      </CardContent>
-                    </Card>
-                  );
-                })}
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="shime">
-              <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
-                <Card>
-                  <CardContent className="pt-6">
-                    <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.shime.title')}</h2>
-                    <p className="text-gray-700 leading-relaxed">
-                      {t('kataDetailPage.shime.description')}
-                    </p>
-                  </CardContent>
-                </Card>
-                {shimeVideoId && (
-                  <Card>
-                    <CardContent className="pt-6">
-                      <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.shime.videoTitle')}</h2>
-                      <div className="relative pt-[56.25%] bg-gray-100 dark:bg-gray-800 rounded overflow-hidden">
-                        <iframe 
-                          className="absolute inset-0 w-full h-full"
-                          src={`https://www.youtube.com/embed/${shimeVideoId}`}
-                          title={`${kata.name} Shime Demonstration`}
-                          frameBorder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                        ></iframe>
-                      </div>
+                return (
+                  <Card key={bunkaiNum}>
+                    <CardHeader>
+                      <CardTitle>{name}</CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-2">
+                      {t(attackKey) !== attackKey && <p><strong>{t('bunkai.details.attack')}:</strong> {t(attackKey)}</p>}
+                      {t(defenseKey) !== defenseKey && <p><strong>{t('bunkai.details.defense')}:</strong> {t(defenseKey)}</p>}
+                      {t(counterAttackKey) !== counterAttackKey && <p><strong>{t('bunkai.details.counterAttack')}:</strong> {t(counterAttackKey)}</p>}
+                      {t(footworkKey) !== footworkKey && <p><strong>{t('bunkai.details.footwork')}:</strong> {t(footworkKey)}</p>}
+                      {t(vitalPointsKey) !== vitalPointsKey && <p><strong>{t('bunkai.details.vitalPoints')}:</strong> {t(vitalPointsKey)}</p>}
+                      {t(notesKey) !== notesKey && <p><strong>{t('bunkai.details.notes')}:</strong> {t(notesKey)}</p>}
                     </CardContent>
                   </Card>
-                )}
-              </motion.div>
-            </TabsContent>
-          </Tabs>
+                );
+              })}
+            </div>
+          </div>
+          <hr className="my-8" />
+          {/* Shime Section */}
+          <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
+            <Card>
+              <CardContent className="pt-6">
+                <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.shime.title')}</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  {t('kataDetailPage.shime.description')}
+                </p>
+              </CardContent>
+            </Card>
+            {shimeVideoId && (
+              <Card>
+                <CardContent className="pt-6">
+                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.shime.videoTitle')}</h2>
+                  <div className="relative pt-[56.25%] bg-gray-100 dark:bg-gray-800 rounded overflow-hidden">
+                    <iframe 
+                      className="absolute inset-0 w-full h-full"
+                      src={`https://www.youtube.com/embed/${shimeVideoId}`}
+                      title={`${kata.name} Shime Demonstration`}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+          </motion.div>
         </motion.div>
       </div>
     </>

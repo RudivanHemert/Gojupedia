@@ -176,7 +176,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
         className={cn(
           "fixed left-0 top-0 h-full bg-white border-r border-stone-200 z-50 transition-all duration-300 ease-in-out shadow-lg flex flex-col",
           isOpen ? "w-64" : "w-16",
-          "lg:relative lg:translate-x-0 lg:shadow-none",
+          "lg:translate-x-0 lg:shadow-lg",
           !isOpen && "lg:w-16"
         )}
         style={{ maxWidth: '90vw' }}
