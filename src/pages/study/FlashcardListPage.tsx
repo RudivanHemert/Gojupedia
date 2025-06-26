@@ -5,6 +5,7 @@ import React from 'react';
 import { studies } from '@/data';
 import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const FlashcardListPage = () => {
   const { t } = useTranslation();
@@ -14,15 +15,11 @@ const FlashcardListPage = () => {
   return (
     // Remove MobileLayout wrapper
     <>
-      {/* Header */}
-      <div className="bg-stone-100 border-b border-stone-200">
-        <div className="px-4 py-6">
-          <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-2">{t('study.flashcards')}</h1>
-          <p className="text-stone-600 text-center text-sm">
-            {t('study.flashcardDesc', 'Review terms and concepts using flashcards.')}
-          </p>
-        </div>
-      </div>
+      <TheoryHeader 
+        title={t('study.flashcards.title')}
+        description={t('study.flashcards.description')}
+        backUrl="/study"
+      />
 
       {/* Flashcard Cards - Revert to Vertical List Layout */}
       <div className="px-4 py-6 space-y-4">

@@ -13,7 +13,7 @@ const SubNavigation: React.FC<SubNavigationProps> = ({ currentPath }) => {
   const showTheoryNav = ['/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/gradings'].includes(basePath);
   
   // Only show practice navigation for practice pages
-  const showPracticeNav = ['/practice', '/techniques', '/kata', '/hojo-undo', '/kumite', '/bunkai'].includes(basePath);
+  const showPracticeNav = ['/practice', '/techniques', '/kata', '/hojo-undo', '/bunkai'].includes(basePath);
 
   if (!showTheoryNav && !showPracticeNav) {
     return null;

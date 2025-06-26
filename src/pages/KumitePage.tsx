@@ -1,47 +1,75 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import { motion } from 'framer-motion';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-import { useMarkdownContent } from '@/utils/markdown';
+import { Link } from 'react-router-dom';
+
+const kumiteSections = [
+  { 
+    id: 'introduction', 
+    path: '/kumite/introduction', 
+    labelKey: 'kumite.sections.introduction',
+    subsections: [
+      { id: 'what-is', path: '/kumite/introduction/what-is', labelKey: 'kumite.introduction.what-is' },
+      { id: 'types', path: '/kumite/introduction/types', labelKey: 'kumite.introduction.types-title' },
+      { id: 'safety', path: '/kumite/introduction/safety', labelKey: 'kumite.introduction.safety-title' },
+    ]
+  },
+  { 
+    id: 'techniques', 
+    path: '/kumite/techniques', 
+    labelKey: 'kumite.sections.techniques',
+    subsections: [
+      { id: 'attack', path: '/kumite/techniques/attack', labelKey: 'kumite.techniques.attack-techniques' },
+      { id: 'defense', path: '/kumite/techniques/defense', labelKey: 'kumite.techniques.defense-techniques' },
+      { id: 'throwing', path: '/kumite/techniques/throwing', labelKey: 'kumite.techniques.throwing-techniques' },
+    ]
+  },
+  { id: 'principles', path: '/kumite/principles', labelKey: 'kumite.sections.principles' },
+  { id: 'training', path: '/kumite/training', labelKey: 'kumite.sections.training' },
+  { id: 'competition', path: '/kumite/competition', labelKey: 'kumite.sections.competition' },
+];
 
 const KumitePage = () => {
   const { t } = useTranslation();
-  const sections = [
-    { id: 'basics', content: useMarkdownContent('kumite/basics') },
-    { id: 'types', content: useMarkdownContent('kumite/types') },
-    { id: 'principles', content: useMarkdownContent('kumite/principles') },
-    { id: 'training', content: useMarkdownContent('kumite/training') },
-    { id: 'competition', content: useMarkdownContent('kumite/competition') }
-  ];
 
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
         title={t('kumite.title')}
         description={t('kumite.description')}
+        backUrl="/theory"
       />
-      <div className="p-4">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
-        >
-          <Accordion type="single" collapsible className="w-full">
-            {sections.map((section) => (
-              <AccordionItem key={section.id} value={section.id}>
-                <AccordionTrigger>
-                  {t(`kumite.sections.${section.id}`)}
-                </AccordionTrigger>
-                <AccordionContent>
-                  {section.content && <MarkdownRenderer markdownContent={section.content} />}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </motion.div>
+      <div className="p-4 max-w-4xl mx-auto">
+        <div className="grid gap-6">
+          {kumiteSections.map(section => (
+            <div key={section.id} className="border border-muted rounded-lg p-6">
+              <h2 className="text-xl font-semibold mb-4 text-stone-800">
+                {t(section.labelKey)}
+              </h2>
+              
+              {section.subsections ? (
+                <div className="grid gap-3">
+                  {section.subsections.map(subsection => (
+                    <Link
+                      key={subsection.id}
+                      to={subsection.path}
+                      className="block px-4 py-3 rounded-lg border border-muted hover:bg-muted/30 transition-colors text-lg font-medium bg-stone-50"
+                    >
+                      {t(subsection.labelKey)}
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <Link
+                  to={section.path}
+                  className="block px-4 py-3 rounded-lg border border-muted hover:bg-muted/30 transition-colors text-lg font-medium bg-stone-50"
+                >
+                  {t(section.labelKey)}
+                </Link>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

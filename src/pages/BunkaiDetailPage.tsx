@@ -9,6 +9,7 @@ import { Kata, BunkaiDetail } from '@/types';
 import { motion } from 'framer-motion';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const BunkaiDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -24,9 +25,15 @@ const BunkaiDetailPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-white p-4">
-        <div className="max-w-4xl mx-auto">
-          <p>{t('common.loading', 'Laden...')}</p>
+      <div className="min-h-screen bg-white">
+        <TheoryHeader 
+          title={t('common.loading', 'Laden...')}
+          description=""
+        />
+        <div className="p-4">
+          <div className="max-w-4xl mx-auto">
+            <p>{t('common.loading', 'Laden...')}</p>
+          </div>
         </div>
       </div>
     );
@@ -34,15 +41,17 @@ const BunkaiDetailPage = () => {
 
   if (!kata) {
     return (
-      <div className="min-h-screen bg-white p-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-xl text-destructive mb-4">{t('bunkaiDetailPage.kataNotFound', 'Kata niet gevonden')}</p>
-          <Link to="/bunkai">
-            <Button variant="outline">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              {t('common.backToBunkai', 'Terug naar Bunkai Overzicht')}
-            </Button>
-          </Link>
+      <div className="min-h-screen bg-white">
+        <TheoryHeader 
+          title={t('bunkaiDetailPage.kataNotFound', 'Kata niet gevonden')}
+          description=""
+          backUrl="/bunkai"
+        />
+        <div className="p-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+            </motion.div>
+          </div>
         </div>
       </div>
     );
@@ -103,66 +112,87 @@ const BunkaiDetailPage = () => {
       return <p>{t('bunkaiDetailPage.noBunkaiDetails', 'Geen gedetailleerde Bunkai informatie beschikbaar.')}</p>;
     }
 
-    return (
-      <Accordion type="single" collapsible className="w-full">
-        {bunkaiList.map((detail, index) => (
-          <motion.div key={detail.id || index} variants={itemVariants}>
-            <AccordionItem value={detail.id || `bunkai-${index}`}>
-              <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                {detail.title}
-              </AccordionTrigger>
-              <AccordionContent className="space-y-3 pt-3 text-sm">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
-                  <div><strong>{t('bunkaiDetailPage.attack', 'Aanval')}:</strong> {detail.attack}</div>
-                  <div><strong>{t('bunkaiDetailPage.defense', 'Verdediging')}:</strong> {detail.defense}</div>
-                  <div><strong>{t('bunkaiDetailPage.counterAttack', 'Tegenaanval')}:</strong> {detail.counterAttack}</div>
-                  <div><strong>{t('bunkaiDetailPage.footwork', 'Voetenwerk')}:</strong> {detail.footwork}</div>
-                </div>
-                <p><strong>{t('bunkaiDetailPage.vitalPoints', 'Vitale Punten')}:</strong> {detail.vitalPoints}</p>
-                {detail.notes && <p><strong>{t('bunkaiDetailPage.notes', 'Aandachtspunten')}:</strong> {detail.notes}</p>}
-              </AccordionContent>
-            </AccordionItem>
-          </motion.div>
-        ))}
-      </Accordion>
-    );
-  };
-
-  return (
-    <div className="p-4 md:p-6">
-      <motion.div 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="max-w-4xl mx-auto mb-6"
-      >
-        <Button asChild variant="outline" className="mb-4">
-          <Link to="/bunkai">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            {t('common.backToBunkai', 'Terug naar Bunkai Overzicht')}
-          </Link>
-        </Button>
+    return bunkaiList.map((bunkai, index) => (
+      <motion.div key={index} variants={itemVariants}>
         <Card>
           <CardHeader>
-            <CardTitle className="text-3xl font-bold">{t(`kata.${kata.id}.name`, kata.name || kata.id)} - {t('bunkai.title', 'Bunkai')}</CardTitle>
-            <CardDescription className="text-lg">{t(`kata.${kata.id}.description`, kata.description || '')}</CardDescription>
+            <CardTitle>{bunkai.name}</CardTitle>
+            {bunkai.description && (
+              <CardDescription>{bunkai.description}</CardDescription>
+            )}
           </CardHeader>
-          <CardContent>
-            <Badge variant="secondary" className="text-sm">
-              {t(`kata.levels.${kata.level.toLowerCase()}`, kata.level)}
-            </Badge>
+          <CardContent className="space-y-4">
+            {bunkai.attack && (
+              <div>
+                <h4 className="font-semibold text-sm text-gray-600 uppercase tracking-wide">
+                  {t('bunkai.details.attack', 'Attack')}
+                </h4>
+                <p>{bunkai.attack}</p>
+              </div>
+            )}
+            {bunkai.defense && (
+              <div>
+                <h4 className="font-semibold text-sm text-gray-600 uppercase tracking-wide">
+                  {t('bunkai.details.defense', 'Defense')}
+                </h4>
+                <p>{bunkai.defense}</p>
+              </div>
+            )}
+            {bunkai.counterAttack && (
+              <div>
+                <h4 className="font-semibold text-sm text-gray-600 uppercase tracking-wide">
+                  {t('bunkai.details.counterAttack', 'Counter Attack')}
+                </h4>
+                <p>{bunkai.counterAttack}</p>
+              </div>
+            )}
+            {bunkai.footwork && (
+              <div>
+                <h4 className="font-semibold text-sm text-gray-600 uppercase tracking-wide">
+                  {t('bunkai.details.footwork', 'Footwork')}
+                </h4>
+                <p>{bunkai.footwork}</p>
+              </div>
+            )}
+            {bunkai.vitalPoints && (
+              <div>
+                <h4 className="font-semibold text-sm text-gray-600 uppercase tracking-wide">
+                  {t('bunkai.details.vitalPoints', 'Vital Points')}
+                </h4>
+                <p>{bunkai.vitalPoints}</p>
+              </div>
+            )}
+            {bunkai.notes && (
+              <div>
+                <h4 className="font-semibold text-sm text-gray-600 uppercase tracking-wide">
+                  {t('bunkai.details.notes', 'Notes')}
+                </h4>
+                <p>{bunkai.notes}</p>
+              </div>
+            )}
           </CardContent>
         </Card>
       </motion.div>
+    ));
+  };
 
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-        className="max-w-4xl mx-auto space-y-4"
-      >
-        {renderBunkaiContent()}
-      </motion.div>
+  return (
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={`${t(`kata.${kata.id}.name`)} - ${t('bunkai.title')}`}
+        description={t(`bunkai.kata.${kata.id}.description`, 'Gedetailleerde bunkai analyse van deze kata.')}
+        backUrl="/bunkai"
+      />
+      <div className="p-4">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="max-w-4xl mx-auto space-y-6"
+        >
+          {renderBunkaiContent()}
+        </motion.div>
+      </div>
     </div>
   );
 };

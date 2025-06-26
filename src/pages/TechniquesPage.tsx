@@ -17,6 +17,7 @@ const TechniquesPage = () => {
       <TheoryHeader 
         title={t('techniques.title')}
         description={t('techniques.description')}
+        backUrl="/practice"
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto mt-4 bg-white p-4 rounded-lg shadow-sm">

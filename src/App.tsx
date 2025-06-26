@@ -25,6 +25,11 @@ import BunkaiDetailPage from "./pages/BunkaiDetailPage";
 import HojoUndoPage from "./pages/HojoUndoPage";
 import NewazaPage from "./pages/NewazaPage";
 import KumitePage from "./pages/KumitePage";
+import KumiteIntroduction from "./pages/kumite/Introduction";
+import KumiteTechniques from "./pages/kumite/Techniques";
+import KumitePrinciples from "./pages/kumite/Principles";
+import KumiteTraining from "./pages/kumite/Training";
+import KumiteCompetition from "./pages/kumite/Competition";
 import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
 import GradingsPage from "./pages/GradingsPage";
@@ -33,6 +38,13 @@ import SearchPage from "./pages/SearchPage";
 import SidebarLayout from '@/components/layout/SidebarLayout';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
 import PhilosophyPage from './pages/PhilosophyPage';
+import OriginsSection from '@/components/history/OriginsSection';
+import KanryoHigaonnaSection from '@/components/history/KanryoHigaonnaSection';
+import ChojunMiyagiSection from '@/components/history/ChojunMiyagiSection';
+import AnichiMiyagiSection from '@/components/history/AnichiMiyagiSection';
+import MorioHigaonnaSection from '@/components/history/MorioHigaonnaSection';
+import TetsujiNakamuraSection from '@/components/history/TetsujiNakamuraSection';
+import TimelineSection from '@/components/history/TimelineSection';
 
 // Re-add imports for the general Hojo Undo pages
 import GeneralIntro from './pages/hojo-undo/GeneralIntro';
@@ -53,6 +65,29 @@ import MarkdownContentPage from './pages/MarkdownContentPage';
 // Import the new list pages
 import QuizListPage from './pages/study/QuizListPage';
 import FlashcardListPage from './pages/study/FlashcardListPage';
+
+// Import terminology sub-pages
+import Stances from './pages/terminology/Stances';
+import Kicks from './pages/terminology/Kicks';
+import Punches from './pages/terminology/Punches';
+import Blocks from './pages/terminology/Blocks';
+import Strikes from './pages/terminology/Strikes';
+import GeneralTerminology from './pages/terminology/GeneralTerminology';
+import Numbers from './pages/terminology/Numbers';
+import TournamentTerminology from './pages/terminology/TournamentTerminology';
+import EquipmentAndWeapons from './pages/terminology/EquipmentAndWeapons';
+import KarateGojuRyuTerminology from './pages/terminology/KarateGojuRyuTerminology';
+import KarateTitles from './pages/terminology/KarateTitles';
+import PhrasesAndEtiquette from './pages/terminology/PhrasesAndEtiquette';
+import KataTerminology from './pages/terminology/KataTerminology';
+
+// Import new Kumite sub-pages
+import WhatIsKumite from './pages/kumite/introduction/WhatIsKumite';
+import TypesOfKumite from './pages/kumite/introduction/TypesOfKumite';
+import SafetyAndRules from './pages/kumite/introduction/SafetyAndRules';
+import AttackTechniques from './pages/kumite/techniques/AttackTechniques';
+import DefenseTechniques from './pages/kumite/techniques/DefenseTechniques';
+import ThrowingTechniques from './pages/kumite/techniques/ThrowingTechniques';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -112,7 +147,27 @@ const AppContent = React.memo(() => {
               <Route path="/" element={<Index />} />
               <Route path="/theory" element={<TheoryPage />} />
               <Route path="/terminology" element={<TerminologyPage />} />
+              <Route path="/terminology/stances" element={<Stances />} />
+              <Route path="/terminology/kicks" element={<Kicks />} />
+              <Route path="/terminology/punches" element={<Punches />} />
+              <Route path="/terminology/blocks" element={<Blocks />} />
+              <Route path="/terminology/strikes" element={<Strikes />} />
+              <Route path="/terminology/general-terms" element={<GeneralTerminology />} />
+              <Route path="/terminology/numbers" element={<Numbers />} />
+              <Route path="/terminology/tournament-terms" element={<TournamentTerminology />} />
+              <Route path="/terminology/equipment-weapons" element={<EquipmentAndWeapons />} />
+              <Route path="/terminology/karate-goju-ryu" element={<KarateGojuRyuTerminology />} />
+              <Route path="/terminology/karate-titles" element={<KarateTitles />} />
+              <Route path="/terminology/phrases-etiquette" element={<PhrasesAndEtiquette />} />
+              <Route path="/terminology/kata-terms" element={<KataTerminology />} />
               <Route path="/history" element={<HistoryPage />} />
+              <Route path="/history/origins" element={<OriginsSection />} />
+              <Route path="/history/kanryo-higaonna" element={<KanryoHigaonnaSection />} />
+              <Route path="/history/chojun-miyagi" element={<ChojunMiyagiSection />} />
+              <Route path="/history/anichi-miyagi" element={<AnichiMiyagiSection />} />
+              <Route path="/history/morio-higaonna" element={<MorioHigaonnaSection />} />
+              <Route path="/history/tetsuji-nakamura" element={<TetsujiNakamuraSection />} />
+              <Route path="/history/timeline" element={<TimelineSection />} />
               <Route path="/philosophy" element={<PhilosophyPage />} />
               <Route path="/vital-points" element={<VitalPointsPage />} />
               <Route path="/theory/kata" element={<KataTheoryPage />} />
@@ -136,6 +191,17 @@ const AppContent = React.memo(() => {
               <Route path="/newaza/techniques" element={<NewazaTechniques />} />
               <Route path="/newaza/drills" element={<NewazaDrills />} />
               <Route path="/kumite" element={<KumitePage />} />
+              <Route path="/kumite/introduction" element={<KumiteIntroduction />} />
+              <Route path="/kumite/techniques" element={<KumiteTechniques />} />
+              <Route path="/kumite/principles" element={<KumitePrinciples />} />
+              <Route path="/kumite/training" element={<KumiteTraining />} />
+              <Route path="/kumite/competition" element={<KumiteCompetition />} />
+              <Route path="/kumite/introduction/what-is" element={<WhatIsKumite />} />
+              <Route path="/kumite/introduction/types" element={<TypesOfKumite />} />
+              <Route path="/kumite/introduction/safety" element={<SafetyAndRules />} />
+              <Route path="/kumite/techniques/attack" element={<AttackTechniques />} />
+              <Route path="/kumite/techniques/defense" element={<DefenseTechniques />} />
+              <Route path="/kumite/techniques/throwing" element={<ThrowingTechniques />} />
               <Route path="/study" element={<StudyPage />} />
               <Route path="/study/quizzes" element={<QuizListPage />} />
               <Route path="/study/flashcards" element={<FlashcardListPage />} />

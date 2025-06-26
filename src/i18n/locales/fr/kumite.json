@@ -1,0 +1,303 @@
+{
+  "title": "Kumite",
+  "description": "Apprenez les techniques de combat et de sparring en karaté",
+  "sections": {
+    "introduction": "Introduction",
+    "techniques": "Techniques",
+    "principles": "Principes",
+    "training": "Entraînement",
+    "competition": "Compétition"
+  },
+  "introduction": {
+    "title": "Kumite : Combat en Karaté",
+    "what-is": "Qu'est-ce que le Kumite ?",
+    "what-is-desc": "Comprendre les fondamentaux du combat en karaté",
+    "types-title": "Types de Kumite",
+    "types-desc": "Différentes formes de combat et leurs objectifs",
+    "purpose": "Objectif du Kumite",
+    "safety-title": "Sécurité et Règles",
+    "safety-desc": "Directives de sécurité essentielles et règles de compétition",
+    "competition-rules": "Règles de Compétition",
+    "training-progression": "Progression d'Entraînement",
+    "mental-aspects": "Aspects Mentaux",
+    "kumite-types": "Types de Kumite",
+    "progression": "Progression d'Entraînement",
+    "safety": "Sécurité",
+    "goals": "Objectifs",
+    "characteristics": "Caractéristiques",
+    "types": {
+      "ippon": {
+        "title": "Ippon Kumite (Combat d'Un Pas)",
+        "description": "Attaques et défenses prédéfinies",
+        "goals": {
+          "goal1": "Développe le timing et la distance",
+          "goal2": "Construit la confiance dans l'application des techniques",
+          "goal3": "Enseigne les patterns de défense de base"
+        },
+        "characteristics": {
+          "char1": "Une attaque, une défense",
+          "char2": "Exécution contrôlée",
+          "char3": "Focus sur la technique correcte"
+        }
+      },
+      "sanbon": {
+        "title": "Sanbon Kumite (Combat de Trois Pas)",
+        "description": "Séquences prédéfinies de trois pas",
+        "goals": {
+          "goal1": "Développe le rythme et la coordination",
+          "goal2": "Enseigne la distance et le timing appropriés",
+          "goal3": "Construit l'endurance"
+        },
+        "characteristics": {
+          "char1": "Trois attaques consécutives",
+          "char2": "Défense contrôlée",
+          "char3": "Mouvements fluides"
+        }
+      },
+      "gohon": {
+        "title": "Gohon Kumite (Combat de Cinq Pas)",
+        "description": "Séquences de cinq pas",
+        "goals": {
+          "goal1": "Combinaisons plus complexes",
+          "goal2": "Contrôle avancé du timing et de la distance",
+          "goal3": "Développe la perspicacité tactique"
+        },
+        "characteristics": {
+          "char1": "Cinq attaques consécutives",
+          "char2": "Techniques de défense variées",
+          "char3": "Intensité plus élevée"
+        }
+      },
+      "jiyu": {
+        "title": "Jiyu Kumite (Combat Libre)",
+        "description": "Combat sans restrictions",
+        "goals": {
+          "goal1": "Développe la spontanéité et l'adaptabilité",
+          "goal2": "Teste les vraies compétences de combat",
+          "goal3": "Construit la confiance en soi"
+        },
+        "characteristics": {
+          "char1": "Attaques imprévisibles",
+          "char2": "Défense libre",
+          "char3": "Situations de combat réalistes"
+        }
+      },
+      "shiai": {
+        "title": "Shiai Kumite (Combat de Compétition)",
+        "description": "Combat compétitif basé sur des règles",
+        "goals": {
+          "goal1": "Focus sur le score",
+          "goal2": "Développe la pensée tactique",
+          "goal3": "Prépare aux compétitions"
+        },
+        "characteristics": {
+          "char1": "Règles et limitations spécifiques",
+          "char2": "Système de score",
+          "char3": "Limites de temps"
+        }
+      }
+    },
+    "progression": {
+      "basic": {
+        "title": "Basique",
+        "desc": "Ippon Kumite pour les compétences fondamentales"
+      },
+      "expansion": {
+        "title": "Expansion",
+        "desc": "Sanbon et Gohon pour la complexité"
+      },
+      "freedom": {
+        "title": "Liberté",
+        "desc": "Jiyu Kumite pour la spontanéité"
+      },
+      "competition": {
+        "title": "Compétition",
+        "desc": "Shiai Kumite pour l'expérience compétitive"
+      }
+    },
+    "safety": {
+      "basic-principles": "Principes de Sécurité de Base",
+      "equipment": "Équipement de Sécurité",
+      "competition-rules": "Règles de Compétition",
+      "training-safety": "Sécurité d'Entraînement",
+      "warning-title": "Avertissement de Sécurité",
+      "warning-text": "La sécurité est de la plus haute importance dans la pratique du kumite. Sans mesures de sécurité appropriées, le kumite peut être dangereux.",
+      "principles": {
+        "control": "Toutes les techniques doivent être contrôlées",
+        "equipment": "Utilisez un équipement de sécurité approprié",
+        "supervision": "Pratiquez toujours sous instruction qualifiée",
+        "respect": "Montrez du respect pour votre partenaire d'entraînement",
+        "progressive": "Commencez par des formes de base avant le combat avancé"
+      },
+      "required-equipment": "Équipement Requis",
+      "optional-equipment": "Équipement Optionnel",
+      "equipment": {
+        "required": {
+          "hand-protectors": "Protecteurs de mains pour la protection des mains et poignets",
+          "foot-protectors": "Protecteurs de pieds pour la protection des pieds et chevilles",
+          "mouth-guard": "Protège-dents pour la protection des dents et de la bouche",
+          "groin-protector": "Protecteur inguinal pour les pratiquants masculins"
+        },
+        "optional": {
+          "head-protection": "Protection de tête pour une sécurité supplémentaire",
+          "chest-protector": "Protecteur de poitrine pour les pratiquantes féminines",
+          "shin-guards": "Protecteurs de tibia pour une protection supplémentaire des jambes"
+        }
+      },
+      "allowed-areas": "Zones Autorisées",
+      "scoring-areas": "Zones de Score",
+      "forbidden-areas": "Zones Interdites",
+      "areas": {
+        "scoring": {
+          "head-face-neck": "Tête, visage, cou",
+          "chest-abdomen-back": "Poitrine, abdomen, dos, côté",
+          "arms-legs": "Bras et jambes (limité)"
+        },
+        "forbidden": {
+          "throat": "Gorge",
+          "spine": "Colonne vertébrale",
+          "groin": "Aine",
+          "joints": "Articulations"
+        }
+      },
+      "penalties": {
+        "chukoku": {
+          "name": "Chukoku",
+          "desc": "Premier avertissement"
+        },
+        "keikoku": {
+          "name": "Keikoku",
+          "desc": "Deuxième avertissement"
+        },
+        "hansoku": {
+          "name": "Hansoku",
+          "desc": "Disqualification"
+        }
+      },
+      "training": {
+        "before": "Avant l'Entraînement",
+        "during": "Pendant l'Entraînement",
+        "after": "Après l'Entraînement",
+        "before": {
+          "item1": "Échauffez-vous toujours correctement",
+          "item2": "Faites des exercices de flexibilité",
+          "item3": "Vérifiez l'équipement",
+          "item4": "Discutez du niveau avec votre partenaire"
+        },
+        "during": {
+          "item1": "Maintenez toujours le contrôle sur les techniques",
+          "item2": "Communiquez avec votre partenaire",
+          "item3": "Montrez du respect pour le niveau de compétence",
+          "item4": "Arrêtez immédiatement si des problèmes surviennent"
+        },
+        "after": {
+          "item1": "Faites une routine de récupération",
+          "item2": "Buvez suffisamment d'eau",
+          "item3": "Discutez de l'entraînement avec l'instructeur",
+          "item4": "Prenez suffisamment de repos"
+        }
+      }
+    }
+  },
+  "techniques": {
+    "title": "Techniques de Kumite en Karaté Sportif",
+    "attack-techniques": "Techniques d'Attaque",
+    "defense-techniques": "Techniques de Défense",
+    "tsuki-waza": "Tsuki Waza (突き技) - Techniques de Coup de Poing",
+    "uchi-waza": "Uchi Waza (打ち技) - Techniques de Frappe",
+    "keri-waza": "Keri Waza (蹴り技) - Techniques de Coup de Pied",
+    "nage-waza": "Nage Waza (投げ技) - Techniques de Projection",
+    "uke-waza": "Uke Waza (受け技) - Techniques de Blocage",
+    "kawashi-waza": "Kawashi Waza (躱し技) - Techniques d'Esquive",
+    "safety-considerations": "Considérations de Sécurité",
+    "training-focus": "Focus d'Entraînement"
+  },
+  "principles": {
+    "title": "Principes de Kumite et Philosophie d'Entraînement",
+    "core-principles": "Principes Fondamentaux",
+    "mental-preparation": "Préparation Mentale",
+    "tactical-principles": "Principes Tactiques",
+    "physical-preparation": "Préparation Physique",
+    "competition-vs-traditional": "Compétition vs. Karaté Traditionnel",
+    "training-methodology": "Méthodologie d'Entraînement",
+    "safety-and-control": "Sécurité et Contrôle"
+  },
+  "training": {
+    "title": "Méthodes d'Entraînement de Kumite",
+    "training-progression": "Progression d'Entraînement",
+    "training-methods": "Méthodes d'Entraînement",
+    "training-structure": "Structure d'Entraînement",
+    "training-principles": "Principes d'Entraînement",
+    "competition-preparation": "Préparation à la Compétition",
+    "safety-considerations": "Considérations de Sécurité"
+  },
+  "competition": {
+    "title": "Compétition de Kumite",
+    "organizations": "Organisations de Compétition",
+    "rules": "Règles de Compétition",
+    "preparation": "Préparation à la Compétition",
+    "safety": "Sécurité en Compétition",
+    "experience": "Expérience de Compétition",
+    "etiquette": "Étiquette de Compétition"
+  },
+  "technique-names": {
+    "kizami-zuki": "Kizami Zuki (刻み突き)",
+    "gyaku-zuki": "Gyaku Zuki (逆突き)",
+    "oi-zuki": "Oi Zuki (追い突き)",
+    "choku-zuki": "Choku Zuki (直突き)",
+    "uraken-uchi": "Uraken Uchi (裏拳打ち)",
+    "haito-uchi": "Haito Uchi (背刀打ち)",
+    "shuto-uchi": "Shuto Uchi (手刀打ち)",
+    "mae-geri": "Mae Geri (前蹴り)",
+    "yoko-geri": "Yoko Geri (横蹴り)",
+    "mawashi-geri": "Mawashi Geri (回し蹴り)",
+    "ura-mawashi-geri": "Ura Mawashi Geri (裏回し蹴り)",
+    "ushiro-geri": "Ushiro Geri (後ろ蹴り)",
+    "ushiro-ura-mawashi-geri": "Ushiro Ura Mawashi Geri (後ろ裏回し蹴り)",
+    "de-ashi-barai": "De Ashi Barai (出足払い)",
+    "kuzushi": "Kuzushi (崩し)",
+    "o-soto-gari": "O Soto Gari (大外刈り)",
+    "o-uchi-gari": "O Uchi Gari (大内刈り)",
+    "ko-soto-gari": "Ko Soto Gari (小外刈り)",
+    "ko-uchi-gari": "Ko Uchi Gari (小内刈り)",
+    "okuri-ashi-harai": "Okuri Ashi Harai (送り足払い)",
+    "tai-otoshi": "Tai-otoshi (体落とし)",
+    "age-uke": "Age Uke (上げ受け)",
+    "soto-uke": "Soto Uke (外受け)",
+    "uchi-uke": "Uchi Uke (内受け)",
+    "gedan-barai": "Gedan Barai (下段払い)",
+    "gedan-uke": "Gedan Uke (下段受け)",
+    "te-nagashi-uke": "Te Nagashi Uke (手流し受け)",
+    "te-osae-uke": "Te Osae Uke (手押さえ受け)",
+    "hiza-uke": "Hiza-uke (膝受け)",
+    "sune-uke": "Sune Uke (脛受け)"
+  },
+  "mental-states": {
+    "zanshin": "Zanshin (残心) - Esprit Persistant",
+    "mushin": "Mushin (無心) - Esprit Sans Pensée",
+    "fudoshin": "Fudoshin (不動心) - Esprit Immuable",
+    "senshin": "Senshin (先心) - Esprit Purifié"
+  },
+  "tactical-concepts": {
+    "ma-ai": "Ma-ai (間合い) - Distance de Combat",
+    "sen": "Sen (先) - Initiative",
+    "go-no-sen": "Go No Sen (後の先) - Réponse à l'Attaque",
+    "sen-no-sen": "Sen No Sen (先の先) - Attaquer l'Attaque"
+  },
+  "competition-organizations": {
+    "wkf": "World Karate Federation (WKF)",
+    "wkc": "World Karate Confederation (WKC)",
+    "wukf": "World Union of Karate-Do Federations (WUKF)",
+    "wkmo": "World Karate Martial Arts Organization (WKMO)"
+  },
+  "scoring": {
+    "ippon": "Ippon (3 points)",
+    "waza-ari": "Waza-ari (2 points)",
+    "yuko": "Yuko (1 point)"
+  },
+  "penalties": {
+    "chukoku": "Chukoku - Premier avertissement",
+    "keikoku": "Keikoku - Deuxième avertissement",
+    "hansoku": "Hansoku - Disqualification"
+  }
+} 

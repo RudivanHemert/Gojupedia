@@ -12,6 +12,7 @@ import MediaGallery from '@/components/media/MediaGallery';
 import InteractiveKataSteps, { KataStep } from '@/components/practice/InteractiveKataSteps';
 import { useProgress } from '@/hooks/useProgress';
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 // Import detailed kata steps for all languages
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsEn } from '@/data/gekisai-dai-ichi.en';
@@ -263,15 +264,17 @@ const KataDetailPage = () => {
   
   if (!kata) {
     return (
-      <div className="p-4 text-center">
-        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-          <AlertTriangle className="mx-auto h-16 w-16 text-destructive mb-4" />
-          <h1 className="text-2xl font-bold mb-2 text-destructive">{t('kataDetailPage.notFound.title')}</h1>
-          <p className="mb-6 text-muted-foreground">{t('kataDetailPage.notFound.message')}</p>
-          <Button onClick={() => navigate('/kata')} variant="outline">
-            <ChevronLeft className="mr-2 h-4 w-4" /> {t('kataDetailPage.notFound.backButton')}
-          </Button>
-        </motion.div>
+      <div className="min-h-screen bg-white">
+        <TheoryHeader 
+          title={t('kataDetailPage.notFound.title')}
+          description={t('kataDetailPage.notFound.message')}
+          backUrl="/kata"
+        />
+        <div className="p-4 text-center">
+          <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+            <AlertTriangle className="mx-auto h-16 w-16 text-destructive mb-4" />
+          </motion.div>
+        </div>
       </div>
     );
   }
@@ -295,41 +298,12 @@ const KataDetailPage = () => {
   const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
-    <>
-      {/* Header with Navigation */}
-      {/* <div className="relative">
-        <div className="h-64 overflow-hidden">
-          <img 
-            src={kata.images[0]} 
-            alt={t(`kata.${kata.id}.name`)}
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = '/Images/placeholder.jpg';
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
-        </div>
-        <div className="absolute bottom-0 left-0 p-5 w-full">
-          <div className="flex justify-between items-end">
-            <div>
-              <h1 className="text-white text-3xl font-bold">{t(`kata.${kata.id}.name`)}</h1>
-              <p className="text-white opacity-90">{t(`kata.${kata.id}.japaneseName`)}</p>
-              <p className="text-white/70 text-sm italic">{t(`kata.${kata.id}.meaning`)}</p>
-            </div>
-            <Badge>{t(`kata.levels.${kata.level.toLowerCase()}`)}</Badge>
-          </div>
-        </div>
-      </div> */}
-      
-      {/* {dataLoadError && (
-        <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 m-4 rounded-md flex items-start space-x-2">
-          <AlertTriangle className="h-5 w-5 mt-0.5 flex-shrink-0" />
-          <div>
-            <p className="font-semibold">Warning: Data Loading Issue</p>
-            <p className="text-sm">{dataLoadError}</p>
-          </div>
-        </div>
-      )} */}
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t(`kata.${kata.id}.name`)}
+        description={t(`kata.${kata.id}.description`)}
+        backUrl="/kata"
+      />
       
       {/* Content Area */}
       <div className="p-4">
@@ -518,7 +492,7 @@ const KataDetailPage = () => {
           </motion.div>
         </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

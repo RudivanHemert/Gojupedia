@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ChevronDown, ChevronUp, Calendar, Clock, Award, Book, Dumbbell, GraduationCap, Swords } from 'lucide-react';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Badge } from '@/components/ui/badge';
+import { Award, GraduationCap, Book, Swords, ChevronRight, ChevronDown, ChevronUp, Calendar, Clock, Dumbbell } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 // Import kyu data from JSON files
 import tenthKyuData from '@/data/graduations/10th-kyu.json';
@@ -540,14 +537,11 @@ const GradingsPage = () => {
 
   return (
     <div className="p-4">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold text-stone-900 mb-2">
-          {t('graduations.title')}
-        </h1>
-        <p className="text-stone-600">
-          {t('graduations.description')}
-        </p>
-      </div>
+      <TheoryHeader 
+        title={t('graduations.title')}
+        description={t('graduations.description')}
+        backUrl="/theory"
+      />
       <div className="space-y-12">
         {gradingLevels.map((level) => {
           const gradingData = getGradingData(level.id);

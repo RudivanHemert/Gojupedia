@@ -1,27 +1,26 @@
-import React, { useState } from 'react';
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import React from 'react';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const MorioHigaonnaSection = () => {
   const { t } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
   const markdownContent = useMarkdownContent('history/morio-higaonna');
 
   return (
-    <section className="space-y-4 mt-8">
-      <Collapsible open={isOpen} onOpenChange={setIsOpen} className="w-full">
-        <CollapsibleTrigger className="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md">
-          <h2 className="text-2xl font-serif font-semibold">{t('history.subsections.morioHigaonna.title')}</h2>
-          {isOpen ? <ChevronUp className="h-6 w-6 text-gray-500" /> : <ChevronDown className="h-6 w-6 text-gray-500" />}
-        </CollapsibleTrigger>
-        <CollapsibleContent className="pt-4 px-4">
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('history.morioHigaonna')}
+        description="Een van de meest gerespecteerde Goju Ryu meesters en een belangrijke leraar in de moderne tijd."
+        backUrl="/history"
+      />
+      <div className="p-4">
+        <div className="w-full max-w-4xl mx-auto">
           {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
-        </CollapsibleContent>
-      </Collapsible>
-    </section>
+        </div>
+      </div>
+    </div>
   );
 };
 

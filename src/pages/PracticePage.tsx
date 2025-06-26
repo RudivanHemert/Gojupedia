@@ -2,8 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 import { Swords, User, Dumbbell, Users, ListChecks, Zap } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const PracticePage = () => {
   const { t } = useTranslation();
@@ -42,13 +44,6 @@ const PracticePage = () => {
       description: t('practice.newazaDesc'),
       icon: <Zap className="h-5 w-5 text-karate" />,
       path: '/newaza',
-    },
-    {
-      id: 'kumite',
-      name: t('practice.kumite'),
-      description: t('practice.kumiteDesc'),
-      icon: <Users className="h-5 w-5 text-karate" />,
-      path: '/kumite',
     }
   ];
 
@@ -75,10 +70,11 @@ const PracticePage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="py-8 px-4 text-center">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('practice.title')}</h1>
-        <p className="text-gray-700 text-lg">{t('practice.description')}</p>
-      </div>
+      <TheoryHeader 
+        title={t('practice.title')}
+        description={t('practice.description')}
+        backUrl="/"
+      />
       <div className="p-4">
         <motion.div
           variants={containerVariants}

@@ -11,6 +11,7 @@ const VitalPointsPage = () => {
       <TheoryHeader 
         title={t('vitalPoints.title')}
         description={t('vitalPoints.description')}
+        backUrl="/theory"
       />
       <div className="p-4">
         <div className="max-w-4xl mx-auto">

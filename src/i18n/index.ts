@@ -20,6 +20,7 @@ import enGraduations from './locales/en/graduations.json';
 import enQuiz from './locales/en/quiz.json';
 import enHojoUndo from './locales/en/hojoUndo.json';
 import enNewaza from './locales/en/newaza.json';
+import enKumite from './locales/en/kumite.json';
 
 import deCommon from './locales/de/common.json';
 import deHome from './locales/de/home.json';
@@ -38,6 +39,7 @@ import deGraduations from './locales/de/graduations.json';
 import deQuiz from './locales/de/quiz.json';
 import deHojoUndo from './locales/de/hojoUndo.json';
 import deNewaza from './locales/de/newaza.json';
+import deKumite from './locales/de/kumite.json';
 
 import esCommon from './locales/es/common.json';
 import esHome from './locales/es/home.json';
@@ -56,6 +58,7 @@ import esGraduations from './locales/es/graduations.json';
 import esQuiz from './locales/es/quiz.json';
 import esHojoUndo from './locales/es/hojoUndo.json';
 import esNewaza from './locales/es/newaza.json';
+import esKumite from './locales/es/kumite.json';
 
 import frCommon from './locales/fr/common.json';
 import frHome from './locales/fr/home.json';
@@ -74,6 +77,7 @@ import frGraduations from './locales/fr/graduations.json';
 import frQuiz from './locales/fr/quiz.json';
 import frHojoUndo from './locales/fr/hojoUndo.json';
 import frNewaza from './locales/fr/newaza.json';
+import frKumite from './locales/fr/kumite.json';
 
 import itCommon from './locales/it/common.json';
 import itHome from './locales/it/home.json';
@@ -92,6 +96,7 @@ import itGraduations from './locales/it/graduations.json';
 import itQuiz from './locales/it/quiz.json';
 import itHojoUndo from './locales/it/hojoUndo.json';
 import itNewaza from './locales/it/newaza.json';
+import itKumite from './locales/it/kumite.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlHome from './locales/nl/home.json';
@@ -110,6 +115,7 @@ import nlGraduations from './locales/nl/graduations.json';
 import nlQuiz from './locales/nl/quiz.json';
 import nlHojoUndo from './locales/nl/hojoUndo.json';
 import nlNewaza from './locales/nl/newaza.json';
+import nlKumite from './locales/nl/kumite.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -126,9 +132,9 @@ export type SupportedLanguage = keyof typeof supportedLanguages;
 // Combine all translations for each language
 const combineTranslations = (modules: Record<string, any>) => {
   const result = Object.keys(modules).reduce((acc, key) => {
-    if (key === 'hojoUndo') {
-      // Keep hojoUndo as a separate namespace
-      return { ...acc, hojoUndo: modules[key] };
+    if (key === 'hojoUndo' || key === 'kumite') {
+      // Keep hojoUndo and kumite as separate namespaces
+      return { ...acc, [key]: modules[key] };
     } else {
       // Merge other modules into the root level
       return { ...acc, ...modules[key] };
@@ -156,6 +162,7 @@ const enTranslations = combineTranslations({
   quiz: enQuiz,
   hojoUndo: enHojoUndo,
   newaza: enNewaza,
+  kumite: enKumite,
 });
 
 const deTranslations = combineTranslations({
@@ -176,6 +183,7 @@ const deTranslations = combineTranslations({
   quiz: deQuiz,
   hojoUndo: deHojoUndo,
   newaza: deNewaza,
+  kumite: deKumite,
 });
 
 const esTranslations = combineTranslations({
@@ -196,6 +204,7 @@ const esTranslations = combineTranslations({
   quiz: esQuiz,
   hojoUndo: esHojoUndo,
   newaza: esNewaza,
+  kumite: esKumite,
 });
 
 const frTranslations = combineTranslations({
@@ -216,6 +225,7 @@ const frTranslations = combineTranslations({
   quiz: frQuiz,
   hojoUndo: frHojoUndo,
   newaza: frNewaza,
+  kumite: frKumite,
 });
 
 const itTranslations = combineTranslations({
@@ -236,6 +246,7 @@ const itTranslations = combineTranslations({
   quiz: itQuiz,
   hojoUndo: itHojoUndo,
   newaza: itNewaza,
+  kumite: itKumite,
 });
 
 const nlTranslations = combineTranslations({
@@ -256,6 +267,7 @@ const nlTranslations = combineTranslations({
   quiz: nlQuiz,
   hojoUndo: nlHojoUndo,
   newaza: nlNewaza,
+  kumite: nlKumite,
 });
 
 i18n

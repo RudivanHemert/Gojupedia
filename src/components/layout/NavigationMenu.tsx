@@ -21,6 +21,7 @@ const NavigationMenu = () => {
         <Link to="/philosophy" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('theory.nav.philosophy')}</Link>
         <Link to="/vital-points" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('theory.nav.vitalPoints')}</Link>
         <Link to="/gradings" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('theory.nav.gradings')}</Link>
+        <Link to="/kumite" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('navigation.kumite')}</Link>
       </div>
       
       <div className="pt-2 border-t border-gray-100">
@@ -30,7 +31,6 @@ const NavigationMenu = () => {
         <Link to="/kata" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('practice.nav.kata')}</Link>
         <Link to="/bunkai" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('practice.nav.bunkai')}</Link>
         <Link to="/hojo-undo" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('practice.nav.hojoUndo')}</Link>
-        <Link to="/kumite" className="block p-2 hover:bg-stone-100 rounded transition-colors pl-4">{t('practice.nav.kumite')}</Link>
       </div>
       
       <div className="pt-2 border-t border-gray-100">

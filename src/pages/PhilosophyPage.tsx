@@ -21,6 +21,7 @@ const PhilosophyPage = () => {
       <TheoryHeader 
         title={t('philosophy.title')}
         description={t('philosophy.description')}
+        backUrl="/theory"
       />
       <div className="p-4">
         <motion.div

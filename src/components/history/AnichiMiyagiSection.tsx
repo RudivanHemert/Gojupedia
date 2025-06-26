@@ -1,18 +1,26 @@
 import React from 'react';
-import SectionWrapper from './SectionWrapper';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 import { useMarkdownContent } from '@/utils/markdown';
+import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const AnichiMiyagiSection = () => {
+  const { t } = useTranslation();
   const markdownContent = useMarkdownContent('history/anichi-miyagi');
 
   return (
-    <SectionWrapper title="An'ichi Miyagi (1931-2009)">
-      {/* Render the imported Markdown content */}
-      {/* Note: Complex layouts with side images might require custom rendering logic */}
-      {/* or adjustments to the Markdown structure/CSS if basic rendering is insufficient. */}
-      {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
-    </SectionWrapper>
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('history.anichiMiyagi')}
+        description="Een van de belangrijkste leerlingen van Chojun Miyagi en een belangrijke leraar in de Goju Ryu traditie."
+        backUrl="/history"
+      />
+      <div className="p-4">
+        <div className="w-full max-w-4xl mx-auto">
+          {markdownContent && <MarkdownRenderer markdownContent={markdownContent} />}
+        </div>
+      </div>
+    </div>
   );
 };
 

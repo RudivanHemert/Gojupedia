@@ -16,8 +16,7 @@ const PracticeNavigation: React.FC<PracticeNavigationProps> = ({ currentPath }) 
       basePath !== '/techniques' && 
       basePath !== '/kata' && 
       basePath !== '/bunkai' &&
-      basePath !== '/hojo-undo' && 
-      basePath !== '/kumite') {
+      basePath !== '/hojo-undo') {
     return null;
   }
   
@@ -28,15 +27,14 @@ const PracticeNavigation: React.FC<PracticeNavigationProps> = ({ currentPath }) 
         basePath === '/techniques' ? 'techniques' : 
         basePath === '/kata' ? 'kata' : 
         basePath === '/bunkai' ? 'bunkai' :
-        basePath === '/hojo-undo' ? 'hojo-undo' : 
-        'kumite'
+        'hojo-undo'
       } 
       className="w-full"
       onValueChange={(value) => {
         navigate(value);
       }}
     >
-      <TabsList className="grid grid-cols-5 h-12 bg-stone-100">
+      <TabsList className="grid grid-cols-4 h-12 bg-stone-100">
         <TabsTrigger value="/techniques" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">{t('practice.nav.techniques')}</span>
         </TabsTrigger>
@@ -48,9 +46,6 @@ const PracticeNavigation: React.FC<PracticeNavigationProps> = ({ currentPath }) 
         </TabsTrigger>
         <TabsTrigger value="/hojo-undo" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">{t('practice.nav.hojoUndo')}</span>
-        </TabsTrigger>
-        <TabsTrigger value="/kumite" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">{t('practice.nav.kumite')}</span>
         </TabsTrigger>
       </TabsList>
     </Tabs>
