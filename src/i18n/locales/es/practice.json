@@ -3,13 +3,15 @@
     "title": "Práctica",
     "description": "Métodos de entrenamiento y aplicaciones",
     "techniques": "Técnicas",
-    "techniquesDesc": "Aprende técnicas fundamentales de Goju Ryu",
+    "techniquesDesc": "Aprende técnicas fundamentales del Goju Ryu",
     "kata": "Kata",
     "kataDesc": "Formas y patrones tradicionales",
     "bunkai": "Bunkai",
     "bunkaiDesc": "Aplicación y análisis de técnicas de kata",
     "hojoUndo": "Hojo Undo",
-    "hojoUndoDesc": "Métodos de entrenamiento y herramientas complementarias",
+    "hojoUndoDesc": "Métodos de entrenamiento complementarios y herramientas",
+    "junbiUndo": "Junbi Undo",
+    "junbiUndoDesc": "Ejercicios preparatorios y rutinas de calentamiento",
     "newaza": "Newaza",
     "newazaDesc": "Técnicas y principios de lucha en el suelo",
     "nav": {
@@ -17,6 +19,7 @@
       "kata": "Kata",
       "bunkai": "Bunkai",
       "hojoUndo": "Hojo Undo",
+      "junbiUndo": "Junbi Undo",
       "newaza": "Newaza"
     }
   }

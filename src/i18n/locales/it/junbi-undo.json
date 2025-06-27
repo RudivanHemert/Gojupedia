@@ -1,0 +1,140 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Esercizi Preliminari",
+    "description": "Esercizi preliminari e routine di riscaldamento per il karate Goju Ryu",
+    "intro": "Questi esercizi preparano il corpo per l'allenamento e devono essere eseguiti all'inizio di ogni sessione di pratica.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Esercizi Preliminari",
+      "note": "Ogni esercizio deve essere ripetuto almeno due volte (eccetto con gli studenti più giovani, dove una serie di otto per ogni esercizio può essere sufficiente)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Esercizi Complementari",
+      "intro": "Questi esercizi complementari sviluppano abilità e tecniche specifiche utilizzate nel Goju Ryu.",
+      "note": "Ogni esercizio deve essere ripetuto per almeno due serie di otto conteggi (eccetto con gli studenti più giovani, dove una serie di otto per ogni esercizio può essere sufficiente)."
+    },
+    "breathingSection": {
+      "title": "Respirazione",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Esercizi",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Esercizi delle Dita dei Piedi",
+          "description": "Iniziate stando in heiko dachi (posizione naturale) con le mani sui fianchi e concentrando la vostra attenzione sulle piante dei piedi (teisoku). Allargate le dita dei piedi il più possibile e cercate di avere il maggior contatto di superficie possibile con il suolo.",
+          "instructions": "Da qui, sollevate l'alluce e tenetelo per un secondo prima di riportarlo a terra, afferrate il pavimento e sollevate le dita più piccole dal suolo. Questo scambio viene ripetuto almeno dieci volte.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Pivot del Tallone",
+          "description": "Mani sui fianchi, talloni insieme, dita separate. Sollevate la pianta del piede destro dal pavimento e ruotate verso l'esterno sul tallone del piede.",
+          "instructions": "Due ripetizioni per piede. Questo esercizio aumenta la vostra consapevolezza delle dita dei piedi e migliora la destrezza generale dell'alluce.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Rotazione della Caviglia",
+          "description": "State in piedi sulla gamba sinistra e sollevate il ginocchio destro in modo che la coscia sia orizzontale. Questo aiuta a sviluppare l'equilibrio.",
+          "instructions": "Ruotate la caviglia, prima in senso orario e poi in senso antiorario. Poi fate scattare la parte inferiore della gamba verso l'esterno come se steste calciando. Ripetete questo stando in piedi sulla gamba destra e sollevando il ginocchio sinistro.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Colpi di Ginocchio",
+          "description": "Mantenendo le ascelle saldamente chiuse, tenete le braccia davanti al corpo con i palmi delle mani aperti e fermi.",
+          "instructions": "Saltando dal pavimento con le caviglie, sparate le ginocchia, alternativamente, nelle mani aperte in modo costante e ritmico facendo il maggior impatto possibile con il palmo della mano.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Esercizio di Squat",
+          "description": "Posizionate i piedi insieme con i talloni che si toccano e le dita separate, creando una forma a V con i piedi (musubi dachi).",
+          "instructions": "Piegandovi in avanti, posizionate le mani sulle ginocchia. Piegate le ginocchia e abbassate il corpo in una posizione accovacciata, mantenendo la schiena dritta e le ginocchia ai lati mentre i talloni lasciano il pavimento.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Stretching Shiko",
+          "description": "Passate in shiko dachi (posizione bassa) e posizionate le mani all'interno delle cosce vicino alle ginocchia.",
+          "instructions": "Lasciate cadere la spalla destra in avanti, girate delicatamente la testa e guardate a sinistra. Il braccio destro ora spinge la gamba destra all'indietro mentre il braccio sinistro impedisce alla gamba sinistra di muoversi in avanti.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Stretching delle Gambe",
+          "description": "Rimanendo in shiko dachi, fate scorrere entrambi gli avambracci lungo l'interno delle gambe fino a quando i gomiti sono leggermente sopra le ginocchia.",
+          "instructions": "Applicate una pressione uguale su entrambe le gambe per spingerle all'esterno. Con le dita dei piedi che afferrano il pavimento, mantenete il petto alto, il più eretto possibile, per massimizzare lo stretching sulle gambe.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Trasferimento di Peso",
+          "description": "Appoggiatevi sulla gamba destra e mantenete la gamba sinistra distesa, con il piede e le dita piatte sul suolo.",
+          "instructions": "Riposate le mani sulle ginocchia e cercate di mantenere un'immagine dei muscoli del polpaccio che vengono allungati dalla vostra postura. Senza sollevare il corpo, spostatevi sull'altra gamba.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Rotazione dell'Anca",
+          "description": "Standing in heiko dachi (posizione naturale) con le mani che riposano leggermente sui fianchi, ruotate le anche in un'azione circolare.",
+          "instructions": "Cercate di mantenere le caviglie e le spalle allineate e confinate il movimento alla parte centrale del corpo minimizzando il più possibile qualsiasi movimento delle spalle.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Stretching delle Braccia",
+          "description": "Standing in heiko dachi (posizione naturale) tenete il braccio sinistro in una postura chudan haito uke (blocco mano bordo pollice livello medio).",
+          "instructions": "Sostenetelo posizionando la mano destra, palmo verso il basso, sotto il gomito. Da lì, inspirate profondamente attraverso il naso mentre eseguite mawashi uke (blocco circolare).",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Oscillazioni delle Braccia",
+          "description": "State in piedi naturalmente e oscillate le braccia all'indietro in un grande movimento circolare.",
+          "instructions": "Iniziate lentamente e poi oscillate il più velocemente possibile diverse volte. Invertite l'oscillazione, ricordandovi di iniziare lentamente e finire velocemente.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Flessibilità del Polso",
+          "description": "Rimanendo in heikodachi (posizione naturale), posizionate la mano sinistra sul lato del corpo con le dita che puntano verso l'alto.",
+          "instructions": "Le dita della mano destra si incrociano davanti alle dita della mano sinistra. Spingete lentamente il braccio sinistro dritto mantenendo il contatto con la mano destra.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Formazione del Pugno",
+          "description": "Assumete una heiko dachi (posizione naturale), assicurandovi che i piedi siano leggermente più larghi della larghezza delle spalle e paralleli.",
+          "instructions": "Tenete entrambe le braccia nella postura chudan uke (blocco livello medio). Senza sollevare il vostro centro di gravità o le spalle, allungate un po' le braccia e aprite le mani e le dita il più largamente possibile.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Pressione del Palmo",
+          "description": "Standing in heiko dachi, spingete i palmi delle mani insieme con forza e allungate le braccia davanti al petto.",
+          "instructions": "Continuate a spingere le mani insieme con forza mentre le tirate indietro verso il petto ed espirate attraverso la bocca aperta. Facendo una linea tra entrambi i gomiti, cercate di tirare i polsi un po' oltre quella linea.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Movimenti della Testa",
+          "description": "Standing in heiko dachi (posizione naturale) con le mani che riposano sui fianchi, abbassate il mento al petto e respirate attraverso il naso.",
+          "instructions": "Senza trattenere il respiro, muovete lentamente la testa il più indietro possibile, espirando attraverso la bocca aperta mentre lo fate. Rilassate le spalle e concentrate la mente sull'armonia del respiro e della postura.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Stretching del Collo",
+          "description": "Tenendo la testa naturalmente, respirate prima di abbassare la testa su un lato su un'espirazione mentre spingete la spalla opposta verso il suolo.",
+          "instructions": "Mantenete questo per solo un secondo prima di muovere lentamente la testa sull'altro lato. Mantenendo il corpo eretto e stando in piedi in una posizione naturale, posizionate le mani sulla parte posteriore della testa.",
+          "image": "page_20_image_1.png"
+        }
+      ]
+    }
+  }
+} 

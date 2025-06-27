@@ -29,6 +29,8 @@ const SearchPage: React.FC = () => {
         return `newaza.${item.id.replace('newaza-', '')}.title`;
       case 'hojo-undo':
         return `hojoUndo.${item.id.replace('hojo-undo-', '')}.title`;
+      case 'junbi-undo':
+        return `junbiUndo.exercises.list.${item.id.replace('junbi-undo-', '').replace('-', '_')}.name`;
       default:
         return null;
     }
@@ -189,6 +191,129 @@ const SearchPage: React.FC = () => {
       };
 
       const translation = kumiteTranslations[item.id]?.[language];
+      if (translation) {
+        return translation;
+      }
+    }
+
+    // Special handling for junbi-undo content
+    if (item.type === 'junbi-undo') {
+      const junbiUndoTranslations: Record<string, Record<string, string>> = {
+        'junbi-undo-toe-exercises': {
+          'nl': 'Teen Oefeningen',
+          'de': 'Zehenübungen',
+          'fr': 'Exercices des Orteils',
+          'es': 'Ejercicios de Dedos de los Pies',
+          'it': 'Esercizi delle Dita dei Piedi'
+        },
+        'junbi-undo-heel-pivots': {
+          'nl': 'Hiel Pivots',
+          'de': 'Fersen-Drehungen',
+          'fr': 'Pivots du Talon',
+          'es': 'Pivotes del Talón',
+          'it': 'Pivot del Tallone'
+        },
+        'junbi-undo-ankle-rotation': {
+          'nl': 'Enkel Rotatie',
+          'de': 'Knöchel-Rotation',
+          'fr': 'Rotation de la Cheville',
+          'es': 'Rotación del Tobillo',
+          'it': 'Rotazione della Caviglia'
+        },
+        'junbi-undo-knee-strikes': {
+          'nl': 'Knie Stoten',
+          'de': 'Knie-Schläge',
+          'fr': 'Coups de Genou',
+          'es': 'Golpes de Rodilla',
+          'it': 'Colpi di Ginocchio'
+        },
+        'junbi-undo-squatting-exercise': {
+          'nl': 'Hurkoefening',
+          'de': 'Hockübung',
+          'fr': 'Exercice d\'Accroupissement',
+          'es': 'Ejercicio de Cuclillas',
+          'it': 'Esercizio di Squat'
+        },
+        'junbi-undo-shiko-stretches': {
+          'nl': 'Shiko Rekoefeningen',
+          'de': 'Shiko-Dehnungen',
+          'fr': 'Étirements Shiko',
+          'es': 'Estiramientos Shiko',
+          'it': 'Stretching Shiko'
+        },
+        'junbi-undo-leg-stretches': {
+          'nl': 'Been Rekoefeningen',
+          'de': 'Bein-Dehnungen',
+          'fr': 'Étirements des Jambes',
+          'es': 'Estiramientos de Piernas',
+          'it': 'Stretching delle Gambe'
+        },
+        'junbi-undo-weight-transfer': {
+          'nl': 'Gewichtsoverdracht',
+          'de': 'Gewichtsverlagerung',
+          'fr': 'Transfert de Poids',
+          'es': 'Transferencia de Peso',
+          'it': 'Trasferimento di Peso'
+        },
+        'junbi-undo-hip-rotation': {
+          'nl': 'Heup Rotatie',
+          'de': 'Hüft-Rotation',
+          'fr': 'Rotation des Hanches',
+          'es': 'Rotación de Caderas',
+          'it': 'Rotazione dell\'Anca'
+        },
+        'junbi-undo-arm-stretches': {
+          'nl': 'Arm Rekoefeningen',
+          'de': 'Arm-Dehnungen',
+          'fr': 'Étirements des Bras',
+          'es': 'Estiramientos de Brazos',
+          'it': 'Stretching delle Braccia'
+        },
+        'junbi-undo-arm-swings': {
+          'nl': 'Arm Zwaaien',
+          'de': 'Arm-Schwünge',
+          'fr': 'Balancements des Bras',
+          'es': 'Balanceos de Brazos',
+          'it': 'Oscillazioni delle Braccia'
+        },
+        'junbi-undo-wrist-flexibility': {
+          'nl': 'Pols Flexibiliteit',
+          'de': 'Handgelenk-Flexibilität',
+          'fr': 'Flexibilité du Poignet',
+          'es': 'Flexibilidad de Muñeca',
+          'it': 'Flessibilità del Polso'
+        },
+        'junbi-undo-fist-formation': {
+          'nl': 'Vuist Vorming',
+          'de': 'Faust-Bildung',
+          'fr': 'Formation du Poing',
+          'es': 'Formación de Puño',
+          'it': 'Formazione del Pugno'
+        },
+        'junbi-undo-palm-pressure': {
+          'nl': 'Handpalm Druk',
+          'de': 'Handflächen-Druck',
+          'fr': 'Pression de la Paume',
+          'es': 'Presión de Palma',
+          'it': 'Pressione del Palmo'
+        },
+        'junbi-undo-head-movements': {
+          'nl': 'Hoofd Bewegingen',
+          'de': 'Kopf-Bewegungen',
+          'fr': 'Mouvements de la Tête',
+          'es': 'Movimientos de Cabeza',
+          'it': 'Movimenti della Testa'
+        },
+        'junbi-undo-neck-stretches': {
+          'nl': 'Nek Rekoefeningen',
+          'de': 'Nacken-Dehnungen',
+          'fr': 'Étirements du Cou',
+          'es': 'Estiramientos de Cuello',
+          'it': 'Stretching del Collo'
+        }
+      };
+
+      const translation = junbiUndoTranslations[item.id]?.[language];
       if (translation) {
         return translation;
       }

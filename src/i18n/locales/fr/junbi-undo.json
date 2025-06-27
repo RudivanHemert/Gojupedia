@@ -1,0 +1,140 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Exercices Préliminaires",
+    "description": "Exercices préliminaires et routines d'échauffement pour le karaté Goju Ryu",
+    "intro": "Ces exercices préparent le corps à l'entraînement et doivent être effectués au début de chaque session de pratique.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Exercices Préliminaires",
+      "note": "Chaque exercice doit être répété au moins deux fois (sauf avec les plus jeunes étudiants, où une série de huit pour chaque exercice peut être suffisante)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Exercices Complémentaires",
+      "intro": "Ces exercices complémentaires développent des compétences et des techniques spécifiques utilisées dans le Goju Ryu.",
+      "note": "Chaque exercice doit être répété pendant au moins deux séries de huit comptes (sauf avec les plus jeunes étudiants, où une série de huit pour chaque exercice peut être suffisante)."
+    },
+    "breathingSection": {
+      "title": "Respiration",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Exercices",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Exercices des Orteils",
+          "description": "Commencez en position heiko dachi (position naturelle) avec les mains sur les hanches et concentrez votre attention sur la plante des pieds (teisoku). Écartez les orteils le plus largement possible et essayez d'avoir autant de contact de surface avec le sol que possible.",
+          "instructions": "De là, soulevez votre gros orteil et maintenez-le une seconde avant de le remettre au sol, saisissez le sol et soulevez les petits orteils du sol. Cet échange est répété au moins dix fois.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Pivots du Talon",
+          "description": "Mains sur les hanches, talons ensemble, orteils écartés. Soulevez la plante du pied droit du sol et pivotez vers l'extérieur sur le talon du pied.",
+          "instructions": "Deux répétitions par pied. Cet exercice augmente votre conscience des orteils et améliore la dextérité générale du gros orteil.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Rotation de la Cheville",
+          "description": "Tenez-vous sur la jambe gauche et levez le genou droit pour que la cuisse soit horizontale. Cela aide à développer l'équilibre.",
+          "instructions": "Tournez la cheville, d'abord dans le sens des aiguilles d'une montre puis dans le sens inverse. Puis faites claquer la partie inférieure de la jambe vers l'extérieur comme si vous donniez un coup de pied. Répétez cela en vous tenant sur la jambe droite et en levant le genou gauche.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Coups de Genou",
+          "description": "En gardant les aisselles fermement fermées, tenez les bras devant le corps avec les paumes des mains ouvertes et fermes.",
+          "instructions": "En sautant du sol avec les chevilles, tirez les genoux, alternativement, dans les mains ouvertes de manière régulière et rythmique en faisant autant d'impact que possible avec la paume de la main.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Exercice d'Accroupissement",
+          "description": "Placez les pieds ensemble avec les talons se touchant et les orteils écartés, créant une forme en V avec les pieds (musubi dachi).",
+          "instructions": "En vous penchant vers l'avant, placez les mains sur les genoux. Pliez les genoux et abaissez le corps dans une position accroupie, en gardant le dos droit et les genoux sur les côtés pendant que les talons quittent le sol.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Étirements Shiko",
+          "description": "Avancez en position shiko dachi (position basse) et placez les mains à l'intérieur des cuisses près des genoux.",
+          "instructions": "Laissez l'épaule droite s'affaisser vers l'avant, tournez doucement la tête et regardez vers la gauche. Le bras droit pousse maintenant la jambe droite vers l'arrière tandis que le bras gauche empêche la jambe gauche de bouger vers l'avant.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Étirements des Jambes",
+          "description": "En restant en shiko dachi, faites courir les deux avant-bras le long de l'intérieur des jambes jusqu'à ce que les coudes soient légèrement au-dessus des genoux.",
+          "instructions": "Appliquez une pression égale sur les deux jambes pour les écarter. Avec les orteils qui saisissent le sol, maintenez la poitrine haute, aussi droite que possible, pour maximiser l'étirement sur les jambes.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Transfert de Poids",
+          "description": "Penchez-vous sur la jambe droite et gardez la jambe gauche tendue, avec le pied et les orteils à plat sur le sol.",
+          "instructions": "Reposez les mains sur les genoux et essayez de maintenir une image des muscles du mollet qui sont étirés par votre posture. Sans soulever le corps, déplacez-vous vers l'autre jambe.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Rotation des Hanches",
+          "description": "En position heiko dachi (position naturelle) avec les mains reposant légèrement sur les hanches, faites tourner les hanches dans un mouvement circulaire.",
+          "instructions": "Essayez de garder les chevilles et les épaules alignées et limitez le mouvement à la partie centrale du corps en minimisant autant que possible tout mouvement des épaules.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Étirements des Bras",
+          "description": "En position heiko dachi (position naturelle), tenez le bras gauche dans une posture chudan haito uke (bloc de main du bord du pouce de niveau moyen).",
+          "instructions": "Soutenez-le en plaçant la main droite, paume vers le bas, sous le coude. De là, inspirez profondément par le nez tout en effectuant mawashi uke (bloc circulaire).",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Balancements des Bras",
+          "description": "Tenez-vous naturellement et balancez les bras vers l'arrière dans un grand mouvement circulaire.",
+          "instructions": "Commencez lentement puis balancez aussi rapidement que possible plusieurs fois. Inversez le balancement, en vous rappelant de commencer lentement et de finir rapidement.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Flexibilité du Poignet",
+          "description": "En restant en heikodachi (position naturelle), placez la main gauche sur le côté du corps avec les doigts pointant vers le haut.",
+          "instructions": "Les doigts de la main droite croisent devant les doigts de la main gauche. Poussez lentement le bras gauche droit tout en maintenant le contact avec la main droite.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Formation du Poing",
+          "description": "Prenez une position heiko dachi (position naturelle), en vous assurant que les pieds sont légèrement plus larges que la largeur des épaules et parallèles.",
+          "instructions": "Tenez les deux bras dans la posture chudan uke (bloc de niveau moyen). Sans soulever votre centre de gravité ou les épaules, étendez un peu les bras et ouvrez les mains et les doigts aussi largement que possible.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Pression de la Paume",
+          "description": "En position heiko dachi, poussez les paumes des mains ensemble fermement et étendez les bras devant la poitrine.",
+          "instructions": "Continuez à pousser les mains ensemble fermement pendant que vous les ramenez vers la poitrine et expirez par la bouche ouverte. En faisant une ligne entre les deux coudes, essayez de ramener les poignets un peu au-delà de cette ligne.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Mouvements de la Tête",
+          "description": "En position heiko dachi (position naturelle) avec les mains reposant sur les hanches, abaissez le menton vers la poitrine et inspirez par le nez.",
+          "instructions": "Sans retenir le souffle, déplacez lentement la tête aussi loin que possible vers l'arrière, en expirant par la bouche ouverte pendant que vous le faites. Détendez les épaules et concentrez l'esprit sur l'harmonie du souffle et de la posture.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Étirements du Cou",
+          "description": "En tenant la tête naturellement, inspirez avant d'abaisser la tête sur un côté lors d'une expiration tout en poussant l'épaule opposée vers le sol.",
+          "instructions": "Maintenez ceci pendant seulement une seconde avant de déplacer lentement la tête vers l'autre côté. En gardant le corps droit et en position naturelle, placez les mains sur l'arrière de la tête.",
+          "image": "page_20_image_1.png"
+        }
+      ]
+    }
+  }
+} 

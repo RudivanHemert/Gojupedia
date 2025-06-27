@@ -36,6 +36,7 @@ import GradingsPage from "./pages/GradingsPage";
 import SettingsPage from "./pages/SettingsPage";
 import AboutPage from "./pages/AboutPage";
 import SearchPage from "./pages/SearchPage";
+import JunbiUndoPage from "./pages/JunbiUndoPage";
 import SidebarLayout from '@/components/layout/SidebarLayout';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
 import PhilosophyPage from './pages/PhilosophyPage';
@@ -211,6 +212,7 @@ const AppContent = React.memo(() => {
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/search" element={<SearchPage />} />
+              <Route path="/junbi-undo" element={<JunbiUndoPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>

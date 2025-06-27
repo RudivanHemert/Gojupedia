@@ -1,0 +1,140 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Preliminary Exercises",
+    "description": "Preliminary exercises and warm-up routines for Goju Ryu karate",
+    "intro": "These exercises prepare the body for training and should be performed at the beginning of each practice session.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Preliminary Exercises",
+      "note": "Each exercise should be repeated at least two times (except with the youngest students, where one set of eight for each exercise can be enough)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Supplementary Exercises",
+      "intro": "These supplementary exercises develop specific skills and techniques used in Goju Ryu.",
+      "note": "Each exercise should be repeated for at least two sets of eight-counts (except with the youngest students, where one set of eight for each exercise can be enough)."
+    },
+    "breathingSection": {
+      "title": "Breathing",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Exercises",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Toe Exercises",
+          "description": "Begin by standing in heiko dachi (natural stance) with the hands on the hips and focusing your attention on the soles of the feet (teisoku). Spread the toes as widely as possible and try to make as much surface contact with the ground as you can.",
+          "instructions": "From here lift up your big toe and hold for a second before returning it to the ground, gripping the floor, and lifting the smaller toes off the ground. This exchange is repeated at least ten times.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Heel Pivots",
+          "description": "Hands on hips, heels together, toes apart. Lift the ball of the right foot off the floor and pivot outward on the heel of the foot.",
+          "instructions": "Two repetitions each foot. This exercise increases your awareness of the toes and improves the overall dexterity of the big toe.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Ankle Rotation",
+          "description": "Stand on the left leg and raise the right knee so that the thigh is level. This helps develop balance.",
+          "instructions": "Rotate the ankle, first clockwise and then counterclockwise. Then flick the bottom part of the leg out as if kicking. Repeat this by standing on the right leg and raising the left knee.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Knee Strikes",
+          "description": "Keeping the armpits closed tightly, hold the arms out in front of the body with the palms of the hands open and firm.",
+          "instructions": "Springing off the floor with the ankles, shoot the knees, alternately, into the open hands in a steady and rhythmical way making as much impact with the palm of the hand as possible.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Squatting Exercise",
+          "description": "Place the feet together with the heels touching and the toes apart making a V-shape with the feet (musubi dachi).",
+          "instructions": "Leaning forward, place the hands on the knees. Bend the knees and drop the body down into a squatting position, keeping the back straight and the knees out to the sides as the heels leave the floor.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Shiko Stretches",
+          "description": "Step out into shiko dachi (low stance) and place the hands on the inside of the thighs close to the knees.",
+          "instructions": "Drop the right shoulder forward, turn the head gently, and look to the left. The right arm now pushes the right leg backward while the left arm checks the left leg from moving forward.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Leg Stretches",
+          "description": "Staying in shiko dachi, run both forearms down the inside of the legs until the elbows are slightly above the knees.",
+          "instructions": "Bring an equal pressure to bear on both legs to push them apart. With the toes gripping the floor, hold the chest up, as upright as possible, to maximize the stretch on the legs.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Weight Transfer",
+          "description": "Lean onto the right leg and keep the left leg stretched out, with the foot and toes flat on the ground.",
+          "instructions": "Rest the hands on the knees and try to maintain an image of the calf muscles being stretched by your posture. Without raising the body, move across onto the opposite leg.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Hip Rotation",
+          "description": "Standing in heiko dachi (natural stance) with the hands resting lightly on the hips, rotate the hips in a circular action.",
+          "instructions": "Try to keep the ankles and shoulders in line and confine the movement to the central part of the body minimizing as much as possible any movement of the shoulders.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Arm Stretches",
+          "description": "Standing in heiko dachi (natural stance) hold the left arm in a chudan haito uke (mid-level thumb-edge hand block) posture.",
+          "instructions": "Support it by placing the right hand, palm facing down, under the elbow. From there inhale deeply through the nose while you perform mawashi uke (circular block).",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Arm Swings",
+          "description": "Stand naturally and swing the arms backward in a large circular motion.",
+          "instructions": "Begin slowly and then swing as quickly as possible several times. Reverse the swing, remembering to start slowly and end fast.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Wrist Flexibility",
+          "description": "Remaining in heikodachi (natural stance), place the left hand on the side of the body with the fingers pointing up.",
+          "instructions": "The fingers of the right hand cross over the front of the fingers of the left hand. Slowly push the left arm out straight while maintaining contact with the right hand.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Fist Formation",
+          "description": "Assume a heiko dachi (natural stance), making sure the feet are slightly wider than shoulder width and parallel.",
+          "instructions": "Hold both arms in the chudan uke (mid-level block) posture. Without raising your center of gravity or the shoulders, stretch the arms out a little and open the hands and fingers as wide as possible.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Palm Pressure",
+          "description": "Standing in heiko dachi, push the palms of the hands together hard and stretch the arms out in front of the chest.",
+          "instructions": "Continue to push the hands together hard while you draw them back toward the chest and exhale through the open mouth. Making a line between both elbows, try to draw the wrists back a little beyond that line.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Head Movements",
+          "description": "Standing in heiko dachi (natural stance) with the hands resting on the hips, drop the chin to the chest and breathe in through the nose.",
+          "instructions": "Without holding the breath, move the head slowly backward as far as it will go, breathing out through the open mouth while you do so. Relax the shoulders and focus the mind on the harmony of the breath and posture.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Neck Stretches",
+          "description": "Holding the head naturally, breathe in before dropping the head over to one side on an exhalation while pushing the opposite shoulder down toward the ground.",
+          "instructions": "Hold this for just a second before moving the head slowly over to the other side. Keeping the body upright and standing in a natural posture, cup the hands over the back of the head.",
+          "image": "page_20_image_1.png"
+        }
+      ]
+    }
+  }
+} 

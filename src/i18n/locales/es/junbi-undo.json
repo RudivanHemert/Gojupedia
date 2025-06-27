@@ -1,0 +1,140 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Ejercicios Preliminares",
+    "description": "Ejercicios preliminares y rutinas de calentamiento para karate Goju Ryu",
+    "intro": "Estos ejercicios preparan el cuerpo para el entrenamiento y deben realizarse al comienzo de cada sesión de práctica.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Ejercicios Preliminares",
+      "note": "Cada ejercicio debe repetirse al menos dos veces (excepto con los estudiantes más jóvenes, donde una serie de ocho para cada ejercicio puede ser suficiente)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Ejercicios Complementarios",
+      "intro": "Estos ejercicios complementarios desarrollan habilidades y técnicas específicas utilizadas en Goju Ryu.",
+      "note": "Cada ejercicio debe repetirse durante al menos dos series de ocho conteos (excepto con los estudiantes más jóvenes, donde una serie de ocho para cada ejercicio puede ser suficiente)."
+    },
+    "breathingSection": {
+      "title": "Respiración",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Ejercicios",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Ejercicios de Dedos de los Pies",
+          "description": "Comience de pie en heiko dachi (postura natural) con las manos en las caderas y concentre su atención en las plantas de los pies (teisoku). Separe los dedos de los pies lo más ampliamente posible y trate de hacer tanto contacto de superficie con el suelo como pueda.",
+          "instructions": "Desde aquí, levante su dedo gordo del pie y manténgalo por un segundo antes de devolverlo al suelo, agarre el suelo y levante los dedos más pequeños del suelo. Este intercambio se repite al menos diez veces.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Pivotes del Talón",
+          "description": "Manos en las caderas, talones juntos, dedos separados. Levante la planta del pie derecho del suelo y pivote hacia afuera en el talón del pie.",
+          "instructions": "Dos repeticiones por pie. Este ejercicio aumenta su conciencia de los dedos de los pies y mejora la destreza general del dedo gordo del pie.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Rotación del Tobillo",
+          "description": "Párese sobre la pierna izquierda y levante la rodilla derecha para que el muslo esté nivelado. Esto ayuda a desarrollar el equilibrio.",
+          "instructions": "Rote el tobillo, primero en sentido horario y luego en sentido antihorario. Luego haga chasquear la parte inferior de la pierna hacia afuera como si estuviera pateando. Repita esto parándose sobre la pierna derecha y levantando la rodilla izquierda.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Golpes de Rodilla",
+          "description": "Manteniendo las axilas cerradas firmemente, sostenga los brazos frente al cuerpo con las palmas de las manos abiertas y firmes.",
+          "instructions": "Saltando del suelo con los tobillos, dispare las rodillas, alternativamente, en las manos abiertas de manera constante y rítmica haciendo tanto impacto como sea posible con la palma de la mano.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Ejercicio de Cuclillas",
+          "description": "Coloque los pies juntos con los talones tocándose y los dedos separados, creando una forma de V con los pies (musubi dachi).",
+          "instructions": "Inclinándose hacia adelante, coloque las manos en las rodillas. Doble las rodillas y baje el cuerpo a una posición en cuclillas, manteniendo la espalda recta y las rodillas hacia los lados mientras los talones dejan el suelo.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Estiramientos Shiko",
+          "description": "Pase a shiko dachi (postura baja) y coloque las manos en el interior de los muslos cerca de las rodillas.",
+          "instructions": "Deje caer el hombro derecho hacia adelante, gire suavemente la cabeza y mire hacia la izquierda. El brazo derecho ahora empuja la pierna derecha hacia atrás mientras el brazo izquierdo evita que la pierna izquierda se mueva hacia adelante.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Estiramientos de Piernas",
+          "description": "Permaneciendo en shiko dachi, haga correr ambos antebrazos por el interior de las piernas hasta que los codos estén ligeramente por encima de las rodillas.",
+          "instructions": "Aplique una presión igual sobre ambas piernas para empujarlas hacia afuera. Con los dedos de los pies agarrando el suelo, mantenga el pecho arriba, tan erguido como sea posible, para maximizar el estiramiento en las piernas.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Transferencia de Peso",
+          "description": "Apóyese en la pierna derecha y mantenga la pierna izquierda estirada, con el pie y los dedos planos en el suelo.",
+          "instructions": "Descanse las manos en las rodillas y trate de mantener una imagen de los músculos de la pantorrilla siendo estirados por su postura. Sin levantar el cuerpo, muévase hacia la pierna opuesta.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Rotación de Caderas",
+          "description": "De pie en heiko dachi (postura natural) con las manos descansando ligeramente en las caderas, rote las caderas en una acción circular.",
+          "instructions": "Trate de mantener los tobillos y hombros en línea y confine el movimiento a la parte central del cuerpo minimizando tanto como sea posible cualquier movimiento de los hombros.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Estiramientos de Brazos",
+          "description": "De pie en heiko dachi (postura natural) sostenga el brazo izquierdo en una postura chudan haito uke (bloqueo de mano del borde del pulgar de nivel medio).",
+          "instructions": "Sopórtelo colocando la mano derecha, palma hacia abajo, debajo del codo. Desde allí, inhale profundamente por la nariz mientras realiza mawashi uke (bloqueo circular).",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Balanceos de Brazos",
+          "description": "Párese naturalmente y balancee los brazos hacia atrás en un gran movimiento circular.",
+          "instructions": "Comience lentamente y luego balancee tan rápido como sea posible varias veces. Revierta el balanceo, recordando comenzar lentamente y terminar rápido.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Flexibilidad de Muñeca",
+          "description": "Permaneciendo en heikodachi (postura natural), coloque la mano izquierda en el lado del cuerpo con los dedos apuntando hacia arriba.",
+          "instructions": "Los dedos de la mano derecha se cruzan sobre el frente de los dedos de la mano izquierda. Empuje lentamente el brazo izquierdo recto mientras mantiene contacto con la mano derecha.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Formación de Puño",
+          "description": "Asuma una heiko dachi (postura natural), asegurándose de que los pies sean ligeramente más anchos que el ancho de los hombros y paralelos.",
+          "instructions": "Sostenga ambos brazos en la postura chudan uke (bloqueo de nivel medio). Sin levantar su centro de gravedad o los hombros, estire los brazos un poco y abra las manos y dedos tan ampliamente como sea posible.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Presión de Palma",
+          "description": "De pie en heiko dachi, empuje las palmas de las manos juntas con fuerza y estire los brazos frente al pecho.",
+          "instructions": "Continúe empujando las manos juntas con fuerza mientras las acerca hacia el pecho y exhala por la boca abierta. Haciendo una línea entre ambos codos, trate de dibujar las muñecas un poco más allá de esa línea.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Movimientos de Cabeza",
+          "description": "De pie en heiko dachi (postura natural) con las manos descansando en las caderas, baje la barbilla al pecho y respire por la nariz.",
+          "instructions": "Sin contener la respiración, mueva la cabeza lentamente hacia atrás tan lejos como pueda, exhalando por la boca abierta mientras lo hace. Relaje los hombros y enfoque la mente en la armonía de la respiración y la postura.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Estiramientos de Cuello",
+          "description": "Manteniendo la cabeza naturalmente, respire antes de bajar la cabeza hacia un lado en una exhalación mientras empuja el hombro opuesto hacia el suelo.",
+          "instructions": "Mantenga esto por solo un segundo antes de mover la cabeza lentamente hacia el otro lado. Manteniendo el cuerpo erguido y de pie en una postura natural, coloque las manos sobre la parte posterior de la cabeza.",
+          "image": "page_20_image_1.png"
+        }
+      ]
+    }
+  }
+} 

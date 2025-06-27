@@ -1,0 +1,140 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Vorbereitende Übungen",
+    "description": "Vorbereitende Übungen und Aufwärmroutinen für Goju Ryu Karate",
+    "intro": "Diese Übungen bereiten den Körper auf das Training vor und sollten zu Beginn jeder Trainingssitzung durchgeführt werden.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Vorbereitende Übungen",
+      "note": "Jede Übung sollte mindestens zweimal wiederholt werden (außer bei den jüngsten Schülern, wo ein Satz von acht für jede Übung ausreichend sein kann)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Ergänzende Übungen",
+      "intro": "Diese ergänzenden Übungen entwickeln spezifische Fähigkeiten und Techniken, die in Goju Ryu verwendet werden.",
+      "note": "Jede Übung sollte für mindestens zwei Sätze von acht Zählungen wiederholt werden (außer bei den jüngsten Schülern, wo ein Satz von acht für jede Übung ausreichend sein kann)."
+    },
+    "breathingSection": {
+      "title": "Atmung",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Übungen",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Zehenübungen",
+          "description": "Beginnen Sie in heiko dachi (natürliche Haltung) mit den Händen in der Taille und konzentrieren Sie sich auf die Fußsohlen (teisoku). Spreizen Sie die Zehen so weit wie möglich und versuchen Sie, so viel Oberflächenkontakt mit dem Boden wie möglich zu haben.",
+          "instructions": "Von hier aus heben Sie Ihren großen Zeh an und halten ihn eine Sekunde, bevor Sie ihn auf den Boden zurückbringen, greifen Sie den Boden und heben Sie die kleineren Zehen vom Boden ab. Dieser Austausch wird mindestens zehnmal wiederholt.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Fersen-Drehungen",
+          "description": "Hände in der Taille, Fersen zusammen, Zehen auseinander. Heben Sie den Ball des rechten Fußes vom Boden ab und drehen Sie nach außen auf der Ferse des Fußes.",
+          "instructions": "Zwei Wiederholungen pro Fuß. Diese Übung erhöht Ihr Bewusstsein für die Zehen und verbessert die allgemeine Geschicklichkeit des großen Zehs.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Knöchel-Rotation",
+          "description": "Stehen Sie auf dem linken Bein und heben Sie das rechte Knie an, so dass der Oberschenkel waagerecht ist. Dies hilft bei der Entwicklung des Gleichgewichts.",
+          "instructions": "Rotieren Sie den Knöchel, zuerst im Uhrzeigersinn und dann gegen den Uhrzeigersinn. Dann schnippen Sie den unteren Teil des Beins nach außen, als würden Sie treten. Wiederholen Sie dies, indem Sie auf dem rechten Bein stehen und das linke Knie anheben.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Knie-Schläge",
+          "description": "Halten Sie die Achseln fest geschlossen und halten Sie die Arme vor dem Körper mit den Handflächen offen und fest.",
+          "instructions": "Springen Sie mit den Knöcheln vom Boden ab und schießen Sie die Knie abwechselnd in die offenen Hände auf eine stetige und rhythmische Weise und machen Sie so viel Aufprall wie möglich mit der Handfläche.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Hockübung",
+          "description": "Platzieren Sie die Füße zusammen mit den Fersen, die sich berühren, und den Zehen auseinander, wodurch eine V-Form mit den Füßen entsteht (musubi dachi).",
+          "instructions": "Lehnen Sie sich nach vorne und platzieren Sie die Hände auf den Knien. Beugen Sie die Knie und lassen Sie den Körper in eine hockende Position sinken, halten Sie den Rücken gerade und die Knie zu den Seiten, während die Fersen den Boden verlassen.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Shiko-Dehnungen",
+          "description": "Treten Sie in shiko dachi (niedrige Haltung) und platzieren Sie die Hände an der Innenseite der Oberschenkel nahe den Knien.",
+          "instructions": "Lassen Sie die rechte Schulter nach vorne sinken, drehen Sie den Kopf sanft und schauen Sie nach links. Der rechte Arm drückt jetzt das rechte Bein nach hinten, während der linke Arm verhindert, dass das linke Bein nach vorne bewegt wird.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Bein-Dehnungen",
+          "description": "Bleiben Sie in shiko dachi und lassen Sie beide Unterarme an der Innenseite der Beine entlang laufen, bis die Ellbogen etwas über den Knien sind.",
+          "instructions": "Bringen Sie einen gleichen Druck auf beide Beine aus, um sie auseinander zu drücken. Mit den Zehen, die den Boden greifen, halten Sie die Brust hoch, so aufrecht wie möglich, um die Dehnung an den Beinen zu maximieren.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Gewichtsverlagerung",
+          "description": "Lehnen Sie sich auf das rechte Bein und halten Sie das linke Bein gestreckt, mit dem Fuß und den Zehen flach auf dem Boden.",
+          "instructions": "Ruhen Sie die Hände auf den Knien und versuchen Sie, ein Bild der Wadenmuskeln zu behalten, die durch Ihre Haltung gedehnt werden. Ohne den Körper anzuheben, bewegen Sie sich über auf das andere Bein.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Hüft-Rotation",
+          "description": "Stehen Sie in heiko dachi (natürliche Haltung) mit den Händen leicht auf den Hüften ruhend und rotieren Sie die Hüften in einer kreisförmigen Bewegung.",
+          "instructions": "Versuchen Sie, die Knöchel und Schultern in einer Linie zu halten und beschränken Sie die Bewegung auf den zentralen Teil des Körpers, wobei Sie so viel wie möglich jede Bewegung der Schultern minimieren.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Arm-Dehnungen",
+          "description": "Stehen Sie in heiko dachi (natürliche Haltung) und halten Sie den linken Arm in einer chudan haito uke (Mittel-Niveau-Daumenrand-Hand-Block) Haltung.",
+          "instructions": "Unterstützen Sie es, indem Sie die rechte Hand, Handfläche nach unten, unter den Ellbogen platzieren. Von dort aus atmen Sie tief durch die Nase ein, während Sie mawashi uke (Kreisblock) ausführen.",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Arm-Schwünge",
+          "description": "Stehen Sie natürlich und schwingen Sie die Arme nach hinten in einer großen kreisförmigen Bewegung.",
+          "instructions": "Beginnen Sie langsam und schwingen Sie dann so schnell wie möglich mehrmals. Kehren Sie den Schwung um, denken Sie daran, langsam zu beginnen und schnell zu enden.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Handgelenk-Flexibilität",
+          "description": "Bleiben Sie in heikodachi (natürliche Haltung) und platzieren Sie die linke Hand an der Seite des Körpers mit den Fingern nach oben zeigend.",
+          "instructions": "Die Finger der rechten Hand kreuzen über die Vorderseite der Finger der linken Hand. Drücken Sie langsam den linken Arm gerade aus, während Sie den Kontakt mit der rechten Hand aufrechterhalten.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Faust-Bildung",
+          "description": "Nehmen Sie eine heiko dachi (natürliche Haltung) an und stellen Sie sicher, dass die Füße etwas breiter als schulterbreit und parallel sind.",
+          "instructions": "Halten Sie beide Arme in der chudan uke (Mittel-Niveau-Block) Haltung. Ohne Ihren Schwerpunkt oder die Schultern anzuheben, strecken Sie die Arme ein wenig aus und öffnen Sie die Hände und Finger so weit wie möglich.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Handflächen-Druck",
+          "description": "Stehen Sie in heiko dachi und drücken Sie die Handflächen der Hände hart zusammen und strecken Sie die Arme vor der Brust aus.",
+          "instructions": "Fahren Sie fort, die Hände hart zusammenzudrücken, während Sie sie zurück zur Brust ziehen und durch den offenen Mund ausatmen. Machen Sie eine Linie zwischen beiden Ellbogen und versuchen Sie, die Handgelenke ein wenig über diese Linie zurückzuziehen.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Kopf-Bewegungen",
+          "description": "Stehen Sie in heiko dachi (natürliche Haltung) mit den Händen auf den Hüften ruhend, lassen Sie das Kinn zur Brust sinken und atmen Sie durch die Nase ein.",
+          "instructions": "Ohne den Atem anzuhalten, bewegen Sie den Kopf langsam so weit wie möglich nach hinten, atmen Sie durch den offenen Mund aus, während Sie dies tun. Entspannen Sie die Schultern und konzentrieren Sie den Geist auf die Harmonie des Atems und der Haltung.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Nacken-Dehnungen",
+          "description": "Halten Sie den Kopf natürlich, atmen Sie ein, bevor Sie den Kopf auf eine Ausatmung zur Seite sinken lassen, während Sie die gegenüberliegende Schulter zum Boden drücken.",
+          "instructions": "Halten Sie dies für nur eine Sekunde, bevor Sie den Kopf langsam zur anderen Seite bewegen. Halten Sie den Körper aufrecht und stehen Sie in einer natürlichen Haltung, kommen Sie die Hände über den Hinterkopf.",
+          "image": "page_20_image_1.png"
+        }
+      ]
+    }
+  }
+} 

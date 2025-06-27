@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Swords, User, Dumbbell, Users, ListChecks, Zap } from 'lucide-react';
+import { Swords, User, Dumbbell, Users, ListChecks, Zap, Activity } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
@@ -37,6 +37,13 @@ const PracticePage = () => {
       description: t('practice.hojoUndoDesc'),
       icon: <Dumbbell className="h-5 w-5 text-karate" />,
       path: '/hojo-undo',
+    },
+    {
+      id: 'junbi-undo',
+      name: t('practice.junbiUndo'),
+      description: t('practice.junbiUndoDesc'),
+      icon: <Activity className="h-5 w-5 text-karate" />,
+      path: '/junbi-undo',
     },
     {
       id: 'newaza',

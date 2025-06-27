@@ -22,6 +22,7 @@ import enQuiz from './locales/en/quiz.json';
 import enHojoUndo from './locales/en/hojoUndo.json';
 import enNewaza from './locales/en/newaza.json';
 import enKumite from './locales/en/kumite.json';
+import enJunbiUndo from './locales/en/junbi-undo.json';
 
 import deCommon from './locales/de/common.json';
 import deHome from './locales/de/home.json';
@@ -42,6 +43,7 @@ import deQuiz from './locales/de/quiz.json';
 import deHojoUndo from './locales/de/hojoUndo.json';
 import deNewaza from './locales/de/newaza.json';
 import deKumite from './locales/de/kumite.json';
+import deJunbiUndo from './locales/de/junbi-undo.json';
 
 import esCommon from './locales/es/common.json';
 import esHome from './locales/es/home.json';
@@ -62,6 +64,7 @@ import esQuiz from './locales/es/quiz.json';
 import esHojoUndo from './locales/es/hojoUndo.json';
 import esNewaza from './locales/es/newaza.json';
 import esKumite from './locales/es/kumite.json';
+import esJunbiUndo from './locales/es/junbi-undo.json';
 
 import frCommon from './locales/fr/common.json';
 import frHome from './locales/fr/home.json';
@@ -82,6 +85,7 @@ import frQuiz from './locales/fr/quiz.json';
 import frHojoUndo from './locales/fr/hojoUndo.json';
 import frNewaza from './locales/fr/newaza.json';
 import frKumite from './locales/fr/kumite.json';
+import frJunbiUndo from './locales/fr/junbi-undo.json';
 
 import itCommon from './locales/it/common.json';
 import itHome from './locales/it/home.json';
@@ -102,6 +106,7 @@ import itQuiz from './locales/it/quiz.json';
 import itHojoUndo from './locales/it/hojoUndo.json';
 import itNewaza from './locales/it/newaza.json';
 import itKumite from './locales/it/kumite.json';
+import itJunbiUndo from './locales/it/junbi-undo.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlHome from './locales/nl/home.json';
@@ -122,6 +127,7 @@ import nlQuiz from './locales/nl/quiz.json';
 import nlHojoUndo from './locales/nl/hojoUndo.json';
 import nlNewaza from './locales/nl/newaza.json';
 import nlKumite from './locales/nl/kumite.json';
+import nlJunbiUndo from './locales/nl/junbi-undo.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -170,6 +176,7 @@ const enTranslations = combineTranslations({
   hojoUndo: enHojoUndo,
   newaza: enNewaza,
   kumite: enKumite,
+  junbiUndo: enJunbiUndo,
 });
 
 const deTranslations = combineTranslations({
@@ -192,6 +199,7 @@ const deTranslations = combineTranslations({
   hojoUndo: deHojoUndo,
   newaza: deNewaza,
   kumite: deKumite,
+  junbiUndo: deJunbiUndo,
 });
 
 const esTranslations = combineTranslations({
@@ -214,6 +222,7 @@ const esTranslations = combineTranslations({
   hojoUndo: esHojoUndo,
   newaza: esNewaza,
   kumite: esKumite,
+  junbiUndo: esJunbiUndo,
 });
 
 const frTranslations = combineTranslations({
@@ -236,6 +245,7 @@ const frTranslations = combineTranslations({
   hojoUndo: frHojoUndo,
   newaza: frNewaza,
   kumite: frKumite,
+  junbiUndo: frJunbiUndo,
 });
 
 const itTranslations = combineTranslations({
@@ -258,6 +268,7 @@ const itTranslations = combineTranslations({
   hojoUndo: itHojoUndo,
   newaza: itNewaza,
   kumite: itKumite,
+  junbiUndo: itJunbiUndo,
 });
 
 const nlTranslations = combineTranslations({
@@ -280,6 +291,7 @@ const nlTranslations = combineTranslations({
   hojoUndo: nlHojoUndo,
   newaza: nlNewaza,
   kumite: nlKumite,
+  junbiUndo: nlJunbiUndo,
 });
 
 i18n

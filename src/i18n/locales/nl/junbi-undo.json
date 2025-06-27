@@ -1,0 +1,140 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Voorbereidende Oefeningen",
+    "description": "Voorbereidende oefeningen en opwarmroutines voor Goju Ryu karate",
+    "intro": "Deze oefeningen bereiden het lichaam voor op training en moeten worden uitgevoerd aan het begin van elke trainingssessie.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Voorbereidende Oefeningen",
+      "note": "Elke oefening moet ten minste twee keer worden herhaald (behalve bij de jongste studenten, waar één set van acht voor elke oefening voldoende kan zijn)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Aanvullende Oefeningen",
+      "intro": "Deze aanvullende oefeningen ontwikkelen specifieke vaardigheden en technieken die worden gebruikt in Goju Ryu.",
+      "note": "Elke oefening moet worden herhaald voor ten minste twee sets van acht tellen (behalve bij de jongste studenten, waar één set van acht voor elke oefening voldoende kan zijn)."
+    },
+    "breathingSection": {
+      "title": "Ademhaling",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Oefeningen",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Teen Oefeningen",
+          "description": "Begin in heiko dachi (natuurlijke houding) met de handen in de zij en focus op de voetzolen (teisoku). Spreid de tenen zo wijd mogelijk en probeer zoveel mogelijk contact met de grond te maken.",
+          "instructions": "Til je grote teen op en houd een seconde vast voordat je hem terug op de grond zet, grijp de vloer vast en til de kleinere tenen van de grond. Deze uitwisseling wordt ten minste tien keer herhaald.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Hiel Pivots",
+          "description": "Handen in de zij, hielen tegen elkaar, tenen naar buiten. Til de bal van de rechtervoet van de vloer en draai naar buiten op de hiel.",
+          "instructions": "Twee herhalingen per voet. Deze oefening verhoogt het bewustzijn van de tenen en verbetert de algehele behendigheid van de grote teen.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Enkel Rotatie",
+          "description": "Ga op het linkerbeen staan en til de rechterknie op zodat het dijbeen horizontaal is. Dit helpt bij het ontwikkelen van balans.",
+          "instructions": "Roteer de enkel eerst met de klok mee en dan tegen de klok in. Dan flikker je het onderste deel van het been naar buiten alsof je trapt. Herhaal dit door op het rechterbeen te staan en de linkerknie op te tillen.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Knie Stoten",
+          "description": "Met de oksels strak gesloten, houd de armen voor het lichaam met de handpalmen open en stevig.",
+          "instructions": "Springend van de vloer met de enkels, schiet de knieën afwisselend in de open handen op een gestage en ritmische manier, waarbij je zoveel mogelijk impact maakt met de handpalm.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Hurkoefening",
+          "description": "Plaats de voeten bij elkaar met de hielen elkaar rakend en de tenen uit elkaar, waardoor een V-vorm met de voeten ontstaat (musubi dachi).",
+          "instructions": "Leun naar voren en plaats de handen op de knieën. Buig de knieën en laat het lichaam zakken in een hurkende positie, waarbij je de rug recht houdt en de knieën naar de zijkanten houdt terwijl de hielen de vloer verlaten.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Shiko Rekoefeningen",
+          "description": "Stap uit in shiko dachi (lage houding) en plaats de handen aan de binnenkant van de dijen dicht bij de knieën.",
+          "instructions": "Laat de rechterschouder naar voren zakken, draai het hoofd zachtjes en kijk naar links. De rechterarm duwt nu het rechterbeen naar achteren terwijl de linkerarm voorkomt dat het linkerbeen naar voren beweegt.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Been Rekoefeningen",
+          "description": "Blijf in shiko dachi en laat beide onderarmen langs de binnenkant van de benen lopen tot de ellebogen iets boven de knieën zijn.",
+          "instructions": "Breng een gelijke druk op beide benen om ze uit elkaar te duwen. Met de tenen die de vloer vastgrijpen, houd de borst omhoog, zo rechtop mogelijk, om de rek op de benen te maximaliseren.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Gewichtsoverdracht",
+          "description": "Leun op het rechterbeen en houd het linkerbeen gestrekt, met de voet en tenen plat op de grond.",
+          "instructions": "Rust de handen op de knieën en probeer een beeld te behouden van de kuitspieren die worden gerekt door je houding. Zonder het lichaam op te tillen, beweeg over naar het andere been.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Heup Rotatie",
+          "description": "Sta in heiko dachi (natuurlijke houding) met de handen licht rustend op de heupen en roteer de heupen in een cirkelvormige beweging.",
+          "instructions": "Probeer de enkels en schouders op één lijn te houden en beperk de beweging tot het centrale deel van het lichaam, waarbij je zoveel mogelijk beweging van de schouders minimaliseert.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Arm Rekoefeningen",
+          "description": "Sta in heiko dachi (natuurlijke houding) en houd de linkerarm in een chudan haito uke (midden-niveau duimrand hand blok) houding.",
+          "instructions": "Ondersteun het door de rechterhand, handpalm naar beneden, onder de elleboog te plaatsen. Van daaruit adem diep in door de neus terwijl je mawashi uke (cirkelblok) uitvoert.",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Arm Zwaaien",
+          "description": "Sta natuurlijk en zwaai de armen naar achteren in een grote cirkelvormige beweging.",
+          "instructions": "Begin langzaam en zwaai dan zo snel mogelijk meerdere keren. Keer de zwaai om, onthoudend om langzaam te beginnen en snel te eindigen.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Pols Flexibiliteit",
+          "description": "Blijf in heikodachi (natuurlijke houding) en plaats de linkerhand aan de zijkant van het lichaam met de vingers omhoog wijzend.",
+          "instructions": "De vingers van de rechterhand kruisen over de voorkant van de vingers van de linkerhand. Duw langzaam de linkerarm rechtuit terwijl je contact behoudt met de rechterhand.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Vuist Vorming",
+          "description": "Neem een heiko dachi (natuurlijke houding) aan, zorg ervoor dat de voeten iets breder dan schouderbreedte en parallel zijn.",
+          "instructions": "Houd beide armen in de chudan uke (midden-niveau blok) houding. Zonder je zwaartepunt of schouders op te tillen, strek de armen een beetje uit en open de handen en vingers zo wijd mogelijk.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Handpalm Druk",
+          "description": "Sta in heiko dachi en duw de handpalmen van de handen hard tegen elkaar en strek de armen voor de borst uit.",
+          "instructions": "Blijf de handen hard tegen elkaar duwen terwijl je ze terug naar de borst trekt en adem uit door de open mond. Maak een lijn tussen beide ellebogen en probeer de polsen een beetje voorbij die lijn terug te trekken.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Hoofd Bewegingen",
+          "description": "Sta in heiko dachi (natuurlijke houding) met de handen rustend op de heupen, laat de kin naar de borst zakken en adem in door de neus.",
+          "instructions": "Zonder de adem in te houden, beweeg het hoofd langzaam naar achteren zo ver als het gaat, ademend uit door de open mond terwijl je dit doet. Ontspan de schouders en focus de geest op de harmonie van de adem en houding.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Nek Rekoefeningen",
+          "description": "Houd het hoofd natuurlijk, adem in voordat je het hoofd laat zakken naar één kant op een uitademing terwijl je de tegenovergestelde schouder naar de grond duwt.",
+          "instructions": "Houd dit voor slechts een seconde voordat je het hoofd langzaam naar de andere kant beweegt. Houd het lichaam rechtop en sta in een natuurlijke houding, kom de handen over de achterkant van het hoofd.",
+          "image": "page_20_image_1.png"
+        }
+      ]
+    }
+  }
+} 

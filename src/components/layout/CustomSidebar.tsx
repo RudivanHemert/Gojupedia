@@ -59,6 +59,7 @@ const sidebarStructure = [
       { labelKey: 'navigation.kata', path: '/kata' },
       { labelKey: 'navigation.bunkai', path: '/bunkai' },
       { labelKey: 'navigation.hojoUndo', path: '/hojo-undo' },
+      { labelKey: 'navigation.junbiUndo', path: '/junbi-undo' },
       { labelKey: 'navigation.newaza', path: '/newaza' },
     ]
   },
@@ -125,7 +126,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
       '/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/gradings', '/theory/kata', '/kumite'
     ].includes(basePath) || currentPath.startsWith('/theory')) return 'theory';
     if ([
-      '/practice', '/techniques', '/kata', '/bunkai', '/hojo-undo', '/newaza'
+      '/practice', '/techniques', '/kata', '/bunkai', '/hojo-undo', '/junbi-undo', '/newaza'
     ].includes(basePath)) return 'practice';
     if ([
       '/study', '/study/quizzes', '/study/flashcards', '/gradings'

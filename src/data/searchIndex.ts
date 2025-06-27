@@ -5,7 +5,7 @@ export interface SearchResult {
   id: string;
   title: string;
   description: string;
-  type: 'kata' | 'technique' | 'hojo-undo' | 'philosophy' | 'terminology' | 'history' | 'theory' | 'newaza' | 'kumite' | 'person' | 'principle' | 'article' | 'bunkai';
+  type: 'kata' | 'technique' | 'hojo-undo' | 'philosophy' | 'terminology' | 'history' | 'theory' | 'newaza' | 'kumite' | 'person' | 'principle' | 'article' | 'bunkai' | 'junbi-undo';
   path: string;
   tags: string[];
   language?: string;
@@ -161,6 +161,133 @@ export const createSearchIndex = (): SearchResult[] => {
       type: 'hojo-undo',
       path: equipment.path,
       tags: equipment.tags
+    });
+  });
+
+  // Add Junbi Undo exercises
+  const junbiUndoExercises = [
+    {
+      id: 'toe-exercises',
+      title: 'Toe Exercises',
+      description: 'Exercises to improve toe awareness and dexterity',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'toes', 'flexibility', 'teen oefeningen', 'zehenübungen', 'exercices des orteils', 'ejercicios de dedos de los pies', 'esercizi delle dita dei piedi']
+    },
+    {
+      id: 'heel-pivots',
+      title: 'Heel Pivots',
+      description: 'Pivoting exercises on the heel for foot control',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'heels', 'pivots', 'hiel pivots', 'fersen-drehungen', 'pivots du talon', 'pivotes del talón', 'pivot del tallone']
+    },
+    {
+      id: 'ankle-rotation',
+      title: 'Ankle Rotation',
+      description: 'Ankle flexibility and balance exercises',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'ankles', 'rotation', 'balance', 'enkel rotatie', 'knöchel-rotation', 'rotation de la cheville', 'rotación del tobillo', 'rotazione della caviglia']
+    },
+    {
+      id: 'knee-strikes',
+      title: 'Knee Strikes',
+      description: 'Knee strike exercises for coordination',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'knees', 'strikes', 'knie stoten', 'knie-schläge', 'coups de genou', 'golpes de rodilla', 'colpi di ginocchio']
+    },
+    {
+      id: 'squatting-exercise',
+      title: 'Squatting Exercise',
+      description: 'Squatting exercises for leg strength',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'squat', 'legs', 'hurkoefening', 'hockübung', 'exercice d\'accroupissement', 'ejercicio de cuclillas', 'esercizio di squat']
+    },
+    {
+      id: 'shiko-stretches',
+      title: 'Shiko Stretches',
+      description: 'Stretching exercises in shiko stance',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'shiko', 'stretches', 'shiko rekoefeningen', 'shiko-dehnungen', 'étirements shiko', 'estiramientos shiko', 'stretching shiko']
+    },
+    {
+      id: 'leg-stretches',
+      title: 'Leg Stretches',
+      description: 'Leg stretching exercises for flexibility',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'legs', 'stretches', 'flexibility', 'been rekoefeningen', 'bein-dehnungen', 'étirements des jambes', 'estiramientos de piernas', 'stretching delle gambe']
+    },
+    {
+      id: 'weight-transfer',
+      title: 'Weight Transfer',
+      description: 'Weight transfer exercises for balance',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'weight', 'transfer', 'balance', 'gewichtsoverdracht', 'gewichtsverlagerung', 'transfert de poids', 'transferencia de peso', 'trasferimento di peso']
+    },
+    {
+      id: 'hip-rotation',
+      title: 'Hip Rotation',
+      description: 'Hip rotation exercises for mobility',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'hips', 'rotation', 'mobility', 'heup rotatie', 'hüft-rotation', 'rotation des hanches', 'rotación de caderas', 'rotazione dell\'anca']
+    },
+    {
+      id: 'arm-stretches',
+      title: 'Arm Stretches',
+      description: 'Arm stretching exercises for flexibility',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'arms', 'stretches', 'flexibility', 'arm rekoefeningen', 'arm-dehnungen', 'étirements des bras', 'estiramientos de brazos', 'stretching delle braccia']
+    },
+    {
+      id: 'arm-swings',
+      title: 'Arm Swings',
+      description: 'Arm swinging exercises for coordination',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'arms', 'swings', 'coordination', 'arm zwaaien', 'arm-schwünge', 'balancements des bras', 'balanceos de brazos', 'oscillazioni delle braccia']
+    },
+    {
+      id: 'wrist-flexibility',
+      title: 'Wrist Flexibility',
+      description: 'Wrist flexibility exercises for hand control',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'wrists', 'flexibility', 'hands', 'pols flexibiliteit', 'handgelenk-flexibilität', 'flexibilité du poignet', 'flexibilidad de muñeca', 'flessibilità del polso']
+    },
+    {
+      id: 'fist-formation',
+      title: 'Fist Formation',
+      description: 'Fist formation exercises for hand strength',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'fists', 'hands', 'strength', 'vuist vorming', 'faust-bildung', 'formation du poing', 'formación de puño', 'formazione del pugno']
+    },
+    {
+      id: 'palm-pressure',
+      title: 'Palm Pressure',
+      description: 'Palm pressure exercises for hand control',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'palms', 'pressure', 'hands', 'handpalm druk', 'handflächen-druck', 'pression de la paume', 'presión de palma', 'pressione del palmo']
+    },
+    {
+      id: 'head-movements',
+      title: 'Head Movements',
+      description: 'Head movement exercises for neck flexibility',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'head', 'neck', 'movements', 'hoofd bewegingen', 'kopf-bewegungen', 'mouvements de la tête', 'movimientos de cabeza', 'movimenti della testa']
+    },
+    {
+      id: 'neck-stretches',
+      title: 'Neck Stretches',
+      description: 'Neck stretching exercises for flexibility',
+      path: '/practice/junbi-undo',
+      tags: ['junbi-undo', 'warmup', 'preliminary', 'neck', 'stretches', 'flexibility', 'nek rekoefeningen', 'nacken-dehnungen', 'étirements du cou', 'estiramientos de cuello', 'stretching del collo']
+    }
+  ];
+
+  junbiUndoExercises.forEach(exercise => {
+    searchResults.push({
+      id: `junbi-undo-${exercise.id}`,
+      title: exercise.title,
+      description: exercise.description,
+      type: 'junbi-undo',
+      path: exercise.path,
+      tags: exercise.tags
     });
   });
 
@@ -628,147 +755,6 @@ export const createSearchIndex = (): SearchResult[] => {
     });
   });
 
-  // Add specific search terms for better discoverability
-  const specificTerms = [
-    {
-      id: 'higaonna-search',
-      title: 'Higaonna',
-      description: 'Historical figures in Goju Ryu: Kanryo Higaonna and Morio Higaonna',
-      path: '/history',
-      tags: ['higaonna', 'kanryo', 'morio', 'history', 'person', 'master']
-    },
-    {
-      id: 'miyagi-search',
-      title: 'Miyagi',
-      description: 'Chojun Miyagi, founder of Goju Ryu karate',
-      path: '/history',
-      tags: ['miyagi', 'chojun', 'founder', 'history', 'person', 'master']
-    },
-    {
-      id: 'sparring-search',
-      title: 'Sparring',
-      description: 'Kumite and sparring techniques in Goju Ryu',
-      path: '/kumite',
-      tags: ['sparring', 'kumite', 'fighting', 'combat', 'techniques', 'sparren', 'vechten', 'technieken']
-    },
-    {
-      id: 'fighting-search',
-      title: 'Fighting',
-      description: 'Combat techniques and fighting principles',
-      path: '/kumite',
-      tags: ['fighting', 'combat', 'kumite', 'techniques', 'principles', 'vechten', 'gevecht', 'principes']
-    },
-    {
-      id: 'mental-principles-search',
-      title: 'Mental Principles',
-      description: 'Zanshin, Mushin, Fudoshin, and Senshin in kumite',
-      path: '/kumite/principles',
-      tags: ['mental', 'principles', 'zanshin', 'mushin', 'fudoshin', 'senshin', 'mind', 'mentaal', 'principes', 'geest']
-    },
-    {
-      id: 'tactical-principles-search',
-      title: 'Tactical Principles',
-      description: 'Ma-ai, Sen, Go No Sen, and Sen No Sen in kumite',
-      path: '/kumite/principles',
-      tags: ['tactical', 'principles', 'ma-ai', 'sen', 'go-no-sen', 'sen-no-sen', 'strategy', 'tactisch', 'strategie']
-    },
-    {
-      id: 'physical-principles-search',
-      title: 'Physical Principles',
-      description: 'Balance, timing, power, and speed in kumite',
-      path: '/kumite/principles',
-      tags: ['physical', 'principles', 'balance', 'timing', 'power', 'speed', 'stance', 'fysiek', 'balans', 'kracht', 'snelheid']
-    },
-    {
-      id: 'attack-search',
-      title: 'Attack',
-      description: 'Attack techniques and striking in kumite',
-      path: '/kumite/techniques/attack',
-      tags: ['attack', 'striking', 'tsuki', 'uchi', 'keri', 'offensive', 'aanval', 'slaan', 'offensief']
-    },
-    {
-      id: 'defense-search',
-      title: 'Defense',
-      description: 'Defense techniques and blocking in kumite',
-      path: '/kumite/techniques/defense',
-      tags: ['defense', 'blocking', 'uke', 'evasion', 'protective', 'verdediging', 'blokkeren', 'beschermend']
-    },
-    {
-      id: 'throwing-search',
-      title: 'Throwing',
-      description: 'Throwing and takedown techniques in kumite',
-      path: '/kumite/techniques/throwing',
-      tags: ['throwing', 'nage', 'takedown', 'grappling', 'wrestling', 'worpen', 'worptechnieken', 'worstelen']
-    },
-    {
-      id: 'competition-search',
-      title: 'Competition',
-      description: 'Tournament rules, scoring, and competition preparation',
-      path: '/kumite/competition',
-      tags: ['competition', 'tournament', 'scoring', 'rules', 'shiai', 'competitie', 'wedstrijd', 'scoring', 'regels']
-    },
-    {
-      id: 'training-search',
-      title: 'Training',
-      description: 'Kumite training methods and progression',
-      path: '/kumite/training',
-      tags: ['training', 'practice', 'progression', 'methods', 'development', 'training', 'oefening', 'progressie', 'ontwikkeling']
-    },
-    {
-      id: 'safety-search',
-      title: 'Safety',
-      description: 'Safety guidelines and protective equipment in kumite',
-      path: '/kumite/introduction/safety',
-      tags: ['safety', 'protection', 'equipment', 'rules', 'guidelines', 'veiligheid', 'bescherming', 'uitrusting', 'richtlijnen']
-    },
-    {
-      id: 'sparren-search',
-      title: 'Sparren',
-      description: 'Sparring en vechttechnieken in karate',
-      path: '/kumite',
-      tags: ['sparren', 'kumite', 'vechten', 'technieken', 'sparring', 'fighting', 'combat']
-    },
-    {
-      id: 'aanval-search',
-      title: 'Aanval',
-      description: 'Aanvalstechnieken en stoot- en traptechnieken',
-      path: '/kumite/techniques/attack',
-      tags: ['aanval', 'aanvalstechnieken', 'stoten', 'trappen', 'attack', 'striking', 'kicks', 'punches']
-    },
-    {
-      id: 'verdediging-search',
-      title: 'Verdediging',
-      description: 'Verdedigingstechnieken en blokkeertechnieken',
-      path: '/kumite/techniques/defense',
-      tags: ['verdediging', 'verdedigingstechnieken', 'blokkeren', 'defense', 'blocking', 'protection']
-    },
-    {
-      id: 'worpen-search',
-      title: 'Worpen',
-      description: 'Worptechnieken en takedown technieken',
-      path: '/kumite/techniques/throwing',
-      tags: ['worpen', 'worptechnieken', 'takedown', 'throwing', 'nage', 'grappling']
-    },
-    {
-      id: 'principes-search',
-      title: 'Principes',
-      description: 'Mentale, tactische en fysieke principes van kumite',
-      path: '/kumite/principles',
-      tags: ['principes', 'mentaal', 'tactisch', 'fysiek', 'principles', 'mental', 'tactical', 'physical']
-    }
-  ];
-
-  specificTerms.forEach(term => {
-    searchResults.push({
-      id: `term-${term.id}`,
-      title: term.title,
-      description: term.description,
-      type: 'terminology',
-      path: term.path,
-      tags: term.tags
-    });
-  });
-
   // Add general content
   const generalContent = [
     {
@@ -903,7 +889,7 @@ export const searchContent = (query: string, language?: string): SearchResult[] 
       {
         id: 'worpen-search',
         title: 'Worpen',
-        description: 'Worptechnieken en takedown technieken',
+        description: 'Throwing and takedown techniques in kumite',
         path: '/kumite/techniques/throwing',
         tags: ['worpen', 'worptechnieken', 'takedown', 'throwing', 'nage', 'grappling'],
         type: 'terminology' as const
