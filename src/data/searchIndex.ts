@@ -33,12 +33,21 @@ export const createSearchIndex = (): SearchResult[] => {
     const validTags = ['history', 'person', 'master', 'founder', ...figure.contributions.map(c => c.toLowerCase())]
       .filter(tag => tag && tag.trim() !== '');
     
+    // Map figure IDs to correct routes
+    const getPathForFigure = (id: string) => {
+      const routeMap: Record<string, string> = {
+        'miyagi-chojun': '/history/chojun-miyagi',
+        'higaonna-kanryo': '/history/kanryo-higaonna'
+      };
+      return routeMap[id] || `/history/${id}`;
+    };
+    
     searchResults.push({
       id: `person-${figure.id}`,
       title: figure.name,
       description: figure.description,
       type: 'person',
-      path: `/history/${figure.id}`,
+      path: getPathForFigure(figure.id),
       tags: validTags
     });
   });
@@ -567,7 +576,7 @@ export const createSearchIndex = (): SearchResult[] => {
       title: 'Kumite Competition',
       description: 'Competition rules, scoring, and tournament preparation',
       path: '/kumite/competition',
-      tags: ['kumite', 'competition', 'tournament', 'scoring', 'rules', 'competitie', 'wedstrijd', 'scoring', 'regels', 'wettkampf', 'turnier', 'punktzahlung', 'regeln', 'compétition', 'tournoi', 'score', 'règles', 'competición', 'torneo', 'puntuación', 'reglas', 'competizione', 'torneo', 'punteggio', 'regole']
+      tags: ['kumite', 'competition', 'tournament', 'scoring', 'rules', 'competitie', 'wedstrijd', 'scoring', 'regels', 'competición', 'torneo', 'puntuación', 'reglas', 'competizione', 'torneo', 'punteggio', 'regole']
     },
 
     // Specific Kumite Types
@@ -839,136 +848,18 @@ export const createSearchIndex = (): SearchResult[] => {
       id: `general-${item.id}`,
       title: item.title,
       description: item.description,
-      type: 'terminology',
+      type: 'article',
       path: item.path,
       tags: item.tags
     });
   });
 
-  // Add kata content
-  const kataContent = [
-    {
-      id: 'gekisai-dai-ichi',
-      title: 'Gekisai Dai Ichi',
-      description: 'First kata in the Goju-Ryu system',
-      path: '/kata/gekisai-dai-ichi',
-      tags: ['kata', 'gekisai', 'dai-ichi', 'first', 'goju-ryu', 'kata', 'eerste', 'goju-ryu', 'kata', 'erste', 'goju-ryu', 'kata', 'première', 'goju-ryu', 'kata', 'primera', 'goju-ryu', 'kata', 'prima', 'goju-ryu']
-    },
-    {
-      id: 'gekisai-dai-ni',
-      title: 'Gekisai Dai Ni',
-      description: 'Second kata in the Goju-Ryu system',
-      path: '/kata/gekisai-dai-ni',
-      tags: ['kata', 'gekisai', 'dai-ni', 'second', 'goju-ryu', 'kata', 'tweede', 'goju-ryu', 'kata', 'zweite', 'goju-ryu', 'kata', 'deuxième', 'goju-ryu', 'kata', 'segunda', 'goju-ryu', 'kata', 'seconda', 'goju-ryu']
-    },
-    {
-      id: 'saifa',
-      title: 'Saifa',
-      description: 'Advanced kata with tearing techniques',
-      path: '/kata/saifa',
-      tags: ['kata', 'saifa', 'advanced', 'tearing', 'techniques', 'kata', 'gevorderd', 'scheurtechnieken', 'kata', 'fortgeschritten', 'reißtechniken', 'kata', 'avancé', 'techniques de déchirement', 'kata', 'avanzado', 'técnicas de desgarro', 'kata', 'avanzato', 'tecniche di strappo']
-    },
-    {
-      id: 'seiyunchin',
-      title: 'Seiyunchin',
-      description: 'Kata emphasizing balance and control',
-      path: '/kata/seiyunchin',
-      tags: ['kata', 'seiyunchin', 'balance', 'control', 'kata', 'balans', 'controle', 'kata', 'gleichgewicht', 'kontrolle', 'kata', 'équilibre', 'contrôle', 'kata', 'equilibrio', 'control', 'kata', 'equilibrio', 'controllo']
-    },
-    {
-      id: 'shisochin',
-      title: 'Shisochin',
-      description: 'Kata with four-directional fighting',
-      path: '/kata/shisochin',
-      tags: ['kata', 'shisochin', 'four-directional', 'fighting', 'kata', 'vier-richtingen', 'vechten', 'kata', 'vierrichtungs', 'kampf', 'kata', 'quatre-directions', 'combat', 'kata', 'cuatro-direcciones', 'combate', 'kata', 'quattro-direzioni', 'combattimento']
-    },
-    {
-      id: 'sanseru',
-      title: 'Sanseru',
-      description: 'Kata representing 36 hands',
-      path: '/kata/sanseru',
-      tags: ['kata', 'sanseru', '36', 'hands', 'kata', '36', 'handen', 'kata', '36', 'hände', 'kata', '36', 'mains', 'kata', '36', 'manos', 'kata', '36', 'mani']
-    },
-    {
-      id: 'seisan',
-      title: 'Seisan',
-      description: 'Kata with 13 hands technique',
-      path: '/kata/seisan',
-      tags: ['kata', 'seisan', '13', 'hands', 'kata', '13', 'handen', 'kata', '13', 'hände', 'kata', '13', 'mains', 'kata', '13', 'manos', 'kata', '13', 'mani']
-    },
-    {
-      id: 'seipai',
-      title: 'Seipai',
-      description: 'Kata with 18 hands technique',
-      path: '/kata/seipai',
-      tags: ['kata', 'seipai', '18', 'hands', 'kata', '18', 'handen', 'kata', '18', 'hände', 'kata', '18', 'mains', 'kata', '18', 'manos', 'kata', '18', 'mani']
-    },
-    {
-      id: 'kururunfa',
-      title: 'Kururunfa',
-      description: 'Kata with holding and tearing techniques',
-      path: '/kata/kururunfa',
-      tags: ['kata', 'kururunfa', 'holding', 'tearing', 'techniques', 'kata', 'vasthouden', 'scheuren', 'technieken', 'kata', 'halten', 'reißen', 'techniken', 'kata', 'tenir', 'déchirer', 'techniques', 'kata', 'sostener', 'desgarrar', 'técnicas', 'kata', 'tenere', 'strappare', 'tecniche']
-    },
-    {
-      id: 'suparinpei',
-      title: 'Suparinpei',
-      description: 'Kata with 108 hands technique',
-      path: '/kata/suparinpei',
-      tags: ['kata', 'suparinpei', '108', 'hands', 'kata', '108', 'handen', 'kata', '108', 'hände', 'kata', '108', 'mains', 'kata', '108', 'manos', 'kata', '108', 'mani']
-    }
-  ];
+  // Remove duplicates based on ID to prevent React key conflicts
+  const uniqueResults = searchResults.filter((item, index, self) => 
+    index === self.findIndex(t => t.id === item.id)
+  );
 
-  // Add bunkai content
-  const bunkaiContent = [
-    {
-      id: 'bunkai-basics',
-      title: 'Bunkai Basics',
-      description: 'Fundamental principles of kata application',
-      path: '/kata/bunkai',
-      tags: ['bunkai', 'basics', 'principles', 'application', 'bunkai', 'basis', 'principes', 'toepassing', 'bunkai', 'grundlagen', 'prinzipien', 'anwendung', 'bunkai', 'bases', 'principes', 'application', 'bunkai', 'básicos', 'principios', 'aplicación', 'bunkai', 'basi', 'principi', 'applicazione']
-    },
-    {
-      id: 'bunkai-techniques',
-      title: 'Bunkai Techniques',
-      description: 'Specific techniques found in kata',
-      path: '/kata/bunkai',
-      tags: ['bunkai', 'techniques', 'kata', 'applications', 'bunkai', 'technieken', 'kata', 'toepassingen', 'bunkai', 'techniken', 'kata', 'anwendungen', 'bunkai', 'techniques', 'kata', 'applications', 'bunkai', 'técnicas', 'kata', 'aplicaciones', 'bunkai', 'tecniche', 'kata', 'applicazioni']
-    },
-    {
-      id: 'oyo-bunkai',
-      title: 'Oyo Bunkai',
-      description: 'Practical applications of kata movements',
-      path: '/kata/bunkai',
-      tags: ['bunkai', 'oyo', 'practical', 'applications', 'bunkai', 'praktisch', 'toepassingen', 'bunkai', 'praktisch', 'anwendungen', 'bunkai', 'pratique', 'applications', 'bunkai', 'práctico', 'aplicaciones', 'bunkai', 'pratico', 'applicazioni']
-    }
-  ];
-
-  // Add kata content to search results
-  kataContent.forEach(item => {
-    searchResults.push({
-      id: `kata-${item.id}`,
-      title: item.title,
-      description: item.description,
-      type: 'kata',
-      path: item.path,
-      tags: item.tags
-    });
-  });
-
-  // Add bunkai content to search results
-  bunkaiContent.forEach(item => {
-    searchResults.push({
-      id: `bunkai-${item.id}`,
-      title: item.title,
-      description: item.description,
-      type: 'bunkai',
-      path: item.path,
-      tags: item.tags
-    });
-  });
-
-  return searchResults;
+  return uniqueResults;
 };
 
 export const searchIndex = createSearchIndex();
@@ -979,7 +870,83 @@ export const searchContent = (query: string, language?: string): SearchResult[] 
   
   const searchTerm = query.toLowerCase();
   
-  return searchIndex.filter(item => {
+  // Start with the original searchIndex
+  let results = [...searchIndex];
+  
+  // Add Dutch-specific search terms if language is Dutch
+  if (language === 'nl') {
+    const dutchTerms = [
+      {
+        id: 'sparren-search',
+        title: 'Sparren',
+        description: 'Sparring en vechttechnieken in karate',
+        path: '/kumite',
+        tags: ['sparren', 'kumite', 'vechten', 'technieken', 'sparring', 'fighting', 'combat'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'aanval-search',
+        title: 'Aanval',
+        description: 'Aanvalstechnieken en stoot- en traptechnieken',
+        path: '/kumite/techniques/attack',
+        tags: ['aanval', 'aanvalstechnieken', 'stoten', 'trappen', 'attack', 'striking', 'kicks', 'punches'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'verdediging-search',
+        title: 'Verdediging',
+        description: 'Verdedigingstechnieken en blokkeertechnieken',
+        path: '/kumite/techniques/defense',
+        tags: ['verdediging', 'verdedigingstechnieken', 'blokkeren', 'defense', 'blocking', 'protection'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'worpen-search',
+        title: 'Worpen',
+        description: 'Worptechnieken en takedown technieken',
+        path: '/kumite/techniques/throwing',
+        tags: ['worpen', 'worptechnieken', 'takedown', 'throwing', 'nage', 'grappling'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'principes-search',
+        title: 'Principes',
+        description: 'Mentale, tactische en fysieke principes van kumite',
+        path: '/kumite/principles',
+        tags: ['principes', 'mentaal', 'tactisch', 'fysiek', 'principles', 'mental', 'tactical', 'physical'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'competitie-search',
+        title: 'Competitie',
+        description: 'Wedstrijdregels en toernooivoorbereiding',
+        path: '/kumite/competition',
+        tags: ['competitie', 'wedstrijd', 'toernooi', 'regels', 'competition', 'tournament', 'rules'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'training-search',
+        title: 'Training',
+        description: 'Kumite trainingsmethoden en progressie',
+        path: '/kumite/training',
+        tags: ['training', 'oefening', 'progressie', 'methoden', 'practice', 'progression', 'methods'],
+        type: 'terminology' as const
+      },
+      {
+        id: 'veiligheid-search',
+        title: 'Veiligheid',
+        description: 'Veiligheidsrichtlijnen en beschermende uitrusting',
+        path: '/kumite/introduction/safety',
+        tags: ['veiligheid', 'bescherming', 'uitrusting', 'richtlijnen', 'safety', 'protection', 'equipment'],
+        type: 'terminology' as const
+      }
+    ];
+
+    results = [...results, ...dutchTerms];
+  }
+  
+  // Filter results based on search term
+  return results.filter(item => {
     // Search in title
     if (item.title.toLowerCase().includes(searchTerm)) return true;
     
