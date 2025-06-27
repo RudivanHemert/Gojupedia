@@ -1,21 +1,22 @@
 {
   "settings": {
-    "title": "Settings",
-    "description": "Customize your app experience",
+    "title": "Paramètres",
+    "description": "Personnalisez votre expérience d'application",
     "language": {
-      "title": "Language"
+      "title": "Langue"
     },
     "theme": {
-      "title": "Theme",
-      "description": "Choose your preferred theme",
+      "title": "Thème",
+      "description": "Choisissez votre thème préféré",
       "options": {
-        "light": "Light",
-        "dark": "Dark",
-        "system": "System"
+        "light": "Clair",
+        "dark": "Sombre",
+        "system": "Système"
       },
-      "selectLabel": "Select Theme"
+      "selectLabel": "Sélectionner le thème",
+      "selectThemeTitle": "Sélectionner le thème"
     },
     "notifications": "Notifications",
-    "about": "About"
+    "about": "À propos"
   }
 } 

@@ -7,6 +7,7 @@ import {
   Brain,
   Search,
   Settings as SettingsIcon,
+  Info,
   ChevronLeft,
   ChevronRight,
   Menu,
@@ -86,6 +87,13 @@ const sidebarStructure = [
     icon: SettingsIcon,
     path: '/settings',
     sublinks: []
+  },
+  {
+    id: 'about',
+    labelKey: 'navigation.about',
+    icon: Info,
+    path: '/about',
+    sublinks: []
   }
 ];
 
@@ -124,6 +132,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
     ].includes(basePath)) return 'study';
     if (basePath === '/search') return 'search';
     if (basePath === '/settings') return 'settings';
+    if (basePath === '/about') return 'about';
     return '';
   };
   const activeSection = getActiveSection();

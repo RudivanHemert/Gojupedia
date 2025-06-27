@@ -11,6 +11,7 @@ import enHistory from './locales/en/history.json';
 import enPractice from './locales/en/practice.json';
 import enStudy from './locales/en/study.json';
 import enSettings from './locales/en/settings.json';
+import enAbout from './locales/en/about.json';
 import enKata from './locales/en/kata.json';
 import enBunkai from './locales/en/bunkai.json';
 import enPhilosophy from './locales/en/philosophy.json';
@@ -30,6 +31,7 @@ import deHistory from './locales/de/history.json';
 import dePractice from './locales/de/practice.json';
 import deStudy from './locales/de/study.json';
 import deSettings from './locales/de/settings.json';
+import deAbout from './locales/de/about.json';
 import deKata from './locales/de/kata.json';
 import deBunkai from './locales/de/bunkai.json';
 import dePhilosophy from './locales/de/philosophy.json';
@@ -49,6 +51,7 @@ import esHistory from './locales/es/history.json';
 import esPractice from './locales/es/practice.json';
 import esStudy from './locales/es/study.json';
 import esSettings from './locales/es/settings.json';
+import esAbout from './locales/es/about.json';
 import esKata from './locales/es/kata.json';
 import esBunkai from './locales/es/bunkai.json';
 import esPhilosophy from './locales/es/philosophy.json';
@@ -68,6 +71,7 @@ import frHistory from './locales/fr/history.json';
 import frPractice from './locales/fr/practice.json';
 import frStudy from './locales/fr/study.json';
 import frSettings from './locales/fr/settings.json';
+import frAbout from './locales/fr/about.json';
 import frKata from './locales/fr/kata.json';
 import frBunkai from './locales/fr/bunkai.json';
 import frPhilosophy from './locales/fr/philosophy.json';
@@ -87,6 +91,7 @@ import itHistory from './locales/it/history.json';
 import itPractice from './locales/it/practice.json';
 import itStudy from './locales/it/study.json';
 import itSettings from './locales/it/settings.json';
+import itAbout from './locales/it/about.json';
 import itKata from './locales/it/kata.json';
 import itBunkai from './locales/it/bunkai.json';
 import itPhilosophy from './locales/it/philosophy.json';
@@ -106,6 +111,7 @@ import nlHistory from './locales/nl/history.json';
 import nlPractice from './locales/nl/practice.json';
 import nlStudy from './locales/nl/study.json';
 import nlSettings from './locales/nl/settings.json';
+import nlAbout from './locales/nl/about.json';
 import nlKata from './locales/nl/kata.json';
 import nlBunkai from './locales/nl/bunkai.json';
 import nlPhilosophy from './locales/nl/philosophy.json';
@@ -153,6 +159,7 @@ const enTranslations = combineTranslations({
   practice: enPractice,
   study: enStudy,
   settings: enSettings,
+  about: enAbout,
   kata: enKata,
   bunkai: enBunkai,
   philosophy: enPhilosophy,
@@ -174,6 +181,7 @@ const deTranslations = combineTranslations({
   practice: dePractice,
   study: deStudy,
   settings: deSettings,
+  about: deAbout,
   kata: deKata,
   bunkai: deBunkai,
   philosophy: dePhilosophy,
@@ -195,6 +203,7 @@ const esTranslations = combineTranslations({
   practice: esPractice,
   study: esStudy,
   settings: esSettings,
+  about: esAbout,
   kata: esKata,
   bunkai: esBunkai,
   philosophy: esPhilosophy,
@@ -216,6 +225,7 @@ const frTranslations = combineTranslations({
   practice: frPractice,
   study: frStudy,
   settings: frSettings,
+  about: frAbout,
   kata: frKata,
   bunkai: frBunkai,
   philosophy: frPhilosophy,
@@ -237,6 +247,7 @@ const itTranslations = combineTranslations({
   practice: itPractice,
   study: itStudy,
   settings: itSettings,
+  about: itAbout,
   kata: itKata,
   bunkai: itBunkai,
   philosophy: itPhilosophy,
@@ -258,6 +269,7 @@ const nlTranslations = combineTranslations({
   practice: nlPractice,
   study: nlStudy,
   settings: nlSettings,
+  about: nlAbout,
   kata: nlKata,
   bunkai: nlBunkai,
   philosophy: nlPhilosophy,

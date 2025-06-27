@@ -34,6 +34,7 @@ import StudyPage from "./pages/StudyPage";
 import StudyDetailPage from "./pages/StudyDetailPage";
 import GradingsPage from "./pages/GradingsPage";
 import SettingsPage from "./pages/SettingsPage";
+import AboutPage from "./pages/AboutPage";
 import SearchPage from "./pages/SearchPage";
 import SidebarLayout from '@/components/layout/SidebarLayout';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
@@ -208,6 +209,7 @@ const AppContent = React.memo(() => {
               <Route path="/study/:id" element={<StudyDetailPage />} />
               <Route path="/gradings" element={<GradingsPage />} />
               <Route path="/settings" element={<SettingsPage />} />
+              <Route path="/about" element={<AboutPage />} />
               <Route path="/search" element={<SearchPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

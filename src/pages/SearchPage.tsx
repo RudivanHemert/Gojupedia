@@ -8,13 +8,111 @@ import { useNavigate } from 'react-router-dom';
 import { searchContent, SearchResult } from '@/data/searchIndex';
 
 const SearchPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
 
   const searchResults = useMemo(() => {
-    return searchContent(searchQuery);
-  }, [searchQuery]);
+    const results = searchContent(searchQuery, i18n.language);
+    return results.map(item => ({
+      ...item,
+      title: getTranslatedTitle(item, i18n.language),
+      description: getTranslatedDescription(item, i18n.language)
+    }));
+  }, [searchQuery, i18n.language]);
+
+  // Helper function to get translated titles
+  const getTranslatedTitle = (item: SearchResult, language: string): string => {
+    const translationKey = getTranslationKey(item);
+    if (translationKey) {
+      return t(translationKey, item.title);
+    }
+    return item.title;
+  };
+
+  // Helper function to get translated descriptions
+  const getTranslatedDescription = (item: SearchResult, language: string): string => {
+    const translationKey = getTranslationKey(item);
+    if (translationKey) {
+      const descKey = `${translationKey}.description`;
+      return t(descKey, item.description);
+    }
+    return item.description;
+  };
+
+  // Helper function to get translation key based on item type and id
+  const getTranslationKey = (item: SearchResult): string | null => {
+    switch (item.type) {
+      case 'kumite':
+        return getKumiteTranslationKey(item);
+      case 'technique':
+        return getTechniqueTranslationKey(item);
+      case 'kata':
+        return `kata.${item.id.replace('kata-', '')}.name`;
+      case 'philosophy':
+        return `philosophy.${item.id.replace('philosophy-', '')}.title`;
+      case 'theory':
+        return `theory.${item.id.replace('theory-', '')}.title`;
+      case 'newaza':
+        return `newaza.${item.id.replace('newaza-', '')}.title`;
+      case 'hojo-undo':
+        return `hojoUndo.${item.id.replace('hojo-undo-', '')}.title`;
+      default:
+        return null;
+    }
+  };
+
+  // Helper function to get kumite translation keys
+  const getKumiteTranslationKey = (item: SearchResult): string | null => {
+    const kumiteKeyMap: Record<string, string> = {
+      'kumite-intro': 'kumite.introduction.title',
+      'what-is-kumite': 'kumite.introduction.what-is',
+      'types-of-kumite': 'kumite.introduction.types-title',
+      'safety-rules': 'kumite.introduction.safety-title',
+      'attack-techniques': 'kumite.techniques.attack-techniques',
+      'defense-techniques': 'kumite.techniques.defense-techniques',
+      'throwing-techniques': 'kumite.techniques.throwing-techniques',
+      'kumite-principles': 'kumite.principles.title',
+      'kumite-training': 'kumite.training.title',
+      'kumite-competition': 'kumite.competition.title',
+      'zanshin': 'kumite.principles.mental.zanshin.name',
+      'mushin': 'kumite.principles.mental.mushin.name',
+      'fudoshin': 'kumite.principles.mental.fudoshin.name',
+      'senshin': 'kumite.principles.mental.senshin.name',
+      'ma-ai': 'kumite.principles.tactical.ma-ai.name',
+      'sen': 'kumite.principles.tactical.sen.name',
+      'go-no-sen': 'kumite.principles.tactical.go-no-sen.name',
+      'sen-no-sen': 'kumite.principles.tactical.sen-no-sen.name',
+      'balance-stability': 'kumite.principles.physical.balance.name',
+      'timing-rhythm': 'kumite.principles.physical.timing.name',
+      'power-speed': 'kumite.principles.physical.power.name',
+      'ippon-kumite': 'kumite.introduction.types.ippon.title',
+      'sanbon-kumite': 'kumite.introduction.types.sanbon.title',
+      'gohon-kumite': 'kumite.introduction.types.gohon.title',
+      'jiyu-kumite': 'kumite.introduction.types.jiyu.title',
+      'shiai-kumite': 'kumite.introduction.types.shiai.title'
+    };
+    return kumiteKeyMap[item.id.replace('kumite-', '')] || null;
+  };
+
+  // Helper function to get technique translation keys
+  const getTechniqueTranslationKey = (item: SearchResult): string | null => {
+    const techniqueKeyMap: Record<string, string> = {
+      'gyaku-tsuki': 'techniques.punches.gyaku-tsuki.name',
+      'oi-tsuki': 'techniques.punches.oi-tsuki.name',
+      'mae-geri': 'techniques.kicks.mae-geri.name',
+      'mawashi-geri': 'techniques.kicks.mawashi-geri.name',
+      'yoko-geri': 'techniques.kicks.yoko-geri.name',
+      'ushiro-geri': 'techniques.kicks.ushiro-geri.name',
+      'jodan-uke': 'techniques.blocks.jodan-uke.name',
+      'chudan-uke': 'techniques.blocks.chudan-uke.name',
+      'gedan-uke': 'techniques.blocks.gedan-uke.name',
+      'age-uke': 'techniques.blocks.age-uke.name',
+      'gedan-barai': 'techniques.blocks.gedan-barai.name',
+      'soto-uke': 'techniques.blocks.soto-uke.name'
+    };
+    return techniqueKeyMap[item.id.replace('technique-', '')] || null;
+  };
 
   const handleItemClick = (path: string) => {
     navigate(path);
