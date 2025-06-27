@@ -1,8 +1,8 @@
 {
   "title": "Kumite",
-  "description": "Lerne über Sparring und Kampftechniken im Karate",
+  "description": "Erfahre mehr über Sparring und Kampftechniken im Karate",
   "sections": {
-    "introduction": "Einführung",
+    "introduction": "Einleitung",
     "techniques": "Techniken",
     "principles": "Prinzipien",
     "training": "Training",
@@ -12,19 +12,28 @@
     "title": "Kumite: Sparring im Karate",
     "what-is": "Was ist Kumite?",
     "what-is-desc": "Verstehe die Grundlagen des Sparrings im Karate",
-    "types-title": "Arten von Kumite",
-    "types-desc": "Verschiedene Formen des Sparrings und ihre Zwecke",
-    "purpose": "Zweck von Kumite",
+    "types-title": "Kumite-Arten",
+    "types-desc": "Verschiedene Formen des Sparrings und ihre Ziele",
+    "purpose": "Zweck des Kumite",
     "safety-title": "Sicherheit und Regeln",
-    "safety-desc": "Wesentliche Sicherheitsrichtlinien und Wettkampfregeln",
+    "safety-desc": "Wichtige Sicherheitsrichtlinien und Wettkampfregeln",
     "competition-rules": "Wettkampfregeln",
     "training-progression": "Trainingsfortschritt",
     "mental-aspects": "Mentale Aspekte",
     "kumite-types": "Kumite-Arten",
-    "progression": "Trainingsfortschritt",
-    "safety": "Sicherheit",
+    "progression-title": "Trainingsfortschritt",
+    "safety-title": "Sicherheit und Regeln",
     "goals": "Ziele",
     "characteristics": "Merkmale",
+    "definition": "Definition",
+    "importance": "Bedeutung",
+    "goals-list": {
+      "practical-application": "Praktische Anwendung von Techniken",
+      "timing-distance": "Timing und Distanzkontrolle",
+      "mental-discipline": "Mentale Disziplin und Fokus",
+      "physical-conditioning": "Physische Kondition und Ausdauer",
+      "tactical-thinking": "Taktisches Denken und Entscheidungsfindung"
+    },
     "types": {
       "ippon": {
         "title": "Ippon Kumite (Ein-Schritt Sparring)",
@@ -98,55 +107,40 @@
       }
     },
     "progression": {
-      "basic": {
-        "title": "Grundlagen",
-        "desc": "Ippon Kumite für grundlegende Fähigkeiten"
-      },
-      "expansion": {
-        "title": "Erweiterung",
-        "desc": "Sanbon und Gohon für Komplexität"
-      },
-      "freedom": {
-        "title": "Freiheit",
-        "desc": "Jiyu Kumite für Spontanität"
-      },
-      "competition": {
-        "title": "Wettkampf",
-        "desc": "Shiai Kumite für Wettkampferfahrung"
-      }
+      "basic": { "title": "Grundlagen", "desc": "Ippon Kumite für grundlegende Fähigkeiten" },
+      "expansion": { "title": "Erweiterung", "desc": "Sanbon und Gohon für Komplexität" },
+      "freedom": { "title": "Freiheit", "desc": "Jiyu Kumite für Spontanität" },
+      "competition": { "title": "Wettkampf", "desc": "Shiai Kumite für Wettkampferfahrung" }
     },
     "safety": {
       "basic-principles": "Grundlegende Sicherheitsprinzipien",
-      "equipment": "Sicherheitsausrüstung",
+      "equipment": "Schutzausrüstung",
       "competition-rules": "Wettkampfregeln",
       "training-safety": "Trainingssicherheit",
-      "warning-title": "Sicherheitswarnung",
-      "warning-text": "Sicherheit ist beim Kumite-Training von größter Bedeutung. Ohne angemessene Sicherheitsmaßnahmen kann Kumite gefährlich sein.",
       "principles": {
-        "control": "Alle Techniken müssen kontrolliert sein",
-        "equipment": "Verwende angemessene Sicherheitsausrüstung",
-        "supervision": "Übe immer unter qualifizierter Anleitung",
-        "respect": "Zeige Respekt vor deinem Trainingspartner",
-        "progressive": "Beginne mit Grundformen vor fortgeschrittenem Sparring"
+        "control": "Alle Techniken müssen kontrolliert ausgeführt werden.",
+        "equipment": "Verwenden Sie geeignete Schutzausrüstung.",
+        "supervision": "Trainieren Sie stets unter qualifizierter Anleitung.",
+        "respect": "Zeigen Sie Respekt gegenüber Ihrem Trainingspartner.",
+        "progressive": "Beginnen Sie mit Grundformen, bevor Sie zu fortgeschrittenen Sparringsformen übergehen."
       },
       "required-equipment": "Erforderliche Ausrüstung",
-      "optional-equipment": "Optionale Ausrüstung",
-      "equipment": {
+      "equipment-details": {
         "required": {
-          "hand-protectors": "Handschützer für Schutz von Händen und Handgelenken",
-          "foot-protectors": "Fußschützer für Schutz von Füßen und Knöcheln",
-          "mouth-guard": "Mundschutz für Schutz von Zähnen und Mund",
-          "groin-protector": "Tiefschutz für männliche Praktizierende"
+          "hand-protectors": "Handschützer zum Schutz von Händen und Handgelenken.",
+          "foot-protectors": "Fußschützer zum Schutz von Füßen und Knöcheln.",
+          "mouth-guard": "Mundschutz zum Schutz von Zähnen und Mund.",
+          "groin-protector": "Tiefschutz für männliche Übende."
         },
         "optional": {
-          "head-protection": "Kopfschutz für zusätzliche Sicherheit",
-          "chest-protector": "Brustschutz für weibliche Praktizierende",
-          "shin-guards": "Schienbeinschützer für zusätzlichen Beinschutz"
+          "head-protection": "Kopfschutz für zusätzliche Sicherheit.",
+          "chest-protector": "Brustschutz für weibliche Übende.",
+          "shin-guards": "Schienbeinschützer für zusätzlichen Beinschutz."
         }
       },
-      "allowed-areas": "Erlaubte Bereiche",
+      "optional-equipment": "Optionale Ausrüstung",
+      "allowed-areas": "Erlaubte Kontaktzonen",
       "scoring-areas": "Punktebereiche",
-      "forbidden-areas": "Verbotene Bereiche",
       "areas": {
         "scoring": {
           "head-face-neck": "Kopf, Gesicht, Hals",
@@ -160,42 +154,29 @@
           "joints": "Gelenke"
         }
       },
-      "penalties": {
-        "chukoku": {
-          "name": "Chukoku",
-          "desc": "Erste Verwarnung"
-        },
-        "keikoku": {
-          "name": "Keikoku",
-          "desc": "Zweite Verwarnung"
-        },
-        "hansoku": {
-          "name": "Hansoku",
-          "desc": "Disqualifikation"
-        }
+      "forbidden-areas": "Verbotene Kontaktzonen",
+      "penalties": "Strafmaßnahmen",
+      "penalty-types": {
+        "chukoku": "Chukoku - Erste Verwarnung",
+        "keikoku": "Keikoku - Zweite Verwarnung",
+        "hansoku": "Hansoku - Disqualifikation"
       },
       "training": {
         "before": "Vor dem Training",
+        "before-item1": "Führen Sie stets ein angemessenes Aufwärmen durch.",
+        "before-item2": "Führen Sie Dehnübungen zur Verbesserung der Flexibilität durch.",
+        "before-item3": "Überprüfen Sie die Ausrüstung auf Sicherheit.",
+        "before-item4": "Besprechen Sie das Niveau und die Erwartungen mit Ihrem Partner.",
         "during": "Während des Trainings",
+        "during-item1": "Behalten Sie jederzeit die Kontrolle über alle Techniken.",
+        "during-item2": "Kommunizieren Sie klar mit Ihrem Partner.",
+        "during-item3": "Zeigen Sie Respekt für das Können Ihres Partners.",
+        "during-item4": "Beenden Sie das Training sofort bei Schmerzen oder Problemen.",
         "after": "Nach dem Training",
-        "before": {
-          "item1": "Wärme dich immer richtig auf",
-          "item2": "Mache Flexibilitätsübungen",
-          "item3": "Überprüfe die Ausrüstung",
-          "item4": "Besprich das Niveau mit dem Partner"
-        },
-        "during": {
-          "item1": "Behalte immer Kontrolle über die Techniken",
-          "item2": "Kommuniziere mit deinem Partner",
-          "item3": "Zeige Respekt vor dem Könnensniveau",
-          "item4": "Stoppe sofort bei Problemen"
-        },
-        "after": {
-          "item1": "Mache Abkühlungsroutine",
-          "item2": "Trinke ausreichend Wasser",
-          "item3": "Besprich das Training mit dem Trainer",
-          "item4": "Nimm ausreichend Ruhe"
-        }
+        "after-item1": "Führen Sie eine Abkühlphase durch.",
+        "after-item2": "Trinken Sie ausreichend Wasser.",
+        "after-item3": "Evaluieren Sie das Training mit dem Trainer.",
+        "after-item4": "Gönnen Sie sich nach dem Training ausreichend Ruhe."
       }
     }
   },
@@ -203,6 +184,7 @@
     "title": "Kumite-Techniken im Sportkarate",
     "attack-techniques": "Angriffstechniken",
     "defense-techniques": "Verteidigungstechniken",
+    "throwing-techniques": "Wurftechniken",
     "tsuki-waza": "Tsuki Waza (突き技) - Stoßtechniken",
     "uchi-waza": "Uchi Waza (打ち技) - Schlagtechniken",
     "keri-waza": "Keri Waza (蹴り技) - Tritttechniken",
@@ -210,35 +192,397 @@
     "uke-waza": "Uke Waza (受け技) - Blocktechniken",
     "kawashi-waza": "Kawashi Waza (躱し技) - Ausweichtechniken",
     "safety-considerations": "Sicherheitsaspekte",
-    "training-focus": "Trainingsfokus"
+    "training-focus": "Trainingsfokus",
+    "attack": {
+      "title": "Angriffstechniken im Kumite",
+      "description": "Effektive Angriffstechniken für Sportkarate",
+      "tsuki": {
+        "title": "Tsuki Waza (突き技) - Stoßtechniken",
+        "description": "Direkte Stoßtechniken für schnelle Angriffe",
+        "techniques": {
+          "kizami-zuki": {
+            "name": "Kizami Zuki (刻み突き)",
+            "description": "Schneller Führungshandstoß zum Gesicht",
+            "application": "Effektiv für Punktegewinn am Kopf",
+            "execution": "Schnelle Ausführung mit gutem Timing und Distanz"
+          },
+          "gyaku-zuki": {
+            "name": "Gyaku Zuki (逆突き)",
+            "description": "Rückhandstoß zum Körper",
+            "application": "Kraftvoller Angriff zum Körper",
+            "execution": "Verwendung der Hüftrotation für maximale Kraft"
+          },
+          "oi-zuki": {
+            "name": "Oi Zuki (追い突き)",
+            "description": "Stoß mit Vorwärtsbewegung",
+            "application": "Angriff mit Körperverlagerung",
+            "execution": "Koordination von Fußbewegung und Stoß"
+          },
+          "choku-zuki": {
+            "name": "Choku Zuki (直突き)",
+            "description": "Direkter Stoß ohne Vorbereitung",
+            "application": "Schneller Gegenangriff aus Verteidigungsposition",
+            "execution": "Effiziente Bewegung ohne unnötige Vorbereitung"
+          }
+        }
+      },
+      "uchi": {
+        "title": "Uchi Waza (打ち技) - Schlagtechniken",
+        "description": "Schlagtechniken für verschiedene Ziele",
+        "techniques": {
+          "uraken-uchi": {
+            "name": "Uraken Uchi (裏拳打ち)",
+            "description": "Rückfaustschlag zum Gesicht",
+            "application": "Schnelle Schlagtechnik für den Kopf",
+            "execution": "Verwendung der Handgelenkrotation für Effektivität"
+          },
+          "haito-uchi": {
+            "name": "Haito Uchi (背刀打ち)",
+            "description": "Handkantenschlag zum Hals",
+            "application": "Präzisionsschlag zu vitalen Punkten",
+            "execution": "Kontrollierte Ausführung für Sicherheit"
+          },
+          "shuto-uchi": {
+            "name": "Shuto Uchi (手刀打ち)",
+            "description": "Handkantenschlag zum Hals",
+            "application": "Effektiver Schlag zum Kopf- und Halsbereich",
+            "execution": "Verwendung der Handkante für Präzision"
+          }
+        }
+      },
+      "keri": {
+        "title": "Keri Waza (蹴り技) - Tritttechniken",
+        "description": "Kraftvolle Tritttechniken für verschiedene Ziele",
+        "techniques": {
+          "mae-geri": {
+            "name": "Mae Geri (前蹴り)",
+            "description": "Fronttritt zum Körper",
+            "application": "Direkter Angriff zum Körper",
+            "execution": "Verwendung von Balance und Knielift"
+          },
+          "yoko-geri": {
+            "name": "Yoko Geri (横蹴り)",
+            "description": "Seitentritt zum Körper",
+            "application": "Effektiver Tritt zur Seite des Körpers",
+            "execution": "Rotation des Körpers für Kraft"
+          },
+          "mawashi-geri": {
+            "name": "Mawashi Geri (回し蹴り)",
+            "description": "Rundtritt zum Kopf",
+            "application": "Kraftvoller Tritt zum Kopf für Punkte",
+            "execution": "Verwendung der Hüftrotation und Beinflexibilität"
+          },
+          "ura-mawashi-geri": {
+            "name": "Ura Mawashi Geri (裏回し蹴り)",
+            "description": "Innenrundtritt",
+            "application": "Schneller Tritt zum Körper",
+            "execution": "Effiziente Bewegung mit gutem Timing"
+          },
+          "ushiro-geri": {
+            "name": "Ushiro Geri (後ろ蹴り)",
+            "description": "Rücktritt",
+            "application": "Verteidigungstritt gegen Rückangriffe",
+            "execution": "Kontrollierte Ausführung mit guter Balance"
+          }
+        }
+      }
+    },
+    "defense": {
+      "title": "Verteidigungstechniken im Kumite",
+      "description": "Effektive Verteidigungstechniken für Sportkarate",
+      "uke": {
+        "title": "Uke Waza (受け技) - Blocktechniken",
+        "description": "Traditionelle Blocktechniken",
+        "techniques": {
+          "age-uke": {
+            "name": "Age Uke (上げ受け)",
+            "description": "Aufsteigender Block für Kopfverteidigung",
+            "application": "Verteidigung gegen Kopf- und Gesichtsangriffe",
+            "execution": "Verwendung des Unterarms für effektiven Block"
+          },
+          "soto-uke": {
+            "name": "Soto Uke (外受け)",
+            "description": "Außenblock",
+            "application": "Verteidigung gegen Stoßangriffe",
+            "execution": "Bewegung von innen nach außen"
+          },
+          "uchi-uke": {
+            "name": "Uchi Uke (内受け)",
+            "description": "Innenblock",
+            "application": "Verteidigung gegen Stoßangriffe",
+            "execution": "Bewegung von außen nach innen"
+          },
+          "gedan-barai": {
+            "name": "Gedan Barai (下段払い)",
+            "description": "Tiefer Block für Beinverteidigung",
+            "application": "Verteidigung gegen niedrige Tritte",
+            "execution": "Abwärtsbewegung mit Unterarm"
+          }
+        }
+      },
+      "kawashi": {
+        "title": "Kawashi Waza (躱し技) - Ausweichtechniken",
+        "description": "Moderne Ausweichtechniken",
+        "techniques": {
+          "te-nagashi-uke": {
+            "name": "Te Nagashi Uke (手流し受け)",
+            "description": "Handfließblock",
+            "application": "Verteidigung mit fließender Bewegung",
+            "execution": "Flüssige Bewegung ohne harten Block"
+          },
+          "te-osae-uke": {
+            "name": "Te Osae Uke (手押さえ受け)",
+            "description": "Handdrückblock",
+            "application": "Verteidigung durch Niederdrücken",
+            "execution": "Kontrollierte Bewegung nach unten"
+          }
+        }
+      }
+    },
+    "throwing": {
+      "title": "Wurftechniken im Kumite",
+      "description": "Effektive Wurftechniken für Sportkarate",
+      "nage": {
+        "title": "Nage Waza (投げ技) - Wurftechniken",
+        "description": "Traditionelle Wurftechniken",
+        "techniques": {
+          "de-ashi-barai": {
+            "name": "De Ashi Barai (出足払い)",
+            "description": "Fußfegtechnik",
+            "application": "Wurf durch Fußfegen",
+            "execution": "Timing und Balance sind entscheidend"
+          },
+          "kuzushi": {
+            "name": "Kuzushi (崩し)",
+            "description": "Balanceverstörung",
+            "application": "Vorbereitung für Wurf",
+            "execution": "Verstörung der Gegnerbalance"
+          },
+          "o-soto-gari": {
+            "name": "O Soto Gari (大外刈り)",
+            "description": "Großer Außensichel",
+            "application": "Wurf durch Beinentfernung",
+            "execution": "Verwendung des Körpergewichts und Beinbewegung"
+          },
+          "o-uchi-gari": {
+            "name": "O Uchi Gari (大内刈り)",
+            "description": "Großer Innensichel",
+            "application": "Wurf durch innere Beinbewegung",
+            "execution": "Effektiver Wurf für verschiedene Situationen"
+          }
+        }
+      }
+    }
   },
   "principles": {
     "title": "Kumite-Prinzipien und Trainingsphilosophie",
+    "description": "Grundlegende Prinzipien für effektives Kumite",
     "core-principles": "Kernprinzipien",
     "mental-preparation": "Mentale Vorbereitung",
     "tactical-principles": "Taktische Prinzipien",
     "physical-preparation": "Physische Vorbereitung",
     "competition-vs-traditional": "Wettkampf vs. Traditionelles Karate",
     "training-methodology": "Trainingsmethodik",
-    "safety-and-control": "Sicherheit und Kontrolle"
+    "safety-and-control": "Sicherheit und Kontrolle",
+    "mental": {
+      "title": "Mentale Prinzipien",
+      "zanshin": {
+        "name": "Zanshin (残心) - Verbleibender Geist",
+        "description": "Bewusstsein und Wachsamkeit nach einer Technik",
+        "application": "Bleiben Sie nach jedem Angriff oder jeder Verteidigung wachsam",
+        "importance": "Verhindert Gegenangriffe und behält Kontrolle"
+      },
+      "mushin": {
+        "name": "Mushin (無心) - Geist ohne Gedanken",
+        "description": "Geistiger Zustand ohne bewusste Gedanken",
+        "application": "Spontane Reaktionen ohne Zögern",
+        "importance": "Verbessert Reaktionszeit und Entscheidungsfindung"
+      },
+      "fudoshin": {
+        "name": "Fudoshin (不動心) - Unbeweglicher Geist",
+        "description": "Unerschütterlicher geistiger Zustand",
+        "application": "Bleiben Sie unter Druck ruhig",
+        "importance": "Fördert effektive Entscheidungsfindung"
+      },
+      "senshin": {
+        "name": "Senshin (先心) - Gereinigter Geist",
+        "description": "Gereinigter und verfeinerter Geist",
+        "application": "Höchstes Niveau der mentalen Entwicklung",
+        "importance": "Ultimativer Zustand der Karate-Praxis"
+      }
+    },
+    "tactical": {
+      "title": "Taktische Prinzipien",
+      "ma-ai": {
+        "name": "Ma-ai (間合い) - Kampfdistanz",
+        "description": "Optimale Distanz für effektive Techniken",
+        "application": "Behalten Sie die richtige Distanz für Angriffe und Verteidigung",
+        "importance": "Kritisch für Timing und Effektivität"
+      },
+      "sen": {
+        "name": "Sen (先) - Initiative",
+        "description": "Initiative in einem Kampf ergreifen",
+        "application": "Proaktiver Ansatz zum Kumite",
+        "importance": "Gibt psychologischen Vorteil"
+      },
+      "go-no-sen": {
+        "name": "Go No Sen (後の先) - Reaktion auf Angriff",
+        "description": "Gegenangriff nach Verteidigung",
+        "application": "Verteidigen und sofort angreifen",
+        "importance": "Effektive Gegenangriffsstrategie"
+      },
+      "sen-no-sen": {
+        "name": "Sen No Sen (先の先) - Angriff auf den Angriff",
+        "description": "Gleichzeitiger Angriff mit dem Gegner",
+        "application": "Interzeptieren Sie den Angriff des Gegners",
+        "importance": "Fortgeschrittener taktischer Ansatz"
+      }
+    },
+    "physical": {
+      "title": "Physische Prinzipien",
+      "balance": {
+        "name": "Balance und Stabilität",
+        "description": "Aufrechterhaltung der Körperbalance während der Bewegung",
+        "application": "Stabile Haltung für alle Techniken",
+        "importance": "Grundlage für effektive Technikausführung"
+      },
+      "timing": {
+        "name": "Timing und Rhythmus",
+        "description": "Richtiges Timing für Technikausführung",
+        "application": "Koordination von Bewegung und Timing",
+        "importance": "Maximiert die Effektivität von Techniken"
+      },
+      "power": {
+        "name": "Kraft und Geschwindigkeit",
+        "description": "Balance zwischen Kraft und Geschwindigkeit",
+        "application": "Effektive Kombination beider Elemente",
+        "importance": "Optimiert Technikleistung"
+      }
+    }
   },
   "training": {
     "title": "Kumite-Trainingsmethoden",
+    "description": "Systematischer Trainingsansatz für Kumite-Entwicklung",
     "training-progression": "Trainingsfortschritt",
     "training-methods": "Trainingsmethoden",
     "training-structure": "Trainingsstruktur",
     "training-principles": "Trainingsprinzipien",
     "competition-preparation": "Wettkampfvorbereitung",
-    "safety-considerations": "Sicherheitsaspekte"
+    "safety-considerations": "Sicherheitsaspekte",
+    "methods": {
+      "title": "Trainingsmethoden",
+      "kihon": {
+        "name": "Kihon Kumite (基本組手)",
+        "description": "Grundlegendes Sparring für Technikentwicklung",
+        "benefits": "Baut Grundlage für fortgeschrittenes Kumite",
+        "focus": "Korrekte Technikausführung und Timing"
+      },
+      "yakusoku": {
+        "name": "Yakusoku Kumite (約束組手)",
+        "description": "Vereinbartes Sparring",
+        "benefits": "Entwickelt Timing und Distanzkontrolle",
+        "focus": "Kontrollierte Ausführung von Techniken"
+      },
+      "jiyu": {
+        "name": "Jiyu Kumite (自由組手)",
+        "description": "Freies Sparring für Spontanität",
+        "benefits": "Entwickelt Anpassungsfähigkeit und taktisches Denken",
+        "focus": "Realistische Kampfsituationen"
+      },
+      "shiai": {
+        "name": "Shiai Kumite (試合組手)",
+        "description": "Wettkampfsparring",
+        "benefits": "Bereitet auf Wettkampfumgebung vor",
+        "focus": "Punktescoring und Wettkampfregeln"
+      }
+    },
+    "progression": {
+      "title": "Trainingsfortschritt",
+      "beginner": {
+        "name": "Anfängerniveau",
+        "description": "Fokus auf Grundtechniken und Sicherheit",
+        "duration": "6-12 Monate",
+        "goals": "Beherrschung grundlegender Kumite-Prinzipien"
+      },
+      "intermediate": {
+        "name": "Fortgeschrittenes Niveau",
+        "description": "Entwicklung von Timing und Taktik",
+        "duration": "1-3 Jahre",
+        "goals": "Effektive Anwendung von Techniken"
+      },
+      "advanced": {
+        "name": "Höheres Niveau",
+        "description": "Verfeinerung von Fähigkeiten und Strategie",
+        "duration": "3+ Jahre",
+        "goals": "Meisterschaft der Kumite-Prinzipien"
+      }
+    },
+    "safety": {
+      "title": "Sicherheitsrichtlinien",
+      "equipment": "Verwendung geeigneter Schutzausrüstung",
+      "supervision": "Training unter qualifizierter Aufsicht",
+      "progression": "Allmähliche Steigerung der Intensität",
+      "communication": "Klare Kommunikation mit Trainingspartner"
+    }
   },
   "competition": {
     "title": "Kumite-Wettkampf",
+    "description": "Wettkampfkarate und wettkampforientierte Aspekte",
     "organizations": "Wettkampforganisationen",
     "rules": "Wettkampfregeln",
     "preparation": "Wettkampfvorbereitung",
     "safety": "Wettkampfsicherheit",
     "experience": "Wettkampferfahrung",
-    "etiquette": "Wettkampfetikette"
+    "etiquette": "Wettkampfetikette",
+    "organizations": {
+      "title": "Wichtige Organisationen",
+      "wkf": {
+        "name": "World Karate Federation (WKF)",
+        "description": "Hauptorganisation für internationales Karate",
+        "role": "Regelt internationale Wettkämpfe und Regeln"
+      },
+      "wkc": {
+        "name": "World Karate Confederation (WKC)",
+        "description": "Alternative internationale Organisation",
+        "role": "Organisiert weltweite Karate-Events"
+      },
+      "wukf": {
+        "name": "World Union of Karate-Do Federations (WUKF)",
+        "description": "Union nationaler Karate-Föderationen",
+        "role": "Fördert traditionelle Karate-Werte"
+      }
+    },
+    "scoring": {
+      "title": "Punktesystem",
+      "ippon": {
+        "name": "Ippon (3 Punkte)",
+        "description": "Höchste Punktzahl für effektive Techniken",
+        "criteria": "Kraftvolle und kontrollierte Techniken zu erlaubten Bereichen"
+      },
+      "waza-ari": {
+        "name": "Waza-ari (2 Punkte)",
+        "description": "Mittlere Punktzahl für effektive Techniken",
+        "criteria": "Effektive Techniken mit guter Kontrolle"
+      },
+      "yuko": {
+        "name": "Yuko (1 Punkt)",
+        "description": "Grundpunktzahl für effektive Techniken",
+        "criteria": "Techniken, die den Gegner treffen"
+      }
+    },
+    "penalties": {
+      "title": "Strafen",
+      "chukoku": "Chukoku - Erste Verwarnung",
+      "keikoku": "Keikoku - Zweite Verwarnung",
+      "hansoku": "Hansoku - Disqualifikation"
+    },
+    "preparation": {
+      "title": "Wettkampfvorbereitung",
+      "physical": "Physische Vorbereitung und Konditionierung",
+      "mental": "Mentale Vorbereitung und Fokus",
+      "technical": "Technische Vorbereitung und Verfeinerung",
+      "tactical": "Taktische Vorbereitung und Strategie"
+    }
   },
   "technique-names": {
     "kizami-zuki": "Kizami Zuki (刻み突き)",

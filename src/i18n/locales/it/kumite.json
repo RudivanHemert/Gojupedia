@@ -11,20 +11,28 @@
   "introduction": {
     "title": "Kumite: Combattimento nel Karate",
     "what-is": "Cos'è il Kumite?",
-    "what-is-desc": "Comprendi i fondamenti del combattimento nel karate",
+    "what-is-desc": "Comprendere i fondamentali del combattimento nel karate",
     "types-title": "Tipi di Kumite",
-    "types-desc": "Diverse forme di combattimento e i loro scopi",
+    "types-desc": "Diverse forme di combattimento e i loro obiettivi",
     "purpose": "Scopo del Kumite",
     "safety-title": "Sicurezza e Regole",
     "safety-desc": "Linee guida di sicurezza essenziali e regole di competizione",
-    "competition-rules": "Regole di Competizione",
-    "training-progression": "Progressione di Allenamento",
-    "mental-aspects": "Aspetti Mentali",
+    "competition-rules": "Regole di competizione",
+    "training-progression": "Progressione dell'allenamento",
+    "mental-aspects": "Aspetti mentali",
     "kumite-types": "Tipi di Kumite",
-    "progression": "Progressione di Allenamento",
-    "safety": "Sicurezza",
+    "progression-title": "Progressione dell'allenamento",
     "goals": "Obiettivi",
     "characteristics": "Caratteristiche",
+    "definition": "Definizione",
+    "importance": "Importanza",
+    "goals-list": {
+      "practical-application": "Applicazione pratica delle tecniche",
+      "timing-distance": "Controllo del timing e della distanza",
+      "mental-discipline": "Disciplina mentale e concentrazione",
+      "physical-conditioning": "Condizionamento fisico e resistenza",
+      "tactical-thinking": "Pensiero tattico e processo decisionale"
+    },
     "types": {
       "ippon": {
         "title": "Ippon Kumite (Combattimento di Un Passo)",
@@ -98,55 +106,40 @@
       }
     },
     "progression": {
-      "basic": {
-        "title": "Base",
-        "desc": "Ippon Kumite per abilità fondamentali"
-      },
-      "expansion": {
-        "title": "Espansione",
-        "desc": "Sanbon e Gohon per complessità"
-      },
-      "freedom": {
-        "title": "Libertà",
-        "desc": "Jiyu Kumite per spontaneità"
-      },
-      "competition": {
-        "title": "Competizione",
-        "desc": "Shiai Kumite per esperienza competitiva"
-      }
+      "basic": { "title": "Base", "desc": "Ippon Kumite per abilità fondamentali" },
+      "expansion": { "title": "Espansione", "desc": "Sanbon e Gohon per complessità" },
+      "freedom": { "title": "Libertà", "desc": "Jiyu Kumite per spontaneità" },
+      "competition": { "title": "Competizione", "desc": "Shiai Kumite per esperienza competitiva" }
     },
     "safety": {
-      "basic-principles": "Principi di Sicurezza di Base",
-      "equipment": "Equipaggiamento di Sicurezza",
-      "competition-rules": "Regole di Competizione",
-      "training-safety": "Sicurezza nell'Allenamento",
-      "warning-title": "Avvertimento di Sicurezza",
-      "warning-text": "La sicurezza è della massima importanza nella pratica del kumite. Senza misure di sicurezza appropriate, il kumite può essere pericoloso.",
+      "basic-principles": "Principi di sicurezza di base",
+      "equipment": "Attrezzatura di sicurezza",
+      "competition-rules": "Regole di competizione",
+      "training-safety": "Sicurezza durante l'allenamento",
       "principles": {
-        "control": "Tutte le tecniche devono essere controllate",
-        "equipment": "Usa equipaggiamento di sicurezza appropriato",
-        "supervision": "Pratica sempre sotto istruzione qualificata",
-        "respect": "Mostra rispetto per il tuo partner di allenamento",
-        "progressive": "Inizia con forme di base prima del combattimento avanzato"
+        "control": "Tutte le tecniche devono essere controllate.",
+        "equipment": "Utilizzare l'attrezzatura di sicurezza adeguata.",
+        "supervision": "Allenarsi sempre sotto la supervisione di un istruttore qualificato.",
+        "respect": "Mostrare rispetto per il proprio compagno di allenamento.",
+        "progressive": "Iniziare con forme di base prima di passare a forme di combattimento avanzate."
       },
-      "required-equipment": "Equipaggiamento Richiesto",
-      "optional-equipment": "Equipaggiamento Opzionale",
-      "equipment": {
+      "required-equipment": "Attrezzatura obbligatoria",
+      "equipment-details": {
         "required": {
-          "hand-protectors": "Protettori per mani per protezione di mani e polsi",
-          "foot-protectors": "Protettori per piedi per protezione di piedi e caviglie",
-          "mouth-guard": "Paradenti per protezione di denti e bocca",
-          "groin-protector": "Protettore inguinale per praticanti maschi"
+          "hand-protectors": "Parapugni per la protezione di mani e polsi.",
+          "foot-protectors": "Parapiedi per la protezione di piedi e caviglie.",
+          "mouth-guard": "Paradenti per la protezione di denti e bocca.",
+          "groin-protector": "Conchiglia per praticanti maschi."
         },
         "optional": {
-          "head-protection": "Protezione della testa per sicurezza extra",
-          "chest-protector": "Protettore del petto per praticanti femmine",
-          "shin-guards": "Parastinchi per protezione extra delle gambe"
+          "head-protection": "Casco protettivo per maggiore sicurezza.",
+          "chest-protector": "Corpetto protettivo per praticanti femmine.",
+          "shin-guards": "Parastinchi per una protezione aggiuntiva delle gambe."
         }
       },
-      "allowed-areas": "Aree Consentite",
-      "scoring-areas": "Aree di Punteggio",
-      "forbidden-areas": "Aree Vietate",
+      "optional-equipment": "Attrezzatura opzionale",
+      "allowed-areas": "Zone di contatto consentite",
+      "scoring-areas": "Zone di punteggio",
       "areas": {
         "scoring": {
           "head-face-neck": "Testa, viso, collo",
@@ -160,42 +153,29 @@
           "joints": "Articolazioni"
         }
       },
-      "penalties": {
-        "chukoku": {
-          "name": "Chukoku",
-          "desc": "Primo avvertimento"
-        },
-        "keikoku": {
-          "name": "Keikoku",
-          "desc": "Secondo avvertimento"
-        },
-        "hansoku": {
-          "name": "Hansoku",
-          "desc": "Squalifica"
-        }
+      "forbidden-areas": "Zone di contatto vietate",
+      "penalties": "Sanzioni",
+      "penalty-types": {
+        "chukoku": "Chukoku - Primo avvertimento",
+        "keikoku": "Keikoku - Secondo avvertimento",
+        "hansoku": "Hansoku - Squalifica"
       },
       "training": {
-        "before": "Prima dell'Allenamento",
-        "during": "Durante l'Allenamento",
-        "after": "Dopo l'Allenamento",
-        "before": {
-          "item1": "Riscaldati sempre appropriatamente",
-          "item2": "Fai esercizi di flessibilità",
-          "item3": "Controlla l'equipaggiamento",
-          "item4": "Discuti il livello con il tuo partner"
-        },
-        "during": {
-          "item1": "Mantieni sempre il controllo sulle tecniche",
-          "item2": "Comunica con il tuo partner",
-          "item3": "Mostra rispetto per il livello di abilità",
-          "item4": "Ferma immediatamente se sorgono problemi"
-        },
-        "after": {
-          "item1": "Fai routine di raffreddamento",
-          "item2": "Bevi sufficiente acqua",
-          "item3": "Discuti l'allenamento con l'istruttore",
-          "item4": "Prendi sufficiente riposo"
-        }
+        "before": "Prima dell'allenamento",
+        "before-item1": "Eseguire sempre un adeguato riscaldamento.",
+        "before-item2": "Eseguire esercizi di flessibilità.",
+        "before-item3": "Controllare l'attrezzatura per la sicurezza.",
+        "before-item4": "Discutere il livello e le aspettative con il proprio compagno.",
+        "during": "Durante l'allenamento",
+        "during-item1": "Mantenere sempre il controllo su tutte le tecniche.",
+        "during-item2": "Comunicare chiaramente con il proprio compagno.",
+        "during-item3": "Mostrare rispetto per il livello di abilità del compagno.",
+        "during-item4": "Fermarsi immediatamente in caso di dolore o problemi.",
+        "after": "Dopo l'allenamento",
+        "after-item1": "Eseguire una fase di defaticamento.",
+        "after-item2": "Bere acqua a sufficienza.",
+        "after-item3": "Valutare l'allenamento con l'istruttore.",
+        "after-item4": "Riposo adeguato dopo l'allenamento."
       }
     }
   },
@@ -203,6 +183,7 @@
     "title": "Tecniche di Kumite nel Karate Sportivo",
     "attack-techniques": "Tecniche di Attacco",
     "defense-techniques": "Tecniche di Difesa",
+    "throwing-techniques": "Tecniche di Proiezione",
     "tsuki-waza": "Tsuki Waza (突き技) - Tecniche di Pugno",
     "uchi-waza": "Uchi Waza (打ち技) - Tecniche di Colpo",
     "keri-waza": "Keri Waza (蹴り技) - Tecniche di Calcio",
@@ -210,10 +191,23 @@
     "uke-waza": "Uke Waza (受け技) - Tecniche di Blocco",
     "kawashi-waza": "Kawashi Waza (躱し技) - Tecniche di Schivata",
     "safety-considerations": "Considerazioni di Sicurezza",
-    "training-focus": "Focus di Allenamento"
+    "training-focus": "Focus di Allenamento",
+    "attack": {
+      "title": "Tecniche di Attacco nel Kumite",
+      "description": "Tecniche di attacco efficaci per karate sportivo"
+    },
+    "defense": {
+      "title": "Tecniche di Difesa nel Kumite",
+      "description": "Tecniche di difesa efficaci per karate sportivo"
+    },
+    "throwing": {
+      "title": "Tecniche di Proiezione nel Kumite",
+      "description": "Tecniche di proiezione efficaci per karate sportivo"
+    }
   },
   "principles": {
     "title": "Principi di Kumite e Filosofia di Allenamento",
+    "description": "Principi fondamentali per kumite efficace",
     "core-principles": "Principi Fondamentali",
     "mental-preparation": "Preparazione Mentale",
     "tactical-principles": "Principi Tattici",
@@ -224,19 +218,21 @@
   },
   "training": {
     "title": "Metodi di Allenamento di Kumite",
+    "description": "Approccio sistematico all'allenamento per lo sviluppo del kumite",
     "training-progression": "Progressione di Allenamento",
     "training-methods": "Metodi di Allenamento",
     "training-structure": "Struttura di Allenamento",
     "training-principles": "Principi di Allenamento",
-    "competition-preparation": "Preparazione per Competizione",
+    "competition-preparation": "Preparazione alla Competizione",
     "safety-considerations": "Considerazioni di Sicurezza"
   },
   "competition": {
     "title": "Competizione di Kumite",
+    "description": "Karate di competizione e aspetti competitivi",
     "organizations": "Organizzazioni di Competizione",
     "rules": "Regole di Competizione",
-    "preparation": "Preparazione per Competizione",
-    "safety": "Sicurezza in Competizione",
+    "preparation": "Preparazione alla Competizione",
+    "safety": "Sicurezza di Competizione",
     "experience": "Esperienza di Competizione",
     "etiquette": "Etichetta di Competizione"
   },
@@ -294,10 +290,5 @@
     "ippon": "Ippon (3 punti)",
     "waza-ari": "Waza-ari (2 punti)",
     "yuko": "Yuko (1 punto)"
-  },
-  "penalties": {
-    "chukoku": "Chukoku - Primo avvertimento",
-    "keikoku": "Keikoku - Secondo avvertimento",
-    "hansoku": "Hansoku - Squalifica"
   }
 } 
