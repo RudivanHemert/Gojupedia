@@ -18,15 +18,16 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
 
   return (
     <div className="flex min-h-screen bg-stone-50">
-      {/* Sidebar - now overlays content */}
+      {/* Sidebar - now overlays content on mobile, takes space on desktop */}
       <CustomSidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
       
-      {/* Main Content - takes full width */}
+      {/* Main Content - takes full width on mobile, adjusts on desktop */}
       <main className="flex-1 flex flex-col min-h-screen w-full transition-all duration-300">
         {/* Top Header with Menu Button */}
         {!hideHeader && (
           <header className="bg-white border-b border-stone-200 px-4 py-3 flex items-center justify-between sticky top-0 z-30">
-            <div className="flex items-center gap-3">
+            {/* Left side - Menu button */}
+            <div className="flex items-center">
               <Button
                 variant="ghost"
                 size="sm"
@@ -35,14 +36,21 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
               >
                 <Menu size={20} />
               </Button>
+            </div>
+            
+            {/* Center - Title */}
+            <div className="flex-1 flex justify-center">
               <h1 className="text-lg font-semibold text-stone-800">
                 GojuPedia
               </h1>
             </div>
+            
+            {/* Right side - Empty div for balance */}
+            <div className="w-10"></div>
           </header>
         )}
 
-        {/* Content Area */}
+        {/* Content Area - full width on mobile, adjusted on desktop */}
         <div className="w-full max-w-3xl px-4 py-8 mx-auto">
           <motion.div
             initial={{ opacity: 0 }}
