@@ -21,6 +21,7 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import UdeTanrenSection from '@/components/hojo-undo/UdeTanrenSection';
 
 const HojoUndoPage = () => {
   const { t } = useTranslation();
@@ -90,6 +91,8 @@ const HojoUndoPage = () => {
       icon: React.ComponentType<any>;
       description: string;
     }>;
+    exercises?: Array<{ title: string; text: string }>;
+    udeTanrenData?: any;
   }> = [
     {
       title: t('hojoUndo.introduction.title'),
@@ -145,9 +148,21 @@ const HojoUndoPage = () => {
             icon: Dumbbell,
             description: t('hojoUndo.common.specificExercises')
           },
-        ]
+        ],
+        exercises: item.data.exercises
       };
-    })
+    }),
+    {
+      title: t('hojoUndo.udeTanren.name'),
+      translation: t('hojoUndo.udeTanren.translation'),
+      description: t('hojoUndo.udeTanren.description'),
+      icon: Dumbbell,
+      color: 'bg-red-500',
+      textColor: 'text-red-500',
+      category: t('hojoUndo.categories.primaryEquipment'),
+      links: [],
+      udeTanrenData: t('hojoUndo.udeTanren', { returnObjects: true }) as any
+    }
   ];
 
   return (
@@ -210,6 +225,17 @@ const HojoUndoPage = () => {
                 <CardContent className="space-y-3">
                   <p className="text-muted-foreground text-sm">{section.description}</p>
                   
+                  {Array.isArray(section.exercises) && (
+                    <ul className="mt-2 space-y-2">
+                      {section.exercises.map((ex, i) => (
+                        <li key={i} className="border-l-4 border-red-500 pl-3">
+                          <div className="font-semibold">{ex.title}</div>
+                          <div className="text-sm text-muted-foreground whitespace-pre-line">{ex.text}</div>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  
                   <div className="space-y-2">
                     {section.links?.map(link => (
                       <Link 
@@ -228,32 +254,15 @@ const HojoUndoPage = () => {
                       </Link>
                     ))}
                   </div>
+
+                  {section.udeTanrenData && (
+                    <UdeTanrenSection />
+                  )}
                 </CardContent>
               </Card>
             </motion.div>
           ))}
         </div>
-      </motion.div>
-
-      {/* Quick Access to Overview */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3 }}
-        className="space-y-4"
-      >
-        <div className="text-center">
-          <h3 className="text-lg font-semibold flex items-center justify-center">
-            <ArrowRight className="mr-2 h-5 w-5" />
-            {t('hojoUndo.common.quickAccess')}
-          </h3>
-        </div>
-        <Button asChild variant="outline" className="w-full">
-          <Link to="/hojo-undo/general/intro">
-            <BookOpen className="mr-2 h-4 w-4" />
-            {t('hojoUndo.common.viewCompleteOverview')}
-          </Link>
-        </Button>
       </motion.div>
     </div>
   );

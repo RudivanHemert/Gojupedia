@@ -388,5 +388,56 @@
     "technical": "Technische Voordelen",
     "mental": "Mentale Voordelen",
     "safety": "Veiligheidsvoordelen"
+  },
+  "udeTanren": {
+    "name": "Ude Tanren",
+    "translation": "Armconditionering",
+    "description": "Partneroefeningen voor het conditioneren van de armen en het trainen van impact.",
+    "function": {
+      "title": "Functie",
+      "subtitle": "Begrijp doel en functie",
+      "content": [
+        "Ude Tanren zijn partneroefeningen voor het conditioneren van de armen en het trainen van impact.",
+        "Het doel is het lichaam te laten wennen aan contact, het ontwikkelen van de vaardigheid om 'schok' te geven en te ontvangen, en het versterken van zowel lichaam als geest.",
+        "Regelmatige training met een partner is essentieel om niet alleen te leren slaan, maar ook om te leren incasseren."
+      ]
+    },
+    "attentionPoints": {
+      "title": "Aandachtspunten",
+      "subtitle": "Veiligheid en techniek focus",
+      "content": [
+        "Begin met lichte impact, bouw langzaam op.",
+        "Houd de schouders ontspannen en beweeg vloeiend.",
+        "Impact moet op het harde deel van de arm, niet op de zachte onderkant.",
+        "Probeer niet te ontwijken, maar beweeg met de partner mee.",
+        "Veiligheid: let op elkaars grenzen, bouw intensiteit en snelheid geleidelijk op."
+      ]
+    },
+    "exercises": {
+      "title": "Oefeningen",
+      "subtitle": "Specifieke oefeningen en routines",
+      "list": [
+        {
+          "title": "Swinging Arm Drill",
+          "text": "Beide partners zwaaien de linkerarm ontspannen tegen elkaar aan (binnenkant van de arm). Bouw op naar buitenwaartse en binnenwaartse blokken, en wissel af van arm tot arm."
+        },
+        {
+          "title": "Stepping & Blocking Drill",
+          "text": "Eén persoon stapt naar voren en stoot, de ander stapt achteruit en blokt met open hand, gevolgd door een openhandige slag. Rollen worden omgedraaid. Herhaal voor een aantal herhalingen of een bepaalde tijd."
+        },
+        {
+          "title": "Ippon Uke Barai (One-Step Blocking Practice)",
+          "text": "Beide partners stappen naar voren in sanchin dachi en blokkeren met jodan age uke. Stap terug, herhaal met chudan uke en gedan uke. Focus op ritme, ademhaling en controle."
+        },
+        {
+          "title": "Sandan Uke Barai (Three-Step Blocking Practice)",
+          "text": "Drie opeenvolgende stappen en blokken: jodan, chudan, gedan. Daarna rollen omdraaien. Belangrijk: niet ontwijken, maar contact maken en timing oefenen."
+        },
+        {
+          "title": "Wrist Rotation",
+          "text": "Sta tegenover elkaar in sanchin dachi, polsen tegen elkaar. Draai de handen naar je toe, dan van je af, houd contact. Dit verbetert verbinding (muchimi) en kracht in het bovenlichaam."
+        }
+      ]
+    }
   }
 } 

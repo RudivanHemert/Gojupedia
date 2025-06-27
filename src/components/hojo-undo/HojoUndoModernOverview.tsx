@@ -191,27 +191,6 @@ const HojoUndoModernOverview: React.FC = () => {
         </Card>
       </motion.div>
 
-      {/* Quick Access to Overview */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3 }}
-        className="space-y-4"
-      >
-        <div className="text-center">
-          <h3 className="text-xl font-semibold flex items-center justify-center">
-            <ArrowRight className="mr-2 h-6 w-6" />
-            {t('hojoUndo.common.quickAccess')}
-          </h3>
-        </div>
-        <Button asChild variant="outline" className="w-full">
-          <Link to="/hojo-undo">
-            <BookOpen className="mr-2 h-4 w-4" />
-            {t('hojoUndo.common.viewCompleteOverview')}
-          </Link>
-        </Button>
-      </motion.div>
-
       {/* Training Effects */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
