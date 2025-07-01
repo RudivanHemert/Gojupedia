@@ -44,8 +44,8 @@ const techniqueSections = [
     id: 'warmup',
     path: '/terminology/warmup',
     icon: <Flame className="h-8 w-8 text-orange-500" />, 
-    labelKey: 'terminology.sections.warmup',
-    descKey: 'terminology.sections.warmup-content.description',
+    labelKey: 'Training & Warming-up',
+    descKey: 'Voorbereidende oefeningen en traditionele training',
   },
 ];
 

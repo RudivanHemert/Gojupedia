@@ -1,114 +1,92 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import { useParams, useNavigate } from 'react-router-dom';
-import { ChevronLeft } from 'lucide-react';
-import AudioButton from '@/components/ui/audio-button';
+import { Link } from 'react-router-dom';
+import { Card, CardContent } from '@/components/ui/card';
+import { Dumbbell, Activity, ArrowRight } from 'lucide-react';
 
 const Warmup = () => {
   const { t } = useTranslation();
-  const { warmupId } = useParams();
-  const termsObject = t('terminology.sections.warmup-content.terms', { returnObjects: true }) as Record<string, any>;
 
-  // Als er een warmupId is, toon de detailpagina
-  if (warmupId) {
-    return <WarmupDetail termsObject={termsObject} />;
-  }
+  const trainingSections = [
+    {
+      id: 'junbi-undo',
+      title: 'Junbi Undo',
+      subtitle: '準備運動',
+      description: 'Voorbereidende oefeningen en warming-up technieken',
+      path: '/junbi-undo',
+      icon: <Activity className="h-8 w-8 text-blue-500" />,
+      color: 'bg-blue-50 border-blue-200'
+    },
+    {
+      id: 'hojo-undo',
+      title: 'Hojo Undo',
+      subtitle: '補助運動',
+      description: 'Traditionele kracht- en conditietraining met apparatuur',
+      path: '/hojo-undo',
+      icon: <Dumbbell className="h-8 w-8 text-green-500" />,
+      color: 'bg-green-50 border-green-200'
+    }
+  ];
 
-  // Anders toon de overzichtspagina
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('terminology.sections.warmup')}
-        description={t('terminology.sections.warmup-content.description')}
+        title="Training & Warming-up"
+        description="Voorbereidende oefeningen en traditionele training"
         backUrl="/techniques"
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto">
-          <WarmupList termsObject={termsObject} />
-        </div>
-      </div>
-    </div>
-  );
-};
+          <div className="mb-6">
+            <p className="text-muted-foreground text-center">
+              Deze sectie bevat links naar de training en warming-up oefeningen die onder de Praktijk sectie vallen.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {trainingSections.map((section) => (
+              <Link key={section.id} to={section.path} className="block">
+                <Card className={`overflow-hidden hover:shadow-lg transition-all duration-200 border-2 ${section.color}`}>
+                  <CardContent className="p-6">
+                    <div className="flex flex-col items-center text-center">
+                      <div className="mb-4 bg-white p-3 rounded-full shadow-sm">
+                        {section.icon}
+                      </div>
+                      <h3 className="font-bold text-xl mb-1 text-gray-900">{section.title}</h3>
+                      <p className="text-lg font-japanese text-gray-600 mb-2">{section.subtitle}</p>
+                      <p className="text-gray-600 leading-relaxed mb-4">{section.description}</p>
+                      <div className="flex items-center text-blue-600 font-medium">
+                        <span>Bekijk sectie</span>
+                        <ArrowRight className="h-4 w-4 ml-1" />
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
 
-const WarmupList = ({ termsObject }: { termsObject: Record<string, any> }) => {
-  const { t } = useTranslation();
-  return (
-    <div className="space-y-6">
-      <p className="text-muted-foreground">
-        {t('terminology.sections.warmup-content.description')}
-      </p>
-      <div className="grid gap-4">
-        {Object.entries(termsObject).map(([key, term]) => (
-          <a
-            key={key}
-            href={`/terminology/warmup/${key}`}
-            className="block p-4 border rounded-lg hover:bg-stone-50 transition-colors"
-          >
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-lg font-japanese">{term.japanese}</span>
-              <span className="font-semibold">{term.name}</span>
+          <div className="mt-8 bg-stone-50 rounded-xl p-6">
+            <h3 className="text-lg font-semibold mb-4 text-center">Over Training in Goju Ryu</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-medium mb-2">Junbi Undo (準備運動)</h4>
+                <p className="text-sm text-gray-600">
+                  Voorbereidende oefeningen die het lichaam voorbereiden op training. 
+                  Deze oefeningen verbeteren flexibiliteit, mobiliteit en bereiden de spieren voor.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-medium mb-2">Hojo Undo (補助運動)</h4>
+                <p className="text-sm text-gray-600">
+                  Traditionele kracht- en conditietraining met specifieke apparatuur zoals 
+                  chi-ishi, nigiri-game, en kongoken. Deze oefeningen ontwikkelen kracht en uithoudingsvermogen.
+                </p>
+              </div>
             </div>
-            <p className="text-muted-foreground">{term.english}</p>
-          </a>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const warmupYoutubeLinks: Record<string, string> = {
-  // Goju-Ryu specifieke video's voor warming-up oefeningen
-  // 'junbi-undo': 'https://www.youtube.com/watch?v=...', // Goju-Ryu Junbi Undo
-  // 'hojo-undo': 'https://www.youtube.com/watch?v=...', // Goju-Ryu Hojo Undo
-  // 'kihon-undo': 'https://www.youtube.com/watch?v=...', // Goju-Ryu Kihon Undo
-  // Video's worden alleen toegevoegd als er specifieke Goju-Ryu demonstraties beschikbaar zijn
-};
-
-const WarmupDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
-  const { warmupId } = useParams();
-  const navigate = useNavigate();
-  const term = warmupId ? termsObject[warmupId] : null;
-  const videoUrl = warmupId && warmupYoutubeLinks[warmupId] ? warmupYoutubeLinks[warmupId] : null;
-
-  if (!term) {
-    return <div className="p-8 text-center text-red-500">Techniek niet gevonden.</div>;
-  }
-
-  return (
-    <div className="min-h-screen bg-white">
-      <div className="p-4 max-w-2xl mx-auto">
-        <button
-          onClick={() => navigate('/terminology/warmup')}
-          className="flex items-center gap-2 mb-4 text-stone-600 hover:text-stone-900"
-        >
-          <ChevronLeft className="h-5 w-5" /> Terug
-        </button>
-        <div className="flex items-center gap-2 mb-2">
-          <h1 className="text-3xl font-bold">{term.name}</h1>
-          <div className="flex items-center gap-1">
-            <span className="text-lg font-japanese">{term.japanese}</span>
-            <AudioButton text={term.japanese} size="sm" />
           </div>
         </div>
-        <h2 className="text-lg text-muted-foreground mb-4">{term.english}</h2>
-        <p className="mb-4 whitespace-pre-line">{term.details}</p>
-        {videoUrl ? (
-          <div className="aspect-video mb-4">
-            <iframe
-              width="100%"
-              height="315"
-              src={videoUrl.replace('watch?v=', 'embed/')}
-              title={term.name}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        ) : (
-          <div className="text-muted-foreground italic">Geen video beschikbaar.</div>
-        )}
       </div>
     </div>
   );
