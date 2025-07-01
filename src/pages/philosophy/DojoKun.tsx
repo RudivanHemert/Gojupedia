@@ -45,8 +45,8 @@ const DojoKun = () => {
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('philosophy.sections.dojo-kun.title')}
-        description={t('philosophy.sections.dojo-kun.description')}
+        title={t('philosophy.sections.dojo-kun.title', 'Dojo Kun')}
+        description={t('philosophy.sections.dojo-kun.description', 'De vijf principes van de dojo')}
         backUrl="/philosophy"
       />
       <div className="p-4">

@@ -66,8 +66,8 @@ const MindBody = () => {
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('philosophy.sections.mind-body.title')}
-        description={t('philosophy.sections.mind-body.description')}
+        title={t('philosophy.sections.mind-body.title', 'Geest en Lichaam')}
+        description={t('philosophy.sections.mind-body.description', 'De eenheid van geest en lichaam')}
         backUrl="/philosophy"
       />
       <div className="p-4">

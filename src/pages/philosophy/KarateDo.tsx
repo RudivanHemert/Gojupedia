@@ -61,8 +61,8 @@ const KarateDo = () => {
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('philosophy.sections.karate-do.title')}
-        description={t('philosophy.sections.karate-do.description')}
+        title={t('philosophy.sections.karate-do.title', 'Karate Do')}
+        description={t('philosophy.sections.karate-do.description', 'De weg van de lege hand')}
         backUrl="/philosophy"
       />
       <div className="p-4">

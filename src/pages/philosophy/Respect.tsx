@@ -76,8 +76,8 @@ const Respect = () => {
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('philosophy.sections.respect.title')}
-        description={t('philosophy.sections.respect.description')}
+        title={t('philosophy.sections.respect.title', 'Respect')}
+        description={t('philosophy.sections.respect.description', 'Respect in de martiale kunsten')}
         backUrl="/philosophy"
       />
       <div className="p-4">

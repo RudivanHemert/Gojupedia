@@ -43,8 +43,8 @@ const GojuRyu = () => {
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('philosophy.sections.goju-ryu.title')}
-        description={t('philosophy.sections.goju-ryu.description')}
+        title={t('philosophy.sections.goju-ryu.title', 'Goju Ryu')}
+        description={t('philosophy.sections.goju-ryu.description', 'De filosofie van hard en zacht')}
         backUrl="/philosophy"
       />
       <div className="p-4">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import i18n from '@/i18n';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
@@ -9,39 +10,41 @@ import TheoryHeader from '@/components/theory/TheoryHeader';
 const PhilosophyPage = () => {
   const { t } = useTranslation();
   
+
+  
   const sections = [
     {
       id: 'dojo-kun',
-      name: t('philosophy.sections.dojo-kun.title'),
-      description: t('philosophy.sections.dojo-kun.description'),
+      name: t('philosophy.sections.dojo-kun.title', 'Dojo Kun'),
+      description: t('philosophy.sections.dojo-kun.description', 'De vijf principes van de dojo'),
       icon: <BookOpen className="h-8 w-8 text-blue-500" />,
       path: '/philosophy/dojo-kun',
     },
     {
       id: 'goju-ryu',
-      name: t('philosophy.sections.goju-ryu.title'),
-      description: t('philosophy.sections.goju-ryu.description'),
+      name: t('philosophy.sections.goju-ryu.title', 'Goju Ryu'),
+      description: t('philosophy.sections.goju-ryu.description', 'De filosofie van hard en zacht'),
       icon: <Target className="h-8 w-8 text-green-500" />,
       path: '/philosophy/goju-ryu',
     },
     {
       id: 'karate-do',
-      name: t('philosophy.sections.karate-do.title'),
-      description: t('philosophy.sections.karate-do.description'),
+      name: t('philosophy.sections.karate-do.title', 'Karate Do'),
+      description: t('philosophy.sections.karate-do.description', 'De weg van de lege hand'),
       icon: <Heart className="h-8 w-8 text-red-500" />,
       path: '/philosophy/karate-do',
     },
     {
       id: 'mind-body',
-      name: t('philosophy.sections.mind-body.title'),
-      description: t('philosophy.sections.mind-body.description'),
+      name: t('philosophy.sections.mind-body.title', 'Geest en Lichaam'),
+      description: t('philosophy.sections.mind-body.description', 'De eenheid van geest en lichaam'),
       icon: <Brain className="h-8 w-8 text-purple-500" />,
       path: '/philosophy/mind-body',
     },
     {
       id: 'respect',
-      name: t('philosophy.sections.respect.title'),
-      description: t('philosophy.sections.respect.description'),
+      name: t('philosophy.sections.respect.title', 'Respect'),
+      description: t('philosophy.sections.respect.description', 'Respect in de martiale kunsten'),
       icon: <Users className="h-8 w-8 text-orange-500" />,
       path: '/philosophy/respect',
     }
@@ -71,8 +74,8 @@ const PhilosophyPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <TheoryHeader 
-        title={t('philosophy.title')}
-        description={t('philosophy.description')}
+        title={t('philosophy.title', 'Filosofie')}
+        description={t('philosophy.description', 'De filosofische principes en spirituele aspecten van Goju Ryu Karate')}
         backUrl="/theory"
       />
       <div className="p-4">
