@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { BookOpen, Dumbbell, Users, Zap, Target, Play } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const NewazaPage = () => {
   const { t } = useTranslation();
@@ -83,10 +84,11 @@ const NewazaPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="py-8 px-4 text-center">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('newaza.title')}</h1>
-        <p className="text-gray-700 text-lg">{t('newaza.description')}</p>
-      </div>
+      <TheoryHeader 
+        title={t('newaza.title')}
+        description={t('newaza.description')}
+        backUrl="/practice"
+      />
       <div className="p-4">
         <motion.div
           variants={containerVariants}

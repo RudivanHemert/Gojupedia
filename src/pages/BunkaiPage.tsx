@@ -71,6 +71,7 @@ const BunkaiPage = () => {
       <TheoryHeader 
         title={t('bunkai.title')}
         description={t('bunkai.description')}
+        backUrl="/practice"
       />
       <div className="p-4">
         <motion.div

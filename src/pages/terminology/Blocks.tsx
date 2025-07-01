@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft } from 'lucide-react';
+import AudioButton from '@/components/ui/audio-button';
 
 const Blocks = () => {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ const Blocks = () => {
       <TheoryHeader 
         title={t('terminology.sections.blocks')}
         description={t('terminology.sections.blocks-content.description')}
-        backUrl="/terminology"
+        backUrl="/techniques"
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto">
@@ -80,12 +81,18 @@ const BlockDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
     <div className="min-h-screen bg-white">
       <div className="p-4 max-w-2xl mx-auto">
         <button
-          onClick={() => navigate(-1)}
+          onClick={() => navigate('/terminology/blocks')}
           className="flex items-center gap-2 mb-4 text-stone-600 hover:text-stone-900"
         >
           <ChevronLeft className="h-5 w-5" /> Terug
         </button>
-        <h1 className="text-3xl font-bold mb-2">{term.name} <span className="text-lg font-japanese">{term.japanese}</span></h1>
+        <div className="flex items-center gap-2 mb-2">
+          <h1 className="text-3xl font-bold">{term.name}</h1>
+          <div className="flex items-center gap-1">
+            <span className="text-lg font-japanese">{term.japanese}</span>
+            <AudioButton text={term.japanese} size="sm" />
+          </div>
+        </div>
         <h2 className="text-lg text-muted-foreground mb-4">{term.english}</h2>
         <p className="mb-4 whitespace-pre-line">{term.details}</p>
         {videoUrl ? (

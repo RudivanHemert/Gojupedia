@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import AudioButton from '@/components/ui/audio-button';
 
 const KarateTitles = () => {
   const { t } = useTranslation();
@@ -28,7 +29,10 @@ const KarateTitlesContent = ({ content }: { content: any }) => {
       {Object.entries(terms).map(([key, term]: any) => (
         <div key={key} className="p-4 border rounded-lg">
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-lg font-japanese">{term.japanese}</span>
+            <div className="flex items-center gap-1">
+              <span className="text-lg font-japanese">{term.japanese}</span>
+              {term.japanese && <AudioButton text={term.japanese} size="sm" />}
+            </div>
             <span className="font-semibold">{term.name}</span>
           </div>
           <p className="text-muted-foreground">{term.english}</p>

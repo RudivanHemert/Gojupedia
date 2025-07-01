@@ -68,6 +68,7 @@ const KataPage = () => {
       <TheoryHeader 
         title={t('kata.theory.title')}
         description={t('kata.theory.description')}
+        backUrl="/practice"
       />
       <div className="p-4">
         <motion.div

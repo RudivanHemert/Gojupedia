@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/accordion";
 import { Badge } from '@/components/ui/badge';
 import { useTranslation } from 'react-i18next';
+import AudioButton from '@/components/ui/audio-button';
 
 const GraduationsPage = () => {
   const { t } = useTranslation();
@@ -61,7 +62,10 @@ const GraduationsPage = () => {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <span className="text-lg font-japanese">{ranks.kyu.japanese}</span>
+                <div className="flex items-center gap-1">
+                  <span className="text-lg font-japanese">{ranks.kyu.japanese}</span>
+                  <AudioButton text={ranks.kyu.japanese} size="sm" />
+                </div>
                 <span>{ranks.kyu.name}</span>
               </CardTitle>
             </CardHeader>
@@ -73,7 +77,10 @@ const GraduationsPage = () => {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <span className="text-lg font-japanese">{ranks.dan.japanese}</span>
+                <div className="flex items-center gap-1">
+                  <span className="text-lg font-japanese">{ranks.dan.japanese}</span>
+                  <AudioButton text={ranks.dan.japanese} size="sm" />
+                </div>
                 <span>{ranks.dan.name}</span>
               </CardTitle>
             </CardHeader>
@@ -91,7 +98,10 @@ const GraduationsPage = () => {
                     <div className="flex items-center justify-between">
                       <div>
                         <div className="flex items-center gap-2">
-                          <span className="text-lg font-japanese">{rank.japanese}</span>
+                          <div className="flex items-center gap-1">
+                            <span className="text-lg font-japanese">{rank.japanese}</span>
+                            <AudioButton text={rank.japanese} size="sm" />
+                          </div>
                           <span className="font-semibold">{rank.name}</span>
                         </div>
                         <p className="text-sm text-muted-foreground mt-1">{rank.description}</p>
@@ -145,7 +155,10 @@ const GraduationsPage = () => {
                     />
                     <div>
                       <div className="flex items-center gap-2">
-                        <span className="text-lg font-japanese">{color.japanese}</span>
+                        <div className="flex items-center gap-1">
+                          <span className="text-lg font-japanese">{color.japanese}</span>
+                          <AudioButton text={color.japanese} size="sm" />
+                        </div>
                         <span className="font-semibold">{color.name}</span>
                       </div>
                       <p className="text-sm text-muted-foreground">{color.description}</p>
@@ -195,7 +208,10 @@ const GraduationsPage = () => {
                   <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
                     <div>
                       <div className="flex items-center gap-2">
-                        <span className="text-lg font-japanese">{title.japanese}</span>
+                        <div className="flex items-center gap-1">
+                          <span className="text-lg font-japanese">{title.japanese}</span>
+                          <AudioButton text={title.japanese} size="sm" />
+                        </div>
                         <span className="font-semibold">{title.name}</span>
                       </div>
                       <p className="text-sm text-muted-foreground">{title.description}</p>
@@ -221,7 +237,10 @@ const GraduationsPage = () => {
                   <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
                     <div>
                       <div className="flex items-center gap-2">
-                        <span className="text-lg font-japanese">{title.japanese}</span>
+                        <div className="flex items-center gap-1">
+                          <span className="text-lg font-japanese">{title.japanese}</span>
+                          <AudioButton text={title.japanese} size="sm" />
+                        </div>
                         <span className="font-semibold">{title.name}</span>
                       </div>
                       <p className="text-sm text-muted-foreground">{title.description}</p>
@@ -247,7 +266,10 @@ const GraduationsPage = () => {
                   <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
                     <div>
                       <div className="flex items-center gap-2">
-                        <span className="text-lg font-japanese">{title.japanese}</span>
+                        <div className="flex items-center gap-1">
+                          <span className="text-lg font-japanese">{title.japanese}</span>
+                          <AudioButton text={title.japanese} size="sm" />
+                        </div>
                         <span className="font-semibold">{title.name}</span>
                       </div>
                       <p className="text-sm text-muted-foreground">{title.description}</p>

@@ -22,6 +22,7 @@ import {
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import UdeTanrenSection from '@/components/hojo-undo/UdeTanrenSection';
+import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const HojoUndoPage = () => {
   const { t } = useTranslation();
@@ -166,21 +167,13 @@ const HojoUndoPage = () => {
   ];
 
   return (
-    <div className="p-4 space-y-6">
-      {/* Header */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="text-center space-y-3"
-      >
-        <h1 className="text-3xl font-bold">{t('hojoUndo.title')}</h1>
-        <Badge variant="secondary" className="text-lg px-4 py-2">
-          {t('hojoUndo.description')}
-        </Badge>
-        <p className="text-muted-foreground max-w-md mx-auto">
-          {t('hojoUndo.introduction.content.description')}
-        </p>
-      </motion.div>
+    <div className="min-h-screen bg-white">
+      <TheoryHeader 
+        title={t('hojoUndo.title')}
+        description={t('hojoUndo.description')}
+        backUrl="/practice"
+      />
+      <div className="p-4 space-y-6">
 
       {/* Main Sections */}
       <motion.div
@@ -264,6 +257,7 @@ const HojoUndoPage = () => {
           ))}
         </div>
       </motion.div>
+      </div>
     </div>
   );
 };

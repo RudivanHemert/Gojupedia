@@ -37,7 +37,7 @@ const KumitePage = () => {
       <TheoryHeader 
         title={t('kumite.title')}
         description={t('kumite.description')}
-        backUrl="/theory"
+        backUrl="/practice"
       />
       <div className="p-4 max-w-4xl mx-auto">
         <div className="grid gap-6">
