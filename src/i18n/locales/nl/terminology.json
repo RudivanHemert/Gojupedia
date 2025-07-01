@@ -163,50 +163,210 @@
         "description": "Basis traptechnieken (Geri Waza).",
         "title": "Trappen",
         "terms": {
-          "mae-geri": { "name": "Mae Geri", "japanese": "前蹴り", "english": "Voorwaartse Trap" },
-          "mawashi-geri": { "name": "Mawashi Geri", "japanese": "回し蹴り", "english": "Ronde Trap" },
-          "yoko-geri": { "name": "Yoko Geri", "japanese": "横蹴り", "english": "Zijwaartse Trap" },
-          "ushiro-geri": { "name": "Ushiro Geri", "japanese": "後ろ蹴り", "english": "Achterwaartse Trap" },
-          "hiza-geri": { "name": "Hiza Geri", "japanese": "膝蹴り", "english": "Knie Stoot/Trap" },
-          "kin-geri": { "name": "Kin Geri", "japanese": "金蹴り", "english": "Lies Trap" },
-          "kansetsu-geri": { "name": "Kansetsu Geri", "japanese": "関節蹴り", "english": "Gewricht Trap (stampende trap naar knie)" }
+          "mae-geri": { 
+            "name": "Mae Geri", 
+            "japanese": "前蹴り", 
+            "english": "Voorwaartse Trap",
+            "details": "Mae Geri (Voorwaartse Trap) is een fundamentele voorwaartse trap uitgevoerd met de bal van de voet. De knie wordt opgetrokken, de voet wordt naar voren gestrekt, en de trap wordt afgeleverd met een snelle, stekende beweging. De andere voet blijft stevig op de grond voor balans en kracht."
+          },
+          "mawashi-geri": { 
+            "name": "Mawashi Geri", 
+            "japanese": "回し蹴り", 
+            "english": "Ronde Trap",
+            "details": "Mawashi Geri (Ronde Trap) is een cirkelvormige trap uitgevoerd met de wreef van de voet of de scheen. De trap begint met het optillen van de knie, gevolgd door een roterende beweging van de heup om kracht te genereren. Het is effectief voor het raken van de zijkant van het lichaam of hoofd."
+          },
+          "yoko-geri": { 
+            "name": "Yoko Geri", 
+            "japanese": "横蹴り", 
+            "english": "Zijwaartse Trap",
+            "details": "Yoko Geri (Zijwaartse Trap) wordt uitgevoerd door de knie zijwaarts op te tillen en de voet naar de zijkant te strekken. De trap kan uitgevoerd worden met de rand van de voet (sokuto) of de bal van de voet. Het is een effectieve techniek voor het raken van een tegenstander aan de zijkant."
+          },
+          "ushiro-geri": { 
+            "name": "Ushiro Geri", 
+            "japanese": "後ろ蹴り", 
+            "english": "Achterwaartse Trap",
+            "details": "Ushiro Geri (Achterwaartse Trap) is een achterwaartse trap uitgevoerd door de knie op te tillen en de voet naar achteren te strekken. De trap wordt afgeleverd met de hak of de bal van de voet. Het is een verrassingstechniek die effectief is tegen tegenstanders die van achteren naderen."
+          },
+          "hiza-geri": { 
+            "name": "Hiza Geri", 
+            "japanese": "膝蹴り", 
+            "english": "Knie Stoot/Trap",
+            "details": "Hiza Geri (Knie Stoot/Trap) is een korte afstand trap uitgevoerd door de knie naar voren te stoten. Het is effectief in close combat situaties en kan gebruikt worden om de tegenstander's lichaam of hoofd te raken. De techniek vereist goede balans en controle."
+          },
+          "kin-geri": { 
+            "name": "Kin Geri", 
+            "japanese": "金蹴り", 
+            "english": "Lies Trap",
+            "details": "Kin Geri (Lies Trap) is een lage trap gericht op de lies van de tegenstander. Het wordt uitgevoerd met de bal van de voet of de rand van de voet. Deze techniek is effectief voor het creëren van een opening of het verzwakken van de tegenstander's balans."
+          },
+          "kansetsu-geri": { 
+            "name": "Kansetsu Geri", 
+            "japanese": "関節蹴り", 
+            "english": "Gewricht Trap (stampende trap naar knie)",
+            "details": "Kansetsu Geri (Gewricht Trap) is een neerwaartse trap gericht op de knie van de tegenstander. Het wordt uitgevoerd door de voet neerwaarts te stampen, vaak met de hak. Deze techniek kan gebruikt worden om de tegenstander's been te beschadigen of hun balans te verstoren."
+          }
         }
       },
       "punches-content": {
         "description": "Basis stoottechnieken (Tsuki/Zuki Waza).",
         "title": "Stoten",
         "terms": {
-          "oi-zuki": { "name": "Oi Zuki", "japanese": "追い突き", "english": "Uitval Stoot (stappend stoten)" },
-          "gyaku-zuki": { "name": "Gyaku Zuki", "japanese": "逆突き", "english": "Tegenstoot" },
-          "kizami-zuki": { "name": "Kizami Zuki", "japanese": "刻み突き", "english": "Jab (leidende hand stoot)" },
-          "ura-zuki": { "name": "Ura Zuki", "japanese": "裏突き", "english": "Nauwe Stoot / Uppercut" },
-          "tate-zuki": { "name": "Tate Zuki", "japanese": "立て突き", "english": "Verticale Vuist Stoot" },
-          "age-zuki": { "name": "Age Zuki", "japanese": "上げ突き", "english": "Opwaartse Stoot" }
+          "oi-zuki": { 
+            "name": "Oi Zuki", 
+            "japanese": "追い突き", 
+            "english": "Uitval Stoot (stappend stoten)",
+            "details": "Oi Zuki (Uitval Stoot) is een fundamentele stoottechniek waarbij de voorste voet naar voren stapt terwijl de achterste hand stoot. De stoot wordt afgeleverd met de achterste hand terwijl het lichaam naar voren beweegt, wat resulteert in een krachtige, doordringende aanval."
+          },
+          "gyaku-zuki": { 
+            "name": "Gyaku Zuki", 
+            "japanese": "逆突き", 
+            "english": "Tegenstoot",
+            "details": "Gyaku Zuki (Tegenstoot) is een stoot uitgevoerd met de hand die tegengesteld is aan de voorste voet. Het is een van de meest krachtige stoottechnieken omdat het gebruik maakt van de rotatie van de heupen en de volledige kracht van het lichaam. De stoot wordt afgeleverd vanuit een stabiele stand."
+          },
+          "kizami-zuki": { 
+            "name": "Kizami Zuki", 
+            "japanese": "刻み突き", 
+            "english": "Jab (leidende hand stoot)",
+            "details": "Kizami Zuki (Jab) is een snelle, korte stoot uitgevoerd met de voorste hand zonder de stand te veranderen. Het wordt gebruikt om afstand te meten, de tegenstander af te leiden, of een opening te creëren voor een volgtechniek. De stoot is snel maar minder krachtig dan andere stoottechnieken."
+          },
+          "ura-zuki": { 
+            "name": "Ura Zuki", 
+            "japanese": "裏突き", 
+            "english": "Nauwe Stoot / Uppercut",
+            "details": "Ura Zuki (Nauwe Stoot) is een stoot uitgevoerd op korte afstand, vaak met de vuist in een verticale positie. Het kan gebruikt worden als een uppercut naar de kin of als een stoot naar het lichaam. De techniek is effectief in close combat situaties."
+          },
+          "tate-zuki": { 
+            "name": "Tate Zuki", 
+            "japanese": "立て突き", 
+            "english": "Verticale Vuist Stoot",
+            "details": "Tate Zuki (Verticale Vuist Stoot) wordt uitgevoerd met de vuist in een verticale positie, waarbij de knokkels naar boven wijzen. Deze stoot is effectief voor het raken van zachte doelen zoals de maag of ribben, en kan gebruikt worden in combinatie met andere technieken."
+          },
+          "age-zuki": { 
+            "name": "Age Zuki", 
+            "japanese": "上げ突き", 
+            "english": "Opwaartse Stoot",
+            "details": "Age Zuki (Opwaartse Stoot) is een stoot die van onder naar boven wordt afgeleverd, vaak gericht op de kin of het gezicht van de tegenstander. De stoot wordt uitgevoerd met een opwaartse beweging van de arm en kan gebruikt worden om een tegenstander die bukt te raken."
+          }
         }
       },
       "stances-content": {
         "description": "Basis standen (Dachi Waza).",
         "title": "Standen",
         "terms": {
-          "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立ち", "english": "Drie Gevechten Stand / Zandloper Stand" },
-          "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立ち", "english": "Voorwaartse Stand / Vooroverleunende Stand" },
-          "shiko-dachi": { "name": "Shiko Dachi", "japanese": "四股立ち", "english": "Vierkante Stand / Paard Stand (voeten op 45 graden)" },
-          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立ち", "english": "Kattenvoet Stand" },
-          "heiko-dachi": { "name": "Heiko Dachi", "japanese": "平行立ち", "english": "Parallelle Stand" },
-          "musubi-dachi": { "name": "Musubi Dachi", "japanese": "結び立ち", "english": "Formele Aandacht Stand (hakken samen, voeten naar buiten)" },
-          "kiba-dachi": { "name": "Kiba Dachi", "japanese": "騎馬立ち", "english": "Paardrijdende Stand (voeten parallel)" }
+          "sanchin-dachi": { 
+            "name": "Sanchin Dachi", 
+            "japanese": "三戦立ち", 
+            "english": "Drie Gevechten Stand / Zandloper Stand",
+            "details": "Sanchin Dachi (Drie Gevechten Stand) is een fundamentele stand in Goju-Ryu karate. De voeten staan parallel op schouderbreedte, de knieën zijn licht gebogen, en het lichaam is rechtop. Deze stand ontwikkelt balans, stabiliteit en interne kracht. Het is de basis voor veel kata en technieken."
+          },
+          "zenkutsu-dachi": { 
+            "name": "Zenkutsu Dachi", 
+            "japanese": "前屈立ち", 
+            "english": "Voorwaartse Stand / Vooroverleunende Stand",
+            "details": "Zenkutsu Dachi (Voorwaartse Stand) is een voorwaartse stand waarbij het voorste been gebogen is en het achterste been gestrekt. Het gewicht is verdeeld over beide benen, met ongeveer 60% op het voorste been. Deze stand is stabiel voor voorwaartse bewegingen en stoottechnieken."
+          },
+          "shiko-dachi": { 
+            "name": "Shiko Dachi", 
+            "japanese": "四股立ち", 
+            "english": "Vierkante Stand / Paard Stand (voeten op 45 graden)",
+            "details": "Shiko Dachi (Vierkante Stand) is een brede, stabiele stand waarbij de voeten naar buiten wijzen op ongeveer 45 graden. De knieën zijn gebogen en naar buiten gedrukt. Deze stand ontwikkelt beenkracht en is effectief voor zijwaartse bewegingen en verdediging."
+          },
+          "neko-ashi-dachi": { 
+            "name": "Neko Ashi Dachi", 
+            "japanese": "猫足立ち", 
+            "english": "Kattenvoet Stand",
+            "details": "Neko Ashi Dachi (Kattenvoet Stand) is een lichte stand waarbij het grootste deel van het gewicht op het achterste been rust. Het voorste been raakt de grond alleen met de bal van de voet. Deze stand is snel en mobiel, ideaal voor snelle bewegingen en tegenaanvallen."
+          },
+          "heiko-dachi": { 
+            "name": "Heiko Dachi", 
+            "japanese": "平行立ち", 
+            "english": "Parallelle Stand",
+            "details": "Heiko Dachi (Parallelle Stand) is een natuurlijke stand waarbij de voeten parallel staan op schouderbreedte. Het is een ontspannen maar alert stand die gebruikt wordt voor formele situaties, meditatie, en als uitgangspositie voor andere standen."
+          },
+          "musubi-dachi": { 
+            "name": "Musubi Dachi", 
+            "japanese": "結び立ち", 
+            "english": "Formele Aandacht Stand (hakken samen, voeten naar buiten)",
+            "details": "Musubi Dachi (Formele Aandacht Stand) is een formele stand waarbij de hakken samen zijn en de voeten naar buiten wijzen in een 'V' vorm. Het is een respectvolle stand gebruikt voor buigingen, formele ceremonies, en het tonen van respect."
+          },
+          "kiba-dachi": { 
+            "name": "Kiba Dachi", 
+            "japanese": "騎馬立ち", 
+            "english": "Paardrijdende Stand (voeten parallel)",
+            "details": "Kiba Dachi (Paardrijdende Stand) is een brede stand waarbij de voeten parallel staan op een afstand groter dan schouderbreedte. De knieën zijn gebogen en naar buiten gedrukt. Deze stand ontwikkelt beenkracht en is stabiel voor zijwaartse bewegingen en verdediging."
+          }
         }
       },
       "strikes-content": {
         "description": "Basis slagtechnieken met handen en armen, anders dan stoten (Uchi Waza).",
         "title": "Slagen",
         "terms": {
-          "shuto-uchi": { "name": "Shuto Uchi", "japanese": "手刀打ち", "english": "Messenhand Slag" },
-          "uraken-uchi": { "name": "Uraken Uchi", "japanese": "裏拳打ち", "english": "Achtervuist Slag" },
-          "tettsui-uchi": { "name": "Tettsui Uchi", "japanese": "鉄槌打ち", "english": "Hamervuist Slag" },
-          "empi-uchi": { "name": "Empi Uchi / Hiji Ate", "japanese": "猿臂打ち / 肘当て", "english": "Elleboog Slag" },
-          "haito-uchi": { "name": "Haito Uchi", "japanese": "背刀打ち", "english": "Ruggegraat Hand Slag" },
-          "nukite": { "name": "Nukite", "japanese": "貫手", "english": "Speer Hand Slag" }
+          "shuto-uchi": { 
+            "name": "Shuto Uchi", 
+            "japanese": "手刀打ち", 
+            "english": "Messenhand Slag",
+            "details": "Shuto Uchi (Messenhand Slag) wordt uitgevoerd met de rand van de hand (shuto). De vingers zijn gestrekt en samen, de duim is gebogen. Deze slag is effectief voor het raken van de nek, zijkant van het hoofd, of de zijkant van het lichaam. Het kan uitgevoerd worden in verschillende richtingen."
+          },
+          "uraken-uchi": { 
+            "name": "Uraken Uchi", 
+            "japanese": "裏拳打ち", 
+            "english": "Achtervuist Slag",
+            "details": "Uraken Uchi (Achtervuist Slag) wordt uitgevoerd met de achterkant van de vuist, vaak met een zwaaiende beweging. Het is effectief voor het raken van de zijkant van het hoofd of lichaam. Deze slag kan snel en verrassend zijn, en wordt vaak gebruikt in combinatie met andere technieken."
+          },
+          "tettsui-uchi": { 
+            "name": "Tettsui Uchi", 
+            "japanese": "鉄槌打ち", 
+            "english": "Hamervuist Slag",
+            "details": "Tettsui Uchi (Hamervuist Slag) wordt uitgevoerd met de onderkant van de vuist, waarbij de knokkels naar beneden wijzen. Het is een neerwaartse slag die effectief is voor het raken van de schouder, sleutelbeen, of de bovenkant van het hoofd. Deze slag is krachtig en kan gebruikt worden om een tegenstander te verzwakken."
+          },
+          "empi-uchi": { 
+            "name": "Empi Uchi / Hiji Ate", 
+            "japanese": "猿臂打ち / 肘当て", 
+            "english": "Elleboog Slag",
+            "details": "Empi Uchi (Elleboog Slag) gebruikt de elleboog als wapen. Het kan uitgevoerd worden in verschillende richtingen: naar voren, naar achteren, naar boven, of naar beneden. Deze slag is effectief op korte afstand en kan gebruikt worden om de tegenstander's hoofd, lichaam, of ledematen te raken."
+          },
+          "haito-uchi": { 
+            "name": "Haito Uchi", 
+            "japanese": "背刀打ち", 
+            "english": "Ruggegraat Hand Slag",
+            "details": "Haito Uchi (Ruggegraat Hand Slag) wordt uitgevoerd met de ruggegraat van de hand (de kant van de wijsvinger). De vingers zijn gestrekt en samen, de duim is gebogen. Deze slag is effectief voor het raken van de nek, zijkant van het hoofd, of zachte doelen zoals de ogen."
+          },
+          "nukite": { 
+            "name": "Nukite", 
+            "japanese": "貫手", 
+            "english": "Speer Hand Slag",
+            "details": "Nukite (Speer Hand Slag) wordt uitgevoerd met gestrekte vingers die samen zijn gehouden, waarbij de vingertoppen het doel raken. Het is een stekende techniek die effectief is voor het raken van zachte doelen zoals de ogen, keel, of zonnevlecht. Deze techniek vereist precisie en controle."
+          }
+        }
+      },
+      "warmup-content": {
+        "description": "Basis warming-up oefeningen en voorbereidende technieken.",
+        "title": "Warming-up",
+        "terms": {
+          "junbi-undo": { 
+            "name": "Junbi Undo", 
+            "japanese": "準備運動", 
+            "english": "Voorbereidende Oefeningen",
+            "details": "Junbi Undo (Voorbereidende Oefeningen) zijn basis warming-up oefeningen die het lichaam voorbereiden op karate training. Deze oefeningen omvatten rekoefeningen, gewrichtsmobiliteit, en lichte cardiovasculaire activiteit. Ze helpen blessures te voorkomen en verbeteren de prestaties tijdens training."
+          },
+          "hojo-undo": { 
+            "name": "Hojo Undo", 
+            "japanese": "補助運動", 
+            "english": "Supplementaire Oefeningen",
+            "details": "Hojo Undo (Supplementaire Oefeningen) zijn traditionele Okinawaanse oefeningen die kracht, uithoudingsvermogen en techniek ontwikkelen. Deze oefeningen omvatten het gebruik van traditionele trainingstools zoals chi ishi (stenen gewichten), nigiri game (grijpende potten), en andere versterkende oefeningen."
+          },
+          "kihon-undo": { 
+            "name": "Kihon Undo", 
+            "japanese": "基本運動", 
+            "english": "Basis Bewegingen",
+            "details": "Kihon Undo (Basis Bewegingen) zijn fundamentele bewegingspatronen die de basis vormen voor alle karate technieken. Deze oefeningen ontwikkelen coördinatie, balans, en lichaamsbewustzijn. Ze worden vaak uitgevoerd in een reeks van herhalingen om spiergeheugen te ontwikkelen."
+          },
+          "taiso": { 
+            "name": "Taiso", 
+            "japanese": "体操", 
+            "english": "Gymnastiek",
+            "details": "Taiso (Gymnastiek) zijn algemene lichaamsbewegingen die flexibiliteit, kracht en uithoudingsvermogen ontwikkelen. Deze oefeningen omvatten push-ups, sit-ups, squats, en andere basis fitness oefeningen. Ze vormen een belangrijk onderdeel van de karate training en helpen bij het ontwikkelen van een sterke fysieke basis."
+          }
         }
       },
       "vital-points-content": {

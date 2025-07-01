@@ -74,6 +74,7 @@ import Kicks from './pages/terminology/Kicks';
 import Punches from './pages/terminology/Punches';
 import Blocks from './pages/terminology/Blocks';
 import Strikes from './pages/terminology/Strikes';
+import Warmup from './pages/terminology/Warmup';
 import GeneralTerminology from './pages/terminology/GeneralTerminology';
 import Numbers from './pages/terminology/Numbers';
 import TournamentTerminology from './pages/terminology/TournamentTerminology';
@@ -150,10 +151,17 @@ const AppContent = React.memo(() => {
               <Route path="/theory" element={<TheoryPage />} />
               <Route path="/terminology" element={<TerminologyPage />} />
               <Route path="/terminology/stances" element={<Stances />} />
+              <Route path="/terminology/stances/:stanceId" element={<Stances />} />
               <Route path="/terminology/kicks" element={<Kicks />} />
+              <Route path="/terminology/kicks/:kickId" element={<Kicks />} />
               <Route path="/terminology/punches" element={<Punches />} />
+              <Route path="/terminology/punches/:punchId" element={<Punches />} />
               <Route path="/terminology/blocks" element={<Blocks />} />
+              <Route path="/terminology/blocks/:blockId" element={<Blocks />} />
               <Route path="/terminology/strikes" element={<Strikes />} />
+              <Route path="/terminology/strikes/:strikeId" element={<Strikes />} />
+              <Route path="/terminology/warmup" element={<Warmup />} />
+              <Route path="/terminology/warmup/:warmupId" element={<Warmup />} />
               <Route path="/terminology/general-terms" element={<GeneralTerminology />} />
               <Route path="/terminology/numbers" element={<Numbers />} />
               <Route path="/terminology/tournament-terms" element={<TournamentTerminology />} />
