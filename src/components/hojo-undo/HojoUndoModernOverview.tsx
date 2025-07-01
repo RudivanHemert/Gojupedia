@@ -77,14 +77,6 @@ const HojoUndoModernOverview: React.FC = () => {
 
   return (
     <div className="p-4 space-y-8">
-      {/* Back Button */}
-      <Button asChild variant="outline" className="mb-6">
-        <Link to="/hojo-undo">
-          <ChevronLeft className="mr-2 h-4 w-4" />
-          {t('hojoUndo.common.back')}
-        </Link>
-      </Button>
-
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

@@ -418,14 +418,6 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
 
   return (
     <div className="p-4 space-y-6">
-      {/* Back Button */}
-      <Button asChild variant="outline" className="w-full">
-        <Link to={backPath}>
-          <ChevronLeft className="mr-2 h-4 w-4" />
-          {t('hojoUndo.common.back')}
-        </Link>
-      </Button>
-
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

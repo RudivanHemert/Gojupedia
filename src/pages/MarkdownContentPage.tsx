@@ -99,14 +99,6 @@ const MarkdownContentPage = () => {
       {!isLoading && !error && markdown === null && (
         <p>Content could not be displayed.</p>
       )}
-
-      {/* Consider a more dynamic back button or removing it if MobileLayout handles global nav */}
-      <Button asChild variant="outline" className="mt-6">
-        <Link to={`/`}> {/* Link back to home for now */}
-          <ChevronLeft className="mr-2 h-4 w-4" />
-          {t('navigation.backToHome', 'Back to Home')}
-        </Link>
-      </Button>
     </div>
   );
 };
