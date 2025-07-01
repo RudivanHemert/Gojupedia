@@ -2,83 +2,25 @@
   "title": "Filosofie",
   "description": "De filosofische principes en spirituele aspecten van Goju Ryu Karate",
   "sections": {
-    "dojoKun": {
+    "dojo-kun": {
       "title": "Dojo Kun",
       "description": "De vijf principes van de dojo"
     },
-    "principles": {
-      "title": "Principes",
-      "description": "Fundamentele principes van Goju Ryu"
+    "goju-ryu": {
+      "title": "Goju Ryu",
+      "description": "De filosofie van hard en zacht"
     },
-    "mindset": {
-      "title": "Mindset",
-      "description": "De juiste mentale houding voor training"
-    }
-  },
-  "dojoKun": {
-    "title": "Dojo Kun",
-    "subtitle": "De vijf principes van de dojo",
-    "principles": [
-      {
-        "japanese": "一、人格 完成に 努める こと",
-        "romaji": "Hitotsu, jinkaku kansei ni tsutomeru koto",
-        "dutch": "Eerst, streef naar de voltooiing van je karakter",
-        "english": "First, strive for the perfection of character"
-      },
-      {
-        "japanese": "一、誠の道を 守ること",
-        "romaji": "Hitotsu, makoto no michi wo mamoru koto",
-        "dutch": "Eerst, bewaak de weg van waarheid",
-        "english": "First, guard the way of truth"
-      },
-      {
-        "japanese": "一、努力の 精神を 養うこと",
-        "romaji": "Hitotsu, doryoku no seishin wo yashinau koto",
-        "dutch": "Eerst, ontwikkel de geest van doorzettingsvermogen",
-        "english": "First, foster the spirit of effort"
-      },
-      {
-        "japanese": "一、礼儀を 重んずること",
-        "romaji": "Hitotsu, reigi wo omonzuru koto",
-        "dutch": "Eerst, respecteer anderen",
-        "english": "First, respect others"
-      },
-      {
-        "japanese": "一、血気の 勇を 戒むること",
-        "romaji": "Hitotsu, kekki no yuu wo imashimuru koto",
-        "dutch": "Eerst, onthoud je van gewelddadige daden",
-        "english": "First, refrain from violent behavior"
-      }
-    ]
-  },
-  "principles": {
-    "title": "Principes van Goju Ryu",
-    "hardSoft": {
-      "title": "Hard en Zacht",
-      "description": "Goju Ryu combineert harde (Go) en zachte (Ju) technieken in harmonie"
+    "karate-do": {
+      "title": "Karate Do",
+      "description": "De weg van de lege hand"
     },
-    "breathing": {
-      "title": "Ademhaling",
-      "description": "De juiste ademhalingstechnieken zijn essentieel voor kracht en focus"
-    },
-    "balance": {
-      "title": "Balans",
-      "description": "Fysieke en mentale balans zijn fundamenteel voor effectieve technieken"
-    }
-  },
-  "mindset": {
-    "title": "De Juiste Mindset",
-    "discipline": {
-      "title": "Discipline",
-      "description": "Zelfdiscipline is essentieel voor vooruitgang in karate"
+    "mind-body": {
+      "title": "Geest en Lichaam",
+      "description": "De eenheid van geest en lichaam"
     },
     "respect": {
       "title": "Respect",
-      "description": "Respect voor jezelf, anderen en de kunst is fundamenteel"
-    },
-    "perseverance": {
-      "title": "Doorzettingsvermogen",
-      "description": "Blijf volharden, ook als training moeilijk wordt"
+      "description": "Respect in de martiale kunsten"
     }
   }
 } 

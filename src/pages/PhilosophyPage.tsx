@@ -1,20 +1,72 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
-import { useMarkdownContent } from '@/utils/markdown';
+import { Link } from 'react-router-dom';
+import { Card, CardContent } from '@/components/ui/card';
+import { BookOpen, Heart, Brain, Users, Target } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const PhilosophyPage = () => {
   const { t } = useTranslation();
+  
   const sections = [
-    { id: 'dojo-kun', content: useMarkdownContent('philosophy/dojo-kun') },
-    { id: 'goju-ryu', content: useMarkdownContent('philosophy/goju-ryu') },
-    { id: 'karate-do', content: useMarkdownContent('philosophy/karate-do') },
-    { id: 'mind-body', content: useMarkdownContent('philosophy/mind-body') },
-    { id: 'respect', content: useMarkdownContent('philosophy/respect') }
+    {
+      id: 'dojo-kun',
+      name: t('philosophy.sections.dojo-kun.title'),
+      description: t('philosophy.sections.dojo-kun.description'),
+      icon: <BookOpen className="h-8 w-8 text-blue-500" />,
+      path: '/philosophy/dojo-kun',
+    },
+    {
+      id: 'goju-ryu',
+      name: t('philosophy.sections.goju-ryu.title'),
+      description: t('philosophy.sections.goju-ryu.description'),
+      icon: <Target className="h-8 w-8 text-green-500" />,
+      path: '/philosophy/goju-ryu',
+    },
+    {
+      id: 'karate-do',
+      name: t('philosophy.sections.karate-do.title'),
+      description: t('philosophy.sections.karate-do.description'),
+      icon: <Heart className="h-8 w-8 text-red-500" />,
+      path: '/philosophy/karate-do',
+    },
+    {
+      id: 'mind-body',
+      name: t('philosophy.sections.mind-body.title'),
+      description: t('philosophy.sections.mind-body.description'),
+      icon: <Brain className="h-8 w-8 text-purple-500" />,
+      path: '/philosophy/mind-body',
+    },
+    {
+      id: 'respect',
+      name: t('philosophy.sections.respect.title'),
+      description: t('philosophy.sections.respect.description'),
+      icon: <Users className="h-8 w-8 text-orange-500" />,
+      path: '/philosophy/respect',
+    }
   ];
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.4,
+      }
+    }
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -25,23 +77,34 @@ const PhilosophyPage = () => {
       />
       <div className="p-4">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
           className="max-w-4xl mx-auto"
         >
-          <Accordion type="single" collapsible className="w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
             {sections.map((section) => (
-              <AccordionItem key={section.id} value={section.id}>
-                <AccordionTrigger>
-                  {t(`philosophy.sections.${section.id}.title`)}
-                </AccordionTrigger>
-                <AccordionContent>
-                  {section.content && <MarkdownRenderer markdownContent={section.content} />}
-                </AccordionContent>
-              </AccordionItem>
+              <motion.div key={section.id} variants={itemVariants}>
+                <Link to={section.path} className="block">
+                  <Card className="overflow-hidden hover:shadow-md transition-shadow">
+                    <CardContent className="p-0">
+                      <div className="flex h-24">
+                        <div className="w-1/4 bg-stone-100 flex items-center justify-center">
+                          <div className="bg-stone-200 p-3 rounded-full">
+                            {section.icon}
+                          </div>
+                        </div>
+                        <div className="w-3/4 p-4 flex flex-col justify-center">
+                          <h3 className="font-semibold text-lg">{section.name}</h3>
+                          <p className="text-sm text-gray-600">{section.description}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              </motion.div>
             ))}
-          </Accordion>
+          </div>
         </motion.div>
       </div>
     </div>

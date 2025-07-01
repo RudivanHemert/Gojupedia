@@ -40,6 +40,11 @@ import JunbiUndoPage from "./pages/JunbiUndoPage";
 import SidebarLayout from '@/components/layout/SidebarLayout';
 import HojoUndoSectionPage from './pages/HojoUndoSectionPage';
 import PhilosophyPage from './pages/PhilosophyPage';
+import DojoKun from './pages/philosophy/DojoKun';
+import GojuRyu from './pages/philosophy/GojuRyu';
+import KarateDo from './pages/philosophy/KarateDo';
+import MindBody from './pages/philosophy/MindBody';
+import Respect from './pages/philosophy/Respect';
 import OriginsSection from '@/components/history/OriginsSection';
 import KanryoHigaonnaSection from '@/components/history/KanryoHigaonnaSection';
 import ChojunMiyagiSection from '@/components/history/ChojunMiyagiSection';
@@ -179,6 +184,11 @@ const AppContent = React.memo(() => {
               <Route path="/history/tetsuji-nakamura" element={<TetsujiNakamuraSection />} />
               <Route path="/history/timeline" element={<TimelineSection />} />
               <Route path="/philosophy" element={<PhilosophyPage />} />
+              <Route path="/philosophy/dojo-kun" element={<DojoKun />} />
+              <Route path="/philosophy/goju-ryu" element={<GojuRyu />} />
+              <Route path="/philosophy/karate-do" element={<KarateDo />} />
+              <Route path="/philosophy/mind-body" element={<MindBody />} />
+              <Route path="/philosophy/respect" element={<Respect />} />
               <Route path="/vital-points" element={<VitalPointsPage />} />
               <Route path="/theory/kata" element={<KataTheoryPage />} />
               <Route path="/practice" element={<PracticePage />} />

@@ -1,126 +1,26 @@
 {
-  "philosophy": {
-    "title": "Filosofía",
-    "description": "Los principios filosóficos y aspectos espirituales del Goju Ryu Karate",
-    "sections": {
-      "dojoKun": {
-        "title": "Dojo Kun",
-        "description": "Los cinco principios del dojo"
-      },
-      "principles": {
-        "title": "Principios",
-        "description": "Principios fundamentales del Goju Ryu"
-      },
-      "mindset": {
-        "title": "Mentalidad",
-        "description": "La actitud mental correcta para el entrenamiento"
-      },
-      "hoeiJukuIntroduction": {
-        "title": "Introducción Hoei Juku",
-        "description": "Bienvenido al Goju Ryu Karate Do Hoei Juku"
-      },
-      "hoeiJukuOrigins": {
-        "title": "Orígenes del Goju Ryu y Hoei Juku",
-        "description": "La historia y linaje de nuestra escuela"
-      },
-      "hoeiJukuTraining": {
-        "title": "Entrenamiento en Goju Ryu Karate",
-        "description": "Principios y métodos de entrenamiento de Hoei Juku"
-      }
-    }
-  },
-  "dojoKun": {
-    "title": "Dojo Kun",
-    "subtitle": "Los cinco principios del dojo",
-    "principles": [
-      {
-        "japanese": "一、人格 完成に 努める こと",
-        "romaji": "Hitotsu, jinkaku kansei ni tsutomeru koto",
-        "dutch": "Eerst, streef naar de voltooiing van je karakter",
-        "spanish": "Primero, esforzarse por la perfección del carácter"
-      },
-      {
-        "japanese": "一、誠の道を 守ること",
-        "romaji": "Hitotsu, makoto no michi wo mamoru koto",
-        "dutch": "Eerst, bewaak de weg van waarheid",
-        "spanish": "Primero, guardar el camino de la verdad"
-      },
-      {
-        "japanese": "一、努力の 精神を 養うこと",
-        "romaji": "Hitotsu, doryoku no seishin wo yashinau koto",
-        "dutch": "Eerst, ontwikkel de geest van doorzettingsvermogen",
-        "spanish": "Primero, fomentar el espíritu de esfuerzo"
-      },
-      {
-        "japanese": "一、礼儀を 重んずること",
-        "romaji": "Hitotsu, reigi wo omonzuru koto",
-        "dutch": "Eerst, respecteer anderen",
-        "spanish": "Primero, respetar a los demás"
-      },
-      {
-        "japanese": "一、血気の 勇を 戒むること",
-        "romaji": "Hitotsu, kekki no yuu wo imashimuru koto",
-        "dutch": "Eerst, onthoud je van gewelddadige daden",
-        "spanish": "Primero, abstenerse de comportamientos violentos"
-      }
-    ]
-  },
-  "principles": {
-    "title": "Principios del Goju Ryu",
-    "hardSoft": {
-      "title": "Duro y Suave",
-      "description": "Goju Ryu combina técnicas duras (Go) y suaves (Ju) en armonía"
+  "title": "Filosofía",
+  "description": "Los principios filosóficos y aspectos espirituales del Goju Ryu Karate",
+  "sections": {
+    "dojo-kun": {
+      "title": "Dojo Kun",
+      "description": "Los cinco principios del dojo"
     },
-    "breathing": {
-      "title": "Respiración",
-      "description": "Las técnicas de respiración adecuadas son esenciales para el poder y la concentración"
+    "goju-ryu": {
+      "title": "Goju Ryu",
+      "description": "La filosofía de lo duro y lo suave"
     },
-    "balance": {
-      "title": "Equilibrio",
-      "description": "El equilibrio físico y mental es fundamental para técnicas efectivas"
-    }
-  },
-  "mindset": {
-    "title": "La Mentalidad Correcta",
-    "discipline": {
-      "title": "Disciplina",
-      "description": "La autodisciplina es esencial para el progreso en karate"
+    "karate-do": {
+      "title": "Karate Do",
+      "description": "El camino de la mano vacía"
+    },
+    "mind-body": {
+      "title": "Mente y Cuerpo",
+      "description": "La unidad de mente y cuerpo"
     },
     "respect": {
       "title": "Respeto",
-      "description": "El respeto por uno mismo, los demás y el arte es fundamental"
-    },
-    "perseverance": {
-      "title": "Perseverancia",
-      "description": "Mantén la perseverancia, incluso cuando el entrenamiento se vuelve difícil"
-    }
-  },
-  "hoeiJuku": {
-    "introduction": {
-      "title": "Introducción Hoei Juku",
-      "welcome": "Bienvenido al Goju Ryu Karate Do Hoei Juku",
-      "purpose": "El propósito de este manual",
-      "training": "Por qué entrenamos",
-      "preservation": "Preservar el arte",
-      "modernResources": "Recursos modernos"
-    },
-    "origins": {
-      "title": "Orígenes del Goju Ryu y Hoei Juku",
-      "chineseRoots": "Raíces chinas",
-      "higashionna": "Higashionna Kanryo (1851-1917)",
-      "miyagi": "Chojun Miyagi (1888-1953)",
-      "development": "El desarrollo de Miyagi del Goju Ryu",
-      "naming": "La denominación del Goju Ryu",
-      "legacy": "El legado continúa"
-    },
-    "training": {
-      "title": "Entrenamiento en Goju Ryu Karate",
-      "reasons": "Razones para entrenar",
-      "objectives": "Objetivos y metas",
-      "rules": "Reglas del dojo",
-      "safety": "Salud y seguridad",
-      "opportunities": "Igualdad de oportunidades",
-      "grading": "El sistema de grados Kyu/Dan"
+      "description": "El respeto en las artes marciales"
     }
   }
 } 
