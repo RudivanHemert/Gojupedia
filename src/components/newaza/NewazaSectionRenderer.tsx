@@ -115,86 +115,80 @@ const NewazaSectionRenderer: React.FC<NewazaSectionRendererProps> = ({
 
   if (loading) {
     return (
-      <MobileLayout hideHeader={true}>
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4" />
-            <p className="text-muted-foreground">{t('common.loading')}</p>
-          </div>
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4" />
+          <p className="text-muted-foreground">{t('common.loading')}</p>
         </div>
-      </MobileLayout>
+      </div>
     );
   }
 
   if (error) {
     return (
-      <MobileLayout hideHeader={true}>
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="text-center">
-            <p className="text-red-500 mb-4">{error}</p>
-            <Button onClick={() => window.location.reload()}>
-              {t('common.retry')}
-            </Button>
-          </div>
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <p className="text-red-500 mb-4">{error}</p>
+          <Button onClick={() => window.location.reload()}>
+            {t('common.retry')}
+          </Button>
         </div>
-      </MobileLayout>
+      </div>
     );
   }
 
   return (
-    <MobileLayout hideHeader={true}>
-      <div className="p-4 space-y-6">
-        {/* Back Button */}
-        <Button asChild variant="outline" className="w-full">
-          <Link to={backPath}>
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            {t('common.back')}
-          </Link>
-        </Button>
+    <div className="p-4 space-y-6">
+      {/* Back Button */}
+      <Button asChild variant="outline" className="w-full">
+        <Link to={backPath}>
+          <ChevronLeft className="mr-2 h-4 w-4" />
+          {t('common.back')}
+        </Link>
+      </Button>
 
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-center space-y-2"
-        >
-          <div className="flex justify-center mb-2">
-            <span className={`p-2 rounded-full ${config.color} bg-opacity-20 mr-2`}>
-              <IconComponent className={`h-6 w-6 ${config.color}`} />
-            </span>
-          </div>
-          <h1 className="text-2xl font-bold">{config.title}</h1>
-          <p className="text-base text-muted-foreground">{config.description}</p>
-        </motion.div>
-
-        {/* Navigation */}
-        <div className="flex gap-2 overflow-x-auto pb-2">
-          {getNavigationLinks().map((link) => (
-            <Link key={link.path} to={link.path}>
-              <Badge 
-                variant={link.isActive ? "default" : "secondary"}
-                className="whitespace-nowrap"
-              >
-                <link.icon className="h-3 w-3 mr-1" />
-                {link.label}
-              </Badge>
-            </Link>
-          ))}
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-center space-y-2"
+      >
+        <div className="flex justify-center mb-2">
+          <span className={`p-2 rounded-full ${config.color} bg-opacity-20 mr-2`}>
+            <IconComponent className={`h-6 w-6 ${config.color}`} />
+          </span>
         </div>
+        <h1 className="text-2xl font-bold">{config.title}</h1>
+        <p className="text-base text-muted-foreground">{config.description}</p>
+      </motion.div>
 
-        {/* Content */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <div 
-            className="prose prose-stone dark:prose-invert max-w-none"
-            dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }}
-          />
-        </motion.div>
+      {/* Navigation */}
+      <div className="flex gap-2 overflow-x-auto pb-2">
+        {getNavigationLinks().map((link) => (
+          <Link key={link.path} to={link.path}>
+            <Badge 
+              variant={link.isActive ? "default" : "secondary"}
+              className="whitespace-nowrap"
+            >
+              <link.icon className="h-3 w-3 mr-1" />
+              {link.label}
+            </Badge>
+          </Link>
+        ))}
       </div>
-    </MobileLayout>
+
+      {/* Content */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <div 
+          className="prose prose-stone dark:prose-invert max-w-none"
+          dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }}
+        />
+      </motion.div>
+    </div>
   );
 };
 
