@@ -549,37 +549,37 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
   const studies: Study[] = [];
 
   categories.forEach(category => {
-    // Correctly type the keys for the i18n object
-    const i18nKey = `terminology.sections.${category}-content.terms` as const;
-    
-    // Check if the key exists in the translations
-    if (!i18n.exists(i18nKey, { ns: 'terminology' })) {
-      console.warn(`Translation key not found: ${i18nKey}`);
-      return;
-    }
+    try {
+      // Correctly type the keys for the i18n object
+      const i18nKey = `terminology.sections.${category}-content.terms` as const;
+      
+      const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string; details?: string }>;
 
-    const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string; details?: string }>;
+      if (terms && typeof terms === 'object' && Object.keys(terms).length > 0) {
+        const questions: StudyQuestion[] = Object.entries(terms).map(([key, term]) => ({
+          id: `${category}-${key}`,
+          question: `What is the meaning of "${term.name}"?`,
+          options: [term.english], // Correct answer
+          correctAnswer: term.english,
+          explanation: term.details || `Japanese: ${term.japanese || 'N/A'}`
+        }));
 
-    if (terms && typeof terms === 'object') {
-      const questions: StudyQuestion[] = Object.entries(terms).map(([key, term]) => ({
-        id: `${category}-${key}`,
-        question: `What is the meaning of "${term.name}"?`,
-        options: [term.english], // Correct answer
-        correctAnswer: term.english,
-        explanation: term.details || `Japanese: ${term.japanese || 'N/A'}`
-      }));
-
-      if (questions.length > 0) {
-        studies.push({
-          id: category,
-          title: `Quiz: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
-          description: `Test your knowledge of ${category} terminology.`,
-          type: "quiz",
-          questions: questions,
-          category: "terminology",
-          image: "https://images.unsplash.com/photo-1593340578844-89a1c5d33c5e?q=80&w=2070&auto=format&fit=crop"
-        });
+        if (questions.length > 0) {
+          studies.push({
+            id: category,
+            title: `Quiz: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
+            description: `Test your knowledge of ${category} terminology.`,
+            type: "quiz",
+            questions: questions,
+            category: "terminology",
+            difficulty: "beginner",
+            image: "https://images.unsplash.com/photo-1593340578844-89a1c5d33c5e?q=80&w=2070&auto=format&fit=crop"
+          });
+        }
       }
+    } catch (error) {
+      // Silently skip categories that don't have the expected structure
+      console.debug(`Skipping ${category} - no terms available`);
     }
   });
 
@@ -591,28 +591,31 @@ export const studies: Study[] = generateStudiesFromTechniques(allTerminologyCate
 
 // Add flashcard studies
 allTerminologyCategories.forEach(category => {
-  const i18nKey = `terminology.sections.${category}-content.terms` as const;
+  try {
+    const i18nKey = `terminology.sections.${category}-content.terms` as const;
+    
+    const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
 
-  if (!i18n.exists(i18nKey, { ns: 'terminology' })) {
-    return;
-  }
-  
-  const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
-
-  if (terms && typeof terms === 'object') {
-    studies.push({
-      id: `${category}-flashcards`,
-      title: `Flashcards: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
-      description: `Practice ${category} terminology with flashcards.`,
-      type: "flashcards",
-      category: "terminology",
-      image: "https://images.unsplash.com/photo-1588725193539-7a723a247ab6?q=80&w=2070&auto=format&fit=crop",
-      cards: Object.entries(terms).map(([key, term]) => ({
-        id: `${category}-flashcard-${key}`,
-        front: term.name,
-        back: `${term.english}${term.japanese ? ` (${term.japanese})` : ''}`
-      }))
-    });
+    if (terms && typeof terms === 'object' && Object.keys(terms).length > 0) {
+      studies.push({
+        id: `${category}-flashcards`,
+        title: `Flashcards: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
+        description: `Practice ${category} terminology with flashcards.`,
+        type: "flashcard",
+        category: "terminology",
+        difficulty: "beginner",
+        image: "https://images.unsplash.com/photo-1588725193539-7a723a247ab6?q=80&w=2070&auto=format&fit=crop",
+        questions: Object.entries(terms).map(([key, term]) => ({
+          id: `${category}-flashcard-${key}`,
+          question: term.name,
+          correctAnswer: `${term.english}${term.japanese ? ` (${term.japanese})` : ''}`,
+          explanation: `Japanese: ${term.japanese || 'N/A'}`
+        }))
+      });
+    }
+  } catch (error) {
+    // Silently skip categories that don't have the expected structure
+    console.debug(`Skipping ${category} flashcards - no terms available`);
   }
 });
 

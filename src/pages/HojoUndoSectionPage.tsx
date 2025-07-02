@@ -14,6 +14,13 @@ const HojoUndoSectionPage = () => {
       'nigiri-game': 'nigiriGame',
       'kongoken': 'kongoken',
       'ishi-sashi': 'ishiSashi',
+      'makiwara': 'makiwara',
+      'tan': 'tan',
+      'tetsu-geta': 'tetsuGeta',
+      'jari-bako': 'jariBako',
+      'ton': 'ton',
+      'makiage': 'makiage',
+      'ude-tanren': 'udeTanren',
     };
     
     return equipmentMap[equipmentId] || 'chiIshi';
@@ -32,7 +39,7 @@ const HojoUndoSectionPage = () => {
     return sectionMap[sectionKey] || 'function';
   };
 
-  const equipmentKey = getEquipmentKey() as 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi';
+  const equipmentKey = getEquipmentKey() as 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi' | 'makiwara' | 'tan' | 'tetsuGeta' | 'jariBako' | 'ton' | 'makiage' | 'udeTanren';
   const sectionKeyValue = getSectionKey() as 'function' | 'construction' | 'attentionPoints' | 'exercises';
 
   return (

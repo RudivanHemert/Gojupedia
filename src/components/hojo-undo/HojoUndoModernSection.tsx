@@ -27,7 +27,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 interface HojoUndoModernSectionProps {
-  equipmentKey: 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi';
+  equipmentKey: 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi' | 'makiwara' | 'tan' | 'tetsuGeta' | 'jariBako' | 'ton' | 'makiage' | 'udeTanren';
   sectionKey: 'function' | 'construction' | 'attentionPoints' | 'exercises';
   backPath: string;
 }
@@ -55,8 +55,25 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
     const sections = ['function', 'construction', 'attentionPoints', 'exercises'];
     const icons = [Target, Hammer, Eye, Activity];
     
+    // Map equipment keys to URL slugs
+    const equipmentUrlMap: Record<string, string> = {
+      'chiIshi': 'chi-ishi',
+      'nigiriGame': 'nigiri-game',
+      'kongoken': 'kongoken',
+      'ishiSashi': 'ishi-sashi',
+      'makiwara': 'makiwara',
+      'tan': 'tan',
+      'tetsuGeta': 'tetsu-geta',
+      'jariBako': 'jari-bako',
+      'ton': 'ton',
+      'makiage': 'makiage',
+      'udeTanren': 'ude-tanren',
+    };
+    
+    const equipmentSlug = equipmentUrlMap[equipmentKey] || equipmentKey;
+    
     return sections.map((sec, index) => ({
-      path: `/hojo-undo/${equipmentKey}/${sec}`,
+      path: `/hojo-undo/${equipmentSlug}/${sec}`,
       label: t(`hojoUndo.equipment.${equipmentKey}.${sec}.title`),
       description: t(`hojoUndo.equipment.${equipmentKey}.${sec}.description`, { defaultValue: '' }),
       icon: icons[index],

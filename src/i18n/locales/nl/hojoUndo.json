@@ -118,17 +118,18 @@
     "chiIshi": {
       "name": "Chi Ishi",
       "translation": "Stenen Hefboom Gewicht",
-      "description": "Stenen hefboom gewicht voor pols- en grijpkracht",
+      "description": "Stenen hefboom gewicht voor pols- en grijpkracht, ontwikkelt muchimi en chinkuchi kakin kracht",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
       "function": {
         "title": "Functie",
-        "description": "De chi ishi is een 'stenen hefboom gewicht' dat nog steeds in China wordt gebruikt.",
+        "description": "De chi ishi is een 'stenen hefboom gewicht' dat nog steeds in China wordt gebruikt, o.a. in de provincie Fuzhou.",
         "mainFunctions": [
-          "Versterkt spieren van onderarm en hand",
-          "Ondersteunt polsstabiliteit bij stoot- en slagtechnieken",
-          "Versterkt grip voor close combat technieken",
-          "Ontwikkelt muchimi kracht en chinkuchi kakin kracht"
+          "Versterkt met name de spieren van de onderarm en hand",
+          "Ondersteunt de stabiliteit van de pols bij stoot- en slagtechnieken",
+          "Versterkt de grip voor nabije gevechtstechnieken (trek-, werp-, klemtechnieken en hiki uke)",
+          "Ontwikkelt muchimi kracht door verhoogde weerstand in de beweging",
+          "Ontwikkelt chinkuchi kakin kracht door vastknijpen aan het einde van bewegingen"
         ],
         "trainingEffects": [
           "Verbeterde polsstabiliteit",
@@ -141,28 +142,31 @@
       "construction": {
         "title": "Constructie",
         "dimensions": {
-          "stickLength": { "label": "Stoklengte", "value": "Aanbevolen: Schouderbreedte" },
-          "stickDiameter": { "label": "Stokdiameter", "value": "Dikte bepaalt trainingseffect" },
-          "stoneDiameter": { "label": "Steendiameter", "value": "Niet meer dan 20-30 cm" },
+          "stickLength": { "label": "Stoklengte", "value": "Bij voorkeur schouderbreedte (langere versies voor werptechnieken)" },
+          "stickDiameter": { "label": "Stokdiameter", "value": "Dikte bepaalt trainingseffect (dun = chinkuchi kakin, dik = polsgrip)" },
+          "stoneDiameter": { "label": "Steendiameter", "value": "Niet meer dan 20-30 cm (beperkte bewegingsruimte)" },
           "stoneHeight": { "label": "Steenhoogte", "value": "Niet hoger dan 10-15 cm" }
         },
         "materials": {
           "stone": "Betonmix met fijn grind",
-          "connection": "Spijkers, schroeven of schroefankers"
+          "connection": "Spijkers, schroeven of schroefankers (0,25x diameter steen)"
         },
         "weight": {
           "beginners": "2-3 kg",
-          "advanced": "6-10 kg"
+          "advanced": "6-7 kg of zelfs 10 kg"
         }
       },
       "attentionPoints": {
         "title": "Aandachtspunten",
         "importantPoints": [
-          "'Zet de schouder stevig naar beneden'",
-          "'Span de latissimus dorsi'",
+          "'Zet de schouder naar beneden toe vast'",
+          "'Span de latissimus dorsi aan'",
           "'Span de pols'",
-          "'Grijp stevig'",
-          "'Adem uit vanuit de tanden'"
+          "'Grijp vast'",
+          "'Adem uit vanuit de tanden'",
+          "'Combineer de externe spierkracht en de interne kracht van de adem'",
+          "'Oefen de zwakke kant vaker'",
+          "'Oefen na een oefenserie snelle stoten om te voorkomen dat je traag wordt'"
         ],
         "breathingTechniques": {
           "slow": "Sanchin ademhaling met H(u)ah en Hatt geluiden",
@@ -195,174 +199,809 @@
           ]
         },
         "advancedExercises": [
-          "Polszwaai oefeningen",
-          "Schaduwgevecht",
-          "Hardingstraining met steen",
-          "Shin training met stok"
-        ],
-        "practicalTips": [
-          "Begin met lichtere gewichten",
-          "Focus eerst op correcte uitvoering",
-          "Integreer sanchin ademhaling",
-          "Neem voldoende rust tussen series",
-          "Wissel af tussen verschillende oefeningen"
+          "Polszwaai-oefeningen (cirkel- of lemniscaatvormige baan)",
+          "Schaduwgevecht in vrije beweging",
+          "Hardingstraining met steen (tegen aan slaan, buik training)",
+          "Partner oefeningen",
+          "Stok over scheenbeen rollen voor circulatie"
         ]
       }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
       "translation": "Grijpvazen",
-      "description": "Grijpvazen voor vinger- en handkracht",
+      "description": "Grijpvazen voor vinger- en handkracht, ontwikkelt muchimi en chinkuchi kakin kracht",
       "origin": "China",
       "weight": "3-5 kg",
       "function": {
         "title": "Functie",
-        "description": "Traditionele grijpvazen voor het ontwikkelen van vinger- en handkracht",
+        "description": "De nigiri game zijn 'grijpvazen' die in verschillende streken van China werden en worden gebruikt.",
         "mainFunctions": [
-          "Versterkt vinger- en handspieren",
-          "Verbetert grijpkracht en uithoudingsvermogen",
-          "Ontwikkelt onderarmkracht",
-          "Verbetert polsstabiliteit"
+          "Versterkt met name de spieren van de onderarm en hand",
+          "Versterkt de grip voor nabije gevechtstechnieken (trek-, werp-, klemtechnieken en hiki uke)",
+          "Effectief aanvallen van vitale punten (kyusho) vereist krachtige grip",
+          "Vergelijkbare uitwerking als sanchin kata door gebruik van dezelfde principes",
+          "Goede oefening voor actief aarden (krachtrichting vooral omhoog)",
+          "Ontwikkelt muchimi kracht door verhoogde weerstand in de beweging",
+          "Ontwikkelt chinkuchi kakin kracht door grijpkracht maximalisatie"
+        ],
+        "trainingEffects": [
+          "Versterkte grijpkracht en uithoudingsvermogen",
+          "Verbeterde onderarmkracht",
+          "Versterkte polsstabiliteit",
+          "Betere aarding en worteling",
+          "Geïntegreerde ademhaling"
         ]
       },
       "construction": {
         "title": "Constructie",
         "materials": [
-          "Traditionele klei- of keramische vazen",
-          "Moderne alternatieven: beton of metalen containers",
-          "Handvat diameter: 3-5 cm voor optimale grijptraining"
-        ],
-        "weight": "Gewicht kan worden aangepast door te vullen met zand, grind of andere materialen"
-      },
-      "attentionPoints": {
-        "title": "Aandachtspunten",
-        "importantPoints": [
-          "Behoud juiste grijppositie",
-          "Focus op vingerkrachtontwikkeling",
-          "Controleer ademhaling tijdens oefeningen",
-          "Geleidelijke toename in gewicht en duur"
-        ],
-        "safetyGuidelines": [
-          "Begin met lichtere gewichten",
-          "Vermijd overtraining",
-          "Behoud juiste vorm",
-          "Stop bij pijn"
-        ]
-      },
-      "exercises": [
-        "Statische grijphoudingen",
-        "Lopen met vazen",
-        "Cirkelbewegingen",
-        "Op en neer bewegingen"
-      ]
-    },
-    "kongoken": {
-      "name": "Kongoken",
-      "translation": "Ijzeren Ring",
-      "description": "Ijzeren ovaal voor totale lichaamsconditionering",
-      "origin": "Hawaï",
-      "weight": "30-40 kg",
-      "function": {
-        "title": "Functie",
-        "description": "Zware ijzeren ovaal gebruikt voor totale lichaamsconditionering en krachtontwikkeling",
-        "mainFunctions": [
-          "Totale lichaams krachtontwikkeling",
-          "Kernstabiliteit verbetering",
-          "Grip en onderarm versterking",
-          "Uithoudingsvermogen en conditie opbouw"
-        ]
-      },
-      "construction": {
-        "title": "Constructie",
-        "materials": [
-          "Massieve ijzeren constructie",
-          "Ovale vorm voor gebalanceerde gewichtsverdeling",
-          "Glad oppervlak om verwondingen te voorkomen",
-          "Versterkte handvatten voor veilige grip"
+          "Oorspronkelijk echte vazen van pottenbakker",
+          "Moderne alternatieven: namaak nigiri game van jam potten tot stalen pijpen",
+          "Diameter bovenkant: aangepast aan handgrootte (tijgerklauw grip)",
+          "Ideaal: eenvoudig zwaarder of lichter te maken"
         ],
         "dimensions": {
-          "length": { "label": "Lengte", "value": "60-80 cm" },
-          "width": { "label": "Breedte", "value": "30-40 cm" },
-          "handleDiameter": { "label": "Diameter Handvat", "value": "3-4 cm" },
-          "weight": { "label": "Gewicht", "value": "30-40 kg" }
+          "gripDiameter": { "label": "Diameter Grijpgedeelte", "value": "Aangepast aan handgrootte (tijgerklauw grip)" },
+          "weight": { "label": "Gewicht", "value": "3 kg is al behoorlijk zwaar voor 10 minuten" }
+        },
+        "progression": {
+          "beginner": "Nigiri game met rand om heen te pakken",
+          "advanced": "Nigiri game zonder rand",
+          "expert": "Met olie voor extra uitdaging"
         }
       },
       "attentionPoints": {
         "title": "Aandachtspunten",
         "importantPoints": [
-          "Vereist deskundige begeleiding",
-          "Juiste tiltechniek essentieel",
-          "Geleidelijke progressie in gewicht",
-          "Focus op kernbetrokkenheid"
+          "'Hou de ruggegraat recht'",
+          "'Trek de kin in'",
+          "'Duw krachtig op de grond met de zolen van de voeten'",
+          "'Span het hele lichaam aan'",
+          "'Zet de schouder naar beneden toe vast'",
+          "'Span de Latissimus dorsi aan'",
+          "'Grijp vast'",
+          "'Adem uit vanuit de tanden'",
+          "'Combineer de externe spierkracht en de interne kracht van de adem'"
+        ],
+        "breathingTechniques": {
+          "standard": "Diepe en gereguleerde ademhaling met voorstelling en klanken",
+          "alternative": "Inademen bij grootste inspanning, uitademen bij laten zakken",
+          "progression": "Klanken weg voor gevorderden, snellere uitvoering"
+        },
+        "safetyGuidelines": [
+          "Begin met lichtere gewichten",
+          "Focus op correcte uitvoering",
+          "Vermijd overtraining",
+          "Stop bij pijn of ongemak",
+          "Train onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": {
+          "title": "Basisoefeningen",
+          "description": "Lopen in sanchin dachi met nigiri game",
+          "series": [
+            "Lopen in sanchin dachi (zelfde principes als sanchin kata)",
+            "Til oefeningen voorwaarts en zijwaarts",
+            "Oefeningen in shiko dachi en neko ashi dachi",
+            "Om en om of beide tegelijk tillen"
+          ]
+        },
+        "advancedExercises": [
+          "Complexe trainingsvormen (nigiri game + zandzakjes + kote kitae)",
+          "Contrast training met verschillende gewichten en diameters",
+          "Variaties in schouder/arm posities voor andere spierketens",
+          "Integratie met bewegingsleer & energetica principes"
+        ]
+      }
+    },
+    "kongoken": {
+      "name": "Kongoken",
+      "translation": "Ijzeren Ovaal",
+      "description": "Zware ijzeren ovaal voor totale lichaamsconditionering en werptechnieken",
+      "origin": "Hawaï (geïntroduceerd door Chojun Miyagi op Okinawa)",
+      "weight": "30-40 kg",
+      "function": {
+        "title": "Functie",
+        "description": "De kongoken of 'ijzeren ovaal' is oorspronkelijk afkomstig uit Hawaï waar hij werd gebruikt door Hawaïaanse worstelaars.",
+        "mainFunctions": [
+          "Versterkt een groot aantal grote spiergroepen en -ketens in boven- en onderlichaam",
+          "Technische ondersteuning voor werptechnieken, met name til- en kantelworpen",
+          "Ontwikkelt totale lichaams kracht en stabiliteit",
+          "Verbetert kernstabiliteit en balans",
+          "Versterkt grip en onderarm kracht"
+        ],
+        "trainingEffects": [
+          "Totale lichaams krachtontwikkeling",
+          "Verbeterde werptechnieken",
+          "Versterkte kernstabiliteit",
+          "Betere balans en coördinatie",
+          "Verhoogd uithoudingsvermogen"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Massieve ijzeren constructie in ovale vorm",
+          "Gebalanceerde gewichtsverdeling",
+          "Glad oppervlak om verwondingen te voorkomen",
+          "Versterkte handvatten voor veilige grip"
+        ],
+        "dimensions": {
+          "weight": { "label": "Gewicht", "value": "30-40 kg (te zwaar voor beginners)" },
+          "shape": { "label": "Vorm", "value": "Ovaal voor optimale gewichtsverdeling" }
+        },
+        "safety": {
+          "beginner": "Begin met lichtere kongokens",
+          "guidance": "Vereist deskundige begeleiding",
+          "technique": "Nauwkeurige technische uitvoering essentieel"
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Let op bekken en wervelkolom stand in shiko dachi",
+          "Onderrug niet te hol trekken",
+          "Bekken niet te ver voorover kantelen",
+          "Onderrug actief opstrekken (richting kruin)",
+          "Lichte opwaartse spanning in anus",
+          "Kruin op houden (niet ontwortelen)",
+          "Extra aandacht bij belastingsmomenten in shiko dachi"
         ],
         "safetyGuidelines": [
           "Nooit alleen trainen",
           "Juiste warming-up vereist",
           "Stop bij tekenen van spanning",
-          "Gebruik passend gewicht voor niveau"
+          "Gebruik passend gewicht voor niveau",
+          "Focus op correcte techniek boven gewicht"
         ]
       },
-      "exercises": [
-        "Optillen en dragen",
-        "Loopoefeningen",
-        "Statische houdingen",
-        "Basis zwaaien",
-        "Dynamische bewegingen",
-        "Integratie met kata"
-      ]
+      "exercises": {
+        "title": "Oefeningen",
+        "classicalExercises": {
+          "title": "Klassieke Oefeningen",
+          "description": "Beschreven in 'Traditional Karate, volume 1' en 'Hojo Undo' video van Morio Higaonna",
+          "categories": [
+            "Kantelserie horizontaal vlak",
+            "Kantelserie verticaal vlak", 
+            "Uitstoot oefeningen",
+            "Overige oefeningen",
+            "Fitness serie"
+          ]
+        },
+        "specificExercises": {
+          "horizontalTilts": "Kanteloefeningen in horizontaal vlak (shiko dachi, alleen of met partner)",
+          "verticalTilts": "Kanteloefeningen in verticaal vlak (kantelworpen, tegengestelde krachten)",
+          "thrustExercises": [
+            "Naar boven uitstoten in shiko dachi",
+            "Naar voren uitstoten in shiko dachi", 
+            "Opdrukken met kongoken op nek"
+          ],
+          "otherExercises": [
+            "Polszwaai-oefening",
+            "Kururunfa ademoefening",
+            "Squats in shiko dachi of neko ashi dachi"
+          ]
+        },
+        "fitnessSeries": {
+          "title": "Fitness Serie",
+          "description": "Vertaling van fitness en bodybuilding oefeningen",
+          "exercises": [
+            "Biceps curl, Reversed biceps curl",
+            "Triceps extension, Bent over row",
+            "Upright row, Shoulder press",
+            "Front press, Neck press",
+            "Front raise, Bench press",
+            "Front shrug, Back shrug",
+            "Good morning, Stiffedleg deadlift",
+            "Squat, Front squat, Back squat",
+            "Calf raise, Side bend"
+          ]
+        }
+      }
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Stenen Slot",
-      "description": "Stenen hangsloten voor grijpkracht en techniek",
-      "origin": "China/Okinawa",
-      "weight": "2-8 kg",
+      "translation": "Stenen Hangsloten",
+      "description": "Stenen hangsloten voor schouder-, arm- en handkracht, ontwikkelt muchimi en chinkuchi kakin kracht",
+      "origin": "China (kasteelpoorten)",
+      "weight": "2-5 kg",
       "function": {
         "title": "Functie",
-        "description": "Stenen hangsloten gebruikt voor het ontwikkelen van grijpkracht en techniek",
+        "description": "De ishi sashi staan bekend als 'stenen hangsloten'. Ze werden in vroegere tijden gebruikt om de poorten van een kasteel af te sluiten.",
         "mainFunctions": [
-          "Grijpkrachtontwikkeling",
-          "Polsstabiliteit verbetering",
-          "Onderarmspier versterking",
-          "Techniek verfijning"
+          "Versterkt met name de spieren van de schouders, arm en hand",
+          "Versterkt de grip voor nabije gevechtstechnieken (trek-, werp-, klemtechnieken en hiki uke)",
+          "Bewegingen sluiten nauw aan bij stoot-, slag- en afweertechnieken",
+          "Ontwikkelt muchimi kracht door verhoogde weerstand in de beweging",
+          "Ontwikkelt chinkuchi kakin kracht door grijpkracht maximalisatie"
+        ],
+        "trainingEffects": [
+          "Versterkte schouder-, arm- en handspieren",
+          "Verbeterde grijpkracht",
+          "Betere techniek integratie",
+          "Efficiënte krachtoverbrenging",
+          "Geïntegreerde ademhaling"
         ]
       },
       "construction": {
         "title": "Constructie",
         "materials": [
-          "Stenen of betonnen lichaam",
-          "Houten of metalen handvat",
-          "Veilige verbinding tussen lichaam en handvat",
-          "Glad oppervlak afwerking"
+          "Metaalplaat of stuk staaf als gewicht met gelaste beugel (handvat)",
+          "Beugel omgeven met halve ronde stok (doorgezaagde bezemsteel)",
+          "Vroeger van steen, cement, klei",
+          "Vereist laskennis voor constructie"
         ],
         "dimensions": {
-          "body": { "label": "Lichaam", "value": "15-25 cm lengte" },
-          "handle": { "label": "Diameter Handvat", "value": "3-4 cm" },
-          "weight": { "label": "Gewicht", "value": "2-8 kg afhankelijk van niveau" },
-          "shape": { "label": "Vorm", "value": "Rechthoekig of cilindrisch" }
+          "shape": { "label": "Vorm", "value": "Lijkt op hangslot (ook wel 'strijkijzers' genoemd)" },
+          "weight": { "label": "Gewicht", "value": "Aanpasbaar, afhankelijk van constructie" }
         }
       },
       "attentionPoints": {
         "title": "Aandachtspunten",
         "importantPoints": [
-          "Behoud juiste grip",
-          "Focus op polsstabiliteit",
-          "Controleer bewegingsprecisie",
+          "'Hou de ruggegraat recht'",
+          "'Trek de kin in'",
+          "'Duw krachtig op de grond met de zolen van de voeten'",
+          "'Span het hele lichaam aan'",
+          "'Zet de schouder naar beneden toe vast'",
+          "'Span de Latissimus dorsi aan'",
+          "'Grijp vast'",
+          "'Concentreer al je kracht in de tanden'",
+          "'Adem uit vanuit de tanden'",
+          "'Combineer de externe spierkracht en de interne kracht van de adem'"
+        ],
+        "safetyGuidelines": [
+          "Begin met lichtere gewichten",
+          "Focus op correcte uitvoering",
+          "Neem voldoende rust",
+          "Stop bij pijn of ongemak",
+          "Train onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "classicalSeries": {
+          "title": "Klassieke Oefenserie",
+          "description": "Beschreven in 'Traditional Karate, volume I' van Morio Higaonna, aansluitend bij shisochin kata",
+          "series": [
+            "(Nukite) gyaku zuki vanuit sanchin dachi",
+            "Armen zijwaarts tillen en buigen vanuit shiko dachi",
+            "Polsoefening vanuit shiko dachi",
+            "Shotei zuki in vier richtingen"
+          ]
+        },
+        "additionalExercises": [
+          "Stoot-, slag- en afweertechnieken in heiko dachi",
+          "Trapoefeningen met ishi sashi om de enkel (mae geri, kansetsu geri)",
+          "Sanchin kata met ishi sashi (andere spanningspatroon)",
+          "Gooi-oefeningen (grijpkracht, concentratie, doelgerichtheid, reflexen)"
+        ],
+        "integration": {
+          "title": "Integratie",
+          "description": "Door vorm en grootte leent ishi sashi zich voor integratie in basistechnieken lessen",
+          "applications": [
+            "Integratie in stoot-, slag- en afweertechnieken",
+            "Complexe trainingsvormen met partner",
+            "Contrast training met verschillende gewichten",
+            "Specifieke krachttraining voor gevorderden"
+          ]
+        }
+      }
+    },
+    "makiwara": {
+      "name": "Makiwara",
+      "translation": "Stootplank",
+      "description": "Traditionele stootplank voor het conditioneren van vuisten en het trainen van impact",
+      "origin": "Okinawa",
+      "types": {
+        "fixed": "Vaste makiwara (stootplank)",
+        "portable": "Verplaatsbare makiwara",
+        "sagi": "Sagi makiwara (zandzak)"
+      },
+      "function": {
+        "title": "Functie",
+        "description": "De makiwara speelt van meet af aan een belangrijke rol in de hojo undo training.",
+        "mainFunctions": [
+          "Conditionering van vuisten en handen",
+          "Training van impact en kracht",
+          "Versterking van elleboog- en kniegewrichten",
+          "Ontwikkeling van correcte stoottechniek",
+          "Verbetering van timing en precisie"
+        ],
+        "trainingEffects": [
+          "Verharde vuisten en handen",
+          "Betere impact absorptie",
+          "Versterkte gewrichten",
+          "Verbeterde stoottechniek",
+          "Verhoogde pijnweerstand"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "fixedMakiwara": {
+          "title": "Vaste Makiwara",
+          "description": "Traditionele stootplank met opgerolde stro aan de top",
+          "materials": [
+            "Houten plank of ronde paal",
+            "Opgengerolde stro aan de top",
+            "Stevige bevestiging in grond of muur"
+          ]
+        },
+        "portableMakiwara": {
+          "title": "Verplaatsbare Makiwara",
+          "description": "Veerkrachtige planken met stootvlak",
+          "materials": [
+            "Veerkrachtige plank",
+            "Stootvlak bevestigd",
+            "Mobiele constructie"
+          ]
+        },
+        "sagiMakiwara": {
+          "title": "Sagi Makiwara",
+          "description": "Zandzak voor impact training",
+          "materials": [
+            "Zandzak gevuld met zand",
+            "Stevige buitenkant",
+            "Hangende constructie"
+          ]
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Begin met lichte impact",
+          "Focus op correcte techniek",
+          "Bouw geleidelijk op in intensiteit",
+          "Let op gewrichtsbescherming",
+          "Train onder deskundige begeleiding"
+        ],
+        "safetyGuidelines": [
+          "Juiste warming-up essentieel",
+          "Stop bij pijn of verwonding",
+          "Gebruik beschermende materialen",
+          "Controleer constructie regelmatig",
+          "Train niet te lang achter elkaar"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicStrikes": [
+          "Seiken zuki (vuiststoot)",
+          "Uraken uchi (rug van de vuist)",
+          "Shuto uchi (handzwaard)",
+          "Haito uchi (binnenkant handzwaard)"
+        ],
+        "advancedTechniques": [
+          "Combinatie stoten",
+          "Timing oefeningen",
+          "Kracht training",
+          "Uithoudingsvermogen"
+        ]
+      }
+    },
+    "tan": {
+      "name": "Tan",
+      "translation": "Halter",
+      "description": "Traditionele halter voor krachttraining en conditionering",
+      "origin": "China/Okinawa",
+      "weight": "5-20 kg",
+      "function": {
+        "title": "Functie",
+        "description": "De Tan is een traditionele halter gebruikt voor krachttraining en conditionering.",
+        "mainFunctions": [
+          "Totale lichaams krachtontwikkeling",
+          "Versterking van schouders en armen",
+          "Kernstabiliteit verbetering",
+          "Uithoudingsvermogen opbouw",
+          "Techniek integratie"
+        ],
+        "trainingEffects": [
+          "Versterkte bovenlichaam",
+          "Betere balans en coördinatie",
+          "Verhoogd uithoudingsvermogen",
+          "Verbeterde techniek kracht",
+          "Totale lichaams conditionering"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Massieve ijzeren of stalen constructie",
+          "Gebalanceerde gewichtsverdeling",
+          "Stevige handvatten voor veilige grip",
+          "Glad oppervlak om verwondingen te voorkomen"
+        ],
+        "dimensions": {
+          "weight": { "label": "Gewicht", "value": "5-20 kg afhankelijk van niveau" },
+          "shape": { "label": "Vorm", "value": "Traditionele halter vorm" }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Juiste tiltechniek essentieel",
+          "Focus op kernbetrokkenheid",
+          "Geleidelijke progressie in gewicht",
+          "Behoud correcte houding",
           "Integreer ademhaling"
         ],
         "safetyGuidelines": [
           "Begin met lichtere gewichten",
-          "Behoud juiste vorm",
-          "Geleidelijke progressie",
-          "Stop bij ongemak"
+          "Focus op correcte uitvoering",
+          "Neem voldoende rust",
+          "Stop bij pijn of ongemak",
+          "Train onder deskundige begeleiding"
         ]
       },
-      "exercises": [
-        "Statische grijphoudingen",
-        "Loopoefeningen",
-        "Tilbewegingen",
-        "Rotatieoefeningen"
-      ]
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Optillen en dragen",
+          "Loopoefeningen",
+          "Statische houdingen",
+          "Basis zwaaien"
+        ],
+        "advancedExercises": [
+          "Dynamische bewegingen",
+          "Integratie met kata",
+          "Combinatie oefeningen",
+          "Uithoudingsvermogen training"
+        ]
+      }
+    },
+    "tetsuGeta": {
+      "name": "Tetsu Geta",
+      "translation": "Ijzeren Sandalen",
+      "description": "Ijzeren sandalen voor been- en voetkracht training",
+      "origin": "Japan/Okinawa",
+      "weight": "2-5 kg per sandaal",
+      "function": {
+        "title": "Functie",
+        "description": "Tetsu Geta zijn ijzeren sandalen gebruikt voor het trainen van been- en voetkracht.",
+        "mainFunctions": [
+          "Versterking van been- en voetspieren",
+          "Verbetering van balans en stabiliteit",
+          "Ontwikkeling van beenkracht",
+          "Training van voettechnieken",
+          "Versterking van enkels en knieën"
+        ],
+        "trainingEffects": [
+          "Versterkte been- en voetspieren",
+          "Betere balans en stabiliteit",
+          "Verhoogde beenkracht",
+          "Verbeterde voettechnieken",
+          "Versterkte gewrichten"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Ijzeren of stalen plaat als zool",
+          "Stevige riemen voor bevestiging",
+          "Gewicht kan worden aangepast",
+          "Veilige afwerking van randen"
+        ],
+        "dimensions": {
+          "weight": { "label": "Gewicht", "value": "2-5 kg per sandaal" },
+          "size": { "label": "Maat", "value": "Aanpasbaar aan voetgrootte" }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Begin met lichtere gewichten",
+          "Focus op correcte looptechniek",
+          "Bouw geleidelijk op in gewicht",
+          "Let op enkel stabiliteit",
+          "Train op zachte ondergrond"
+        ],
+        "safetyGuidelines": [
+          "Juiste warming-up essentieel",
+          "Stop bij pijn of ongemak",
+          "Controleer bevestiging regelmatig",
+          "Train niet te lang achter elkaar",
+          "Gebruik onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Lopen in verschillende standen",
+          "Stap oefeningen",
+          "Balans oefeningen",
+          "Kata training"
+        ],
+        "advancedExercises": [
+          "Trap technieken",
+          "Sprint oefeningen",
+          "Uithoudingsvermogen training",
+          "Combinatie oefeningen"
+        ]
+      }
+    },
+    "jariBako": {
+      "name": "Jari Bako",
+      "translation": "Grindemmer",
+      "description": "Emmer gevuld met grind voor krachttraining en conditionering",
+      "origin": "China/Okinawa",
+      "weight": "5-15 kg",
+      "function": {
+        "title": "Functie",
+        "description": "Jari Bako is een emmer gevuld met grind gebruikt voor krachttraining en conditionering.",
+        "mainFunctions": [
+          "Totale lichaams krachtontwikkeling",
+          "Versterking van grip en onderarmen",
+          "Kernstabiliteit verbetering",
+          "Uithoudingsvermogen opbouw",
+          "Techniek integratie"
+        ],
+        "trainingEffects": [
+          "Versterkte grip en onderarmen",
+          "Betere balans en coördinatie",
+          "Verhoogd uithoudingsvermogen",
+          "Verbeterde techniek kracht",
+          "Totale lichaams conditionering"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Stevige emmer of container",
+          "Grind als gewicht",
+          "Stevige handvatten",
+          "Veilige afwerking"
+        ],
+        "dimensions": {
+          "weight": { "label": "Gewicht", "value": "5-15 kg afhankelijk van vulling" },
+          "size": { "label": "Grootte", "value": "Handzame emmer grootte" }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Juiste tiltechniek essentieel",
+          "Focus op kernbetrokkenheid",
+          "Geleidelijke progressie in gewicht",
+          "Behoud correcte houding",
+          "Integreer ademhaling"
+        ],
+        "safetyGuidelines": [
+          "Begin met lichtere gewichten",
+          "Focus op correcte uitvoering",
+          "Neem voldoende rust",
+          "Stop bij pijn of ongemak",
+          "Train onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Optillen en dragen",
+          "Loopoefeningen",
+          "Statische houdingen",
+          "Basis zwaaien"
+        ],
+        "advancedExercises": [
+          "Dynamische bewegingen",
+          "Integratie met kata",
+          "Combinatie oefeningen",
+          "Uithoudingsvermogen training"
+        ]
+      }
+    },
+    "ton": {
+      "name": "Ton",
+      "translation": "Houten Ton",
+      "description": "Houten ton voor krachttraining en conditionering",
+      "origin": "Japan/Okinawa",
+      "weight": "10-30 kg",
+      "function": {
+        "title": "Functie",
+        "description": "De Ton is een houten ton gebruikt voor krachttraining en conditionering.",
+        "mainFunctions": [
+          "Totale lichaams krachtontwikkeling",
+          "Versterking van grip en onderarmen",
+          "Kernstabiliteit verbetering",
+          "Uithoudingsvermogen opbouw",
+          "Techniek integratie"
+        ],
+        "trainingEffects": [
+          "Versterkte grip en onderarmen",
+          "Betere balans en coördinatie",
+          "Verhoogd uithoudingsvermogen",
+          "Verbeterde techniek kracht",
+          "Totale lichaams conditionering"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Stevige houten ton",
+          "Metaal banden voor versteviging",
+          "Stevige handvatten",
+          "Veilige afwerking"
+        ],
+        "dimensions": {
+          "weight": { "label": "Gewicht", "value": "10-30 kg afhankelijk van grootte" },
+          "size": { "label": "Grootte", "value": "Handzame ton grootte" }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Juiste tiltechniek essentieel",
+          "Focus op kernbetrokkenheid",
+          "Geleidelijke progressie in gewicht",
+          "Behoud correcte houding",
+          "Integreer ademhaling"
+        ],
+        "safetyGuidelines": [
+          "Begin met lichtere gewichten",
+          "Focus op correcte uitvoering",
+          "Neem voldoende rust",
+          "Stop bij pijn of ongemak",
+          "Train onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Optillen en dragen",
+          "Loopoefeningen",
+          "Statische houdingen",
+          "Basis zwaaien"
+        ],
+        "advancedExercises": [
+          "Dynamische bewegingen",
+          "Integratie met kata",
+          "Combinatie oefeningen",
+          "Uithoudingsvermogen training"
+        ]
+      }
+    },
+    "makiage": {
+      "name": "Makiage",
+      "translation": "Makiage Kigu",
+      "description": "Trainingsapparatuur voor het ontwikkelen van kracht en techniek",
+      "origin": "Japan/Okinawa",
+      "weight": "Variabel",
+      "function": {
+        "title": "Functie",
+        "description": "Makiage Kigu is trainingsapparatuur gebruikt voor het ontwikkelen van kracht en techniek.",
+        "mainFunctions": [
+          "Krachtontwikkeling",
+          "Techniek verbetering",
+          "Conditionering",
+          "Uithoudingsvermogen opbouw",
+          "Flexibiliteit training"
+        ],
+        "trainingEffects": [
+          "Versterkte spieren",
+          "Verbeterde techniek",
+          "Verhoogd uithoudingsvermogen",
+          "Betere flexibiliteit",
+          "Totale lichaams conditionering"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Diverse materialen afhankelijk van type",
+          "Veilige constructie",
+          "Aanpasbare gewichten",
+          "Stevige bevestigingen"
+        ],
+        "dimensions": {
+          "weight": { "label": "Gewicht", "value": "Variabel afhankelijk van type" },
+          "size": { "label": "Grootte", "value": "Aanpasbaar aan training" }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Juiste techniek essentieel",
+          "Focus op veiligheid",
+          "Geleidelijke progressie",
+          "Behoud correcte vorm",
+          "Integreer ademhaling"
+        ],
+        "safetyGuidelines": [
+          "Begin met basis oefeningen",
+          "Focus op correcte uitvoering",
+          "Neem voldoende rust",
+          "Stop bij pijn of ongemak",
+          "Train onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Basis krachtoefeningen",
+          "Techniek training",
+          "Flexibiliteit oefeningen",
+          "Conditionering"
+        ],
+        "advancedExercises": [
+          "Geavanceerde technieken",
+          "Combinatie oefeningen",
+          "Uithoudingsvermogen training",
+          "Specifieke toepassingen"
+        ]
+      }
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Armconditionering",
+      "description": "Partneroefeningen voor het conditioneren van de armen en het trainen van impact",
+      "origin": "Okinawa",
+      "weight": "Partner training",
+      "function": {
+        "title": "Functie",
+        "description": "Ude Tanren zijn partneroefeningen voor het conditioneren van de armen en het trainen van impact.",
+        "mainFunctions": [
+          "Conditionering van armen en lichaam",
+          "Training van impact geven en ontvangen",
+          "Ontwikkeling van 'schok' vaardigheid",
+          "Versterking van lichaam en geest",
+          "Leren incasseren en slaan"
+        ],
+        "trainingEffects": [
+          "Verharde armen en lichaam",
+          "Betere impact absorptie",
+          "Verhoogde pijnweerstand",
+          "Verbeterde partner training",
+          "Versterkte mentale discipline"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Partner training",
+          "Geen specifieke apparatuur nodig",
+          "Veilige trainingsomgeving",
+          "Beschermende kleding optioneel"
+        ],
+        "dimensions": {
+          "type": { "label": "Type", "value": "Partner oefeningen" },
+          "intensity": { "label": "Intensiteit", "value": "Aanpasbaar aan niveau" }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Begin met lichte impact, bouw langzaam op",
+          "Houd de schouders ontspannen en beweeg vloeiend",
+          "Impact moet op het harde deel van de arm, niet op de zachte onderkant",
+          "Probeer niet te ontwijken, maar beweeg met de partner mee",
+          "Let op elkaars grenzen, bouw intensiteit geleidelijk op"
+        ],
+        "safetyGuidelines": [
+          "Juiste warming-up essentieel",
+          "Stop bij pijn of ongemak",
+          "Communicatie met partner belangrijk",
+          "Bouw intensiteit en snelheid geleidelijk op",
+          "Train onder deskundige begeleiding"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Swinging Arm Drill (zwaaiende arm oefening)",
+          "Stepping & Blocking Drill (stap en blok oefening)",
+          "Ippon Uke Barai (één-stap blok oefening)",
+          "Sandan Uke Barai (drie-stap blok oefening)",
+          "Wrist Rotation (pols rotatie)"
+        ],
+        "advancedExercises": [
+          "Geavanceerde partner technieken",
+          "Combinatie oefeningen",
+          "Uithoudingsvermogen training",
+          "Specifieke impact training"
+        ]
+      }
     }
   },
   "training": {
@@ -388,56 +1027,5 @@
     "technical": "Technische Voordelen",
     "mental": "Mentale Voordelen",
     "safety": "Veiligheidsvoordelen"
-  },
-  "udeTanren": {
-    "name": "Ude Tanren",
-    "translation": "Armconditionering",
-    "description": "Partneroefeningen voor het conditioneren van de armen en het trainen van impact.",
-    "function": {
-      "title": "Functie",
-      "subtitle": "Begrijp doel en functie",
-      "content": [
-        "Ude Tanren zijn partneroefeningen voor het conditioneren van de armen en het trainen van impact.",
-        "Het doel is het lichaam te laten wennen aan contact, het ontwikkelen van de vaardigheid om 'schok' te geven en te ontvangen, en het versterken van zowel lichaam als geest.",
-        "Regelmatige training met een partner is essentieel om niet alleen te leren slaan, maar ook om te leren incasseren."
-      ]
-    },
-    "attentionPoints": {
-      "title": "Aandachtspunten",
-      "subtitle": "Veiligheid en techniek focus",
-      "content": [
-        "Begin met lichte impact, bouw langzaam op.",
-        "Houd de schouders ontspannen en beweeg vloeiend.",
-        "Impact moet op het harde deel van de arm, niet op de zachte onderkant.",
-        "Probeer niet te ontwijken, maar beweeg met de partner mee.",
-        "Veiligheid: let op elkaars grenzen, bouw intensiteit en snelheid geleidelijk op."
-      ]
-    },
-    "exercises": {
-      "title": "Oefeningen",
-      "subtitle": "Specifieke oefeningen en routines",
-      "list": [
-        {
-          "title": "Swinging Arm Drill",
-          "text": "Beide partners zwaaien de linkerarm ontspannen tegen elkaar aan (binnenkant van de arm). Bouw op naar buitenwaartse en binnenwaartse blokken, en wissel af van arm tot arm."
-        },
-        {
-          "title": "Stepping & Blocking Drill",
-          "text": "Eén persoon stapt naar voren en stoot, de ander stapt achteruit en blokt met open hand, gevolgd door een openhandige slag. Rollen worden omgedraaid. Herhaal voor een aantal herhalingen of een bepaalde tijd."
-        },
-        {
-          "title": "Ippon Uke Barai (One-Step Blocking Practice)",
-          "text": "Beide partners stappen naar voren in sanchin dachi en blokkeren met jodan age uke. Stap terug, herhaal met chudan uke en gedan uke. Focus op ritme, ademhaling en controle."
-        },
-        {
-          "title": "Sandan Uke Barai (Three-Step Blocking Practice)",
-          "text": "Drie opeenvolgende stappen en blokken: jodan, chudan, gedan. Daarna rollen omdraaien. Belangrijk: niet ontwijken, maar contact maken en timing oefenen."
-        },
-        {
-          "title": "Wrist Rotation",
-          "text": "Sta tegenover elkaar in sanchin dachi, polsen tegen elkaar. Draai de handen naar je toe, dan van je af, houd contact. Dit verbetert verbinding (muchimi) en kracht in het bovenlichaam."
-        }
-      ]
-    }
   }
 } 

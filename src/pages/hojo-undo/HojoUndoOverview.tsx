@@ -44,8 +44,11 @@ const HojoUndoOverview = () => {
       color: "bg-orange-500",
       textColor: "text-orange-500",
       items: [
+        { title: "Functie", path: "/hojo-undo/kongoken/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/kongoken/construction", icon: Wrench },
         { title: "Klassieke oefeningen", path: "/hojo-undo/kongoken/classic-exercises", icon: Clock },
-        { title: "Oefeningen", path: "/hojo-undo/kongoken/exercises", icon: Dumbbell }
+        { title: "Oefeningen", path: "/hojo-undo/kongoken/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/kongoken/attention-points", icon: Eye }
       ]
     },
     {
@@ -60,6 +63,97 @@ const HojoUndoOverview = () => {
         { title: "Oefeningen", path: "/hojo-undo/ishi-sashi/exercises", icon: Dumbbell },
         { title: "Aandachtspunten", path: "/hojo-undo/ishi-sashi/attention-points", icon: Eye }
       ]
+    },
+    {
+      title: "Makiwara",
+      subtitle: "Stootplank voor impact training",
+      icon: Shield,
+      color: "bg-red-500",
+      textColor: "text-red-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/makiwara/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/makiwara/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/makiwara/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/makiwara/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Tan",
+      subtitle: "Halter voor krachttraining",
+      icon: Dumbbell,
+      color: "bg-indigo-500",
+      textColor: "text-indigo-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/tan/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/tan/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/tan/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/tan/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Tetsu Geta",
+      subtitle: "Ijzeren sandalen voor beenkracht",
+      icon: Flag,
+      color: "bg-teal-500",
+      textColor: "text-teal-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/tetsu-geta/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/tetsu-geta/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/tetsu-geta/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/tetsu-geta/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Jari Bako",
+      subtitle: "Grindemmer voor krachttraining",
+      icon: Weight,
+      color: "bg-yellow-500",
+      textColor: "text-yellow-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/jari-bako/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/jari-bako/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/jari-bako/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/jari-bako/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Ton",
+      subtitle: "Houten ton voor krachttraining",
+      icon: Weight,
+      color: "bg-amber-500",
+      textColor: "text-amber-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/ton/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/ton/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/ton/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/ton/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Makiage",
+      subtitle: "Makiage Kigu voor kracht en techniek",
+      icon: Dumbbell,
+      color: "bg-pink-500",
+      textColor: "text-pink-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/makiage/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/makiage/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/makiage/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/makiage/attention-points", icon: Eye }
+      ]
+    },
+    {
+      title: "Ude Tanren",
+      subtitle: "Armconditionering met partner",
+      icon: Users,
+      color: "bg-cyan-500",
+      textColor: "text-cyan-500",
+      items: [
+        { title: "Functie", path: "/hojo-undo/ude-tanren/function", icon: Target },
+        { title: "Constructie", path: "/hojo-undo/ude-tanren/construction", icon: Wrench },
+        { title: "Oefeningen", path: "/hojo-undo/ude-tanren/exercises", icon: Dumbbell },
+        { title: "Aandachtspunten", path: "/hojo-undo/ude-tanren/attention-points", icon: Eye }
+      ]
     }
   ];
 
@@ -73,7 +167,11 @@ const HojoUndoOverview = () => {
         "Chi ishi - Stenen hefboom gewicht",
         "Nigiri game - Grijpvazen", 
         "Kongoken - Ijzeren ovaal",
-        "Ishi sashi - Stenen hangsloten"
+        "Ishi sashi - Stenen hangsloten",
+        "Tan - Halter",
+        "Jari bako - Grindemmer",
+        "Ton - Houten ton",
+        "Makiage - Makiage Kigu"
       ]
     },
     {
@@ -83,9 +181,8 @@ const HojoUndoOverview = () => {
       color: "bg-red-500",
       items: [
         "Makiwara - Stootplank",
-        "Suna bako - Zandemmer",
-        "Jari bako - Grindemmer",
-        "Tanren kumite - Partner hardening"
+        "Tetsu geta - Ijzeren sandalen",
+        "Ude tanren - Armconditionering"
       ]
     }
   ];

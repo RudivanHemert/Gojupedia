@@ -113,17 +113,18 @@
     "chiIshi": {
       "name": "Chi Ishi",
       "translation": "Stone Lever Weight",
-      "description": "Stone lever weight for wrist and grip strength",
+      "description": "Stone lever weight for wrist and grip strength, develops muchimi and chinkuchi kakin power",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
       "function": {
         "title": "Function",
-        "description": "The chi ishi is a 'stone lever weight' that is still used in China.",
+        "description": "The chi ishi is a 'stone lever weight' that is still used in China, e.g. in the province of Fuzhou.",
         "mainFunctions": [
           "Strengthens muscles of forearm and hand",
           "Supports wrist stability in punching and striking techniques",
-          "Strengthens grip for close combat techniques",
-          "Develops muchimi power and chinkuchi kakin power"
+          "Strengthens grip for close combat techniques (pulling, throwing, locking techniques and hiki uke)",
+          "Develops muchimi power through increased resistance in movement",
+          "Develops chinkuchi kakin power through gripping at the end of movements"
         ],
         "trainingEffects": [
           "Improved wrist stability",
@@ -136,18 +137,18 @@
       "construction": {
         "title": "Construction",
         "dimensions": {
-          "stickLength": { "label": "Stick Length", "value": "Recommended: Shoulder width" },
-          "stickDiameter": { "label": "Stick Diameter", "value": "Thickness determines training effect" },
-          "stoneDiameter": { "label": "Stone Diameter", "value": "No more than 20-30 cm" },
+          "stickLength": { "label": "Stick Length", "value": "Preferably shoulder width (longer versions for throwing techniques)" },
+          "stickDiameter": { "label": "Stick Diameter", "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)" },
+          "stoneDiameter": { "label": "Stone Diameter", "value": "No more than 20-30 cm (limited movement space)" },
           "stoneHeight": { "label": "Stone Height", "value": "No higher than 10-15 cm" }
         },
         "materials": {
           "stone": "Concrete mixture with fine gravel",
-          "connection": "Nails, screws or screw anchors"
+          "connection": "Nails, screws or screw anchors (0.25x stone diameter)"
         },
         "weight": {
           "beginners": "2-3 kg",
-          "advanced": "6-10 kg"
+          "advanced": "6-7 kg or even 10 kg"
         }
       },
       "attentionPoints": {
@@ -157,7 +158,10 @@
           "'Tense the latissimus dorsi'",
           "'Tense the wrist'",
           "'Grip firmly'",
-          "'Breathe out from the tanden'"
+          "'Breathe out from the tanden'",
+          "'Combine external muscle power and internal breath power'",
+          "'Practice the weak side more often'",
+          "'Practice fast punches after an exercise series to avoid becoming slow'"
         ],
         "breathingTechniques": {
           "slow": "Sanchin breathing with H(u)ah and Hatt sounds",
@@ -190,17 +194,11 @@
           ]
         },
         "advancedExercises": [
-          "Wrist swing exercises",
-          "Shadow fighting",
-          "Hardening training with stone",
-          "Shin training with stick"
-        ],
-        "practicalTips": [
-          "Start with lighter weights",
-          "Focus first on correct execution",
-          "Integrate sanchin breathing",
-          "Take sufficient rest between series",
-          "Alternate between different exercises"
+          "Wrist swing exercises (circular or lemniscate path)",
+          "Shadow fighting in free movement",
+          "Hardening training with stone (striking against, abdominal training)",
+          "Partner exercises",
+          "Stick rolling over shin for circulation"
         ]
       }
     },
