@@ -356,6 +356,21 @@
         "Lifting movements",
         "Rotation exercises"
       ]
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Arm Conditioning",
+      "description": "Partner exercises for conditioning the arms and training impact",
+      "origin": "Okinawa",
+      "weight": "Partner training",
+      "information": {
+        "title": "Information",
+        "description": "General information about Ude Tanren"
+      },
+      "exercises": {
+        "title": "Exercises",
+        "description": "Specific exercises and routines"
+      }
     }
   },
   "training": {

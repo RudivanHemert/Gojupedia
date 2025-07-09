@@ -286,6 +286,21 @@
         "Movimientos de levantamiento",
         "Ejercicios de rotación"
       ]
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Acondicionamiento de Brazos",
+      "description": "Ejercicios de pareja para acondicionar los brazos y entrenar el impacto",
+      "origin": "Okinawa",
+      "weight": "Entrenamiento de pareja",
+      "information": {
+        "title": "Información",
+        "description": "Información general sobre Ude Tanren"
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "description": "Ejercicios específicos y rutinas"
+      }
     }
   },
   "sections": {

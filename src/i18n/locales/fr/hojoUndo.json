@@ -286,6 +286,21 @@
         "Mouvements de levage",
         "Exercices de rotation"
       ]
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Conditionnement des Bras",
+      "description": "Exercices de partenaire pour conditionner les bras et entraîner l'impact",
+      "origin": "Okinawa",
+      "weight": "Entraînement de partenaire",
+      "information": {
+        "title": "Information",
+        "description": "Informations générales sur Ude Tanren"
+      },
+      "exercises": {
+        "title": "Exercices",
+        "description": "Exercices spécifiques et routines"
+      }
     }
   },
   "training": {

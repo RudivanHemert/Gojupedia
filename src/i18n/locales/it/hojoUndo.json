@@ -292,6 +292,21 @@
         "Movimenti di sollevamento",
         "Esercizi di rotazione"
       ]
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Condizionamento delle Braccia",
+      "description": "Esercizi di partner per condizionare le braccia e allenare l'impatto",
+      "origin": "Okinawa",
+      "weight": "Allenamento di partner",
+      "information": {
+        "title": "Informazione",
+        "description": "Informazioni generali su Ude Tanren"
+      },
+      "exercises": {
+        "title": "Esercizi",
+        "description": "Esercizi specifici e routine"
+      }
     }
   },
   "sections": {

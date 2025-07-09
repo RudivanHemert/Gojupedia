@@ -21,14 +21,13 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import UdeTanrenSection from '@/components/hojo-undo/UdeTanrenSection';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const HojoUndoPage = () => {
   const { t } = useTranslation();
 
   const getEquipmentData = () => {
-    const equipment = ['chiIshi', 'nigiriGame', 'kongoken', 'ishiSashi'];
+    const equipment = ['chiIshi', 'nigiriGame', 'kongoken', 'ishiSashi', 'udeTanren'];
     return equipment.map(key => {
       const data = t(`hojoUndo.equipment.${key}`, { returnObjects: true }) as any;
       return {
@@ -37,10 +36,8 @@ const HojoUndoPage = () => {
           name: key,
           translation: '',
           description: '',
-          function: { title: 'Function' },
-          construction: { title: 'Construction' },
-          attentionPoints: { title: 'Attention Points' },
-          exercises: { title: 'Exercises' }
+          origin: '',
+          weight: ''
         }
       };
     });
@@ -51,11 +48,12 @@ const HojoUndoPage = () => {
   const getEquipmentIcon = (key: string) => {
     const icons = {
       chiIshi: Weight,
-      nigiriGame: HandMetal,
+      nigiriGame: Dumbbell,
       kongoken: Target,
-      ishiSashi: Shield
+      ishiSashi: Shield,
+      udeTanren: Dumbbell
     };
-    return icons[key as keyof typeof icons] || Info;
+    return icons[key as keyof typeof icons] || BookOpen;
   };
 
   const getEquipmentColor = (key: string) => {
@@ -63,7 +61,8 @@ const HojoUndoPage = () => {
       chiIshi: 'bg-blue-500',
       nigiriGame: 'bg-green-500',
       kongoken: 'bg-orange-500',
-      ishiSashi: 'bg-purple-500'
+      ishiSashi: 'bg-purple-500',
+      udeTanren: 'bg-red-500'
     };
     return colors[key as keyof typeof colors] || 'bg-gray-500';
   };
@@ -73,7 +72,8 @@ const HojoUndoPage = () => {
       chiIshi: 'text-blue-500',
       nigiriGame: 'text-green-500',
       kongoken: 'text-orange-500',
-      ishiSashi: 'text-purple-500'
+      ishiSashi: 'text-purple-500',
+      udeTanren: 'text-red-500'
     };
     return colors[key as keyof typeof colors] || 'text-gray-500';
   };
@@ -93,7 +93,6 @@ const HojoUndoPage = () => {
       description: string;
     }>;
     exercises?: Array<{ title: string; text: string }>;
-    udeTanrenData?: any;
   }> = [
     {
       title: t('hojoUndo.introduction.title'),
@@ -116,6 +115,35 @@ const HojoUndoPage = () => {
       const color = getEquipmentColor(item.key);
       const textColor = getEquipmentTextColor(item.key);
       
+      // Special handling for Ude Tanren which has a different structure
+      if (item.key === 'udeTanren') {
+        return {
+          title: item.data.name,
+          translation: item.data.translation,
+          description: item.data.description,
+          icon: Icon,
+          color,
+          textColor,
+          category: t('hojoUndo.categories.primaryEquipment'),
+          links: [
+            { 
+              name: 'Informatie', 
+              path: '/hojo-undo/ude-tanren/information',
+              icon: Info,
+              description: 'Algemene informatie over Ude Tanren'
+            },
+            { 
+              name: 'Oefeningen', 
+              path: '/hojo-undo/ude-tanren/exercises',
+              icon: Dumbbell,
+              description: 'Specifieke oefeningen en routines'
+            },
+          ],
+          exercises: item.data.exercises
+        };
+      }
+      
+      // Original logic for other equipment
       return {
         title: item.data.name,
         translation: item.data.translation,
@@ -152,18 +180,7 @@ const HojoUndoPage = () => {
         ],
         exercises: item.data.exercises
       };
-    }),
-    {
-      title: t('hojoUndo.udeTanren.name'),
-      translation: t('hojoUndo.udeTanren.translation'),
-      description: t('hojoUndo.udeTanren.description'),
-      icon: Dumbbell,
-      color: 'bg-red-500',
-      textColor: 'text-red-500',
-      category: t('hojoUndo.categories.primaryEquipment'),
-      links: [],
-      udeTanrenData: t('hojoUndo.udeTanren', { returnObjects: true }) as any
-    }
+    })
   ];
 
   return (
@@ -247,10 +264,6 @@ const HojoUndoPage = () => {
                       </Link>
                     ))}
                   </div>
-
-                  {section.udeTanrenData && (
-                    <UdeTanrenSection />
-                  )}
                 </CardContent>
               </Card>
             </motion.div>

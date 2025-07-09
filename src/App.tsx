@@ -74,10 +74,11 @@ import QuizListPage from './pages/study/QuizListPage';
 import FlashcardListPage from './pages/study/FlashcardListPage';
 
 // Import Ude Tanren components
-import UdeTanrenFunction from './pages/hojo-undo/ude-tanren/Function';
-import UdeTanrenConstruction from './pages/hojo-undo/ude-tanren/Construction';
-import UdeTanrenAttentionPoints from './pages/hojo-undo/ude-tanren/AttentionPoints';
-import UdeTanrenExercises from './pages/hojo-undo/ude-tanren/Exercises';
+import SwingingArmDrill from './pages/hojo-undo/ude-tanren/exercises/SwingingArmDrill';
+import SteppingBlockingDrill from './pages/hojo-undo/ude-tanren/exercises/SteppingBlockingDrill';
+import IpponUkeBarai from './pages/hojo-undo/ude-tanren/exercises/IpponUkeBarai';
+import SandanUkeBarai from './pages/hojo-undo/ude-tanren/exercises/SandanUkeBarai';
+import WristRotation from './pages/hojo-undo/ude-tanren/exercises/WristRotation';
 
 // Import terminology sub-pages
 import Stances from './pages/terminology/Stances';
@@ -208,10 +209,11 @@ const AppContent = React.memo(() => {
               <Route path="/hojo-undo/general/intro" element={<GeneralIntro />} />
               <Route path="/hojo-undo/general/strength" element={<StrengthExercises />} />
               <Route path="/hojo-undo/general/hardening" element={<HardeningExercises />} />
-              <Route path="/hojo-undo/ude-tanren/function" element={<UdeTanrenFunction />} />
-              <Route path="/hojo-undo/ude-tanren/construction" element={<UdeTanrenConstruction />} />
-              <Route path="/hojo-undo/ude-tanren/attention-points" element={<UdeTanrenAttentionPoints />} />
-              <Route path="/hojo-undo/ude-tanren/exercises" element={<UdeTanrenExercises />} />
+              <Route path="/hojo-undo/ude-tanren/exercises/swinging-arm-drill" element={<SwingingArmDrill />} />
+              <Route path="/hojo-undo/ude-tanren/exercises/stepping-blocking-drill" element={<SteppingBlockingDrill />} />
+              <Route path="/hojo-undo/ude-tanren/exercises/ippon-uke-barai" element={<IpponUkeBarai />} />
+              <Route path="/hojo-undo/ude-tanren/exercises/sandan-uke-barai" element={<SandanUkeBarai />} />
+              <Route path="/hojo-undo/ude-tanren/exercises/wrist-rotation" element={<WristRotation />} />
               <Route path="/hojo-undo/:equipmentId/:sectionKey" element={<HojoUndoSectionPage />} />
               <Route path="/newaza" element={<NewazaPage />} />
               <Route path="/newaza/introduction" element={<NewazaIntroduction />} />

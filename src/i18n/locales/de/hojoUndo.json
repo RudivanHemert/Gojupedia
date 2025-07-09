@@ -292,6 +292,21 @@
         "Hebebewegungen",
         "Rotationsübungen"
       ]
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Armkonditionierung",
+      "description": "Partnerübungen zur Konditionierung der Arme und zum Training von Aufprall",
+      "origin": "Okinawa",
+      "weight": "Partner-Training",
+      "information": {
+        "title": "Information",
+        "description": "Allgemeine Informationen über Ude Tanren"
+      },
+      "exercises": {
+        "title": "Übungen",
+        "description": "Spezifische Übungen und Routinen"
+      }
     }
   },
   "sections": {

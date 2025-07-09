@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { ChevronLeft, Dumbbell, Target, Brain, Shield, Clock, Users, Weight, HandMetal, Hammer, Eye, Wrench, Flag } from 'lucide-react';
+import { ChevronLeft, Dumbbell, Target, Brain, Shield, Clock, Users, Weight, HandMetal, Hammer, Eye, Wrench, Flag, Info } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -149,10 +149,8 @@ const HojoUndoOverview = () => {
       color: "bg-cyan-500",
       textColor: "text-cyan-500",
       items: [
-        { title: "Functie", path: "/hojo-undo/ude-tanren/function", icon: Target },
-        { title: "Constructie", path: "/hojo-undo/ude-tanren/construction", icon: Wrench },
-        { title: "Oefeningen", path: "/hojo-undo/ude-tanren/exercises", icon: Dumbbell },
-        { title: "Aandachtspunten", path: "/hojo-undo/ude-tanren/attention-points", icon: Eye }
+        { title: "Informatie", path: "/hojo-undo/ude-tanren/information", icon: Info },
+        { title: "Oefeningen", path: "/hojo-undo/ude-tanren/exercises", icon: Dumbbell }
       ]
     }
   ];

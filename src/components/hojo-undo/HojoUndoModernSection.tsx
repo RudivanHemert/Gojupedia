@@ -28,7 +28,7 @@ import { useTranslation } from 'react-i18next';
 
 interface HojoUndoModernSectionProps {
   equipmentKey: 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi' | 'makiwara' | 'tan' | 'tetsuGeta' | 'jariBako' | 'ton' | 'makiage' | 'udeTanren';
-  sectionKey: 'function' | 'construction' | 'attentionPoints' | 'exercises';
+  sectionKey: 'function' | 'construction' | 'attentionPoints' | 'exercises' | 'information';
   backPath: string;
 }
 
@@ -52,6 +52,21 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
   const section = getSectionData();
 
   const getNavigationLinks = () => {
+    // Special handling for Ude Tanren which has a different structure
+    if (equipmentKey === 'udeTanren') {
+      const sections = ['information', 'exercises'];
+      const icons = [Info, Activity];
+      
+      return sections.map((sec, index) => ({
+        path: `/hojo-undo/ude-tanren/${sec}`,
+        label: sec === 'information' ? 'Informatie' : 'Oefeningen',
+        description: sec === 'information' ? 'Algemene informatie over Ude Tanren' : 'Specifieke oefeningen en routines',
+        icon: icons[index],
+        isActive: sec === sectionKey
+      }));
+    }
+    
+    // Original logic for other equipment
     const sections = ['function', 'construction', 'attentionPoints', 'exercises'];
     const icons = [Target, Hammer, Eye, Activity];
     
@@ -84,6 +99,245 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
   const renderContent = () => {
     if (!section) return null;
 
+    // Special handling for Ude Tanren
+    if (equipmentKey === 'udeTanren') {
+      switch (sectionKey) {
+        case 'information':
+          return (
+            <div className="space-y-6">
+              {/* Wat is Ude Tanren */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Info className="mr-3 h-6 w-6 text-blue-500" />
+                    Wat is Ude Tanren?
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-base leading-relaxed">
+                    Ude Tanren (腕鍛錬) betekent letterlijk "arm smeden" of "arm conditionering". Het zijn partneroefeningen die specifiek gericht zijn op het conditioneren van de armen door middel van gecontroleerde impact en contact.
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Hoofddoelen */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Target className="mr-3 h-6 w-6 text-green-500" />
+                    Hoofddoelen
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {[
+                      'Conditionering van armen en lichaam',
+                      'Training van impact geven en ontvangen',
+                      'Ontwikkeling van \'schok\' vaardigheid',
+                      'Versterking van lichaam en geest',
+                      'Leren incasseren en slaan'
+                    ].map((goal, index) => (
+                      <motion.li
+                        key={index}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: index * 0.1 }}
+                        className="flex items-start"
+                      >
+                        <div className="w-2 h-2 rounded-full bg-green-500 mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-base leading-relaxed">{goal}</span>
+                      </motion.li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Veiligheidsrichtlijnen */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Shield className="mr-3 h-6 w-6 text-red-500" />
+                    Veiligheidsrichtlijnen
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {[
+                      'Begin met lichte impact, bouw langzaam op',
+                      'Houd de schouders ontspannen en beweeg vloeiend',
+                      'Impact moet op het harde deel van de arm, niet op de zachte onderkant',
+                      'Luister naar je lichaam en die van je partner'
+                    ].map((guideline, index) => (
+                      <motion.li
+                        key={index}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: index * 0.1 }}
+                        className="flex items-start"
+                      >
+                        <div className="w-2 h-2 rounded-full bg-red-500 mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-base leading-relaxed">{guideline}</span>
+                      </motion.li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Partner Training */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Users className="mr-3 h-6 w-6 text-purple-500" />
+                    Partner Training
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <p className="text-base leading-relaxed">
+                      Regelmatige training met een partner is essentieel om niet alleen te leren slaan, maar ook om te leren incasseren. Deze oefeningen helpen bij het ontwikkelen van wederzijds respect en begrip voor de impact van technieken.
+                    </p>
+                    <div className="grid gap-3">
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-base leading-relaxed">Wederzijds respect en communicatie</span>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-base leading-relaxed">Geleidelijke opbouw van intensiteit</span>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-base leading-relaxed">Constructieve feedback en aanpassing</span>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          );
+        case 'exercises':
+          return (
+            <div className="space-y-6">
+              {/* Introductie */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Activity className="mr-3 h-6 w-6 text-green-500" />
+                    Ude Tanren Oefeningen
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-base leading-relaxed">
+                    Ude Tanren oefeningen zijn partneroefeningen die het lichaam conditioneren voor impact en contact. Deze oefeningen helpen bij het ontwikkelen van kracht, uithoudingsvermogen en het vermogen om impact te geven en te ontvangen.
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Basis Oefeningen */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Target className="mr-3 h-6 w-6 text-blue-500" />
+                    Basis Oefeningen
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4 py-2">
+                      <h4 className="font-semibold text-lg mb-2">Swinging Arm Drill</h4>
+                      <p className="text-base leading-relaxed mb-2">Basis oefening voor arm conditionering met ontspannen zwaaibewegingen</p>
+                      <div className="text-sm text-muted-foreground">
+                        <strong>Techniek:</strong> Beide partners zwaaien de linkerarm ontspannen tegen elkaar aan (binnenkant van de arm)
+                      </div>
+                    </div>
+                    
+                    <div className="border-l-4 border-blue-500 pl-4 py-2">
+                      <h4 className="font-semibold text-lg mb-2">Stepping & Blocking Drill</h4>
+                      <p className="text-base leading-relaxed mb-2">Dynamische oefening met stappen vooruit en achteruit, blokken en slagen</p>
+                      <div className="text-sm text-muted-foreground">
+                        <strong>Uitvoering:</strong> Partner A stapt naar voren met een stoot, Partner B stapt achteruit en blokt
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Geavanceerde Oefeningen */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Zap className="mr-3 h-6 w-6 text-orange-500" />
+                    Geavanceerde Oefeningen
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-orange-500 pl-4 py-2">
+                      <h4 className="font-semibold text-lg mb-2">Ippon Uke Barai</h4>
+                      <p className="text-base leading-relaxed mb-2">One-step blocking practice met jodan, chudan en gedan blokken</p>
+                      <div className="text-sm text-muted-foreground">
+                        <strong>Focus:</strong> Behoud sanchin dachi positie en synchroniseer bewegingen met partner
+                      </div>
+                    </div>
+                    
+                    <div className="border-l-4 border-orange-500 pl-4 py-2">
+                      <h4 className="font-semibold text-lg mb-2">Sandan Uke Barai</h4>
+                      <p className="text-base leading-relaxed mb-2">Three-step blocking practice met opeenvolgende technieken</p>
+                      <div className="text-sm text-muted-foreground">
+                        <strong>Belangrijk:</strong> Niet ontwijken, maar contact maken en timing oefenen
+                      </div>
+                    </div>
+                    
+                    <div className="border-l-4 border-orange-500 pl-4 py-2">
+                      <h4 className="font-semibold text-lg mb-2">Wrist Rotation</h4>
+                      <p className="text-base leading-relaxed mb-2">Pols rotatie oefening voor verbetering van verbinding en stabiliteit</p>
+                      <div className="text-sm text-muted-foreground">
+                        <strong>Voordelen:</strong> Verbetert verbinding (muchimi) en ontwikkelt kracht in het bovenlichaam
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Training Tips */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center text-xl">
+                    <Brain className="mr-3 h-6 w-6 text-purple-500" />
+                    Training Tips
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {[
+                      'Begin altijd met lichte impact en bouw geleidelijk op',
+                      'Focus op juiste techniek voordat je intensiteit verhoogt',
+                      'Communiceer duidelijk met je partner over comfortniveau',
+                      'Neem voldoende rust tussen oefeningen',
+                      'Integreer ademhaling in alle bewegingen'
+                    ].map((tip, index) => (
+                      <motion.li
+                        key={index}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: index * 0.1 }}
+                        className="flex items-start"
+                      >
+                        <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-base leading-relaxed">{tip}</span>
+                      </motion.li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          );
+        default:
+          return null;
+      }
+    }
+
+    // Original logic for other equipment
     switch (sectionKey) {
       case 'function':
         return (

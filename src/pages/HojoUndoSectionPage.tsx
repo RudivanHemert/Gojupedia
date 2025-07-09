@@ -34,13 +34,14 @@ const HojoUndoSectionPage = () => {
       'construction': 'construction',
       'attention-points': 'attentionPoints',
       'exercises': 'exercises',
+      'information': 'information',
     };
     
     return sectionMap[sectionKey] || 'function';
   };
 
   const equipmentKey = getEquipmentKey() as 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi' | 'makiwara' | 'tan' | 'tetsuGeta' | 'jariBako' | 'ton' | 'makiage' | 'udeTanren';
-  const sectionKeyValue = getSectionKey() as 'function' | 'construction' | 'attentionPoints' | 'exercises';
+  const sectionKeyValue = getSectionKey() as 'function' | 'construction' | 'attentionPoints' | 'exercises' | 'information';
 
   return (
     <HojoUndoModernSection

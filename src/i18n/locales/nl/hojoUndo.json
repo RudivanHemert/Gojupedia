@@ -938,69 +938,13 @@
       "description": "Partneroefeningen voor het conditioneren van de armen en het trainen van impact",
       "origin": "Okinawa",
       "weight": "Partner training",
-      "function": {
-        "title": "Functie",
-        "description": "Ude Tanren zijn partneroefeningen voor het conditioneren van de armen en het trainen van impact.",
-        "mainFunctions": [
-          "Conditionering van armen en lichaam",
-          "Training van impact geven en ontvangen",
-          "Ontwikkeling van 'schok' vaardigheid",
-          "Versterking van lichaam en geest",
-          "Leren incasseren en slaan"
-        ],
-        "trainingEffects": [
-          "Verharde armen en lichaam",
-          "Betere impact absorptie",
-          "Verhoogde pijnweerstand",
-          "Verbeterde partner training",
-          "Versterkte mentale discipline"
-        ]
-      },
-      "construction": {
-        "title": "Constructie",
-        "materials": [
-          "Partner training",
-          "Geen specifieke apparatuur nodig",
-          "Veilige trainingsomgeving",
-          "Beschermende kleding optioneel"
-        ],
-        "dimensions": {
-          "type": { "label": "Type", "value": "Partner oefeningen" },
-          "intensity": { "label": "Intensiteit", "value": "Aanpasbaar aan niveau" }
-        }
-      },
-      "attentionPoints": {
-        "title": "Aandachtspunten",
-        "importantPoints": [
-          "Begin met lichte impact, bouw langzaam op",
-          "Houd de schouders ontspannen en beweeg vloeiend",
-          "Impact moet op het harde deel van de arm, niet op de zachte onderkant",
-          "Probeer niet te ontwijken, maar beweeg met de partner mee",
-          "Let op elkaars grenzen, bouw intensiteit geleidelijk op"
-        ],
-        "safetyGuidelines": [
-          "Juiste warming-up essentieel",
-          "Stop bij pijn of ongemak",
-          "Communicatie met partner belangrijk",
-          "Bouw intensiteit en snelheid geleidelijk op",
-          "Train onder deskundige begeleiding"
-        ]
+      "information": {
+        "title": "Informatie",
+        "description": "Algemene informatie over Ude Tanren"
       },
       "exercises": {
         "title": "Oefeningen",
-        "basicExercises": [
-          "Swinging Arm Drill (zwaaiende arm oefening)",
-          "Stepping & Blocking Drill (stap en blok oefening)",
-          "Ippon Uke Barai (één-stap blok oefening)",
-          "Sandan Uke Barai (drie-stap blok oefening)",
-          "Wrist Rotation (pols rotatie)"
-        ],
-        "advancedExercises": [
-          "Geavanceerde partner technieken",
-          "Combinatie oefeningen",
-          "Uithoudingsvermogen training",
-          "Specifieke impact training"
-        ]
+        "description": "Specifieke oefeningen en routines"
       }
     }
   },
