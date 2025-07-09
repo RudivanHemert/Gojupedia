@@ -14,20 +14,20 @@ const SettingsPage = () => {
       id: 'language',
       title: 'Taal & Lokalisatie',
       description: 'Kies je voorkeurstaal en regio-instellingen',
-      icon: <Globe className="h-6 w-6 text-blue-500" />,
+      icon: <Globe className="h-6 w-6 text-blue-500 dark:text-blue-400" />,
       component: <LanguageSelector />
     },
     {
       id: 'theme',
       title: 'Uiterlijk & Thema',
       description: 'Pas het uiterlijk van de app aan',
-      icon: <Palette className="h-6 w-6 text-purple-500" />,
+      icon: <Palette className="h-6 w-6 text-purple-500 dark:text-purple-400" />,
       component: <ThemeSelector />
     }
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title="Instellingen"
         description="Pas je voorkeuren en instellingen aan"
@@ -39,11 +39,11 @@ const SettingsPage = () => {
           {settingsSections.map((section) => (
             <Card key={section.id} className="hover:shadow-md transition-shadow">
               <CardHeader>
-                <CardTitle className="flex items-center gap-3">
+                <CardTitle className="flex items-center gap-3 text-foreground">
                   {section.icon}
                   {section.title}
                 </CardTitle>
-                <p className="text-sm text-gray-600">{section.description}</p>
+                <p className="text-sm text-muted-foreground">{section.description}</p>
               </CardHeader>
               <CardContent>
                 {section.component}

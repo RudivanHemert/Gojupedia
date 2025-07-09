@@ -184,7 +184,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
       {/* Sidebar */}
       <div
         className={cn(
-          "fixed left-0 top-0 h-full bg-white border-r border-stone-200 z-50 transition-all duration-300 ease-in-out shadow-lg flex flex-col",
+          "fixed left-0 top-0 h-full bg-card border-r border-border z-50 transition-all duration-300 ease-in-out shadow-lg flex flex-col",
           // Mobile: hidden by default, slide in when open
           "lg:relative lg:translate-x-0",
           isOpen ? "translate-x-0 w-64" : "-translate-x-full w-64 lg:w-16",
@@ -193,9 +193,9 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
         style={{ maxWidth: '90vw' }}
       >
         {/* Header */}
-        <div className="flex items-center justify-between p-4 border-b border-stone-200 bg-stone-50">
+        <div className="flex items-center justify-between p-4 border-b border-border bg-muted/30">
           {isOpen && (
-            <h2 className="text-lg font-semibold text-stone-800">
+            <h2 className="text-lg font-semibold text-foreground">
               GojuPedia
             </h2>
           )}
@@ -203,7 +203,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
             variant="ghost"
             size="sm"
             onClick={onToggle}
-            className="p-2 hover:bg-stone-200"
+            className="p-2 hover:bg-muted"
             aria-label="Toggle sidebar"
           >
             {isOpen ? <ChevronLeft size={20} /> : <Menu size={20} />}
@@ -224,7 +224,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
                     isOpen
                       ? "w-full flex items-center h-12 px-3 text-base transition-all duration-200 justify-start"
                       : "w-full flex items-center justify-center h-12 transition-all duration-200",
-                    isActive ? "bg-stone-100 text-stone-900 border-stone-300" : "hover:bg-stone-50 text-stone-600 hover:text-stone-900"
+                    isActive ? "bg-primary/10 text-primary border-primary/20" : "hover:bg-muted text-muted-foreground hover:text-foreground"
                   )}
                   size={isOpen ? undefined : "icon"}
                   title={t(section.labelKey)}
@@ -253,7 +253,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
                           "w-full flex items-center h-10 px-2 text-sm rounded-md transition-all duration-150",
                           currentPath.startsWith(sublink.path)
                             ? "bg-primary/10 text-primary font-semibold"
-                            : "hover:bg-stone-100 text-stone-700"
+                            : "hover:bg-muted text-muted-foreground hover:text-foreground"
                         )}
                         onClick={() => handleSubClick(sublink.path)}
                         style={{ textAlign: 'left' }}

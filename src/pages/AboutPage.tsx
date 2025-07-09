@@ -8,7 +8,7 @@ const AboutPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title="Over"
         description="Over Gojupedia en Goju Ryu Karate"
@@ -17,69 +17,75 @@ const AboutPage = () => {
       <div className="p-4 max-w-4xl mx-auto">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Heart className="h-6 w-6 text-red-500" />
+            <CardTitle className="flex items-center gap-2 text-foreground">
+              <Heart className="h-6 w-6 text-red-500 dark:text-red-400" />
               {t('about.title', 'Over GojuPedia')}
             </CardTitle>
-            <CardDescription>
+            <CardDescription className="text-muted-foreground">
               {t('about.subtitle', 'Uw complete bron voor Goju-Ryu Karate kennis')}
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="prose prose-sm max-w-none">
-              <p className="text-muted-foreground leading-relaxed">
-                {t('about.description', 'De maker van deze app heeft zijn best gedaan om de app te vullen met de best beschikbare data uit betrouwbare bronnen en van ervaren karate beoefenaars.')}
+            <div className="prose prose-stone dark:prose-invert max-w-none">
+              <p className="text-muted-foreground">
+                GojuPedia is een uitgebreide digitale encyclopedie gewijd aan Goju-Ryu Karate-Do. 
+                Onze missie is om authentieke kennis en traditionele wijsheid te bewaren en toegankelijk 
+                te maken voor karateka van alle niveaus.
               </p>
               
-              <div className="mt-6 p-4 bg-muted rounded-lg">
-                <h3 className="font-semibold mb-2 flex items-center gap-2">
-                  <Shield className="h-5 w-5" />
-                  {t('about.dataQuality.title', 'Kwaliteit van de Data')}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {t('about.dataQuality.description', 'Alle informatie in deze app is zorgvuldig geselecteerd en gecontroleerd. We streven ernaar om de meest accurate en up-to-date informatie te bieden over Goju-Ryu Karate.')}
-                </p>
-              </div>
-
-              <div className="mt-6 p-4 bg-muted rounded-lg">
-                <h3 className="font-semibold mb-2 flex items-center gap-2">
-                  <Users className="h-5 w-5" />
-                  {t('about.community.title', 'Community')}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {t('about.community.description', 'Deze app is gemaakt voor de Goju-Ryu community wereldwijd. We waarderen feedback en suggesties om de app te verbeteren.')}
-                </p>
-              </div>
+              <h3 className="text-lg font-semibold text-foreground mt-6 mb-3">Onze Visie</h3>
+              <p className="text-muted-foreground">
+                We streven ernaar om de rijke geschiedenis, filosofie en technieken van Goju-Ryu 
+                te documenteren en door te geven aan toekomstige generaties. Door moderne technologie 
+                te combineren met traditionele kennis, creëren we een levende bron van karate wijsheid.
+              </p>
             </div>
 
-            <div className="border-t pt-6">
-              <h3 className="font-semibold mb-4 flex items-center gap-2">
-                <Mail className="h-5 w-5" />
-                {t('about.contact.title', 'Contact')}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+              <Card className="bg-muted/30 dark:bg-muted/10">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-foreground">
+                    <Shield className="h-5 w-5 text-blue-500 dark:text-blue-400" />
+                    Authenticiteit
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Alle content is gebaseerd op traditionele bronnen en wordt regelmatig 
+                    gecontroleerd door ervaren karateka en instructeurs.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-muted/30 dark:bg-muted/10">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-foreground">
+                    <Users className="h-5 w-5 text-green-500 dark:text-green-400" />
+                    Community
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Een groeiende gemeenschap van karateka die samenwerken om kennis 
+                    te delen en te verbeteren.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-8 p-6 bg-muted/30 dark:bg-muted/10 rounded-lg">
+              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                <Info className="h-5 w-5 text-purple-500 dark:text-purple-400" />
+                Contact & Feedback
               </h3>
               <p className="text-muted-foreground mb-4">
-                {t('about.contact.description', 'Als u in contact wilt komen met de appmaker betreffende de inhoud of functionaliteit van deze app, kunt u een e-mail sturen naar:')}
+                Heeft u suggesties, correcties of wilt u bijdragen aan GojuPedia? 
+                We waarderen uw input om deze bron te verbeteren.
               </p>
-              <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-                <a 
-                  href="mailto:rudivanhemert@gmail.com" 
-                  className="text-primary font-medium hover:underline break-all"
-                >
-                  rudivanhemert@gmail.com
-                </a>
+              <div className="flex items-center gap-2 text-muted-foreground">
+                <Mail className="h-4 w-4" />
+                <span className="text-sm">contact@gojupedia.com</span>
               </div>
-              <p className="text-sm text-muted-foreground mt-2">
-                {t('about.contact.feedback', 'We waarderen uw feedback en zullen zo snel mogelijk reageren.')}
-              </p>
-            </div>
-
-            <div className="border-t pt-6">
-              <h3 className="font-semibold mb-2">
-                {t('about.version.title', 'Versie')}
-              </h3>
-              <p className="text-sm text-muted-foreground">
-                {t('about.version.number', 'Versie 1.0.0')}
-              </p>
             </div>
           </CardContent>
         </Card>

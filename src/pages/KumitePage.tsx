@@ -1,39 +1,46 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import { Link } from 'react-router-dom';
-
-const kumiteSections = [
-  { 
-    id: 'introduction', 
-    path: '/kumite/introduction', 
-    labelKey: 'kumite.sections.introduction',
-    subsections: [
-      { id: 'what-is', path: '/kumite/introduction/what-is', labelKey: 'kumite.introduction.what-is' },
-      { id: 'types', path: '/kumite/introduction/types', labelKey: 'kumite.introduction.types-title' },
-      { id: 'safety', path: '/kumite/introduction/safety', labelKey: 'kumite.introduction.safety-title' },
-    ]
-  },
-  { 
-    id: 'techniques', 
-    path: '/kumite/techniques', 
-    labelKey: 'kumite.sections.techniques',
-    subsections: [
-      { id: 'attack', path: '/kumite/techniques/attack', labelKey: 'kumite.techniques.attack-techniques' },
-      { id: 'defense', path: '/kumite/techniques/defense', labelKey: 'kumite.techniques.defense-techniques' },
-      { id: 'throwing', path: '/kumite/techniques/throwing', labelKey: 'kumite.techniques.throwing-techniques' },
-    ]
-  },
-  { id: 'principles', path: '/kumite/principles', labelKey: 'kumite.sections.principles' },
-  { id: 'training', path: '/kumite/training', labelKey: 'kumite.sections.training' },
-  { id: 'competition', path: '/kumite/competition', labelKey: 'kumite.sections.competition' },
-];
 
 const KumitePage = () => {
   const { t } = useTranslation();
 
+  const kumiteSections = [
+    {
+      id: 'introduction',
+      labelKey: 'kumite.sections.introduction.title',
+      path: '/kumite/introduction',
+      subsections: [
+        { id: 'what-is-kumite', labelKey: 'kumite.sections.introduction.whatIsKumite', path: '/kumite/introduction/what-is-kumite' },
+        { id: 'types-of-kumite', labelKey: 'kumite.sections.introduction.typesOfKumite', path: '/kumite/introduction/types-of-kumite' },
+        { id: 'safety-and-rules', labelKey: 'kumite.sections.introduction.safetyAndRules', path: '/kumite/introduction/safety-and-rules' }
+      ]
+    },
+    {
+      id: 'principles',
+      labelKey: 'kumite.sections.principles.title',
+      path: '/kumite/principles'
+    },
+    {
+      id: 'techniques',
+      labelKey: 'kumite.sections.techniques.title',
+      path: '/kumite/techniques',
+      subsections: [
+        { id: 'attack-techniques', labelKey: 'kumite.sections.techniques.attackTechniques', path: '/kumite/techniques/attack-techniques' },
+        { id: 'defense-techniques', labelKey: 'kumite.sections.techniques.defenseTechniques', path: '/kumite/techniques/defense-techniques' },
+        { id: 'throwing-techniques', labelKey: 'kumite.sections.techniques.throwingTechniques', path: '/kumite/techniques/throwing-techniques' }
+      ]
+    },
+    {
+      id: 'competition',
+      labelKey: 'kumite.sections.competition.title',
+      path: '/kumite/competition'
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.title')}
         description={t('kumite.description')}
@@ -42,8 +49,8 @@ const KumitePage = () => {
       <div className="p-4 max-w-4xl mx-auto">
         <div className="grid gap-6">
           {kumiteSections.map(section => (
-            <div key={section.id} className="border border-muted rounded-lg p-6">
-              <h2 className="text-xl font-semibold mb-4 text-stone-800">
+            <div key={section.id} className="border border-border rounded-lg p-6 bg-card">
+              <h2 className="text-xl font-semibold mb-4 text-foreground">
                 {t(section.labelKey)}
               </h2>
               
@@ -53,7 +60,7 @@ const KumitePage = () => {
                     <Link
                       key={subsection.id}
                       to={subsection.path}
-                      className="block px-4 py-3 rounded-lg border border-muted hover:bg-muted/30 transition-colors text-lg font-medium bg-stone-50"
+                      className="block px-4 py-3 rounded-lg border border-border hover:bg-muted/30 transition-colors text-lg font-medium bg-muted/20"
                     >
                       {t(subsection.labelKey)}
                     </Link>
@@ -62,7 +69,7 @@ const KumitePage = () => {
               ) : (
                 <Link
                   to={section.path}
-                  className="block px-4 py-3 rounded-lg border border-muted hover:bg-muted/30 transition-colors text-lg font-medium bg-stone-50"
+                  className="block px-4 py-3 rounded-lg border border-border hover:bg-muted/30 transition-colors text-lg font-medium bg-muted/20"
                 >
                   {t(section.labelKey)}
                 </Link>

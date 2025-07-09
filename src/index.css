@@ -157,15 +157,15 @@
   }
   
   .traditional-border {
-    @apply border border-stone-300 bg-stone-50 rounded-md shadow-sm;
+    @apply border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-800 rounded-md shadow-sm;
   }
   
   .traditional-card {
-    @apply bg-white border border-stone-200 rounded-md shadow-sm hover:shadow-md transition-shadow;
+    @apply bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-md shadow-sm hover:shadow-md transition-shadow;
   }
   
   .traditional-heading {
-    @apply font-serif text-gray-800 border-b border-stone-200 pb-2;
+    @apply font-serif text-gray-800 dark:text-gray-200 border-b border-stone-200 dark:border-stone-700 pb-2;
   }
 }
 
@@ -174,7 +174,7 @@
   max-width: 480px;
   margin: 0 auto;
   min-height: 100vh;
-  background-color: #fcfaf7;
+  background-color: hsl(var(--background));
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
