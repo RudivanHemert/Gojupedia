@@ -17,7 +17,7 @@ const Strikes = () => {
 
   // Anders toon de overzichtspagina
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.sections.strikes')}
         description={t('terminology.sections.strikes-content.description')}
@@ -44,7 +44,7 @@ const StrikesList = ({ termsObject }: { termsObject: Record<string, any> }) => {
           <a
             key={key}
             href={`/terminology/strikes/${key}`}
-            className="block p-4 border rounded-lg hover:bg-stone-50 transition-colors"
+            className="block p-4 border rounded-lg hover:bg-muted transition-colors"
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg font-japanese">{term.japanese}</span>
@@ -77,7 +77,7 @@ const StrikeDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <div className="p-4 max-w-2xl mx-auto">
         <button
           onClick={() => navigate('/terminology/strikes')}

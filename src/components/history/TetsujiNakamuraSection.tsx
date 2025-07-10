@@ -9,7 +9,7 @@ const TetsujiNakamuraSection = () => {
   const markdownContent = useMarkdownContent('history/tetsuji-nakamura');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.tetsujiNakamura')}
         description="Een moderne Goju Ryu meester en leraar die de traditie voortzet in de 21e eeuw."

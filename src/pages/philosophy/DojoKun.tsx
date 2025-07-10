@@ -43,7 +43,7 @@ const DojoKun = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('philosophy.sections.dojo-kun.title', 'Dojo Kun')}
         description={t('philosophy.sections.dojo-kun.description', 'De vijf principes van de dojo')}

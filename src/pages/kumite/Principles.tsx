@@ -34,7 +34,7 @@ const Principles = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.principles.title')}
         description={t('kumite.principles.description')}

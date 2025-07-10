@@ -21,7 +21,7 @@ const WhatIsKumite = () => {
   const content = useMarkdownContent(`kumite/introduction/what-is-kumite.${language}`) || useMarkdownContent('kumite/introduction/what-is-kumite.en');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.introduction.what-is')}
         description={t('kumite.introduction.what-is-desc')}
@@ -39,7 +39,7 @@ const WhatIsKumite = () => {
 
         {/* Definition Card */}
         <section id="definition">
-          <Card className="p-6 flex items-start gap-4 bg-stone-50 border-primary/30">
+          <Card className="p-6 flex items-start gap-4 bg-muted border-primary/30">
             <Star className="text-primary mt-1" size={32} />
             <div>
               <h2 className="text-xl font-semibold mb-2">{t('kumite.introduction.what-is')}</h2>

@@ -7,7 +7,7 @@ const VitalPointsPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('vitalPoints.title')}
         description={t('vitalPoints.description')}

@@ -6,7 +6,7 @@ const Numbers = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.sections.numbers')}
         description={t('terminology.sections.numbers-content.description')}

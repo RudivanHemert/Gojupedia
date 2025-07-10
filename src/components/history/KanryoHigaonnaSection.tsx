@@ -9,7 +9,7 @@ const KanryoHigaonnaSection = () => {
   const markdownContent = useMarkdownContent('history/kanryo-higaonna');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.kanryoHigaonna')}
         description="De leraar van Chojun Miyagi en een belangrijke figuur in de ontwikkeling van Goju Ryu."

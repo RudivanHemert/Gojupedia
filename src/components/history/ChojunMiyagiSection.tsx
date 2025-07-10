@@ -9,7 +9,7 @@ const ChojunMiyagiSection = () => {
   const markdownContent = useMarkdownContent('history/chojun-miyagi');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.chojunMiyagi')}
         description="De grondlegger van Goju Ryu Karate en een van de meest invloedrijke karate meesters."

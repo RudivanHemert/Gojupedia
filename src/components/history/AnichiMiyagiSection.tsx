@@ -9,7 +9,7 @@ const AnichiMiyagiSection = () => {
   const markdownContent = useMarkdownContent('history/anichi-miyagi');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.anichiMiyagi')}
         description="Een van de belangrijkste leerlingen van Chojun Miyagi en een belangrijke leraar in de Goju Ryu traditie."

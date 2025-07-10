@@ -6,7 +6,7 @@ const PhrasesAndEtiquette = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.sections.phrases-etiquette')}
         description={t('terminology.sections.phrases-etiquette-content.description')}

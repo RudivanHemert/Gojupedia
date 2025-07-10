@@ -6,7 +6,7 @@ const DojoTerms = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.sections.dojo-terms')}
         description={t('terminology.sections.dojo-terms-content.description')}

@@ -20,7 +20,7 @@ const TypesOfKumite = () => {
   const content = useMarkdownContent(`kumite/introduction/types-of-kumite.${language}`) || useMarkdownContent('kumite/introduction/types-of-kumite.en');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.introduction.types-title')}
         description={t('kumite.introduction.types-desc')}

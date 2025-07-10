@@ -9,7 +9,7 @@ const MorioHigaonnaSection = () => {
   const markdownContent = useMarkdownContent('history/morio-higaonna');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.morioHigaonna')}
         description="Een van de meest gerespecteerde Goju Ryu meesters en een belangrijke leraar in de moderne tijd."

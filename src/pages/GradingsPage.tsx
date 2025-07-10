@@ -373,7 +373,7 @@ const GradingsPage = () => {
 
         <Accordion type="single" collapsible className="w-full space-y-4">
           <AccordionItem value="studentTitles" className="border rounded-lg overflow-hidden">
-            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Book className="mr-2 h-5 w-5 text-karate" />
                 <h3 className="font-semibold text-stone-700">
@@ -384,7 +384,7 @@ const GradingsPage = () => {
             <AccordionContent className="p-4 pt-2">
               <div className="grid gap-3">
                 {Object.entries(titles.studentTitles.titles).map(([key, title]: [string, any]) => (
-                  <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
+                  <div key={key} className="flex items-center justify-between p-3 bg-muted rounded-lg">
                     <div>
                       <div className="flex items-center gap-2">
                         <span className="text-lg font-japanese">{title.japanese}</span>
@@ -399,7 +399,7 @@ const GradingsPage = () => {
           </AccordionItem>
 
           <AccordionItem value="instructorTitles" className="border rounded-lg overflow-hidden">
-            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Award className="mr-2 h-5 w-5 text-karate" />
                 <h3 className="font-semibold text-stone-700">
@@ -410,7 +410,7 @@ const GradingsPage = () => {
             <AccordionContent className="p-4 pt-2">
               <div className="grid gap-3">
                 {Object.entries(titles.instructorTitles.titles).map(([key, title]: [string, any]) => (
-                  <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
+                  <div key={key} className="flex items-center justify-between p-3 bg-muted rounded-lg">
                     <div>
                       <div className="flex items-center gap-2">
                         <span className="text-lg font-japanese">{title.japanese}</span>
@@ -425,7 +425,7 @@ const GradingsPage = () => {
           </AccordionItem>
 
           <AccordionItem value="otherTitles" className="border rounded-lg overflow-hidden">
-            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <GraduationCap className="mr-2 h-5 w-5 text-karate" />
                 <h3 className="font-semibold text-stone-700">
@@ -436,7 +436,7 @@ const GradingsPage = () => {
             <AccordionContent className="p-4 pt-2">
               <div className="grid gap-3">
                 {Object.entries(titles.otherTitles.titles).map(([key, title]: [string, any]) => (
-                  <div key={key} className="flex items-center justify-between p-3 bg-stone-50 rounded-lg">
+                  <div key={key} className="flex items-center justify-between p-3 bg-muted rounded-lg">
                     <div>
                       <div className="flex items-center gap-2">
                         <span className="text-lg font-japanese">{title.japanese}</span>
@@ -475,7 +475,7 @@ const GradingsPage = () => {
 
         <Accordion type="single" collapsible className="w-full space-y-4">
           <AccordionItem value="kyuSystem" className="border rounded-lg overflow-hidden">
-            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Swords className="mr-2 h-5 w-5 text-karate" />
                 <h3 className="font-semibold text-stone-700">
@@ -487,7 +487,7 @@ const GradingsPage = () => {
               <p className="text-muted-foreground mb-4">{gradingSystem.kyuSystem.description}</p>
               <div className="grid gap-2">
                 {Object.entries(gradingSystem.kyuSystem.levels).map(([key, level]: [string, any]) => (
-                  <div key={key} className="flex items-center justify-between p-2 bg-stone-50 rounded">
+                  <div key={key} className="flex items-center justify-between p-2 bg-muted rounded">
                     <span className="font-medium">{level}</span>
                   </div>
                 ))}
@@ -496,7 +496,7 @@ const GradingsPage = () => {
           </AccordionItem>
 
           <AccordionItem value="danSystem" className="border rounded-lg overflow-hidden">
-            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+            <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Award className="mr-2 h-5 w-5 text-karate" />
                 <h3 className="font-semibold text-stone-700">
@@ -508,7 +508,7 @@ const GradingsPage = () => {
               <p className="text-muted-foreground mb-4">{gradingSystem.danSystem.description}</p>
               <div className="grid gap-2">
                 {Object.entries(gradingSystem.danSystem.levels).map(([key, level]: [string, any]) => (
-                  <div key={key} className="flex items-center justify-between p-2 bg-stone-50 rounded">
+                  <div key={key} className="flex items-center justify-between p-2 bg-muted rounded">
                     <span className="font-medium">{level}</span>
                   </div>
                 ))}
@@ -560,12 +560,12 @@ const GradingsPage = () => {
                     </h3>
                     <div className="grid grid-cols-2 gap-4">
                       {gradingData.requirements.classes > 0 && (
-                        <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center">
+                        <div className="bg-muted p-3 rounded-lg border border-border text-center">
                           <p className="text-xs text-stone-500">Minimum Classes</p>
                           <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.classes}</p>
                         </div>
                       )}
-                      <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center">
+                      <div className="bg-muted p-3 rounded-lg border border-border text-center">
                         <p className="text-xs text-stone-500">Months of Training</p>
                         <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.months}</p>
                       </div>
@@ -574,7 +574,7 @@ const GradingsPage = () => {
 
                   <Accordion type="single" collapsible className="w-full space-y-4">
                     <AccordionItem value="techniques" className="border rounded-lg overflow-hidden">
-                      <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+                      <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
                         <div className="flex items-center">
                           <Swords className="mr-2 h-5 w-5 text-karate" />
                           <h3 className="font-semibold text-stone-700">
@@ -589,7 +589,7 @@ const GradingsPage = () => {
 
                     {gradingData.knowledge && gradingData.knowledge.length > 0 && (
                       <AccordionItem value="knowledge" className="border rounded-lg overflow-hidden">
-                        <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+                        <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
                           <div className="flex items-center">
                             <Book className="mr-2 h-5 w-5 text-karate" />
                             <h3 className="font-semibold text-stone-700">
@@ -605,7 +605,7 @@ const GradingsPage = () => {
 
                     {gradingData.history && gradingData.history.length > 0 && (
                       <AccordionItem value="history" className="border rounded-lg overflow-hidden">
-                        <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-stone-50">
+                        <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
                           <div className="flex items-center">
                             <GraduationCap className="mr-2 h-5 w-5 text-karate" />
                             <h3 className="font-semibold text-stone-700">

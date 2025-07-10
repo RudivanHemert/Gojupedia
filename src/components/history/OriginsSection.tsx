@@ -10,7 +10,7 @@ const OriginsSection = () => {
   const markdownContent = useMarkdownContent('history/origins');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.origins')}
         description={t('history.origins-desc')}

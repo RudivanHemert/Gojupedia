@@ -64,7 +64,7 @@ const MindBody = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('philosophy.sections.mind-body.title', 'Geest en Lichaam')}
         description={t('philosophy.sections.mind-body.description', 'De eenheid van geest en lichaam')}

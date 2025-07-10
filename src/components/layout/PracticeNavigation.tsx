@@ -34,7 +34,7 @@ const PracticeNavigation: React.FC<PracticeNavigationProps> = ({ currentPath }) 
         navigate(value);
       }}
     >
-      <TabsList className="grid grid-cols-4 h-12 bg-stone-100">
+      <TabsList className="grid grid-cols-4 h-12 bg-muted">
         <TabsTrigger value="/techniques" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">{t('practice.nav.techniques')}</span>
         </TabsTrigger>

@@ -26,7 +26,7 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="relative py-12 bg-gradient-to-b from-stone-50 to-white border-b border-stone-200"
+      className="relative py-12 bg-gradient-to-b from-muted to-white border-b border-border"
     >
       <div className="container mx-auto px-4">
         {backUrl && (

@@ -30,7 +30,7 @@ const Warmup = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title="Training & Warming-up"
         description="Voorbereidende oefeningen en traditionele training"
@@ -67,7 +67,7 @@ const Warmup = () => {
             ))}
           </div>
 
-          <div className="mt-8 bg-stone-50 rounded-xl p-6">
+          <div className="mt-8 bg-muted rounded-xl p-6">
             <h3 className="text-lg font-semibold mb-4 text-center">Over Training in Goju Ryu</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>

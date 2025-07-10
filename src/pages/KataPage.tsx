@@ -64,7 +64,7 @@ const KataPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kata.theory.title')}
         description={t('kata.theory.description')}
@@ -94,7 +94,7 @@ const KataPage = () => {
                     to={`/kata/${kata.id}`}
                     className="block transition-transform hover:scale-[1.02]"
                   >
-                    <Card className="overflow-hidden border border-gray-200 hover:border-red-500 transition-colors">
+                    <Card className="overflow-hidden border border-border hover:border-red-500 transition-colors">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between">
                           <div className="space-y-2">

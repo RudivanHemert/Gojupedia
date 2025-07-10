@@ -184,7 +184,7 @@ const HojoUndoPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('hojoUndo.title')}
         description={t('hojoUndo.description')}

@@ -41,7 +41,7 @@ const GojuRyu = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('philosophy.sections.goju-ryu.title', 'Goju Ryu')}
         description={t('philosophy.sections.goju-ryu.description', 'De filosofie van hard en zacht')}

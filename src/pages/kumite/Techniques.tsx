@@ -9,7 +9,7 @@ const KumiteTechniques = () => {
   const content = useMarkdownContent('kumite/techniques');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.techniques.title')}
         description={t('kumite.techniques.attack-techniques')}

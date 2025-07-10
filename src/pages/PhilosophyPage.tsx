@@ -72,7 +72,7 @@ const PhilosophyPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('philosophy.title', 'Filosofie')}
         description={t('philosophy.description', 'De filosofische principes en spirituele aspecten van Goju Ryu Karate')}
@@ -92,7 +92,7 @@ const PhilosophyPage = () => {
                   <Card className="overflow-hidden hover:shadow-md transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex h-24">
-                        <div className="w-1/4 bg-stone-100 flex items-center justify-center">
+                        <div className="w-1/4 bg-muted flex items-center justify-center">
                           <div className="bg-stone-200 p-3 rounded-full">
                             {section.icon}
                           </div>

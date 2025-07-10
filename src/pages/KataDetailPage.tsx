@@ -264,7 +264,7 @@ const KataDetailPage = () => {
   
   if (!kata) {
     return (
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-background">
         <TheoryHeader 
           title={t('kataDetailPage.notFound.title')}
           description={t('kataDetailPage.notFound.message')}
@@ -298,7 +298,7 @@ const KataDetailPage = () => {
   const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t(`kata.${kata.id}.name`)}
         description={t(`kata.${kata.id}.description`)}
@@ -411,7 +411,7 @@ const KataDetailPage = () => {
               <Card>
                 <CardContent className="pt-6">
                   <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.bunkai.videoTitle')}</h2>
-                  <div className="aspect-video bg-gray-100 rounded overflow-hidden">
+                  <div className="aspect-video bg-muted rounded overflow-hidden">
                     <iframe 
                       className="w-full h-full"
                       src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
@@ -476,7 +476,7 @@ const KataDetailPage = () => {
               <Card>
                 <CardContent className="pt-6">
                   <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.shime.videoTitle')}</h2>
-                  <div className="relative pt-[56.25%] bg-gray-100 dark:bg-gray-800 rounded overflow-hidden">
+                  <div className="relative pt-[56.25%] bg-muted dark:bg-gray-800 rounded overflow-hidden">
                     <iframe 
                       className="absolute inset-0 w-full h-full"
                       src={`https://www.youtube.com/embed/${shimeVideoId}`}

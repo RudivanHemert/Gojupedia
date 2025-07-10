@@ -67,7 +67,7 @@ const BunkaiPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('bunkai.title')}
         description={t('bunkai.description')}
@@ -97,7 +97,7 @@ const BunkaiPage = () => {
                     to={`/bunkai/${kata.id}`}
                     className="block transition-transform hover:scale-[1.02]"
                   >
-                    <Card className="overflow-hidden border border-gray-200 hover:border-red-500 transition-colors">
+                    <Card className="overflow-hidden border border-border hover:border-red-500 transition-colors">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between">
                           <div className="space-y-2">

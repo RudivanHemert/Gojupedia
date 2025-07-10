@@ -24,7 +24,7 @@ const TerminologyPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.title')}
         description={t('terminology.description')}

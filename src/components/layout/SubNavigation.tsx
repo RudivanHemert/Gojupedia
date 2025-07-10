@@ -20,7 +20,7 @@ const SubNavigation: React.FC<SubNavigationProps> = ({ currentPath }) => {
   }
 
   return (
-    <div className="fixed bottom-14 w-full max-w-md bg-stone-50 border-t border-stone-200 z-40">
+    <div className="fixed bottom-14 w-full max-w-md bg-muted border-t border-border z-40">
       {showTheoryNav && <TheoryNavigation currentPath={currentPath} />}
       {showPracticeNav && <PracticeNavigation currentPath={currentPath} />}
     </div>

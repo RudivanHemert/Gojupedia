@@ -6,7 +6,7 @@ const KarateGojuRyuTerminology = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.sections.karate-goju-ryu')}
         description={t('terminology.sections.karate-goju-ryu-content.description')}

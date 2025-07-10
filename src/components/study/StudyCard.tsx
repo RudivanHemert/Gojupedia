@@ -62,7 +62,7 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
   const translatedContent = getTranslatedContent(study);
 
   return (
-    <Card key={study.id} className="border border-stone-200 hover:border-karate transition-all">
+    <Card key={study.id} className="border border-border hover:border-karate transition-all">
       <CardHeader className="pb-2">
         <div className="flex justify-between items-center">
           <Badge variant="outline" className="mb-2">
@@ -78,7 +78,7 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
       </CardHeader>
       {study.image && (
         <div className="px-6">
-          <div className="aspect-video rounded-md overflow-hidden border border-stone-200">
+          <div className="aspect-video rounded-md overflow-hidden border border-border">
             <img
               src={study.image}
               alt={translatedContent.title}

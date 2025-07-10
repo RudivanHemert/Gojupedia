@@ -60,7 +60,7 @@ const TimelineSection = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('history.timeline')}
         description="Een chronologisch overzicht van belangrijke gebeurtenissen in de geschiedenis van Goju Ryu Karate."

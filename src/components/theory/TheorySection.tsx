@@ -35,7 +35,7 @@ export const TheorySection: React.FC<TheorySectionProps> = ({ id, name, descript
         <Card className="overflow-hidden hover:shadow-md transition-shadow">
           <CardContent className="p-0">
             <div className="flex h-24">
-              <div className="w-1/4 bg-stone-100 flex items-center justify-center">
+              <div className="w-1/4 bg-muted flex items-center justify-center">
                 <div className="bg-stone-200 p-3 rounded-full">
                   {icon}
                 </div>

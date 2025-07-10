@@ -38,7 +38,7 @@ const SearchPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title="Zoeken"
         description="Zoek door alle content en termen in Gojupedia"
@@ -92,7 +92,7 @@ const SearchPage = () => {
                 key={type.id}
                 variant={selectedFilters.includes(type.id) ? "default" : "outline"}
                 className={`cursor-pointer transition-colors ${
-                  selectedFilters.includes(type.id) ? type.color : 'hover:bg-gray-100'
+                  selectedFilters.includes(type.id) ? type.color : 'hover:bg-muted'
                 }`}
                 onClick={() => toggleFilter(type.id)}
               >

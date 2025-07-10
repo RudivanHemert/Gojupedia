@@ -19,7 +19,7 @@ const SafetyAndRules = () => {
   const content = useMarkdownContent(`kumite/introduction/safety-and-rules.${language}`) || useMarkdownContent('kumite/introduction/safety-and-rules.en');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.introduction.safety-title')}
         description={t('kumite.introduction.safety-desc')}

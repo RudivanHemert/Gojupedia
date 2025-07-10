@@ -25,7 +25,7 @@ const BunkaiDetailPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-background">
         <TheoryHeader 
           title={t('common.loading', 'Laden...')}
           description=""
@@ -41,7 +41,7 @@ const BunkaiDetailPage = () => {
 
   if (!kata) {
     return (
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-background">
         <TheoryHeader 
           title={t('bunkaiDetailPage.kataNotFound', 'Kata niet gevonden')}
           description=""
@@ -116,10 +116,8 @@ const BunkaiDetailPage = () => {
       <motion.div key={index} variants={itemVariants}>
         <Card>
           <CardHeader>
-            <CardTitle>{bunkai.name}</CardTitle>
-            {bunkai.description && (
-              <CardDescription>{bunkai.description}</CardDescription>
-            )}
+            <CardTitle>{bunkai.title}</CardTitle>
+            {/* No description field on BunkaiDetail */}
           </CardHeader>
           <CardContent className="space-y-4">
             {bunkai.attack && (
@@ -177,24 +175,26 @@ const BunkaiDetailPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title={`${t(`kata.${kata.id}.name`)} - ${t('bunkai.title')}`}
-        description={t(`bunkai.kata.${kata.id}.description`, 'Gedetailleerde bunkai analyse van deze kata.')}
+        title={kata.name ?? ''}
+        description={kata.description ?? ''}
         backUrl="/bunkai"
       />
       <div className="p-4">
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="max-w-4xl mx-auto space-y-6"
-        >
-          {renderBunkaiContent()}
-        </motion.div>
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="space-y-6"
+          >
+            {renderBunkaiContent()}
+          </motion.div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default BunkaiDetailPage; 
+export default BunkaiDetailPage;

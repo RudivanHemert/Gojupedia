@@ -23,7 +23,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`relative ${heightClasses[height]} bg-gradient-to-b from-stone-50 to-white border-b border-stone-200`}
+      className={`relative ${heightClasses[height]} bg-gradient-to-b from-muted to-white border-b border-border`}
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">

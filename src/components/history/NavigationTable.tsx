@@ -32,7 +32,7 @@ const NavigationTable = ({ onNavigate }: NavigationTableProps) => {
           <button
             key={section.id}
             onClick={() => onNavigate(section.id)}
-            className="w-full text-left p-3 hover:bg-gray-100 transition-colors"
+            className="w-full text-left p-3 hover:bg-muted transition-colors"
           >
             {section.title}
           </button>

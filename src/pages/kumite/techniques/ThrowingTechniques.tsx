@@ -7,7 +7,7 @@ const ThrowingTechniques = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.techniques.throwing-techniques')}
         description={t('kumite.techniques.throwing.description')}

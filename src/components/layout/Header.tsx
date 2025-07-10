@@ -39,14 +39,14 @@ const Header = () => {
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-      className="px-4 py-3 flex items-center justify-between border-b border-stone-200 bg-stone-50"
+      className="px-4 py-3 flex items-center justify-between border-b border-border bg-muted"
     >
       {isTopLevel ? (
         <span className="p-2 -ml-2" />
       ) : (
         <button
           onClick={handleBack}
-          className="p-2 -ml-2 hover:bg-stone-100 rounded-full transition-colors"
+          className="p-2 -ml-2 hover:bg-muted rounded-full transition-colors"
           aria-label={t('common.back')}
         >
           <ArrowLeft size={20} />
@@ -57,7 +57,7 @@ const Header = () => {
       
       <Sheet>
         <SheetTrigger asChild>
-          <button className="p-2 -mr-2 hover:bg-stone-100 rounded-full transition-colors" aria-label={t('common.openMenu')}>
+          <button className="p-2 -mr-2 hover:bg-muted rounded-full transition-colors" aria-label={t('common.openMenu')}>
             <Menu size={20} />
           </button>
         </SheetTrigger>

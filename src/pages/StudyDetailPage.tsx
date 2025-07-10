@@ -135,7 +135,7 @@ const StudyDetailPage = () => {
 
   // Common Header JSX - defined once
   const renderHeader = () => (
-    <div className="bg-stone-100 border-b border-stone-200">
+    <div className="bg-muted border-b border-border">
       <div className="px-4 py-6">
         <div className="flex items-center justify-center mb-2">
           <Badge variant="outline" className="mb-2 mr-2">
@@ -182,7 +182,7 @@ const StudyDetailPage = () => {
       <>
         {renderHeader()}
         <div className="flex flex-col items-center justify-center py-8 px-4 text-center">
-          <div className="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center mb-4">
+          <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
             <Trophy className="h-8 w-8 text-karate" />
           </div>
           <h2 className="text-2xl font-serif mb-2">{t('study.completed')}</h2>
@@ -191,7 +191,7 @@ const StudyDetailPage = () => {
               <p className="text-lg mb-4">
                 {t('study.yourScore', { score, total: study.questions.length })}
               </p>
-              <div className="w-full max-w-xs mb-6 bg-stone-100 rounded-full h-2.5">
+              <div className="w-full max-w-xs mb-6 bg-muted rounded-full h-2.5">
                 <div 
                   className="bg-karate h-2.5 rounded-full" 
                   style={{ width: `${(score / study.questions.length) * 100}%` }}
@@ -243,7 +243,7 @@ const StudyDetailPage = () => {
         {/* Progress Indicator */}
         <div className="flex justify-between items-center mb-4 text-sm text-stone-600">
           <span>{t('study.question', { index: currentQuestionIndex + 1, total: study.questions.length })}</span>
-          <div className="w-32 bg-stone-100 rounded-full h-1.5">
+          <div className="w-32 bg-muted rounded-full h-1.5">
             <div 
               className="bg-karate h-1.5 rounded-full" 
               style={{ width: `${study.questions.length > 0 ? ((currentQuestionIndex + 1) / study.questions.length) * 100 : 0}%` }}
@@ -254,7 +254,7 @@ const StudyDetailPage = () => {
         {/* --- Render Specific Manual Study Type UI --- */}
         {study.type === 'flashcard' ? (
           <Card 
-            className={`border border-stone-200 mb-6 cursor-pointer transition-all transform ${flipped ? 'bg-stone-50' : ''}`}
+            className={`border border-border mb-6 cursor-pointer transition-all transform ${flipped ? 'bg-muted' : ''}`}
             onClick={handleFlip}
           >
             <div className="absolute top-3 right-3">
@@ -271,7 +271,7 @@ const StudyDetailPage = () => {
                   <Book className="h-8 w-8 mx-auto mb-4 text-karate" />
                   <p className="text-xl font-serif mb-4">{currentQuestion.correctAnswer}</p>
                   {currentQuestion.explanation && (
-                    <div className="text-stone-600 text-sm italic border-t border-stone-200 pt-4 mt-4">
+                    <div className="text-stone-600 text-sm italic border-t border-border pt-4 mt-4">
                       {currentQuestion.explanation}
                     </div>
                   )}
@@ -280,7 +280,7 @@ const StudyDetailPage = () => {
             </div>
           </Card>
         ) : study.type === 'matching' ? (
-          <Card className="border border-stone-200 mb-6">
+          <Card className="border border-border mb-6">
             <CardHeader className="pb-2">
               <CardTitle className="text-lg">{currentQuestion.question}</CardTitle>
             </CardHeader>
@@ -291,8 +291,8 @@ const StudyDetailPage = () => {
                     key={q.id} 
                     className={`p-3 border rounded-md cursor-pointer transition-all ${ 
                       userAnswers[currentQuestion.id] === q.correctAnswer 
-                        ? 'border-karate bg-stone-50' 
-                        : 'border-stone-200 hover:border-stone-300'
+                        ? 'border-karate bg-muted' 
+                        : 'border-border hover:border-border'
                     }`}
                     onClick={() => handleAnswerChange(q.correctAnswer)}
                   >
@@ -328,13 +328,13 @@ const StudyDetailPage = () => {
             )}
           </Card>
         ) : ( 
-          <Card className="border border-stone-200 mb-6">
+          <Card className="border border-border mb-6">
             <CardHeader className="pb-2">
               <CardTitle className="text-lg">{currentQuestion.question}</CardTitle>
             </CardHeader>
             {currentQuestion.image && (
               <div className="px-6 pb-4">
-                <div className="aspect-video rounded-md overflow-hidden border border-stone-200">
+                <div className="aspect-video rounded-md overflow-hidden border border-border">
                   <img 
                     src={currentQuestion.image} 
                     alt={currentQuestion.question} 
@@ -358,7 +358,7 @@ const StudyDetailPage = () => {
                           ? 'border-green-500 bg-green-50'
                           : userAnswers[currentQuestion.id] === option && quizCompleted && option !== currentQuestion.correctAnswer
                           ? 'border-red-500 bg-red-50'
-                          : 'border-stone-200 hover:border-stone-300'
+                          : 'border-border hover:border-border'
                       }`}
                     >
                       <RadioGroupItem value={option} id={option} disabled={quizCompleted}/>

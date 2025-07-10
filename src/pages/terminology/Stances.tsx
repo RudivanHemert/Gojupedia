@@ -17,7 +17,7 @@ const Stances = () => {
 
   // Anders toon de overzichtspagina
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('terminology.sections.stances')}
         description={t('terminology.sections.stances-content.description')}
@@ -44,7 +44,7 @@ const StancesList = ({ termsObject }: { termsObject: Record<string, any> }) => {
           <a
             key={key}
             href={`/terminology/stances/${key}`}
-            className="block p-4 border rounded-lg hover:bg-stone-50 transition-colors"
+            className="block p-4 border rounded-lg hover:bg-muted transition-colors"
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg font-japanese">{term.japanese}</span>
@@ -77,7 +77,7 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <div className="p-4 max-w-2xl mx-auto">
         <button
           onClick={() => navigate('/terminology/stances')}

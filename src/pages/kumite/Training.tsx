@@ -15,7 +15,7 @@ const Training = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.training.title')}
         description={t('kumite.training.description')}

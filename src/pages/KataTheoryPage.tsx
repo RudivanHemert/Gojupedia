@@ -16,7 +16,7 @@ const KataTheoryPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kata.theory.title')}
         description={t('kata.theory.description')}

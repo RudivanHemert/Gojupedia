@@ -82,7 +82,7 @@ const MediaGallery: React.FC<MediaGalleryProps> = ({
   if (!isOpen) {
     return (
       <div className="space-y-4">
-        <div className="relative overflow-hidden rounded-lg bg-gray-100" ref={containerRef}>
+        <div className="relative overflow-hidden rounded-lg bg-muted" ref={containerRef}>
           {/* Main media display */}
           <div className="flex items-center justify-center h-80">
             {currentItem.type === 'image' ? (

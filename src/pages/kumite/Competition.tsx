@@ -8,7 +8,7 @@ const Competition = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('kumite.competition.title')}
         description={t('kumite.competition.description')}

@@ -43,7 +43,7 @@ const JunbiUndoPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <TheoryHeader 
         title={t('junbiUndo.title')}
         description={t('junbiUndo.description')}
@@ -87,7 +87,7 @@ const JunbiUndoPage = () => {
                     <motion.div 
                       key={exercise.id} 
                       variants={exerciseVariants}
-                      className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-white"
+                      className="border border-border rounded-lg p-4 hover:shadow-md transition-shadow bg-white"
                     >
                       {/* Image at the top, clickable for lightbox */}
                       {exercise.image && (
@@ -95,7 +95,7 @@ const JunbiUndoPage = () => {
                           <img 
                             src={`/Images/JunbiUndo/${exercise.image}`}
                             alt={exercise.name}
-                            className="w-48 h-48 object-contain rounded-lg border border-gray-200 cursor-pointer hover:scale-105 transition-transform"
+                            className="w-48 h-48 object-contain rounded-lg border border-border cursor-pointer hover:scale-105 transition-transform"
                             onClick={() => setLightbox({ open: true, src: `/Images/JunbiUndo/${exercise.image}`, alt: exercise.name })}
                             onError={(e) => {
                               const target = e.target as HTMLImageElement;

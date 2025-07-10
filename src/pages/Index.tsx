@@ -61,7 +61,7 @@ const IndexPage = () => {
       subtitle: 'Taal, thema en voorkeuren',
       icon: <Settings className="h-8 w-8 text-gray-600 dark:text-gray-400" />, 
       path: '/settings',
-      color: 'bg-gray-50 dark:bg-gray-950/20 border-gray-200 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-gray-950/40'
+      color: 'bg-muted dark:bg-muted/20 border-border dark:border-border hover:bg-muted/50 dark:hover:bg-muted/30'
     },
     {
       id: 'about',

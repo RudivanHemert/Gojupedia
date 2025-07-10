@@ -17,7 +17,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
   };
 
   return (
-    <div className="flex min-h-screen bg-stone-50">
+    <div className="flex min-h-screen bg-muted">
       {/* Sidebar - now overlays content on mobile, takes space on desktop */}
       <CustomSidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
       
@@ -25,7 +25,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
       <main className="flex-1 flex flex-col min-h-screen w-full transition-all duration-300">
         {/* Top Header with Menu Button */}
         {!hideHeader && (
-          <header className="bg-white border-b border-stone-200 px-4 py-3 flex items-center justify-between sticky top-0 z-30">
+          <header className="bg-card border-border px-4 py-3 flex items-center justify-between sticky top-0 z-30">
             {/* Left side - Menu button */}
             <div className="flex items-center">
               <Button

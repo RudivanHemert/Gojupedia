@@ -371,7 +371,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                         className={`flex items-center space-x-2 p-3 rounded-md border ${
                           showAnswer && option.isCorrect ? 'border-green-500 bg-green-50' : 
                           showAnswer && selectedOptions.includes(option.id) && !option.isCorrect ? 'border-red-500 bg-red-50' :
-                          'border-gray-200 hover:border-gray-300'
+                          'border-border hover:border-border'
                         }`}
                       >
                         <RadioGroupItem 
@@ -431,7 +431,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                       className={`flex items-center space-x-2 p-3 rounded-md border ${
                         showAnswer && option.isCorrect ? 'border-green-500 bg-green-50' : 
                         showAnswer && selectedOptions.includes(option.id) && !option.isCorrect ? 'border-red-500 bg-red-50' :
-                        'border-gray-200 hover:border-gray-300'
+                        'border-border hover:border-border'
                       }`}
                     >
                       <Checkbox
@@ -485,7 +485,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                           className={`flex items-center space-x-2 p-3 rounded-md border ${
                             showAnswer && isCorrect ? 'border-green-500 bg-green-50' : 
                             showAnswer && selectedOptions.includes(option.id) && !isCorrect ? 'border-red-500 bg-red-50' :
-                            'border-gray-200 hover:border-gray-300'
+                            'border-border hover:border-border'
                           }`}
                         >
                           <RadioGroupItem 
