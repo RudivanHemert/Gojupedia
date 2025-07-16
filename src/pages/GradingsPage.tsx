@@ -187,8 +187,8 @@ const GradingsPage = () => {
       <div className="space-y-4">
         {techniquesData.map((category, index) => (
           <div key={index} className="space-y-2">
-            <h4 className="font-medium text-stone-800">{category.category}</h4>
-            <ul className="list-disc list-inside space-y-1 text-stone-600">
+            <h4 className="font-medium text-foreground">{category.category}</h4>
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground">
               {category.techniques.map((technique, techIndex) => (
                 <li key={techIndex}>{technique}</li>
               ))}
@@ -202,7 +202,7 @@ const GradingsPage = () => {
   const renderKnowledge = (knowledgeData) => {
     return (
       <div className="space-y-2">
-        <ul className="list-disc list-inside space-y-1 text-stone-600">
+        <ul className="list-disc list-inside space-y-1 text-muted-foreground">
           {knowledgeData.map((item, index) => (
             <li key={index}>
               <strong>{item.term}</strong> {item.meaning && `- ${item.meaning}`}
@@ -216,7 +216,7 @@ const GradingsPage = () => {
   const renderHistory = (historyData) => {
     return (
       <div className="space-y-2">
-        <ul className="list-disc list-inside space-y-1 text-stone-600">
+        <ul className="list-disc list-inside space-y-1 text-muted-foreground">
           {historyData.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
@@ -292,7 +292,7 @@ const GradingsPage = () => {
           </Card>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Dan Ranks</h3>
+            <h3 className="text-lg font-semibold text-foreground">Dan Ranks</h3>
             <div className="grid gap-3">
               {Object.entries(ranks.ranks).map(([key, rank]: [string, any]) => (
                 <Card key={key}>
@@ -376,7 +376,7 @@ const GradingsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Book className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {titles.studentTitles.title}
                 </h3>
               </div>
@@ -402,7 +402,7 @@ const GradingsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Award className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {titles.instructorTitles.title}
                 </h3>
               </div>
@@ -428,7 +428,7 @@ const GradingsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <GraduationCap className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {titles.otherTitles.title}
                 </h3>
               </div>
@@ -478,7 +478,7 @@ const GradingsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Swords className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {gradingSystem.kyuSystem.title}
                 </h3>
               </div>
@@ -499,7 +499,7 @@ const GradingsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Award className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {gradingSystem.danSystem.title}
                 </h3>
               </div>
@@ -548,26 +548,26 @@ const GradingsPage = () => {
           return (
             <section key={level.id} className="mb-12">
               <Card>
-                <CardHeader className={`${level.color} ${level.textColor || 'text-stone-800'} relative overflow-hidden border-b ${level.borderColor}`}>
+                <CardHeader className={`${level.color} ${level.textColor || 'text-foreground'} relative overflow-hidden border-b ${level.borderColor}`}>
                   {renderStripes(level.stripes)}
                   <CardTitle className="text-xl font-serif text-center relative z-10">{gradingData.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <div className="mb-6">
-                    <h3 className="font-semibold mb-3 flex items-center text-stone-700 text-lg">
+                    <h3 className="font-semibold mb-3 flex items-center text-foreground text-lg">
                       <Award className="mr-2 h-5 w-5 text-karate" />
                       Basic Requirements
                     </h3>
                     <div className="grid grid-cols-2 gap-4">
                       {gradingData.requirements.classes > 0 && (
                         <div className="bg-muted p-3 rounded-lg border border-border text-center">
-                          <p className="text-xs text-stone-500">Minimum Classes</p>
-                          <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.classes}</p>
+                          <p className="text-xs text-muted-foreground">Minimum Classes</p>
+                          <p className="text-2xl font-semibold text-foreground">{gradingData.requirements.classes}</p>
                         </div>
                       )}
                       <div className="bg-muted p-3 rounded-lg border border-border text-center">
-                        <p className="text-xs text-stone-500">Months of Training</p>
-                        <p className="text-2xl font-semibold text-stone-800">{gradingData.requirements.months}</p>
+                        <p className="text-xs text-muted-foreground">Months of Training</p>
+                        <p className="text-2xl font-semibold text-foreground">{gradingData.requirements.months}</p>
                       </div>
                     </div>
                   </div>
@@ -577,7 +577,7 @@ const GradingsPage = () => {
                       <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
                         <div className="flex items-center">
                           <Swords className="mr-2 h-5 w-5 text-karate" />
-                          <h3 className="font-semibold text-stone-700">
+                          <h3 className="font-semibold text-foreground">
                             Techniques
                           </h3>
                         </div>
@@ -592,7 +592,7 @@ const GradingsPage = () => {
                         <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
                           <div className="flex items-center">
                             <Book className="mr-2 h-5 w-5 text-karate" />
-                            <h3 className="font-semibold text-stone-700">
+                            <h3 className="font-semibold text-foreground">
                               Knowledge & Terminology
                             </h3>
                           </div>
@@ -608,7 +608,7 @@ const GradingsPage = () => {
                         <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
                           <div className="flex items-center">
                             <GraduationCap className="mr-2 h-5 w-5 text-karate" />
-                            <h3 className="font-semibold text-stone-700">
+                            <h3 className="font-semibold text-foreground">
                               History
                             </h3>
                           </div>
@@ -620,7 +620,7 @@ const GradingsPage = () => {
                     )}
                   </Accordion>
 
-                  <div className="mt-4 border-t pt-4 flex justify-between items-center text-sm text-stone-500">
+                  <div className="mt-4 border-t pt-4 flex justify-between items-center text-sm text-muted-foreground">
                     <div className="flex items-center">
                       <Clock className="h-4 w-4 mr-1" />
                       <span>{gradingData.requirements.months} months</span>

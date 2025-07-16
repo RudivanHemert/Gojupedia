@@ -128,7 +128,7 @@ const StudyDetailPage = () => {
   if (!study || !id) {
     return (
       <div className="flex items-center justify-center h-60">
-        <p className="text-stone-600">{t('study.loading')}</p>
+        <p className="text-muted-foreground">{t('study.loading')}</p>
       </div>
     );
   }
@@ -145,10 +145,10 @@ const StudyDetailPage = () => {
             {study.type}
           </Badge>
         </div>
-        <h1 className="text-2xl font-serif font-semibold text-stone-800 text-center mb-1">
+        <h1 className="text-2xl font-serif font-semibold text-foreground text-center mb-1">
           {study.title}
         </h1>
-        <p className="text-stone-600 text-center text-sm">
+        <p className="text-muted-foreground text-center text-sm">
           {study.description}
         </p>
       </div>
@@ -228,7 +228,7 @@ const StudyDetailPage = () => {
     return (
       <>
         {renderHeader()}
-        <div className="p-4 text-center text-stone-500">
+        <div className="p-4 text-center text-muted-foreground">
           {t('study.noQuestionFound', { index: currentQuestionIndex })}
         </div>
       </>
@@ -241,7 +241,7 @@ const StudyDetailPage = () => {
       {renderHeader()}
       <div className="pt-4 px-4">
         {/* Progress Indicator */}
-        <div className="flex justify-between items-center mb-4 text-sm text-stone-600">
+        <div className="flex justify-between items-center mb-4 text-sm text-muted-foreground">
           <span>{t('study.question', { index: currentQuestionIndex + 1, total: study.questions.length })}</span>
           <div className="w-32 bg-muted rounded-full h-1.5">
             <div 
@@ -263,7 +263,7 @@ const StudyDetailPage = () => {
             <div className="min-h-[250px] flex items-center justify-center p-6">
               {!flipped ? (
                 <div className="text-center">
-                  <Brain className="h-8 w-8 mx-auto mb-4 text-stone-400" />
+                  <Brain className="h-8 w-8 mx-auto mb-4 text-muted-foreground" />
                   <h3 className="text-xl font-medium mb-2">{currentQuestion.question}</h3>
                 </div>
               ) : (
@@ -271,7 +271,7 @@ const StudyDetailPage = () => {
                   <Book className="h-8 w-8 mx-auto mb-4 text-karate" />
                   <p className="text-xl font-serif mb-4">{currentQuestion.correctAnswer}</p>
                   {currentQuestion.explanation && (
-                    <div className="text-stone-600 text-sm italic border-t border-border pt-4 mt-4">
+                    <div className="text-muted-foreground text-sm italic border-t border-border pt-4 mt-4">
                       {currentQuestion.explanation}
                     </div>
                   )}
@@ -317,10 +317,10 @@ const StudyDetailPage = () => {
                   )}
                 </div>
                 <Collapsible open={showExplanation} onOpenChange={setShowExplanation}>
-                  <CollapsibleTrigger className="text-sm text-stone-600 underline">
+                  <CollapsibleTrigger className="text-sm text-muted-foreground underline">
                     {showExplanation ? t('study.hideExplanation') : t('study.showExplanation')}
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="text-sm text-stone-600 pt-2">
+                  <CollapsibleContent className="text-sm text-muted-foreground pt-2">
                     {currentQuestion.explanation}
                   </CollapsibleContent>
                 </Collapsible>
@@ -381,7 +381,7 @@ const StudyDetailPage = () => {
               {quizCompleted && currentQuestion.explanation && (
                 <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-md">
                   <h3 className="font-semibold mb-1">{t('study.explanation')}:</h3>
-                  <p className="text-sm text-gray-700">{currentQuestion.explanation}</p>
+                  <p className="text-sm text-muted-foreground">{currentQuestion.explanation}</p>
                 </div>
               )}
             </CardContent>

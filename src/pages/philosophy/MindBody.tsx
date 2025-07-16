@@ -86,7 +86,7 @@ const MindBody = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   In Goju Ryu Karate wordt de eenheid van geest en lichaam als fundamenteel beschouwd. 
                   Deze filosofie stelt dat ware kracht en beheersing alleen kunnen worden bereikt wanneer 
                   lichaam en geest in perfecte harmonie samenwerken.
@@ -128,10 +128,10 @@ const MindBody = () => {
                       </div>
                       
                       <div className="space-y-2">
-                        <p className="font-medium text-gray-900">
+                        <p className="font-medium text-foreground">
                           {concept.dutch} / {concept.english}
                         </p>
-                        <p className="text-gray-600 text-sm">
+                        <p className="text-muted-foreground text-sm">
                           {concept.description}
                         </p>
                       </div>
@@ -151,9 +151,9 @@ const MindBody = () => {
                     >
                       <div className="flex items-center gap-3 mb-2">
                         <span className="text-2xl">{practice.icon}</span>
-                        <h4 className="font-semibold text-gray-900">{practice.title}</h4>
+                        <h4 className="font-semibold text-foreground">{practice.title}</h4>
                       </div>
-                      <p className="text-gray-600 text-sm">{practice.description}</p>
+                      <p className="text-muted-foreground text-sm">{practice.description}</p>
                     </motion.div>
                   ))}
                 </div>

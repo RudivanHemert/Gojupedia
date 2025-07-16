@@ -48,7 +48,7 @@ const SearchPage = () => {
       <div className="p-4 max-w-4xl mx-auto">
         {/* Search Bar */}
         <div className="relative mb-6">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-5 w-5" />
           <Input
             type="text"
             placeholder="Zoek naar kata, technieken, filosofie, terminologie..."
@@ -109,7 +109,7 @@ const SearchPage = () => {
               <h3 className="text-lg font-semibold mb-4">
                 Zoekresultaten voor "{searchQuery}"
               </h3>
-              <div className="text-center py-12 text-gray-500">
+              <div className="text-center py-12 text-muted-foreground">
                 <Search className="h-12 w-12 mx-auto mb-4 text-gray-300" />
                 <p>Zoekfunctionaliteit wordt binnenkort geïmplementeerd</p>
                 <p className="text-sm mt-2">
@@ -121,7 +121,7 @@ const SearchPage = () => {
             <div className="text-center py-12">
               <Search className="h-16 w-16 mx-auto mb-4 text-gray-300" />
               <h3 className="text-xl font-semibold mb-2">Begin met zoeken</h3>
-              <p className="text-gray-500 mb-6">
+              <p className="text-muted-foreground mb-6">
                 Voer een zoekterm in om door alle content te zoeken
               </p>
               
@@ -130,7 +130,7 @@ const SearchPage = () => {
                 <Card className="hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-4">
                     <h4 className="font-semibold mb-2">Populaire Zoektermen</h4>
-                    <div className="space-y-1 text-sm text-gray-600">
+                    <div className="space-y-1 text-sm text-muted-foreground">
                       <p>• Gekisai Dai Ichi</p>
                       <p>• Sanchin</p>
                       <p>• Tensho</p>
@@ -142,7 +142,7 @@ const SearchPage = () => {
                 <Card className="hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-4">
                     <h4 className="font-semibold mb-2">Technieken</h4>
-                    <div className="space-y-1 text-sm text-gray-600">
+                    <div className="space-y-1 text-sm text-muted-foreground">
                       <p>• Age Uke</p>
                       <p>• Gedan Barai</p>
                       <p>• Soto Uke</p>
@@ -154,7 +154,7 @@ const SearchPage = () => {
                 <Card className="hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-4">
                     <h4 className="font-semibold mb-2">Terminologie</h4>
-                    <div className="space-y-1 text-sm text-gray-600">
+                    <div className="space-y-1 text-sm text-muted-foreground">
                       <p>• Dojo Kun</p>
                       <p>• Kihon</p>
                       <p>• Kumite</p>

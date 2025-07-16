@@ -59,7 +59,7 @@ const IndexPage = () => {
       id: 'settings',
       title: 'Instellingen',
       subtitle: 'Taal, thema en voorkeuren',
-      icon: <Settings className="h-8 w-8 text-gray-600 dark:text-gray-400" />, 
+      icon: <Settings className="h-8 w-8 text-muted-foreground dark:text-gray-400" />, 
       path: '/settings',
       color: 'bg-muted dark:bg-muted/20 border-border dark:border-border hover:bg-muted/50 dark:hover:bg-muted/30'
     },
@@ -84,8 +84,8 @@ const IndexPage = () => {
             className="w-32 h-32 rounded-full border-4 border-red-500 object-cover mb-4"
           />
           <div className="text-4xl font-bold text-red-600 dark:text-red-400 mt-2">剛柔流</div>
-          <div className="text-xl italic text-stone-700 dark:text-stone-300 mb-2">Goju Ryu Karate-Do</div>
-          <div className="text-base text-stone-500 dark:text-stone-400 mb-4">{t('home.heroTagline')}</div>
+          <div className="text-xl italic text-muted-foreground dark:text-stone-300 mb-2">Goju Ryu Karate-Do</div>
+          <div className="text-base text-muted-foreground dark:text-stone-400 mb-4">{t('home.heroTagline')}</div>
         </div>
 
         {/* Intro block */}

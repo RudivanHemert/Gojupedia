@@ -99,7 +99,7 @@ const PhilosophyPage = () => {
                         </div>
                         <div className="w-3/4 p-4 flex flex-col justify-center">
                           <h3 className="font-semibold text-lg">{section.name}</h3>
-                          <p className="text-sm text-gray-600">{section.description}</p>
+                          <p className="text-sm text-muted-foreground">{section.description}</p>
                         </div>
                       </div>
                     </CardContent>

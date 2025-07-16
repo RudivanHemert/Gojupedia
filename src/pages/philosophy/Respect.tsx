@@ -96,7 +96,7 @@ const Respect = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   Respect is de hoeksteen van alle martiale kunsten. In Goju Ryu Karate wordt respect 
                   niet alleen getoond door buigen, maar door een diepe innerlijke houding van eerbied 
                   en waardering voor alles en iedereen om ons heen.
@@ -121,10 +121,10 @@ const Respect = () => {
                       </div>
                       
                       <div className="space-y-2">
-                        <p className="font-medium text-gray-900">
+                        <p className="font-medium text-foreground">
                           {type.dutch} / {type.english}
                         </p>
-                        <p className="text-gray-600 text-sm">
+                        <p className="text-muted-foreground text-sm">
                           {type.description}
                         </p>
                       </div>
@@ -144,9 +144,9 @@ const Respect = () => {
                     >
                       <div className="flex items-center gap-3 mb-2">
                         <span className="text-2xl">{area.icon}</span>
-                        <h4 className="font-semibold text-gray-900">{area.title}</h4>
+                        <h4 className="font-semibold text-foreground">{area.title}</h4>
                       </div>
-                      <p className="text-gray-600 text-sm">{area.description}</p>
+                      <p className="text-muted-foreground text-sm">{area.description}</p>
                     </motion.div>
                   ))}
                 </div>

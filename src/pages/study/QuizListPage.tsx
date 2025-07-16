@@ -26,7 +26,7 @@ const QuizListPage = () => {
             <StudyCard key={study.id} study={study} />
           ))
         ) : (
-          <p className="text-center text-stone-500 italic">{t('study.noQuizzes', 'No quizzes available currently.')}</p>
+          <p className="text-center text-muted-foreground italic">{t('study.noQuizzes', 'No quizzes available currently.')}</p>
         )}
       </div>
     </>

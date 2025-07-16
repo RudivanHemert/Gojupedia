@@ -39,7 +39,7 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
             <Button
               variant="ghost"
               onClick={handleBack}
-              className="flex items-center gap-2 text-stone-600 hover:text-stone-800"
+              className="flex items-center gap-2 text-muted-foreground hover:text-foreground"
             >
               <ArrowLeft className="h-4 w-4" />
               Terug
@@ -51,7 +51,7 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-4xl font-serif font-bold text-stone-800 mb-3"
+            className="text-4xl font-serif font-bold text-foreground mb-3"
           >
             {title}
           </motion.h1>
@@ -59,7 +59,7 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-lg text-stone-600"
+            className="text-lg text-muted-foreground"
           >
             {description}
           </motion.p>

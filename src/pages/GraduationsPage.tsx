@@ -197,7 +197,7 @@ const GraduationsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Book className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {titles.studentTitles.title}
                 </h3>
               </div>
@@ -226,7 +226,7 @@ const GraduationsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Award className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {titles.instructorTitles.title}
                 </h3>
               </div>
@@ -255,7 +255,7 @@ const GraduationsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <GraduationCap className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {titles.otherTitles.title}
                 </h3>
               </div>
@@ -308,7 +308,7 @@ const GraduationsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Swords className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {gradingSystem.kyuSystem.title}
                 </h3>
               </div>
@@ -329,7 +329,7 @@ const GraduationsPage = () => {
             <AccordionTrigger className="px-4 py-3 flex text-left hover:bg-muted">
               <div className="flex items-center">
                 <Award className="mr-2 h-5 w-5 text-karate" />
-                <h3 className="font-semibold text-stone-700">
+                <h3 className="font-semibold text-foreground">
                   {gradingSystem.danSystem.title}
                 </h3>
               </div>
@@ -353,10 +353,10 @@ const GraduationsPage = () => {
   return (
     <div className="p-4">
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-stone-900 mb-2">
+        <h1 className="text-2xl font-bold text-foreground mb-2">
           {t('graduations.title')}
         </h1>
-        <p className="text-stone-600">
+        <p className="text-muted-foreground">
           {t('graduations.description')}
         </p>
       </div>

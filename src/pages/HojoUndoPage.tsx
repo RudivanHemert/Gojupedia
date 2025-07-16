@@ -75,7 +75,7 @@ const HojoUndoPage = () => {
       ishiSashi: 'text-purple-500',
       udeTanren: 'text-red-500'
     };
-    return colors[key as keyof typeof colors] || 'text-gray-500';
+    return colors[key as keyof typeof colors] || 'text-muted-foreground';
   };
 
   const mainSections: Array<{

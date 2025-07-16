@@ -53,9 +53,9 @@ const Warmup = () => {
                       <div className="mb-4 bg-white p-3 rounded-full shadow-sm">
                         {section.icon}
                       </div>
-                      <h3 className="font-bold text-xl mb-1 text-gray-900">{section.title}</h3>
-                      <p className="text-lg font-japanese text-gray-600 mb-2">{section.subtitle}</p>
-                      <p className="text-gray-600 leading-relaxed mb-4">{section.description}</p>
+                      <h3 className="font-bold text-xl mb-1 text-foreground">{section.title}</h3>
+                      <p className="text-lg font-japanese text-muted-foreground mb-2">{section.subtitle}</p>
+                      <p className="text-muted-foreground leading-relaxed mb-4">{section.description}</p>
                       <div className="flex items-center text-blue-600 font-medium">
                         <span>Bekijk sectie</span>
                         <ArrowRight className="h-4 w-4 ml-1" />
@@ -72,14 +72,14 @@ const Warmup = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h4 className="font-medium mb-2">Junbi Undo (準備運動)</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-muted-foreground">
                   Voorbereidende oefeningen die het lichaam voorbereiden op training. 
                   Deze oefeningen verbeteren flexibiliteit, mobiliteit en bereiden de spieren voor.
                 </p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Hojo Undo (補助運動)</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-muted-foreground">
                   Traditionele kracht- en conditietraining met specifieke apparatuur zoals 
                   chi-ishi, nigiri-game, en kongoken. Deze oefeningen ontwikkelen kracht en uithoudingsvermogen.
                 </p>

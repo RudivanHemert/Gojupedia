@@ -95,10 +95,10 @@ const KataTheoryPage = () => {
           {Object.entries(katasByCategory).map(([category, categoryKatas]) => (
             <motion.div key={category} variants={itemVariants}>
               <div className="mb-6">
-                <h2 className="text-3xl font-bold mb-2 text-gray-800">
+                <h2 className="text-3xl font-bold mb-2 text-foreground">
                   {getCategoryTitle(category)}
                 </h2>
-                <p className="text-gray-600 text-lg">
+                <p className="text-muted-foreground text-lg">
                   {getCategoryDescription(category)}
                 </p>
               </div>
@@ -114,24 +114,24 @@ const KataTheoryPage = () => {
                         <div className="flex items-start justify-between">
                           <div className="space-y-2">
                             <div className="flex items-center gap-2">
-                              <h3 className="text-xl font-semibold text-gray-900">
+                              <h3 className="text-xl font-semibold text-foreground">
                                 {t(`kata.${kata.id}.name`)}
                               </h3>
                               <Badge variant="secondary" className="bg-red-100 text-red-800">
                                 {t(`kata.${kata.id}.japaneseName`)}
                               </Badge>
                             </div>
-                            <p className="text-gray-600 italic">
+                            <p className="text-muted-foreground italic">
                               {t(`kata.${kata.id}.meaning`)}
                             </p>
-                            <p className="text-gray-700 text-sm">
+                            <p className="text-muted-foreground text-sm">
                               {t(`kata.${kata.id}.description`)}
                             </p>
-                            <div className="text-gray-500 text-xs">
+                            <div className="text-muted-foreground text-xs">
                               <span className="font-medium">Herkomst:</span> {t(`kata.${kata.id}.history`)}
                             </div>
                           </div>
-                          <ChevronRight className="h-6 w-6 text-gray-400 flex-shrink-0" />
+                          <ChevronRight className="h-6 w-6 text-muted-foreground flex-shrink-0" />
                         </div>
                       </CardContent>
                     </Card>

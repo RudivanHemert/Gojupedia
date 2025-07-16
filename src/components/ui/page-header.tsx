@@ -31,7 +31,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-4xl font-serif font-bold text-stone-800 mb-3"
+            className="text-4xl font-serif font-bold text-foreground mb-3"
           >
             {title}
           </motion.h1>
@@ -40,7 +40,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-lg text-stone-600"
+              className="text-lg text-muted-foreground"
             >
               {description}
             </motion.p>

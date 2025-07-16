@@ -54,7 +54,7 @@ const KataTheoryDetailPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <AlertTriangle className="h-16 w-16 text-red-500 mx-auto mb-4" />
             <h2 className="text-2xl font-bold mb-4">{t('kataTheoryDetailPage.notFound.title')}</h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-muted-foreground mb-6">
               {t('kataTheoryDetailPage.notFound.message')}
             </p>
             <Button onClick={() => navigate('/theory/kata')}>
@@ -112,12 +112,12 @@ const KataTheoryDetailPage = () => {
                     {kataData?.japaneseName || t(`kata.${id}.japaneseName`)}
                   </Badge>
                 </div>
-                <p className="text-xl text-gray-600 italic">
+                <p className="text-xl text-muted-foreground italic">
                   {kataData?.meaning || t(`kata.${id}.meaning`)}
                 </p>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed">
                   {kataData?.description || t(`kata.${id}.description`)}
                 </p>
               </CardContent>
@@ -140,7 +140,7 @@ const KataTheoryDetailPage = () => {
                     <CardTitle>{t('kataTheoryDetailPage.sections.originTitle', { kataName: kataData?.name || t(`kata.${id}.name`) })}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-muted-foreground leading-relaxed">
                       {kataData?.history || t(`kata.${id}.history`)}
                     </p>
                   </CardContent>
@@ -155,16 +155,16 @@ const KataTheoryDetailPage = () => {
                   <CardContent>
                     <div className="space-y-4">
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-2">{t('kataTheoryDetailPage.labels.japaneseName')}</h4>
-                        <p className="text-gray-700">{kataData?.japaneseName || t(`kata.${id}.japaneseName`)}</p>
+                        <h4 className="font-semibold text-foreground mb-2">{t('kataTheoryDetailPage.labels.japaneseName')}</h4>
+                        <p className="text-muted-foreground">{kataData?.japaneseName || t(`kata.${id}.japaneseName`)}</p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-2">{t('kataTheoryDetailPage.labels.translation')}</h4>
-                        <p className="text-gray-700">{kataData?.meaning || t(`kata.${id}.meaning`)}</p>
+                        <h4 className="font-semibold text-foreground mb-2">{t('kataTheoryDetailPage.labels.translation')}</h4>
+                        <p className="text-muted-foreground">{kataData?.meaning || t(`kata.${id}.meaning`)}</p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-2">{t('kataTheoryDetailPage.labels.description')}</h4>
-                        <p className="text-gray-700">{kataData?.description || t(`kata.${id}.description`)}</p>
+                        <h4 className="font-semibold text-foreground mb-2">{t('kataTheoryDetailPage.labels.description')}</h4>
+                        <p className="text-muted-foreground">{kataData?.description || t(`kata.${id}.description`)}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -177,7 +177,7 @@ const KataTheoryDetailPage = () => {
                     <CardTitle>{t('kataTheoryDetailPage.sections.significanceTitle')}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-muted-foreground leading-relaxed">
                       {kataData?.culturalSignificance || t(`kata.${id}.culturalSignificance`)}
                     </p>
                   </CardContent>
@@ -196,7 +196,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.detailedMeaning.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.detailedMeaning.content}
                             </p>
                           </CardContent>
@@ -210,7 +210,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.origin.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.origin.content}
                             </p>
                           </CardContent>
@@ -224,7 +224,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.transmission.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.transmission.content}
                             </p>
                           </CardContent>
@@ -238,7 +238,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.historicalDevelopment.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.historicalDevelopment.content}
                             </p>
                           </CardContent>
@@ -252,7 +252,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.technicalFeatures.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.technicalFeatures.content}
                             </p>
                           </CardContent>
@@ -266,7 +266,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.controversy.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.controversy.content}
                             </p>
                           </CardContent>
@@ -280,7 +280,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.relationships.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.relationships.content}
                             </p>
                           </CardContent>
@@ -294,7 +294,7 @@ const KataTheoryDetailPage = () => {
                             <CardTitle>{kataData.modernPractice.title}</CardTitle>
                           </CardHeader>
                           <CardContent>
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed">
                               {kataData.modernPractice.content}
                             </p>
                           </CardContent>

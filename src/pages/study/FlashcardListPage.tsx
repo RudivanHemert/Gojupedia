@@ -28,7 +28,7 @@ const FlashcardListPage = () => {
             <StudyCard key={study.id} study={study} />
           ))
         ) : (
-          <p className="text-center text-stone-500 italic">{t('study.noFlashcards', 'No flashcard sets available currently.')}</p>
+          <p className="text-center text-muted-foreground italic">{t('study.noFlashcards', 'No flashcard sets available currently.')}</p>
         )}
       </div>
     </>

@@ -65,7 +65,7 @@ const DojoKun = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   De Dojo Kun zijn de vijf principes die elke karateka moet volgen. 
                   Deze principes vormen de basis van de martiale kunst en worden 
                   traditioneel gereciteerd aan het begin en einde van elke training.
@@ -88,16 +88,16 @@ const DojoKun = () => {
                       </div>
                       
                       <div className="space-y-2">
-                        <p className="text-lg font-medium text-gray-900">
+                        <p className="text-lg font-medium text-foreground">
                           {principle.japanese}
                         </p>
-                        <p className="text-sm text-gray-600 italic">
+                        <p className="text-sm text-muted-foreground italic">
                           {principle.romaji}
                         </p>
-                        <p className="text-gray-700">
+                        <p className="text-muted-foreground">
                           {principle.dutch}
                         </p>
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm text-muted-foreground">
                           {principle.english}
                         </p>
                       </div>

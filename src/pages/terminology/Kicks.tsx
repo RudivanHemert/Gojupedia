@@ -82,7 +82,7 @@ const KickDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
       <div className="p-4 max-w-2xl mx-auto">
         <button
           onClick={() => navigate('/terminology/kicks')}
-          className="flex items-center gap-2 mb-4 text-stone-600 hover:text-stone-900"
+          className="flex items-center gap-2 mb-4 text-muted-foreground hover:text-foreground"
         >
           <ChevronLeft className="h-5 w-5" /> Terug
         </button>

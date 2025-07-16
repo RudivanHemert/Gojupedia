@@ -63,7 +63,7 @@ const GojuRyu = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   Goju Ryu Karate is gebaseerd op de filosofie van "Go" (hard) en "Ju" (zacht). 
                   Deze tegenstellingen worden niet gezien als conflicterend, maar als complementair. 
                   De kunst ligt in het vinden van de juiste balans tussen beide elementen.
@@ -105,10 +105,10 @@ const GojuRyu = () => {
                       </div>
                       
                       <div className="space-y-2">
-                        <p className="font-medium text-gray-900">
+                        <p className="font-medium text-foreground">
                           {concept.dutch} / {concept.english}
                         </p>
-                        <p className="text-gray-600 text-sm">
+                        <p className="text-muted-foreground text-sm">
                           {concept.description}
                         </p>
                       </div>

@@ -41,7 +41,7 @@ const Stances = () => {
   return (
     <ul className="space-y-2">
       {terms.map((term, index) => (
-        <li key={index} className="text-gray-700">
+        <li key={index} className="text-muted-foreground">
           {term}
         </li>
       ))}

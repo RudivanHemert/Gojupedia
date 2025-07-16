@@ -317,8 +317,8 @@ const KataDetailPage = () => {
           <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
             <Card>
               <CardContent className="pt-6">
-                <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.descriptionTitle')}</h2>
-                <p className="text-gray-700 leading-relaxed">
+                <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.overview.descriptionTitle')}</h2>
+                <p className="text-muted-foreground leading-relaxed">
                   {t(`kata.${kata.id}.description`)}
                 </p>
               </CardContent>
@@ -327,8 +327,8 @@ const KataDetailPage = () => {
             {kata.history && (
               <Card>
                 <CardContent className="pt-6">
-                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.historyTitle')}</h2>
-                  <p className="text-gray-700 leading-relaxed">
+                  <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.overview.historyTitle')}</h2>
+                  <p className="text-muted-foreground leading-relaxed">
                     {t(`kata.${kata.id}.history`)}
                   </p>
                 </CardContent>
@@ -338,8 +338,8 @@ const KataDetailPage = () => {
             {kata.culturalSignificance && (
               <Card>
                 <CardContent className="pt-6">
-                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.overview.culturalSignificanceTitle')}</h2>
-                  <p className="text-gray-700 leading-relaxed">
+                  <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.overview.culturalSignificanceTitle')}</h2>
+                  <p className="text-muted-foreground leading-relaxed">
                     {t(`kata.${kata.id}.culturalSignificance`)}
                   </p>
                 </CardContent>
@@ -350,16 +350,16 @@ const KataDetailPage = () => {
               <CardContent className="p-4">
                 <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.overview.atAGlanceTitle')}</h2>
                 <div className="grid grid-cols-2 gap-y-2">
-                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.movementsLabel')}</div>
+                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.movementsLabel')}</div>
                   <div className="font-medium">{kata.movements}</div>
                   
-                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.durationLabel')}</div>
+                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.durationLabel')}</div>
                   <div className="font-medium">{kata.duration}</div>
                   
-                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.originLabel')}</div>
+                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.originLabel')}</div>
                   <div className="font-medium">{kata.origin}</div>
                   
-                  <div className="text-gray-500 dark:text-gray-400">{t('kataDetailPage.overview.levelLabel')}</div>
+                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.levelLabel')}</div>
                   <div className="font-medium">{t(`kata.levels.${kata.level.toLowerCase()}`)}</div>
                 </div>
               </CardContent>
@@ -378,7 +378,7 @@ const KataDetailPage = () => {
             ) : (
               <>
                 <div className="mb-2">
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-muted-foreground">
                     {t('kataDetailPage.steps.totalSteps', { count: formattedSteps.length })}
                   </p>
                 </div>
@@ -410,7 +410,7 @@ const KataDetailPage = () => {
             {bunkaiVideoId && (
               <Card>
                 <CardContent className="pt-6">
-                  <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.bunkai.videoTitle')}</h2>
+                  <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.bunkai.videoTitle')}</h2>
                   <div className="aspect-video bg-muted rounded overflow-hidden">
                     <iframe 
                       className="w-full h-full"

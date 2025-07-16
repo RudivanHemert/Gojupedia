@@ -72,7 +72,7 @@ const HojoUndoModernOverview: React.FC = () => {
       kongoken: 'bg-orange-500',
       ishiSashi: 'bg-purple-500'
     };
-    return colors[key as keyof typeof colors] || 'bg-gray-500';
+    return colors[key as keyof typeof colors] || 'bg-muted';
   };
 
   return (

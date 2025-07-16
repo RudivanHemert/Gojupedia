@@ -81,7 +81,7 @@ const KarateDo = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   Karate Do betekent letterlijk "de weg van de lege hand". Het woord "kara" betekent leeg, 
                   "te" betekent hand, en "do" betekent weg. Dit verwijst niet alleen naar het feit dat karate 
                   zonder wapens wordt beoefend, maar ook naar de spirituele dimensie van het leegmaken van de geest.
@@ -126,10 +126,10 @@ const KarateDo = () => {
                       </div>
                       
                       <div className="space-y-2">
-                        <p className="font-medium text-gray-900">
+                        <p className="font-medium text-foreground">
                           {principle.dutch} / {principle.english}
                         </p>
-                        <p className="text-gray-600 text-sm">
+                        <p className="text-muted-foreground text-sm">
                           {principle.description}
                         </p>
                       </div>

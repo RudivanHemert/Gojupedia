@@ -74,7 +74,7 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
           </Badge>
         </div>
         <CardTitle className="text-xl font-serif">{translatedContent.title}</CardTitle>
-        <CardDescription className="text-stone-600">{translatedContent.description}</CardDescription>
+        <CardDescription className="text-muted-foreground">{translatedContent.description}</CardDescription>
       </CardHeader>
       {study.image && (
         <div className="px-6">
@@ -88,7 +88,7 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
         </div>
       )}
       <CardContent className="pt-4 pb-0">
-        <div className="text-sm text-stone-600">
+        <div className="text-sm text-muted-foreground">
           {/* Dynamically generated studies might have empty questions array initially */}
           {/* Adjusted label for clarity */}
           {study.questions?.length > 0 && (
