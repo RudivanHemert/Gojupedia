@@ -1,40 +1,75 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Search, Filter, X } from 'lucide-react';
+import { Search, X, ArrowRight } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import { createSearchIndex, searchContent, SearchResult } from '@/data/searchIndex';
+import { useNavigate } from 'react-router-dom';
 
 const SearchPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
 
-  const contentTypes = [
-    { id: 'kata', label: 'Kata', color: 'bg-blue-100 text-blue-800' },
-    { id: 'techniques', label: 'Technieken', color: 'bg-green-100 text-green-800' },
-    { id: 'philosophy', label: 'Filosofie', color: 'bg-purple-100 text-purple-800' },
-    { id: 'history', label: 'Geschiedenis', color: 'bg-orange-100 text-orange-800' },
-    { id: 'terminology', label: 'Terminologie', color: 'bg-red-100 text-red-800' },
-    { id: 'bunkai', label: 'Bunkai', color: 'bg-indigo-100 text-indigo-800' }
-  ];
-
-  const toggleFilter = (filterId: string) => {
-    setSelectedFilters(prev => 
-      prev.includes(filterId) 
-        ? prev.filter(id => id !== filterId)
-        : [...prev, filterId]
-    );
-  };
-
-  const clearFilters = () => {
-    setSelectedFilters([]);
-  };
+  // Create search index once
+  const searchIndex = useMemo(() => createSearchIndex(), []);
 
   const clearSearch = () => {
     setSearchQuery('');
+  };
+
+  // Get search results
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    
+    const results = searchContent(searchQuery, i18n.language);
+    
+    return results;
+  }, [searchQuery, i18n.language]);
+
+  const handleResultClick = (result: SearchResult) => {
+    navigate(result.path);
+  };
+
+  const getTypeLabel = (type: string) => {
+    const typeMap: Record<string, string> = {
+      'kata': 'Kata',
+      'technique': 'Techniek',
+      'philosophy': 'Filosofie',
+      'history': 'Geschiedenis',
+      'terminology': 'Terminologie',
+      'bunkai': 'Bunkai',
+      'hojo-undo': 'Hojo Undo',
+      'theory': 'Theorie',
+      'newaza': 'Newaza',
+      'kumite': 'Kumite',
+      'person': 'Persoon',
+      'principle': 'Principe',
+      'article': 'Artikel'
+    };
+    return typeMap[type] || type;
+  };
+
+  const getTypeColor = (type: string) => {
+    const colorMap: Record<string, string> = {
+      'kata': 'bg-blue-100 text-blue-800',
+      'technique': 'bg-green-100 text-green-800',
+      'philosophy': 'bg-purple-100 text-purple-800',
+      'history': 'bg-orange-100 text-orange-800',
+      'terminology': 'bg-red-100 text-red-800',
+      'bunkai': 'bg-indigo-100 text-indigo-800',
+      'hojo-undo': 'bg-yellow-100 text-yellow-800',
+      'theory': 'bg-pink-100 text-pink-800',
+      'newaza': 'bg-teal-100 text-teal-800',
+      'kumite': 'bg-cyan-100 text-cyan-800',
+      'person': 'bg-gray-100 text-gray-800',
+      'principle': 'bg-emerald-100 text-emerald-800',
+      'article': 'bg-slate-100 text-slate-800'
+    };
+    return colorMap[type] || 'bg-gray-100 text-gray-800';
   };
 
   return (
@@ -68,101 +103,70 @@ const SearchPage = () => {
           )}
         </div>
 
-        {/* Filters */}
-        <div className="mb-6">
-          <div className="flex items-center justify-between mb-3">
-            <h3 className="text-lg font-semibold flex items-center">
-              <Filter className="h-5 w-5 mr-2" />
-              Filters
-            </h3>
-            {selectedFilters.length > 0 && (
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={clearFilters}
-                className="text-sm"
-              >
-                Alles wissen
-              </Button>
-            )}
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {contentTypes.map((type) => (
-              <Badge
-                key={type.id}
-                variant={selectedFilters.includes(type.id) ? "default" : "outline"}
-                className={`cursor-pointer transition-colors ${
-                  selectedFilters.includes(type.id) ? type.color : 'hover:bg-muted'
-                }`}
-                onClick={() => toggleFilter(type.id)}
-              >
-                {type.label}
-              </Badge>
-            ))}
-          </div>
-        </div>
-
         {/* Search Results */}
         <div className="space-y-4">
           {searchQuery ? (
             <div>
               <h3 className="text-lg font-semibold mb-4">
-                Zoekresultaten voor "{searchQuery}"
+                Zoekresultaten voor "{searchQuery}" ({searchResults.length} resultaten)
               </h3>
-              <div className="text-center py-12 text-muted-foreground">
-                <Search className="h-12 w-12 mx-auto mb-4 text-gray-300" />
-                <p>Zoekfunctionaliteit wordt binnenkort geïmplementeerd</p>
-                <p className="text-sm mt-2">
-                  Je kunt nu door de hoofdsecties navigeren om content te vinden
-                </p>
-              </div>
+              
+              {searchResults.length > 0 ? (
+                <div className="space-y-3">
+                  {searchResults.map((result) => (
+                    <Card 
+                      key={result.id} 
+                      className="hover:shadow-md transition-shadow cursor-pointer"
+                      onClick={() => handleResultClick(result)}
+                    >
+                      <CardContent className="p-4">
+                        <div className="flex items-start justify-between">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2 mb-2">
+                              <h4 className="font-semibold text-foreground">{result.title}</h4>
+                              <Badge className={getTypeColor(result.type)}>
+                                {getTypeLabel(result.type)}
+                              </Badge>
+                            </div>
+                            <p className="text-muted-foreground text-sm mb-2">
+                              {result.description}
+                            </p>
+                            {result.tags && result.tags.length > 0 && (
+                              <div className="flex flex-wrap gap-1">
+                                {result.tags.slice(0, 3).map((tag, index) => (
+                                  <span 
+                                    key={index} 
+                                    className="text-xs bg-muted px-2 py-1 rounded"
+                                  >
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                          <ArrowRight className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-12 text-muted-foreground">
+                  <Search className="h-12 w-12 mx-auto mb-4 text-gray-300" />
+                  <p>Geen resultaten gevonden voor "{searchQuery}"</p>
+                  <p className="text-sm mt-2">
+                    Probeer andere zoektermen
+                  </p>
+                </div>
+              )}
             </div>
           ) : (
             <div className="text-center py-12">
               <Search className="h-16 w-16 mx-auto mb-4 text-gray-300" />
               <h3 className="text-xl font-semibold mb-2">Begin met zoeken</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground">
                 Voer een zoekterm in om door alle content te zoeken
               </p>
-              
-              {/* Quick Access Cards */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-                <Card className="hover:shadow-md transition-shadow cursor-pointer">
-                  <CardContent className="p-4">
-                    <h4 className="font-semibold mb-2">Populaire Zoektermen</h4>
-                    <div className="space-y-1 text-sm text-muted-foreground">
-                      <p>• Gekisai Dai Ichi</p>
-                      <p>• Sanchin</p>
-                      <p>• Tensho</p>
-                      <p>• Seiyunchin</p>
-                    </div>
-                  </CardContent>
-                </Card>
-                
-                <Card className="hover:shadow-md transition-shadow cursor-pointer">
-                  <CardContent className="p-4">
-                    <h4 className="font-semibold mb-2">Technieken</h4>
-                    <div className="space-y-1 text-sm text-muted-foreground">
-                      <p>• Age Uke</p>
-                      <p>• Gedan Barai</p>
-                      <p>• Soto Uke</p>
-                      <p>• Mae Geri</p>
-                    </div>
-                  </CardContent>
-                </Card>
-                
-                <Card className="hover:shadow-md transition-shadow cursor-pointer">
-                  <CardContent className="p-4">
-                    <h4 className="font-semibold mb-2">Terminologie</h4>
-                    <div className="space-y-1 text-sm text-muted-foreground">
-                      <p>• Dojo Kun</p>
-                      <p>• Kihon</p>
-                      <p>• Kumite</p>
-                      <p>• Bunkai</p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
             </div>
           )}
         </div>
