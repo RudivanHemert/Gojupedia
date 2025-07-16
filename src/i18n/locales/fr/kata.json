@@ -96,70 +96,108 @@
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
       "japaneseName": "撃砕第一",
-      "meaning": "Détruire No. 1",
-      "description": "Le premier kata de la série Gekisai, conçu pour introduire les techniques et principes de base du Goju Ryu.",
-      "history": "Créé par Chojun Miyagi en 1940 dans le cadre de ses efforts pour moderniser l'instruction du karaté.",
-      "culturalSignificance": "Représente l'introduction aux principes du Goju Ryu pour les débutants.",
-      "stepsCount": 6,
-      "steps": {
-        "step1": {
-          "title": "Commencer en position naturelle",
-          "description": "Commencez en position naturelle face à l'avant"
-        },
-        "step2": {
-          "title": "Pas dans sanchin dachi",
-          "description": "Pas dans sanchin dachi avec double blocage"
-        },
-        "step3": {
-          "title": "Exécuter la séquence de coups",
-          "description": "Exécutez la séquence de coups"
-        },
-        "step4": {
-          "title": "Effectuer blocages et contre-attaques",
-          "description": "Effectuez des blocages et contre-attaques sur les côtés"
-        },
-        "step5": {
-          "title": "Retourner au centre",
-          "description": "Retournez au centre et complétez les techniques finales"
-        },
-        "step6": {
-          "title": "Retourner à la position initiale",
-          "description": "Retournez à la position initiale"
-        }
-      }
+      "meaning": "Attaquer et Détruire",
+      "description": "La première kata de la série Gekisai, conçue pour introduire les techniques de base et les principes du Goju Ryu.",
+      "history": "Cette kata a été développée à Okinawa vers 1940 par sensei Chōjun Miyagi (cofondateur de Goju-Ryu) et Shoshin Nagamine. Ils ont basé Gekisai Dai Ichi sur Fukyugata II (une kata de base du système Itosu, analogue au Pinan de Shuri-te) pour offrir aux jeunes étudiants une kata plus simple.",
+      "culturalSignificance": "Gekisai Dai Ichi est une Kaishu-gata (kata de main ouverte) avec des mouvements à la fois durs et dynamiques. La kata contient des mouvements de base de kata plus lourdes, mais sous forme simplifiée. La respiration est normale (pas de respiration profonde de Naha-te) et dans l'esprit de Goju-Ryu (dur/doux) on se détend après chaque mouvement tendu.",
+      "detailedMeaning": {
+        "title": "Nom et Signification",
+        "content": "Gekisai Dai Ichi (撃砕第一) signifie littéralement \"attaquer et briser\" ou \"attaquer et détruire\". Les caractères 撃 (geki) et 砕 (sai) signifient respectivement \"attaquer, frapper\" et \"détruire, briser\". En combinaison avec 大 (\"dai\", grand) dans Gekisai Dai Ichi, cela devient \"grande destruction\" ou \"coup le plus grand\". Symboliquement, le nom est souvent traduit comme \"briser forteresse\" ou \"détruire en grand\"."
+      },
+      "origin": {
+        "title": "Origine",
+        "content": "Cette kata a été développée à Okinawa vers 1940 par sensei Chōjun Miyagi (cofondateur de Goju-Ryu) et Shoshin Nagamine. Ils ont basé Gekisai Dai Ichi sur Fukyugata II (une kata de base du système Itosu, analogue au Pinan de Shuri-te) pour offrir aux jeunes étudiants une kata plus simple. Avec cela, Gekisai Dai Ichi a des racines dans la tradition Okinawa-te (surtout style Shuri/Naha) et est fortement influencée par les éléments plus linéaires de Shuri (Pinan/Fukyugata). Elle n'a pas été adoptée directement d'une kata chinoise, mais plutôt une création okinawanaise basée sur des formes existantes (comparable au Pinan d'Itosu)."
+      },
+      "transmission": {
+        "title": "Transmission à Goju-Ryu",
+        "content": "Après que Miyagi ait formulé cette kata en 1940 pour l'entraînement des jeunes, il l'a transmise à ses étudiants dans la lignée Goju-Ryu. Ainsi elle s'est diffusée dans le style à travers Miyagi et ses étudiants (par exemple, Higaonna Morio, Miyazato, Yagi Meitoku). Tous les sous-systèmes de Goju-Ryu (Jundokan, Meibukan, IOGKF, JKF Goju Kai, etc.) connaissent Gekisai Dai Ichi comme la première ou deuxième kata après les techniques de base."
+      },
+      "historicalDevelopment": {
+        "title": "Développement Historique et Variations",
+        "content": "Originellement, Gekisai Dai Ichi contenait entre autres un blocage avec le poing au-dessus de la tête (morote-tsuki plus haut) approprié pour les soldats américains grands après la Seconde Guerre mondiale; les exécutions ultérieures amènent cette technique principalement à hauteur d'estomac ou d'aisselle. Après la mort de Miyagi, de petites variations sont nées entre écoles: quelques courants (par exemple, Meibukan) ajoutent un morote-tsuki supplémentaire à la fin, tandis que d'autres ne le font pas. En général, l'embusen reste la même et les variations sont limitées à l'angle et à l'application de techniques."
+      },
+      "technicalFeatures": {
+        "title": "Caractéristiques Techniques et Philosophiques",
+        "content": "Gekisai Dai Ichi est une Kaishu-gata (kata de main ouverte) avec des mouvements à la fois durs et dynamiques. La kata contient des mouvements de base de kata plus lourdes, mais sous forme simplifiée. La respiration est normale (pas de respiration profonde de Naha-te) et dans l'esprit de Goju-Ryu (dur/doux) on se détend après chaque mouvement tendu (style Kaishu). La kata commence typiquement par un mouvement défensif, suivant le principe \"Karate ni sente nashi\" (\"dans le karate il n'y a pas de première attaque\"). Les positions varient (comme zenkutsu- et kiba-dachi) et soulignent force-ET-détente, avec des techniques oscillantes (coups de pied et coups doubles) qui soulignent la flexibilité d'un corps en mouvement."
+      },
+      "controversy": {
+        "title": "Controverse/Variations au sein de Goju-Ryu",
+        "content": "Il y a peu de controverse; les différences entre écoles sont subtiles. Quelques lignées de Goju Ryu (par exemple, Meibukan de Yagi Meitoku versus Goju Kai de Yamaguchi Gogen) ont de petites différences d'exécution dans Gekisai Dai Ichi (comme la hauteur du blocage supérieur ou le rythme des coups de pied), mais la base reste cohérente. Dans le Kyokushinkarate (que Kyokushin appelle ceci une \"kata méridionale\") existe aussi une version propre de Gekisai Dai Ichi, parce que le fondateur Mas Oyama (qui a traversé la tradition Goju) a adopté cette kata."
+      },
+      "relationships": {
+        "title": "Relation avec d'autres kata/Systèmes",
+        "content": "Gekisai Dai Ichi est une ramification directe des kata Fukyugata/Pinan d'Itosu (Shuri-te). Comme son partenaire Gekisai Dai Ni, elle sert d'introduction avant les kata Naha-te plus profondes comme Sanchin. C'est essentiellement le frère plus dur de Gekisai Dai Ni. Dans la chaîne d'enseignement elle vient avant Saifa et Sanchin. Kyokushin la contient comme kata précoce, Shito-Ryu en a aussi deux (versions Higa et Miyagi)."
+      },
+      "modernPractice": {
+        "title": "Utilisation dans la Pratique Moderne",
+        "content": "Gekisai Dai Ichi est traditionnellement enseignée comme la première ou deuxième kata pour les étudiants débutants. Elle est destinée à pratiquer les mouvements de base et le rythme. Dans les kata de compétition (événements) elle survient rarement parce qu'elle est assez simple, mais elle est montrée dans les démonstrations et dans les plans de leçon de dojo comme fondation. Elle sert principalement de pont vers les kata plus lourdes (comme Sanchin et Tensho) et pour la condition et l'entraînement de défense de base."
+      },
+      "stepsCount": "7"
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
       "japaneseName": "撃砕第二",
       "meaning": "Détruire No. 2",
-      "description": "Le deuxième kata de la série Gekisai, introduisant des techniques plus avancées incluant des techniques à main ouverte.",
-      "history": "Créé par Chojun Miyagi comme progression de Gekisai Dai Ichi.",
+      "description": "La deuxième kata de la série Gekisai, introduisant des techniques plus avancées incluant des techniques de main ouverte.",
+      "history": "Créée par Chojun Miyagi comme progression de Gekisai Dai Ichi.",
       "culturalSignificance": "Construit sur la base établie dans Gekisai Dai Ichi.",
+      "detailedMeaning": {
+        "title": "Nom et Signification",
+        "content": "Gekisai Dai Ni (撃砕第二) partage les caractères 撃砕 avec Dai Ichi : \"attaquer et détruire\". Le suffixe 小 (sho) dans le nom japonais (parfois Gekisai Sho) signifie \"petit\" ou \"moins\", en contraste avec 大 (dai) = \"grand\". Traduit librement, Gekisai Dai Ni signifie \"attaque et destruction petite\". Comme Dai Ichi, le nom souligne l'idée de frapper puissamment, mais comme contrepartie de la Gekisai \"grande\"."
+      },
+      "origin": {
+        "title": "Origine",
+        "content": "Gekisai Dai Ni, comme Dai Ichi, est originaire de 1940 à Okinawa sous la direction de Chōjun Miyagi (avec Shoshin Nagamine). Elle est basée sur Fukyugata Ichi d'Itosu (encore un analogue de Pinan). Essentiellement, Miyagi a pris Fukyugata Ichi comme base pour Gekisai Dai Ni, créant deux nouvelles kata pour compléter le curriculum Goju. Cette kata reflète à nouveau la fusion d'Okinawa-te avec des éléments du sud de la Chine, mais est principalement un design okinawanais moderne."
+      },
+      "transmission": {
+        "title": "Transmission à Goju-Ryu",
+        "content": "Comme Gekisai Dai Ichi, cette kata a été transmise par Miyagi à ses étudiants au sein de Goju-Ryu. Elle a été introduite comme la deuxième kata Gekisai aux côtés de Dai Ichi, afin que les jeunes étudiants reçoivent un programme de base plus complet. D'importants fondateurs de Goju (comme Higaonna Morio, Miyazato, Yagi Meitoku) ont introduit cette kata dans leurs établissements, la diffusant dans toutes les lignées de Goju-Ryu."
+      },
+      "historicalDevelopment": {
+        "title": "Développement Historique et Variations",
+        "content": "Gekisai Dai Ni est également restée relativement inchangée. Après la guerre, de nombreux dojos sont passés aux poings émoussés au lieu du coup de poing haut original, comme avec Dai Ichi. Certaines écoles ont de petites différences d'exécution (posture, techniques de transition). Dans Kyokushin, Gekisai Dai Ni n'est pas directement adoptée de Goju (bien qu'il existe une soi-disant kata \"méridionale\" \"Gekisai\" dans Kyokushin), mais dans Goju lui-même la kata reste assez cohérente entre Meibukan, Jundokan et Koepka-ha."
+      },
+      "technicalFeatures": {
+        "title": "Caractéristiques Techniques et Philosophiques",
+        "content": "Gekisai Dai Ni, comme Dai Ichi, est une Kaishu-gata. Ici aussi, les coups puissants alternent avec des mouvements détendus d'aller-retour, appropriés à la philosophie Goju de dur-doux. Par exemple, il y a un coup profond vers l'avant et des blocs à la fois hauts et bas. La respiration est plate (Kaishu) et il y a relaxation à chaque technique. La kata contient des éléments de kata plus complexes, mais simplifiés. Selon les étudiants modernes, elle développe la coordination des mouvements et la force et stimule le principe \"détends-toi après chaque attaque\"."
+      },
+      "controversy": {
+        "title": "Controverse/Variations au sein de Goju-Ryu",
+        "content": "Il n'y a pas de grandes disputes autour de Gekisai Dai Ni ; les différences entre écoles sont marginales. La plupart des variations sont dans les détails (comme l'exécution de morote-zuki). En général, cette kata est pratiquée également dans tous les styles de Goju-Ryu et est vue comme une forme d'exercice simple."
+      },
+      "relationships": {
+        "title": "Relation avec d'autres kata/Systèmes",
+        "content": "Gekisai Dai Ni forme avec Dai Ichi l'introduction de l'arsenal de kata de Goju-ryu, précédant Saifa et Sanchin. Elle est connectée avec Fukyugata Ichi d'Itosu et les traditions du Nord/Est d'Okinawa (Shuri/Pinan). Elle accentue la succession de mouvement dans plusieurs directions (similaire à Pinan). En dehors de Goju, le nom n'est pas beaucoup utilisé, bien que l'intention soit la même que Gekisai Dai Ichi."
+      },
+      "modernPractice": {
+        "title": "Utilisation dans la Pratique Moderne",
+        "content": "Gekisai Dai Ni est généralement enseignée comme la deuxième kata, après Dai Ichi. Elle sert principalement des fins éducatives (technique et rythme). Dans les compétitions elle survient rarement (trop bas avancé), mais dans les démonstrations elle montre les principes de base de Goju-Ryu. Elle est aussi utilisée comme échauffement ou forme d'entraînement de condition physique en raison des transitions fluides et rapides."
+      },
       "stepsCount": 6,
       "steps": {
         "step1": {
-          "title": "Commencer en position naturelle",
-          "description": "Commencez en position naturelle face à l'avant"
+          "title": "Commencer en posture naturelle",
+          "description": "Commencer en posture naturelle face à l'avant"
         },
         "step2": {
-          "title": "Blocage à main ouverte",
-          "description": "Pas dans sanchin dachi avec blocage à main ouverte"
+          "title": "Blocage de main ouverte",
+          "description": "Pas en sanchin dachi avec blocage de main ouverte"
         },
         "step3": {
-          "title": "Séquence de coups et blocages",
-          "description": "Exécutez la séquence de coups et blocages"
+          "title": "Série de coup et blocage",
+          "description": "Exécuter la série de coup et blocage"
         },
         "step4": {
           "title": "Coups de pied et coups",
-          "description": "Effectuez des coups de pied et coups dans plusieurs directions"
+          "description": "Exécuter des coups de pied et des coups dans plusieurs directions"
         },
         "step5": {
-          "title": "Séquence finale de blocages",
-          "description": "Complétez la séquence finale de blocages"
+          "title": "Série finale de blocage",
+          "description": "Compléter la série finale de blocage"
         },
         "step6": {
-          "title": "Retourner à la position initiale",
-          "description": "Retournez à la position initiale"
+          "title": "Retour à la position de départ",
+          "description": "Retourner à la position de départ"
         }
       }
     },
@@ -167,36 +205,42 @@
       "name": "Saifa",
       "japaneseName": "砕破",
       "meaning": "Briser et Déchirer",
-      "description": "Un kata intermédiaire qui met l'accent sur les mouvements circulaires et les techniques de combat rapproché.",
-      "history": "Un des kata originaux apporté de Chine par Kanryo Higaonna.",
-      "culturalSignificance": "Représente la transition des techniques de base aux techniques intermédiaires.",
-      "stepsCount": 6,
-      "steps": {
-        "step1": {
-          "title": "Commencer en position naturelle",
-          "description": "Commencez en position naturelle face à l'avant"
-        },
-        "step2": {
-          "title": "Séquence d'ouverture",
-          "description": "Exécutez la séquence d'ouverture avec des blocages simultanés"
-        },
-        "step3": {
-          "title": "Coup de coude circulaire",
-          "description": "Effectuez un coup de coude circulaire suivi d'un mouvement de saisie et de traction"
-        },
-        "step4": {
-          "title": "Séquence de rotation",
-          "description": "Exécutez la séquence de rotation avec des coups de pied et des coups"
-        },
-        "step5": {
-          "title": "Séquence finale",
-          "description": "Complétez la séquence finale en retournant à la position initiale"
-        },
-        "step6": {
-          "title": "Fermeture formelle",
-          "description": "Terminez par une fermeture formelle"
-        }
-      }
+      "description": "Un kata avancé qui met l'accent sur les techniques puissantes de poing fermé et les mouvements de frappe agressifs.",
+      "history": "Traditionnellement, on dit que Kanryō Higaonna a apporté cette kata de Fuzhou (Fujian, Sud de la Chine) après ses études avec le maître Ryu Ryu Ko dans les années 1860-1880.",
+      "culturalSignificance": "Représente la tradition Naha-te avec une forte influence chinoise méridionale et contient de nombreuses techniques de fixation et d'étranglement.",
+      "detailedMeaning": {
+        "title": "Nom et Signification",
+        "content": "Saifa (砕破) se traduit par \"briser et déchirer\" ou \"rompre et détruire\". Le premier caractère 砕 (sai) signifie \"écraser\" et le second 破 (fa/ha) \"déchirer, craquer\". Ainsi Saifa peut se traduire par \"frapper et déchirer\". Les traductions libres incluent \"briser\" ou \"frapper pour casser\". Ces significations se réfèrent aux techniques de poing fermé dans cette kata (par exemple, coup de revers, coups de marteau) et aux mouvements agressifs de 'frappe'."
+      },
+      "origin": {
+        "title": "Origine",
+        "content": "L'origine exacte de Saifa est incertaine. Traditionnellement, on dit que Kanryō Higaonna a apporté cette kata de Fuzhou (Fujian, Sud de la Chine) après ses études avec le maître Ryu Ryu Ko dans les années 1860-1880. Higaonna forma ainsi la base de la tradition Naha-te. Cependant, certains pensent que Chōjun Miyagi a conçu ou modifié la kata lui-même après la mort d'Higaonna, étant donné le fait que Saifa n'apparaît pas dans Tōon-ryu (le style de Kyōda). Il est certain que Saifa a une forte influence chinoise méridionale et a trouvé sa place dans Goju-Ryu à travers la ligne maître-élève Higaonna→Miyagi."
+      },
+      "transmission": {
+        "title": "Transmission à Goju-Ryu",
+        "content": "Sensei Miyagi adopta Saifa comme troisième kata Goju après les deux formes Gekisai. Il l'apprit soit directement d'Higaonna ou modifia des techniques existantes en Saifa. Saifa fut transmise à des instructeurs ultérieurs de Goju (par exemple, Miyazato, Yagi). De plus, la kata a été adoptée dans d'autres styles : Kenwa Mabuni (Shito-Ryu) prit Saifa, et Mas Oyama (Kyokushin) apprit Saiha (sa variante) à travers l'élève d'Higaonna Gogen Yamaguchi. Dans l'historiographie contemporaine, Saifa fut ainsi incluse par Miyagi dans le curriculum officiel de Goju."
+      },
+      "historicalDevelopment": {
+        "title": "Développement Historique",
+        "content": "Au sein de Goju-Ryu, Saifa est toujours restée une kata avancée (généralement troisième kata). La forme est essentiellement inchangée ; différentes écoles ont cependant de petites différences d'exécution dans le tempo et la prise ou l'exécution de blocage. Un développement remarquable : dans certains sports (Kyokushin) la kata s'appelle Saiha et se pratique avec un certain poids ajouté. Essentiellement, cependant, Saifa est restée comparable dans toutes les lignées de Goju-Ryu."
+      },
+      "technicalFeatures": {
+        "title": "Caractéristiques Techniques et Philosophiques",
+        "content": "Saifa est une Kaishu-gata mettant l'accent sur les coups puissants de poing fermé et les techniques de saisie à main ouverte. Caractéristiques sont les mouvements rapides et saccadés, les coups de marteau, uraken (coup de revers) et le positionnement hors ligne pour fermer et frapper simultanément. La kata contient de nombreuses techniques de fixation et d'étranglement (comme les clés de poignet) et des réponses circulaires. Un exemple classique de bunkai est une évasion de prise de poignet suivie d'un coup de revers, où la main libre retient l'arme. Philosophiquement, l'accent est mis sur \"briser et détruire\" avec une puissance interne ferme. La respiration est Kaishu (normale), mais combinée avec la tension dans Waza (techniques) et la relaxation entre les deux."
+      },
+      "controversy": {
+        "title": "Controverse/Variations au sein de Goju-Ryu",
+        "content": "La plupart des sous-systèmes de Goju gardent Saifa plus ou moins identique. Il est intéressant que Saifa apparaisse dans Shito-Ryu et Kyokushin, mais soit notablement absent dans To-on-ryu (Kyoda). Cela suggère qu'Higaonna ne vint pas de Chine avec cette kata, et la transition fut faite par Chōjun Miyagi lui-même. Il n'y a pas de conflits notables, bien que Kyokushin appelle la forme \"Saiha\" et qu'elle ait été largement démontrée par Mas Oyama et Morio Higaonna."
+      },
+      "relationships": {
+        "title": "Relation avec d'autres kata/Systèmes",
+        "content": "Saifa se connecte à la tradition Naha-te (comme Sanchin, Seisan) et possède des similitudes avec les mouvements chinois méridionaux (fujianais) de Grue Blanche et Pa Kua à travers les techniques circulaires et de saisie. Elle est parfois vue comme un lien entre Naha et Tōon kenpo (aussi à cause de la discussion sur la présence dans Tōon-ryu). Relativement, elle se trouve directement après Gekisai I & II et avant Sanchin dans le curriculum de Goju. Aussi dans d'autres styles (par exemple, Shito, Kyokushin) la forme de base (avec de petites variations) est reconnue."
+      },
+      "modernPractice": {
+        "title": "Utilisation dans la Pratique Moderne",
+        "content": "Saifa est traditionnellement entraînée comme une kata spécialisée pour les pratiquants avancés. Elle apparaît dans les compétitions de kata de Goju-ryu (à la fois traditionnelles et compétitions de Kyokushin) à cause des effets impressionnants. Dans le dojo, elle est souvent utilisée pour pratiquer la force des mains, la coordination et le bunkai d'autodéfense (comme les évasions de poignet et les coups à courte portée). En autodéfense, l'accent sur la saisie et l'étranglement est appliqué. Saifa est aussi utilisée comme kata de démonstration à cause des coins frappants et des techniques de contre."
+      },
+      "stepsCount": "6"
     },
     "seiyunchin": {
       "name": "Seiyunchin",
@@ -353,6 +397,37 @@
         "Kanryo Higaonna",
         "Chojun Miyagi"
       ]
+    }
+  },
+  "kataTheoryDetailPage": {
+    "notFound": {
+      "title": "Kata Non Trouvée",
+      "message": "La kata demandée n'a pas pu être trouvée.",
+      "backButton": "Retour à la Théorie des Kata"
+    },
+    "tabs": {
+      "origin": "Origine",
+      "meaning": "Signification",
+      "significance": "Signification Culturelle",
+      "details": "Détails"
+    },
+    "sections": {
+      "originTitle": "Origine de {{kataName}}",
+      "meaningTitle": "Signification de {{kataName}}",
+      "significanceTitle": "Signification Culturelle",
+      "detailsTitle": "Détails de Kata",
+      "featuresTitle": "Caractéristiques Clés"
+    },
+    "labels": {
+      "japaneseName": "Nom Japonais",
+      "translation": "Traduction",
+      "description": "Description",
+      "level": "Niveau",
+      "category": "Catégorie",
+      "movements": "Mouvements",
+      "duration": "Durée",
+      "origin": "Origine",
+      "master": "Maître"
     }
   },
   "kataDetailPage": {

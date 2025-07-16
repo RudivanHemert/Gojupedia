@@ -20,6 +20,7 @@ import TechniqueDetailPage from "./pages/TechniqueDetailPage";
 import KataPage from "./pages/KataPage";
 import KataDetailPage from "./pages/KataDetailPage";
 import KataTheoryPage from "./pages/KataTheoryPage";
+import KataTheoryDetailPage from "./pages/theory/kata/KataTheoryDetailPage";
 import BunkaiPage from "./pages/BunkaiPage";
 import BunkaiDetailPage from "./pages/BunkaiDetailPage";
 import HojoUndoPage from "./pages/HojoUndoPage";
@@ -198,6 +199,7 @@ const AppContent = React.memo(() => {
               <Route path="/philosophy/respect" element={<Respect />} />
               <Route path="/vital-points" element={<VitalPointsPage />} />
               <Route path="/theory/kata" element={<KataTheoryPage />} />
+              <Route path="/theory/kata/:id" element={<KataTheoryDetailPage />} />
               <Route path="/practice" element={<PracticePage />} />
               <Route path="/techniques" element={<TechniquesPage />} />
               <Route path="/techniques/:id" element={<TechniqueDetailPage />} />

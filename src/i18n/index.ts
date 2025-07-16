@@ -13,6 +13,19 @@ import enStudy from './locales/en/study.json';
 import enSettings from './locales/en/settings.json';
 import enAbout from './locales/en/about.json';
 import enKata from './locales/en/kata.json';
+// Import individual kata files for English
+import enSaifa from './locales/en/kata/saifa.json';
+import enGekisaiDaiIchi from './locales/en/kata/gekisai-dai-ichi.json';
+import enGekisaiDaiNi from './locales/en/kata/gekisai-dai-ni.json';
+import enSanchin from './locales/en/kata/sanchin.json';
+import enTensho from './locales/en/kata/tensho.json';
+import enSeiyunchin from './locales/en/kata/seiyunchin.json';
+import enShisochin from './locales/en/kata/shisochin.json';
+import enSanseru from './locales/en/kata/sanseru.json';
+import enSepai from './locales/en/kata/sepai.json';
+import enKururunfa from './locales/en/kata/kururunfa.json';
+import enSesan from './locales/en/kata/sesan.json';
+import enPeichurin from './locales/en/kata/peichurin.json';
 import enBunkai from './locales/en/bunkai.json';
 import enPhilosophy from './locales/en/philosophy.json';
 import enVitalPoints from './locales/en/vitalPoints.json';
@@ -34,6 +47,19 @@ import deStudy from './locales/de/study.json';
 import deSettings from './locales/de/settings.json';
 import deAbout from './locales/de/about.json';
 import deKata from './locales/de/kata.json';
+// Import individual kata files for German
+import deSaifa from './locales/de/kata/saifa.json';
+import deGekisaiDaiIchi from './locales/de/kata/gekisai-dai-ichi.json';
+import deGekisaiDaiNi from './locales/de/kata/gekisai-dai-ni.json';
+import deSanchin from './locales/de/kata/sanchin.json';
+import deTensho from './locales/de/kata/tensho.json';
+import deSeiyunchin from './locales/de/kata/seiyunchin.json';
+import deShisochin from './locales/de/kata/shisochin.json';
+import deSanseru from './locales/de/kata/sanseru.json';
+import deSepai from './locales/de/kata/sepai.json';
+import deKururunfa from './locales/de/kata/kururunfa.json';
+import deSesan from './locales/de/kata/sesan.json';
+import dePeichurin from './locales/de/kata/peichurin.json';
 import deBunkai from './locales/de/bunkai.json';
 import dePhilosophy from './locales/de/philosophy.json';
 import deVitalPoints from './locales/de/vitalPoints.json';
@@ -55,6 +81,19 @@ import esStudy from './locales/es/study.json';
 import esSettings from './locales/es/settings.json';
 import esAbout from './locales/es/about.json';
 import esKata from './locales/es/kata.json';
+// Import individual kata files for Spanish
+import esSaifa from './locales/es/kata/saifa.json';
+import esGekisaiDaiIchi from './locales/es/kata/gekisai-dai-ichi.json';
+import esGekisaiDaiNi from './locales/es/kata/gekisai-dai-ni.json';
+import esSanchin from './locales/es/kata/sanchin.json';
+import esTensho from './locales/es/kata/tensho.json';
+import esSeiyunchin from './locales/es/kata/seiyunchin.json';
+import esShisochin from './locales/es/kata/shisochin.json';
+import esSanseru from './locales/es/kata/sanseru.json';
+import esSepai from './locales/es/kata/sepai.json';
+import esKururunfa from './locales/es/kata/kururunfa.json';
+import esSesan from './locales/es/kata/sesan.json';
+import esPeichurin from './locales/es/kata/peichurin.json';
 import esBunkai from './locales/es/bunkai.json';
 import esPhilosophy from './locales/es/philosophy.json';
 import esVitalPoints from './locales/es/vitalPoints.json';
@@ -76,6 +115,19 @@ import frStudy from './locales/fr/study.json';
 import frSettings from './locales/fr/settings.json';
 import frAbout from './locales/fr/about.json';
 import frKata from './locales/fr/kata.json';
+// Import individual kata files for French
+import frSaifa from './locales/fr/kata/saifa.json';
+import frGekisaiDaiIchi from './locales/fr/kata/gekisai-dai-ichi.json';
+import frGekisaiDaiNi from './locales/fr/kata/gekisai-dai-ni.json';
+import frSanchin from './locales/fr/kata/sanchin.json';
+import frTensho from './locales/fr/kata/tensho.json';
+import frSeiyunchin from './locales/fr/kata/seiyunchin.json';
+import frShisochin from './locales/fr/kata/shisochin.json';
+import frSanseru from './locales/fr/kata/sanseru.json';
+import frSepai from './locales/fr/kata/sepai.json';
+import frKururunfa from './locales/fr/kata/kururunfa.json';
+import frSesan from './locales/fr/kata/sesan.json';
+import frPeichurin from './locales/fr/kata/peichurin.json';
 import frBunkai from './locales/fr/bunkai.json';
 import frPhilosophy from './locales/fr/philosophy.json';
 import frVitalPoints from './locales/fr/vitalPoints.json';
@@ -97,6 +149,19 @@ import itStudy from './locales/it/study.json';
 import itSettings from './locales/it/settings.json';
 import itAbout from './locales/it/about.json';
 import itKata from './locales/it/kata.json';
+// Import individual kata files for Italian
+import itSaifa from './locales/it/kata/saifa.json';
+import itGekisaiDaiIchi from './locales/it/kata/gekisai-dai-ichi.json';
+import itGekisaiDaiNi from './locales/it/kata/gekisai-dai-ni.json';
+import itSanchin from './locales/it/kata/sanchin.json';
+import itTensho from './locales/it/kata/tensho.json';
+import itSeiyunchin from './locales/it/kata/seiyunchin.json';
+import itShisochin from './locales/it/kata/shisochin.json';
+import itSanseru from './locales/it/kata/sanseru.json';
+import itSepai from './locales/it/kata/sepai.json';
+import itKururunfa from './locales/it/kata/kururunfa.json';
+import itSesan from './locales/it/kata/sesan.json';
+import itPeichurin from './locales/it/kata/peichurin.json';
 import itBunkai from './locales/it/bunkai.json';
 import itPhilosophy from './locales/it/philosophy.json';
 import itVitalPoints from './locales/it/vitalPoints.json';
@@ -118,6 +183,19 @@ import nlStudy from './locales/nl/study.json';
 import nlSettings from './locales/nl/settings.json';
 import nlAbout from './locales/nl/about.json';
 import nlKata from './locales/nl/kata.json';
+// Import individual kata files for Dutch
+import nlSaifa from './locales/nl/kata/saifa.json';
+import nlGekisaiDaiIchi from './locales/nl/kata/gekisai-dai-ichi.json';
+import nlGekisaiDaiNi from './locales/nl/kata/gekisai-dai-ni.json';
+import nlSanchin from './locales/nl/kata/sanchin.json';
+import nlTensho from './locales/nl/kata/tensho.json';
+import nlSeiyunchin from './locales/nl/kata/seiyunchin.json';
+import nlShisochin from './locales/nl/kata/shisochin.json';
+import nlSanseru from './locales/nl/kata/sanseru.json';
+import nlSepai from './locales/nl/kata/sepai.json';
+import nlKururunfa from './locales/nl/kata/kururunfa.json';
+import nlSesan from './locales/nl/kata/sesan.json';
+import nlPeichurin from './locales/nl/kata/peichurin.json';
 import nlBunkai from './locales/nl/bunkai.json';
 import nlPhilosophy from './locales/nl/philosophy.json';
 import nlVitalPoints from './locales/nl/vitalPoints.json';
@@ -141,158 +219,234 @@ export const supportedLanguages = {
 
 export type SupportedLanguage = keyof typeof supportedLanguages;
 
-// Combine all translations for each language
-const combineTranslations = (modules: Record<string, any>) => {
-  const result = Object.keys(modules).reduce((acc, key) => {
-    if (key === 'hojoUndo' || key === 'kumite') {
-      // Keep hojoUndo and kumite as separate namespaces
-      return { ...acc, [key]: modules[key] };
-    } else {
-      // Merge other modules into the root level
-      return { ...acc, ...modules[key] };
-    }
-  }, {});
-  
-  return result;
+// Simple translation combination
+const enTranslations = {
+  ...enCommon,
+  ...enHome,
+  ...enTheory,
+  ...enTerminology,
+  ...enHistory,
+  ...enPractice,
+  ...enStudy,
+  ...enSettings,
+  ...enAbout,
+  kata: {
+    ...enKata.kata,
+    saifa: enSaifa,
+    'gekisai-dai-ichi': enGekisaiDaiIchi,
+    'gekisai-dai-ni': enGekisaiDaiNi,
+    sanchin: enSanchin,
+    tensho: enTensho,
+    seiyunchin: enSeiyunchin,
+    shisochin: enShisochin,
+    sanseru: enSanseru,
+    sepai: enSepai,
+    kururunfa: enKururunfa,
+    sesan: enSesan,
+    peichurin: enPeichurin
+  },
+  kataTheoryDetailPage: enKata.kataTheoryDetailPage,
+  ...enBunkai,
+  ...enPhilosophy,
+  ...enVitalPoints,
+  ...enTechniques,
+  ...enGraduations,
+  ...enQuiz,
+  hojoUndo: enHojoUndo,
+  ...enNewaza,
+  kumite: enKumite,
+  ...enJunbiUndo,
 };
 
-const enTranslations = combineTranslations({
-  common: enCommon,
-  home: enHome,
-  theory: enTheory,
-  terminology: enTerminology,
-  history: enHistory,
-  practice: enPractice,
-  study: enStudy,
-  settings: enSettings,
-  about: enAbout,
-  kata: enKata,
-  bunkai: enBunkai,
-  philosophy: enPhilosophy,
-  vitalPoints: enVitalPoints,
-  techniques: enTechniques,
-  graduations: enGraduations,
-  quiz: enQuiz,
-  hojoUndo: enHojoUndo,
-  newaza: enNewaza,
-  kumite: enKumite,
-  junbiUndo: enJunbiUndo,
-});
-
-const deTranslations = combineTranslations({
-  common: deCommon,
-  home: deHome,
-  theory: deTheory,
-  terminology: deTerminology,
-  history: deHistory,
-  practice: dePractice,
-  study: deStudy,
-  settings: deSettings,
-  about: deAbout,
-  kata: deKata,
-  bunkai: deBunkai,
-  philosophy: dePhilosophy,
-  vitalPoints: deVitalPoints,
-  techniques: deTechniques,
-  graduations: deGraduations,
-  quiz: deQuiz,
+const deTranslations = {
+  ...deCommon,
+  ...deHome,
+  ...deTheory,
+  ...deTerminology,
+  ...deHistory,
+  ...dePractice,
+  ...deStudy,
+  ...deSettings,
+  ...deAbout,
+  kata: {
+    ...deKata.kata,
+    saifa: deSaifa,
+    'gekisai-dai-ichi': deGekisaiDaiIchi,
+    'gekisai-dai-ni': deGekisaiDaiNi,
+    sanchin: deSanchin,
+    tensho: deTensho,
+    seiyunchin: deSeiyunchin,
+    shisochin: deShisochin,
+    sanseru: deSanseru,
+    sepai: deSepai,
+    kururunfa: deKururunfa,
+    sesan: deSesan,
+    peichurin: dePeichurin
+  },
+  kataTheoryDetailPage: deKata.kataTheoryDetailPage,
+  ...deBunkai,
+  ...dePhilosophy,
+  ...deVitalPoints,
+  ...deTechniques,
+  ...deGraduations,
+  ...deQuiz,
   hojoUndo: deHojoUndo,
-  newaza: deNewaza,
+  ...deNewaza,
   kumite: deKumite,
-  junbiUndo: deJunbiUndo,
-});
+  ...deJunbiUndo,
+};
 
-const esTranslations = combineTranslations({
-  common: esCommon,
-  home: esHome,
-  theory: esTheory,
-  terminology: esTerminology,
-  history: esHistory,
-  practice: esPractice,
-  study: esStudy,
-  settings: esSettings,
-  about: esAbout,
-  kata: esKata,
-  bunkai: esBunkai,
-  philosophy: esPhilosophy,
-  vitalPoints: esVitalPoints,
-  techniques: esTechniques,
-  graduations: esGraduations,
-  quiz: esQuiz,
+const esTranslations = {
+  ...esCommon,
+  ...esHome,
+  ...esTheory,
+  ...esTerminology,
+  ...esHistory,
+  ...esPractice,
+  ...esStudy,
+  ...esSettings,
+  ...esAbout,
+  kata: {
+    ...esKata.kata,
+    saifa: esSaifa,
+    'gekisai-dai-ichi': esGekisaiDaiIchi,
+    'gekisai-dai-ni': esGekisaiDaiNi,
+    sanchin: esSanchin,
+    tensho: esTensho,
+    seiyunchin: esSeiyunchin,
+    shisochin: esShisochin,
+    sanseru: esSanseru,
+    sepai: esSepai,
+    kururunfa: esKururunfa,
+    sesan: esSesan,
+    peichurin: esPeichurin
+  },
+  kataTheoryDetailPage: esKata.kataTheoryDetailPage,
+  ...esBunkai,
+  ...esPhilosophy,
+  ...esVitalPoints,
+  ...esTechniques,
+  ...esGraduations,
+  ...esQuiz,
   hojoUndo: esHojoUndo,
-  newaza: esNewaza,
+  ...esNewaza,
   kumite: esKumite,
-  junbiUndo: esJunbiUndo,
-});
+  ...esJunbiUndo,
+};
 
-const frTranslations = combineTranslations({
-  common: frCommon,
-  home: frHome,
-  theory: frTheory,
-  terminology: frTerminology,
-  history: frHistory,
-  practice: frPractice,
-  study: frStudy,
-  settings: frSettings,
-  about: frAbout,
-  kata: frKata,
-  bunkai: frBunkai,
-  philosophy: frPhilosophy,
-  vitalPoints: frVitalPoints,
-  techniques: frTechniques,
-  graduations: frGraduations,
-  quiz: frQuiz,
+const frTranslations = {
+  ...frCommon,
+  ...frHome,
+  ...frTheory,
+  ...frTerminology,
+  ...frHistory,
+  ...frPractice,
+  ...frStudy,
+  ...frSettings,
+  ...frAbout,
+  kata: {
+    ...frKata.kata,
+    saifa: frSaifa,
+    'gekisai-dai-ichi': frGekisaiDaiIchi,
+    'gekisai-dai-ni': frGekisaiDaiNi,
+    sanchin: frSanchin,
+    tensho: frTensho,
+    seiyunchin: frSeiyunchin,
+    shisochin: frShisochin,
+    sanseru: frSanseru,
+    sepai: frSepai,
+    kururunfa: frKururunfa,
+    sesan: frSesan,
+    peichurin: frPeichurin
+  },
+  kataTheoryDetailPage: frKata.kataTheoryDetailPage,
+  ...frBunkai,
+  ...frPhilosophy,
+  ...frVitalPoints,
+  ...frTechniques,
+  ...frGraduations,
+  ...frQuiz,
   hojoUndo: frHojoUndo,
-  newaza: frNewaza,
+  ...frNewaza,
   kumite: frKumite,
-  junbiUndo: frJunbiUndo,
-});
+  ...frJunbiUndo,
+};
 
-const itTranslations = combineTranslations({
-  common: itCommon,
-  home: itHome,
-  theory: itTheory,
-  terminology: itTerminology,
-  history: itHistory,
-  practice: itPractice,
-  study: itStudy,
-  settings: itSettings,
-  about: itAbout,
-  kata: itKata,
-  bunkai: itBunkai,
-  philosophy: itPhilosophy,
-  vitalPoints: itVitalPoints,
-  techniques: itTechniques,
-  graduations: itGraduations,
-  quiz: itQuiz,
+const itTranslations = {
+  ...itCommon,
+  ...itHome,
+  ...itTheory,
+  ...itTerminology,
+  ...itHistory,
+  ...itPractice,
+  ...itStudy,
+  ...itSettings,
+  ...itAbout,
+  kata: {
+    ...itKata.kata,
+    saifa: itSaifa,
+    'gekisai-dai-ichi': itGekisaiDaiIchi,
+    'gekisai-dai-ni': itGekisaiDaiNi,
+    sanchin: itSanchin,
+    tensho: itTensho,
+    seiyunchin: itSeiyunchin,
+    shisochin: itShisochin,
+    sanseru: itSanseru,
+    sepai: itSepai,
+    kururunfa: itKururunfa,
+    sesan: itSesan,
+    peichurin: itPeichurin
+  },
+  kataTheoryDetailPage: itKata.kataTheoryDetailPage,
+  ...itBunkai,
+  ...itPhilosophy,
+  ...itVitalPoints,
+  ...itTechniques,
+  ...itGraduations,
+  ...itQuiz,
   hojoUndo: itHojoUndo,
-  newaza: itNewaza,
+  ...itNewaza,
   kumite: itKumite,
-  junbiUndo: itJunbiUndo,
-});
+  ...itJunbiUndo,
+};
 
-const nlTranslations = combineTranslations({
-  common: nlCommon,
-  home: nlHome,
-  theory: nlTheory,
-  terminology: nlTerminology,
-  history: nlHistory,
-  practice: nlPractice,
-  study: nlStudy,
-  settings: nlSettings,
-  about: nlAbout,
-  kata: nlKata,
-  bunkai: nlBunkai,
-  philosophy: nlPhilosophy,
-  vitalPoints: nlVitalPoints,
-  techniques: nlTechniques,
-  graduations: nlGraduations,
-  quiz: nlQuiz,
+const nlTranslations = {
+  ...nlCommon,
+  ...nlHome,
+  ...nlTheory,
+  ...nlTerminology,
+  ...nlHistory,
+  ...nlPractice,
+  ...nlStudy,
+  ...nlSettings,
+  ...nlAbout,
+  kata: {
+    ...nlKata.kata,
+    saifa: nlSaifa,
+    'gekisai-dai-ichi': nlGekisaiDaiIchi,
+    'gekisai-dai-ni': nlGekisaiDaiNi,
+    sanchin: nlSanchin,
+    tensho: nlTensho,
+    seiyunchin: nlSeiyunchin,
+    shisochin: nlShisochin,
+    sanseru: nlSanseru,
+    sepai: nlSepai,
+    kururunfa: nlKururunfa,
+    sesan: nlSesan,
+    peichurin: nlPeichurin
+  },
+  kataTheoryDetailPage: nlKata.kataTheoryDetailPage,
+  ...nlBunkai,
+  ...nlPhilosophy,
+  ...nlVitalPoints,
+  ...nlTechniques,
+  ...nlGraduations,
+  ...nlQuiz,
   hojoUndo: nlHojoUndo,
-  newaza: nlNewaza,
+  ...nlNewaza,
   kumite: nlKumite,
-  junbiUndo: nlJunbiUndo,
-});
+  ...nlJunbiUndo,
+};
 
 i18n
   .use(LanguageDetector)
