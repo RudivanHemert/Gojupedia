@@ -1,7 +1,5 @@
 ## Kanryo Higaonna (1853 - 1916)
 
-![Kanryo Higaonna](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kanryo_Higaonna.jpg/330px-Kanryo_Higaonna.jpg)
-
 Kanryo Higaonna nacque il 10 marzo 1853 nel distretto di Nishimura a Naha, Okinawa, quarto figlio di Kanyo Higaonna e sua moglie Makado. Essendo uno di sette figli, con i fratelli maggiori deceduti o deboli, Kanryo assunse importanti responsabilità fin da giovane età.
 
 Suo padre era un mercante che possedeva una barca, trasportando merci tra Okinawa e le altre isole Ryukyu. Dall'età di dieci anni, Kanryo lavorò con suo padre, sviluppando una grande forza fisica nelle braccia e nelle gambe grazie al lavoro pesante. Quando Kanryo aveva quattordici anni, fu celebrata una cerimonia per segnare la sua transizione all'età adulta.
@@ -24,4 +22,4 @@ Nel 1905, la reputazione di Kanryo si era diffusa in tutta Okinawa. Fu invitato 
 
 La reputazione di Kanryo fu sfidata da un altro insegnante di arti marziali chiamato Kojo, che affermava che la sua arte fosse superiore. Fu organizzata una competizione nel kata Sanchin, giudicata da un rinomato medico del Giappone continentale. Il medico osservò che nell'esecuzione di Kanryo, i suoi piedi erano saldamente piantati, tutti i muscoli tesi e tutto il suo corpo coinvolto. Al contrario, i muscoli di Kojo erano tesi solo verticalmente, risultando in una tensione muscolare imprecisa. Kanryo fu considerato superiore, e Kojo riconobbe graziosamente la sua maggiore abilità.
 
-Questo evento consolidò ulteriormente la reputazione di Kanryo in tutta Okinawa. Fino al 1905, il "Te" (come era conosciuto allora) era un'arte segreta insegnata solo a studenti selezionati. Dopo che Kanryo iniziò a insegnare alla Scuola Commerciale di Naha, il karate divenne più diffuso e accessibile alla popolazione generale. 
+Questo evento consolidò ulteriormente la reputazione di Kanryo in tutta Okinawa. Fino al 1905, il "Te" (come era conosciuto allora) era un'arte segreta insegnata solo a studenti selezionati. Dopo che Kanryo iniziò a insegnare alla Scuola Commerciale di Naha, il karate divenne più diffuso e accessibile alla popolazione generale.

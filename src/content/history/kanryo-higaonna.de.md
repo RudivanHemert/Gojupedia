@@ -1,7 +1,5 @@
 ## Kanryo Higaonna (1853 - 1916)
 
-![Kanryo Higaonna](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kanryo_Higaonna.jpg/330px-Kanryo_Higaonna.jpg)
-
 Kanryo Higaonna wurde am 10. März 1853 im Nishimura-Bezirk von Naha, Okinawa, als viertes Kind von Kanyo Higaonna und seiner Frau Makado geboren. Als eines von sieben Kindern, wobei seine älteren Brüder entweder verstorben oder schwach waren, übernahm Kanryo schon in jungen Jahren bedeutende Verantwortung.
 
 Sein Vater war ein Kaufmann, der ein Boot besaß und Waren zwischen Okinawa und anderen Ryukyu-Inseln transportierte. Ab dem Alter von zehn Jahren arbeitete Kanryo mit seinem Vater zusammen und entwickelte durch die schwere Arbeit große körperliche Kraft in seinen Armen und Beinen. Als Kanryo vierzehn war, wurde eine Zeremonie abgehalten, um seinen Übergang zum Erwachsenenalter zu markieren.
@@ -24,4 +22,4 @@ Bis 1905 hatte sich Kanryos Ruf in ganz Okinawa verbreitet. Er wurde eingeladen,
 
 Kanryos Ruf wurde von einem anderen Kampfkunstlehrer namens Kojo herausgefordert, der behauptete, seine Kunst sei überlegen. Ein Wettkampf in der Sanchin-Kata wurde arrangiert, der von einem renommierten Arzt vom japanischen Festland beurteilt wurde. Der Arzt beobachtete, dass bei Kanryos Ausführung seine Füße fest verankert waren, alle Muskeln angespannt waren und sein ganzer Körper einbezogen war. Im Gegensatz dazu waren Kojos Muskeln nur vertikal angespannt, was zu einer ungenauen Muskelspannung führte. Kanryo wurde als überlegen eingestuft, und Kojo erkannte großzügig dessen größere Fähigkeit an.
 
-Dieses Ereignis festigte Kanryos Ruf in ganz Okinawa weiter. Bis 1905 war "Te" (wie es damals bekannt war) eine geheime Kunst, die nur ausgewählten Schülern gelehrt wurde. Nachdem Kanryo begann, an der Handelsschule von Naha zu unterrichten, wurde Karate weiter verbreitet und für die allgemeine Bevölkerung zugänglicher. 
+Dieses Ereignis festigte Kanryos Ruf in ganz Okinawa weiter. Bis 1905 war "Te" (wie es damals bekannt war) eine geheime Kunst, die nur ausgewählten Schülern gelehrt wurde. Nachdem Kanryo begann, an der Handelsschule von Naha zu unterrichten, wurde Karate weiter verbreitet und für die allgemeine Bevölkerung zugänglicher.

@@ -1,14 +1,10 @@
 ## Chojun Miyagi (1888 - 1953)
 
-![Chojun Miyagi](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ch%C5%8Djun_Miyagi.jpg/330px-Ch%C5%8Djun_Miyagi.jpg)
-
 Chojun Miyagi nació el 25 de abril de 1888 en Naha, Okinawa, en el seno de una familia adinerada de armadores. Desde joven mostró un gran interés por las artes marciales, comenzando su formación formal a los 11 años bajo la tutela de Ryuko Aragaki, quien en 1902 lo presentó a Kanryo Higaonna.
 
 En 1902, a la edad de 14 años, Chojun Miyagi se convirtió en alumno del maestro Kanryo. Dos años antes, cuando tenía 12, su madre deseaba que se hiciera fuerte y estuviera preparado para asumir responsabilidades familiares. Lo llevó con Aragaki Ryuko, un conocido artista marcial de Okinawa.
 
 El enfoque de Aragaki Ryuko estaba principalmente en el combate en sí. No enseñaba artes marciales en el sentido tradicional. Enseñó al joven Chojun Miyagi el entrenamiento con makiwara y enfatizó varios ejercicios de acondicionamiento para fortalecer el cuerpo, como levantar piedras pesadas y el entrenamiento con chi-ishi.
-
-![Aragaki Ryuko](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aragaki.jpg/220px-Aragaki.jpg)
 
 Chojun Miyagi era un estudiante excepcionalmente dedicado y, debido a su entrega, Aragaki Ryuko lo presentó al renombrado Kanryo. Chojun Miyagi tenía entonces catorce años y era estudiante en lo que hoy se conoce como Shuri High School.
 
@@ -36,8 +32,6 @@ La segunda vez que Chojun Miyagi fue a China fue en algún momento entre 1920 y 
 
 En 1936, fue a China por tercera vez. Esta vez fue solo. Tomó un barco desde Kyushu (Japón continental) a Shanghái, donde había organizado una reunión con la Federación de Artes Marciales de Shanghái. Este viaje fue mucho más fructífero que los dos anteriores y estableció buenos contactos con los artistas marciales chinos que conoció allí.
 
-![Bubishi](https://upload.wikimedia.org/wikipedia/commons/c/c9/Bubishi.jpg)
-
 Dos años antes, en 1934, había viajado a Hawái por invitación de un periódico hawaiano. Su objetivo principal era enseñar a los muchos okinawenses que trabajaban allí. Permaneció en Hawái durante once meses y, durante ese tiempo, intentó difundir el karate Goju-Ryu allí. En 1933, gracias a los esfuerzos de Chojun Miyagi, el karate fue reconocido como arte marcial japonés por la Butokukai. La Butokukai tenía su sede en Kioto y era el centro de todas las artes marciales japonesas, lo que la convertía en el grupo más poderoso e influyente del país. Por esa época, el nombre Goju-Ryu karate-do también fue registrado oficialmente con ellos.
 
 Al año siguiente, en 1934, Chojun Miyagi fue nombrado delegado de la Dai Nippon Butokukai para Okinawa. Tras su nombramiento, continuó sus esfuerzos para propagar y popularizar el karate. En 1937, junto con otros tres, recibió el título honorífico de 'Kyoshi Ko' por parte de la Butokukai. Fue la primera vez que un delegado de karate recibió este título.
@@ -61,8 +55,6 @@ El nombre fue registrado en la Butokukai como Goju-Ryu karate-do. La palabra 'ka
 
 En Okinawa, los maestros mayores querían dar a conocer su arte públicamente y obtener reconocimiento oficial como disciplina marcial genuina. Para lograrlo, se estableció en 1925 la "Okinawa Karate Kenkyu Kai". Se construyó un nuevo edificio especialmente para esto en el área de Walaso-cho de un distrito de Naha. Chojun Miyagi fue nombrado instructor principal y participaron otros maestros okinawenses reconocidos. Maestros como Chomo Hanashiri, Choyu Motosu y Kenwa Mabuni enseñaron allí. A través de esta asociación, maestros de karate reconocidos trabajaron en la difusión y popularización del karate. Lamentablemente, la Kenkyu Kai tuvo que cerrar en 1929 porque no se pudieron recaudar suficientes fondos para su mantenimiento.
 
-![Goju-Ryu escudo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goju-ryu_crest.svg/200px-Goju-ryu_crest.svg.png)
-
 A principios de la década de 1920, Chojun Miyagi formuló y desarrolló Junbi Undo, o ejercicios de calentamiento, que son únicos en Goju-Ryu. Tras una cuidadosa investigación y con la ayuda de un amigo médico, desarrolló estos ejercicios basándose en principios médicos y científicos. Al mismo tiempo, también comenzó a enseñar en escuelas. Durante este periodo, también desarrolló el kata Tensho a partir del kata de artes marciales chinas Rokkishu.
 
 Jihan Shinzato fue el principal alumno de Chojun Miyagi antes de la Segunda Guerra Mundial. El sensei Shinzato era detective de policía. Era extremadamente dedicado al karate y también practicaba judo. El sensei Shinzato entrenó duro bajo la tutela de Chojun Miyagi y también realizó sus propias investigaciones en artes marciales. Incluso creó su propio kata. Sus técnicas favoritas eran naga-waza, técnicas de lanzamiento, y ne-waza, técnicas de suelo. El sensei Shinzato era excepcionalmente talentoso y era bien sabido que se convertiría en el sucesor de Chojun Miyagi para seguir difundiendo el Goju-Ryu. Lamentablemente, murió durante la Segunda Guerra Mundial. Además de Shinzato, Chojun Miyagi también perdió a dos hijas y a su tercer hijo durante la guerra. Después de la guerra, Chojun Miyagi enseñó en la academia de policía y, cuando esta se trasladó a Naha en 1947, Chojun Miyagi también se mudó. Encontró una casa en el distrito de Tsuboya-cho.
@@ -81,4 +73,4 @@ La Segunda Guerra Mundial trajo enormes dificultades a Okinawa. Durante la Batal
 
 El legado de Miyagi continúa a través de sus alumnos y la difusión mundial del karate Goju-Ryu. Se le recuerda no solo por sus innovaciones técnicas y su enfoque sistemático del entrenamiento, sino también por su énfasis en los aspectos filosóficos y espirituales de las artes marciales. Su creación del kata Tensho y su perfeccionamiento de los katas existentes demuestran su compromiso con el equilibrio entre los elementos duros y suaves en el karate.
 
-Por encima de todo, Miyagi enfatizaba que el karate no se trataba solo de pelear, sino de desarrollo personal y la búsqueda de la paz. Su famosa frase, "El objetivo último del karate-do es formar carácter, superar la miseria humana y encontrar la libertad espiritual", sigue guiando a los practicantes de Goju-Ryu en todo el mundo. 
+Por encima de todo, Miyagi enfatizaba que el karate no se trataba solo de pelear, sino de desarrollo personal y la búsqueda de la paz. Su famosa frase, "El objetivo último del karate-do es formar carácter, superar la miseria humana y encontrar la libertad espiritual", sigue guiando a los practicantes de Goju-Ryu en todo el mundo.

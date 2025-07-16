@@ -1,7 +1,5 @@
 ## Kanryo Higaonna (1853 - 1916)
 
-![Kanryo Higaonna](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kanryo_Higaonna.jpg/330px-Kanryo_Higaonna.jpg)
-
 Kanryo Higaonna was born on March 10, 1853, in the Nishimura district of Naha, Okinawa, as the fourth child of Kanyo Higaonna and his wife Makado. Being one of seven children, with his older brothers either deceased or weak, Kanryo took on significant responsibilities at a young age.
 
 His father was a merchant who owned a boat, transporting goods between Okinawa and other Ryukyu islands. From the age of ten, Kanryo worked with his father, developing great physical strength in his arms and legs from the heavy labor. When Kanryo was fourteen, a ceremony was held to mark his transition to adulthood.
@@ -24,4 +22,4 @@ By 1905, Kanryo's reputation had spread throughout Okinawa. He was invited to te
 
 Kanryo's reputation was challenged by another martial arts teacher named Kojo, who claimed his art was superior. A contest in Sanchin kata was arranged, judged by a renowned doctor from mainland Japan. The doctor observed that in Kanryo's performance, his feet were firmly planted, all muscles tensed, and his entire body engaged. In contrast, Kojo's muscles were only tensed vertically, resulting in imprecise muscle tension. Kanryo was deemed superior, and Kojo graciously acknowledged his greater skill.
 
-This event further solidified Kanryo's reputation across Okinawa. Until 1905, "Te" (as it was known then) was a secret art taught only to selected students. After Kanryo began teaching at the Naha Commercial School, karate became more widespread and accessible to the general population. 
+This event further solidified Kanryo's reputation across Okinawa. Until 1905, "Te" (as it was known then) was a secret art taught only to selected students. After Kanryo began teaching at the Naha Commercial School, karate became more widespread and accessible to the general population.

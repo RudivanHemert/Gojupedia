@@ -1,14 +1,10 @@
 ## Chojun Miyagi (1888 - 1953)
 
-![Chojun Miyagi](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ch%C5%8Djun_Miyagi.jpg/330px-Ch%C5%8Djun_Miyagi.jpg)
-
 Chojun Miyagi werd geboren op 25 april 1888 in Naha, Okinawa, in een welvarende familie van scheepseigenaren. Al op jonge leeftijd toonde hij een grote interesse in krijgskunsten en begon hij op zijn elfde formeel te trainen bij Ryuko Aragaki, die hem later in 1902 introduceerde bij Kanryo Higaonna.
 
 In 1902, op veertienjarige leeftijd, werd Chojun Miyagi leerling van meester Kanryo. Twee jaar eerder, toen hij twaalf was, wilde zijn moeder dat hij sterk en goed voorbereid zou zijn om de familietaken op zich te nemen. Ze bracht hem naar Aragaki Ryuko, een bekende martial artist in Okinawa.
 
 Aragaki Ryuko's aanpak was vooral gericht op het vechten zelf. Hij gaf niet echt les in krijgskunst als zodanig, maar leerde de jonge Chojun Miyagi makiwara-training en legde de nadruk op verschillende conditioneringsoefeningen om het lichaam te versterken, zoals het tillen van zware stenen en chi-ishi-training.
-
-![Aragaki Ryuko](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aragaki.jpg/220px-Aragaki.jpg)
 
 Chojun Miyagi was een buitengewoon enthousiaste leerling en vanwege zijn toewijding stelde Aragaki Ryuko hem voor aan de beroemde Kanryo. Chojun Miyagi was toen veertien jaar oud en leerling aan wat nu Shuri High School heet.
 
@@ -36,8 +32,6 @@ De tweede keer dat Chojun Miyagi naar China ging, was ergens tussen 1920 en 1930
 
 In 1936 ging hij voor de derde keer naar China. Dit keer ging hij alleen. Hij nam een boot van Kyushu (het vasteland van Japan) naar Shanghai, waar hij een ontmoeting had geregeld met de Shanghai Martial Arts Federation. Deze reis was veel vruchtbaarder dan de vorige twee en hij legde goede contacten met de Chinese martial artists die hij daar ontmoette.
 
-![Bubishi](https://upload.wikimedia.org/wikipedia/commons/c/c9/Bubishi.jpg)
-
 Twee jaar eerder, in 1934, was hij op uitnodiging van een Hawaïaanse krant naar Hawaï gereisd. Zijn belangrijkste doel was om de vele Okinawanen die daar werkten les te geven. Hij verbleef elf maanden op Hawaï en probeerde in die tijd Goju-Ryu karate daar te verspreiden. In 1933 werd, dankzij de inspanningen van Chojun Miyagi, karate erkend als een Japanse krijgskunst door de Butokukai. De Butokukai was gevestigd in Kyoto en was het centrale punt voor alle Japanse krijgskunsten, waardoor het de machtigste en meest invloedrijke groep van het land was. Rond deze tijd werd de naam Goju-Ryu karate-do ook officieel bij hen geregistreerd.
 
 Het jaar daarop, in 1934, werd Chojun Miyagi benoemd tot afgevaardigde voor de Dai Nippon Butokukai voor Okinawa. Na zijn benoeming zette hij zijn inspanningen voort om karate te verspreiden en populair te maken. In 1937 kreeg hij, samen met drie anderen, de eretitel 'Kyoshi Ko' van de Butokukai. Het was de eerste keer dat een karate-afgevaardigde deze titel ontving.
@@ -61,8 +55,6 @@ De naam werd geregistreerd bij de Butokukai als Goju-Ryu karate-do. Het woord 'k
 
 Op Okinawa wilden de oudere meesters hun kunst onder de aandacht brengen en officiële erkenning krijgen als volwaardige krijgskunstdiscipline. Om dit te bereiken werd in 1925 de "Okinawa Karate Kenkyu Kai" opgericht. Hiervoor werd speciaal een nieuw gebouw neergezet in het Walaso-cho-gebied van een district in Naha. Chojun Miyagi werd benoemd tot hoofdleraar en andere bekende Okinawaanse meesters waren betrokken. Meesters als Chomo Hanashiri, Choyu Motosu en Kenwa Mabuni gaven er allemaal les. Via deze vereniging werkten bekende karatemeesters aan de verspreiding en popularisering van karate. Helaas moest de Kenkyu Kai in 1929 sluiten omdat er niet genoeg geld was voor het onderhoud.
 
-![Goju-Ryu wapen](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goju-ryu_crest.svg/200px-Goju-ryu_crest.svg.png)
-
 Begin jaren 1920 formuleerde en ontwikkelde Chojun Miyagi Junbi Undo, oftewel warming-up oefeningen, die uniek zijn voor Goju-Ryu. Na zorgvuldig onderzoek en met hulp van een bevriende arts ontwikkelde hij deze oefeningen op medische en wetenschappelijke basis. Tegelijkertijd begon hij ook les te geven op scholen. In deze periode ontwikkelde hij ook de kata Tensho uit de Chinese krijgskunstkata Rokkishu.
 
 Jihan Shinzato was Chojun Miyagi's beste leerling voor de Tweede Wereldoorlog. Shinzato Sensei was rechercheur bij de politie. Hij was zeer toegewijd aan karate en beoefende ook judo. Shinzato Sensei trainde hard onder Chojun Miyagi en deed ook zelf onderzoek naar krijgskunsten. Hij creëerde zelfs zijn eigen kata. Zijn favoriete technieken waren naga-waza (werptechnieken) en ne-waza (grondtechnieken). Shinzato Sensei was uitzonderlijk getalenteerd en het was algemeen bekend dat hij Chojun Miyagi's opvolger zou worden om Goju-Ryu verder te verspreiden. Helaas werd hij tijdens de Tweede Wereldoorlog gedood. Naast Shinzato verloor Chojun Miyagi tijdens de oorlog ook twee dochters en zijn derde zoon. Na de oorlog gaf Chojun Miyagi les aan de politieacademie en toen deze in 1947 naar Naha verhuisde, verhuisde Chojun Miyagi ook. Hij vond een huis in de wijk Tsuboya-cho.
@@ -81,4 +73,4 @@ De Tweede Wereldoorlog bracht Okinawa veel leed. Tijdens de Slag om Okinawa in 1
 
 Miyagi's nalatenschap leeft voort via zijn leerlingen en de wereldwijde verspreiding van Goju-Ryu karate. Hij wordt herinnerd om zijn technische innovaties en systematische benadering van training, maar ook om zijn nadruk op de filosofische en spirituele aspecten van krijgskunst. Zijn creatie van de kata Tensho en zijn verfijning van bestaande kata tonen zijn inzet voor het balanceren van harde en zachte elementen in karate.
 
-Bovenal benadrukte Miyagi dat karate niet alleen om vechten ging, maar om persoonlijke ontwikkeling en het nastreven van vrede. Zijn beroemde uitspraak, "Het ultieme doel van karate-do is het opbouwen van karakter, het overwinnen van menselijk leed en het vinden van spirituele vrijheid," blijft beoefenaars van Goju-Ryu wereldwijd inspireren. 
+Bovenal benadrukte Miyagi dat karate niet alleen om vechten ging, maar om persoonlijke ontwikkeling en het nastreven van vrede. Zijn beroemde uitspraak, "Het ultieme doel van karate-do is het opbouwen van karakter, het overwinnen van menselijk leed en het vinden van spirituele vrijheid," blijft beoefenaars van Goju-Ryu wereldwijd inspireren.

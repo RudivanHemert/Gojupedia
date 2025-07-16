@@ -1,7 +1,5 @@
 ## Kanryo Higaonna (1853 - 1916)
 
-![Kanryo Higaonna](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kanryo_Higaonna.jpg/330px-Kanryo_Higaonna.jpg)
-
 Kanryo Higaonna werd geboren op 10 maart 1853 in het Nishimura-district van Naha, Okinawa, als vierde kind van Kanyo Higaonna en zijn vrouw Makado. Als een van zeven kinderen, waarvan zijn oudere broers overleden of zwak waren, kreeg Kanryo al op jonge leeftijd veel verantwoordelijkheden.
 
 Zijn vader was een koopman die een boot bezat en goederen vervoerde tussen Okinawa en andere Ryukyu-eilanden. Vanaf zijn tiende werkte Kanryo met zijn vader, waardoor hij veel fysieke kracht in zijn armen en benen ontwikkelde door het zware werk. Toen Kanryo veertien was, werd er een ceremonie gehouden om zijn overgang naar volwassenheid te markeren.
@@ -24,4 +22,4 @@ In 1905 was Kanryo's reputatie over heel Okinawa verspreid. Hij werd uitgenodigd
 
 Kanryo's reputatie werd uitgedaagd door een andere krijgskunstenleraar, Kojo, die beweerde dat zijn kunst superieur was. Er werd een wedstrijd in Sanchin kata georganiseerd, beoordeeld door een beroemde arts uit Japan. De arts zag dat bij Kanryo's uitvoering zijn voeten stevig stonden, alle spieren gespannen waren en zijn hele lichaam meedeed. Bij Kojo waren alleen de verticale spieren gespannen, wat leidde tot onnauwkeurige spierspanning. Kanryo werd als superieur beschouwd en Kojo erkende zijn grotere vaardigheid.
 
-Dit voorval verstevigde Kanryo's reputatie in heel Okinawa. Tot 1905 was "Te" (zoals het toen werd genoemd) een geheime kunst die alleen aan geselecteerde leerlingen werd onderwezen. Nadat Kanryo begon te onderwijzen aan de Naha Handelsschool, werd karate breder verspreid en toegankelijk voor het grote publiek. 
+Dit voorval verstevigde Kanryo's reputatie in heel Okinawa. Tot 1905 was "Te" (zoals het toen werd genoemd) een geheime kunst die alleen aan geselecteerde leerlingen werd onderwezen. Nadat Kanryo begon te onderwijzen aan de Naha Handelsschool, werd karate breder verspreid en toegankelijk voor het grote publiek.

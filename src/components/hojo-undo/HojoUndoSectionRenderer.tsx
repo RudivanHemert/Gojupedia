@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-// Optional: Import remark/rehype plugins for more features
-// import remarkGfm from 'remark-gfm'; 
 
 interface MarkdownRendererProps {
   markdownContent: string;
@@ -11,7 +9,48 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ markdownContent }) 
   return (
     <div className="prose prose-stone dark:prose-invert max-w-none">
       <ReactMarkdown
-        // plugins={[remarkGfm]} // Example plugin usage
+        components={{
+          h1: ({ children }) => (
+            <h1 className="text-3xl font-bold text-foreground mb-4 mt-8 first:mt-0">
+              {children}
+            </h1>
+          ),
+          h2: ({ children }) => (
+            <h2 className="text-2xl font-semibold text-foreground mb-3 mt-6">
+              {children}
+            </h2>
+          ),
+          h3: ({ children }) => (
+            <h3 className="text-xl font-semibold text-foreground mb-3 mt-6 border-l-4 border-red-500 pl-4">
+              {children}
+            </h3>
+          ),
+          h4: ({ children }) => (
+            <h4 className="text-lg font-medium text-foreground mb-2 mt-4">
+              {children}
+            </h4>
+          ),
+          p: ({ children }) => (
+            <p className="text-foreground mb-4 leading-relaxed">
+              {children}
+            </p>
+          ),
+          ul: ({ children }) => (
+            <ul className="list-disc list-inside mb-4 space-y-2">
+              {children}
+            </ul>
+          ),
+          ol: ({ children }) => (
+            <ol className="list-decimal list-inside mb-4 space-y-2">
+              {children}
+            </ol>
+          ),
+          li: ({ children }) => (
+            <li className="text-foreground">
+              {children}
+            </li>
+          ),
+        }}
       >
         {markdownContent}
       </ReactMarkdown>

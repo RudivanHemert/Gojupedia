@@ -1,14 +1,10 @@
 ## Morio Higaonna (1939 - )
 
-![Morio Higaonna](https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1974&auto=format&fit=crop)
-
 In deze periode (1954) sloot Morio Higaonna zich aan bij de dojo van de overleden Chojun Miyagi. Daarvoor had Higaonna Sensei Goju-Ryu en Shorin-Ryu getraind onder Tsunetaka Shimabukuru, Kenji Kaneshiro en Yoshishige Omine. Op aanbeveling van Tsunetaka Shimabukuru sloot Higaonna Sensei zich in maart 1955 officieel aan bij de dojo. Tijdens zijn eerste bezoek aan de dojo ontmoette hij Yasuo Iba Sensei. Iba Sensei vertelde de jonge Higaonna om naar Anichi Miyagi Sensei te gaan omdat hij de meest gerenommeerde in de dojo was. Hoewel Higaonna Sensei al twee jaar karate had beoefend, wilde hij opnieuw beginnen. Hij had Junbi Undo getraind en werd gedrild in de Gekisai kata en de Sanchin kata. Hij herinnert zich eindeloos Kakie te hebben geoefend, en zijn lichaam werd geconditioneerd door Hojo Undo oefeningen zoals Nigiri kamae en Makiwara.
 
 In het begin was de training onder meester Anichi Miyagi relatief rustig; echter, toen Higaonna Sensei vorderde en vooral toen hij begon met de Sanchin kata, werd de training zeer intensief. Higaonna Sensei herinnert zich dat de eerste tien jaar van zijn training onder Anichi Miyagi gericht waren op het ontwikkelen van snelheid en kracht en het constant herhalen van kata. Pas later kreeg hij gedetailleerde instructie.
 
 Terugkijkend in de geschiedenis begint GOJU-RYU bij meester Ryu Ryu Ko in Fuzhou, Zuid-China. Van daaruit werd het doorgegeven aan de grote Okinawaanse krijgskunstenaar Kanryo Higaonna. Meester Kanryo Higaonna bracht Goju-Ryu naar Okinawa, waar het een Okinawaanse kunst werd, en gaf zijn kunst door aan meester Chojun Miyagi. Via Chojun Miyagi werd het bekend als Goju-Ryu karate-do. Het was bedoeld om te worden doorgegeven aan meester Jinan Shinzato. Deze kwam echter tragisch om het leven tijdens de Tweede Wereldoorlog. Na de Tweede Wereldoorlog gaf Chojun Miyagi zijn kunst door aan zijn meest toegewijde student, meester Anichi Miyagi. Hij leerde hem alles tot in het kleinste detail, het hoogste niveau (Okuden) van technieken, inclusief de Hiden, of geheime technieken.
-
-![Traditional Karate Training](https://images.unsplash.com/photo-1588479839125-7d66cfc0c734?q=80&w=1974&auto=format&fit=crop)
 
 Anichi Miyagi's karate is prachtig om te zien; zijn vaardigheid heeft werkelijk het niveau van een kunst bereikt. Dit is het resultaat van zes jaar privéles van Chojun Miyagi.
 
@@ -26,6 +22,4 @@ In 1981 verhuisde Higaonna naar Okinawa om verder onderzoek te doen en opende ee
 
 In 1987 ging Higaonna naar de Verenigde Staten om Goju-Ryu te promoten. Sinds 1987 bezocht hij Fuzhou vele malen om zijn kennis over de Chinese 'wortels' van Goju-Ryu te vergroten. Door deze bezoeken werd een hechte band gesmeed tussen de IOGKF en de China Fuzhou Wushu Association (CFWA).
 
-![IOGKF Training](https://images.unsplash.com/photo-1600881333123-ef51e8550e4a?q=80&w=1974&auto=format&fit=crop)
-
-Vandaag de dag heeft de IOGKF een enorme aanhang wereldwijd; tienduizenden studenten in ongeveer vijfenveertig landen. 
+Vandaag de dag heeft de IOGKF een enorme aanhang wereldwijd; tienduizenden studenten in ongeveer vijfenveertig landen.

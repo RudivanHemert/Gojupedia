@@ -1,14 +1,10 @@
 ## Chojun Miyagi (1888 - 1953)
 
-![Chojun Miyagi](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ch%C5%8Djun_Miyagi.jpg/330px-Ch%C5%8Djun_Miyagi.jpg)
-
 Chojun Miyagi was born on April 25, 1888, in Naha, Okinawa, to a wealthy family of ship owners. From a young age, he showed a strong interest in the martial arts, beginning his formal training at age 11 under Ryuko Aragaki, who later introduced him to Kanryo Higaonna in 1902.
 
 In 1902, at the age of 14, Chojun Miyagi became a student of Master Kanryo. Two years earlier, when he was 12, his mother wished for him to become strong and well-prepared to take on family responsibilities. She took him to Aragaki Ryuko, a well-known martial artist in Okinawa.
 
 Aragaki Ryuko's approach was primarily focused on fighting itself. He didn't really teach martial arts as such. He taught young Chojun Miyagi makiwara training and emphasized various conditioning exercises to strengthen the body, such as lifting heavy stones and chi-ishi training.
-
-![Aragaki Ryuko](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aragaki.jpg/220px-Aragaki.jpg)
 
 Chojun Miyagi was an unusually enthusiastic student, and because of his dedication, Aragaki Ryuko introduced him to the renowned Kanryo. Chojun Miyagi was fourteen years old at the time. He was a student at what is now called Shuri High School.
 
@@ -36,8 +32,6 @@ The second time Chojun Miyagi went to China was sometime between 1920 and 1930. 
 
 In 1936, he went to China for the third time. This time he went alone. He took a boat from Kyushu (mainland Japan) to Shanghai, where he had arranged a meeting with the Shanghai Martial Arts Federation. This trip was much more fruitful than the previous two, and he established good contacts with the Chinese martial artists he met there.
 
-![Bubishi](https://upload.wikimedia.org/wikipedia/commons/c/c9/Bubishi.jpg)
-
 Two years earlier, in 1934, he had traveled to Hawaii at the invitation of a Hawaiian newspaper company. His main goal was to teach the many Okinawans who worked there. He stayed in Hawaii for eleven months, and during this time, he tried to spread Goju-Ryu karate there. In 1933, thanks to the efforts of Chojun Miyagi, karate was recognized as a Japanese martial art by the Butokukai. The Butokukai was based in Kyoto and was the central point for all Japanese martial arts, making it the most powerful and influential group in the country. Around this time, the name Goju-Ryu karate-do was also officially registered with them.
 
 The following year, 1934, Chojun Miyagi was appointed as a delegate for the Dai Nippon Butokukai for Okinawa. After his appointment, he continued his efforts to propagate and popularize karate. In 1937, he, along with three others, was awarded the honorary title of 'Kyoshi Ko' by the Butokukai. It was the first time a karate delegate received this title.
@@ -61,8 +55,6 @@ The name was registered with the Butokukai as Goju-Ryu karate-do. The word 'kara
 
 In Okinawa, the older masters wanted to bring their art to public attention and obtain official recognition as a bona fide martial art discipline. To achieve this, the "Okinawa Karate Kenkyu Kai" was established in 1925. A new building was specially erected for this in the Walaso-cho area of a district in Naha. Chojun Miyagi was appointed chief instructor, and other well-known Okinawan masters were involved. Masters such as Chomo Hanashiri, Choyu Motosu, and Kenwa Mabuni all taught there. Through this association, well-known karate masters worked on the spread and popularization of karate. Unfortunately, the Kenkyu Kai had to close in 1929 as not enough funds could be raised for its maintenance.
 
-![Goju-Ryu crest](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goju-ryu_crest.svg/200px-Goju-ryu_crest.svg.png)
-
 In the early 1920s, Chojun Miyagi formulated and developed Junbi Undo, or warm-up exercises, which are unique to Goju-Ryu. After careful research and with the help of a physician friend, he developed these exercises based on medical and scientific principles. At the same time, he also just started teaching at schools. During this period, he also developed the kata Tensho from the Chinese martial arts kata Rokkishu.
 
 Jihan Shinzato was Chojun Miyagi's top student before World War II. Shinzato Sensei was a detective with the police. He was extremely dedicated to karate, and he also practiced Judo. Shinzato Sensei trained hard under Chojun Miyagi, and he also conducted his own research in the martial arts. He even created his own kata. His favorite techniques were naga-waza, throwing techniques, and ne-waza, ground techniques. Shinzato Sensei was exceptionally gifted, and it was widely known that he would become Chojun Miyagi's successor to further spread Goju-Ryu. Unfortunately, he was killed during World War II. Besides Shinzato, Chojun Miyagi also lost two daughters and his third son during the war. After the war, Chojun Miyagi taught at the police academy, and when it moved to Naha in 1947, Chojun Miyagi also moved. He found a house in the Tsuboya-cho district.
@@ -81,4 +73,4 @@ The Second World War brought tremendous hardship to Okinawa. During the Battle o
 
 Miyagi's legacy continues through his students and the worldwide spread of Goju-Ryu karate. He is remembered not only for his technical innovations and systematic approach to training but also for his emphasis on the philosophical and spiritual aspects of martial arts. His creation of the kata Tensho and his refinement of the existing kata demonstrate his commitment to balancing hard and soft elements in karate.
 
-Above all, Miyagi emphasized that karate was not merely about fighting but about personal development and the pursuit of peace. His famous saying, "The ultimate aim of karate-do is to build character, conquer human misery, and find spiritual freedom," continues to guide practitioners of Goju-Ryu worldwide. 
+Above all, Miyagi emphasized that karate was not merely about fighting but about personal development and the pursuit of peace. His famous saying, "The ultimate aim of karate-do is to build character, conquer human misery, and find spiritual freedom," continues to guide practitioners of Goju-Ryu worldwide.

@@ -5,7 +5,7 @@ const HistoryHeader = () => {
   return (
     <div className="relative h-40 overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1603481546579-65dfe3eb3fe3?q=80&w=2070&auto=format&fit=crop" 
+        src="https://images.unsplash.com/photo-1590244303591-872eb8080ebe?q=80&w=2070&auto=format&fit=crop" 
         alt="Karate History" 
         className="absolute inset-0 w-full h-full object-cover"
       />
