@@ -1,3 +1,5 @@
+# Chapter 2: The Founder of Goju-ryu – Chojun Miyagi (1888-1953)
+
 ## Chojun Miyagi (1888 - 1953)
 
 ### Early Life and Introduction to Martial Arts

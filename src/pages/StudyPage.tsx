@@ -12,35 +12,52 @@ import {
   TrendingUp,
   Clock,
   CheckCircle,
-  Lightbulb
+  Lightbulb,
+  BookText,
+  ListCheck
 } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import { useTranslation } from 'react-i18next';
 
 const StudyPage = () => {
+  const { t } = useTranslation();
+
   const sections = [
     {
       id: 'quiz',
-      name: 'Quizzen',
-      description: 'Test je kennis met interactieve quizzen over verschillende onderwerpen',
+      name: t('study.quizzes'),
+      description: t('study.quizDesc'),
       icon: <Brain className="h-8 w-8 text-blue-500 dark:text-blue-400" />,
       path: '/study/quiz',
-      color: 'bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-blue-800'
+      color: 'bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-blue-800',
+      type: 'quiz'
     },
     {
       id: 'flashcards',
-      name: 'Flashcards',
-      description: 'Leer termen en technieken met flashcards',
-      icon: <BookOpen className="h-8 w-8 text-green-500 dark:text-green-400" />,
+      name: t('study.flashcards'),
+      description: t('study.flashcardDesc'),
+      icon: <BookText className="h-8 w-8 text-green-500 dark:text-green-400" />,
       path: '/study/flashcards',
-      color: 'bg-green-50 dark:bg-green-950/20 border-green-200 dark:border-green-800'
+      color: 'bg-green-50 dark:bg-green-950/20 border-green-200 dark:border-green-800',
+      type: 'flashcard'
+    },
+    {
+      id: 'matching',
+      name: t('study.matching'),
+      description: t('study.matchingDesc'),
+      icon: <ListCheck className="h-8 w-8 text-purple-500 dark:text-purple-400" />,
+      path: '/study/matching',
+      color: 'bg-purple-50 dark:bg-purple-950/20 border-purple-200 dark:border-purple-800',
+      type: 'matching'
     },
     {
       id: 'graduations',
-      name: 'Graduaties',
-      description: 'Bekijk de vereisten voor elke graad en band',
-      icon: <Award className="h-8 w-8 text-purple-500 dark:text-purple-400" />,
+      name: t('graduations.title'),
+      description: t('graduations.description'),
+      icon: <Award className="h-8 w-8 text-orange-500 dark:text-orange-400" />,
       path: '/graduations',
-      color: 'bg-purple-50 dark:bg-purple-950/20 border-purple-200 dark:border-purple-800'
+      color: 'bg-orange-50 dark:bg-orange-950/20 border-orange-200 dark:border-orange-800',
+      type: 'graduation'
     }
   ];
 
@@ -68,29 +85,40 @@ const StudyPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title="Studie"
-        description="Quizzen, flashcards en graduaties voor je karate reis"
+        title={t('study.pageHeaderTitle')}
+        description={t('study.pageHeaderDescription')}
         backUrl="/"
       />
-      <div className="p-4">
+      
+      <div className="p-4 max-w-4xl mx-auto">
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-6xl mx-auto"
+          className="space-y-6"
         >
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
+          {/* Study Categories */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {sections.map((section) => (
-              <motion.div key={section.id} variants={itemVariants}>
-                <Link to={section.path} className="block">
-                  <Card className={`overflow-hidden hover:shadow-lg transition-all duration-200 border-2 ${section.color}`}>
+              <motion.div
+                key={section.id}
+                variants={itemVariants}
+              >
+                <Link to={section.path}>
+                  <Card className={`h-full cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 border-2 ${section.color}`}>
                     <CardContent className="p-6">
-                      <div className="flex flex-col items-center text-center">
-                        <div className="mb-4 bg-card dark:bg-card p-3 rounded-full shadow-sm">
+                      <div className="flex items-center space-x-4">
+                        <div className="flex-shrink-0">
                           {section.icon}
                         </div>
-                        <h3 className="font-bold text-xl mb-2 text-foreground">{section.name}</h3>
-                        <p className="text-muted-foreground leading-relaxed">{section.description}</p>
+                        <div className="flex-1">
+                          <h3 className="text-lg font-semibold text-foreground mb-2">
+                            {section.name}
+                          </h3>
+                          <p className="text-muted-foreground text-sm">
+                            {section.description}
+                          </p>
+                        </div>
                       </div>
                     </CardContent>
                   </Card>
@@ -99,82 +127,66 @@ const StudyPage = () => {
             ))}
           </div>
 
-          {/* Study tips section */}
+          {/* Study Tips */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
+            variants={itemVariants}
             className="mt-8"
           >
             <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 border-blue-200 dark:border-blue-800">
               <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <Lightbulb className="h-6 w-6 text-yellow-500 dark:text-yellow-400 mr-3" />
-                  <h3 className="text-lg font-semibold text-foreground">Studie Tips</h3>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="flex items-start space-x-3">
-                    <Clock className="h-5 w-5 text-blue-500 dark:text-blue-400 mt-1" />
-                    <div>
-                      <h4 className="font-medium text-foreground">Consistente Oefening</h4>
-                      <p className="text-sm text-muted-foreground">Oefen regelmatig, zelfs 15 minuten per dag helpt.</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <Target className="h-5 w-5 text-green-500 dark:text-green-400 mt-1" />
-                    <div>
-                      <h4 className="font-medium text-foreground">Focus op Basis</h4>
-                      <p className="text-sm text-muted-foreground">Bouw een sterke basis voordat je verder gaat.</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-5 w-5 text-purple-500 dark:text-purple-400 mt-1" />
-                    <div>
-                      <h4 className="font-medium text-foreground">Herhaling</h4>
-                      <p className="text-sm text-muted-foreground">Herhaal wat je leert om het te versterken.</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <TrendingUp className="h-5 w-5 text-orange-500 dark:text-orange-400 mt-1" />
-                    <div>
-                      <h4 className="font-medium text-foreground">Progressie</h4>
-                      <p className="text-sm text-muted-foreground">Track je voortgang en vier kleine overwinningen.</p>
-                    </div>
+                <div className="flex items-start space-x-4">
+                  <Lightbulb className="h-6 w-6 text-blue-500 dark:text-blue-400 flex-shrink-0 mt-1" />
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">
+                      {t('study.tips.title', 'Studie Tips')}
+                    </h3>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-green-500" />
+                        <span>{t('study.tips.regular', 'Oefen regelmatig voor betere resultaten')}</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-green-500" />
+                        <span>{t('study.tips.review', 'Herhaal moeilijke onderdelen')}</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-green-500" />
+                        <span>{t('study.tips.progress', 'Volg je voortgang')}</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </CardContent>
             </Card>
           </motion.div>
 
-          {/* Progress section */}
+          {/* Quick Stats */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="mt-8"
+            variants={itemVariants}
+            className="grid grid-cols-1 md:grid-cols-3 gap-4"
           >
-            <Card className="bg-muted/30 dark:bg-muted/10">
-              <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-4 text-center text-foreground">Je Studie Voortgang</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="bg-card dark:bg-card rounded-lg p-4">
-                    <h4 className="font-medium mb-2 flex items-center text-foreground">
-                      <Users className="h-5 w-5 text-blue-500 dark:text-blue-400 mr-2" />
-                      Voltooide Quizzen
-                    </h4>
-                    <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">0</p>
-                    <p className="text-sm text-muted-foreground">Begin je studie reis!</p>
-                  </div>
-                  <div className="bg-card dark:bg-card rounded-lg p-4">
-                    <h4 className="font-medium mb-2 flex items-center text-foreground">
-                      <Award className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                      Huidige Graad
-                    </h4>
-                    <p className="text-2xl font-bold text-green-600 dark:text-green-400">10e Kyu</p>
-                    <p className="text-sm text-muted-foreground">Witte band - beginner</p>
-                  </div>
-                </div>
-              </CardContent>
+            <Card className="text-center p-4">
+              <div className="flex flex-col items-center space-y-2">
+                <TrendingUp className="h-8 w-8 text-green-500" />
+                <h4 className="font-semibold text-foreground">{t('study.stats.progress', 'Voortgang')}</h4>
+                <p className="text-2xl font-bold text-green-600">85%</p>
+              </div>
+            </Card>
+            
+            <Card className="text-center p-4">
+              <div className="flex flex-col items-center space-y-2">
+                <Clock className="h-8 w-8 text-blue-500" />
+                <h4 className="font-semibold text-foreground">{t('study.stats.time', 'Studietijd')}</h4>
+                <p className="text-2xl font-bold text-blue-600">2.5h</p>
+              </div>
+            </Card>
+            
+            <Card className="text-center p-4">
+              <div className="flex flex-col items-center space-y-2">
+                <Target className="h-8 w-8 text-purple-500" />
+                <h4 className="font-semibold text-foreground">{t('study.stats.goals', 'Doelen')}</h4>
+                <p className="text-2xl font-bold text-purple-600">12/15</p>
+              </div>
             </Card>
           </motion.div>
         </motion.div>

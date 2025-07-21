@@ -73,6 +73,7 @@ import MarkdownContentPage from './pages/MarkdownContentPage';
 // Import the new list pages
 import QuizListPage from './pages/study/QuizListPage';
 import FlashcardListPage from './pages/study/FlashcardListPage';
+import MatchingListPage from './pages/study/MatchingListPage';
 
 // Import Ude Tanren components
 import SwingingArmDrill from './pages/hojo-undo/ude-tanren/exercises/SwingingArmDrill';
@@ -239,6 +240,7 @@ const AppContent = React.memo(() => {
               <Route path="/study" element={<StudyPage />} />
               <Route path="/study/quizzes" element={<QuizListPage />} />
               <Route path="/study/flashcards" element={<FlashcardListPage />} />
+              <Route path="/study/matching" element={<MatchingListPage />} />
               <Route path="/study/:id" element={<StudyDetailPage />} />
               <Route path="/gradings" element={<GradingsPage />} />
               <Route path="/settings" element={<SettingsPage />} />

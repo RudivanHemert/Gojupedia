@@ -545,8 +545,16 @@ export type TerminologyCategory = typeof allTerminologyCategories[number];
 const generateSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 // Function to generate study materials from techniques
-const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[]): Study[] => {
+const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[], t: (key: string, options?: any) => string): Study[] => {
   const studies: Study[] = [];
+
+  // Helper function to generate wrong options for multiple choice
+  const generateWrongOptions = (correctAnswer: string, allTerms: Record<string, { english: string }>): string[] => {
+    const allAnswers = Object.values(allTerms).map(term => term.english);
+    const wrongOptions = allAnswers.filter(answer => answer !== correctAnswer);
+    // Shuffle and take 3 random wrong options
+    return wrongOptions.sort(() => Math.random() - 0.5).slice(0, 3);
+  };
 
   categories.forEach(category => {
     try {
@@ -556,24 +564,29 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
       const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string; details?: string }>;
 
       if (terms && typeof terms === 'object' && Object.keys(terms).length > 0) {
-        const questions: StudyQuestion[] = Object.entries(terms).map(([key, term]) => ({
-          id: `${category}-${key}`,
-          question: `What is the meaning of "${term.name}"?`,
-          options: [term.english], // Correct answer
-          correctAnswer: term.english,
-          explanation: term.details || `Japanese: ${term.japanese || 'N/A'}`
-        }));
+        const questions: StudyQuestion[] = Object.entries(terms).map(([key, term]) => {
+          const correctAnswer = term.english;
+          const wrongOptions = generateWrongOptions(correctAnswer, terms);
+          const allOptions = [correctAnswer, ...wrongOptions];
+          
+          return {
+            id: `${category}-${key}`,
+            question: t(`study.terminology.${category}.terms.${key}.question`, `What is the meaning of "${term.name}"?`),
+            options: allOptions.sort(() => Math.random() - 0.5), // Shuffle options
+            correctAnswer: correctAnswer,
+            explanation: term.details || t(`study.terminology.${category}.terms.${key}.explanation`, `Japanese: ${term.japanese || 'N/A'}`)
+          };
+        });
 
         if (questions.length > 0) {
           studies.push({
             id: category,
-            title: `Quiz: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
-            description: `Test your knowledge of ${category} terminology.`,
+            title: t(`study.quizTypes.${category}.title`, `${category} Quiz`),
+            description: t(`study.quizTypes.${category}.description`, `Test your knowledge of ${category} terminology.`),
             type: "quiz",
             questions: questions,
             category: "terminology",
-            difficulty: "beginner",
-            image: "https://images.unsplash.com/photo-1593340578844-89a1c5d33c5e?q=80&w=2070&auto=format&fit=crop"
+            difficulty: "beginner"
           });
         }
       }
@@ -587,7 +600,7 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
 };
 
 // Generate study materials for all terminology categories
-export const studies: Study[] = generateStudiesFromTechniques(allTerminologyCategories);
+export const studies: Study[] = generateStudiesFromTechniques(allTerminologyCategories, i18n.t);
 
 // Add flashcard studies
 allTerminologyCategories.forEach(category => {
@@ -599,17 +612,16 @@ allTerminologyCategories.forEach(category => {
     if (terms && typeof terms === 'object' && Object.keys(terms).length > 0) {
       studies.push({
         id: `${category}-flashcards`,
-        title: `Flashcards: ${category.charAt(0).toUpperCase() + category.slice(1)}`,
-        description: `Practice ${category} terminology with flashcards.`,
+        title: i18n.t(`study.flashcardTypes.${category}.title`, `${category} Flashcards`),
+        description: i18n.t(`study.flashcardTypes.${category}.description`, `Practice ${category} terminology with flashcards.`),
         type: "flashcard",
         category: "terminology",
         difficulty: "beginner",
-        image: "https://images.unsplash.com/photo-1588725193539-7a723a247ab6?q=80&w=2070&auto=format&fit=crop",
         questions: Object.entries(terms).map(([key, term]) => ({
           id: `${category}-flashcard-${key}`,
           question: term.name,
           correctAnswer: `${term.english}${term.japanese ? ` (${term.japanese})` : ''}`,
-          explanation: `Japanese: ${term.japanese || 'N/A'}`
+          explanation: i18n.t(`study.terminology.${category}.terms.${key}.explanation`, `Japanese: ${term.japanese || 'N/A'}`)
         }))
       });
     }
@@ -618,6 +630,691 @@ allTerminologyCategories.forEach(category => {
     console.debug(`Skipping ${category} flashcards - no terms available`);
   }
 });
+
+// Add comprehensive flashcard studies for all categories
+const flashcardStudies: Study[] = [
+  // Stances Flashcards
+  {
+    id: "stances-flashcards",
+    title: i18n.t("study.flashcardTypes.stances.title", "Stances Flashcards"),
+    description: i18n.t("study.flashcardTypes.stances.description", "Learn all karate stances and positions."),
+    type: "flashcard",
+    category: "techniques",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "stance-hachiji",
+        question: "Hachiji dachi (八字立)",
+        correctAnswer: i18n.t("study.terminology.stances.hachiji-dachi.english", "Natural stance"),
+        explanation: i18n.t("study.terminology.stances.hachiji-dachi.explanation", "Basic natural stance with feet shoulder-width apart")
+      },
+      {
+        id: "stance-sanchin",
+        question: "Sanchin dachi (三戦立)",
+        correctAnswer: i18n.t("study.terminology.stances.sanchin-dachi.english", "Hour glass stance"),
+        explanation: i18n.t("study.terminology.stances.sanchin-dachi.explanation", "Strong stance with feet turned inward, knees bent")
+      },
+      {
+        id: "stance-zenkutsu",
+        question: "Zenkutsu dachi (前屈立)",
+        correctAnswer: i18n.t("study.terminology.stances.zenkutsu-dachi.english", "Long stance"),
+        explanation: i18n.t("study.terminology.stances.zenkutsu-dachi.explanation", "Forward stance with weight on front leg")
+      },
+      {
+        id: "stance-kokutsu",
+        question: "Kokutsu dachi (後屈立)",
+        correctAnswer: i18n.t("study.terminology.stances.kokutsu-dachi.english", "Back stance"),
+        explanation: i18n.t("study.terminology.stances.kokutsu-dachi.explanation", "Back stance with weight on rear leg")
+      },
+      {
+        id: "stance-kiba",
+        question: "Kiba dachi (騎馬立)",
+        correctAnswer: i18n.t("study.terminology.stances.kiba-dachi.english", "Straddle stance"),
+        explanation: i18n.t("study.terminology.stances.kiba-dachi.explanation", "Horse stance with feet wide apart")
+      },
+      {
+        id: "stance-nekoashi",
+        question: "Neko ashi dachi (猫足立)",
+        correctAnswer: i18n.t("study.terminology.stances.neko-ashi-dachi.english", "Cat stance"),
+        explanation: i18n.t("study.terminology.stances.neko-ashi-dachi.explanation", "Cat stance with weight on back leg")
+      }
+    ]
+  },
+  // Kicks Flashcards
+  {
+    id: "kicks-flashcards",
+    title: i18n.t("study.flashcardTypes.kicks.title", "Kicks Flashcards"),
+    description: i18n.t("study.flashcardTypes.kicks.description", "Learn all karate kicking techniques."),
+    type: "flashcard",
+    category: "techniques",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "kick-mae",
+        question: "Mae Geri (前蹴り)",
+        correctAnswer: i18n.t("study.terminology.kicks.mae-geri.english", "Front Kick"),
+        explanation: i18n.t("study.terminology.kicks.mae-geri.explanation", "Kick delivered to the front with the ball of the foot")
+      },
+      {
+        id: "kick-yoko",
+        question: "Yoko Geri (横蹴り)",
+        correctAnswer: i18n.t("study.terminology.kicks.yoko-geri.english", "Side Kick"),
+        explanation: i18n.t("study.terminology.kicks.yoko-geri.explanation", "Kick delivered to the side with the edge of the foot")
+      },
+      {
+        id: "kick-mawashi",
+        question: "Mawashi Geri (回し蹴り)",
+        correctAnswer: i18n.t("study.terminology.kicks.mawashi-geri.english", "Roundhouse Kick"),
+        explanation: i18n.t("study.terminology.kicks.mawashi-geri.explanation", "Circular kick using the instep or ball of the foot")
+      },
+      {
+        id: "kick-ushiro",
+        question: "Ushiro Geri (後ろ蹴り)",
+        correctAnswer: i18n.t("study.terminology.kicks.ushiro-geri.english", "Back Kick"),
+        explanation: i18n.t("study.terminology.kicks.ushiro-geri.explanation", "Kick delivered backward with the heel")
+      },
+      {
+        id: "kick-mikazuki",
+        question: "Mikazuki Geri (三日月蹴り)",
+        correctAnswer: i18n.t("study.terminology.kicks.mikazuki-geri.english", "Crescent Kick"),
+        explanation: i18n.t("study.terminology.kicks.mikazuki-geri.explanation", "Circular kick in a crescent motion")
+      }
+    ]
+  },
+  // Punches Flashcards
+  {
+    id: "punches-flashcards",
+    title: i18n.t("study.flashcardTypes.punches.title", "Punches Flashcards"),
+    description: i18n.t("study.flashcardTypes.punches.description", "Learn all karate punching techniques."),
+    type: "flashcard",
+    category: "techniques",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "punch-seiken",
+        question: "Seiken Tsuki (正拳突き)",
+        correctAnswer: i18n.t("study.terminology.punches.seiken-tsuki.english", "Forefist Punch"),
+        explanation: i18n.t("study.terminology.punches.seiken-tsuki.explanation", "Basic punch with the first two knuckles")
+      },
+      {
+        id: "punch-gyaku",
+        question: "Gyaku Tsuki (逆突き)",
+        correctAnswer: i18n.t("study.terminology.punches.gyaku-tsuki.english", "Reverse Punch"),
+        explanation: i18n.t("study.terminology.punches.gyaku-tsuki.explanation", "Punch with the opposite hand to the forward foot")
+      },
+      {
+        id: "punch-oi",
+        question: "Oi Tsuki (追い突き)",
+        correctAnswer: i18n.t("study.terminology.punches.oi-tsuki.english", "Lunge Punch"),
+        explanation: i18n.t("study.terminology.punches.oi-tsuki.explanation", "Stepping punch with the same hand as the forward foot")
+      },
+      {
+        id: "punch-kizami",
+        question: "Kizami Tsuki (刻み突き)",
+        correctAnswer: i18n.t("study.terminology.punches.kizami-tsuki.english", "Jab Punch"),
+        explanation: i18n.t("study.terminology.punches.kizami-tsuki.explanation", "Quick jab punch with the front hand")
+      }
+    ]
+  },
+  // Blocks Flashcards
+  {
+    id: "blocks-flashcards",
+    title: i18n.t("study.flashcardTypes.blocks.title", "Blocks Flashcards"),
+    description: i18n.t("study.flashcardTypes.blocks.description", "Learn all karate blocking techniques."),
+    type: "flashcard",
+    category: "techniques",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "block-age-uke",
+        question: "Age Uke (上げ受け)",
+        correctAnswer: i18n.t("study.terminology.blocks.age-uke.english", "Rising Block"),
+        explanation: i18n.t("study.terminology.blocks.age-uke.explanation", "Block that deflects attacks upward")
+      },
+      {
+        id: "block-gedan-barai",
+        question: "Gedan Barai (下段払い)",
+        correctAnswer: i18n.t("study.terminology.blocks.gedan-barai.english", "Downward Sweep"),
+        explanation: i18n.t("study.terminology.blocks.gedan-barai.explanation", "Sweeping block for low attacks")
+      },
+      {
+        id: "block-soto-uke",
+        question: "Soto Uke (外受け)",
+        correctAnswer: i18n.t("study.terminology.blocks.soto-uke.english", "Outside Block"),
+        explanation: i18n.t("study.terminology.blocks.soto-uke.explanation", "Block that deflects attacks from inside to outside")
+      },
+      {
+        id: "block-uchi-uke",
+        question: "Uchi Uke (内受け)",
+        correctAnswer: i18n.t("study.terminology.blocks.uchi-uke.english", "Inside Block"),
+        explanation: i18n.t("study.terminology.blocks.uchi-uke.explanation", "Block that deflects attacks from outside to inside")
+      }
+    ]
+  },
+  // Kata Flashcards
+  {
+    id: "kata-flashcards",
+    title: i18n.t("study.flashcardTypes.kata.title", "Kata Flashcards"),
+    description: i18n.t("study.flashcardTypes.kata.description", "Learn all Goju Ryu kata names and meanings."),
+    type: "flashcard",
+    category: "kata",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: "kata-sanchin",
+        question: "Sanchin (三戦)",
+        correctAnswer: i18n.t("study.terminology.kata.sanchin.english", "Three Battles"),
+        explanation: i18n.t("study.terminology.kata.sanchin.explanation", "Represents mind, body, and spirit - the foundation kata")
+      },
+      {
+        id: "kata-tensho",
+        question: "Tensho (転掌)",
+        correctAnswer: i18n.t("study.terminology.kata.tensho.english", "Turning Palms"),
+        explanation: i18n.t("study.terminology.kata.tensho.explanation", "Soft circular movements contrasting with Sanchin's hardness")
+      },
+      {
+        id: "kata-gekisai-dai-ichi",
+        question: "Gekisai Dai Ichi (撃砕第一)",
+        correctAnswer: i18n.t("study.terminology.kata.gekisai-dai-ichi.english", "Attack and Smash Number One"),
+        explanation: i18n.t("study.terminology.kata.gekisai-dai-ichi.explanation", "First of the Gekisai kata, created by Chojun Miyagi")
+      },
+      {
+        id: "kata-gekisai-dai-ni",
+        question: "Gekisai Dai Ni (撃砕第二)",
+        correctAnswer: i18n.t("study.terminology.kata.gekisai-dai-ni.english", "Attack and Smash Number Two"),
+        explanation: i18n.t("study.terminology.kata.gekisai-dai-ni.explanation", "Second of the Gekisai kata, more advanced than Dai Ichi")
+      },
+      {
+        id: "kata-saifa",
+        question: "Saifa (砕破)",
+        correctAnswer: i18n.t("study.terminology.kata.saifa.english", "Smash and Tear"),
+        explanation: i18n.t("study.terminology.kata.saifa.explanation", "One of the traditional kaishugata")
+      },
+      {
+        id: "kata-seiyunchin",
+        question: "Seiyunchin (制引戦)",
+        correctAnswer: i18n.t("study.terminology.kata.seiyunchin.english", "Control and Pull Battle"),
+        explanation: i18n.t("study.terminology.kata.seiyunchin.explanation", "Kata focusing on close combat techniques")
+      },
+      {
+        id: "kata-shisochin",
+        question: "Shisochin (四向戦)",
+        correctAnswer: i18n.t("study.terminology.kata.shisochin.english", "Four Direction Battle"),
+        explanation: i18n.t("study.terminology.kata.shisochin.explanation", "Kata with techniques in four directions")
+      },
+      {
+        id: "kata-sanseru",
+        question: "Sanseru (三十六手)",
+        correctAnswer: i18n.t("study.terminology.kata.sanseru.english", "Thirty-Six Hands"),
+        explanation: i18n.t("study.terminology.kata.sanseru.explanation", "Advanced kata with 36 techniques")
+      },
+      {
+        id: "kata-seipai",
+        question: "Seipai (十八手)",
+        correctAnswer: i18n.t("study.terminology.kata.seipai.english", "Eighteen Hands"),
+        explanation: i18n.t("study.terminology.kata.seipai.explanation", "Advanced kata with 18 techniques")
+      },
+      {
+        id: "kata-kururunfa",
+        question: "Kururunfa (久留頓破)",
+        correctAnswer: i18n.t("study.terminology.kata.kururunfa.english", "Holding Ground"),
+        explanation: i18n.t("study.terminology.kata.kururunfa.explanation", "Advanced kata emphasizing stability and power")
+      },
+      {
+        id: "kata-seisan",
+        question: "Seisan (十三手)",
+        correctAnswer: i18n.t("study.terminology.kata.seisan.english", "Thirteen Hands"),
+        explanation: i18n.t("study.terminology.kata.seisan.explanation", "Advanced kata with 13 techniques")
+      },
+      {
+        id: "kata-suparinpei",
+        question: "Suparinpei (壱百零八手)",
+        correctAnswer: i18n.t("study.terminology.kata.suparinpei.english", "One Hundred and Eight Hands"),
+        explanation: i18n.t("study.terminology.kata.suparinpei.explanation", "The most advanced kata with 108 techniques")
+      }
+    ]
+  },
+  // Philosophy Flashcards
+  {
+    id: "philosophy-flashcards",
+    title: i18n.t("study.flashcardTypes.philosophy.title", "Philosophy Flashcards"),
+    description: i18n.t("study.flashcardTypes.philosophy.description", "Learn Goju Ryu philosophical concepts and principles."),
+    type: "flashcard",
+    category: "philosophy",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: "philosophy-goju",
+        question: "Goju Ryu (剛柔流)",
+        correctAnswer: i18n.t("study.terminology.philosophy.goju-ryu.english", "Hard-Soft Style"),
+        explanation: i18n.t("study.terminology.philosophy.goju-ryu.explanation", "The name means 'hard-soft style', combining hard and soft techniques")
+      },
+      {
+        id: "philosophy-dojo-kun",
+        question: "Dojo Kun (道場訓)",
+        correctAnswer: i18n.t("study.terminology.philosophy.dojo-kun.english", "Training Hall Precepts"),
+        explanation: i18n.t("study.terminology.philosophy.dojo-kun.explanation", "The five precepts that guide karate practice")
+      },
+      {
+        id: "philosophy-karate-do",
+        question: "Karate-do (空手道)",
+        correctAnswer: i18n.t("study.terminology.philosophy.karate-do.english", "Way of the Empty Hand"),
+        explanation: i18n.t("study.terminology.philosophy.karate-do.explanation", "The martial art as a way of life, not just fighting")
+      },
+      {
+        id: "philosophy-mind-body",
+        question: "Mind-Body Unity",
+        correctAnswer: i18n.t("study.terminology.philosophy.mind-body-unity.english", "Shin-Gi-Tai (心技体)"),
+        explanation: i18n.t("study.terminology.philosophy.mind-body-unity.explanation", "The unity of mind, technique, and body in training")
+      },
+      {
+        id: "philosophy-respect",
+        question: "Respect (礼)",
+        correctAnswer: i18n.t("study.terminology.philosophy.respect.english", "Rei"),
+        explanation: i18n.t("study.terminology.philosophy.respect.explanation", "Fundamental principle of respect in karate")
+      },
+      {
+        id: "philosophy-perseverance",
+        question: "Perseverance (忍)",
+        correctAnswer: i18n.t("study.terminology.philosophy.perseverance.english", "Nin"),
+        explanation: i18n.t("study.terminology.philosophy.perseverance.explanation", "Endurance and patience in training")
+      },
+      {
+        id: "philosophy-etiquette",
+        question: "Etiquette (礼儀)",
+        correctAnswer: i18n.t("study.terminology.philosophy.etiquette.english", "Reigi"),
+        explanation: i18n.t("study.terminology.philosophy.etiquette.explanation", "Proper behavior and manners in the dojo")
+      },
+      {
+        id: "philosophy-character",
+        question: "Character (人格)",
+        correctAnswer: i18n.t("study.terminology.philosophy.character.english", "Jinkaku"),
+        explanation: i18n.t("study.terminology.philosophy.character.explanation", "Building character through karate training")
+      },
+      {
+        id: "philosophy-sincerity",
+        question: "Sincerity (誠)",
+        correctAnswer: i18n.t("study.terminology.philosophy.sincerity.english", "Makoto"),
+        explanation: i18n.t("study.terminology.philosophy.sincerity.explanation", "Honesty and sincerity in practice")
+      },
+      {
+        id: "philosophy-self-control",
+        question: "Self-Control (自制)",
+        correctAnswer: i18n.t("study.terminology.philosophy.self-control.english", "Jisei"),
+        explanation: i18n.t("study.terminology.philosophy.self-control.explanation", "Controlling one's emotions and actions")
+      }
+    ]
+  },
+  // Numbers Flashcards
+  {
+    id: "numbers-flashcards",
+    title: i18n.t("study.flashcardTypes.numbers.title", "Numbers Flashcards"),
+    description: i18n.t("study.flashcardTypes.numbers.description", "Learn Japanese numbers used in karate."),
+    type: "flashcard",
+    category: "terminology",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "number-ichi",
+        question: "一 (Ichi)",
+        correctAnswer: i18n.t("study.terminology.numbers.ichi.english", "One"),
+        explanation: i18n.t("study.terminology.numbers.ichi.explanation", "First number, used in counting techniques")
+      },
+      {
+        id: "number-ni",
+        question: "二 (Ni)",
+        correctAnswer: i18n.t("study.terminology.numbers.ni.english", "Two"),
+        explanation: i18n.t("study.terminology.numbers.ni.explanation", "Second number, used in counting techniques")
+      },
+      {
+        id: "number-san",
+        question: "三 (San)",
+        correctAnswer: i18n.t("study.terminology.numbers.san.english", "Three"),
+        explanation: i18n.t("study.terminology.numbers.san.explanation", "Third number, used in counting techniques")
+      },
+      {
+        id: "number-yon",
+        question: "四 (Yon)",
+        correctAnswer: i18n.t("study.terminology.numbers.yon.english", "Four"),
+        explanation: i18n.t("study.terminology.numbers.yon.explanation", "Fourth number, used in counting techniques")
+      },
+      {
+        id: "number-go",
+        question: "五 (Go)",
+        correctAnswer: i18n.t("study.terminology.numbers.go.english", "Five"),
+        explanation: i18n.t("study.terminology.numbers.go.explanation", "Fifth number, used in counting techniques")
+      },
+      {
+        id: "number-roku",
+        question: "六 (Roku)",
+        correctAnswer: i18n.t("study.terminology.numbers.roku.english", "Six"),
+        explanation: i18n.t("study.terminology.numbers.roku.explanation", "Sixth number, used in counting techniques")
+      },
+      {
+        id: "number-shichi",
+        question: "七 (Shichi)",
+        correctAnswer: i18n.t("study.terminology.numbers.shichi.english", "Seven"),
+        explanation: i18n.t("study.terminology.numbers.shichi.explanation", "Seventh number, used in counting techniques")
+      },
+      {
+        id: "number-hachi",
+        question: "八 (Hachi)",
+        correctAnswer: i18n.t("study.terminology.numbers.hachi.english", "Eight"),
+        explanation: i18n.t("study.terminology.numbers.hachi.explanation", "Eighth number, used in counting techniques")
+      },
+      {
+        id: "number-kyu",
+        question: "九 (Kyu)",
+        correctAnswer: i18n.t("study.terminology.numbers.kyu.english", "Nine"),
+        explanation: i18n.t("study.terminology.numbers.kyu.explanation", "Ninth number, used in counting techniques")
+      },
+      {
+        id: "number-ju",
+        question: "十 (Ju)",
+        correctAnswer: i18n.t("study.terminology.numbers.ju.english", "Ten"),
+        explanation: i18n.t("study.terminology.numbers.ju.explanation", "Tenth number, used in counting techniques")
+      }
+    ]
+  },
+  // General Terms Flashcards
+  {
+    id: "general-flashcards",
+    title: i18n.t("study.flashcardTypes.general.title", "General Terms Flashcards"),
+    description: i18n.t("study.flashcardTypes.general.description", "Learn essential karate terminology."),
+    type: "flashcard",
+    category: "terminology",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "general-dojo",
+        question: "道場 (Dojo)",
+        correctAnswer: i18n.t("study.terminology.general.dojo.english", "Training Hall"),
+        explanation: i18n.t("study.terminology.general.dojo.explanation", "The place where karate is practiced")
+      },
+      {
+        id: "general-sensei",
+        question: "先生 (Sensei)",
+        correctAnswer: i18n.t("study.terminology.general.sensei.english", "Teacher"),
+        explanation: i18n.t("study.terminology.general.sensei.explanation", "Respectful term for karate instructor")
+      },
+      {
+        id: "general-sempai",
+        question: "先輩 (Sempai)",
+        correctAnswer: i18n.t("study.terminology.general.sempai.english", "Senior Student"),
+        explanation: i18n.t("study.terminology.general.sempai.explanation", "Student with more experience")
+      },
+      {
+        id: "general-kohai",
+        question: "後輩 (Kohai)",
+        correctAnswer: i18n.t("study.terminology.general.kohai.english", "Junior Student"),
+        explanation: i18n.t("study.terminology.general.kohai.explanation", "Student with less experience")
+      },
+      {
+        id: "general-obi",
+        question: "帯 (Obi)",
+        correctAnswer: i18n.t("study.terminology.general.obi.english", "Belt"),
+        explanation: i18n.t("study.terminology.general.obi.explanation", "The belt worn with the karate uniform")
+      },
+      {
+        id: "general-gi",
+        question: "着 (Gi)",
+        correctAnswer: i18n.t("study.terminology.general.gi.english", "Uniform"),
+        explanation: i18n.t("study.terminology.general.gi.explanation", "The karate training uniform")
+      },
+      {
+        id: "general-kumite",
+        question: "組手 (Kumite)",
+        correctAnswer: i18n.t("study.terminology.general.kumite.english", "Sparring"),
+        explanation: i18n.t("study.terminology.general.kumite.explanation", "Partner training and fighting practice")
+      },
+      {
+        id: "general-kata",
+        question: "型 (Kata)",
+        correctAnswer: i18n.t("study.terminology.general.kata.english", "Form"),
+        explanation: i18n.t("study.terminology.general.kata.explanation", "Pre-arranged sequence of techniques")
+      },
+      {
+        id: "general-kihon",
+        question: "基本 (Kihon)",
+        correctAnswer: i18n.t("study.terminology.general.kihon.english", "Basics"),
+        explanation: i18n.t("study.terminology.general.kihon.explanation", "Fundamental techniques and movements")
+      },
+      {
+        id: "general-bunkai",
+        question: "分解 (Bunkai)",
+        correctAnswer: i18n.t("study.terminology.general.bunkai.english", "Analysis"),
+        explanation: i18n.t("study.terminology.general.bunkai.explanation", "Application of kata techniques")
+      }
+    ]
+  }
+];
+
+// Add all flashcard studies to the main studies array
+studies.push(...flashcardStudies);
+
+// Add kata-specific study materials
+const kataStudies: Study[] = [
+  {
+    id: "kata-basics-quiz",
+    title: i18n.t("study.quizTypes.kata-basics.title", "Kata Basics Quiz"),
+    description: i18n.t("study.quizTypes.kata-basics.description", "Test your knowledge of fundamental kata concepts and principles."),
+    type: "quiz",
+    category: "kata",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "kata-basics-1",
+        question: i18n.t("study.questions.kata-basics-1.question", "What does 'kata' mean in Japanese?"),
+        options: [
+          i18n.t("study.questions.kata-basics-1.option1", "Form"),
+          i18n.t("study.questions.kata-basics-1.option2", "Fight"),
+          i18n.t("study.questions.kata-basics-1.option3", "Technique"),
+          i18n.t("study.questions.kata-basics-1.option4", "Style")
+        ],
+        correctAnswer: i18n.t("study.questions.kata-basics-1.correct", "Form"),
+        explanation: i18n.t("study.questions.kata-basics-1.explanation", "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements.")
+      },
+      {
+        id: "kata-basics-2",
+        question: i18n.t("study.questions.kata-basics-2.question", "How many kata are there in traditional Goju Ryu?"),
+        options: [
+          i18n.t("study.questions.kata-basics-2.option1", "8"),
+          i18n.t("study.questions.kata-basics-2.option2", "10"),
+          i18n.t("study.questions.kata-basics-2.option3", "12"),
+          i18n.t("study.questions.kata-basics-2.option4", "15")
+        ],
+        correctAnswer: i18n.t("study.questions.kata-basics-2.correct", "12"),
+        explanation: i18n.t("study.questions.kata-basics-2.explanation", "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata.")
+      },
+      {
+        id: "kata-basics-3",
+        question: i18n.t("study.questions.kata-basics-3.question", "What are the two main categories of kata in Goju Ryu?"),
+        options: [
+          i18n.t("study.questions.kata-basics-3.option1", "Hard and Soft"),
+          i18n.t("study.questions.kata-basics-3.option2", "Heishugata and Kaishugata"),
+          i18n.t("study.questions.kata-basics-3.option3", "Basic and Advanced"),
+          i18n.t("study.questions.kata-basics-3.option4", "Old and New")
+        ],
+        correctAnswer: i18n.t("study.questions.kata-basics-3.correct", "Heishugata and Kaishugata"),
+        explanation: i18n.t("study.questions.kata-basics-3.explanation", "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories.")
+      }
+    ]
+  },
+  {
+    id: "kata-history-quiz",
+    title: i18n.t("study.quizTypes.kata-history.title", "Kata History Quiz"),
+    description: i18n.t("study.quizTypes.kata-history.description", "Learn about the historical development and origins of kata."),
+    type: "quiz",
+    category: "kata",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: "kata-history-1",
+        question: i18n.t("study.questions.kata-history-1.question", "Who created the Gekisai kata?"),
+        options: [
+          i18n.t("study.questions.kata-history-1.option1", "Kanryo Higaonna"),
+          i18n.t("study.questions.kata-history-1.option2", "Chojun Miyagi"),
+          i18n.t("study.questions.kata-history-1.option3", "Morio Higaonna"),
+          i18n.t("study.questions.kata-history-1.option4", "Eiichi Miyazato")
+        ],
+        correctAnswer: i18n.t("study.questions.kata-history-1.correct", "Chojun Miyagi"),
+        explanation: i18n.t("study.questions.kata-history-1.explanation", "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s.")
+      },
+      {
+        id: "kata-history-2",
+        question: i18n.t("study.questions.kata-history-2.question", "What does 'Sanchin' mean?"),
+        options: [
+          i18n.t("study.questions.kata-history-2.option1", "Three Battles"),
+          i18n.t("study.questions.kata-history-2.option2", "Three Steps"),
+          i18n.t("study.questions.kata-history-2.option3", "Three Hearts"),
+          i18n.t("study.questions.kata-history-2.option4", "Three Minds")
+        ],
+        correctAnswer: i18n.t("study.questions.kata-history-2.correct", "Three Battles"),
+        explanation: i18n.t("study.questions.kata-history-2.explanation", "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit.")
+      }
+    ]
+  }
+];
+
+// Add philosophy study materials
+const philosophyStudies: Study[] = [
+  {
+    id: "philosophy-principles-quiz",
+    title: i18n.t("study.quizTypes.philosophy-principles.title", "Philosophy Principles Quiz"),
+    description: i18n.t("study.quizTypes.philosophy-principles.description", "Test your understanding of Goju Ryu philosophical principles."),
+    type: "quiz",
+    category: "philosophy",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: "philosophy-1",
+        question: i18n.t("study.questions.philosophy-1.question", "What does 'Goju' mean?"),
+        options: [
+          i18n.t("study.questions.philosophy-1.option1", "Hard-Soft"),
+          i18n.t("study.questions.philosophy-1.option2", "Fast-Slow"),
+          i18n.t("study.questions.philosophy-1.option3", "Strong-Weak"),
+          i18n.t("study.questions.philosophy-1.option4", "Old-New")
+        ],
+        correctAnswer: i18n.t("study.questions.philosophy-1.correct", "Hard-Soft"),
+        explanation: i18n.t("study.questions.philosophy-1.explanation", "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques.")
+      },
+      {
+        id: "philosophy-2",
+        question: i18n.t("study.questions.philosophy-2.question", "What is 'Muchimi'?"),
+        options: [
+          i18n.t("study.questions.philosophy-2.option1", "Breathing"),
+          i18n.t("study.questions.philosophy-2.option2", "Sticky Hands"),
+          i18n.t("study.questions.philosophy-2.option3", "Focus"),
+          i18n.t("study.questions.philosophy-2.option4", "Balance")
+        ],
+        correctAnswer: i18n.t("study.questions.philosophy-2.correct", "Sticky Hands"),
+        explanation: i18n.t("study.questions.philosophy-2.explanation", "Muchimi refers to the ability to maintain contact with an opponent like sticky hands.")
+      }
+    ]
+  }
+];
+
+// Add technique study materials
+const techniqueStudies: Study[] = [
+  {
+    id: "basic-techniques-quiz",
+    title: i18n.t("study.quizTypes.basic-techniques.title", "Basic Techniques Quiz"),
+    description: i18n.t("study.quizTypes.basic-techniques.description", "Test your knowledge of fundamental karate techniques."),
+    type: "quiz",
+    category: "techniques",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "techniques-1",
+        question: i18n.t("study.questions.techniques-1.question", "What is the most basic stance in karate?"),
+        options: [
+          i18n.t("study.questions.techniques-1.option1", "Sanchin Dachi"),
+          i18n.t("study.questions.techniques-1.option2", "Zenkutsu Dachi"),
+          i18n.t("study.questions.techniques-1.option3", "Hachiji Dachi"),
+          i18n.t("study.questions.techniques-1.option4", "Kiba Dachi")
+        ],
+        correctAnswer: i18n.t("study.questions.techniques-1.correct", "Hachiji Dachi"),
+        explanation: i18n.t("study.questions.techniques-1.explanation", "Hachiji Dachi (natural stance) is the most basic stance in karate.")
+      },
+      {
+        id: "techniques-2",
+        question: i18n.t("study.questions.techniques-2.question", "What does 'Uke' mean?"),
+        options: [
+          i18n.t("study.questions.techniques-2.option1", "Attack"),
+          i18n.t("study.questions.techniques-2.option2", "Block"),
+          i18n.t("study.questions.techniques-2.option3", "Strike"),
+          i18n.t("study.questions.techniques-2.option4", "Kick")
+        ],
+        correctAnswer: i18n.t("study.questions.techniques-2.correct", "Block"),
+        explanation: i18n.t("study.questions.techniques-2.explanation", "Uke (受け) means 'block' or 'receive' in Japanese.")
+      }
+    ]
+  }
+];
+
+// Add kumite study materials
+const kumiteStudies: Study[] = [
+  {
+    id: "kumite-basics-quiz",
+    title: i18n.t("study.quizTypes.kumite-basics.title", "Kumite Basics Quiz"),
+    description: i18n.t("study.quizTypes.kumite-basics.description", "Test your knowledge of sparring fundamentals."),
+    type: "quiz",
+    category: "kumite",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: "kumite-1",
+        question: i18n.t("study.questions.kumite-1.question", "What does 'Kumite' mean?"),
+        options: [
+          i18n.t("study.questions.kumite-1.option1", "Sparring"),
+          i18n.t("study.questions.kumite-1.option2", "Fighting"),
+          i18n.t("study.questions.kumite-1.option3", "Training"),
+          i18n.t("study.questions.kumite-1.option4", "Competition")
+        ],
+        correctAnswer: i18n.t("study.questions.kumite-1.correct", "Sparring"),
+        explanation: i18n.t("study.questions.kumite-1.explanation", "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese.")
+      },
+      {
+        id: "kumite-2",
+        question: i18n.t("study.questions.kumite-2.question", "What is 'Ippon Kumite'?"),
+        options: [
+          i18n.t("study.questions.kumite-2.option1", "Free Sparring"),
+          i18n.t("study.questions.kumite-2.option2", "One-Step Sparring"),
+          i18n.t("study.questions.kumite-2.option3", "Three-Step Sparring"),
+          i18n.t("study.questions.kumite-2.option4", "Five-Step Sparring")
+        ],
+        correctAnswer: i18n.t("study.questions.kumite-2.correct", "One-Step Sparring"),
+        explanation: i18n.t("study.questions.kumite-2.explanation", "Ippon Kumite is one-step sparring with predetermined attacks and defenses.")
+      }
+    ]
+  }
+];
+
+// Add all study materials to the main studies array
+studies.push(...kataStudies, ...philosophyStudies, ...techniqueStudies, ...kumiteStudies);
+
+// Add matching studies for different content types
+const matchingStudies: Study[] = [
+  {
+    id: "kata-matching",
+    title: i18n.t("study.matchingTypes.kata.title", "Kata Matching"),
+    description: i18n.t("study.matchingTypes.kata.description", "Match kata names with their meanings and characteristics."),
+    type: "matching",
+    category: "kata",
+    difficulty: "intermediate",
+    image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
+    questions: [
+      {
+        id: "kata-matching-1",
+        question: "Match the kata with its meaning",
+        correctAnswer: "Sanchin - Three Battles, Gekisai - Attack and Smash, Tensho - Turning Palms",
+        explanation: "Each kata has a specific meaning that reflects its purpose and characteristics."
+      }
+    ]
+  }
+];
+
+studies.push(...matchingStudies);
 
 // Export other data as needed (ensure TechniqueData is not exported twice)
 export { techniquesData }; 

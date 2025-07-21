@@ -137,6 +137,18 @@ const StudyDetailPage = () => {
   const renderHeader = () => (
     <div className="bg-muted border-b border-border">
       <div className="px-4 py-6">
+        {/* Back Button */}
+        <div className="flex items-center mb-4">
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => navigate('/study')}
+            className="text-muted-foreground hover:text-foreground"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            {t('common.back')}
+          </Button>
+        </div>
         <div className="flex items-center justify-center mb-2">
           <Badge variant="outline" className="mb-2 mr-2">
             {study.difficulty}
@@ -332,17 +344,6 @@ const StudyDetailPage = () => {
             <CardHeader className="pb-2">
               <CardTitle className="text-lg">{currentQuestion.question}</CardTitle>
             </CardHeader>
-            {currentQuestion.image && (
-              <div className="px-6 pb-4">
-                <div className="aspect-video rounded-md overflow-hidden border border-border">
-                  <img 
-                    src={currentQuestion.image} 
-                    alt={currentQuestion.question} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            )}
             <CardContent>
               <RadioGroup 
                 value={userAnswers[currentQuestion.id] || ""}

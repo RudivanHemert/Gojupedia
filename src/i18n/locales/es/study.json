@@ -2,12 +2,29 @@
   "study": {
     "title": "Sección de Estudio",
     "description": "Lecciones interactivas y cuestionarios para mejorar tu conocimiento",
-    "quizzes": "Cuestionarios",
+    "testTypes": {
+      "quiz": "Cuestionario",
+      "flashcards": "Tarjetas de Memoria",
+      "matching": "Emparejamiento"
+    },
+    "quizzes": {
+      "title": "Cuestionarios",
+      "description": "Pon a prueba tu conocimiento sobre varios temas"
+    },
     "quizDesc": "Pon a prueba tu conocimiento sobre varios temas.",
     "noQuizzes": "No hay cuestionarios disponibles en este momento.",
-    "flashcards": "Tarjetas de Memoria",
-    "flashcardDesc": "Revisa términos y conceptos con tarjetas de memoria.",
     "noFlashcards": "No hay conjuntos de tarjetas de memoria disponibles en este momento.",
+    "noMatching": "No hay ejercicios de emparejamiento disponibles en este momento.",
+    "flashcards": {
+      "title": "Tarjetas de Memoria",
+      "description": "Revisa términos y conceptos con tarjetas de memoria"
+    },
+    "flashcardDesc": "Revisa términos y conceptos con tarjetas de memoria.",
+    "matching": {
+      "title": "Emparejamiento",
+      "description": "Empareja términos y conceptos entre sí"
+    },
+    "matchingDesc": "Empareja términos y conceptos entre sí.",
     "tests": "Pruebas",
     "startStudy": "Comenzar a Estudiar",
     "pageHeaderTitle": "Estudio",
@@ -18,6 +35,8 @@
     "quizzesCardDescription": "Pon a prueba tu conocimiento con cuestionarios interactivos",
     "flashcardsCardTitle": "Tarjetas de Memoria",
     "flashcardsCardDescription": "Practica terminología y conceptos",
+    "matchingCardTitle": "Emparejamiento",
+    "matchingCardDescription": "Empareja términos y conceptos",
     "loading": "Cargando material de estudio...",
     "completed": "¡Estudio Completado!",
     "tapToFlip": "Toca para voltear",
@@ -27,10 +46,25 @@
     },
     "questions": "preguntas",
     "cards": "tarjetas",
+    "pairs": "pares",
     "category": "Categoría",
     "start": "Comenzar",
     "quiz": "Cuestionario",
     "flashcards": "Tarjetas de Memoria",
+    "matching": "Emparejamiento",
+    "startQuiz": "Comenzar Cuestionario",
+    "startFlashcards": "Comenzar Tarjetas de Memoria",
+    "startMatching": "Comenzar Emparejamiento",
+    "techniques": "Técnicas",
+    "kata": "Kata",
+    "philosophy": "Filosofía",
+    "kumite": "Kumite",
+    "terminology": "Terminología",
+    "difficulty": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
     "quizTypes": {
       "stances": {
         "title": "Cuestionario de Posturas",
@@ -47,9 +81,814 @@
       "blocks": {
         "title": "Cuestionario de Bloques",
         "description": "Pon a prueba tu conocimiento de bloques."
+      },
+      "kata": {
+        "title": "Cuestionario de Kata",
+        "description": "Pon a prueba tu conocimiento de kata."
+      },
+      "philosophy": {
+        "title": "Cuestionario de Filosofía",
+        "description": "Pon a prueba tu conocimiento de la filosofía Goju Ryu."
+      },
+      "kumite": {
+        "title": "Cuestionario de Kumite",
+        "description": "Pon a prueba tu conocimiento de kumite."
       }
     },
-    "techniques": "Técnicas",
-    "startQuiz": "Comenzar Cuestionario"
+    "categories": {
+      "kata": "Kata",
+      "philosophy": "Filosofía",
+      "techniques": "Técnicas",
+      "kumite": "Kumite",
+      "terminology": "Terminología"
+    },
+    "progress": {
+      "title": "Progreso",
+      "completed": "Completado",
+      "inProgress": "En progreso",
+      "notStarted": "No comenzado"
+    },
+    "results": {
+      "title": "Resultados",
+      "score": "Puntuación",
+      "correct": "Correcto",
+      "incorrect": "Incorrecto",
+      "percentage": "Porcentaje",
+      "time": "Tiempo",
+      "retry": "Reintentar",
+      "next": "Siguiente"
+    },
+    "question": "Pregunta {index} de {total}",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "correct": "¡Correcto!",
+    "incorrect": "¡Incorrecto!",
+    "explanation": "Explicación",
+    "showExplanation": "Mostrar explicación",
+    "hideExplanation": "Ocultar explicación",
+    "studyAgain": "Estudiar de nuevo",
+    "backToStudySection": "Volver a la sección de estudio",
+    "noQuestionFound": "No se encontró pregunta para el índice {index}",
+    "yourScore": "Tu puntuación: {score} de {total}",
+    "tips": {
+      "title": "Consejos de estudio",
+      "regular": "Practica regularmente para mejores resultados",
+      "review": "Revisa las secciones difíciles",
+      "progress": "Sigue tu progreso"
+    },
+    "stats": {
+      "progress": "Progreso",
+      "time": "Tiempo de estudio",
+      "goals": "Objetivos"
+    }
+  },
+  "title": "Estudio",
+  "description": "Practica y pon a prueba tu conocimiento del karate Goju Ryu",
+  "startQuiz": "Comenzar Quiz",
+  "startFlashcards": "Comenzar Flashcards",
+  "questions": "preguntas",
+  "cards": "tarjetas",
+  "category": "Categoría",
+  "difficulty": "Dificultad",
+  "beginner": "Principiante",
+  "intermediate": "Intermedio",
+  "advanced": "Avanzado",
+  "quiz": "Quiz",
+  "flashcard": "Flashcards",
+  "matching": "Emparejamiento",
+  "terminology": "Terminología",
+  "techniques": "Técnicas",
+  "kata": "Kata",
+  "philosophy": "Filosofía",
+  "kumite": "Kumite",
+  "quizTypes": {
+    "stances": {
+      "title": "Quiz de Posiciones",
+      "description": "Pon a prueba tu conocimiento de posiciones y posturas de karate."
+    },
+    "kicks": {
+      "title": "Quiz de Patadas",
+      "description": "Pon a prueba tu conocimiento de técnicas de patadas de karate."
+    },
+    "punches": {
+      "title": "Quiz de Golpes",
+      "description": "Pon a prueba tu conocimiento de técnicas de golpes de karate."
+    },
+    "blocks": {
+      "title": "Quiz de Bloques",
+      "description": "Pon a prueba tu conocimiento de técnicas de bloqueo de karate."
+    },
+    "kata": {
+      "title": "Quiz de Kata",
+      "description": "Pon a prueba tu conocimiento de nombres y significados de kata Goju Ryu."
+    },
+    "philosophy": {
+      "title": "Quiz de Filosofía",
+      "description": "Pon a prueba tu conocimiento de conceptos y principios filosóficos de Goju Ryu."
+    },
+    "numbers": {
+      "title": "Quiz de Números",
+      "description": "Pon a prueba tu conocimiento de números japoneses usados en karate."
+    },
+    "general": {
+      "title": "Quiz de Términos Generales",
+      "description": "Pon a prueba tu conocimiento de terminología esencial de karate."
+    },
+    "weapons": {
+      "title": "Quiz de Armas",
+      "description": "Pon a prueba tu conocimiento de armas y herramientas de karate."
+    },
+    "concepts": {
+      "title": "Quiz de Conceptos",
+      "description": "Pon a prueba tu conocimiento de conceptos y principios de karate."
+    },
+    "equipment": {
+      "title": "Quiz de Equipamiento",
+      "description": "Pon a prueba tu conocimiento de equipamiento y herramientas de karate."
+    },
+    "commands": {
+      "title": "Quiz de Comandos",
+      "description": "Pon a prueba tu conocimiento de comandos japoneses usados en karate."
+    },
+    "directions": {
+      "title": "Quiz de Direcciones",
+      "description": "Pon a prueba tu conocimiento de direcciones y posiciones japonesas."
+    },
+    "body-parts": {
+      "title": "Quiz de Partes del Cuerpo",
+      "description": "Pon a prueba tu conocimiento de partes del cuerpo japonesas usadas en karate."
+    },
+    "movements": {
+      "title": "Quiz de Movimientos",
+      "description": "Pon a prueba tu conocimiento de términos de movimiento japoneses en karate."
+    },
+    "timing": {
+      "title": "Quiz de Tiempo",
+      "description": "Pon a prueba tu conocimiento de tiempo y ritmo en karate."
+    },
+    "energy": {
+      "title": "Quiz de Energía",
+      "description": "Pon a prueba tu conocimiento de energía y poder en karate."
+    },
+    "mindset": {
+      "title": "Quiz de Mentalidad",
+      "description": "Pon a prueba tu conocimiento de aspectos mentales del karate."
+    },
+    "etiquette": {
+      "title": "Quiz de Etiqueta",
+      "description": "Pon a prueba tu conocimiento de etiqueta y comportamiento del dojo."
+    },
+    "history": {
+      "title": "Quiz de Historia",
+      "description": "Pon a prueba tu conocimiento de historia y tradición de Goju Ryu."
+    },
+    "principles": {
+      "title": "Quiz de Principios",
+      "description": "Pon a prueba tu conocimiento de principios y valores de Goju Ryu."
+    },
+    "breathing": {
+      "title": "Quiz de Respiración",
+      "description": "Pon a prueba tu conocimiento de técnicas de respiración en karate."
+    },
+    "meditation": {
+      "title": "Quiz de Meditación",
+      "description": "Pon a prueba tu conocimiento de meditación y atención plena en karate."
+    },
+    "self-defense": {
+      "title": "Quiz de Autodefensa",
+      "description": "Pon a prueba tu conocimiento de técnicas de autodefensa."
+    },
+    "sparring": {
+      "title": "Quiz de Sparring",
+      "description": "Pon a prueba tu conocimiento de sparring y entrenamiento con pareja."
+    },
+    "competition": {
+      "title": "Quiz de Competición",
+      "description": "Pon a prueba tu conocimiento de competición y reglas de karate."
+    },
+    "training": {
+      "title": "Quiz de Entrenamiento",
+      "description": "Pon a prueba tu conocimiento de métodos y técnicas de entrenamiento."
+    },
+    "grading": {
+      "title": "Quiz de Graduación",
+      "description": "Pon a prueba tu conocimiento de graduación y cinturones de karate."
+    },
+    "dojo": {
+      "title": "Quiz de Dojo",
+      "description": "Pon a prueba tu conocimiento de organización y estructura del dojo."
+    },
+    "lineage": {
+      "title": "Quiz de Linaje",
+      "description": "Pon a prueba tu conocimiento de linaje y tradición de Goju Ryu."
+    },
+    "masters": {
+      "title": "Quiz de Maestros",
+      "description": "Pon a prueba tu conocimiento de maestros famosos de Goju Ryu."
+    },
+    "traditions": {
+      "title": "Quiz de Tradiciones",
+      "description": "Pon a prueba tu conocimiento de tradiciones y costumbres de karate."
+    },
+    "culture": {
+      "title": "Quiz de Cultura",
+      "description": "Pon a prueba tu conocimiento de cultura japonesa en karate."
+    },
+    "language": {
+      "title": "Quiz de Idioma",
+      "description": "Pon a prueba tu conocimiento de idioma japonés en karate."
+    },
+    "symbols": {
+      "title": "Quiz de Símbolos",
+      "description": "Pon a prueba tu conocimiento de símbolos y significados de karate."
+    },
+    "ceremonies": {
+      "title": "Quiz de Ceremonias",
+      "description": "Pon a prueba tu conocimiento de ceremonias y rituales de karate."
+    },
+    "discipline": {
+      "title": "Quiz de Disciplina",
+      "description": "Pon a prueba tu conocimiento de disciplina y autocontrol."
+    },
+    "respect": {
+      "title": "Quiz de Respeto",
+      "description": "Pon a prueba tu conocimiento de respeto y etiqueta en karate."
+    },
+    "perseverance": {
+      "title": "Quiz de Perseverancia",
+      "description": "Pon a prueba tu conocimiento de perseverancia y resistencia."
+    },
+    "character": {
+      "title": "Quiz de Carácter",
+      "description": "Pon a prueba tu conocimiento de desarrollo de carácter en karate."
+    },
+    "sincerity": {
+      "title": "Quiz de Sinceridad",
+      "description": "Pon a prueba tu conocimiento de sinceridad y honestidad."
+    },
+    "self-control": {
+      "title": "Quiz de Autocontrol",
+      "description": "Pon a prueba tu conocimiento de autocontrol y regulación emocional."
+    },
+    "kata-basics": {
+      "title": "Quiz de Conceptos Básicos de Kata",
+      "description": "Pon a prueba tu conocimiento de conceptos y principios fundamentales de kata."
+    },
+    "kata-history": {
+      "title": "Quiz de Historia de Kata",
+      "description": "Aprende sobre el desarrollo histórico y origen de kata."
+    },
+    "philosophy-principles": {
+      "title": "Quiz de Principios Filosóficos",
+      "description": "Pon a prueba tu comprensión de principios filosóficos de Goju Ryu."
+    },
+    "basic-techniques": {
+      "title": "Quiz de Técnicas Básicas",
+      "description": "Pon a prueba tu conocimiento de técnicas fundamentales de karate."
+    },
+    "kumite-basics": {
+      "title": "Quiz de Conceptos Básicos de Kumite",
+      "description": "Pon a prueba tu conocimiento de fundamentos de sparring."
+    }
+  },
+  "flashcardTypes": {
+    "stances": {
+      "title": "Flashcards de Posiciones",
+      "description": "Aprende todas las posiciones y posturas de karate."
+    },
+    "kicks": {
+      "title": "Flashcards de Patadas",
+      "description": "Aprende todas las técnicas de patadas de karate."
+    },
+    "punches": {
+      "title": "Flashcards de Golpes",
+      "description": "Aprende todas las técnicas de golpes de karate."
+    },
+    "blocks": {
+      "title": "Flashcards de Bloques",
+      "description": "Aprende todas las técnicas de bloqueo de karate."
+    },
+    "kata": {
+      "title": "Flashcards de Kata",
+      "description": "Aprende todos los nombres y significados de kata Goju Ryu."
+    },
+    "philosophy": {
+      "title": "Flashcards de Filosofía",
+      "description": "Aprende conceptos y principios filosóficos de Goju Ryu."
+    },
+    "numbers": {
+      "title": "Flashcards de Números",
+      "description": "Aprende números japoneses usados en karate."
+    },
+    "general": {
+      "title": "Flashcards de Términos Generales",
+      "description": "Aprende terminología esencial de karate."
+    },
+    "weapons": {
+      "title": "Flashcards de Armas",
+      "description": "Practica armas con flashcards."
+    },
+    "concepts": {
+      "title": "Flashcards de Conceptos",
+      "description": "Practica conceptos con flashcards."
+    },
+    "equipment": {
+      "title": "Flashcards de Equipamiento",
+      "description": "Practica equipamiento con flashcards."
+    },
+    "commands": {
+      "title": "Flashcards de Comandos",
+      "description": "Practica comandos con flashcards."
+    },
+    "directions": {
+      "title": "Flashcards de Direcciones",
+      "description": "Practica direcciones con flashcards."
+    },
+    "body-parts": {
+      "title": "Flashcards de Partes del Cuerpo",
+      "description": "Practica partes del cuerpo con flashcards."
+    },
+    "movements": {
+      "title": "Flashcards de Movimientos",
+      "description": "Practica movimientos con flashcards."
+    },
+    "timing": {
+      "title": "Flashcards de Tiempo",
+      "description": "Practica tiempo con flashcards."
+    },
+    "energy": {
+      "title": "Flashcards de Energía",
+      "description": "Practica energía con flashcards."
+    },
+    "mindset": {
+      "title": "Flashcards de Mentalidad",
+      "description": "Practica mentalidad con flashcards."
+    },
+    "etiquette": {
+      "title": "Flashcards de Etiqueta",
+      "description": "Practica etiqueta con flashcards."
+    },
+    "history": {
+      "title": "Flashcards de Historia",
+      "description": "Practica historia con flashcards."
+    },
+    "principles": {
+      "title": "Flashcards de Principios",
+      "description": "Practica principios con flashcards."
+    },
+    "breathing": {
+      "title": "Flashcards de Respiración",
+      "description": "Practica respiración con flashcards."
+    },
+    "meditation": {
+      "title": "Flashcards de Meditación",
+      "description": "Practica meditación con flashcards."
+    },
+    "self-defense": {
+      "title": "Flashcards de Autodefensa",
+      "description": "Practica autodefensa con flashcards."
+    },
+    "sparring": {
+      "title": "Flashcards de Sparring",
+      "description": "Practica sparring con flashcards."
+    },
+    "competition": {
+      "title": "Flashcards de Competición",
+      "description": "Practica competición con flashcards."
+    },
+    "training": {
+      "title": "Flashcards de Entrenamiento",
+      "description": "Practica entrenamiento con flashcards."
+    },
+    "grading": {
+      "title": "Flashcards de Graduación",
+      "description": "Practica graduación con flashcards."
+    },
+    "dojo": {
+      "title": "Flashcards de Dojo",
+      "description": "Practica dojo con flashcards."
+    },
+    "lineage": {
+      "title": "Flashcards de Linaje",
+      "description": "Practica linaje con flashcards."
+    },
+    "masters": {
+      "title": "Flashcards de Maestros",
+      "description": "Practica maestros con flashcards."
+    },
+    "traditions": {
+      "title": "Flashcards de Tradiciones",
+      "description": "Practica tradiciones con flashcards."
+    },
+    "culture": {
+      "title": "Flashcards de Cultura",
+      "description": "Practica cultura con flashcards."
+    },
+    "language": {
+      "title": "Flashcards de Idioma",
+      "description": "Practica idioma con flashcards."
+    },
+    "symbols": {
+      "title": "Flashcards de Símbolos",
+      "description": "Practica símbolos con flashcards."
+    },
+    "ceremonies": {
+      "title": "Flashcards de Ceremonias",
+      "description": "Practica ceremonias con flashcards."
+    },
+    "discipline": {
+      "title": "Flashcards de Disciplina",
+      "description": "Practica disciplina con flashcards."
+    },
+    "respect": {
+      "title": "Flashcards de Respeto",
+      "description": "Practica respeto con flashcards."
+    },
+    "perseverance": {
+      "title": "Flashcards de Perseverancia",
+      "description": "Practica perseverancia con flashcards."
+    },
+    "character": {
+      "title": "Flashcards de Carácter",
+      "description": "Practica carácter con flashcards."
+    },
+    "sincerity": {
+      "title": "Flashcards de Sinceridad",
+      "description": "Practica sinceridad con flashcards."
+    },
+    "self-control": {
+      "title": "Flashcards de Autocontrol",
+      "description": "Practica autocontrol con flashcards."
+    }
+  },
+  "questions": {
+    "kata-basics-1": {
+      "question": "¿Qué significa 'kata' en japonés?",
+      "option1": "Forma",
+      "option2": "Lucha",
+      "option3": "Técnica",
+      "option4": "Estilo",
+      "correct": "Forma",
+      "explanation": "Kata (型) significa 'forma' en japonés y se refiere a los patrones de movimientos coreografiados."
+    },
+    "kata-basics-2": {
+      "question": "¿Cuántos kata hay en Goju Ryu tradicional?",
+      "option1": "8",
+      "option2": "10",
+      "option3": "12",
+      "option4": "15",
+      "correct": "12",
+      "explanation": "Goju Ryu tradicional tiene 12 kata: 2 heishugata (Sanchin, Tensho) y 10 kaishugata."
+    },
+    "kata-basics-3": {
+      "question": "¿Cuáles son las dos categorías principales de kata en Goju Ryu?",
+      "option1": "Duro y Suave",
+      "option2": "Heishugata y Kaishugata",
+      "option3": "Básico y Avanzado",
+      "option4": "Viejo y Nuevo",
+      "correct": "Heishugata y Kaishugata",
+      "explanation": "Heishugata (mano cerrada) y Kaishugata (mano abierta) son las dos categorías principales."
+    },
+    "kata-history-1": {
+      "question": "¿Quién creó los kata Gekisai?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Chojun Miyagi",
+      "option3": "Morio Higaonna",
+      "option4": "Eiichi Miyazato",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi creó Gekisai Dai Ichi y Gekisai Dai Ni en la década de 1940."
+    },
+    "kata-history-2": {
+      "question": "¿Qué significa 'Sanchin'?",
+      "option1": "Tres Batallas",
+      "option2": "Tres Pasos",
+      "option3": "Tres Corazones",
+      "option4": "Tres Mentes",
+      "correct": "Tres Batallas",
+      "explanation": "Sanchin (三戦) significa 'tres batallas' y se refiere a mente, cuerpo y espíritu."
+    },
+    "philosophy-1": {
+      "question": "¿Qué significa 'Goju'?",
+      "option1": "Duro-Suave",
+      "option2": "Rápido-Lento",
+      "option3": "Fuerte-Débil",
+      "option4": "Viejo-Nuevo",
+      "correct": "Duro-Suave",
+      "explanation": "Goju (剛柔) significa 'duro-suave' y representa el equilibrio de técnicas duras y suaves."
+    },
+    "philosophy-2": {
+      "question": "¿Qué es 'Muchimi'?",
+      "option1": "Respiración",
+      "option2": "Manos Pegajosas",
+      "option3": "Enfoque",
+      "option4": "Equilibrio",
+      "correct": "Manos Pegajosas",
+      "explanation": "Muchimi se refiere a la capacidad de mantener contacto con un oponente como manos pegajosas."
+    },
+    "techniques-1": {
+      "question": "¿Cuál es la postura más básica en karate?",
+      "option1": "Sanchin Dachi",
+      "option2": "Zenkutsu Dachi",
+      "option3": "Hachiji Dachi",
+      "option4": "Kiba Dachi",
+      "correct": "Hachiji Dachi",
+      "explanation": "Hachiji Dachi (postura natural) es la postura más básica en karate."
+    },
+    "techniques-2": {
+      "question": "¿Qué significa 'Uke'?",
+      "option1": "Ataque",
+      "option2": "Bloqueo",
+      "option3": "Golpe",
+      "option4": "Patada",
+      "correct": "Bloqueo",
+      "explanation": "Uke (受け) significa 'bloqueo' o 'recibir' en japonés."
+    },
+    "kumite-1": {
+      "question": "¿Qué significa 'Kumite'?",
+      "option1": "Sparring",
+      "option2": "Lucha",
+      "option3": "Entrenamiento",
+      "option4": "Competición",
+      "correct": "Sparring",
+      "explanation": "Kumite (組手) significa 'sparring' o 'encuentro de manos' en japonés."
+    },
+    "kumite-2": {
+      "question": "¿Qué es 'Ippon Kumite'?",
+      "option1": "Sparring Libre",
+      "option2": "Sparring de Un Paso",
+      "option3": "Sparring de Tres Pasos",
+      "option4": "Sparring de Cinco Pasos",
+      "correct": "Sparring de Un Paso",
+      "explanation": "Ippon Kumite es sparring de un paso con ataques y defensas predeterminados."
+    }
+  },
+  "matchingTypes": {
+    "kata": {
+      "title": "Emparejamiento de Kata",
+      "description": "Empareja nombres de kata con sus significados y características."
+    }
+  },
+  "terminology": {
+    "stances": {
+      "hachiji-dachi": {
+        "english": "Postura Natural",
+        "explanation": "Postura natural básica con pies separados al ancho de los hombros"
+      },
+      "sanchin-dachi": {
+        "english": "Postura de Reloj de Arena",
+        "explanation": "Postura fuerte con pies girados hacia adentro, rodillas dobladas"
+      },
+      "zenkutsu-dachi": {
+        "english": "Postura Larga",
+        "explanation": "Postura hacia adelante con peso en la pierna delantera"
+      },
+      "kokutsu-dachi": {
+        "english": "Postura Atrás",
+        "explanation": "Postura hacia atrás con peso en la pierna trasera"
+      },
+      "kiba-dachi": {
+        "english": "Postura de Jinete",
+        "explanation": "Postura de caballo con pies separados"
+      },
+      "neko-ashi-dachi": {
+        "english": "Postura de Gato",
+        "explanation": "Postura de gato con peso en la pierna trasera"
+      }
+    },
+    "kicks": {
+      "mae-geri": {
+        "english": "Patada Frontal",
+        "explanation": "Patada hacia adelante con la bola del pie"
+      },
+      "yoko-geri": {
+        "english": "Patada Lateral",
+        "explanation": "Patada hacia el lado con el borde del pie"
+      },
+      "mawashi-geri": {
+        "english": "Patada Circular",
+        "explanation": "Patada circular usando el empeine o bola del pie"
+      },
+      "ushiro-geri": {
+        "english": "Patada Trasera",
+        "explanation": "Patada hacia atrás con el talón"
+      },
+      "mikazuki-geri": {
+        "english": "Patada de Media Luna",
+        "explanation": "Patada circular en movimiento de media luna"
+      }
+    },
+    "punches": {
+      "seiken-tsuki": {
+        "english": "Golpe de Puño",
+        "explanation": "Golpe básico con los primeros dos nudillos"
+      },
+      "gyaku-tsuki": {
+        "english": "Golpe Inverso",
+        "explanation": "Golpe con la mano opuesta al pie delantero"
+      },
+      "oi-tsuki": {
+        "english": "Golpe de Embestida",
+        "explanation": "Golpe con paso con la misma mano que el pie delantero"
+      },
+      "kizami-tsuki": {
+        "english": "Golpe Jab",
+        "explanation": "Golpe jab rápido con la mano delantera"
+      }
+    },
+    "blocks": {
+      "age-uke": {
+        "english": "Bloqueo Ascendente",
+        "explanation": "Bloqueo que desvía ataques hacia arriba"
+      },
+      "gedan-barai": {
+        "english": "Barrido Descendente",
+        "explanation": "Bloqueo de barrido para ataques bajos"
+      },
+      "soto-uke": {
+        "english": "Bloqueo Exterior",
+        "explanation": "Bloqueo que desvía ataques de adentro hacia afuera"
+      },
+      "uchi-uke": {
+        "english": "Bloqueo Interior",
+        "explanation": "Bloqueo que desvía ataques de afuera hacia adentro"
+      }
+    },
+    "kata": {
+      "sanchin": {
+        "english": "Tres Batallas",
+        "explanation": "Representa mente, cuerpo y espíritu - el kata fundamental"
+      },
+      "tensho": {
+        "english": "Palmas Giratorias",
+        "explanation": "Movimientos circulares suaves en contraste con la dureza de Sanchin"
+      },
+      "gekisai-dai-ichi": {
+        "english": "Ataque y Destrozar Número Uno",
+        "explanation": "Primero de los kata Gekisai, creado por Chojun Miyagi"
+      },
+      "gekisai-dai-ni": {
+        "english": "Ataque y Destrozar Número Dos",
+        "explanation": "Segundo de los kata Gekisai, más avanzado que Dai Ichi"
+      },
+      "saifa": {
+        "english": "Destrozar y Rasgar",
+        "explanation": "Uno de los kaishugata tradicionales"
+      },
+      "seiyunchin": {
+        "english": "Control y Tirar Batalla",
+        "explanation": "Kata enfocado en técnicas de combate cercano"
+      },
+      "shisochin": {
+        "english": "Batalla de Cuatro Direcciones",
+        "explanation": "Kata con técnicas en cuatro direcciones"
+      },
+      "sanseru": {
+        "english": "Treinta y Seis Manos",
+        "explanation": "Kata avanzado con 36 técnicas"
+      },
+      "seipai": {
+        "english": "Dieciocho Manos",
+        "explanation": "Kata avanzado con 18 técnicas"
+      },
+      "kururunfa": {
+        "english": "Mantener el Suelo",
+        "explanation": "Kata avanzado que enfatiza estabilidad y poder"
+      },
+      "seisan": {
+        "english": "Trece Manos",
+        "explanation": "Kata avanzado con 13 técnicas"
+      },
+      "suparinpei": {
+        "english": "Ciento Ocho Manos",
+        "explanation": "El kata más avanzado con 108 técnicas"
+      }
+    },
+    "philosophy": {
+      "goju-ryu": {
+        "english": "Estilo Duro-Suave",
+        "explanation": "El nombre significa 'estilo duro-suave', combina técnicas duras y suaves"
+      },
+      "dojo-kun": {
+        "english": "Preceptos del Salón de Entrenamiento",
+        "explanation": "Los cinco preceptos que guían la práctica de karate"
+      },
+      "karate-do": {
+        "english": "Camino de la Mano Vacía",
+        "explanation": "El arte marcial como forma de vida, no solo lucha"
+      },
+      "mind-body-unity": {
+        "english": "Shin-Gi-Tai (心技体)",
+        "explanation": "La unidad de mente, técnica y cuerpo en el entrenamiento"
+      },
+      "respect": {
+        "english": "Rei",
+        "explanation": "Principio fundamental de respeto en karate"
+      },
+      "perseverance": {
+        "english": "Nin",
+        "explanation": "Resistencia y paciencia en el entrenamiento"
+      },
+      "etiquette": {
+        "english": "Reigi",
+        "explanation": "Comportamiento apropiado y modales en el dojo"
+      },
+      "character": {
+        "english": "Jinkaku",
+        "explanation": "Construcción de carácter a través del entrenamiento de karate"
+      },
+      "sincerity": {
+        "english": "Makoto",
+        "explanation": "Honestidad y sinceridad en la práctica"
+      },
+      "self-control": {
+        "english": "Jisei",
+        "explanation": "Controlar las propias emociones y acciones"
+      }
+    },
+    "numbers": {
+      "ichi": {
+        "english": "Uno",
+        "explanation": "Primer número, usado al contar técnicas"
+      },
+      "ni": {
+        "english": "Dos",
+        "explanation": "Segundo número, usado al contar técnicas"
+      },
+      "san": {
+        "english": "Tres",
+        "explanation": "Tercer número, usado al contar técnicas"
+      },
+      "yon": {
+        "english": "Cuatro",
+        "explanation": "Cuarto número, usado al contar técnicas"
+      },
+      "go": {
+        "english": "Cinco",
+        "explanation": "Quinto número, usado al contar técnicas"
+      },
+      "roku": {
+        "english": "Seis",
+        "explanation": "Sexto número, usado al contar técnicas"
+      },
+      "shichi": {
+        "english": "Siete",
+        "explanation": "Séptimo número, usado al contar técnicas"
+      },
+      "hachi": {
+        "english": "Ocho",
+        "explanation": "Octavo número, usado al contar técnicas"
+      },
+      "kyu": {
+        "english": "Nueve",
+        "explanation": "Noveno número, usado al contar técnicas"
+      },
+      "ju": {
+        "english": "Diez",
+        "explanation": "Décimo número, usado al contar técnicas"
+      }
+    },
+    "general": {
+      "dojo": {
+        "english": "Salón de Entrenamiento",
+        "explanation": "El lugar donde se practica karate"
+      },
+      "sensei": {
+        "english": "Maestro",
+        "explanation": "Término respetuoso para instructor de karate"
+      },
+      "sempai": {
+        "english": "Estudiante Senior",
+        "explanation": "Estudiante con más experiencia"
+      },
+      "kohai": {
+        "english": "Estudiante Junior",
+        "explanation": "Estudiante con menos experiencia"
+      },
+      "obi": {
+        "english": "Cinturón",
+        "explanation": "El cinturón usado con el uniforme de karate"
+      },
+      "gi": {
+        "english": "Uniforme",
+        "explanation": "El uniforme de entrenamiento de karate"
+      },
+      "kumite": {
+        "english": "Sparring",
+        "explanation": "Entrenamiento con pareja y práctica de lucha"
+      },
+      "kata": {
+        "english": "Forma",
+        "explanation": "Secuencia predeterminada de técnicas"
+      },
+      "kihon": {
+        "english": "Básicos",
+        "explanation": "Técnicas y movimientos fundamentales"
+      },
+      "bunkai": {
+        "english": "Análisis",
+        "explanation": "Aplicación de técnicas de kata"
+      }
+    }
   }
 } 

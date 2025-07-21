@@ -72,6 +72,7 @@ const sidebarStructure = [
       { labelKey: 'navigation.studyOverview', path: '/study' },
       { labelKey: 'navigation.quizzes', path: '/study/quizzes' },
       { labelKey: 'navigation.flashcards', path: '/study/flashcards' },
+      { labelKey: 'navigation.matching', path: '/study/matching' },
       { labelKey: 'navigation.gradings', path: '/gradings' },
     ]
   },

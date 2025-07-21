@@ -44,10 +44,11 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
           description: t(`${quizTypeKey}.description`, `Test your knowledge of ${category}.`)
         };
       } else {
-        // For flashcards, we can add similar translation keys later if needed
+        // For flashcards, use specific translation keys
+        const flashcardTypeKey = `study.flashcardTypes.${category}`;
         return {
-          title: `${t(`study.${category}`, category)} ${t('study.flashcards')}`,
-          description: t('study.flashcardDesc')
+          title: t(`${flashcardTypeKey}.title`, `${category} Flashcards`),
+          description: t(`${flashcardTypeKey}.description`, `Practice ${category} with flashcards.`)
         };
       }
     }
@@ -76,17 +77,6 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
         <CardTitle className="text-xl font-serif">{translatedContent.title}</CardTitle>
         <CardDescription className="text-muted-foreground">{translatedContent.description}</CardDescription>
       </CardHeader>
-      {study.image && (
-        <div className="px-6">
-          <div className="aspect-video rounded-md overflow-hidden border border-border">
-            <img
-              src={study.image}
-              alt={translatedContent.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      )}
       <CardContent className="pt-4 pb-0">
         <div className="text-sm text-muted-foreground">
           {/* Dynamically generated studies might have empty questions array initially */}
