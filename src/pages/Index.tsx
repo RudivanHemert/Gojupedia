@@ -57,8 +57,8 @@ const IndexPage = () => {
     },
     {
       id: 'settings',
-      title: 'Instellingen',
-      subtitle: 'Taal, thema en voorkeuren',
+      title: t('settings.title'),
+      subtitle: t('settings.subtitle'),
       icon: <Settings className="h-8 w-8 text-muted-foreground dark:text-gray-400" />, 
       path: '/settings',
       color: 'bg-muted dark:bg-muted/20 border-border dark:border-border hover:bg-muted/50 dark:hover:bg-muted/30'

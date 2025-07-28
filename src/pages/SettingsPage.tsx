@@ -12,15 +12,15 @@ const SettingsPage = () => {
   const settingsSections = [
     {
       id: 'language',
-      title: 'Taal & Lokalisatie',
-      description: 'Kies je voorkeurstaal en regio-instellingen',
+      title: t('settings.language.title'),
+      description: t('settings.language.description'),
       icon: <Globe className="h-6 w-6 text-blue-500 dark:text-blue-400" />,
       component: <LanguageSelector />
     },
     {
       id: 'theme',
-      title: 'Uiterlijk & Thema',
-      description: 'Pas het uiterlijk van de app aan',
+      title: t('settings.theme.title'),
+      description: t('settings.theme.description'),
       icon: <Palette className="h-6 w-6 text-purple-500 dark:text-purple-400" />,
       component: <ThemeSelector />
     }
@@ -29,8 +29,8 @@ const SettingsPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title="Instellingen"
-        description="Pas je voorkeuren en instellingen aan"
+        title={t('settings.title')}
+        description={t('settings.description')}
         backUrl="/"
       />
       

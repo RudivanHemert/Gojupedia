@@ -81,18 +81,18 @@
         }
       },
       "numbers-content": {
-        "description": "Japanese numbering system used for counting in training.",
+        "description": "Sistema di numerazione giapponese utilizzato per contare nell'allenamento.",
         "terms": {
-          "ichi": { "name": "Ichi", "japanese": "一", "english": "One" },
-          "ni": { "name": "Ni", "japanese": "二", "english": "Two" },
-          "san": { "name": "San", "japanese": "三", "english": "Three" },
-          "shi": { "name": "Shi / Yon", "japanese": "四", "english": "Four" },
-          "go": { "name": "Go", "japanese": "五", "english": "Five" },
-          "roku": { "name": "Roku", "japanese": "六", "english": "Six" },
-          "shichi": { "name": "Shichi / Nana", "japanese": "七", "english": "Seven" },
-          "hachi": { "name": "Hachi", "japanese": "八", "english": "Eight" },
-          "ku": { "name": "Ku / Kyu", "japanese": "九", "english": "Nine" },
-          "ju": { "name": "Ju", "japanese": "十", "english": "Ten" }
+          "ichi": { "name": "Ichi", "japanese": "一", "english": "Uno" },
+          "ni": { "name": "Ni", "japanese": "二", "english": "Due" },
+          "san": { "name": "San", "japanese": "三", "english": "Tre" },
+          "shi": { "name": "Shi / Yon", "japanese": "四", "english": "Quattro" },
+          "go": { "name": "Go", "japanese": "五", "english": "Cinque" },
+          "roku": { "name": "Roku", "japanese": "六", "english": "Sei" },
+          "shichi": { "name": "Shichi / Nana", "japanese": "七", "english": "Sette" },
+          "hachi": { "name": "Hachi", "japanese": "八", "english": "Otto" },
+          "ku": { "name": "Ku / Kyu", "japanese": "九", "english": "Nove" },
+          "ju": { "name": "Ju", "japanese": "十", "english": "Dieci" }
         }
       },
       "equipment-weapons-content": {

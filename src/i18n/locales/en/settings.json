@@ -1,13 +1,15 @@
 {
   "settings": {
     "title": "Settings",
-    "description": "Customize your app experience",
+    "subtitle": "Language, theme and preferences",
+    "description": "Adjust your preferences and settings",
     "language": {
-      "title": "Language"
+      "title": "Language & Localization",
+      "description": "Choose your preferred language and region settings"
     },
     "theme": {
-      "title": "Theme",
-      "description": "Choose your preferred theme",
+      "title": "Appearance & Theme",
+      "description": "Adjust the appearance of the app",
       "options": {
         "light": "Light",
         "dark": "Dark",

@@ -1,13 +1,15 @@
 {
   "settings": {
     "title": "Configuración",
-    "description": "Personalice su experiencia de aplicación",
+    "subtitle": "Idioma, tema y preferencias",
+    "description": "Ajusta tus preferencias y configuración",
     "language": {
-      "title": "Idioma"
+      "title": "Idioma y Localización",
+      "description": "Elige tu idioma preferido y configuración regional"
     },
     "theme": {
-      "title": "Tema",
-      "description": "Elija su tema preferido",
+      "title": "Apariencia y Tema",
+      "description": "Ajusta la apariencia de la aplicación",
       "options": {
         "light": "Claro",
         "dark": "Oscuro",

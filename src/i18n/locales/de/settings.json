@@ -1,13 +1,15 @@
 {
   "settings": {
     "title": "Einstellungen",
-    "description": "Passen Sie Ihre App-Erfahrung an",
+    "subtitle": "Sprache, Design und Einstellungen",
+    "description": "Passen Sie Ihre Einstellungen und Vorlieben an",
     "language": {
-      "title": "Sprache"
+      "title": "Sprache & Lokalisierung",
+      "description": "Wählen Sie Ihre bevorzugte Sprache und Regionseinstellungen"
     },
     "theme": {
-      "title": "Design",
-      "description": "Wählen Sie Ihr bevorzugtes Design",
+      "title": "Erscheinungsbild & Design",
+      "description": "Passen Sie das Erscheinungsbild der App an",
       "options": {
         "light": "Hell",
         "dark": "Dunkel",

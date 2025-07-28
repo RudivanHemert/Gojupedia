@@ -1,13 +1,15 @@
 {
   "settings": {
     "title": "Instellingen",
-    "description": "Pas uw app-ervaring aan",
+    "subtitle": "Taal, thema en voorkeuren",
+    "description": "Pas je voorkeuren en instellingen aan",
     "language": {
-      "title": "Taal"
+      "title": "Taal & Lokalisatie",
+      "description": "Kies je voorkeurstaal en regio-instellingen"
     },
     "theme": {
-      "title": "Thema",
-      "description": "Kies uw voorkeursthema",
+      "title": "Uiterlijk & Thema",
+      "description": "Pas het uiterlijk van de app aan",
       "options": {
         "light": "Licht",
         "dark": "Donker",
