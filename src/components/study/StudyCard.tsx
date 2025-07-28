@@ -33,26 +33,25 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
   const getTranslatedContent = (study: Study) => {
     // For dynamically generated studies, use translation keys
     if (study.id.includes('-quiz') || study.id.includes('-flashcard')) {
-      const category = study.id.split('-')[0];
+      // Extract category (handles e.g. 'body-parts-flashcards')
+      const match = study.id.match(/^([a-z0-9-]+)-(quiz|flashcard)/);
+      const category = match ? match[1] : study.id.split('-')[0];
       const type = study.id.includes('-quiz') ? 'quiz' : 'flashcard';
-      
+
       if (type === 'quiz') {
-        // Use the translation keys we added to study.json
         const quizTypeKey = `study.quizTypes.${category}`;
         return {
-          title: t(`${quizTypeKey}.title`, `${category} Quiz`),
-          description: t(`${quizTypeKey}.description`, `Test your knowledge of ${category}.`)
+          title: t(`${quizTypeKey}.title`, t('study.quiz', 'Quiz')),
+          description: t(`${quizTypeKey}.description`, t('study.quizDesc', 'Test your knowledge.'))
         };
       } else {
-        // For flashcards, use specific translation keys
         const flashcardTypeKey = `study.flashcardTypes.${category}`;
         return {
-          title: t(`${flashcardTypeKey}.title`, `${category} Flashcards`),
-          description: t(`${flashcardTypeKey}.description`, `Practice ${category} with flashcards.`)
+          title: t(`${flashcardTypeKey}.title`, t('study.flashcards', 'Flashcards')),
+          description: t(`${flashcardTypeKey}.description`, t('study.flashcardDesc', 'Practice with flashcards.'))
         };
       }
     }
-    
     // For manual studies, return original content
     return {
       title: study.title,

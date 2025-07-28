@@ -59,7 +59,7 @@
     "kata": "Kata",
     "philosophy": "Philosophy",
     "kumite": "Kumite",
-    "terminology": "Terminology",
+    "terminologyNav": "Terminology",
     "difficulty": {
       "beginner": "Beginner",
       "intermediate": "Intermediate",
@@ -134,7 +134,7 @@
       "philosophy": "Philosophy",
       "techniques": "Techniques",
       "kumite": "Kumite",
-      "terminology": "Terminology"
+      "terminologyNav": "Terminology"
     },
     "progress": {
       "title": "Progress",
@@ -215,7 +215,7 @@
   "quiz": "Quiz",
   "flashcard": "Flashcards",
   "matching": "Matching",
-  "terminology": "Terminology",
+  "terminologyNav": "Terminology",
   "techniques": "Techniques",
   "kata": "Kata",
   "philosophy": "Philosophy",
@@ -687,7 +687,7 @@
       "description": "Match kata names with their meanings and characteristics."
     }
   },
-  "terminology": {
+  "studyTerminology": {
     "stances": {
       "hachiji-dachi": {
         "english": "Natural stance",

@@ -16,7 +16,7 @@ const NavigationMenu = () => {
       <div className="pt-2 border-t border-gray-100">
         <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">{t('navigation.theory')}</h3>
         <Link to="/theory" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.overview')}</Link>
-        <Link to="/terminology" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('theory.nav.terminology')}</Link>
+        <Link to="/terminology" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('theory.nav.terminologyNav')}</Link>
         <Link to="/history" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('theory.nav.history')}</Link>
         <Link to="/philosophy" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('theory.nav.philosophy')}</Link>
         <Link to="/vital-points" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('theory.nav.vitalPoints')}</Link>

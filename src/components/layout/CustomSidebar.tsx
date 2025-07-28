@@ -39,7 +39,7 @@ const sidebarStructure = [
     path: '/theory',
     sublinks: [
       { labelKey: 'navigation.theoryOverview', path: '/theory' },
-      { labelKey: 'navigation.terminology', path: '/terminology' },
+      { labelKey: 'navigation.terminologyNav', path: '/terminology' },
       { labelKey: 'navigation.history', path: '/history' },
       { labelKey: 'navigation.philosophy', path: '/philosophy' },
       { labelKey: 'navigation.kataTheory', path: '/theory/kata' },

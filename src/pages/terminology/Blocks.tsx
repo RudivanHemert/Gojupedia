@@ -21,7 +21,7 @@ const Blocks = () => {
       <TheoryHeader 
         title={t('terminology.sections.blocks')}
         description={t('terminology.sections.blocks-content.description')}
-        backUrl="/techniques"
+        backUrl="/terminology"
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto">
@@ -68,13 +68,14 @@ const blockYoutubeLinks: Record<string, string> = {
 };
 
 const BlockDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
+  const { t } = useTranslation();
   const { blockId } = useParams();
   const navigate = useNavigate();
   const term = blockId ? termsObject[blockId] : null;
   const videoUrl = blockId && blockYoutubeLinks[blockId] ? blockYoutubeLinks[blockId] : null;
 
   if (!term) {
-    return <div className="p-8 text-center text-red-500">Techniek niet gevonden.</div>;
+    return <div className="p-8 text-center text-red-500">{t('terminology.blockNotFound')}</div>;
   }
 
   return (
@@ -84,7 +85,7 @@ const BlockDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
           onClick={() => navigate('/terminology/blocks')}
           className="flex items-center gap-2 mb-4 text-muted-foreground hover:text-foreground"
         >
-          <ChevronLeft className="h-5 w-5" /> Terug
+          <ChevronLeft className="h-5 w-5" /> {t('common.back')}
         </button>
         <div className="flex items-center gap-2 mb-2">
           <h1 className="text-3xl font-bold">{term.name}</h1>
@@ -108,7 +109,7 @@ const BlockDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
             ></iframe>
           </div>
         ) : (
-          <div className="text-muted-foreground italic">Geen video beschikbaar.</div>
+          <div className="text-muted-foreground italic">{t('terminology.noVideoAvailable')}</div>
         )}
       </div>
     </div>

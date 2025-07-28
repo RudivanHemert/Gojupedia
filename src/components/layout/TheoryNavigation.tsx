@@ -36,7 +36,7 @@ const TheoryNavigation: React.FC<TheoryNavigationProps> = ({ currentPath }) => {
     >
       <TabsList className="grid grid-cols-6 h-12 bg-muted"> 
         <TabsTrigger value="/terminology" className="flex items-center justify-center data-[state=active]:bg-stone-200">
-          <span className="text-xs">{t('theory.nav.terminology')}</span>
+          <span className="text-xs">{t('theory.nav.terminologyNav')}</span>
         </TabsTrigger>
         <TabsTrigger value="/history" className="flex items-center justify-center data-[state=active]:bg-stone-200">
           <span className="text-xs">{t('theory.nav.history')}</span>

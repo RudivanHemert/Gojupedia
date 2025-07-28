@@ -13,7 +13,7 @@
   "quiz": "Quiz",
   "flashcard": "Flashcards",
   "matching": "Abbinamento",
-  "terminology": "Terminologia",
+  "terminologyNav": "Terminologia",
   "techniques": "Tecniche",
   "kata": "Kata",
   "philosophy": "Filosofia",
@@ -485,7 +485,7 @@
       "description": "Abbina i nomi dei kata ai loro significati e caratteristiche."
     }
   },
-  "terminology": {
+  "studyTerminology": {
     "stances": {
       "hachiji-dachi": {
         "english": "Posizione Naturale",

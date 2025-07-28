@@ -13,7 +13,7 @@
   "quiz": "Quiz",
   "flashcard": "Flashcards",
   "matching": "Matching",
-  "terminology": "Terminologie",
+  "terminologyNav": "Terminologie",
   "techniques": "Technieken",
   "kata": "Kata",
   "philosophy": "Filosofie",
@@ -485,7 +485,7 @@
       "description": "Match kata namen met hun betekenissen en kenmerken."
     }
   },
-  "terminology": {
+  "studyTerminology": {
     "stances": {
       "hachiji-dachi": {
         "english": "Natuurlijke stance",

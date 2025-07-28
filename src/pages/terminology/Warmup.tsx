@@ -11,18 +11,18 @@ const Warmup = () => {
   const trainingSections = [
     {
       id: 'junbi-undo',
-      title: 'Junbi Undo',
-      subtitle: '準備運動',
-      description: 'Voorbereidende oefeningen en warming-up technieken',
+      title: t('terminology.warmup.junbiUndo.title'),
+      subtitle: t('terminology.warmup.junbiUndo.subtitle'),
+      description: t('terminology.warmup.junbiUndo.description'),
       path: '/junbi-undo',
       icon: <Activity className="h-8 w-8 text-blue-500" />,
       color: 'bg-blue-50 border-blue-200'
     },
     {
       id: 'hojo-undo',
-      title: 'Hojo Undo',
-      subtitle: '補助運動',
-      description: 'Traditionele kracht- en conditietraining met apparatuur',
+      title: t('terminology.warmup.hojoUndo.title'),
+      subtitle: t('terminology.warmup.hojoUndo.subtitle'),
+      description: t('terminology.warmup.hojoUndo.description'),
       path: '/hojo-undo',
       icon: <Dumbbell className="h-8 w-8 text-green-500" />,
       color: 'bg-green-50 border-green-200'
@@ -32,15 +32,15 @@ const Warmup = () => {
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title="Training & Warming-up"
-        description="Voorbereidende oefeningen en traditionele training"
-        backUrl="/techniques"
+        title={t('terminology.warmup.title')}
+        description={t('terminology.warmup.description')}
+        backUrl="/terminology"
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto">
           <div className="mb-6">
             <p className="text-muted-foreground text-center">
-              Deze sectie bevat links naar de training en warming-up oefeningen die onder de Praktijk sectie vallen.
+              {t('terminology.warmup.sectionDescription')}
             </p>
           </div>
           
@@ -57,7 +57,7 @@ const Warmup = () => {
                       <p className="text-lg font-japanese text-muted-foreground mb-2">{section.subtitle}</p>
                       <p className="text-muted-foreground leading-relaxed mb-4">{section.description}</p>
                       <div className="flex items-center text-blue-600 font-medium">
-                        <span>Bekijk sectie</span>
+                        <span>{t('terminology.warmup.viewSection')}</span>
                         <ArrowRight className="h-4 w-4 ml-1" />
                       </div>
                     </div>
@@ -68,20 +68,18 @@ const Warmup = () => {
           </div>
 
           <div className="mt-8 bg-muted rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4 text-center">Over Training in Goju Ryu</h3>
+            <h3 className="text-lg font-semibold mb-4 text-center">{t('terminology.warmup.aboutTraining')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-medium mb-2">Junbi Undo (準備運動)</h4>
+                <h4 className="font-medium mb-2">{t('terminology.warmup.junbiUndo.title')} ({t('terminology.warmup.junbiUndo.subtitle')})</h4>
                 <p className="text-sm text-muted-foreground">
-                  Voorbereidende oefeningen die het lichaam voorbereiden op training. 
-                  Deze oefeningen verbeteren flexibiliteit, mobiliteit en bereiden de spieren voor.
+                  {t('terminology.warmup.junbiUndo.explanation')}
                 </p>
               </div>
               <div>
-                <h4 className="font-medium mb-2">Hojo Undo (補助運動)</h4>
+                <h4 className="font-medium mb-2">{t('terminology.warmup.hojoUndo.title')} ({t('terminology.warmup.hojoUndo.subtitle')})</h4>
                 <p className="text-sm text-muted-foreground">
-                  Traditionele kracht- en conditietraining met specifieke apparatuur zoals 
-                  chi-ishi, nigiri-game, en kongoken. Deze oefeningen ontwikkelen kracht en uithoudingsvermogen.
+                  {t('terminology.warmup.hojoUndo.explanation')}
                 </p>
               </div>
             </div>

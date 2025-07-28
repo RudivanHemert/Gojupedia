@@ -431,6 +431,27 @@
         }
       }
     },
-    "noTermsAvailable": "No terms available for this section."
+    "noTermsAvailable": "No terms available for this section.",
+    "blockNotFound": "Technique not found.",
+    "noVideoAvailable": "No video available.",
+    "warmup": {
+      "title": "Training & Warm-up",
+      "description": "Preparatory exercises and traditional training",
+      "sectionDescription": "This section contains links to the training and warm-up exercises that fall under the Practice section.",
+      "viewSection": "View section",
+      "aboutTraining": "About Training in Goju Ryu",
+      "junbiUndo": {
+        "title": "Junbi Undo",
+        "subtitle": "準備運動",
+        "description": "Preparatory exercises and warm-up techniques",
+        "explanation": "Preparatory exercises that prepare the body for training. These exercises improve flexibility, mobility and prepare the muscles."
+      },
+      "hojoUndo": {
+        "title": "Hojo Undo",
+        "subtitle": "補助運動", 
+        "description": "Traditional strength and conditioning training with equipment",
+        "explanation": "Traditional strength and conditioning training with specific equipment such as chi-ishi, nigiri-game, and kongoken. These exercises develop strength and endurance."
+      }
+    }
   }
 } 

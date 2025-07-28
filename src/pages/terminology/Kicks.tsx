@@ -21,7 +21,7 @@ const Kicks = () => {
       <TheoryHeader 
         title={t('terminology.sections.kicks')}
         description={t('terminology.sections.kicks-content.description')}
-        backUrl="/techniques"
+        backUrl="/terminology"
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto">

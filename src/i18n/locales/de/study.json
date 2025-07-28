@@ -59,7 +59,7 @@
     "kata": "Kata",
     "philosophy": "Philosophie",
     "kumite": "Kumite",
-    "terminology": "Terminologie",
+    "terminologyNav": "Terminologie",
     "difficulty": {
       "beginner": "Anfänger",
       "intermediate": "Fortgeschritten",
@@ -134,7 +134,7 @@
       "philosophy": "Philosophie",
       "techniques": "Techniken",
       "kumite": "Kumite",
-      "terminology": "Terminologie"
+      "terminologyNav": "Terminologie"
     },
     "progress": {
       "title": "Fortschritt",
@@ -191,7 +191,7 @@
   "quiz": "Quiz",
   "flashcard": "Karteikarten",
   "matching": "Zuordnung",
-  "terminology": "Terminologie",
+  "terminologyNav": "Terminologie",
   "techniques": "Techniken",
   "kata": "Kata",
   "philosophy": "Philosophie",
@@ -663,7 +663,7 @@
       "description": "Ordnen Sie Kata-Namen ihren Bedeutungen und Eigenschaften zu."
     }
   },
-  "terminology": {
+  "studyTerminology": {
     "stances": {
       "hachiji-dachi": {
         "english": "Natürliche Stellung",

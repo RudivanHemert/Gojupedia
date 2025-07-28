@@ -26,7 +26,7 @@ const VitalPointsContent = () => {
   const { t } = useTranslation();
   const termsObject = t('terminology.sections.vital-points-content.terms', { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
 
-  console.log('[VitalPoints] termsObject:', termsObject);
+
   const isEmpty = !termsObject || Object.keys(termsObject).length === 0;
 
   return (

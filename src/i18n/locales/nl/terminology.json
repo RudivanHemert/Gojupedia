@@ -67,6 +67,19 @@
           "yowai": "Zwakke Focus"
         }
       },
+      "general-terms-content": {
+        "description": "Veelgebruikte Japanse termen in een krijgskunst context.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Trainingshal, plaats van de weg" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Leraar, instructeur (iemand die eerder is gegaan)" },
+          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Senior student" },
+          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Junior student" },
+          "obi": { "name": "Obi", "japanese": "帯", "english": "Riem" },
+          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Trainingsuniform" },
+          "kiai": { "name": "Kiai", "japanese": "気合", "english": "Geestesschreeuw, energiefocus" },
+          "reishiki": { "name": "Reishiki", "japanese": "礼式", "english": "Etiquette, manieren" }
+        }
+      },
       "equipment-weapons-content": {
         "description": "Termen gerelateerd aan trainingsuitrusting en traditionele Okinawaanse wapens die soms geassocieerd worden met Karate beoefening.",
         "terms": {
@@ -577,6 +590,8 @@
         }
       }
     },
-    "noTermsAvailable": "Geen termen beschikbaar voor deze sectie."
+    "noTermsAvailable": "Geen termen beschikbaar voor deze sectie.",
+    "blockNotFound": "Techniek niet gevonden.",
+    "noVideoAvailable": "Geen video beschikbaar."
   }
 } 
