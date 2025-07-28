@@ -1,0 +1,21 @@
+{
+  "description": "Ricerca avanzata con corrispondenza fuzzy e suggerimenti",
+  "placeholder": "Cerca kata, tecniche, storia, filosofia...",
+  "searchType": "Tipo di ricerca:",
+  "category": "Categoria:",
+  "all": "Tutti",
+  "fuzzy": "Fuzzy",
+  "general": "Generale",
+  "precise": "Precisa",
+  "results": "{{count}} risultati per \"{{query}}\"",
+  "noResults": "Nessun risultato trovato",
+  "noResultsDescription": "Prova parole chiave diverse, attiva la ricerca fuzzy o controlla l'ortografia",
+  "welcome": "Ricerca Avanzata",
+  "welcomeDescription": "Trova kata, tecniche, storia, filosofia e altro con ricerca fuzzy intelligente",
+  "didYouMean": "Intendevi:",
+  "recentSearches": "Ricerche recenti:",
+  "searching": "Ricerca...",
+  "bestMatch": "Migliore corrispondenza",
+  "suggestions": "Suggerimenti",
+  "searchHistory": "Cronologia ricerche"
+} 

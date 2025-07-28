@@ -1,0 +1,21 @@
+{
+  "description": "Recherche avancée avec correspondance floue et suggestions",
+  "placeholder": "Rechercher des kata, techniques, histoire, philosophie...",
+  "searchType": "Type de recherche:",
+  "category": "Catégorie:",
+  "all": "Tous",
+  "fuzzy": "Floue",
+  "general": "Générale",
+  "precise": "Précise",
+  "results": "{{count}} résultats pour \"{{query}}\"",
+  "noResults": "Aucun résultat trouvé",
+  "noResultsDescription": "Essayez d'autres mots-clés, activez la recherche floue ou vérifiez l'orthographe",
+  "welcome": "Recherche Avancée",
+  "welcomeDescription": "Trouvez des kata, techniques, histoire, philosophie et plus avec la recherche floue intelligente",
+  "didYouMean": "Vouliez-vous dire:",
+  "recentSearches": "Recherches récentes:",
+  "searching": "Recherche...",
+  "bestMatch": "Meilleure correspondance",
+  "suggestions": "Suggestions",
+  "searchHistory": "Historique de recherche"
+} 

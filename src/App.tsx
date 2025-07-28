@@ -8,6 +8,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import { I18nextProvider, useTranslation } from 'react-i18next';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import i18n from '@/i18n';
+import { initializeSecurityMonitoring } from '@/utils/security';
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import TheoryPage from "./pages/TheoryPage";
@@ -154,6 +155,11 @@ const ErrorBoundary: React.FC<ErrorBoundaryProps> = ({ children }) => {
 
 const AppContent = React.memo(() => {
   const location = useLocation();
+  
+  // Initialize security monitoring
+  useEffect(() => {
+    initializeSecurityMonitoring();
+  }, []);
   
   return (
     <ErrorBoundary>

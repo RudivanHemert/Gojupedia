@@ -1,0 +1,21 @@
+{
+  "description": "Búsqueda avanzada con coincidencia difusa y sugerencias",
+  "placeholder": "Buscar kata, técnicas, historia, filosofía...",
+  "searchType": "Tipo de búsqueda:",
+  "category": "Categoría:",
+  "all": "Todos",
+  "fuzzy": "Difusa",
+  "general": "General",
+  "precise": "Precisa",
+  "results": "{{count}} resultados para \"{{query}}\"",
+  "noResults": "No se encontraron resultados",
+  "noResultsDescription": "Prueba palabras clave diferentes, habilita la búsqueda difusa o verifica la ortografía",
+  "welcome": "Búsqueda Avanzada",
+  "welcomeDescription": "Encuentra kata, técnicas, historia, filosofía y más con búsqueda difusa inteligente",
+  "didYouMean": "¿Quisiste decir:",
+  "recentSearches": "Búsquedas recientes:",
+  "searching": "Buscando...",
+  "bestMatch": "Mejor coincidencia",
+  "suggestions": "Sugerencias",
+  "searchHistory": "Historial de búsqueda"
+} 

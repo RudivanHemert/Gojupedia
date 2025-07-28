@@ -1,175 +1,321 @@
 import React, { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Search, X, ArrowRight } from 'lucide-react';
-import { Input } from '@/components/ui/input';
+import { Search, X, ArrowRight, Filter, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import { createSearchIndex, searchContent, SearchResult } from '@/data/searchIndex';
+import SearchBar from '@/components/ui/SearchBar';
+import useFuzzySearch from '@/hooks/useFuzzySearch';
+import { FuzzySearchResult } from '@/utils/fuzzySearch';
 import { useNavigate } from 'react-router-dom';
 
 const SearchPage = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
+  const [searchType, setSearchType] = useState<'general' | 'precise' | 'fuzzy'>('general');
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
-  // Create search index once
-  const searchIndex = useMemo(() => createSearchIndex(), []);
+  // Use fuzzy search hook
+  const { 
+    results: searchResults, 
+    suggestions,
+    isSearching, 
+    hasError,
+    errorMessage,
+    search: performSearch,
+    clearResults,
+    searchHistory
+  } = useFuzzySearch({
+    searchType,
+    limit: 50,
+    includeAlternativeLanguages: true,
+    enableSuggestions: true,
+    minQueryLength: 1
+  });
 
   const clearSearch = () => {
     setSearchQuery('');
+    clearResults();
   };
 
-  // Get search results
-  const searchResults = useMemo(() => {
-    if (!searchQuery.trim()) return [];
-    
-    const results = searchContent(searchQuery, i18n.language);
-    
-    return results;
-  }, [searchQuery, i18n.language]);
+  // Filter results by category if needed
+  const filteredResults = useMemo(() => {
+    if (selectedCategory === 'all') return searchResults;
+    return searchResults.filter(result => result.type === selectedCategory);
+  }, [searchResults, selectedCategory]);
 
-  const handleResultClick = (result: SearchResult) => {
+  // Get unique categories from results for filtering
+  const availableCategories = useMemo(() => {
+    const categories = new Set(searchResults.map(result => result.type));
+    return Array.from(categories);
+  }, [searchResults]);
+
+  const handleResultClick = (result: FuzzySearchResult) => {
+    navigate(result.path);
+  };
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    if (query.trim()) {
+      performSearch(query);
+    } else {
+      clearResults();
+    }
+  };
+
+  const handleResultSelect = (result: FuzzySearchResult) => {
     navigate(result.path);
   };
 
   const getTypeLabel = (type: string) => {
     const typeMap: Record<string, string> = {
-      'kata': 'Kata',
-      'technique': 'Techniek',
-      'philosophy': 'Filosofie',
-      'history': 'Geschiedenis',
-      'terminology': 'Terminologie',
-      'bunkai': 'Bunkai',
-      'hojo-undo': 'Hojo Undo',
-      'theory': 'Theorie',
-      'newaza': 'Newaza',
-      'kumite': 'Kumite',
-      'person': 'Persoon',
-      'principle': 'Principe',
-      'article': 'Artikel'
+      'kata': t('common.kata', 'Kata'),
+      'technique': t('common.technique', 'Technique'),
+      'philosophy': t('common.philosophy', 'Philosophy'),
+      'history': t('common.history', 'History'),
+      'terminology': t('common.terminology', 'Terminology'),
+      'bunkai': t('common.bunkai', 'Bunkai'),
+      'hojo-undo': t('common.hojoUndo', 'Hojo Undo'),
+      'theory': t('common.theory', 'Theory'),
+      'newaza': t('common.newaza', 'Newaza'),
+      'kumite': t('common.kumite', 'Kumite'),
+      'person': t('common.person', 'Person'),
+      'principle': t('common.principle', 'Principle'),
+      'article': t('common.article', 'Article')
     };
     return typeMap[type] || type;
   };
 
-  const getTypeColor = (type: string) => {
-    const colorMap: Record<string, string> = {
-      'kata': 'bg-blue-100 text-blue-800',
-      'technique': 'bg-green-100 text-green-800',
-      'philosophy': 'bg-purple-100 text-purple-800',
-      'history': 'bg-orange-100 text-orange-800',
-      'terminology': 'bg-red-100 text-red-800',
-      'bunkai': 'bg-indigo-100 text-indigo-800',
-      'hojo-undo': 'bg-yellow-100 text-yellow-800',
-      'theory': 'bg-pink-100 text-pink-800',
-      'newaza': 'bg-teal-100 text-teal-800',
-      'kumite': 'bg-cyan-100 text-cyan-800',
-      'person': 'bg-gray-100 text-gray-800',
-      'principle': 'bg-emerald-100 text-emerald-800',
-      'article': 'bg-slate-100 text-slate-800'
-    };
-    return colorMap[type] || 'bg-gray-100 text-gray-800';
-  };
-
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
-        title="Zoeken"
-        description="Zoek door alle content en termen in Gojupedia"
-        backUrl="/"
-      />
+              <TheoryHeader 
+          title={t('search.welcome', 'Zoeken')}
+          description={t('search.description', 'Geavanceerd zoeken met fuzzy matching en suggesties')}
+          backUrl="/"
+        />
       
-      <div className="p-4 max-w-4xl mx-auto">
-        {/* Search Bar */}
-        <div className="relative mb-6">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-5 w-5" />
-          <Input
-            type="text"
-            placeholder="Zoek naar kata, technieken, filosofie, terminologie..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="pl-10 pr-10 h-12 text-lg"
-          />
-          {searchQuery && (
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={clearSearch}
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 h-8 w-8 p-0"
-            >
-              <X className="h-4 w-4" />
-            </Button>
+      <div className="p-4 max-w-6xl mx-auto">
+        {/* Enhanced Search Input */}
+        <div className="mb-6">
+                      <SearchBar
+              onSearch={handleSearch}
+              onResultSelect={handleResultSelect}
+              placeholder={t('search.placeholder', 'Zoek naar kata, technieken, geschiedenis, filosofie...')}
+              value={searchQuery}
+              onChange={setSearchQuery}
+              fullWidth
+              showSuggestions
+              searchType={searchType}
+              className="max-w-none"
+            />
+
+          {/* Search Options */}
+          <div className="flex flex-wrap items-center gap-4 mt-4">
+            <div className="flex items-center gap-2">
+              <Filter size={16} className="text-gray-500" />
+                              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                  {t('search.searchType', 'Zoektype:')}
+                </span>
+                              <Tabs value={searchType} onValueChange={(value: any) => setSearchType(value)}>
+                  <TabsList className="h-8">
+                    <TabsTrigger value="fuzzy" className="text-xs px-3">{t('search.fuzzy', 'Fuzzy')}</TabsTrigger>
+                    <TabsTrigger value="general" className="text-xs px-3">{t('search.general', 'Algemeen')}</TabsTrigger>
+                    <TabsTrigger value="precise" className="text-xs px-3">{t('search.precise', 'Precies')}</TabsTrigger>
+                  </TabsList>
+                </Tabs>
+            </div>
+
+            {availableCategories.length > 0 && (
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                  {t('search.category', 'Categorie:')}
+                </span>
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  className="text-xs px-2 py-1 border border-gray-300 dark:border-gray-600 rounded bg-white dark:bg-gray-800"
+                >
+                  <option value="all">{t('search.all', 'Alle')}</option>
+                  {availableCategories.map(category => (
+                    <option key={category} value={category}>
+                      {getTypeLabel(category)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+          </div>
+
+          {/* Error Display */}
+          {hasError && (
+            <div className="mt-4 p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
+              <p className="text-sm text-red-600 dark:text-red-400">{errorMessage}</p>
+            </div>
           )}
         </div>
 
         {/* Search Results */}
-        <div className="space-y-4">
-          {searchQuery ? (
-            <div>
-              <h3 className="text-lg font-semibold mb-4">
-                Zoekresultaten voor "{searchQuery}" ({searchResults.length} resultaten)
-              </h3>
+        {searchQuery ? (
+          <div>
+            <div className="mb-6 flex items-center justify-between">
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                {isSearching ? (
+                  t('search.searching', 'Zoeken...')
+                ) : (
+                  t('search.results', {
+                    count: filteredResults.length,
+                    query: searchQuery,
+                    defaultValue: `${filteredResults.length} resultaten voor "${searchQuery}"`
+                  })
+                )}
+              </h2>
               
-              {searchResults.length > 0 ? (
-                <div className="space-y-3">
-                  {searchResults.map((result) => (
-                    <Card 
-                      key={result.id} 
-                      className="hover:shadow-md transition-shadow cursor-pointer"
-                      onClick={() => handleResultClick(result)}
-                    >
-                      <CardContent className="p-4">
-                        <div className="flex items-start justify-between">
-                          <div className="flex-1">
-                            <div className="flex items-center gap-2 mb-2">
-                              <h4 className="font-semibold text-foreground">{result.title}</h4>
-                              <Badge className={getTypeColor(result.type)}>
-                                {getTypeLabel(result.type)}
-                              </Badge>
-                            </div>
-                            <p className="text-muted-foreground text-sm mb-2">
-                              {result.description}
-                            </p>
-                            {result.tags && result.tags.length > 0 && (
-                              <div className="flex flex-wrap gap-1">
-                                {result.tags.slice(0, 3).map((tag, index) => (
-                                  <span 
-                                    key={index} 
-                                    className="text-xs bg-muted px-2 py-1 rounded"
-                                  >
-                                    {tag}
-                                  </span>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                          <ArrowRight className="h-5 w-5 text-muted-foreground flex-shrink-0" />
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-12 text-muted-foreground">
-                  <Search className="h-12 w-12 mx-auto mb-4 text-gray-300" />
-                  <p>Geen resultaten gevonden voor "{searchQuery}"</p>
-                  <p className="text-sm mt-2">
-                    Probeer andere zoektermen
-                  </p>
-                </div>
+              {filteredResults.length > 0 && (
+                <Badge variant="outline" className="text-xs">
+                  {searchType} search
+                </Badge>
               )}
             </div>
-          ) : (
-            <div className="text-center py-12">
-              <Search className="h-16 w-16 mx-auto mb-4 text-gray-300" />
-              <h3 className="text-xl font-semibold mb-2">Begin met zoeken</h3>
-              <p className="text-muted-foreground">
-                Voer een zoekterm in om door alle content te zoeken
-              </p>
-            </div>
-          )}
-        </div>
+
+            {isSearching ? (
+              <div className="flex items-center justify-center py-12">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+              </div>
+            ) : filteredResults.length > 0 ? (
+              <div className="space-y-4">
+                {filteredResults.map((result) => (
+                  <Card 
+                    key={result.id} 
+                    className="hover:shadow-md transition-all cursor-pointer hover:scale-[1.01]"
+                    onClick={() => handleResultClick(result)}
+                  >
+                    <CardContent className="p-4">
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-2">
+                            <Badge variant="secondary" className="text-xs">
+                              {getTypeLabel(result.type)}
+                            </Badge>
+                            {result.score !== undefined && result.score < 0.3 && (
+                              <div className="flex items-center gap-1">
+                                <Star size={12} className="text-yellow-500" />
+                                <span className="text-xs text-gray-500">{t('search.bestMatch', 'Beste match')}</span>
+                              </div>
+                            )}
+                            {result.language && result.language !== i18n.language && (
+                              <Badge variant="outline" className="text-xs">
+                                {result.language.toUpperCase()}
+                              </Badge>
+                            )}
+                          </div>
+                          <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
+                            <span 
+                              dangerouslySetInnerHTML={{ 
+                                __html: result.highlights?.title || result.title 
+                              }} 
+                            />
+                          </h3>
+                          <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-2">
+                            <span 
+                              dangerouslySetInnerHTML={{ 
+                                __html: result.highlights?.description || result.description 
+                              }} 
+                            />
+                          </p>
+                          {result.tags && result.tags.length > 0 && (
+                            <div className="flex flex-wrap gap-1 mt-2">
+                              {result.tags.slice(0, 3).map((tag, index) => (
+                                <span 
+                                  key={index}
+                                  className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-gray-600 dark:text-gray-300"
+                                >
+                                  {tag}
+                                </span>
+                              ))}
+                              {result.tags.length > 3 && (
+                                <span className="text-xs text-gray-500">
+                                  +{result.tags.length - 3} more
+                                </span>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                        <ArrowRight className="h-5 w-5 text-gray-400 flex-shrink-0" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-12">
+                <Search className="h-12 w-12 text-gray-400 mx-auto mb-4" />
+                <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">
+                  {t('search.noResults', 'No results found')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                  {t('search.noResultsDescription', 'Try different keywords, enable fuzzy search, or check your spelling')}
+                </p>
+                
+                {/* Suggestions */}
+                {suggestions.length > 0 && (
+                  <div className="mt-6">
+                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      {t('search.didYouMean', 'Bedoelde je:')}
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-2">
+                      {suggestions.slice(0, 5).map((suggestion) => (
+                        <Button
+                          key={suggestion}
+                          variant="outline"
+                          size="sm"
+                          onClick={() => handleSearch(suggestion)}
+                          className="text-xs"
+                        >
+                          {suggestion}
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <Search className="h-16 w-16 text-gray-400 mx-auto mb-4" />
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+              {t('search.welcome', 'Geavanceerd Zoeken')}
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-6">
+              {t('search.welcomeDescription', 'Vind kata, technieken, geschiedenis, filosofie en meer met intelligente fuzzy search')}
+            </p>
+            
+            {/* Recent Searches */}
+            {searchHistory.length > 0 && (
+              <div className="max-w-md mx-auto">
+                <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                  {t('search.recentSearches', 'Recente zoekopdrachten:')}
+                </p>
+                <div className="flex flex-wrap justify-center gap-2">
+                  {searchHistory.slice(0, 5).map((historyItem) => (
+                    <Button
+                      key={historyItem}
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => handleSearch(historyItem)}
+                      className="text-xs"
+                    >
+                      {historyItem}
+                    </Button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

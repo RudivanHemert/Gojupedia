@@ -1,0 +1,21 @@
+{
+  "description": "Geavanceerd zoeken met fuzzy matching en suggesties",
+  "placeholder": "Zoek naar kata, technieken, geschiedenis, filosofie...",
+  "searchType": "Zoektype:",
+  "category": "Categorie:",
+  "all": "Alle",
+  "fuzzy": "Fuzzy",
+  "general": "Algemeen",
+  "precise": "Precies",
+  "results": "{{count}} resultaten voor \"{{query}}\"",
+  "noResults": "Geen resultaten gevonden",
+  "noResultsDescription": "Probeer andere zoekwoorden, schakel fuzzy zoeken in, of controleer de spelling",
+  "welcome": "Geavanceerd Zoeken",
+  "welcomeDescription": "Vind kata, technieken, geschiedenis, filosofie en meer met intelligente fuzzy search",
+  "didYouMean": "Bedoelde je:",
+  "recentSearches": "Recente zoekopdrachten:",
+  "searching": "Zoeken...",
+  "bestMatch": "Beste match",
+  "suggestions": "Suggesties",
+  "searchHistory": "Zoekgeschiedenis"
+} 
