@@ -131,18 +131,17 @@ const ErrorBoundary: React.FC<ErrorBoundaryProps> = ({ children }) => {
       setHasError(true);
     };
 
-    window.addEventListener('error', errorHandler);
-    window.addEventListener('unhandledrejection', event => {
+    const rejectionHandler = (event: PromiseRejectionEvent) => {
       console.error('Unhandled rejection caught by boundary:', event.reason);
       setHasError(true);
-    });
+    };
+
+    window.addEventListener('error', errorHandler);
+    window.addEventListener('unhandledrejection', rejectionHandler);
 
     return () => {
       window.removeEventListener('error', errorHandler);
-      window.removeEventListener('unhandledrejection', event => {
-        console.error('Unhandled rejection caught by boundary:', event.reason);
-        setHasError(true);
-      });
+      window.removeEventListener('unhandledrejection', rejectionHandler);
     };
   }, []);
 

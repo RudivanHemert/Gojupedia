@@ -5,6 +5,8 @@ import TheoryHeader from '@/components/theory/TheoryHeader';
 const KataTerminology = () => {
   const { t } = useTranslation();
 
+  const termsObject = t('terminology.sections.kata-terms-content.terms', { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
+
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
@@ -14,17 +16,19 @@ const KataTerminology = () => {
       />
       <div className="p-4">
         <div className="w-full max-w-4xl mx-auto">
-          <KataTerminologyContent />
+          <KataTerminologyContent t={t} termsObject={termsObject} />
         </div>
       </div>
     </div>
   );
 };
 
-const KataTerminologyContent = () => {
-  const { t } = useTranslation();
-  const termsObject = t('terminology.sections.kata-terms-content.terms', { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
+interface KataTerminologyContentProps {
+  t: (key: string) => string;
+  termsObject: Record<string, { name: string; japanese?: string; english: string }>;
+}
 
+const KataTerminologyContent: React.FC<KataTerminologyContentProps> = ({ t, termsObject }) => {
   return (
     <div className="space-y-6">
       <p className="text-muted-foreground">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { techniquesData, TechniqueData } from '@/data/techniquesData'; // Adjust path as needed
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, RefreshCw } from 'lucide-react';
@@ -10,18 +10,32 @@ interface TechniqueFlashcardsProps {
   title?: string;
 }
 
+// Fisher-Yates shuffle algorithm for proper array shuffling
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const shuffled = [...array]; // Create a copy to avoid mutation
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, title }) => {
   const { t } = useTranslation();
-  const [cards, setCards] = useState<TechniqueData[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [shuffleKey, setShuffleKey] = useState(0); // Key to trigger re-shuffle
 
-  useEffect(() => {
+  // Memoize the cards to avoid unnecessary re-computations
+  const cards = useMemo(() => {
     const categoryData = techniquesData.filter(item => item.category === category);
-    // Optional: Shuffle cards for variety
-    setCards(categoryData.sort(() => Math.random() - 0.5));
-    setCurrentIndex(0); // Reset index when category changes
-    setIsFlipped(false); // Reset flip state
+    return shuffleArray(categoryData);
+  }, [category, shuffleKey]); // Include shuffleKey to allow re-shuffling
+
+  // Reset when category changes
+  useEffect(() => {
+    setCurrentIndex(0);
+    setIsFlipped(false);
   }, [category]);
 
   const handleFlip = () => setIsFlipped(!isFlipped);
@@ -34,6 +48,12 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
   const handlePrev = () => {
     setIsFlipped(false); // Show front of previous card
     setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length);
+  };
+
+  const handleReshuffle = () => {
+    setShuffleKey(prev => prev + 1);
+    setCurrentIndex(0);
+    setIsFlipped(false);
   };
 
   if (cards.length === 0) {
@@ -75,6 +95,16 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
           {t('common.next')} <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
+      
+      <Button 
+        onClick={handleReshuffle} 
+        variant="outline" 
+        className="mt-2"
+        disabled={cards.length <= 1}
+      >
+        <RefreshCw className="mr-2 h-4 w-4" />
+        {t('study.reshuffle', 'Reshuffle')}
+      </Button>
     </div>
   );
 };

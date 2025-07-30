@@ -341,7 +341,7 @@ const HojoUndoModernOverview: React.FC = () => {
                         >
                           <Link to={`/hojo-undo/${item.key}/${section}`}>
                             <Icon className="h-4 w-4 mr-2 text-muted-foreground" />
-                            <span className="text-sm">{t(`equipment.${item.key}.${section}.title`)}</span>
+                            <span className="text-sm">{t(`hojoUndo.equipment.${item.key}.${section}.title`)}</span>
                           </Link>
                         </Button>
                       ))}

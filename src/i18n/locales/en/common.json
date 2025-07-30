@@ -10,6 +10,9 @@
     "delete": "Delete",
     "edit": "Edit",
     "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "flip": "Flip",
     "errorBoundary": "Something went wrong. Please refresh the page.",
     "openMenu": "Open Menu",
     "menuTitle": "Menu",
@@ -30,6 +33,12 @@
       "philosophy_name": "Philosophy", 
       "philosophy_description": "Core principles and values of Goju Ryu"
     }
+  },
+  "quiz": {
+    "quiz": "Quiz",
+    "loading": "Loading quiz...",
+    "noQuestionsForCategory": "No quiz questions found for the category:",
+    "techniqueQuiz": "Technique Quiz"
   },
   "search": {
     "title": "Search",
