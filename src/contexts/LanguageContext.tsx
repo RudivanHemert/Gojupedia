@@ -24,23 +24,31 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const isRtl = ['ar', 'he', 'fa'].includes(language);
   
   // Set language function
-  const setLanguage = useCallback(async (lang: SupportedLanguage) => {
-    console.log('Attempting to change language to:', lang);
-    console.log('Current language:', language);
-    console.log('Current localStorage value:', localStorage.getItem('i18nextLng'));
+  const changeLanguage = useCallback(async (lang: SupportedLanguage) => {
+    if (import.meta.env.DEV) {
+      console.log('Attempting to change language to:', lang);
+      console.log('Current language:', language);
+      console.log('Current localStorage value:', localStorage.getItem('i18nextLng'));
+    }
     
     if (lang === language) {
-      console.log('Language unchanged - same as current');
+      if (import.meta.env.DEV) {
+        console.log('Language unchanged - same as current');
+      }
       return;
     }
     
     setLoadingTranslations(true);
     try {
-      console.log('Changing language via i18n...');
+      if (import.meta.env.DEV) {
+        console.log('Changing language via i18n...');
+      }
       await i18n.changeLanguage(lang);
-      console.log('Language changed successfully');
-      console.log('New i18n language:', i18n.language);
-      console.log('New localStorage value:', localStorage.getItem('i18nextLng'));
+      if (import.meta.env.DEV) {
+        console.log('Language changed successfully');
+        console.log('New i18n language:', i18n.language);
+        console.log('New localStorage value:', localStorage.getItem('i18nextLng'));
+      }
       
       // Update HTML attributes
       document.documentElement.lang = lang;
@@ -61,13 +69,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     const savedLang = localStorage.getItem('i18nextLng') as SupportedLanguage;
     if (savedLang && Object.keys(supportedLanguages).includes(savedLang)) {
-      setLanguage(savedLang);
+      changeLanguage(savedLang);
     }
-  }, [setLanguage]);
+  }, [changeLanguage]);
   
   const value = useMemo(() => ({
     language,
-    setLanguage,
+    setLanguage: changeLanguage,
     t,
     isRtl,
     loadingTranslations,
