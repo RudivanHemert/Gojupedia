@@ -41,14 +41,14 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
       if (type === 'quiz') {
         const quizTypeKey = `study.quizTypes.${category}`;
         return {
-          title: t(`${quizTypeKey}.title`, t('study.quiz', 'Quiz')),
-          description: t(`${quizTypeKey}.description`, t('study.quizDesc', 'Test your knowledge.'))
+          title: t(`${quizTypeKey}.title`, 'Quiz'),
+          description: t(`${quizTypeKey}.description`, 'Test your knowledge.')
         };
       } else {
         const flashcardTypeKey = `study.flashcardTypes.${category}`;
         return {
-          title: t(`${flashcardTypeKey}.title`, t('study.flashcards', 'Flashcards')),
-          description: t(`${flashcardTypeKey}.description`, t('study.flashcardDesc', 'Practice with flashcards.'))
+          title: t(`${flashcardTypeKey}.title`, 'Flashcards'),
+          description: t(`${flashcardTypeKey}.description`, 'Practice with flashcards.')
         };
       }
     }
