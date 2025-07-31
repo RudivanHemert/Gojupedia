@@ -167,7 +167,7 @@ const TechniqueQuiz: React.FC<TechniqueQuizProps> = ({ category, title }) => {
   }, [category, i18n.language]); // Re-generate if category or language changes
 
   const handleQuizComplete = (score: number, totalPossible: number) => {
-    console.log(`Quiz Complete! [${category || 'All'}] Score: ${score}/${totalPossible}`);
+    // console.log(`Quiz Complete! [${category || 'All'}] Score: ${score}/${totalPossible}`);
   };
 
   if (quizQuestions.length === 0 && category) {

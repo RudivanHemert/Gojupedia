@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ListOrdered, Images, AlertTriangle } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -25,50 +25,43 @@ interface KataStepsProps {
 }
 
 const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, steps, showImages = false }) => {
-  // Safeguard against undefined or empty steps
-  const validSteps = Array.isArray(steps) && steps.length > 0 ? steps : [];
+  // All hooks must be called at the top level, unconditionally
+  const { theme } = useTheme();
+  const { updateProgress } = useProgress();
+  
+  // Validate and filter steps
+  const validSteps = useMemo(() => {
+    return steps?.filter(step => 
+      step && typeof step.title === 'string' && typeof step.description === 'string'
+    ) || [];
+  }, [steps]);
 
-  // Use a try-catch to handle missing ThemeProvider
-  let isDarkMode = false;
-  try {
-    const { isDarkMode: themeIsDarkMode } = useTheme();
-    isDarkMode = themeIsDarkMode;
-  } catch (error) {
-    console.warn('InteractiveKataSteps: ThemeProvider not found, defaulting to light mode');
-  }
-
-  // Use a try-catch for the progress hook as well
-  let updateProgress = (id: string, type: string, progress: number) => {};
-  try {
-    const { updateProgress: progressUpdate } = useProgress();
-    updateProgress = progressUpdate;
-  } catch (error) {
-    console.warn('InteractiveKataSteps: ProgressProvider not found, progress will not be saved');
-  }
-
+  const totalSteps = validSteps.length;
+  
   const [currentStep, setCurrentStep] = useState(0);
   const [progressPercent, setProgressPercent] = useState(0);
   const [error, setError] = useState<string | null>(null);
   
-  const totalSteps = validSteps.length;
+  // Early return after all hooks are called
+  if (!steps || totalSteps === 0) {
+    return (
+      <div className={`p-6 text-center`}>
+        <div className="text-muted-foreground">
+          <p>No kata steps available.</p>
+        </div>
+      </div>
+    );
+  }
   
-  // Add logging to debug
+  // Component initialization and validation
   useEffect(() => {
-    console.log('InteractiveKataSteps: Component mounted');
-    console.log('InteractiveKataSteps: Received steps:', steps?.length || 0);
-    console.log('InteractiveKataSteps: Valid steps count:', validSteps.length);
-    console.log('InteractiveKataSteps: kataId:', kataId);
-    console.log('InteractiveKataSteps: kataName:', kataName);
-    
     try {
-      if (validSteps.length > 0) {
-        console.log('InteractiveKataSteps: First step:', JSON.stringify(validSteps[0]));
-      } else {
+      if (validSteps.length === 0) {
         console.error('InteractiveKataSteps: No valid steps provided');
         setError('No steps data available for this kata.');
       }
     } catch (err) {
-      console.error('InteractiveKataSteps: Error logging steps:', err);
+      console.error('InteractiveKataSteps: Error processing steps:', err);
       setError(`Error processing steps data: ${err instanceof Error ? err.message : 'Unknown error'}`);
     }
   }, [steps, validSteps, kataId, kataName]);
@@ -76,7 +69,6 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
   // Reset currentStep if it's out of bounds
   useEffect(() => {
     if (currentStep >= totalSteps && totalSteps > 0) {
-      console.log('InteractiveKataSteps: Resetting currentStep because it was out of bounds');
       setCurrentStep(0);
     }
   }, [currentStep, totalSteps]);
@@ -194,7 +186,7 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
   }
   
   return (
-    <div className={`relative bg-white ${isDarkMode ? 'dark:bg-gray-900 dark:text-white' : ''}`}>
+    <div className={`relative bg-white ${theme === 'dark' ? 'dark:bg-gray-900 dark:text-white' : ''}`}>
       {/* Progress bar at the top */}
       <div className="sticky top-0 w-full bg-white shadow-md z-10 px-4 pt-2 pb-1 flex flex-col gap-1 dark:bg-gray-900">
         <div className="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">

@@ -12,15 +12,30 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setTheme] = useState<Theme>(() => {
-    const savedTheme = localStorage.getItem('theme') as Theme;
-    return savedTheme || 'system';
+    if (typeof window === 'undefined') {
+      return 'system'; // Default for SSR
+    }
+    
+    try {
+      const savedTheme = localStorage.getItem('theme') as Theme;
+      return savedTheme || 'system';
+    } catch (error) {
+      console.warn('Failed to read theme from localStorage:', error);
+      return 'system';
+    }
   });
   
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     // Save theme preference to localStorage
-    localStorage.setItem('theme', theme);
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem('theme', theme);
+      } catch (error) {
+        console.warn('Failed to save theme to localStorage:', error);
+      }
+    }
     
     // Apply theme to document
     const root = window.document.documentElement;

@@ -37,7 +37,7 @@ export function useProgress() {
       const storedProgress = localStorage.getItem(PROGRESS_STORAGE_KEY);
       return storedProgress ? JSON.parse(storedProgress) : {};
     } catch (error) {
-      console.error('Failed to parse progress data from localStorage:', error);
+      console.warn('Failed to parse progress data from localStorage:', error);
       return {};
     }
   });
@@ -49,7 +49,7 @@ export function useProgress() {
     try {
       localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progressData));
     } catch (error) {
-      console.error('Failed to save progress data to localStorage:', error);
+      console.warn('Failed to save progress data to localStorage:', error);
     }
   }, [progressData]);
 

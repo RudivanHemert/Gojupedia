@@ -122,36 +122,48 @@ interface ErrorBoundaryProps {
   children: ReactNode;
 }
 
-const ErrorBoundary: React.FC<ErrorBoundaryProps> = ({ children }) => {
-  const [hasError, setHasError] = useState(false);
+interface ErrorBoundaryState {
+  hasError: boolean;
+  error?: Error;
+}
 
-  useEffect(() => {
-    const errorHandler = (error: ErrorEvent) => {
-      console.error('Error caught by boundary:', error.error, error.message);
-      setHasError(true);
-    };
-
-    window.addEventListener('error', errorHandler);
-    window.addEventListener('unhandledrejection', event => {
-      console.error('Unhandled rejection caught by boundary:', event.reason);
-      setHasError(true);
-    });
-
-    return () => {
-      window.removeEventListener('error', errorHandler);
-      window.removeEventListener('unhandledrejection', event => {
-        console.error('Unhandled rejection caught by boundary:', event.reason);
-        setHasError(true);
-      });
-    };
-  }, []);
-
-  if (hasError) {
-    return <div className="p-4 text-center">Something went wrong. Please refresh the page.</div>;
+class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
+  constructor(props: ErrorBoundaryProps) {
+    super(props);
+    this.state = { hasError: false };
   }
 
-  return <>{children}</>;
-};
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
+    console.error('Error caught by boundary:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen flex items-center justify-center p-4">
+          <div className="text-center max-w-md">
+            <h1 className="text-2xl font-bold mb-4">Something went wrong</h1>
+            <p className="text-muted-foreground mb-4">
+              We apologize for the inconvenience. Please refresh the page to try again.
+            </p>
+            <button 
+              onClick={() => window.location.reload()} 
+              className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
+            >
+              Refresh Page
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
+}
 
 const AppContent = React.memo(() => {
   const location = useLocation();

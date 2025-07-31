@@ -8,6 +8,14 @@ import { sanitizeInput, validateSearchQuery } from './security';
 import { createSearchIndex, SearchResult } from '@/data/searchIndex';
 import i18n from '@/i18n';
 
+// Define proper types for Fuse.js match results
+interface FuseMatch {
+  indices: ReadonlyArray<readonly [number, number]>;
+  value?: string;
+  key?: string;
+  arrayIndex?: number;
+}
+
 // Enhanced search result with score and highlights
 export interface FuzzySearchResult extends SearchResult {
   score: number;
@@ -16,7 +24,7 @@ export interface FuzzySearchResult extends SearchResult {
     description?: string;
     tags?: string[];
   };
-  matches?: any[];
+  matches?: FuseMatch[];
   alternativeLanguages?: {
     [key: string]: {
       title: string;
@@ -25,9 +33,25 @@ export interface FuzzySearchResult extends SearchResult {
   };
 }
 
+// Define Fuse options interface
+interface FuseOptions {
+  includeScore: boolean;
+  includeMatches: boolean;
+  shouldSort: boolean;
+  threshold: number;
+  location: number;
+  distance: number;
+  maxPatternLength: number;
+  minMatchCharLength: number;
+  keys: Array<{
+    name: string;
+    weight: number;
+  }>;
+}
+
 // Search configuration for different content types
-const getFuseOptions = (searchType: 'general' | 'precise' | 'fuzzy' = 'general'): any => {
-  const baseOptions: any = {
+const getFuseOptions = (searchType: 'general' | 'precise' | 'fuzzy' = 'general'): FuseOptions => {
+  const baseOptions: FuseOptions = {
     includeScore: true,
     includeMatches: true,
     shouldSort: true,
@@ -230,7 +254,7 @@ class MultilingualFuzzySearch {
     }));
   }
 
-  private generateHighlights(matches: any[]): FuzzySearchResult['highlights'] {
+  private generateHighlights(matches: FuseMatch[]): FuzzySearchResult['highlights'] {
     const highlights: FuzzySearchResult['highlights'] = {};
 
     matches.forEach(match => {

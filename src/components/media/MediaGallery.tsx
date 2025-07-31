@@ -67,7 +67,7 @@ const MediaGallery: React.FC<MediaGalleryProps> = ({
     setDragPosition({ x: 0, y: 0 });
   };
   
-  const handleDragEnd = (info: any) => {
+  const handleDragEnd = (info: { offset: { x: number; y: number }; velocity: { x: number; y: number } }) => {
     // If the drag was significant, change to the next/previous item
     if (Math.abs(info.offset.x) > 100) {
       if (info.offset.x > 0) {

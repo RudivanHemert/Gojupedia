@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
@@ -89,7 +89,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     
     setQuestions(processedQuestions);
     resetQuiz();
-  }, [initialQuestions, shuffleQuestions, shuffleOptions]);
+  }, [initialQuestions, shuffleQuestions, shuffleOptions, resetQuiz]);
   
   // Timer
   useEffect(() => {
@@ -105,9 +105,42 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     }, 1000);
     
     return () => clearInterval(timer);
-  }, [remainingTime, quizCompleted, timeLimit]);
+  }, [remainingTime, quizCompleted, timeLimit, finishQuiz]);
+
+  // Auto-finish quiz when all questions are answered correctly
+  useEffect(() => {
+    if (currentQuestionIndex >= questions.length && !quizCompleted) {
+      finishQuiz();
+    }
+  }, [currentQuestionIndex, questions.length, quizCompleted, finishQuiz]);
+
+  // Auto-advance to next question after correct answer (with delay)
+  useEffect(() => {
+    if (selectedOptions.length === 1 && 
+        questions[currentQuestionIndex].options?.find(o => o.id === selectedOptions[0])?.isCorrect && 
+        currentQuestionIndex < questions.length - 1) {
+      const timer = setTimeout(() => {
+        resetQuiz();
+        setCurrentQuestionIndex(prev => prev + 1);
+        setSelectedOptions([]);
+        setShowAnswer(false);
+      }, 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [selectedOptions, currentQuestionIndex, questions.length, resetQuiz]);
   
-  const resetQuiz = () => {
+  const finishQuiz = useCallback(() => {
+    setQuizCompleted(true);
+    onComplete?.(score, questions.reduce((total, q) => total + (q.points || 1), 0));
+    
+    // Trigger confetti if score is 70% or higher
+    const totalPossible = questions.reduce((total, q) => total + (q.points || 1), 0);
+    if (score >= totalPossible * 0.7) {
+      triggerConfetti();
+    }
+  }, [score, questions, onComplete]);
+
+  const resetQuiz = useCallback(() => {
     setCurrentQuestionIndex(0);
     setSelectedOptions([]);
     setTextInput('');
@@ -115,7 +148,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     setQuizCompleted(false);
     setShowAnswer(false);
     setRemainingTime(timeLimit);
-  };
+  }, [timeLimit]);
   
   const currentQuestion = questions[currentQuestionIndex];
   
@@ -133,11 +166,12 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
         isCorrect = textInput.trim().toLowerCase() === question.correctAnswer?.toLowerCase();
         break;
         
-      case 'multiple-select':
+      case 'multiple-select': {
         const correctOptions = question.options?.filter(o => o.isCorrect).map(o => o.id) || [];
         isCorrect = selectedOptions.length === correctOptions.length &&
           selectedOptions.every(id => correctOptions.includes(id));
         break;
+      }
         
       case 'true-false':
         isCorrect = (selectedOptions[0] === 'true' && 
@@ -163,17 +197,6 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
       setCurrentQuestionIndex(prev => prev + 1);
     } else {
       finishQuiz();
-    }
-  };
-  
-  const finishQuiz = () => {
-    setQuizCompleted(true);
-    onComplete?.(score, questions.reduce((total, q) => total + (q.points || 1), 0));
-    
-    // Trigger confetti if score is 70% or higher
-    const totalPossible = questions.reduce((total, q) => total + (q.points || 1), 0);
-    if (score >= totalPossible * 0.7) {
-      triggerConfetti();
     }
   };
   
