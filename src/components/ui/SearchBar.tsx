@@ -6,19 +6,14 @@ import { sanitizeInput, validateSearchQuery, searchRateLimiter } from '@/utils/s
 import useFuzzySearch from '@/hooks/useFuzzySearch';
 
 interface SearchBarProps {
-  onSearch: (term: string) => void;
   placeholder?: string;
-  value?: string;
-  onChange?: (value: string) => void;
-  autoFocus?: boolean;
-  fullWidth?: boolean;
+  onSearch?: (query: string) => void;
+  onResultSelect?: (result: SearchResult) => void;
   className?: string;
-  showClear?: boolean;
-  onClear?: () => void;
-  isLoading?: boolean;
-  showSuggestions?: boolean;
   searchType?: 'general' | 'precise' | 'fuzzy';
-  onResultSelect?: (result: any) => void;
+  limit?: number;
+  enableSuggestions?: boolean;
+  showRecentSearches?: boolean;
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({
