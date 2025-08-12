@@ -269,7 +269,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     }
     
     return (
-      <Card className="w-full max-w-2xl mx-auto">
+      <Card className="w-full">
         <CardContent className="pt-6 pb-4 px-6">
           <div className="text-center space-y-6">
             <Award className="w-16 h-16 mx-auto text-primary" />
@@ -306,7 +306,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
   }
   
   return (
-    <Card className="w-full max-w-2xl mx-auto">
+    <Card className="w-full">
       <CardContent className="pt-6 px-6">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">{title}</h2>

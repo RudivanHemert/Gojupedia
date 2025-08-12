@@ -246,6 +246,7 @@ const enTranslations = {
     peichurin: enPeichurin
   },
   kataTheoryDetailPage: enKata.kataTheoryDetailPage,
+  kataDetailPage: enKata.kataDetailPage,
   ...enBunkai,
   ...enPhilosophy,
   ...enVitalPoints,
@@ -284,6 +285,7 @@ const deTranslations = {
     peichurin: dePeichurin
   },
   kataTheoryDetailPage: deKata.kataTheoryDetailPage,
+  kataDetailPage: deKata.kataDetailPage,
   ...deBunkai,
   ...dePhilosophy,
   ...deVitalPoints,
@@ -322,6 +324,7 @@ const esTranslations = {
     peichurin: esPeichurin
   },
   kataTheoryDetailPage: esKata.kataTheoryDetailPage,
+  kataDetailPage: esKata.kataDetailPage,
   ...esBunkai,
   ...esPhilosophy,
   ...esVitalPoints,
@@ -360,6 +363,7 @@ const frTranslations = {
     peichurin: frPeichurin
   },
   kataTheoryDetailPage: frKata.kataTheoryDetailPage,
+  kataDetailPage: frKata.kataDetailPage,
   ...frBunkai,
   ...frPhilosophy,
   ...frVitalPoints,
@@ -398,6 +402,7 @@ const itTranslations = {
     peichurin: itPeichurin
   },
   kataTheoryDetailPage: itKata.kataTheoryDetailPage,
+  kataDetailPage: itKata.kataDetailPage,
   ...itBunkai,
   ...itPhilosophy,
   ...itVitalPoints,
@@ -436,6 +441,7 @@ const nlTranslations = {
     peichurin: nlPeichurin
   },
   kataTheoryDetailPage: nlKata.kataTheoryDetailPage,
+  kataDetailPage: nlKata.kataDetailPage,
   ...nlBunkai,
   ...nlPhilosophy,
   ...nlVitalPoints,

@@ -22,7 +22,7 @@ const HistoryPage = () => {
         title={t('history.title')}
         description={t('history.description')}
       />
-      <div className="p-4 max-w-2xl mx-auto">
+      <div className="p-4 w-full">
         <ul className="space-y-3">
           {historySections.map(section => (
             <li key={section.id}>

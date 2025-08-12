@@ -24,7 +24,7 @@ const NavigationTable = ({ onNavigate }: NavigationTableProps) => {
       transition={{ duration: 0.5, delay: 0.2 }}
       className="mb-8 bg-white rounded-lg shadow-md overflow-hidden"
     >
-      <h2 className="text-lg font-serif font-semibold bg-red-600 text-white p-3">
+      <h2 className="text-lg font-semibold bg-red-600 text-white p-3">
         Navigation
       </h2>
       <div className="divide-y divide-gray-200">

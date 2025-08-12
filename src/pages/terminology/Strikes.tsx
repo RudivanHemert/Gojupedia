@@ -24,7 +24,7 @@ const Strikes = () => {
         backUrl="/terminology"
       />
       <div className="p-4">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full">
           <StrikesList termsObject={termsObject} />
         </div>
       </div>

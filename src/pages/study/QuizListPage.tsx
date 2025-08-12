@@ -1,21 +1,21 @@
 import React from 'react';
 // Remove MobileLayout import if no longer needed directly
 // import MobileLayout from '@/components/layout/MobileLayout'; 
-import { studies } from '@/data';
+import { buildStudies } from '@/data';
 import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const QuizListPage = () => {
-  const { t } = useTranslation();
-  // Filter for quizzes
-  const quizStudies = studies.filter(study => study.type === 'quiz');
+  const { t, i18n } = useTranslation();
+  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
+  const quizStudies = allStudies.filter(study => study.type === 'quiz');
 
   return (
     <>
       <TheoryHeader 
-        title={t('study.quizzes.title')}
-        description={t('study.quizzes.description')}
+        title={t('study.quizzes.title', t('title', 'Quizzes'))}
+        description={t('study.quizzes.description', t('description', 'Test your knowledge on various topics'))}
         backUrl="/study"
       />
 

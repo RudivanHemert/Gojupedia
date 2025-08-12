@@ -19,6 +19,7 @@ interface SearchBarProps {
   showSuggestions?: boolean;
   searchType?: 'general' | 'precise' | 'fuzzy';
   onResultSelect?: (result: any) => void;
+  showHistory?: boolean;
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({
@@ -34,7 +35,8 @@ const SearchBar: React.FC<SearchBarProps> = ({
   isLoading = false,
   showSuggestions = true,
   searchType = 'general',
-  onResultSelect
+  onResultSelect,
+  showHistory = false
 }) => {
   const { t } = useLanguage();
   const [localValue, setLocalValue] = useState(value || '');
@@ -115,6 +117,12 @@ const SearchBar: React.FC<SearchBarProps> = ({
     }
     
     onSearch(localValue);
+    // Close dropdown and blur to hide mobile keyboard
+    setShowDropdown(false);
+    setSelectedIndex(-1);
+    if (inputRef.current) {
+      inputRef.current.blur();
+    }
   };
 
   const handleClear = () => {
@@ -140,7 +148,8 @@ const SearchBar: React.FC<SearchBarProps> = ({
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (!showDropdown) return;
 
-    const totalItems = results.length + suggestions.length + searchHistory.length;
+    const historyCount = showHistory ? searchHistory.length : 0;
+    const totalItems = results.length + suggestions.length + historyCount;
 
     switch (e.key) {
       case 'ArrowDown':
@@ -174,6 +183,10 @@ const SearchBar: React.FC<SearchBarProps> = ({
     if (index < resultCount) {
       // Selected a search result
       const result = results[index];
+      // Blur before navigation/search to close mobile keyboard
+      if (inputRef.current) {
+        inputRef.current.blur();
+      }
       if (onResultSelect) {
         onResultSelect(result);
       } else {
@@ -184,12 +197,22 @@ const SearchBar: React.FC<SearchBarProps> = ({
       // Selected a suggestion
       const suggestion = suggestions[index - resultCount];
       setLocalValue(suggestion);
+      // Blur as we will likely navigate/search soon
+      if (inputRef.current) {
+        inputRef.current.blur();
+      }
       fuzzySearch(suggestion);
-    } else {
+    } else if (showHistory) {
       // Selected from search history
       const historyItem = searchHistory[index - resultCount - suggestionCount];
       setLocalValue(historyItem);
+      if (inputRef.current) {
+        inputRef.current.blur();
+      }
       fuzzySearch(historyItem);
+    } else {
+      // No-op when history is hidden
+      return;
     }
     
     setShowDropdown(false);
@@ -216,7 +239,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
   // Handle input focus
   const handleFocus = () => {
-    if (localValue.trim() && (results.length > 0 || suggestions.length > 0 || searchHistory.length > 0)) {
+    if (localValue.trim() && (results.length > 0 || suggestions.length > 0 || (showHistory && searchHistory.length > 0))) {
       setShowDropdown(true);
     }
   };
@@ -277,7 +300,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
       {/* Search Dropdown */}
       <AnimatePresence>
-        {showDropdown && showSuggestions && (results.length > 0 || suggestions.length > 0 || searchHistory.length > 0) && (
+        {showDropdown && showSuggestions && (results.length > 0 || suggestions.length > 0 || (showHistory && searchHistory.length > 0)) && (
           <motion.div
             ref={dropdownRef}
             initial={{ opacity: 0, y: -10 }}
@@ -343,7 +366,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
             )}
 
             {/* Search History */}
-            {searchHistory.length > 0 && (
+            {showHistory && searchHistory.length > 0 && (
               <div>
                 <div className="px-3 py-2 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
                   Recente zoekopdrachten

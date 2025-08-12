@@ -2,15 +2,15 @@
 import React from 'react';
 // Remove MobileLayout import if no longer needed directly
 // import MobileLayout from '@/components/layout/MobileLayout';
-import { studies } from '@/data';
+import { buildStudies } from '@/data';
 import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const FlashcardListPage = () => {
-  const { t } = useTranslation();
-  // Filter for flashcards
-  const flashcardStudies = studies.filter(study => study.type === 'flashcard');
+  const { t, i18n } = useTranslation();
+  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
+  const flashcardStudies = allStudies.filter(study => study.type === 'flashcard');
 
   return (
     // Remove MobileLayout wrapper

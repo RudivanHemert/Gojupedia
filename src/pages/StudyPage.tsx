@@ -25,17 +25,17 @@ const StudyPage = () => {
   const sections = [
     {
       id: 'quiz',
-      name: t('study.quizzes'),
-      description: t('study.quizDesc'),
+      name: t('study.quizzes.title', t('study.tests', 'Quizzes')),
+      description: t('study.quizzes.description', t('study.quizDesc', 'Test your knowledge on various topics.')),
       icon: <Brain className="h-8 w-8 text-blue-500 dark:text-blue-400" />,
-      path: '/study/quiz',
+      path: '/study/quizzes',
       color: 'bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-blue-800',
       type: 'quiz'
     },
     {
       id: 'flashcards',
-      name: t('study.flashcards'),
-      description: t('study.flashcardDesc'),
+      name: t('study.flashcards.title', 'Flashcards'),
+      description: t('study.flashcards.description', t('study.flashcardDesc', 'Review terms and concepts with flashcards.')),
       icon: <BookText className="h-8 w-8 text-green-500 dark:text-green-400" />,
       path: '/study/flashcards',
       color: 'bg-green-50 dark:bg-green-950/20 border-green-200 dark:border-green-800',
@@ -43,22 +43,14 @@ const StudyPage = () => {
     },
     {
       id: 'matching',
-      name: t('study.matching'),
-      description: t('study.matchingDesc'),
+      name: t('study.matching.title', 'Matching'),
+      description: t('study.matching.description', t('study.matchingDesc', 'Match terms and concepts with each other.')),
       icon: <ListCheck className="h-8 w-8 text-purple-500 dark:text-purple-400" />,
       path: '/study/matching',
       color: 'bg-purple-50 dark:bg-purple-950/20 border-purple-200 dark:border-purple-800',
       type: 'matching'
     },
-    {
-      id: 'graduations',
-      name: t('graduations.title'),
-      description: t('graduations.description'),
-      icon: <Award className="h-8 w-8 text-orange-500 dark:text-orange-400" />,
-      path: '/graduations',
-      color: 'bg-orange-50 dark:bg-orange-950/20 border-orange-200 dark:border-orange-800',
-      type: 'graduation'
-    }
+    
   ];
 
   const containerVariants = {
@@ -85,12 +77,12 @@ const StudyPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title={t('study.pageHeaderTitle')}
-        description={t('study.pageHeaderDescription')}
+        title={t('study.pageHeaderTitle', t('title', 'Study'))}
+        description={t('study.pageHeaderDescription', t('description', 'Test your knowledge and practice techniques'))}
         backUrl="/"
       />
       
-      <div className="p-4 max-w-4xl mx-auto">
+      <div className="p-4 w-full">
         <motion.div
           variants={containerVariants}
           initial="hidden"

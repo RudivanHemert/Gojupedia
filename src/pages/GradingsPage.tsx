@@ -550,7 +550,7 @@ const GradingsPage = () => {
               <Card>
                 <CardHeader className={`${level.color} ${level.textColor || 'text-foreground'} relative overflow-hidden border-b ${level.borderColor}`}>
                   {renderStripes(level.stripes)}
-                  <CardTitle className="text-xl font-serif text-center relative z-10">{gradingData.title}</CardTitle>
+                  <CardTitle className="text-xl text-center relative z-10">{gradingData.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <div className="mb-6">

@@ -1,4 +1,125 @@
 {
+  "study": {
+    "loading": "Studie-inhoud laden...",
+    "testTypes": {
+      "quiz": "Quiz",
+      "flashcards": "Flashcards",
+      "matching": "Matching"
+    },
+    "pageHeaderTitle": "Studie",
+    "pageHeaderDescription": "Test je kennis en oefen technieken",
+    "quizzes": {
+      "title": "Quizzen",
+      "description": "Test je kennis over diverse onderwerpen"
+    },
+    "quizDesc": "Test je kennis over diverse onderwerpen.",
+    "flashcards": {
+      "title": "Flashcards",
+      "description": "Beoordeel termen en concepten met flashcards"
+    },
+    "flashcardDesc": "Beoordeel termen en concepten met flashcards.",
+    "matching": {
+      "title": "Matching",
+      "description": "Koppel termen en concepten aan elkaar"
+    },
+    "matchingDesc": "Koppel termen en concepten aan elkaar.",
+    "noQuizzes": "Er zijn momenteel geen quizzen beschikbaar.",
+    "noFlashcards": "Er zijn momenteel geen flashcards beschikbaar.",
+    "noMatching": "Er zijn momenteel geen matching-oefeningen beschikbaar.",
+    "questions": "vragen",
+    "cards": "kaarten",
+    "category": "Categorie",
+    "startQuiz": "Start Quiz",
+    "quiz": "Quiz",
+    "flashcardsLabel": "Flashcards",
+    "matchingLabel": "Matching",
+    "categories": {
+      "kata": "Kata",
+      "philosophy": "Filosofie",
+      "techniques": "Technieken",
+      "kumite": "Kumite",
+      "history": "Geschiedenis",
+      "hojo-undo": "Hojo Undo",
+      "newaza": "Newaza",
+      "terminology": "Terminologie",
+      "terminologyNav": "Terminologie"
+    },
+    "tips": {
+      "title": "Studietips",
+      "regular": "Oefen regelmatig voor betere resultaten",
+      "review": "Herhaal moeilijke onderdelen",
+      "progress": "Volg je voortgang"
+    },
+    "stats": {
+      "progress": "Voortgang",
+      "time": "Studietijd",
+      "goals": "Doelen"
+    },
+    "tapToFlip": "Tik om te draaien",
+    "question": "Vraag {{index}} van {{total}}",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "quizTypes": {
+      "stances": { "title": "Standen Quiz", "description": "Test je kennis van karate standen en posities." },
+      "kicks": { "title": "Trappen Quiz", "description": "Test je kennis van karate traptechnieken." },
+      "punches": { "title": "Stoten Quiz", "description": "Test je kennis van karate stoottechnieken." },
+      "blocks": { "title": "Blokkeringen Quiz", "description": "Test je kennis van karate blokkeringstechnieken." },
+      "common": { "title": "Algemene Termen Quiz", "description": "Test je kennis van algemene terminologie." },
+      "strikes": { "title": "Slagtechnieken Quiz", "description": "Test je kennis van slag- en stoottechnieken." },
+      "ranks": { "title": "Rangen Quiz", "description": "Test je kennis van rangen en graden." },
+      "kata-specific": { "title": "Kata-specifieke Termen Quiz", "description": "Test je kennis van kata-specifieke terminologie." },
+      "body-parts": { "title": "Lichaamsdelen Quiz", "description": "Test je kennis van Japanse lichaamsdelen gebruikt in karate." },
+      "commands": { "title": "Commando's Quiz", "description": "Test je kennis van Japanse commando's gebruikt in karate." },
+      "numbers": { "title": "Nummers Quiz", "description": "Test je kennis van Japanse nummers gebruikt in karate." },
+      "weapons": { "title": "Wapens Quiz", "description": "Test je kennis van karate wapens en hulpmiddelen." },
+      "concepts": { "title": "Concepten Quiz", "description": "Test je kennis van karate concepten en principes." },
+      "dojo": { "title": "Dojo Quiz", "description": "Test je kennis van dojo organisatie en structuur." },
+      "kata": { "title": "Kata Quiz", "description": "Test je kennis van Goju Ryu kata namen en betekenissen." },
+      "philosophy": { "title": "Filosofie Quiz", "description": "Test je kennis van Goju Ryu filosofische concepten en principes." },
+      "kumite": { "title": "Kumite Quiz", "description": "Test je kennis van kumite." },
+      "history-origins": {
+        "title": "Geschiedenis & Oorsprong Quiz",
+        "description": "Belangrijke personen, plaatsen en oorsprong van Goju Ryu."
+      },
+      "hojo-undo-basics": {
+        "title": "Hojo Undo Basis Quiz",
+        "description": "Apparaatnamen en trainingsfocus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      },
+      "newaza-intro": {
+        "title": "Newaza Introductie Quiz",
+        "description": "Fundamentele grondposities en controleconcepten."
+      },
+      "kumite-rules": {
+        "title": "Kumite Regels Quiz",
+        "description": "Puntentelling, straffen en scheidsrechtercommando's."
+      }
+    },
+    "flashcardTypes": {
+      "stances": { "title": "Standen", "description": "Leer alle karate standen en posities." },
+      "kicks": { "title": "Trappen", "description": "Leer alle karate traptechnieken." },
+      "punches": { "title": "Stoten", "description": "Leer alle karate stoottechnieken." },
+      "blocks": { "title": "Blokkeringen", "description": "Leer alle karate blokkeringstechnieken." },
+      "common": { "title": "Algemene Termen Flashcards", "description": "Oefen algemene terminologie met flashcards." },
+      "strikes": { "title": "Slagen", "description": "Leer slagtechnieken en toepassingen." },
+      "kata": { "title": "Kata Flashcards", "description": "Leer alle Goju Ryu kata namen en betekenissen." },
+      "philosophy": { "title": "Filosofie Flashcards", "description": "Leer Goju Ryu filosofische concepten en principes." },
+      "numbers": { "title": "Nummers Flashcards", "description": "Leer Japanse nummers gebruikt in karate." },
+      "general": { "title": "Algemene Termen Flashcards", "description": "Leer essentiële karate terminologie." },
+      "ranks": { "title": "Rangen", "description": "Oefen rangen en graden." },
+      "kata-specific": { "title": "Kata-specifieke termen", "description": "Oefen termen die specifiek zijn voor kata." },
+      "kumite": { "title": "Kumite", "description": "Oefen kumite-terminologie." }
+    },
+    "matchingTypes": {
+      "kata": { "title": "Kata Matching", "description": "Match kata namen met hun betekenissen en kenmerken." },
+      "terminology": {
+        "title": "Terminologie Matching",
+        "description": "Koppel Japanse termen aan hun Nederlandse betekenis.",
+        "q1": "Koppel: Rei, Kime, Zanshin",
+        "a1": "Rei-Respect, Kime-Focus, Zanshin-Blijvende geest",
+        "e1": "Fundamentele dojo-concepten gebruikt door de training heen."
+      }
+    }
+  },
   "title": "Studie",
   "description": "Oefen en test je kennis van Goju Ryu karate",
   "startQuiz": "Start Quiz",
@@ -378,7 +499,26 @@
       "description": "Oefen zelfbeheersing met flashcards."
     }
   },
-  "questions": {
+  "loading": "Studie-inhoud laden...",
+  "completed": "Studie voltooid!",
+  "tapToFlip": "Tik om te draaien",
+  "notFound": {
+    "title": "Studie niet gevonden",
+    "description": "Het gevraagde studiemateriaal kon niet worden gevonden."
+  },
+  "question": "Vraag {{index}} van {{total}}",
+  "previous": "Vorige",
+  "next": "Volgende",
+  "finish": "Afronden",
+  "correct": "Goed!",
+  "incorrect": "Fout!",
+  "explanation": "Uitleg",
+  "showExplanation": "Toon uitleg",
+  "hideExplanation": "Verberg uitleg",
+  "studyAgain": "Opnieuw studeren",
+  "backToStudySection": "Terug naar studiedeel",
+  "yourScore": "Je score: {{score}} van {{total}}",
+  "questionBank": {
     "kata-basics-1": {
       "question": "Wat betekent 'kata' in het Japans?",
       "option1": "Vorm",
@@ -483,6 +623,13 @@
     "kata": {
       "title": "Kata Matching",
       "description": "Match kata namen met hun betekenissen en kenmerken."
+    },
+    "terminology": {
+      "title": "Terminologie Matching",
+      "description": "Koppel Japanse termen aan hun Nederlandse betekenis.",
+      "q1": "Koppel: Rei, Kime, Zanshin",
+      "a1": "Rei-Respect, Kime-Focus, Zanshin-Blijvende geest",
+      "e1": "Fundamentele dojo-concepten gebruikt door de training heen."
     }
   },
   "studyTerminology": {

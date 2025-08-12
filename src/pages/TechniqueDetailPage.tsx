@@ -52,7 +52,7 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-3xl font-bold mb-1">{technique.name}</h1>
-          <p className="text-lg text-muted-foreground font-serif mb-1">{technique.japaneseName}</p>
+          <p className="text-lg text-muted-foreground mb-1">{technique.japaneseName}</p>
           <p className="text-md text-muted-foreground italic mb-4">({technique.englishName})</p>
           <p className="text-sm text-primary font-medium">Category: {categoryTitle}</p>
         </motion.div>
@@ -64,7 +64,7 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="bg-card p-4 rounded-lg shadow-sm border border-muted"
         >
-          <h2 className="text-xl font-serif font-semibold mb-3">Description</h2>
+          <h2 className="text-xl font-semibold mb-3">Description</h2>
           {technique.description ? (
             <p className="text-secondary-foreground leading-relaxed">{technique.description}</p>
           ) : (
@@ -81,7 +81,7 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="bg-card p-4 rounded-lg shadow-sm border border-muted"
         >
-          <h2 className="text-xl font-serif font-semibold mb-3">Execution & Key Points</h2>
+          <h2 className="text-xl font-semibold mb-3">Execution & Key Points</h2>
           {technique.execution && technique.execution.length > 0 ? (
             <ul className="list-disc pl-5 space-y-2">
               {technique.execution.map((step, index) => (
@@ -102,7 +102,7 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="bg-card p-4 rounded-lg shadow-sm border border-muted"
         >
-          <h2 className="text-xl font-serif font-semibold mb-3 flex items-center">
+          <h2 className="text-xl font-semibold mb-3 flex items-center">
             <ImageIcon className="mr-2 h-5 w-5" /> Images
           </h2>
           <p className="text-muted-foreground italic">
@@ -118,7 +118,7 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="bg-card p-4 rounded-lg shadow-sm border border-muted"
         >
-          <h2 className="text-xl font-serif font-semibold mb-3 flex items-center">
+          <h2 className="text-xl font-semibold mb-3 flex items-center">
             <VideoIcon className="mr-2 h-5 w-5" /> Video Demonstration
           </h2>
           {technique.youtubeVideoId ? (

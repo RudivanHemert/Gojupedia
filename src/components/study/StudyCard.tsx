@@ -41,14 +41,14 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
       if (type === 'quiz') {
         const quizTypeKey = `study.quizTypes.${category}`;
         return {
-          title: t(`${quizTypeKey}.title`, t('study.quiz', 'Quiz')),
-          description: t(`${quizTypeKey}.description`, t('study.quizDesc', 'Test your knowledge.'))
+          title: t(`${quizTypeKey}.title`, t(`quizTypes.${category}.title`, 'Quiz')),
+          description: t(`${quizTypeKey}.description`, t(`quizTypes.${category}.description`, 'Test your knowledge.'))
         };
       } else {
         const flashcardTypeKey = `study.flashcardTypes.${category}`;
         return {
-          title: t(`${flashcardTypeKey}.title`, t('study.flashcards', 'Flashcards')),
-          description: t(`${flashcardTypeKey}.description`, t('study.flashcardDesc', 'Practice with flashcards.'))
+          title: t(`${flashcardTypeKey}.title`, t(`flashcardTypes.${category}.title`, 'Flashcards')),
+          description: t(`${flashcardTypeKey}.description`, t(`flashcardTypes.${category}.description`, 'Practice with flashcards.'))
         };
       }
     }
@@ -60,20 +60,33 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
   };
 
   const translatedContent = getTranslatedContent(study);
+  const questionsLabel = study.type === 'quiz'
+    ? t('study.questions')
+    : t('study.cards');
+  const categoryLabel = t(`study.categories.${study.category}`);
+  const typeLabel = study.type === 'quiz'
+    ? t('study.testTypes.quiz')
+    : study.type === 'flashcard'
+      ? t('study.testTypes.flashcards')
+      : t('study.testTypes.matching');
+  const difficultyLabel =
+    study.difficulty === 'beginner' ? t('study.difficulty.beginner') :
+    study.difficulty === 'intermediate' ? t('study.difficulty.intermediate') :
+    study.difficulty === 'advanced' ? t('study.difficulty.advanced') : study.difficulty;
 
   return (
     <Card key={study.id} className="border border-border hover:border-karate transition-all">
       <CardHeader className="pb-2">
         <div className="flex justify-between items-center">
           <Badge variant="outline" className="mb-2">
-            {study.difficulty}
+            {difficultyLabel}
           </Badge>
           <Badge variant="secondary" className="flex items-center gap-1 mb-2">
             {getStudyTypeIcon(study.type)}
-            {study.type}
+            {typeLabel}
           </Badge>
         </div>
-        <CardTitle className="text-xl font-serif">{translatedContent.title}</CardTitle>
+        <CardTitle className="text-xl">{translatedContent.title}</CardTitle>
         <CardDescription className="text-muted-foreground">{translatedContent.description}</CardDescription>
       </CardHeader>
       <CardContent className="pt-4 pb-0">
@@ -81,9 +94,9 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
           {/* Dynamically generated studies might have empty questions array initially */}
           {/* Adjusted label for clarity */}
           {study.questions?.length > 0 && (
-              <><strong>{study.questions.length}</strong> {study.type === 'quiz' ? t('study.questions') : t('study.cards')} • </> 
+              <><strong>{study.questions.length}</strong> {questionsLabel} • </> 
           )}
-          {t('study.category')}: <Badge variant="outline" className="text-xs">{t(`study.${study.category}`, study.category)}</Badge>
+          {t('study.category')}: <Badge variant="outline" className="text-xs">{categoryLabel}</Badge>
         </div>
       </CardContent>
       <CardFooter className="pt-4">

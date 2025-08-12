@@ -53,7 +53,7 @@ const Header = () => {
         </button>
       )}
       
-      <h1 className="text-xl font-serif font-medium text-foreground">{t('common.shortAppName')}</h1>
+      <h1 className="text-xl font-medium text-foreground">{t('common.shortAppName')}</h1>
       
       <Sheet>
         <SheetTrigger asChild>

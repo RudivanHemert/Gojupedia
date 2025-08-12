@@ -57,6 +57,36 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     });
   });
 
+  // Index biography/history articles from content folder via i18n where available
+  const peopleKeys = [
+    { id: 'morio-higaonna', route: '/history/morio-higaonna' },
+    { id: 'chojun-miyagi', route: '/history/chojun-miyagi' },
+    { id: 'kanryo-higaonna', route: '/history/kanryo-higaonna' },
+    { id: 'anichi-miyagi', route: '/history/anichi-miyagi' },
+    { id: 'tetsuji-nakamura', route: '/history/tetsuji-nakamura' },
+  ];
+  const toTitleCaseFromId = (slug: string): string =>
+    slug
+      .split('-')
+      .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(' ');
+
+  peopleKeys.forEach(({ id, route }) => {
+    const fallbackTitle = toTitleCaseFromId(id);
+    const title = t(`history.${id}.title`, { defaultValue: fallbackTitle });
+    const description = t(`history.${id}.description`, { defaultValue: '' });
+    if (title && title !== `history.${id}.title`) {
+      searchResults.push({
+        id: `history-${id}`,
+        title,
+        description,
+        type: 'history',
+        path: route,
+        tags: ['history', 'person', id.replace('-', ' ')]
+      });
+    }
+  });
+
   // Add techniques from techniquesData with translations
   techniquesData.forEach(technique => {
     // Filter out undefined or empty tags
@@ -509,10 +539,11 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     },
     {
       id: 'terminology',
-      title: t('general.terminology.title', { defaultValue: 'Karate Terminology' }),
-      description: t('general.terminology.description', { defaultValue: 'Japanese terms and their meanings' }),
+      title: t('terminology.title', { defaultValue: 'Terminology' }),
+      description: t('terminology.description', { defaultValue: 'Japanese terms and their meanings' }),
       path: '/terminology',
-      tags: ['terminology', 'japanese', 'terms', 'meanings']
+      // Include multilingual synonyms to improve matching across languages
+      tags: ['terminology', 'terminologie', 'terms', 'termen', 'woordenlijst', 'japanese']
     },
     {
       id: 'equipment',

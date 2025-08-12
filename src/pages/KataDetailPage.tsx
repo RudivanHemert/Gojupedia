@@ -311,7 +311,7 @@ const KataDetailPage = () => {
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
+          className="w-full"
         >
           {/* Overview Section */}
           <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
@@ -348,7 +348,7 @@ const KataDetailPage = () => {
 
             <Card>
               <CardContent className="p-4">
-                <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.overview.atAGlanceTitle')}</h2>
+                <h2 className="text-xl font-semibold mb-2">{t('kataDetailPage.overview.atAGlanceTitle')}</h2>
                 <div className="grid grid-cols-2 gap-y-2">
                   <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.movementsLabel')}</div>
                   <div className="font-medium">{kata.movements}</div>
@@ -368,7 +368,7 @@ const KataDetailPage = () => {
           <hr className="my-8" />
           {/* Steps Section */}
           <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
-            <h2 className="text-xl font-serif font-semibold mb-2">{t('kataDetailPage.steps.sequenceTitle')}</h2>
+            <h2 className="text-xl font-semibold mb-2">{t('kataDetailPage.steps.sequenceTitle')}</h2>
             
             {formattedSteps.length === 0 ? (
               <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 rounded-md">

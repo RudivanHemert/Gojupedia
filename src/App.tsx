@@ -161,11 +161,19 @@ const AppContent = React.memo(() => {
     initializeSecurityMonitoring();
   }, []);
   
+  // Scroll to top on route change
+  useEffect(() => {
+    const container = document.getElementById('app-scroll-container');
+    if (container) {
+      container.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+    }
+  }, [location.pathname, location.search, location.hash]);
+  
   return (
     <ErrorBoundary>
       <SidebarLayout>
-        <div className="p-6">
-          <div className="mt-4">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/theory" element={<TheoryPage />} />
@@ -255,8 +263,6 @@ const AppContent = React.memo(() => {
               <Route path="/junbi-undo" element={<JunbiUndoPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </div>
-        </div>
       </SidebarLayout>
     </ErrorBoundary>
   );

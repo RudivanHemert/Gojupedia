@@ -3,6 +3,10 @@
   "description": "Pratica e metti alla prova la tua conoscenza del karate Goju Ryu",
   "startQuiz": "Inizia Quiz",
   "startFlashcards": "Inizia Flashcards",
+  "tapToFlip": "Tocca per girare",
+  "previous": "Precedente",
+  "next": "Successiva",
+  "question": "Domanda {{index}} di {{total}}",
   "questions": "domande",
   "cards": "carte",
   "category": "Categoria",
@@ -209,6 +213,10 @@
     }
   },
   "flashcardTypes": {
+    "common": {
+      "title": "Flashcards dei Termini Comuni",
+      "description": "Esercita la terminologia comune con le flashcards."
+    },
     "stances": {
       "title": "Flashcards delle Posizioni",
       "description": "Impara tutte le posizioni e posture del karate."
@@ -483,6 +491,13 @@
     "kata": {
       "title": "Abbinamento dei Kata",
       "description": "Abbina i nomi dei kata ai loro significati e caratteristiche."
+    },
+    "terminology": {
+      "title": "Abbinamento della Terminologia",
+      "description": "Abbina i termini giapponesi ai loro significati in italiano.",
+      "q1": "Abbina: Rei, Kime, Zanshin",
+      "a1": "Rei-Rispetto, Kime-Focus, Zanshin-Mente persistente",
+      "e1": "Concetti fondamentali del dojo usati durante l'allenamento."
     }
   },
   "studyTerminology": {

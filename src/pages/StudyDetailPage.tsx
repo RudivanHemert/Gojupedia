@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { studies } from '@/data';
+import { buildStudies } from '@/data';
 import { Study, StudyQuestion } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -13,6 +13,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/component
 import { toast } from '@/hooks/use-toast';
 import TechniqueQuiz from '@/components/learning/TechniqueQuiz';
 import TechniqueFlashcards from '@/components/learning/TechniqueFlashcards';
+import TechniqueMatching from '@/components/learning/TechniqueMatching';
 import { techniquesData, TechniqueData } from '@/data/techniquesData';
 import { useTranslation } from 'react-i18next';
 
@@ -32,7 +33,8 @@ const parseGeneratedStudyId = (id: string): { category: TerminologyCategory | un
         if (id === `${categorySlug}-quiz`) {
             return { category, type: 'quiz' };
         }
-        if (id === `${categorySlug}-flashcard`) {
+    // Accept both singular and plural for backward compatibility
+    if (id === `${categorySlug}-flashcard` || id === `${categorySlug}-flashcards`) {
             return { category, type: 'flashcard' };
         }
     }
@@ -49,11 +51,12 @@ const StudyDetailPage = () => {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
 
   // Find the study by ID
   useEffect(() => {
-    const foundStudy = studies.find(s => s.id === id);
+    const foundStudy = allStudies.find(s => s.id === id);
     if (foundStudy) {
       setStudy(foundStudy);
       // Reset state when study changes
@@ -71,7 +74,7 @@ const StudyDetailPage = () => {
       });
       navigate('/study');
     }
-  }, [id, navigate, t]);
+  }, [id, navigate, t, allStudies]);
 
   // --- Event Handlers --- 
   const handleAnswerChange = (answer: string) => {
@@ -134,30 +137,30 @@ const StudyDetailPage = () => {
   }
 
   // Common Header JSX - defined once
+  const typeLabel = study?.type === 'quiz'
+    ? t('study.testTypes.quiz')
+    : study?.type === 'flashcard'
+      ? t('study.testTypes.flashcards')
+      : t('study.testTypes.matching');
+  // Prefer nested difficulty keys; fallback to top-level keys if needed
+  const difficultyLabel = study?.difficulty === 'beginner' ? (t('study.difficulty.beginner', { defaultValue: t('beginner') }))
+    : study?.difficulty === 'intermediate' ? (t('study.difficulty.intermediate', { defaultValue: t('intermediate') }))
+    : study?.difficulty === 'advanced' ? (t('study.difficulty.advanced', { defaultValue: t('advanced') }))
+    : study?.difficulty;
+
   const renderHeader = () => (
     <div className="bg-muted border-b border-border">
       <div className="px-4 py-6">
-        {/* Back Button */}
-        <div className="flex items-center mb-4">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => navigate('/study')}
-            className="text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            {t('common.back')}
-          </Button>
-        </div>
+        {/* Global back button is already provided by the layout header; avoid duplicate here */}
         <div className="flex items-center justify-center mb-2">
           <Badge variant="outline" className="mb-2 mr-2">
-            {study.difficulty}
+            {difficultyLabel}
           </Badge>
           <Badge variant="secondary" className="mb-2">
-            {study.type}
+            {typeLabel}
           </Badge>
         </div>
-        <h1 className="text-2xl font-serif font-semibold text-foreground text-center mb-1">
+        <h1 className="text-2xl font-semibold text-foreground text-center mb-1">
           {study.title}
         </h1>
         <p className="text-muted-foreground text-center text-sm">
@@ -176,9 +179,10 @@ const StudyDetailPage = () => {
         <>
           {renderHeader()}
           <div className="p-4">
-            {generatedType === 'quiz' ? (
+            {generatedType === 'quiz' && (
               <TechniqueQuiz category={generatedCategory} title={study.title} />
-            ) : ( // Must be 'flashcard'
+            )}
+            {generatedType === 'flashcard' && (
               <TechniqueFlashcards category={generatedCategory} title={study.title} />
             )}
           </div>
@@ -197,13 +201,13 @@ const StudyDetailPage = () => {
           <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
             <Trophy className="h-8 w-8 text-karate" />
           </div>
-          <h2 className="text-2xl font-serif mb-2">{t('study.completed')}</h2>
+          <h2 className="text-2xl mb-2">{t('study.completed')}</h2>
           {(study.type === 'quiz' || study.type === 'matching') && study.questions && study.questions.length > 0 && (
             <>
               <p className="text-lg mb-4">
                 {t('study.yourScore', { score, total: study.questions.length })}
               </p>
-              <div className="w-full max-w-xs mb-6 bg-muted rounded-full h-2.5">
+              <div className="w-full mb-6 bg-muted rounded-full h-2.5">
                 <div 
                   className="bg-karate h-2.5 rounded-full" 
                   style={{ width: `${(score / study.questions.length) * 100}%` }}
@@ -211,7 +215,7 @@ const StudyDetailPage = () => {
               </div>
             </>
           )}
-          <div className="space-y-3 w-full max-w-xs">
+          <div className="space-y-3 w-full">
             <Button 
               variant="outline" 
               className="w-full"
@@ -281,7 +285,7 @@ const StudyDetailPage = () => {
               ) : (
                 <div className="text-center">
                   <Book className="h-8 w-8 mx-auto mb-4 text-karate" />
-                  <p className="text-xl font-serif mb-4">{currentQuestion.correctAnswer}</p>
+                  <p className="text-xl mb-4">{currentQuestion.correctAnswer}</p>
                   {currentQuestion.explanation && (
                     <div className="text-muted-foreground text-sm italic border-t border-border pt-4 mt-4">
                       {currentQuestion.explanation}
@@ -292,53 +296,7 @@ const StudyDetailPage = () => {
             </div>
           </Card>
         ) : study.type === 'matching' ? (
-          <Card className="border border-border mb-6">
-            <CardHeader className="pb-2">
-              <CardTitle className="text-lg">{currentQuestion.question}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-3">
-                {study.questions.map((q) => (
-                  <div 
-                    key={q.id} 
-                    className={`p-3 border rounded-md cursor-pointer transition-all ${ 
-                      userAnswers[currentQuestion.id] === q.correctAnswer 
-                        ? 'border-karate bg-muted' 
-                        : 'border-border hover:border-border'
-                    }`}
-                    onClick={() => handleAnswerChange(q.correctAnswer)}
-                  >
-                    {q.correctAnswer} 
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-            {userAnswers[currentQuestion.id] && (
-              <CardFooter className="flex-col items-start border-t pt-4">
-                <div className="flex items-center gap-2 mb-2">
-                  {userAnswers[currentQuestion.id] === currentQuestion.correctAnswer ? (
-                    <>
-                      <Check className="h-5 w-5 text-green-500" />
-                      <span className="font-medium">{t('study.correct')}</span>
-                    </>
-                  ) : (
-                    <>
-                      <X className="h-5 w-5 text-red-500" />
-                      <span className="font-medium">{t('study.incorrect')}</span>
-                    </>
-                  )}
-                </div>
-                <Collapsible open={showExplanation} onOpenChange={setShowExplanation}>
-                  <CollapsibleTrigger className="text-sm text-muted-foreground underline">
-                    {showExplanation ? t('study.hideExplanation') : t('study.showExplanation')}
-                  </CollapsibleTrigger>
-                  <CollapsibleContent className="text-sm text-muted-foreground pt-2">
-                    {currentQuestion.explanation}
-                  </CollapsibleContent>
-                </Collapsible>
-              </CardFooter>
-            )}
-          </Card>
+          <TechniqueMatching category={(generatedCategory as any) || 'common'} />
         ) : ( 
           <Card className="border border-border mb-6">
             <CardHeader className="pb-2">

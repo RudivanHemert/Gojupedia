@@ -3,6 +3,7 @@
   "description": "Pratiquez et testez vos connaissances du karaté Goju Ryu",
   "startQuiz": "Commencer le Quiz",
   "startFlashcards": "Commencer les Flashcards",
+  "tapToFlip": "Appuyez pour retourner",
   "questions": "questions",
   "cards": "cartes",
   "category": "Catégorie",
@@ -12,6 +13,9 @@
   "advanced": "Avancé",
   "quiz": "Quiz",
   "flashcard": "Flashcards",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "question": "Question {{index}} sur {{total}}",
   "matching": "Correspondance",
   "terminologyNav": "Terminologie",
   "techniques": "Techniques",
@@ -209,6 +213,10 @@
     }
   },
   "flashcardTypes": {
+    "common": {
+      "title": "Flashcards des Termes Courants",
+      "description": "Pratiquez la terminologie courante avec des flashcards."
+    },
     "stances": {
       "title": "Flashcards des Positions",
       "description": "Apprenez toutes les positions et postures de karaté."
@@ -483,6 +491,13 @@
     "kata": {
       "title": "Correspondance des Kata",
       "description": "Associez les noms des kata à leurs significations et caractéristiques."
+    },
+    "terminology": {
+      "title": "Correspondance de la Terminologie",
+      "description": "Associez les termes japonais à leurs significations en français.",
+      "q1": "Associez : Rei, Kime, Zanshin",
+      "a1": "Rei-Respect, Kime-Focalisation, Zanshin-Esprit persistant",
+      "e1": "Concepts fondamentaux du dojo utilisés pendant l'entraînement."
     }
   },
   "studyTerminology": {

@@ -14,7 +14,7 @@ const VitalPointsPage = () => {
         backUrl="/theory"
       />
       <div className="p-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="w-full">
           <InteractiveVitalPoints />
         </div>
       </div>

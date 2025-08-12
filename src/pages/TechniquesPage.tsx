@@ -53,7 +53,7 @@ const TechniquesPage = () => {
         backUrl="/practice"
       />
       <div className="p-4">
-        <div className="w-full max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
           {techniqueSections.map(section => (
             <Link
               key={section.id}

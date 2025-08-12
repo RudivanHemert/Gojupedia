@@ -25,7 +25,7 @@ const SafetyAndRules = () => {
         description={t('kumite.introduction.safety-desc')}
         backUrl="/kumite"
       />
-      <div className="p-4 max-w-4xl mx-auto space-y-8">
+      <div className="p-4 w-full space-y-8">
         {/* Table of Contents */}
         <nav className="mb-6">
           <ul className="flex flex-wrap gap-4 text-sm text-primary font-medium">
