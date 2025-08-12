@@ -18,3 +18,4 @@ const TechniqueMatching: React.FC<TechniqueMatchingProps> = ({ category }) => {
 export default TechniqueMatching;
 
 
+
