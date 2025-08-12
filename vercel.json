@@ -66,6 +66,14 @@
   ],
   "rewrites": [
     {
+      "source": "/feedback/general",
+      "destination": "/api/feedback/general"
+    },
+    {
+      "source": "/feedback/:id((?!general).+)",
+      "destination": "/api/feedback/:id"
+    },
+    {
       "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
