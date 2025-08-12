@@ -29,7 +29,7 @@ const TerminologyPage = () => {
         title={t('terminology.title')}
         description={t('terminology.description')}
       />
-      <div className="p-4 max-w-2xl mx-auto">
+      <div className="p-4 w-full">
         <ul className="space-y-3">
           {terminologySections.map(section => (
             <li key={section.id}>

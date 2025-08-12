@@ -37,7 +37,7 @@
     "flashcardsCardDescription": "Practice terminology and concepts",
     "matchingCardTitle": "Matching",
     "matchingCardDescription": "Match terms and concepts",
-    "loading": "Loading study material...",
+      "loading": "Loading study material...",
     "completed": "Study Complete!",
     "tapToFlip": "Tap to flip",
     "notFound": {
@@ -93,9 +93,42 @@
       "kumite": {
         "title": "Kumite Quiz",
         "description": "Test your knowledge of kumite."
+      },
+      "history-origins": {
+        "title": "History & Origins Quiz",
+        "description": "Key people, places and origins of Goju Ryu."
+      },
+      "hojo-undo-basics": {
+        "title": "Hojo Undo Basics Quiz",
+        "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      },
+      "newaza-intro": {
+        "title": "Newaza Introduction Quiz",
+        "description": "Fundamental ground positions and control concepts."
+      },
+      "kumite-rules": {
+        "title": "Kumite Rules Quiz",
+        "description": "Scoring, penalties and referee commands."
+      }
+    },
+    "matchingTypes": {
+      "kata": {
+        "title": "Kata Matching",
+        "description": "Match kata names with their meanings and characteristics."
+      },
+      "terminology": {
+        "title": "Terminology Matching",
+        "description": "Match Japanese terms to their English meanings across categories.",
+        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
+        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
+        "e1": "Fundamental dojo concepts used throughout training."
       }
     },
     "flashcardTypes": {
+      "common": {
+        "title": "Common Flashcards",
+        "description": "Practice common terminology with flashcards."
+      },
       "stances": {
         "title": "Stances Flashcards",
         "description": "Learn all karate stances and positions."
@@ -152,9 +185,10 @@
       "retry": "Retry",
       "next": "Next"
     },
-    "question": "Question {index} of {total}",
-    "previous": "Previous",
-    "next": "Next",
+      "question": "Question {{index}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next",
+      "tapToFlip": "Tap to flip",
     "finish": "Finish",
     "correct": "Correct!",
     "incorrect": "Incorrect!",
@@ -199,6 +233,22 @@
     "kumite-basics": {
       "title": "Kumite Basics Quiz",
       "description": "Test your knowledge of sparring fundamentals."
+    },
+    "history-origins": {
+      "title": "History & Origins Quiz",
+      "description": "Key people, places and origins of Goju Ryu."
+    },
+    "hojo-undo-basics": {
+      "title": "Hojo Undo Basics Quiz",
+      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+    },
+    "newaza-intro": {
+      "title": "Newaza Introduction Quiz",
+      "description": "Fundamental ground positions and control concepts."
+    },
+    "kumite-rules": {
+      "title": "Kumite Rules Quiz",
+      "description": "Scoring, penalties and referee commands."
     }
   },
   "title": "Study",
@@ -679,12 +729,60 @@
       "option4": "Five-Step Sparring",
       "correct": "One-Step Sparring",
       "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
-    }
-  },
-  "matchingTypes": {
-    "kata": {
-      "title": "Kata Matching",
-      "description": "Match kata names with their meanings and characteristics."
+    },
+    "history-1": {
+      "question": "Who founded Goju Ryu?",
+      "option1": "Chojun Miyagi",
+      "option2": "Kanryo Higaonna",
+      "option3": "Gichin Funakoshi",
+      "option4": "Kenwa Mabuni",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+    },
+    "history-2": {
+      "question": "Which teacher strongly influenced Chojun Miyagi?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Anko Itosu",
+      "option3": "Mabuni Kenwa",
+      "option4": "Motobu Choki",
+      "correct": "Kanryo Higaonna",
+      "explanation": "Miyagi was a top student of Kanryo Higaonna."
+    },
+    "hojo-1": {
+      "question": "Which tool is a stone lever used for circular strength?",
+      "option1": "Chi-ishi",
+      "option2": "Ishi sashi",
+      "option3": "Nigiri game",
+      "option4": "Kongoken",
+      "correct": "Chi-ishi",
+      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+    },
+    "hojo-2": {
+      "question": "Which tool primarily trains grip strength?",
+      "option1": "Nigiri game",
+      "option2": "Kongoken",
+      "option3": "Ishi sashi",
+      "option4": "Makiwara",
+      "correct": "Nigiri game",
+      "explanation": "Nigiri game jars are used to develop grip strength and stance."
+    },
+    "newaza-1": {
+      "question": "Which position emphasizes chest-to-chest control from the side?",
+      "option1": "Side control",
+      "option2": "Mount",
+      "option3": "Guard",
+      "option4": "Back control",
+      "correct": "Side control",
+      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+    },
+    "rules-1": {
+      "question": "What does 'Hansoku' mean?",
+      "option1": "Foul",
+      "option2": "Extension round",
+      "option3": "Draw",
+      "option4": "Half point",
+      "correct": "Foul",
+      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
     }
   },
   "studyTerminology": {

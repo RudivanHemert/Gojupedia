@@ -24,7 +24,7 @@ const Stances = () => {
         backUrl="/terminology"
       />
       <div className="p-4">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full">
           <StancesList termsObject={termsObject} />
         </div>
       </div>

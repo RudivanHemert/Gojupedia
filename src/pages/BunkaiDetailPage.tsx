@@ -31,7 +31,7 @@ const BunkaiDetailPage = () => {
           description=""
         />
         <div className="p-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="w-full">
             <p>{t('common.loading', 'Laden...')}</p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const BunkaiDetailPage = () => {
           backUrl="/bunkai"
         />
         <div className="p-4">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="w-full text-center">
             <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             </motion.div>
           </div>
@@ -182,7 +182,7 @@ const BunkaiDetailPage = () => {
         backUrl="/bunkai"
       />
       <div className="p-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="w-full">
           <motion.div
             variants={containerVariants}
             initial="hidden"

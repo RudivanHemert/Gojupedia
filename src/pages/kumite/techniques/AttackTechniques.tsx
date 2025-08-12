@@ -13,7 +13,7 @@ const AttackTechniques = () => {
         description={t('kumite.techniques.attack.description')}
         backUrl="/kumite"
       />
-      <div className="p-4 max-w-4xl mx-auto space-y-8">
+      <div className="p-4 w-full space-y-8">
         <Card className="p-6">
           <h2 className="text-xl font-semibold mb-4">{t('kumite.techniques.attack.title')}</h2>
           <p className="text-muted-foreground mb-6">{t('kumite.techniques.attack.description')}</p>

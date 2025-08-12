@@ -75,7 +75,7 @@ const KataPage = () => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-4xl mx-auto space-y-8"
+          className="w-full space-y-8"
         >
           {Object.entries(katasByCategory).map(([category, categoryKatas]) => (
             <motion.div key={category} variants={itemVariants}>

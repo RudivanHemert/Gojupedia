@@ -34,7 +34,7 @@ const SettingsPage = () => {
         backUrl="/"
       />
       
-      <div className="p-4 max-w-4xl mx-auto">
+      <div className="p-4 w-full">
         <div className="grid grid-cols-1 gap-6">
           {settingsSections.map((section) => (
             <Card key={section.id} className="hover:shadow-md transition-shadow">

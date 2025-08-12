@@ -26,32 +26,16 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="relative py-12 bg-gradient-to-b from-muted to-white border-b border-border"
+      className="relative py-8 bg-gradient-to-b from-muted to-background border-b border-border"
     >
-      <div className="container mx-auto px-4">
-        {backUrl && (
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="mb-4"
-          >
-            <Button
-              variant="ghost"
-              onClick={handleBack}
-              className="flex items-center gap-2 text-muted-foreground hover:text-foreground"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Terug
-            </Button>
-          </motion.div>
-        )}
-        <div className="max-w-3xl mx-auto text-center">
+      <div className="w-full px-4">
+        {/* Global back button exists in SidebarLayout header; avoid duplicate back button here */}
+        <div className="w-full text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-4xl font-serif font-bold text-foreground mb-3"
+            className="text-4xl font-bold text-foreground mb-3"
           >
             {title}
           </motion.h1>

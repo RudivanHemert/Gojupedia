@@ -1,8 +1,9 @@
 import React, { ReactNode, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu } from 'lucide-react';
+import { Menu, ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import CustomSidebar from './CustomSidebar';
+import { useNavigate } from 'react-router-dom';
 
 interface SidebarLayoutProps {
   children: ReactNode;
@@ -11,13 +12,14 @@ interface SidebarLayoutProps {
 
 const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = false }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
 
   return (
-    <div className="flex min-h-screen bg-muted">
+    <div className="flex min-h-screen bg-background">
       {/* Sidebar - now overlays content on mobile, takes space on desktop */}
       <CustomSidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
       
@@ -26,13 +28,28 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
         {/* Top Header with Menu Button */}
         {!hideHeader && (
           <header className="bg-card border-border px-4 py-3 flex items-center justify-between sticky top-0 z-30">
-            {/* Left side - Menu button */}
-            <div className="flex items-center">
+            {/* Left side - Back + Menu (mobile) */}
+            <div className="flex items-center gap-1">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.history.length > 1) {
+                    navigate(-1);
+                  } else {
+                    navigate('/');
+                  }
+                }}
+                aria-label="Back"
+              >
+                <ChevronLeft size={20} />
+              </Button>
               <Button
                 variant="ghost"
                 size="sm"
                 onClick={toggleSidebar}
                 className="lg:hidden"
+                aria-label="Open menu"
               >
                 <Menu size={20} />
               </Button>
@@ -45,19 +62,20 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
               </h1>
             </div>
             
-            {/* Right side - Empty div for balance */}
-            <div className="w-10"></div>
+            {/* Right side - Empty for balance */}
+            <div className="w-10" />
           </header>
         )}
 
-        {/* Content Area - full width on mobile, adjusted on desktop */}
-        <div className="w-full max-w-3xl px-4 py-8 mx-auto">
+        {/* Content Area - full width */}
+        <div className="w-full px-0 py-0">
           <motion.div
+            id="app-scroll-container"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="h-full w-full max-w-screen-sm px-2 sm:px-4 md:px-8 py-4 overflow-y-auto"
+            className="h-full w-full overflow-y-auto"
           >
             {children}
           </motion.div>

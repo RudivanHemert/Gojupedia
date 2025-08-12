@@ -114,10 +114,7 @@ export default function useFuzzySearch(options: UseFuzzySearchOptions = {}): Use
     setErrorMessage('');
 
     try {
-      // Rate limiting check
-      if (!searchRateLimiter.isAllowed('search')) {
-        throw new Error('Too many search requests. Please wait a moment.');
-      }
+      // Rate limiting disabled for user-initiated searches to avoid false positives on Enter
 
       const cacheKey = generateCacheKey(searchQuery, i18n.language);
       

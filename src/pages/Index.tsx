@@ -74,8 +74,8 @@ const IndexPage = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen bg-background">
-      <div className="flex flex-col items-center w-full max-w-4xl mx-auto mt-8 px-4">
+    <div className="flex flex-col w-full min-h-screen bg-background">
+      <div className="flex flex-col w-full mt-0 px-0">
         {/* Hero block */}
         <div className="flex flex-col items-center mb-8">
           <img
@@ -89,17 +89,17 @@ const IndexPage = () => {
         </div>
 
         {/* Intro block */}
-        <div className="bg-card dark:bg-card rounded-xl shadow-lg p-8 mb-8 w-full text-center">
-          <h2 className="text-3xl font-serif font-bold mb-4">{t('home.introTitle')}</h2>
+        <div className="bg-card dark:bg-card rounded-none shadow-none p-4 sm:p-6 md:p-8 mb-6 w-full text-center">
+          <h2 className="text-3xl font-bold mb-4">{t('home.introTitle')}</h2>
           <div className="text-lg text-foreground leading-relaxed">
             {t('home.introText')}
           </div>
         </div>
 
         {/* Main sections */}
-        <div className="w-full mb-8">
-          <h3 className="text-xl font-serif font-bold mb-4 text-center">Hoofdsecties</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="w-full mb-6">
+          <h3 className="text-xl font-bold mb-4 text-center">Hoofdsecties</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 md:gap-4 px-2 sm:px-4 md:px-6">
             {mainSections.map((section) => (
               <Link
                 key={section.id}
@@ -125,9 +125,9 @@ const IndexPage = () => {
         </div>
 
         {/* Popular subsections */}
-        <div className="w-full mb-8">
-          <h3 className="text-xl font-serif font-bold mb-4 text-center">Populaire Subsecties</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="w-full mb-6">
+          <h3 className="text-xl font-bold mb-4 text-center">Populaire Subsecties</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3 px-2 sm:px-4 md:px-6">
             <Link
               to="/philosophy"
               className="bg-card dark:bg-card rounded-lg shadow flex items-center px-4 py-3 hover:bg-muted/50 transition group"
@@ -160,8 +160,8 @@ const IndexPage = () => {
         </div>
 
         {/* Quote */}
-        <div className="w-full flex flex-col items-center mt-8 mb-8">
-          <div className="italic text-muted-foreground text-center max-w-xl mb-2 text-lg">
+        <div className="w-full flex flex-col items-center mt-6 mb-6 px-2 sm:px-4 md:px-6">
+          <div className="italic text-muted-foreground text-center w-full md:max-w-3xl mb-2 text-lg">
             "{t('home.miyagiQuote')}"
           </div>
           <div className="text-muted-foreground text-sm">{t('home.miyagiAuthor')}</div>

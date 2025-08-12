@@ -13,11 +13,8 @@ const UdeTanrenInformation = () => {
   return (
     <div className="min-h-screen bg-white">
       <div className="p-4">
-        <div className="max-w-4xl mx-auto">
-          <Link to="/hojo-undo" className="inline-flex items-center mb-4 text-sm text-blue-600 hover:underline">
-            <svg className="h-4 w-4 mr-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
-            Terug naar Hojo Undo
-          </Link>
+        <div className="w-full">
+          {/* Verwijderd: lokale terugknop; global header bevat Back */}
 
           {/* Header */}
           <div className="flex items-center gap-4 mb-6">

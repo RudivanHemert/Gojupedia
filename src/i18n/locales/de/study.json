@@ -28,7 +28,7 @@
     "matchingCardDescription": "Ordnen Sie Begriffe und Konzepte zu",
     "loading": "Lernmaterial wird geladen...",
     "completed": "Lernen abgeschlossen!",
-    "tapToFlip": "Tippen zum Umdrehen",
+      "tapToFlip": "Tippen zum Umdrehen",
     "notFound": {
       "title": "Lernmaterial nicht gefunden",
       "description": "Das angeforderte Lernmaterial konnte nicht gefunden werden."
@@ -93,9 +93,29 @@
       "kumite": {
         "title": "Kumite Quiz",
         "description": "Testen Sie Ihr Wissen über Kumite."
+      },
+      "history-origins": {
+        "title": "Geschichte & Ursprung Quiz",
+        "description": "Wichtige Personen, Orte und Ursprünge des Goju Ryu."
+      },
+      "hojo-undo-basics": {
+        "title": "Hojo Undo Grundlagen Quiz",
+        "description": "Gerätenamen und Trainingsschwerpunkte (Chi-ishi, Ishi Sashi, Nigiri Game, Kongoken)."
+      },
+      "newaza-intro": {
+        "title": "Newaza Einführungsquiz",
+        "description": "Grundlegende Bodenpositionen und Kontrollkonzepte."
+      },
+      "kumite-rules": {
+        "title": "Kumite Regeln Quiz",
+        "description": "Wertung, Strafen und Kampfrichter-Kommandos."
       }
     },
     "flashcardTypes": {
+      "common": {
+        "title": "Allgemeine Begriffe Karteikarten",
+        "description": "Üben Sie allgemeine Terminologie mit Karteikarten."
+      },
       "stances": {
         "title": "Stellungen Karteikarten",
         "description": "Lernen Sie alle Karate-Stellungen und Positionen."
@@ -134,6 +154,10 @@
       "philosophy": "Philosophie",
       "techniques": "Techniken",
       "kumite": "Kumite",
+      "history": "Geschichte",
+      "hojo-undo": "Hojo Undo",
+      "newaza": "Newaza",
+      "terminology": "Terminologie",
       "terminologyNav": "Terminologie"
     },
     "progress": {
@@ -152,9 +176,10 @@
       "retry": "Wiederholen",
       "next": "Weiter"
     },
-    "question": "Frage {index} von {total}",
-    "previous": "Zurück",
-    "next": "Weiter",
+      "question": "Frage {{index}} von {{total}}",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "tapToFlip": "Tippen zum Umdrehen",
     "finish": "Beenden",
     "correct": "Richtig!",
     "incorrect": "Falsch!",
@@ -655,12 +680,73 @@
       "option4": "Fünf-Schritt Sparring",
       "correct": "Ein-Schritt Sparring",
       "explanation": "Ippon Kumite ist Ein-Schritt Sparring mit vorherbestimmten Angriffen und Verteidigungen."
+    },
+    "history-1": {
+      "question": "Wer gründete Goju Ryu?",
+      "option1": "Chojun Miyagi",
+      "option2": "Kanryo Higaonna",
+      "option3": "Gichin Funakoshi",
+      "option4": "Kenwa Mabuni",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi benannte den Stil Goju Ryu, inspiriert vom Bubishi."
+    },
+    "history-2": {
+      "question": "Welcher Lehrer beeinflusste Chojun Miyagi stark?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Anko Itosu",
+      "option3": "Mabuni Kenwa",
+      "option4": "Motobu Choki",
+      "correct": "Kanryo Higaonna",
+      "explanation": "Miyagi war ein Top-Schüler von Kanryo Higaonna."
+    },
+    "hojo-1": {
+      "question": "Welches Gerät ist ein Steinhebel zur Entwicklung zirkulärer Kraft?",
+      "option1": "Chi-ishi",
+      "option2": "Ishi sashi",
+      "option3": "Nigiri game",
+      "option4": "Kongoken",
+      "correct": "Chi-ishi",
+      "explanation": "Chi-ishi trainiert zirkuläre Kraft sowie Handgelenk-/Unterarmkonditionierung."
+    },
+    "hojo-2": {
+      "question": "Welches Gerät trainiert primär die Griffkraft?",
+      "option1": "Nigiri game",
+      "option2": "Kongoken",
+      "option3": "Ishi sashi",
+      "option4": "Makiwara",
+      "correct": "Nigiri game",
+      "explanation": "Nigiri game Krüge werden zur Entwicklung von Griffkraft und Stand eingesetzt."
+    },
+    "newaza-1": {
+      "question": "Welche Position betont Brust-zu-Brust-Kontrolle von der Seite?",
+      "option1": "Side control",
+      "option2": "Mount",
+      "option3": "Guard",
+      "option4": "Back control",
+      "correct": "Side control",
+      "explanation": "Seitenkontrolle (ähnlich Yoko Shiho) setzt auf Brust-zu-Brust-Druck."
+    },
+    "rules-1": {
+      "question": "Was bedeutet 'Hansoku'?",
+      "option1": "Foul",
+      "option2": "Verlängerungsrunde",
+      "option3": "Unentschieden",
+      "option4": "Halber Punkt",
+      "correct": "Foul",
+      "explanation": "Hansoku ist ein Foul; schwere Verstöße können zur Disqualifikation führen."
     }
   },
   "matchingTypes": {
     "kata": {
       "title": "Kata Zuordnung",
       "description": "Ordnen Sie Kata-Namen ihren Bedeutungen und Eigenschaften zu."
+    },
+    "terminology": {
+      "title": "Terminologie Zuordnung",
+      "description": "Ordnen Sie japanische Begriffe ihren englischen Bedeutungen zu.",
+      "q1": "Ordnen Sie zu: Rei, Kime, Zanshin",
+      "a1": "Rei-Respekt, Kime-Fokus, Zanshin-Verweilender Geist",
+      "e1": "Grundlegende Dojo-Konzepte, die im Training verwendet werden."
     }
   },
   "studyTerminology": {

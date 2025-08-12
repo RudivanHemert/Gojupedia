@@ -51,7 +51,7 @@ const KataTheoryDetailPage = () => {
           backUrl="/theory/kata"
         />
         <div className="p-4">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="w-full text-center">
             <AlertTriangle className="h-16 w-16 text-red-500 mx-auto mb-4" />
             <h2 className="text-2xl font-bold mb-4">{t('kataTheoryDetailPage.notFound.title')}</h2>
             <p className="text-muted-foreground mb-6">
@@ -100,7 +100,7 @@ const KataTheoryDetailPage = () => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-4xl mx-auto space-y-6"
+          className="w-full space-y-6"
         >
           {/* Kata Overview Card */}
           <motion.div variants={itemVariants}>

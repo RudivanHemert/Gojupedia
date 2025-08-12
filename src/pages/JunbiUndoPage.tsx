@@ -50,7 +50,7 @@ const JunbiUndoPage = () => {
         backUrl="/practice"
       />
       
-      <div className="p-4 max-w-6xl mx-auto">
+      <div className="p-4 w-full">
         <motion.div
           variants={containerVariants}
           initial="hidden"

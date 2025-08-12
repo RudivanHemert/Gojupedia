@@ -93,6 +93,35 @@
       "kumite": {
         "title": "Cuestionario de Kumite",
         "description": "Pon a prueba tu conocimiento de kumite."
+      },
+      "history-origins": {
+        "title": "Cuestionario de Historia y Orígenes",
+        "description": "Personas, lugares y orígenes clave de Goju Ryu."
+      },
+      "hojo-undo-basics": {
+        "title": "Cuestionario Básico de Hojo Undo",
+        "description": "Nombres de equipos y enfoque de entrenamiento (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      },
+      "newaza-intro": {
+        "title": "Introducción a Newaza",
+        "description": "Posiciones básicas en el suelo y conceptos de control."
+      },
+      "kumite-rules": {
+        "title": "Cuestionario de Reglas de Kumite",
+        "description": "Puntuación, penalizaciones y comandos del árbitro."
+      }
+    },
+    "matchingTypes": {
+      "kata": {
+        "title": "Emparejamiento de Kata",
+        "description": "Empareja nombres de kata con sus significados y características."
+      },
+      "terminology": {
+        "title": "Emparejamiento de Terminología",
+        "description": "Empareja términos japoneses con sus significados en español.",
+        "q1": "Empareja: Rei, Kime, Zanshin",
+        "a1": "Rei-Respeto, Kime-Enfoque, Zanshin-Mente permanente",
+        "e1": "Conceptos fundamentales del dojo usados durante el entrenamiento."
       }
     },
     "categories": {
@@ -118,9 +147,10 @@
       "retry": "Reintentar",
       "next": "Siguiente"
     },
-    "question": "Pregunta {index} de {total}",
-    "previous": "Anterior",
-    "next": "Siguiente",
+      "question": "Pregunta {{index}} de {{total}}",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "tapToFlip": "Toca para voltear",
     "finish": "Finalizar",
     "correct": "¡Correcto!",
     "incorrect": "¡Incorrecto!",
@@ -353,6 +383,10 @@
     }
   },
   "flashcardTypes": {
+      "common": {
+        "title": "Flashcards Comunes",
+        "description": "Practica terminología común con flashcards."
+      },
     "stances": {
       "title": "Flashcards de Posiciones",
       "description": "Aprende todas las posiciones y posturas de karate."

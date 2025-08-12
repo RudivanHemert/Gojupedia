@@ -9,32 +9,32 @@ const KumitePage = () => {
   const kumiteSections = [
     {
       id: 'introduction',
-      labelKey: 'kumite.sections.introduction.title',
+      labelKey: 'kumite.sections.introduction',
       path: '/kumite/introduction',
       subsections: [
-        { id: 'what-is-kumite', labelKey: 'kumite.sections.introduction.whatIsKumite', path: '/kumite/introduction/what-is-kumite' },
-        { id: 'types-of-kumite', labelKey: 'kumite.sections.introduction.typesOfKumite', path: '/kumite/introduction/types-of-kumite' },
-        { id: 'safety-and-rules', labelKey: 'kumite.sections.introduction.safetyAndRules', path: '/kumite/introduction/safety-and-rules' }
+        { id: 'what-is-kumite', labelKey: 'kumite.introduction.what-is', path: '/kumite/introduction/what-is-kumite' },
+        { id: 'types-of-kumite', labelKey: 'kumite.introduction.types-title', path: '/kumite/introduction/types-of-kumite' },
+        { id: 'safety-and-rules', labelKey: 'kumite.introduction.safety-title', path: '/kumite/introduction/safety-and-rules' }
       ]
     },
     {
       id: 'principles',
-      labelKey: 'kumite.sections.principles.title',
+      labelKey: 'kumite.sections.principles',
       path: '/kumite/principles'
     },
     {
       id: 'techniques',
-      labelKey: 'kumite.sections.techniques.title',
+      labelKey: 'kumite.sections.techniques',
       path: '/kumite/techniques',
       subsections: [
-        { id: 'attack-techniques', labelKey: 'kumite.sections.techniques.attackTechniques', path: '/kumite/techniques/attack-techniques' },
-        { id: 'defense-techniques', labelKey: 'kumite.sections.techniques.defenseTechniques', path: '/kumite/techniques/defense-techniques' },
-        { id: 'throwing-techniques', labelKey: 'kumite.sections.techniques.throwingTechniques', path: '/kumite/techniques/throwing-techniques' }
+        { id: 'attack-techniques', labelKey: 'kumite.techniques.attack-techniques', path: '/kumite/techniques/attack-techniques' },
+        { id: 'defense-techniques', labelKey: 'kumite.techniques.defense-techniques', path: '/kumite/techniques/defense-techniques' },
+        { id: 'throwing-techniques', labelKey: 'kumite.techniques.throwing-techniques', path: '/kumite/techniques/throwing-techniques' }
       ]
     },
     {
       id: 'competition',
-      labelKey: 'kumite.sections.competition.title',
+      labelKey: 'kumite.sections.competition',
       path: '/kumite/competition'
     }
   ];
@@ -46,7 +46,7 @@ const KumitePage = () => {
         description={t('kumite.description')}
         backUrl="/practice"
       />
-      <div className="p-4 max-w-4xl mx-auto">
+      <div className="p-4 w-full">
         <div className="grid gap-6">
           {kumiteSections.map(section => (
             <div key={section.id} className="border border-border rounded-lg p-6 bg-card">

@@ -66,13 +66,13 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
 
       <div className="flex justify-between w-full max-w-md space-x-2">
         <Button onClick={handlePrev} disabled={cards.length <= 1}>
-          <ArrowLeft className="mr-2 h-4 w-4" /> {t('common.previous')}
+          <ArrowLeft className="mr-2 h-4 w-4" /> {t('study.previous')}
         </Button>
         <Button onClick={handleFlip}>
-          {t('common.flip')} <RefreshCw size={16} className="ml-2 h-4 w-4"/>
+          {t('study.tapToFlip')} <RefreshCw size={16} className="ml-2 h-4 w-4"/>
         </Button>
         <Button onClick={handleNext} disabled={cards.length <= 1}>
-          {t('common.next')} <ArrowRight className="ml-2 h-4 w-4" />
+          {t('study.next')} <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
     </div>

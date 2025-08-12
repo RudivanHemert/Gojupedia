@@ -1,19 +1,19 @@
 import React from 'react';
-import { studies } from '@/data';
+import { buildStudies } from '@/data';
 import StudyCard from '@/components/study/StudyCard';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const MatchingListPage = () => {
-  const { t } = useTranslation();
-  // Filter for matching exercises
-  const matchingStudies = studies.filter(study => study.type === 'matching');
+  const { t, i18n } = useTranslation();
+  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
+  const matchingStudies = allStudies.filter(study => study.type === 'matching');
 
   return (
     <>
       <TheoryHeader 
-        title={t('study.matching.title', 'Matching Oefeningen')}
-        description={t('study.matching.description', 'Koppel termen en concepten aan elkaar')}
+        title={t('study.matching.title', t('title', 'Matching'))}
+        description={t('study.matching.description', t('description', 'Match terms and concepts'))}
         backUrl="/study"
       />
 

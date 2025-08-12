@@ -15,7 +15,7 @@ const SearchPage = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
-  const [searchType, setSearchType] = useState<'general' | 'precise' | 'fuzzy'>('general');
+  const [searchType, setSearchType] = useState<'general' | 'precise' | 'fuzzy'>('fuzzy');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   // Use fuzzy search hook
@@ -26,12 +26,11 @@ const SearchPage = () => {
     hasError,
     errorMessage,
     search: performSearch,
-    clearResults,
-    searchHistory
+    clearResults
   } = useFuzzySearch({
     searchType,
     limit: 50,
-    includeAlternativeLanguages: true,
+    includeAlternativeLanguages: false,
     enableSuggestions: true,
     minQueryLength: 1
   });
@@ -97,7 +96,7 @@ const SearchPage = () => {
           backUrl="/"
         />
       
-      <div className="p-4 max-w-6xl mx-auto">
+      <div className="p-4 w-full">
         {/* Enhanced Search Input */}
         <div className="mb-6">
                       <SearchBar
@@ -110,24 +109,11 @@ const SearchPage = () => {
               showSuggestions
               searchType={searchType}
               className="max-w-none"
+              showHistory={false}
             />
 
-          {/* Search Options */}
+          {/* Search Options (category filter only) */}
           <div className="flex flex-wrap items-center gap-4 mt-4">
-            <div className="flex items-center gap-2">
-              <Filter size={16} className="text-gray-500" />
-                              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                  {t('search.searchType', 'Zoektype:')}
-                </span>
-                              <Tabs value={searchType} onValueChange={(value: any) => setSearchType(value)}>
-                  <TabsList className="h-8">
-                    <TabsTrigger value="fuzzy" className="text-xs px-3">{t('search.fuzzy', 'Fuzzy')}</TabsTrigger>
-                    <TabsTrigger value="general" className="text-xs px-3">{t('search.general', 'Algemeen')}</TabsTrigger>
-                    <TabsTrigger value="precise" className="text-xs px-3">{t('search.precise', 'Precies')}</TabsTrigger>
-                  </TabsList>
-                </Tabs>
-            </div>
-
             {availableCategories.length > 0 && (
               <div className="flex items-center gap-2">
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
@@ -289,31 +275,9 @@ const SearchPage = () => {
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
               {t('search.welcome', 'Geavanceerd Zoeken')}
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-6">
+            <p className="text-gray-600 dark:text-gray-400 mb-6">
               {t('search.welcomeDescription', 'Vind kata, technieken, geschiedenis, filosofie en meer met intelligente fuzzy search')}
             </p>
-            
-            {/* Recent Searches */}
-            {searchHistory.length > 0 && (
-              <div className="max-w-md mx-auto">
-                <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
-                  {t('search.recentSearches', 'Recente zoekopdrachten:')}
-                </p>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {searchHistory.slice(0, 5).map((historyItem) => (
-                    <Button
-                      key={historyItem}
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => handleSearch(historyItem)}
-                      className="text-xs"
-                    >
-                      {historyItem}
-                    </Button>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         )}
       </div>

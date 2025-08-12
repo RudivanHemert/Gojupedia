@@ -4,7 +4,7 @@ import React from 'react';
 const ModernDevelopmentSection = () => {
   return (
     <section className="space-y-4 mt-8">
-      <h2 className="text-2xl font-serif font-semibold">Modern Development</h2>
+      <h2 className="text-2xl font-semibold">Modern Development</h2>
       <p className="text-gray-700">
         In 1930, Miyagi performed in Hawaii, helping to introduce Goju-Ryu to the Western world. After World War II, Goju-Ryu spread 
         globally, with many of Miyagi's students opening their own dojos and further developing the style.

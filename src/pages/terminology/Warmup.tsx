@@ -37,7 +37,7 @@ const Warmup = () => {
         backUrl="/terminology"
       />
       <div className="p-4">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full">
           <div className="mb-6">
             <p className="text-muted-foreground text-center">
               {t('terminology.warmup.sectionDescription')}
@@ -67,7 +67,7 @@ const Warmup = () => {
             ))}
           </div>
 
-          <div className="mt-8 bg-muted rounded-xl p-6">
+          <div className="mt-6 bg-muted rounded-xl p-4 sm:p-6">
             <h3 className="text-lg font-semibold mb-4 text-center">{t('terminology.warmup.aboutTraining')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>

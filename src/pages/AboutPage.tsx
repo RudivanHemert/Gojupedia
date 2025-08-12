@@ -14,7 +14,7 @@ const AboutPage = () => {
         description="Over Gojupedia en Goju Ryu Karate"
         backUrl="/"
       />
-      <div className="p-4 max-w-4xl mx-auto">
+      <div className="p-4 w-full">
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-foreground">

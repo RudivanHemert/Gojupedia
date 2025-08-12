@@ -31,23 +31,23 @@ const getFuseOptions = (searchType: 'general' | 'precise' | 'fuzzy' = 'general')
     includeScore: true,
     includeMatches: true,
     shouldSort: true,
-    threshold: 0.4, // Default tolerance for typos/fuzzy matching
+    threshold: 0.35, // Slightly stricter default
     location: 0,
-    distance: 100,
+    distance: 60,
     maxPatternLength: 64,
     minMatchCharLength: 2,
     keys: [
       {
         name: 'title',
-        weight: 0.7,
+        weight: 0.8,
       },
       {
         name: 'description',
-        weight: 0.2,
+        weight: 0.18,
       },
       {
         name: 'tags',
-        weight: 0.1,
+        weight: 0.02, // tags help a little but should not dominate
       },
     ],
   };
@@ -63,8 +63,10 @@ const getFuseOptions = (searchType: 'general' | 'precise' | 'fuzzy' = 'general')
     case 'fuzzy':
       return {
         ...baseOptions,
-        threshold: 0.6, // More tolerant of typos
-        minMatchCharLength: 1,
+        // Keep fuzzy but not too permissive
+        threshold: 0.3,
+        distance: 50,
+        minMatchCharLength: 2,
       };
     default:
       return baseOptions;
@@ -87,7 +89,8 @@ class MultilingualFuzzySearch {
     supportedLanguages.forEach(language => {
       const searchIndex = createSearchIndex(language);
       const enhancedIndex = this.enhanceSearchIndex(searchIndex, language);
-      const fuse = new Fuse(enhancedIndex, getFuseOptions('general'));
+      // Initialize with our (tighter) fuzzy defaults used by the UI
+      const fuse = new Fuse(enhancedIndex, getFuseOptions('fuzzy'));
       this.searchIndices.set(language, fuse);
     });
 
@@ -182,7 +185,13 @@ class MultilingualFuzzySearch {
     const primaryFuse = this.searchIndices.get(language);
     if (primaryFuse) {
       const primaryResults = this.performSearch(primaryFuse, sanitizedQuery, searchType);
-      results.push(...primaryResults);
+      // Boost results whose titles include the raw query to help names like "Morio Higaonna"
+      results.push(
+        ...primaryResults.map(r => ({
+          ...r,
+          score: (r.title.toLowerCase().includes(sanitizedQuery.toLowerCase()) ? (r.score - 0.1) : r.score)
+        }))
+      );
     }
 
     // Search in alternative languages if requested
@@ -210,7 +219,17 @@ class MultilingualFuzzySearch {
 
     // Remove duplicates and sort by relevance
     const uniqueResults = this.deduplicateResults(results);
-    const sortedResults = uniqueResults.sort((a, b) => a.score - b.score);
+    // Filter out weak matches that only hit tags and have poor scores
+    const filtered = uniqueResults.filter(r => {
+      const hasTitleOrDescMatch = !!(r.highlights?.title || r.highlights?.description);
+      // Force display title casing exactly as indexed; never lowercase here
+      if (r.title) {
+        r.title = r.title; // no transformation
+      }
+      return hasTitleOrDescMatch || r.score <= 0.25; // keep strong overall matches
+    });
+
+    const sortedResults = filtered.sort((a, b) => a.score - b.score);
 
     return sortedResults.slice(0, limit);
   }

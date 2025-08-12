@@ -23,15 +23,15 @@ const PageHeader: React.FC<PageHeaderProps> = ({
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`relative ${heightClasses[height]} bg-gradient-to-b from-muted to-white border-b border-border`}
+      className={`relative ${heightClasses[height]} bg-gradient-to-b from-muted to-background border-b border-border`}
     >
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center">
+      <div className="w-full px-4">
+        <div className="w-full text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-4xl font-serif font-bold text-foreground mb-3"
+            className="text-4xl font-bold text-foreground mb-3"
           >
             {title}
           </motion.h1>
