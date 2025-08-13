@@ -19,28 +19,28 @@ const TechniquesPage = () => {
       id: 'stances',
       labelKey: 'techniques.sections.stances.title',
       descKey: 'techniques.sections.stances.description',
-      path: '/techniques/stances',
+      path: '/terminology/stances',
       icon: <Footprints className="h-6 w-6 text-blue-500 dark:text-blue-400" />
     },
     {
       id: 'blocks',
       labelKey: 'techniques.sections.blocks.title',
       descKey: 'techniques.sections.blocks.description',
-      path: '/techniques/blocks',
+      path: '/terminology/blocks',
       icon: <Shield className="h-6 w-6 text-green-500 dark:text-green-400" />
     },
     {
       id: 'strikes',
       labelKey: 'techniques.sections.strikes.title',
       descKey: 'techniques.sections.strikes.description',
-      path: '/techniques/strikes',
+      path: '/terminology/strikes',
       icon: <Hand className="h-6 w-6 text-red-500 dark:text-red-400" />
     },
     {
       id: 'kicks',
       labelKey: 'techniques.sections.kicks.title',
       descKey: 'techniques.sections.kicks.description',
-      path: '/techniques/kicks',
+      path: '/terminology/kicks',
       icon: <Target className="h-6 w-6 text-purple-500 dark:text-purple-400" />
     }
   ];

@@ -4,6 +4,8 @@ import TheoryHeader from '@/components/theory/TheoryHeader';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft } from 'lucide-react';
 import AudioButton from '@/components/ui/audio-button';
+import AttributionImage from '@/components/media/AttributionImage';
+import { stanceImages } from '@/data/media/stanceImages';
 
 const Stances = () => {
   const { t } = useTranslation();
@@ -94,6 +96,14 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
         </div>
         <h2 className="text-lg text-muted-foreground mb-4">{term.english}</h2>
         <p className="mb-4 whitespace-pre-line">{term.details}</p>
+        {stanceId && stanceImages[stanceId] ? (
+          <AttributionImage
+            src={stanceImages[stanceId].src}
+            alt={stanceImages[stanceId].alt}
+            meta={stanceImages[stanceId].meta}
+            className="my-4"
+          />
+        ) : null}
         {videoUrl ? (
           <div className="aspect-video mb-4">
             <iframe
