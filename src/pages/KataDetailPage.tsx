@@ -358,12 +358,14 @@ const KataDetailPage = () => {
                   <div className="aspect-video bg-muted rounded overflow-hidden">
                     <iframe 
                       className="w-full h-full"
-                      src={`https://www.youtube.com/embed/${getYouTubeId(kata.videoUrl)}`}
+                      src={`https://www.youtube.com/embed/${getYouTubeId(kata.videoUrl)}?rel=0&modestbranding=1`}
                       title={`${kata.name} Kata Demonstration`}
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
+                      loading="lazy"
                     >
+                      <p>Your browser does not support iframes. <a href={kata.videoUrl} target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
                     </iframe>
                   </div>
                 </CardContent>

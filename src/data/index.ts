@@ -109,7 +109,7 @@ export const katas: Kata[] = [
       "Morio Higaonna",
       "Eiichi Miyazato"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=vKLX3tZN1JQ",
+    videoUrl: "https://www.youtube.com/watch?v=QjffSHmAzsc",
     bunkai: [
       {
         id: "gdi-bunkai-1",
@@ -261,7 +261,7 @@ export const katas: Kata[] = [
     duration: "2-3 minutes",
     origin: "Fujian Province, China (unknown specific style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=FyBDIxeRzvc",
     bunkai: "https://www.youtube.com/watch?v=rplwXor-d2A"
   },
   {
@@ -283,7 +283,7 @@ export const katas: Kata[] = [
     duration: "2-3 minutes",
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=Odnn-_GtTCY",
     bunkai: "https://www.youtube.com/watch?v=2T_aBnzU-VA"
   },
   {
@@ -306,7 +306,7 @@ export const katas: Kata[] = [
     duration: "2-3 minutes",
     origin: "Fujian Province, China (likely White Crane or Tiger style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=_NdbMHcXJ7I",
     bunkai: "https://www.youtube.com/watch?v=fKYlZZnkjoM"
   },
   {
@@ -328,7 +328,7 @@ export const katas: Kata[] = [
     duration: "3-4 minutes",
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=oLC3Av7IIMY",
     bunkai: "https://www.youtube.com/watch?v=BrBc1_vGZDM"
   },
   {
@@ -350,7 +350,7 @@ export const katas: Kata[] = [
     duration: "3-4 minutes",
     origin: "Fujian Province, China (unknown specific style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=Tw-r1HBzJWc",
     bunkai: "https://www.youtube.com/watch?v=nSX19q6_gNM"
   },
   {
@@ -372,7 +372,7 @@ export const katas: Kata[] = [
     duration: "3-4 minutes",
     origin: "Fujian Province, China (likely Monk Fist Boxing or Lion's Fist)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=ukdW3RrloG0",
     bunkai: "https://www.youtube.com/watch?v=LBVbeDCv1jo"
   },
   {
@@ -394,7 +394,7 @@ export const katas: Kata[] = [
     duration: "5-7 minutes",
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=Dlb954XO8HE",
     bunkai: "https://www.youtube.com/watch?v=w4wIpiz6l-0"
   },
   // Heishugata (Closed Hand Forms)
@@ -456,7 +456,7 @@ export const katas: Kata[] = [
     masters: [
       "Chojun Miyagi"
     ],
-    videoUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=NQG5Ua-zHDk",
     bunkai: "https://www.youtube.com/watch?v=QM7IZ0gnOzw"
   }
 ];
