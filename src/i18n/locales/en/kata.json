@@ -474,17 +474,17 @@
       "descriptionTitle": "Description",
       "historyTitle": "History",
       "culturalSignificanceTitle": "Cultural Significance",
-      "atAGlanceTitle": "At a Glance",
-      "movementsLabel": "Movements:",
-      "durationLabel": "Duration:",
-      "originLabel": "Origin:",
-      "levelLabel": "Level:",
+
+
       "mastersLabel": "Masters",
       "keyFeaturesLabel": "Key Features",
       "videoNotAvailable": "Video not available",
       "bunkaiVideoNotAvailable": "Bunkai video not available",
       "shimeVideoNotAvailable": "Shime video not available",
       "viewOnYouTube": "View on YouTube"
+    },
+    "video": {
+      "title": "Kata Demonstration"
     },
     "steps": {
       "interactiveStepsTitle": "Interactive Steps",

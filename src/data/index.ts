@@ -239,7 +239,7 @@ export const katas: Kata[] = [
       "Kanryo Higaonna",
       "Chojun Miyagi"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=EXAMPLE_SAIFA_VIDEO",
+    videoUrl: "https://www.youtube.com/watch?v=edeh-DuW5ZI",
     bunkai: "https://www.youtube.com/watch?v=EXAMPLE_SAIFA_BUNKAI"
   },
   {

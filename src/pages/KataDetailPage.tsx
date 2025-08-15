@@ -346,25 +346,31 @@ const KataDetailPage = () => {
               </Card>
             )}
 
-            <Card>
-              <CardContent className="p-4">
-                <h2 className="text-xl font-semibold mb-2">{t('kataDetailPage.overview.atAGlanceTitle')}</h2>
-                <div className="grid grid-cols-2 gap-y-2">
-                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.movementsLabel')}</div>
-                  <div className="font-medium">{kata.movements}</div>
-                  
-                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.durationLabel')}</div>
-                  <div className="font-medium">{kata.duration}</div>
-                  
-                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.originLabel')}</div>
-                  <div className="font-medium">{kata.origin}</div>
-                  
-                  <div className="text-muted-foreground dark:text-gray-400">{t('kataDetailPage.overview.levelLabel')}</div>
-                  <div className="font-medium">{t(`kata.levels.${kata.level.toLowerCase()}`)}</div>
-                </div>
-              </CardContent>
-            </Card>
+
           </motion.div>
+          
+          {/* Kata Video Section */}
+          {kata.videoUrl && (
+            <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
+              <Card>
+                <CardContent className="pt-6">
+                  <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.video.title')}</h2>
+                  <div className="aspect-video bg-muted rounded overflow-hidden">
+                    <iframe 
+                      className="w-full h-full"
+                      src={`https://www.youtube.com/embed/${getYouTubeId(kata.videoUrl)}`}
+                      title={`${kata.name} Kata Demonstration`}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    >
+                    </iframe>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+          )}
+          
           <hr className="my-8" />
           {/* Steps Section */}
           <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
