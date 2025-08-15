@@ -293,8 +293,8 @@ const KataDetailPage = () => {
   };
 
   const kataVideoId = getYouTubeId(kata.videoUrl);
-  // Handle bunkai which can be either a string (URL) or array of BunkaiDetail objects
-  const bunkaiVideoId = typeof kata.bunkai === 'string' ? getYouTubeId(kata.bunkai) : null;
+  // Handle bunkai video URL
+  const bunkaiVideoId = kata.bunkaiVideoUrl ? getYouTubeId(kata.bunkaiVideoUrl) : null;
   const shimeVideoId = kata.shime ? getYouTubeId(kata.shime) : null;
 
   return (
