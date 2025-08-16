@@ -1,0 +1,30 @@
+{
+  "title": "Information",
+  "description": "Find praktisk information om dojo, begivenheder og ressourcer",
+  "sections": {
+    "dojos": {
+      "title": "Dojo",
+      "description": "Find Goju-Ryu dojo i dit område"
+    },
+    "events": {
+      "title": "Begivenheder",
+      "description": "Hold dig opdateret med kommende karatebegivenheder"
+    },
+    "resources": {
+      "title": "Ressourcer",
+      "description": "Yderligere materialer og henvisninger"
+    }
+  },
+  "dojoInfo": {
+    "name": "Dojo navn",
+    "address": "Adresse",
+    "contact": "Kontakt",
+    "schedule": "Tidsplan"
+  },
+  "eventDetails": {
+    "date": "Dato",
+    "time": "Tid",
+    "location": "Lokation",
+    "description": "Beskrivelse"
+  }
+}

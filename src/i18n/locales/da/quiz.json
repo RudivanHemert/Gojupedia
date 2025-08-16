@@ -1,0 +1,18 @@
+{
+  "loading": "Indlæser quiz...",
+  "start": "Start quiz",
+  "question": "Spørgsmål",
+  "of": "af",
+  "submit": "Indsend",
+  "next": "Næste",
+  "finish": "Afslut",
+  "score": "Din score",
+  "correct": "Korrekt",
+  "incorrect": "Forkert",
+  "feedback": {
+    "excellent": "Fremragende! Du har en fremragende forståelse af dette emne.",
+    "good": "Godt! Du har en god forståelse af dette emne.",
+    "fair": "Rimeligt. Du har en grundlæggende forståelse, men der er plads til forbedring.",
+    "poor": "Dårligt. Du skal øve dig mere på dette emne."
+  }
+}

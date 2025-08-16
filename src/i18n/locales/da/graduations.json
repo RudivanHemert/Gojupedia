@@ -1,0 +1,32 @@
+{
+  "title": "Gradueringer",
+  "description": "Lær om karategrader og deres betydning",
+  "kyu": {
+    "10th": "10. kyu",
+    "9th": "9. kyu",
+    "8th": "8. kyu",
+    "7th": "7. kyu",
+    "6th": "6. kyu",
+    "5th": "5. kyu",
+    "4th": "4. kyu",
+    "3rd": "3. kyu",
+    "2nd": "2. kyu",
+    "1st": "1. kyu"
+  },
+  "dan": {
+    "1st": "1. dan",
+    "2nd": "2. dan",
+    "3rd": "3. dan",
+    "4th": "4. dan",
+    "5th": "5. dan"
+  },
+  "beltColors": {
+    "white": "Hvid",
+    "yellow": "Gul",
+    "orange": "Orange",
+    "green": "Grøn",
+    "blue": "Blå",
+    "brown": "Brun",
+    "black": "Sort"
+  }
+}

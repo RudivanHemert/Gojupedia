@@ -249,9 +249,46 @@ import ptKumite from './locales/pt/kumite.json';
 import ptJunbiUndo from './locales/pt/junbi-undo.json';
 import ptInformation from './locales/pt/information.json';
 
+// Import Danish translation files
+import daCommon from './locales/da/common.json';
+import daHome from './locales/da/home.json';
+import daTheory from './locales/da/theory.json';
+import daTerminology from './locales/da/terminology.json';
+import daHistory from './locales/da/history.json';
+import daPractice from './locales/da/practice.json';
+import daStudy from './locales/da/study.json';
+import daSettings from './locales/da/settings.json';
+import daAbout from './locales/da/about.json';
+import daKata from './locales/da/kata.json';
+// Import individual kata files for Danish
+import daSaifa from './locales/da/kata/saifa.json';
+import daGekisaiDaiIchi from './locales/da/kata/gekisai-dai-ichi.json';
+import daGekisaiDaiNi from './locales/da/kata/gekisai-dai-ni.json';
+import daSanchin from './locales/da/kata/sanchin.json';
+import daTensho from './locales/da/kata/tensho.json';
+import daSeiyunchin from './locales/da/kata/seiyunchin.json';
+import daShisochin from './locales/da/kata/shisochin.json';
+import daSanseru from './locales/da/kata/sanseru.json';
+import daSepai from './locales/da/kata/sepai.json';
+import daKururunfa from './locales/da/kata/kururunfa.json';
+import daSesan from './locales/da/kata/sesan.json';
+import daPeichurin from './locales/da/kata/peichurin.json';
+import daBunkai from './locales/da/bunkai.json';
+import daPhilosophy from './locales/da/philosophy.json';
+import daVitalPoints from './locales/da/vitalPoints.json';
+import daTechniques from './locales/da/techniques.json';
+import daGraduations from './locales/da/graduations.json';
+import daQuiz from './locales/da/quiz.json';
+import daHojoUndo from './locales/da/hojoUndo.json';
+import daNewaza from './locales/da/newaza.json';
+import daKumite from './locales/da/kumite.json';
+import daJunbiUndo from './locales/da/junbi-undo.json';
+import daInformation from './locales/da/information.json';
+
 // Define supported languages
 export const supportedLanguages = {
   en: 'English',
+  da: 'Dansk',
   de: 'Deutsch',
   es: 'Español',
   fr: 'Français',
@@ -543,12 +580,53 @@ const ptTranslations = {
   ...ptInformation,
 };
 
+const daTranslations = {
+  ...daCommon,
+  ...daHome,
+  ...daTheory,
+  ...daTerminology,
+  ...daHistory,
+  ...daPractice,
+  ...daStudy,
+  ...daSettings,
+  ...daAbout,
+  kata: {
+    ...daKata.kata,
+    saifa: daSaifa,
+    'gekisai-dai-ichi': daGekisaiDaiIchi,
+    'gekisai-dai-ni': daGekisaiDaiNi,
+    sanchin: daSanchin,
+    tensho: daTensho,
+    seiyunchin: daSeiyunchin,
+    shisochin: daShisochin,
+    sanseru: daSanseru,
+    sepai: daSepai,
+    kururunfa: daKururunfa,
+    sesan: daSesan,
+    peichurin: daPeichurin
+  },
+  kataTheoryDetailPage: daKata.kataTheoryDetailPage,
+  kataDetailPage: daKata.kataDetailPage,
+  ...daBunkai,
+  ...daPhilosophy,
+  ...daVitalPoints,
+  ...daTechniques,
+  ...daGraduations,
+  ...daQuiz,
+  hojoUndo: daHojoUndo,
+  ...daNewaza,
+  kumite: daKumite,
+  ...daJunbiUndo,
+  ...daInformation,
+};
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
       en: { translation: enTranslations },
+      da: { translation: daTranslations },
       de: { translation: deTranslations },
       es: { translation: esTranslations },
       fr: { translation: frTranslations },

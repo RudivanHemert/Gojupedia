@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "title": "Velkommen til Gojupedia",
+    "subtitle": "Din komplette guide til Goju-Ryu Karate",
+    "description": "Udforsk teknikker, kata, filosofi og historie bag denne ærværdige karatestil",
+    "cta": "Start din rejse",
+    "tagline": "Kraft og flydende bevægelse"
+  },
+  "introTitle": "Velkommen til Gojupedia",
+  "introText": "Gojupedia er din omfattende ressource for at lære og forstå Goju-Ryu Karate. Uanset om du er begynder eller avanceret praktiker, finder du her alt hvad du har brug for.",
+  "mainSections": "Hovedsektioner",
+  "popularSubsections": "Populære Undersektioner",
+  "viewSection": "Se sektion",
+  "sections": {
+    "theory": {
+      "title": "Teori",
+      "subtitle": "Filosofi, historie, terminologi og kata teori"
+    },
+    "practice": {
+      "title": "Praktik",
+      "subtitle": "Teknikker, kata, bunkai, kumite og hojo undo"
+    },
+    "study": {
+      "title": "Studie",
+      "subtitle": "Quizzer, flashcards og gradueringer"
+    },
+    "search": {
+      "title": "Søg",
+      "subtitle": "Søg gennem alt indhold og termer"
+    },
+    "about": {
+      "title": "Om",
+      "subtitle": "Om Gojupedia og Goju Ryu Karate"
+    }
+  },
+  "subsections": {
+    "philosophy": "Filosofi",
+    "techniques": "Teknikker",
+    "kata": "Kata",
+    "terminology": "Terminologi"
+  },
+  "miyagiQuote": "Karate er ikke kun en kampkunst, men en vej til at forbedre ens karakter",
+  "miyagiAuthor": "- Chojun Miyagi",
+  "studyAreas": {
+    "title": "Studieområder",
+    "description": "Udforsk forskellige aspekter af Goju-Ryu Karate",
+    "theory": {
+      "title": "Teori",
+      "description": "Lær om principperne og koncepterne bag Goju-Ryu"
+    },
+    "practice": {
+      "title": "Praktik",
+      "description": "Øv dig med interaktive kata og teknikker"
+    },
+    "history": {
+      "title": "Historie",
+      "description": "Udforsk rødderne og udviklingen af Goju-Ryu"
+    },
+    "philosophy": {
+      "title": "Filosofi",
+      "description": "Forstå de filosofiske principper bag karate"
+    }
+  }
+}

@@ -1,18 +1,64 @@
 {
-  "home": {
-    "welcome": "Bienvenue sur Goju Ryu Wiki",
-    "description": "Découvrez l'art du Karaté Goju Ryu",
-    "getStarted": "Commencer",
-    "heroSubtitle": "Goju Ryu Karate-Do",
-    "heroTagline": "La Voie Dure et Douce de la Main Vide",
-    "introTitle": "La Voie du Goju Ryu",
-    "introText": "Goju Ryu (剛柔流) est l'un des principaux styles traditionnels de karaté d'Okinawa, présentant une combinaison de techniques dures et douces. Développé par Chojun Miyagi au début du 20e siècle, cet art martial met l'accent à la fois sur la force et la fluidité du mouvement.",
-    "studyAreasTitle": "Domaines d'Étude",
-    "kataTheoryTitle": "Théorie des Kata",
-    "kataTheorySubtitle": "Principes et théorie derrière les formes traditionnelles",
-    "terminologyTitle": "Terminologie",
-    "terminologySubtitle": "Terminologie japonaise et vocabulaire",
-    "miyagiQuote": "Au karaté, frapper, pousser et donner des coups de pied ne sont pas les seules méthodes. Les techniques de projection et la pression contre les articulations sont incluses.",
-    "miyagiAuthor": "- Chojun Miyagi"
+  "hero": {
+    "title": "Bienvenue sur Gojupedia",
+    "subtitle": "Votre guide complet du Goju-Ryu Karate",
+    "description": "Explorez les techniques, kata, philosophie et histoire derrière ce style de karate vénérable",
+    "cta": "Commencez votre voyage",
+    "tagline": "Force et fluidité dans le mouvement"
+  },
+  "introTitle": "Bienvenue sur Gojupedia",
+  "introText": "Gojupedia est votre ressource complète pour apprendre et comprendre le Goju-Ryu Karate. Que vous soyez débutant ou pratiquant avancé, vous trouverez ici tout ce dont vous avez besoin.",
+  "mainSections": "Sections Principales",
+  "popularSubsections": "Sous-sections Populaires",
+  "viewSection": "Voir la section",
+  "sections": {
+    "theory": {
+      "title": "Théorie",
+      "subtitle": "Philosophie, histoire, terminologie et théorie du kata"
+    },
+    "practice": {
+      "title": "Pratique",
+      "subtitle": "Techniques, kata, bunkai, kumite et hojo undo"
+    },
+    "study": {
+      "title": "Étude",
+      "subtitle": "Quiz, cartes mémoire et graduations"
+    },
+    "search": {
+      "title": "Recherche",
+      "subtitle": "Recherchez dans tout le contenu et les termes"
+    },
+    "about": {
+      "title": "À propos",
+      "subtitle": "À propos de Gojupedia et du Goju Ryu Karate"
+    }
+  },
+  "subsections": {
+    "philosophy": "Philosophie",
+    "techniques": "Techniques",
+    "kata": "Kata",
+    "terminology": "Terminologie"
+  },
+  "miyagiQuote": "Le karate n'est pas seulement un art martial, mais un chemin pour améliorer son caractère",
+  "miyagiAuthor": "- Chojun Miyagi",
+  "studyAreas": {
+    "title": "Domaines d'Étude",
+    "description": "Explorez différents aspects du Goju-Ryu Karate",
+    "theory": {
+      "title": "Théorie",
+      "description": "Apprenez les principes et concepts derrière le Goju-Ryu"
+    },
+    "practice": {
+      "title": "Pratique",
+      "description": "Pratiquez avec des kata et techniques interactifs"
+    },
+    "history": {
+      "title": "Histoire",
+      "description": "Explorez les racines et le développement du Goju-Ryu"
+    },
+    "philosophy": {
+      "title": "Philosophie",
+      "description": "Comprenez les principes philosophiques derrière le karate"
+    }
   }
 } 

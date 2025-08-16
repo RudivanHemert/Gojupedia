@@ -1,0 +1,20 @@
+{
+  "title": "Indstillinger",
+  "language": {
+    "title": "Sprog",
+    "description": "Vælg dit foretrukne sprog"
+  },
+  "theme": {
+    "title": "Tema",
+    "description": "Vælg mørkt eller lyst tema",
+    "light": "Lyst",
+    "dark": "Mørkt",
+    "auto": "Automatisk"
+  },
+  "notifications": {
+    "title": "Notifikationer",
+    "description": "Administrer notifikationsindstillinger",
+    "enabled": "Aktiveret",
+    "disabled": "Deaktiveret"
+  }
+}

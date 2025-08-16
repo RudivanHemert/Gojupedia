@@ -1,0 +1,28 @@
+{
+  "title": "Studie",
+  "description": "Test din viden og forbedre din forståelse",
+  "testTypes": {
+    "quiz": "Quiz",
+    "flashcards": "Flashcards",
+    "matching": "Matchende spil"
+  },
+  "quiz": {
+    "start": "Start quiz",
+    "question": "Spørgsmål",
+    "of": "af",
+    "score": "Score",
+    "correct": "Korrekt",
+    "incorrect": "Forkert",
+    "feedback": {
+      "excellent": "Fremragende!",
+      "good": "Godt!",
+      "fair": "Rimeligt",
+      "poor": "Dårligt"
+    }
+  },
+  "difficulty": {
+    "beginner": "Begynder",
+    "intermediate": "Mellemniveau",
+    "advanced": "Avanceret"
+  }
+}

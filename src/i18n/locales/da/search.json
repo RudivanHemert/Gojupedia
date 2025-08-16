@@ -1,0 +1,17 @@
+{
+  "placeholder": "Søg efter teknikker, kata, eller andre emner...",
+  "filters": {
+    "title": "Filtre",
+    "category": "Kategori",
+    "difficulty": "Sværhedsgrad",
+    "clear": "Ryd filtre"
+  },
+  "results": {
+    "title": "Søgeresultater",
+    "noResults": "Ingen resultater fundet",
+    "suggestions": "Forslag til at forbedre din søgning:",
+    "suggestion1": "Tjek stavning",
+    "suggestion2": "Prøv andre søgeord",
+    "suggestion3": "Brug færre filtre"
+  }
+}
