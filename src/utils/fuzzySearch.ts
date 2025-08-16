@@ -84,7 +84,7 @@ class MultilingualFuzzySearch {
   }
 
   private initializeIndices(): void {
-    const supportedLanguages = ['en', 'nl', 'de', 'es', 'fr', 'it'];
+    const supportedLanguages = ['en', 'nl', 'de', 'es', 'fr', 'it', 'pt'];
     
     supportedLanguages.forEach(language => {
       const searchIndex = createSearchIndex(language);

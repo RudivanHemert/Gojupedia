@@ -1,0 +1,109 @@
+{
+  "title": "Kumite",
+  "description": "Aprenda sobre técnicas de luta e combate no karate",
+  "sections": {
+    "introduction": "Introdução",
+    "techniques": "Técnicas",
+    "principles": "Princípios",
+    "training": "Treinamento",
+    "competition": "Competição"
+  },
+  "introduction": {
+    "title": "Kumite: Luta no Karate",
+    "what-is": "O que é Kumite?",
+    "what-is-desc": "Entenda os fundamentos da luta no karate",
+    "types-title": "Tipos de Kumite",
+    "types-desc": "Diferentes formas de luta e seus propósitos",
+    "purpose": "Propósito do Kumite",
+    "safety-title": "Segurança e Regras",
+    "safety-desc": "Diretrizes essenciais de segurança e regras de competição",
+    "competition-rules": "Regras de Competição",
+    "training-progression": "Progressão do Treinamento",
+    "mental-aspects": "Aspectos Mentais",
+    "kumite-types": "Tipos de Kumite",
+    "progression-title": "Progressão do Treinamento",
+    "goals": "Objetivos",
+    "characteristics": "Características",
+    "definition": "Definição",
+    "importance": "Importância",
+    "goals-list": {
+      "practical-application": "Aplicação prática das técnicas",
+      "timing-distance": "Controle de tempo e distância",
+      "mental-discipline": "Disciplina mental e foco",
+      "physical-conditioning": "Condicionamento físico e resistência",
+      "tactical-thinking": "Pensamento tático e tomada de decisão"
+    },
+    "types": {
+      "ippon": {
+        "title": "Ippon Kumite (Luta de Um Passo)",
+        "description": "Ataques e defesas pré-arranjados",
+        "goals": {
+          "goal1": "Desenvolve tempo e distância",
+          "goal2": "Constrói confiança na aplicação da técnica",
+          "goal3": "Ensina padrões básicos de defesa"
+        },
+        "characteristics": {
+          "char1": "Um ataque, uma defesa",
+          "char2": "Execução controlada",
+          "char3": "Foco na técnica correta"
+        }
+      },
+      "sanbon": {
+        "title": "Sanbon Kumite (Luta de Três Passos)",
+        "description": "Sequências pré-arranjadas de três passos",
+        "goals": {
+          "goal1": "Desenvolve ritmo e coordenação",
+          "goal2": "Ensina distância e tempo adequados",
+          "goal3": "Constrói resistência"
+        },
+        "characteristics": {
+          "char1": "Três ataques consecutivos",
+          "char2": "Defesa controlada",
+          "char3": "Movimentos fluidos"
+        }
+      },
+      "gohon": {
+        "title": "Gohon Kumite (Luta de Cinco Passos)",
+        "description": "Sequências de cinco passos",
+        "goals": {
+          "goal1": "Combinações mais complexas",
+          "goal2": "Controle avançado de tempo e distância",
+          "goal3": "Desenvolve insight tático"
+        },
+        "characteristics": {
+          "char1": "Cinco ataques consecutivos",
+          "char2": "Técnicas de defesa variadas",
+          "char3": "Maior intensidade"
+        }
+      },
+      "jiyu": {
+        "title": "Jiyu Kumite (Luta Livre)",
+        "description": "Combate sem restrições",
+        "goals": {
+          "goal1": "Desenvolve espontaneidade e adaptabilidade",
+          "goal2": "Testa habilidades reais de luta",
+          "goal3": "Constrói autoconfiança"
+        },
+        "characteristics": {
+          "char1": "Ataques imprevisíveis",
+          "char2": "Defesa livre",
+          "char3": "Situações realistas de luta"
+        }
+      },
+      "shiai": {
+        "title": "Shiai Kumite (Luta de Competição)",
+        "description": "Combate competitivo baseado em regras",
+        "goals": {
+          "goal1": "Foco em marcar pontos",
+          "goal2": "Desenvolve pensamento tático",
+          "goal3": "Prepara para competições"
+        },
+        "characteristics": {
+          "char1": "Regras específicas de competição",
+          "char2": "Pontuação baseada em critérios",
+          "char3": "Foco na estratégia de competição"
+        }
+      }
+    }
+  }
+}

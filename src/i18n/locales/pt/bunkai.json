@@ -1,0 +1,68 @@
+{
+  "bunkai": {
+    "title": "Bunkai",
+    "description": "Aplicação e análise das técnicas do kata",
+    "overview": "Visão Geral",
+    "details": {
+      "attack": "Ataque",
+      "defense": "Defesa",
+      "counterAttack": "Contra-Ataque",
+      "footwork": "Trabalho de Pés",
+      "vitalPoints": "Pontos Vitais",
+      "notes": "Notas"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "O bunkai do Gekisai Dai Ichi foca em combinações básicas de bloqueio e golpe, introduzindo aplicações fundamentais de autodefesa."
+      },
+      "gekisai-dai-ni": {
+        "description": "O bunkai do Gekisai Dai Ni constrói sobre o primeiro kata com técnicas mais avançadas incluindo golpes com mão aberta e trabalho de pés aprimorado."
+      },
+      "saifa": {
+        "description": "O bunkai do Saifa enfatiza movimentos circulares e técnicas de combate corpo a corpo, incluindo aplicações de agarramento e rasgamento."
+      },
+      "seiyunchin": {
+        "description": "O bunkai do Seiyunchin foca em posturas baixas, técnicas poderosas de puxar e desequilibrar o oponente através de posicionamento estratégico."
+      },
+      "sepai": {
+        "description": "O bunkai do Sepai demonstra movimentos circulares e técnicas para desviar e redirecionar a força do oponente."
+      },
+      "shisochin": {
+        "description": "O bunkai do Shisochin apresenta movimentos em quatro direções com técnicas de mão aberta, chaves de articulação e golpes em pontos de pressão."
+      },
+      "sanseru": {
+        "description": "O bunkai do Sanseru inclui movimentos dinâmicos e golpes poderosos visando 36 pontos vitais por todo o corpo."
+      },
+      "kururunfa": {
+        "description": "O bunkai do Kururunfa enfatiza segurar e quebrar o equilíbrio, com golpes súbitos e rápidos e técnicas de combate corpo a corpo."
+      },
+      "sesan": {
+        "description": "O bunkai do Sesan foca em técnicas poderosas e diretas e luta corpo a corpo com posturas fortes e enraizamento."
+      },
+      "peichurin": {
+        "description": "O bunkai do Peichurin representa a culminação dos princípios do Goju Ryu com técnicas abrangentes e a sequência de kata mais longa."
+      },
+      "sanchin": {
+        "description": "O bunkai do Sanchin enfatiza coordenação da respiração, tensão muscular e desenvolvimento de energia interna através de movimentos controlados."
+      },
+      "tensho": {
+        "description": "O bunkai do Tensho foca em movimentos circulares e fluidos e técnicas de mão aberta representando o aspecto suave do Goju Ryu."
+      }
+    }
+  },
+  "bunkaiDetailPage": {
+    "kataNotFound": "Kata não encontrado",
+    "noBunkaiAvailable": "Nenhum Bunkai disponível para este kata.",
+    "videoTitle": "Vídeo do Bunkai",
+    "videoDescription": "Assista ao vídeo de demonstração do bunkai no YouTube.",
+    "watchOnYouTube": "Assistir no YouTube",
+    "noBunkaiDetails": "Nenhuma informação detalhada do Bunkai disponível.",
+    "attack": "Ataque",
+    "defense": "Defesa",
+    "counterAttack": "Contra-Ataque",
+    "footwork": "Trabalho de Pés",
+    "vitalPoints": "Pontos Vitais",
+    "notes": "Notas",
+    "viewAllBunkai": "Ver Bunkai Detalhado"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "title": "Hojo Undo (補助運動)",
+  "description": "Treinamento tradicional de força do Goju-ryu Karate-do",
+  "common": {
+    "back": "Voltar",
+    "mainFunctions": "Funções Principais",
+    "trainingEffects": "Efeitos do Treinamento",
+    "dimensions": "Dimensões",
+    "materials": "Materiais",
+    "weightRecommendations": "Recomendações de Peso",
+    "importantPoints": "Pontos Importantes",
+    "breathingTechniques": "Técnicas de Respiração",
+    "safetyGuidelines": "Diretrizes de Segurança",
+    "basicSeries": "Série Básica",
+    "advancedExercises": "Exercícios Avançados",
+    "practicalTips": "Dicas Práticas",
+    "exercises": "Exercícios",
+    "origin": "Origem",
+    "weight": "Peso",
+    "relatedSections": "Seções Relacionadas",
+    "quickAccess": "Acesso Rápido",
+    "viewCompleteOverview": "Ver Visão Geral Completa",
+    "learnFundamentals": "Aprenda os fundamentos",
+    "understandingPurpose": "Entenda o propósito e função",
+    "buildMaintain": "Construa e mantenha equipamentos",
+    "safetyTechnique": "Foco em segurança e técnica",
+    "specificExercises": "Exercícios e rotinas específicas",
+    "traditionalStrengthTraining": "Treinamento Tradicional de Força"
+  },
+  "categories": {
+    "introduction": "Introdução",
+    "primaryEquipment": "Equipamentos Principais"
+  },
+  "sections": {
+    "trainingSections": "Seções de Treinamento"
+  },
+  "introduction": {
+    "title": "Introdução",
+    "whatIs": "O que é Hojo Undo?",
+    "twoParts": "Dois componentes principais",
+    "strengthExercises": "Exercícios de força",
+    "hardeningExercises": "Exercícios de endurecimento",
+    "centralPrinciples": "Princípios centrais",
+    "historicalBackground": "Contexto histórico",
+    "trainingEffects": "Efeitos do treinamento",
+    "safetyGuidelines": "Diretrizes de segurança",
+    "content": {
+      "title": "Hojo Undo (補助運動): Treinamento Tradicional de Força",
+      "description": "Hojo undo, que literalmente significa 'treinamento de apoio', é uma parte essencial do sistema Okinawa Goju-ryu Karate-do.",
+      "twoMainComponents": {
+        "title": "Dois Componentes Principais",
+        "strengthExercises": {
+          "title": "Exercícios de Força",
+          "tools": [
+            "Chi ishi: Peso de alavanca de pedra",
+            "Nigiri game: Jarras de agarramento",
+            "Kongoken: Óvalo de ferro",
+            "Ishi sashi: Cadeados de pedra"
+          ]
+        },
+        "hardeningExercises": {
+          "title": "Exercícios de Endurecimento",
+          "tools": [
+            "Makiwara: Tábua de golpe",
+            "Suna bako: Balde de areia",
+            "Jari bako: Balde de cascalho",
+            "Tanren kumite: Exercícios de endurecimento com parceiro"
+          ]
+        }
+      },
+      "centralPrinciples": {
+        "title": "Princípios Centrais",
+        "description": "O núcleo do hojo undo é o uso coordenado do corpo, respiração e mente. Esta harmonização segue os mesmos princípios dos heishugata (Sanchin e Tensho)."
+      },
+      "historicalBackground": {
+        "title": "Contexto Histórico",
+        "description": "A maioria das ferramentas hojo undo são de origem chinesa. O kongoken foi descoberto por Chojun Miyagi no Havaí (1934)."
+      },
+      "trainingEffects": {
+        "title": "Efeitos do Treinamento",
+        "physical": [
+          "Desenvolvimento da força dos músculos e cadeias musculares",
+          "Melhoria da resistência de força",
+          "Desenvolvimento de habilidades motoras",
+          "Melhoria da postura e equilíbrio"
+        ],
+        "technical": [
+          "Melhoria do kata (kaishugata e heishugata)",
+          "Técnicas básicas mais poderosas e estáveis",
+          "Técnicas de luta mais eficazes"
+        ],
+        "mental": [
+          "Concentração e disciplina mental melhoradas",
+          "Desenvolvimento da força mental",
+          "Aumento da autoconfiança"
+        ]
+      },
+      "safetyGuidelines": {
+        "title": "Diretrizes de Segurança",
+        "points": [
+          "Sempre aqueça adequadamente antes do treinamento",
+          "Comece com pesos leves e aumente gradualmente",
+          "Mantenha a forma correta durante todos os exercícios",
+          "Pare imediatamente se sentir dor ou desconforto",
+          "Consulte um instrutor qualificado antes de começar"
+        ]
+      }
+    }
+  }
+}

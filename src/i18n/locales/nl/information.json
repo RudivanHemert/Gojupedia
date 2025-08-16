@@ -1,0 +1,102 @@
+{
+  "information": {
+    "title": "Informatie",
+    "description": "Blijf op de hoogte van evenementen en vind Goju-Ryu dojo's bij jou in de buurt",
+    "events": {
+      "title": "Evenementen",
+      "description": "Ontdek aankomende karate evenementen, toernooien, seminars en trainingskampen in jouw omgeving.",
+      "upcoming": {
+        "title": "Aankomende Evenementen",
+        "description": "Er zijn momenteel geen aankomende evenementen gepland. Kom binnenkort terug voor updates!"
+      },
+      "viewAll": "Bekijk Alle Evenementen",
+      "explore": "Verken Evenementen",
+      "pageTitle": "Evenementen",
+      "pageDescription": "Ontdek aankomende karate evenementen, toernooien, seminars en trainingskampen",
+      "filters": {
+        "title": "Filter Evenementen"
+      },
+      "types": {
+        "all": "Alle Evenementen",
+        "tournament": "Toernooien",
+        "seminar": "Seminars",
+        "training": "Trainingskampen",
+        "competition": "Wedstrijden"
+      },
+      "noEvents": {
+        "title": "Geen Evenementen Gevonden",
+        "description": "Geen evenementen komen overeen met je huidige filters. Probeer je selectie aan te passen of kom later terug voor nieuwe evenementen."
+      },
+      "date": "Datum",
+      "time": "Tijd",
+      "location": "Locatie",
+      "organizer": "Organisator",
+      "participants": "deelnemers",
+      "price": "Prijs",
+      "register": "Nu Aanmelden",
+      "visitWebsite": "Bezoek Website",
+      "contact": "Contact",
+      "registrationDeadline": "Aanmeldingsdeadline",
+      "cta": {
+        "title": "Organiseer je een Evenement?",
+        "description": "Organiseer je een Goju-Ryu evenement? Laat het ons weten en we helpen je het te promoten in onze gemeenschap.",
+        "submit": "Evenement Indienen"
+      }
+    },
+    "dojos": {
+      "title": "Goju-Ryu Dojo's",
+      "description": "Vind geautoriseerde Goju-Ryu dojo's in jouw omgeving. Elke dojo is gecertificeerd en volgt traditionele Goju-Ryu principes.",
+      "featured": {
+        "title": "Uitgelichte Dojo's",
+        "description": "Ontdek hoog gewaardeerde Goju-Ryu dojo's met ervaren instructeurs en uitgebreide trainingsprogramma's."
+      },
+      "findNearby": "Vind Dojo's Bij Mij In De Buurt",
+      "explore": "Verken Dojo's",
+      "pageTitle": "Goju-Ryu Dojo's",
+      "pageDescription": "Vind geautoriseerde Goju-Ryu dojo's in jouw omgeving met ervaren instructeurs",
+      "filters": {
+        "title": "Zoek & Filter Dojo's",
+        "city": "Stad",
+        "style": "Stijl",
+        "allCities": "Alle Steden",
+        "allStyles": "Alle Stijlen"
+      },
+      "search": {
+        "placeholder": "Zoek dojo's, instructeurs of programma's..."
+      },
+      "noResults": {
+        "title": "Geen Dojo's Gevonden",
+        "description": "Geen dojo's komen overeen met je huidige zoekcriteria. Probeer je filters of zoektermen aan te passen."
+      },
+      "instructor": "Instructeur",
+      "address": "Adres",
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "schedule": "Schema",
+      "programs": "Programma's",
+      "membership": "Lidmaatschap",
+      "contact": "Contact Dojo",
+      "visitWebsite": "Bezoek Website",
+      "getDirections": "Krijg Routebeschrijving",
+      "cta": {
+        "title": "Eigenaar van een Dojo?",
+        "description": "Ben je een Goju-Ryu dojo eigenaar of instructeur? Voeg je dojo toe aan onze directory om meer studenten te bereiken.",
+        "addDojo": "Voeg Je Dojo Toe"
+      }
+    },
+    "additional": {
+      "title": "Aanvullende Bronnen",
+      "news": {
+        "title": "Nieuws & Updates",
+        "description": "Blijf op de hoogte van het laatste nieuws uit de Goju-Ryu gemeenschap.",
+        "readMore": "Lees Meer"
+      },
+      "contact": {
+        "title": "Contact Opnemen",
+        "description": "Heb je vragen of heb je meer informatie nodig? Neem contact met ons op.",
+        "contact": "Contact"
+      }
+    }
+  }
+}
+

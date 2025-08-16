@@ -1,0 +1,109 @@
+{
+  "terminology": {
+    "title": "Terminologia do Karate",
+    "description": "Uma visão geral dos termos japoneses comuns usados no Karate e Goju-Ryu.",
+    "sections": {
+      "general-terms": "Termos Gerais",
+      "numbers": "Números",
+      "tournament-terms": "Terminologia de Torneio",
+      "equipment-weapons": "Equipamentos e Armas",
+      "karate-goju-ryu": "Terminologia do Karate e Goju Ryu",
+      "karate-titles": "Títulos do Karate",
+      "phrases-etiquette": "Frases e Etiqueta",
+      "kata-terms": "Terminologia do Kata",
+      "blocks": "Bloqueios",
+      "kicks": "Chutes",
+      "punches": "Socos",
+      "stances": "Posturas",
+      "strikes": "Golpes",
+      "vital-points": "Pontos Vitais",
+      "tournament-terms-content": {
+        "description": "Termos comumente usados em configurações de torneio de karate.",
+        "scoringTitle": "Pontuação",
+        "penaltiesTitle": "Penalidades",
+        "terms": {
+          "ippon": "Um Ponto",
+          "waza-ari": "Meio Ponto",
+          "aiuchi": "Pontos Simultâneos",
+          "torimasen": "Sem Ponto",
+          "hikiwake": "Empate",
+          "kachi": "Vitória",
+          "hansoku": "Falta",
+          "chui": "Advertência",
+          "shikkaku": "Desqualificação",
+          "hantei": "Decisão/Julgamento",
+          "encho-sen": "Rodada de Extensão",
+          "fukushin-shugo": "Conferência dos Juízes",
+          "keikoku": "Advertência Oficial (penalidade)",
+          "shobu-hajime": "Iniciar Partida",
+          "yame": "Parar Partida",
+          "tsuzukete-hajime": "Retomar Partida (após interrupção)",
+          "aka-no-kachi": "Vitória do Vermelho",
+          "ao-no-kachi": "Vitória do Azul"
+        },
+        "officialsTitle": "Oficiais do Torneio",
+        "officialsTerms": {
+          "shushin": "Árbitro",
+          "fukushin": "Juiz",
+          "kansa": "Árbitro"
+        },
+        "commandsTitle": "Comandos",
+        "commandsTerms": {
+          "hajime": "Começar",
+          "yame": "Parar",
+          "tsuzukete": "Continuar",
+          "moto-no-ichi": "Retornar à Posição Inicial",
+          "sore-made": "Fim da Partida",
+          "atoshi-baraku": "30 Segundos Restantes"
+        },
+        "otherTitle": "Outros Termos",
+        "otherTerms": {
+          "shiai": "Partida",
+          "jogai": "Saída da Área de Luta",
+          "ma-ai-ga-to": "Distância Imprópria",
+          "ukete-iru": "Bloqueado",
+          "nukete-iru": "Fora do Alvo",
+          "fujubun": "Poder Insuficiente",
+          "yowai": "Foco Fraco"
+        }
+      },
+      "general-terms-content": {
+        "description": "Termos japoneses comumente usados em um contexto de artes marciais.",
+        "terms": {
+          "dojo": { "name": "Dojo", "japanese": "道場", "english": "Sala de treinamento, lugar do caminho" },
+          "sensei": { "name": "Sensei", "japanese": "先生", "english": "Professor, instrutor (aquele que veio antes)" },
+          "sempai": { "name": "Sempai", "japanese": "先輩", "english": "Aluno sênior" },
+          "kohai": { "name": "Kohai", "japanese": "後輩", "english": "Aluno júnior" },
+          "obi": { "name": "Obi", "japanese": "帯", "english": "Faixa" },
+          "gi": { "name": "Gi / Dogi", "japanese": "着 / 道着", "english": "Uniforme de treinamento" },
+          "kiai": { "name": "Kiai", "japanese": "気合", "english": "Grito de espírito, foco de energia" },
+          "reishiki": { "name": "Reishiki", "japanese": "礼式", "english": "Etiqueta, maneiras" }
+        }
+      },
+      "numbers-content": {
+        "description": "Sistema de numeração japonês usado para contar no treinamento.",
+        "terms": {
+          "ichi": { "name": "Ichi", "japanese": "一", "english": "Um" },
+          "ni": { "name": "Ni", "japanese": "二", "english": "Dois" },
+          "san": { "name": "San", "japanese": "三", "english": "Três" },
+          "shi": { "name": "Shi / Yon", "japanese": "四", "english": "Quatro" },
+          "go": { "name": "Go", "japanese": "五", "english": "Cinco" },
+          "roku": { "name": "Roku", "japanese": "六", "english": "Seis" },
+          "shichi": { "name": "Shichi / Nana", "japanese": "七", "english": "Sete" },
+          "hachi": { "name": "Hachi", "japanese": "八", "english": "Oito" },
+          "ku": { "name": "Ku / Kyu", "japanese": "九", "english": "Nove" },
+          "ju": { "name": "Ju", "japanese": "十", "english": "Dez" }
+        }
+      },
+      "equipment-weapons-content": {
+        "description": "Termos relacionados a equipamentos de treinamento e armas tradicionais okinawanas às vezes associadas à prática do Karate.",
+        "terms": {
+          "makiwara": { "name": "Makiwara", "japanese": "巻藁", "english": "Tábua de golpe para treinamento" },
+          "chi-ishi": { "name": "Chi-ishi", "japanese": "力石", "english": "Pedra de força para treinamento" },
+          "nigiri-game": { "name": "Nigiri-game", "japanese": "握り甕", "english": "Jarras de agarramento" },
+          "kongoken": { "name": "Kongoken", "japanese": "金剛圏", "english": "Óvalo de ferro para treinamento" }
+        }
+      }
+    }
+  }
+}

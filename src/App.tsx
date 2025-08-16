@@ -68,6 +68,11 @@ import NewazaKakie from './pages/newaza/Kakie';
 import NewazaTechniques from './pages/newaza/Techniques';
 import NewazaDrills from './pages/newaza/Drills';
 
+// Import Information pages
+import InformationPage from './pages/InformationPage';
+import EventsPage from './pages/information/EventsPage';
+import DojosPage from './pages/information/DojosPage';
+
 // Import the generic markdown page component
 import MarkdownContentPage from './pages/MarkdownContentPage';
 
@@ -261,6 +266,12 @@ const AppContent = React.memo(() => {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/search" element={<SearchPage />} />
               <Route path="/junbi-undo" element={<JunbiUndoPage />} />
+              
+              {/* Information Routes */}
+              <Route path="/information" element={<InformationPage />} />
+              <Route path="/information/events" element={<EventsPage />} />
+              <Route path="/information/dojos" element={<DojosPage />} />
+              
               <Route path="*" element={<NotFound />} />
             </Routes>
       </SidebarLayout>

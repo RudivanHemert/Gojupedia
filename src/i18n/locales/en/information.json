@@ -1,0 +1,102 @@
+{
+  "information": {
+    "title": "Information",
+    "description": "Stay updated with events and find Goju-Ryu dojos near you",
+    "events": {
+      "title": "Events",
+      "description": "Discover upcoming karate events, tournaments, seminars, and training camps in your area.",
+      "upcoming": {
+        "title": "Upcoming Events",
+        "description": "No upcoming events scheduled at the moment. Check back soon for updates!"
+      },
+      "viewAll": "View All Events",
+      "explore": "Explore Events",
+      "pageTitle": "Events",
+      "pageDescription": "Discover upcoming karate events, tournaments, seminars, and training camps",
+      "filters": {
+        "title": "Filter Events"
+      },
+      "types": {
+        "all": "All Events",
+        "tournament": "Tournaments",
+        "seminar": "Seminars",
+        "training": "Training Camps",
+        "competition": "Competitions"
+      },
+      "noEvents": {
+        "title": "No Events Found",
+        "description": "No events match your current filters. Try adjusting your selection or check back later for new events."
+      },
+      "date": "Date",
+      "time": "Time",
+      "location": "Location",
+      "organizer": "Organizer",
+      "participants": "participants",
+      "price": "Price",
+      "register": "Register Now",
+      "visitWebsite": "Visit Website",
+      "contact": "Contact",
+      "registrationDeadline": "Registration Deadline",
+      "cta": {
+        "title": "Hosting an Event?",
+        "description": "Are you organizing a Goju-Ryu event? Let us know and we'll help promote it to our community.",
+        "submit": "Submit Event"
+      }
+    },
+    "dojos": {
+      "title": "Goju-Ryu Dojos",
+      "description": "Find authorized Goju-Ryu dojos in your area. Each dojo is certified and follows traditional Goju-Ryu principles.",
+      "featured": {
+        "title": "Featured Dojos",
+        "description": "Discover top-rated Goju-Ryu dojos with experienced instructors and comprehensive training programs."
+      },
+      "findNearby": "Find Dojos Near Me",
+      "explore": "Explore Dojos",
+      "pageTitle": "Goju-Ryu Dojos",
+      "pageDescription": "Find authorized Goju-Ryu dojos in your area with experienced instructors",
+      "filters": {
+        "title": "Search & Filter Dojos",
+        "city": "City",
+        "style": "Style",
+        "allCities": "All Cities",
+        "allStyles": "All Styles"
+      },
+      "search": {
+        "placeholder": "Search dojos, instructors, or programs..."
+      },
+      "noResults": {
+        "title": "No Dojos Found",
+        "description": "No dojos match your current search criteria. Try adjusting your filters or search terms."
+      },
+      "instructor": "Instructor",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "schedule": "Schedule",
+      "programs": "Programs",
+      "membership": "Membership",
+      "contact": "Contact Dojo",
+      "visitWebsite": "Visit Website",
+      "getDirections": "Get Directions",
+      "cta": {
+        "title": "Own a Dojo?",
+        "description": "Are you a Goju-Ryu dojo owner or instructor? Add your dojo to our directory to reach more students.",
+        "addDojo": "Add Your Dojo"
+      }
+    },
+    "additional": {
+      "title": "Additional Resources",
+      "news": {
+        "title": "News & Updates",
+        "description": "Stay informed with the latest news from the Goju-Ryu community.",
+        "readMore": "Read More"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have questions or need more information? Get in touch with us.",
+        "contact": "Contact"
+      }
+    }
+  }
+}
+

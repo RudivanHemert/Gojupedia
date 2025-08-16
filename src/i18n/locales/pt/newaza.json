@@ -1,0 +1,64 @@
+{
+  "newaza": {
+    "title": "Newaza (Luta no Chão)",
+    "description": "Técnicas e princípios de luta no chão do Goju Ryu",
+    "sections": {
+      "introduction": {
+        "title": "Introdução",
+        "description": "Fundamentos e filosofia do Newaza"
+      },
+      "training-elements": {
+        "title": "Elementos de Treinamento",
+        "description": "Exercícios preparatórios e treinamento básico"
+      },
+      "ground-positions": {
+        "title": "Posições no Chão",
+        "description": "Posições, movimentos e controle"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Exercícios de Kakie para luta no chão"
+      },
+      "techniques": {
+        "title": "Técnicas",
+        "description": "Técnicas e aplicações de luta no chão"
+      },
+      "drills": {
+        "title": "Exercícios e Treinos",
+        "description": "Exercícios com parceiro e randori"
+      }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Luta no Chão)",
+        "subtitle": "Introdução",
+        "description": "O Goju-ryu tem muitas técnicas tradicionais onde o oponente é derrubado no chão. Como continuação, golpes decisivos ou chaves de articulação são aplicados para deter o oponente em seu comportamento agressivo."
+      },
+      "training-elements": {
+        "title": "Elementos de Treinamento para Newaza",
+        "subtitle": "Exercícios preparatórios e métodos de treinamento básico"
+      },
+      "ground-positions": {
+        "title": "Posições e Movimentos no Chão",
+        "subtitle": "Posições, movimentos e técnicas de controle"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Exercícios de Kakie adaptados para luta no chão"
+      },
+      "techniques": {
+        "title": "Técnicas de Luta no Chão",
+        "subtitle": "Técnicas Go e Ju para luta no chão"
+      },
+      "drills": {
+        "title": "Exercícios e Treinos",
+        "subtitle": "Prática com parceiro e métodos de treinamento"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Voltar ao Newaza",
+      "loading": "Carregando...",
+      "contentError": "O conteúdo não pôde ser carregado."
+    }
+  }
+}

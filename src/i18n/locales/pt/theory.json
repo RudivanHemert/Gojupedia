@@ -1,0 +1,39 @@
+{
+  "theory": {
+    "title": "Teoria",
+    "description": "Princípios e conhecimento do Goju Ryu",
+    "terminology": "Terminologia",
+    "terminologyDesc": "Terminologia e vocabulário japonês usado no Goju Ryu",
+    "history": "História",
+    "historyDesc": "As origens e evolução do Goju Ryu Karate",
+    "philosophy": "Filosofia",
+    "philosophyDesc": "Princípios e valores fundamentais do Goju Ryu",
+    "kata": "Teoria do Kata",
+    "kataDesc": "Princípios e teoria por trás das formas tradicionais",
+    "vitalPoints": "Pontos Vitais",
+    "vitalPointsDesc": "Estudo dos pontos de pressão e áreas vulneráveis",
+    "nav": {
+      "terminologyNav": "Terminologia",
+      "history": "História",
+      "philosophy": "Filosofia",
+      "kata": "Kata",
+      "vitalPoints": "Pontos Vitais",
+      "gradings": "Graduações"
+    }
+  },
+  "kata.theory": {
+    "title": "Teoria do Kata",
+    "description": "Estudo aprofundado dos princípios e conceitos por trás dos kata do Goju Ryu.",
+    "sections": {
+      "what-are-kata": "O que são Kata?",
+      "kata-and-karate": "Kata e Karate",
+      "bunkai-and-techniques": "Bunkai e Técnicas",
+      "kata-origins": "Origens do Kata",
+      "power-and-movement": "Poder e Movimento",
+      "sources-of-power": "Fontes de Poder",
+      "okinawan-concepts": "Conceitos Okinawanos",
+      "power-transfer": "Transferência de Poder",
+      "kata-techniques": "Técnicas do Kata"
+    }
+  }
+}

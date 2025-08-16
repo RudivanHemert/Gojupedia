@@ -1,0 +1,99 @@
+{
+  "techniques": {
+    "title": "Técnicas",
+    "description": "Técnicas fundamentais do Goju Ryu Karate",
+    "sections": {
+      "blocks": "Bloqueios",
+      "kicks": "Chutes",
+      "punches": "Socos",
+      "stances": "Posturas",
+      "strikes": "Golpes",
+      "warmup": "Aquecimento"
+    }
+  },
+  "stances": {
+    "musubiDachi": {
+      "title": "Musubi Dachi",
+      "description": "Postura formal com calcanhares juntos"
+    },
+    "sanchinDachi": {
+      "title": "Sanchin Dachi",
+      "description": "Postura poderosa para os kata Sanchin e Tensho"
+    },
+    "zenkutsuDachi": {
+      "title": "Zenkutsu Dachi",
+      "description": "Postura de ataque frontal"
+    },
+    "shikoDachi": {
+      "title": "Shiko Dachi",
+      "description": "Postura larga para combate corpo a corpo"
+    },
+    "nekoAshiDachi": {
+      "title": "Neko Ashi Dachi",
+      "description": "Postura do gato para defesa"
+    }
+  },
+  "punches": {
+    "seikenZuki": {
+      "title": "Seiken Zuki",
+      "description": "Soco com punho fechado"
+    },
+    "gyakuZuki": {
+      "title": "Gyaku Zuki",
+      "description": "Soco reverso com mão traseira"
+    },
+    "oiZuki": {
+      "title": "Oi Zuki",
+      "description": "Soco de investida"
+    }
+  },
+  "kicks": {
+    "maeGeri": {
+      "title": "Mae Geri",
+      "description": "Chute frontal"
+    },
+    "yokoGeri": {
+      "title": "Yoko Geri",
+      "description": "Chute lateral"
+    },
+    "ushiroGeri": {
+      "title": "Ushiro Geri",
+      "description": "Chute traseiro"
+    }
+  },
+  "blocks": {
+    "ageUke": {
+      "title": "Age Uke",
+      "description": "Bloqueio ascendente"
+    },
+    "sotoUke": {
+      "title": "Soto Uke",
+      "description": "Bloqueio de fora para dentro"
+    },
+    "gedanBarai": {
+      "title": "Gedan Barai",
+      "description": "Bloqueio descendente"
+    }
+  },
+  "hoeiJuku": {
+    "stances": {
+      "title": "Posturas Hoei Juku",
+      "description": "Posturas detalhadas do manual de treinamento",
+      "keyPoints": "Pontos-chave para todas as posturas",
+      "trainingTips": "Dicas de treinamento"
+    },
+    "warmup": {
+      "title": "Aquecimento Hoei Juku",
+      "description": "Exercícios de aquecimento desenvolvidos pelo Mestre Miyagi",
+      "purpose": "Propósito do aquecimento",
+      "meditation": "Meditação (Mokuso)",
+      "sequence": "Sequência de aquecimento",
+      "strength": "Exercícios de força e resistência",
+      "breathing": "Respiração durante os exercícios",
+      "warmdown": "Desaquecimento",
+      "additional": "Treinamento adicional",
+      "principles": "Princípios-chave",
+      "benefits": "Benefícios"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "study": {
+    "title": "Seção de Estudo",
+    "description": "Lições interativas e questionários para aprimorar seu conhecimento",
+    "testTypes": {
+      "quiz": "Questionário",
+      "flashcards": "Cartões de Estudo",
+      "matching": "Correspondência"
+    },
+    "quizzes": {
+      "title": "Questionários",
+      "description": "Teste seu conhecimento sobre vários tópicos"
+    },
+    "quizDesc": "Teste seu conhecimento sobre vários tópicos.",
+    "noQuizzes": "Nenhum questionário disponível no momento.",
+    "noFlashcards": "Nenhum conjunto de cartões de estudo disponível no momento.",
+    "noMatching": "Nenhum exercício de correspondência disponível no momento.",
+    "flashcards": {
+      "title": "Cartões de Estudo",
+      "description": "Revise termos e conceitos com cartões de estudo"
+    },
+    "flashcardDesc": "Revise termos e conceitos com cartões de estudo.",
+    "matching": {
+      "title": "Correspondência",
+      "description": "Combine termos e conceitos entre si"
+    },
+    "matchingDesc": "Combine termos e conceitos entre si.",
+    "tests": "Testes",
+    "startStudy": "Começar a Estudar",
+    "pageHeaderTitle": "Estudo",
+    "pageHeaderDescription": "Teste seu conhecimento e pratique técnicas",
+    "studySectionTitle": "Materiais de Estudo",
+    "studySectionDescription": "Escolha como você gostaria de estudar técnicas e conceitos do Goju Ryu.",
+    "quizzesCardTitle": "Questionários",
+    "quizzesCardDescription": "Teste seu conhecimento com questionários interativos",
+    "flashcardsCardTitle": "Cartões de Estudo",
+    "flashcardsCardDescription": "Pratique terminologia e conceitos",
+    "matchingCardTitle": "Correspondência",
+    "matchingCardDescription": "Combine termos e conceitos",
+    "loading": "Carregando material de estudo...",
+    "completed": "Estudo Concluído!",
+    "tapToFlip": "Toque para virar",
+    "notFound": {
+      "title": "Estudo não encontrado",
+      "description": "O estudo solicitado não pôde ser encontrado."
+    },
+    "questions": "perguntas",
+    "cards": "cartões",
+    "pairs": "pares",
+    "category": "Categoria",
+    "start": "Começar",
+    "quiz": "Questionário",
+    "flashcards": "Cartões de Estudo",
+    "matching": "Correspondência",
+    "startQuiz": "Iniciar Questionário",
+    "startFlashcards": "Iniciar Cartões de Estudo",
+    "startMatching": "Iniciar Correspondência",
+    "techniques": "Técnicas",
+    "kata": "Kata",
+    "philosophy": "Filosofia",
+    "kumite": "Kumite",
+    "terminologyNav": "Terminologia",
+    "difficulty": {
+      "beginner": "Iniciante",
+      "intermediate": "Intermediário",
+      "advanced": "Avançado"
+    },
+    "quizTypes": {
+      "stances": {
+        "title": "Questionário de Posturas",
+        "description": "Teste seu conhecimento sobre posturas."
+      },
+      "kicks": {
+        "title": "Questionário de Chutes",
+        "description": "Teste seu conhecimento sobre chutes."
+      },
+      "punches": {
+        "title": "Questionário de Socos",
+        "description": "Teste seu conhecimento sobre socos."
+      },
+      "blocks": {
+        "title": "Questionário de Bloqueios",
+        "description": "Teste seu conhecimento sobre bloqueios."
+      },
+      "kata": {
+        "title": "Questionário de Kata",
+        "description": "Teste seu conhecimento sobre kata."
+      },
+      "philosophy": {
+        "title": "Questionário de Filosofia",
+        "description": "Teste seu conhecimento sobre a filosofia do Goju Ryu."
+      },
+      "kumite": {
+        "title": "Questionário de Kumite",
+        "description": "Teste seu conhecimento sobre kumite."
+      },
+      "history-origins": {
+        "title": "Questionário de História e Origens",
+        "description": "Pessoas, lugares e origens importantes do Goju Ryu."
+      }
+    }
+  }
+}

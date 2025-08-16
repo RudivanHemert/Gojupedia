@@ -1,0 +1,130 @@
+{
+  "kata": {
+    "theory": {
+      "title": "Teoria do Kata",
+      "description": "Entendendo os princípios e prática do kata",
+      "sections": {
+        "what-are-kata": "O que são Kata?",
+        "kata-and-karate": "Kata e Karate",
+        "bunkai-and-techniques": "Bunkai e Técnicas",
+        "kata-origins": "Origens do Kata",
+        "power-and-movement": "Poder e Movimento",
+        "sources-of-power": "Fontes de Poder",
+        "okinawan-concepts": "Conceitos Okinawanos",
+        "power-transfer": "Transferência de Poder",
+        "kata-techniques": "Técnicas do Kata"
+      }
+    },
+    "categories": {
+      "kaishugata": "Kaishugata (開手型)",
+      "kaishugataDescription": "Formas de Mão Aberta - Os kata de luta principais do Goju Ryu, enfatizando aplicações práticas de combate e movimentos dinâmicos.",
+      "heishugata": "Heishugata (閉手型)",
+      "heishugataDescription": "Formas de Mão Fechada - Os kata fundamentais focando na respiração, tensão e desenvolvimento de energia interna."
+    },
+    "levels": {
+      "beginner": "Iniciante",
+      "intermediate": "Intermediário",
+      "advanced": "Avançado",
+      "master": "Mestre"
+    },
+    "sanchin": {
+      "name": "Sanchin",
+      "japaneseName": "三戦",
+      "meaning": "Três Batalhas",
+      "description": "O kata fundamental do Goju Ryu, focando na respiração, tensão e movimentos básicos.",
+      "history": "Passado por Kanryo Higaonna e desenvolvido por Chojun Miyagi.",
+      "culturalSignificance": "Representa a essência do Goju Ryu e a conexão da mente, corpo e respiração.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Posição inicial e passo para frente",
+          "description": "Comece em postura natural voltado para frente"
+        },
+        "step2": {
+          "title": "Três socos",
+          "description": "Dê um passo para frente em sanchin dachi"
+        },
+        "step3": {
+          "title": "Gire 180 graus",
+          "description": "Execute três socos mantendo a respiração adequada"
+        },
+        "step4": {
+          "title": "Continue a sequência",
+          "description": "Gire 180 graus mantendo a tensão"
+        },
+        "step5": {
+          "title": "Mantenha a tensão muscular",
+          "description": "Continue a sequência com movimentos controlados e respiração"
+        },
+        "step6": {
+          "title": "Conclusão",
+          "description": "Mantenha a tensão muscular durante toda a forma"
+        }
+      }
+    },
+    "tensho": {
+      "name": "Tensho", 
+      "japaneseName": "転掌",
+      "meaning": "Palmas Rotativas",
+      "description": "Um kata fluido que enfatiza os aspectos suaves do Goju Ryu.",
+      "history": "Criado por Chojun Miyagi como complemento ao Sanchin.",
+      "culturalSignificance": "Representa o aspecto 'ju' (suave) do Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Comece em postura sanchin",
+          "description": "Comece na postura fundamental sanchin"
+        },
+        "step2": {
+          "title": "Técnicas circulares de mão aberta",
+          "description": "Execute técnicas circulares de mão aberta"
+        },
+        "step3": {
+          "title": "Mantenha a tensão muscular",
+          "description": "Mantenha a tensão muscular durante todo o kata"
+        },
+        "step4": {
+          "title": "Movimentos circulares fluidos",
+          "description": "Foque em movimentos fluidos e circulares"
+        },
+        "step5": {
+          "title": "Respiração adequada",
+          "description": "Mantenha a respiração adequada durante todo o kata"
+        }
+      }
+    },
+    "gekisai-dai-ichi": {
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Atacar e Despedaçar",
+      "description": "O primeiro kata da série Gekisai, projetado para introduzir técnicas e princípios básicos do Goju Ryu."
+    }
+  },
+  "kataTheoryDetailPage": {
+    "title": "Teoria do Kata",
+    "description": "Entendendo os princípios e prática do kata",
+    "sections": {
+      "what-are-kata": "O que são Kata?",
+      "kata-and-karate": "Kata e Karate",
+      "bunkai-and-techniques": "Bunkai e Técnicas",
+      "kata-origins": "Origens do Kata",
+      "power-and-movement": "Poder e Movimento",
+      "sources-of-power": "Fontes de Poder",
+      "okinawan-concepts": "Conceitos Okinawanos",
+      "power-transfer": "Transferência de Poder",
+      "kata-techniques": "Técnicas do Kata"
+    }
+  },
+  "kataDetailPage": {
+    "title": "Detalhes do Kata",
+    "description": "Informações detalhadas sobre cada kata",
+    "steps": "Passos",
+    "techniques": "Técnicas",
+    "bunkai": "Bunkai",
+    "history": "História",
+    "meaning": "Significado",
+    "japaneseName": "Nome Japonês",
+    "level": "Nível",
+    "category": "Categoria"
+  }
+}

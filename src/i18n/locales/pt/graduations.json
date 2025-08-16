@@ -1,0 +1,118 @@
+{
+  "graduations": {
+    "title": "Graduações e Faixas",
+    "description": "Visão geral das diferentes faixas, graus e títulos dentro do Goju Ryu Karate.",
+    "basicRequirements": "Requisitos Básicos",
+    "minimumClasses": "Aulas Mínimas",
+    "monthsTraining": "Meses de Treinamento",
+    "techniques": "Técnicas",
+    "knowledgeTerminology": "Conhecimento e Terminologia",
+    "history": "História",
+    "months": "meses",
+    "classes": "aulas",
+    "sections": {
+      "ranks": {
+        "title": "Faixas e Graus",
+        "description": "O sistema de graduação no Goju Ryu Karate",
+        "kyu": {
+          "name": "Kyu",
+          "japanese": "級",
+          "description": "Kyu (faixa colorida, abaixo da faixa preta)"
+        },
+        "dan": {
+          "name": "Dan",
+          "japanese": "段",
+          "description": "Dan (faixas pretas)"
+        },
+        "ranks": {
+          "shodan": {
+            "name": "Shodan",
+            "japanese": "初段",
+            "description": "Primeiro Dan (primeiro nível de faixa preta)"
+          },
+          "nidan": {
+            "name": "Nidan",
+            "japanese": "二段",
+            "description": "Segundo Dan"
+          },
+          "sandan": {
+            "name": "Sandan",
+            "japanese": "三段",
+            "description": "Terceiro Dan"
+          },
+          "yondan": {
+            "name": "Yondan",
+            "japanese": "四段",
+            "description": "Quarto Dan"
+          },
+          "godan": {
+            "name": "Godan",
+            "japanese": "五段",
+            "description": "Quinto Dan"
+          },
+          "rokudan": {
+            "name": "Rokudan",
+            "japanese": "六段",
+            "description": "Sexto Dan"
+          },
+          "nanadan": {
+            "name": "Nanadan",
+            "japanese": "七段",
+            "description": "Sétimo Dan"
+          },
+          "hachidan": {
+            "name": "Hachidan",
+            "japanese": "八段",
+            "description": "Oitavo Dan"
+          },
+          "kudan": {
+            "name": "Kudan",
+            "japanese": "九段",
+            "description": "Nono Dan"
+          },
+          "judan": {
+            "name": "Judan",
+            "japanese": "十段",
+            "description": "Décimo Dan"
+          }
+        }
+      },
+      "beltColors": {
+        "title": "Cores das Faixas (Graus Kyu)",
+        "description": "As diferentes cores dos graus kyu",
+        "colors": {
+          "white": {
+            "name": "Branca",
+            "japanese": "白帯",
+            "description": "Iniciante - pureza e prontidão para aprender"
+          },
+          "yellow": {
+            "name": "Amarela",
+            "japanese": "黄帯",
+            "description": "Primeiro passo - o sol nascente"
+          },
+          "orange": {
+            "name": "Laranja",
+            "japanese": "橙帯",
+            "description": "O sol se torna mais forte"
+          },
+          "green": {
+            "name": "Verde",
+            "japanese": "緑帯",
+            "description": "Crescimento e desenvolvimento"
+          },
+          "blue": {
+            "name": "Azul",
+            "japanese": "青帯",
+            "description": "O céu - expansão do conhecimento"
+          },
+          "brown": {
+            "name": "Marrom",
+            "japanese": "茶帯",
+            "description": "Maturidade e estabilidade"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "information": {
+    "title": "Informações",
+    "description": "Mantenha-se atualizado com eventos e encontre dojos Goju-Ryu perto de você",
+    "events": {
+      "title": "Eventos",
+      "description": "Descubra eventos de karate, torneios, seminários e acampamentos de treinamento na sua área.",
+      "upcoming": {
+        "title": "Próximos Eventos",
+        "description": "Nenhum evento próximo agendado no momento. Volte em breve para atualizações!"
+      },
+      "viewAll": "Ver Todos os Eventos",
+      "explore": "Explorar Eventos",
+      "pageTitle": "Eventos",
+      "pageDescription": "Descubra eventos de karate, torneios, seminários e acampamentos de treinamento",
+      "filters": {
+        "title": "Filtrar Eventos"
+      },
+      "types": {
+        "all": "Todos os Eventos",
+        "tournament": "Torneios",
+        "seminar": "Seminários",
+        "training": "Acampamentos de Treinamento",
+        "competition": "Competições"
+      },
+      "noEvents": {
+        "title": "Nenhum Evento Encontrado",
+        "description": "Nenhum evento corresponde aos seus filtros atuais. Tente ajustar sua seleção ou volte mais tarde para novos eventos."
+      },
+      "date": "Data",
+      "time": "Horário",
+      "location": "Local",
+      "organizer": "Organizador",
+      "participants": "participantes",
+      "price": "Preço",
+      "register": "Inscrever-se Agora",
+      "visitWebsite": "Visitar Site",
+      "contact": "Contato",
+      "registrationDeadline": "Prazo de Inscrição",
+      "cta": {
+        "title": "Organizando um Evento?",
+        "description": "Você está organizando um evento Goju-Ryu? Nos informe e ajudaremos a promovê-lo para nossa comunidade.",
+        "submit": "Enviar Evento"
+      }
+    },
+    "dojos": {
+      "title": "Dojos Goju-Ryu",
+      "description": "Encontre dojos Goju-Ryu autorizados na sua área. Cada dojo é certificado e segue os princípios tradicionais do Goju-Ryu.",
+      "featured": {
+        "title": "Dojos em Destaque",
+        "description": "Descubra dojos Goju-Ryu bem avaliados com instrutores experientes e programas de treinamento abrangentes."
+      },
+      "findNearby": "Encontrar Dojos Próximos",
+      "explore": "Explorar Dojos",
+      "pageTitle": "Dojos Goju-Ryu",
+      "pageDescription": "Encontre dojos Goju-Ryu autorizados na sua área com instrutores experientes",
+      "filters": {
+        "title": "Pesquisar e Filtrar Dojos",
+        "city": "Cidade",
+        "style": "Estilo",
+        "allCities": "Todas as Cidades",
+        "allStyles": "Todos os Estilos"
+      },
+      "search": {
+        "placeholder": "Pesquisar dojos, instrutores ou programas..."
+      },
+      "noResults": {
+        "title": "Nenhum Dojo Encontrado",
+        "description": "Nenhum dojo corresponde aos seus critérios de pesquisa atuais. Tente ajustar seus filtros ou termos de pesquisa."
+      },
+      "instructor": "Instrutor",
+      "address": "Endereço",
+      "phone": "Telefone",
+      "email": "Email",
+      "schedule": "Horário",
+      "programs": "Programas",
+      "membership": "Associação",
+      "contact": "Contatar Dojo",
+      "visitWebsite": "Visitar Site",
+      "getDirections": "Obter Direções",
+      "cta": {
+        "title": "Possui um Dojo?",
+        "description": "Você é proprietário ou instrutor de um dojo Goju-Ryu? Adicione seu dojo ao nosso diretório para alcançar mais alunos.",
+        "addDojo": "Adicionar Seu Dojo"
+      }
+    },
+    "additional": {
+      "title": "Recursos Adicionais",
+      "news": {
+        "title": "Notícias e Atualizações",
+        "description": "Mantenha-se informado com as últimas notícias da comunidade Goju-Ryu.",
+        "readMore": "Ler Mais"
+      },
+      "contact": {
+        "title": "Entre em Contato",
+        "description": "Tem perguntas ou precisa de mais informações? Entre em contato conosco.",
+        "contact": "Contato"
+      }
+    }
+  }
+}

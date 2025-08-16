@@ -1,0 +1,32 @@
+{
+  "quiz": {
+    "loading": "Carregando questionário...",
+    "question": "Pergunta",
+    "of": "de",
+    "timeRemaining": "Tempo Restante",
+    "score": "Pontuação",
+    "points": "pontos",
+    "correctAnswer": "Resposta correta",
+    "selectAllThatApply": "Selecione todas as que se aplicam",
+    "typeYourAnswer": "Digite sua resposta aqui",
+    "checkAnswer": "Verificar Resposta",
+    "nextQuestion": "Próxima Pergunta",
+    "finishQuiz": "Finalizar Questionário",
+    "retakeQuiz": "Refazer Questionário",
+    "results": "Resultados",
+    "youScored": "Você pontuou",
+    "outOf": "de",
+    "feedback": {
+      "excellent": "Excelente! Você dominou este material.",
+      "great": "Ótimo trabalho! Você tem uma compreensão sólida do conteúdo.",
+      "good": "Bom esforço! Continue estudando para melhorar seu conhecimento.",
+      "keepPracticing": "Continue praticando! Revise o material e tente novamente."
+    },
+    "true": "Verdadeiro",
+    "false": "Falso",
+    "questionVisual": "Visual da pergunta",
+    "quiz": "Questionário",
+    "techniqueQuiz": "Questionário de Técnica",
+    "noQuestionsForCategory": "Nenhuma pergunta de questionário encontrada para a categoria:"
+  }
+}

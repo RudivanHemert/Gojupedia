@@ -36,6 +36,7 @@ import enHojoUndo from './locales/en/hojoUndo.json';
 import enNewaza from './locales/en/newaza.json';
 import enKumite from './locales/en/kumite.json';
 import enJunbiUndo from './locales/en/junbi-undo.json';
+import enInformation from './locales/en/information.json';
 
 import deCommon from './locales/de/common.json';
 import deHome from './locales/de/home.json';
@@ -70,6 +71,7 @@ import deHojoUndo from './locales/de/hojoUndo.json';
 import deNewaza from './locales/de/newaza.json';
 import deKumite from './locales/de/kumite.json';
 import deJunbiUndo from './locales/de/junbi-undo.json';
+import deInformation from './locales/de/information.json';
 
 import esCommon from './locales/es/common.json';
 import esHome from './locales/es/home.json';
@@ -104,6 +106,7 @@ import esHojoUndo from './locales/es/hojoUndo.json';
 import esNewaza from './locales/es/newaza.json';
 import esKumite from './locales/es/kumite.json';
 import esJunbiUndo from './locales/es/junbi-undo.json';
+import esInformation from './locales/es/information.json';
 
 import frCommon from './locales/fr/common.json';
 import frHome from './locales/fr/home.json';
@@ -138,6 +141,7 @@ import frHojoUndo from './locales/fr/hojoUndo.json';
 import frNewaza from './locales/fr/newaza.json';
 import frKumite from './locales/fr/kumite.json';
 import frJunbiUndo from './locales/fr/junbi-undo.json';
+import frInformation from './locales/fr/information.json';
 
 import itCommon from './locales/it/common.json';
 import itHome from './locales/it/home.json';
@@ -172,6 +176,7 @@ import itHojoUndo from './locales/it/hojoUndo.json';
 import itNewaza from './locales/it/newaza.json';
 import itKumite from './locales/it/kumite.json';
 import itJunbiUndo from './locales/it/junbi-undo.json';
+import itInformation from './locales/it/information.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlHome from './locales/nl/home.json';
@@ -206,6 +211,43 @@ import nlHojoUndo from './locales/nl/hojoUndo.json';
 import nlNewaza from './locales/nl/newaza.json';
 import nlKumite from './locales/nl/kumite.json';
 import nlJunbiUndo from './locales/nl/junbi-undo.json';
+import nlInformation from './locales/nl/information.json';
+
+// Import Portuguese translation files
+import ptCommon from './locales/pt/common.json';
+import ptHome from './locales/pt/home.json';
+import ptTheory from './locales/pt/theory.json';
+import ptTerminology from './locales/pt/terminology.json';
+import ptHistory from './locales/pt/history.json';
+import ptPractice from './locales/pt/practice.json';
+import ptStudy from './locales/pt/study.json';
+import ptSettings from './locales/pt/settings.json';
+import ptAbout from './locales/pt/about.json';
+import ptKata from './locales/pt/kata.json';
+// Import individual kata files for Portuguese
+import ptSaifa from './locales/pt/kata/saifa.json';
+import ptGekisaiDaiIchi from './locales/pt/kata/gekisai-dai-ichi.json';
+import ptGekisaiDaiNi from './locales/pt/kata/gekisai-dai-ni.json';
+import ptSanchin from './locales/pt/kata/sanchin.json';
+import ptTensho from './locales/pt/kata/tensho.json';
+import ptSeiyunchin from './locales/pt/kata/seiyunchin.json';
+import ptShisochin from './locales/pt/kata/shisochin.json';
+import ptSanseru from './locales/pt/kata/sanseru.json';
+import ptSepai from './locales/pt/kata/sepai.json';
+import ptKururunfa from './locales/pt/kata/kururunfa.json';
+import ptSesan from './locales/pt/kata/sesan.json';
+import ptPeichurin from './locales/pt/kata/peichurin.json';
+import ptBunkai from './locales/pt/bunkai.json';
+import ptPhilosophy from './locales/pt/philosophy.json';
+import ptVitalPoints from './locales/pt/vitalPoints.json';
+import ptTechniques from './locales/pt/techniques.json';
+import ptGraduations from './locales/pt/graduations.json';
+import ptQuiz from './locales/pt/quiz.json';
+import ptHojoUndo from './locales/pt/hojoUndo.json';
+import ptNewaza from './locales/pt/newaza.json';
+import ptKumite from './locales/pt/kumite.json';
+import ptJunbiUndo from './locales/pt/junbi-undo.json';
+import ptInformation from './locales/pt/information.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -214,7 +256,8 @@ export const supportedLanguages = {
   es: 'Español',
   fr: 'Français',
   it: 'Italiano',
-  nl: 'Nederlands'
+  nl: 'Nederlands',
+  pt: 'Português'
 } as const;
 
 export type SupportedLanguage = keyof typeof supportedLanguages;
@@ -257,6 +300,7 @@ const enTranslations = {
   ...enNewaza,
   kumite: enKumite,
   ...enJunbiUndo,
+  ...enInformation,
 };
 
 const deTranslations = {
@@ -296,6 +340,7 @@ const deTranslations = {
   ...deNewaza,
   kumite: deKumite,
   ...deJunbiUndo,
+  ...deInformation,
 };
 
 const esTranslations = {
@@ -335,6 +380,7 @@ const esTranslations = {
   ...esNewaza,
   kumite: esKumite,
   ...esJunbiUndo,
+  ...esInformation,
 };
 
 const frTranslations = {
@@ -374,6 +420,7 @@ const frTranslations = {
   ...frNewaza,
   kumite: frKumite,
   ...frJunbiUndo,
+  ...frInformation,
 };
 
 const itTranslations = {
@@ -413,6 +460,7 @@ const itTranslations = {
   ...itNewaza,
   kumite: itKumite,
   ...itJunbiUndo,
+  ...itInformation,
 };
 
 const nlTranslations = {
@@ -452,6 +500,47 @@ const nlTranslations = {
   ...nlNewaza,
   kumite: nlKumite,
   ...nlJunbiUndo,
+  ...nlInformation,
+};
+
+const ptTranslations = {
+  ...ptCommon,
+  ...ptHome,
+  ...ptTheory,
+  ...ptTerminology,
+  ...ptHistory,
+  ...ptPractice,
+  ...ptStudy,
+  ...ptSettings,
+  ...ptAbout,
+  kata: {
+    ...ptKata.kata,
+    saifa: ptSaifa,
+    'gekisai-dai-ichi': ptGekisaiDaiIchi,
+    'gekisai-dai-ni': ptGekisaiDaiNi,
+    sanchin: ptSanchin,
+    tensho: ptTensho,
+    seiyunchin: ptSeiyunchin,
+    shisochin: ptShisochin,
+    sanseru: ptSanseru,
+    sepai: ptSepai,
+    kururunfa: ptKururunfa,
+    sesan: ptSesan,
+    peichurin: ptPeichurin
+  },
+  kataTheoryDetailPage: ptKata.kataTheoryDetailPage,
+  kataDetailPage: ptKata.kataDetailPage,
+  ...ptBunkai,
+  ...ptPhilosophy,
+  ...ptVitalPoints,
+  ...ptTechniques,
+  ...ptGraduations,
+  ...ptQuiz,
+  hojoUndo: ptHojoUndo,
+  ...ptNewaza,
+  kumite: ptKumite,
+  ...ptJunbiUndo,
+  ...ptInformation,
 };
 
 i18n
@@ -464,7 +553,8 @@ i18n
       es: { translation: esTranslations },
       fr: { translation: frTranslations },
       it: { translation: itTranslations },
-      nl: { translation: nlTranslations }
+      nl: { translation: nlTranslations },
+      pt: { translation: ptTranslations }
     },
     fallbackLng: 'en',
     supportedLngs: Object.keys(supportedLanguages),

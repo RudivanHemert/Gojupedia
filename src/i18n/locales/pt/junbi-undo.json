@@ -1,0 +1,105 @@
+{
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "subtitle": "Exercícios Preliminares",
+    "description": "Exercícios preliminares e rotinas de aquecimento para o karate Goju Ryu",
+    "intro": "Estes exercícios preparam o corpo para o treinamento e devem ser realizados no início de cada sessão de prática.",
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Exercícios Preliminares",
+      "note": "Cada exercício deve ser repetido pelo menos duas vezes (exceto com os alunos mais jovens, onde uma série de oito para cada exercício pode ser suficiente)."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Exercícios Complementares",
+      "intro": "Estes exercícios complementares desenvolvem habilidades e técnicas específicas usadas no Goju Ryu.",
+      "note": "Cada exercício deve ser repetido por pelo menos duas séries de oito contagens (exceto com os alunos mais jovens, onde uma série de oito para cada exercício pode ser suficiente)."
+    },
+    "breathingSection": {
+      "title": "Respiração",
+      "subtitle": "Shin Kokyu"
+    },
+    "exercises": {
+      "title": "Exercícios",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Exercícios dos Dedos dos Pés",
+          "description": "Comece ficando em pé em heiko dachi (postura natural) com as mãos nos quadris e focando sua atenção nas solas dos pés (teisoku). Espalhe os dedos dos pés o mais amplamente possível e tente fazer o máximo de contato com a superfície do chão que puder.",
+          "instructions": "A partir daqui, levante seu dedão e segure por um segundo antes de retorná-lo ao chão, agarrando o chão, e levantando os dedos menores do chão. Esta troca é repetida pelo menos dez vezes.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Giros nos Calcanhares",
+          "description": "Mãos nos quadris, calcanhares juntos, dedos dos pés separados. Levante a parte frontal do pé direito do chão e gire para fora no calcanhar do pé.",
+          "instructions": "Duas repetições para cada pé. Este exercício aumenta sua consciência dos dedos dos pés e melhora a destreza geral do dedão.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Rotação do Tornozelo",
+          "description": "Fique em pé na perna esquerda e levante o joelho direito para que a coxa fique nivelada. Isso ajuda a desenvolver o equilíbrio.",
+          "instructions": "Gire o tornozelo, primeiro no sentido horário e depois no sentido anti-horário. Então chute a parte inferior da perna para fora como se estivesse chutando. Repita isso ficando em pé na perna direita e levantando o joelho esquerdo.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Golpes com os Joelhos",
+          "description": "Mantendo as axilas fechadas firmemente, segure os braços na frente do corpo com as palmas das mãos abertas e firmes.",
+          "instructions": "Impulsionando do chão com os tornozelos, atire os joelhos, alternadamente, nas mãos abertas de uma forma estável e rítmica fazendo o máximo de impacto possível com a palma da mão.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Exercício de Agachamento",
+          "description": "Coloque os pés juntos com os calcanhares se tocando e os dedos dos pés separados fazendo uma forma de V com os pés (musubi dachi).",
+          "instructions": "Inclinando-se para frente, coloque as mãos nos joelhos. Dobre os joelhos e abaixe o corpo para uma posição de agachamento, mantendo as costas retas e os joelhos para os lados enquanto os calcanhares deixam o chão.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Alongamentos Shiko",
+          "description": "Dê um passo para shiko dachi (postura baixa) e coloque as mãos na parte interna das coxas perto dos joelhos.",
+          "instructions": "Abaixe o ombro direito para frente, gire a cabeça suavemente e olhe para a esquerda. O braço direito agora empurra a perna direita para trás enquanto o braço esquerdo impede a perna esquerda de se mover para frente.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Alongamentos das Pernas",
+          "description": "Permaneça em shiko dachi, deslize ambos os antebraços pela parte interna das pernas até que os cotovelos estejam ligeiramente acima dos joelhos.",
+          "instructions": "Aplique uma pressão igual em ambas as pernas para empurrá-las para os lados. Com os dedos dos pés agarrando o chão, mantenha o peito erguido, o mais ereto possível, para maximizar o alongamento nas pernas.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Transferência de Peso",
+          "description": "Incline-se sobre a perna direita e mantenha a perna esquerda estendida, com o pé e dedos dos pés planos no chão.",
+          "instructions": "Descanse as mãos nos joelhos e tente manter uma imagem dos músculos da panturrilha sendo alongados pela sua postura. Sem levantar o corpo, mova-se para a perna oposta.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Rotação dos Quadris",
+          "description": "Ficando em pé em heiko dachi (postura natural) com as mãos descansando levemente nos quadris, gire os quadris em uma ação circular.",
+          "instructions": "Tente manter os tornozelos e ombros alinhados e confinar o movimento à parte central do corpo minimizando o máximo possível qualquer movimento dos ombros.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Alongamentos dos Braços",
+          "description": "Ficando em pé em heiko dachi (postura natural) segure o braço esquerdo em uma postura de chudan haito uke (bloqueio de mão com borda do polegar de nível médio).",
+          "instructions": "Apoie-o colocando a mão direita, palma voltada para baixo, sob o cotovelo. A partir daí, inspire profundamente pelo nariz enquanto você executa mawashi uke (bloqueio circular).",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Balanços dos Braços",
+          "description": "Fique em pé naturalmente e balance os braços para trás em um movimento circular amplo.",
+          "instructions": "Comece devagar e depois balance o mais rápido possível várias vezes. Inverta o balanço, lembrando de começar devagar e terminar rápido.",
+          "image": "page_13_image_1.png"
+        }
+      ]
+    }
+  }
+}

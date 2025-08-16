@@ -1,0 +1,102 @@
+{
+  "information": {
+    "title": "Information",
+    "description": "Restez informé des événements et trouvez des dojos Goju-Ryu près de chez vous",
+    "events": {
+      "title": "Événements",
+      "description": "Découvrez les prochains événements de karaté, tournois, séminaires et camps d'entraînement dans votre région.",
+      "upcoming": {
+        "title": "Événements à Venir",
+        "description": "Aucun événement à venir n'est actuellement programmé. Revenez bientôt pour des mises à jour !"
+      },
+      "viewAll": "Voir Tous les Événements",
+      "explore": "Explorer les Événements",
+      "pageTitle": "Événements",
+      "pageDescription": "Découvrez les prochains événements de karaté, tournois, séminaires et camps d'entraînement",
+      "filters": {
+        "title": "Filtrer les Événements"
+      },
+      "types": {
+        "all": "Tous les Événements",
+        "tournament": "Tournois",
+        "seminar": "Séminaires",
+        "training": "Camps d'Entraînement",
+        "competition": "Compétitions"
+      },
+      "noEvents": {
+        "title": "Aucun Événement Trouvé",
+        "description": "Aucun événement ne correspond à vos filtres actuels. Essayez d'ajuster votre sélection ou revenez plus tard pour de nouveaux événements."
+      },
+      "date": "Date",
+      "time": "Heure",
+      "location": "Lieu",
+      "organizer": "Organisateur",
+      "participants": "participants",
+      "price": "Prix",
+      "register": "S'Inscrire Maintenant",
+      "visitWebsite": "Visiter le Site Web",
+      "contact": "Contact",
+      "registrationDeadline": "Date Limite d'Inscription",
+      "cta": {
+        "title": "Organisez-vous un Événement ?",
+        "description": "Organisez-vous un événement Goju-Ryu ? Faites-le nous savoir et nous vous aiderons à le promouvoir dans notre communauté.",
+        "submit": "Soumettre un Événement"
+      }
+    },
+    "dojos": {
+      "title": "Dojos Goju-Ryu",
+      "description": "Trouvez des dojos Goju-Ryu autorisés dans votre région. Chaque dojo est certifié et suit les principes traditionnels de Goju-Ryu.",
+      "featured": {
+        "title": "Dojos Recommandés",
+        "description": "Découvrez des dojos Goju-Ryu hautement évalués avec des instructeurs expérimentés et des programmes d'entraînement complets."
+      },
+      "findNearby": "Trouver des Dojos Près de Moi",
+      "explore": "Explorer les Dojos",
+      "pageTitle": "Dojos Goju-Ryu",
+      "pageDescription": "Trouvez des dojos Goju-Ryu autorisés dans votre région avec des instructeurs expérimentés",
+      "filters": {
+        "title": "Rechercher et Filtrer les Dojos",
+        "city": "Ville",
+        "style": "Style",
+        "allCities": "Toutes les Villes",
+        "allStyles": "Tous les Styles"
+      },
+      "search": {
+        "placeholder": "Rechercher des dojos, instructeurs ou programmes..."
+      },
+      "noResults": {
+        "title": "Aucun Dojo Trouvé",
+        "description": "Aucun dojo ne correspond à vos critères de recherche actuels. Essayez d'ajuster vos filtres ou termes de recherche."
+      },
+      "instructor": "Instructeur",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "schedule": "Horaire",
+      "programs": "Programmes",
+      "membership": "Adhésion",
+      "contact": "Contacter le Dojo",
+      "visitWebsite": "Visiter le Site Web",
+      "getDirections": "Obtenir l'Itinéraire",
+      "cta": {
+        "title": "Possédez-vous un Dojo ?",
+        "description": "Êtes-vous propriétaire d'un dojo Goju-Ryu ou instructeur ? Ajoutez votre dojo à notre répertoire pour atteindre plus d'étudiants.",
+        "addDojo": "Ajouter Votre Dojo"
+      }
+    },
+    "additional": {
+      "title": "Ressources Supplémentaires",
+      "news": {
+        "title": "Actualités et Mises à Jour",
+        "description": "Restez informé des dernières actualités de la communauté Goju-Ryu.",
+        "readMore": "Lire Plus"
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Avez-vous des questions ou besoin de plus d'informations ? Contactez-nous.",
+        "contact": "Contact"
+      }
+    }
+  }
+}
+

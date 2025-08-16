@@ -12,7 +12,9 @@ import {
   ChevronRight,
   Menu,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Calendar,
+  MapPin
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
@@ -74,6 +76,17 @@ const sidebarStructure = [
       { labelKey: 'navigation.flashcards', path: '/study/flashcards' },
       { labelKey: 'navigation.matching', path: '/study/matching' },
       { labelKey: 'navigation.gradings', path: '/gradings' },
+    ]
+  },
+  {
+    id: 'information',
+    labelKey: 'navigation.information',
+    icon: Info,
+    path: '/information',
+    sublinks: [
+      { labelKey: 'navigation.informationOverview', path: '/information' },
+      { labelKey: 'navigation.events', path: '/information/events' },
+      { labelKey: 'navigation.dojos', path: '/information/dojos' },
     ]
   },
   {

@@ -1,0 +1,102 @@
+{
+  "information": {
+    "title": "Información",
+    "description": "Mantente actualizado con eventos y encuentra dojos Goju-Ryu cerca de ti",
+    "events": {
+      "title": "Eventos",
+      "description": "Descubre próximos eventos de karate, torneos, seminarios y campamentos de entrenamiento en tu área.",
+      "upcoming": {
+        "title": "Próximos Eventos",
+        "description": "No hay eventos próximos programados en este momento. ¡Vuelve pronto para actualizaciones!"
+      },
+      "viewAll": "Ver Todos los Eventos",
+      "explore": "Explorar Eventos",
+      "pageTitle": "Eventos",
+      "pageDescription": "Descubre próximos eventos de karate, torneos, seminarios y campamentos de entrenamiento",
+      "filters": {
+        "title": "Filtrar Eventos"
+      },
+      "types": {
+        "all": "Todos los Eventos",
+        "tournament": "Torneos",
+        "seminar": "Seminarios",
+        "training": "Campamentos de Entrenamiento",
+        "competition": "Competencias"
+      },
+      "noEvents": {
+        "title": "No Se Encontraron Eventos",
+        "description": "Ningún evento coincide con tus filtros actuales. Intenta ajustar tu selección o vuelve más tarde para nuevos eventos."
+      },
+      "date": "Fecha",
+      "time": "Hora",
+      "location": "Ubicación",
+      "organizer": "Organizador",
+      "participants": "participantes",
+      "price": "Precio",
+      "register": "Registrarse Ahora",
+      "visitWebsite": "Visitar Sitio Web",
+      "contact": "Contacto",
+      "registrationDeadline": "Fecha Límite de Registro",
+      "cta": {
+        "title": "¿Organizas un Evento?",
+        "description": "¿Estás organizando un evento Goju-Ryu? Háznoslo saber y te ayudaremos a promocionarlo en nuestra comunidad.",
+        "submit": "Enviar Evento"
+      }
+    },
+    "dojos": {
+      "title": "Dojos Goju-Ryu",
+      "description": "Encuentra dojos Goju-Ryu autorizados en tu área. Cada dojo está certificado y sigue principios tradicionales de Goju-Ryu.",
+      "featured": {
+        "title": "Dojos Destacados",
+        "description": "Descubre dojos Goju-Ryu altamente calificados con instructores experimentados y programas de entrenamiento integrales."
+      },
+      "findNearby": "Encontrar Dojos Cerca de Mí",
+      "explore": "Explorar Dojos",
+      "pageTitle": "Dojos Goju-Ryu",
+      "pageDescription": "Encuentra dojos Goju-Ryu autorizados en tu área con instructores experimentados",
+      "filters": {
+        "title": "Buscar y Filtrar Dojos",
+        "city": "Ciudad",
+        "style": "Estilo",
+        "allCities": "Todas las Ciudades",
+        "allStyles": "Todos los Estilos"
+      },
+      "search": {
+        "placeholder": "Buscar dojos, instructores o programas..."
+      },
+      "noResults": {
+        "title": "No Se Encontraron Dojos",
+        "description": "Ningún dojo coincide con tus criterios de búsqueda actuales. Intenta ajustar tus filtros o términos de búsqueda."
+      },
+      "instructor": "Instructor",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico",
+      "schedule": "Horario",
+      "programs": "Programas",
+      "membership": "Membresía",
+      "contact": "Contactar Dojo",
+      "visitWebsite": "Visitar Sitio Web",
+      "getDirections": "Obtener Direcciones",
+      "cta": {
+        "title": "¿Eres Dueño de un Dojo?",
+        "description": "¿Eres dueño de un dojo Goju-Ryu o instructor? Agrega tu dojo a nuestro directorio para llegar a más estudiantes.",
+        "addDojo": "Agregar Tu Dojo"
+      }
+    },
+    "additional": {
+      "title": "Recursos Adicionales",
+      "news": {
+        "title": "Noticias y Actualizaciones",
+        "description": "Mantente informado con las últimas noticias de la comunidad Goju-Ryu.",
+        "readMore": "Leer Más"
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "description": "¿Tienes preguntas o necesitas más información? Ponte en contacto con nosotros.",
+        "contact": "Contacto"
+      }
+    }
+  }
+}
+
