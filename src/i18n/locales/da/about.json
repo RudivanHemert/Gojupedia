@@ -1,16 +1,43 @@
 {
-  "title": "Om Gojupedia",
-  "description": "Din komplette guide til Goju-Ryu Karate",
-  "dataQuality": {
-    "title": "Datakvalitet",
-    "description": "Vi stræber efter at give dig de mest nøjagtige og opdaterede oplysninger om Goju-Ryu Karate."
-  },
-  "community": {
-    "title": "Fællesskab",
-    "description": "Gojupedia er bygget af og for karatefællesskabet. Din feedback og bidrag hjælper med at forbedre denne ressource."
-  },
-  "contact": {
-    "title": "Kontakt",
-    "description": "Har du spørgsmål eller forslag? Vi vil gerne høre fra dig."
+  "about": {
+    "title": "Om",
+    "description": "Om Gojupedia og Goju Ryu Karate",
+    "subtitle": "Din komplette kilde til Goju-Ryu Karate viden",
+    "pageTitle": "Om",
+    "pageDescription": "Om Gojupedia og Goju Ryu Karate",
+    "mainDescription": "GojuPedia er en omfattende digital encyklopædi dedikeret til Goju-Ryu Karate-Do. Vores mission er at bevare og gøre autentisk viden og traditionel visdom tilgængelig for karateka på alle niveauer.",
+    "vision": {
+      "title": "Vores Vision",
+      "description": "Vi stræber efter at dokumentere og videregive den rige historie, filosofi og teknikker af Goju-Ryu til fremtidige generationer. Ved at kombinere moderne teknologi med traditionel viden skaber vi en levende kilde til karate visdom."
+    },
+    "values": {
+      "authenticity": {
+        "title": "Autenticitet",
+        "description": "Alt indhold er baseret på traditionelle kilder og bliver regelmæssigt kontrolleret af erfarne karateka og instruktører."
+      },
+      "community": {
+        "title": "Fællesskab",
+        "description": "Et voksende fællesskab af karateka der samarbejder om at dele og forbedre viden."
+      }
+    },
+    "contact": {
+      "title": "Kontakt & Feedback",
+      "description": "Har du forslag, rettelser eller vil du bidrage til GojuPedia? Vi værdsætter dit input til at forbedre denne kilde.",
+      "email": "contact@gojupedia.com"
+    },
+    "sections": {
+      "gojupedia": {
+        "title": "Om Gojupedia",
+        "description": "En omfattende wiki om Goju Ryu Karate"
+      },
+      "gojuRyu": {
+        "title": "Om Goju Ryu",
+        "description": "Den hårde og bløde vej"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Få i kontakt med os"
+      }
+    }
   }
 }

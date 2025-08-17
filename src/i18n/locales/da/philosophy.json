@@ -1,18 +1,84 @@
 {
-  "title": "Filosofi",
-  "description": "Udforsk de filosofiske principper bag Goju-Ryu Karate",
-  "sections": {
-    "karateDo": {
-      "title": "Karate-Do",
-      "description": "Forstå 'vejen' af karate og dens filosofiske dybde"
+  "philosophy": {
+    "title": "Filosofi",
+    "description": "De filosofiske principper og åndelige aspekter af Goju Ryu Karate",
+    "sections": {
+      "dojo-kun": {
+        "title": "Dojo Kun",
+        "description": "De fem principper af dojoen"
+      },
+      "goju-ryu": {
+        "title": "Goju Ryu",
+        "description": "Filosofien af hård og blød"
+      },
+      "karate-do": {
+        "title": "Karate Do",
+        "description": "Vej af den tomme hånd"
+      },
+      "mind-body": {
+        "title": "Ånd og Krop",
+        "description": "Enheden af ånd og krop"
+      },
+      "respect": {
+        "title": "Respekt",
+        "description": "Respekt i de martiale kunster"
+      },
+      "principles": {
+        "title": "Principper",
+        "description": "Grundlæggende principper"
+      },
+      "values": {
+        "title": "Værdier",
+        "description": "Karate værdier"
+      },
+      "dojoKun": {
+        "title": "Dojo Kun",
+        "description": "Dojo regler"
+      },
+      "mindset": {
+        "title": "Mentalitet",
+        "description": "Karate mentalitet"
+      }
     },
     "gojuRyu": {
-      "title": "Goju-Ryu",
-      "description": "Lær om de unikke filosofiske principper bag Goju-Ryu"
-    },
-    "dojoKun": {
-      "title": "Dojo Kun",
-      "description": "Udforsk de moralske principper og regler for dojo"
+      "title": "Goju Ryu",
+      "subtitle": "Filosofien af hård og blød",
+      "mainDescription": "Goju Ryu Karate er baseret på filosofien af 'Go' (hård) og 'Ju' (blød). Disse modsætninger ses ikke som konflikterende, men som komplementære. Kunsten ligger i at finde den rigtige balance mellem begge elementer.",
+      "go": {
+        "title": "Go (剛) - Hård",
+        "description": "Direkte, kraftfulde teknikker som slag, spark og blokke. Repræsenterer styrke, beslutsomhed og direkte handling."
+      },
+      "ju": {
+        "title": "Ju (柔) - Blød",
+        "description": "Cirkulære, absorberende teknikker som undvige og kast. Repræsenterer fleksibilitet, tilpasningsevne og indirekte handling."
+      },
+      "coreConcepts": "Kernbegreber",
+      "concepts": {
+        "goju": {
+          "japanese": "剛柔",
+          "romaji": "Goju",
+          "danish": "Hård og Blød",
+          "description": "Den grundlæggende filosofi af Goju Ryu der kombinerer hårde (Go) og bløde (Ju) teknikker i perfekt harmoni."
+        },
+        "kokyu": {
+          "japanese": "呼吸",
+          "romaji": "Kokyu",
+          "danish": "Åndedræt",
+          "description": "De korrekte åndedrætsteknikker er essentielle for at udvikle styrke og fokus i Goju Ryu."
+        },
+        "ki": {
+          "japanese": "気",
+          "romaji": "Ki",
+          "danish": "Energi",
+          "description": "Den indre energi der udvikles gennem åndedræt og koncentration og bruges i teknikker."
+        },
+        "wa": {
+          "japanese": "和",
+          "romaji": "Wa",
+          "danish": "Harmoni",
+          "description": "At opnå harmoni mellem krop og ånd, og mellem hårde og bløde teknikker."
+        }
+      }
     }
   }
 }

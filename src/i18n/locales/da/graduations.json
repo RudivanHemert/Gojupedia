@@ -1,32 +1,49 @@
 {
-  "title": "Gradueringer",
-  "description": "Lær om karategrader og deres betydning",
-  "kyu": {
-    "10th": "10. kyu",
-    "9th": "9. kyu",
-    "8th": "8. kyu",
-    "7th": "7. kyu",
-    "6th": "6. kyu",
-    "5th": "5. kyu",
-    "4th": "4. kyu",
-    "3rd": "3. kyu",
-    "2nd": "2. kyu",
-    "1st": "1. kyu"
-  },
-  "dan": {
-    "1st": "1. dan",
-    "2nd": "2. dan",
-    "3rd": "3. dan",
-    "4th": "4. dan",
-    "5th": "5. dan"
-  },
-  "beltColors": {
-    "white": "Hvid",
-    "yellow": "Gul",
-    "orange": "Orange",
-    "green": "Grøn",
-    "blue": "Blå",
-    "brown": "Brun",
-    "black": "Sort"
+  "graduations": {
+    "title": "Graderinger",
+    "description": "Kyu og dan systemer",
+    "pageTitle": "Graderinger",
+    "pageDescription": "Kyu og dan graderinger for Goju Ryu Karate",
+    "kyuLevels": {
+      "10th": "10. Kyu",
+      "9th": "9. Kyu",
+      "8th": "8. Kyu",
+      "7th": "7. Kyu",
+      "6th": "6. Kyu",
+      "5th": "5. Kyu",
+      "4th": "4. Kyu",
+      "3rd": "3. Kyu",
+      "2nd": "2. Kyu",
+      "1st": "1. Kyu"
+    },
+    "danLevels": {
+      "shodan": "Shodan (1. Dan)",
+      "nidan": "Nidan (2. Dan)",
+      "sandan": "Sandan (3. Dan)",
+      "yondan": "Yondan (4. Dan)",
+      "godan": "Godan (5. Dan)"
+    },
+    "sections": {
+      "kyu": {
+        "title": "Kyu Graderinger",
+        "description": "Farvet bælter"
+      },
+      "dan": {
+        "title": "Dan Graderinger",
+        "description": "Sorte bælter"
+      },
+      "requirements": {
+        "title": "Krav",
+        "description": "Krav til gradering"
+      }
+    },
+    "requirements": {
+      "kata": "Kata",
+      "techniques": "Teknikker",
+      "kumite": "Kumite",
+      "theory": "Teori",
+      "time": "Tid",
+      "age": "Alder"
+    }
   }
 }

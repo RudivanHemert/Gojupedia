@@ -10,8 +10,8 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title="Over"
-        description="Over Gojupedia en Goju Ryu Karate"
+        title={t('about.pageTitle')}
+        description={t('about.pageDescription')}
         backUrl="/"
       />
       <div className="p-4 w-full">
@@ -28,16 +28,12 @@ const AboutPage = () => {
           <CardContent className="space-y-6">
             <div className="prose prose-stone dark:prose-invert max-w-none">
               <p className="text-muted-foreground">
-                GojuPedia is een uitgebreide digitale encyclopedie gewijd aan Goju-Ryu Karate-Do. 
-                Onze missie is om authentieke kennis en traditionele wijsheid te bewaren en toegankelijk 
-                te maken voor karateka van alle niveaus.
+                {t('about.mainDescription')}
               </p>
               
-              <h3 className="text-lg font-semibold text-foreground mt-6 mb-3">Onze Visie</h3>
+              <h3 className="text-lg font-semibold text-foreground mt-6 mb-3">{t('about.vision.title')}</h3>
               <p className="text-muted-foreground">
-                We streven ernaar om de rijke geschiedenis, filosofie en technieken van Goju-Ryu 
-                te documenteren en door te geven aan toekomstige generaties. Door moderne technologie 
-                te combineren met traditionele kennis, creëren we een levende bron van karate wijsheid.
+                {t('about.vision.description')}
               </p>
             </div>
 
@@ -46,13 +42,12 @@ const AboutPage = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-foreground">
                     <Shield className="h-5 w-5 text-blue-500 dark:text-blue-400" />
-                    Authenticiteit
+                    {t('about.values.authenticity.title')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Alle content is gebaseerd op traditionele bronnen en wordt regelmatig 
-                    gecontroleerd door ervaren karateka en instructeurs.
+                    {t('about.values.authenticity.description')}
                   </p>
                 </CardContent>
               </Card>
@@ -61,13 +56,12 @@ const AboutPage = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-foreground">
                     <Users className="h-5 w-5 text-green-500 dark:text-green-400" />
-                    Community
+                    {t('about.values.community.title')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Een groeiende gemeenschap van karateka die samenwerken om kennis 
-                    te delen en te verbeteren.
+                    {t('about.values.community.description')}
                   </p>
                 </CardContent>
               </Card>
@@ -76,15 +70,14 @@ const AboutPage = () => {
             <div className="mt-8 p-6 bg-muted/30 dark:bg-muted/10 rounded-lg">
               <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Info className="h-5 w-5 text-purple-500 dark:text-purple-400" />
-                Contact & Feedback
+                {t('about.contact.title')}
               </h3>
               <p className="text-muted-foreground mb-4">
-                Heeft u suggesties, correcties of wilt u bijdragen aan GojuPedia? 
-                We waarderen uw input om deze bron te verbeteren.
+                {t('about.contact.description')}
               </p>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span className="text-sm">contact@gojupedia.com</span>
+                <span className="text-sm">{t('about.contact.email')}</span>
               </div>
             </div>
           </CardContent>

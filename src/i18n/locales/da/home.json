@@ -1,64 +1,49 @@
 {
-  "hero": {
-    "title": "Velkommen til Gojupedia",
-    "subtitle": "Din komplette guide til Goju-Ryu Karate",
-    "description": "Udforsk teknikker, kata, filosofi og historie bag denne ærværdige karatestil",
-    "cta": "Start din rejse",
-    "tagline": "Kraft og flydende bevægelse"
-  },
-  "introTitle": "Velkommen til Gojupedia",
-  "introText": "Gojupedia er din omfattende ressource for at lære og forstå Goju-Ryu Karate. Uanset om du er begynder eller avanceret praktiker, finder du her alt hvad du har brug for.",
-  "mainSections": "Hovedsektioner",
-  "popularSubsections": "Populære Undersektioner",
-  "viewSection": "Se sektion",
-  "sections": {
-    "theory": {
-      "title": "Teori",
-      "subtitle": "Filosofi, historie, terminologi og kata teori"
+  "home": {
+    "welcome": "Velkommen til Goju Ryu Wiki",
+    "description": "Opdag kunsten af Goju Ryu Karate",
+    "getStarted": "Kom i gang",
+    "heroSubtitle": "Goju Ryu Karate-Do",
+    "heroTagline": "Den Hårde og Bløde Vej af den Tomme Hånd",
+    "introTitle": "Goju Ryus Vej",
+    "introText": "Goju Ryu (剛柔流) er en af de vigtigste traditionelle okinawanske karatestile, der kendetegnes ved en kombination af hårde og bløde teknikker. Udviklet af Chojun Miyagi i begyndelsen af det 20. århundrede, lægger denne kampsport vægt på både styrke og flydende bevægelse.",
+    "studyAreasTitle": "Studieområder",
+    "miyagiQuote": "I karate er stød, slag og spark ikke de eneste metoder. Kasteteknikker og tryk mod led er også inkluderet.",
+    "miyagiAuthor": "- Chojun Miyagi",
+    "kataTheoryTitle": "Kata Teori",
+    "kataTheorySubtitle": "Principper og teori bag traditionelle former",
+    "terminologyTitle": "Terminologi",
+    "terminologySubtitle": "Japansk terminologi og ordforråd",
+    "mainSectionsTitle": "Hovedsektioner",
+    "popularSubsectionsTitle": "Populære Undersektioner",
+    "viewSection": "Se Sektion",
+    "sections": {
+      "theory": {
+        "title": "Teori",
+        "subtitle": "Filosofi, historie, terminologi og kata teori"
+      },
+      "practice": {
+        "title": "Praktik",
+        "subtitle": "Teknikker, kata, bunkai, kumite og hojo undo"
+      },
+      "study": {
+        "title": "Studie",
+        "subtitle": "Quiz, flashkort og gradueringer"
+      },
+      "search": {
+        "title": "Søg",
+        "subtitle": "Søg gennem alt indhold og termer"
+      },
+      "about": {
+        "title": "Om",
+        "subtitle": "Om Gojupedia og Goju Ryu Karate"
+      }
     },
-    "practice": {
-      "title": "Praktik",
-      "subtitle": "Teknikker, kata, bunkai, kumite og hojo undo"
-    },
-    "study": {
-      "title": "Studie",
-      "subtitle": "Quizzer, flashcards og gradueringer"
-    },
-    "search": {
-      "title": "Søg",
-      "subtitle": "Søg gennem alt indhold og termer"
-    },
-    "about": {
-      "title": "Om",
-      "subtitle": "Om Gojupedia og Goju Ryu Karate"
-    }
-  },
-  "subsections": {
-    "philosophy": "Filosofi",
-    "techniques": "Teknikker",
-    "kata": "Kata",
-    "terminology": "Terminologi"
-  },
-  "miyagiQuote": "Karate er ikke kun en kampkunst, men en vej til at forbedre ens karakter",
-  "miyagiAuthor": "- Chojun Miyagi",
-  "studyAreas": {
-    "title": "Studieområder",
-    "description": "Udforsk forskellige aspekter af Goju-Ryu Karate",
-    "theory": {
-      "title": "Teori",
-      "description": "Lær om principperne og koncepterne bag Goju-Ryu"
-    },
-    "practice": {
-      "title": "Praktik",
-      "description": "Øv dig med interaktive kata og teknikker"
-    },
-    "history": {
-      "title": "Historie",
-      "description": "Udforsk rødderne og udviklingen af Goju-Ryu"
-    },
-    "philosophy": {
-      "title": "Filosofi",
-      "description": "Forstå de filosofiske principper bag karate"
+    "subsections": {
+      "philosophy": "Filosofi",
+      "techniques": "Teknikker",
+      "kata": "Kata",
+      "terminology": "Terminologi"
     }
   }
 }

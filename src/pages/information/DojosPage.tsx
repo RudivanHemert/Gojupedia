@@ -188,8 +188,8 @@ const DojosPage: React.FC = () => {
       >
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="netherlands">Nederland (IOGKF)</TabsTrigger>
-            <TabsTrigger value="international">Internationaal</TabsTrigger>
+            <TabsTrigger value="netherlands">{t('information.dojos.tabs.netherlands')}</TabsTrigger>
+            <TabsTrigger value="international">{t('information.dojos.tabs.international')}</TabsTrigger>
           </TabsList>
 
           {/* Netherlands Tab */}
@@ -199,17 +199,17 @@ const DojosPage: React.FC = () => {
               <CardHeader>
                 <div className="flex items-center space-x-2">
                   <Filter className="h-5 w-5" />
-                  <CardTitle>Zoek & Filter Nederlandse Dojos</CardTitle>
+                  <CardTitle>{t('information.dojos.search.title')}</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">Zoeken</label>
+                    <label className="text-sm font-medium">{t('information.dojos.search.searchLabel')}</label>
                     <div className="relative">
                       <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                       <Input
-                        placeholder="Zoek op naam, stad of regio..."
+                        placeholder={t('information.dojos.search.searchPlaceholder')}
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         className="pl-10"
@@ -217,10 +217,10 @@ const DojosPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">Stad</label>
+                    <label className="text-sm font-medium">{t('information.dojos.search.cityLabel')}</label>
                     <Select value={selectedCity} onValueChange={setSelectedCity}>
                       <SelectTrigger>
-                        <SelectValue placeholder="Selecteer stad" />
+                        <SelectValue placeholder={t('information.dojos.search.cityPlaceholder')} />
                       </SelectTrigger>
                       <SelectContent>
                         {cities.map((city) => (
@@ -238,18 +238,18 @@ const DojosPage: React.FC = () => {
             {/* Dojos List */}
             <Card>
               <CardHeader>
-                <CardTitle>Nederlandse IOGKF Dojos</CardTitle>
+                <CardTitle>{t('information.dojos.list.title')}</CardTitle>
                 <CardDescription>
-                  {filteredDojos.length} van {netherlandsDojos.length} dojos gevonden
+                  {filteredDojos.length} {t('information.dojos.list.found')} {netherlandsDojos.length}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 {filteredDojos.length === 0 ? (
                   <div className="text-center py-12">
                     <MapPin className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold mb-2">Geen dojos gevonden</h3>
+                    <h3 className="text-lg font-semibold mb-2">{t('information.dojos.list.noResults.title')}</h3>
                     <p className="text-muted-foreground mb-4">
-                      Probeer je zoekopdracht aan te passen of bekijk alle beschikbare dojos.
+                      {t('information.dojos.list.noResults.description')}
                     </p>
                     <Button 
                       variant="outline" 
@@ -258,7 +258,7 @@ const DojosPage: React.FC = () => {
                         setSelectedCity('all');
                       }}
                     >
-                      Alle dojos tonen
+                      {t('information.dojos.list.noResults.showAll')}
                     </Button>
                   </div>
                 ) : (
@@ -270,10 +270,10 @@ const DojosPage: React.FC = () => {
                             <div className="flex-1">
                               <div className="flex items-center gap-3 mb-2">
                                 <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
-                                  IOGKF Nederland
+                                  {t('information.dojos.badges.iogkf')}
                                 </Badge>
                                 <Badge variant="secondary">
-                                  {dojo.region}
+                                  {t('information.dojos.badges.region')}: {dojo.region}
                                 </Badge>
                               </div>
                               <CardTitle className="text-xl">{dojo.name}</CardTitle>
@@ -292,11 +292,11 @@ const DojosPage: React.FC = () => {
                             <Button variant="outline" asChild>
                               <a href={dojo.website} target="_blank" rel="noopener noreferrer">
                                 <Globe className="h-4 w-4 mr-2" />
-                                Bezoek Dojo Website
+                                {t('information.dojos.links.website')}
                               </a>
                             </Button>
                             <Button variant="ghost" size="sm">
-                              Meer informatie
+                              {t('information.dojos.links.moreInfo')}
                             </Button>
                           </div>
                         </CardContent>
@@ -316,15 +316,14 @@ const DojosPage: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">
-                      Informatie afkomstig van IOGKF-Nederland
+                      {t('information.dojos.info.source')}
                     </h3>
                     <p className="text-blue-800 text-sm mb-3">
-                      Deze lijst bevat alle officieel geregistreerde IOGKF dojos in Nederland. 
-                      Voor de meest actuele informatie, bezoek de officiële website.
+                      {t('information.dojos.info.description')}
                     </p>
                     <Button variant="outline" size="sm" asChild>
                       <a href="https://www.iogkf.nl/locaties/" target="_blank" rel="noopener noreferrer">
-                        Bekijk op IOGKF-Nederland
+                        {t('information.dojos.info.officialWebsite')}
                       </a>
                     </Button>
                   </div>
@@ -337,20 +336,20 @@ const DojosPage: React.FC = () => {
           <TabsContent value="international" className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Internationale Dojos</CardTitle>
+                <CardTitle>{t('information.dojos.international.title')}</CardTitle>
                 <CardDescription>
-                  Zoek naar dojos buiten Nederland
+                  {t('information.dojos.international.description')}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="text-center py-12">
                   <MapPin className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">Nog geen internationale dojos</h3>
+                  <h3 className="text-lg font-semibold mb-2">{t('information.dojos.international.noDojos.title')}</h3>
                   <p className="text-muted-foreground mb-4">
-                    Deze sectie wordt binnenkort toegevoegd met dojos uit andere landen.
+                    {t('information.dojos.international.noDojos.description')}
                   </p>
                   <Button variant="outline" disabled>
-                    Binnenkort beschikbaar
+                    {t('information.dojos.international.noDojos.availableSoon')}
                   </Button>
                 </div>
               </CardContent>

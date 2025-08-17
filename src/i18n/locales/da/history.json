@@ -1,22 +1,31 @@
 {
-  "title": "Historie",
-  "description": "Udforsk rødderne og udviklingen af Goju-Ryu Karate",
-  "sections": {
-    "origins": {
-      "title": "Oprindelse",
-      "description": "Lær om de historiske rødder af Goju-Ryu"
-    },
-    "chojunMiyagi": {
-      "title": "Chojun Miyagi",
-      "description": "Udforsk livet og bidragene fra Goju-Ryu's grundlægger"
-    },
-    "anichiMiyagi": {
-      "title": "Anichi Miyagi",
-      "description": "Lær om Anichi Miyagi's rolle i Goju-Ryu's udvikling"
-    },
-    "development": {
-      "title": "Udvikling",
-      "description": "Forstå hvordan Goju-Ryu har udviklet sig gennem tiden"
+  "history": {
+    "title": "Historie",
+    "description": "Oprindelse og udvikling af Goju Ryu",
+    "origins": "Oprindelse",
+    "kanryoHigaonna": "Kanryo Higaonna",
+    "chojunMiyagi": "Chojun Miyagi",
+    "anichiMiyagi": "Anichi Miyagi",
+    "morioHigaonna": "Morio Higaonna",
+    "tetsujiNakamura": "Tetsuji Nakamura",
+    "timeline": "Tidslinje",
+    "sections": {
+      "origins": {
+        "title": "Oprindelse",
+        "description": "Hvor det hele begyndte"
+      },
+      "miyagi": {
+        "title": "Chojun Miyagi",
+        "description": "Stifteren af Goju Ryu"
+      },
+      "development": {
+        "title": "Udvikling",
+        "description": "Hvordan stilen udviklede sig"
+      },
+      "spread": {
+        "title": "Udbredelse",
+        "description": "Hvordan Goju Ryu spredte sig"
+      }
     }
   }
 }

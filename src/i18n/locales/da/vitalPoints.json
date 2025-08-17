@@ -1,10 +1,20 @@
 {
-  "title": "Vitalpunkter",
-  "description": "Lær om kroppens sårbare punkter og deres anvendelse",
-  "interactive": {
-    "title": "Interaktive vitalpunkter",
-    "description": "Klik på kroppen for at lære om forskellige vitalpunkter",
-    "front": "Front",
-    "back": "Ryg"
+  "vitalPoints": {
+    "title": "Vitale Punkter",
+    "description": "Kyusho og pressepunkter",
+    "sections": {
+      "front": {
+        "title": "Front",
+        "description": "Frontale vitale punkter"
+      },
+      "back": {
+        "title": "Ryg",
+        "description": "Ryg vitale punkter"
+      },
+      "techniques": {
+        "title": "Teknikker",
+        "description": "Teknikker til vitale punkter"
+      }
+    }
   }
 }

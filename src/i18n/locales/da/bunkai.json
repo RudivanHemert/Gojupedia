@@ -1,11 +1,33 @@
 {
-  "title": "Bunkai",
-  "description": "Forstå praktisk anvendelse af kata-teknikker",
-  "detailPage": {
-    "title": "Bunkai detaljer",
-    "description": "Udforsk detaljerede bunkai-teknikker",
-    "technique": "Teknik",
-    "application": "Anvendelse",
-    "variations": "Variationer"
+  "bunkai": {
+    "title": "Bunkai",
+    "description": "Praktisk anvendelse af kata",
+    "sections": {
+      "basic": {
+        "title": "Grundlæggende",
+        "description": "Begynder bunkai"
+      },
+      "advanced": {
+        "title": "Avancerede",
+        "description": "Øvet bunkai"
+      },
+      "applications": {
+        "title": "Anvendelser",
+        "description": "Praktiske anvendelser"
+      }
+    },
+    "details": {
+      "attack": "Angreb",
+      "defense": "Forsvar",
+      "counterAttack": "Modangreb",
+      "footwork": "Fodarbejde",
+      "vitalPoints": "Vitale Punkter",
+      "notes": "Noter"
+    }
+  },
+  "bunkaiDetailPage": {
+    "videoDescription": "Se bunkai demonstrationsvideoen på YouTube.",
+    "watchOnYouTube": "Se på YouTube",
+    "noBunkaiDetails": "Ingen detaljeret Bunkai information tilgængelig."
   }
 }

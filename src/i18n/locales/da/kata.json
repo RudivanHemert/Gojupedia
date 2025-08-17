@@ -1,16 +1,55 @@
 {
-  "title": "Kata",
-  "description": "Udforsk de traditionelle kata-former og deres betydning",
   "kata": {
     "title": "Kata",
-    "description": "Traditionelle karateformer"
-  },
-  "kataTheoryDetailPage": {
-    "title": "Kata teori detaljer",
-    "description": "Udforsk detaljerede kata teori"
-  },
-  "kataDetailPage": {
-    "title": "Kata detaljer",
-    "description": "Udforsk specifikke kata"
+    "description": "Traditionelle former og deres betydning",
+    "overview": "Kata Oversigt",
+    "theory": {
+      "title": "Kata Teori",
+      "description": "Lær om kata teori og principper"
+    },
+    "categories": {
+      "kaishugata": "Kaishugata",
+      "kaishugataDescription": "Åbne hånd kata - grundlæggende kata for begyndere",
+      "heishugata": "Heishugata",
+      "heishugataDescription": "Lukkede hånd kata - avancerede kata for øvede"
+    },
+    "sections": {
+      "basic": {
+        "title": "Grundlæggende",
+        "description": "Begynder kata"
+      },
+      "advanced": {
+        "title": "Avancerede",
+        "description": "Øvet kata"
+      },
+      "theory": {
+        "title": "Teori",
+        "description": "Kata teori og principper"
+      }
+    },
+    "kataTheoryDetailPage": {
+      "title": "Kata Teori",
+      "description": "Detaljeret teori om kata"
+    },
+    "kataDetailPage": {
+      "title": "Kata Detaljer",
+      "description": "Detaljeret information om kata",
+      "overview": {
+        "descriptionTitle": "Beskrivelse",
+        "historyTitle": "Historie",
+        "culturalSignificanceTitle": "Kulturel Betydning"
+      },
+      "video": {
+        "title": "Video",
+        "browserNotSupported": "Din browser understøtter ikke iframes.",
+        "watchOnYouTube": "Se på YouTube"
+      },
+      "steps": {
+        "noSteps": "Ingen trin tilgængelige for denne kata."
+      },
+      "bunkai": {
+        "videoTitle": "Bunkai Video"
+      }
+    }
   }
 }

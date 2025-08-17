@@ -117,14 +117,14 @@ const SearchPage = () => {
             {availableCategories.length > 0 && (
               <div className="flex items-center gap-2">
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                  {t('search.category', 'Categorie:')}
+                  {t('search.category')}
                 </span>
                 <select
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value)}
                   className="text-xs px-2 py-1 border border-gray-300 dark:border-gray-600 rounded bg-white dark:bg-gray-800"
                 >
-                  <option value="all">{t('search.all', 'Alle')}</option>
+                  <option value="all">{t('search.all')}</option>
                   {availableCategories.map(category => (
                     <option key={category} value={category}>
                       {getTypeLabel(category)}
@@ -149,19 +149,15 @@ const SearchPage = () => {
             <div className="mb-6 flex items-center justify-between">
               <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
                 {isSearching ? (
-                  t('search.searching', 'Zoeken...')
+                  t('search.searching')
                 ) : (
-                  t('search.results', {
-                    count: filteredResults.length,
-                    query: searchQuery,
-                    defaultValue: `${filteredResults.length} resultaten voor "${searchQuery}"`
-                  })
+                  `${filteredResults.length} ${t('search.results')} "${searchQuery}"`
                 )}
               </h2>
               
               {filteredResults.length > 0 && (
                 <Badge variant="outline" className="text-xs">
-                  {searchType} search
+                  {t(`search.searchTypes.${searchType}`)} {t('search.search')}
                 </Badge>
               )}
             </div>

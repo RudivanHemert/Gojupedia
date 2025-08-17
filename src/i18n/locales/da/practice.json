@@ -1,22 +1,57 @@
 {
-  "title": "Praktik",
-  "description": "Øv dig med interaktive kata og teknikker",
-  "sections": {
-    "kata": {
-      "title": "Kata",
-      "description": "Øv dig med traditionelle kata-former"
+  "practice": {
+    "title": "Praktik",
+    "description": "Øv teknikker, kata og bunkai",
+    "overview": "Praktik Oversigt",
+    "pageTitle": "Praktik",
+    "pageDescription": "Teknikker, træning og anvendelse af Goju Ryu Karate",
+    "viewSection": "Se sektion",
+    "aboutTrainingTitle": "Om Praktik Træning",
+    "sections": {
+      "techniques": {
+        "title": "Teknikker",
+        "name": "Teknikker",
+        "description": "Basis og avancerede teknikker af Goju Ryu"
+      },
+      "kata": {
+        "title": "Kata",
+        "name": "Kata",
+        "description": "Traditionelle former og deres anvendelser"
+      },
+      "bunkai": {
+        "title": "Bunkai",
+        "name": "Bunkai",
+        "description": "Praktiske anvendelser af kata"
+      },
+      "kumite": {
+        "title": "Kumite",
+        "name": "Kumite",
+        "description": "Sparring og kampeteknikker"
+      },
+      "hojoUndo": {
+        "title": "Hojo Undo",
+        "name": "Hojo Undo",
+        "description": "Traditionelle styrkeopbygningsøvelser"
+      },
+      "newaza": {
+        "title": "Newaza",
+        "name": "Newaza",
+        "description": "Jordteknikker og grappling"
+      },
+      "junbiUndo": {
+        "title": "Junbi Undo",
+        "description": "Forberedelsesøvelser"
+      }
     },
-    "techniques": {
-      "title": "Teknikker",
-      "description": "Perfektioner grundlæggende og avancerede teknikker"
-    },
-    "hojoUndo": {
-      "title": "Hojo Undo",
-      "description": "Udforsk traditionelle træningsredskaber og øvelser"
-    },
-    "junbiUndo": {
-      "title": "Junbi Undo",
-      "description": "Lær opvarmnings- og forberedelsesøvelser"
+    "training": {
+      "kihon": {
+        "title": "Kihon (基礎)",
+        "description": "Basis teknikker danner grundlaget for al karate træning. Regelmæssig øvelse af kihon udvikler styrke, præcision og kontrol."
+      },
+      "kata": {
+        "title": "Kata (型)",
+        "description": "Kata er forudbestemte sekvenser af teknikker der indeholder traditionelle kamp principper og strategier."
+      }
     }
   }
 }

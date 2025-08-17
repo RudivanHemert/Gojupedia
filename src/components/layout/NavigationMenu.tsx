@@ -9,7 +9,7 @@ const NavigationMenu = () => {
     <nav className="space-y-2">
       <Link to="/search" className="block p-2 hover:bg-muted rounded transition-colors flex items-center gap-2">
         <SearchIcon className="h-4 w-4" />
-        <span>{t('common.search') || 'Zoeken'}</span>
+        <span>{t('common.search')}</span>
       </Link>
       <Link to="/" className="block p-2 hover:bg-muted rounded transition-colors">{t('navigation.home')}</Link>
       

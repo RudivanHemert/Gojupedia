@@ -1,22 +1,39 @@
 {
-  "title": "Teori",
-  "description": "Lær om de grundlæggende principper og koncepter bag Goju-Ryu Karate",
-  "sections": {
-    "kata": {
-      "title": "Kata",
-      "description": "Udforsk de traditionelle kata-former og deres betydning"
-    },
-    "bunkai": {
-      "title": "Bunkai",
-      "description": "Forstå praktisk anvendelse af kata-teknikker"
-    },
-    "vitalPoints": {
-      "title": "Vitalpunkter",
-      "description": "Lær om kroppens sårbare punkter og deres anvendelse"
-    },
-    "techniques": {
-      "title": "Teknikker",
-      "description": "Udforsk grundlæggende og avancerede teknikker"
+  "theory": {
+    "title": "Teori",
+    "description": "Lær om filosofi, historie og terminologi",
+    "overview": "Teori Oversigt",
+    "terminology": "Terminologi",
+    "terminologyDesc": "Japanske termer og begreber",
+    "history": "Historie",
+    "historyDesc": "Oprindelse og udvikling af Goju Ryu",
+    "philosophy": "Filosofi",
+    "philosophyDesc": "Kerneprincipper og værdier af Goju Ryu",
+    "kata": "Kata",
+    "kataDesc": "Traditionelle former og deres betydning",
+    "vitalPoints": "Vitale Punkter",
+    "vitalPointsDesc": "Kyusho og pressepunkter",
+    "sections": {
+      "philosophy": {
+        "title": "Filosofi",
+        "description": "Kerneprincipper og værdier"
+      },
+      "history": {
+        "title": "Historie",
+        "description": "Oprindelse og udvikling"
+      },
+      "terminology": {
+        "title": "Terminologi",
+        "description": "Japanske termer og begreber"
+      },
+      "kataTheory": {
+        "title": "Kata Teori",
+        "description": "Principper bag traditionelle former"
+      },
+      "vitalPoints": {
+        "title": "Vitale Punkter",
+        "description": "Kyusho og pressepunkter"
+      }
     }
   }
 }

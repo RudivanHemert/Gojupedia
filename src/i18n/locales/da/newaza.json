@@ -1,18 +1,20 @@
 {
-  "title": "Newaza",
-  "description": "Lær om jordteknikker og grappling",
-  "sections": {
-    "introduction": {
-      "title": "Introduktion",
-      "description": "Grundlæggende information om newaza"
-    },
-    "groundPositions": {
-      "title": "Jordstillinger",
-      "description": "Udforsk forskellige jordstillinger"
-    },
-    "drills": {
-      "title": "Øvelser",
-      "description": "Praktiske øvelser til newaza"
+  "newaza": {
+    "title": "Newaza",
+    "description": "Bodøvelser og jordteknikker",
+    "sections": {
+      "positions": {
+        "title": "Positioner",
+        "description": "Grundlæggende positioner"
+      },
+      "techniques": {
+        "title": "Teknikker",
+        "description": "Jordteknikker"
+      },
+      "drills": {
+        "title": "Øvelser",
+        "description": "Newaza øvelser"
+      }
     }
   }
 }

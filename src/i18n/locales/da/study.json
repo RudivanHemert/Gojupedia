@@ -1,28 +1,56 @@
 {
-  "title": "Studie",
-  "description": "Test din viden og forbedre din forståelse",
-  "testTypes": {
-    "quiz": "Quiz",
-    "flashcards": "Flashcards",
-    "matching": "Matchende spil"
-  },
-  "quiz": {
-    "start": "Start quiz",
-    "question": "Spørgsmål",
-    "of": "af",
-    "score": "Score",
-    "correct": "Korrekt",
-    "incorrect": "Forkert",
-    "feedback": {
-      "excellent": "Fremragende!",
-      "good": "Godt!",
-      "fair": "Rimeligt",
-      "poor": "Dårligt"
+  "study": {
+    "title": "Studie",
+    "description": "Quiz, flashkort og gradueringer",
+    "overview": "Studie Oversigt",
+    "pageHeaderTitle": "Studie",
+    "pageHeaderDescription": "Test din viden og øv teknikker",
+    "tests": "Quiz",
+    "quizDesc": "Test din viden på forskellige emner.",
+    "flashcardDesc": "Gennemgå termer og begreber med flashkort.",
+    "matchingDesc": "Match termer og begreber med hinanden.",
+    "notFound": {
+      "title": "Studie ikke fundet",
+      "description": "Det ønskede studie kunne ikke findes"
+    },
+    "quiz": {
+      "next": "Næste",
+      "previous": "Forrige",
+      "submit": "Indsend",
+      "retry": "Prøv igen",
+      "completed": "Quiz gennemført",
+      "score": "Score",
+      "correct": "Korrekt",
+      "incorrect": "Forkert",
+      "explanation": "Forklaring"
+    },
+    "flashcard": {
+      "flip": "Vend",
+      "next": "Næste",
+      "previous": "Forrige"
+    },
+    "matching": {
+      "start": "Start",
+      "reset": "Nulstil",
+      "completed": "Gennemført"
+    },
+    "sections": {
+      "quizzes": {
+        "title": "Quiz",
+        "description": "Test din viden på forskellige emner"
+      },
+      "flashcards": {
+        "title": "Flashkort",
+        "description": "Lær med interaktive kort"
+      },
+      "matching": {
+        "title": "Matchende",
+        "description": "Match begreber og definitioner"
+      },
+      "graduations": {
+        "title": "Graderinger",
+        "description": "Kyu og dan systemer"
+      }
     }
-  },
-  "difficulty": {
-    "beginner": "Begynder",
-    "intermediate": "Mellemniveau",
-    "advanced": "Avanceret"
   }
 }

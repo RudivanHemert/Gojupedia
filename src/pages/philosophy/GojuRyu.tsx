@@ -11,40 +11,36 @@ const GojuRyu = () => {
 
   const concepts = [
     {
-      japanese: "剛柔",
-      romaji: "Goju",
-      dutch: "Hard en Zacht",
-      english: "Hard and Soft",
-      description: "De fundamentele filosofie van Goju Ryu die harde (Go) en zachte (Ju) technieken combineert in perfecte harmonie."
+      japanese: t('philosophy.gojuRyu.concepts.goju.japanese'),
+      romaji: t('philosophy.gojuRyu.concepts.goju.romaji'),
+      danish: t('philosophy.gojuRyu.concepts.goju.danish'),
+      description: t('philosophy.gojuRyu.concepts.goju.description')
     },
     {
-      japanese: "呼吸",
-      romaji: "Kokyu",
-      dutch: "Ademhaling",
-      english: "Breathing",
-      description: "De juiste ademhalingstechnieken zijn essentieel voor het ontwikkelen van kracht en focus in Goju Ryu."
+      japanese: t('philosophy.gojuRyu.concepts.kokyu.japanese'),
+      romaji: t('philosophy.gojuRyu.concepts.kokyu.romaji'),
+      danish: t('philosophy.gojuRyu.concepts.kokyu.danish'),
+      description: t('philosophy.gojuRyu.concepts.kokyu.description')
     },
     {
-      japanese: "気",
-      romaji: "Ki",
-      dutch: "Energie",
-      english: "Energy",
-      description: "De innerlijke energie die door ademhaling en concentratie wordt ontwikkeld en gebruikt in technieken."
+      japanese: t('philosophy.gojuRyu.concepts.ki.japanese'),
+      romaji: t('philosophy.gojuRyu.concepts.ki.romaji'),
+      danish: t('philosophy.gojuRyu.concepts.ki.danish'),
+      description: t('philosophy.gojuRyu.concepts.ki.description')
     },
     {
-      japanese: "和",
-      romaji: "Wa",
-      dutch: "Harmonie",
-      english: "Harmony",
-      description: "Het bereiken van harmonie tussen lichaam en geest, en tussen harde en zachte technieken."
+      japanese: t('philosophy.gojuRyu.concepts.wa.japanese'),
+      romaji: t('philosophy.gojuRyu.concepts.wa.romaji'),
+      danish: t('philosophy.gojuRyu.concepts.wa.danish'),
+      description: t('philosophy.gojuRyu.concepts.wa.description')
     }
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title={t('philosophy.sections.goju-ryu.title', 'Goju Ryu')}
-        description={t('philosophy.sections.goju-ryu.description', 'De filosofie van hard en zacht')}
+        title={t('philosophy.gojuRyu.title')}
+        description={t('philosophy.gojuRyu.subtitle')}
         backUrl="/philosophy"
       />
       <div className="p-4">
@@ -64,29 +60,25 @@ const GojuRyu = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  Goju Ryu Karate is gebaseerd op de filosofie van "Go" (hard) en "Ju" (zacht). 
-                  Deze tegenstellingen worden niet gezien als conflicterend, maar als complementair. 
-                  De kunst ligt in het vinden van de juiste balans tussen beide elementen.
+                  {t('philosophy.gojuRyu.mainDescription')}
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-500">
-                    <h3 className="font-semibold text-red-800 mb-2">Go (剛) - Hard</h3>
+                    <h3 className="font-semibold text-red-800 mb-2">{t('philosophy.gojuRyu.go.title')}</h3>
                     <p className="text-red-700 text-sm">
-                      Directe, krachtige technieken zoals stoten, trappen en blokken. 
-                      Vertegenwoordigt kracht, vastberadenheid en directe actie.
+                      {t('philosophy.gojuRyu.go.description')}
                     </p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
-                    <h3 className="font-semibold text-blue-800 mb-2">Ju (柔) - Zacht</h3>
+                    <h3 className="font-semibold text-blue-800 mb-2">{t('philosophy.gojuRyu.ju.title')}</h3>
                     <p className="text-blue-700 text-sm">
-                      Circulaire, absorberende technieken zoals ontwijkingen en worpen. 
-                      Vertegenwoordigt flexibiliteit, aanpassingsvermogen en indirecte actie.
+                      {t('philosophy.gojuRyu.ju.description')}
                     </p>
                   </div>
                 </div>
 
-                <h3 className="text-lg font-semibold mb-4">Kernconcepten</h3>
+                <h3 className="text-lg font-semibold mb-4">{t('philosophy.gojuRyu.coreConcepts')}</h3>
                 <div className="space-y-4">
                   {concepts.map((concept, index) => (
                     <motion.div
@@ -106,7 +98,7 @@ const GojuRyu = () => {
                       
                       <div className="space-y-2">
                         <p className="font-medium text-foreground">
-                          {concept.dutch} / {concept.english}
+                          {concept.danish}
                         </p>
                         <p className="text-muted-foreground text-sm">
                           {concept.description}

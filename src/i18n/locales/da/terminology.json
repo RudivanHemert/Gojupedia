@@ -1,18 +1,38 @@
 {
-  "title": "Terminologi",
-  "description": "Lær om karatetermer og deres betydning",
-  "sections": {
-    "dojoTerms": {
-      "title": "Dojo termer",
-      "description": "Almindelige termer brugt i dojo"
-    },
-    "techniqueNames": {
-      "title": "Tekniknavne",
-      "description": "Navne på forskellige teknikker"
-    },
-    "equipment": {
-      "title": "Udstyr og våben",
-      "description": "Traditionelt karateudstyr"
+  "terminology": {
+    "title": "Terminologi",
+    "description": "Japanske termer og begreber",
+    "sections": {
+      "general-terms": "Generelle termer",
+      "numbers": "Tal",
+      "tournament-terms": "Turneringstermer",
+      "equipment-weapons": "Udstyr og våben",
+      "karate-goju-ryu": "Karate Goju Ryu",
+      "karate-titles": "Karate titler",
+      "phrases-etiquette": "Fraser og etikette",
+      "kata-terms": "Kata termer",
+      "blocks": "Blokke",
+      "kicks": "Spark",
+      "punches": "Stød",
+      "stances": "Stillinger",
+      "strikes": "Slag",
+      "vital-points": "Vitale punkter",
+      "basic": {
+        "title": "Grundlæggende",
+        "description": "Almindelige termer"
+      },
+      "techniques": {
+        "title": "Teknikker",
+        "description": "Tekniske termer"
+      },
+      "stances": {
+        "title": "Stillinger",
+        "description": "Stance og positioner"
+      },
+      "equipment": {
+        "title": "Udstyr",
+        "description": "Våben og redskaber"
+      }
     }
   }
 }

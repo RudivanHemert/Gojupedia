@@ -92,11 +92,11 @@ const BunkaiDetailPage = () => {
               <CardTitle>{t('bunkaiDetailPage.videoTitle', 'Bunkai Video')}</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4">{t('bunkaiDetailPage.videoDescription', 'Bekijk de bunkai demonstratie video op YouTube.')}</p>
+                              <p className="mb-4">{t('bunkaiDetailPage.videoDescription')}</p>
               <Button asChild>
                 <a href={kata.bunkai} target="_blank" rel="noopener noreferrer">
                   <PlayCircle className="mr-2 h-5 w-5" />
-                  {t('bunkaiDetailPage.watchOnYouTube', 'Bekijk op YouTube')}
+                  {t('bunkaiDetailPage.watchOnYouTube')}
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
               </Button>
@@ -109,7 +109,7 @@ const BunkaiDetailPage = () => {
     // It's an array of BunkaiDetail
     const bunkaiList = kata.bunkai as BunkaiDetail[];
     if (bunkaiList.length === 0) {
-      return <p>{t('bunkaiDetailPage.noBunkaiDetails', 'Geen gedetailleerde Bunkai informatie beschikbaar.')}</p>;
+      return <p>{t('bunkaiDetailPage.noBunkaiDetails')}</p>;
     }
 
     return bunkaiList.map((bunkai, index) => (

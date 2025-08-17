@@ -112,7 +112,7 @@ const JunbiUndoPage = () => {
                       </p>
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm text-blue-800 font-medium mb-1">
-                          Instructies:
+                          {t('junbiUndo.exercises.instructions')}:
                         </p>
                         <p className="text-sm text-blue-700 leading-relaxed">
                           {exercise.instructions}

@@ -22,48 +22,48 @@ const PracticePage = () => {
   const sections = [
     {
       id: 'techniques',
-      name: 'Technieken',
-      description: 'Basis en geavanceerde technieken van Goju Ryu',
+      name: t('practice.sections.techniques.name'),
+      description: t('practice.sections.techniques.description'),
       icon: <Hand className="h-8 w-8 text-red-500 dark:text-red-400" />,
       path: '/techniques',
       color: 'bg-red-50 dark:bg-red-950/20 border-red-200 dark:border-red-800'
     },
     {
       id: 'kata',
-      name: 'Kata',
-      description: 'Traditionele vormen en hun toepassingen',
+      name: t('practice.sections.kata.name'),
+      description: t('practice.sections.kata.description'),
       icon: <Users className="h-8 w-8 text-blue-500 dark:text-blue-400" />,
       path: '/kata',
-      color: 'bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-blue-800'
+      color: 'bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-red-800'
     },
     {
       id: 'kumite',
-      name: 'Kumite',
-      description: 'Sparring en gevechtstechnieken',
+      name: t('practice.sections.kumite.name'),
+      description: t('practice.sections.kumite.description'),
       icon: <Target className="h-8 w-8 text-green-500 dark:text-green-400" />,
       path: '/kumite',
       color: 'bg-green-50 dark:bg-green-950/20 border-green-200 dark:border-green-800'
     },
     {
       id: 'bunkai',
-      name: 'Bunkai',
-      description: 'Praktische toepassingen van kata',
+      name: t('practice.sections.bunkai.name'),
+      description: t('practice.sections.bunkai.description'),
       icon: <BookOpen className="h-8 w-8 text-purple-500 dark:text-purple-400" />,
       path: '/bunkai',
       color: 'bg-purple-50 dark:bg-purple-950/20 border-purple-200 dark:border-purple-800'
     },
     {
       id: 'hojo-undo',
-      name: 'Hojo Undo',
-      description: 'Traditionele versterkingsoefeningen',
+      name: t('practice.sections.hojoUndo.name'),
+      description: t('practice.sections.hojoUndo.description'),
       icon: <Dumbbell className="h-8 w-8 text-orange-500 dark:text-orange-400" />,
       path: '/hojo-undo',
       color: 'bg-orange-50 dark:bg-orange-950/20 border-orange-200 dark:border-orange-800'
     },
     {
       id: 'newaza',
-      name: 'Newaza',
-      description: 'Grondtechnieken en grappling',
+      name: t('practice.sections.newaza.name'),
+      description: t('practice.sections.newaza.description'),
       icon: <Activity className="h-8 w-8 text-indigo-500 dark:text-indigo-400" />,
       path: '/newaza',
       color: 'bg-indigo-50 dark:bg-indigo-950/20 border-indigo-200 dark:border-indigo-800'
@@ -94,8 +94,8 @@ const PracticePage = () => {
   return (
     <div className="min-h-screen bg-background">
       <TheoryHeader 
-        title="Praktijk"
-        description="Technieken, training en toepassing van Goju Ryu Karate"
+        title={t('practice.pageTitle')}
+        description={t('practice.pageDescription')}
         backUrl="/"
       />
       <div className="p-4">
@@ -118,7 +118,7 @@ const PracticePage = () => {
                         <h3 className="font-bold text-xl mb-2 text-foreground">{section.name}</h3>
                         <p className="text-muted-foreground leading-relaxed">{section.description}</p>
                         <div className="flex items-center text-primary mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                          <span className="text-sm font-medium">Bekijk sectie</span>
+                          <span className="text-sm font-medium">{t('practice.viewSection')}</span>
                           <ArrowRight className="h-4 w-4 ml-1" />
                         </div>
                       </div>
@@ -131,26 +131,24 @@ const PracticePage = () => {
 
           {/* Additional info section */}
           <div className="mt-8 bg-muted/30 dark:bg-muted/10 rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4 text-center text-foreground">Over Praktijk Training</h3>
+            <h3 className="text-lg font-semibold mb-4 text-center text-foreground">{t('practice.aboutTrainingTitle')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h4 className="font-medium mb-2 flex items-center text-foreground">
                   <Zap className="h-5 w-5 text-yellow-500 dark:text-yellow-400 mr-2" />
-                  Kihon (基礎)
+                  {t('practice.training.kihon.title')}
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Basis technieken vormen de fundering van alle karate training. 
-                  Regelmatige beoefening van kihon ontwikkelt kracht, precisie en controle.
+                  {t('practice.training.kihon.description')}
                 </p>
               </div>
               <div>
                 <h4 className="font-medium mb-2 flex items-center text-foreground">
                   <Layers className="h-5 w-5 text-blue-500 dark:text-blue-400 mr-2" />
-                  Kata (型)
+                  {t('practice.training.kata.title')}
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Kata zijn vooraf bepaalde sequenties van technieken die 
-                  traditionele vechtprincipes en -strategieën bevatten.
+                  {t('practice.training.kata.description')}
                 </p>
               </div>
             </div>

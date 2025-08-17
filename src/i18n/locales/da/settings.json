@@ -1,20 +1,24 @@
 {
-  "title": "Indstillinger",
-  "language": {
-    "title": "Sprog",
-    "description": "Vælg dit foretrukne sprog"
-  },
-  "theme": {
-    "title": "Tema",
-    "description": "Vælg mørkt eller lyst tema",
-    "light": "Lyst",
-    "dark": "Mørkt",
-    "auto": "Automatisk"
-  },
-  "notifications": {
-    "title": "Notifikationer",
-    "description": "Administrer notifikationsindstillinger",
-    "enabled": "Aktiveret",
-    "disabled": "Deaktiveret"
+  "settings": {
+    "title": "Indstillinger",
+    "subtitle": "Sprog, tema og præferencer",
+    "description": "Tilpas dine præferencer og indstillinger",
+    "language": {
+      "title": "Sprog & Lokalisering",
+      "description": "Vælg dit foretrukne sprog og regionindstillinger"
+    },
+    "theme": {
+      "title": "Udseende & Tema",
+      "description": "Tilpas appens udseende",
+      "options": {
+        "light": "Lys",
+        "dark": "Mørk",
+        "system": "System"
+      },
+      "selectLabel": "Vælg Tema",
+      "selectThemeTitle": "Vælg Tema"
+    },
+    "notifications": "Notifikationer",
+    "about": "Om"
   }
 }

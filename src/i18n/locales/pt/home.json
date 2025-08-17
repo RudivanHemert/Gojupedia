@@ -1,64 +1,49 @@
 {
-  "hero": {
-    "title": "Bem-vindo ao Gojupedia",
-    "subtitle": "Seu guia completo para Goju-Ryu Karate",
-    "description": "Explore técnicas, kata, filosofia e história por trás deste venerável estilo de karate",
-    "cta": "Comece sua jornada",
-    "tagline": "Força e fluidez no movimento"
-  },
-  "introTitle": "Bem-vindo ao Gojupedia",
-  "introText": "Gojupedia é seu recurso abrangente para aprender e entender Goju-Ryu Karate. Seja você um iniciante ou um praticante avançado, encontrará aqui tudo o que precisa.",
-  "mainSections": "Seções Principais",
-  "popularSubsections": "Subseções Populares",
-  "viewSection": "Ver seção",
-  "sections": {
-    "theory": {
-      "title": "Teoria",
-      "subtitle": "Filosofia, história, terminologia e teoria do kata"
+  "home": {
+    "welcome": "Bem-vindo ao Wiki Goju Ryu",
+    "description": "Descubra a arte do Goju Ryu Karate",
+    "getStarted": "Começar",
+    "heroSubtitle": "Goju Ryu Karate-Do",
+    "heroTagline": "O Caminho Duro e Suave da Mão Vazia",
+    "introTitle": "O Caminho do Goju Ryu",
+    "introText": "Goju Ryu (剛柔流) é um dos principais estilos tradicionais okinawanos de karate, caracterizado por uma combinação de técnicas duras e suaves. Desenvolvido por Chojun Miyagi no início do século XX, esta arte marcial enfatiza tanto a força quanto a fluidez no movimento.",
+    "studyAreasTitle": "Áreas de Estudo",
+    "miyagiQuote": "No karate, golpear, empurrar e chutar não são os únicos métodos. Técnicas de arremesso e pressão contra articulações estão incluídas.",
+    "miyagiAuthor": "- Chojun Miyagi",
+    "kataTheoryTitle": "Teoria do Kata",
+    "kataTheorySubtitle": "Princípios e teoria por trás das formas tradicionais",
+    "terminologyTitle": "Terminologia",
+    "terminologySubtitle": "Terminologia e vocabulário japonês",
+    "mainSectionsTitle": "Seções Principais",
+    "popularSubsectionsTitle": "Subseções Populares",
+    "viewSection": "Ver Seção",
+    "sections": {
+      "theory": {
+        "title": "Teoria",
+        "subtitle": "Filosofia, história, terminologia e teoria dos kata"
+      },
+      "practice": {
+        "title": "Prática",
+        "subtitle": "Técnicas, kata, bunkai, kumite e hojo undo"
+      },
+      "study": {
+        "title": "Estudo",
+        "subtitle": "Questionários, cartões de memória e graduações"
+      },
+      "search": {
+        "title": "Pesquisar",
+        "subtitle": "Pesquise em todo o conteúdo e termos"
+      },
+      "about": {
+        "title": "Sobre",
+        "subtitle": "Sobre Gojupedia e Goju Ryu Karate"
+      }
     },
-    "practice": {
-      "title": "Prática",
-      "subtitle": "Técnicas, kata, bunkai, kumite e hojo undo"
-    },
-    "study": {
-      "title": "Estudo",
-      "subtitle": "Questionários, flashcards e graduações"
-    },
-    "search": {
-      "title": "Pesquisar",
-      "subtitle": "Pesquise por todo o conteúdo e termos"
-    },
-    "about": {
-      "title": "Sobre",
-      "subtitle": "Sobre Gojupedia e Goju Ryu Karate"
-    }
-  },
-  "subsections": {
-    "philosophy": "Filosofia",
-    "techniques": "Técnicas",
-    "kata": "Kata",
-    "terminology": "Terminologia"
-  },
-  "miyagiQuote": "Karate não é apenas uma arte marcial, mas um caminho para melhorar o caráter",
-  "miyagiAuthor": "- Chojun Miyagi",
-  "studyAreas": {
-    "title": "Áreas de Estudo",
-    "description": "Explore diferentes aspectos do Goju-Ryu Karate",
-    "theory": {
-      "title": "Teoria",
-      "description": "Aprenda sobre os princípios e conceitos por trás do Goju-Ryu"
-    },
-    "practice": {
-      "title": "Prática",
-      "description": "Pratique com kata e técnicas interativas"
-    },
-    "history": {
-      "title": "História",
-      "description": "Explore as raízes e desenvolvimento do Goju-Ryu"
-    },
-    "philosophy": {
-      "title": "Filosofia",
-      "description": "Entenda os princípios filosóficos por trás do karate"
+    "subsections": {
+      "philosophy": "Filosofia",
+      "techniques": "Técnicas",
+      "kata": "Kata",
+      "terminology": "Terminologia"
     }
   }
 }

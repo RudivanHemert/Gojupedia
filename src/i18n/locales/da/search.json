@@ -1,17 +1,54 @@
 {
-  "placeholder": "Søg efter teknikker, kata, eller andre emner...",
-  "filters": {
-    "title": "Filtre",
-    "category": "Kategori",
-    "difficulty": "Sværhedsgrad",
-    "clear": "Ryd filtre"
-  },
-  "results": {
-    "title": "Søgeresultater",
+  "search": {
+    "title": "Søg",
+    "description": "Søg gennem kata, teknikker, filosofi og mere",
+    "welcome": "Søg",
+    "advancedSearch": "Avanceret søgning med fuzzy matching og forslag",
+    "placeholder": "Søg efter kata, teknikker, filosofi...",
+    "filters": "Filtre",
+    "clear": "Ryd",
+    "contentType": "Indholdstype",
+    "tags": "Tags",
+    "results": "Resultater",
     "noResults": "Ingen resultater fundet",
-    "suggestions": "Forslag til at forbedre din søgning:",
-    "suggestion1": "Tjek stavning",
-    "suggestion2": "Prøv andre søgeord",
-    "suggestion3": "Brug færre filtre"
+    "noResultsDescription": "Prøv at justere dine søgetermer eller filtre",
+    "searchTypes": {
+      "general": "Generel",
+      "precise": "Præcis",
+      "fuzzy": "Fuzzy"
+    },
+    "categories": {
+      "all": "Alle",
+      "kata": "Kata",
+      "technique": "Teknik",
+      "philosophy": "Filosofi",
+      "history": "Historie",
+      "terminology": "Terminologi",
+      "bunkai": "Bunkai",
+      "hojoUndo": "Hojo Undo",
+      "theory": "Teori",
+      "newaza": "Newaza",
+      "kumite": "Kumite",
+      "person": "Person",
+      "principle": "Princip",
+      "article": "Artikel"
+    },
+    "filters": {
+      "title": "Filtre",
+      "category": "Kategori",
+      "type": "Type",
+      "language": "Sprog"
+    },
+    "results": {
+      "title": "Søgeresultater",
+      "count": "Resultater fundet",
+      "noResults": "Ingen resultater fundet",
+      "tryAgain": "Prøv at ændre dine søgetermer"
+    },
+    "category": "Kategori:",
+    "all": "Alle",
+    "searching": "Søger...",
+    "results": "Resultater for",
+    "search": "søgning"
   }
 }

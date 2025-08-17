@@ -67,7 +67,7 @@ const InformationPage: React.FC = () => {
             </CardHeader>
             <CardContent className="flex-grow">
               <p className="text-muted-foreground mb-4">
-                Ontdek officieel geregistreerde IOGKF dojos in Nederland. Momenteel zijn er 11 dojos beschikbaar in verschillende steden.
+                {t('information.dojos.description')}
               </p>
               <Button asChild className="w-full">
                 <Link to="/information/dojos">

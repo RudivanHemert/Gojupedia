@@ -1,14 +1,39 @@
 {
-  "title": "Junbi Undo",
-  "description": "Lær om opvarmnings- og forberedelsesøvelser",
-  "sections": {
-    "introduction": {
-      "title": "Introduktion",
-      "description": "Grundlæggende information om junbi undo"
+  "junbiUndo": {
+    "title": "Junbi Undo",
+    "description": "Forberedelsesøvelser",
+    "intro": "Junbi Undo er en samling af forberedelsesøvelser der hjælper med at udvikle de korrekte åndedrætsteknikker der bruges i Goju Ryu karate.",
+    "sections": {
+      "warmup": {
+        "title": "Opvarmning",
+        "description": "Opvarmningsøvelser"
+      },
+      "stretching": {
+        "title": "Strækning",
+        "description": "Strækkeøvelser"
+      },
+      "conditioning": {
+        "title": "Konditionering",
+        "description": "Konditioneringsøvelser"
+      }
+    },
+    "junbiUndoSection": {
+      "title": "Junbi Undo",
+      "subtitle": "Forberedelsesøvelser",
+      "note": "Disse øvelser hjælper med at forberede kroppen og ånden til karate træning."
+    },
+    "hojoUndoSection": {
+      "title": "Hojo Undo",
+      "subtitle": "Styrkeopbygningsøvelser",
+      "intro": "Hojo Undo øvelser bygger styrke og udholdenhed.",
+      "note": "Disse øvelser kræver regelmæssig praksis for at se resultater."
+    },
+    "breathingSection": {
+      "title": "Åndedræt",
+      "subtitle": "Åndedrætsteknikker"
     },
     "exercises": {
-      "title": "Øvelser",
-      "description": "Forskellige junbi undo øvelser"
+      "instructions": "Instruktioner"
     }
   }
 }

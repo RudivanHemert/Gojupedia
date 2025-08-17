@@ -1,20 +1,29 @@
 {
-  "title": "Teknikker",
-  "description": "Udforsk grundlæggende og avancerede teknikker",
-  "stances": {
-    "title": "Stillinger",
-    "description": "Lær om forskellige karatestillinger"
-  },
-  "punches": {
-    "title": "Stød",
-    "description": "Udforsk forskellige stødteknikker"
-  },
-  "kicks": {
-    "title": "Spark",
-    "description": "Lær om forskellige sparkteknikker"
-  },
-  "blocks": {
-    "title": "Blokeringer",
-    "description": "Udforsk forskellige blokeringsteknikker"
+  "techniques": {
+    "title": "Teknikker",
+    "description": "Grundteknikker og avancerede teknikker",
+    "viewTechniques": "Se teknikker",
+    "sections": {
+      "stances": {
+        "title": "Stillinger",
+        "description": "Grundlæggende stillinger og positioner"
+      },
+      "blocks": {
+        "title": "Blokke",
+        "description": "Blokkerende teknikker"
+      },
+      "strikes": {
+        "title": "Slag",
+        "description": "Slagteknikker"
+      },
+      "kicks": {
+        "title": "Spark",
+        "description": "Sparkteknikker"
+      },
+      "throws": {
+        "title": "Kast",
+        "description": "Kasteteknikker"
+      }
+    }
   }
 }

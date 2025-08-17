@@ -16,7 +16,6 @@ import TheoryHeader from '@/components/theory/TheoryHeader';
 
 // Import detailed kata steps for all languages
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsEn } from '@/data/gekisai-dai-ichi.en';
-import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsDa } from '@/data/gekisai-dai-ichi.da';
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsDe } from '@/data/gekisai-dai-ichi.de';
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsEs } from '@/data/gekisai-dai-ichi.es';
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsFr } from '@/data/gekisai-dai-ichi.fr';
@@ -26,7 +25,6 @@ import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsPt } from '@/data/gekisai-dai
 
 // Import detailed Gekisai Dai Ni steps for all languages
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsEn } from '@/data/gekisai-dai-ni.en';
-import { gekisaiDaiNiSteps as gekisaiDaiNiStepsDa } from '@/data/gekisai-dai-ni.da';
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsDe } from '@/data/gekisai-dai-ni.de';
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsEs } from '@/data/gekisai-dai-ni.es';
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsFr } from '@/data/gekisai-dai-ni.fr';
@@ -36,7 +34,6 @@ import { gekisaiDaiNiSteps as gekisaiDaiNiStepsPt } from '@/data/gekisai-dai-ni.
 
 // Import detailed Sanchin steps for all languages
 import { sanchinSteps as sanchinStepsEn } from '@/data/sanchin.en';
-import { sanchinSteps as sanchinStepsDa } from '@/data/sanchin.da';
 import { sanchinSteps as sanchinStepsDe } from '@/data/sanchin.de';
 import { sanchinSteps as sanchinStepsEs } from '@/data/sanchin.es';
 import { sanchinSteps as sanchinStepsFr } from '@/data/sanchin.fr';
@@ -46,7 +43,6 @@ import { sanchinSteps as sanchinStepsPt } from '@/data/sanchin.pt';
 
 // Import detailed Shisochin steps for all languages
 import { shisochinSteps as shisochinStepsEn } from '@/data/shisochin.en';
-import { shisochinSteps as shisochinStepsDa } from '@/data/shisochin.da';
 import { shisochinSteps as shisochinStepsDe } from '@/data/shisochin.de';
 import { shisochinSteps as shisochinStepsEs } from '@/data/shisochin.es';
 import { shisochinSteps as shisochinStepsFr } from '@/data/shisochin.fr';
@@ -56,7 +52,6 @@ import { shisochinSteps as shisochinStepsPt } from '@/data/shisochin.pt';
 
 // Import detailed Sanseru steps for all languages
 import { sanseruSteps as sanseruStepsEn } from '@/data/sanseru.en';
-import { sanseruSteps as sanseruStepsDa } from '@/data/sanseru.da';
 import { sanseruSteps as sanseruStepsDe } from '@/data/sanseru.de';
 import { sanseruSteps as sanseruStepsEs } from '@/data/sanseru.es';
 import { sanseruSteps as sanseruStepsFr } from '@/data/sanseru.fr';
@@ -66,7 +61,6 @@ import { sanseruSteps as sanseruStepsPt } from '@/data/sanseru.pt';
 
 // Import detailed Saifa steps for all languages
 import { saifaSteps as saifaStepsEn } from '@/data/saifa.en';
-import { saifaSteps as saifaStepsDa } from '@/data/saifa.da';
 import { saifaSteps as saifaStepsDe } from '@/data/saifa.de';
 import { saifaSteps as saifaStepsEs } from '@/data/saifa.es';
 import { saifaSteps as saifaStepsFr } from '@/data/saifa.fr';
@@ -76,7 +70,6 @@ import { saifaSteps as saifaStepsPt } from '@/data/saifa.pt';
 
 // Import detailed Seiyunchin steps for all languages
 import { seiyunchinSteps as seiyunchinStepsEn } from '@/data/seiyunchin.en';
-import { seiyunchinSteps as seiyunchinStepsDa } from '@/data/seiyunchin.da';
 import { seiyunchinSteps as seiyunchinStepsDe } from '@/data/seiyunchin.de';
 import { seiyunchinSteps as seiyunchinStepsEs } from '@/data/seiyunchin.es';
 import { seiyunchinSteps as seiyunchinStepsFr } from '@/data/seiyunchin.fr';
@@ -122,8 +115,6 @@ const KataDetailPage = () => {
     switch (kataId) {
       case 'gekisai-dai-ichi':
         switch (currentLang) {
-          case 'da':
-            return gekisaiDaiIchiStepsDa;
           case 'de':
             return gekisaiDaiIchiStepsDe;
           case 'es':
@@ -141,8 +132,6 @@ const KataDetailPage = () => {
         }
       case 'gekisai-dai-ni':
         switch (currentLang) {
-          case 'da':
-            return gekisaiDaiNiStepsDa;
           case 'de':
             return gekisaiDaiNiStepsDe;
           case 'es':
@@ -160,8 +149,6 @@ const KataDetailPage = () => {
         }
       case 'sanchin':
         switch (currentLang) {
-          case 'da':
-            return sanchinStepsDa;
           case 'de':
             return sanchinStepsDe;
           case 'es':
@@ -179,8 +166,6 @@ const KataDetailPage = () => {
         }
       case 'shisochin':
         switch (currentLang) {
-          case 'da':
-            return shisochinStepsDa;
           case 'de':
             return shisochinStepsDe;
           case 'es':
@@ -198,8 +183,6 @@ const KataDetailPage = () => {
         }
       case 'sanseru':
         switch (currentLang) {
-          case 'da':
-            return sanseruStepsDa;
           case 'de':
             return sanseruStepsDe;
           case 'es':
@@ -217,8 +200,6 @@ const KataDetailPage = () => {
         }
       case 'saifa':
         switch (currentLang) {
-          case 'da':
-            return saifaStepsDa;
           case 'de':
             return saifaStepsDe;
           case 'es':
@@ -236,8 +217,6 @@ const KataDetailPage = () => {
         }
       case 'seiyunchin':
         switch (currentLang) {
-          case 'da':
-            return seiyunchinStepsDa;
           case 'de':
             return seiyunchinStepsDe;
           case 'es':
@@ -255,8 +234,6 @@ const KataDetailPage = () => {
         }
       case 'tensho':
         switch (currentLang) {
-          case 'da':
-            return tenshoStepsDa;
           case 'pt':
             return tenshoStepsPt;
           default:
@@ -264,8 +241,6 @@ const KataDetailPage = () => {
         }
       case 'sepai':
         switch (currentLang) {
-          case 'da':
-            return sepaiStepsDa;
           case 'pt':
             return sepaiStepsPt;
           default:
@@ -273,8 +248,6 @@ const KataDetailPage = () => {
         }
       case 'kururunfa':
         switch (currentLang) {
-          case 'da':
-            return kururunfaStepsDa;
           case 'pt':
             return kururunfaStepsPt;
           default:
@@ -282,8 +255,6 @@ const KataDetailPage = () => {
         }
       case 'sesan':
         switch (currentLang) {
-          case 'da':
-            return sesanStepsDa;
           case 'pt':
             return sesanStepsPt;
           default:
@@ -291,8 +262,6 @@ const KataDetailPage = () => {
         }
       case 'peichurin':
         switch (currentLang) {
-          case 'da':
-            return peichurinStepsDa;
           case 'pt':
             return peichurinStepsPt;
           default:
@@ -467,7 +436,7 @@ const KataDetailPage = () => {
                       allowFullScreen
                       loading="lazy"
                     >
-                      <p>Your browser does not support iframes. <a href={kata.videoUrl} target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
+                      <p>{t('kataDetailPage.video.browserNotSupported')} <a href={kata.videoUrl} target="_blank" rel="noopener noreferrer">{t('kataDetailPage.video.watchOnYouTube')}</a></p>
                     </iframe>
                   </div>
                 </CardContent>

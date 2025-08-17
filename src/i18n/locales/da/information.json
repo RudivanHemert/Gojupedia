@@ -1,30 +1,70 @@
 {
-  "title": "Information",
-  "description": "Find praktisk information om dojo, begivenheder og ressourcer",
-  "sections": {
+  "information": {
+    "title": "Information",
+    "description": "Generel information",
+    "sections": {
+      "events": {
+        "title": "Begivenheder",
+        "description": "Karate begivenheder"
+      },
+      "dojos": {
+        "title": "Dojoer",
+        "description": "Find en dojo"
+      },
+      "resources": {
+        "title": "Ressourcer",
+        "description": "Yderligere ressourcer"
+      }
+    },
     "dojos": {
-      "title": "Dojo",
-      "description": "Find Goju-Ryu dojo i dit område"
-    },
-    "events": {
-      "title": "Begivenheder",
-      "description": "Hold dig opdateret med kommende karatebegivenheder"
-    },
-    "resources": {
-      "title": "Ressourcer",
-      "description": "Yderligere materialer og henvisninger"
+      "description": "Opdag officielt registrerede IOGKF dojoer i Danmark. Der er i øjeblikket 11 dojoer tilgængelige i forskellige byer.",
+      "filters": {
+        "amsterdam": "Amsterdam"
+      },
+      "tabs": {
+        "netherlands": "Danmark (IOGKF)",
+        "international": "International"
+      },
+      "search": {
+        "title": "Søg & Filtrer Danske Dojoer",
+        "searchLabel": "Søg",
+        "searchPlaceholder": "Søg efter navn, by eller region...",
+        "cityLabel": "By",
+        "cityPlaceholder": "Vælg by"
+      },
+      "list": {
+        "title": "Danske IOGKF Dojoer",
+        "found": "af dojoer fundet",
+        "noResults": {
+          "title": "Ingen dojoer fundet",
+          "description": "Prøv at justere din søgning eller se alle tilgængelige dojoer.",
+          "showAll": "Vis alle dojoer"
+        }
+      },
+      "badges": {
+        "iogkf": "IOGKF Danmark",
+        "region": "Region"
+      },
+      "links": {
+        "website": "Besøg hjemmeside",
+        "contact": "Kontakt",
+        "moreInfo": "Mere information",
+        "iogkfWebsite": "Besøg på IOGKF-Danmark"
+      },
+      "info": {
+        "source": "Information fra IOGKF-Danmark",
+        "description": "Denne liste indeholder alle officielt registrerede IOGKF dojoer i Danmark.",
+        "officialWebsite": "Besøg IOGKF-Danmark"
+      },
+      "international": {
+        "title": "Internationale Dojoer",
+        "description": "Søg efter dojoer uden for Danmark",
+        "noDojos": {
+          "title": "Ingen internationale dojoer endnu",
+          "description": "Denne sektion tilføjes snart med dojoer fra andre lande.",
+          "availableSoon": "Snart tilgængelig"
+        }
+      }
     }
-  },
-  "dojoInfo": {
-    "name": "Dojo navn",
-    "address": "Adresse",
-    "contact": "Kontakt",
-    "schedule": "Tidsplan"
-  },
-  "eventDetails": {
-    "date": "Dato",
-    "time": "Tid",
-    "location": "Lokation",
-    "description": "Beskrivelse"
   }
 }

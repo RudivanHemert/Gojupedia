@@ -70,7 +70,7 @@ const TechniquesPage = () => {
                 {t(section.descKey)}
               </p>
               <div className="flex items-center text-primary mt-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                <span className="text-sm font-medium">Bekijk technieken</span>
+                <span className="text-sm font-medium">{t('techniques.viewTechniques')}</span>
                 <ArrowRight className="h-4 w-4 ml-1" />
               </div>
             </Link>

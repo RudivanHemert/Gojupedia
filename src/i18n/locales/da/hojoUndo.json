@@ -1,18 +1,27 @@
 {
-  "title": "Hojo Undo",
-  "description": "Udforsk traditionelle træningsredskaber og øvelser",
-  "sections": {
-    "introduction": {
-      "title": "Introduktion",
-      "description": "Grundlæggende information om hojo undo"
+  "hojoUndo": {
+    "title": "Hojo Undo",
+    "description": "Styrkeopbygningsøvelser",
+    "sections": {
+      "equipment": {
+        "title": "Udstyr",
+        "description": "Hojo Undo redskaber"
+      },
+      "exercises": {
+        "title": "Øvelser",
+        "description": "Styrkeopbygningsøvelser"
+      },
+      "benefits": {
+        "title": "Fordele",
+        "description": "Fordele ved Hojo Undo"
+      }
     },
-    "tools": {
-      "title": "Træningsredskaber",
-      "description": "Forskellige traditionelle træningsredskaber"
+    "template": {
+      "historicalBackground": "Historisk Baggrund",
+      "safetyInformation": "Sikkerhedsinformation"
     },
-    "exercises": {
-      "title": "Øvelser",
-      "description": "Praktiske øvelser med træningsredskaber"
+    "common": {
+      "weightRecommendations": "Vægt anbefalinger"
     }
   }
 }
