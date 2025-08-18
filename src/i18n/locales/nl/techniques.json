@@ -2,38 +2,27 @@
   "techniques": {
     "title": "Technieken",
     "description": "Fundamentele technieken van Goju Ryu Karate",
+    "viewTechniques": "Bekijk technieken",
     "sections": {
-      "blocks": {
-        "title": "Blokken",
-        "description": "Verdedigingstechnieken"
-      },
-      "kicks": {
-        "title": "Trappen",
-        "description": "Verschillende soorten trappen"
-      },
-      "punches": {
-        "title": "Stoten",
-        "description": "Verschillende soorten stoten"
-      },
       "stances": {
         "title": "Stances",
         "description": "Basis stances van Goju Ryu"
+      },
+      "blocks": {
+        "title": "Blokken",
+        "description": "Verdedigingstechnieken van blokkeren"
       },
       "strikes": {
         "title": "Slagen",
         "description": "Hand- en arm slagen"
       },
-      "hoeiJukuStances": {
-        "title": "Hoei Juku Stances",
-        "description": "Gedetailleerde stances uit de Hoei Juku Training Manual"
+      "kicks": {
+        "title": "Trappen",
+        "description": "Verschillende soorten trappen"
       },
-      "hoeiJukuWarmup": {
-        "title": "Hoei Juku Opwarming",
-        "description": "Opwarmingsoefeningen ontwikkeld door Master Miyagi"
-      },
-      "warmup": {
-        "title": "Opwarming",
-        "description": "Opwarmingsoefeningen en voorbereiding"
+      "throws": {
+        "title": "Worpen",
+        "description": "Worptechnieken"
       }
     }
   },

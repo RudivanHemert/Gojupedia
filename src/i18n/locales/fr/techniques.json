@@ -2,30 +2,27 @@
   "techniques": {
     "title": "Techniques",
     "description": "Techniques fondamentales du Goju Ryu Karate",
+    "viewTechniques": "Voir les techniques",
     "sections": {
-      "blocks": {
-        "title": "Blocages",
-        "description": "Techniques défensives"
-      },
-      "kicks": {
-        "title": "Coups de pied",
-        "description": "Différents types de coups de pied"
-      },
-      "punches": {
-        "title": "Coups de poing",
-        "description": "Différents types de coups de poing"
-      },
       "stances": {
         "title": "Positions",
         "description": "Positions de base du Goju Ryu"
+      },
+      "blocks": {
+        "title": "Blocages",
+        "description": "Techniques défensives de blocage"
       },
       "strikes": {
         "title": "Frappes",
         "description": "Frappes de main et de bras"
       },
-      "warmup": {
-        "title": "Échauffement",
-        "description": "Exercices d'échauffement et préparation"
+      "kicks": {
+        "title": "Coups de pied",
+        "description": "Différents types de coups de pied"
+      },
+      "throws": {
+        "title": "Projections",
+        "description": "Techniques de projection"
       }
     }
   },

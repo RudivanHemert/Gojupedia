@@ -2,30 +2,27 @@
   "techniques": {
     "title": "Techniken",
     "description": "Grundlegende Techniken des Goju Ryu Karate",
+    "viewTechniques": "Techniken anzeigen",
     "sections": {
-      "blocks": {
-        "title": "Blöcke",
-        "description": "Verteidigungstechniken"
-      },
-      "kicks": {
-        "title": "Tritte",
-        "description": "Verschiedene Arten von Tritten"
-      },
-      "punches": {
-        "title": "Schläge",
-        "description": "Verschiedene Arten von Schlägen"
-      },
       "stances": {
         "title": "Stände",
         "description": "Grundlegende Stände des Goju Ryu"
+      },
+      "blocks": {
+        "title": "Blöcke",
+        "description": "Verteidigungstechniken des Blockierens"
       },
       "strikes": {
         "title": "Schläge",
         "description": "Hand- und Armschläge"
       },
-      "warmup": {
-        "title": "Aufwärmen",
-        "description": "Aufwärmübungen und Vorbereitung"
+      "kicks": {
+        "title": "Tritte",
+        "description": "Verschiedene Arten von Tritten"
+      },
+      "throws": {
+        "title": "Würfe",
+        "description": "Wurftechniken"
       }
     }
   },

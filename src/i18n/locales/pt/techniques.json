@@ -2,13 +2,28 @@
   "techniques": {
     "title": "Técnicas",
     "description": "Técnicas fundamentais do Goju Ryu Karate",
+    "viewTechniques": "Ver técnicas",
     "sections": {
-      "blocks": "Bloqueios",
-      "kicks": "Chutes",
-      "punches": "Socos",
-      "stances": "Posturas",
-      "strikes": "Golpes",
-      "warmup": "Aquecimento"
+      "stances": {
+        "title": "Posturas",
+        "description": "Posições e posturas fundamentais"
+      },
+      "blocks": {
+        "title": "Bloqueios",
+        "description": "Técnicas de bloqueio defensivas"
+      },
+      "strikes": {
+        "title": "Golpes",
+        "description": "Técnicas de golpe com mãos"
+      },
+      "kicks": {
+        "title": "Chutes",
+        "description": "Técnicas de chute com pés"
+      },
+      "throws": {
+        "title": "Arremessos",
+        "description": "Técnicas de arremesso"
+      }
     }
   },
   "stances": {

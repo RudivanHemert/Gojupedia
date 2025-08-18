@@ -2,6 +2,7 @@
   "terminology": {
     "title": "Terminologi",
     "description": "Japanske termer og begreber",
+    "blockNotFound": "Blok ikke fundet",
     "sections": {
       "general-terms": "Generelle termer",
       "numbers": "Tal",
@@ -17,6 +18,71 @@
       "stances": "Stillinger",
       "strikes": "Slag",
       "vital-points": "Vitale punkter",
+      "blocks-content": {
+        "description": "Almindelige defensive teknikker der bruges til at blokere eller afværge angreb. Klik 'Se' for en demonstration hvis tilgængelig.",
+        "terms": {
+          "age-uke": {
+            "japanese": "上げ受け",
+            "name": "Age Uke",
+            "english": "Rising Block",
+            "details": "En opadgående blok der bruges til at afværge angreb mod hovedet og overkroppen."
+          },
+          "gedan-barai": {
+            "japanese": "下段払い",
+            "name": "Gedan Barai",
+            "english": "Downward Sweep Block",
+            "details": "En nedadgående fejeblok der bruges til at afværge lave angreb og spark."
+          },
+          "soto-uke": {
+            "japanese": "外受け",
+            "name": "Soto Uke",
+            "english": "Outside Block",
+            "details": "En blok der bevæger sig fra udsiden mod indsiden for at afværge angreb."
+          },
+          "uchi-uke": {
+            "japanese": "内受け",
+            "name": "Uchi Uke",
+            "english": "Inside Block",
+            "details": "En blok der bevæger sig fra indsiden mod udsiden for at afværge angreb."
+          },
+          "shuto-uke": {
+            "japanese": "手刀受け",
+            "name": "Shuto Uke",
+            "english": "Knife Hand Block",
+            "details": "En blok der bruger håndkanten som et knivblad til at afværge angreb."
+          },
+          "empi-uke": {
+            "japanese": "肘受け",
+            "name": "Empi Uke",
+            "english": "Elbow Block",
+            "details": "En blok der bruger albuen til at afværge angreb."
+          },
+          "kosa-uke": {
+            "japanese": "交差受け",
+            "name": "Kosa Uke",
+            "english": "Cross Block",
+            "details": "En krydsblok der bruger begge arme til at afværge angreb."
+          },
+          "juji-uke": {
+            "japanese": "十字受け",
+            "name": "Juji Uke",
+            "english": "X-Block",
+            "details": "En X-formet blok der bruger begge arme i et krydsmønster."
+          },
+          "haiwan-uke": {
+            "japanese": "背腕受け",
+            "name": "Haiwan Uke",
+            "english": "Back Arm Block",
+            "details": "En blok der bruger bagarmen til at afværge angreb."
+          },
+          "osae-uke": {
+            "japanese": "押さえ受け",
+            "name": "Osae Uke",
+            "english": "Pressing Block",
+            "details": "En trykblok der bruger pres til at afværge og kontrollere angreb."
+          }
+        }
+      },
       "basic": {
         "title": "Grundlæggende",
         "description": "Almindelige termer"

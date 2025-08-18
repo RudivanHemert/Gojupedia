@@ -2,6 +2,7 @@
   "terminology": {
     "title": "Terminologia do Karate",
     "description": "Uma visão geral dos termos japoneses comuns usados no Karate e Goju-Ryu.",
+    "blockNotFound": "Bloco não encontrado",
     "sections": {
       "general-terms": "Termos Gerais",
       "numbers": "Números",
@@ -17,6 +18,71 @@
       "stances": "Posturas",
       "strikes": "Golpes",
       "vital-points": "Pontos Vitais",
+      "blocks-content": {
+        "description": "Técnicas defensivas comuns usadas para bloquear ou desviar ataques. Clique em 'Ver' para uma demonstração se disponível.",
+        "terms": {
+          "age-uke": {
+            "japanese": "上げ受け",
+            "name": "Age Uke",
+            "english": "Bloqueio Ascendente",
+            "details": "Um bloqueio ascendente usado para desviar ataques à cabeça e parte superior do corpo."
+          },
+          "gedan-barai": {
+            "japanese": "下段払い",
+            "name": "Gedan Barai",
+            "english": "Bloqueio de Varredura Descendente",
+            "details": "Um bloqueio de varredura descendente usado para desviar ataques baixos e chutes."
+          },
+          "soto-uke": {
+            "japanese": "外受け",
+            "name": "Soto Uke",
+            "english": "Bloqueio Externo",
+            "details": "Um bloqueio que se move de fora para dentro para desviar ataques."
+          },
+          "uchi-uke": {
+            "japanese": "内受け",
+            "name": "Uchi Uke",
+            "english": "Bloqueio Interno",
+            "details": "Um bloqueio que se move de dentro para fora para desviar ataques."
+          },
+          "shuto-uke": {
+            "japanese": "手刀受け",
+            "name": "Shuto Uke",
+            "english": "Bloqueio de Mão Faca",
+            "details": "Um bloqueio que usa a borda da mão como uma lâmina de faca para desviar ataques."
+          },
+          "empi-uke": {
+            "japanese": "肘受け",
+            "name": "Empi Uke",
+            "english": "Bloqueio de Cotovelo",
+            "details": "Um bloqueio que usa o cotovelo para desviar ataques."
+          },
+          "kosa-uke": {
+            "japanese": "交差受け",
+            "name": "Kosa Uke",
+            "english": "Bloqueio Cruzado",
+            "details": "Um bloqueio cruzado que usa ambos os braços para desviar ataques."
+          },
+          "juji-uke": {
+            "japanese": "十字受け",
+            "name": "Juji Uke",
+            "english": "Bloqueio X",
+            "details": "Um bloqueio em forma de X que usa ambos os braços em um padrão cruzado."
+          },
+          "haiwan-uke": {
+            "japanese": "背腕受け",
+            "name": "Haiwan Uke",
+            "english": "Bloqueio de Braço Traseiro",
+            "details": "Um bloqueio que usa o braço traseiro para desviar ataques."
+          },
+          "osae-uke": {
+            "japanese": "押さえ受け",
+            "name": "Osae Uke",
+            "english": "Bloqueio de Pressão",
+            "details": "Um bloqueio de pressão que usa pressão para desviar e controlar ataques."
+          }
+        }
+      },
       "tournament-terms-content": {
         "description": "Termos comumente usados em configurações de torneio de karate.",
         "scoringTitle": "Pontuação",

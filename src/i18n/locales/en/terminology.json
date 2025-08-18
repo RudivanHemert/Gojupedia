@@ -2,6 +2,7 @@
   "terminology": {
     "title": "Karate Terminology",
     "description": "An overview of common Japanese terms used in Karate and Goju-Ryu.",
+    "blockNotFound": "Block not found",
     "sections": {
       "general-terms": "General Terms",
       "numbers": "Numbers",
@@ -17,6 +18,71 @@
       "stances": "Stances",
       "strikes": "Strikes",
       "vital-points": "Vital Points",
+      "blocks-content": {
+        "description": "Common defensive techniques used to block or deflect attacks. Click 'View' for a demonstration if available.",
+        "terms": {
+          "age-uke": {
+            "japanese": "上げ受け",
+            "name": "Age Uke",
+            "english": "Rising Block",
+            "details": "An upward block used to deflect attacks to the head and upper body."
+          },
+          "gedan-barai": {
+            "japanese": "下段払い",
+            "name": "Gedan Barai",
+            "english": "Downward Sweep Block",
+            "details": "A downward sweeping block used to deflect low attacks and kicks."
+          },
+          "soto-uke": {
+            "japanese": "外受け",
+            "name": "Soto Uke",
+            "english": "Outside Block",
+            "details": "A block that moves from outside to inside to deflect attacks."
+          },
+          "uchi-uke": {
+            "japanese": "内受け",
+            "name": "Uchi Uke",
+            "english": "Inside Block",
+            "details": "A block that moves from inside to outside to deflect attacks."
+          },
+          "shuto-uke": {
+            "japanese": "手刀受け",
+            "name": "Shuto Uke",
+            "english": "Knife Hand Block",
+            "details": "A block that uses the knife edge of the hand to deflect attacks."
+          },
+          "empi-uke": {
+            "japanese": "肘受け",
+            "name": "Empi Uke",
+            "english": "Elbow Block",
+            "details": "A block that uses the elbow to deflect attacks."
+          },
+          "kosa-uke": {
+            "japanese": "交差受け",
+            "name": "Kosa Uke",
+            "english": "Cross Block",
+            "details": "A cross block that uses both arms to deflect attacks."
+          },
+          "juji-uke": {
+            "japanese": "十字受け",
+            "name": "Juji Uke",
+            "english": "X-Block",
+            "details": "An X-shaped block that uses both arms in a cross pattern."
+          },
+          "haiwan-uke": {
+            "japanese": "背腕受け",
+            "name": "Haiwan Uke",
+            "english": "Back Arm Block",
+            "details": "A block that uses the back arm to deflect attacks."
+          },
+          "osae-uke": {
+            "japanese": "押さえ受け",
+            "name": "Osae Uke",
+            "english": "Pressing Block",
+            "details": "A pressing block that uses pressure to deflect and control attacks."
+          }
+        }
+      },
       "tournament-terms-content": {
         "description": "Terms commonly used in karate tournament settings.",
         "scoringTitle": "Scoring",

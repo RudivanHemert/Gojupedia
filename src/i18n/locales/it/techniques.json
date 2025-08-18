@@ -2,30 +2,27 @@
   "techniques": {
     "title": "Tecniche",
     "description": "Tecniche fondamentali del Goju Ryu Karate",
+    "viewTechniques": "Vedi tecniche",
     "sections": {
-      "blocks": {
-        "title": "Parate",
-        "description": "Tecniche difensive"
-      },
-      "kicks": {
-        "title": "Calci",
-        "description": "Diversi tipi di calci"
-      },
-      "punches": {
-        "title": "Pugni",
-        "description": "Diversi tipi di pugni"
-      },
       "stances": {
         "title": "Posizioni",
         "description": "Posizioni di base del Goju Ryu"
+      },
+      "blocks": {
+        "title": "Parate",
+        "description": "Tecniche difensive di parata"
       },
       "strikes": {
         "title": "Colpi",
         "description": "Colpi di mano e braccio"
       },
-      "warmup": {
-        "title": "Riscaldamento",
-        "description": "Esercizi di riscaldamento e preparazione"
+      "kicks": {
+        "title": "Calci",
+        "description": "Diversi tipi di calci"
+      },
+      "throws": {
+        "title": "Lanci",
+        "description": "Tecniche di lancio"
       }
     }
   },
