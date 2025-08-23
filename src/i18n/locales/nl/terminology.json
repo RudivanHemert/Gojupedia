@@ -2,6 +2,10 @@
   "terminology": {
     "title": "Karate Terminologie",
     "description": "Een overzicht van veelgebruikte Japanse termen in Karate en Goju-Ryu.",
+    "instructions": "Instructies",
+    "back": "Terug",
+    "techniqueNotFound": "Techniek niet gevonden",
+    "noVideoAvailable": "Geen video beschikbaar",
     "sections": {
       "general-terms": "Termen Algemeen",
       "numbers": "Getallen",
@@ -15,6 +19,26 @@
       "kicks": "Trappen",
       "punches": "Stoten",
       "stances": "Standen",
+      "stances-content": {
+        "description": "Basis karate standen die gebruikt worden in Goju Ryu. Elke stand heeft een specifiek doel en draagt bij aan beweging, verdediging en aanval.",
+        "terms": {
+          "seiza": { "name": "Seiza", "japanese": "正座", "english": "Knielende stand (correct zitten)", "details": "Seiza is de traditionele, formele en beleefde Japanse manier om op de vloer te zitten, knielend. Het is een fundamentele houding zowel in Karate als in de Japanse cultuur. Deze stand wordt gebruikt om de formele 'vloer-buiging' genaamd zarei uit te voeren." },
+          "musubi-dachi": { "name": "Musubi Dachi", "japanese": "結び立", "english": "Staande stand", "details": "Musubi Dachi is de formele manier om te staan in Japanse krijgskunsten en in Japan. Deze stand is zeer belangrijk en wordt gebruikt om de formele respectvolle buiging genaamd rei uit te voeren. Musubi Dachi en rei moeten worden uitgevoerd voor en na opwarming, kihon, kata, kumite of elke interactie tussen mensen." },
+          "heisoku-dachi": { "name": "Heisoku Dachi", "japanese": "閉足立", "english": "Gesloten been stand", "details": "Heisoku Dachi is de gereedheid stand die wordt gebruikt in sommige kata. Het lijkt op musubi-dachi, maar de voeten worden bij elkaar gehouden." },
+          "heiko-dachi": { "name": "Heiko Dachi", "japanese": "平行立", "english": "Parallelle stand", "details": "Heiko Dachi is een aandacht stand of 'maak je klaar' stand die wordt gebruikt in sommige stijlen. Het wordt over het algemeen uitgevoerd na buiging (musubi-dachi), net voor kihon oefening of kata. Heiko Dachi is ook de stand die wordt uitgevoerd bij het luisteren naar instructies." },
+          "hachiji-dachi": { "name": "Hachiji Dachi", "japanese": "八字立", "english": "Natuurlijke stand", "details": "Hachiji Dachi, ook bekend als yoi-dachi, is een formele wachtende houding die wordt gebruikt in sommige Karate stijlen. Hachiji Dachi kan ook worden gebruikt na staande buiging of tijdens het uitvoeren van tsuki. De 'Yoi' houding is niet gebruikelijk in Okinawaanse Karate." },
+          "kiba-dachi": { "name": "Kiba Dachi", "japanese": "騎馬立", "english": "Paard stand", "details": "Kiba Dachi is een fundamentele positie van Karate die niet alleen wordt gebruikt om basis slagen zoals de seiken tsuki te oefenen, maar die ook kan worden geïntegreerd in zelfverdediging of kumite oefening. Dit is een zeer sterke stand voor verdediging tegen zijaanvallen. Kiba Dachi is een houding die de benen, rug en in zekere mate de kern versterkt." },
+          "shiko-dachi": { "name": "Shiko Dachi", "japanese": "四股立", "english": "Paard stand, open voeten", "details": "Shiko Dachi, ook bekend als de 'vierkante stand', is vrijwel hetzelfde als Kiba Dachi maar de voeten zijn open in een hoek van ongeveer 45°." },
+          "sanchin-dachi": { "name": "Sanchin Dachi", "japanese": "三戦立", "english": "Drie gevechten stand, zandloper stand", "details": "Sanchin Dachi is een fundamentele Karate houding die grote stabiliteit en verankering biedt. De meerderheid van Japanse stijlen zoals Shotokan gebruiken deze stand alleen in kata, maar Okinawaanse stijlen gebruiken het voor zelfverdediging en kumite, vooral Naha-te stijlen zoals Goju-Ryu en Uechi-Ryu." },
+          "zenkutsu-dachi": { "name": "Zenkutsu Dachi", "japanese": "前屈立", "english": "Voorwaartse stand", "details": "Zenkutsu Dachi, ook bekend als voorwaartse stand, is een van de meest voorkomende standen in Karate. Het is een stand die je in staat stelt om ver te reiken en een grote hoeveelheid kracht te genereren door je voorwaarts te bewegen. Zoals bij de meeste standen heeft de Japanse versie van Zenkutsu Dachi de neiging om zeer lang en breed te zijn vergeleken met de kortere, meer natuurlijke Okinawaanse versie." },
+          "han-zenkutsu-dachi": { "name": "Han Zenkutsu Dachi", "japanese": "半前屈立", "english": "Half voorwaartse stand", "details": "Han Zenkutsu Dachi is de kortere of halve versie van Zenkutsu Dachi. Het is een stand geschikt voor zelfverdediging en kumite of sparring omdat het grotere mobiliteit biedt. Han Zenkutsu Dachi is een neutrale stand die je in staat stelt om snel terug te bewegen in de defensieve Neko-ashi-dachi of voorwaarts te duwen in een volledige Zenkutsu Dachi of Sanchin Dachi." },
+
+          "kokutsu-dachi": { "name": "Kokutsu Dachi", "japanese": "後屈立", "english": "Achterwaartse stand", "details": "Kokutsu Dachi is een defensieve positie die je in staat stelt om snel terug te trekken of achterwaarts te bewegen en te contra-aanvallen. Het is geweldig om aanvallen van je tegenstander te ontwijken." },
+          "neko-ashi-dachi": { "name": "Neko Ashi Dachi", "japanese": "猫足立", "english": "Katten stand", "details": "Neko Ashi Dachi is een fantastische defensieve stand omdat het meeste gewicht op het achterbeen ligt, wat contra-aanvallen met trappen en snelle zijwaartse ontwijkingen mogelijk maakt. Helaas onpopulair bij karateka is deze stand perfect geschikt voor zowel zelfverdediging als kumite." },
+          "tsuru-ashi-dachi": { "name": "Tsuru Ashi Dachi", "japanese": "鶴足立", "english": "Kraanvogel stand", "details": "Tsuru Ashi Dachi is een stand die wordt gebruikt om aanvallen te vermijden en over te gaan naar andere technieken." },
+          "kosa-dachi": { "name": "Kosa Dachi", "japanese": "交差立", "english": "Kruis stand", "details": "De kruis stand wordt over het algemeen uitgevoerd voor draaien, ontwijken naar de zijkant of bij het landen van een sprong." }
+        }
+      },
       "strikes": "Slagen",
       "vital-points": "Vitale Punten",
       "tournament-terms-content": {
@@ -262,50 +286,113 @@
         }
       },
       "stances-content": {
-        "description": "Basis standen (Dachi Waza).",
+        "description": "Basis karate standen gebruikt in Goju Ryu. Elke stand heeft een specifiek doel en draagt bij aan beweging, verdediging en aanval.",
         "title": "Standen",
         "terms": {
-          "sanchin-dachi": { 
-            "name": "Sanchin Dachi", 
-            "japanese": "三戦立ち", 
-            "english": "Drie Gevechten Stand / Zandloper Stand",
-            "details": "Sanchin Dachi (Drie Gevechten Stand) is een fundamentele stand in Goju-Ryu karate. De voeten staan parallel op schouderbreedte, de knieën zijn licht gebogen, en het lichaam is rechtop. Deze stand ontwikkelt balans, stabiliteit en interne kracht. Het is de basis voor veel kata en technieken."
+          "seiza": { 
+            "name": "Seiza", 
+            "japanese": "正座", 
+            "english": "Knielende stand (correct zitten)", 
+            "details": "Seiza is de traditionele, formele en beleefde Japanse manier van op de grond zitten, knielend. Het is een fundamentele houding zowel in Karate als in de Japanse cultuur. Deze stand wordt gebruikt om de formele 'grond buiging' genaamd zarei uit te voeren.", 
+            "instructions": "Instructies: Plaats uw knieën op de grond met uw voeten onder u. Ga zitten op uw voeten met uw rug recht. Plaats uw handen op uw dijen met uw duimen dicht bij elkaar." 
           },
-          "zenkutsu-dachi": { 
-            "name": "Zenkutsu Dachi", 
-            "japanese": "前屈立ち", 
-            "english": "Voorwaartse Stand / Vooroverleunende Stand",
-            "details": "Zenkutsu Dachi (Voorwaartse Stand) is een voorwaartse stand waarbij het voorste been gebogen is en het achterste been gestrekt. Het gewicht is verdeeld over beide benen, met ongeveer 60% op het voorste been. Deze stand is stabiel voor voorwaartse bewegingen en stoottechnieken."
+          "musubi-dachi": { 
+            "name": "Musubi Dachi", 
+            "japanese": "結び立", 
+            "english": "Staande stand", 
+            "details": "Musubi Dachi is de formele manier van staan in Japanse krijgskunsten en in Japan. Deze stand is zeer belangrijk en wordt gebruikt om de formele respectvolle buiging genaamd rei uit te voeren. Musubi Dachi en rei moeten worden uitgevoerd voor en na warming-up, kihon, kata, kumite of elke interactie tussen mensen.", 
+            "instructions": "Instructies: Sta met uw voeten bij elkaar en uw tenen naar voren gericht. Houd uw rug recht en uw hoofd hoog. Plaats uw handen aan uw zijden met uw vingers naar beneden gericht." 
           },
-          "shiko-dachi": { 
-            "name": "Shiko Dachi", 
-            "japanese": "四股立ち", 
-            "english": "Vierkante Stand / Paard Stand (voeten op 45 graden)",
-            "details": "Shiko Dachi (Vierkante Stand) is een brede, stabiele stand waarbij de voeten naar buiten wijzen op ongeveer 45 graden. De knieën zijn gebogen en naar buiten gedrukt. Deze stand ontwikkelt beenkracht en is effectief voor zijwaartse bewegingen en verdediging."
-          },
-          "neko-ashi-dachi": { 
-            "name": "Neko Ashi Dachi", 
-            "japanese": "猫足立ち", 
-            "english": "Kattenvoet Stand",
-            "details": "Neko Ashi Dachi (Kattenvoet Stand) is een lichte stand waarbij het grootste deel van het gewicht op het achterste been rust. Het voorste been raakt de grond alleen met de bal van de voet. Deze stand is snel en mobiel, ideaal voor snelle bewegingen en tegenaanvallen."
+          "heisoku-dachi": { 
+            "name": "Heisoku Dachi", 
+            "japanese": "閉足立", 
+            "english": "Gesloten been stand", 
+            "details": "Heisoku Dachi is de voorbereidingsstand gebruikt in sommige kata. Het is vergelijkbaar met musubi-dachi, maar de voeten worden bij elkaar gehouden.", 
+            "instructions": "Instructies: Sta met uw voeten bij elkaar en uw tenen naar voren gericht. Houd uw rug recht en uw hoofd hoog. Plaats uw handen aan uw zijden met uw vingers naar beneden gericht." 
           },
           "heiko-dachi": { 
             "name": "Heiko Dachi", 
             "japanese": "平行立ち", 
-            "english": "Parallelle Stand",
-            "details": "Heiko Dachi (Parallelle Stand) is een natuurlijke stand waarbij de voeten parallel staan op schouderbreedte. Het is een ontspannen maar alert stand die gebruikt wordt voor formele situaties, meditatie, en als uitgangspositie voor andere standen."
+            "english": "Parallelle stand", 
+            "details": "Heiko Dachi is een aandacht stand of 'maak je klaar' stand gebruikt in sommige stijlen. Het wordt meestal uitgevoerd na de buiging (musubi-dachi), net voor kihon oefening of kata. Heiko Dachi is ook de stand uitgevoerd bij het luisteren naar instructies.", 
+            "instructions": "Instructies: Sta met uw voeten schouderbreed uit elkaar en uw tenen naar voren gericht. Houd uw rug recht en uw hoofd hoog. Plaats uw handen aan uw zijden met uw vingers naar beneden gericht." 
           },
-          "musubi-dachi": { 
-            "name": "Musubi Dachi", 
-            "japanese": "結び立ち", 
-            "english": "Formele Aandacht Stand (hakken samen, voeten naar buiten)",
-            "details": "Musubi Dachi (Formele Aandacht Stand) is een formele stand waarbij de hakken samen zijn en de voeten naar buiten wijzen in een 'V' vorm. Het is een respectvolle stand gebruikt voor buigingen, formele ceremonies, en het tonen van respect."
+          "hachiji-dachi": { 
+            "name": "Hachiji Dachi", 
+            "japanese": "八字立", 
+            "english": "Natuurlijke stand", 
+            "details": "Hachiji Dachi, ook bekend als yoi-dachi, is een formele wachtstand gebruikt in sommige Karate stijlen. Hachiji Dachi kan ook gebruikt worden na staande buiging of bij het uitvoeren van tsuki. De 'Yoi' stand is niet gebruikelijk in Okinawa Karate.", 
+            "instructions": "Instructies: Sta met uw voeten schouderbreed uit elkaar en uw tenen naar buiten gericht in ongeveer 45 graden. Houd uw rug recht en uw hoofd hoog. Plaats uw handen aan uw zijden met uw vingers naar beneden gericht." 
           },
           "kiba-dachi": { 
             "name": "Kiba Dachi", 
-            "japanese": "騎馬立ち", 
-            "english": "Paardrijdende Stand (voeten parallel)",
-            "details": "Kiba Dachi (Paardrijdende Stand) is een brede stand waarbij de voeten parallel staan op een afstand groter dan schouderbreedte. De knieën zijn gebogen en naar buiten gedrukt. Deze stand ontwikkelt beenkracht en is stabiel voor zijwaartse bewegingen en verdediging."
+            "japanese": "騎馬立", 
+            "english": "Paard stand", 
+            "details": "Kiba Dachi is een fundamentele positie van Karate die niet alleen gebruikt wordt om basis slagen zoals de seiken tsuki te oefenen, maar ook geïntegreerd kan worden in zelfverdediging of kumite oefening. Dit is een zeer sterke stand voor verdediging tegen zijwaartse aanvallen. Kiba Dachi is een houding die de benen, rug en in zekere mate de core versterkt.", 
+            "instructions": "Instructies: Sta met uw voeten ver uit elkaar, ongeveer twee keer schouderbreedte. Buig uw knieën en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen met uw ellebogen dicht bij uw lichaam." 
+          },
+          "shiko-dachi": { 
+            "name": "Shiko Dachi", 
+            "japanese": "四股立", 
+            "english": "Paard stand, open voeten", 
+            "details": "Shiko Dachi, ook bekend als de 'vierkante stand', is praktisch hetzelfde als Kiba Dachi maar de voeten zijn open in een hoek van ongeveer 45°.", 
+            "instructions": "Instructies: Sta met uw voeten ver uit elkaar, ongeveer twee keer schouderbreedte, met uw tenen naar buiten gericht in ongeveer 45 graden. Buig uw knieën en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen met uw ellebogen dicht bij uw lichaam." 
+          },
+          "sanchin-dachi": { 
+            "name": "Sanchin Dachi", 
+            "japanese": "三戦立", 
+            "english": "Drie gevechten stand, zandloper stand", 
+            "details": "Sanchin Dachi is een fundamentele Karate houding die grote stabiliteit en verankering biedt. De meerderheid van Japanse stijlen zoals Shotokan gebruiken deze stand alleen in kata, maar Okinawa stijlen gebruiken het voor zelfverdediging en kumite, vooral Naha-te stijlen zoals Goju-Ryu en Uechi-Ryu.", 
+            "instructions": "Instructies: Sta met uw voeten schouderbreed uit elkaar en uw tenen naar binnen gericht. Buig uw knieën en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen met uw ellebogen dicht bij uw lichaam." 
+          },
+          "zenkutsu-dachi": { 
+            "name": "Zenkutsu Dachi", 
+            "japanese": "前屈立", 
+            "english": "Voorwaartse stand", 
+            "details": "Zenkutsu Dachi, ook bekend als voorwaartse stand, is een van de meest voorkomende standen in Karate. Het is een stand die u in staat stelt ver te reiken en een grote hoeveelheid kracht te genereren door voorwaarts te bewegen. Zoals bij de meeste standen, heeft de Japanse versie van Zenkutsu Dachi de neiging zeer lang en breed te zijn vergeleken met de kortere, natuurlijkere Okinawa versie.", 
+            "instructions": "Instructies: Neem een stap naar voren met uw voorste voet. Buig uw voorste knie zodat deze over uw voorste voet is. Houd uw achterste been recht en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen." 
+          },
+          "han-zenkutsu-dachi": { 
+            "name": "Han Zenkutsu Dachi", 
+            "japanese": "半前屈立", 
+            "english": "Half voorwaartse stand", 
+            "details": "Han Zenkutsu Dachi is de kortere of half versie van Zenkutsu Dachi. Het is een stand geschikt voor zelfverdediging en kumite of sparring omdat het grotere mobiliteit biedt. Han Zenkutsu Dachi is een neutrale stand die u in staat stelt om snel terug te bewegen in de defensieve Neko-ashi-dachi of voorwaarts te stoten in een volledige Zenkutsu Dachi of Sanchin Dachi.", 
+            "instructions": "Instructies: Neem een kortere stap naar voren met uw voorste voet vergeleken met volledige zenkutsu-dachi. Buig uw voorste knie licht zodat deze over uw voorste voet is. Houd uw achterste been gebogen en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen." 
+          },
+          "fudo-dachi": { 
+            "name": "Fudo Dachi", 
+            "japanese": "不動立", 
+            "english": "Onbeweeglijke stand", 
+            "details": "Fudo Dachi is een verankerde stand die er veel uitziet als een combinatie van Zenkutsu Dachi en kiba-dachi. In tegenstelling tot Sanchin Dachi, een andere verankerde stand, is het niet ideaal voor mobiliteit.", 
+            "instructions": "Instructies: Sta met uw voeten ver uit elkaar, ongeveer twee keer schouderbreedte. Buig uw knieën en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen met uw ellebogen dicht bij uw lichaam." 
+          },
+          "kokutsu-dachi": { 
+            "name": "Kokutsu Dachi", 
+            "japanese": "後屈立", 
+            "english": "Achterwaartse stand", 
+            "details": "Kokutsu Dachi is een defensieve positie die u in staat stelt om snel terug te trekken of achterwaarts te bewegen en tegen te vallen. Het is geweldig om aanvallen van uw tegenstander te vermijden.", 
+            "instructions": "Instructies: Neem een stap naar achteren met uw achterste voet. Buig uw achterste knie en verlaag uw lichaam. Houd uw voorste been recht. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen." 
+          },
+          "neko-ashi-dachi": { 
+            "name": "Neko Ashi Dachi", 
+            "japanese": "猫足立", 
+            "english": "Kattenvoet stand", 
+            "details": "Neko Ashi Dachi is een geweldige defensieve stand omdat het grootste deel van het gewicht op het achterste been ligt, waardoor tegenaanvallen met trappen en snelle zijwaartse ontwijkingen mogelijk zijn. Helaas impopulair bij karateka, deze stand is perfect geschikt voor zowel zelfverdediging als kumite.", 
+            "instructions": "Instructies: Sta met uw voeten schouderbreed uit elkaar. Plaats het grootste deel van uw gewicht op uw achterste been. Buig uw achterste knie en verlaag uw lichaam. Houd uw voorste been recht met uw tenen naar voren gericht. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen." 
+          },
+          "tsuru-ashi-dachi": { 
+            "name": "Tsuru Ashi Dachi", 
+            "japanese": "鶴足立", 
+            "english": "Kraanvogel stand", 
+            "details": "Tsuru Ashi Dachi is een stand gebruikt om aanvallen te vermijden en over te gaan naar andere technieken.", 
+            "instructions": "Instructies: Sta op één been met uw andere been gebogen bij de knie. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen met uw ellebogen dicht bij uw lichaam." 
+          },
+          "kosa-dachi": { 
+            "name": "Kosa Dachi", 
+            "japanese": "交差立", 
+            "english": "Kruisende stand", 
+            "details": "De kruisende stand wordt meestal uitgevoerd voor draaien, zijwaarts ontwijken of bij het landen van een sprong.", 
+            "instructions": "Instructies: Sta met uw voeten gekruist, één voet voor de andere. Buig uw knieën licht en verlaag uw lichaam. Houd uw rug recht en uw hoofd hoog. Plaats uw handen in vuisten aan uw heupen met uw ellebogen dicht bij uw lichaam." 
           }
         }
       },

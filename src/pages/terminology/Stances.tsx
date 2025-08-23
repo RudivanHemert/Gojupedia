@@ -69,13 +69,14 @@ const stanceYoutubeLinks: Record<string, string> = {
 };
 
 const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => {
+  const { t } = useTranslation();
   const { stanceId } = useParams();
   const navigate = useNavigate();
   const term = stanceId ? termsObject[stanceId] : null;
   const videoUrl = stanceId && stanceYoutubeLinks[stanceId] ? stanceYoutubeLinks[stanceId] : null;
 
   if (!term) {
-    return <div className="p-8 text-center text-red-500">Techniek niet gevonden.</div>;
+    return <div className="p-8 text-center text-red-500">{t('terminology.techniqueNotFound')}</div>;
   }
 
   return (
@@ -85,7 +86,7 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
           onClick={() => navigate('/terminology/stances')}
           className="flex items-center gap-2 mb-4 text-muted-foreground hover:text-foreground"
         >
-          <ChevronLeft className="h-5 w-5" /> Terug
+          <ChevronLeft className="h-5 w-5" /> {t('terminology.back')}
         </button>
         <div className="flex items-center gap-2 mb-2">
           <h1 className="text-3xl font-bold">{term.name}</h1>
@@ -96,14 +97,12 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
         </div>
         <h2 className="text-lg text-muted-foreground mb-4">{term.english}</h2>
         <p className="mb-4 whitespace-pre-line">{term.details}</p>
-        {stanceId && stanceImages[stanceId] ? (
-          <AttributionImage
-            src={stanceImages[stanceId].src}
-            alt={stanceImages[stanceId].alt}
-            meta={stanceImages[stanceId].meta}
-            className="my-4"
-          />
-        ) : null}
+        {term.instructions && (
+          <div className="mb-4">
+            <h3 className="text-md font-semibold mb-2">{t('terminology.instructions')}:</h3>
+            <p className="whitespace-pre-line text-sm text-muted-foreground">{term.instructions}</p>
+          </div>
+        )}
         {videoUrl ? (
           <div className="aspect-video mb-4">
             <iframe
@@ -116,8 +115,16 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
               allowFullScreen
             ></iframe>
           </div>
+        ) : stanceId && stanceImages[stanceId] ? (
+          <div className="mb-4">
+            <img 
+              src={stanceImages[stanceId].src} 
+              alt={stanceImages[stanceId].alt} 
+              className="w-full rounded-lg shadow-md"
+            />
+          </div>
         ) : (
-          <div className="text-muted-foreground italic">Geen video beschikbaar.</div>
+          <div className="text-muted-foreground italic">{t('terminology.noVideoAvailable')}</div>
         )}
       </div>
     </div>
