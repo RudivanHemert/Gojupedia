@@ -4,11 +4,25 @@
     "description": "Estudo dos pontos de pressão e áreas vulneráveis",
     "interactive": {
       "showLabels": "Mostrar Rótulos",
+      "showAllLabels": "Mostrar Todos os Rótulos",
       "closeDetails": "Fechar Detalhes",
       "frontViewTab": "Vista Frontal",
       "backViewTab": "Vista Traseira",
       "frontViewTitle": "Pontos Vitais - Vista Frontal",
       "backViewTitle": "Pontos Vitais - Vista Traseira"
+    },
+    "quiz": {
+      "title": "Quiz de Pontos Vitais",
+      "description": "Teste seu conhecimento de pontos vitais preenchendo os rótulos faltantes",
+      "pointsToShow": "Número de pontos para mostrar",
+      "checkAnswers": "Verificar Respostas",
+      "restart": "Reiniciar",
+      "correct": "Correto!",
+      "incorrect": "Incorreto",
+      "yourAnswer": "Sua resposta",
+      "correctAnswer": "Resposta correta",
+      "score": "Pontuação: {correct} de {total}",
+      "enterAnswer": "Digite o nome deste ponto vital"
     },
     "points": {
       "shomon": {

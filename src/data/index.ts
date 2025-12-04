@@ -1064,6 +1064,17 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
   ];
   studies.push(...matchingStudies);
 
+  // Add Vital Points Quiz
+  studies.push({
+    id: "vital-points-quiz",
+    title: t("study.quizTypes.vital-points.title", t("vitalPoints.quiz.title", "Vital Points Quiz")),
+    description: t("study.quizTypes.vital-points.description", t("vitalPoints.quiz.description", "Test your knowledge of vital points by filling in the missing labels")),
+    type: "vital-points-quiz",
+    category: "terminology",
+    difficulty: "intermediate",
+    questions: []
+  });
+
   return studies;
 };
 

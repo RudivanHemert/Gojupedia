@@ -90,7 +90,7 @@ export interface Study {
   id: string;
   title: string;
   description: string;
-  type: 'quiz' | 'flashcard' | 'matching';
+  type: 'quiz' | 'flashcard' | 'matching' | 'vital-points-quiz';
   category: string;
   difficulty: 'beginner' | 'intermediate' | 'advanced';
   questions: StudyQuestion[];

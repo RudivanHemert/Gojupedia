@@ -4,11 +4,25 @@
     "description": "Studie af pressepunkter og sårbare områder",
     "interactive": {
       "showLabels": "Vis Labels",
+      "showAllLabels": "Vis Alle Labels",
       "closeDetails": "Luk Detaljer",
       "frontViewTab": "Frontvisning",
       "backViewTab": "Rygvisning",
       "frontViewTitle": "Frontvisning Vitale Punkter",
       "backViewTitle": "Rygvisning Vitale Punkter"
+    },
+    "quiz": {
+      "title": "Vitale Punkter Quiz",
+      "description": "Test din viden om vitale punkter ved at udfylde de manglende labels",
+      "pointsToShow": "Antal punkter at vise",
+      "checkAnswers": "Tjek Svar",
+      "restart": "Genstart",
+      "correct": "Korrekt!",
+      "incorrect": "Forkert",
+      "yourAnswer": "Dit svar",
+      "correctAnswer": "Korrekt svar",
+      "score": "Score: {correct} ud af {total}",
+      "enterAnswer": "Indtast navnet på dette vitale punkt"
     },
     "points": {
       "shomon": {

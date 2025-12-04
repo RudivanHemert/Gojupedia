@@ -14,6 +14,7 @@ import { toast } from '@/hooks/use-toast';
 import TechniqueQuiz from '@/components/learning/TechniqueQuiz';
 import TechniqueFlashcards from '@/components/learning/TechniqueFlashcards';
 import TechniqueMatching from '@/components/learning/TechniqueMatching';
+import VitalPointsQuiz from '@/components/learning/VitalPointsQuiz';
 import { techniquesData, TechniqueData } from '@/data/techniquesData';
 import { useTranslation } from 'react-i18next';
 
@@ -178,7 +179,19 @@ const StudyDetailPage = () => {
     </div>
   );
 
-  // 2. Attempt to parse as a Dynamically Generated Study Module
+  // 2. Handle special study types
+  if (study.type === 'vital-points-quiz') {
+    return (
+      <>
+        {renderHeader()}
+        <div className="p-4">
+          <VitalPointsQuiz />
+        </div>
+      </>
+    );
+  }
+
+  // 3. Attempt to parse as a Dynamically Generated Study Module
   const { category: generatedCategory, type: generatedType } = parseGeneratedStudyId(id);
   
   if (generatedCategory && generatedType) {
@@ -198,7 +211,7 @@ const StudyDetailPage = () => {
       );
   }
 
-  // 3. Handle Manually Defined Study Types (if not a generated study)
+  // 4. Handle Manually Defined Study Types (if not a generated study)
   
   // Check if completed first
   if (quizCompleted) {

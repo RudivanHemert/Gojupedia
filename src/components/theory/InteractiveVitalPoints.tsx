@@ -5,6 +5,7 @@ import { Label } from '@/components/ui/label';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useTranslation } from 'react-i18next';
+import { cn } from '@/lib/utils';
 
 interface VitalPoint {
   id: string;
@@ -484,6 +485,7 @@ const vitalPointsData: VitalPoint[] = [
 const InteractiveVitalPoints = () => {
   const { t } = useTranslation();
   const [showLabels, setShowLabels] = useState(true);
+  const [showAllLabels, setShowAllLabels] = useState(false);
   const [selectedPoint, setSelectedPoint] = useState<VitalPoint | null>(null);
   const [activeView, setActiveView] = useState<'front' | 'back'>('front');
   const [showCoordinates, setShowCoordinates] = useState(false);
@@ -508,8 +510,8 @@ const InteractiveVitalPoints = () => {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center space-x-4">
+      <div className="flex items-center justify-between flex-wrap gap-4">
+        <div className="flex items-center space-x-4 flex-wrap">
           <div className="flex items-center space-x-2">
             <Switch
               id="show-labels"
@@ -518,6 +520,16 @@ const InteractiveVitalPoints = () => {
             />
             <Label htmlFor="show-labels">{t('vitalPoints.interactive.showLabels')}</Label>
           </div>
+          {showLabels && (
+            <div className="flex items-center space-x-2">
+              <Switch
+                id="show-all-labels"
+                checked={showAllLabels}
+                onCheckedChange={setShowAllLabels}
+              />
+              <Label htmlFor="show-all-labels">{t('vitalPoints.interactive.showAllLabels')}</Label>
+            </div>
+          )}
           {/* <div className="flex items-center space-x-2">
             <Switch
               id="show-coordinates"
@@ -526,7 +538,7 @@ const InteractiveVitalPoints = () => {
             />
             <Label htmlFor="show-coordinates">Show Coordinates</Label>
           </div> */}
-      </div>
+        </div>
         <Button 
           variant="outline" 
           onClick={() => setSelectedPoint(null)}
@@ -589,7 +601,10 @@ const InteractiveVitalPoints = () => {
                     <Button
                       variant="ghost"
                       size="sm"
-                      className="bg-white/80 hover:bg-white text-black opacity-0 group-hover:opacity-100 transition-opacity text-xs px-2 py-1 h-auto min-w-0"
+                      className={cn(
+                        "bg-white/80 hover:bg-white text-black text-xs px-2 py-1 h-auto min-w-0 transition-opacity",
+                        showAllLabels ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                      )}
                       onClick={(e) => {
                         e.stopPropagation();
                         setSelectedPoint(point);

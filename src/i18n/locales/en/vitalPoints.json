@@ -4,11 +4,25 @@
     "description": "Study of pressure points and vulnerable areas",
     "interactive": {
       "showLabels": "Show Labels",
+      "showAllLabels": "Show All Labels",
       "closeDetails": "Close Details",
       "frontViewTab": "Front View",
       "backViewTab": "Back View",
       "frontViewTitle": "Front View Vital Points",
       "backViewTitle": "Back View Vital Points"
+    },
+    "quiz": {
+      "title": "Vital Points Quiz",
+      "description": "Test your knowledge of vital points by filling in the missing labels",
+      "pointsToShow": "Number of points to show",
+      "checkAnswers": "Check Answers",
+      "restart": "Restart",
+      "correct": "Correct!",
+      "incorrect": "Incorrect",
+      "yourAnswer": "Your answer",
+      "correctAnswer": "Correct answer",
+      "score": "Score: {correct} out of {total}",
+      "enterAnswer": "Enter the name of this vital point"
     },
     "points": {
       "shomon": { "name": "Shomon", "area": "Skull" },

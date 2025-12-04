@@ -3,12 +3,26 @@
     "title": "Vital Points",
     "description": "Study of pressure points and vulnerable areas",
     "interactive": {
-      "showLabels": "Show Labels",
-      "closeDetails": "Close Details",
-      "frontViewTab": "Front View",
-      "backViewTab": "Back View",
-      "frontViewTitle": "Front View Vital Points",
-      "backViewTitle": "Back View Vital Points"
+      "showLabels": "Afficher les Étiquettes",
+      "showAllLabels": "Afficher Toutes les Étiquettes",
+      "closeDetails": "Fermer les Détails",
+      "frontViewTab": "Vue de Face",
+      "backViewTab": "Vue de Dos",
+      "frontViewTitle": "Points Vitaux Vue de Face",
+      "backViewTitle": "Points Vitaux Vue de Dos"
+    },
+    "quiz": {
+      "title": "Quiz des Points Vitaux",
+      "description": "Testez vos connaissances des points vitaux en remplissant les étiquettes manquantes",
+      "pointsToShow": "Nombre de points à afficher",
+      "checkAnswers": "Vérifier les Réponses",
+      "restart": "Redémarrer",
+      "correct": "Correct !",
+      "incorrect": "Incorrect",
+      "yourAnswer": "Votre réponse",
+      "correctAnswer": "Bonne réponse",
+      "score": "Score : {correct} sur {total}",
+      "enterAnswer": "Entrez le nom de ce point vital"
     },
     "points": {
       "shomon": {

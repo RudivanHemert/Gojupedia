@@ -4,11 +4,25 @@
     "description": "Studie van drukpunten en kwetsbare zones",
     "interactive": {
       "showLabels": "Toon Labels",
+      "showAllLabels": "Toon Alle Labels",
       "closeDetails": "Sluit Details",
       "frontViewTab": "Vooraanzicht",
       "backViewTab": "Achteraanzicht",
       "frontViewTitle": "Vitale Punten Vooraanzicht",
       "backViewTitle": "Vitale Punten Achteraanzicht"
+    },
+    "quiz": {
+      "title": "Vitale Punten Quiz",
+      "description": "Test je kennis van vitale punten door de ontbrekende labels in te vullen",
+      "pointsToShow": "Aantal punten om te tonen",
+      "checkAnswers": "Controleer Antwoorden",
+      "restart": "Opnieuw Starten",
+      "correct": "Correct!",
+      "incorrect": "Onjuist",
+      "yourAnswer": "Je antwoord",
+      "correctAnswer": "Juiste antwoord",
+      "score": "Score: {correct} van {total}",
+      "enterAnswer": "Voer de naam van dit vitale punt in"
     },
     "points": {
       "shomon": {
