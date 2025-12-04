@@ -154,26 +154,42 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
 
   // Handle main section click
   const handleMainClick = (section: typeof sidebarStructure[0]) => {
-    // Open sidebar on mobile if closed
-    if (!isOpen && typeof window !== 'undefined' && window.innerWidth < 1024) {
-      onToggle();
-      if (section.sublinks.length > 0) {
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+    
+    // If sidebar is closed
+    if (!isOpen) {
+      // For sections without sublinks, navigate directly
+      if (section.sublinks.length === 0) {
+        navigate(section.path);
+        // On mobile, open sidebar briefly to show navigation, then close
+        if (isMobile) {
+          onToggle();
+          setTimeout(() => {
+            onToggle();
+          }, 300);
+        }
+        return;
+      }
+      
+      // For sections with sublinks, open sidebar and expand
+      if (isMobile) {
+        onToggle();
         setPendingExpand(section.id);
       } else {
-        // For direct links, navigate after sidebar opens
-        setPendingExpand('');
-        setTimeout(() => {
-          navigate(section.path);
-          setExpanded(null);
-          onToggle(); // close sidebar on mobile
-        }, 250);
+        // On desktop, open sidebar and expand section
+        onToggle();
+        setExpanded(section.id);
       }
       return;
     }
+    
+    // If sidebar is open
     if (section.sublinks.length === 0) {
       navigate(section.path);
       setExpanded(null);
-      onToggle(); // close sidebar on mobile
+      if (isMobile) {
+        onToggle(); // close sidebar on mobile
+      }
     } else {
       setExpanded(expanded === section.id ? null : section.id);
     }
