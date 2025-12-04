@@ -185,6 +185,10 @@
     "yourAnswer": "Ihre Antwort",
     "correctAnswer": "Richtige Antwort",
     "noAnswer": "Keine Antwort gegeben",
+    "terminology": {
+      "questionTemplate": "Was bedeutet \"{term}\"?",
+      "notAvailable": "Nicht verfügbar"
+    },
     "tips": {
       "title": "Lerntipps",
       "regular": "Üben Sie regelmäßig für bessere Ergebnisse",

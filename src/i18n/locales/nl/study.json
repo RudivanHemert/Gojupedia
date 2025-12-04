@@ -265,14 +265,18 @@
     "explanation": "Explanation",
     "showExplanation": "Show explanation",
     "hideExplanation": "Hide explanation",
-    "studyAgain": "Study again",
-    "backToStudySection": "Back to study section",
+    "studyAgain": "Opnieuw studeren",
+    "backToStudySection": "Terug naar studiedeel",
     "noQuestionFound": "No question found for index {index}",
     "yourScore": "Je score: {score} van {total}",
     "reviewAnswers": "Bekijk antwoorden",
     "yourAnswer": "Je antwoord",
     "correctAnswer": "Juiste antwoord",
     "noAnswer": "Geen antwoord gegeven",
+    "terminology": {
+      "questionTemplate": "Wat is de betekenis van \"{term}\"?",
+      "notAvailable": "Niet beschikbaar"
+    },
     "self-control": {
       "title": "Self-Control Quiz",
       "description": "Test your knowledge of self-control and emotion regulation."
@@ -320,157 +324,157 @@
   "startFlashcards": "Start Flashcards",
   "questions": {
     "kata-basics-1": {
-      "question": "What does 'kata' mean in Japanese?",
-      "option1": "Form",
-      "option2": "Fight",
-      "option3": "Technique",
-      "option4": "Style",
-      "correct": "Form",
-      "explanation": "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements."
+      "question": "Wat betekent 'kata' in het Japans?",
+      "option1": "Vorm",
+      "option2": "Gevecht",
+      "option3": "Techniek",
+      "option4": "Stijl",
+      "correct": "Vorm",
+      "explanation": "Kata (型) betekent 'vorm' in het Japans en verwijst naar de gechoreografeerde bewegingspatronen."
     },
     "kata-basics-2": {
-      "question": "How many kata are there in traditional Goju Ryu?",
+      "question": "Hoeveel kata zijn er in traditioneel Goju Ryu?",
       "option1": "8",
       "option2": "10",
       "option3": "12",
       "option4": "15",
       "correct": "12",
-      "explanation": "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata."
+      "explanation": "Traditioneel Goju Ryu heeft 12 kata: 2 heishugata (Sanchin, Tensho) en 10 kaishugata."
     },
     "kata-basics-3": {
-      "question": "What are the two main categories of kata in Goju Ryu?",
-      "option1": "Hard and Soft",
-      "option2": "Heishugata and Kaishugata",
-      "option3": "Basic and Advanced",
-      "option4": "Old and New",
-      "correct": "Heishugata and Kaishugata",
-      "explanation": "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories."
+      "question": "Wat zijn de twee hoofdcategorieën van kata in Goju Ryu?",
+      "option1": "Hard en Zacht",
+      "option2": "Heishugata en Kaishugata",
+      "option3": "Basis en Gevorderd",
+      "option4": "Oud en Nieuw",
+      "correct": "Heishugata en Kaishugata",
+      "explanation": "Heishugata (gesloten hand) en Kaishugata (open hand) zijn de twee hoofdcategorieën."
     },
     "kata-history-1": {
-      "question": "Who created the Gekisai kata?",
+      "question": "Wie creëerde de Gekisai kata?",
       "option1": "Kanryo Higaonna",
       "option2": "Chojun Miyagi",
       "option3": "Morio Higaonna",
       "option4": "Eiichi Miyazato",
       "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s."
+      "explanation": "Chojun Miyagi creëerde Gekisai Dai Ichi en Gekisai Dai Ni in de jaren 1940."
     },
     "kata-history-2": {
-      "question": "What does 'Sanchin' mean?",
-      "option1": "Three Battles",
-      "option2": "Three Steps",
-      "option3": "Three Hearts",
-      "option4": "Three Minds",
-      "correct": "Three Battles",
-      "explanation": "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit."
+      "question": "Wat betekent 'Sanchin'?",
+      "option1": "Drie Gevechten",
+      "option2": "Drie Stappen",
+      "option3": "Drie Harten",
+      "option4": "Drie Geesten",
+      "correct": "Drie Gevechten",
+      "explanation": "Sanchin (三戦) betekent 'drie gevechten' en verwijst naar geest, lichaam en ziel."
     },
     "philosophy-1": {
-      "question": "What does 'Goju' mean?",
-      "option1": "Hard-Soft",
-      "option2": "Fast-Slow",
-      "option3": "Strong-Weak",
-      "option4": "Old-New",
-      "correct": "Hard-Soft",
-      "explanation": "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques."
+      "question": "Wat betekent 'Goju'?",
+      "option1": "Hard-Zacht",
+      "option2": "Snel-Langzaam",
+      "option3": "Sterk-Zwak",
+      "option4": "Oud-Nieuw",
+      "correct": "Hard-Zacht",
+      "explanation": "Goju (剛柔) betekent 'hard-zacht' en vertegenwoordigt de balans van harde en zachte technieken."
     },
     "philosophy-2": {
-      "question": "What is 'Muchimi'?",
-      "option1": "Breathing",
-      "option2": "Sticky Hands",
+      "question": "Wat is 'Muchimi'?",
+      "option1": "Ademhaling",
+      "option2": "Plakkerige Handen",
       "option3": "Focus",
-      "option4": "Balance",
-      "correct": "Sticky Hands",
-      "explanation": "Muchimi refers to the ability to maintain contact with an opponent like sticky hands."
+      "option4": "Balans",
+      "correct": "Plakkerige Handen",
+      "explanation": "Muchimi verwijst naar het vermogen om contact te behouden met een tegenstander zoals plakkerige handen."
     },
     "techniques-1": {
-      "question": "What is the most basic stance in karate?",
+      "question": "Wat is de meest basale stance in karate?",
       "option1": "Sanchin Dachi",
       "option2": "Zenkutsu Dachi",
       "option3": "Hachiji Dachi",
       "option4": "Kiba Dachi",
       "correct": "Hachiji Dachi",
-      "explanation": "Hachiji Dachi (natural stance) is the most basic stance in karate."
+      "explanation": "Hachiji Dachi (natuurlijke stance) is de meest basale stance in karate."
     },
     "techniques-2": {
-      "question": "What does 'Uke' mean?",
-      "option1": "Attack",
-      "option2": "Block",
-      "option3": "Strike",
-      "option4": "Kick",
-      "correct": "Block",
-      "explanation": "Uke (受け) means 'block' or 'receive' in Japanese."
+      "question": "Wat betekent 'Uke'?",
+      "option1": "Aanval",
+      "option2": "Blok",
+      "option3": "Stoot",
+      "option4": "Trap",
+      "correct": "Blok",
+      "explanation": "Uke (受け) betekent 'blok' of 'ontvangen' in het Japans."
     },
     "kumite-1": {
-      "question": "What does 'Kumite' mean?",
+      "question": "Wat betekent 'Kumite'?",
       "option1": "Sparring",
-      "option2": "Fighting",
+      "option2": "Vechten",
       "option3": "Training",
-      "option4": "Competition",
+      "option4": "Competitie",
       "correct": "Sparring",
-      "explanation": "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese."
+      "explanation": "Kumite (組手) betekent 'sparring' of 'ontmoeting van handen' in het Japans."
     },
     "kumite-2": {
-      "question": "What is 'Ippon Kumite'?",
-      "option1": "Free Sparring",
-      "option2": "One-Step Sparring",
-      "option3": "Three-Step Sparring",
-      "option4": "Five-Step Sparring",
-      "correct": "One-Step Sparring",
-      "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
+      "question": "Wat is 'Ippon Kumite'?",
+      "option1": "Vrije Sparring",
+      "option2": "Een-Stap Sparring",
+      "option3": "Drie-Stap Sparring",
+      "option4": "Vijf-Stap Sparring",
+      "correct": "Een-Stap Sparring",
+      "explanation": "Ippon Kumite is een-stap sparring met vooraf bepaalde aanvallen en verdedigingen."
     },
     "history-1": {
-      "question": "Who founded Goju Ryu?",
+      "question": "Wie richtte Goju Ryu op?",
       "option1": "Chojun Miyagi",
       "option2": "Kanryo Higaonna",
       "option3": "Gichin Funakoshi",
       "option4": "Kenwa Mabuni",
       "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+      "explanation": "Chojun Miyagi noemde de stijl formeel Goju Ryu, geïnspireerd door de Bubishi."
     },
     "history-2": {
-      "question": "Which teacher strongly influenced Chojun Miyagi?",
+      "question": "Welke leraar beïnvloedde Chojun Miyagi sterk?",
       "option1": "Kanryo Higaonna",
       "option2": "Anko Itosu",
       "option3": "Mabuni Kenwa",
       "option4": "Motobu Choki",
       "correct": "Kanryo Higaonna",
-      "explanation": "Miyagi was a top student of Kanryo Higaonna."
+      "explanation": "Miyagi was een topstudent van Kanryo Higaonna."
     },
     "hojo-1": {
-      "question": "Which tool is a stone lever used for circular strength?",
+      "question": "Welk gereedschap is een stenen hefboom gebruikt voor circulaire kracht?",
       "option1": "Chi-ishi",
       "option2": "Ishi sashi",
       "option3": "Nigiri game",
       "option4": "Kongoken",
       "correct": "Chi-ishi",
-      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+      "explanation": "Chi-ishi traint circulaire kracht en pols/onderarm conditie."
     },
     "hojo-2": {
-      "question": "Which tool primarily trains grip strength?",
+      "question": "Welk gereedschap traint voornamelijk grijpkracht?",
       "option1": "Nigiri game",
       "option2": "Kongoken",
       "option3": "Ishi sashi",
       "option4": "Makiwara",
       "correct": "Nigiri game",
-      "explanation": "Nigiri game jars are used to develop grip strength and stance."
+      "explanation": "Nigiri game potten worden gebruikt om grijpkracht en stance te ontwikkelen."
     },
     "newaza-1": {
-      "question": "Which position emphasizes chest-to-chest control from the side?",
-      "option1": "Side control",
+      "question": "Welke positie benadrukt borst-tot-borst controle vanaf de zijkant?",
+      "option1": "Zijcontrole",
       "option2": "Mount",
       "option3": "Guard",
-      "option4": "Back control",
-      "correct": "Side control",
-      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+      "option4": "Rugcontrole",
+      "correct": "Zijcontrole",
+      "explanation": "Zijcontrole (yoko shiho-achtige controle) richt zich op borst-tot-borst druk."
     },
     "rules-1": {
-      "question": "What does 'Hansoku' mean?",
-      "option1": "Foul",
-      "option2": "Extension round",
-      "option3": "Draw",
-      "option4": "Half point",
-      "correct": "Foul",
-      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
+      "question": "Wat betekent 'Hansoku'?",
+      "option1": "Fout",
+      "option2": "Verlenging ronde",
+      "option3": "Gelijkspel",
+      "option4": "Half punt",
+      "correct": "Fout",
+      "explanation": "Hansoku is een fout; ernstige overtredingen kunnen leiden tot diskwalificatie."
     }
   },
   "cards": "kaarten",

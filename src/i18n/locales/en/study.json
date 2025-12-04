@@ -203,6 +203,10 @@
     "yourAnswer": "Your answer",
     "correctAnswer": "Correct answer",
     "noAnswer": "No answer given",
+    "terminology": {
+      "questionTemplate": "What is the meaning of \"{term}\"?",
+      "notAvailable": "N/A"
+    },
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",

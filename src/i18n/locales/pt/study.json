@@ -186,14 +186,18 @@
     "explanation": "Explanation",
     "showExplanation": "Show explanation",
     "hideExplanation": "Hide explanation",
-    "studyAgain": "Study again",
-    "backToStudySection": "Back to study section",
+    "studyAgain": "Estudar novamente",
+    "backToStudySection": "Voltar à seção de estudo",
     "noQuestionFound": "No question found for index {index}",
     "yourScore": "Sua pontuação: {score} de {total}",
     "reviewAnswers": "Revisar respostas",
     "yourAnswer": "Sua resposta",
     "correctAnswer": "Resposta correta",
     "noAnswer": "Nenhuma resposta dada",
+    "terminology": {
+      "questionTemplate": "Qual é o significado de \"{term}\"?",
+      "notAvailable": "Não disponível"
+    },
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",
@@ -252,157 +256,157 @@
   "startFlashcards": "Start Flashcards",
   "questions": {
     "kata-basics-1": {
-      "question": "What does 'kata' mean in Japanese?",
-      "option1": "Form",
-      "option2": "Fight",
-      "option3": "Technique",
-      "option4": "Style",
-      "correct": "Form",
-      "explanation": "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements."
+      "question": "O que significa 'kata' em japonês?",
+      "option1": "Forma",
+      "option2": "Luta",
+      "option3": "Técnica",
+      "option4": "Estilo",
+      "correct": "Forma",
+      "explanation": "Kata (型) significa 'forma' em japonês e refere-se aos padrões coreografados de movimentos."
     },
     "kata-basics-2": {
-      "question": "How many kata are there in traditional Goju Ryu?",
+      "question": "Quantos kata existem no Goju Ryu tradicional?",
       "option1": "8",
       "option2": "10",
       "option3": "12",
       "option4": "15",
       "correct": "12",
-      "explanation": "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata."
+      "explanation": "O Goju Ryu tradicional tem 12 kata: 2 heishugata (Sanchin, Tensho) e 10 kaishugata."
     },
     "kata-basics-3": {
-      "question": "What are the two main categories of kata in Goju Ryu?",
-      "option1": "Hard and Soft",
-      "option2": "Heishugata and Kaishugata",
-      "option3": "Basic and Advanced",
-      "option4": "Old and New",
-      "correct": "Heishugata and Kaishugata",
-      "explanation": "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories."
+      "question": "Quais são as duas principais categorias de kata no Goju Ryu?",
+      "option1": "Duro e Suave",
+      "option2": "Heishugata e Kaishugata",
+      "option3": "Básico e Avançado",
+      "option4": "Antigo e Novo",
+      "correct": "Heishugata e Kaishugata",
+      "explanation": "Heishugata (mão fechada) e Kaishugata (mão aberta) são as duas principais categorias."
     },
     "kata-history-1": {
-      "question": "Who created the Gekisai kata?",
+      "question": "Quem criou o kata Gekisai?",
       "option1": "Kanryo Higaonna",
       "option2": "Chojun Miyagi",
       "option3": "Morio Higaonna",
       "option4": "Eiichi Miyazato",
       "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s."
+      "explanation": "Chojun Miyagi criou Gekisai Dai Ichi e Gekisai Dai Ni na década de 1940."
     },
     "kata-history-2": {
-      "question": "What does 'Sanchin' mean?",
-      "option1": "Three Battles",
-      "option2": "Three Steps",
-      "option3": "Three Hearts",
-      "option4": "Three Minds",
-      "correct": "Three Battles",
-      "explanation": "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit."
+      "question": "O que significa 'Sanchin'?",
+      "option1": "Três Batalhas",
+      "option2": "Três Passos",
+      "option3": "Três Corações",
+      "option4": "Três Mentes",
+      "correct": "Três Batalhas",
+      "explanation": "Sanchin (三戦) significa 'três batalhas' e refere-se à mente, corpo e espírito."
     },
     "philosophy-1": {
-      "question": "What does 'Goju' mean?",
-      "option1": "Hard-Soft",
-      "option2": "Fast-Slow",
-      "option3": "Strong-Weak",
-      "option4": "Old-New",
-      "correct": "Hard-Soft",
-      "explanation": "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques."
+      "question": "O que significa 'Goju'?",
+      "option1": "Duro-Suave",
+      "option2": "Rápido-Lento",
+      "option3": "Forte-Fraco",
+      "option4": "Antigo-Novo",
+      "correct": "Duro-Suave",
+      "explanation": "Goju (剛柔) significa 'duro-suave' e representa o equilíbrio entre técnicas duras e suaves."
     },
     "philosophy-2": {
-      "question": "What is 'Muchimi'?",
-      "option1": "Breathing",
-      "option2": "Sticky Hands",
-      "option3": "Focus",
-      "option4": "Balance",
-      "correct": "Sticky Hands",
-      "explanation": "Muchimi refers to the ability to maintain contact with an opponent like sticky hands."
+      "question": "O que é 'Muchimi'?",
+      "option1": "Respiração",
+      "option2": "Mãos Pegajosas",
+      "option3": "Foco",
+      "option4": "Equilíbrio",
+      "correct": "Mãos Pegajosas",
+      "explanation": "Muchimi refere-se à capacidade de manter contato com um oponente como mãos pegajosas."
     },
     "techniques-1": {
-      "question": "What is the most basic stance in karate?",
+      "question": "Qual é a posição mais básica no karatê?",
       "option1": "Sanchin Dachi",
       "option2": "Zenkutsu Dachi",
       "option3": "Hachiji Dachi",
       "option4": "Kiba Dachi",
       "correct": "Hachiji Dachi",
-      "explanation": "Hachiji Dachi (natural stance) is the most basic stance in karate."
+      "explanation": "Hachiji Dachi (posição natural) é a posição mais básica no karatê."
     },
     "techniques-2": {
-      "question": "What does 'Uke' mean?",
-      "option1": "Attack",
-      "option2": "Block",
-      "option3": "Strike",
-      "option4": "Kick",
-      "correct": "Block",
-      "explanation": "Uke (受け) means 'block' or 'receive' in Japanese."
+      "question": "O que significa 'Uke'?",
+      "option1": "Ataque",
+      "option2": "Bloqueio",
+      "option3": "Golpe",
+      "option4": "Chute",
+      "correct": "Bloqueio",
+      "explanation": "Uke (受け) significa 'bloqueio' ou 'receber' em japonês."
     },
     "kumite-1": {
-      "question": "What does 'Kumite' mean?",
+      "question": "O que significa 'Kumite'?",
       "option1": "Sparring",
-      "option2": "Fighting",
-      "option3": "Training",
-      "option4": "Competition",
+      "option2": "Luta",
+      "option3": "Treino",
+      "option4": "Competição",
       "correct": "Sparring",
-      "explanation": "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese."
+      "explanation": "Kumite (組手) significa 'sparring' ou 'encontro de mãos' em japonês."
     },
     "kumite-2": {
-      "question": "What is 'Ippon Kumite'?",
-      "option1": "Free Sparring",
-      "option2": "One-Step Sparring",
-      "option3": "Three-Step Sparring",
-      "option4": "Five-Step Sparring",
-      "correct": "One-Step Sparring",
-      "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
+      "question": "O que é 'Ippon Kumite'?",
+      "option1": "Sparring Livre",
+      "option2": "Sparring de Um Passo",
+      "option3": "Sparring de Três Passos",
+      "option4": "Sparring de Cinco Passos",
+      "correct": "Sparring de Um Passo",
+      "explanation": "Ippon Kumite é sparring de um passo com ataques e defesas predeterminados."
     },
     "history-1": {
-      "question": "Who founded Goju Ryu?",
+      "question": "Quem fundou o Goju Ryu?",
       "option1": "Chojun Miyagi",
       "option2": "Kanryo Higaonna",
       "option3": "Gichin Funakoshi",
       "option4": "Kenwa Mabuni",
       "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+      "explanation": "Chojun Miyagi nomeou formalmente o estilo Goju Ryu, inspirado no Bubishi."
     },
     "history-2": {
-      "question": "Which teacher strongly influenced Chojun Miyagi?",
+      "question": "Qual professor influenciou fortemente Chojun Miyagi?",
       "option1": "Kanryo Higaonna",
       "option2": "Anko Itosu",
       "option3": "Mabuni Kenwa",
       "option4": "Motobu Choki",
       "correct": "Kanryo Higaonna",
-      "explanation": "Miyagi was a top student of Kanryo Higaonna."
+      "explanation": "Miyagi foi um dos melhores alunos de Kanryo Higaonna."
     },
     "hojo-1": {
-      "question": "Which tool is a stone lever used for circular strength?",
+      "question": "Qual ferramenta é uma alavanca de pedra usada para força circular?",
       "option1": "Chi-ishi",
       "option2": "Ishi sashi",
       "option3": "Nigiri game",
       "option4": "Kongoken",
       "correct": "Chi-ishi",
-      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+      "explanation": "Chi-ishi treina força circular e condicionamento do punho/antebraço."
     },
     "hojo-2": {
-      "question": "Which tool primarily trains grip strength?",
+      "question": "Qual ferramenta treina principalmente a força de preensão?",
       "option1": "Nigiri game",
       "option2": "Kongoken",
       "option3": "Ishi sashi",
       "option4": "Makiwara",
       "correct": "Nigiri game",
-      "explanation": "Nigiri game jars are used to develop grip strength and stance."
+      "explanation": "Os potes Nigiri game são usados para desenvolver força de preensão e posição."
     },
     "newaza-1": {
-      "question": "Which position emphasizes chest-to-chest control from the side?",
-      "option1": "Side control",
-      "option2": "Mount",
-      "option3": "Guard",
-      "option4": "Back control",
-      "correct": "Side control",
-      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+      "question": "Qual posição enfatiza o controle peito-a-peito pela lateral?",
+      "option1": "Controle lateral",
+      "option2": "Montada",
+      "option3": "Guarda",
+      "option4": "Controle de costas",
+      "correct": "Controle lateral",
+      "explanation": "O controle lateral (controle tipo yoko shiho) foca na pressão peito-a-peito."
     },
     "rules-1": {
-      "question": "What does 'Hansoku' mean?",
-      "option1": "Foul",
-      "option2": "Extension round",
-      "option3": "Draw",
-      "option4": "Half point",
-      "correct": "Foul",
-      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
+      "question": "O que significa 'Hansoku'?",
+      "option1": "Falta",
+      "option2": "Rodada de extensão",
+      "option3": "Empate",
+      "option4": "Meio ponto",
+      "correct": "Falta",
+      "explanation": "Hansoku é uma falta; infrações graves podem levar à desqualificação."
     }
   },
   "cards": "cards",

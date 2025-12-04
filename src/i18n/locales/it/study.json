@@ -1002,14 +1002,18 @@
     "explanation": "Explanation",
     "showExplanation": "Show explanation",
     "hideExplanation": "Hide explanation",
-    "studyAgain": "Study again",
-    "backToStudySection": "Back to study section",
+    "studyAgain": "Studia di nuovo",
+    "backToStudySection": "Torna alla sezione di studio",
     "noQuestionFound": "No question found for index {index}",
     "yourScore": "Il tuo punteggio: {score} su {total}",
     "reviewAnswers": "Rivedi le risposte",
     "yourAnswer": "La tua risposta",
     "correctAnswer": "Risposta corretta",
     "noAnswer": "Nessuna risposta data",
+    "terminology": {
+      "questionTemplate": "Qual è il significato di \"{term}\"?",
+      "notAvailable": "Non disponibile"
+    },
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",

@@ -156,6 +156,10 @@
     "yourAnswer": "Tu respuesta",
     "correctAnswer": "Respuesta correcta",
     "noAnswer": "Sin respuesta",
+    "terminology": {
+      "questionTemplate": "¿Cuál es el significado de \"{term}\"?",
+      "notAvailable": "No disponible"
+    },
     "tips": {
       "title": "Consejos de estudio",
       "regular": "Practica regularmente para mejores resultados",

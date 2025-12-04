@@ -584,9 +584,16 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
           const wrongOptions = generateWrongOptions(correctAnswer, terms);
           const allOptions = [correctAnswer, ...wrongOptions];
 
+          // Get language-aware question template and interpolate manually
+          const questionTemplate = t('study.terminology.questionTemplate', { term: term.name, defaultValue: `What is the meaning of "${term.name}"?` });
+          // Manually replace {term} if interpolation didn't work
+          const questionText = questionTemplate.includes('{term}') 
+            ? questionTemplate.replace('{term}', term.name)
+            : questionTemplate;
+          
           return {
             id: `${category}-${key}`,
-            question: t(`study.terminology.${category}.terms.${key}.question`, { term: term.name, defaultValue: `What is the meaning of "${term.name}"?` }),
+            question: t(`study.terminology.${category}.terms.${key}.question`, { term: term.name, defaultValue: questionText }),
             options: allOptions.sort(() => Math.random() - 0.5), // Shuffle options
             correctAnswer: correctAnswer,
             explanation: term.details || t(`study.terminology.${category}.terms.${key}.explanation`, { japanese: term.japanese || t('study.notAvailable', 'N/A'), defaultValue: `Japanese: ${term.japanese || 'N/A'}` })

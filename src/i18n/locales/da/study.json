@@ -223,14 +223,18 @@
     "explanation": "Explanation",
     "showExplanation": "Show explanation",
     "hideExplanation": "Hide explanation",
-    "studyAgain": "Study again",
-    "backToStudySection": "Back to study section",
+    "studyAgain": "Studer igen",
+    "backToStudySection": "Tilbage til studieafsnittet",
     "noQuestionFound": "No question found for index {index}",
     "yourScore": "Din score: {score} ud af {total}",
     "reviewAnswers": "Gennemgå svar",
     "yourAnswer": "Dit svar",
     "correctAnswer": "Korrekt svar",
     "noAnswer": "Intet svar givet",
+    "terminology": {
+      "questionTemplate": "Hvad betyder \"{term}\"?",
+      "notAvailable": "Ikke tilgængelig"
+    },
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",
@@ -289,157 +293,157 @@
   "startFlashcards": "Start Flashcards",
   "questions": {
     "kata-basics-1": {
-      "question": "What does 'kata' mean in Japanese?",
+      "question": "Hvad betyder 'kata' på japansk?",
       "option1": "Form",
-      "option2": "Fight",
-      "option3": "Technique",
-      "option4": "Style",
+      "option2": "Kamp",
+      "option3": "Teknik",
+      "option4": "Stil",
       "correct": "Form",
-      "explanation": "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements."
+      "explanation": "Kata (型) betyder 'form' på japansk og henviser til de koreograferede bevægelsesmønstre."
     },
     "kata-basics-2": {
-      "question": "How many kata are there in traditional Goju Ryu?",
+      "question": "Hvor mange kata er der i traditionel Goju Ryu?",
       "option1": "8",
       "option2": "10",
       "option3": "12",
       "option4": "15",
       "correct": "12",
-      "explanation": "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata."
+      "explanation": "Traditionel Goju Ryu har 12 kata: 2 heishugata (Sanchin, Tensho) og 10 kaishugata."
     },
     "kata-basics-3": {
-      "question": "What are the two main categories of kata in Goju Ryu?",
-      "option1": "Hard and Soft",
-      "option2": "Heishugata and Kaishugata",
-      "option3": "Basic and Advanced",
-      "option4": "Old and New",
-      "correct": "Heishugata and Kaishugata",
-      "explanation": "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories."
+      "question": "Hvad er de to hovedkategorier af kata i Goju Ryu?",
+      "option1": "Hårdt og Blødt",
+      "option2": "Heishugata og Kaishugata",
+      "option3": "Basis og Avanceret",
+      "option4": "Gammel og Ny",
+      "correct": "Heishugata og Kaishugata",
+      "explanation": "Heishugata (lukket hånd) og Kaishugata (åben hånd) er de to hovedkategorier."
     },
     "kata-history-1": {
-      "question": "Who created the Gekisai kata?",
+      "question": "Hvem skabte Gekisai kata?",
       "option1": "Kanryo Higaonna",
       "option2": "Chojun Miyagi",
       "option3": "Morio Higaonna",
       "option4": "Eiichi Miyazato",
       "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s."
+      "explanation": "Chojun Miyagi skabte Gekisai Dai Ichi og Gekisai Dai Ni i 1940'erne."
     },
     "kata-history-2": {
-      "question": "What does 'Sanchin' mean?",
-      "option1": "Three Battles",
-      "option2": "Three Steps",
-      "option3": "Three Hearts",
-      "option4": "Three Minds",
-      "correct": "Three Battles",
-      "explanation": "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit."
+      "question": "Hvad betyder 'Sanchin'?",
+      "option1": "Tre Kampe",
+      "option2": "Tre Trin",
+      "option3": "Tre Hjerter",
+      "option4": "Tre Sind",
+      "correct": "Tre Kampe",
+      "explanation": "Sanchin (三戦) betyder 'tre kampe' og henviser til sind, krop og ånd."
     },
     "philosophy-1": {
-      "question": "What does 'Goju' mean?",
-      "option1": "Hard-Soft",
-      "option2": "Fast-Slow",
-      "option3": "Strong-Weak",
-      "option4": "Old-New",
-      "correct": "Hard-Soft",
-      "explanation": "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques."
+      "question": "Hvad betyder 'Goju'?",
+      "option1": "Hårdt-Blødt",
+      "option2": "Hurtigt-Langsomt",
+      "option3": "Stærkt-Svagt",
+      "option4": "Gammelt-Nyt",
+      "correct": "Hårdt-Blødt",
+      "explanation": "Goju (剛柔) betyder 'hårdt-blødt' og repræsenterer balancen mellem hårde og bløde teknikker."
     },
     "philosophy-2": {
-      "question": "What is 'Muchimi'?",
-      "option1": "Breathing",
-      "option2": "Sticky Hands",
-      "option3": "Focus",
+      "question": "Hvad er 'Muchimi'?",
+      "option1": "Åndedræt",
+      "option2": "Klæbrige Hænder",
+      "option3": "Fokus",
       "option4": "Balance",
-      "correct": "Sticky Hands",
-      "explanation": "Muchimi refers to the ability to maintain contact with an opponent like sticky hands."
+      "correct": "Klæbrige Hænder",
+      "explanation": "Muchimi henviser til evnen til at opretholde kontakt med en modstander som klæbrige hænder."
     },
     "techniques-1": {
-      "question": "What is the most basic stance in karate?",
+      "question": "Hvad er den mest basale stilling i karate?",
       "option1": "Sanchin Dachi",
       "option2": "Zenkutsu Dachi",
       "option3": "Hachiji Dachi",
       "option4": "Kiba Dachi",
       "correct": "Hachiji Dachi",
-      "explanation": "Hachiji Dachi (natural stance) is the most basic stance in karate."
+      "explanation": "Hachiji Dachi (naturlig stilling) er den mest basale stilling i karate."
     },
     "techniques-2": {
-      "question": "What does 'Uke' mean?",
-      "option1": "Attack",
-      "option2": "Block",
-      "option3": "Strike",
-      "option4": "Kick",
-      "correct": "Block",
-      "explanation": "Uke (受け) means 'block' or 'receive' in Japanese."
+      "question": "Hvad betyder 'Uke'?",
+      "option1": "Angreb",
+      "option2": "Blokering",
+      "option3": "Slag",
+      "option4": "Spark",
+      "correct": "Blokering",
+      "explanation": "Uke (受け) betyder 'blokering' eller 'modtage' på japansk."
     },
     "kumite-1": {
-      "question": "What does 'Kumite' mean?",
+      "question": "Hvad betyder 'Kumite'?",
       "option1": "Sparring",
-      "option2": "Fighting",
-      "option3": "Training",
-      "option4": "Competition",
+      "option2": "Kamp",
+      "option3": "Træning",
+      "option4": "Konkurrence",
       "correct": "Sparring",
-      "explanation": "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese."
+      "explanation": "Kumite (組手) betyder 'sparring' eller 'møde med hænder' på japansk."
     },
     "kumite-2": {
-      "question": "What is 'Ippon Kumite'?",
-      "option1": "Free Sparring",
-      "option2": "One-Step Sparring",
-      "option3": "Three-Step Sparring",
-      "option4": "Five-Step Sparring",
-      "correct": "One-Step Sparring",
-      "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
+      "question": "Hvad er 'Ippon Kumite'?",
+      "option1": "Fri Sparring",
+      "option2": "Et-Trin Sparring",
+      "option3": "Tre-Trin Sparring",
+      "option4": "Fem-Trin Sparring",
+      "correct": "Et-Trin Sparring",
+      "explanation": "Ippon Kumite er et-trins sparring med forudbestemte angreb og forsvar."
     },
     "history-1": {
-      "question": "Who founded Goju Ryu?",
+      "question": "Hvem grundlagde Goju Ryu?",
       "option1": "Chojun Miyagi",
       "option2": "Kanryo Higaonna",
       "option3": "Gichin Funakoshi",
       "option4": "Kenwa Mabuni",
       "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+      "explanation": "Chojun Miyagi navngav formelt stilen Goju Ryu, inspireret af Bubishi."
     },
     "history-2": {
-      "question": "Which teacher strongly influenced Chojun Miyagi?",
+      "question": "Hvilken lærer påvirkede Chojun Miyagi stærkt?",
       "option1": "Kanryo Higaonna",
       "option2": "Anko Itosu",
       "option3": "Mabuni Kenwa",
       "option4": "Motobu Choki",
       "correct": "Kanryo Higaonna",
-      "explanation": "Miyagi was a top student of Kanryo Higaonna."
+      "explanation": "Miyagi var en topstuderende hos Kanryo Higaonna."
     },
     "hojo-1": {
-      "question": "Which tool is a stone lever used for circular strength?",
+      "question": "Hvilket værktøj er en stenvægtstang brugt til cirkulær styrke?",
       "option1": "Chi-ishi",
       "option2": "Ishi sashi",
       "option3": "Nigiri game",
       "option4": "Kongoken",
       "correct": "Chi-ishi",
-      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+      "explanation": "Chi-ishi træner cirkulær styrke og håndled/underarm konditionering."
     },
     "hojo-2": {
-      "question": "Which tool primarily trains grip strength?",
+      "question": "Hvilket værktøj træner primært grebstyrke?",
       "option1": "Nigiri game",
       "option2": "Kongoken",
       "option3": "Ishi sashi",
       "option4": "Makiwara",
       "correct": "Nigiri game",
-      "explanation": "Nigiri game jars are used to develop grip strength and stance."
+      "explanation": "Nigiri game krukker bruges til at udvikle grebstyrke og stilling."
     },
     "newaza-1": {
-      "question": "Which position emphasizes chest-to-chest control from the side?",
-      "option1": "Side control",
+      "question": "Hvilken position lægger vægt på bryst-til-bryst kontrol fra siden?",
+      "option1": "Sidekontrol",
       "option2": "Mount",
       "option3": "Guard",
-      "option4": "Back control",
-      "correct": "Side control",
-      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+      "option4": "Rygkontrol",
+      "correct": "Sidekontrol",
+      "explanation": "Sidekontrol (yoko shiho-lignende kontrol) fokuserer på bryst-til-bryst tryk."
     },
     "rules-1": {
-      "question": "What does 'Hansoku' mean?",
-      "option1": "Foul",
-      "option2": "Extension round",
-      "option3": "Draw",
-      "option4": "Half point",
-      "correct": "Foul",
-      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
+      "question": "Hvad betyder 'Hansoku'?",
+      "option1": "Forseelse",
+      "option2": "Forlængelsesrunde",
+      "option3": "Uafgjort",
+      "option4": "Halvt point",
+      "correct": "Forseelse",
+      "explanation": "Hansoku er en forseelse; alvorlige overtrædelser kan føre til diskvalifikation."
     }
   },
   "cards": "cards",
