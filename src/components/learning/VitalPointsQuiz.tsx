@@ -375,7 +375,7 @@ const VitalPointsQuiz = () => {
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {hiddenPoints.map((point) => {
+              {[...hiddenPoints].sort((a, b) => (a.number || 0) - (b.number || 0)).map((point) => {
                 const correct = isCorrect(point.id);
                 return (
                   <div key={point.id} className="flex items-center gap-2">
