@@ -21,7 +21,7 @@
       "incorrect": "Onjuist",
       "yourAnswer": "Je antwoord",
       "correctAnswer": "Juiste antwoord",
-      "score": "Score: {correct} van {total}",
+      "score": "Score: {{correct}} van {{total}}",
       "enterAnswer": "Voer de naam van dit vitale punt in"
     },
     "points": {

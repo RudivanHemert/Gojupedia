@@ -587,10 +587,10 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
           // Get language-aware question template and interpolate manually
           const questionTemplate = t('study.terminology.questionTemplate', { term: term.name, defaultValue: `What is the meaning of "${term.name}"?` });
           // Manually replace {term} if interpolation didn't work
-          const questionText = questionTemplate.includes('{term}') 
+          const questionText = questionTemplate.includes('{term}')
             ? questionTemplate.replace('{term}', term.name)
             : questionTemplate;
-          
+
           return {
             id: `${category}-${key}`,
             question: t(`study.terminology.${category}.terms.${key}.question`, { term: term.name, defaultValue: questionText }),
@@ -702,6 +702,24 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
 
   // Add all flashcard studies
   studies.push(...flashcardStudies);
+
+  // Add Vital Points Quiz
+  try {
+    const vitalPointsData = t('vitalPoints.points', { returnObjects: true }) as unknown as Record<string, { name: string; area: string }>;
+    if (vitalPointsData && Object.keys(vitalPointsData).length > 0) {
+      studies.push({
+        id: 'vital-points-quiz',
+        title: t('vitalPoints.quiz.title', 'Vital Points Quiz'),
+        description: t('vitalPoints.quiz.description', 'Test your knowledge of vital points'),
+        type: 'vital-points-quiz',
+        category: 'vital-points',
+        difficulty: 'intermediate',
+        questions: [] // Questions are handled internally by the component
+      });
+    }
+  } catch (error) {
+    console.debug('Skipping Vital Points quiz - data not available');
+  }
 
   // Add kata-specific study materials
   const kataStudies: Study[] = [

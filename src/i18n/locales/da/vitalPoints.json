@@ -21,7 +21,7 @@
       "incorrect": "Forkert",
       "yourAnswer": "Dit svar",
       "correctAnswer": "Korrekt svar",
-      "score": "Score: {correct} ud af {total}",
+      "score": "Score: {{correct}} ud af {{total}}",
       "enterAnswer": "Indtast navnet på dette vitale punkt"
     },
     "points": {

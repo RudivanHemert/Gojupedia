@@ -21,7 +21,7 @@
       "incorrect": "Incorrect",
       "yourAnswer": "Your answer",
       "correctAnswer": "Correct answer",
-      "score": "Score: {correct} out of {total}",
+      "score": "Score: {{correct}} out of {{total}}",
       "enterAnswer": "Enter the name of this vital point"
     },
     "points": {

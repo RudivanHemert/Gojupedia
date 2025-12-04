@@ -21,7 +21,7 @@
       "incorrect": "Falsch",
       "yourAnswer": "Ihre Antwort",
       "correctAnswer": "Richtige Antwort",
-      "score": "Punktzahl: {correct} von {total}",
+      "score": "Punktzahl: {{correct}} von {{total}}",
       "enterAnswer": "Geben Sie den Namen dieses vitalen Punktes ein"
     },
     "points": {

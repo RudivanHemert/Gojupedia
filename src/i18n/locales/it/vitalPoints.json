@@ -21,7 +21,7 @@
       "incorrect": "Incorretto",
       "yourAnswer": "La tua risposta",
       "correctAnswer": "Risposta corretta",
-      "score": "Punteggio: {correct} su {total}",
+      "score": "Punteggio: {{correct}} su {{total}}",
       "enterAnswer": "Inserisci il nome di questo punto vitale"
     },
     "points": {
