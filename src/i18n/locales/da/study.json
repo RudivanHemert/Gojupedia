@@ -289,6 +289,341 @@
     "kumite-rules": {
       "title": "Kumite Rules Quiz",
       "description": "Scoring, penalties and referee commands."
+    },
+    "questionBank": {
+      "kata-basics-4": {
+        "question": "Hvad er den første kata, man lærer i Goju Ryu?",
+        "option1": "Gekisai Dai Ichi",
+        "option2": "Saifa",
+        "option3": "Sanchin",
+        "option4": "Tensho",
+        "correct": "Gekisai Dai Ichi",
+        "explanation": "Gekisai Dai Ichi er typisk den første kata, der læres til begyndere."
+      },
+      "kata-basics-5": {
+        "question": "Hvad er formålet med 'Kiai'?",
+        "option1": "At skræmme modstanderen",
+        "option2": "At fokusere energi",
+        "option3": "At signalere afslutningen",
+        "option4": "At ånde ud",
+        "correct": "At fokusere energi",
+        "explanation": "Kiai hjælper med at forene krop og sind og fokusere energi i anslagsøjeblikket."
+      },
+      "kata-basics-6": {
+        "question": "Hvilken stilling er kendt som 'Kattestillingen'?",
+        "option1": "Zenkutsu Dachi",
+        "option2": "Shiko Dachi",
+        "option3": "Neko Ashi Dachi",
+        "option4": "Sanchin Dachi",
+        "correct": "Neko Ashi Dachi",
+        "explanation": "Neko Ashi Dachi betyder Kattefods-stilling."
+      },
+      "kata-history-3": {
+        "question": "Hvilken kata blev bragt fra Kina af Kanryo Higaonna?",
+        "option1": "Gekisai",
+        "option2": "Saifa",
+        "option3": "Suparinpei",
+        "option4": "Tensho",
+        "correct": "Suparinpei",
+        "explanation": "Suparinpei er en af de kataer, Higaonna Sensei bragte med tilbage fra Fuzhou."
+      },
+      "kata-history-4": {
+        "question": "Hvem udviklede kataen Tensho?",
+        "option1": "Kanryo Higaonna",
+        "option2": "Chojun Miyagi",
+        "option3": "Anko Itosu",
+        "option4": "Gichin Funakoshi",
+        "correct": "Chojun Miyagi",
+        "explanation": "Chojun Miyagi udviklede Tensho som en blød modpart til Sanchin."
+      },
+      "kata-history-5": {
+        "question": "Hvad betyder 'Gekisai'?",
+        "option1": "Fredeligt Sind",
+        "option2": "Angrib og Ødelæg",
+        "option3": "Roterende Håndflader",
+        "option4": "Tre Kampe",
+        "correct": "Angrib og Ødelæg",
+        "explanation": "Gekisai betyder 'Angrib og Ødelæg' eller 'Angrib og Knus'."
+      },
+      "kata-history-6": {
+        "question": "Hvilken kata betragtes som den 'Hårde' åndedrætskata?",
+        "option1": "Tensho",
+        "option2": "Sanchin",
+        "option3": "Saifa",
+        "option4": "Sepai",
+        "correct": "Sanchin",
+        "explanation": "Sanchin er den fundamentale hårde åndedrætskata i Goju Ryu."
+      },
+      "philosophy-3": {
+        "question": "Hvad er 'Zanshin'?",
+        "option1": "Intet sind",
+        "option2": "Tilbageværende sind/opmærksomhed",
+        "option3": "Kampånd",
+        "option4": "Respekt",
+        "correct": "Tilbageværende sind/opmærksomhed",
+        "explanation": "Zanshin er tilstanden af total opmærksomhed og parathed."
+      },
+      "philosophy-4": {
+        "question": "Hvad er 'Mushin'?",
+        "option1": "Intet sind",
+        "option2": "Travlt sind",
+        "option3": "Vredt sind",
+        "option4": "Glad sind",
+        "correct": "Intet sind",
+        "explanation": "Mushin betyder 'intet sind' - at handle uden bevidst tanke eller tøven."
+      },
+      "philosophy-5": {
+        "question": "Hvad betyder 'Rei'?",
+        "option1": "Kæmpe",
+        "option2": "Løbe",
+        "option3": "Respekt/Buk",
+        "option4": "Vinde",
+        "correct": "Respekt/Buk",
+        "explanation": "Rei betyder respekt eller buk, fundamentalt for karate-etikette."
+      },
+      "philosophy-6": {
+        "question": "Hvad er det ultimative mål med karate?",
+        "option1": "At vinde turneringer",
+        "option2": "Kun selvforsvar",
+        "option3": "Karakterudvikling",
+        "option4": "Sort bælte",
+        "correct": "Karakterudvikling",
+        "explanation": "Det ultimative mål med karate er perfektion af karakteren."
+      },
+      "techniques-3": {
+        "question": "Hvad er 'Seiken'?",
+        "option1": "Forreste knytnæve",
+        "option2": "Bagsiden af knytnæven",
+        "option3": "Knivhånd",
+        "option4": "Håndrod",
+        "correct": "Forreste knytnæve",
+        "explanation": "Seiken er den forreste knytnæve, den primære slagflade."
+      },
+      "techniques-4": {
+        "question": "Hvad er 'Mae Geri'?",
+        "option1": "Sidespark",
+        "option2": "Cirkelspark",
+        "option3": "Frontspark",
+        "option4": "Bagspark",
+        "correct": "Frontspark",
+        "explanation": "Mae Geri er frontsparket."
+      },
+      "techniques-5": {
+        "question": "Hvad er 'Age Uke'?",
+        "option1": "Nedadgående blokering",
+        "option2": "Opadgående blokering",
+        "option3": "Mellem blokering",
+        "option4": "Krog blokering",
+        "correct": "Opadgående blokering",
+        "explanation": "Age Uke er den opadgående blokering, der bruges til at beskytte hovedet."
+      },
+      "techniques-6": {
+        "question": "Hvad er 'Shuto Uke'?",
+        "option1": "Knivhåndsblokering",
+        "option2": "Håndfladeblokering",
+        "option3": "Håndledsblokering",
+        "option4": "Albueblokering",
+        "correct": "Knivhåndsblokering",
+        "explanation": "Shuto Uke er knivhåndsblokeringen."
+      },
+      "kumite-3": {
+        "question": "Hvad er 'Maai'?",
+        "option1": "Timing",
+        "option2": "Afstand",
+        "option3": "Hastighed",
+        "option4": "Kraft",
+        "correct": "Afstand",
+        "explanation": "Maai refererer til kampafstanden mellem modstandere."
+      },
+      "kumite-4": {
+        "question": "Hvad er 'Jiyu Kumite'?",
+        "option1": "Basis Sparring",
+        "option2": "Fri Sparring",
+        "option3": "Aftalt Sparring",
+        "option4": "Gulv Sparring",
+        "correct": "Fri Sparring",
+        "explanation": "Jiyu Kumite betyder fri sparring."
+      },
+      "kumite-5": {
+        "question": "Hvad er et 'Kizami Zuki'?",
+        "option1": "Modsat stød",
+        "option2": "Krogstød",
+        "option3": "Jab/Stød med forreste hånd",
+        "option4": "Uppercut",
+        "correct": "Jab/Stød med forreste hånd",
+        "explanation": "Kizami Zuki er et jab eller stød med den forreste hånd."
+      },
+      "kumite-6": {
+        "question": "Hvad er vigtigt i kumite udover teknik?",
+        "option1": "At råbe højt",
+        "option2": "Zanshin (Opmærksomhed)",
+        "option3": "At se vred ud",
+        "option4": "At hoppe højt",
+        "correct": "Zanshin (Opmærksomhed)",
+        "explanation": "Zanshin, eller tilbageværende sind/opmærksomhed, er afgørende i kumite."
+      },
+      "history-3": {
+        "question": "Hvor studerede Kanryo Higaonna kampsport?",
+        "option1": "Tokyo, Japan",
+        "option2": "Fuzhou, Kina",
+        "option3": "Seoul, Korea",
+        "option4": "Taipei, Taiwan",
+        "correct": "Fuzhou, Kina",
+        "explanation": "Kanryo Higaonna studerede i Fuzhou, Kina, under Ryu Ryu Ko."
+      },
+      "history-4": {
+        "question": "Hvilken bog inspirerede navnet 'Goju Ryu'?",
+        "option1": "Tao Te Ching",
+        "option2": "Krigskunsten",
+        "option3": "Bubishi",
+        "option4": "De Fem Ringes Bog",
+        "correct": "Bubishi",
+        "explanation": "Navnet Goju Ryu kommer fra 'De Otte Forskrifter for Knytnæven' i Bubishi."
+      },
+      "history-5": {
+        "question": "I hvilket år blev Goju Ryu navngivet?",
+        "option1": "1920",
+        "option2": "1930",
+        "option3": "1940",
+        "option4": "1950",
+        "correct": "1930",
+        "explanation": "Chojun Miyagi navngav stilen Goju Ryu omkring 1930."
+      },
+      "history-6": {
+        "question": "Hvem var Chojun Miyagis lærer i Naha-te?",
+        "option1": "Itosu Anko",
+        "option2": "Kanryo Higaonna",
+        "option3": "Matsumura Sokon",
+        "option4": "Azato Anko",
+        "correct": "Kanryo Higaonna",
+        "explanation": "Kanryo Higaonna var Chojun Miyagis primære lærer."
+      },
+      "hojo-3": {
+        "question": "Hvad bruges 'Makiwara' til?",
+        "option1": "Udstrækning",
+        "option2": "Slagtræning",
+        "option3": "Vægtløftning",
+        "option4": "Meditation",
+        "correct": "Slagtræning",
+        "explanation": "Makiwara er en slagpæl, der bruges til at hærde hænderne og udvikle kraft."
+      },
+      "hojo-4": {
+        "question": "Hvad er 'Tan'?",
+        "option1": "Krukke",
+        "option2": "Stenlås",
+        "option3": "Vægtstang/Vægt",
+        "option4": "Jernring",
+        "correct": "Vægtstang/Vægt",
+        "explanation": "Tan er en vægtstangslignende vægt, der bruges til styrketræning."
+      },
+      "hojo-5": {
+        "question": "Hvad træner 'Kongoken'?",
+        "option1": "Hastighed",
+        "option2": "Kropskonditionering og grebsstyrke",
+        "option3": "Fleksibilitet",
+        "option4": "Balance",
+        "correct": "Kropskonditionering og grebsstyrke",
+        "explanation": "Kongoken er en tung jernring, der bruges til at konditionere kroppen og udvikle grebsstyrke."
+      },
+      "hojo-6": {
+        "question": "Hvad er 'Ishi Sashi'?",
+        "option1": "Jernsko",
+        "option2": "Stenlåse",
+        "option3": "Gribekrukker",
+        "option4": "Tunge bjælker",
+        "correct": "Stenlåse",
+        "explanation": "Ishi Sashi er stenlåse, der bruges til at styrke håndled og arme."
+      },
+      "newaza-2": {
+        "question": "Hvad er 'Kesa Gatame'?",
+        "option1": "Mount",
+        "option2": "Guard",
+        "option3": "Tørklædehold",
+        "option4": "Trekantskvælning",
+        "correct": "Tørklædehold",
+        "explanation": "Kesa Gatame er tørklædeholdet, en fundamental holdeteknik."
+      },
+      "newaza-3": {
+        "question": "Hvad er 'Guard'-positionen?",
+        "option1": "Ovenpå",
+        "option2": "På ryggen og kontrollerer modstanderen med benene",
+        "option3": "Sidekontrol",
+        "option4": "Stående",
+        "correct": "På ryggen og kontrollerer modstanderen med benene",
+        "explanation": "Guarden er en position, hvor du ligger på ryggen, men kontrollerer modstanderen med dine ben."
+      },
+      "newaza-4": {
+        "question": "Hvad er et 'Tap out'?",
+        "option1": "Hvile",
+        "option2": "Signalere overgivelse",
+        "option3": "Slå",
+        "option4": "Blokere",
+        "correct": "Signalere overgivelse",
+        "explanation": "At tappe ud er det universelle signal for overgivelse for at stoppe teknikken."
+      },
+      "newaza-5": {
+        "question": "Hvad er 'Mount'?",
+        "option1": "Sidekontrol",
+        "option2": "Sidder på modstanderens torso",
+        "option3": "Mellem benene",
+        "option4": "Stående over",
+        "correct": "Sidder på modstanderens torso",
+        "explanation": "Mount er en dominerende position, hvor du sidder på modstanderens torso."
+      },
+      "newaza-6": {
+        "question": "Hvorfor er brobygning (Upa) vigtigt?",
+        "option1": "For at hvile",
+        "option2": "For at undslippe fra bunden",
+        "option3": "For at slå",
+        "option4": "For at kvæle",
+        "correct": "For at undslippe fra bunden",
+        "explanation": "Brobygning er en fundamental bevægelse for at skabe plads og undslippe fra bundpositioner."
+      },
+      "rules-2": {
+        "question": "Hvad kaldes et fuldt point?",
+        "option1": "Waza-ari",
+        "option2": "Yuko",
+        "option3": "Ippon",
+        "option4": "Hansoku",
+        "correct": "Ippon",
+        "explanation": "Ippon er et fuldt point, der ofte afslutter kampen i traditionelle regler."
+      },
+      "rules-3": {
+        "question": "Hvad er 'Waza-ari'?",
+        "option1": "Fuldt point",
+        "option2": "Halvt point",
+        "option3": "Fejl",
+        "option4": "Vinde",
+        "correct": "Halvt point",
+        "explanation": "Waza-ari er et halvt point; to waza-ari svarer typisk til en ippon."
+      },
+      "rules-4": {
+        "question": "Hvad betyder 'Yame'?",
+        "option1": "Start",
+        "option2": "Stop",
+        "option3": "Fortsæt",
+        "option4": "Kæmp",
+        "correct": "Stop",
+        "explanation": "Yame er kommandoen til at stoppe."
+      },
+      "rules-5": {
+        "question": "Hvad betyder 'Hajime'?",
+        "option1": "Stop",
+        "option2": "Begynd",
+        "option3": "Buk",
+        "option4": "Drej",
+        "correct": "Begynd",
+        "explanation": "Hajime er kommandoen til at begynde."
+      },
+      "rules-6": {
+        "question": "Hvad sker der, hvis du træder uden for banen (Jogai)?",
+        "option1": "Du vinder",
+        "option2": "Advarsel/Straf",
+        "option3": "Ingenting",
+        "option4": "Point til dig",
+        "correct": "Advarsel/Straf",
+        "explanation": "At træde uden for banen (Jogai) resulterer normalt i en advarsel eller straf."
+      }
     }
   },
   "title": "Study",

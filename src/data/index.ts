@@ -766,6 +766,42 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.kata-basics-3.correct", "Heishugata and Kaishugata"),
           explanation: t("study.questions.kata-basics-3.explanation", "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories.")
+        },
+        {
+          id: "kata-basics-4",
+          question: t("study.questions.kata-basics-4.question", "What is the first kata learned in Goju Ryu?"),
+          options: [
+            t("study.questions.kata-basics-4.option1", "Gekisai Dai Ichi"),
+            t("study.questions.kata-basics-4.option2", "Saifa"),
+            t("study.questions.kata-basics-4.option3", "Sanchin"),
+            t("study.questions.kata-basics-4.option4", "Tensho")
+          ],
+          correctAnswer: t("study.questions.kata-basics-4.correct", "Gekisai Dai Ichi"),
+          explanation: t("study.questions.kata-basics-4.explanation", "Gekisai Dai Ichi is typically the first kata taught to beginners.")
+        },
+        {
+          id: "kata-basics-5",
+          question: t("study.questions.kata-basics-5.question", "What is the purpose of 'Kiai'?"),
+          options: [
+            t("study.questions.kata-basics-5.option1", "To scare the opponent"),
+            t("study.questions.kata-basics-5.option2", "To focus energy"),
+            t("study.questions.kata-basics-5.option3", "To signal the end"),
+            t("study.questions.kata-basics-5.option4", "To breathe out")
+          ],
+          correctAnswer: t("study.questions.kata-basics-5.correct", "To focus energy"),
+          explanation: t("study.questions.kata-basics-5.explanation", "Kiai helps to unite the body and mind and focus energy at the moment of impact.")
+        },
+        {
+          id: "kata-basics-6",
+          question: t("study.questions.kata-basics-6.question", "Which stance is known as the 'Cat Stance'?"),
+          options: [
+            t("study.questions.kata-basics-6.option1", "Zenkutsu Dachi"),
+            t("study.questions.kata-basics-6.option2", "Shiko Dachi"),
+            t("study.questions.kata-basics-6.option3", "Neko Ashi Dachi"),
+            t("study.questions.kata-basics-6.option4", "Sanchin Dachi")
+          ],
+          correctAnswer: t("study.questions.kata-basics-6.correct", "Neko Ashi Dachi"),
+          explanation: t("study.questions.kata-basics-6.explanation", "Neko Ashi Dachi means Cat Foot Stance.")
         }
       ]
     },
@@ -800,6 +836,54 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.kata-history-2.correct", "Three Battles"),
           explanation: t("study.questions.kata-history-2.explanation", "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit.")
+        },
+        {
+          id: "kata-history-3",
+          question: t("study.questions.kata-history-3.question", "Which kata was brought from China by Kanryo Higaonna?"),
+          options: [
+            t("study.questions.kata-history-3.option1", "Gekisai"),
+            t("study.questions.kata-history-3.option2", "Saifa"),
+            t("study.questions.kata-history-3.option3", "Suparinpei"),
+            t("study.questions.kata-history-3.option4", "Tensho")
+          ],
+          correctAnswer: t("study.questions.kata-history-3.correct", "Suparinpei"),
+          explanation: t("study.questions.kata-history-3.explanation", "Suparinpei is one of the kata Higaonna Sensei brought back from Fuzhou.")
+        },
+        {
+          id: "kata-history-4",
+          question: t("study.questions.kata-history-4.question", "Who developed the kata Tensho?"),
+          options: [
+            t("study.questions.kata-history-4.option1", "Kanryo Higaonna"),
+            t("study.questions.kata-history-4.option2", "Chojun Miyagi"),
+            t("study.questions.kata-history-4.option3", "Anko Itosu"),
+            t("study.questions.kata-history-4.option4", "Gichin Funakoshi")
+          ],
+          correctAnswer: t("study.questions.kata-history-4.correct", "Chojun Miyagi"),
+          explanation: t("study.questions.kata-history-4.explanation", "Chojun Miyagi developed Tensho as a soft counterpart to Sanchin.")
+        },
+        {
+          id: "kata-history-5",
+          question: t("study.questions.kata-history-5.question", "What does 'Gekisai' mean?"),
+          options: [
+            t("study.questions.kata-history-5.option1", "Peaceful Mind"),
+            t("study.questions.kata-history-5.option2", "Attack and Destroy"),
+            t("study.questions.kata-history-5.option3", "Rotating Palms"),
+            t("study.questions.kata-history-5.option4", "Three Battles")
+          ],
+          correctAnswer: t("study.questions.kata-history-5.correct", "Attack and Destroy"),
+          explanation: t("study.questions.kata-history-5.explanation", "Gekisai means 'Attack and Destroy' or 'Attack and Smash'.")
+        },
+        {
+          id: "kata-history-6",
+          question: t("study.questions.kata-history-6.question", "Which kata is considered the 'Hard' breathing kata?"),
+          options: [
+            t("study.questions.kata-history-6.option1", "Tensho"),
+            t("study.questions.kata-history-6.option2", "Sanchin"),
+            t("study.questions.kata-history-6.option3", "Saifa"),
+            t("study.questions.kata-history-6.option4", "Sepai")
+          ],
+          correctAnswer: t("study.questions.kata-history-6.correct", "Sanchin"),
+          explanation: t("study.questions.kata-history-6.explanation", "Sanchin is the fundamental hard breathing kata of Goju Ryu.")
         }
       ]
     }
@@ -838,6 +922,54 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.philosophy-2.correct", "Sticky Hands"),
           explanation: t("study.questions.philosophy-2.explanation", "Muchimi refers to the ability to maintain contact with an opponent like sticky hands.")
+        },
+        {
+          id: "philosophy-3",
+          question: t("study.questions.philosophy-3.question", "What is 'Zanshin'?"),
+          options: [
+            t("study.questions.philosophy-3.option1", "No mind"),
+            t("study.questions.philosophy-3.option2", "Remaining mind/awareness"),
+            t("study.questions.philosophy-3.option3", "Fighting spirit"),
+            t("study.questions.philosophy-3.option4", "Respect")
+          ],
+          correctAnswer: t("study.questions.philosophy-3.correct", "Remaining mind/awareness"),
+          explanation: t("study.questions.philosophy-3.explanation", "Zanshin is the state of total awareness and preparedness.")
+        },
+        {
+          id: "philosophy-4",
+          question: t("study.questions.philosophy-4.question", "What is 'Mushin'?"),
+          options: [
+            t("study.questions.philosophy-4.option1", "No mind"),
+            t("study.questions.philosophy-4.option2", "Busy mind"),
+            t("study.questions.philosophy-4.option3", "Angry mind"),
+            t("study.questions.philosophy-4.option4", "Happy mind")
+          ],
+          correctAnswer: t("study.questions.philosophy-4.correct", "No mind"),
+          explanation: t("study.questions.philosophy-4.explanation", "Mushin means 'no mind' - acting without conscious thought or hesitation.")
+        },
+        {
+          id: "philosophy-5",
+          question: t("study.questions.philosophy-5.question", "What does 'Rei' signify?"),
+          options: [
+            t("study.questions.philosophy-5.option1", "Fight"),
+            t("study.questions.philosophy-5.option2", "Run"),
+            t("study.questions.philosophy-5.option3", "Respect/Bow"),
+            t("study.questions.philosophy-5.option4", "Win")
+          ],
+          correctAnswer: t("study.questions.philosophy-5.correct", "Respect/Bow"),
+          explanation: t("study.questions.philosophy-5.explanation", "Rei means respect or bow, fundamental to karate etiquette.")
+        },
+        {
+          id: "philosophy-6",
+          question: t("study.questions.philosophy-6.question", "What is the ultimate goal of karate?"),
+          options: [
+            t("study.questions.philosophy-6.option1", "Winning tournaments"),
+            t("study.questions.philosophy-6.option2", "Self-defense only"),
+            t("study.questions.philosophy-6.option3", "Character development"),
+            t("study.questions.philosophy-6.option4", "Black belt")
+          ],
+          correctAnswer: t("study.questions.philosophy-6.correct", "Character development"),
+          explanation: t("study.questions.philosophy-6.explanation", "The ultimate goal of karate is the perfection of character.")
         }
       ]
     }
@@ -876,6 +1008,54 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.techniques-2.correct", "Block"),
           explanation: t("study.questions.techniques-2.explanation", "Uke (受け) means 'block' or 'receive' in Japanese.")
+        },
+        {
+          id: "techniques-3",
+          question: t("study.questions.techniques-3.question", "What is 'Seiken'?"),
+          options: [
+            t("study.questions.techniques-3.option1", "Forefist"),
+            t("study.questions.techniques-3.option2", "Backfist"),
+            t("study.questions.techniques-3.option3", "Knife hand"),
+            t("study.questions.techniques-3.option4", "Palm heel")
+          ],
+          correctAnswer: t("study.questions.techniques-3.correct", "Forefist"),
+          explanation: t("study.questions.techniques-3.explanation", "Seiken is the forefist, the primary punching surface.")
+        },
+        {
+          id: "techniques-4",
+          question: t("study.questions.techniques-4.question", "What is 'Mae Geri'?"),
+          options: [
+            t("study.questions.techniques-4.option1", "Side Kick"),
+            t("study.questions.techniques-4.option2", "Roundhouse Kick"),
+            t("study.questions.techniques-4.option3", "Front Kick"),
+            t("study.questions.techniques-4.option4", "Back Kick")
+          ],
+          correctAnswer: t("study.questions.techniques-4.correct", "Front Kick"),
+          explanation: t("study.questions.techniques-4.explanation", "Mae Geri is the front kick.")
+        },
+        {
+          id: "techniques-5",
+          question: t("study.questions.techniques-5.question", "What is 'Age Uke'?"),
+          options: [
+            t("study.questions.techniques-5.option1", "Downward Block"),
+            t("study.questions.techniques-5.option2", "Rising Block"),
+            t("study.questions.techniques-5.option3", "Middle Block"),
+            t("study.questions.techniques-5.option4", "Hook Block")
+          ],
+          correctAnswer: t("study.questions.techniques-5.correct", "Rising Block"),
+          explanation: t("study.questions.techniques-5.explanation", "Age Uke is the rising block used to protect the head.")
+        },
+        {
+          id: "techniques-6",
+          question: t("study.questions.techniques-6.question", "What is 'Shuto Uke'?"),
+          options: [
+            t("study.questions.techniques-6.option1", "Knife-hand Block"),
+            t("study.questions.techniques-6.option2", "Palm Block"),
+            t("study.questions.techniques-6.option3", "Wrist Block"),
+            t("study.questions.techniques-6.option4", "Elbow Block")
+          ],
+          correctAnswer: t("study.questions.techniques-6.correct", "Knife-hand Block"),
+          explanation: t("study.questions.techniques-6.explanation", "Shuto Uke is the knife-hand block.")
         }
       ]
     }
@@ -914,6 +1094,54 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.kumite-2.correct", "One-Step Sparring"),
           explanation: t("study.questions.kumite-2.explanation", "Ippon Kumite is one-step sparring with predetermined attacks and defenses.")
+        },
+        {
+          id: "kumite-3",
+          question: t("study.questions.kumite-3.question", "What is 'Maai'?"),
+          options: [
+            t("study.questions.kumite-3.option1", "Timing"),
+            t("study.questions.kumite-3.option2", "Distancing"),
+            t("study.questions.kumite-3.option3", "Speed"),
+            t("study.questions.kumite-3.option4", "Power")
+          ],
+          correctAnswer: t("study.questions.kumite-3.correct", "Distancing"),
+          explanation: t("study.questions.kumite-3.explanation", "Maai refers to the engagement distance between opponents.")
+        },
+        {
+          id: "kumite-4",
+          question: t("study.questions.kumite-4.question", "What is 'Jiyu Kumite'?"),
+          options: [
+            t("study.questions.kumite-4.option1", "Basic Sparring"),
+            t("study.questions.kumite-4.option2", "Free Sparring"),
+            t("study.questions.kumite-4.option3", "Pre-arranged Sparring"),
+            t("study.questions.kumite-4.option4", "Ground Sparring")
+          ],
+          correctAnswer: t("study.questions.kumite-4.correct", "Free Sparring"),
+          explanation: t("study.questions.kumite-4.explanation", "Jiyu Kumite means free sparring.")
+        },
+        {
+          id: "kumite-5",
+          question: t("study.questions.kumite-5.question", "What is a 'Kizami Zuki'?"),
+          options: [
+            t("study.questions.kumite-5.option1", "Reverse punch"),
+            t("study.questions.kumite-5.option2", "Hook punch"),
+            t("study.questions.kumite-5.option3", "Jab/Leading hand punch"),
+            t("study.questions.kumite-5.option4", "Uppercut")
+          ],
+          correctAnswer: t("study.questions.kumite-5.correct", "Jab/Leading hand punch"),
+          explanation: t("study.questions.kumite-5.explanation", "Kizami Zuki is a jab or punch with the leading hand.")
+        },
+        {
+          id: "kumite-6",
+          question: t("study.questions.kumite-6.question", "What is important in kumite besides technique?"),
+          options: [
+            t("study.questions.kumite-6.option1", "Yelling loud"),
+            t("study.questions.kumite-6.option2", "Zanshin (Awareness)"),
+            t("study.questions.kumite-6.option3", "Looking angry"),
+            t("study.questions.kumite-6.option4", "Jumping high")
+          ],
+          correctAnswer: t("study.questions.kumite-6.correct", "Zanshin (Awareness)"),
+          explanation: t("study.questions.kumite-6.explanation", "Zanshin, or remaining mind/awareness, is crucial in kumite.")
         }
       ]
     }
@@ -952,6 +1180,54 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.history-2.correct", "Kanryo Higaonna"),
           explanation: t("study.questions.history-2.explanation", "Miyagi was a top student of Kanryo Higaonna.")
+        },
+        {
+          id: "history-3",
+          question: t("study.questions.history-3.question", "Where did Kanryo Higaonna study martial arts?"),
+          options: [
+            t("study.questions.history-3.option1", "Tokyo, Japan"),
+            t("study.questions.history-3.option2", "Fuzhou, China"),
+            t("study.questions.history-3.option3", "Seoul, Korea"),
+            t("study.questions.history-3.option4", "Taipei, Taiwan")
+          ],
+          correctAnswer: t("study.questions.history-3.correct", "Fuzhou, China"),
+          explanation: t("study.questions.history-3.explanation", "Kanryo Higaonna studied in Fuzhou, China, under Ryu Ryu Ko.")
+        },
+        {
+          id: "history-4",
+          question: t("study.questions.history-4.question", "What book inspired the name 'Goju Ryu'?"),
+          options: [
+            t("study.questions.history-4.option1", "Tao Te Ching"),
+            t("study.questions.history-4.option2", "Art of War"),
+            t("study.questions.history-4.option3", "Bubishi"),
+            t("study.questions.history-4.option4", "Book of Five Rings")
+          ],
+          correctAnswer: t("study.questions.history-4.correct", "Bubishi"),
+          explanation: t("study.questions.history-4.explanation", "The name Goju Ryu comes from the 'Eight Precepts of the Fist' in the Bubishi.")
+        },
+        {
+          id: "history-5",
+          question: t("study.questions.history-5.question", "In what year was Goju Ryu named?"),
+          options: [
+            t("study.questions.history-5.option1", "1920"),
+            t("study.questions.history-5.option2", "1930"),
+            t("study.questions.history-5.option3", "1940"),
+            t("study.questions.history-5.option4", "1950")
+          ],
+          correctAnswer: t("study.questions.history-5.correct", "1930"),
+          explanation: t("study.questions.history-5.explanation", "Chojun Miyagi named the style Goju Ryu around 1930.")
+        },
+        {
+          id: "history-6",
+          question: t("study.questions.history-6.question", "Who was Chojun Miyagi's teacher in Naha-te?"),
+          options: [
+            t("study.questions.history-6.option1", "Itosu Anko"),
+            t("study.questions.history-6.option2", "Kanryo Higaonna"),
+            t("study.questions.history-6.option3", "Matsumura Sokon"),
+            t("study.questions.history-6.option4", "Azato Anko")
+          ],
+          correctAnswer: t("study.questions.history-6.correct", "Kanryo Higaonna"),
+          explanation: t("study.questions.history-6.explanation", "Kanryo Higaonna was Chojun Miyagi's primary teacher.")
         }
       ]
     },
@@ -986,6 +1262,54 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.hojo-2.correct", "Nigiri game"),
           explanation: t("study.questions.hojo-2.explanation", "Nigiri game jars are used to develop grip strength and stance.")
+        },
+        {
+          id: "hojo-3",
+          question: t("study.questions.hojo-3.question", "What is the 'Makiwara' used for?"),
+          options: [
+            t("study.questions.hojo-3.option1", "Stretching"),
+            t("study.questions.hojo-3.option2", "Striking practice"),
+            t("study.questions.hojo-3.option3", "Weight lifting"),
+            t("study.questions.hojo-3.option4", "Meditation")
+          ],
+          correctAnswer: t("study.questions.hojo-3.correct", "Striking practice"),
+          explanation: t("study.questions.hojo-3.explanation", "The Makiwara is a striking post used to condition the hands and develop power.")
+        },
+        {
+          id: "hojo-4",
+          question: t("study.questions.hojo-4.question", "What is 'Tan'?"),
+          options: [
+            t("study.questions.hojo-4.option1", "Jar"),
+            t("study.questions.hojo-4.option2", "Stone padlock"),
+            t("study.questions.hojo-4.option3", "Barbell/Weight"),
+            t("study.questions.hojo-4.option4", "Iron ring")
+          ],
+          correctAnswer: t("study.questions.hojo-4.correct", "Barbell/Weight"),
+          explanation: t("study.questions.hojo-4.explanation", "Tan is a barbell-like weight used for strength training.")
+        },
+        {
+          id: "hojo-5",
+          question: t("study.questions.hojo-5.question", "What does 'Kongoken' train?"),
+          options: [
+            t("study.questions.hojo-5.option1", "Speed"),
+            t("study.questions.hojo-5.option2", "Body conditioning and grappling power"),
+            t("study.questions.hojo-5.option3", "Flexibility"),
+            t("study.questions.hojo-5.option4", "Balance")
+          ],
+          correctAnswer: t("study.questions.hojo-5.correct", "Body conditioning and grappling power"),
+          explanation: t("study.questions.hojo-5.explanation", "The Kongoken is a heavy iron ring used to condition the body and develop grappling strength.")
+        },
+        {
+          id: "hojo-6",
+          question: t("study.questions.hojo-6.question", "What are 'Ishi Sashi'?"),
+          options: [
+            t("study.questions.hojo-6.option1", "Iron clogs"),
+            t("study.questions.hojo-6.option2", "Stone padlocks"),
+            t("study.questions.hojo-6.option3", "Gripping jars"),
+            t("study.questions.hojo-6.option4", "Heavy logs")
+          ],
+          correctAnswer: t("study.questions.hojo-6.correct", "Stone padlocks"),
+          explanation: t("study.questions.hojo-6.explanation", "Ishi Sashi are stone padlocks used to strengthen the wrists and arms.")
         }
       ]
     },
@@ -1008,6 +1332,66 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.newaza-1.correct", "Side control"),
           explanation: t("study.questions.newaza-1.explanation", "Side control (yoko shiho-like control) focuses on chest-to-chest pressure.")
+        },
+        {
+          id: "newaza-2",
+          question: t("study.questions.newaza-2.question", "What is 'Kesa Gatame'?"),
+          options: [
+            t("study.questions.newaza-2.option1", "Mount"),
+            t("study.questions.newaza-2.option2", "Guard"),
+            t("study.questions.newaza-2.option3", "Scarf Hold"),
+            t("study.questions.newaza-2.option4", "Triangle Choke")
+          ],
+          correctAnswer: t("study.questions.newaza-2.correct", "Scarf Hold"),
+          explanation: t("study.questions.newaza-2.explanation", "Kesa Gatame is the scarf hold, a fundamental pinning technique.")
+        },
+        {
+          id: "newaza-3",
+          question: t("study.questions.newaza-3.question", "What is the 'Guard' position?"),
+          options: [
+            t("study.questions.newaza-3.option1", "On top"),
+            t("study.questions.newaza-3.option2", "On back controlling opponent with legs"),
+            t("study.questions.newaza-3.option3", "Side control"),
+            t("study.questions.newaza-3.option4", "Standing")
+          ],
+          correctAnswer: t("study.questions.newaza-3.correct", "On back controlling opponent with legs"),
+          explanation: t("study.questions.newaza-3.explanation", "The Guard is a position where you are on your back but control the opponent with your legs.")
+        },
+        {
+          id: "newaza-4",
+          question: t("study.questions.newaza-4.question", "What is a 'Tap out'?"),
+          options: [
+            t("study.questions.newaza-4.option1", "Resting"),
+            t("study.questions.newaza-4.option2", "Signaling submission"),
+            t("study.questions.newaza-4.option3", "Striking"),
+            t("study.questions.newaza-4.option4", "Blocking")
+          ],
+          correctAnswer: t("study.questions.newaza-4.correct", "Signaling submission"),
+          explanation: t("study.questions.newaza-4.explanation", "Tapping out is the universal signal for submission to stop the technique.")
+        },
+        {
+          id: "newaza-5",
+          question: t("study.questions.newaza-5.question", "What is 'Mount'?"),
+          options: [
+            t("study.questions.newaza-5.option1", "Side control"),
+            t("study.questions.newaza-5.option2", "Sitting on opponent's torso"),
+            t("study.questions.newaza-5.option3", "Between legs"),
+            t("study.questions.newaza-5.option4", "Standing over")
+          ],
+          correctAnswer: t("study.questions.newaza-5.correct", "Sitting on opponent's torso"),
+          explanation: t("study.questions.newaza-5.explanation", "Mount is a dominant position where you are sitting on the opponent's torso.")
+        },
+        {
+          id: "newaza-6",
+          question: t("study.questions.newaza-6.question", "Why is bridging (Upa) important?"),
+          options: [
+            t("study.questions.newaza-6.option1", "To rest"),
+            t("study.questions.newaza-6.option2", "To escape from bottom"),
+            t("study.questions.newaza-6.option3", "To strike"),
+            t("study.questions.newaza-6.option4", "To choke")
+          ],
+          correctAnswer: t("study.questions.newaza-6.correct", "To escape from bottom"),
+          explanation: t("study.questions.newaza-6.explanation", "Bridging is a fundamental movement to create space and escape from bottom positions.")
         }
       ]
     },
@@ -1030,6 +1414,66 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
           ],
           correctAnswer: t("study.questions.rules-1.correct", "Foul"),
           explanation: t("study.questions.rules-1.explanation", "Hansoku is a foul; serious infractions can lead to disqualification.")
+        },
+        {
+          id: "rules-2",
+          question: t("study.questions.rules-2.question", "What is a full point called?"),
+          options: [
+            t("study.questions.rules-2.option1", "Waza-ari"),
+            t("study.questions.rules-2.option2", "Yuko"),
+            t("study.questions.rules-2.option3", "Ippon"),
+            t("study.questions.rules-2.option4", "Hansoku")
+          ],
+          correctAnswer: t("study.questions.rules-2.correct", "Ippon"),
+          explanation: t("study.questions.rules-2.explanation", "Ippon is a full point, often ending the match in traditional rules.")
+        },
+        {
+          id: "rules-3",
+          question: t("study.questions.rules-3.question", "What is 'Waza-ari'?"),
+          options: [
+            t("study.questions.rules-3.option1", "Full point"),
+            t("study.questions.rules-3.option2", "Half point"),
+            t("study.questions.rules-3.option3", "Foul"),
+            t("study.questions.rules-3.option4", "Win")
+          ],
+          correctAnswer: t("study.questions.rules-3.correct", "Half point"),
+          explanation: t("study.questions.rules-3.explanation", "Waza-ari is a half point; two waza-ari typically equal one ippon.")
+        },
+        {
+          id: "rules-4",
+          question: t("study.questions.rules-4.question", "What does 'Yame' mean?"),
+          options: [
+            t("study.questions.rules-4.option1", "Start"),
+            t("study.questions.rules-4.option2", "Stop"),
+            t("study.questions.rules-4.option3", "Continue"),
+            t("study.questions.rules-4.option4", "Fight")
+          ],
+          correctAnswer: t("study.questions.rules-4.correct", "Stop"),
+          explanation: t("study.questions.rules-4.explanation", "Yame is the command to stop.")
+        },
+        {
+          id: "rules-5",
+          question: t("study.questions.rules-5.question", "What does 'Hajime' mean?"),
+          options: [
+            t("study.questions.rules-5.option1", "Stop"),
+            t("study.questions.rules-5.option2", "Begin"),
+            t("study.questions.rules-5.option3", "Bow"),
+            t("study.questions.rules-5.option4", "Turn")
+          ],
+          correctAnswer: t("study.questions.rules-5.correct", "Begin"),
+          explanation: t("study.questions.rules-5.explanation", "Hajime is the command to begin.")
+        },
+        {
+          id: "rules-6",
+          question: t("study.questions.rules-6.question", "What happens if you step out of bounds (Jogai)?"),
+          options: [
+            t("study.questions.rules-6.option1", "You win"),
+            t("study.questions.rules-6.option2", "Warning/Penalty"),
+            t("study.questions.rules-6.option3", "Nothing"),
+            t("study.questions.rules-6.option4", "Point for you")
+          ],
+          correctAnswer: t("study.questions.rules-6.correct", "Warning/Penalty"),
+          explanation: t("study.questions.rules-6.explanation", "Stepping out of bounds (Jogai) usually results in a warning or penalty.")
         }
       ]
     }

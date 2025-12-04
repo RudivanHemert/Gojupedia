@@ -320,6 +320,341 @@
     "kumite-rules": {
       "title": "Kumite Rules Quiz",
       "description": "Scoring, penalties and referee commands."
+    },
+    "questionBank": {
+      "kata-basics-4": {
+        "question": "Wat is de eerste kata die men leert in Goju Ryu?",
+        "option1": "Gekisai Dai Ichi",
+        "option2": "Saifa",
+        "option3": "Sanchin",
+        "option4": "Tensho",
+        "correct": "Gekisai Dai Ichi",
+        "explanation": "Gekisai Dai Ichi is doorgaans de eerste kata voor beginners."
+      },
+      "kata-basics-5": {
+        "question": "Wat is het doel van 'Kiai'?",
+        "option1": "Om de tegenstander bang te maken",
+        "option2": "Om energie te focussen",
+        "option3": "Om het einde aan te geven",
+        "option4": "Om uit te ademen",
+        "correct": "Om energie te focussen",
+        "explanation": "Kiai helpt lichaam en geest te verenigen en energie te focussen op het moment van impact."
+      },
+      "kata-basics-6": {
+        "question": "Welke stand staat bekend als de 'Kattenstand'?",
+        "option1": "Zenkutsu Dachi",
+        "option2": "Shiko Dachi",
+        "option3": "Neko Ashi Dachi",
+        "option4": "Sanchin Dachi",
+        "correct": "Neko Ashi Dachi",
+        "explanation": "Neko Ashi Dachi betekent Kattenvoetstand."
+      },
+      "kata-history-3": {
+        "question": "Welke kata werd door Kanryo Higaonna uit China meegebracht?",
+        "option1": "Gekisai",
+        "option2": "Saifa",
+        "option3": "Suparinpei",
+        "option4": "Tensho",
+        "correct": "Suparinpei",
+        "explanation": "Suparinpei is een van de kata die Higaonna Sensei meebracht uit Fuzhou."
+      },
+      "kata-history-4": {
+        "question": "Wie ontwikkelde de kata Tensho?",
+        "option1": "Kanryo Higaonna",
+        "option2": "Chojun Miyagi",
+        "option3": "Anko Itosu",
+        "option4": "Gichin Funakoshi",
+        "correct": "Chojun Miyagi",
+        "explanation": "Chojun Miyagi ontwikkelde Tensho als zachte tegenhanger van Sanchin."
+      },
+      "kata-history-5": {
+        "question": "Wat betekent 'Gekisai'?",
+        "option1": "Vredige Geest",
+        "option2": "Aanvallen en Vernietigen",
+        "option3": "Draaiende Handpalmen",
+        "option4": "Drie Gevechten",
+        "correct": "Aanvallen en Vernietigen",
+        "explanation": "Gekisai betekent 'Aanvallen en Vernietigen' of 'Aanvallen en Verpletteren'."
+      },
+      "kata-history-6": {
+        "question": "Welke kata wordt beschouwd als de 'Harde' ademhalingskata?",
+        "option1": "Tensho",
+        "option2": "Sanchin",
+        "option3": "Saifa",
+        "option4": "Sepai",
+        "correct": "Sanchin",
+        "explanation": "Sanchin is de fundamentele harde ademhalingskata van Goju Ryu."
+      },
+      "philosophy-3": {
+        "question": "Wat is 'Zanshin'?",
+        "option1": "Geen geest",
+        "option2": "Blijvende geest/bewustzijn",
+        "option3": "Vechtlust",
+        "option4": "Respect",
+        "correct": "Blijvende geest/bewustzijn",
+        "explanation": "Zanshin is de staat van totaal bewustzijn en paraatheid."
+      },
+      "philosophy-4": {
+        "question": "Wat is 'Mushin'?",
+        "option1": "Geen geest",
+        "option2": "Drukke geest",
+        "option3": "Boze geest",
+        "option4": "Blije geest",
+        "correct": "Geen geest",
+        "explanation": "Mushin betekent 'geen geest' - handelen zonder bewuste gedachte of aarzeling."
+      },
+      "philosophy-5": {
+        "question": "Wat betekent 'Rei'?",
+        "option1": "Vechten",
+        "option2": "Rennen",
+        "option3": "Respect/Buiging",
+        "option4": "Winnen",
+        "correct": "Respect/Buiging",
+        "explanation": "Rei betekent respect of buiging, fundamenteel voor karate-etiquette."
+      },
+      "philosophy-6": {
+        "question": "Wat is het ultieme doel van karate?",
+        "option1": "Toernooien winnen",
+        "option2": "Alleen zelfverdediging",
+        "option3": "Karakterontwikkeling",
+        "option4": "Zwarte band",
+        "correct": "Karakterontwikkeling",
+        "explanation": "Het ultieme doel van karate is de perfectie van het karakter."
+      },
+      "techniques-3": {
+        "question": "Wat is 'Seiken'?",
+        "option1": "Voorvuist",
+        "option2": "Achtervuist",
+        "option3": "Meshand",
+        "option4": "Handpalm",
+        "correct": "Voorvuist",
+        "explanation": "Seiken is de voorvuist, het primaire stootvlak."
+      },
+      "techniques-4": {
+        "question": "Wat is 'Mae Geri'?",
+        "option1": "Zijwaartse trap",
+        "option2": "Cirkeltrap",
+        "option3": "Voorwaartse trap",
+        "option4": "Achterwaartse trap",
+        "correct": "Voorwaartse trap",
+        "explanation": "Mae Geri is de voorwaartse trap."
+      },
+      "techniques-5": {
+        "question": "Wat is 'Age Uke'?",
+        "option1": "Neerwaartse blokkering",
+        "option2": "Opwaartse blokkering",
+        "option3": "Midden blokkering",
+        "option4": "Haak blokkering",
+        "correct": "Opwaartse blokkering",
+        "explanation": "Age Uke is de opwaartse blokkering om het hoofd te beschermen."
+      },
+      "techniques-6": {
+        "question": "Wat is 'Shuto Uke'?",
+        "option1": "Meshandblokkering",
+        "option2": "Palmblokkering",
+        "option3": "Polsblokkering",
+        "option4": "Elleboogblokkering",
+        "correct": "Meshandblokkering",
+        "explanation": "Shuto Uke is de meshandblokkering."
+      },
+      "kumite-3": {
+        "question": "Wat is 'Maai'?",
+        "option1": "Timing",
+        "option2": "Afstand",
+        "option3": "Snelheid",
+        "option4": "Kracht",
+        "correct": "Afstand",
+        "explanation": "Maai verwijst naar de gevechtsafstand tussen tegenstanders."
+      },
+      "kumite-4": {
+        "question": "Wat is 'Jiyu Kumite'?",
+        "option1": "Basis Sparren",
+        "option2": "Vrij Sparren",
+        "option3": "Afgesproken Sparren",
+        "option4": "Grond Sparren",
+        "correct": "Vrij Sparren",
+        "explanation": "Jiyu Kumite betekent vrij sparren."
+      },
+      "kumite-5": {
+        "question": "Wat is een 'Kizami Zuki'?",
+        "option1": "Tegengestelde stoot",
+        "option2": "Haakstoot",
+        "option3": "Jab/Voorste hand stoot",
+        "option4": "Opstoot",
+        "correct": "Jab/Voorste hand stoot",
+        "explanation": "Kizami Zuki is een jab of stoot met de voorste hand."
+      },
+      "kumite-6": {
+        "question": "Wat is belangrijk in kumite naast techniek?",
+        "option1": "Hard schreeuwen",
+        "option2": "Zanshin (Bewustzijn)",
+        "option3": "Boos kijken",
+        "option4": "Hoog springen",
+        "correct": "Zanshin (Bewustzijn)",
+        "explanation": "Zanshin, of blijvende geest/bewustzijn, is cruciaal in kumite."
+      },
+      "history-3": {
+        "question": "Waar studeerde Kanryo Higaonna vechtkunsten?",
+        "option1": "Tokio, Japan",
+        "option2": "Fuzhou, China",
+        "option3": "Seoul, Korea",
+        "option4": "Taipei, Taiwan",
+        "correct": "Fuzhou, China",
+        "explanation": "Kanryo Higaonna studeerde in Fuzhou, China, onder Ryu Ryu Ko."
+      },
+      "history-4": {
+        "question": "Welk boek inspireerde de naam 'Goju Ryu'?",
+        "option1": "Tao Te Ching",
+        "option2": "Art of War",
+        "option3": "Bubishi",
+        "option4": "Book of Five Rings",
+        "correct": "Bubishi",
+        "explanation": "De naam Goju Ryu komt van de 'Acht Voorschriften van de Vuist' in de Bubishi."
+      },
+      "history-5": {
+        "question": "In welk jaar kreeg Goju Ryu zijn naam?",
+        "option1": "1920",
+        "option2": "1930",
+        "option3": "1940",
+        "option4": "1950",
+        "correct": "1930",
+        "explanation": "Chojun Miyagi noemde de stijl Goju Ryu rond 1930."
+      },
+      "history-6": {
+        "question": "Wie was Chojun Miyagi's leraar in Naha-te?",
+        "option1": "Itosu Anko",
+        "option2": "Kanryo Higaonna",
+        "option3": "Matsumura Sokon",
+        "option4": "Azato Anko",
+        "correct": "Kanryo Higaonna",
+        "explanation": "Kanryo Higaonna was de primaire leraar van Chojun Miyagi."
+      },
+      "hojo-3": {
+        "question": "Waarvoor wordt de 'Makiwara' gebruikt?",
+        "option1": "Rekken",
+        "option2": "Stootoefeningen",
+        "option3": "Gewichtheffen",
+        "option4": "Meditatie",
+        "correct": "Stootoefeningen",
+        "explanation": "De Makiwara is een stootpaal om de handen te harden en kracht te ontwikkelen."
+      },
+      "hojo-4": {
+        "question": "Wat is 'Tan'?",
+        "option1": "Pot",
+        "option2": "Stenen hangslot",
+        "option3": "Halter/Gewicht",
+        "option4": "IJzeren ring",
+        "correct": "Halter/Gewicht",
+        "explanation": "Tan is een halterachtig gewicht voor krachttraining."
+      },
+      "hojo-5": {
+        "question": "Wat traint 'Kongoken'?",
+        "option1": "Snelheid",
+        "option2": "Lichaamsconditie en grijpkracht",
+        "option3": "Flexibiliteit",
+        "option4": "Balans",
+        "correct": "Lichaamsconditie en grijpkracht",
+        "explanation": "De Kongoken is een zware ijzeren ring voor lichaamsconditie en grijpkracht."
+      },
+      "hojo-6": {
+        "question": "Wat zijn 'Ishi Sashi'?",
+        "option1": "IJzeren klompen",
+        "option2": "Stenen hangsloten",
+        "option3": "Grijppotten",
+        "option4": "Zware boomstammen",
+        "correct": "Stenen hangsloten",
+        "explanation": "Ishi Sashi zijn stenen hangsloten om polsen en armen te versterken."
+      },
+      "newaza-2": {
+        "question": "Wat is 'Kesa Gatame'?",
+        "option1": "Mount",
+        "option2": "Guard",
+        "option3": "Sjaalhoudgreep",
+        "option4": "Driehoekverwurging",
+        "correct": "Sjaalhoudgreep",
+        "explanation": "Kesa Gatame is de sjaalhoudgreep, een fundamentele houdgreep."
+      },
+      "newaza-3": {
+        "question": "Wat is de 'Guard' positie?",
+        "option1": "Bovenop",
+        "option2": "Op de rug tegenstander controleren met benen",
+        "option3": "Zijcontrole",
+        "option4": "Staand",
+        "correct": "Op de rug tegenstander controleren met benen",
+        "explanation": "De Guard is een positie op de rug waarbij je de tegenstander controleert met je benen."
+      },
+      "newaza-4": {
+        "question": "Wat is een 'Tap out'?",
+        "option1": "Rusten",
+        "option2": "Overgave signaleren",
+        "option3": "Slaan",
+        "option4": "Blokkeren",
+        "correct": "Overgave signaleren",
+        "explanation": "Afkloppen is het universele signaal voor overgave om de techniek te stoppen."
+      },
+      "newaza-5": {
+        "question": "Wat is 'Mount'?",
+        "option1": "Zijcontrole",
+        "option2": "Op de romp van de tegenstander zitten",
+        "option3": "Tussen benen",
+        "option4": "Eroverheen staan",
+        "correct": "Op de romp van de tegenstander zitten",
+        "explanation": "Mount is een dominante positie waarbij je op de romp van de tegenstander zit."
+      },
+      "newaza-6": {
+        "question": "Waarom is 'bridgen' (Upa) belangrijk?",
+        "option1": "Om te rusten",
+        "option2": "Om te ontsnappen van onderop",
+        "option3": "Om te slaan",
+        "option4": "Om te wurgen",
+        "correct": "Om te ontsnappen van onderop",
+        "explanation": "Bridgen is een fundamentele beweging om ruimte te maken en te ontsnappen van onderop."
+      },
+      "rules-2": {
+        "question": "Hoe heet een vol punt?",
+        "option1": "Waza-ari",
+        "option2": "Yuko",
+        "option3": "Ippon",
+        "option4": "Hansoku",
+        "correct": "Ippon",
+        "explanation": "Ippon is een vol punt, wat vaak de wedstrijd beëindigt in traditionele regels."
+      },
+      "rules-3": {
+        "question": "Wat is 'Waza-ari'?",
+        "option1": "Vol punt",
+        "option2": "Half punt",
+        "option3": "Fout",
+        "option4": "Winst",
+        "correct": "Half punt",
+        "explanation": "Waza-ari is een half punt; twee waza-ari zijn meestal gelijk aan één ippon."
+      },
+      "rules-4": {
+        "question": "Wat betekent 'Yame'?",
+        "option1": "Start",
+        "option2": "Stop",
+        "option3": "Doorgaan",
+        "option4": "Vecht",
+        "correct": "Stop",
+        "explanation": "Yame is het commando om te stoppen."
+      },
+      "rules-5": {
+        "question": "Wat betekent 'Hajime'?",
+        "option1": "Stop",
+        "option2": "Begin",
+        "option3": "Buig",
+        "option4": "Draai",
+        "correct": "Begin",
+        "explanation": "Hajime is het commando om te beginnen."
+      },
+      "rules-6": {
+        "question": "Wat gebeurt er als je buiten de lijnen stapt (Jogai)?",
+        "option1": "Je wint",
+        "option2": "Waarschuwing/Straf",
+        "option3": "Niets",
+        "option4": "Punt voor jou",
+        "correct": "Waarschuwing/Straf",
+        "explanation": "Buiten de lijnen stappen (Jogai) resulteert meestal in een waarschuwing of straf."
+      }
     }
   },
   "title": "Studie",

@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/utils';
-import { Check, X, RotateCcw } from 'lucide-react';
+import { Check, X, RotateCcw, ZoomIn, ZoomOut } from 'lucide-react';
 
 interface VitalPoint {
   id: string;
@@ -85,8 +85,12 @@ const VitalPointsQuiz = () => {
   const [userAnswers, setUserAnswers] = useState<Record<string, string>>({});
   const [checked, setChecked] = useState(false);
   const [score, setScore] = useState<{ correct: number; total: number } | null>(null);
+  const [zoom, setZoom] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
 
-  const filteredPoints = useMemo(() => 
+  const filteredPoints = useMemo(() =>
     vitalPointsData.filter(point => point.view === activeView),
     [activeView]
   );
@@ -108,17 +112,17 @@ const VitalPointsQuiz = () => {
   const handleCheck = () => {
     let correct = 0;
     const total = hiddenPoints.length;
-    
+
     hiddenPoints.forEach(point => {
       const userAnswer = userAnswers[point.id]?.toLowerCase().trim();
       const correctName = t(`vitalPoints.points.${point.id}.name`).toLowerCase().trim();
       const correctJapanese = point.japanese.toLowerCase().trim();
-      
+
       if (userAnswer === correctName || userAnswer === correctJapanese) {
         correct++;
       }
     });
-    
+
     setScore({ correct, total });
     setChecked(true);
   };
@@ -127,6 +131,62 @@ const VitalPointsQuiz = () => {
     setUserAnswers({});
     setChecked(false);
     setScore(null);
+  };
+
+  const handleZoomIn = () => {
+    setZoom(prev => Math.min(prev + 0.25, 3));
+  };
+
+  const handleZoomOut = () => {
+    setZoom(prev => Math.max(prev - 0.25, 0.5));
+  };
+
+  const handleResetView = () => {
+    setZoom(1);
+    setPan({ x: 0, y: 0 });
+  };
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (zoom > 1) {
+      setIsDragging(true);
+      setDragStart({ x: e.clientX - pan.x, y: e.clientY - pan.y });
+    }
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (isDragging && zoom > 1) {
+      setPan({
+        x: e.clientX - dragStart.x,
+        y: e.clientY - dragStart.y
+      });
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (zoom > 1 && e.touches.length === 1) {
+      setIsDragging(true);
+      setDragStart({
+        x: e.touches[0].clientX - pan.x,
+        y: e.touches[0].clientY - pan.y
+      });
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (isDragging && zoom > 1 && e.touches.length === 1) {
+      setPan({
+        x: e.touches[0].clientX - dragStart.x,
+        y: e.touches[0].clientY - dragStart.y
+      });
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setIsDragging(false);
   };
 
   const isCorrect = (pointId: string) => {
@@ -156,7 +216,7 @@ const VitalPointsQuiz = () => {
               disabled={checked}
             />
           </div>
-          
+
           <div className="flex gap-2">
             <Button onClick={handleCheck} disabled={checked || hiddenPoints.length === 0}>
               {t('vitalPoints.quiz.checkAnswers')}
@@ -167,6 +227,20 @@ const VitalPointsQuiz = () => {
                 {t('vitalPoints.quiz.restart')}
               </Button>
             )}
+          </div>
+
+          <div className="flex gap-2 items-center">
+            <Label className="text-sm">{t('vitalPoints.quiz.zoom', 'Zoom')}:</Label>
+            <Button variant="outline" size="sm" onClick={handleZoomOut} disabled={zoom <= 0.5}>
+              <ZoomOut className="h-4 w-4" />
+            </Button>
+            <span className="text-sm font-medium min-w-[3rem] text-center">{Math.round(zoom * 100)}%</span>
+            <Button variant="outline" size="sm" onClick={handleZoomIn} disabled={zoom >= 3}>
+              <ZoomIn className="h-4 w-4" />
+            </Button>
+            <Button variant="outline" size="sm" onClick={handleResetView}>
+              {t('vitalPoints.quiz.reset', 'Reset')}
+            </Button>
           </div>
 
           {score && (
@@ -189,102 +263,123 @@ const VitalPointsQuiz = () => {
         </TabsList>
       </Tabs>
 
-      <div className="relative">
-        <img
-          src={`/Images/Vital-points-${activeView}.jpg`}
-          alt={`Vital Points - ${activeView.charAt(0).toUpperCase() + activeView.slice(1)} View`}
-          className="w-full h-auto rounded-lg shadow-lg"
-          onError={(e) => {
-            console.error(`Failed to load image: ${e.currentTarget.src}`);
-            e.currentTarget.src = '/placeholder.svg';
+      <div
+        className="relative overflow-hidden rounded-lg bg-muted"
+        style={{
+          touchAction: zoom > 1 ? 'none' : 'auto',
+          cursor: zoom > 1 ? (isDragging ? 'grabbing' : 'grab') : 'default'
+        }}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        <div
+          style={{
+            transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+            transformOrigin: 'center center',
+            transition: isDragging ? 'none' : 'transform 0.2s ease-out'
           }}
-        />
-        
-        <AnimatePresence>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="absolute inset-0"
-          >
-            {/* Show visible points */}
-            {visiblePoints.map((point) => (
-              <motion.div
-                key={point.id}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                exit={{ scale: 0 }}
-                className="absolute group"
-                style={{
-                  left: `${point.x}%`,
-                  top: `${point.y}%`,
-                  transform: 'translate(-50%, -50%)'
-                }}
-              >
-                <div className="relative">
-                  <div className="absolute w-2 h-2 bg-green-500 rounded-full -translate-x-1/2 -translate-y-1/2" />
-                  <div className="bg-white/90 text-black text-xs px-2 py-1 rounded shadow-md">
-                    {point.number ? `${point.number}. ${t(`vitalPoints.points.${point.id}.name`)}` : t(`vitalPoints.points.${point.id}.name`)}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
+        >
+          <img
+            src={`/Images/Vital-points-${activeView}.jpg`}
+            alt={`Vital Points - ${activeView.charAt(0).toUpperCase() + activeView.slice(1)} View`}
+            className="w-full h-auto rounded-lg shadow-lg"
+            style={{ pointerEvents: 'none', userSelect: 'none' }}
+            onError={(e) => {
+              console.error(`Failed to load image: ${e.currentTarget.src}`);
+              e.currentTarget.src = '/placeholder.svg';
+            }}
+          />
 
-            {/* Show hidden points with input fields */}
-            {hiddenPoints.map((point) => {
-              const correct = isCorrect(point.id);
-              return (
+          <AnimatePresence>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0"
+            >
+              {/* Show visible points */}
+              {visiblePoints.map((point) => (
                 <motion.div
                   key={point.id}
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   exit={{ scale: 0 }}
-                  className="absolute"
+                  className="absolute group"
                   style={{
                     left: `${point.x}%`,
                     top: `${point.y}%`,
                     transform: 'translate(-50%, -50%)'
                   }}
                 >
-                  <div className="relative flex flex-col items-center gap-1">
-                    <div className={cn(
-                      "absolute w-2 h-2 rounded-full -translate-x-1/2 -translate-y-1/2",
-                      checked 
-                        ? (correct ? "bg-green-500" : "bg-red-500")
-                        : "bg-yellow-500"
-                    )} />
-                    <Input
-                      type="text"
-                      placeholder={t('vitalPoints.quiz.enterAnswer')}
-                      value={userAnswers[point.id] || ''}
-                      onChange={(e) => handleAnswerChange(point.id, e.target.value)}
-                      disabled={checked}
-                      className={cn(
-                        "w-32 text-xs h-7 px-2 py-1 text-center",
-                        checked && correct && "border-green-500 bg-green-50",
-                        checked && correct === false && "border-red-500 bg-red-50"
-                      )}
-                    />
-                    {checked && (
-                      <div className="flex items-center gap-1 text-xs">
-                        {correct ? (
-                          <Check className="h-4 w-4 text-green-500" />
-                        ) : (
-                          <>
-                            <X className="h-4 w-4 text-red-500" />
-                            <span className="text-red-500">
-                              {t('vitalPoints.quiz.correctAnswer')}: {t(`vitalPoints.points.${point.id}.name`)}
-                            </span>
-                          </>
-                        )}
-                      </div>
-                    )}
+                  <div className="relative">
+                    <div className="absolute w-2 h-2 bg-green-500 rounded-full -translate-x-1/2 -translate-y-1/2" />
+                    <div className="bg-white/90 text-black text-xs px-2 py-1 rounded shadow-md">
+                      {point.number ? `${point.number}. ${t(`vitalPoints.points.${point.id}.name`)}` : t(`vitalPoints.points.${point.id}.name`)}
+                    </div>
                   </div>
                 </motion.div>
-              );
-            })}
-          </motion.div>
-        </AnimatePresence>
+              ))}
+
+              {/* Show hidden points with input fields */}
+              {hiddenPoints.map((point) => {
+                const correct = isCorrect(point.id);
+                return (
+                  <motion.div
+                    key={point.id}
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    exit={{ scale: 0 }}
+                    className="absolute"
+                    style={{
+                      left: `${point.x}%`,
+                      top: `${point.y}%`,
+                      transform: 'translate(-50%, -50%)'
+                    }}
+                  >
+                    <div className="relative flex flex-col items-center gap-1">
+                      <div className={cn(
+                        "absolute w-2 h-2 rounded-full -translate-x-1/2 -translate-y-1/2",
+                        checked
+                          ? (correct ? "bg-green-500" : "bg-red-500")
+                          : "bg-yellow-500"
+                      )} />
+                      <Input
+                        type="text"
+                        value={userAnswers[point.id] || ''}
+                        onChange={(e) => handleAnswerChange(point.id, e.target.value)}
+                        disabled={checked}
+                        className={cn(
+                          "w-24 md:w-32 text-xs h-6 md:h-7 px-1 md:px-2 py-1 text-center",
+                          checked && correct && "border-green-500 bg-green-50",
+                          checked && correct === false && "border-red-500 bg-red-50"
+                        )}
+                      />
+                      {checked && (
+                        <div className="flex items-center gap-1 text-xs">
+                          {correct ? (
+                            <Check className="h-4 w-4 text-green-500" />
+                          ) : (
+                            <>
+                              <X className="h-4 w-4 text-red-500" />
+                              <span className="text-red-500">
+                                {t('vitalPoints.quiz.correctAnswer')}: {t(`vitalPoints.points.${point.id}.name`)}
+                              </span>
+                            </>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </motion.div>
+          </AnimatePresence>
+        </div>
       </div>
     </div>
   );

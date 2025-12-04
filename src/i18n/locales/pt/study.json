@@ -252,6 +252,341 @@
     "kumite-rules": {
       "title": "Kumite Rules Quiz",
       "description": "Scoring, penalties and referee commands."
+    },
+    "questionBank": {
+      "kata-basics-4": {
+        "question": "Qual é o primeiro kata aprendido no Goju Ryu?",
+        "option1": "Gekisai Dai Ichi",
+        "option2": "Saifa",
+        "option3": "Sanchin",
+        "option4": "Tensho",
+        "correct": "Gekisai Dai Ichi",
+        "explanation": "Gekisai Dai Ichi é tipicamente o primeiro kata ensinado aos iniciantes."
+      },
+      "kata-basics-5": {
+        "question": "Qual é o propósito do 'Kiai'?",
+        "option1": "Assustar o oponente",
+        "option2": "Focar energia",
+        "option3": "Sinalizar o fim",
+        "option4": "Expirar",
+        "correct": "Focar energia",
+        "explanation": "Kiai ajuda a unir corpo e mente e focar energia no momento do impacto."
+      },
+      "kata-basics-6": {
+        "question": "Qual base é conhecida como a 'Base do Gato'?",
+        "option1": "Zenkutsu Dachi",
+        "option2": "Shiko Dachi",
+        "option3": "Neko Ashi Dachi",
+        "option4": "Sanchin Dachi",
+        "correct": "Neko Ashi Dachi",
+        "explanation": "Neko Ashi Dachi significa Base do Pé de Gato."
+      },
+      "kata-history-3": {
+        "question": "Qual kata foi trazido da China por Kanryo Higaonna?",
+        "option1": "Gekisai",
+        "option2": "Saifa",
+        "option3": "Suparinpei",
+        "option4": "Tensho",
+        "correct": "Suparinpei",
+        "explanation": "Suparinpei é um dos katas que Higaonna Sensei trouxe de Fuzhou."
+      },
+      "kata-history-4": {
+        "question": "Quem desenvolveu o kata Tensho?",
+        "option1": "Kanryo Higaonna",
+        "option2": "Chojun Miyagi",
+        "option3": "Anko Itosu",
+        "option4": "Gichin Funakoshi",
+        "correct": "Chojun Miyagi",
+        "explanation": "Chojun Miyagi desenvolveu Tensho como contraparte suave do Sanchin."
+      },
+      "kata-history-5": {
+        "question": "O que significa 'Gekisai'?",
+        "option1": "Mente Pacífica",
+        "option2": "Atacar e Destruir",
+        "option3": "Palmas Rotativas",
+        "option4": "Três Batalhas",
+        "correct": "Atacar e Destruir",
+        "explanation": "Gekisai significa 'Atacar e Destruir' ou 'Atacar e Esmagar'."
+      },
+      "kata-history-6": {
+        "question": "Qual kata é considerado o kata de respiração 'Dura'?",
+        "option1": "Tensho",
+        "option2": "Sanchin",
+        "option3": "Saifa",
+        "option4": "Sepai",
+        "correct": "Sanchin",
+        "explanation": "Sanchin é o kata de respiração dura fundamental do Goju Ryu."
+      },
+      "philosophy-3": {
+        "question": "O que é 'Zanshin'?",
+        "option1": "Nenhuma mente",
+        "option2": "Mente/consciência remanescente",
+        "option3": "Espírito de luta",
+        "option4": "Respeito",
+        "correct": "Mente/consciência remanescente",
+        "explanation": "Zanshin é o estado de total consciência e prontidão."
+      },
+      "philosophy-4": {
+        "question": "O que é 'Mushin'?",
+        "option1": "Nenhuma mente",
+        "option2": "Mente ocupada",
+        "option3": "Mente zangada",
+        "option4": "Mente feliz",
+        "correct": "Nenhuma mente",
+        "explanation": "Mushin significa 'nenhuma mente' - agir sem pensamento consciente ou hesitação."
+      },
+      "philosophy-5": {
+        "question": "O que significa 'Rei'?",
+        "option1": "Lutar",
+        "option2": "Correr",
+        "option3": "Respeito/Reverência",
+        "option4": "Ganhar",
+        "correct": "Respeito/Reverência",
+        "explanation": "Rei significa respeito ou reverência, fundamental para a etiqueta do karatê."
+      },
+      "philosophy-6": {
+        "question": "Qual é o objetivo final do karatê?",
+        "option1": "Ganhar torneios",
+        "option2": "Apenas defesa pessoal",
+        "option3": "Desenvolvimento do caráter",
+        "option4": "Faixa preta",
+        "correct": "Desenvolvimento do caráter",
+        "explanation": "O objetivo final do karatê é a perfeição do caráter."
+      },
+      "techniques-3": {
+        "question": "O que é 'Seiken'?",
+        "option1": "Punho frontal",
+        "option2": "Punho traseiro",
+        "option3": "Mão de faca",
+        "option4": "Calcanhar da palma",
+        "correct": "Punho frontal",
+        "explanation": "Seiken é o punho frontal, a superfície de impacto primária."
+      },
+      "techniques-4": {
+        "question": "O que é 'Mae Geri'?",
+        "option1": "Chute lateral",
+        "option2": "Chute circular",
+        "option3": "Chute frontal",
+        "option4": "Chute traseiro",
+        "correct": "Chute frontal",
+        "explanation": "Mae Geri é o chute frontal."
+      },
+      "techniques-5": {
+        "question": "O que é 'Age Uke'?",
+        "option1": "Bloqueio descendente",
+        "option2": "Bloqueio ascendente",
+        "option3": "Bloqueio médio",
+        "option4": "Bloqueio de gancho",
+        "correct": "Bloqueio ascendente",
+        "explanation": "Age Uke é o bloqueio ascendente usado para proteger a cabeça."
+      },
+      "techniques-6": {
+        "question": "O que é 'Shuto Uke'?",
+        "option1": "Bloqueio de mão de faca",
+        "option2": "Bloqueio de palma",
+        "option3": "Bloqueio de pulso",
+        "option4": "Bloqueio de cotovelo",
+        "correct": "Bloqueio de mão de faca",
+        "explanation": "Shuto Uke é o bloqueio de mão de faca."
+      },
+      "kumite-3": {
+        "question": "O que é 'Maai'?",
+        "option1": "Tempo",
+        "option2": "Distância",
+        "option3": "Velocidade",
+        "option4": "Poder",
+        "correct": "Distância",
+        "explanation": "Maai refere-se à distância de combate entre oponentes."
+      },
+      "kumite-4": {
+        "question": "O que é 'Jiyu Kumite'?",
+        "option1": "Luta básica",
+        "option2": "Luta livre",
+        "option3": "Luta pré-arranjada",
+        "option4": "Luta no chão",
+        "correct": "Luta livre",
+        "explanation": "Jiyu Kumite significa luta livre."
+      },
+      "kumite-5": {
+        "question": "O que é um 'Kizami Zuki'?",
+        "option1": "Soco reverso",
+        "option2": "Soco de gancho",
+        "option3": "Jab/Soco com a mão da frente",
+        "option4": "Uppercut",
+        "correct": "Jab/Soco com a mão da frente",
+        "explanation": "Kizami Zuki é um jab ou soco com a mão da frente."
+      },
+      "kumite-6": {
+        "question": "O que é importante no kumite além da técnica?",
+        "option1": "Gritar alto",
+        "option2": "Zanshin (Consciência)",
+        "option3": "Parecer zangado",
+        "option4": "Pular alto",
+        "correct": "Zanshin (Consciência)",
+        "explanation": "Zanshin, ou mente/consciência remanescente, é crucial no kumite."
+      },
+      "history-3": {
+        "question": "Onde Kanryo Higaonna estudou artes marciais?",
+        "option1": "Tóquio, Japão",
+        "option2": "Fuzhou, China",
+        "option3": "Seul, Coreia",
+        "option4": "Taipei, Taiwan",
+        "correct": "Fuzhou, China",
+        "explanation": "Kanryo Higaonna estudou em Fuzhou, China, sob Ryu Ryu Ko."
+      },
+      "history-4": {
+        "question": "Que livro inspirou o nome 'Goju Ryu'?",
+        "option1": "Tao Te Ching",
+        "option2": "A Arte da Guerra",
+        "option3": "Bubishi",
+        "option4": "O Livro dos Cinco Anéis",
+        "correct": "Bubishi",
+        "explanation": "O nome Goju Ryu vem dos 'Oito Preceitos do Punho' no Bubishi."
+      },
+      "history-5": {
+        "question": "Em que ano o Goju Ryu foi nomeado?",
+        "option1": "1920",
+        "option2": "1930",
+        "option3": "1940",
+        "option4": "1950",
+        "correct": "1930",
+        "explanation": "Chojun Miyagi nomeou o estilo Goju Ryu por volta de 1930."
+      },
+      "history-6": {
+        "question": "Quem foi o professor de Chojun Miyagi em Naha-te?",
+        "option1": "Itosu Anko",
+        "option2": "Kanryo Higaonna",
+        "option3": "Matsumura Sokon",
+        "option4": "Azato Anko",
+        "correct": "Kanryo Higaonna",
+        "explanation": "Kanryo Higaonna foi o professor principal de Chojun Miyagi."
+      },
+      "hojo-3": {
+        "question": "Para que serve o 'Makiwara'?",
+        "option1": "Alongamento",
+        "option2": "Prática de golpes",
+        "option3": "Levantamento de peso",
+        "option4": "Meditação",
+        "correct": "Prática de golpes",
+        "explanation": "O Makiwara é um poste de golpe usado para condicionar as mãos e desenvolver força."
+      },
+      "hojo-4": {
+        "question": "O que é 'Tan'?",
+        "option1": "Jarra",
+        "option2": "Cadeado de pedra",
+        "option3": "Barra/Peso",
+        "option4": "Anel de ferro",
+        "correct": "Barra/Peso",
+        "explanation": "Tan é um peso tipo barra usado para treinamento de força."
+      },
+      "hojo-5": {
+        "question": "O que o 'Kongoken' treina?",
+        "option1": "Velocidade",
+        "option2": "Condicionamento corporal e força de preensão",
+        "option3": "Flexibilidade",
+        "option4": "Equilíbrio",
+        "correct": "Condicionamento corporal e força de preensão",
+        "explanation": "O Kongoken é um anel de ferro pesado usado para condicionar o corpo e desenvolver força de preensão."
+      },
+      "hojo-6": {
+        "question": "O que são 'Ishi Sashi'?",
+        "option1": "Tamancos de ferro",
+        "option2": "Cadeados de pedra",
+        "option3": "Jarras de aperto",
+        "option4": "Troncos pesados",
+        "correct": "Cadeados de pedra",
+        "explanation": "Ishi Sashi são cadeados de pedra usados para fortalecer pulsos e braços."
+      },
+      "newaza-2": {
+        "question": "O que é 'Kesa Gatame'?",
+        "option1": "Montada",
+        "option2": "Guarda",
+        "option3": "Imobilização de cachecol",
+        "option4": "Estrangulamento triangular",
+        "correct": "Immobilização de cachecol",
+        "explanation": "Kesa Gatame é a imobilização de cachecol, uma técnica de imobilização fundamental."
+      },
+      "newaza-3": {
+        "question": "O que é a posição de 'Guarda'?",
+        "option1": "Por cima",
+        "option2": "De costas controlando o oponente com as pernas",
+        "option3": "Controle lateral",
+        "option4": "De pé",
+        "correct": "De costas controlando o oponente com as pernas",
+        "explanation": "A Guarda é uma posição onde você está de costas, mas controla o oponente com as pernas."
+      },
+      "newaza-4": {
+        "question": "O que é um 'Tap out'?",
+        "option1": "Descansar",
+        "option2": "Sinalizar submissão",
+        "option3": "Golpear",
+        "option4": "Bloquear",
+        "correct": "Sinalizar submissão",
+        "explanation": "Bater é o sinal universal de submissão para parar a técnica."
+      },
+      "newaza-5": {
+        "question": "O que é 'Montada'?",
+        "option1": "Controle lateral",
+        "option2": "Sentado no torso do oponente",
+        "option3": "Entre as pernas",
+        "option4": "De pé sobre",
+        "correct": "Sentado no torso do oponente",
+        "explanation": "Montada é uma posição dominante onde você está sentado no torso do oponente."
+      },
+      "newaza-6": {
+        "question": "Por que a 'ponte' (Upa) é importante?",
+        "option1": "Para descansar",
+        "option2": "Para escapar de baixo",
+        "option3": "Para golpear",
+        "option4": "Para estrangular",
+        "correct": "Para escapar de baixo",
+        "explanation": "A ponte é um movimento fundamental para criar espaço e escapar de posições inferiores."
+      },
+      "rules-2": {
+        "question": "Como se chama um ponto completo?",
+        "option1": "Waza-ari",
+        "option2": "Yuko",
+        "option3": "Ippon",
+        "option4": "Hansoku",
+        "correct": "Ippon",
+        "explanation": "Ippon é um ponto completo, muitas vezes terminando a luta nas regras tradicionais."
+      },
+      "rules-3": {
+        "question": "O que é 'Waza-ari'?",
+        "option1": "Ponto completo",
+        "option2": "Meio ponto",
+        "option3": "Falta",
+        "option4": "Vencer",
+        "correct": "Meio ponto",
+        "explanation": "Waza-ari é meio ponto; dois waza-ari equivalem tipicamente a um ippon."
+      },
+      "rules-4": {
+        "question": "O que significa 'Yame'?",
+        "option1": "Começar",
+        "option2": "Parar",
+        "option3": "Continuar",
+        "option4": "Lutar",
+        "correct": "Parar",
+        "explanation": "Yame é o comando para parar."
+      },
+      "rules-5": {
+        "question": "O que significa 'Hajime'?",
+        "option1": "Parar",
+        "option2": "Começar",
+        "option3": "Reverência",
+        "option4": "Virar",
+        "correct": "Começar",
+        "explanation": "Hajime é o comando para começar."
+      },
+      "rules-6": {
+        "question": "O que acontece se você sair dos limites (Jogai)?",
+        "option1": "Você ganha",
+        "option2": "Aviso/Penalidade",
+        "option3": "Nada",
+        "option4": "Ponto para você",
+        "correct": "Aviso/Penalidade",
+        "explanation": "Sair dos limites (Jogai) geralmente resulta em um aviso ou penalidade."
+      }
     }
   },
   "title": "Study",

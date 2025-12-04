@@ -15,15 +15,9 @@
     "noQuizzes": "No quizzes available at the moment.",
     "noFlashcards": "No flashcard sets available at the moment.",
     "noMatching": "No matching exercises available at the moment.",
-    "flashcards": {
-      "title": "Flashcards",
-      "description": "Review terms and concepts with flashcards"
-    },
+    "flashcards": "Flashcards",
     "flashcardDesc": "Review terms and concepts with flashcards.",
-    "matching": {
-      "title": "Matching",
-      "description": "Match terms and concepts with each other"
-    },
+    "matching": "Matching",
     "matchingDesc": "Match terms and concepts with each other.",
     "tests": "Tests",
     "startStudy": "Start Studying",
@@ -37,7 +31,7 @@
     "flashcardsCardDescription": "Practice terminology and concepts",
     "matchingCardTitle": "Matching",
     "matchingCardDescription": "Match terms and concepts",
-      "loading": "Loading study material...",
+    "loading": "Loading study material...",
     "completed": "Study Complete!",
     "tapToFlip": "Tap to flip",
     "notFound": {
@@ -50,8 +44,6 @@
     "category": "Category",
     "start": "Start",
     "quiz": "Quiz",
-    "flashcards": "Flashcards",
-    "matching": "Matching",
     "startQuiz": "Start Quiz",
     "startFlashcards": "Start Flashcards",
     "startMatching": "Start Matching",
@@ -189,10 +181,9 @@
       "retry": "Retry",
       "next": "Next"
     },
-      "question": "Question {{index}} of {{total}}",
-      "previous": "Previous",
-      "next": "Next",
-      "tapToFlip": "Tap to flip",
+    "question": "Question {{index}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
     "finish": "Finish",
     "correct": "Correct!",
     "incorrect": "Incorrect!",
@@ -261,13 +252,502 @@
     "kumite-rules": {
       "title": "Kumite Rules Quiz",
       "description": "Scoring, penalties and referee commands."
+    },
+    "questionBank": {
+      "kata-basics-4": {
+        "question": "What is the first kata learned in Goju Ryu?",
+        "option1": "Gekisai Dai Ichi",
+        "option2": "Saifa",
+        "option3": "Sanchin",
+        "option4": "Tensho",
+        "correct": "Gekisai Dai Ichi",
+        "explanation": "Gekisai Dai Ichi is typically the first kata taught to beginners."
+      },
+      "kata-basics-5": {
+        "question": "What is the purpose of 'Kiai'?",
+        "option1": "To scare the opponent",
+        "option2": "To focus energy",
+        "option3": "To signal the end",
+        "option4": "To breathe out",
+        "correct": "To focus energy",
+        "explanation": "Kiai helps to unite the body and mind and focus energy at the moment of impact."
+      },
+      "kata-basics-6": {
+        "question": "Which stance is known as the 'Cat Stance'?",
+        "option1": "Zenkutsu Dachi",
+        "option2": "Shiko Dachi",
+        "option3": "Neko Ashi Dachi",
+        "option4": "Sanchin Dachi",
+        "correct": "Neko Ashi Dachi",
+        "explanation": "Neko Ashi Dachi means Cat Foot Stance."
+      },
+      "kata-history-3": {
+        "question": "Which kata was brought from China by Kanryo Higaonna?",
+        "option1": "Gekisai",
+        "option2": "Saifa",
+        "option3": "Suparinpei",
+        "option4": "Tensho",
+        "correct": "Suparinpei",
+        "explanation": "Suparinpei is one of the kata Higaonna Sensei brought back from Fuzhou."
+      },
+      "kata-history-4": {
+        "question": "Who developed the kata Tensho?",
+        "option1": "Kanryo Higaonna",
+        "option2": "Chojun Miyagi",
+        "option3": "Anko Itosu",
+        "option4": "Gichin Funakoshi",
+        "correct": "Chojun Miyagi",
+        "explanation": "Chojun Miyagi developed Tensho as a soft counterpart to Sanchin."
+      },
+      "kata-history-5": {
+        "question": "What does 'Gekisai' mean?",
+        "option1": "Peaceful Mind",
+        "option2": "Attack and Destroy",
+        "option3": "Rotating Palms",
+        "option4": "Three Battles",
+        "correct": "Attack and Destroy",
+        "explanation": "Gekisai means 'Attack and Destroy' or 'Attack and Smash'."
+      },
+      "kata-history-6": {
+        "question": "Which kata is considered the 'Hard' breathing kata?",
+        "option1": "Tensho",
+        "option2": "Sanchin",
+        "option3": "Saifa",
+        "option4": "Sepai",
+        "correct": "Sanchin",
+        "explanation": "Sanchin is the fundamental hard breathing kata of Goju Ryu."
+      },
+      "philosophy-3": {
+        "question": "What is 'Zanshin'?",
+        "option1": "No mind",
+        "option2": "Remaining mind/awareness",
+        "option3": "Fighting spirit",
+        "option4": "Respect",
+        "correct": "Remaining mind/awareness",
+        "explanation": "Zanshin is the state of total awareness and preparedness."
+      },
+      "philosophy-4": {
+        "question": "What is 'Mushin'?",
+        "option1": "No mind",
+        "option2": "Busy mind",
+        "option3": "Angry mind",
+        "option4": "Happy mind",
+        "correct": "No mind",
+        "explanation": "Mushin means 'no mind' - acting without conscious thought or hesitation."
+      },
+      "philosophy-5": {
+        "question": "What does 'Rei' signify?",
+        "option1": "Fight",
+        "option2": "Run",
+        "option3": "Respect/Bow",
+        "option4": "Win",
+        "correct": "Respect/Bow",
+        "explanation": "Rei means respect or bow, fundamental to karate etiquette."
+      },
+      "philosophy-6": {
+        "question": "What is the ultimate goal of karate?",
+        "option1": "Winning tournaments",
+        "option2": "Self-defense only",
+        "option3": "Character development",
+        "option4": "Black belt",
+        "correct": "Character development",
+        "explanation": "The ultimate goal of karate is the perfection of character."
+      },
+      "techniques-3": {
+        "question": "What is 'Seiken'?",
+        "option1": "Forefist",
+        "option2": "Backfist",
+        "option3": "Knife hand",
+        "option4": "Palm heel",
+        "correct": "Forefist",
+        "explanation": "Seiken is the forefist, the primary punching surface."
+      },
+      "techniques-4": {
+        "question": "What is 'Mae Geri'?",
+        "option1": "Side Kick",
+        "option2": "Roundhouse Kick",
+        "option3": "Front Kick",
+        "option4": "Back Kick",
+        "correct": "Front Kick",
+        "explanation": "Mae Geri is the front kick."
+      },
+      "techniques-5": {
+        "question": "What is 'Age Uke'?",
+        "option1": "Downward Block",
+        "option2": "Rising Block",
+        "option3": "Middle Block",
+        "option4": "Hook Block",
+        "correct": "Rising Block",
+        "explanation": "Age Uke is the rising block used to protect the head."
+      },
+      "techniques-6": {
+        "question": "What is 'Shuto Uke'?",
+        "option1": "Knife-hand Block",
+        "option2": "Palm Block",
+        "option3": "Wrist Block",
+        "option4": "Elbow Block",
+        "correct": "Knife-hand Block",
+        "explanation": "Shuto Uke is the knife-hand block."
+      },
+      "kumite-3": {
+        "question": "What is 'Maai'?",
+        "option1": "Timing",
+        "option2": "Distancing",
+        "option3": "Speed",
+        "option4": "Power",
+        "correct": "Distancing",
+        "explanation": "Maai refers to the engagement distance between opponents."
+      },
+      "kumite-4": {
+        "question": "What is 'Jiyu Kumite'?",
+        "option1": "Basic Sparring",
+        "option2": "Free Sparring",
+        "option3": "Pre-arranged Sparring",
+        "option4": "Ground Sparring",
+        "correct": "Free Sparring",
+        "explanation": "Jiyu Kumite means free sparring."
+      },
+      "kumite-5": {
+        "question": "What is a 'Kizami Zuki'?",
+        "option1": "Reverse punch",
+        "option2": "Hook punch",
+        "option3": "Jab/Leading hand punch",
+        "option4": "Uppercut",
+        "correct": "Jab/Leading hand punch",
+        "explanation": "Kizami Zuki is a jab or punch with the leading hand."
+      },
+      "kumite-6": {
+        "question": "What is important in kumite besides technique?",
+        "option1": "Yelling loud",
+        "option2": "Zanshin (Awareness)",
+        "option3": "Looking angry",
+        "option4": "Jumping high",
+        "correct": "Zanshin (Awareness)",
+        "explanation": "Zanshin, or remaining mind/awareness, is crucial in kumite."
+      },
+      "history-3": {
+        "question": "Where did Kanryo Higaonna study martial arts?",
+        "option1": "Tokyo, Japan",
+        "option2": "Fuzhou, China",
+        "option3": "Seoul, Korea",
+        "option4": "Taipei, Taiwan",
+        "correct": "Fuzhou, China",
+        "explanation": "Kanryo Higaonna studied in Fuzhou, China, under Ryu Ryu Ko."
+      },
+      "history-4": {
+        "question": "What book inspired the name 'Goju Ryu'?",
+        "option1": "Tao Te Ching",
+        "option2": "Art of War",
+        "option3": "Bubishi",
+        "option4": "Book of Five Rings",
+        "correct": "Bubishi",
+        "explanation": "The name Goju Ryu comes from the 'Eight Precepts of the Fist' in the Bubishi."
+      },
+      "history-5": {
+        "question": "In what year was Goju Ryu named?",
+        "option1": "1920",
+        "option2": "1930",
+        "option3": "1940",
+        "option4": "1950",
+        "correct": "1930",
+        "explanation": "Chojun Miyagi named the style Goju Ryu around 1930."
+      },
+      "history-6": {
+        "question": "Who was Chojun Miyagi's teacher in Naha-te?",
+        "option1": "Itosu Anko",
+        "option2": "Kanryo Higaonna",
+        "option3": "Matsumura Sokon",
+        "option4": "Azato Anko",
+        "correct": "Kanryo Higaonna",
+        "explanation": "Kanryo Higaonna was Chojun Miyagi's primary teacher."
+      },
+      "hojo-3": {
+        "question": "What is the 'Makiwara' used for?",
+        "option1": "Stretching",
+        "option2": "Striking practice",
+        "option3": "Weight lifting",
+        "option4": "Meditation",
+        "correct": "Striking practice",
+        "explanation": "The Makiwara is a striking post used to condition the hands and develop power."
+      },
+      "hojo-4": {
+        "question": "What is 'Tan'?",
+        "option1": "Jar",
+        "option2": "Stone padlock",
+        "option3": "Barbell/Weight",
+        "option4": "Iron ring",
+        "correct": "Barbell/Weight",
+        "explanation": "Tan is a barbell-like weight used for strength training."
+      },
+      "hojo-5": {
+        "question": "What does 'Kongoken' train?",
+        "option1": "Speed",
+        "option2": "Body conditioning and grappling power",
+        "option3": "Flexibility",
+        "option4": "Balance",
+        "correct": "Body conditioning and grappling power",
+        "explanation": "The Kongoken is a heavy iron ring used to condition the body and develop grappling strength."
+      },
+      "hojo-6": {
+        "question": "What are 'Ishi Sashi'?",
+        "option1": "Iron clogs",
+        "option2": "Stone padlocks",
+        "option3": "Gripping jars",
+        "option4": "Heavy logs",
+        "correct": "Stone padlocks",
+        "explanation": "Ishi Sashi are stone padlocks used to strengthen the wrists and arms."
+      },
+      "newaza-2": {
+        "question": "What is 'Kesa Gatame'?",
+        "option1": "Mount",
+        "option2": "Guard",
+        "option3": "Scarf Hold",
+        "option4": "Triangle Choke",
+        "correct": "Scarf Hold",
+        "explanation": "Kesa Gatame is the scarf hold, a fundamental pinning technique."
+      },
+      "newaza-3": {
+        "question": "What is the 'Guard' position?",
+        "option1": "On top",
+        "option2": "On back controlling opponent with legs",
+        "option3": "Side control",
+        "option4": "Standing",
+        "correct": "On back controlling opponent with legs",
+        "explanation": "The Guard is a position where you are on your back but control the opponent with your legs."
+      },
+      "newaza-4": {
+        "question": "What is a 'Tap out'?",
+        "option1": "Resting",
+        "option2": "Signaling submission",
+        "option3": "Striking",
+        "option4": "Blocking",
+        "correct": "Signaling submission",
+        "explanation": "Tapping out is the universal signal for submission to stop the technique."
+      },
+      "newaza-5": {
+        "question": "What is 'Mount'?",
+        "option1": "Side control",
+        "option2": "Sitting on opponent's torso",
+        "option3": "Between legs",
+        "option4": "Standing over",
+        "correct": "Sitting on opponent's torso",
+        "explanation": "Mount is a dominant position where you are sitting on the opponent's torso."
+      },
+      "newaza-6": {
+        "question": "Why is bridging (Upa) important?",
+        "option1": "To rest",
+        "option2": "To escape from bottom",
+        "option3": "To strike",
+        "option4": "To choke",
+        "correct": "To escape from bottom",
+        "explanation": "Bridging is a fundamental movement to create space and escape from bottom positions."
+      },
+      "rules-2": {
+        "question": "What is a full point called?",
+        "option1": "Waza-ari",
+        "option2": "Yuko",
+        "option3": "Ippon",
+        "option4": "Hansoku",
+        "correct": "Ippon",
+        "explanation": "Ippon is a full point, often ending the match in traditional rules."
+      },
+      "rules-3": {
+        "question": "What is 'Waza-ari'?",
+        "option1": "Full point",
+        "option2": "Half point",
+        "option3": "Foul",
+        "option4": "Win",
+        "correct": "Half point",
+        "explanation": "Waza-ari is a half point; two waza-ari typically equal one ippon."
+      },
+      "rules-4": {
+        "question": "What does 'Yame' mean?",
+        "option1": "Start",
+        "option2": "Stop",
+        "option3": "Continue",
+        "option4": "Fight",
+        "correct": "Stop",
+        "explanation": "Yame is the command to stop."
+      },
+      "rules-5": {
+        "question": "What does 'Hajime' mean?",
+        "option1": "Stop",
+        "option2": "Begin",
+        "option3": "Bow",
+        "option4": "Turn",
+        "correct": "Begin",
+        "explanation": "Hajime is the command to begin."
+      },
+      "rules-6": {
+        "question": "What happens if you step out of bounds (Jogai)?",
+        "option1": "You win",
+        "option2": "Warning/Penalty",
+        "option3": "Nothing",
+        "option4": "Point for you",
+        "correct": "Warning/Penalty",
+        "explanation": "Stepping out of bounds (Jogai) usually results in a warning or penalty."
+      }
     }
   },
   "title": "Study",
   "description": "Practice and test your knowledge of Goju Ryu karate",
   "startQuiz": "Start Quiz",
   "startFlashcards": "Start Flashcards",
-  "questions": "questions",
+  "questions": {
+    "kata-basics-1": {
+      "question": "What does 'kata' mean in Japanese?",
+      "option1": "Form",
+      "option2": "Fight",
+      "option3": "Technique",
+      "option4": "Style",
+      "correct": "Form",
+      "explanation": "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements."
+    },
+    "kata-basics-2": {
+      "question": "How many kata are there in traditional Goju Ryu?",
+      "option1": "8",
+      "option2": "10",
+      "option3": "12",
+      "option4": "15",
+      "correct": "12",
+      "explanation": "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata."
+    },
+    "kata-basics-3": {
+      "question": "What are the two main categories of kata in Goju Ryu?",
+      "option1": "Hard and Soft",
+      "option2": "Heishugata and Kaishugata",
+      "option3": "Basic and Advanced",
+      "option4": "Old and New",
+      "correct": "Heishugata and Kaishugata",
+      "explanation": "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories."
+    },
+    "kata-history-1": {
+      "question": "Who created the Gekisai kata?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Chojun Miyagi",
+      "option3": "Morio Higaonna",
+      "option4": "Eiichi Miyazato",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s."
+    },
+    "kata-history-2": {
+      "question": "What does 'Sanchin' mean?",
+      "option1": "Three Battles",
+      "option2": "Three Steps",
+      "option3": "Three Hearts",
+      "option4": "Three Minds",
+      "correct": "Three Battles",
+      "explanation": "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit."
+    },
+    "philosophy-1": {
+      "question": "What does 'Goju' mean?",
+      "option1": "Hard-Soft",
+      "option2": "Fast-Slow",
+      "option3": "Strong-Weak",
+      "option4": "Old-New",
+      "correct": "Hard-Soft",
+      "explanation": "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques."
+    },
+    "philosophy-2": {
+      "question": "What is 'Muchimi'?",
+      "option1": "Breathing",
+      "option2": "Sticky Hands",
+      "option3": "Focus",
+      "option4": "Balance",
+      "correct": "Sticky Hands",
+      "explanation": "Muchimi refers to the ability to maintain contact with an opponent like sticky hands."
+    },
+    "techniques-1": {
+      "question": "What is the most basic stance in karate?",
+      "option1": "Sanchin Dachi",
+      "option2": "Zenkutsu Dachi",
+      "option3": "Hachiji Dachi",
+      "option4": "Kiba Dachi",
+      "correct": "Hachiji Dachi",
+      "explanation": "Hachiji Dachi (natural stance) is the most basic stance in karate."
+    },
+    "techniques-2": {
+      "question": "What does 'Uke' mean?",
+      "option1": "Attack",
+      "option2": "Block",
+      "option3": "Strike",
+      "option4": "Kick",
+      "correct": "Block",
+      "explanation": "Uke (受け) means 'block' or 'receive' in Japanese."
+    },
+    "kumite-1": {
+      "question": "What does 'Kumite' mean?",
+      "option1": "Sparring",
+      "option2": "Fighting",
+      "option3": "Training",
+      "option4": "Competition",
+      "correct": "Sparring",
+      "explanation": "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese."
+    },
+    "kumite-2": {
+      "question": "What is 'Ippon Kumite'?",
+      "option1": "Free Sparring",
+      "option2": "One-Step Sparring",
+      "option3": "Three-Step Sparring",
+      "option4": "Five-Step Sparring",
+      "correct": "One-Step Sparring",
+      "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
+    },
+    "history-1": {
+      "question": "Who founded Goju Ryu?",
+      "option1": "Chojun Miyagi",
+      "option2": "Kanryo Higaonna",
+      "option3": "Gichin Funakoshi",
+      "option4": "Kenwa Mabuni",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+    },
+    "history-2": {
+      "question": "Which teacher strongly influenced Chojun Miyagi?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Anko Itosu",
+      "option3": "Mabuni Kenwa",
+      "option4": "Motobu Choki",
+      "correct": "Kanryo Higaonna",
+      "explanation": "Miyagi was a top student of Kanryo Higaonna."
+    },
+    "hojo-1": {
+      "question": "Which tool is a stone lever used for circular strength?",
+      "option1": "Chi-ishi",
+      "option2": "Ishi sashi",
+      "option3": "Nigiri game",
+      "option4": "Kongoken",
+      "correct": "Chi-ishi",
+      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+    },
+    "hojo-2": {
+      "question": "Which tool primarily trains grip strength?",
+      "option1": "Nigiri game",
+      "option2": "Kongoken",
+      "option3": "Ishi sashi",
+      "option4": "Makiwara",
+      "correct": "Nigiri game",
+      "explanation": "Nigiri game jars are used to develop grip strength and stance."
+    },
+    "newaza-1": {
+      "question": "Which position emphasizes chest-to-chest control from the side?",
+      "option1": "Side control",
+      "option2": "Mount",
+      "option3": "Guard",
+      "option4": "Back control",
+      "correct": "Side control",
+      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+    },
+    "rules-1": {
+      "question": "What does 'Hansoku' mean?",
+      "option1": "Foul",
+      "option2": "Extension round",
+      "option3": "Draw",
+      "option4": "Half point",
+      "correct": "Foul",
+      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
+    }
+  },
   "cards": "cards",
   "category": "Category",
   "difficulty": "Difficulty",
@@ -642,161 +1122,6 @@
       "description": "Practice self-control with flashcards."
     }
   },
-  "questions": {
-    "kata-basics-1": {
-      "question": "What does 'kata' mean in Japanese?",
-      "option1": "Form",
-      "option2": "Fight",
-      "option3": "Technique",
-      "option4": "Style",
-      "correct": "Form",
-      "explanation": "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements."
-    },
-    "kata-basics-2": {
-      "question": "How many kata are there in traditional Goju Ryu?",
-      "option1": "8",
-      "option2": "10",
-      "option3": "12",
-      "option4": "15",
-      "correct": "12",
-      "explanation": "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata."
-    },
-    "kata-basics-3": {
-      "question": "What are the two main categories of kata in Goju Ryu?",
-      "option1": "Hard and Soft",
-      "option2": "Heishugata and Kaishugata",
-      "option3": "Basic and Advanced",
-      "option4": "Old and New",
-      "correct": "Heishugata and Kaishugata",
-      "explanation": "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories."
-    },
-    "kata-history-1": {
-      "question": "Who created the Gekisai kata?",
-      "option1": "Kanryo Higaonna",
-      "option2": "Chojun Miyagi",
-      "option3": "Morio Higaonna",
-      "option4": "Eiichi Miyazato",
-      "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s."
-    },
-    "kata-history-2": {
-      "question": "What does 'Sanchin' mean?",
-      "option1": "Three Battles",
-      "option2": "Three Steps",
-      "option3": "Three Hearts",
-      "option4": "Three Minds",
-      "correct": "Three Battles",
-      "explanation": "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit."
-    },
-    "philosophy-1": {
-      "question": "What does 'Goju' mean?",
-      "option1": "Hard-Soft",
-      "option2": "Fast-Slow",
-      "option3": "Strong-Weak",
-      "option4": "Old-New",
-      "correct": "Hard-Soft",
-      "explanation": "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques."
-    },
-    "philosophy-2": {
-      "question": "What is 'Muchimi'?",
-      "option1": "Breathing",
-      "option2": "Sticky Hands",
-      "option3": "Focus",
-      "option4": "Balance",
-      "correct": "Sticky Hands",
-      "explanation": "Muchimi refers to the ability to maintain contact with an opponent like sticky hands."
-    },
-    "techniques-1": {
-      "question": "What is the most basic stance in karate?",
-      "option1": "Sanchin Dachi",
-      "option2": "Zenkutsu Dachi",
-      "option3": "Hachiji Dachi",
-      "option4": "Kiba Dachi",
-      "correct": "Hachiji Dachi",
-      "explanation": "Hachiji Dachi (natural stance) is the most basic stance in karate."
-    },
-    "techniques-2": {
-      "question": "What does 'Uke' mean?",
-      "option1": "Attack",
-      "option2": "Block",
-      "option3": "Strike",
-      "option4": "Kick",
-      "correct": "Block",
-      "explanation": "Uke (受け) means 'block' or 'receive' in Japanese."
-    },
-    "kumite-1": {
-      "question": "What does 'Kumite' mean?",
-      "option1": "Sparring",
-      "option2": "Fighting",
-      "option3": "Training",
-      "option4": "Competition",
-      "correct": "Sparring",
-      "explanation": "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese."
-    },
-    "kumite-2": {
-      "question": "What is 'Ippon Kumite'?",
-      "option1": "Free Sparring",
-      "option2": "One-Step Sparring",
-      "option3": "Three-Step Sparring",
-      "option4": "Five-Step Sparring",
-      "correct": "One-Step Sparring",
-      "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
-    },
-    "history-1": {
-      "question": "Who founded Goju Ryu?",
-      "option1": "Chojun Miyagi",
-      "option2": "Kanryo Higaonna",
-      "option3": "Gichin Funakoshi",
-      "option4": "Kenwa Mabuni",
-      "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
-    },
-    "history-2": {
-      "question": "Which teacher strongly influenced Chojun Miyagi?",
-      "option1": "Kanryo Higaonna",
-      "option2": "Anko Itosu",
-      "option3": "Mabuni Kenwa",
-      "option4": "Motobu Choki",
-      "correct": "Kanryo Higaonna",
-      "explanation": "Miyagi was a top student of Kanryo Higaonna."
-    },
-    "hojo-1": {
-      "question": "Which tool is a stone lever used for circular strength?",
-      "option1": "Chi-ishi",
-      "option2": "Ishi sashi",
-      "option3": "Nigiri game",
-      "option4": "Kongoken",
-      "correct": "Chi-ishi",
-      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
-    },
-    "hojo-2": {
-      "question": "Which tool primarily trains grip strength?",
-      "option1": "Nigiri game",
-      "option2": "Kongoken",
-      "option3": "Ishi sashi",
-      "option4": "Makiwara",
-      "correct": "Nigiri game",
-      "explanation": "Nigiri game jars are used to develop grip strength and stance."
-    },
-    "newaza-1": {
-      "question": "Which position emphasizes chest-to-chest control from the side?",
-      "option1": "Side control",
-      "option2": "Mount",
-      "option3": "Guard",
-      "option4": "Back control",
-      "correct": "Side control",
-      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
-    },
-    "rules-1": {
-      "question": "What does 'Hansoku' mean?",
-      "option1": "Foul",
-      "option2": "Extension round",
-      "option3": "Draw",
-      "option4": "Half point",
-      "correct": "Foul",
-      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
-    }
-  },
   "studyTerminology": {
     "stances": {
       "hachiji-dachi": {
@@ -1059,4 +1384,4 @@
       }
     }
   }
-} 
+}
