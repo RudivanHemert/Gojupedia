@@ -316,16 +316,16 @@ const VitalPointsQuiz = () => {
                     transform: 'translate(-50%, -50%)'
                   }}
                 >
-                  <div className="relative">
-                    <div className="absolute w-2 h-2 bg-green-500 rounded-full -translate-x-1/2 -translate-y-1/2" />
-                    <div className="bg-white/90 text-black text-xs px-2 py-1 rounded shadow-md">
+                  <div className="relative flex items-center gap-1">
+                    <div className="w-2 h-2 bg-green-500 rounded-full" />
+                    <div className="bg-white/90 backdrop-blur-sm text-black text-xs px-2 py-1 rounded shadow-md whitespace-nowrap">
                       {point.number ? `${point.number}. ${t(`vitalPoints.points.${point.id}.name`)}` : t(`vitalPoints.points.${point.id}.name`)}
                     </div>
                   </div>
                 </motion.div>
               ))}
 
-              {/* Show hidden points with input fields */}
+              {/* Show hidden points with numbered dots only */}
               {hiddenPoints.map((point) => {
                 const correct = isCorrect(point.id);
                 return (
@@ -341,42 +341,21 @@ const VitalPointsQuiz = () => {
                       transform: 'translate(-50%, -50%)'
                     }}
                   >
-                    <div className="relative flex flex-col items-center gap-1">
+                    <div className="relative flex items-center gap-1">
                       <div className={cn(
-                        "absolute w-2 h-2 rounded-full -translate-x-1/2 -translate-y-1/2",
+                        "w-3 h-3 rounded-full flex items-center justify-center",
                         checked
                           ? (correct ? "bg-green-500" : "bg-red-500")
                           : "bg-yellow-500"
                       )} />
-                      <Input
-                        type="text"
-                        value={userAnswers[point.id] || ''}
-                        onChange={(e) => handleAnswerChange(point.id, e.target.value)}
-                        disabled={checked}
-                        className={cn(
-                          "w-24 md:w-32 text-xs h-6 md:h-7 px-1 md:px-2 py-1 text-center font-semibold",
-                          !checked && "bg-white/70 backdrop-blur-sm border-2 border-yellow-500",
-                          checked && correct && "border-2 border-green-500 bg-green-100/80 backdrop-blur-sm",
-                          checked && correct === false && "border-2 border-red-500 bg-red-100/80 backdrop-blur-sm"
-                        )}
-                        style={{
-                          textShadow: !checked ? '0 0 2px white' : 'none'
-                        }}
-                      />
-                      {checked && (
-                        <div className="flex items-center gap-1 text-xs">
-                          {correct ? (
-                            <Check className="h-4 w-4 text-green-500" />
-                          ) : (
-                            <>
-                              <X className="h-4 w-4 text-red-500" />
-                              <span className="text-red-500">
-                                {t('vitalPoints.quiz.correctAnswer')}: {t(`vitalPoints.points.${point.id}.name`)}
-                              </span>
-                            </>
-                          )}
-                        </div>
-                      )}
+                      <div className={cn(
+                        "text-xs font-bold px-1.5 py-0.5 rounded shadow-md min-w-[1.5rem] text-center",
+                        checked
+                          ? (correct ? "bg-green-500 text-white" : "bg-red-500 text-white")
+                          : "bg-yellow-500 text-black"
+                      )}>
+                        {point.number}
+                      </div>
                     </div>
                   </motion.div>
                 );
@@ -385,6 +364,62 @@ const VitalPointsQuiz = () => {
           </AnimatePresence>
         </div>
       </div>
+
+      {/* Input list below the image */}
+      {hiddenPoints.length > 0 && (
+        <Card className="mt-6">
+          <CardHeader>
+            <CardTitle className="text-base">
+              {t('vitalPoints.quiz.answerPrompt', 'Voer de namen in voor de volgende punten:')}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {hiddenPoints.map((point) => {
+                const correct = isCorrect(point.id);
+                return (
+                  <div key={point.id} className="flex items-center gap-2">
+                    <Badge
+                      variant={checked ? (correct ? "default" : "destructive") : "secondary"}
+                      className={cn(
+                        "min-w-[2rem] justify-center",
+                        !checked && "bg-yellow-500 hover:bg-yellow-600"
+                      )}
+                    >
+                      {point.number}
+                    </Badge>
+                    <Input
+                      type="text"
+                      value={userAnswers[point.id] || ''}
+                      onChange={(e) => handleAnswerChange(point.id, e.target.value)}
+                      disabled={checked}
+                      className={cn(
+                        "flex-1",
+                        checked && correct && "border-green-500 bg-green-50",
+                        checked && correct === false && "border-red-500 bg-red-50"
+                      )}
+                    />
+                    {checked && (
+                      <div className="flex items-center gap-1">
+                        {correct ? (
+                          <Check className="h-5 w-5 text-green-500" />
+                        ) : (
+                          <div className="flex items-center gap-1">
+                            <X className="h-5 w-5 text-red-500" />
+                            <span className="text-xs text-muted-foreground">
+                              {t(`vitalPoints.points.${point.id}.name`)}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 };
