@@ -354,10 +354,14 @@ const VitalPointsQuiz = () => {
                         onChange={(e) => handleAnswerChange(point.id, e.target.value)}
                         disabled={checked}
                         className={cn(
-                          "w-24 md:w-32 text-xs h-6 md:h-7 px-1 md:px-2 py-1 text-center",
-                          checked && correct && "border-green-500 bg-green-50",
-                          checked && correct === false && "border-red-500 bg-red-50"
+                          "w-24 md:w-32 text-xs h-6 md:h-7 px-1 md:px-2 py-1 text-center font-semibold",
+                          !checked && "bg-white/70 backdrop-blur-sm border-2 border-yellow-500",
+                          checked && correct && "border-2 border-green-500 bg-green-100/80 backdrop-blur-sm",
+                          checked && correct === false && "border-2 border-red-500 bg-red-100/80 backdrop-blur-sm"
                         )}
+                        style={{
+                          textShadow: !checked ? '0 0 2px white' : 'none'
+                        }}
                       />
                       {checked && (
                         <div className="flex items-center gap-1 text-xs">
