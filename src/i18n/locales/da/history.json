@@ -1,31 +1,30 @@
 {
   "history": {
     "title": "Historie",
-    "description": "Oprindelse og udvikling af Goju Ryu",
-    "origins": "Oprindelse",
-    "kanryoHigaonna": "Kanryo Higaonna",
-    "chojunMiyagi": "Chojun Miyagi",
-    "anichiMiyagi": "Anichi Miyagi",
-    "morioHigaonna": "Morio Higaonna",
-    "tetsujiNakamura": "Tetsuji Nakamura",
-    "timeline": "Tidslinje",
-    "sections": {
-      "origins": {
-        "title": "Oprindelse",
-        "description": "Hvor det hele begyndte"
-      },
-      "miyagi": {
-        "title": "Chojun Miyagi",
-        "description": "Stifteren af Goju Ryu"
-      },
-      "development": {
-        "title": "Udvikling",
-        "description": "Hvordan stilen udviklede sig"
-      },
-      "spread": {
-        "title": "Udbredelse",
-        "description": "Hvordan Goju Ryu spredte sig"
+    "description": "Oprindelse og udvikling af Goju Ryu Karate",
+    "origins": "Okinawanske Oprindelser",
+    "origins-desc": "Goju-Ryu karate blev udviklet i Okinawa, Japan i begyndelsen af det 20. århundrede af Chojun Miyagi. Navnet 'Goju' kommer fra 'hård-blød' princippet af traditionelle kinesiske kampsport og reflekterer systemets dobbelte natur: det kombinerer hårde slagteknikker med blødere, cirkulære bevægelser til både angreb og forsvar.",
+    "development": "Udvikling",
+    "development-desc": "Væksten og spredningen af Goju Ryu over hele verden",
+    "lineage": "Mestere Linje",
+    "lineage-desc": "De vigtigste lærere og deres bidrag til stilen",
+    "subsections": {
+      "early-history": "Tidlig Historie",
+      "early-history-desc": "Rødderne af Goju Ryu sporer tilbage til kinesiske kampsport og deres integration i okinawansk kultur.",
+      "miyagi-era": "Miyagi Æraen",
+      "miyagi-era-desc": "Chojun Miyagis udvikling og systematisering af Goju Ryu stilen i 1920'erne og 1930'erne.",
+      "post-war": "Efterkrigsperioden",
+      "post-war-desc": "Spredningen og udviklingen af Goju Ryu efter Anden Verdenskrig.",
+      "modern-era": "Moderne Æra",
+      "modern-era-desc": "Den samtidige udvikling og globale spredning af Goju Ryu.",
+      "morioHigaonna": {
+        "title": "Morio Higaonna (1939 - )"
       }
-    }
+    },
+    "kanryoHigaonna": "Kanryo Higaonna (1853-1915)",
+    "chojunMiyagi": "Chojun Miyagi (1888-1953)",
+    "anichiMiyagi": "An'ichi Miyagi (1931-2009)",
+    "tetsujiNakamura": "Tetsuji Nakamura (1965 - )",
+    "timeline": "Tidslinje"
   }
 }

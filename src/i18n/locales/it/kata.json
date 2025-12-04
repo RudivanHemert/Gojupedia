@@ -63,7 +63,7 @@
       }
     },
     "tensho": {
-      "name": "Tensho", 
+      "name": "Tensho",
       "japaneseName": "転掌",
       "meaning": "Palmi Rotanti",
       "description": "Un kata fluido che enfatizza gli aspetti morbidi del Goju Ryu.",
@@ -132,7 +132,33 @@
         "title": "Uso nella Pratica Moderna",
         "content": "Gekisai Dai Ichi è tradizionalmente insegnata come la prima o seconda kata per studenti principianti. È destinata a praticare movimenti di base e ritmo. Nelle kata di competizione (eventi) si verifica raramente perché è abbastanza semplice, ma viene mostrata nelle dimostrazioni e nei piani di lezione del dojo come fondamento. Serve principalmente come ponte alle kata più pesanti (come Sanchin e Tensho) e per condizionamento e allenamento di difesa di base."
       },
-      "stepsCount": "7"
+      "stepsCount": "7",
+      "steps": {
+        "step1": {
+          "title": "Iniziare in posizione naturale",
+          "description": "Iniziare in posizione naturale rivolti in avanti"
+        },
+        "step2": {
+          "title": "Passo in sanchin dachi",
+          "description": "Passo in sanchin dachi con doppio blocco"
+        },
+        "step3": {
+          "title": "Eseguire la sequenza di pugni",
+          "description": "Eseguire la sequenza di pugni"
+        },
+        "step4": {
+          "title": "Eseguire blocchi e contrattacchi",
+          "description": "Eseguire blocchi e contrattacchi ai lati"
+        },
+        "step5": {
+          "title": "Tornare al centro",
+          "description": "Tornare al centro e completare le tecniche finali"
+        },
+        "step6": {
+          "title": "Tornare alla posizione di partenza",
+          "description": "Tornare alla posizione di partenza"
+        }
+      }
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
@@ -396,7 +422,26 @@
       "masters": [
         "Kanryo Higaonna",
         "Chojun Miyagi"
-      ]
+      ],
+      "japaneseName": "壱百零八",
+      "meaning": "108 Mani",
+      "history": "Uno dei kata originali dalla Cina, probabilmente dallo stile Gru Bianca.",
+      "culturalSignificance": "Rappresenta i 108 desideri terreni nel Buddismo.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Gamma completa di tecniche",
+          "description": "Gamma completa di tecniche del Goju Ryu"
+        },
+        "step2": {
+          "title": "Kata più lungo e complesso",
+          "description": "Kata più lungo e complesso"
+        },
+        "step3": {
+          "title": "Incarnazione dei principi duri e morbidi",
+          "description": "Incarnazione dei principi duri e morbidi"
+        }
+      }
     }
   },
   "kataTheoryDetailPage": {
@@ -441,8 +486,6 @@
       "descriptionTitle": "Descrizione",
       "historyTitle": "Storia",
       "culturalSignificanceTitle": "Significato Culturale",
-
-
       "mastersLabel": "Maestri",
       "keyFeaturesLabel": "Caratteristiche Chiave",
       "videoNotAvailable": "Video non disponibile",
@@ -472,6 +515,9 @@
       "title": "Kata Non Trovata",
       "message": "Il kata richiesto non è stato trovato.",
       "backButton": "Torna alla Lista dei Kata"
+    },
+    "video": {
+      "title": "Kata Demonstration"
     }
   }
-} 
+}

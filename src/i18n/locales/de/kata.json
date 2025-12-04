@@ -63,7 +63,7 @@
       }
     },
     "tensho": {
-      "name": "Tensho", 
+      "name": "Tensho",
       "japaneseName": "転掌",
       "meaning": "Rotierende Handflächen",
       "description": "Eine fließende Kata, die die weichen Aspekte des Goju Ryu betont.",
@@ -132,7 +132,33 @@
         "title": "Verwendung in der Modernen Praxis",
         "content": "Gekisai Dai Ichi wird traditionell als erste oder zweite Kata für Anfängerschüler gelehrt. Es ist gedacht, um Grundbewegungen und Rhythmus zu üben. In Wettkampf-Kata (Events) kommt es selten vor, weil es ziemlich einfach ist, aber es wird bei Demonstrationen und in Dojo-Unterrichtsplänen als Fundament gezeigt. Es dient hauptsächlich als Brücke zu den schwereren Kata (wie Sanchin und Tensho) und für Kondition und Grundverteidigungstraining."
       },
-      "stepsCount": "7"
+      "stepsCount": "7",
+      "steps": {
+        "step1": {
+          "title": "In natürlicher Haltung beginnen",
+          "description": "Beginnen Sie in natürlicher Haltung nach vorne gerichtet"
+        },
+        "step2": {
+          "title": "Schritt in Sanchin Dachi",
+          "description": "Schritt in Sanchin Dachi mit Doppelblock"
+        },
+        "step3": {
+          "title": "Schlagsequenz ausführen",
+          "description": "Schlagsequenz ausführen"
+        },
+        "step4": {
+          "title": "Blöcke und Konter ausführen",
+          "description": "Blöcke und Konter zu den Seiten ausführen"
+        },
+        "step5": {
+          "title": "Zurück zur Mitte",
+          "description": "Zurück zur Mitte und finale Techniken abschließen"
+        },
+        "step6": {
+          "title": "Zurück zur Ausgangsposition",
+          "description": "Zurück zur Ausgangsposition"
+        }
+      }
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
@@ -181,7 +207,7 @@
         },
         "step2": {
           "title": "Offene Hand-Blockierung",
-          "description": "Schritt in sanchin dachi mit offener Hand-Blockierung"
+          "description": "Schritt in Sanchin Dachi mit offener Hand-Blockierung"
         },
         "step3": {
           "title": "Schlag- und Block-Serie",
@@ -397,6 +423,29 @@
         "Kanryo Higaonna",
         "Chojun Miyagi"
       ]
+    },
+    "peichurin": {
+      "name": "Peichurin",
+      "japaneseName": "壱百零八",
+      "meaning": "108 Hände",
+      "description": "Die längste und fortgeschrittenste Kata, die den Höhepunkt der Goju Ryu Prinzipien darstellt.",
+      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Weißer-Kranich-Stil.",
+      "culturalSignificance": "Repräsentiert die 108 irdischen Begierden im Buddhismus.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Umfassende Auswahl an Techniken",
+          "description": "Umfassende Auswahl an Goju Ryu Techniken"
+        },
+        "step2": {
+          "title": "Längste und komplexeste Kata",
+          "description": "Längste und komplexeste Kata"
+        },
+        "step3": {
+          "title": "Verkörperung von harten und weichen Prinzipien",
+          "description": "Verkörperung von harten und weichen Prinzipien"
+        }
+      }
     }
   },
   "kataTheoryDetailPage": {
@@ -441,8 +490,6 @@
       "descriptionTitle": "Beschreibung",
       "historyTitle": "Geschichte",
       "culturalSignificanceTitle": "Kulturelle Bedeutung",
-
-
       "mastersLabel": "Meister",
       "keyFeaturesLabel": "Hauptmerkmale",
       "videoNotAvailable": "Video nicht verfügbar",
@@ -472,6 +519,9 @@
       "title": "Kata nicht gefunden",
       "message": "Die angeforderte Kata konnte nicht gefunden werden.",
       "backButton": "Zurück zur Kata-Liste"
+    },
+    "video": {
+      "title": "Kata Demonstration"
     }
   }
-} 
+}

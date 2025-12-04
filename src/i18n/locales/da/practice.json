@@ -1,57 +1,66 @@
 {
   "practice": {
-    "title": "Praktik",
-    "description": "Øv teknikker, kata og bunkai",
-    "overview": "Praktik Oversigt",
-    "pageTitle": "Praktik",
-    "pageDescription": "Teknikker, træning og anvendelse af Goju Ryu Karate",
+    "title": "Træning",
+    "description": "Træningsmetoder og anvendelser",
+    "pageTitle": "Træning",
+    "pageDescription": "Træningsmetoder og anvendelser for Goju Ryu Karate",
     "viewSection": "Se sektion",
-    "aboutTrainingTitle": "Om Praktik Træning",
+    "aboutTrainingTitle": "Om træning",
     "sections": {
       "techniques": {
-        "title": "Teknikker",
         "name": "Teknikker",
-        "description": "Basis og avancerede teknikker af Goju Ryu"
+        "description": "Lær grundlæggende Goju Ryu teknikker"
       },
       "kata": {
-        "title": "Kata",
         "name": "Kata",
-        "description": "Traditionelle former og deres anvendelser"
-      },
-      "bunkai": {
-        "title": "Bunkai",
-        "name": "Bunkai",
-        "description": "Praktiske anvendelser af kata"
+        "description": "Traditionelle former og mønstre"
       },
       "kumite": {
-        "title": "Kumite",
         "name": "Kumite",
-        "description": "Sparring og kampeteknikker"
+        "description": "Sparring og kampteknikker"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Anvendelse og analyse af kata teknikker"
       },
       "hojoUndo": {
-        "title": "Hojo Undo",
         "name": "Hojo Undo",
-        "description": "Traditionelle styrkeopbygningsøvelser"
+        "description": "Supplerende træningsmetoder og værktøjer"
       },
       "newaza": {
-        "title": "Newaza",
         "name": "Newaza",
-        "description": "Jordteknikker og grappling"
-      },
-      "junbiUndo": {
-        "title": "Junbi Undo",
-        "description": "Forberedelsesøvelser"
+        "description": "Bundkampsteknikker og principper"
       }
     },
     "training": {
       "kihon": {
-        "title": "Kihon (基礎)",
-        "description": "Basis teknikker danner grundlaget for al karate træning. Regelmæssig øvelse af kihon udvikler styrke, præcision og kontrol."
+        "title": "Kihon (Grundlæggende)",
+        "description": "Grundlæggende teknikker og bevægelser, der danner grundlaget for karate"
       },
       "kata": {
-        "title": "Kata (型)",
-        "description": "Kata er forudbestemte sekvenser af teknikker der indeholder traditionelle kamp principper og strategier."
+        "title": "Kata (Former)",
+        "description": "Forudbestemte sekvenser af bevægelser, der udvikler teknik, balance og mental fokus"
       }
+    },
+    "techniques": "Teknikker",
+    "techniquesDesc": "Lær grundlæggende Goju Ryu teknikker",
+    "kata": "Kata",
+    "kataDesc": "Traditionelle former og mønstre",
+    "bunkai": "Bunkai",
+    "bunkaiDesc": "Anvendelse og analyse af kata teknikker",
+    "hojoUndo": "Hojo Undo",
+    "hojoUndoDesc": "Supplerende træningsmetoder og værktøjer",
+    "junbiUndo": "Junbi Undo",
+    "junbiUndoDesc": "Foreløbige øvelser og opvarmningsrutiner",
+    "newaza": "Newaza",
+    "newazaDesc": "Bundkampsteknikker og principper",
+    "nav": {
+      "techniques": "Teknikker",
+      "kata": "Kata",
+      "bunkai": "Bunkai",
+      "hojoUndo": "Hojo Undo",
+      "junbiUndo": "Junbi Undo",
+      "newaza": "Newaza"
     }
   }
 }

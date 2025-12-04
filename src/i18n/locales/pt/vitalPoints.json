@@ -11,58 +11,214 @@
       "backViewTitle": "Pontos Vitais - Vista Traseira"
     },
     "points": {
-      "shomon": { "name": "Shomon", "area": "Crânio" },
-      "kasumi": { "name": "Kasumi", "area": "Têmpora" },
-      "komekami": { "name": "Komekami", "area": "Maçã do Rosto" },
-      "jinchu": { "name": "Jinchu", "area": "Filtrum" },
-      "kakon": { "name": "Kakon", "area": "Queixo" },
-      "murasame": { "name": "Murasame", "area": "Clavícula" },
-      "hichu": { "name": "Hichu", "area": "Traqueia" },
-      "danchu": { "name": "Danchu", "area": "Esterno" },
-      "ude-narashi": { "name": "Ude-narashi", "area": "Braço superior" },
-      "ganka": { "name": "Ganka", "area": "Costelas sob o mamilo" },
-      "suigetsu": { "name": "Suigetsu", "area": "Plexo Solar" },
-      "denko": { "name": "Denko", "area": "Costelas" },
-      "soto-shakutaku": { "name": "Soto shakutaku", "area": "Pulso externo" },
-      "shuko": { "name": "Shuko", "area": "Dorso da mão" },
-      "kokotsu": { "name": "Kokotsu", "area": "Canela" },
-      "soin": { "name": "Soin", "area": "Pé" },
-      "kori": { "name": "Kori", "area": "Área ao redor dos dedos" },
-      "uto": { "name": "Uto", "area": "Ponte do nariz" },
-      "kasumi-right": { "name": "Kasumi", "area": "Têmpora" },
-      "seimo": { "name": "Seimo", "area": "Órbita do olho" },
-      "mikazuki": { "name": "Mikazuki", "area": "Mandíbula" },
-      "kyosen": { "name": "Kyosen", "area": "Esterno" },
-      "uchi-shakutaku": { "name": "Uchi shakutaku", "area": "Pulso interno" },
-      "ganka-right": { "name": "Ganka", "area": "Costelas" },
-      "hijitsume": { "name": "Hijitsume", "area": "Interior do cotovelo" },
-      "inazuma": { "name": "Inazuma", "area": "Parede do estômago" },
-      "myosho": { "name": "Myosho", "area": "Área do umbigo" },
-      "tanden": { "name": "Tanden", "area": "Centro de poder" },
-      "kinteki": { "name": "Kinteki", "area": "Virilha" },
-      "yako": { "name": "Yako", "area": "Coxa interna" },
-      "fukuto": { "name": "Fukuto", "area": "Cavidade do joelho" },
-      "naira": { "name": "Naira", "area": "Tendão de Aquiles" },
-      "kori-right": { "name": "Kori", "area": "Área ao redor dos dedos" },
-      "shuko-back": { "name": "Shuko", "area": "Dorso da mão" },
-      "soto-shakutaku-back": { "name": "Soto shakutaku", "area": "Pulso externo" },
-      "ude-narashi-back-1": { "name": "Ude-narashi", "area": "Braço superior" },
-      "wakikage": { "name": "Wakigake", "area": "Sob a axila" },
-      "ushiro-denko-1": { "name": "Ushiro denko", "area": "Área do rim" },
-      "ushiro-denko-2": { "name": "Ushiro denko", "area": "Área do rim" },
-      "bitei": { "name": "Bitei", "area": "Cóccix" },
-      "ein": { "name": "Ein", "area": "Parte inferior das costas" },
-      "ushiro-inazuma": { "name": "Ushiro Inazuma", "area": "Parede do estômago (traseira)" },
-      "soma": { "name": "Soma", "area": "Músculo das costas" },
-      "shomon-back": { "name": "Shomon (traseira)", "area": "Parte traseira do crânio" },
-      "dokusen": { "name": "Dokusen", "area": "Coluna vertebral" },
-      "keichu": { "name": "Keichu", "area": "Pescoço" },
-      "hayauchi": { "name": "Hayauchi", "area": "Parte superior das costas" },
-      "kassatsu": { "name": "Kassatsu", "area": "Costelas traseiras" },
-      "ude-narashi-back-2": { "name": "Ude-narashi (traseira)", "area": "Braço superior (traseira)" },
-      "hijisume-back": { "name": "Hijisume (traseira)", "area": "Cotovelo (traseira)" },
-      "uchi-shakutaku-back": { "name": "Uchi shakutaku (traseira)", "area": "Pulso interno (traseira)" },
-      "hijisume": { "name": "Hijisume", "area": "Cotovelo" }
+      "shomon": {
+        "name": "Shomon",
+        "area": "Crânio"
+      },
+      "kasumi": {
+        "name": "Kasumi",
+        "area": "Têmpora"
+      },
+      "komekami": {
+        "name": "Komekami",
+        "area": "Maçã do Rosto"
+      },
+      "jinchu": {
+        "name": "Jinchu",
+        "area": "Filtrum"
+      },
+      "kakon": {
+        "name": "Kakon",
+        "area": "Queixo"
+      },
+      "murasame": {
+        "name": "Murasame",
+        "area": "Clavícula"
+      },
+      "hichu": {
+        "name": "Hichu",
+        "area": "Traqueia"
+      },
+      "danchu": {
+        "name": "Danchu",
+        "area": "Esterno"
+      },
+      "ude-narashi": {
+        "name": "Ude-narashi",
+        "area": "Braço superior"
+      },
+      "ganka": {
+        "name": "Ganka",
+        "area": "Costelas sob o mamilo"
+      },
+      "suigetsu": {
+        "name": "Suigetsu",
+        "area": "Plexo Solar"
+      },
+      "denko": {
+        "name": "Denko",
+        "area": "Costelas"
+      },
+      "soto-shakutaku": {
+        "name": "Soto shakutaku",
+        "area": "Pulso externo"
+      },
+      "shuko": {
+        "name": "Shuko",
+        "area": "Dorso da mão"
+      },
+      "kokotsu": {
+        "name": "Kokotsu",
+        "area": "Canela"
+      },
+      "soin": {
+        "name": "Soin",
+        "area": "Pé"
+      },
+      "kori": {
+        "name": "Kori",
+        "area": "Área ao redor dos dedos"
+      },
+      "uto": {
+        "name": "Uto",
+        "area": "Ponte do nariz"
+      },
+      "kasumi-right": {
+        "name": "Kasumi",
+        "area": "Têmpora"
+      },
+      "seimo": {
+        "name": "Seimo",
+        "area": "Órbita do olho"
+      },
+      "mikazuki": {
+        "name": "Mikazuki",
+        "area": "Mandíbula"
+      },
+      "kyosen": {
+        "name": "Kyosen",
+        "area": "Esterno"
+      },
+      "uchi-shakutaku": {
+        "name": "Uchi shakutaku",
+        "area": "Pulso interno"
+      },
+      "ganka-right": {
+        "name": "Ganka",
+        "area": "Costelas"
+      },
+      "hijitsume": {
+        "name": "Hijitsume",
+        "area": "Interior do cotovelo"
+      },
+      "inazuma": {
+        "name": "Inazuma",
+        "area": "Parede do estômago"
+      },
+      "myosho": {
+        "name": "Myosho",
+        "area": "Área do umbigo"
+      },
+      "tanden": {
+        "name": "Tanden",
+        "area": "Centro de poder"
+      },
+      "kinteki": {
+        "name": "Kinteki",
+        "area": "Virilha"
+      },
+      "yako": {
+        "name": "Yako",
+        "area": "Coxa interna"
+      },
+      "fukuto": {
+        "name": "Fukuto",
+        "area": "Cavidade do joelho"
+      },
+      "naira": {
+        "name": "Naira",
+        "area": "Tendão de Aquiles"
+      },
+      "kori-right": {
+        "name": "Kori",
+        "area": "Área ao redor dos dedos"
+      },
+      "shuko-back": {
+        "name": "Shuko",
+        "area": "Dorso da mão"
+      },
+      "soto-shakutaku-back": {
+        "name": "Soto shakutaku",
+        "area": "Pulso externo"
+      },
+      "ude-narashi-back-1": {
+        "name": "Ude-narashi",
+        "area": "Braço superior"
+      },
+      "wakikage": {
+        "name": "Wakigake",
+        "area": "Sob a axila"
+      },
+      "ushiro-denko-1": {
+        "name": "Ushiro denko",
+        "area": "Área do rim"
+      },
+      "ushiro-denko-2": {
+        "name": "Ushiro denko",
+        "area": "Área do rim"
+      },
+      "bitei": {
+        "name": "Bitei",
+        "area": "Cóccix"
+      },
+      "ein": {
+        "name": "Ein",
+        "area": "Parte inferior das costas"
+      },
+      "ushiro-inazuma": {
+        "name": "Ushiro Inazuma",
+        "area": "Parede do estômago (traseira)"
+      },
+      "soma": {
+        "name": "Soma",
+        "area": "Músculo das costas"
+      },
+      "shomon-back": {
+        "name": "Shomon (traseira)",
+        "area": "Parte traseira do crânio"
+      },
+      "dokusen": {
+        "name": "Dokusen",
+        "area": "Coluna vertebral"
+      },
+      "keichu": {
+        "name": "Keichu",
+        "area": "Pescoço"
+      },
+      "hayauchi": {
+        "name": "Hayauchi",
+        "area": "Parte superior das costas"
+      },
+      "kassatsu": {
+        "name": "Kassatsu",
+        "area": "Costelas traseiras"
+      },
+      "ude-narashi-back-2": {
+        "name": "Ude-narashi (traseira)",
+        "area": "Braço superior (traseira)"
+      },
+      "hijisume-back": {
+        "name": "Hijisume (traseira)",
+        "area": "Cotovelo (traseira)"
+      },
+      "uchi-shakutaku-back": {
+        "name": "Uchi shakutaku (traseira)",
+        "area": "Pulso interno (traseira)"
+      },
+      "hijisume": {
+        "name": "Hijisume",
+        "area": "Cotovelo"
+      }
     }
   }
 }

@@ -63,7 +63,7 @@
       }
     },
     "tensho": {
-      "name": "Tensho", 
+      "name": "Tensho",
       "japaneseName": "転掌",
       "meaning": "Paumes Rotatives",
       "description": "Un kata fluide qui met l'accent sur les aspects doux du Goju Ryu.",
@@ -132,7 +132,33 @@
         "title": "Utilisation dans la Pratique Moderne",
         "content": "Gekisai Dai Ichi est traditionnellement enseignée comme la première ou deuxième kata pour les étudiants débutants. Elle est destinée à pratiquer les mouvements de base et le rythme. Dans les kata de compétition (événements) elle survient rarement parce qu'elle est assez simple, mais elle est montrée dans les démonstrations et dans les plans de leçon de dojo comme fondation. Elle sert principalement de pont vers les kata plus lourdes (comme Sanchin et Tensho) et pour la condition et l'entraînement de défense de base."
       },
-      "stepsCount": "7"
+      "stepsCount": "7",
+      "steps": {
+        "step1": {
+          "title": "Commencer en position naturelle",
+          "description": "Commencer en position naturelle face à l'avant"
+        },
+        "step2": {
+          "title": "Pas en sanchin dachi",
+          "description": "Pas en sanchin dachi avec double blocage"
+        },
+        "step3": {
+          "title": "Exécuter la séquence de coups de poing",
+          "description": "Exécuter la séquence de coups de poing"
+        },
+        "step4": {
+          "title": "Effectuer des blocages et des contres",
+          "description": "Effectuer des blocages et des contres sur les côtés"
+        },
+        "step5": {
+          "title": "Retour au centre",
+          "description": "Retour au centre et terminer les techniques finales"
+        },
+        "step6": {
+          "title": "Retour à la position de départ",
+          "description": "Retour à la position de départ"
+        }
+      }
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
@@ -386,7 +412,7 @@
       "level": "Maître",
       "category": "Kaishugata",
       "origin": "Province de Fujian, Chine",
-      "duration": "5-7 minutes",
+      "duration": "5-7 minutos",
       "movements": "108 mouvements primaires (symboliques)",
       "keyFeatures": [
         "Représente le nombre 108 (3x36)",
@@ -396,7 +422,26 @@
       "masters": [
         "Kanryo Higaonna",
         "Chojun Miyagi"
-      ]
+      ],
+      "japaneseName": "壱百零八",
+      "meaning": "108 Mains",
+      "history": "Un des kata originaux de Chine, probablement du style Grue Blanche.",
+      "culturalSignificance": "Représente les 108 désirs terrestres dans le Bouddhisme.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Gamme complète de techniques",
+          "description": "Gamme complète de techniques de Goju Ryu"
+        },
+        "step2": {
+          "title": "Kata la plus longue et la plus complexe",
+          "description": "Kata la plus longue et la plus complexe"
+        },
+        "step3": {
+          "title": "Incarnation des principes durs et doux",
+          "description": "Incarnation des principes durs et doux"
+        }
+      }
     }
   },
   "kataTheoryDetailPage": {
@@ -441,8 +486,6 @@
       "descriptionTitle": "Description",
       "historyTitle": "Histoire",
       "culturalSignificanceTitle": "Signification Culturelle",
-
-
       "mastersLabel": "Maîtres",
       "keyFeaturesLabel": "Caractéristiques Clés",
       "videoNotAvailable": "Vidéo non disponible",
@@ -472,6 +515,9 @@
       "title": "Kata Non Trouvée",
       "message": "La kata demandée n'a pas pu être trouvée.",
       "backButton": "Retour à la Liste des Kata"
+    },
+    "video": {
+      "title": "Kata Demonstration"
     }
   }
-} 
+}

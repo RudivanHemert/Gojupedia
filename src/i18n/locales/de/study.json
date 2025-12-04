@@ -28,21 +28,15 @@
     "matchingCardDescription": "Ordnen Sie Begriffe und Konzepte zu",
     "loading": "Lernmaterial wird geladen...",
     "completed": "Lernen abgeschlossen!",
-      "tapToFlip": "Tippen zum Umdrehen",
+    "tapToFlip": "Tippen zum Umdrehen",
     "notFound": {
       "title": "Lernmaterial nicht gefunden",
       "description": "Das angeforderte Lernmaterial konnte nicht gefunden werden."
     },
     "quizDesc": "Testen Sie Ihr Wissen zu verschiedenen Themen.",
-    "flashcards": {
-      "title": "Karteikarten",
-      "description": "Üben Sie Terminologie und Konzepte mit Karteikarten"
-    },
+    "flashcards": "Karteikarten",
     "flashcardDesc": "Üben Sie Terminologie und Konzepte mit Karteikarten.",
-    "matching": {
-      "title": "Zuordnung",
-      "description": "Ordnen Sie Begriffe und Konzepte einander zu"
-    },
+    "matching": "Zuordnung",
     "matchingDesc": "Ordnen Sie Begriffe und Konzepte einander zu.",
     "questions": "Fragen",
     "cards": "Karten",
@@ -50,8 +44,6 @@
     "category": "Kategorie",
     "start": "Start",
     "quiz": "Quiz",
-    "flashcards": "Karteikarten",
-    "matching": "Zuordnung",
     "startQuiz": "Quiz starten",
     "startFlashcards": "Karteikarten starten",
     "startMatching": "Zuordnung starten",
@@ -176,10 +168,9 @@
       "retry": "Wiederholen",
       "next": "Weiter"
     },
-      "question": "Frage {{index}} von {{total}}",
-      "previous": "Zurück",
-      "next": "Weiter",
-      "tapToFlip": "Tippen zum Umdrehen",
+    "question": "Frage {{index}} von {{total}}",
+    "previous": "Zurück",
+    "next": "Weiter",
     "finish": "Beenden",
     "correct": "Richtig!",
     "incorrect": "Falsch!",
@@ -200,13 +191,220 @@
       "progress": "Fortschritt",
       "time": "Lernzeit",
       "goals": "Ziele"
+    },
+    "matchingTypes": {
+      "kata": {
+        "title": "Kata Matching",
+        "description": "Match kata names with their meanings and characteristics."
+      },
+      "terminology": {
+        "title": "Terminology Matching",
+        "description": "Match Japanese terms to their English meanings across categories.",
+        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
+        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
+        "e1": "Fundamental dojo concepts used throughout training."
+      }
+    },
+    "self-control": {
+      "title": "Self-Control Quiz",
+      "description": "Test your knowledge of self-control and emotion regulation."
+    },
+    "kata-basics": {
+      "title": "Kata Basics Quiz",
+      "description": "Test your knowledge of fundamental kata concepts and principles."
+    },
+    "kata-history": {
+      "title": "Kata History Quiz",
+      "description": "Learn about the historical development and origins of kata."
+    },
+    "philosophy-principles": {
+      "title": "Philosophy Principles Quiz",
+      "description": "Test your understanding of Goju Ryu philosophical principles."
+    },
+    "basic-techniques": {
+      "title": "Basic Techniques Quiz",
+      "description": "Test your knowledge of fundamental karate techniques."
+    },
+    "kumite-basics": {
+      "title": "Kumite Basics Quiz",
+      "description": "Test your knowledge of sparring fundamentals."
+    },
+    "history-origins": {
+      "title": "History & Origins Quiz",
+      "description": "Key people, places and origins of Goju Ryu."
+    },
+    "hojo-undo-basics": {
+      "title": "Hojo Undo Basics Quiz",
+      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+    },
+    "newaza-intro": {
+      "title": "Newaza Introduction Quiz",
+      "description": "Fundamental ground positions and control concepts."
+    },
+    "kumite-rules": {
+      "title": "Kumite Rules Quiz",
+      "description": "Scoring, penalties and referee commands."
     }
   },
   "title": "Lernen",
   "description": "Üben und testen Sie Ihr Wissen über Goju Ryu Karate",
   "startQuiz": "Quiz starten",
   "startFlashcards": "Karteikarten starten",
-  "questions": "Fragen",
+  "questions": {
+    "kata-basics-1": {
+      "question": "Was bedeutet 'kata' auf Japanisch?",
+      "option1": "Form",
+      "option2": "Kampf",
+      "option3": "Technik",
+      "option4": "Stil",
+      "correct": "Form",
+      "explanation": "Kata (型) bedeutet 'Form' auf Japanisch und bezieht sich auf die choreografierten Bewegungsmuster."
+    },
+    "kata-basics-2": {
+      "question": "Wie viele Kata gibt es im traditionellen Goju Ryu?",
+      "option1": "8",
+      "option2": "10",
+      "option3": "12",
+      "option4": "15",
+      "correct": "12",
+      "explanation": "Traditionelles Goju Ryu hat 12 Kata: 2 Heishugata (Sanchin, Tensho) und 10 Kaishugata."
+    },
+    "kata-basics-3": {
+      "question": "Was sind die beiden Hauptkategorien von Kata in Goju Ryu?",
+      "option1": "Hart und Weich",
+      "option2": "Heishugata und Kaishugata",
+      "option3": "Grundlegend und Fortgeschritten",
+      "option4": "Alt und Neu",
+      "correct": "Heishugata und Kaishugata",
+      "explanation": "Heishugata (geschlossene Hand) und Kaishugata (offene Hand) sind die beiden Hauptkategorien."
+    },
+    "kata-history-1": {
+      "question": "Wer schuf die Gekisai Kata?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Chojun Miyagi",
+      "option3": "Morio Higaonna",
+      "option4": "Eiichi Miyazato",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi schuf Gekisai Dai Ichi und Gekisai Dai Ni in den 1940er Jahren."
+    },
+    "kata-history-2": {
+      "question": "Was bedeutet 'Sanchin'?",
+      "option1": "Drei Kämpfe",
+      "option2": "Drei Schritte",
+      "option3": "Drei Herzen",
+      "option4": "Drei Geister",
+      "correct": "Drei Kämpfe",
+      "explanation": "Sanchin (三戦) bedeutet 'drei Kämpfe' und bezieht sich auf Geist, Körper und Seele."
+    },
+    "philosophy-1": {
+      "question": "Was bedeutet 'Goju'?",
+      "option1": "Hart-Weich",
+      "option2": "Schnell-Langsam",
+      "option3": "Stark-Schwach",
+      "option4": "Alt-Neu",
+      "correct": "Hart-Weich",
+      "explanation": "Goju (剛柔) bedeutet 'hart-weich' und repräsentiert das Gleichgewicht von harten und weichen Techniken."
+    },
+    "philosophy-2": {
+      "question": "Was ist 'Muchimi'?",
+      "option1": "Atmung",
+      "option2": "Klebrige Hände",
+      "option3": "Fokus",
+      "option4": "Gleichgewicht",
+      "correct": "Klebrige Hände",
+      "explanation": "Muchimi bezieht sich auf die Fähigkeit, Kontakt mit einem Gegner wie klebrige Hände zu halten."
+    },
+    "techniques-1": {
+      "question": "Was ist die grundlegendste Stellung im Karate?",
+      "option1": "Sanchin Dachi",
+      "option2": "Zenkutsu Dachi",
+      "option3": "Hachiji Dachi",
+      "option4": "Kiba Dachi",
+      "correct": "Hachiji Dachi",
+      "explanation": "Hachiji Dachi (natürliche Stellung) ist die grundlegendste Stellung im Karate."
+    },
+    "techniques-2": {
+      "question": "Was bedeutet 'Uke'?",
+      "option1": "Angriff",
+      "option2": "Block",
+      "option3": "Schlag",
+      "option4": "Tritt",
+      "correct": "Block",
+      "explanation": "Uke (受け) bedeutet 'Block' oder 'empfangen' auf Japanisch."
+    },
+    "kumite-1": {
+      "question": "Was bedeutet 'Kumite'?",
+      "option1": "Sparring",
+      "option2": "Kampf",
+      "option3": "Training",
+      "option4": "Wettkampf",
+      "correct": "Sparring",
+      "explanation": "Kumite (組手) bedeutet 'Sparring' oder 'Begegnung der Hände' auf Japanisch."
+    },
+    "kumite-2": {
+      "question": "Was ist 'Ippon Kumite'?",
+      "option1": "Freies Sparring",
+      "option2": "Ein-Schritt Sparring",
+      "option3": "Drei-Schritt Sparring",
+      "option4": "Fünf-Schritt Sparring",
+      "correct": "Ein-Schritt Sparring",
+      "explanation": "Ippon Kumite ist Ein-Schritt Sparring mit vorherbestimmten Angriffen und Verteidigungen."
+    },
+    "history-1": {
+      "question": "Wer gründete Goju Ryu?",
+      "option1": "Chojun Miyagi",
+      "option2": "Kanryo Higaonna",
+      "option3": "Gichin Funakoshi",
+      "option4": "Kenwa Mabuni",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi benannte den Stil Goju Ryu, inspiriert vom Bubishi."
+    },
+    "history-2": {
+      "question": "Welcher Lehrer beeinflusste Chojun Miyagi stark?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Anko Itosu",
+      "option3": "Mabuni Kenwa",
+      "option4": "Motobu Choki",
+      "correct": "Kanryo Higaonna",
+      "explanation": "Miyagi war ein Top-Schüler von Kanryo Higaonna."
+    },
+    "hojo-1": {
+      "question": "Welches Gerät ist ein Steinhebel zur Entwicklung zirkulärer Kraft?",
+      "option1": "Chi-ishi",
+      "option2": "Ishi sashi",
+      "option3": "Nigiri game",
+      "option4": "Kongoken",
+      "correct": "Chi-ishi",
+      "explanation": "Chi-ishi trainiert zirkuläre Kraft sowie Handgelenk-/Unterarmkonditionierung."
+    },
+    "hojo-2": {
+      "question": "Welches Gerät trainiert primär die Griffkraft?",
+      "option1": "Nigiri game",
+      "option2": "Kongoken",
+      "option3": "Ishi sashi",
+      "option4": "Makiwara",
+      "correct": "Nigiri game",
+      "explanation": "Nigiri game Krüge werden zur Entwicklung von Griffkraft und Stand eingesetzt."
+    },
+    "newaza-1": {
+      "question": "Welche Position betont Brust-zu-Brust-Kontrolle von der Seite?",
+      "option1": "Side control",
+      "option2": "Mount",
+      "option3": "Guard",
+      "option4": "Back control",
+      "correct": "Side control",
+      "explanation": "Seitenkontrolle (ähnlich Yoko Shiho) setzt auf Brust-zu-Brust-Druck."
+    },
+    "rules-1": {
+      "question": "Was bedeutet 'Hansoku'?",
+      "option1": "Foul",
+      "option2": "Verlängerungsrunde",
+      "option3": "Unentschieden",
+      "option4": "Halber Punkt",
+      "correct": "Foul",
+      "explanation": "Hansoku ist ein Foul; schwere Verstöße können zur Disqualifikation führen."
+    }
+  },
   "cards": "Karten",
   "category": "Kategorie",
   "difficulty": "Schwierigkeit",
@@ -581,161 +779,6 @@
       "description": "Üben Sie Selbstbeherrschung mit Karteikarten."
     }
   },
-  "questions": {
-    "kata-basics-1": {
-      "question": "Was bedeutet 'kata' auf Japanisch?",
-      "option1": "Form",
-      "option2": "Kampf",
-      "option3": "Technik",
-      "option4": "Stil",
-      "correct": "Form",
-      "explanation": "Kata (型) bedeutet 'Form' auf Japanisch und bezieht sich auf die choreografierten Bewegungsmuster."
-    },
-    "kata-basics-2": {
-      "question": "Wie viele Kata gibt es im traditionellen Goju Ryu?",
-      "option1": "8",
-      "option2": "10",
-      "option3": "12",
-      "option4": "15",
-      "correct": "12",
-      "explanation": "Traditionelles Goju Ryu hat 12 Kata: 2 Heishugata (Sanchin, Tensho) und 10 Kaishugata."
-    },
-    "kata-basics-3": {
-      "question": "Was sind die beiden Hauptkategorien von Kata in Goju Ryu?",
-      "option1": "Hart und Weich",
-      "option2": "Heishugata und Kaishugata",
-      "option3": "Grundlegend und Fortgeschritten",
-      "option4": "Alt und Neu",
-      "correct": "Heishugata und Kaishugata",
-      "explanation": "Heishugata (geschlossene Hand) und Kaishugata (offene Hand) sind die beiden Hauptkategorien."
-    },
-    "kata-history-1": {
-      "question": "Wer schuf die Gekisai Kata?",
-      "option1": "Kanryo Higaonna",
-      "option2": "Chojun Miyagi",
-      "option3": "Morio Higaonna",
-      "option4": "Eiichi Miyazato",
-      "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi schuf Gekisai Dai Ichi und Gekisai Dai Ni in den 1940er Jahren."
-    },
-    "kata-history-2": {
-      "question": "Was bedeutet 'Sanchin'?",
-      "option1": "Drei Kämpfe",
-      "option2": "Drei Schritte",
-      "option3": "Drei Herzen",
-      "option4": "Drei Geister",
-      "correct": "Drei Kämpfe",
-      "explanation": "Sanchin (三戦) bedeutet 'drei Kämpfe' und bezieht sich auf Geist, Körper und Seele."
-    },
-    "philosophy-1": {
-      "question": "Was bedeutet 'Goju'?",
-      "option1": "Hart-Weich",
-      "option2": "Schnell-Langsam",
-      "option3": "Stark-Schwach",
-      "option4": "Alt-Neu",
-      "correct": "Hart-Weich",
-      "explanation": "Goju (剛柔) bedeutet 'hart-weich' und repräsentiert das Gleichgewicht von harten und weichen Techniken."
-    },
-    "philosophy-2": {
-      "question": "Was ist 'Muchimi'?",
-      "option1": "Atmung",
-      "option2": "Klebrige Hände",
-      "option3": "Fokus",
-      "option4": "Gleichgewicht",
-      "correct": "Klebrige Hände",
-      "explanation": "Muchimi bezieht sich auf die Fähigkeit, Kontakt mit einem Gegner wie klebrige Hände zu halten."
-    },
-    "techniques-1": {
-      "question": "Was ist die grundlegendste Stellung im Karate?",
-      "option1": "Sanchin Dachi",
-      "option2": "Zenkutsu Dachi",
-      "option3": "Hachiji Dachi",
-      "option4": "Kiba Dachi",
-      "correct": "Hachiji Dachi",
-      "explanation": "Hachiji Dachi (natürliche Stellung) ist die grundlegendste Stellung im Karate."
-    },
-    "techniques-2": {
-      "question": "Was bedeutet 'Uke'?",
-      "option1": "Angriff",
-      "option2": "Block",
-      "option3": "Schlag",
-      "option4": "Tritt",
-      "correct": "Block",
-      "explanation": "Uke (受け) bedeutet 'Block' oder 'empfangen' auf Japanisch."
-    },
-    "kumite-1": {
-      "question": "Was bedeutet 'Kumite'?",
-      "option1": "Sparring",
-      "option2": "Kampf",
-      "option3": "Training",
-      "option4": "Wettkampf",
-      "correct": "Sparring",
-      "explanation": "Kumite (組手) bedeutet 'Sparring' oder 'Begegnung der Hände' auf Japanisch."
-    },
-    "kumite-2": {
-      "question": "Was ist 'Ippon Kumite'?",
-      "option1": "Freies Sparring",
-      "option2": "Ein-Schritt Sparring",
-      "option3": "Drei-Schritt Sparring",
-      "option4": "Fünf-Schritt Sparring",
-      "correct": "Ein-Schritt Sparring",
-      "explanation": "Ippon Kumite ist Ein-Schritt Sparring mit vorherbestimmten Angriffen und Verteidigungen."
-    },
-    "history-1": {
-      "question": "Wer gründete Goju Ryu?",
-      "option1": "Chojun Miyagi",
-      "option2": "Kanryo Higaonna",
-      "option3": "Gichin Funakoshi",
-      "option4": "Kenwa Mabuni",
-      "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi benannte den Stil Goju Ryu, inspiriert vom Bubishi."
-    },
-    "history-2": {
-      "question": "Welcher Lehrer beeinflusste Chojun Miyagi stark?",
-      "option1": "Kanryo Higaonna",
-      "option2": "Anko Itosu",
-      "option3": "Mabuni Kenwa",
-      "option4": "Motobu Choki",
-      "correct": "Kanryo Higaonna",
-      "explanation": "Miyagi war ein Top-Schüler von Kanryo Higaonna."
-    },
-    "hojo-1": {
-      "question": "Welches Gerät ist ein Steinhebel zur Entwicklung zirkulärer Kraft?",
-      "option1": "Chi-ishi",
-      "option2": "Ishi sashi",
-      "option3": "Nigiri game",
-      "option4": "Kongoken",
-      "correct": "Chi-ishi",
-      "explanation": "Chi-ishi trainiert zirkuläre Kraft sowie Handgelenk-/Unterarmkonditionierung."
-    },
-    "hojo-2": {
-      "question": "Welches Gerät trainiert primär die Griffkraft?",
-      "option1": "Nigiri game",
-      "option2": "Kongoken",
-      "option3": "Ishi sashi",
-      "option4": "Makiwara",
-      "correct": "Nigiri game",
-      "explanation": "Nigiri game Krüge werden zur Entwicklung von Griffkraft und Stand eingesetzt."
-    },
-    "newaza-1": {
-      "question": "Welche Position betont Brust-zu-Brust-Kontrolle von der Seite?",
-      "option1": "Side control",
-      "option2": "Mount",
-      "option3": "Guard",
-      "option4": "Back control",
-      "correct": "Side control",
-      "explanation": "Seitenkontrolle (ähnlich Yoko Shiho) setzt auf Brust-zu-Brust-Druck."
-    },
-    "rules-1": {
-      "question": "Was bedeutet 'Hansoku'?",
-      "option1": "Foul",
-      "option2": "Verlängerungsrunde",
-      "option3": "Unentschieden",
-      "option4": "Halber Punkt",
-      "correct": "Foul",
-      "explanation": "Hansoku ist ein Foul; schwere Verstöße können zur Disqualifikation führen."
-    }
-  },
   "matchingTypes": {
     "kata": {
       "title": "Kata Zuordnung",
@@ -1011,4 +1054,4 @@
       }
     }
   }
-} 
+}

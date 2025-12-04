@@ -1,0 +1,72 @@
+src/components/learning/InteractiveQuiz.tsx(98,9): error TS18048: 'remainingTime' is possibly 'undefined'.
+src/components/learning/TechniqueMatching.tsx(12,62): error TS2339: Property 'name' does not exist on type 'TechniqueData'.
+src/components/learning/TechniqueMatching.tsx(12,90): error TS2339: Property 'name' does not exist on type 'TechniqueData'.
+src/components/practice/InteractiveKataSteps.tsx(44,5): error TS2322: Type '(id: string, type: ProgressItem["type"], progress: number) => number' is not assignable to type '(id: string, type: string, progress: number) => void'.
+  Types of parameters 'type' and 'type' are incompatible.
+    Type 'string' is not assignable to type '"terminology" | "kata" | "technique" | "vitalPoint" | "lesson"'.
+src/data/index.ts(113,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(213,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(245,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(268,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(291,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(315,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(338,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(361,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(384,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(407,5): error TS2353: Object literal may only specify known properties, and 'bunkaiVideoUrl' does not exist in type 'Kata'.
+src/data/index.ts(514,5): error TS2353: Object literal may only specify known properties, and 'tags' does not exist in type 'Article'.
+src/data/index.ts(522,5): error TS2353: Object literal may only specify known properties, and 'tags' does not exist in type 'Article'.
+src/data/index.ts(532,5): error TS2353: Object literal may only specify known properties, and 'relatedKatas' does not exist in type 'Principle'.
+src/data/index.ts(539,5): error TS2353: Object literal may only specify known properties, and 'relatedKatas' does not exist in type 'Principle'.
+src/data/index.ts(546,5): error TS2353: Object literal may only specify known properties, and 'relatedKatas' does not exist in type 'Principle'.
+src/data/index.ts(621,21): error TS2352: Conversion of type 'string' to type 'Record<string, { name: string; japanese?: string | undefined; english: string; }>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/i18n/index.ts(585,32): error TS2339: Property 'kataTheoryDetailPage' does not exist on type '{ kata: { theory: { title: string; description: string; sections: { "what-are-kata": string; "kata-and-karate": string; "bunkai-and-techniques": string; "kata-origins": string; "power-and-movement": string; "sources-of-power": string; "okinawan-concepts": string; "power-transfer": string; "kata-techniques": string; ...'.
+src/i18n/index.ts(586,26): error TS2339: Property 'kataDetailPage' does not exist on type '{ kata: { theory: { title: string; description: string; sections: { "what-are-kata": string; "kata-and-karate": string; "bunkai-and-techniques": string; "kata-origins": string; "power-and-movement": string; "sources-of-power": string; "okinawan-concepts": string; "power-transfer": string; "kata-techniques": string; ...'.
+src/pages/GradingsPage.tsx(185,29): error TS7006: Parameter 'techniquesData' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(188,30): error TS7006: Parameter 'category' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(188,40): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(192,41): error TS7006: Parameter 'technique' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(192,52): error TS7006: Parameter 'techIndex' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(202,28): error TS7006: Parameter 'knowledgeData' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(206,31): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(206,37): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(216,26): error TS7006: Parameter 'historyData' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(220,29): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(220,35): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(228,27): error TS7006: Parameter 'tabId' implicitly has an 'any' type.
+src/pages/GradingsPage.tsx(234,26): error TS7006: Parameter 'count' implicitly has an 'any' type.
+src/pages/KataDetailPage.tsx(204,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(206,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(208,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(210,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(212,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(216,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(221,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(223,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(225,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(227,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(229,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(233,13): error TS2322: Type '{ step: number; title: string; description: string; details: string; }[]' is not assignable to type 'KataStep[]'.
+  Type '{ step: number; title: string; description: string; details: string; }' is missing the following properties from type 'KataStep': id, number
+src/pages/KataDetailPage.tsx(368,30): error TS2339: Property 'bunkaiVideoUrl' does not exist on type 'Kata'.
+src/pages/KataDetailPage.tsx(368,65): error TS2339: Property 'bunkaiVideoUrl' does not exist on type 'Kata'.
+src/pages/KataDetailPage.tsx(466,19): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/pages/MarkdownContentPage.tsx(30,33): error TS2345: Argument of type '[string, string | undefined]' is not assignable to parameter of type '[key: string | string[], options: TOptionsBase & $Dictionary & { defaultValue: string; }] | [key: string | string[], defaultValue: string, options?: (TOptionsBase & $Dictionary) | undefined] | [key: ...]'.
+  Type '[string, string | undefined]' is not assignable to type '[key: string | string[], options?: (TOptionsBase & $Dictionary) | undefined]'.
+    Type at position 1 in source is not compatible with type at position 1 in target.
+      Type 'string | undefined' is not assignable to type '(TOptionsBase & $Dictionary) | undefined'.
+        Type 'string' is not assignable to type 'TOptionsBase & $Dictionary'.
+          Type 'string' is not assignable to type '$Dictionary'.
+src/pages/MarkdownContentPage.tsx(96,10): error TS2304: Cannot find name 'MarkdownRenderer'.

@@ -1,20 +1,32 @@
 {
   "quiz": {
-    "title": "Quiz",
-    "description": "Test din viden",
-    "sections": {
-      "start": {
-        "title": "Start Quiz",
-        "description": "Begynd en ny quiz"
-      },
-      "results": {
-        "title": "Resultater",
-        "description": "Se dine resultater"
-      },
-      "questions": {
-        "title": "Spørgsmål",
-        "description": "Quiz spørgsmål"
-      }
-    }
+    "loading": "Indlæser quiz...",
+    "question": "Spørgsmål",
+    "of": "af",
+    "timeRemaining": "Tid Tilbage",
+    "score": "Score",
+    "points": "point",
+    "correctAnswer": "Korrekt svar",
+    "selectAllThatApply": "Vælg alle der gælder",
+    "typeYourAnswer": "Skriv dit svar her",
+    "checkAnswer": "Tjek Svar",
+    "nextQuestion": "Næste Spørgsmål",
+    "finishQuiz": "Afslut Quiz",
+    "retakeQuiz": "Tag Quiz Igen",
+    "results": "Resultater",
+    "youScored": "Du scorede",
+    "outOf": "ud af",
+    "feedback": {
+      "excellent": "Fremragende! Du har mesteret dette materiale.",
+      "great": "Godt arbejde! Du har en stærk forståelse af indholdet.",
+      "good": "God indsats! Bliv ved med at studere for at forbedre din viden.",
+      "keepPracticing": "Bliv ved med at øve! Gennemgå materialet og prøv igen."
+    },
+    "true": "Sandt",
+    "false": "Falsk",
+    "questionVisual": "Spørgsmål visuel",
+    "quiz": "Quiz",
+    "techniqueQuiz": "Teknik Quiz",
+    "noQuestionsForCategory": "Ingen quiz spørgsmål fundet for kategorien:"
   }
 }

@@ -48,6 +48,7 @@ export interface Kata {
   origin?: string;
   videoUrl?: string;
   bunkai?: string | BunkaiDetail[];
+  bunkaiVideoUrl?: string;
   history?: string;
   culturalSignificance?: string;
   masters?: string[];
@@ -73,6 +74,7 @@ export interface Article {
   image?: string;
   author: string;
   date: string;
+  tags?: string[];
 }
 
 export interface Principle {
@@ -81,6 +83,7 @@ export interface Principle {
   japaneseName?: string;
   description: string;
   explanation: string[];
+  relatedKatas?: string[];
 }
 
 export interface Study {

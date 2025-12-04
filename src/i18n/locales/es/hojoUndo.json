@@ -103,10 +103,22 @@
       "construction": {
         "title": "Construcción",
         "dimensions": {
-          "stickLength": "Recomendado: Ancho de hombros",
-          "stickDiameter": "El grosor determina el efecto del entrenamiento",
-          "stoneDiameter": "No más de 20-30 cm",
-          "stoneHeight": "No más alto que 10-15 cm"
+          "stickLength": {
+            "label": "Stick Length",
+            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+          },
+          "stickDiameter": {
+            "label": "Stick Diameter",
+            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+          },
+          "stoneDiameter": {
+            "label": "Stone Diameter",
+            "value": "No more than 20-30 cm (limited movement space)"
+          },
+          "stoneHeight": {
+            "label": "Stone Height",
+            "value": "No higher than 10-15 cm"
+          }
         },
         "materials": {
           "stone": "Mezcla de hormigón con grava fina",
@@ -201,7 +213,22 @@
         "Caminar con jarras",
         "Movimientos circulares",
         "Movimientos arriba y abajo"
-      ]
+      ],
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Maintain proper grip position",
+          "Focus on finger strength development",
+          "Control breathing during exercises",
+          "Gradual increase in weight and duration"
+        ],
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Avoid overtraining",
+          "Maintain proper form",
+          "Stop if experiencing pain"
+        ]
+      }
     },
     "kongoken": {
       "name": "Kongoken",
@@ -228,10 +255,22 @@
           "Mangos reforzados para agarre seguro"
         ],
         "dimensions": {
-          "length": "60-80 cm",
-          "width": "30-40 cm",
-          "handleDiameter": "3-4 cm",
-          "weight": "30-40 kg"
+          "length": {
+            "label": "Length",
+            "value": "60-80 cm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "30-40 cm"
+          },
+          "handleDiameter": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "30-40 kg"
+          }
         }
       },
       "exercises": [
@@ -247,7 +286,22 @@
         "Comienza con buen calentamiento",
         "Enfoque en técnica de levantamiento correcta",
         "Nunca entrenes solo con pesos pesados"
-      ]
+      ],
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Requires expert guidance",
+          "Proper lifting technique essential",
+          "Gradual progression in weight",
+          "Focus on core engagement"
+        ],
+        "safetyGuidelines": [
+          "Never train alone",
+          "Proper warm-up required",
+          "Stop at any sign of strain",
+          "Use appropriate weight for level"
+        ]
+      }
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
@@ -274,10 +328,22 @@
           "Acabado de superficie lisa"
         ],
         "dimensions": {
-          "body": "15-25 cm de longitud",
-          "handle": "3-4 cm de diámetro",
-          "weight": "2-8 kg dependiendo del nivel",
-          "shape": "Rectangular o cilíndrico"
+          "body": {
+            "label": "Body",
+            "value": "15-25 cm length"
+          },
+          "handle": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "2-8 kg depending on level"
+          },
+          "shape": {
+            "label": "Shape",
+            "value": "Rectangular or cylindrical"
+          }
         }
       },
       "exercises": [
@@ -285,7 +351,22 @@
         "Ejercicios de caminata",
         "Movimientos de levantamiento",
         "Ejercicios de rotación"
-      ]
+      ],
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Maintain proper grip",
+          "Focus on wrist stability",
+          "Control movement precision",
+          "Integrate breathing"
+        ],
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Maintain proper form",
+          "Gradual progression",
+          "Stop if experiencing discomfort"
+        ]
+      }
     },
     "udeTanren": {
       "name": "Ude Tanren",
@@ -308,7 +389,8 @@
     "equipment": "Equipamiento",
     "techniques": "Técnicas",
     "benefits": "Beneficios",
-    "training": "Entrenamiento"
+    "training": "Entrenamiento",
+    "trainingSections": "Training Sections"
   },
   "common": {
     "function": "Función",
@@ -319,7 +401,30 @@
     "safety": "Seguridad",
     "tips": "Consejos",
     "variations": "Variaciones",
-    "applications": "Aplicaciones"
+    "applications": "Aplicaciones",
+    "back": "Back",
+    "mainFunctions": "Main Functions",
+    "trainingEffects": "Training Effects",
+    "dimensions": "Dimensions",
+    "materials": "Materials",
+    "weightRecommendations": "Weight Recommendations",
+    "importantPoints": "Important Points",
+    "breathingTechniques": "Breathing Techniques",
+    "safetyGuidelines": "Safety Guidelines",
+    "basicSeries": "Basic Series",
+    "advancedExercises": "Advanced Exercises",
+    "practicalTips": "Practical Tips",
+    "origin": "Origin",
+    "weight": "Weight",
+    "relatedSections": "Related Sections",
+    "quickAccess": "Quick Access",
+    "viewCompleteOverview": "View Complete Overview",
+    "learnFundamentals": "Learn the fundamentals",
+    "understandingPurpose": "Understanding purpose and function",
+    "buildMaintain": "Build and maintain equipment",
+    "safetyTechnique": "Safety and technique focus",
+    "specificExercises": "Specific exercises and routines",
+    "traditionalStrengthTraining": "Traditional Strength Training"
   },
   "additionalEquipment": {
     "tekkan": "Anillos de hierro",
@@ -370,5 +475,9 @@
     "technical": "Beneficios Técnicos",
     "mental": "Beneficios Mentales",
     "safety": "Beneficios de Seguridad"
+  },
+  "categories": {
+    "introduction": "Introduction",
+    "primaryEquipment": "Primary Equipment"
   }
-} 
+}

@@ -1,7 +1,47 @@
 {
   "practice": {
-    "title": "Oefening",
+    "title": "Praktijk",
     "description": "Trainingsmethoden en toepassingen",
+    "pageTitle": "Praktijk",
+    "pageDescription": "Trainingsmethoden en toepassingen voor Goju Ryu Karate",
+    "viewSection": "Bekijk Sectie",
+    "aboutTrainingTitle": "Over Training",
+    "sections": {
+      "techniques": {
+        "name": "Technieken",
+        "description": "Leer fundamentele Goju Ryu technieken"
+      },
+      "kata": {
+        "name": "Kata",
+        "description": "Traditionele vormen en patronen"
+      },
+      "kumite": {
+        "name": "Kumite",
+        "description": "Sparring en vechttechnieken"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Toepassing en analyse van kata technieken"
+      },
+      "hojoUndo": {
+        "name": "Hojo Undo",
+        "description": "Aanvullende trainingsmethoden en hulpmiddelen"
+      },
+      "newaza": {
+        "name": "Newaza",
+        "description": "Grondvechttechnieken en principes"
+      }
+    },
+    "training": {
+      "kihon": {
+        "title": "Kihon (Basis)",
+        "description": "Fundamentele technieken en bewegingen die de basis van karate vormen"
+      },
+      "kata": {
+        "title": "Kata (Vormen)",
+        "description": "Vooraf bepaalde bewegingsreeksen die techniek, balans en mentale focus ontwikkelen"
+      }
+    },
     "techniques": "Technieken",
     "techniquesDesc": "Leer fundamentele Goju Ryu technieken",
     "kata": "Kata",
@@ -11,9 +51,9 @@
     "hojoUndo": "Hojo Undo",
     "hojoUndoDesc": "Aanvullende trainingsmethoden en hulpmiddelen",
     "junbiUndo": "Junbi Undo",
-    "junbiUndoDesc": "Voorbereidende oefeningen en opwarmroutines",
+    "junbiUndoDesc": "Voorbereidende oefeningen en opwarmingsroutines",
     "newaza": "Newaza",
-    "newazaDesc": "Grondgevecht technieken en principes",
+    "newazaDesc": "Grondvechttechnieken en principes",
     "nav": {
       "techniques": "Technieken",
       "kata": "Kata",
@@ -23,4 +63,4 @@
       "newaza": "Newaza"
     }
   }
-} 
+}

@@ -14,6 +14,13 @@ import { useProgress } from '@/hooks/useProgress';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
+interface LegacyKataStep {
+  step: number;
+  title: string;
+  description: string;
+  details?: string;
+}
+
 // Import detailed kata steps for all languages
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsEn } from '@/data/gekisai-dai-ichi.en';
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsDe } from '@/data/gekisai-dai-ichi.de';
@@ -97,21 +104,21 @@ const KataDetailPage = () => {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const { markAccessed } = useProgress();
-  
+
   // Get kata data based on ID
   const kata = id ? katas.find(k => k.id === id) : null;
-  
+
   useEffect(() => {
     if (kata) {
       // Mark this kata as accessed for progress tracking
       markAccessed(kata.id, 'kata');
     }
   }, [kata, markAccessed]);
-  
+
   // Get detailed kata steps based on current language
-  const getDetailedSteps = (kataId: string): KataStep[] => {
+  const getDetailedSteps = (kataId: string): KataStep[] | LegacyKataStep[] => {
     const currentLang = i18n.language;
-    
+
     switch (kataId) {
       case 'gekisai-dai-ichi':
         switch (currentLang) {
@@ -282,7 +289,17 @@ const KataDetailPage = () => {
     // First try to get detailed steps
     const detailedSteps = getDetailedSteps(kata.id);
     if (detailedSteps.length > 0) {
-      return detailedSteps;
+      // Check if it's legacy format (has 'step' property instead of 'number' and 'id')
+      const firstStep = detailedSteps[0];
+      if ('step' in firstStep) {
+        return (detailedSteps as LegacyKataStep[]).map(s => ({
+          id: `${kata.id}-step-${s.step}`,
+          number: s.step,
+          title: s.title,
+          description: s.description + (s.details ? `\n\n${s.details}` : ''),
+        }));
+      }
+      return detailedSteps as KataStep[];
     }
 
     // Fallback to translation-based steps
@@ -307,9 +324,9 @@ const KataDetailPage = () => {
     }
 
     if (stepsCount <= 0) {
-        return [];
+      return [];
     }
-    
+
     const translatedSteps: KataStep[] = [];
     for (let i = 0; i < stepsCount; i++) {
       const stepNum = i + 1;
@@ -332,11 +349,11 @@ const KataDetailPage = () => {
     }
     return translatedSteps;
   }, [kata, t]);
-  
+
   if (!kata) {
     return (
       <div className="min-h-screen bg-background">
-        <TheoryHeader 
+        <TheoryHeader
           title={t('kataDetailPage.notFound.title')}
           description={t('kataDetailPage.notFound.message')}
           backUrl="/kata"
@@ -370,17 +387,17 @@ const KataDetailPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t(`kata.${kata.id}.name`)}
         description={t(`kata.${kata.id}.description`)}
         backUrl="/kata"
       />
-      
+
       {/* Content Area */}
       <div className="p-4">
-        <motion.div 
-          initial={{ opacity: 0 }} 
-          animate={{ opacity: 1 }} 
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
           className="w-full"
         >
@@ -419,7 +436,7 @@ const KataDetailPage = () => {
 
 
           </motion.div>
-          
+
           {/* Kata Video Section */}
           {kata.videoUrl && (
             <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
@@ -427,7 +444,7 @@ const KataDetailPage = () => {
                 <CardContent className="pt-6">
                   <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.video.title')}</h2>
                   <div className="aspect-video bg-muted rounded overflow-hidden">
-                    <iframe 
+                    <iframe
                       className="w-full h-full"
                       src={`https://www.youtube.com/embed/${getYouTubeId(kata.videoUrl)}?rel=0&modestbranding=1`}
                       title={`${kata.name} Kata Demonstration`}
@@ -443,12 +460,12 @@ const KataDetailPage = () => {
               </Card>
             </motion.div>
           )}
-          
+
           <hr className="my-8" />
           {/* Steps Section */}
           <motion.div variants={fadeIn} initial="hidden" animate="visible" className="space-y-6">
             <h2 className="text-xl font-semibold mb-2">{t('kataDetailPage.steps.sequenceTitle')}</h2>
-            
+
             {formattedSteps.length === 0 ? (
               <div className="bg-amber-50 border border-amber-200 text-amber-800 p-4 rounded-md">
                 <p className="text-sm font-medium">{t('kataDetailPage.steps.noSteps')}</p>
@@ -461,9 +478,9 @@ const KataDetailPage = () => {
                     {t('kataDetailPage.steps.totalSteps', { count: formattedSteps.length })}
                   </p>
                 </div>
-                <InteractiveKataSteps 
+                <InteractiveKataSteps
                   kataId={kata.id}
-                  kataName={kata.name}
+                  kataName={kata.name || ''}
                   steps={formattedSteps}
                   showImages={false} // Explicitly set showImages to false for kata steps
                 />
@@ -475,7 +492,7 @@ const KataDetailPage = () => {
           <div className="p-4 bg-card rounded-lg shadow">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-semibold">{t('bunkai.title')}</h3>
-              <Link 
+              <Link
                 to={`/bunkai/${kata.id}`}
                 className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors text-sm"
               >
@@ -491,7 +508,7 @@ const KataDetailPage = () => {
                 <CardContent className="pt-6">
                   <h2 className="text-2xl font-semibold mb-3 text-foreground">{t('kataDetailPage.bunkai.videoTitle')}</h2>
                   <div className="aspect-video bg-muted rounded overflow-hidden">
-                    <iframe 
+                    <iframe
                       className="w-full h-full"
                       src={`https://www.youtube.com/embed/${bunkaiVideoId}`}
                       title={t('kataDetailPage.bunkai.videoTitle')}
@@ -556,7 +573,7 @@ const KataDetailPage = () => {
                 <CardContent className="pt-6">
                   <h2 className="text-2xl font-semibold mb-3 text-gray-800">{t('kataDetailPage.shime.videoTitle')}</h2>
                   <div className="relative pt-[56.25%] bg-muted dark:bg-gray-800 rounded overflow-hidden">
-                    <iframe 
+                    <iframe
                       className="absolute inset-0 w-full h-full"
                       src={`https://www.youtube.com/embed/${shimeVideoId}`}
                       title={`${kata.name} Shime Demonstration`}

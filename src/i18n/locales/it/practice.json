@@ -2,6 +2,46 @@
   "practice": {
     "title": "Pratica",
     "description": "Metodi di allenamento e applicazioni",
+    "pageTitle": "Pratica",
+    "pageDescription": "Metodi di allenamento e applicazioni per il Goju Ryu Karate",
+    "viewSection": "Vedi Sezione",
+    "aboutTrainingTitle": "Sull'Allenamento",
+    "sections": {
+      "techniques": {
+        "name": "Tecniche",
+        "description": "Impara le tecniche fondamentali del Goju Ryu"
+      },
+      "kata": {
+        "name": "Kata",
+        "description": "Forme e modelli tradizionali"
+      },
+      "kumite": {
+        "name": "Kumite",
+        "description": "Tecniche di sparring e combattimento"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Applicazione e analisi delle tecniche di kata"
+      },
+      "hojoUndo": {
+        "name": "Hojo Undo",
+        "description": "Metodi e strumenti di allenamento complementari"
+      },
+      "newaza": {
+        "name": "Newaza",
+        "description": "Tecniche e principi di combattimento a terra"
+      }
+    },
+    "training": {
+      "kihon": {
+        "title": "Kihon (Basi)",
+        "description": "Tecniche e movimenti fondamentali che formano la base del karate"
+      },
+      "kata": {
+        "title": "Kata (Forme)",
+        "description": "Sequenze predefinite di movimenti che sviluppano tecnica, equilibrio e concentrazione mentale"
+      }
+    },
     "techniques": "Tecniche",
     "techniquesDesc": "Impara le tecniche fondamentali del Goju Ryu",
     "kata": "Kata",
@@ -9,9 +49,9 @@
     "bunkai": "Bunkai",
     "bunkaiDesc": "Applicazione e analisi delle tecniche di kata",
     "hojoUndo": "Hojo Undo",
-    "hojoUndoDesc": "Metodi di allenamento complementari e strumenti",
+    "hojoUndoDesc": "Metodi e strumenti di allenamento complementari",
     "junbiUndo": "Junbi Undo",
-    "junbiUndoDesc": "Esercizi preparatori e routine di riscaldamento",
+    "junbiUndoDesc": "Esercizi preliminari e routine di riscaldamento",
     "newaza": "Newaza",
     "newazaDesc": "Tecniche e principi di combattimento a terra",
     "nav": {
@@ -23,4 +63,4 @@
       "newaza": "Newaza"
     }
   }
-} 
+}

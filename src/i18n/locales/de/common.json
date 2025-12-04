@@ -27,7 +27,7 @@
       "kata_description": "Traditionelle Formen und ihre Anwendungen",
       "history_name": "Geschichte",
       "history_description": "Die Ursprünge und Entwicklung von Goju Ryu",
-      "philosophy_name": "Philosophie", 
+      "philosophy_name": "Philosophie",
       "philosophy_description": "Grundprinzipien und Werte von Goju Ryu"
     }
   },
@@ -69,6 +69,10 @@
     "studyOverview": "Studienübersicht",
     "quizzes": "Quiz",
     "flashcards": "Karteikarten",
-    "matching": "Zuordnung"
+    "matching": "Zuordnung",
+    "information": "Information",
+    "informationOverview": "Information Overview",
+    "events": "Events",
+    "dojos": "Dojos"
   }
-} 
+}

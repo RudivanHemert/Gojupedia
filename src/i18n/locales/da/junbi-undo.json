@@ -1,39 +1,140 @@
 {
   "junbiUndo": {
     "title": "Junbi Undo",
-    "description": "Forberedelsesøvelser",
-    "intro": "Junbi Undo er en samling af forberedelsesøvelser der hjælper med at udvikle de korrekte åndedrætsteknikker der bruges i Goju Ryu karate.",
-    "sections": {
-      "warmup": {
-        "title": "Opvarmning",
-        "description": "Opvarmningsøvelser"
-      },
-      "stretching": {
-        "title": "Strækning",
-        "description": "Strækkeøvelser"
-      },
-      "conditioning": {
-        "title": "Konditionering",
-        "description": "Konditioneringsøvelser"
-      }
-    },
+    "subtitle": "Forberedelsesøvelser",
+    "description": "Forberedelsesøvelser og opvarmningsrutiner for Goju Ryu karate",
+    "intro": "Disse øvelser forbereder kroppen til træning og bør udføres i begyndelsen af hver træningssession.",
     "junbiUndoSection": {
       "title": "Junbi Undo",
       "subtitle": "Forberedelsesøvelser",
-      "note": "Disse øvelser hjælper med at forberede kroppen og ånden til karate træning."
+      "note": "Hver øvelse bør gentages mindst to gange (undtagen med de yngste studerende, hvor ét sæt af otte for hver øvelse kan være nok)."
     },
     "hojoUndoSection": {
       "title": "Hojo Undo",
-      "subtitle": "Styrkeopbygningsøvelser",
-      "intro": "Hojo Undo øvelser bygger styrke og udholdenhed.",
-      "note": "Disse øvelser kræver regelmæssig praksis for at se resultater."
+      "subtitle": "Supplerende Øvelser",
+      "intro": "Disse supplerende øvelser udvikler specifikke færdigheder og teknikker brugt i Goju Ryu.",
+      "note": "Hver øvelse bør gentages i mindst to sæt af otte-tællinger (undtagen med de yngste studerende, hvor ét sæt af otte for hver øvelse kan være nok)."
     },
     "breathingSection": {
       "title": "Åndedræt",
-      "subtitle": "Åndedrætsteknikker"
+      "subtitle": "Shin Kokyu"
     },
     "exercises": {
-      "instructions": "Instruktioner"
+      "title": "Øvelser",
+      "list": [
+        {
+          "id": "toe_exercises",
+          "name": "Tåøvelser",
+          "description": "Begynd ved at stå i heiko dachi (naturlig stilling) med hænderne på hofterne og fokuser din opmærksomhed på fodsålene (teisoku). Spred tæerne så bredt som muligt og prøv at få så meget overfladekontakt med jorden som du kan.",
+          "instructions": "Fra her løfter du din storetå op og holder i et sekund før du vender den tilbage til jorden, griber gulvet og løfter de mindre tæer op fra jorden. Denne udveksling gentages mindst ti gange.",
+          "image": "page_3_image_1.png"
+        },
+        {
+          "id": "heel_pivots",
+          "name": "Hæl Pivoter",
+          "description": "Hænder på hofterne, hæle sammen, tæer fra hinanden. Løft forfoden af højre fod op fra gulvet og pivot udad på hælen af foden.",
+          "instructions": "To gentagelser hver fod. Denne øvelse øger din bevidsthed om tæerne og forbedrer den generelle fingerfærdighed af storetåen.",
+          "image": "page_6_image_1a.png"
+        },
+        {
+          "id": "ankle_rotation",
+          "name": "Ankel Rotation",
+          "description": "Stå på venstre ben og løft højre knæ så låret er vandret. Dette hjælper med at udvikle balance.",
+          "instructions": "Rotér ankel, først med uret og derefter mod uret. Derefter flipper du den nederste del af benet ud som om du sparker. Gentag dette ved at stå på højre ben og løfte venstre knæ.",
+          "image": "page_5_image_1.png"
+        },
+        {
+          "id": "knee_strikes",
+          "name": "Knæslag",
+          "description": "Hold armhulerne tæt lukket, hold armene ud foran kroppen med håndfladerne åbne og faste.",
+          "instructions": "Springende op fra gulvet med anklerne, skyd knæene, vekselvis, ind i de åbne hænder på en jævn og rytmisk måde og lav så meget påvirkning med håndfladen som muligt.",
+          "image": "page_5_image_2.png"
+        },
+        {
+          "id": "squatting_exercise",
+          "name": "Hukkeøvelse",
+          "description": "Placer fødderne sammen med hælene rørende hinanden og tæerne fra hinanden og lav en V-form med fødderne (musubi dachi).",
+          "instructions": "Læn dig fremad, placer hænderne på knæene. Bøj knæene og sænk kroppen ned i en hukkende stilling, hold ryggen lige og knæene ud til siderne mens hælene forlader gulvet.",
+          "image": "page_6_image_1.png"
+        },
+        {
+          "id": "shiko_stretches",
+          "name": "Shiko Strækninger",
+          "description": "Skridt ud i shiko dachi (lav stilling) og placer hænderne på indersiden af lårene tæt på knæene.",
+          "instructions": "Sænk højre skulder fremad, vend hovedet blidt og kig til venstre. Højre arm skubber nu højre ben bagud mens venstre arm tjekker venstre ben fra at bevæge sig fremad.",
+          "image": "page_7_image_1.png"
+        },
+        {
+          "id": "leg_stretches",
+          "name": "Benstrækninger",
+          "description": "Bliv i shiko dachi, kør begge underarme ned ad indersiden af benene indtil albuerne er lidt over knæene.",
+          "instructions": "Bring en lige tryk på begge ben for at skubbe dem fra hinanden. Med tæerne griber gulvet, hold brystet oppe, så opret som muligt, for at maksimere strækningen på benene.",
+          "image": "page_8_image_1.png"
+        },
+        {
+          "id": "weight_transfer",
+          "name": "Vægt Overførsel",
+          "description": "Læn dig på højre ben og hold venstre ben strakt ud, med foden og tæerne flade på jorden.",
+          "instructions": "Hvile hænderne på knæene og prøv at opretholde et billede af lægmusklerne bliver strækket af din holdning. Uden at løfte kroppen, bevæg dig over på det modsatte ben.",
+          "image": "page_9_image_1.png"
+        },
+        {
+          "id": "hip_rotation",
+          "name": "Hofte Rotation",
+          "description": "Stående i heiko dachi (naturlig stilling) med hænderne hviler let på hofterne, rotér hofterne i en cirkulær handling.",
+          "instructions": "Prøv at holde anklerne og skuldrene på linje og begræns bevægelsen til den centrale del af kroppen og minimer så meget som muligt enhver bevægelse af skuldrene.",
+          "image": "page_10_image_1.png"
+        },
+        {
+          "id": "arm_stretches",
+          "name": "Armstrækninger",
+          "description": "Stående i heiko dachi (naturlig stilling) hold venstre arm i en chudan haito uke (mellemniveau tommelfingerkant hånd blok) holdning.",
+          "instructions": "Støt den ved at placere højre hånd, håndflade vendt ned, under albuen. Derfra inhaler dybt gennem næsen mens du udfører mawashi uke (cirkulær blok).",
+          "image": "page_11_image_1.png"
+        },
+        {
+          "id": "arm_swings",
+          "name": "Arm Sving",
+          "description": "Stå naturligt og sving armene bagud i en stor cirkulær bevægelse.",
+          "instructions": "Begynd langsomt og sving derefter så hurtigt som muligt flere gange. Vend svinget, husk at starte langsomt og slutte hurtigt.",
+          "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Håndled Fleksibilitet",
+          "description": "Bliv i heikodachi (naturlig stilling), placer venstre hånd på siden af kroppen med fingrene peger op.",
+          "instructions": "Fingrene af højre hånd krydser over fronten af fingrene af venstre hånd. Skub langsomt venstre arm ud lige mens du opretholder kontakt med højre hånd.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Næve Formation",
+          "description": "Antag en heiko dachi (naturlig stilling), sørg for at fødderne er lidt bredere end skulderbredde og parallelle.",
+          "instructions": "Hold begge arme i chudan uke (mellemniveau blok) holdning. Uden at løfte dit tyngdepunkt eller skuldrene, stræk armene ud lidt og åbn hænderne og fingrene så bredt som muligt.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Håndflade Tryk",
+          "description": "Stående i heiko dachi, skub håndfladerne af hænderne hårdt sammen og stræk armene ud foran brystet.",
+          "instructions": "Fortsæt med at skubbe hænderne hårdt sammen mens du trækker dem tilbage mod brystet og udånder gennem den åbne mund. Lav en linje mellem begge albuer, prøv at trække håndleddene tilbage lidt ud over den linje.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Hovedbevægelser",
+          "description": "Stående i heiko dachi (naturlig stilling) med hænderne hviler på hofterne, sænk hagen til brystet og inhaler gennem næsen.",
+          "instructions": "Uden at holde åndedrættet, bevæg hovedet langsomt bagud så langt som det vil gå, udånder gennem den åbne mund mens du gør det. Slap af i skuldrene og fokuser sindet på harmonien af åndedrættet og holdningen.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Nakke Strækninger",
+          "description": "Hold hovedet naturligt, inhaler før du sænker hovedet over til en side på en udånding mens du skubber den modsatte skulder ned mod jorden.",
+          "instructions": "Hold dette i kun et sekund før du bevæger hovedet langsomt over til den anden side. Hold kroppen opret og stående i en naturlig holdning, kuppe hænderne over bagsiden af hovedet.",
+          "image": "page_20_image_1.png"
+        }
+      ]
     }
   }
 }

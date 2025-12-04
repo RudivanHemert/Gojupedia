@@ -2,95 +2,97 @@
   "philosophy": {
     "title": "Meijin",
     "subtitle": "名人",
-    "description": "Mester og ekspert",
-    "meaning": "Betydning: 'Mester' eller 'ekspert'",
-    "introduction": "Meijin er en japansk term der betyder 'mester' eller 'ekspert' og repræsenterer den højeste grad af mesterskab i karate. Det handler om at nå til fuld perfektion og mestre alle aspekter af karate.",
+    "description": "Mester person",
+    "meaning": "Betydning: 'Mester person' eller 'ekspert'",
+    "introduction": "Meijin er en japansk term der betyder 'mester person' eller 'ekspert' og repræsenterer en person der har opnået det højeste niveau af mestring i en bestemt kunst eller færdighed, herunder karate. Det handler om at være en sand mester der har nået perfektion i deres praksis.",
     "concepts": {
       "definition": {
         "title": "Definition af Meijin",
-        "description": "Meijin refererer til en mester eller ekspert der har nået den højeste grad af mesterskab i karate. Det handler om at nå til fuld perfektion og mestre alle aspekter af karate.",
-        "master": "Mester: En mester eller ekspert",
-        "expert": "Ekspert: Der har nået den højeste grad",
-        "mastery": "Mesterskab: Af mesterskab i karate",
-        "perfection": "Perfektion: Nå til fuld perfektion",
-        "aspects": "Aspekter: Mestre alle aspekter af karate"
-      },
-      "perfection": {
-        "title": "Perfektion",
-        "description": "Meijin repræsenterer perfektion i karate praksis. Det handler om at mestre alle teknikker til perfektion og nå til fuld forståelse.",
-        "perfection": "Perfektion: Repræsenterer perfektion i karate praksis",
-        "mastery": "Mestring: Mestre alle teknikker til perfektion",
-        "understanding": "Forståelse: Nå til fuld forståelse"
+        "description": "Meijin refererer til en person der har opnået det højeste niveau af mestring i en bestemt kunst eller færdighed, herunder karate. Det handler om at være en sand mester der har nået perfektion i deres praksis.",
+        "person": "Person: En person der har opnået",
+        "level": "Niveau: Det højeste niveau af mestring",
+        "art": "Kunst: I en bestemt kunst eller færdighed",
+        "karate": "Karate: Herunder karate",
+        "perfection": "Perfektion: At være en sand mester der har nået perfektion i deres praksis"
       },
       "mastery": {
-        "title": "Mesterskab",
-        "description": "Meijin repræsenterer fuld mesterskab i karate. Det handler om at mestre alle aspekter af karate og nå til den højeste grad af færdighed.",
-        "mastery": "Mesterskab: Repræsenterer fuld mesterskab i karate",
-        "aspects": "Aspekter: Mestre alle aspekter af karate",
-        "skill": "Færdighed: Nå til den højeste grad af færdighed"
+        "title": "Mestring",
+        "description": "Meijin fokuserer på højeste niveau af mestring i karate. Det handler om at have opnået fuld perfektion i teknikker og principper.",
+        "focus": "Fokus: Fokuserer på højeste niveau af mestring",
+        "karate": "I karate",
+        "perfection": "Perfektion: Har opnået fuld perfektion i teknikker og principper"
+      },
+      "expertise": {
+        "title": "Ekspertise",
+        "description": "Meijin repræsenterer højeste ekspertise i karate. Det handler om at være en sand ekspert på alle områder.",
+        "represents": "Repræsenterer: Højeste ekspertise i karate",
+        "expert": "Ekspert: At være en sand ekspert på alle områder"
       }
     },
     "applications": {
       "karate": {
         "title": "Anvendelse i karate",
-        "description": "I karate er Meijin mål for alle karateka. Det repræsenterer den højeste grad af mesterskab og perfektion.",
-        "goal": "Mål: Mål for alle karateka",
-        "highest": "Højeste: Repræsenterer den højeste grad",
-        "mastery": "Mesterskab: Af mesterskab og perfektion"
+        "description": "I karate bruges Meijin til at anerkende højeste ekspertise. Det sikrer at karateka der har nået det højeste niveau bliver anerkendt.",
+        "used": "Bruges: Til at anerkende højeste ekspertise",
+        "ensures": "Sikrer: At karateka der har nået det højeste niveau bliver anerkendt"
       },
       "techniques": {
         "title": "Teknikker",
-        "description": "Meijin mesterer alle teknikker til perfektion. Det handler om at nå til fuld mesterskab i alle aspekter af karate.",
-        "mastery": "Mestring: Mesterer alle teknikker til perfektion",
-        "full": "Fuld: Nå til fuld mesterskab",
-        "aspects": "Aspekter: I alle aspekter af karate"
+        "description": "Meijin har mesteret alle aspekter af karate teknikker til perfektion. Det handler om at have opnået fuld mestring.",
+        "mastered": "Mesteret: Har mesteret alle aspekter af karate teknikker til perfektion",
+        "full": "Fuld: Har opnået fuld mestring"
       },
       "philosophy": {
         "title": "Filosofi",
-        "description": "Meijin forstår alle filosofiske aspekter af karate. Det handler om at nå til dyb forståelse af karate principper.",
-        "understanding": "Forståelse: Forstår alle filosofiske aspekter",
-        "deep": "Dyb: Nå til dyb forståelse",
-        "principles": "Principper: Af karate principper"
+        "description": "Meijin forstår dybden af karate filosofi fuldt ud. Dette inkluderer alle åndelige og moralske principper.",
+        "understanding": "Forståelse: Forstår dybden af karate filosofi fuldt ud",
+        "all": "Alle: Dette inkluderer alle åndelige og moralske principper"
       }
+    },
+    "importance": {
+      "title": "Vigtigheden af Meijin",
+      "description": "Meijin er afgørende for at anerkende højeste ekspertise i karate. Det sikrer at karateka der har nået det højeste niveau bliver respekteret.",
+      "crucial": "Afgørende: Afgørende for at anerkende højeste ekspertise",
+      "recognition": "Anerkendelse: I karate",
+      "respect": "Respekt: At karateka der har nået det højeste niveau bliver respekteret"
     },
     "development": {
       "title": "Udvikling af Meijin",
-      "description": "Meijin udvikles gennem livslang træning og dedikation. Det kræver fuld dedikation og kontinuerlig forbedring.",
-      "lifelong": "Livslang: Gennem livslang træning",
-      "dedication": "Dedikation: Og dedikation",
-      "full": "Fuld: Kræver fuld dedikation",
-      "improvement": "Forbedring: Og kontinuerlig forbedring"
+      "description": "Meijin udvikles gennem mange årtiers dedikeret træning og fokus på perfektion. Det kræver livslang dedikation og evne til at nå det højeste niveau.",
+      "decades": "Årtier: Mange årtiers dedikeret træning",
+      "perfection": "Perfektion: Fokus på perfektion",
+      "dedication": "Dedikation: Kræver livslang dedikation",
+      "ability": "Evne: Evne til at nå det højeste niveau"
     },
     "benefits": {
-      "perfection": {
-        "title": "Perfektionsfordele",
-        "description": "Meijin sikrer perfektion i karate praksis. Det giver karateka mulighed for at nå til fuld mesterskab.",
-        "ensures": "Sikrer: Sikrer perfektion i karate praksis",
-        "opportunity": "Mulighed: Giver mulighed for at nå til fuld mesterskab"
+      "recognition": {
+        "title": "Anerkendelsesfordele",
+        "description": "Meijin giver anerkendelse for højeste ekspertise. Det sikrer at karateka der har nået det højeste niveau bliver respekteret.",
+        "gives": "Giver: Anerkendelse for højeste ekspertise",
+        "ensures": "Sikrer: At karateka der har nået det højeste niveau bliver respekteret"
       },
       "mastery": {
-        "title": "Mesterskabsfordele",
-        "description": "Meijin sikrer fuld mesterskab i karate. Det giver karateka mulighed for at mestre alle aspekter af karate.",
-        "ensures": "Sikrer: Sikrer fuld mesterskab i karate",
-        "opportunity": "Mulighed: Giver mulighed for at mestre alle aspekter",
-        "karate": "Karate: Af karate"
+        "title": "Mestringsfordele",
+        "description": "Meijin repræsenterer højeste mestring af karate. Det sikrer at teknikker og principper er fuldt mesteret.",
+        "represents": "Repræsenterer: Højeste mestring af karate",
+        "ensures": "Sikrer: At teknikker og principper er fuldt mesteret"
       },
-      "understanding": {
-        "title": "Forståelsesfordele",
-        "description": "Meijin sikrer dyb forståelse af karate. Det giver karateka mulighed for at nå til kerneforståelse.",
-        "ensures": "Sikrer: Sikrer dyb forståelse af karate",
-        "opportunity": "Mulighed: Giver mulighed for at nå til kerneforståelse"
+      "inspiration": {
+        "title": "Inspirationsfordele",
+        "description": "Meijin inspirerer alle karateka. Det sikrer at andre har et mål at stræbe efter.",
+        "inspires": "Inspirerer: Alle karateka",
+        "goal": "Mål: Sikrer at andre har et mål at stræbe efter"
       }
     },
     "conclusion": {
       "title": "Konklusion",
-      "description": "Meijin er det ultimative mål i karate der sikrer fuld mesterskab og perfektion. Genom livslang træning og dedikation kan karateka udvikle denne vigtige evne til at nå til fuld mesterskab i alle aspekter af karate.",
-      "ultimate": "Ultimative: Det ultimative mål i karate",
-      "mastery": "Mesterskab: Sikrer fuld mesterskab og perfektion",
+      "description": "Meijin er det højeste princip i karate der anerkender højeste ekspertise og mestring. Genom mange årtiers dedikeret træning og fokus på perfektion kan karateka udvikle sig til dette respekterede niveau og blive en kilde til inspiration for alle andre.",
+      "highest": "Højeste: Det højeste princip i karate",
+      "recognition": "Anerkendelse: Der anerkender højeste ekspertise og mestring",
       "development": "Udvikling: Kan udvikles gennem træning",
-      "lifelong": "Livslang: Genom livslang træning",
-      "dedication": "Dedikation: Og dedikation",
-      "ability": "Evne: Vigtig evne til at nå til fuld mesterskab"
+      "decades": "Årtier: Mange årtiers dedikeret træning",
+      "perfection": "Perfektion: Og fokus på perfektion",
+      "inspiration": "Inspiration: Blive en kilde til inspiration for alle andre"
     }
   }
 }

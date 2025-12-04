@@ -34,6 +34,27 @@ import secondKyuDataNL from '@/data/graduations/2nd-kyu.nl.json';
 import firstKyuDataNL from '@/data/graduations/1st-kyu.nl.json';
 import shodanDataNL from '@/data/graduations/shodan.nl.json';
 
+interface TechniqueCategory {
+  category: string;
+  techniques: string[];
+}
+
+interface KnowledgeItem {
+  term: string;
+  meaning?: string;
+}
+
+interface GradingData {
+  title: string;
+  requirements: {
+    classes: number;
+    months: number;
+  };
+  techniques: TechniqueCategory[];
+  knowledge?: KnowledgeItem[];
+  history?: string[];
+}
+
 const GradingsPage = () => {
   const [activeTab, setActiveTab] = useState("10th-kyu");
   const { t, i18n } = useTranslation();
@@ -57,7 +78,7 @@ const GradingsPage = () => {
         default: return tenthKyuDataNL;
       }
     }
-    
+
     // Default to English versions
     switch (kyuId) {
       case "10th-kyu": return tenthKyuData;
@@ -76,113 +97,113 @@ const GradingsPage = () => {
   };
 
   const gradingLevels = [
-    { 
-      id: "10th-kyu", 
-      label: "10th Kyu", 
-      color: "bg-white", 
+    {
+      id: "10th-kyu",
+      label: "10th Kyu",
+      color: "bg-white",
       stripes: 1,
-      borderColor: "border-stone-300" 
+      borderColor: "border-stone-300"
     },
-    { 
-      id: "9th-kyu", 
-      label: "9th Kyu", 
-      color: "bg-white", 
+    {
+      id: "9th-kyu",
+      label: "9th Kyu",
+      color: "bg-white",
       stripes: 2,
-      borderColor: "border-stone-300" 
+      borderColor: "border-stone-300"
     },
-    { 
-      id: "8th-kyu", 
-      label: "8th Kyu", 
-      color: "bg-white", 
+    {
+      id: "8th-kyu",
+      label: "8th Kyu",
+      color: "bg-white",
       stripes: 3,
-      borderColor: "border-stone-300" 
+      borderColor: "border-stone-300"
     },
-    { 
-      id: "7th-kyu", 
-      label: "7th Kyu", 
-      color: "bg-[#FFD700]", 
+    {
+      id: "7th-kyu",
+      label: "7th Kyu",
+      color: "bg-[#FFD700]",
       stripes: 0,
-      borderColor: "border-amber-500" 
+      borderColor: "border-amber-500"
     },
-    { 
-      id: "6th-kyu", 
-      label: "6th Kyu", 
-      color: "bg-orange-600", 
+    {
+      id: "6th-kyu",
+      label: "6th Kyu",
+      color: "bg-orange-600",
       stripes: 0,
-      borderColor: "border-orange-700" 
+      borderColor: "border-orange-700"
     },
-    { 
-      id: "5th-kyu", 
-      label: "5th Kyu", 
-      color: "bg-green-700", 
+    {
+      id: "5th-kyu",
+      label: "5th Kyu",
+      color: "bg-green-700",
       stripes: 0,
-      borderColor: "border-green-800" 
+      borderColor: "border-green-800"
     },
-    { 
-      id: "4th-kyu", 
-      label: "4th Kyu", 
-      color: "bg-blue-700", 
+    {
+      id: "4th-kyu",
+      label: "4th Kyu",
+      color: "bg-blue-700",
       stripes: 0,
-      borderColor: "border-blue-800" 
+      borderColor: "border-blue-800"
     },
-    { 
-      id: "3rd-kyu", 
-      label: "3rd Kyu", 
-      color: "bg-amber-800", 
+    {
+      id: "3rd-kyu",
+      label: "3rd Kyu",
+      color: "bg-amber-800",
       stripes: 0,
-      textColor: "text-white", 
-      borderColor: "border-amber-900" 
+      textColor: "text-white",
+      borderColor: "border-amber-900"
     },
-    { 
-      id: "2nd-kyu", 
-      label: "2nd Kyu", 
-      color: "bg-amber-800", 
+    {
+      id: "2nd-kyu",
+      label: "2nd Kyu",
+      color: "bg-amber-800",
       stripes: 1,
-      textColor: "text-white", 
-      borderColor: "border-amber-900" 
+      textColor: "text-white",
+      borderColor: "border-amber-900"
     },
-    { 
-      id: "1st-kyu", 
-      label: "1st Kyu", 
-      color: "bg-amber-800", 
+    {
+      id: "1st-kyu",
+      label: "1st Kyu",
+      color: "bg-amber-800",
       stripes: 2,
-      textColor: "text-white", 
-      borderColor: "border-amber-900" 
+      textColor: "text-white",
+      borderColor: "border-amber-900"
     },
-    { 
-      id: "shodan", 
-      label: "Shodan", 
-      color: "bg-black", 
+    {
+      id: "shodan",
+      label: "Shodan",
+      color: "bg-black",
       stripes: 0,
-      textColor: "text-white", 
-      borderColor: "border-gray-800" 
+      textColor: "text-white",
+      borderColor: "border-gray-800"
     },
   ];
 
   const sections = [
-    { 
-      id: "ranks", 
+    {
+      id: "ranks",
       label: t('graduations.sections.ranks.title'),
       icon: <Award className="h-4 w-4" />
     },
-    { 
-      id: "beltColors", 
+    {
+      id: "beltColors",
       label: t('graduations.sections.beltColors.title'),
       icon: <GraduationCap className="h-4 w-4" />
     },
-    { 
-      id: "titles", 
+    {
+      id: "titles",
       label: t('graduations.sections.titles.title'),
       icon: <Book className="h-4 w-4" />
     },
-    { 
-      id: "gradingSystem", 
+    {
+      id: "gradingSystem",
       label: t('graduations.sections.gradingSystem.title'),
       icon: <Swords className="h-4 w-4" />
     }
   ];
 
-  const renderTechniques = (techniquesData) => {
+  const renderTechniques = (techniquesData: TechniqueCategory[]) => {
     return (
       <div className="space-y-4">
         {techniquesData.map((category, index) => (
@@ -199,7 +220,7 @@ const GradingsPage = () => {
     );
   };
 
-  const renderKnowledge = (knowledgeData) => {
+  const renderKnowledge = (knowledgeData: KnowledgeItem[]) => {
     return (
       <div className="space-y-2">
         <ul className="list-disc list-inside space-y-1 text-muted-foreground">
@@ -213,7 +234,7 @@ const GradingsPage = () => {
     );
   };
 
-  const renderHistory = (historyData) => {
+  const renderHistory = (historyData: string[]) => {
     return (
       <div className="space-y-2">
         <ul className="list-disc list-inside space-y-1 text-muted-foreground">
@@ -225,22 +246,22 @@ const GradingsPage = () => {
     );
   };
 
-  const getGradingData = (tabId) => {
+  const getGradingData = (tabId: string): GradingData => {
     return getKyuData(tabId, i18n.language);
   };
 
   const activeGradingData = getGradingData(activeTab);
 
-  const renderStripes = (count) => {
+  const renderStripes = (count: number) => {
     if (count <= 0) return null;
-    
+
     const stripes = [];
     for (let i = 0; i < count; i++) {
       stripes.push(
-        <div 
-          key={i} 
-          className="w-1.5 h-full bg-black absolute" 
-          style={{ right: `${i * 8 + 4}px` }} 
+        <div
+          key={i}
+          className="w-1.5 h-full bg-black absolute"
+          style={{ right: `${i * 8 + 4}px` }}
         />
       );
     }
@@ -249,7 +270,7 @@ const GradingsPage = () => {
 
   const renderRanks = () => {
     const ranks = t('graduations.sections.ranks', { returnObjects: true }) as any;
-    
+
     if (!ranks || !ranks.kyu || !ranks.dan || !ranks.ranks) {
       return (
         <div className="space-y-6">
@@ -259,7 +280,7 @@ const GradingsPage = () => {
         </div>
       );
     }
-    
+
     return (
       <div className="space-y-6">
         <div className="text-muted-foreground">
@@ -318,7 +339,7 @@ const GradingsPage = () => {
 
   const renderBeltColors = () => {
     const gradingSystem = t('graduations.sections.gradingSystem', { returnObjects: true }) as any;
-    
+
     if (!gradingSystem || !gradingSystem.kyuSystem) {
       return (
         <div className="space-y-6">
@@ -328,7 +349,7 @@ const GradingsPage = () => {
         </div>
       );
     }
-    
+
     return (
       <div className="space-y-6">
         <div className="text-muted-foreground">
@@ -354,7 +375,7 @@ const GradingsPage = () => {
 
   const renderTitles = () => {
     const titles = t('graduations.sections.titles', { returnObjects: true }) as any;
-    
+
     if (!titles || !titles.studentTitles || !titles.instructorTitles || !titles.otherTitles) {
       return (
         <div className="space-y-6">
@@ -364,7 +385,7 @@ const GradingsPage = () => {
         </div>
       );
     }
-    
+
     return (
       <div className="space-y-6">
         <div className="text-muted-foreground">
@@ -456,7 +477,7 @@ const GradingsPage = () => {
 
   const renderGradingSystem = () => {
     const gradingSystem = t('graduations.sections.gradingSystem', { returnObjects: true }) as any;
-    
+
     if (!gradingSystem || !gradingSystem.kyuSystem || !gradingSystem.danSystem) {
       return (
         <div className="space-y-6">
@@ -466,7 +487,7 @@ const GradingsPage = () => {
         </div>
       );
     }
-    
+
     return (
       <div className="space-y-6">
         <div className="text-muted-foreground">
@@ -537,7 +558,7 @@ const GradingsPage = () => {
 
   return (
     <div className="p-4">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('graduations.title')}
         description={t('graduations.description')}
         backUrl="/theory"

@@ -2,14 +2,54 @@
   "practice": {
     "title": "Prática",
     "description": "Métodos de treinamento e aplicações",
+    "pageTitle": "Prática",
+    "pageDescription": "Métodos de treinamento e aplicações para Goju Ryu Karate",
+    "viewSection": "Ver Seção",
+    "aboutTrainingTitle": "Sobre o Treinamento",
+    "sections": {
+      "techniques": {
+        "name": "Técnicas",
+        "description": "Aprenda técnicas fundamentais do Goju Ryu"
+      },
+      "kata": {
+        "name": "Kata",
+        "description": "Formas e padrões tradicionais"
+      },
+      "kumite": {
+        "name": "Kumite",
+        "description": "Técnicas de sparring e luta"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Aplicação e análise de técnicas de kata"
+      },
+      "hojoUndo": {
+        "name": "Hojo Undo",
+        "description": "Métodos e ferramentas de treinamento suplementar"
+      },
+      "newaza": {
+        "name": "Newaza",
+        "description": "Técnicas e princípios de luta no chão"
+      }
+    },
+    "training": {
+      "kihon": {
+        "title": "Kihon (Básicos)",
+        "description": "Técnicas e movimentos fundamentais que formam a base do karate"
+      },
+      "kata": {
+        "title": "Kata (Formas)",
+        "description": "Sequências pré-arranjadas de movimentos que desenvolvem técnica, equilíbrio e foco mental"
+      }
+    },
     "techniques": "Técnicas",
     "techniquesDesc": "Aprenda técnicas fundamentais do Goju Ryu",
     "kata": "Kata",
     "kataDesc": "Formas e padrões tradicionais",
     "bunkai": "Bunkai",
-    "bunkaiDesc": "Aplicação e análise das técnicas do kata",
+    "bunkaiDesc": "Aplicação e análise de técnicas de kata",
     "hojoUndo": "Hojo Undo",
-    "hojoUndoDesc": "Métodos e ferramentas de treinamento complementar",
+    "hojoUndoDesc": "Métodos e ferramentas de treinamento suplementar",
     "junbiUndo": "Junbi Undo",
     "junbiUndoDesc": "Exercícios preliminares e rotinas de aquecimento",
     "newaza": "Newaza",

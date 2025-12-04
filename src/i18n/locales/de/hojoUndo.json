@@ -109,10 +109,22 @@
       "construction": {
         "title": "Konstruktion",
         "dimensions": {
-          "stickLength": "Empfohlen: Schulterbreite",
-          "stickDiameter": "Dicke bestimmt Trainingseffekt",
-          "stoneDiameter": "Nicht mehr als 20-30 cm",
-          "stoneHeight": "Nicht höher als 10-15 cm"
+          "stickLength": {
+            "label": "Stick Length",
+            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+          },
+          "stickDiameter": {
+            "label": "Stick Diameter",
+            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+          },
+          "stoneDiameter": {
+            "label": "Stone Diameter",
+            "value": "No more than 20-30 cm (limited movement space)"
+          },
+          "stoneHeight": {
+            "label": "Stone Height",
+            "value": "No higher than 10-15 cm"
+          }
         },
         "materials": {
           "stone": "Betonmischung mit feinem Kies",
@@ -207,7 +219,22 @@
         "Gehen mit Vasen",
         "Kreisbewegungen",
         "Auf und ab Bewegungen"
-      ]
+      ],
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Maintain proper grip position",
+          "Focus on finger strength development",
+          "Control breathing during exercises",
+          "Gradual increase in weight and duration"
+        ],
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Avoid overtraining",
+          "Maintain proper form",
+          "Stop if experiencing pain"
+        ]
+      }
     },
     "kongoken": {
       "name": "Kongoken",
@@ -234,10 +261,22 @@
           "Verstärkte Griffe für sicheren Halt"
         ],
         "dimensions": {
-          "length": "60-80 cm",
-          "width": "30-40 cm",
-          "handleDiameter": "3-4 cm",
-          "weight": "30-40 kg"
+          "length": {
+            "label": "Length",
+            "value": "60-80 cm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "30-40 cm"
+          },
+          "handleDiameter": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "30-40 kg"
+          }
         }
       },
       "exercises": [
@@ -253,7 +292,22 @@
         "Beginne mit gutem Aufwärmen",
         "Fokus auf korrekte Hebetechnik",
         "Trainiere nie allein mit schweren Gewichten"
-      ]
+      ],
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Requires expert guidance",
+          "Proper lifting technique essential",
+          "Gradual progression in weight",
+          "Focus on core engagement"
+        ],
+        "safetyGuidelines": [
+          "Never train alone",
+          "Proper warm-up required",
+          "Stop at any sign of strain",
+          "Use appropriate weight for level"
+        ]
+      }
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
@@ -280,10 +334,22 @@
           "Glatte Oberflächenveredelung"
         ],
         "dimensions": {
-          "body": "15-25 cm Länge",
-          "handle": "3-4 cm Durchmesser",
-          "weight": "2-8 kg je nach Niveau",
-          "shape": "Rechteckig oder zylindrisch"
+          "body": {
+            "label": "Body",
+            "value": "15-25 cm length"
+          },
+          "handle": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "2-8 kg depending on level"
+          },
+          "shape": {
+            "label": "Shape",
+            "value": "Rectangular or cylindrical"
+          }
         }
       },
       "exercises": [
@@ -291,7 +357,22 @@
         "Gehübungen",
         "Hebebewegungen",
         "Rotationsübungen"
-      ]
+      ],
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Maintain proper grip",
+          "Focus on wrist stability",
+          "Control movement precision",
+          "Integrate breathing"
+        ],
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Maintain proper form",
+          "Gradual progression",
+          "Stop if experiencing discomfort"
+        ]
+      }
     },
     "udeTanren": {
       "name": "Ude Tanren",
@@ -314,7 +395,8 @@
     "equipment": "Ausrüstung",
     "techniques": "Techniken",
     "benefits": "Vorteile",
-    "training": "Training"
+    "training": "Training",
+    "trainingSections": "Training Sections"
   },
   "common": {
     "function": "Funktion",
@@ -325,7 +407,30 @@
     "safety": "Sicherheit",
     "tips": "Tipps",
     "variations": "Variationen",
-    "applications": "Anwendungen"
+    "applications": "Anwendungen",
+    "back": "Back",
+    "mainFunctions": "Main Functions",
+    "trainingEffects": "Training Effects",
+    "dimensions": "Dimensions",
+    "materials": "Materials",
+    "weightRecommendations": "Weight Recommendations",
+    "importantPoints": "Important Points",
+    "breathingTechniques": "Breathing Techniques",
+    "safetyGuidelines": "Safety Guidelines",
+    "basicSeries": "Basic Series",
+    "advancedExercises": "Advanced Exercises",
+    "practicalTips": "Practical Tips",
+    "origin": "Origin",
+    "weight": "Weight",
+    "relatedSections": "Related Sections",
+    "quickAccess": "Quick Access",
+    "viewCompleteOverview": "View Complete Overview",
+    "learnFundamentals": "Learn the fundamentals",
+    "understandingPurpose": "Understanding purpose and function",
+    "buildMaintain": "Build and maintain equipment",
+    "safetyTechnique": "Safety and technique focus",
+    "specificExercises": "Specific exercises and routines",
+    "traditionalStrengthTraining": "Traditional Strength Training"
   },
   "additionalEquipment": {
     "tekkan": "Eiserne Ringe",
@@ -376,5 +481,9 @@
     "technical": "Technische Vorteile",
     "mental": "Mentale Vorteile",
     "safety": "Sicherheitsvorteile"
+  },
+  "categories": {
+    "introduction": "Introduction",
+    "primaryEquipment": "Primary Equipment"
   }
-} 
+}

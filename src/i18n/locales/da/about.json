@@ -1,43 +1,24 @@
 {
   "about": {
-    "title": "Om",
-    "description": "Om Gojupedia og Goju Ryu Karate",
+    "title": "Om GojuPedia",
     "subtitle": "Din komplette kilde til Goju-Ryu Karate viden",
-    "pageTitle": "Om",
-    "pageDescription": "Om Gojupedia og Goju Ryu Karate",
-    "mainDescription": "GojuPedia er en omfattende digital encyklopædi dedikeret til Goju-Ryu Karate-Do. Vores mission er at bevare og gøre autentisk viden og traditionel visdom tilgængelig for karateka på alle niveauer.",
-    "vision": {
-      "title": "Vores Vision",
-      "description": "Vi stræber efter at dokumentere og videregive den rige historie, filosofi og teknikker af Goju-Ryu til fremtidige generationer. Ved at kombinere moderne teknologi med traditionel viden skaber vi en levende kilde til karate visdom."
+    "description": "Skaberen af denne app har gjort sit bedste for at fylde appen med de bedste tilgængelige data fra pålidelige kilder og erfarne karate praktikanter.",
+    "dataQuality": {
+      "title": "Data Kvalitet",
+      "description": "Al information i denne app er blevet omhyggeligt udvalgt og verificeret. Vi stræber efter at give den mest nøjagtige og opdaterede information om Goju-Ryu Karate."
     },
-    "values": {
-      "authenticity": {
-        "title": "Autenticitet",
-        "description": "Alt indhold er baseret på traditionelle kilder og bliver regelmæssigt kontrolleret af erfarne karateka og instruktører."
-      },
-      "community": {
-        "title": "Fællesskab",
-        "description": "Et voksende fællesskab af karateka der samarbejder om at dele og forbedre viden."
-      }
+    "community": {
+      "title": "Fællesskab",
+      "description": "Denne app blev skabt for Goju-Ryu fællesskabet verden over. Vi værdsætter feedback og forslag til at forbedre appen."
     },
     "contact": {
-      "title": "Kontakt & Feedback",
-      "description": "Har du forslag, rettelser eller vil du bidrage til GojuPedia? Vi værdsætter dit input til at forbedre denne kilde.",
-      "email": "contact@gojupedia.com"
+      "title": "Kontakt",
+      "description": "Hvis du gerne vil kontakte app skaberen vedrørende indholdet eller funktionaliteten af denne app, kan du sende en email til:",
+      "feedback": "Vi værdsætter din feedback og vil svare så hurtigt som muligt."
     },
-    "sections": {
-      "gojupedia": {
-        "title": "Om Gojupedia",
-        "description": "En omfattende wiki om Goju Ryu Karate"
-      },
-      "gojuRyu": {
-        "title": "Om Goju Ryu",
-        "description": "Den hårde og bløde vej"
-      },
-      "contact": {
-        "title": "Kontakt",
-        "description": "Få i kontakt med os"
-      }
+    "version": {
+      "title": "Version",
+      "number": "Version 1.0.0"
     }
   }
 }

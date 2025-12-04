@@ -1,49 +1,253 @@
 {
   "graduations": {
-    "title": "Graderinger",
-    "description": "Kyu og dan systemer",
-    "pageTitle": "Graderinger",
-    "pageDescription": "Kyu og dan graderinger for Goju Ryu Karate",
-    "kyuLevels": {
-      "10th": "10. Kyu",
-      "9th": "9. Kyu",
-      "8th": "8. Kyu",
-      "7th": "7. Kyu",
-      "6th": "6. Kyu",
-      "5th": "5. Kyu",
-      "4th": "4. Kyu",
-      "3rd": "3. Kyu",
-      "2nd": "2. Kyu",
-      "1st": "1. Kyu"
-    },
-    "danLevels": {
-      "shodan": "Shodan (1. Dan)",
-      "nidan": "Nidan (2. Dan)",
-      "sandan": "Sandan (3. Dan)",
-      "yondan": "Yondan (4. Dan)",
-      "godan": "Godan (5. Dan)"
-    },
+    "title": "Graderinger & Rækker",
+    "description": "Oversigt over de forskellige bælter, grader og titler inden for Goju Ryu Karate.",
+    "basicRequirements": "Grundlæggende Krav",
+    "minimumClasses": "Minimum Klasser",
+    "monthsTraining": "Måneders Træning",
+    "techniques": "Teknikker",
+    "knowledgeTerminology": "Viden & Terminologi",
+    "history": "Historie",
+    "months": "måneder",
+    "classes": "klasser",
     "sections": {
-      "kyu": {
-        "title": "Kyu Graderinger",
-        "description": "Farvet bælter"
+      "ranks": {
+        "title": "Bælter og Grader",
+        "description": "Graderingssystemet i Goju Ryu Karate",
+        "kyu": {
+          "name": "Kyu",
+          "japanese": "級",
+          "description": "Kyu (farvet bælte, under sort bælte)"
+        },
+        "dan": {
+          "name": "Dan",
+          "japanese": "段",
+          "description": "Dan (sort bælte rækker)"
+        },
+        "ranks": {
+          "shodan": {
+            "name": "Shodan",
+            "japanese": "初段",
+            "description": "Første Dan (første niveau sort bælte)"
+          },
+          "nidan": {
+            "name": "Nidan",
+            "japanese": "二段",
+            "description": "Anden Dan"
+          },
+          "sandan": {
+            "name": "Sandan",
+            "japanese": "三段",
+            "description": "Tredje Dan"
+          },
+          "yondan": {
+            "name": "Yondan",
+            "japanese": "四段",
+            "description": "Fjerde Dan"
+          },
+          "godan": {
+            "name": "Godan",
+            "japanese": "五段",
+            "description": "Femte Dan"
+          },
+          "rokudan": {
+            "name": "Rokudan",
+            "japanese": "六段",
+            "description": "Sjette Dan"
+          },
+          "nanadan": {
+            "name": "Nanadan",
+            "japanese": "七段",
+            "description": "Syvende Dan"
+          },
+          "hachidan": {
+            "name": "Hachidan",
+            "japanese": "八段",
+            "description": "Ottende Dan"
+          },
+          "kudan": {
+            "name": "Kudan",
+            "japanese": "九段",
+            "description": "Niende Dan"
+          },
+          "judan": {
+            "name": "Judan",
+            "japanese": "十段",
+            "description": "Tiende Dan"
+          }
+        }
       },
-      "dan": {
-        "title": "Dan Graderinger",
-        "description": "Sorte bælter"
+      "beltColors": {
+        "title": "Bælte Farver (Kyu Grader)",
+        "description": "De forskellige farver af kyu graderne",
+        "colors": {
+          "white": {
+            "name": "Hvid",
+            "japanese": "白帯",
+            "description": "Begynder - renhed og parathed til at lære"
+          },
+          "yellow": {
+            "name": "Gul",
+            "japanese": "黄帯",
+            "description": "Første skridt - den stigende sol"
+          },
+          "orange": {
+            "name": "Orange",
+            "japanese": "橙帯",
+            "description": "Solen bliver stærkere"
+          },
+          "green": {
+            "name": "Grøn",
+            "japanese": "緑帯",
+            "description": "Vækst og udvikling"
+          },
+          "blue": {
+            "name": "Blå",
+            "japanese": "青帯",
+            "description": "Himmel og dybde"
+          },
+          "brown": {
+            "name": "Brun",
+            "japanese": "茶帯",
+            "description": "Jord og stabilitet"
+          },
+          "black": {
+            "name": "Sort",
+            "japanese": "黒帯",
+            "description": "Modenhed - rejsen er kun lige begyndt"
+          }
+        }
       },
-      "requirements": {
-        "title": "Krav",
-        "description": "Krav til gradering"
+      "titles": {
+        "title": "Titler",
+        "description": "Forskellige titler og grader i karate-verdenen",
+        "studentTitles": {
+          "title": "Elevtitler",
+          "titles": {
+            "mudansha": {
+              "name": "Mudansha",
+              "japanese": "無段者",
+              "description": "Elev uden sort bælte"
+            },
+            "yudansha": {
+              "name": "Yudansha",
+              "japanese": "有段者",
+              "description": "Indehaver af sort bælte"
+            },
+            "karateka": {
+              "name": "Karateka",
+              "japanese": "空手家",
+              "description": "Karateudøver"
+            },
+            "sempai": {
+              "name": "Sempai",
+              "japanese": "先輩",
+              "description": "Senior elev"
+            },
+            "kohai": {
+              "name": "Kohai",
+              "japanese": "後輩",
+              "description": "Junior elev"
+            },
+            "uchiDeshi": {
+              "name": "Uchi Deshi",
+              "japanese": "内弟子",
+              "description": "Indeboende elev"
+            }
+          }
+        },
+        "instructorTitles": {
+          "title": "Instruktørtitler",
+          "titles": {
+            "sensei": {
+              "name": "Sensei",
+              "japanese": "先生",
+              "description": "Lærer"
+            },
+            "shihan": {
+              "name": "Shihan",
+              "japanese": "師範",
+              "description": "Mesterinstruktør, lærernes lærer"
+            },
+            "renshi": {
+              "name": "Renshi",
+              "japanese": "錬士",
+              "description": "Poleret instruktør (undervisningstitel)"
+            },
+            "kyoshi": {
+              "name": "Kyoshi",
+              "japanese": "教士",
+              "description": "Avanceret lærer (undervisningstitel)"
+            },
+            "hanshi": {
+              "name": "Hanshi",
+              "japanese": "範士",
+              "description": "Eksemplarisk lærer, mester (undervisningstitel)"
+            }
+          }
+        },
+        "otherTitles": {
+          "title": "Andre Titler",
+          "titles": {
+            "bushi": {
+              "name": "Bushi",
+              "japanese": "武士",
+              "description": "Stor kampsportsudøver"
+            },
+            "shushin": {
+              "name": "Shushin",
+              "japanese": "主審",
+              "description": "Dommer"
+            },
+            "fukushin": {
+              "name": "Fukushin",
+              "japanese": "副審",
+              "description": "Assisterende dommer"
+            },
+            "kansa": {
+              "name": "Kansa",
+              "japanese": "監査",
+              "description": "Dommer (Kansa)"
+            }
+          }
+        }
+      },
+      "gradingSystem": {
+        "title": "Graderingssystem",
+        "description": "Hvordan graderingssystemet fungerer",
+        "kyuSystem": {
+          "title": "Kyu System",
+          "description": "Kyu-systemet for farvede bælter",
+          "levels": {
+            "10th_kyu": "10. Kyu",
+            "9th_kyu": "9. Kyu",
+            "8th_kyu": "8. Kyu",
+            "7th_kyu": "7. Kyu",
+            "6th_kyu": "6. Kyu",
+            "5th_kyu": "5. Kyu",
+            "4th_kyu": "4. Kyu",
+            "3rd_kyu": "3. Kyu",
+            "2nd_kyu": "2. Kyu",
+            "1st_kyu": "1. Kyu"
+          }
+        },
+        "danSystem": {
+          "title": "Dan System",
+          "description": "Dan-systemet for sorte bælter",
+          "levels": {
+            "shodan": "Shodan",
+            "nidan": "Nidan",
+            "sandan": "Sandan",
+            "yondan": "Yondan",
+            "godan": "Godan",
+            "rokudan": "Rokudan",
+            "nanadan": "Nanadan",
+            "hachidan": "Hachidan",
+            "kudan": "Kudan",
+            "judan": "Judan"
+          }
+        }
       }
-    },
-    "requirements": {
-      "kata": "Kata",
-      "techniques": "Teknikker",
-      "kumite": "Kumite",
-      "theory": "Teori",
-      "time": "Tid",
-      "age": "Alder"
     }
   }
 }

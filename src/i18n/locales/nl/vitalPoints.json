@@ -11,58 +11,214 @@
       "backViewTitle": "Vitale Punten Achteraanzicht"
     },
     "points": {
-      "shomon": { "name": "Shomon", "area": "Schedel" },
-      "kasumi": { "name": "Kasumi", "area": "Slaap" },
-      "komekami": { "name": "Komekami", "area": "Jukbeen" },
-      "jinchu": { "name": "Jinchu", "area": "Filtrum (basis van de neus)" },
-      "kakon": { "name": "Kakon", "area": "Kin" },
-      "murasame": { "name": "Murasame", "area": "Sleutelbeen" },
-      "hichu": { "name": "Hichu", "area": "Luchtpijp" },
-      "danchu": { "name": "Danchu", "area": "Borstbeen" },
-      "ude-narashi": { "name": "Ude-narashi", "area": "Bovenarm" },
-      "ganka": { "name": "Ganka", "area": "Ribben onder tepel" },
-      "suigetsu": { "name": "Suigetsu", "area": "Zonnevlecht" },
-      "denko": { "name": "Denko", "area": "Ribben" },
-      "soto-shakutaku": { "name": "Soto shakutaku", "area": "Buitenste pols" },
-      "shuko": { "name": "Shuko", "area": "Bovenkant hand" },
-      "kokotsu": { "name": "Kokotsu", "area": "Scheenbeen" },
-      "soin": { "name": "Soin", "area": "Wreef" },
-      "kori": { "name": "Kori", "area": "Gebied rond de tenen" },
-      "uto": { "name": "Uto", "area": "Neusbrug" },
-      "kasumi-right": { "name": "Kasumi", "area": "Slaap" },
-      "seimo": { "name": "Seimo", "area": "Oogkas" },
-      "mikazuki": { "name": "Mikazuki", "area": "Kaak" },
-      "kyosen": { "name": "Kyosen", "area": "Borstbeen" },
-      "uchi-shakutaku": { "name": "Uchi shakutaku", "area": "Binnenste pols" },
-      "ganka-right": { "name": "Ganka", "area": "Ribben" },
-      "hijitsume": { "name": "Hijitsume", "area": "Binnenkant elleboog" },
-      "inazuma": { "name": "Inazuma", "area": "Buikwand" },
-      "myosho": { "name": "Myosho", "area": "Navelgebied" },
-      "tanden": { "name": "Tanden", "area": "Krachtcentrum" },
-      "kinteki": { "name": "Kinteki", "area": "Lies" },
-      "yako": { "name": "Yako", "area": "Binnenkant dij" },
-      "fukuto": { "name": "Fukuto", "area": "Knieholte" },
-      "naira": { "name": "Naira", "area": "Achillespees" },
-      "kori-right": { "name": "Kori", "area": "Gebied rond de tenen" },
-      "shuko-back": { "name": "Shuko", "area": "Bovenkant hand" },
-      "soto-shakutaku-back": { "name": "Soto shakutaku", "area": "Buitenste pols" },
-      "ude-narashi-back-1": { "name": "Ude-narashi", "area": "Bovenarm" },
-      "wakikage": { "name": "Wakigake", "area": "Onder oksel" },
-      "ushiro-denko-1": { "name": "Ushiro denko", "area": "Nierstreek" },
-      "ushiro-denko-2": { "name": "Ushiro denko", "area": "Nierstreek" },
-      "bitei": { "name": "Bitei", "area": "Staartbeen" },
-      "ein": { "name": "Ein", "area": "Onderrug" },
-      "ushiro-inazuma": { "name": "Ushiro Inazuma", "area": "Buikwand (achterzijde)" },
-      "soma": { "name": "Soma", "area": "Rugspier" },
-      "shomon-back": { "name": "Shomon (achterzijde)", "area": "Achterzijde schedel" },
-      "dokusen": { "name": "Dokusen", "area": "Wervelkolom" },
-      "keichu": { "name": "Keichu", "area": "Nek" },
-      "hayauchi": { "name": "Hayauchi", "area": "Bovenrug" },
-      "kassatsu": { "name": "Kassatsu", "area": "Rugzijde ribben" },
-      "ude-narashi-back-2": { "name": "Ude-narashi (achterzijde)", "area": "Bovenarm (achterzijde)" },
-      "hijisume-back": { "name": "Hijisume (achterzijde)", "area": "Elleboog (achterzijde)" },
-      "uchi-shakutaku-back": { "name": "Uchi shakutaku (achterzijde)", "area": "Binnenste pols (achterzijde)" },
-      "hijisume": { "name": "Hijisume", "area": "Elleboog" }
+      "shomon": {
+        "name": "Shomon",
+        "area": "Schedel"
+      },
+      "kasumi": {
+        "name": "Kasumi",
+        "area": "Slaap"
+      },
+      "komekami": {
+        "name": "Komekami",
+        "area": "Jukbeen"
+      },
+      "jinchu": {
+        "name": "Jinchu",
+        "area": "Filtrum (basis van de neus)"
+      },
+      "kakon": {
+        "name": "Kakon",
+        "area": "Kin"
+      },
+      "murasame": {
+        "name": "Murasame",
+        "area": "Sleutelbeen"
+      },
+      "hichu": {
+        "name": "Hichu",
+        "area": "Luchtpijp"
+      },
+      "danchu": {
+        "name": "Danchu",
+        "area": "Borstbeen"
+      },
+      "ude-narashi": {
+        "name": "Ude-narashi",
+        "area": "Bovenarm"
+      },
+      "ganka": {
+        "name": "Ganka",
+        "area": "Ribben onder tepel"
+      },
+      "suigetsu": {
+        "name": "Suigetsu",
+        "area": "Zonnevlecht"
+      },
+      "denko": {
+        "name": "Denko",
+        "area": "Ribben"
+      },
+      "soto-shakutaku": {
+        "name": "Soto shakutaku",
+        "area": "Buitenste pols"
+      },
+      "shuko": {
+        "name": "Shuko",
+        "area": "Bovenkant hand"
+      },
+      "kokotsu": {
+        "name": "Kokotsu",
+        "area": "Scheenbeen"
+      },
+      "soin": {
+        "name": "Soin",
+        "area": "Wreef"
+      },
+      "kori": {
+        "name": "Kori",
+        "area": "Gebied rond de tenen"
+      },
+      "uto": {
+        "name": "Uto",
+        "area": "Neusbrug"
+      },
+      "kasumi-right": {
+        "name": "Kasumi",
+        "area": "Slaap"
+      },
+      "seimo": {
+        "name": "Seimo",
+        "area": "Oogkas"
+      },
+      "mikazuki": {
+        "name": "Mikazuki",
+        "area": "Kaak"
+      },
+      "kyosen": {
+        "name": "Kyosen",
+        "area": "Borstbeen"
+      },
+      "uchi-shakutaku": {
+        "name": "Uchi shakutaku",
+        "area": "Binnenste pols"
+      },
+      "ganka-right": {
+        "name": "Ganka",
+        "area": "Ribben"
+      },
+      "hijitsume": {
+        "name": "Hijitsume",
+        "area": "Binnenkant elleboog"
+      },
+      "inazuma": {
+        "name": "Inazuma",
+        "area": "Buikwand"
+      },
+      "myosho": {
+        "name": "Myosho",
+        "area": "Navelgebied"
+      },
+      "tanden": {
+        "name": "Tanden",
+        "area": "Krachtcentrum"
+      },
+      "kinteki": {
+        "name": "Kinteki",
+        "area": "Lies"
+      },
+      "yako": {
+        "name": "Yako",
+        "area": "Binnenkant dij"
+      },
+      "fukuto": {
+        "name": "Fukuto",
+        "area": "Knieholte"
+      },
+      "naira": {
+        "name": "Naira",
+        "area": "Achillespees"
+      },
+      "kori-right": {
+        "name": "Kori",
+        "area": "Gebied rond de tenen"
+      },
+      "shuko-back": {
+        "name": "Shuko",
+        "area": "Bovenkant hand"
+      },
+      "soto-shakutaku-back": {
+        "name": "Soto shakutaku",
+        "area": "Buitenste pols"
+      },
+      "ude-narashi-back-1": {
+        "name": "Ude-narashi",
+        "area": "Bovenarm"
+      },
+      "wakikage": {
+        "name": "Wakigake",
+        "area": "Onder oksel"
+      },
+      "ushiro-denko-1": {
+        "name": "Ushiro denko",
+        "area": "Nierstreek"
+      },
+      "ushiro-denko-2": {
+        "name": "Ushiro denko",
+        "area": "Nierstreek"
+      },
+      "bitei": {
+        "name": "Bitei",
+        "area": "Staartbeen"
+      },
+      "ein": {
+        "name": "Ein",
+        "area": "Onderrug"
+      },
+      "ushiro-inazuma": {
+        "name": "Ushiro Inazuma",
+        "area": "Buikwand (achterzijde)"
+      },
+      "soma": {
+        "name": "Soma",
+        "area": "Rugspier"
+      },
+      "shomon-back": {
+        "name": "Shomon (achterzijde)",
+        "area": "Achterzijde schedel"
+      },
+      "dokusen": {
+        "name": "Dokusen",
+        "area": "Wervelkolom"
+      },
+      "keichu": {
+        "name": "Keichu",
+        "area": "Nek"
+      },
+      "hayauchi": {
+        "name": "Hayauchi",
+        "area": "Bovenrug"
+      },
+      "kassatsu": {
+        "name": "Kassatsu",
+        "area": "Rugzijde ribben"
+      },
+      "ude-narashi-back-2": {
+        "name": "Ude-narashi (achterzijde)",
+        "area": "Bovenarm (achterzijde)"
+      },
+      "hijisume-back": {
+        "name": "Hijisume (achterzijde)",
+        "area": "Elleboog (achterzijde)"
+      },
+      "uchi-shakutaku-back": {
+        "name": "Uchi shakutaku (achterzijde)",
+        "area": "Binnenste pols (achterzijde)"
+      },
+      "hijisume": {
+        "name": "Hijisume",
+        "area": "Elleboog"
+      }
     }
   }
-} 
+}

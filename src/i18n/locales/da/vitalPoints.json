@@ -1,19 +1,223 @@
 {
   "vitalPoints": {
     "title": "Vitale Punkter",
-    "description": "Kyusho og pressepunkter",
-    "sections": {
-      "front": {
-        "title": "Front",
-        "description": "Frontale vitale punkter"
+    "description": "Studie af pressepunkter og sårbare områder",
+    "interactive": {
+      "showLabels": "Vis Labels",
+      "closeDetails": "Luk Detaljer",
+      "frontViewTab": "Frontvisning",
+      "backViewTab": "Rygvisning",
+      "frontViewTitle": "Frontvisning Vitale Punkter",
+      "backViewTitle": "Rygvisning Vitale Punkter"
+    },
+    "points": {
+      "shomon": {
+        "name": "Shomon",
+        "area": "Kranie"
       },
-      "back": {
-        "title": "Ryg",
-        "description": "Ryg vitale punkter"
+      "kasumi": {
+        "name": "Kasumi",
+        "area": "Tinding"
       },
-      "techniques": {
-        "title": "Teknikker",
-        "description": "Teknikker til vitale punkter"
+      "komekami": {
+        "name": "Komekami",
+        "area": "Kindben"
+      },
+      "jinchu": {
+        "name": "Jinchu",
+        "area": "Philtrum"
+      },
+      "kakon": {
+        "name": "Kakon",
+        "area": "Hage"
+      },
+      "murasame": {
+        "name": "Murasame",
+        "area": "Kraveben"
+      },
+      "hichu": {
+        "name": "Hichu",
+        "area": "Luftrør"
+      },
+      "danchu": {
+        "name": "Danchu",
+        "area": "Brystben"
+      },
+      "ude-narashi": {
+        "name": "Ude-narashi",
+        "area": "Overarm"
+      },
+      "ganka": {
+        "name": "Ganka",
+        "area": "Ribben under brystvorte"
+      },
+      "suigetsu": {
+        "name": "Suigetsu",
+        "area": "Solar Plexus"
+      },
+      "denko": {
+        "name": "Denko",
+        "area": "Ribben"
+      },
+      "soto-shakutaku": {
+        "name": "Soto shakutaku",
+        "area": "Ydre håndled"
+      },
+      "shuko": {
+        "name": "Shuko",
+        "area": "Bagsiden af hånden"
+      },
+      "kokotsu": {
+        "name": "Kokotsu",
+        "area": "Skinneben"
+      },
+      "soin": {
+        "name": "Soin",
+        "area": "Vrist"
+      },
+      "kori": {
+        "name": "Kori",
+        "area": "Område omkring tæer"
+      },
+      "uto": {
+        "name": "Uto",
+        "area": "Næsebro"
+      },
+      "kasumi-right": {
+        "name": "Kasumi",
+        "area": "Tinding"
+      },
+      "seimo": {
+        "name": "Seimo",
+        "area": "Øjenhule"
+      },
+      "mikazuki": {
+        "name": "Mikazuki",
+        "area": "Kæbe"
+      },
+      "kyosen": {
+        "name": "Kyosen",
+        "area": "Brystben"
+      },
+      "uchi-shakutaku": {
+        "name": "Uchi shakutaku",
+        "area": "Indre håndled"
+      },
+      "ganka-right": {
+        "name": "Ganka",
+        "area": "Ribben"
+      },
+      "hijitsume": {
+        "name": "Hijitsume",
+        "area": "Indersiden af albue"
+      },
+      "inazuma": {
+        "name": "Inazuma",
+        "area": "Mavemuskel"
+      },
+      "myosho": {
+        "name": "Myosho",
+        "area": "Navleområde"
+      },
+      "tanden": {
+        "name": "Tanden",
+        "area": "Styrke center"
+      },
+      "kinteki": {
+        "name": "Kinteki",
+        "area": "Skridt"
+      },
+      "yako": {
+        "name": "Yako",
+        "area": "Indre lår"
+      },
+      "fukuto": {
+        "name": "Fukuto",
+        "area": "Knehule"
+      },
+      "naira": {
+        "name": "Naira",
+        "area": "Akillessene"
+      },
+      "kori-right": {
+        "name": "Kori",
+        "area": "Område omkring tæer"
+      },
+      "shuko-back": {
+        "name": "Shuko",
+        "area": "Bagsiden af hånden"
+      },
+      "soto-shakutaku-back": {
+        "name": "Soto shakutaku",
+        "area": "Ydre håndled"
+      },
+      "ude-narashi-back-1": {
+        "name": "Ude-narashi",
+        "area": "Overarm"
+      },
+      "wakikage": {
+        "name": "Wakigake",
+        "area": "Under armhule"
+      },
+      "ushiro-denko-1": {
+        "name": "Ushiro denko",
+        "area": "Nyreområde"
+      },
+      "ushiro-denko-2": {
+        "name": "Ushiro denko",
+        "area": "Nyreområde"
+      },
+      "bitei": {
+        "name": "Bitei",
+        "area": "Haleben"
+      },
+      "ein": {
+        "name": "Ein",
+        "area": "Nederste del af ryg"
+      },
+      "ushiro-inazuma": {
+        "name": "Ushiro Inazuma",
+        "area": "Mavemuskel (ryg)"
+      },
+      "soma": {
+        "name": "Soma",
+        "area": "Rygmuskel"
+      },
+      "shomon-back": {
+        "name": "Shomon (ryg)",
+        "area": "Bagsiden af kranie"
+      },
+      "dokusen": {
+        "name": "Dokusen",
+        "area": "Ryg"
+      },
+      "keichu": {
+        "name": "Keichu",
+        "area": "Nakke"
+      },
+      "hayauchi": {
+        "name": "Hayauchi",
+        "area": "Øverste del af ryg"
+      },
+      "kassatsu": {
+        "name": "Kassatsu",
+        "area": "Ryg ribben"
+      },
+      "ude-narashi-back-2": {
+        "name": "Ude-narashi (ryg)",
+        "area": "Overarm (ryg)"
+      },
+      "hijisume-back": {
+        "name": "Hijisume (ryg)",
+        "area": "Albue (ryg)"
+      },
+      "uchi-shakutaku-back": {
+        "name": "Uchi shakutaku (ryg)",
+        "area": "Indre håndled (ryg)"
+      },
+      "hijisume": {
+        "name": "Hijisume",
+        "area": "Albue"
       }
     }
   }

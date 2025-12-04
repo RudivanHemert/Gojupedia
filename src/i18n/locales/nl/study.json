@@ -60,23 +60,74 @@
     "previous": "Vorige",
     "next": "Volgende",
     "quizTypes": {
-      "stances": { "title": "Standen Quiz", "description": "Test je kennis van karate standen en posities." },
-      "kicks": { "title": "Trappen Quiz", "description": "Test je kennis van karate traptechnieken." },
-      "punches": { "title": "Stoten Quiz", "description": "Test je kennis van karate stoottechnieken." },
-      "blocks": { "title": "Blokkeringen Quiz", "description": "Test je kennis van karate blokkeringstechnieken." },
-      "common": { "title": "Algemene Termen Quiz", "description": "Test je kennis van algemene terminologie." },
-      "strikes": { "title": "Slagtechnieken Quiz", "description": "Test je kennis van slag- en stoottechnieken." },
-      "ranks": { "title": "Rangen Quiz", "description": "Test je kennis van rangen en graden." },
-      "kata-specific": { "title": "Kata-specifieke Termen Quiz", "description": "Test je kennis van kata-specifieke terminologie." },
-      "body-parts": { "title": "Lichaamsdelen Quiz", "description": "Test je kennis van Japanse lichaamsdelen gebruikt in karate." },
-      "commands": { "title": "Commando's Quiz", "description": "Test je kennis van Japanse commando's gebruikt in karate." },
-      "numbers": { "title": "Nummers Quiz", "description": "Test je kennis van Japanse nummers gebruikt in karate." },
-      "weapons": { "title": "Wapens Quiz", "description": "Test je kennis van karate wapens en hulpmiddelen." },
-      "concepts": { "title": "Concepten Quiz", "description": "Test je kennis van karate concepten en principes." },
-      "dojo": { "title": "Dojo Quiz", "description": "Test je kennis van dojo organisatie en structuur." },
-      "kata": { "title": "Kata Quiz", "description": "Test je kennis van Goju Ryu kata namen en betekenissen." },
-      "philosophy": { "title": "Filosofie Quiz", "description": "Test je kennis van Goju Ryu filosofische concepten en principes." },
-      "kumite": { "title": "Kumite Quiz", "description": "Test je kennis van kumite." },
+      "stances": {
+        "title": "Standen Quiz",
+        "description": "Test je kennis van karate standen en posities."
+      },
+      "kicks": {
+        "title": "Trappen Quiz",
+        "description": "Test je kennis van karate traptechnieken."
+      },
+      "punches": {
+        "title": "Stoten Quiz",
+        "description": "Test je kennis van karate stoottechnieken."
+      },
+      "blocks": {
+        "title": "Blokkeringen Quiz",
+        "description": "Test je kennis van karate blokkeringstechnieken."
+      },
+      "common": {
+        "title": "Algemene Termen Quiz",
+        "description": "Test je kennis van algemene terminologie."
+      },
+      "strikes": {
+        "title": "Slagtechnieken Quiz",
+        "description": "Test je kennis van slag- en stoottechnieken."
+      },
+      "ranks": {
+        "title": "Rangen Quiz",
+        "description": "Test je kennis van rangen en graden."
+      },
+      "kata-specific": {
+        "title": "Kata-specifieke Termen Quiz",
+        "description": "Test je kennis van kata-specifieke terminologie."
+      },
+      "body-parts": {
+        "title": "Lichaamsdelen Quiz",
+        "description": "Test je kennis van Japanse lichaamsdelen gebruikt in karate."
+      },
+      "commands": {
+        "title": "Commando's Quiz",
+        "description": "Test je kennis van Japanse commando's gebruikt in karate."
+      },
+      "numbers": {
+        "title": "Nummers Quiz",
+        "description": "Test je kennis van Japanse nummers gebruikt in karate."
+      },
+      "weapons": {
+        "title": "Wapens Quiz",
+        "description": "Test je kennis van karate wapens en hulpmiddelen."
+      },
+      "concepts": {
+        "title": "Concepten Quiz",
+        "description": "Test je kennis van karate concepten en principes."
+      },
+      "dojo": {
+        "title": "Dojo Quiz",
+        "description": "Test je kennis van dojo organisatie en structuur."
+      },
+      "kata": {
+        "title": "Kata Quiz",
+        "description": "Test je kennis van Goju Ryu kata namen en betekenissen."
+      },
+      "philosophy": {
+        "title": "Filosofie Quiz",
+        "description": "Test je kennis van Goju Ryu filosofische concepten en principes."
+      },
+      "kumite": {
+        "title": "Kumite Quiz",
+        "description": "Test je kennis van kumite."
+      },
       "history-origins": {
         "title": "Geschiedenis & Oorsprong Quiz",
         "description": "Belangrijke personen, plaatsen en oorsprong van Goju Ryu."
@@ -95,22 +146,64 @@
       }
     },
     "flashcardTypes": {
-      "stances": { "title": "Standen", "description": "Leer alle karate standen en posities." },
-      "kicks": { "title": "Trappen", "description": "Leer alle karate traptechnieken." },
-      "punches": { "title": "Stoten", "description": "Leer alle karate stoottechnieken." },
-      "blocks": { "title": "Blokkeringen", "description": "Leer alle karate blokkeringstechnieken." },
-      "common": { "title": "Algemene Termen Flashcards", "description": "Oefen algemene terminologie met flashcards." },
-      "strikes": { "title": "Slagen", "description": "Leer slagtechnieken en toepassingen." },
-      "kata": { "title": "Kata Flashcards", "description": "Leer alle Goju Ryu kata namen en betekenissen." },
-      "philosophy": { "title": "Filosofie Flashcards", "description": "Leer Goju Ryu filosofische concepten en principes." },
-      "numbers": { "title": "Nummers Flashcards", "description": "Leer Japanse nummers gebruikt in karate." },
-      "general": { "title": "Algemene Termen Flashcards", "description": "Leer essentiële karate terminologie." },
-      "ranks": { "title": "Rangen", "description": "Oefen rangen en graden." },
-      "kata-specific": { "title": "Kata-specifieke termen", "description": "Oefen termen die specifiek zijn voor kata." },
-      "kumite": { "title": "Kumite", "description": "Oefen kumite-terminologie." }
+      "stances": {
+        "title": "Standen",
+        "description": "Leer alle karate standen en posities."
+      },
+      "kicks": {
+        "title": "Trappen",
+        "description": "Leer alle karate traptechnieken."
+      },
+      "punches": {
+        "title": "Stoten",
+        "description": "Leer alle karate stoottechnieken."
+      },
+      "blocks": {
+        "title": "Blokkeringen",
+        "description": "Leer alle karate blokkeringstechnieken."
+      },
+      "common": {
+        "title": "Algemene Termen Flashcards",
+        "description": "Oefen algemene terminologie met flashcards."
+      },
+      "strikes": {
+        "title": "Slagen",
+        "description": "Leer slagtechnieken en toepassingen."
+      },
+      "kata": {
+        "title": "Kata Flashcards",
+        "description": "Leer alle Goju Ryu kata namen en betekenissen."
+      },
+      "philosophy": {
+        "title": "Filosofie Flashcards",
+        "description": "Leer Goju Ryu filosofische concepten en principes."
+      },
+      "numbers": {
+        "title": "Nummers Flashcards",
+        "description": "Leer Japanse nummers gebruikt in karate."
+      },
+      "general": {
+        "title": "Algemene Termen Flashcards",
+        "description": "Leer essentiële karate terminologie."
+      },
+      "ranks": {
+        "title": "Rangen",
+        "description": "Oefen rangen en graden."
+      },
+      "kata-specific": {
+        "title": "Kata-specifieke termen",
+        "description": "Oefen termen die specifiek zijn voor kata."
+      },
+      "kumite": {
+        "title": "Kumite",
+        "description": "Oefen kumite-terminologie."
+      }
     },
     "matchingTypes": {
-      "kata": { "title": "Kata Matching", "description": "Match kata namen met hun betekenissen en kenmerken." },
+      "kata": {
+        "title": "Kata Matching",
+        "description": "Match kata namen met hun betekenissen en kenmerken."
+      },
       "terminology": {
         "title": "Terminologie Matching",
         "description": "Koppel Japanse termen aan hun Nederlandse betekenis.",
@@ -118,13 +211,264 @@
         "a1": "Rei-Respect, Kime-Focus, Zanshin-Blijvende geest",
         "e1": "Fundamentele dojo-concepten gebruikt door de training heen."
       }
+    },
+    "title": "Study Section",
+    "description": "Interactive lessons and quizzes to enhance your knowledge",
+    "tests": "Tests",
+    "startStudy": "Start Studying",
+    "studySectionTitle": "Study Materials",
+    "studySectionDescription": "Choose how you'd like to study Goju Ryu techniques and concepts.",
+    "quizzesCardTitle": "Quizzes",
+    "quizzesCardDescription": "Test your knowledge with interactive quizzes",
+    "flashcardsCardTitle": "Flashcards",
+    "flashcardsCardDescription": "Practice terminology and concepts",
+    "matchingCardTitle": "Matching",
+    "matchingCardDescription": "Match terms and concepts",
+    "completed": "Study Complete!",
+    "notFound": {
+      "title": "Study not found",
+      "description": "The requested study could not be found."
+    },
+    "pairs": "pairs",
+    "start": "Start",
+    "startFlashcards": "Start Flashcards",
+    "startMatching": "Start Matching",
+    "techniques": "Techniques",
+    "kata": "Kata",
+    "philosophy": "Philosophy",
+    "kumite": "Kumite",
+    "terminologyNav": "Terminology",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "progress": {
+      "title": "Progress",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "notStarted": "Not Started"
+    },
+    "results": {
+      "title": "Results",
+      "score": "Score",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "percentage": "Percentage",
+      "time": "Time",
+      "retry": "Retry",
+      "next": "Next"
+    },
+    "finish": "Finish",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "explanation": "Explanation",
+    "showExplanation": "Show explanation",
+    "hideExplanation": "Hide explanation",
+    "studyAgain": "Study again",
+    "backToStudySection": "Back to study section",
+    "noQuestionFound": "No question found for index {index}",
+    "yourScore": "Your score: {score} out of {total}",
+    "self-control": {
+      "title": "Self-Control Quiz",
+      "description": "Test your knowledge of self-control and emotion regulation."
+    },
+    "kata-basics": {
+      "title": "Kata Basics Quiz",
+      "description": "Test your knowledge of fundamental kata concepts and principles."
+    },
+    "kata-history": {
+      "title": "Kata History Quiz",
+      "description": "Learn about the historical development and origins of kata."
+    },
+    "philosophy-principles": {
+      "title": "Philosophy Principles Quiz",
+      "description": "Test your understanding of Goju Ryu philosophical principles."
+    },
+    "basic-techniques": {
+      "title": "Basic Techniques Quiz",
+      "description": "Test your knowledge of fundamental karate techniques."
+    },
+    "kumite-basics": {
+      "title": "Kumite Basics Quiz",
+      "description": "Test your knowledge of sparring fundamentals."
+    },
+    "history-origins": {
+      "title": "History & Origins Quiz",
+      "description": "Key people, places and origins of Goju Ryu."
+    },
+    "hojo-undo-basics": {
+      "title": "Hojo Undo Basics Quiz",
+      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+    },
+    "newaza-intro": {
+      "title": "Newaza Introduction Quiz",
+      "description": "Fundamental ground positions and control concepts."
+    },
+    "kumite-rules": {
+      "title": "Kumite Rules Quiz",
+      "description": "Scoring, penalties and referee commands."
     }
   },
   "title": "Studie",
   "description": "Oefen en test je kennis van Goju Ryu karate",
   "startQuiz": "Start Quiz",
   "startFlashcards": "Start Flashcards",
-  "questions": "vragen",
+  "questions": {
+    "kata-basics-1": {
+      "question": "What does 'kata' mean in Japanese?",
+      "option1": "Form",
+      "option2": "Fight",
+      "option3": "Technique",
+      "option4": "Style",
+      "correct": "Form",
+      "explanation": "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements."
+    },
+    "kata-basics-2": {
+      "question": "How many kata are there in traditional Goju Ryu?",
+      "option1": "8",
+      "option2": "10",
+      "option3": "12",
+      "option4": "15",
+      "correct": "12",
+      "explanation": "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata."
+    },
+    "kata-basics-3": {
+      "question": "What are the two main categories of kata in Goju Ryu?",
+      "option1": "Hard and Soft",
+      "option2": "Heishugata and Kaishugata",
+      "option3": "Basic and Advanced",
+      "option4": "Old and New",
+      "correct": "Heishugata and Kaishugata",
+      "explanation": "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories."
+    },
+    "kata-history-1": {
+      "question": "Who created the Gekisai kata?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Chojun Miyagi",
+      "option3": "Morio Higaonna",
+      "option4": "Eiichi Miyazato",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s."
+    },
+    "kata-history-2": {
+      "question": "What does 'Sanchin' mean?",
+      "option1": "Three Battles",
+      "option2": "Three Steps",
+      "option3": "Three Hearts",
+      "option4": "Three Minds",
+      "correct": "Three Battles",
+      "explanation": "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit."
+    },
+    "philosophy-1": {
+      "question": "What does 'Goju' mean?",
+      "option1": "Hard-Soft",
+      "option2": "Fast-Slow",
+      "option3": "Strong-Weak",
+      "option4": "Old-New",
+      "correct": "Hard-Soft",
+      "explanation": "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques."
+    },
+    "philosophy-2": {
+      "question": "What is 'Muchimi'?",
+      "option1": "Breathing",
+      "option2": "Sticky Hands",
+      "option3": "Focus",
+      "option4": "Balance",
+      "correct": "Sticky Hands",
+      "explanation": "Muchimi refers to the ability to maintain contact with an opponent like sticky hands."
+    },
+    "techniques-1": {
+      "question": "What is the most basic stance in karate?",
+      "option1": "Sanchin Dachi",
+      "option2": "Zenkutsu Dachi",
+      "option3": "Hachiji Dachi",
+      "option4": "Kiba Dachi",
+      "correct": "Hachiji Dachi",
+      "explanation": "Hachiji Dachi (natural stance) is the most basic stance in karate."
+    },
+    "techniques-2": {
+      "question": "What does 'Uke' mean?",
+      "option1": "Attack",
+      "option2": "Block",
+      "option3": "Strike",
+      "option4": "Kick",
+      "correct": "Block",
+      "explanation": "Uke (受け) means 'block' or 'receive' in Japanese."
+    },
+    "kumite-1": {
+      "question": "What does 'Kumite' mean?",
+      "option1": "Sparring",
+      "option2": "Fighting",
+      "option3": "Training",
+      "option4": "Competition",
+      "correct": "Sparring",
+      "explanation": "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese."
+    },
+    "kumite-2": {
+      "question": "What is 'Ippon Kumite'?",
+      "option1": "Free Sparring",
+      "option2": "One-Step Sparring",
+      "option3": "Three-Step Sparring",
+      "option4": "Five-Step Sparring",
+      "correct": "One-Step Sparring",
+      "explanation": "Ippon Kumite is one-step sparring with predetermined attacks and defenses."
+    },
+    "history-1": {
+      "question": "Who founded Goju Ryu?",
+      "option1": "Chojun Miyagi",
+      "option2": "Kanryo Higaonna",
+      "option3": "Gichin Funakoshi",
+      "option4": "Kenwa Mabuni",
+      "correct": "Chojun Miyagi",
+      "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+    },
+    "history-2": {
+      "question": "Which teacher strongly influenced Chojun Miyagi?",
+      "option1": "Kanryo Higaonna",
+      "option2": "Anko Itosu",
+      "option3": "Mabuni Kenwa",
+      "option4": "Motobu Choki",
+      "correct": "Kanryo Higaonna",
+      "explanation": "Miyagi was a top student of Kanryo Higaonna."
+    },
+    "hojo-1": {
+      "question": "Which tool is a stone lever used for circular strength?",
+      "option1": "Chi-ishi",
+      "option2": "Ishi sashi",
+      "option3": "Nigiri game",
+      "option4": "Kongoken",
+      "correct": "Chi-ishi",
+      "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+    },
+    "hojo-2": {
+      "question": "Which tool primarily trains grip strength?",
+      "option1": "Nigiri game",
+      "option2": "Kongoken",
+      "option3": "Ishi sashi",
+      "option4": "Makiwara",
+      "correct": "Nigiri game",
+      "explanation": "Nigiri game jars are used to develop grip strength and stance."
+    },
+    "newaza-1": {
+      "question": "Which position emphasizes chest-to-chest control from the side?",
+      "option1": "Side control",
+      "option2": "Mount",
+      "option3": "Guard",
+      "option4": "Back control",
+      "correct": "Side control",
+      "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+    },
+    "rules-1": {
+      "question": "What does 'Hansoku' mean?",
+      "option1": "Foul",
+      "option2": "Extension round",
+      "option3": "Draw",
+      "option4": "Half point",
+      "correct": "Foul",
+      "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
+    }
+  },
   "cards": "kaarten",
   "category": "Categorie",
   "difficulty": "Moeilijkheidsgraad",
@@ -894,4 +1238,4 @@
       }
     }
   }
-} 
+}

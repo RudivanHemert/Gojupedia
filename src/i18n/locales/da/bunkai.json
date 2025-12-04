@@ -1,21 +1,8 @@
 {
   "bunkai": {
     "title": "Bunkai",
-    "description": "Praktisk anvendelse af kata",
-    "sections": {
-      "basic": {
-        "title": "Grundlæggende",
-        "description": "Begynder bunkai"
-      },
-      "advanced": {
-        "title": "Avancerede",
-        "description": "Øvet bunkai"
-      },
-      "applications": {
-        "title": "Anvendelser",
-        "description": "Praktiske anvendelser"
-      }
-    },
+    "description": "Anvendelse og analyse af kata teknikker",
+    "overview": "Oversigt",
     "details": {
       "attack": "Angreb",
       "defense": "Forsvar",
@@ -23,11 +10,59 @@
       "footwork": "Fodarbejde",
       "vitalPoints": "Vitale Punkter",
       "notes": "Noter"
+    },
+    "kata": {
+      "gekisai-dai-ichi": {
+        "description": "Bunkai af Gekisai Dai Ichi fokuserer på grundlæggende blokkerende og slagende kombinationer, der introducerer fundamentale selvforsvarsapplikationer."
+      },
+      "gekisai-dai-ni": {
+        "description": "Gekisai Dai Ni bunkai bygger på den første kata med mere avancerede teknikker inklusive åbne håndslag og forbedret fodarbejde."
+      },
+      "saifa": {
+        "description": "Saifa bunkai fremhæver cirkulære bevægelser og nærdistance kampteknikker, inklusive gribende og rivende applikationer."
+      },
+      "seiyunchin": {
+        "description": "Seiyunchin bunkai fokuserer på lave stillinger, kraftfulde trækkende teknikker og at bringe modstanderen ud af balance gennem strategisk positionering."
+      },
+      "sepai": {
+        "description": "Sepai bunkai demonstrerer cirkulære bevægelser og teknikker til at afbøje og omdirigere modstanderens kraft."
+      },
+      "shisochin": {
+        "description": "Shisochin bunkai indeholder fire-retnings bevægelser med åbne håndteknikker, ledlås og pressepunktslag."
+      },
+      "sanseru": {
+        "description": "Sanseru bunkai inkluderer dynamiske bevægelser og kraftfulde slag der sigter mod 36 vitale punkter gennem hele kroppen."
+      },
+      "kururunfa": {
+        "description": "Kururunfa bunkai fremhæver at holde og bryde balance, med pludselige hurtige slag og nærdistance kampteknikker."
+      },
+      "sesan": {
+        "description": "Sesan bunkai fokuserer på kraftfulde, direkte teknikker og nærdistance kamp med stærke stillinger og rodfæstning."
+      },
+      "peichurin": {
+        "description": "Peichurin bunkai repræsenterer kulminationen af Goju Ryu principper med omfattende teknikker og den længste kata sekvens."
+      },
+      "sanchin": {
+        "description": "Sanchin bunkai fremhæver åndedrætskoordination, muskelspænding og intern energidannelse gennem kontrollerede bevægelser."
+      },
+      "tensho": {
+        "description": "Tensho bunkai fokuserer på cirkulære, flydende bevægelser og åbne håndteknikker der repræsenterer det bløde aspekt af Goju Ryu."
+      }
     }
   },
   "bunkaiDetailPage": {
+    "kataNotFound": "Kata ikke fundet",
+    "noBunkaiAvailable": "Ingen Bunkai tilgængelig for denne kata.",
+    "videoTitle": "Bunkai Video",
     "videoDescription": "Se bunkai demonstrationsvideoen på YouTube.",
     "watchOnYouTube": "Se på YouTube",
-    "noBunkaiDetails": "Ingen detaljeret Bunkai information tilgængelig."
+    "noBunkaiDetails": "Ingen detaljeret Bunkai information tilgængelig.",
+    "attack": "Angreb",
+    "defense": "Forsvar",
+    "counterAttack": "Modangreb",
+    "footwork": "Fodarbejde",
+    "vitalPoints": "Vitale Punkter",
+    "notes": "Noter",
+    "viewAllBunkai": "Se Detaljeret Bunkai"
   }
 }

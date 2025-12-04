@@ -81,7 +81,33 @@
         "title": "Gebruik in de Moderne Praktijk",
         "content": "Gekisai Dai Ichi wordt traditioneel als eerste of tweede kata aangeleerd voor beginnende leerlingen. Het is bedoeld om basisbewegingen en ritmiek te oefenen. In wedstrijdkata (evenementen) komt het zelden voor omdat het vrij eenvoudig is, maar het wordt wel getoond op demonstraties en in dojo-lesplannen als fundament. Het dient vooral als brug naar de zwaardere kata's (zoals Sanchin en Tensho) en voor conditie en basisverdedigingstraining."
       },
-      "stepsCount": "7"
+      "stepsCount": "7",
+      "steps": {
+        "step1": {
+          "title": "Begin in natuurlijke houding",
+          "description": "Begin in natuurlijke houding naar voren gericht"
+        },
+        "step2": {
+          "title": "Stap in sanchin dachi",
+          "description": "Stap in sanchin dachi met dubbele blokkering"
+        },
+        "step3": {
+          "title": "Voer stootreeks uit",
+          "description": "Voer stootreeks uit"
+        },
+        "step4": {
+          "title": "Voer blokkeringen en tegenaanvallen uit",
+          "description": "Voer blokkeringen en tegenaanvallen uit naar de zijkanten"
+        },
+        "step5": {
+          "title": "Keer terug naar het midden",
+          "description": "Keer terug naar het midden en voltooi de laatste technieken"
+        },
+        "step6": {
+          "title": "Keer terug naar de startpositie",
+          "description": "Keer terug naar de startpositie"
+        }
+      }
     },
     "sanchin": {
       "name": "Sanchin",
@@ -461,8 +487,6 @@
       "descriptionTitle": "Beschrijving",
       "historyTitle": "Geschiedenis",
       "culturalSignificanceTitle": "Culturele Betekenis",
-
-
       "mastersLabel": "Meesters",
       "keyFeaturesLabel": "Belangrijke Kenmerken",
       "videoNotAvailable": "Video niet beschikbaar",
@@ -497,4 +521,4 @@
       "backButton": "Terug naar Kata Lijst"
     }
   }
-} 
+}

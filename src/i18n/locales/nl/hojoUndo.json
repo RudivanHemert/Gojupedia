@@ -142,10 +142,22 @@
       "construction": {
         "title": "Constructie",
         "dimensions": {
-          "stickLength": { "label": "Stoklengte", "value": "Bij voorkeur schouderbreedte (langere versies voor werptechnieken)" },
-          "stickDiameter": { "label": "Stokdiameter", "value": "Dikte bepaalt trainingseffect (dun = chinkuchi kakin, dik = polsgrip)" },
-          "stoneDiameter": { "label": "Steendiameter", "value": "Niet meer dan 20-30 cm (beperkte bewegingsruimte)" },
-          "stoneHeight": { "label": "Steenhoogte", "value": "Niet hoger dan 10-15 cm" }
+          "stickLength": {
+            "label": "Stoklengte",
+            "value": "Bij voorkeur schouderbreedte (langere versies voor werptechnieken)"
+          },
+          "stickDiameter": {
+            "label": "Stokdiameter",
+            "value": "Dikte bepaalt trainingseffect (dun = chinkuchi kakin, dik = polsgrip)"
+          },
+          "stoneDiameter": {
+            "label": "Steendiameter",
+            "value": "Niet meer dan 20-30 cm (beperkte bewegingsruimte)"
+          },
+          "stoneHeight": {
+            "label": "Steenhoogte",
+            "value": "Niet hoger dan 10-15 cm"
+          }
         },
         "materials": {
           "stone": "Betonmix met fijn grind",
@@ -242,14 +254,21 @@
           "Ideaal: eenvoudig zwaarder of lichter te maken"
         ],
         "dimensions": {
-          "gripDiameter": { "label": "Diameter Grijpgedeelte", "value": "Aangepast aan handgrootte (tijgerklauw grip)" },
-          "weight": { "label": "Gewicht", "value": "3 kg is al behoorlijk zwaar voor 10 minuten" }
+          "gripDiameter": {
+            "label": "Diameter Grijpgedeelte",
+            "value": "Aangepast aan handgrootte (tijgerklauw grip)"
+          },
+          "weight": {
+            "label": "Gewicht",
+            "value": "3 kg is al behoorlijk zwaar voor 10 minuten"
+          }
         },
         "progression": {
           "beginner": "Nigiri game met rand om heen te pakken",
           "advanced": "Nigiri game zonder rand",
           "expert": "Met olie voor extra uitdaging"
-        }
+        },
+        "weight": "Weight can be adjusted by filling with sand, gravel or other materials"
       },
       "attentionPoints": {
         "title": "Aandachtspunten",
@@ -330,8 +349,26 @@
           "Versterkte handvatten voor veilige grip"
         ],
         "dimensions": {
-          "weight": { "label": "Gewicht", "value": "30-40 kg (te zwaar voor beginners)" },
-          "shape": { "label": "Vorm", "value": "Ovaal voor optimale gewichtsverdeling" }
+          "weight": {
+            "label": "Gewicht",
+            "value": "30-40 kg (te zwaar voor beginners)"
+          },
+          "shape": {
+            "label": "Vorm",
+            "value": "Ovaal voor optimale gewichtsverdeling"
+          },
+          "length": {
+            "label": "Length",
+            "value": "60-80 cm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "30-40 cm"
+          },
+          "handleDiameter": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          }
         },
         "safety": {
           "beginner": "Begin met lichtere kongokens",
@@ -365,7 +402,7 @@
           "description": "Beschreven in 'Traditional Karate, volume 1' en 'Hojo Undo' video van Morio Higaonna",
           "categories": [
             "Kantelserie horizontaal vlak",
-            "Kantelserie verticaal vlak", 
+            "Kantelserie verticaal vlak",
             "Uitstoot oefeningen",
             "Overige oefeningen",
             "Fitness serie"
@@ -376,7 +413,7 @@
           "verticalTilts": "Kanteloefeningen in verticaal vlak (kantelworpen, tegengestelde krachten)",
           "thrustExercises": [
             "Naar boven uitstoten in shiko dachi",
-            "Naar voren uitstoten in shiko dachi", 
+            "Naar voren uitstoten in shiko dachi",
             "Opdrukken met kongoken op nek"
           ],
           "otherExercises": [
@@ -435,8 +472,22 @@
           "Vereist laskennis voor constructie"
         ],
         "dimensions": {
-          "shape": { "label": "Vorm", "value": "Lijkt op hangslot (ook wel 'strijkijzers' genoemd)" },
-          "weight": { "label": "Gewicht", "value": "Aanpasbaar, afhankelijk van constructie" }
+          "shape": {
+            "label": "Vorm",
+            "value": "Lijkt op hangslot (ook wel 'strijkijzers' genoemd)"
+          },
+          "weight": {
+            "label": "Gewicht",
+            "value": "Aanpasbaar, afhankelijk van constructie"
+          },
+          "body": {
+            "label": "Body",
+            "value": "15-25 cm length"
+          },
+          "handle": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          }
         }
       },
       "attentionPoints": {
@@ -615,8 +666,14 @@
           "Glad oppervlak om verwondingen te voorkomen"
         ],
         "dimensions": {
-          "weight": { "label": "Gewicht", "value": "5-20 kg afhankelijk van niveau" },
-          "shape": { "label": "Vorm", "value": "Traditionele halter vorm" }
+          "weight": {
+            "label": "Gewicht",
+            "value": "5-20 kg afhankelijk van niveau"
+          },
+          "shape": {
+            "label": "Vorm",
+            "value": "Traditionele halter vorm"
+          }
         }
       },
       "attentionPoints": {
@@ -685,8 +742,14 @@
           "Veilige afwerking van randen"
         ],
         "dimensions": {
-          "weight": { "label": "Gewicht", "value": "2-5 kg per sandaal" },
-          "size": { "label": "Maat", "value": "Aanpasbaar aan voetgrootte" }
+          "weight": {
+            "label": "Gewicht",
+            "value": "2-5 kg per sandaal"
+          },
+          "size": {
+            "label": "Maat",
+            "value": "Aanpasbaar aan voetgrootte"
+          }
         }
       },
       "attentionPoints": {
@@ -755,8 +818,14 @@
           "Veilige afwerking"
         ],
         "dimensions": {
-          "weight": { "label": "Gewicht", "value": "5-15 kg afhankelijk van vulling" },
-          "size": { "label": "Grootte", "value": "Handzame emmer grootte" }
+          "weight": {
+            "label": "Gewicht",
+            "value": "5-15 kg afhankelijk van vulling"
+          },
+          "size": {
+            "label": "Grootte",
+            "value": "Handzame emmer grootte"
+          }
         }
       },
       "attentionPoints": {
@@ -825,8 +894,14 @@
           "Veilige afwerking"
         ],
         "dimensions": {
-          "weight": { "label": "Gewicht", "value": "10-30 kg afhankelijk van grootte" },
-          "size": { "label": "Grootte", "value": "Handzame ton grootte" }
+          "weight": {
+            "label": "Gewicht",
+            "value": "10-30 kg afhankelijk van grootte"
+          },
+          "size": {
+            "label": "Grootte",
+            "value": "Handzame ton grootte"
+          }
         }
       },
       "attentionPoints": {
@@ -895,8 +970,14 @@
           "Stevige bevestigingen"
         ],
         "dimensions": {
-          "weight": { "label": "Gewicht", "value": "Variabel afhankelijk van type" },
-          "size": { "label": "Grootte", "value": "Aanpasbaar aan training" }
+          "weight": {
+            "label": "Gewicht",
+            "value": "Variabel afhankelijk van type"
+          },
+          "size": {
+            "label": "Grootte",
+            "value": "Aanpasbaar aan training"
+          }
         }
       },
       "attentionPoints": {
@@ -972,4 +1053,4 @@
     "mental": "Mentale Voordelen",
     "safety": "Veiligheidsvoordelen"
   }
-} 
+}

@@ -63,7 +63,7 @@
       }
     },
     "tensho": {
-      "name": "Tensho", 
+      "name": "Tensho",
       "japaneseName": "転掌",
       "meaning": "Palmas Rotatorias",
       "description": "Una kata fluida que enfatiza los aspectos suaves del Goju Ryu.",
@@ -132,7 +132,33 @@
         "title": "Uso en la Práctica Moderna",
         "content": "Gekisai Dai Ichi se enseña tradicionalmente como la primera o segunda kata para estudiantes principiantes. Está destinada a practicar movimientos básicos y ritmo. En kata de competencia (eventos) raramente ocurre porque es bastante simple, pero se muestra en demostraciones y en planes de lección de dojo como fundamento. Sirve principalmente como puente a las kata más pesadas (como Sanchin y Tensho) y para acondicionamiento y entrenamiento básico de defensa."
       },
-      "stepsCount": "7"
+      "stepsCount": "7",
+      "steps": {
+        "step1": {
+          "title": "Comenzar en postura natural",
+          "description": "Comenzar en postura natural mirando hacia adelante"
+        },
+        "step2": {
+          "title": "Paso a sanchin dachi",
+          "description": "Paso a sanchin dachi con doble bloqueo"
+        },
+        "step3": {
+          "title": "Ejecutar secuencia de golpes",
+          "description": "Ejecutar secuencia de golpes"
+        },
+        "step4": {
+          "title": "Realizar bloqueos y contraataques",
+          "description": "Realizar bloqueos y contraataques a los lados"
+        },
+        "step5": {
+          "title": "Volver al centro",
+          "description": "Volver al centro y completar técnicas finales"
+        },
+        "step6": {
+          "title": "Volver a la posición inicial",
+          "description": "Volver a la posición inicial"
+        }
+      }
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
@@ -396,7 +422,26 @@
       "masters": [
         "Kanryo Higaonna",
         "Chojun Miyagi"
-      ]
+      ],
+      "japaneseName": "壱百零八",
+      "meaning": "108 Manos",
+      "history": "Una de las kata originales de China, probablemente del estilo Grulla Blanca.",
+      "culturalSignificance": "Representa los 108 deseos terrenales en el Budismo.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Gama completa de técnicas",
+          "description": "Gama completa de técnicas de Goju Ryu"
+        },
+        "step2": {
+          "title": "Kata más larga y compleja",
+          "description": "Kata más larga y compleja"
+        },
+        "step3": {
+          "title": "Encarnación de principios duros y suaves",
+          "description": "Encarnación de principios duros y suaves"
+        }
+      }
     }
   },
   "kataTheoryDetailPage": {
@@ -441,8 +486,6 @@
       "descriptionTitle": "Descripción",
       "historyTitle": "Historia",
       "culturalSignificanceTitle": "Significado Cultural",
-
-
       "mastersLabel": "Maestros",
       "keyFeaturesLabel": "Características Clave",
       "videoNotAvailable": "Video no disponible",
@@ -472,6 +515,9 @@
       "title": "Kata No Encontrada",
       "message": "La kata solicitada no pudo ser encontrada.",
       "backButton": "Volver a la Lista de Kata"
+    },
+    "video": {
+      "title": "Kata Demonstration"
     }
   }
-} 
+}

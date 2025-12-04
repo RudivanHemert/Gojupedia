@@ -511,6 +511,7 @@ export const articles: Article[] = [
     author: "John Doe",
     date: "2023-01-15",
     content: "Proper breathing, or 'kokyu', is a cornerstone of Goju Ryu practice. It is not merely about inhaling and exhaling, but about coordinating breath with movement to generate power, maintain stability, and cultivate internal energy (ki). The Sanchin kata is a primary vehicle for developing this skill, teaching the practitioner to maintain a state of dynamic tension throughout the body, synchronized with a deep, resonant breathing pattern. This not only strengthens the body but also forges a deep connection between mind and body, a critical aspect of martial arts mastery.",
+    category: "training",
     tags: ["breathing", "kokyu", "sanchin", "ki"]
   },
   {
@@ -519,6 +520,7 @@ export const articles: Article[] = [
     author: "Jane Smith",
     date: "2023-02-20",
     content: "Goju Ryu's roots can be traced back to the Okinawan master Kanryo Higaonna, who studied Chinese martial arts in Fuzhou. His top student, Chojun Miyagi, synthesized these teachings with native Okinawan techniques to create the system we know today. The name 'Goju Ryu' itself, meaning 'hard-soft style', was inspired by a line from the Bubishi, a classic Chinese text on martial arts. This name perfectly encapsulates the style's core philosophy: the seamless integration of hard, linear attacks with soft, circular blocks and deflections.",
+    category: "history",
     tags: ["history", "chojun-miyagi", "kanryo-higaonna", "okinawa"]
   }
 ];
@@ -529,6 +531,7 @@ export const principles: Principle[] = [
     name: "Go and Ju (Hard and Soft)",
     japaneseName: "剛柔",
     description: "The core principle of Goju Ryu, representing the balance between hard (Go) and soft (Ju) techniques. This philosophy extends beyond physical movements to encompass a balanced approach to life.",
+    explanation: ["Hard techniques are linear and forceful.", "Soft techniques are circular and yielding."],
     relatedKatas: ["Sanchin", "Tensho"]
   },
   {
@@ -536,6 +539,7 @@ export const principles: Principle[] = [
     name: "Muchimi (Sticky Hands)",
     japaneseName: "鞭身",
     description: "The ability to maintain constant contact with an opponent, feeling their energy and intentions. This allows for fluid transitions between offense and defense, sticking to the opponent like glue.",
+    explanation: ["Maintain contact with opponent.", "Sense opponent's intention."],
     relatedKatas: ["Kururunfa"]
   },
   {
@@ -543,6 +547,7 @@ export const principles: Principle[] = [
     name: "Kokyu (Breathing)",
     japaneseName: "呼吸",
     description: "The art of coordinating breath with movement. Proper breathing is essential for generating power (kime), maintaining stamina, and focusing the mind.",
+    explanation: ["Coordinate breath with movement.", "Generate power through breath."],
     relatedKatas: ["Sanchin", "Tensho"]
   }
 ];
@@ -570,7 +575,7 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
     try {
       // Correctly type the keys for the i18n object
       const i18nKey = `terminology.sections.${category}-content.terms` as const;
-      
+
       const terms = i18n.t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string; details?: string }>;
 
       if (terms && typeof terms === 'object' && Object.keys(terms).length > 0) {
@@ -578,7 +583,7 @@ const generateStudiesFromTechniques = (categories: readonly TerminologyCategory[
           const correctAnswer = term.english;
           const wrongOptions = generateWrongOptions(correctAnswer, terms);
           const allOptions = [correctAnswer, ...wrongOptions];
-          
+
           return {
             id: `${category}-${key}`,
             question: t(`study.terminology.${category}.terms.${key}.question`, { term: term.name, defaultValue: `What is the meaning of "${term.name}"?` }),
@@ -618,7 +623,7 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
   allTerminologyCategories.forEach(category => {
     try {
       const i18nKey = `terminology.sections.${category}-content.terms` as const;
-      const terms = t(i18nKey, { returnObjects: true }) as Record<string, { name: string; japanese?: string; english: string }>;
+      const terms = t(i18nKey, { returnObjects: true }) as unknown as Record<string, { name: string; japanese?: string; english: string }>;
 
       if (terms && typeof terms === 'object' && Object.keys(terms).length > 0) {
         studies.push({
@@ -693,317 +698,317 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
 
   // Add kata-specific study materials
   const kataStudies: Study[] = [
-  {
-    id: "kata-basics-quiz",
-    title: t("study.quizTypes.kata-basics.title", "Kata Basics Quiz"),
-    description: t("study.quizTypes.kata-basics.description", "Test your knowledge of fundamental kata concepts and principles."),
-    type: "quiz",
-    category: "kata",
-    difficulty: "beginner",
-    questions: [
-      {
-        id: "kata-basics-1",
-        question: t("study.questions.kata-basics-1.question", "What does 'kata' mean in Japanese?"),
-        options: [
-          t("study.questions.kata-basics-1.option1", "Form"),
-          t("study.questions.kata-basics-1.option2", "Fight"),
-          t("study.questions.kata-basics-1.option3", "Technique"),
-          t("study.questions.kata-basics-1.option4", "Style")
-        ],
-        correctAnswer: t("study.questions.kata-basics-1.correct", "Form"),
-        explanation: t("study.questions.kata-basics-1.explanation", "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements.")
-      },
-      {
-        id: "kata-basics-2",
-        question: t("study.questions.kata-basics-2.question", "How many kata are there in traditional Goju Ryu?"),
-        options: [
-          t("study.questions.kata-basics-2.option1", "8"),
-          t("study.questions.kata-basics-2.option2", "10"),
-          t("study.questions.kata-basics-2.option3", "12"),
-          t("study.questions.kata-basics-2.option4", "15")
-        ],
-        correctAnswer: t("study.questions.kata-basics-2.correct", "12"),
-        explanation: t("study.questions.kata-basics-2.explanation", "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata.")
-      },
-      {
-        id: "kata-basics-3",
-        question: t("study.questions.kata-basics-3.question", "What are the two main categories of kata in Goju Ryu?"),
-        options: [
-          t("study.questions.kata-basics-3.option1", "Hard and Soft"),
-          t("study.questions.kata-basics-3.option2", "Heishugata and Kaishugata"),
-          t("study.questions.kata-basics-3.option3", "Basic and Advanced"),
-          t("study.questions.kata-basics-3.option4", "Old and New")
-        ],
-        correctAnswer: t("study.questions.kata-basics-3.correct", "Heishugata and Kaishugata"),
-        explanation: t("study.questions.kata-basics-3.explanation", "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories.")
-      }
-    ]
-  },
-  {
-    id: "kata-history-quiz",
-    title: t("study.quizTypes.kata-history.title", "Kata History Quiz"),
-    description: t("study.quizTypes.kata-history.description", "Learn about the historical development and origins of kata."),
-    type: "quiz",
-    category: "kata",
-    difficulty: "intermediate",
-    questions: [
-      {
-        id: "kata-history-1",
-        question: t("study.questions.kata-history-1.question", "Who created the Gekisai kata?"),
-        options: [
-          t("study.questions.kata-history-1.option1", "Kanryo Higaonna"),
-          t("study.questions.kata-history-1.option2", "Chojun Miyagi"),
-          t("study.questions.kata-history-1.option3", "Morio Higaonna"),
-          t("study.questions.kata-history-1.option4", "Eiichi Miyazato")
-        ],
-        correctAnswer: t("study.questions.kata-history-1.correct", "Chojun Miyagi"),
-        explanation: t("study.questions.kata-history-1.explanation", "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s.")
-      },
-      {
-        id: "kata-history-2",
-        question: t("study.questions.kata-history-2.question", "What does 'Sanchin' mean?"),
-        options: [
-          t("study.questions.kata-history-2.option1", "Three Battles"),
-          t("study.questions.kata-history-2.option2", "Three Steps"),
-          t("study.questions.kata-history-2.option3", "Three Hearts"),
-          t("study.questions.kata-history-2.option4", "Three Minds")
-        ],
-        correctAnswer: t("study.questions.kata-history-2.correct", "Three Battles"),
-        explanation: t("study.questions.kata-history-2.explanation", "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit.")
-      }
-    ]
-  }
-];
+    {
+      id: "kata-basics-quiz",
+      title: t("study.quizTypes.kata-basics.title", "Kata Basics Quiz"),
+      description: t("study.quizTypes.kata-basics.description", "Test your knowledge of fundamental kata concepts and principles."),
+      type: "quiz",
+      category: "kata",
+      difficulty: "beginner",
+      questions: [
+        {
+          id: "kata-basics-1",
+          question: t("study.questions.kata-basics-1.question", "What does 'kata' mean in Japanese?"),
+          options: [
+            t("study.questions.kata-basics-1.option1", "Form"),
+            t("study.questions.kata-basics-1.option2", "Fight"),
+            t("study.questions.kata-basics-1.option3", "Technique"),
+            t("study.questions.kata-basics-1.option4", "Style")
+          ],
+          correctAnswer: t("study.questions.kata-basics-1.correct", "Form"),
+          explanation: t("study.questions.kata-basics-1.explanation", "Kata (型) means 'form' in Japanese and refers to the choreographed patterns of movements.")
+        },
+        {
+          id: "kata-basics-2",
+          question: t("study.questions.kata-basics-2.question", "How many kata are there in traditional Goju Ryu?"),
+          options: [
+            t("study.questions.kata-basics-2.option1", "8"),
+            t("study.questions.kata-basics-2.option2", "10"),
+            t("study.questions.kata-basics-2.option3", "12"),
+            t("study.questions.kata-basics-2.option4", "15")
+          ],
+          correctAnswer: t("study.questions.kata-basics-2.correct", "12"),
+          explanation: t("study.questions.kata-basics-2.explanation", "Traditional Goju Ryu has 12 kata: 2 heishugata (Sanchin, Tensho) and 10 kaishugata.")
+        },
+        {
+          id: "kata-basics-3",
+          question: t("study.questions.kata-basics-3.question", "What are the two main categories of kata in Goju Ryu?"),
+          options: [
+            t("study.questions.kata-basics-3.option1", "Hard and Soft"),
+            t("study.questions.kata-basics-3.option2", "Heishugata and Kaishugata"),
+            t("study.questions.kata-basics-3.option3", "Basic and Advanced"),
+            t("study.questions.kata-basics-3.option4", "Old and New")
+          ],
+          correctAnswer: t("study.questions.kata-basics-3.correct", "Heishugata and Kaishugata"),
+          explanation: t("study.questions.kata-basics-3.explanation", "Heishugata (closed hand) and Kaishugata (open hand) are the two main categories.")
+        }
+      ]
+    },
+    {
+      id: "kata-history-quiz",
+      title: t("study.quizTypes.kata-history.title", "Kata History Quiz"),
+      description: t("study.quizTypes.kata-history.description", "Learn about the historical development and origins of kata."),
+      type: "quiz",
+      category: "kata",
+      difficulty: "intermediate",
+      questions: [
+        {
+          id: "kata-history-1",
+          question: t("study.questions.kata-history-1.question", "Who created the Gekisai kata?"),
+          options: [
+            t("study.questions.kata-history-1.option1", "Kanryo Higaonna"),
+            t("study.questions.kata-history-1.option2", "Chojun Miyagi"),
+            t("study.questions.kata-history-1.option3", "Morio Higaonna"),
+            t("study.questions.kata-history-1.option4", "Eiichi Miyazato")
+          ],
+          correctAnswer: t("study.questions.kata-history-1.correct", "Chojun Miyagi"),
+          explanation: t("study.questions.kata-history-1.explanation", "Chojun Miyagi created Gekisai Dai Ichi and Gekisai Dai Ni in the 1940s.")
+        },
+        {
+          id: "kata-history-2",
+          question: t("study.questions.kata-history-2.question", "What does 'Sanchin' mean?"),
+          options: [
+            t("study.questions.kata-history-2.option1", "Three Battles"),
+            t("study.questions.kata-history-2.option2", "Three Steps"),
+            t("study.questions.kata-history-2.option3", "Three Hearts"),
+            t("study.questions.kata-history-2.option4", "Three Minds")
+          ],
+          correctAnswer: t("study.questions.kata-history-2.correct", "Three Battles"),
+          explanation: t("study.questions.kata-history-2.explanation", "Sanchin (三戦) means 'three battles' and refers to mind, body, and spirit.")
+        }
+      ]
+    }
+  ];
 
-// Add philosophy study materials
-const philosophyStudies: Study[] = [
-  {
-    id: "philosophy-principles-quiz",
-    title: t("study.quizTypes.philosophy-principles.title", "Philosophy Principles Quiz"),
-    description: t("study.quizTypes.philosophy-principles.description", "Test your understanding of Goju Ryu philosophical principles."),
-    type: "quiz",
-    category: "philosophy",
-    difficulty: "intermediate",
-    questions: [
-      {
-        id: "philosophy-1",
-        question: t("study.questions.philosophy-1.question", "What does 'Goju' mean?"),
-        options: [
-          t("study.questions.philosophy-1.option1", "Hard-Soft"),
-          t("study.questions.philosophy-1.option2", "Fast-Slow"),
-          t("study.questions.philosophy-1.option3", "Strong-Weak"),
-          t("study.questions.philosophy-1.option4", "Old-New")
-        ],
-        correctAnswer: t("study.questions.philosophy-1.correct", "Hard-Soft"),
-        explanation: t("study.questions.philosophy-1.explanation", "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques.")
-      },
-      {
-        id: "philosophy-2",
-        question: t("study.questions.philosophy-2.question", "What is 'Muchimi'?"),
-        options: [
-          t("study.questions.philosophy-2.option1", "Breathing"),
-          t("study.questions.philosophy-2.option2", "Sticky Hands"),
-          t("study.questions.philosophy-2.option3", "Focus"),
-          t("study.questions.philosophy-2.option4", "Balance")
-        ],
-        correctAnswer: t("study.questions.philosophy-2.correct", "Sticky Hands"),
-        explanation: t("study.questions.philosophy-2.explanation", "Muchimi refers to the ability to maintain contact with an opponent like sticky hands.")
-      }
-    ]
-  }
-];
+  // Add philosophy study materials
+  const philosophyStudies: Study[] = [
+    {
+      id: "philosophy-principles-quiz",
+      title: t("study.quizTypes.philosophy-principles.title", "Philosophy Principles Quiz"),
+      description: t("study.quizTypes.philosophy-principles.description", "Test your understanding of Goju Ryu philosophical principles."),
+      type: "quiz",
+      category: "philosophy",
+      difficulty: "intermediate",
+      questions: [
+        {
+          id: "philosophy-1",
+          question: t("study.questions.philosophy-1.question", "What does 'Goju' mean?"),
+          options: [
+            t("study.questions.philosophy-1.option1", "Hard-Soft"),
+            t("study.questions.philosophy-1.option2", "Fast-Slow"),
+            t("study.questions.philosophy-1.option3", "Strong-Weak"),
+            t("study.questions.philosophy-1.option4", "Old-New")
+          ],
+          correctAnswer: t("study.questions.philosophy-1.correct", "Hard-Soft"),
+          explanation: t("study.questions.philosophy-1.explanation", "Goju (剛柔) means 'hard-soft' and represents the balance of hard and soft techniques.")
+        },
+        {
+          id: "philosophy-2",
+          question: t("study.questions.philosophy-2.question", "What is 'Muchimi'?"),
+          options: [
+            t("study.questions.philosophy-2.option1", "Breathing"),
+            t("study.questions.philosophy-2.option2", "Sticky Hands"),
+            t("study.questions.philosophy-2.option3", "Focus"),
+            t("study.questions.philosophy-2.option4", "Balance")
+          ],
+          correctAnswer: t("study.questions.philosophy-2.correct", "Sticky Hands"),
+          explanation: t("study.questions.philosophy-2.explanation", "Muchimi refers to the ability to maintain contact with an opponent like sticky hands.")
+        }
+      ]
+    }
+  ];
 
-// Add technique study materials
-const techniqueStudies: Study[] = [
-  {
-    id: "basic-techniques-quiz",
-    title: t("study.quizTypes.basic-techniques.title", "Basic Techniques Quiz"),
-    description: t("study.quizTypes.basic-techniques.description", "Test your knowledge of fundamental karate techniques."),
-    type: "quiz",
-    category: "techniques",
-    difficulty: "beginner",
-    questions: [
-      {
-        id: "techniques-1",
-        question: t("study.questions.techniques-1.question", "What is the most basic stance in karate?"),
-        options: [
-          t("study.questions.techniques-1.option1", "Sanchin Dachi"),
-          t("study.questions.techniques-1.option2", "Zenkutsu Dachi"),
-          t("study.questions.techniques-1.option3", "Hachiji Dachi"),
-          t("study.questions.techniques-1.option4", "Kiba Dachi")
-        ],
-        correctAnswer: t("study.questions.techniques-1.correct", "Hachiji Dachi"),
-        explanation: t("study.questions.techniques-1.explanation", "Hachiji Dachi (natural stance) is the most basic stance in karate.")
-      },
-      {
-        id: "techniques-2",
-        question: t("study.questions.techniques-2.question", "What does 'Uke' mean?"),
-        options: [
-          t("study.questions.techniques-2.option1", "Attack"),
-          t("study.questions.techniques-2.option2", "Block"),
-          t("study.questions.techniques-2.option3", "Strike"),
-          t("study.questions.techniques-2.option4", "Kick")
-        ],
-        correctAnswer: t("study.questions.techniques-2.correct", "Block"),
-        explanation: t("study.questions.techniques-2.explanation", "Uke (受け) means 'block' or 'receive' in Japanese.")
-      }
-    ]
-  }
-];
+  // Add technique study materials
+  const techniqueStudies: Study[] = [
+    {
+      id: "basic-techniques-quiz",
+      title: t("study.quizTypes.basic-techniques.title", "Basic Techniques Quiz"),
+      description: t("study.quizTypes.basic-techniques.description", "Test your knowledge of fundamental karate techniques."),
+      type: "quiz",
+      category: "techniques",
+      difficulty: "beginner",
+      questions: [
+        {
+          id: "techniques-1",
+          question: t("study.questions.techniques-1.question", "What is the most basic stance in karate?"),
+          options: [
+            t("study.questions.techniques-1.option1", "Sanchin Dachi"),
+            t("study.questions.techniques-1.option2", "Zenkutsu Dachi"),
+            t("study.questions.techniques-1.option3", "Hachiji Dachi"),
+            t("study.questions.techniques-1.option4", "Kiba Dachi")
+          ],
+          correctAnswer: t("study.questions.techniques-1.correct", "Hachiji Dachi"),
+          explanation: t("study.questions.techniques-1.explanation", "Hachiji Dachi (natural stance) is the most basic stance in karate.")
+        },
+        {
+          id: "techniques-2",
+          question: t("study.questions.techniques-2.question", "What does 'Uke' mean?"),
+          options: [
+            t("study.questions.techniques-2.option1", "Attack"),
+            t("study.questions.techniques-2.option2", "Block"),
+            t("study.questions.techniques-2.option3", "Strike"),
+            t("study.questions.techniques-2.option4", "Kick")
+          ],
+          correctAnswer: t("study.questions.techniques-2.correct", "Block"),
+          explanation: t("study.questions.techniques-2.explanation", "Uke (受け) means 'block' or 'receive' in Japanese.")
+        }
+      ]
+    }
+  ];
 
-// Add kumite study materials
-const kumiteStudies: Study[] = [
-  {
-    id: "kumite-basics-quiz",
-    title: t("study.quizTypes.kumite-basics.title", "Kumite Basics Quiz"),
-    description: t("study.quizTypes.kumite-basics.description", "Test your knowledge of sparring fundamentals."),
-    type: "quiz",
-    category: "kumite",
-    difficulty: "beginner",
-    questions: [
-      {
-        id: "kumite-1",
-        question: t("study.questions.kumite-1.question", "What does 'Kumite' mean?"),
-        options: [
-          t("study.questions.kumite-1.option1", "Sparring"),
-          t("study.questions.kumite-1.option2", "Fighting"),
-          t("study.questions.kumite-1.option3", "Training"),
-          t("study.questions.kumite-1.option4", "Competition")
-        ],
-        correctAnswer: t("study.questions.kumite-1.correct", "Sparring"),
-        explanation: t("study.questions.kumite-1.explanation", "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese.")
-      },
-      {
-        id: "kumite-2",
-        question: t("study.questions.kumite-2.question", "What is 'Ippon Kumite'?"),
-        options: [
-          t("study.questions.kumite-2.option1", "Free Sparring"),
-          t("study.questions.kumite-2.option2", "One-Step Sparring"),
-          t("study.questions.kumite-2.option3", "Three-Step Sparring"),
-          t("study.questions.kumite-2.option4", "Five-Step Sparring")
-        ],
-        correctAnswer: t("study.questions.kumite-2.correct", "One-Step Sparring"),
-        explanation: t("study.questions.kumite-2.explanation", "Ippon Kumite is one-step sparring with predetermined attacks and defenses.")
-      }
-    ]
-  }
-];
+  // Add kumite study materials
+  const kumiteStudies: Study[] = [
+    {
+      id: "kumite-basics-quiz",
+      title: t("study.quizTypes.kumite-basics.title", "Kumite Basics Quiz"),
+      description: t("study.quizTypes.kumite-basics.description", "Test your knowledge of sparring fundamentals."),
+      type: "quiz",
+      category: "kumite",
+      difficulty: "beginner",
+      questions: [
+        {
+          id: "kumite-1",
+          question: t("study.questions.kumite-1.question", "What does 'Kumite' mean?"),
+          options: [
+            t("study.questions.kumite-1.option1", "Sparring"),
+            t("study.questions.kumite-1.option2", "Fighting"),
+            t("study.questions.kumite-1.option3", "Training"),
+            t("study.questions.kumite-1.option4", "Competition")
+          ],
+          correctAnswer: t("study.questions.kumite-1.correct", "Sparring"),
+          explanation: t("study.questions.kumite-1.explanation", "Kumite (組手) means 'sparring' or 'meeting of hands' in Japanese.")
+        },
+        {
+          id: "kumite-2",
+          question: t("study.questions.kumite-2.question", "What is 'Ippon Kumite'?"),
+          options: [
+            t("study.questions.kumite-2.option1", "Free Sparring"),
+            t("study.questions.kumite-2.option2", "One-Step Sparring"),
+            t("study.questions.kumite-2.option3", "Three-Step Sparring"),
+            t("study.questions.kumite-2.option4", "Five-Step Sparring")
+          ],
+          correctAnswer: t("study.questions.kumite-2.correct", "One-Step Sparring"),
+          explanation: t("study.questions.kumite-2.explanation", "Ippon Kumite is one-step sparring with predetermined attacks and defenses.")
+        }
+      ]
+    }
+  ];
 
-// Add new cross-section study materials (History, Hojo Undo, Newaza, Rules)
-const crossSectionStudies: Study[] = [
-  {
-    id: "history-origins-quiz",
-    title: t("study.quizTypes.history-origins.title", "History & Origins Quiz"),
-    description: t("study.quizTypes.history-origins.description", "Key people, places and origins of Goju Ryu."),
-    type: "quiz",
-    category: "history",
-    difficulty: "intermediate",
-    questions: [
-      {
-        id: "history-1",
-        question: t("study.questions.history-1.question", "Who founded Goju Ryu?"),
-        options: [
-          t("study.questions.history-1.option1", "Chojun Miyagi"),
-          t("study.questions.history-1.option2", "Kanryo Higaonna"),
-          t("study.questions.history-1.option3", "Gichin Funakoshi"),
-          t("study.questions.history-1.option4", "Kenwa Mabuni")
-        ],
-        correctAnswer: t("study.questions.history-1.correct", "Chojun Miyagi"),
-        explanation: t("study.questions.history-1.explanation", "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi.")
-      },
-      {
-        id: "history-2",
-        question: t("study.questions.history-2.question", "Which teacher strongly influenced Chojun Miyagi?"),
-        options: [
-          t("study.questions.history-2.option1", "Kanryo Higaonna"),
-          t("study.questions.history-2.option2", "Anko Itosu"),
-          t("study.questions.history-2.option3", "Mabuni Kenwa"),
-          t("study.questions.history-2.option4", "Motobu Choki")
-        ],
-        correctAnswer: t("study.questions.history-2.correct", "Kanryo Higaonna"),
-        explanation: t("study.questions.history-2.explanation", "Miyagi was a top student of Kanryo Higaonna.")
-      }
-    ]
-  },
-  {
-    id: "hojo-undo-basics-quiz",
-    title: t("study.quizTypes.hojo-undo-basics.title", "Hojo Undo Basics Quiz"),
-    description: t("study.quizTypes.hojo-undo-basics.description", "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."),
-    type: "quiz",
-    category: "hojo-undo",
-    difficulty: "beginner",
-    questions: [
-      {
-        id: "hojo-1",
-        question: t("study.questions.hojo-1.question", "Which tool is a stone lever used for circular strength?"),
-        options: [
-          t("study.questions.hojo-1.option1", "Chi-ishi"),
-          t("study.questions.hojo-1.option2", "Ishi sashi"),
-          t("study.questions.hojo-1.option3", "Nigiri game"),
-          t("study.questions.hojo-1.option4", "Kongoken")
-        ],
-        correctAnswer: t("study.questions.hojo-1.correct", "Chi-ishi"),
-        explanation: t("study.questions.hojo-1.explanation", "Chi-ishi trains circular strength and wrist/forearm conditioning.")
-      },
-      {
-        id: "hojo-2",
-        question: t("study.questions.hojo-2.question", "Which tool primarily trains grip strength?"),
-        options: [
-          t("study.questions.hojo-2.option1", "Nigiri game"),
-          t("study.questions.hojo-2.option2", "Kongoken"),
-          t("study.questions.hojo-2.option3", "Ishi sashi"),
-          t("study.questions.hojo-2.option4", "Makiwara")
-        ],
-        correctAnswer: t("study.questions.hojo-2.correct", "Nigiri game"),
-        explanation: t("study.questions.hojo-2.explanation", "Nigiri game jars are used to develop grip strength and stance.")
-      }
-    ]
-  },
-  {
-    id: "newaza-intro-quiz",
-    title: t("study.quizTypes.newaza-intro.title", "Newaza Introduction Quiz"),
-    description: t("study.quizTypes.newaza-intro.description", "Fundamental ground positions and control concepts."),
-    type: "quiz",
-    category: "newaza",
-    difficulty: "intermediate",
-    questions: [
-      {
-        id: "newaza-1",
-        question: t("study.questions.newaza-1.question", "Which position emphasizes chest-to-chest control from the side?"),
-        options: [
-          t("study.questions.newaza-1.option1", "Side control"),
-          t("study.questions.newaza-1.option2", "Mount"),
-          t("study.questions.newaza-1.option3", "Guard"),
-          t("study.questions.newaza-1.option4", "Back control")
-        ],
-        correctAnswer: t("study.questions.newaza-1.correct", "Side control"),
-        explanation: t("study.questions.newaza-1.explanation", "Side control (yoko shiho-like control) focuses on chest-to-chest pressure.")
-      }
-    ]
-  },
-  {
-    id: "kumite-rules-quiz",
-    title: t("study.quizTypes.kumite-rules.title", "Kumite Rules Quiz"),
-    description: t("study.quizTypes.kumite-rules.description", "Scoring, penalties and referee commands."),
-    type: "quiz",
-    category: "kumite",
-    difficulty: "advanced",
-    questions: [
-      {
-        id: "rules-1",
-        question: t("study.questions.rules-1.question", "What does 'Hansoku' mean?"),
-        options: [
-          t("study.questions.rules-1.option1", "Foul"),
-          t("study.questions.rules-1.option2", "Extension round"),
-          t("study.questions.rules-1.option3", "Draw"),
-          t("study.questions.rules-1.option4", "Half point")
-        ],
-        correctAnswer: t("study.questions.rules-1.correct", "Foul"),
-        explanation: t("study.questions.rules-1.explanation", "Hansoku is a foul; serious infractions can lead to disqualification.")
-      }
-    ]
-  }
-];
+  // Add new cross-section study materials (History, Hojo Undo, Newaza, Rules)
+  const crossSectionStudies: Study[] = [
+    {
+      id: "history-origins-quiz",
+      title: t("study.quizTypes.history-origins.title", "History & Origins Quiz"),
+      description: t("study.quizTypes.history-origins.description", "Key people, places and origins of Goju Ryu."),
+      type: "quiz",
+      category: "history",
+      difficulty: "intermediate",
+      questions: [
+        {
+          id: "history-1",
+          question: t("study.questions.history-1.question", "Who founded Goju Ryu?"),
+          options: [
+            t("study.questions.history-1.option1", "Chojun Miyagi"),
+            t("study.questions.history-1.option2", "Kanryo Higaonna"),
+            t("study.questions.history-1.option3", "Gichin Funakoshi"),
+            t("study.questions.history-1.option4", "Kenwa Mabuni")
+          ],
+          correctAnswer: t("study.questions.history-1.correct", "Chojun Miyagi"),
+          explanation: t("study.questions.history-1.explanation", "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi.")
+        },
+        {
+          id: "history-2",
+          question: t("study.questions.history-2.question", "Which teacher strongly influenced Chojun Miyagi?"),
+          options: [
+            t("study.questions.history-2.option1", "Kanryo Higaonna"),
+            t("study.questions.history-2.option2", "Anko Itosu"),
+            t("study.questions.history-2.option3", "Mabuni Kenwa"),
+            t("study.questions.history-2.option4", "Motobu Choki")
+          ],
+          correctAnswer: t("study.questions.history-2.correct", "Kanryo Higaonna"),
+          explanation: t("study.questions.history-2.explanation", "Miyagi was a top student of Kanryo Higaonna.")
+        }
+      ]
+    },
+    {
+      id: "hojo-undo-basics-quiz",
+      title: t("study.quizTypes.hojo-undo-basics.title", "Hojo Undo Basics Quiz"),
+      description: t("study.quizTypes.hojo-undo-basics.description", "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."),
+      type: "quiz",
+      category: "hojo-undo",
+      difficulty: "beginner",
+      questions: [
+        {
+          id: "hojo-1",
+          question: t("study.questions.hojo-1.question", "Which tool is a stone lever used for circular strength?"),
+          options: [
+            t("study.questions.hojo-1.option1", "Chi-ishi"),
+            t("study.questions.hojo-1.option2", "Ishi sashi"),
+            t("study.questions.hojo-1.option3", "Nigiri game"),
+            t("study.questions.hojo-1.option4", "Kongoken")
+          ],
+          correctAnswer: t("study.questions.hojo-1.correct", "Chi-ishi"),
+          explanation: t("study.questions.hojo-1.explanation", "Chi-ishi trains circular strength and wrist/forearm conditioning.")
+        },
+        {
+          id: "hojo-2",
+          question: t("study.questions.hojo-2.question", "Which tool primarily trains grip strength?"),
+          options: [
+            t("study.questions.hojo-2.option1", "Nigiri game"),
+            t("study.questions.hojo-2.option2", "Kongoken"),
+            t("study.questions.hojo-2.option3", "Ishi sashi"),
+            t("study.questions.hojo-2.option4", "Makiwara")
+          ],
+          correctAnswer: t("study.questions.hojo-2.correct", "Nigiri game"),
+          explanation: t("study.questions.hojo-2.explanation", "Nigiri game jars are used to develop grip strength and stance.")
+        }
+      ]
+    },
+    {
+      id: "newaza-intro-quiz",
+      title: t("study.quizTypes.newaza-intro.title", "Newaza Introduction Quiz"),
+      description: t("study.quizTypes.newaza-intro.description", "Fundamental ground positions and control concepts."),
+      type: "quiz",
+      category: "newaza",
+      difficulty: "intermediate",
+      questions: [
+        {
+          id: "newaza-1",
+          question: t("study.questions.newaza-1.question", "Which position emphasizes chest-to-chest control from the side?"),
+          options: [
+            t("study.questions.newaza-1.option1", "Side control"),
+            t("study.questions.newaza-1.option2", "Mount"),
+            t("study.questions.newaza-1.option3", "Guard"),
+            t("study.questions.newaza-1.option4", "Back control")
+          ],
+          correctAnswer: t("study.questions.newaza-1.correct", "Side control"),
+          explanation: t("study.questions.newaza-1.explanation", "Side control (yoko shiho-like control) focuses on chest-to-chest pressure.")
+        }
+      ]
+    },
+    {
+      id: "kumite-rules-quiz",
+      title: t("study.quizTypes.kumite-rules.title", "Kumite Rules Quiz"),
+      description: t("study.quizTypes.kumite-rules.description", "Scoring, penalties and referee commands."),
+      type: "quiz",
+      category: "kumite",
+      difficulty: "advanced",
+      questions: [
+        {
+          id: "rules-1",
+          question: t("study.questions.rules-1.question", "What does 'Hansoku' mean?"),
+          options: [
+            t("study.questions.rules-1.option1", "Foul"),
+            t("study.questions.rules-1.option2", "Extension round"),
+            t("study.questions.rules-1.option3", "Draw"),
+            t("study.questions.rules-1.option4", "Half point")
+          ],
+          correctAnswer: t("study.questions.rules-1.correct", "Foul"),
+          explanation: t("study.questions.rules-1.explanation", "Hansoku is a foul; serious infractions can lead to disqualification.")
+        }
+      ]
+    }
+  ];
 
   // Add all study materials
   studies.push(
@@ -1016,40 +1021,40 @@ const crossSectionStudies: Study[] = [
 
   // Add matching studies for different content types
   const matchingStudies: Study[] = [
-  {
-    id: "kata-matching",
+    {
+      id: "kata-matching",
       title: t("study.matchingTypes.kata.title", "Kata Matching"),
       description: t("study.matchingTypes.kata.description", "Match kata names with their meanings and characteristics."),
-    type: "matching",
-    category: "kata",
-    difficulty: "intermediate",
-    image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
-    questions: [
-      {
-        id: "kata-matching-1",
-        question: "Match the kata with its meaning",
-        correctAnswer: "Sanchin - Three Battles, Gekisai - Attack and Smash, Tensho - Turning Palms",
-        explanation: "Each kata has a specific meaning that reflects its purpose and characteristics."
-      }
-    ]
-  },
-  {
-    id: "terminology-matching",
+      type: "matching",
+      category: "kata",
+      difficulty: "intermediate",
+      image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
+      questions: [
+        {
+          id: "kata-matching-1",
+          question: "Match the kata with its meaning",
+          correctAnswer: "Sanchin - Three Battles, Gekisai - Attack and Smash, Tensho - Turning Palms",
+          explanation: "Each kata has a specific meaning that reflects its purpose and characteristics."
+        }
+      ]
+    },
+    {
+      id: "terminology-matching",
       title: t("study.matchingTypes.terminology.title", "Terminology Matching"),
       description: t("study.matchingTypes.terminology.description", "Match Japanese terms to their English meanings across categories."),
-    type: "matching",
-    category: "terminology",
-    difficulty: "advanced",
-    questions: [
-      {
-        id: "terminology-matching-1",
+      type: "matching",
+      category: "terminology",
+      difficulty: "advanced",
+      questions: [
+        {
+          id: "terminology-matching-1",
           question: t("study.matchingTypes.terminology.q1", "Match the Japanese term to its meaning: Rei, Kime, Zanshin"),
           correctAnswer: t("study.matchingTypes.terminology.a1", "Rei-Respect, Kime-Focus, Zanshin-Remaining mind"),
           explanation: t("study.matchingTypes.terminology.e1", "Fundamental dojo concepts used throughout training.")
-      }
-    ]
-  }
-];
+        }
+      ]
+    }
+  ];
   studies.push(...matchingStudies);
 
   return studies;

@@ -22,7 +22,6 @@
     "mental-aspects": "Mentale Aspekte",
     "kumite-types": "Kumite-Arten",
     "progression-title": "Trainingsfortschritt",
-    "safety-title": "Sicherheit und Regeln",
     "goals": "Ziele",
     "characteristics": "Merkmale",
     "definition": "Definition",
@@ -107,10 +106,22 @@
       }
     },
     "progression": {
-      "basic": { "title": "Grundlagen", "desc": "Ippon Kumite für grundlegende Fähigkeiten" },
-      "expansion": { "title": "Erweiterung", "desc": "Sanbon und Gohon für Komplexität" },
-      "freedom": { "title": "Freiheit", "desc": "Jiyu Kumite für Spontanität" },
-      "competition": { "title": "Wettkampf", "desc": "Shiai Kumite für Wettkampferfahrung" }
+      "basic": {
+        "title": "Grundlagen",
+        "desc": "Ippon Kumite für grundlegende Fähigkeiten"
+      },
+      "expansion": {
+        "title": "Erweiterung",
+        "desc": "Sanbon und Gohon für Komplexität"
+      },
+      "freedom": {
+        "title": "Freiheit",
+        "desc": "Jiyu Kumite für Spontanität"
+      },
+      "competition": {
+        "title": "Wettkampf",
+        "desc": "Shiai Kumite für Wettkampferfahrung"
+      }
     },
     "safety": {
       "basic-principles": "Grundlegende Sicherheitsprinzipien",
@@ -528,12 +539,6 @@
   "competition": {
     "title": "Kumite-Wettkampf",
     "description": "Wettkampfkarate und wettkampforientierte Aspekte",
-    "organizations": "Wettkampforganisationen",
-    "rules": "Wettkampfregeln",
-    "preparation": "Wettkampfvorbereitung",
-    "safety": "Wettkampfsicherheit",
-    "experience": "Wettkampferfahrung",
-    "etiquette": "Wettkampfetikette",
     "organizations": {
       "title": "Wichtige Organisationen",
       "wkf": {
@@ -552,6 +557,17 @@
         "role": "Fördert traditionelle Karate-Werte"
       }
     },
+    "rules": "Wettkampfregeln",
+    "preparation": {
+      "title": "Wettkampfvorbereitung",
+      "physical": "Physische Vorbereitung und Konditionierung",
+      "mental": "Mentale Vorbereitung und Fokus",
+      "technical": "Technische Vorbereitung und Verfeinerung",
+      "tactical": "Taktische Vorbereitung und Strategie"
+    },
+    "safety": "Wettkampfsicherheit",
+    "experience": "Wettkampferfahrung",
+    "etiquette": "Wettkampfetikette",
     "scoring": {
       "title": "Punktesystem",
       "ippon": {
@@ -575,13 +591,6 @@
       "chukoku": "Chukoku - Erste Verwarnung",
       "keikoku": "Keikoku - Zweite Verwarnung",
       "hansoku": "Hansoku - Disqualifikation"
-    },
-    "preparation": {
-      "title": "Wettkampfvorbereitung",
-      "physical": "Physische Vorbereitung und Konditionierung",
-      "mental": "Mentale Vorbereitung und Fokus",
-      "technical": "Technische Vorbereitung und Verfeinerung",
-      "tactical": "Taktische Vorbereitung und Strategie"
     }
   },
   "technique-names": {
@@ -644,4 +653,4 @@
     "keikoku": "Keikoku - Zweite Verwarnung",
     "hansoku": "Hansoku - Disqualifikation"
   }
-} 
+}

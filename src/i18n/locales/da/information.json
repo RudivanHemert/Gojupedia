@@ -1,69 +1,100 @@
 {
   "information": {
     "title": "Information",
-    "description": "Generel information",
-    "sections": {
-      "events": {
-        "title": "Begivenheder",
-        "description": "Karate begivenheder"
+    "description": "Hold dig opdateret med begivenheder og find Goju-Ryu dojoer nær dig",
+    "events": {
+      "title": "Begivenheder",
+      "description": "Opdag kommende karate begivenheder, turneringer, seminarer og træningslejre i dit område.",
+      "upcoming": {
+        "title": "Kommende Begivenheder",
+        "description": "Ingen kommende begivenheder planlagt i øjeblikket. Tjek tilbage snart for opdateringer!"
       },
-      "dojos": {
-        "title": "Dojoer",
-        "description": "Find en dojo"
+      "viewAll": "Se Alle Begivenheder",
+      "explore": "Udforsk Begivenheder",
+      "pageTitle": "Begivenheder",
+      "pageDescription": "Opdag kommende karate begivenheder, turneringer, seminarer og træningslejre",
+      "filters": {
+        "title": "Filtrer Begivenheder"
       },
-      "resources": {
-        "title": "Ressourcer",
-        "description": "Yderligere ressourcer"
+      "types": {
+        "all": "Alle Begivenheder",
+        "tournament": "Turneringer",
+        "seminar": "Seminarer",
+        "training": "Træningslejre",
+        "competition": "Konkurrencer"
+      },
+      "noEvents": {
+        "title": "Ingen Begivenheder Fundet",
+        "description": "Ingen begivenheder matcher dine nuværende filtre. Prøv at justere dit valg eller tjek tilbage senere for nye begivenheder."
+      },
+      "date": "Dato",
+      "time": "Tid",
+      "location": "Lokation",
+      "organizer": "Arrangør",
+      "participants": "deltagere",
+      "price": "Pris",
+      "register": "Tilmeld Dig Nu",
+      "visitWebsite": "Besøg Hjemmeside",
+      "contact": "Kontakt",
+      "registrationDeadline": "Tilmelding Deadline",
+      "cta": {
+        "title": "Vært for en Begivenhed?",
+        "description": "Arrangerer du en Goju-Ryu begivenhed? Lad os vide det og vi vil hjælpe med at promovere den til vores fællesskab.",
+        "submit": "Indsend Begivenhed"
       }
     },
     "dojos": {
-      "description": "Opdag officielt registrerede IOGKF dojoer i Danmark. Der er i øjeblikket 11 dojoer tilgængelige i forskellige byer.",
-      "filters": {
-        "amsterdam": "Amsterdam"
+      "title": "Goju-Ryu Dojoer",
+      "description": "Find autoriserede Goju-Ryu dojoer i dit område. Hver dojo er certificeret og følger traditionelle Goju-Ryu principper.",
+      "featured": {
+        "title": "Fremhævede Dojoer",
+        "description": "Opdag top-rated Goju-Ryu dojoer med erfarne instruktører og omfattende træningsprogrammer."
       },
-      "tabs": {
-        "netherlands": "Danmark (IOGKF)",
-        "international": "International"
+      "findNearby": "Find Dojoer Nær Mig",
+      "explore": "Udforsk Dojoer",
+      "pageTitle": "Goju-Ryu Dojoer",
+      "pageDescription": "Find autoriserede Goju-Ryu dojoer i dit område med erfarne instruktører",
+      "filters": {
+        "title": "Søg & Filtrer Dojoer",
+        "city": "By",
+        "style": "Stil",
+        "allCities": "Alle Byer",
+        "allStyles": "Alle Stile"
       },
       "search": {
-        "title": "Søg & Filtrer Danske Dojoer",
-        "searchLabel": "Søg",
-        "searchPlaceholder": "Søg efter navn, by eller region...",
-        "cityLabel": "By",
-        "cityPlaceholder": "Vælg by"
+        "placeholder": "Søg efter dojoer, instruktører eller programmer..."
       },
-      "list": {
-        "title": "Danske IOGKF Dojoer",
-        "found": "af dojoer fundet",
-        "noResults": {
-          "title": "Ingen dojoer fundet",
-          "description": "Prøv at justere din søgning eller se alle tilgængelige dojoer.",
-          "showAll": "Vis alle dojoer"
-        }
+      "noResults": {
+        "title": "Ingen Dojoer Fundet",
+        "description": "Ingen dojoer matcher dine nuværende søgekriterier. Prøv at justere dine filtre eller søgetermer."
       },
-      "badges": {
-        "iogkf": "IOGKF Danmark",
-        "region": "Region"
+      "instructor": "Instruktør",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "Email",
+      "schedule": "Tidsplan",
+      "programs": "Programmer",
+      "membership": "Medlemskab",
+      "contact": "Kontakt Dojo",
+      "visitWebsite": "Besøg Hjemmeside",
+      "getDirections": "Få Rutevejledning",
+      "cta": {
+        "title": "Ejer Du en Dojo?",
+        "description": "Er du en Goju-Ryu dojo ejer eller instruktør? Tilføj din dojo til vores fortegnelse for at nå flere studerende.",
+        "addDojo": "Tilføj Din Dojo"
+      }
+    },
+    "additional": {
+      "title": "Yderligere Ressourcer",
+      "news": {
+        "title": "Nyheder & Opdateringer",
+        "description": "Hold dig informeret med de seneste nyheder fra Goju-Ryu fællesskabet.",
+        "readMore": "Læs Mere"
       },
-      "links": {
-        "website": "Besøg hjemmeside",
-        "contact": "Kontakt",
-        "moreInfo": "Mere information",
-        "iogkfWebsite": "Besøg på IOGKF-Danmark"
-      },
-      "info": {
-        "source": "Information fra IOGKF-Danmark",
-        "description": "Denne liste indeholder alle officielt registrerede IOGKF dojoer i Danmark.",
-        "officialWebsite": "Besøg IOGKF-Danmark"
-      },
-      "international": {
-        "title": "Internationale Dojoer",
-        "description": "Søg efter dojoer uden for Danmark",
-        "noDojos": {
-          "title": "Ingen internationale dojoer endnu",
-          "description": "Denne sektion tilføjes snart med dojoer fra andre lande.",
-          "availableSoon": "Snart tilgængelig"
-        }
+      "contact": {
+        "title": "Kontakt Os",
+        "description": "Har du spørgsmål eller har brug for mere information? Få fat i os.",
+        "contact": "Kontakt"
       }
     }
   }

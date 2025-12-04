@@ -1,55 +1,557 @@
 {
   "kata": {
-    "title": "Kata",
-    "description": "Traditionelle former og deres betydning",
-    "overview": "Kata Oversigt",
     "theory": {
       "title": "Kata Teori",
-      "description": "Lær om kata teori og principper"
+      "description": "Forståelse af principperne og praksis af kata",
+      "sections": {
+        "what-are-kata": "Hvad er Kata?",
+        "kata-and-karate": "Kata og Karate",
+        "bunkai-and-techniques": "Bunkai & Teknikker",
+        "kata-origins": "Kata Oprindelse",
+        "power-and-movement": "Styrke & Bevægelse",
+        "sources-of-power": "Styrkekilder",
+        "okinawan-concepts": "Okinawanske Begreber",
+        "power-transfer": "Styrkeoverførsel",
+        "kata-techniques": "Kata Teknikker"
+      }
     },
     "categories": {
-      "kaishugata": "Kaishugata",
-      "kaishugataDescription": "Åbne hånd kata - grundlæggende kata for begyndere",
-      "heishugata": "Heishugata",
-      "heishugataDescription": "Lukkede hånd kata - avancerede kata for øvede"
+      "kaishugata": "Kaishugata (開手型)",
+      "kaishugataDescription": "Åbne Hånd Former - De kerne kæmpende kata af Goju Ryu, der fremhæver praktiske kæmpeapplikationer og dynamiske bevægelser.",
+      "heishugata": "Heishugata (閉手型)",
+      "heishugataDescription": "Lukkede Hånd Former - De grundlæggende kata der fokuserer på åndedræt, spænding og intern energidannelse."
+    },
+    "levels": {
+      "beginner": "Begynder",
+      "intermediate": "Mellemliggende",
+      "advanced": "Avanceret",
+      "master": "Mester"
+    },
+    "sanchin": {
+      "name": "Sanchin",
+      "japaneseName": "三戦",
+      "meaning": "Tre Kampe",
+      "description": "Grundlæggende kata af Goju Ryu, der fokuserer på åndedræt, spænding og grundlæggende bevægelser.",
+      "history": "Overført fra Kanryo Higaonna og videreudviklet af Chojun Miyagi.",
+      "culturalSignificance": "Repræsenterer essensen af Goju Ryu og forbindelsen mellem sind, krop og åndedræt.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Startposition og fremadgående skridt",
+          "description": "Begynd i naturlig stilling vendt fremad"
+        },
+        "step2": {
+          "title": "Tre slag",
+          "description": "Skridt fremad i sanchin dachi"
+        },
+        "step3": {
+          "title": "Drej 180 grader",
+          "description": "Udfør tre slag mens du opretholder korrekt åndedræt"
+        },
+        "step4": {
+          "title": "Fortsæt sekvens",
+          "description": "Drej 180 grader mens du opretholder spænding"
+        },
+        "step5": {
+          "title": "Oprethold muskelspænding",
+          "description": "Fortsæt sekvens med kontrollerede bevægelser og åndedræt"
+        },
+        "step6": {
+          "title": "Konklusion",
+          "description": "Oprethold muskelspænding gennem hele formen"
+        }
+      }
+    },
+    "tensho": {
+      "name": "Tensho",
+      "japaneseName": "転掌",
+      "meaning": "Roterende Håndflader",
+      "description": "En flydende kata der fremhæver de bløde aspekter af Goju Ryu.",
+      "history": "Skabt af Chojun Miyagi som et komplement til Sanchin.",
+      "culturalSignificance": "Repræsenterer 'ju' (blød) aspektet af Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Begynd i sanchin stilling",
+          "description": "Start i den grundlæggende sanchin stilling"
+        },
+        "step2": {
+          "title": "Cirkulære åbne hånd teknikker",
+          "description": "Udfør cirkulære åbne hånd teknikker"
+        },
+        "step3": {
+          "title": "Oprethold muskelspænding",
+          "description": "Oprethold muskelspænding gennem hele"
+        },
+        "step4": {
+          "title": "Flydende cirkulære bevægelser",
+          "description": "Fokuser på flydende, cirkulære bevægelser"
+        },
+        "step5": {
+          "title": "Korrekt åndedræt",
+          "description": "Oprethold korrekt åndedræt gennem hele kata"
+        }
+      }
+    },
+    "gekisai-dai-ichi": {
+      "name": "Gekisai Dai Ichi",
+      "japaneseName": "撃砕第一",
+      "meaning": "Angreb og Knus",
+      "description": "Den første kata i Gekisai serien, designet til at introducere grundlæggende teknikker og principper af Goju Ryu.",
+      "history": "Skabt af Chojun Miyagi som en introduktion til Goju Ryu.",
+      "culturalSignificance": "Repræsenterer grundlæggende principper og teknikker af Goju Ryu.",
+      "stepsCount": 12,
+      "steps": {
+        "step1": {
+          "title": "Startposition",
+          "description": "Begynd i musubi dachi med hænderne foldet foran"
+        },
+        "step2": {
+          "title": "Fremadgående blok",
+          "description": "Skridt fremad med gedan barai blok"
+        },
+        "step3": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag med kontra hånd"
+        },
+        "step4": {
+          "title": "Drej til højre",
+          "description": "Drej 90 grader til højre med blok"
+        },
+        "step5": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step6": {
+          "title": "Drej til venstre",
+          "description": "Drej 90 grader til venstre med blok"
+        },
+        "step7": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step8": {
+          "title": "Drej til højre",
+          "description": "Drej 90 grader til højre med blok"
+        },
+        "step9": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step10": {
+          "title": "Drej til venstre",
+          "description": "Drej 90 grader til venstre med blok"
+        },
+        "step11": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step12": {
+          "title": "Konklusion",
+          "description": "Vend tilbage til startposition"
+        }
+      },
+      "detailedMeaning": {
+        "title": "Navn og Betydning",
+        "content": "Gekisai Dai Ichi (撃砕第一) betyder bogstaveligt talt \"angreb og knus\" eller \"angreb og ødelæg\". Tegnene 撃 (geki) og 砕 (sai) betyder henholdsvis \"angreb, slag\" og \"ødelæg, bryd\". I kombination med 大 (\"dai\", stor) i Gekisai Dai Ichi bliver dette til \"stor ødelæggelse\" eller \"største slag\". Symbolsk oversættes navnet ofte som \"knus fæstning\" eller \"stor ødelæggelse\"."
+      },
+      "origin": {
+        "title": "Oprindelse",
+        "content": "Denne kata blev udviklet på Okinawa omkring 1940 af sensei Chōjun Miyagi (medstifter af Goju-Ryu) og Shoshin Nagamine. De baserede Gekisai Dai Ichi på Fukyugata II (en grundlæggende kata fra Itosu-systemet, analog til Shuri-te's Pinan) for at give unge elever en enklere kata. Således har Gekisai Dai Ichi rødder i Okinawa-te (især Shuri/Naha stil) traditionen og er stærkt påvirket af de mere lineære Shuri-elementer (Pinan/Fukyugata). Den er ikke direkte overtaget fra en kinesisk kata, men snarere en okinawansk skabelse baseret på eksisterende former (ligesom Itosus Pinan)."
+      },
+      "transmission": {
+        "title": "Overførsel til Goju-Ryu",
+        "content": "Efter Miyagi formulerede denne kata i 1940 til ungdomstræning, gav han den videre til sine elever i Goju-Ryu slægtlinjen. Således spredte den sig inden for stilen gennem Miyagi og hans elever (for eksempel Higaonna Morio, Miyazato, Yagi Meitoku). Alle Goju-Ryu undersystemer (Jundokan, Meibukan, IOGKF, JKF Goju Kai, osv.) kender Gekisai Dai Ichi som den første eller anden kata efter grundlæggende teknikker."
+      },
+      "historicalDevelopment": {
+        "title": "Historisk Udvikling og Variationer",
+        "content": "Oprindeligt inkluderede Gekisai Dai Ichi blandt andet en blokering med knytnæven over hovedet (højere morote-tsuki) egnet til de høje amerikanske soldater efter 2. verdenskrig; senere udførelser bringer normalt denne teknik til mave- eller armhulehøjde. Efter Miyagis død er der opstået små variationer mellem skoler: nogle slægtlinjer (f.eks. Meibukan) tilføjer en ekstra morote-tsuki til sidst, mens andre ikke gør. Generelt forbliver embusen den samme, og variationer er begrænset til vinkel og anvendelse af teknikker."
+      },
+      "technicalFeatures": {
+        "title": "Tekniske og Filosofiske Karakteristika",
+        "content": "Gekisai Dai Ichi er en Kaishu-gata (åben hånd kata) med både hårde og dynamiske bevægelser. Kataen indeholder grundlæggende bevægelser fra tungere kata, men i forenklet form. Åndedrættet er normalt (ingen dyb Naha-te vejrtrækning) og i Goju-Ryu's ånd (hård/blød), efter hver spændt bevægelse følger afslapning igen (Kaishu stil). Kataen starter typisk med en defensiv bevægelse, i henhold til princippet \"Karate ni sente nashi\" (\"i karate er der intet første angreb\"). Stillinger varierer (såsom zenkutsu- og kiba-dachi) og fremhæver både styrke og afslapning, med svingende teknikker (fordoblede spark og slag), der understreger fleksibiliteten i en krop i bevægelse."
+      },
+      "controversy": {
+        "title": "Kontroverser/Variationer inden for Goju-Ryu",
+        "content": "Der er kun få kontroverser; forskellene mellem skoler er subtile. Nogle Goju Ryu slægtlinjer (f.eks. Yagi Meitokus Meibukan versus Yamaguchi Gogens Goju Kai) har små udførelsesforskelle i Gekisai Dai Ichi (såsom højden på den øvre blokering eller rytmen af spark), men fundamentet forbliver konsekvent. I Kyokushinkarate (som Kyokushin kalder en \"sydlig kata\"), er der også en egen version af Gekisai Dai Ichi, fordi grundlæggeren Mas Oyama (der gik gennem Goju traditionen) adopterede denne kata."
+      },
+      "relationships": {
+        "title": "Forhold til andre kata/Systemer",
+        "content": "Gekisai Dai Ichi er en direkte udløber af Itosus Fukyugata/Pinan kata (Shuri-te). Ligesom sin partner Gekisai Dai Ni, tjener den som en introduktion før de dybere Naha-te kata såsom Sanchin. Den er i bund og grund den hårde bror til Gekisai Dai Ni. I undervisningskæden kommer den før Saifa og Sanchin. Kyokushin indeholder den som en tidlig kata, Shito-Ryu har også to (Higa og Miyagi versioner)."
+      },
+      "modernPractice": {
+        "title": "Brug i Moderne Praksis",
+        "content": "Gekisai Dai Ichi undervises traditionelt som den første eller anden kata for begyndere. Den er beregnet til at øve grundlæggende bevægelser og rytme. I konkurrencekata (begivenheder) forekommer den sjældent, fordi den er ret enkel, men den vises ved demonstrationer og i dojo lektionsplaner som et fundament. Den tjener primært som en bro til de tungere kata (såsom Sanchin og Tensho) og til konditionering og grundlæggende forsvarstræning."
+      }
+    },
+    "gekisai-dai-ni": {
+      "name": "Gekisai Dai Ni",
+      "japaneseName": "撃砕第二",
+      "meaning": "Angreb og Knus Del To",
+      "description": "Den anden kata i Gekisai serien, der bygger på den første med mere avancerede teknikker.",
+      "history": "Skabt af Chojun Miyagi som en fortsættelse af Gekisai Dai Ichi.",
+      "culturalSignificance": "Repræsenterer udvikling og progression i Goju Ryu teknikker.",
+      "stepsCount": 12,
+      "steps": {
+        "step1": {
+          "title": "Startposition",
+          "description": "Begynd i musubi dachi med hænderne foldet foran"
+        },
+        "step2": {
+          "title": "Fremadgående blok",
+          "description": "Skridt fremad med gedan barai blok"
+        },
+        "step3": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag med kontra hånd"
+        },
+        "step4": {
+          "title": "Drej til højre",
+          "description": "Drej 90 grader til højre med blok"
+        },
+        "step5": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step6": {
+          "title": "Drej til venstre",
+          "description": "Drej 90 grader til venstre med blok"
+        },
+        "step7": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step8": {
+          "title": "Drej til højre",
+          "description": "Drej 90 grader til højre med blok"
+        },
+        "step9": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step10": {
+          "title": "Drej til venstre",
+          "description": "Drej 90 grader til venstre med blok"
+        },
+        "step11": {
+          "title": "Fremadgående slag",
+          "description": "Udfør fremadgående slag"
+        },
+        "step12": {
+          "title": "Konklusion",
+          "description": "Vend tilbage til startposition"
+        }
+      },
+      "detailedMeaning": {
+        "title": "Navn og Betydning",
+        "content": "Gekisai Dai Ni (撃砕第二) deler tegnene 撃砕 med Dai Ichi: \"angreb og ødelæg\". Suffikset 小 (sho) i det japanske navn (nogle gange Gekisai Sho) betyder \"lille\" eller \"mindst\", i modsætning til 大 (dai) = \"stor\". Frit oversat betyder Gekisai Dai Ni \"lille angreb og ødelæggelse\". Ligesom Dai Ichi understreger navnet ideen om kraftfulde slag, men som et modstykke til den \"store\" Gekisai."
+      },
+      "origin": {
+        "title": "Oprindelse",
+        "content": "Gekisai Dai Ni opstod ligesom Dai Ichi i 1940 på Okinawa under ledelse af Chōjun Miyagi (sammen med Shoshin Nagamine). Den er baseret på Itosus Fukyugata Ichi (igen en analog til Pinan). I bund og grund tog Miyagi Fukyugata Ichi som basis for Gekisai Dai Ni og skabte to nye kata for at supplere Goju-pensummet. Denne kata afspejler igen fusionen af Okinawa-te med sydkinesiske elementer, men er primært et moderne okinawansk design."
+      },
+      "transmission": {
+        "title": "Overførsel til Goju-Ryu",
+        "content": "Ligesom Gekisai Dai Ichi blev denne kata givet videre af Miyagi til hans elever inden for Goju-Ryu. Den blev introduceret som den anden Gekisai kata sammen med Dai Ichi, så unge elever fik et mere komplet grundprogram. Vigtige Goju-grundlæggere (såsom Higaonna Morio, Miyazato, Yagi Meitoku) introducerede denne kata på deres steder og spredte den gennem alle Goju-Ryu linjer."
+      },
+      "historicalDevelopment": {
+        "title": "Historisk Udvikling og Variationer",
+        "content": "Gekisai Dai Ni er også forblevet relativt uændret. Efter krigen skiftede mange dojoer til stumpe næver i stedet for det oprindelige høje slag, ligesom med Dai Ichi. Nogle skoler har små udførelsesforskelle (stilling, overgangsteknikker). I Kyokushin er Gekisai Dai Ni ikke direkte overtaget fra Goju (selvom der er en såkaldt sydlig kata \"Gekisai\" i Kyokushin), men i Goju selv forbliver kataen ret konsekvent mellem Meibukan, Jundokan og Koepka-ha."
+      },
+      "technicalFeatures": {
+        "title": "Tekniske og Filosofiske Karakteristika",
+        "content": "Gekisai Dai Ni er ligesom Dai Ichi en Kaishu-gata. Også her veksler kraftfulde slag med afslappede frem-og-tilbage bevægelser, hvilket passer til Goju-filosofien om hård-blød. For eksempel er der et dybt fremadgående slag og både høje og lave blokeringer. Åndedrættet er fladt (Kaishu), og der er afslapning ved hver teknik. Kataen indeholder elementer af mere komplekse kata, men forenklet. Ifølge moderne elever udvikler den bevægelseskoordination og styrke og stimulerer princippet \"slap af efter hvert angreb\"."
+      },
+      "controversy": {
+        "title": "Kontroverser/Variationer inden for Goju-Ryu",
+        "content": "Der er ingen store tvister omkring Gekisai Dai Ni; forskellene mellem skoler er marginale. De fleste variationer ligger i detaljer (såsom udførelsen af morote-zuki). Generelt praktiseres denne kata ligeledes i alle Goju-Ryu stilarter og ses som en enkel øvelsesform."
+      },
+      "relationships": {
+        "title": "Forhold til andre kata/Systemer",
+        "content": "Gekisai Dai Ni danner introduktionen til Goju-ryu kata arsenalet sammen med Dai Ichi, forud for Saifa og Sanchin. Den er forbundet med Itosus Fukyugata Ichi og Nord/Øst Okinawa traditionerne (Shuri/Pinan). Den lægger vægt på bevægelsessekvens i flere retninger (svarende til Pinan). Uden for Goju bruges navnet ikke meget, selvom hensigten er den samme som Gekisai Dai Ichi."
+      },
+      "modernPractice": {
+        "title": "Brug i Moderne Praksis",
+        "content": "Gekisai Dai Ni undervises normalt som den anden kata, efter Dai Ichi. Den tjener primært uddannelsesmæssige formål (teknik og rytme). I konkurrencer forekommer den sjældent (for lavt avanceret), men ved demonstrationer viser den de grundlæggende principper for Goju-Ryu. Den bruges også som opvarmning eller form for fitnesstræning på grund af de flydende, hurtige overgange."
+      }
+    },
+    "saifa": {
+      "name": "Saifa",
+      "japaneseName": "砕破",
+      "meaning": "Knus og Riv",
+      "description": "En avanceret kata der fremhæver kraftfulde lukkede håndteknikker og aggressive slagbevægelser.",
+      "history": "Traditionelt siges det, at Kanryō Higaonna bragte denne kata med fra Fuzhou (Fujian, Sydkina) efter sine studier hos mester Ryu Ryu Ko i 1860'erne-1880'erne.",
+      "culturalSignificance": "Repræsenterer Naha-te traditionen med stærk sydkinesisk indflydelse og indeholder mange fikserings- og kvælningsteknikker.",
+      "detailedMeaning": {
+        "title": "Navn og Betydning",
+        "content": "Saifa (砕破) oversættes som \"knus og riv\" eller \"bryd og ødelæg\". Det første tegn 砕 (sai) betyder \"knus\" og det andet 破 (fa/ha) \"riv, revne\". Således kan Saifa oversættes som \"slå og riv fra hinanden\". Frie oversættelser inkluderer \"knus\" eller \"slå for at bryde\". Disse betydninger refererer til de lukkede håndteknikker i denne kata (f.eks. baghåndsslag, hammerslag) og de aggressive 'slående' bevægelser."
+      },
+      "origin": {
+        "title": "Oprindelse",
+        "content": "Den præcise oprindelse af Saifa er uklar. Traditionelt siges det, at Kanryō Higaonna bragte denne kata med fra Fuzhou (Fujian, Sydkina) efter sine studier hos mester Ryu Ryu Ko i 1860'erne-1880'erne. Higaonna dannede således grundlaget for Naha-te traditionen. Nogle mener dog, at Chōjun Miyagi selv designede eller modificerede kataen efter Higaonnas død, givet det faktum, at Saifa ikke optræder i Tōon-ryu (Kyōdas stil). Det er sikkert, at Saifa har en stærk sydkinesisk indflydelse og har fundet sin plads i Goju-Ryu gennem lærer-elev linjen Higaonna→Miyagi."
+      },
+      "transmission": {
+        "title": "Overførsel til Goju-Ryu",
+        "content": "Sensei Miyagi adopterede Saifa som den tredje Goju kata efter de to Gekisai former. Han lærte den enten direkte fra Higaonna eller modificerede eksisterende teknikker til Saifa. Saifa blev givet videre til senere Goju instruktører (f.eks. Miyazato, Yagi). Derudover er kataen blevet adopteret i andre stilarter: Kenwa Mabuni (Shito-Ryu) overtog Saifa, og Mas Oyama (Kyokushin) lærte Saiha (hans variant) gennem Higaonnas elev Gogen Yamaguchi. I den moderne historieskrivning blev Saifa således inkluderet af Miyagi i det officielle Goju pensum."
+      },
+      "historicalDevelopment": {
+        "title": "Historisk Udvikling",
+        "content": "Inden for Goju-Ryu er Saifa altid forblevet en avanceret kata (normalt tredje kata). Formen er i bund og grund uændret; forskellige skoler har dog små udførelsesforskelle i tempo og greb eller blokering. En bemærkelsesværdig udvikling: i nogle sportsgrene (Kyokushin) kaldes kataen Saiha og praktiseres med lidt ekstra vægt. I bund og grund er Saifa dog forblevet sammenlignelig i alle Goju-Ryu slægtlinjer."
+      },
+      "technicalFeatures": {
+        "title": "Tekniske og Filosofiske Karakteristika",
+        "content": "Saifa er en Kaishu-gata der fremhæver kraftfulde lukkede håndslag og åbne håndgrebsteknikker. Karakteristisk er hurtige, rykkende bevægelser, hammernæver, uraken (omvendt slag) og off-line positionering for samtidig at lukke ind og slå. Kataen indeholder mange fikserings- og kvælningsteknikker (såsom håndledslåse) og cirkulære svar. Et klassisk bunkai eksempel er en håndledsgrebsundvigelse efterfulgt af en baghånd, hvor den frie hånd holder våbnet tilbage. Filosofisk ligger vægten på \"knus og ødelæg\" med fast intern kraft. Åndedrættet er Kaishu (normalt), men kombineret med spænding i Waza (teknikker) og afslapning imellem."
+      },
+      "controversy": {
+        "title": "Kontroverser/Variationer inden for Goju-Ryu",
+        "content": "De fleste Goju undersystemer holder Saifa mere eller mindre identisk. Interessant nok optræder Saifa i Shito-Ryu og Kyokushin, men er især fraværende i To-on-ryu (Kyoda). Dette tyder på, at Higaonna ikke kom fra Kina med denne kata, og overgangen blev foretaget af Chōjun Miyagi selv. Der er ingen bemærkelsesværdige konflikter, selvom Kyokushin kalder formen \"Saiha\", og den er blevet omfattende demonstreret af Mas Oyama og Morio Higaonna."
+      },
+      "relationships": {
+        "title": "Forhold til andre kata/Systemer",
+        "content": "Saifa forbinder til Naha-te traditionen (ligesom Sanchin, Seisan) og har ligheder med sydkinesiske (Fujianese) Hvid Trane og Pa Kua bevægelser gennem de cirkulære og gribende teknikker. Den ses nogle gange som et led mellem Naha og Tōon kenpo (også på grund af diskussionen om tilstedeværelse i Tōon-ryu). Relativt står den direkte efter Gekisai I & II og før Sanchin i Goju pensummet. Også i andre stilarter (f.eks. Shito, Kyokushin) genkendes grundformen (med små variationer)."
+      },
+      "modernPractice": {
+        "title": "Brug i Moderne Praksis",
+        "content": "Saifa trænes traditionelt som en specialistkata for øvede udøvere. Den optræder i Goju-ryu kata konkurrencer (både traditionelle og Kyokushin konkurrencer) på grund af de imponerende effekter. I dojoen bruges den ofte til at øve håndstyrke, koordination og selvforsvarsbunkai (såsom håndledsundvigelser og kortdistanceslag). I selvforsvar anvendes vægten på at gribe og kvæle. Saifa bruges også som en demonstrationskata på grund af de slående kiler og modteknikker."
+      },
+      "stepsCount": 6
+    },
+    "seiyunchin": {
+      "name": "Seiyunchin",
+      "japaneseName": "制引戦",
+      "meaning": "At Kontrollere og Trække i Kamp",
+      "description": "En kata der fremhæver lave stillinger og kraftfulde trækkende/ubalancerende teknikker.",
+      "history": "En af de oprindelige kata fra Kina, sandsynligvis fra Xingyi Quan eller Munkenæve boksning.",
+      "culturalSignificance": "Demonstrerer vigtigheden af balance og ubalancerende teknikker.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Lave stillinger",
+          "description": "Vægt på lave stillinger og kraftfulde trækkende/ubalancerende teknikker"
+        },
+        "step2": {
+          "title": "Åndedrætsmønstre",
+          "description": "Unikke åndedrætsmønstre"
+        },
+        "step3": {
+          "title": "Ingen sparketeknikker",
+          "description": "Ingen sparketeknikker"
+        }
+      }
+    },
+    "shisochin": {
+      "name": "Shisochin",
+      "japaneseName": "四向戦",
+      "meaning": "Four Direction Battle",
+      "description": "An advanced kata featuring four-directional movements and open-hand techniques.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents defending against multiple opponents from all directions.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Four-directional movements",
+          "description": "Four-directional movements"
+        },
+        "step2": {
+          "title": "Open-hand techniques",
+          "description": "Open-hand techniques (Nukite, Shotei)"
+        },
+        "step3": {
+          "title": "Joint locks and pressure points",
+          "description": "Joint locks and pressure point strikes"
+        }
+      }
+    },
+    "sanseru": {
+      "name": "Sanseru",
+      "japaneseName": "三十六手",
+      "meaning": "36 Hands",
+      "description": "A dynamic kata with powerful strikes and combination techniques targeting vital points.",
+      "history": "One of the original kata from China, likely from White Crane or Tiger style.",
+      "culturalSignificance": "Represents the 36 vital points of the body.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Dynamic movements",
+          "description": "Dynamic movements and powerful strikes"
+        },
+        "step2": {
+          "title": "Combination techniques",
+          "description": "Combination techniques targeting vital points"
+        },
+        "step3": {
+          "title": "Footwork for evasion",
+          "description": "Footwork for evasion and attack"
+        }
+      }
+    },
+    "sepai": {
+      "name": "Sepai",
+      "japaneseName": "十八手",
+      "meaning": "18 Hands",
+      "description": "An advanced kata representing the 18 vital points of the body with circular and flowing movements.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents the 18 vital points.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Circular and flowing movements",
+          "description": "Circular and flowing movements"
+        },
+        "step2": {
+          "title": "Close-range combat",
+          "description": "Close-range combat techniques and grappling"
+        },
+        "step3": {
+          "title": "Quick transitions",
+          "description": "Quick transitions between techniques"
+        }
+      }
+    },
+    "kururunfa": {
+      "name": "Kururunfa",
+      "japaneseName": "久留頓破",
+      "meaning": "Holding on Long and Striking Suddenly",
+      "description": "A master kata featuring deceptive movements, quick transitions, and 'sticky hands' (Muchimi) principle.",
+      "history": "One of the original kata from China, specific style unknown.",
+      "culturalSignificance": "Emphasizes the principle of 'Muchimi' and controlling the opponent.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Deceptive movements",
+          "description": "Deceptive movements and quick transitions"
+        },
+        "step2": {
+          "title": "'Sticky hands' (Muchimi)",
+          "description": "'Sticky hands' (Muchimi) principle"
+        },
+        "step3": {
+          "title": "Joint manipulation",
+          "description": "Close-quarter combat and joint manipulation"
+        }
+      }
+    },
+    "sesan": {
+      "name": "Sesan",
+      "japaneseName": "十三手",
+      "meaning": "13 Hands",
+      "description": "One of the oldest Goju Ryu kata, featuring powerful, direct movements and close-quarters combat.",
+      "history": "One of the original kata from China, likely from Monk Fist Boxing or Lion's Fist.",
+      "culturalSignificance": "Represents the 13 vital points.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Powerful and direct techniques",
+          "description": "Powerful and direct techniques"
+        },
+        "step2": {
+          "title": "Close-quarters combat",
+          "description": "Close-quarters combat"
+        },
+        "step3": {
+          "title": "Strong stances and rooting",
+          "description": "Strong stances and rooting"
+        }
+      }
+    },
+    "peichurin": {
+      "name": "Peichurin",
+      "japaneseName": "壱百零八",
+      "meaning": "108 Hands",
+      "description": "The longest and most advanced kata, representing the culmination of Goju Ryu principles.",
+      "history": "One of the original kata from China, likely from White Crane style.",
+      "culturalSignificance": "Represents the 108 earthly desires in Buddhism.",
+      "stepsCount": 3,
+      "steps": {
+        "step1": {
+          "title": "Comprehensive range of techniques",
+          "description": "Comprehensive range of Goju Ryu techniques"
+        },
+        "step2": {
+          "title": "Longest and most complex kata",
+          "description": "Longest and most complex kata"
+        },
+        "step3": {
+          "title": "Embodiment of hard and soft principles",
+          "description": "Embodiment of hard and soft principles"
+        }
+      }
+    }
+  },
+  "kataTheoryDetailPage": {
+    "notFound": {
+      "title": "Kata Ikke Fundet",
+      "message": "Den anmodede kata kunne ikke findes.",
+      "backButton": "Tilbage til Kata Teori"
+    },
+    "tabs": {
+      "origin": "Oprindelse",
+      "meaning": "Betydning",
+      "significance": "Kulturel Betydning",
+      "details": "Detaljer"
     },
     "sections": {
-      "basic": {
-        "title": "Grundlæggende",
-        "description": "Begynder kata"
-      },
-      "advanced": {
-        "title": "Avancerede",
-        "description": "Øvet kata"
-      },
-      "theory": {
-        "title": "Teori",
-        "description": "Kata teori og principper"
-      }
+      "originTitle": "Oprindelse af {{kataName}}",
+      "meaningTitle": "Betydning af {{kataName}}",
+      "significanceTitle": "Kulturel Betydning",
+      "detailsTitle": "Kata Detaljer",
+      "featuresTitle": "Nøglefunktioner"
     },
-    "kataTheoryDetailPage": {
-      "title": "Kata Teori",
-      "description": "Detaljeret teori om kata"
+    "labels": {
+      "japaneseName": "Japansk Navn",
+      "translation": "Oversættelse",
+      "description": "Beskrivelse",
+      "level": "Niveau",
+      "category": "Kategori",
+      "movements": "Bevægelser",
+      "duration": "Varighed",
+      "origin": "Oprindelse",
+      "master": "Mester"
+    }
+  },
+  "kataDetailPage": {
+    "tabs": {
+      "overview": "Oversigt",
+      "steps": "Trin",
+      "bunkai": "Bunkai",
+      "shime": "Shime"
     },
-    "kataDetailPage": {
-      "title": "Kata Detaljer",
-      "description": "Detaljeret information om kata",
-      "overview": {
-        "descriptionTitle": "Beskrivelse",
-        "historyTitle": "Historie",
-        "culturalSignificanceTitle": "Kulturel Betydning"
-      },
-      "video": {
-        "title": "Video",
-        "browserNotSupported": "Din browser understøtter ikke iframes.",
-        "watchOnYouTube": "Se på YouTube"
-      },
-      "steps": {
-        "noSteps": "Ingen trin tilgængelige for denne kata."
-      },
-      "bunkai": {
-        "videoTitle": "Bunkai Video"
-      }
+    "overview": {
+      "descriptionTitle": "Beskrivelse",
+      "historyTitle": "Historie",
+      "culturalSignificanceTitle": "Kulturel Betydning",
+      "mastersLabel": "Mestre",
+      "keyFeaturesLabel": "Nøglefunktioner",
+      "videoNotAvailable": "Video ikke tilgængelig",
+      "bunkaiVideoNotAvailable": "Bunkai video ikke tilgængelig",
+      "shimeVideoNotAvailable": "Shime video ikke tilgængelig",
+      "viewOnYouTube": "Se på YouTube"
+    },
+    "video": {
+      "title": "Kata Demonstration"
+    },
+    "steps": {
+      "interactiveStepsTitle": "Interaktive Trin",
+      "viewAllSteps": "Se Alle Trin",
+      "sequenceTitle": "Sekvens af Bevægelser",
+      "noSteps": "Ingen trin tilgængelige for denne kata.",
+      "stepsDataMissing": "Trindata indlæses eller mangler.",
+      "totalSteps": "Antal trin: {{count}}"
+    },
+    "bunkai": {
+      "title": "Bunkai Analyse",
+      "introduction": "Detaljeret analyse af kataens applikationer.",
+      "videoTitle": "Bunkai Video"
+    },
+    "shime": {
+      "title": "Shime",
+      "description": "Shime refererer til test og konditionering af kroppen under kata træning.",
+      "videoTitle": "Shime Demonstration"
+    },
+    "notFound": {
+      "title": "Kata Ikke Fundet",
+      "message": "Den anmodede kata kunne ikke findes.",
+      "backButton": "Tilbage til Kata Liste"
     }
   }
 }

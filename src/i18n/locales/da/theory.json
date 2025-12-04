@@ -1,39 +1,39 @@
 {
   "theory": {
     "title": "Teori",
-    "description": "Lær om filosofi, historie og terminologi",
-    "overview": "Teori Oversigt",
+    "description": "Principper og viden om Goju Ryu",
     "terminology": "Terminologi",
-    "terminologyDesc": "Japanske termer og begreber",
+    "terminologyDesc": "Japanske terminologi og ordforråd brugt i Goju Ryu",
     "history": "Historie",
-    "historyDesc": "Oprindelse og udvikling af Goju Ryu",
+    "historyDesc": "Oprindelsen og udviklingen af Goju Ryu Karate",
     "philosophy": "Filosofi",
     "philosophyDesc": "Kerneprincipper og værdier af Goju Ryu",
-    "kata": "Kata",
-    "kataDesc": "Traditionelle former og deres betydning",
+    "kata": "Kata Teori",
+    "kataDesc": "Principper og teori bag traditionelle former",
     "vitalPoints": "Vitale Punkter",
-    "vitalPointsDesc": "Kyusho og pressepunkter",
+    "vitalPointsDesc": "Studie af pressepunkter og sårbare områder",
+    "nav": {
+      "terminologyNav": "Terminologi",
+      "history": "Historie",
+      "philosophy": "Filosofi",
+      "kata": "Kata",
+      "vitalPoints": "Vitale Punkter",
+      "gradings": "Graderinger"
+    }
+  },
+  "kata.theory": {
+    "title": "Kata Teori",
+    "description": "Dybdestudie af principperne og begreberne bag Goju Ryu kata.",
     "sections": {
-      "philosophy": {
-        "title": "Filosofi",
-        "description": "Kerneprincipper og værdier"
-      },
-      "history": {
-        "title": "Historie",
-        "description": "Oprindelse og udvikling"
-      },
-      "terminology": {
-        "title": "Terminologi",
-        "description": "Japanske termer og begreber"
-      },
-      "kataTheory": {
-        "title": "Kata Teori",
-        "description": "Principper bag traditionelle former"
-      },
-      "vitalPoints": {
-        "title": "Vitale Punkter",
-        "description": "Kyusho og pressepunkter"
-      }
+      "what-are-kata": "Hvad er Kata?",
+      "kata-and-karate": "Kata og Karate",
+      "bunkai-and-techniques": "Bunkai & Teknikker",
+      "kata-origins": "Oprindelse af Kata",
+      "power-and-movement": "Styrke & Bevægelse",
+      "sources-of-power": "Styrkekilder",
+      "okinawan-concepts": "Okinawanske Begreber",
+      "power-transfer": "Styrkeoverførsel",
+      "kata-techniques": "Kata Teknikker"
     }
   }
 }

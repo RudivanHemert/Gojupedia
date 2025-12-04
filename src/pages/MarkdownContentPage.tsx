@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
-import { ChevronLeft } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '@/contexts/LanguageContext';
+import MarkdownRenderer from '@/components/MarkdownRenderer';
 
 // Import all markdown content with language variants
-const markdownContentModules = import.meta.glob('../content/**/*.{md,*.md}', { 
-  query: '?raw', 
-  import: 'default', 
-  eager: true 
+const markdownContentModules = import.meta.glob('../content/**/*.{md,*.md}', {
+  query: '?raw',
+  import: 'default',
+  eager: true
 });
 
 type MarkdownPageParams = {
@@ -27,7 +25,7 @@ const MarkdownContentPage = () => {
 
   // Construct i18n key for the page title
   const pageTitleKey = `navigation.${pageKey}`; // Assuming title keys match pageKey under navigation
-  const translatedPageTitle = t(pageTitleKey, pageKey); // Fallback to pageKey
+  const translatedPageTitle = t(pageTitleKey, { defaultValue: pageKey }); // Fallback to pageKey
 
   useEffect(() => {
     console.log(`[MarkdownContentPage] Effect triggered for: pageKey=${pageKey}, language=${language}`);
@@ -91,11 +89,11 @@ const MarkdownContentPage = () => {
 
       {isLoading && <p>Loading...</p>}
       {error && <p className="text-red-500 font-semibold">Error: {error}</p>}
-      
+
       {!isLoading && !error && markdown !== null && (
         <MarkdownRenderer markdownContent={markdown} />
       )}
-      
+
       {!isLoading && !error && markdown === null && (
         <p>Content could not be displayed.</p>
       )}
@@ -103,4 +101,4 @@ const MarkdownContentPage = () => {
   );
 };
 
-export default MarkdownContentPage; 
+export default MarkdownContentPage;

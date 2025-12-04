@@ -1,20 +1,64 @@
 {
   "newaza": {
-    "title": "Newaza",
-    "description": "Bodøvelser og jordteknikker",
+    "title": "Newaza (Jordkamp)",
+    "description": "Jordkampteknikker og principper af Goju Ryu",
     "sections": {
-      "positions": {
-        "title": "Positioner",
-        "description": "Grundlæggende positioner"
+      "introduction": {
+        "title": "Introduktion",
+        "description": "Grundlæggende og filosofi af Newaza"
+      },
+      "training-elements": {
+        "title": "Træningselementer",
+        "description": "Forberedende øvelser og grundlæggende træning"
+      },
+      "ground-positions": {
+        "title": "Jordpositioner",
+        "description": "Positioner, bevægelser og kontrol"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "description": "Kakie øvelser til jordkamp"
       },
       "techniques": {
         "title": "Teknikker",
-        "description": "Jordteknikker"
+        "description": "Jordkampteknikker og anvendelser"
       },
       "drills": {
-        "title": "Øvelser",
-        "description": "Newaza øvelser"
+        "title": "Øvelser & Træning",
+        "description": "Partnerøvelser og randori"
       }
+    },
+    "content": {
+      "introduction": {
+        "title": "Newaza (Jordkamp)",
+        "subtitle": "Introduktion",
+        "description": "Goju-ryu har mange traditionelle teknikker hvor modstanderen tages ned på jorden. Som en efterfølgende handling anvendes enten afgørende slag eller ledlås til at stoppe modstanderen i deres aggressive adfærd."
+      },
+      "training-elements": {
+        "title": "Træningselementer til Newaza",
+        "subtitle": "Forberedende øvelser og grundlæggende træningsmetoder"
+      },
+      "ground-positions": {
+        "title": "Jordpositioner og Bevægelser",
+        "subtitle": "Positioner, bevægelser og kontrolteknikker"
+      },
+      "kakie": {
+        "title": "Newaza Kakie",
+        "subtitle": "Kakie øvelser tilpasset til jordkamp"
+      },
+      "techniques": {
+        "title": "Jordkampteknikker",
+        "subtitle": "Go og Ju teknikker til jordkamp"
+      },
+      "drills": {
+        "title": "Øvelser & Træning",
+        "subtitle": "Partnerpraksis og træningsmetoder"
+      }
+    },
+    "navigation": {
+      "backToNewaza": "Tilbage til Newaza",
+      "loading": "Indlæser...",
+      "contentError": "Indhold kunne ikke indlæses."
     }
   }
 }

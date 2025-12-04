@@ -1,27 +1,436 @@
 {
-  "hojoUndo": {
-    "title": "Hojo Undo",
-    "description": "Styrkeopbygningsøvelser",
-    "sections": {
-      "equipment": {
-        "title": "Udstyr",
-        "description": "Hojo Undo redskaber"
+  "title": "Hojo Undo (補助運動)",
+  "description": "Traditionel styrketræning af Goju-ryu Karate-do",
+  "common": {
+    "back": "Tilbage",
+    "mainFunctions": "Hovedfunktioner",
+    "trainingEffects": "Træningseffekter",
+    "dimensions": "Dimensioner",
+    "materials": "Materialer",
+    "weightRecommendations": "Vægt Anbefalinger",
+    "importantPoints": "Vigtige Punkter",
+    "breathingTechniques": "Åndedrætsteknikker",
+    "safetyGuidelines": "Sikkerhedsretningslinjer",
+    "basicSeries": "Grundlæggende Serie",
+    "advancedExercises": "Avancerede Øvelser",
+    "practicalTips": "Praktiske Tips",
+    "exercises": "Øvelser",
+    "origin": "Oprindelse",
+    "weight": "Vægt",
+    "relatedSections": "Relaterede Sektioner",
+    "quickAccess": "Hurtig Adgang",
+    "viewCompleteOverview": "Se Komplet Oversigt",
+    "learnFundamentals": "Lær grundlæggende",
+    "understandingPurpose": "Forstå formål og funktion",
+    "buildMaintain": "Byg og vedligehold udstyr",
+    "safetyTechnique": "Sikkerhed og teknik fokus",
+    "specificExercises": "Specifikke øvelser og rutiner",
+    "traditionalStrengthTraining": "Traditionel Styrketræning"
+  },
+  "categories": {
+    "introduction": "Introduktion",
+    "primaryEquipment": "Primært Udstyr"
+  },
+  "sections": {
+    "trainingSections": "Træningssektioner"
+  },
+  "introduction": {
+    "title": "Introduktion",
+    "whatIs": "Hvad er Hojo Undo?",
+    "twoParts": "To hovedkomponenter",
+    "strengthExercises": "Styrkeøvelser",
+    "hardeningExercises": "Hærdningsøvelser",
+    "centralPrinciples": "Centrale principper",
+    "historicalBackground": "Historisk baggrund",
+    "trainingEffects": "Træningseffekter",
+    "safetyGuidelines": "Sikkerhedsretningslinjer",
+    "content": {
+      "title": "Hojo Undo (補助運動): Traditionel Styrketræning",
+      "description": "Hojo undo, som bogstaveligt betyder 'støttende træning', er en væsentlig del af Okinawa Goju-ryu Karate-do systemet.",
+      "twoMainComponents": {
+        "title": "To Hovedkomponenter",
+        "strengthExercises": {
+          "title": "Styrkeøvelser",
+          "tools": [
+            "Chi ishi: Sten vægtstang",
+            "Nigiri game: Greb krukker",
+            "Kongoken: Jern oval",
+            "Ishi sashi: Sten hængelås"
+          ]
+        },
+        "hardeningExercises": {
+          "title": "Hærdningsøvelser",
+          "tools": [
+            "Makiwara: Slagbræt",
+            "Suna bako: Sand spand",
+            "Jari bako: Grus spand",
+            "Tanren kumite: Hærdningsøvelser med partner"
+          ]
+        }
+      },
+      "centralPrinciples": {
+        "title": "Centrale Principper",
+        "description": "Kernen af hojo undo er den koordinerede brug af krop, åndedræt og sind. Denne harmonisering følger de samme principper som heishugata (Sanchin og Tensho)."
+      },
+      "historicalBackground": {
+        "title": "Historisk Baggrund",
+        "description": "De fleste hojo undo redskaber er af kinesisk oprindelse. Kongoken blev opdaget af Chojun Miyagi i Hawaii (1934)."
+      },
+      "trainingEffects": {
+        "title": "Træningseffekter",
+        "physical": [
+          "Styrkeudvikling af muskler og muskelkæder",
+          "Forbedring af styrke-udholdenhed",
+          "Udvikling af motoriske færdigheder",
+          "Forbedring af holdning og balance"
+        ],
+        "technical": [
+          "Kata forbedring (kaishugata og heishugata)",
+          "Mere kraftfulde og stabile grundlæggende teknikker",
+          "Mere effektive kampteknikker"
+        ],
+        "mental": [
+          "Forbedret koncentration og mental disciplin",
+          "Udvikling af mental styrke",
+          "Øgning af selvtillid"
+        ]
+      },
+      "safetyGuidelines": {
+        "title": "Sikkerhedsretningslinjer",
+        "points": [
+          "Start altid med lette vægte og øg gradvist",
+          "Fokuser på korrekt teknik frem for vægt",
+          "Varm altid op ordentligt før træning",
+          "Lyt til din krop og stop ved smerte",
+          "Brug altid korrekt åndedrætsteknik"
+        ]
+      }
+    }
+  },
+  "equipment": {
+    "title": "Equipment",
+    "overview": "Overview",
+    "chiIshi": {
+      "name": "Chi Ishi",
+      "translation": "Stone Lever Weight",
+      "description": "Stone lever weight for wrist and grip strength, develops muchimi and chinkuchi kakin power",
+      "origin": "China (Fuzhou)",
+      "weight": "2-10 kg",
+      "function": {
+        "title": "Function",
+        "description": "The chi ishi is a 'stone lever weight' that is still used in China, e.g. in the province of Fuzhou.",
+        "mainFunctions": [
+          "Strengthens muscles of forearm and hand",
+          "Supports wrist stability in punching and striking techniques",
+          "Strengthens grip for close combat techniques (pulling, throwing, locking techniques and hiki uke)",
+          "Develops muchimi power through increased resistance in movement",
+          "Develops chinkuchi kakin power through gripping at the end of movements"
+        ],
+        "trainingEffects": [
+          "Improved wrist stability",
+          "Strengthened grip strength",
+          "Better muscle coordination",
+          "Efficient power transfer",
+          "Integrated breathing"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "dimensions": {
+          "stickLength": {
+            "label": "Stick Length",
+            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+          },
+          "stickDiameter": {
+            "label": "Stick Diameter",
+            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+          },
+          "stoneDiameter": {
+            "label": "Stone Diameter",
+            "value": "No more than 20-30 cm (limited movement space)"
+          },
+          "stoneHeight": {
+            "label": "Stone Height",
+            "value": "No higher than 10-15 cm"
+          }
+        },
+        "materials": {
+          "stone": "Concrete mixture with fine gravel",
+          "connection": "Nails, screws or screw anchors (0.25x stone diameter)"
+        },
+        "weight": {
+          "beginners": "2-3 kg",
+          "advanced": "6-7 kg or even 10 kg"
+        }
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "'Set the shoulder down firmly'",
+          "'Tense the latissimus dorsi'",
+          "'Tense the wrist'",
+          "'Grip firmly'",
+          "'Breathe out from the tanden'",
+          "'Combine external muscle power and internal breath power'",
+          "'Practice the weak side more often'",
+          "'Practice fast punches after an exercise series to avoid becoming slow'"
+        ],
+        "breathingTechniques": {
+          "slow": "Sanchin breathing with H(u)ah and Hatt sounds",
+          "fast": "H(u)ah sound falls away for advanced practitioners",
+          "natural": "Natural breathing for experienced karateka"
+        },
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Focus on correct execution",
+          "Take sufficient rest",
+          "Stop at pain or discomfort",
+          "Train under expert guidance"
+        ]
       },
       "exercises": {
-        "title": "Øvelser",
-        "description": "Styrkeopbygningsøvelser"
-      },
-      "benefits": {
-        "title": "Fordele",
-        "description": "Fordele ved Hojo Undo"
+        "title": "Exercises",
+        "chiIshiKata": {
+          "title": "Chi Ishi Kata",
+          "description": "Basic exercise material listed in 'Traditional Karate, volume I' by Morio Higaonna",
+          "basicSeries": [
+            "Lifting from inside + lifting from outside",
+            "Back to front + from bottom to top",
+            "Swinging around and over the shoulder and pushing forward",
+            "Swinging around inside and lifting from outside",
+            "Twisting with the stone above",
+            "Twisting with the stone below",
+            "Twisting backward with forward bending",
+            "Ura hiki uke",
+            "Morote chi ishi zuki"
+          ]
+        },
+        "advancedExercises": [
+          "Wrist swing exercises (circular or lemniscate path)",
+          "Shadow fighting in free movement",
+          "Hardening training with stone (striking against, abdominal training)",
+          "Partner exercises",
+          "Stick rolling over shin for circulation"
+        ]
       }
     },
-    "template": {
-      "historicalBackground": "Historisk Baggrund",
-      "safetyInformation": "Sikkerhedsinformation"
+    "nigiriGame": {
+      "name": "Nigiri Game",
+      "translation": "Gripping Jars",
+      "description": "Gripping jars for finger and hand strength",
+      "origin": "China",
+      "weight": "3-5 kg",
+      "function": {
+        "title": "Function",
+        "description": "Traditional gripping jars for developing finger and hand strength",
+        "mainFunctions": [
+          "Strengthens finger and hand muscles",
+          "Improves grip strength and endurance",
+          "Develops forearm strength",
+          "Enhances wrist stability"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Traditional clay or ceramic jars",
+          "Modern alternatives: concrete or metal containers",
+          "Handle diameter: 3-5 cm for optimal grip training"
+        ],
+        "weight": "Weight can be adjusted by filling with sand, gravel or other materials"
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Maintain proper grip position",
+          "Focus on finger strength development",
+          "Control breathing during exercises",
+          "Gradual increase in weight and duration"
+        ],
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Avoid overtraining",
+          "Maintain proper form",
+          "Stop if experiencing pain"
+        ]
+      },
+      "exercises": [
+        "Static grip holds",
+        "Walking with jars",
+        "Circular movements",
+        "Up and down movements"
+      ]
     },
-    "common": {
-      "weightRecommendations": "Vægt anbefalinger"
+    "kongoken": {
+      "name": "Kongoken",
+      "translation": "Iron Ring",
+      "description": "Iron oval for total body conditioning",
+      "origin": "Hawaii",
+      "weight": "30-40 kg",
+      "function": {
+        "title": "Function",
+        "description": "Heavy iron oval used for total body conditioning and strength development",
+        "mainFunctions": [
+          "Total body strength development",
+          "Core stability enhancement",
+          "Grip and forearm strengthening",
+          "Endurance and stamina building"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Solid iron construction",
+          "Oval shape for balanced weight distribution",
+          "Smooth surface to prevent injuries",
+          "Reinforced handles for secure grip"
+        ],
+        "dimensions": {
+          "length": {
+            "label": "Length",
+            "value": "60-80 cm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "30-40 cm"
+          },
+          "handleDiameter": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "30-40 kg"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Requires expert guidance",
+          "Proper lifting technique essential",
+          "Gradual progression in weight",
+          "Focus on core engagement"
+        ],
+        "safetyGuidelines": [
+          "Never train alone",
+          "Proper warm-up required",
+          "Stop at any sign of strain",
+          "Use appropriate weight for level"
+        ]
+      },
+      "exercises": [
+        "Lifting and carrying",
+        "Walking exercises",
+        "Static holds",
+        "Basic swings",
+        "Dynamic movements",
+        "Integration with kata"
+      ]
+    },
+    "ishiSashi": {
+      "name": "Ishi Sashi",
+      "translation": "Stone Lock",
+      "description": "Stone padlocks for grip strength and technique",
+      "origin": "China/Okinawa",
+      "weight": "2-8 kg",
+      "function": {
+        "title": "Function",
+        "description": "Stone padlocks used for developing grip strength and technique",
+        "mainFunctions": [
+          "Grip strength development",
+          "Wrist stability enhancement",
+          "Forearm muscle strengthening",
+          "Technique refinement"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Stone or concrete body",
+          "Wooden or metal handle",
+          "Secure connection between body and handle",
+          "Smooth surface finish"
+        ],
+        "dimensions": {
+          "body": {
+            "label": "Body",
+            "value": "15-25 cm length"
+          },
+          "handle": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "2-8 kg depending on level"
+          },
+          "shape": {
+            "label": "Shape",
+            "value": "Rectangular or cylindrical"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Maintain proper grip",
+          "Focus on wrist stability",
+          "Control movement precision",
+          "Integrate breathing"
+        ],
+        "safetyGuidelines": [
+          "Start with lighter weights",
+          "Maintain proper form",
+          "Gradual progression",
+          "Stop if experiencing discomfort"
+        ]
+      },
+      "exercises": [
+        "Static grip holds",
+        "Walking exercises",
+        "Lifting movements",
+        "Rotation exercises"
+      ]
+    },
+    "udeTanren": {
+      "name": "Ude Tanren",
+      "translation": "Arm Conditioning",
+      "description": "Partner exercises for conditioning the arms and training impact",
+      "origin": "Okinawa",
+      "weight": "Partner training",
+      "information": {
+        "title": "Information",
+        "description": "General information about Ude Tanren"
+      },
+      "exercises": {
+        "title": "Exercises",
+        "description": "Specific exercises and routines"
+      }
     }
+  },
+  "training": {
+    "title": "Training",
+    "principles": {
+      "title": "Training Principles",
+      "bodyBreathMind": "Coordination of body, breath and mind",
+      "gradualProgression": "Gradual progression in weight and intensity",
+      "correctTechnique": "Correct technique before increasing weight",
+      "safetyFirst": "Safety first in all exercises"
+    },
+    "safety": {
+      "title": "Safety Guidelines",
+      "expertGuidance": "Expert guidance is essential",
+      "properWarmup": "Proper warm-up before training",
+      "gradualBuildUp": "Gradual build-up of intensity",
+      "listenToBody": "Listen to your body signals"
+    }
+  },
+  "benefits": {
+    "title": "Benefits",
+    "physical": "Physical Benefits",
+    "technical": "Technical Benefits",
+    "mental": "Mental Benefits",
+    "safety": "Safety Benefits"
   }
 }

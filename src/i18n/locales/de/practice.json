@@ -1,9 +1,49 @@
 {
   "practice": {
-    "title": "Übung",
+    "title": "Praxis",
     "description": "Trainingsmethoden und Anwendungen",
+    "pageTitle": "Praxis",
+    "pageDescription": "Trainingsmethoden und Anwendungen für Goju Ryu Karate",
+    "viewSection": "Abschnitt anzeigen",
+    "aboutTrainingTitle": "Über das Training",
+    "sections": {
+      "techniques": {
+        "name": "Techniken",
+        "description": "Lerne grundlegende Goju Ryu Techniken"
+      },
+      "kata": {
+        "name": "Kata",
+        "description": "Traditionelle Formen und Muster"
+      },
+      "kumite": {
+        "name": "Kumite",
+        "description": "Sparring- und Kampftechniken"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Anwendung und Analyse von Kata-Techniken"
+      },
+      "hojoUndo": {
+        "name": "Hojo Undo",
+        "description": "Ergänzende Trainingsmethoden und Werkzeuge"
+      },
+      "newaza": {
+        "name": "Newaza",
+        "description": "Bodenkampftechniken und -prinzipien"
+      }
+    },
+    "training": {
+      "kihon": {
+        "title": "Kihon (Grundlagen)",
+        "description": "Grundlegende Techniken und Bewegungen, die die Grundlage des Karate bilden"
+      },
+      "kata": {
+        "title": "Kata (Formen)",
+        "description": "Vordefinierte Bewegungssequenzen, die Technik, Gleichgewicht und mentale Konzentration entwickeln"
+      }
+    },
     "techniques": "Techniken",
-    "techniquesDesc": "Lernen Sie grundlegende Goju Ryu Techniken",
+    "techniquesDesc": "Lerne grundlegende Goju Ryu Techniken",
     "kata": "Kata",
     "kataDesc": "Traditionelle Formen und Muster",
     "bunkai": "Bunkai",
@@ -13,7 +53,7 @@
     "junbiUndo": "Junbi Undo",
     "junbiUndoDesc": "Vorbereitende Übungen und Aufwärmroutinen",
     "newaza": "Newaza",
-    "newazaDesc": "Bodenkampftechniken und Prinzipien",
+    "newazaDesc": "Bodenkampftechniken und -prinzipien",
     "nav": {
       "techniques": "Techniken",
       "kata": "Kata",
@@ -23,4 +63,4 @@
       "newaza": "Newaza"
     }
   }
-} 
+}

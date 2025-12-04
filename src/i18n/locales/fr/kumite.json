@@ -106,10 +106,22 @@
       }
     },
     "progression": {
-      "basic": { "title": "Basique", "desc": "Ippon Kumite pour les compétences fondamentales" },
-      "expansion": { "title": "Expansion", "desc": "Sanbon et Gohon pour la complexité" },
-      "freedom": { "title": "Liberté", "desc": "Jiyu Kumite pour la spontanéité" },
-      "competition": { "title": "Compétition", "desc": "Shiai Kumite pour l'expérience compétitive" }
+      "basic": {
+        "title": "Basique",
+        "desc": "Ippon Kumite pour les compétences fondamentales"
+      },
+      "expansion": {
+        "title": "Expansion",
+        "desc": "Sanbon et Gohon pour la complexité"
+      },
+      "freedom": {
+        "title": "Liberté",
+        "desc": "Jiyu Kumite pour la spontanéité"
+      },
+      "competition": {
+        "title": "Compétition",
+        "desc": "Shiai Kumite pour l'expérience compétitive"
+      }
     },
     "safety": {
       "basic-principles": "Principes de sécurité de base",
@@ -527,12 +539,6 @@
   "competition": {
     "title": "Compétition de Kumite",
     "description": "Karaté de compétition et aspects compétitifs",
-    "organizations": "Organisations de Compétition",
-    "rules": "Règles de Compétition",
-    "preparation": "Préparation à la Compétition",
-    "safety": "Sécurité de Compétition",
-    "experience": "Expérience de Compétition",
-    "etiquette": "Étiquette de Compétition",
     "organizations": {
       "title": "Organisations Majeures",
       "wkf": {
@@ -551,6 +557,17 @@
         "role": "Promouvoit les valeurs traditionnelles du karaté"
       }
     },
+    "rules": "Règles de Compétition",
+    "preparation": {
+      "title": "Préparation à la Compétition",
+      "physical": "Préparation physique et conditionnement",
+      "mental": "Préparation mentale et focus",
+      "technical": "Préparation technique et raffinement",
+      "tactical": "Préparation tactique et stratégie"
+    },
+    "safety": "Sécurité de Compétition",
+    "experience": "Expérience de Compétition",
+    "etiquette": "Étiquette de Compétition",
     "scoring": {
       "title": "Système de Notation",
       "ippon": {
@@ -574,13 +591,6 @@
       "chukoku": "Chukoku - Premier avertissement",
       "keikoku": "Keikoku - Deuxième avertissement",
       "hansoku": "Hansoku - Disqualification"
-    },
-    "preparation": {
-      "title": "Préparation à la Compétition",
-      "physical": "Préparation physique et conditionnement",
-      "mental": "Préparation mentale et focus",
-      "technical": "Préparation technique et raffinement",
-      "tactical": "Préparation tactique et stratégie"
     }
   },
   "technique-names": {
@@ -643,4 +653,4 @@
     "keikoku": "Keikoku - Deuxième avertissement",
     "hansoku": "Hansoku - Disqualification"
   }
-} 
+}

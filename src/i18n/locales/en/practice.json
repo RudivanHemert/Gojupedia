@@ -2,6 +2,46 @@
   "practice": {
     "title": "Practice",
     "description": "Training methods and applications",
+    "pageTitle": "Practice",
+    "pageDescription": "Training methods and applications for Goju Ryu Karate",
+    "viewSection": "View Section",
+    "aboutTrainingTitle": "About Training",
+    "sections": {
+      "techniques": {
+        "name": "Techniques",
+        "description": "Learn fundamental Goju Ryu techniques"
+      },
+      "kata": {
+        "name": "Kata",
+        "description": "Traditional forms and patterns"
+      },
+      "kumite": {
+        "name": "Kumite",
+        "description": "Sparring and fighting techniques"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Application and analysis of kata techniques"
+      },
+      "hojoUndo": {
+        "name": "Hojo Undo",
+        "description": "Supplementary training methods and tools"
+      },
+      "newaza": {
+        "name": "Newaza",
+        "description": "Ground fighting techniques and principles"
+      }
+    },
+    "training": {
+      "kihon": {
+        "title": "Kihon (Basics)",
+        "description": "Fundamental techniques and movements that form the foundation of karate"
+      },
+      "kata": {
+        "title": "Kata (Forms)",
+        "description": "Pre-arranged sequences of movements that develop technique, balance, and mental focus"
+      }
+    },
     "techniques": "Techniques",
     "techniquesDesc": "Learn fundamental Goju Ryu techniques",
     "kata": "Kata",

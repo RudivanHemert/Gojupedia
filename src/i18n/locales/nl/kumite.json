@@ -106,10 +106,22 @@
       }
     },
     "progression": {
-      "basic": { "title": "Basis", "desc": "Ippon Kumite voor fundamentele vaardigheden" },
-      "expansion": { "title": "Uitbreiding", "desc": "Sanbon en Gohon voor complexiteit" },
-      "freedom": { "title": "Vrijheid", "desc": "Jiyu Kumite voor spontaniteit" },
-      "competition": { "title": "Competitie", "desc": "Shiai Kumite voor wedstrijdervaring" }
+      "basic": {
+        "title": "Basis",
+        "desc": "Ippon Kumite voor fundamentele vaardigheden"
+      },
+      "expansion": {
+        "title": "Uitbreiding",
+        "desc": "Sanbon en Gohon voor complexiteit"
+      },
+      "freedom": {
+        "title": "Vrijheid",
+        "desc": "Jiyu Kumite voor spontaniteit"
+      },
+      "competition": {
+        "title": "Competitie",
+        "desc": "Shiai Kumite voor wedstrijdervaring"
+      }
     },
     "safety": {
       "basic-principles": "Basisveiligheidsprincipes",
@@ -527,12 +539,6 @@
   "competition": {
     "title": "Kumite Competitie",
     "description": "Wedstrijdkarate en competitieve aspecten",
-    "organizations": "Competitieorganisaties",
-    "rules": "Wedstrijdregels",
-    "preparation": "Wedstrijdvoorbereiding",
-    "safety": "Wedstrijdveiligheid",
-    "experience": "Wedstrijdervaring",
-    "etiquette": "Wedstrijdetiquette",
     "organizations": {
       "title": "Belangrijke Organisaties",
       "wkf": {
@@ -551,6 +557,17 @@
         "role": "Bevordert traditionele karate waarden"
       }
     },
+    "rules": "Wedstrijdregels",
+    "preparation": {
+      "title": "Wedstrijdvoorbereiding",
+      "physical": "Fysieke voorbereiding en conditie",
+      "mental": "Mentale voorbereiding en focus",
+      "technical": "Technische voorbereiding en verfijning",
+      "tactical": "Tactische voorbereiding en strategie"
+    },
+    "safety": "Wedstrijdveiligheid",
+    "experience": "Wedstrijdervaring",
+    "etiquette": "Wedstrijdetiquette",
     "scoring": {
       "title": "Puntenscoring Systeem",
       "ippon": {
@@ -574,13 +591,6 @@
       "chukoku": "Chukoku - Eerste waarschuwing",
       "keikoku": "Keikoku - Tweede waarschuwing",
       "hansoku": "Hansoku - Diskwalificatie"
-    },
-    "preparation": {
-      "title": "Wedstrijdvoorbereiding",
-      "physical": "Fysieke voorbereiding en conditie",
-      "mental": "Mentale voorbereiding en focus",
-      "technical": "Technische voorbereiding en verfijning",
-      "tactical": "Tactische voorbereiding en strategie"
     }
   },
   "technique-names": {
@@ -643,4 +653,4 @@
     "keikoku": "Keikoku - Tweede waarschuwing",
     "hansoku": "Hansoku - Diskwalificatie"
   }
-} 
+}

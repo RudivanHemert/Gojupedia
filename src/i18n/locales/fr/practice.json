@@ -2,16 +2,56 @@
   "practice": {
     "title": "Pratique",
     "description": "Méthodes d'entraînement et applications",
+    "pageTitle": "Pratique",
+    "pageDescription": "Méthodes d'entraînement et applications pour le Goju Ryu Karate",
+    "viewSection": "Voir la Section",
+    "aboutTrainingTitle": "À propos de l'Entraînement",
+    "sections": {
+      "techniques": {
+        "name": "Techniques",
+        "description": "Apprenez les techniques fondamentales du Goju Ryu"
+      },
+      "kata": {
+        "name": "Kata",
+        "description": "Formes et modèles traditionnels"
+      },
+      "kumite": {
+        "name": "Kumite",
+        "description": "Techniques de sparring et de combat"
+      },
+      "bunkai": {
+        "name": "Bunkai",
+        "description": "Application et analyse des techniques de kata"
+      },
+      "hojoUndo": {
+        "name": "Hojo Undo",
+        "description": "Méthodes et outils d'entraînement complémentaires"
+      },
+      "newaza": {
+        "name": "Newaza",
+        "description": "Techniques et principes de combat au sol"
+      }
+    },
+    "training": {
+      "kihon": {
+        "title": "Kihon (Bases)",
+        "description": "Techniques et mouvements fondamentaux qui forment la base du karate"
+      },
+      "kata": {
+        "title": "Kata (Formes)",
+        "description": "Séquences prédéfinies de mouvements qui développent la technique, l'équilibre et la concentration mentale"
+      }
+    },
     "techniques": "Techniques",
     "techniquesDesc": "Apprenez les techniques fondamentales du Goju Ryu",
     "kata": "Kata",
-    "kataDesc": "Formes et motifs traditionnels",
+    "kataDesc": "Formes et modèles traditionnels",
     "bunkai": "Bunkai",
     "bunkaiDesc": "Application et analyse des techniques de kata",
     "hojoUndo": "Hojo Undo",
     "hojoUndoDesc": "Méthodes et outils d'entraînement complémentaires",
     "junbiUndo": "Junbi Undo",
-    "junbiUndoDesc": "Exercices préparatoires et routines d'échauffement",
+    "junbiUndoDesc": "Exercices préliminaires et routines d'échauffement",
     "newaza": "Newaza",
     "newazaDesc": "Techniques et principes de combat au sol",
     "nav": {
@@ -23,4 +63,4 @@
       "newaza": "Newaza"
     }
   }
-} 
+}

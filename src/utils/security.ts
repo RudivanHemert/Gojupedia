@@ -9,7 +9,8 @@ const MAX_INPUT_LENGTH = 1000;
 const MAX_URL_PARAM_LENGTH = 200;
 
 /**
- * Sanitizes user input to prevent XSS and injection attacks
+ * Sanitizes user input to prevent XSS and injection attacks.
+ * Note: This is a basic sanitizer. For handling HTML input, consider using a library like 'dompurify'.
  */
 export function sanitizeInput(input: string): string {
   if (typeof input !== 'string') {
@@ -105,10 +106,10 @@ class RateLimiter {
     }
 
     const timestamps = this.requests.get(identifier)!;
-    
+
     // Remove old timestamps
     const recentTimestamps = timestamps.filter(time => time > windowStart);
-    
+
     if (recentTimestamps.length >= this.maxRequests) {
       return false;
     }
@@ -153,7 +154,7 @@ export function isSecureContext(): boolean {
   if (typeof window === 'undefined') {
     return true; // SSR context
   }
-  
+
   return window.isSecureContext || window.location.protocol === 'https:';
 }
 
@@ -193,4 +194,4 @@ export function initializeSecurityMonitoring(): void {
   if (import.meta.env.PROD && import.meta.env.DEV) {
     console.error('🚨 Development mode detected in production build!');
   }
-} 
+}
