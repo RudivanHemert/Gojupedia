@@ -189,7 +189,11 @@
     "studyAgain": "Study again",
     "backToStudySection": "Back to study section",
     "noQuestionFound": "No question found for index {index}",
-    "yourScore": "Your score: {score} out of {total}",
+    "yourScore": "Sua pontuação: {score} de {total}",
+    "reviewAnswers": "Revisar respostas",
+    "yourAnswer": "Sua resposta",
+    "correctAnswer": "Resposta correta",
+    "noAnswer": "Nenhuma resposta dada",
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",

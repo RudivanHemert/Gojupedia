@@ -224,7 +224,7 @@
     "flashcardsCardDescription": "Practice terminology and concepts",
     "matchingCardTitle": "Matching",
     "matchingCardDescription": "Match terms and concepts",
-    "completed": "Study Complete!",
+    "completed": "Studie voltooid!",
     "notFound": {
       "title": "Study not found",
       "description": "The requested study could not be found."
@@ -268,7 +268,11 @@
     "studyAgain": "Study again",
     "backToStudySection": "Back to study section",
     "noQuestionFound": "No question found for index {index}",
-    "yourScore": "Your score: {score} out of {total}",
+    "yourScore": "Je score: {score} van {total}",
+    "reviewAnswers": "Bekijk antwoorden",
+    "yourAnswer": "Je antwoord",
+    "correctAnswer": "Juiste antwoord",
+    "noAnswer": "Geen antwoord gegeven",
     "self-control": {
       "title": "Self-Control Quiz",
       "description": "Test your knowledge of self-control and emotion regulation."
@@ -861,7 +865,7 @@
   "hideExplanation": "Verberg uitleg",
   "studyAgain": "Opnieuw studeren",
   "backToStudySection": "Terug naar studiedeel",
-  "yourScore": "Je score: {{score}} van {{total}}",
+  "yourScore": "Je score: {score} van {total}",
   "questionBank": {
     "kata-basics-1": {
       "question": "Wat betekent 'kata' in het Japans?",

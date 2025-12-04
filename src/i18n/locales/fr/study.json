@@ -848,7 +848,7 @@
     "matchingCardTitle": "Matching",
     "matchingCardDescription": "Match terms and concepts",
     "loading": "Loading study material...",
-    "completed": "Study Complete!",
+    "completed": "Étude terminée !",
     "tapToFlip": "Tap to flip",
     "notFound": {
       "title": "Study not found",
@@ -1005,7 +1005,11 @@
     "studyAgain": "Study again",
     "backToStudySection": "Back to study section",
     "noQuestionFound": "No question found for index {index}",
-    "yourScore": "Your score: {score} out of {total}",
+    "yourScore": "Votre score: {score} sur {total}",
+    "reviewAnswers": "Réviser les réponses",
+    "yourAnswer": "Votre réponse",
+    "correctAnswer": "Bonne réponse",
+    "noAnswer": "Aucune réponse donnée",
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",

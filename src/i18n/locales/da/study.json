@@ -226,7 +226,11 @@
     "studyAgain": "Study again",
     "backToStudySection": "Back to study section",
     "noQuestionFound": "No question found for index {index}",
-    "yourScore": "Your score: {score} out of {total}",
+    "yourScore": "Din score: {score} ud af {total}",
+    "reviewAnswers": "Gennemgå svar",
+    "yourAnswer": "Dit svar",
+    "correctAnswer": "Korrekt svar",
+    "noAnswer": "Intet svar givet",
     "tips": {
       "title": "Study Tips",
       "regular": "Practice regularly for better results",

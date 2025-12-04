@@ -7,8 +7,9 @@ import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
-import { Check, X, Award, RotateCcw, ChevronRight } from 'lucide-react';
+import { Check, X, Award, RotateCcw, ChevronRight, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 
 export type QuestionType = 'multiple-choice' | 'text-input' | 'multiple-select' | 'true-false' | 'matching';
 
@@ -57,6 +58,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [remainingTime, setRemainingTime] = useState(timeLimit);
+  const [questionResults, setQuestionResults] = useState<Array<{ questionId: string; isCorrect: boolean; userAnswer: string; correctAnswer: string }>>([]);
   
   // Shuffle function
   const shuffle = <T,>(array: T[]): T[] => {
@@ -115,6 +117,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     setQuizCompleted(false);
     setShowAnswer(false);
     setRemainingTime(timeLimit);
+    setQuestionResults([]);
   };
   
   const currentQuestion = questions[currentQuestionIndex];
@@ -150,6 +153,30 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     if (isCorrect) {
       setScore(prev => prev + (question.points || 1));
     }
+    
+    // Track the answer result
+    let userAnswerText = '';
+    if (question.type === 'multiple-choice' || question.type === 'true-false') {
+      const selectedOption = question.options?.find(o => o.id === selectedOptions[0]);
+      userAnswerText = selectedOption?.text || '';
+    } else if (question.type === 'text-input') {
+      userAnswerText = textInput.trim();
+    } else if (question.type === 'multiple-select') {
+      const selectedTexts = selectedOptions.map(id => question.options?.find(o => o.id === id)?.text).filter(Boolean);
+      userAnswerText = selectedTexts.join(', ');
+    }
+    
+    const correctAnswerText = question.correctAnswer || 
+      (question.type === 'multiple-choice' || question.type === 'true-false' || question.type === 'multiple-select'
+        ? question.options?.filter(o => o.isCorrect).map(o => o.text).join(', ')
+        : '');
+    
+    setQuestionResults(prev => [...prev, {
+      questionId: question.id,
+      isCorrect,
+      userAnswer: userAnswerText,
+      correctAnswer: correctAnswerText
+    }]);
     
     setShowAnswer(true);
   };
@@ -289,6 +316,56 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
               </div>
               <div className="text-gray-600">{feedback}</div>
             </div>
+            
+            {/* Review Section */}
+            <Collapsible className="w-full mt-6">
+              <CollapsibleTrigger className="w-full flex items-center justify-between p-4 bg-muted rounded-lg hover:bg-muted/80 transition-colors">
+                <span className="font-medium">{t('study.reviewAnswers', 'Review Answers')}</span>
+                <ChevronDown className="h-4 w-4" />
+              </CollapsibleTrigger>
+              <CollapsibleContent className="mt-4 space-y-4">
+                {questions.map((question, index) => {
+                  const result = questionResults.find(r => r.questionId === question.id);
+                  const isCorrect = result?.isCorrect || false;
+                  return (
+                    <Card key={question.id} className={`border-2 ${isCorrect ? 'border-green-500' : 'border-red-500'}`}>
+                      <CardContent className="pt-6">
+                        <div className="flex items-center justify-between mb-3">
+                          <h3 className="font-semibold text-base">
+                            {t('quiz.question')} {index + 1}: {question.question}
+                          </h3>
+                          {isCorrect ? (
+                            <Check className="h-5 w-5 text-green-500" />
+                          ) : (
+                            <X className="h-5 w-5 text-red-500" />
+                          )}
+                        </div>
+                        <div className="space-y-2">
+                          <div>
+                            <span className="font-medium text-sm text-muted-foreground">{t('study.yourAnswer', 'Your answer')}: </span>
+                            <span className={isCorrect ? 'text-green-600 font-medium' : 'text-red-600 font-medium'}>
+                              {result?.userAnswer || t('study.noAnswer', 'No answer')}
+                            </span>
+                          </div>
+                          {!isCorrect && result && (
+                            <div>
+                              <span className="font-medium text-sm text-muted-foreground">{t('study.correctAnswer', 'Correct answer')}: </span>
+                              <span className="text-green-600 font-medium">{result.correctAnswer}</span>
+                            </div>
+                          )}
+                          {question.explanation && (
+                            <div className="mt-2 p-3 bg-blue-50 dark:bg-blue-950 rounded-md">
+                              <span className="font-medium text-sm">{t('study.explanation')}: </span>
+                              <p className="text-sm text-muted-foreground mt-1">{question.explanation}</p>
+                            </div>
+                          )}
+                        </div>
+                      </CardContent>
+                    </Card>
+                  );
+                })}
+              </CollapsibleContent>
+            </Collapsible>
           </div>
         </CardContent>
         <CardFooter className="flex justify-center pb-6">

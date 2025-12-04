@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
-import { ArrowRight, ArrowLeft, Book, Check, X, RotateCcw, Trophy, Brain } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Book, Check, X, RotateCcw, Trophy, Brain, ChevronDown, ChevronUp } from 'lucide-react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { toast } from '@/hooks/use-toast';
 import TechniqueQuiz from '@/components/learning/TechniqueQuiz';
@@ -51,6 +51,7 @@ const StudyDetailPage = () => {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [questionResults, setQuestionResults] = useState<Record<string, boolean>>({});
   const { t, i18n } = useTranslation();
   const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
 
@@ -66,6 +67,8 @@ const StudyDetailPage = () => {
       setQuizCompleted(false);
       setScore(0);
       setFlipped(false);
+      setQuestionResults({});
+      setQuestionResults({});
     } else {
       toast({
         title: t('study.notFound.title'),
@@ -95,6 +98,11 @@ const StudyDetailPage = () => {
       setCurrentQuestionIndex(prev => prev + 1);
     } else {
       if (study.type === 'quiz' && study.questions.length > 0) {
+        const results: Record<string, boolean> = {};
+        study.questions.forEach(q => {
+          results[q.id] = userAnswers[q.id] === q.correctAnswer;
+        });
+        setQuestionResults(results);
         const correctAnswers = study.questions.filter(
           q => userAnswers[q.id] === q.correctAnswer
         ).length;
@@ -194,6 +202,12 @@ const StudyDetailPage = () => {
   
   // Check if completed first
   if (quizCompleted) {
+    // Calculate score from questionResults if available, otherwise use score state
+    const calculatedScore = study.type === 'quiz' && study.questions && Object.keys(questionResults).length > 0
+      ? Object.values(questionResults).filter(Boolean).length
+      : score;
+    const totalQuestions = study.questions?.length || 0;
+    
     return (
       <>
         {renderHeader()}
@@ -205,14 +219,87 @@ const StudyDetailPage = () => {
           {(study.type === 'quiz' || study.type === 'matching') && study.questions && study.questions.length > 0 && (
             <>
               <p className="text-lg mb-4">
-                {t('study.yourScore', { score, total: study.questions.length })}
+                {(() => {
+                  // Try interpolation first
+                  const interpolated = t('study.yourScore', { score: calculatedScore, total: totalQuestions });
+                  // If interpolation failed (still contains placeholders), use direct string
+                  if (interpolated.includes('{score}') || interpolated.includes('{total}')) {
+                    const scoreLabel = i18n.language === 'nl' ? 'Je score' : 
+                                     i18n.language === 'en' ? 'Your score' :
+                                     i18n.language === 'de' ? 'Ihre Punktzahl' :
+                                     i18n.language === 'es' ? 'Tu puntuación' :
+                                     i18n.language === 'fr' ? 'Votre score' :
+                                     i18n.language === 'it' ? 'Il tuo punteggio' :
+                                     i18n.language === 'pt' ? 'Sua pontuação' :
+                                     i18n.language === 'da' ? 'Din score' : 'Your score';
+                    const ofLabel = i18n.language === 'nl' ? 'van' :
+                                  i18n.language === 'en' ? 'out of' :
+                                  i18n.language === 'de' ? 'von' :
+                                  i18n.language === 'es' ? 'de' :
+                                  i18n.language === 'fr' ? 'sur' :
+                                  i18n.language === 'it' ? 'su' :
+                                  i18n.language === 'pt' ? 'de' :
+                                  i18n.language === 'da' ? 'ud af' : 'out of';
+                    return `${scoreLabel}: ${calculatedScore} ${ofLabel} ${totalQuestions}`;
+                  }
+                  return interpolated;
+                })()}
               </p>
               <div className="w-full mb-6 bg-muted rounded-full h-2.5">
                 <div 
                   className="bg-karate h-2.5 rounded-full" 
-                  style={{ width: `${(score / study.questions.length) * 100}%` }}
+                  style={{ width: `${totalQuestions > 0 ? (calculatedScore / totalQuestions) * 100 : 0}%` }}
                 ></div>
               </div>
+              {/* Review Section */}
+              <Collapsible className="w-full mb-6">
+                <CollapsibleTrigger className="w-full flex items-center justify-between p-4 bg-muted rounded-lg hover:bg-muted/80 transition-colors">
+                  <span className="font-medium">{t('study.reviewAnswers', 'Review Answers')}</span>
+                  <ChevronDown className="h-4 w-4" />
+                </CollapsibleTrigger>
+                <CollapsibleContent className="mt-4 space-y-4">
+                  {study.questions.map((question, index) => {
+                    const userAnswer = userAnswers[question.id];
+                    const isCorrect = questionResults[question.id] || false;
+                    return (
+                      <Card key={question.id} className={`border-2 ${isCorrect ? 'border-green-500' : 'border-red-500'}`}>
+                        <CardHeader className="pb-3">
+                          <div className="flex items-center justify-between">
+                            <CardTitle className="text-base">
+                              {t('study.question', { index: index + 1, total: study.questions.length })}: {question.question}
+                            </CardTitle>
+                            {isCorrect ? (
+                              <Check className="h-5 w-5 text-green-500" />
+                            ) : (
+                              <X className="h-5 w-5 text-red-500" />
+                            )}
+                          </div>
+                        </CardHeader>
+                        <CardContent className="space-y-2">
+                          <div>
+                            <span className="font-medium text-sm text-muted-foreground">{t('study.yourAnswer', 'Your answer')}: </span>
+                            <span className={isCorrect ? 'text-green-600 font-medium' : 'text-red-600 font-medium'}>
+                              {userAnswer || t('study.noAnswer', 'No answer')}
+                            </span>
+                          </div>
+                          {!isCorrect && (
+                            <div>
+                              <span className="font-medium text-sm text-muted-foreground">{t('study.correctAnswer', 'Correct answer')}: </span>
+                              <span className="text-green-600 font-medium">{question.correctAnswer}</span>
+                            </div>
+                          )}
+                          {question.explanation && (
+                            <div className="mt-2 p-3 bg-blue-50 dark:bg-blue-950 rounded-md">
+                              <span className="font-medium text-sm">{t('study.explanation')}: </span>
+                              <p className="text-sm text-muted-foreground mt-1">{question.explanation}</p>
+                            </div>
+                          )}
+                        </CardContent>
+                      </Card>
+                    );
+                  })}
+                </CollapsibleContent>
+              </Collapsible>
             </>
           )}
           <div className="space-y-3 w-full">
