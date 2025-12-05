@@ -14,13 +14,14 @@ import { toast } from '@/hooks/use-toast';
 import TechniqueQuiz from '@/components/learning/TechniqueQuiz';
 import TechniqueFlashcards from '@/components/learning/TechniqueFlashcards';
 import TechniqueMatching from '@/components/learning/TechniqueMatching';
+import MatchingGame from '@/components/learning/MatchingGame';
 import VitalPointsQuiz from '@/components/learning/VitalPointsQuiz';
 import { techniquesData, TechniqueData } from '@/data/techniquesData';
 import { useTranslation } from 'react-i18next';
 
 // Get all possible categories from the source data
 const allTerminologyCategories = [
-    ...new Set(techniquesData.map(item => item.category))
+  ...new Set(techniquesData.map(item => item.category))
 ] as const;
 type TerminologyCategory = typeof allTerminologyCategories[number];
 
@@ -29,17 +30,17 @@ const generateSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 // New helper function to parse category and type from generated IDs
 const parseGeneratedStudyId = (id: string): { category: TerminologyCategory | undefined, type: 'quiz' | 'flashcard' | undefined } => {
-    for (const category of allTerminologyCategories) {
-        const categorySlug = generateSlug(category);
-        if (id === `${categorySlug}-quiz`) {
-            return { category, type: 'quiz' };
-        }
+  for (const category of allTerminologyCategories) {
+    const categorySlug = generateSlug(category);
+    if (id === `${categorySlug}-quiz`) {
+      return { category, type: 'quiz' };
+    }
     // Accept both singular and plural for backward compatibility
     if (id === `${categorySlug}-flashcard` || id === `${categorySlug}-flashcards`) {
-            return { category, type: 'flashcard' };
-        }
+      return { category, type: 'flashcard' };
     }
-    return { category: undefined, type: undefined }; // Not a recognized generated ID
+  }
+  return { category: undefined, type: undefined }; // Not a recognized generated ID
 };
 
 const StudyDetailPage = () => {
@@ -83,10 +84,10 @@ const StudyDetailPage = () => {
   // --- Event Handlers --- 
   const handleAnswerChange = (answer: string) => {
     const currentQuestion = study?.questions?.[currentQuestionIndex];
-    if (!currentQuestion) return; 
+    if (!currentQuestion) return;
     setUserAnswers(prev => ({
       ...prev,
-      [currentQuestion.id]: answer 
+      [currentQuestion.id]: answer
     }));
   };
 
@@ -94,7 +95,7 @@ const StudyDetailPage = () => {
     setShowExplanation(false);
     setFlipped(false);
     if (!study || !study.questions) return;
-    
+
     if (currentQuestionIndex < study.questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
     } else {
@@ -154,8 +155,8 @@ const StudyDetailPage = () => {
   // Prefer nested difficulty keys; fallback to top-level keys if needed
   const difficultyLabel = study?.difficulty === 'beginner' ? (t('study.difficulty.beginner', { defaultValue: t('beginner') }))
     : study?.difficulty === 'intermediate' ? (t('study.difficulty.intermediate', { defaultValue: t('intermediate') }))
-    : study?.difficulty === 'advanced' ? (t('study.difficulty.advanced', { defaultValue: t('advanced') }))
-    : study?.difficulty;
+      : study?.difficulty === 'advanced' ? (t('study.difficulty.advanced', { defaultValue: t('advanced') }))
+        : study?.difficulty;
 
   const renderHeader = () => (
     <div className="bg-muted border-b border-border">
@@ -193,26 +194,26 @@ const StudyDetailPage = () => {
 
   // 3. Attempt to parse as a Dynamically Generated Study Module
   const { category: generatedCategory, type: generatedType } = parseGeneratedStudyId(id);
-  
+
   if (generatedCategory && generatedType) {
     // It's a dynamically generated study, render the correct component
     return (
-        <>
-          {renderHeader()}
-          <div className="p-4">
-            {generatedType === 'quiz' && (
-              <TechniqueQuiz category={generatedCategory} title={study.title} />
-            )}
-            {generatedType === 'flashcard' && (
-              <TechniqueFlashcards category={generatedCategory} title={study.title} />
-            )}
-          </div>
-        </>
-      );
+      <>
+        {renderHeader()}
+        <div className="p-4">
+          {generatedType === 'quiz' && (
+            <TechniqueQuiz category={generatedCategory} title={study.title} />
+          )}
+          {generatedType === 'flashcard' && (
+            <TechniqueFlashcards category={generatedCategory} title={study.title} />
+          )}
+        </div>
+      </>
+    );
   }
 
   // 4. Handle Manually Defined Study Types (if not a generated study)
-  
+
   // Check if completed first
   if (quizCompleted) {
     // Calculate score from questionResults if available, otherwise use score state
@@ -220,7 +221,7 @@ const StudyDetailPage = () => {
       ? Object.values(questionResults).filter(Boolean).length
       : score;
     const totalQuestions = study.questions?.length || 0;
-    
+
     return (
       <>
         {renderHeader()}
@@ -237,21 +238,21 @@ const StudyDetailPage = () => {
                   const interpolated = t('study.yourScore', { score: calculatedScore, total: totalQuestions });
                   // If interpolation failed (still contains placeholders), use direct string
                   if (interpolated.includes('{score}') || interpolated.includes('{total}')) {
-                    const scoreLabel = i18n.language === 'nl' ? 'Je score' : 
-                                     i18n.language === 'en' ? 'Your score' :
-                                     i18n.language === 'de' ? 'Ihre Punktzahl' :
-                                     i18n.language === 'es' ? 'Tu puntuación' :
-                                     i18n.language === 'fr' ? 'Votre score' :
-                                     i18n.language === 'it' ? 'Il tuo punteggio' :
-                                     i18n.language === 'pt' ? 'Sua pontuação' :
-                                     i18n.language === 'da' ? 'Din score' : 'Your score';
+                    const scoreLabel = i18n.language === 'nl' ? 'Je score' :
+                      i18n.language === 'en' ? 'Your score' :
+                        i18n.language === 'de' ? 'Ihre Punktzahl' :
+                          i18n.language === 'es' ? 'Tu puntuación' :
+                            i18n.language === 'fr' ? 'Votre score' :
+                              i18n.language === 'it' ? 'Il tuo punteggio' :
+                                i18n.language === 'pt' ? 'Sua pontuação' :
+                                  i18n.language === 'da' ? 'Din score' : 'Your score';
                     const ofLabel = i18n.language === 'nl' ? 'van' :
-                                  i18n.language === 'en' ? 'out of' :
-                                  i18n.language === 'de' ? 'von' :
-                                  i18n.language === 'es' ? 'de' :
-                                  i18n.language === 'fr' ? 'sur' :
-                                  i18n.language === 'it' ? 'su' :
-                                  i18n.language === 'pt' ? 'de' :
+                      i18n.language === 'en' ? 'out of' :
+                        i18n.language === 'de' ? 'von' :
+                          i18n.language === 'es' ? 'de' :
+                            i18n.language === 'fr' ? 'sur' :
+                              i18n.language === 'it' ? 'su' :
+                                i18n.language === 'pt' ? 'de' :
                                   i18n.language === 'da' ? 'ud af' : 'out of';
                     return `${scoreLabel}: ${calculatedScore} ${ofLabel} ${totalQuestions}`;
                   }
@@ -259,8 +260,8 @@ const StudyDetailPage = () => {
                 })()}
               </p>
               <div className="w-full mb-6 bg-muted rounded-full h-2.5">
-                <div 
-                  className="bg-karate h-2.5 rounded-full" 
+                <div
+                  className="bg-karate h-2.5 rounded-full"
                   style={{ width: `${totalQuestions > 0 ? (calculatedScore / totalQuestions) * 100 : 0}%` }}
                 ></div>
               </div>
@@ -316,15 +317,15 @@ const StudyDetailPage = () => {
             </>
           )}
           <div className="space-y-3 w-full">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="w-full"
               onClick={handleRestart}
             >
               <RotateCcw className="mr-2 h-4 w-4" />
               {t('study.studyAgain')}
             </Button>
-            <Button 
+            <Button
               className="w-full"
               onClick={() => navigate('/study')}
             >
@@ -360,8 +361,8 @@ const StudyDetailPage = () => {
         <div className="flex justify-between items-center mb-4 text-sm text-muted-foreground">
           <span>{t('study.question', { index: currentQuestionIndex + 1, total: study.questions.length })}</span>
           <div className="w-32 bg-muted rounded-full h-1.5">
-            <div 
-              className="bg-karate h-1.5 rounded-full" 
+            <div
+              className="bg-karate h-1.5 rounded-full"
               style={{ width: `${study.questions.length > 0 ? ((currentQuestionIndex + 1) / study.questions.length) * 100 : 0}%` }}
             ></div>
           </div>
@@ -369,7 +370,7 @@ const StudyDetailPage = () => {
 
         {/* --- Render Specific Manual Study Type UI --- */}
         {study.type === 'flashcard' ? (
-          <Card 
+          <Card
             className={`border border-border mb-6 cursor-pointer transition-all transform ${flipped ? 'bg-muted' : ''}`}
             onClick={handleFlip}
           >
@@ -396,33 +397,38 @@ const StudyDetailPage = () => {
             </div>
           </Card>
         ) : study.type === 'matching' ? (
-          <TechniqueMatching category={(generatedCategory as any) || 'common'} />
-        ) : ( 
+          <MatchingGame
+            pairs={study.questions.map(q => ({
+              id: q.id,
+              left: q.question,
+              right: q.correctAnswer
+            }))}
+          />
+        ) : (
           <Card className="border border-border mb-6">
             <CardHeader className="pb-2">
               <CardTitle className="text-lg">{currentQuestion.question}</CardTitle>
             </CardHeader>
             <CardContent>
-              <RadioGroup 
+              <RadioGroup
                 value={userAnswers[currentQuestion.id] || ""}
                 onValueChange={handleAnswerChange}
-                disabled={quizCompleted} 
+                disabled={quizCompleted}
               >
                 <div className="space-y-3">
                   {currentQuestion.options?.map((option) => (
-                    <div 
-                      key={option} 
-                      className={`flex items-center space-x-2 p-3 rounded-md border transition-all ${ 
-                        userAnswers[currentQuestion.id] === option && quizCompleted && option === currentQuestion.correctAnswer
+                    <div
+                      key={option}
+                      className={`flex items-center space-x-2 p-3 rounded-md border transition-all ${userAnswers[currentQuestion.id] === option && quizCompleted && option === currentQuestion.correctAnswer
                           ? 'border-green-500 bg-green-50'
                           : userAnswers[currentQuestion.id] === option && quizCompleted && option !== currentQuestion.correctAnswer
-                          ? 'border-red-500 bg-red-50'
-                          : 'border-border hover:border-border'
-                      }`}
+                            ? 'border-red-500 bg-red-50'
+                            : 'border-border hover:border-border'
+                        }`}
                     >
-                      <RadioGroupItem value={option} id={option} disabled={quizCompleted}/>
-                      <Label 
-                        htmlFor={option} 
+                      <RadioGroupItem value={option} id={option} disabled={quizCompleted} />
+                      <Label
+                        htmlFor={option}
                         className="flex-1 cursor-pointer"
                       >
                         {option}
@@ -447,7 +453,7 @@ const StudyDetailPage = () => {
           </Card>
         )}
 
-        {/* --- Navigation Buttons (Shared for manual study types) --- */} 
+        {/* --- Navigation Buttons (Shared for manual study types) --- */}
         <div className="flex justify-between mt-6 pb-6">
           <Button
             variant="outline"

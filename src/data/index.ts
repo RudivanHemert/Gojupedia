@@ -1493,34 +1493,70 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
     {
       id: "kata-matching",
       title: t("study.matchingTypes.kata.title", "Kata Matching"),
-      description: t("study.matchingTypes.kata.description", "Match kata names with their meanings and characteristics."),
+      description: t("study.matchingTypes.kata.description", "Match kata names with their meanings."),
       type: "matching",
       category: "kata",
       difficulty: "intermediate",
       image: "https://images.unsplash.com/photo-1616280162269-3a75fe12edba?q=80&w=2070&auto=format&fit=crop",
       questions: [
-        {
-          id: "kata-matching-1",
-          question: "Match the kata with its meaning",
-          correctAnswer: "Sanchin - Three Battles, Gekisai - Attack and Smash, Tensho - Turning Palms",
-          explanation: "Each kata has a specific meaning that reflects its purpose and characteristics."
-        }
+        { id: "pair-1", question: "Sanchin", correctAnswer: t("study.matchingPairs.kata.sanchin", "Three Battles") },
+        { id: "pair-2", question: "Tensho", correctAnswer: t("study.matchingPairs.kata.tensho", "Turning Palms") },
+        { id: "pair-3", question: "Gekisai", correctAnswer: t("study.matchingPairs.kata.gekisai", "Attack and Smash") },
+        { id: "pair-4", question: "Saifa", correctAnswer: t("study.matchingPairs.kata.saifa", "Smash and Tear") },
+        { id: "pair-5", question: "Seiyunchin", correctAnswer: t("study.matchingPairs.kata.seiyunchin", "Control and Pull") },
+        { id: "pair-6", question: "Shisochin", correctAnswer: t("study.matchingPairs.kata.shisochin", "Four Direction Battle") },
+        { id: "pair-7", question: "Sanseru", correctAnswer: t("study.matchingPairs.kata.sanseru", "Thirty-Six Hands") },
+        { id: "pair-8", question: "Seipai", correctAnswer: t("study.matchingPairs.kata.seipai", "Eighteen Hands") }
       ]
     },
     {
-      id: "terminology-matching",
-      title: t("study.matchingTypes.terminology.title", "Terminology Matching"),
-      description: t("study.matchingTypes.terminology.description", "Match Japanese terms to their English meanings across categories."),
+      id: "techniques-matching",
+      title: t("study.matchingTypes.techniques.title", "Techniques Matching"),
+      description: t("study.matchingTypes.techniques.description", "Match technique names with their English translations."),
       type: "matching",
-      category: "terminology",
-      difficulty: "advanced",
+      category: "techniques",
+      difficulty: "beginner",
       questions: [
-        {
-          id: "terminology-matching-1",
-          question: t("study.matchingTypes.terminology.q1", "Match the Japanese term to its meaning: Rei, Kime, Zanshin"),
-          correctAnswer: t("study.matchingTypes.terminology.a1", "Rei-Respect, Kime-Focus, Zanshin-Remaining mind"),
-          explanation: t("study.matchingTypes.terminology.e1", "Fundamental dojo concepts used throughout training.")
-        }
+        { id: "pair-1", question: "Mae Geri", correctAnswer: t("study.matchingPairs.techniques.maeGeri", "Front Kick") },
+        { id: "pair-2", question: "Yoko Geri", correctAnswer: t("study.matchingPairs.techniques.yokoGeri", "Side Kick") },
+        { id: "pair-3", question: "Mawashi Geri", correctAnswer: t("study.matchingPairs.techniques.mawashiGeri", "Roundhouse Kick") },
+        { id: "pair-4", question: "Gedan Barai", correctAnswer: t("study.matchingPairs.techniques.gedanBarai", "Downward Block") },
+        { id: "pair-5", question: "Age Uke", correctAnswer: t("study.matchingPairs.techniques.ageUke", "Rising Block") },
+        { id: "pair-6", question: "Soto Uke", correctAnswer: t("study.matchingPairs.techniques.sotoUke", "Outside Block") },
+        { id: "pair-7", question: "Uchi Uke", correctAnswer: t("study.matchingPairs.techniques.uchiUke", "Inside Block") },
+        { id: "pair-8", question: "Shuto Uke", correctAnswer: t("study.matchingPairs.techniques.shutoUke", "Knife-hand Block") }
+      ]
+    },
+    {
+      id: "philosophy-matching",
+      title: t("study.matchingTypes.philosophy.title", "Philosophy Matching"),
+      description: t("study.matchingTypes.philosophy.description", "Match philosophical concepts with their meanings."),
+      type: "matching",
+      category: "philosophy",
+      difficulty: "intermediate",
+      questions: [
+        { id: "pair-1", question: "Rei", correctAnswer: t("study.matchingPairs.philosophy.rei", "Respect") },
+        { id: "pair-2", question: "Dojo Kun", correctAnswer: t("study.matchingPairs.philosophy.dojoKun", "Training Hall Precepts") },
+        { id: "pair-3", question: "Karate-do", correctAnswer: t("study.matchingPairs.philosophy.karateDo", "Way of the Empty Hand") },
+        { id: "pair-4", question: "Zanshin", correctAnswer: t("study.matchingPairs.philosophy.zanshin", "Remaining Mind") },
+        { id: "pair-5", question: "Mushin", correctAnswer: t("study.matchingPairs.philosophy.mushin", "No Mind") },
+        { id: "pair-6", question: "Kime", correctAnswer: t("study.matchingPairs.philosophy.kime", "Focus") }
+      ]
+    },
+    {
+      id: "stances-matching",
+      title: t("study.matchingTypes.stances.title", "Stances Matching"),
+      description: t("study.matchingTypes.stances.description", "Match stance names with their English translations."),
+      type: "matching",
+      category: "techniques",
+      difficulty: "beginner",
+      questions: [
+        { id: "pair-1", question: "Sanchin Dachi", correctAnswer: t("study.matchingPairs.stances.sanchin", "Hourglass Stance") },
+        { id: "pair-2", question: "Zenkutsu Dachi", correctAnswer: t("study.matchingPairs.stances.zenkutsu", "Front Stance") },
+        { id: "pair-3", question: "Kokutsu Dachi", correctAnswer: t("study.matchingPairs.stances.kokutsu", "Back Stance") },
+        { id: "pair-4", question: "Kiba Dachi", correctAnswer: t("study.matchingPairs.stances.kiba", "Horse Stance") },
+        { id: "pair-5", question: "Neko Ashi Dachi", correctAnswer: t("study.matchingPairs.stances.nekoAshi", "Cat Stance") },
+        { id: "pair-6", question: "Shiko Dachi", correctAnswer: t("study.matchingPairs.stances.shiko", "Sumo Stance") }
       ]
     }
   ];

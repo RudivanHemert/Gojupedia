@@ -210,7 +210,7 @@ const VitalPointsQuiz = () => {
             <Slider
               value={pointsToShow}
               onValueChange={setPointsToShow}
-              min={1}
+              min={0}
               max={filteredPoints.length}
               step={1}
               disabled={checked}
