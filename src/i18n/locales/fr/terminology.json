@@ -1406,50 +1406,186 @@
         "videoLoadError": "Impossible de charger la vidéo pour '{{file}}'. Veuillez vérifier que le fichier existe dans public/video/blocks/.",
         "selectVideoTitle": "Sélectionnez une technique à voir",
         "terms": {
-          "age-uke": {
-            "name": "Age Uke",
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Blocage balayé"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
             "japanese": "上げ受け",
-            "english": "Blocage Montant",
+            "english": "Blocage montant haut",
             "details": "Age Uke (Blocage Montant) est une technique de blocage montant fondamentale utilisée pour défendre contre les attaques au visage ou au haut du corps. L'avant-bras se déplace vers le haut pour dévier l'attaque, tandis que l'autre main est retirée à la hanche en préparation d'une contre-attaque.",
             "videoFile": "age-uke"
           },
-          "gedan-barai": {
-            "name": "Gedan Barai",
-            "japanese": "下段払い",
-            "english": "Balayage Descendant",
-            "details": "Gedan Barai (Balayage Descendant) est un balayage descendant qui défend contre les attaques basses. Le bras se déplace dans un arc descendant pour dévier les coups visant le bas du corps, avec l'autre bras qui se retire à la position de la hanche.",
-            "videoFile": "gedan-barai"
-          },
-          "soto-uke": {
-            "name": "Soto Uke",
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
             "japanese": "外受け",
-            "english": "Blocage Extérieur",
+            "english": "Blocage extérieur haut",
             "details": "Soto Uke (Blocage Extérieur) est un blocage de l'extérieur vers l'intérieur utilisé pour dévier les attaques venant de l'extérieur. L'avant-bras se déplace de l'extérieur vers l'intérieur dans un chemin horizontal pour rediriger le coup de l'adversaire.",
             "videoFile": "soto-uke"
           },
-          "uchi-uke": {
-            "name": "Uchi Uke",
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
             "japanese": "内受け",
-            "english": "Blocage Intérieur",
-            "details": "Uchi Uke (Blocage Intérieur) est un blocage de l'intérieur vers l'extérieur utilisé pour dévier les attaques venant de l'intérieur. L'avant-bras se déplace de l'intérieur vers l'extérieur dans un chemin horizontal."
+            "english": "Blocage intérieur haut"
           },
-          "shuto-uke": {
-            "name": "Shuto Uke",
-            "japanese": "手刀受け",
-            "english": "Blocage Main-Sabre",
-            "details": "Shuto Uke (Blocage Main-Sabre) est effectué avec le tranchant de la main (shuto). Il peut être utilisé pour bloquer les attaques au torse ou à la tête, souvent avec un mouvement circulaire."
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Blocage extérieur moyen"
           },
-          "empi-uke": {
-            "name": "Empi Uke",
-            "japanese": "肘受け",
-            "english": "Blocage du Coude",
-            "details": "Empi Uke (Blocage du Coude) utilise le coude pour bloquer une attaque entrante, souvent efficace à courte distance et contre les coups au corps."
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Blocage intérieur moyen",
+            "details": "Uchi Uke (Blocage Intérieur) est un blocage de l'intérieur vers l'extérieur utilisé pour dévier les attaques venant de l'intérieur. L'avant-bras se déplace de l'intérieur vers l'extérieur dans un chemin horizontal.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Blocage bas (balayé)",
+            "details": "Gedan Barai (Balayage Descendant) est un balayage descendant qui défend contre les attaques basses. Le bras se déplace dans un arc descendant pour dévier les coups visant le bas du corps, avec l'autre bras qui se retire à la position de la hanche.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Blocage bas balayé de l'intérieur"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Blocage bas balayé avec la paume"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Double blocage latéral moyen"
           },
           "kosa-uke": {
             "name": "Kosa Uke",
             "japanese": "交差受け",
-            "english": "Blocage Croisé",
+            "english": "Blocage en croix",
             "details": "Kosa Uke (Blocage Croisé) implique de croiser les poignets ou les avant-bras pour créer une barrière contre une attaque. Il peut être effectué à différentes hauteurs (jodan, chudan, gedan)."
+          },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Blocage tiré"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Blocage tiré inversé"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Blocage inversé / crocheté"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Double blocage tiré"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Blocage crocheté"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Blocage crocheté intérieur"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Blocage latéral paume"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Blocage descendant"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Blocage fluide/balayé"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Blocage pressé",
+            "details": "Osae Uke (Blocage Pressant) est une technique qui appuie vers le bas ou épingler une attaque de l'adversaire, souvent utilisée pour contrôler un membre de l'adversaire ou créer une ouverture."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Double blocage pressé"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Blocage en cuillère"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Blocage poignet haut"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Blocage poignet latéral"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Blocage coude",
+            "details": "Empi Uke (Blocage du Coude) utilise le coude pour bloquer une attaque entrante, souvent efficace à courte distance et contre les coups au corps."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Gueule de tigre"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Blocage circulaire"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Blocage assisté"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Blocage simultané"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Blocage circulaire coude"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Blocage arc et flèche"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Blocage genou intérieur"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Blocage genou extérieur"
           },
           "juji-uke": {
             "name": "Juji Uke",
@@ -1463,11 +1599,11 @@
             "english": "Blocage Arrière-Bras",
             "details": "Haiwan Uke (Blocage Arrière-Bras) utilise l'arrière de l'avant-bras pour bloquer une technique entrante. Il est souvent utilisé pour dévier les coups qui viennent vers le côté du corps ou de la tête."
           },
-          "osae-uke": {
-            "name": "Osae Uke",
-            "japanese": "押さえ受け",
-            "english": "Blocage Pressant",
-            "details": "Osae Uke (Blocage Pressant) est une technique qui appuie vers le bas ou épingler une attaque de l'adversaire, souvent utilisée pour contrôler un membre de l'adversaire ou créer une ouverture."
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Blocage Main-Sabre",
+            "details": "Shuto Uke (Blocage Main-Sabre) est effectué avec le tranchant de la main (shuto). Il peut être utilisé pour bloquer les attaques au torse ou à la tête, souvent avec un mouvement circulaire."
           }
         }
       },

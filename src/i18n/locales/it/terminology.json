@@ -1201,50 +1201,186 @@
         "videoLoadError": "Impossibile caricare il video per '{{file}}'. Si prega di verificare che il file esista in public/video/blocks/.",
         "selectVideoTitle": "Seleziona una tecnica da vedere",
         "terms": {
-          "age-uke": {
-            "name": "Age Uke",
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Parata spazzata"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
             "japanese": "上げ受け",
-            "english": "Parata Ascendente",
+            "english": "Parata ascendente alta",
             "details": "Age Uke (Parata Ascendente) è una tecnica di parata ascendente fondamentale utilizzata per difendersi da attacchi al viso o alla parte superiore del corpo. L'avambraccio si muove verso l'alto per deviare l'attacco, mentre l'altra mano viene ritirata all'anca in preparazione per un contrattacco.",
             "videoFile": "age-uke"
           },
-          "gedan-barai": {
-            "name": "Gedan Barai",
-            "japanese": "下段払い",
-            "english": "Spazzata Discendente",
-            "details": "Gedan Barai (Spazzata Discendente) è una spazzata discendente che difende da attacchi bassi. Il braccio si muove in un arco discendente per deviare colpi diretti alla parte inferiore del corpo, con l'altro braccio che si ritira alla posizione dell'anca.",
-            "videoFile": "gedan-barai"
-          },
-          "soto-uke": {
-            "name": "Soto Uke",
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
             "japanese": "外受け",
-            "english": "Parata Esterna",
+            "english": "Parata esterna alta",
             "details": "Soto Uke (Parata Esterna) è una parata dall'esterno verso l'interno utilizzata per deviare attacchi che provengono dall'esterno. L'avambraccio si muove dall'esterno verso l'interno in un percorso orizzontale per reindirizzare il colpo dell'avversario.",
             "videoFile": "soto-uke"
           },
-          "uchi-uke": {
-            "name": "Uchi Uke",
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
             "japanese": "内受け",
-            "english": "Parata Interna",
-            "details": "Uchi Uke (Parata Interna) è una parata dall'interno verso l'esterno utilizzata per deviare attacchi che provengono dall'interno. L'avambraccio si muove dall'interno verso l'esterno in un percorso orizzontale."
+            "english": "Parata interna alta"
           },
-          "shuto-uke": {
-            "name": "Shuto Uke",
-            "japanese": "手刀受け",
-            "english": "Parata Mano-Spada",
-            "details": "Shuto Uke (Parata Mano-Spada) viene eseguita con il taglio della mano (shuto). Può essere utilizzata per bloccare attacchi al torso o alla testa, spesso con un movimento circolare."
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Parata esterna media"
           },
-          "empi-uke": {
-            "name": "Empi Uke",
-            "japanese": "肘受け",
-            "english": "Parata del Gomito",
-            "details": "Empi Uke (Parata del Gomito) utilizza il gomito per bloccare un attacco in arrivo, spesso efficace a distanza ravvicinata e contro colpi al corpo."
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Parata interna media",
+            "details": "Uchi Uke (Parata Interna) è una parata dall'interno verso l'esterno utilizzata per deviare attacchi che provengono dall'interno. L'avambraccio si muove dall'interno verso l'esterno in un percorso orizzontale.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Parata bassa (spazzata)",
+            "details": "Gedan Barai (Spazzata Discendente) è una spazzata discendente che difende da attacchi bassi. Il braccio si muove in un arco discendente per deviare colpi diretti alla parte inferiore del corpo, con l'altro braccio che si ritira alla posizione dell'anca.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Parata bassa spazzata dall'interno"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Parata bassa spazzata con il palmo"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Doppia parata laterale media"
           },
           "kosa-uke": {
             "name": "Kosa Uke",
             "japanese": "交差受け",
-            "english": "Parata Incrociata",
+            "english": "Parata incrociata",
             "details": "Kosa Uke (Parata Incrociata) comporta l'incrocio dei polsi o degli avambracci per creare una barriera contro un attacco. Può essere eseguita a diverse altezze (jodan, chudan, gedan)."
+          },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Parata tirata"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Parata tirata invertita"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Parata invertita / gancio"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Doppia parata tirata"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Parata a gancio"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Parata a gancio interna"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Parata laterale con palmo"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Parata discendente"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Parata fluida/spazzata"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Parata pressata",
+            "details": "Osae Uke (Parata Premente) è una tecnica che preme verso il basso o immobilizza un attacco dell'avversario, spesso utilizzata per controllare un arto dell'avversario o creare un'apertura."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Doppia parata pressata"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Parata a cucchiaio"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Parata polso alta"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Parata polso laterale"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Parata di gomito",
+            "details": "Empi Uke (Parata del Gomito) utilizza il gomito per bloccare un attacco in arrivo, spesso efficace a distanza ravvicinata e contro colpi al corpo."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Bocca di tigre"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Parata circolare"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Parata assistita"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Parata simultanea"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Parata circolare di gomito"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Parata arco e freccia"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Parata di ginocchio interna"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Parata di ginocchio esterna"
           },
           "juji-uke": {
             "name": "Juji Uke",
@@ -1258,11 +1394,11 @@
             "english": "Parata Braccio-Posteriore",
             "details": "Haiwan Uke (Parata Braccio-Posteriore) utilizza la parte posteriore dell'avambraccio per bloccare una tecnica in arrivo. Spesso viene utilizzata per deviare colpi che arrivano verso il lato del corpo o della testa."
           },
-          "osae-uke": {
-            "name": "Osae Uke",
-            "japanese": "押さえ受け",
-            "english": "Parata Premente",
-            "details": "Osae Uke (Parata Premente) è una tecnica che preme verso il basso o immobilizza un attacco dell'avversario, spesso utilizzata per controllare un arto dell'avversario o creare un'apertura."
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Parata Mano-Spada",
+            "details": "Shuto Uke (Parata Mano-Spada) viene eseguita con il taglio della mano (shuto). Può essere utilizzata per bloccare attacchi al torso o alla testa, spesso con un movimento circolare."
           }
         }
       },

@@ -1201,50 +1201,186 @@
         "videoLoadError": "No se pudo cargar el video para '{{file}}'. Por favor verifique que el archivo existe en public/video/blocks/.",
         "selectVideoTitle": "Seleccione una técnica para ver",
         "terms": {
-          "age-uke": {
-            "name": "Age Uke",
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Bloqueo de barrido"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
             "japanese": "上げ受け",
-            "english": "Bloqueo Ascendente",
+            "english": "Bloqueo ascendente alto",
             "details": "Age Uke (Bloqueo Ascendente) es una técnica de bloqueo ascendente fundamental utilizada para defenderse contra ataques al rostro o parte superior del cuerpo. El antebrazo se mueve hacia arriba para desviar el ataque, mientras que la otra mano se retira a la cadera en preparación para un contraataque.",
             "videoFile": "age-uke"
           },
-          "gedan-barai": {
-            "name": "Gedan Barai",
-            "japanese": "下段払い",
-            "english": "Barrido Descendente",
-            "details": "Gedan Barai (Barrido Descendente) es un barrido descendente que defiende contra ataques bajos. El brazo se mueve en un arco descendente para desviar golpes dirigidos a la parte inferior del cuerpo, con el otro brazo retirándose a la posición de la cadera.",
-            "videoFile": "gedan-barai"
-          },
-          "soto-uke": {
-            "name": "Soto Uke",
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
             "japanese": "外受け",
-            "english": "Bloqueo Exterior",
+            "english": "Bloqueo externo alto",
             "details": "Soto Uke (Bloqueo Exterior) es un bloqueo de afuera hacia adentro utilizado para desviar ataques que vienen del exterior. El antebrazo se mueve de afuera hacia adentro en una trayectoria horizontal para redirigir el golpe del oponente.",
             "videoFile": "soto-uke"
           },
-          "uchi-uke": {
-            "name": "Uchi Uke",
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
             "japanese": "内受け",
-            "english": "Bloqueo Interior",
-            "details": "Uchi Uke (Bloqueo Interior) es un bloqueo de adentro hacia afuera utilizado para desviar ataques que vienen del interior. El antebrazo se mueve de adentro hacia afuera en una trayectoria horizontal."
+            "english": "Bloqueo interno alto"
           },
-          "shuto-uke": {
-            "name": "Shuto Uke",
-            "japanese": "手刀受け",
-            "english": "Bloqueo Mano-Espada",
-            "details": "Shuto Uke (Bloqueo Mano-Espada) se ejecuta con el filo de la mano (shuto). Puede utilizarse para bloquear ataques al torso o cabeza, a menudo con un movimiento circular."
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Bloqueo externo medio"
           },
-          "empi-uke": {
-            "name": "Empi Uke",
-            "japanese": "肘受け",
-            "english": "Bloqueo de Codo",
-            "details": "Empi Uke (Bloqueo de Codo) utiliza el codo para bloquear un ataque entrante, a menudo efectivo a corta distancia y contra golpes al cuerpo."
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Bloqueo interno medio",
+            "details": "Uchi Uke (Bloqueo Interior) es un bloqueo de adentro hacia afuera utilizado para desviar ataques que vienen del interior. El antebrazo se mueve de adentro hacia afuera en una trayectoria horizontal.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Bloqueo bajo (barrido)",
+            "details": "Gedan Barai (Barrido Descendente) es un barrido descendente que defiende contra ataques bajos. El brazo se mueve en un arco descendente para desviar golpes dirigidos a la parte inferior del cuerpo, con el otro brazo retirándose a la posición de la cadera.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Bloqueo bajo barrido desde adentro"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Bloqueo bajo barrido con la palma"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Doble bloqueo lateral medio"
           },
           "kosa-uke": {
             "name": "Kosa Uke",
             "japanese": "交差受け",
-            "english": "Bloqueo Cruzado",
+            "english": "Bloqueo cruzado",
             "details": "Kosa Uke (Bloqueo Cruzado) implica cruzar las muñecas o antebrazos para crear una barrera contra un ataque. Puede ejecutarse a diferentes alturas (jodan, chudan, gedan)."
+          },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Bloqueo tirando"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Bloqueo tirando invertido"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Bloqueo invertido / gancho"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Doble bloqueo tirando"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Bloqueo gancho"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Bloqueo gancho interno"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Bloqueo lateral con palma"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Bloqueo descendente"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Bloqueo fluido/barrido"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Bloqueo de presión",
+            "details": "Osae Uke (Bloqueo Presionante) es una técnica que presiona hacia abajo o inmoviliza un ataque del oponente, a menudo utilizada para controlar un miembro del oponente o crear una apertura."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Doble bloqueo de presión"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Bloqueo en cuchara"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Bloqueo muñeca alto"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Bloqueo muñeca lateral"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Bloqueo codo",
+            "details": "Empi Uke (Bloqueo de Codo) utiliza el codo para bloquear un ataque entrante, a menudo efectivo a corta distancia y contra golpes al cuerpo."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Boca de tigre"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Bloqueo circular"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Bloqueo asistido"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Bloqueo simultáneo"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Bloqueo circular codo"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Bloqueo arco y flecha"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Bloqueo rodilla interior"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Bloqueo rodilla exterior"
           },
           "juji-uke": {
             "name": "Juji Uke",
@@ -1258,11 +1394,11 @@
             "english": "Bloqueo Brazo-Trasero",
             "details": "Haiwan Uke (Bloqueo Brazo-Trasero) utiliza la parte trasera del antebrazo para bloquear una técnica entrante. A menudo se utiliza para desviar golpes que vienen hacia el lado del cuerpo o cabeza."
           },
-          "osae-uke": {
-            "name": "Osae Uke",
-            "japanese": "押さえ受け",
-            "english": "Bloqueo Presionante",
-            "details": "Osae Uke (Bloqueo Presionante) es una técnica que presiona hacia abajo o inmoviliza un ataque del oponente, a menudo utilizada para controlar un miembro del oponente o crear una apertura."
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Bloqueo Mano-Espada",
+            "details": "Shuto Uke (Bloqueo Mano-Espada) se ejecuta con el filo de la mano (shuto). Puede utilizarse para bloquear ataques al torso o cabeza, a menudo con un movimiento circular."
           }
         }
       },

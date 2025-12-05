@@ -1728,50 +1728,186 @@
       "videoLoadError": "Could not load video for '{{file}}'. Please check that the file exists in public/video/blocks/.",
       "selectVideoTitle": "Select a technique to view",
       "terms": {
-        "age-uke": {
-          "name": "Age Uke",
-          "japanese": "上げ受け",
-          "english": "Rising Block",
+        "harai": {
+          "name": "Harai / Barai",
+          "japanese": "払い",
+          "english": "Sweeping block"
+        },
+        "jodan-age-uke": {
+          "name": "Jodan Age Uke",
+          "japanese": "上段上げ受け",
+          "english": "High rising block",
           "details": "Age Uke (Rising Block) is a fundamental upward blocking technique used to defend against attacks to the face or upper body. The forearm moves upwards to deflect the attack, while the other hand is withdrawn to the hip in preparation for a counter-attack.",
           "videoFile": "age-uke"
         },
-        "gedan-barai": {
-          "name": "Gedan Barai",
-          "japanese": "下段払い",
-          "english": "Downward Sweep Block",
-          "details": "Gedan Barai (Downward Sweep Block) is a sweeping downward block that defends against low attacks. The arm moves in a downward arc to deflect strikes aimed at the lower body, with the other arm retracting to the hip position.",
-          "videoFile": "gedan-barai"
-        },
-        "soto-uke": {
-          "name": "Soto Uke",
-          "japanese": "外受け",
-          "english": "Outside Block",
+        "jodan-soto-uke": {
+          "name": "Jodan Soto (Yoko) Uke",
+          "japanese": "上段外受け",
+          "english": "High outside (side) block",
           "details": "Soto Uke (Outside Block) is an outside-to-inside block used to deflect attacks coming from the outside. The forearm moves from outside to inside in a horizontal path to redirect the opponent's strike.",
           "videoFile": "soto-uke"
         },
-        "uchi-uke": {
-          "name": "Uchi Uke",
-          "japanese": "内受け",
-          "english": "Inside Block",
-          "details": "Uchi Uke (Inside Block) is an inside-to-outside block used to deflect attacks coming from the inside. The forearm moves from inside to outside in a horizontal path."
+        "jodan-uchi-uke": {
+          "name": "Jodan Uchi (Yoko) Uke",
+          "japanese": "上段内受け",
+          "english": "High inside (side) block"
         },
-        "shuto-uke": {
-          "name": "Shuto Uke",
-          "japanese": "手刀受け",
-          "english": "Knife Hand Block",
-          "details": "Shuto Uke (Knife Hand Block) is performed using the edge of the hand (shuto). It can be used to block attacks to the midsection or head, often with a circular motion."
+        "chudan-soto-uke": {
+          "name": "Chudan Soto (Yoko) Uke",
+          "japanese": "中段外受け",
+          "english": "Middle outside (side) block"
         },
-        "empi-uke": {
-          "name": "Empi Uke",
-          "japanese": "肘受け",
-          "english": "Elbow Block",
-          "details": "Empi Uke (Elbow Block) uses the elbow to block an incoming attack, often effective at close range and against strikes to the body."
+        "chudan-uchi-uke": {
+          "name": "Chudan Uchi Uke",
+          "japanese": "中段内受け",
+          "english": "Middle inside block",
+          "details": "Uchi Uke (Inside Block) is an inside-to-outside block used to deflect attacks coming from the inside. The forearm moves from inside to outside in a horizontal path.",
+          "videoFile": "uchi-uke"
+        },
+        "gedan-uke": {
+          "name": "Gedan (Harai) Uke / Gedan Barai",
+          "japanese": "下段払い",
+          "english": "Low (sweeping) block",
+          "details": "Gedan Barai (Downward Sweep Block) is a sweeping downward block that defends against low attacks. The arm moves in a downward arc to deflect strikes aimed at the lower body, with the other arm retracting to the hip position.",
+          "videoFile": "gedan-barai"
+        },
+        "uchi-gedan-barai": {
+          "name": "Uchi Gedan Barai",
+          "japanese": "内下段払い",
+          "english": "Low inside sweeping block"
+        },
+        "shotei-gedan-harai": {
+          "name": "Shotei Gedan Harai",
+          "japanese": "掌底下段払い",
+          "english": "Low sweeping block with palm or fist"
+        },
+        "morote-uke": {
+          "name": "Morote Uke",
+          "japanese": "諸手受け",
+          "english": "Double middle side block"
         },
         "kosa-uke": {
           "name": "Kosa Uke",
           "japanese": "交差受け",
-          "english": "Cross Block",
+          "english": "Cross block (with two fists)",
           "details": "Kosa Uke (Cross Block) involves crossing the wrists or forearms to create a barrier against an attack. It can be performed at various heights (jodan, chudan, gedan)."
+        },
+        "hiki-uke": {
+          "name": "Hiki Uke",
+          "japanese": "引き受け",
+          "english": "Pulling (or grasping) block"
+        },
+        "ura-hiki-uke": {
+          "name": "Ura Hiki Uke",
+          "japanese": "裏引き受け",
+          "english": "Reverse pulling block"
+        },
+        "ura-kake-uke": {
+          "name": "Ura Kake Uke",
+          "japanese": "裏掛け受け",
+          "english": "Reverse block / Backhand circular pressing block"
+        },
+        "morote-hiki-uke": {
+          "name": "Morote Hiki Uke",
+          "japanese": "諸手引き受け",
+          "english": "Double pulling block"
+        },
+        "kake-uke": {
+          "name": "Kake Uke",
+          "japanese": "掛け受け",
+          "english": "Hooking block"
+        },
+        "uchi-kake-uke": {
+          "name": "Uchi Kake Uke",
+          "japanese": "内掛け受け",
+          "english": "Inside hooking block"
+        },
+        "shotei-uke": {
+          "name": "Shotei Uke",
+          "japanese": "掌底受け",
+          "english": "Side palm block"
+        },
+        "otoshi-uke": {
+          "name": "Otoshi Uke",
+          "japanese": "落とし受け",
+          "english": "Dropping (palm) block"
+        },
+        "nagashi-uke": {
+          "name": "Nagashi Uke",
+          "japanese": "流し受け",
+          "english": "Flowing or sweeping block"
+        },
+        "osae-uke": {
+          "name": "Osae Uke",
+          "japanese": "押さえ受け",
+          "english": "Pressing (palm) block",
+          "details": "Osae Uke (Pressing Block) is a technique that presses down or pins an opponent's attack, often used to control an opponent's limb or create an opening."
+        },
+        "morote-osae-uke": {
+          "name": "Morote Osae Uke",
+          "japanese": "諸手押さえ受け",
+          "english": "Double hand pressing block"
+        },
+        "sukui-uke": {
+          "name": "Sukui Uke",
+          "japanese": "掬い受け",
+          "english": "Scooping block"
+        },
+        "jodan-ko-uke": {
+          "name": "Jodan Ko Uke",
+          "japanese": "上段弧受け",
+          "english": "High wrist block"
+        },
+        "yoko-ko-uke": {
+          "name": "Yoko Ko Uke",
+          "japanese": "横弧受け",
+          "english": "Side wrist block"
+        },
+        "hiji-uke": {
+          "name": "Hiji Uke",
+          "japanese": "肘受け",
+          "english": "Elbow block",
+          "details": "Empi Uke (Elbow Block) uses the elbow to block an incoming attack, often effective at close range and against strikes to the body."
+        },
+        "tora-guchi": {
+          "name": "Tora Guchi",
+          "japanese": "虎口",
+          "english": "Tiger mouth"
+        },
+        "mawashi-uke": {
+          "name": "Mawashi Uke",
+          "japanese": "回し受け",
+          "english": "Circular block"
+        },
+        "hojo-uke": {
+          "name": "Hojo Uke",
+          "japanese": "補助受け",
+          "english": "Augmented block"
+        },
+        "doji-uke": {
+          "name": "Doji Uke",
+          "japanese": "同時受け",
+          "english": "Simultaneous block"
+        },
+        "kuri-uke": {
+          "name": "Kuri Uke",
+          "japanese": "繰り受け",
+          "english": "Elbow circular block (Seiyunchin/Kururunfa)"
+        },
+        "hari-uke": {
+          "name": "Hari Uke",
+          "japanese": "弓受け",
+          "english": "Archer block"
+        },
+        "hiza-uchi-uke": {
+          "name": "Hiza Uchi Uke",
+          "japanese": "膝内受け",
+          "english": "Inside knee block"
+        },
+        "hiza-soto-uke": {
+          "name": "Hiza Soto Uke",
+          "japanese": "膝外受け",
+          "english": "Outside knee block"
         },
         "juji-uke": {
           "name": "Juji Uke",
@@ -1785,11 +1921,11 @@
           "english": "Back Arm Block",
           "details": "Haiwan Uke (Back Arm Block) uses the back of the forearm to block an incoming technique. It is often used to deflect strikes coming towards the side of the body or head."
         },
-        "osae-uke": {
-          "name": "Osae Uke",
-          "japanese": "押さえ受け",
-          "english": "Pressing Block",
-          "details": "Osae Uke (Pressing Block) is a technique that presses down or pins an opponent's attack, often used to control an opponent's limb or create an opening."
+        "shuto-uke": {
+          "name": "Shuto Uke",
+          "japanese": "手刀受け",
+          "english": "Knife Hand Block",
+          "details": "Shuto Uke (Knife Hand Block) is performed using the edge of the hand (shuto). It can be used to block attacks to the midsection or head, often with a circular motion."
         }
       }
     },

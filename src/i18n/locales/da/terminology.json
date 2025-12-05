@@ -28,76 +28,212 @@
       "vital-points": "Vitale punkter",
       "blocks-content": {
         "description": "Almindelige defensive teknikker der bruges til at blokere eller afværge angreb. Klik 'Se' for en demonstration hvis tilgængelig.",
+        "basicBlocksTitle": "Grundlæggende Blokeringer",
+        "advancedBlocksTitle": "Avancerede Blokeringer",
+        "videoNotAvailableDescription": "En videodemonstration for denne teknik er ikke tilgængelig i øjeblikket.",
+        "videoLoadError": "Kunne ikke indlæse video for '{{file}}'. Tjek venligst at filen findes i public/video/blocks/.",
+        "selectVideoTitle": "Vælg en teknik at se",
         "terms": {
-          "age-uke": {
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Fejende blokering"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
             "japanese": "上げ受け",
-            "name": "Age Uke",
-            "english": "Rising Block",
+            "english": "Høj opadgående blokering",
             "details": "En opadgående blok der bruges til at afværge angreb mod hovedet og overkroppen.",
             "videoFile": "age-uke"
           },
-          "gedan-barai": {
-            "japanese": "下段払い",
-            "name": "Gedan Barai",
-            "english": "Downward Sweep Block",
-            "details": "En nedadgående fejeblok der bruges til at afværge lave angreb og spark.",
-            "videoFile": "gedan-barai"
-          },
-          "soto-uke": {
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
             "japanese": "外受け",
-            "name": "Soto Uke",
-            "english": "Outside Block",
+            "english": "Høj udvendig blokering",
             "details": "En blok der bevæger sig fra udsiden mod indsiden for at afværge angreb.",
             "videoFile": "soto-uke"
           },
-          "uchi-uke": {
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
             "japanese": "内受け",
-            "name": "Uchi Uke",
-            "english": "Inside Block",
-            "details": "En blok der bevæger sig fra indsiden mod udsiden for at afværge angreb."
+            "english": "Høj indvendig blokering"
           },
-          "shuto-uke": {
-            "japanese": "手刀受け",
-            "name": "Shuto Uke",
-            "english": "Knife Hand Block",
-            "details": "En blok der bruger håndkanten som et knivblad til at afværge angreb."
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Mellem udvendig blokering"
           },
-          "empi-uke": {
-            "japanese": "肘受け",
-            "name": "Empi Uke",
-            "english": "Elbow Block",
-            "details": "En blok der bruger albuen til at afværge angreb."
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Mellem indvendig blokering",
+            "details": "En blok der bevæger sig fra indsiden mod udsiden for at afværge angreb.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Lav (fejende) blokering",
+            "details": "En nedadgående fejeblok der bruges til at afværge lave angreb og spark.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Lav fejende blokering indefra"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Lav fejende blokering med håndfladen"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Dobbelt mellem sideblokering"
           },
           "kosa-uke": {
-            "japanese": "交差受け",
             "name": "Kosa Uke",
-            "english": "Cross Block",
+            "japanese": "交差受け",
+            "english": "Krydsblokering",
             "details": "En krydsblok der bruger begge arme til at afværge angreb."
           },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Trækkende blokering"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Omvendt trækkende blokering"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Omvendt krogblokering"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Dobbelt trækkende blokering"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Krogblokering"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Indvendig krogblokering"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Sideblokering med håndfladen"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Nedadgående blokering"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Flydende/fejende blokering"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Presseblokering",
+            "details": "En trykblok der bruger pres til at afværge og kontrollere angreb."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Dobbelt presseblokering"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Ske-blokering"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Høj håndledsblokering"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Side håndledsblokering"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Albueblokering",
+            "details": "En blok der bruger albuen til at afværge angreb."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Tigermund"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Cirkelblokering"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Assisteret blokering"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Samtidig blokering"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Albue-cirkelblokering"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Bue og pil-blokering"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Indvendig knæblokering"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Udvendig knæblokering"
+          },
           "juji-uke": {
-            "japanese": "十字受け",
             "name": "Juji Uke",
+            "japanese": "十字受け",
             "english": "X-Block",
             "details": "En X-formet blok der bruger begge arme i et krydsmønster."
           },
           "haiwan-uke": {
-            "japanese": "背腕受け",
             "name": "Haiwan Uke",
+            "japanese": "背腕受け",
             "english": "Back Arm Block",
             "details": "En blok der bruger bagarmen til at afværge angreb."
           },
-          "osae-uke": {
-            "japanese": "押さえ受け",
-            "name": "Osae Uke",
-            "english": "Pressing Block",
-            "details": "En trykblok der bruger pres til at afværge og kontrollere angreb."
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Knife Hand Block",
+            "details": "En blok der bruger håndkanten som et knivblad til at afværge angreb."
           }
-        },
-        "basicBlocksTitle": "Basic Blocks",
-        "advancedBlocksTitle": "Advanced Blocks",
-        "videoNotAvailableDescription": "A video demonstration for this technique is not currently available.",
-        "videoLoadError": "Could not load video for '{{file}}'. Please check that the file exists in public/video/blocks/.",
-        "selectVideoTitle": "Select a technique to view"
+        }
       },
       "basic": {
         "title": "Grundlæggende",

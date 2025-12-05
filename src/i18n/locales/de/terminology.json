@@ -1200,50 +1200,186 @@
         "videoLoadError": "Video konnte nicht geladen werden für '{{file}}'. Bitte überprüfen Sie, ob die Datei in public/video/blocks/ existiert.",
         "selectVideoTitle": "Wählen Sie eine Technik zum Anzeigen",
         "terms": {
-          "age-uke": {
-            "name": "Age Uke",
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Fegende Abwehr"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
             "japanese": "上げ受け",
-            "english": "Aufwärtsblock",
+            "english": "Hoher steigender Block",
             "details": "Age Uke (Aufwärtsblock) ist eine grundlegende aufwärtsgerichtete Blockierungstechnik, die verwendet wird, um Angriffe auf das Gesicht oder den Oberkörper zu verteidigen. Der Unterarm bewegt sich nach oben, um den Angriff abzuwehren, während die andere Hand zur Hüfte zurückgezogen wird, um sich auf einen Gegenangriff vorzubereiten.",
             "videoFile": "age-uke"
           },
-          "gedan-barai": {
-            "name": "Gedan Barai",
-            "japanese": "下段払い",
-            "english": "Abwärts-Fegblock",
-            "details": "Gedan Barai (Abwärts-Fegblock) ist ein fegender Abwärtsblock, der gegen niedrige Angriffe verteidigt. Der Arm bewegt sich in einem abwärtsgerichteten Bogen, um Schläge abzuwehren, die auf den Unterkörper gerichtet sind, während der andere Arm zur Hüftposition zurückzieht.",
-            "videoFile": "gedan-barai"
-          },
-          "soto-uke": {
-            "name": "Soto Uke",
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
             "japanese": "外受け",
-            "english": "Außenblock",
+            "english": "Hoher Außenblock (seitlich)",
             "details": "Soto Uke (Außenblock) ist ein Außen-nach-Innen-Block, der verwendet wird, um Angriffe von außen abzuwehren. Der Unterarm bewegt sich von außen nach innen in einem horizontalen Pfad, um den Schlag des Gegners umzuleiten.",
             "videoFile": "soto-uke"
           },
-          "uchi-uke": {
-            "name": "Uchi Uke",
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
             "japanese": "内受け",
-            "english": "Innenblock",
-            "details": "Uchi Uke (Innenblock) ist ein Innen-nach-Außen-Block, der verwendet wird, um Angriffe von innen abzuwehren. Der Unterarm bewegt sich von innen nach außen in einem horizontalen Pfad."
+            "english": "Hoher Innenblock (seitlich)"
           },
-          "shuto-uke": {
-            "name": "Shuto Uke",
-            "japanese": "手刀受け",
-            "english": "Schwert-Hand-Block",
-            "details": "Shuto Uke (Schwert-Hand-Block) wird mit der Kante der Hand (shuto) ausgeführt. Er kann verwendet werden, um Angriffe auf den Mittelkörper oder Kopf zu blockieren, oft mit einer kreisförmigen Bewegung."
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Mittlerer Außenblock (seitlich)"
           },
-          "empi-uke": {
-            "name": "Empi Uke",
-            "japanese": "肘受け",
-            "english": "Ellbogenblock",
-            "details": "Empi Uke (Ellbogenblock) verwendet den Ellbogen, um einen eingehenden Angriff zu blockieren, oft effektiv auf kurze Distanz und gegen Schläge auf den Körper."
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Mittlerer Innenblock",
+            "details": "Uchi Uke (Innenblock) ist ein Innen-nach-Außen-Block, der verwendet wird, um Angriffe von innen abzuwehren. Der Unterarm bewegt sich von innen nach außen in einem horizontalen Pfad.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Tiefer (fegender) Block",
+            "details": "Gedan Barai (Abwärts-Fegblock) ist ein fegender Abwärtsblock, der gegen niedrige Angriffe verteidigt. Der Arm bewegt sich in einem abwärtsgerichteten Bogen, um Schläge abzuwehren, die auf den Unterkörper gerichtet sind, während der andere Arm zur Hüftposition zurückzieht.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Tiefer fegender Innenblock"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Tiefer fegender Block mit der Handfläche"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Doppelter mittlerer Seitenblock"
           },
           "kosa-uke": {
             "name": "Kosa Uke",
             "japanese": "交差受け",
             "english": "Kreuzblock",
             "details": "Kosa Uke (Kreuzblock) umfasst das Kreuzen der Handgelenke oder Unterarme, um eine Barriere gegen einen Angriff zu schaffen. Er kann in verschiedenen Höhen ausgeführt werden (jodan, chudan, gedan)."
+          },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Ziehender Block"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Umgekehrter ziehender Block"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Umgekehrter Hakenblock"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Doppelter ziehender Block"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Hakenblock"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Innerer Hakenblock"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Seitlicher Handballenblock"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Fallender Block"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Fließender oder fegender Block"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Pressblock",
+            "details": "Osae Uke (Drückblock) ist eine Technik, die nach unten drückt oder einen Angriff des Gegners festhält, oft verwendet, um ein Glied des Gegners zu kontrollieren oder eine Öffnung zu schaffen."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Beidhändiger Pressblock"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Schaufelblock"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Hoher Handgelenkblock"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Seitlicher Handgelenkblock"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Ellbogenblock",
+            "details": "Empi Uke (Ellbogenblock) verwendet den Ellbogen, um einen eingehenden Angriff zu blockieren, oft effektiv auf kurze Distanz und gegen Schläge auf den Körper."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Tigermund"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Kreisblock"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Unterstützter Block"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Gleichzeitiger Block"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Ellbogen-Kreisblock"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Bogenblock"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Innerer Knieblock"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Äußerer Knieblock"
           },
           "juji-uke": {
             "name": "Juji Uke",
@@ -1257,11 +1393,11 @@
             "english": "Rückarmblock",
             "details": "Haiwan Uke (Rückarmblock) verwendet die Rückseite des Unterarms, um eine eingehende Technik zu blockieren. Er wird oft verwendet, um Schläge abzuwehren, die zur Seite des Körpers oder Kopfes kommen."
           },
-          "osae-uke": {
-            "name": "Osae Uke",
-            "japanese": "押さえ受け",
-            "english": "Drückblock",
-            "details": "Osae Uke (Drückblock) ist eine Technik, die nach unten drückt oder einen Angriff des Gegners festhält, oft verwendet, um ein Glied des Gegners zu kontrollieren oder eine Öffnung zu schaffen."
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Schwert-Hand-Block",
+            "details": "Shuto Uke (Schwert-Hand-Block) wird mit der Kante der Hand (shuto) ausgeführt. Er kann verwendet werden, um Angriffe auf den Mittelkörper oder Kopf zu blockieren, oft mit einer kreisförmigen Bewegung."
           }
         }
       },

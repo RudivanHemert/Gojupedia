@@ -129,76 +129,212 @@
       "vital-points": "Pontos Vitais",
       "blocks-content": {
         "description": "Técnicas defensivas comuns usadas para bloquear ou desviar ataques. Clique em 'Ver' para uma demonstração se disponível.",
+        "basicBlocksTitle": "Bloqueios Básicos",
+        "advancedBlocksTitle": "Bloqueios Avançados",
+        "videoNotAvailableDescription": "Uma demonstração de vídeo para esta técnica não está disponível atualmente.",
+        "videoLoadError": "Não foi possível carregar o vídeo para '{{file}}'. Por favor, verifique se o arquivo existe em public/video/blocks/.",
+        "selectVideoTitle": "Selecione uma técnica para ver",
         "terms": {
-          "age-uke": {
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Bloqueio de varredura"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
             "japanese": "上げ受け",
-            "name": "Age Uke",
-            "english": "Bloqueio Ascendente",
+            "english": "Bloqueio ascendente alto",
             "details": "Um bloqueio ascendente usado para desviar ataques à cabeça e parte superior do corpo.",
             "videoFile": "age-uke"
           },
-          "gedan-barai": {
-            "japanese": "下段払い",
-            "name": "Gedan Barai",
-            "english": "Bloqueio de Varredura Descendente",
-            "details": "Um bloqueio de varredura descendente usado para desviar ataques baixos e chutes.",
-            "videoFile": "gedan-barai"
-          },
-          "soto-uke": {
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
             "japanese": "外受け",
-            "name": "Soto Uke",
-            "english": "Bloqueio Externo",
+            "english": "Bloqueio externo alto",
             "details": "Um bloqueio que se move de fora para dentro para desviar ataques.",
             "videoFile": "soto-uke"
           },
-          "uchi-uke": {
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
             "japanese": "内受け",
-            "name": "Uchi Uke",
-            "english": "Bloqueio Interno",
-            "details": "Um bloqueio que se move de dentro para fora para desviar ataques."
+            "english": "Bloqueio interno alto"
           },
-          "shuto-uke": {
-            "japanese": "手刀受け",
-            "name": "Shuto Uke",
-            "english": "Bloqueio de Mão Faca",
-            "details": "Um bloqueio que usa a borda da mão como uma lâmina de faca para desviar ataques."
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Bloqueio externo médio"
           },
-          "empi-uke": {
-            "japanese": "肘受け",
-            "name": "Empi Uke",
-            "english": "Bloqueio de Cotovelo",
-            "details": "Um bloqueio que usa o cotovelo para desviar ataques."
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Bloqueio interno médio",
+            "details": "Um bloqueio que se move de dentro para fora para desviar ataques.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Bloqueio baixo (varredura)",
+            "details": "Um bloqueio de varredura descendente usado para desviar ataques baixos e chutes.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Bloqueio baixo varrido de dentro para fora"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Bloqueio baixo varrido com a palma"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Bloqueio lateral duplo médio"
           },
           "kosa-uke": {
-            "japanese": "交差受け",
             "name": "Kosa Uke",
-            "english": "Bloqueio Cruzado",
+            "japanese": "交差受け",
+            "english": "Bloqueio cruzado",
             "details": "Um bloqueio cruzado que usa ambos os braços para desviar ataques."
           },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Bloqueio puxando"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Bloqueio puxando invertido"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Bloqueio invertido / ganchado"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Bloqueio duplo puxando"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Bloqueio ganchado"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Bloqueio ganchado interno"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Bloqueio lateral com palma"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Bloqueio descendente"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Bloqueio fluido/varrido"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Bloqueio de pressão",
+            "details": "Um bloqueio de pressão que usa pressão para desviar e controlar ataques."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Bloqueio duplo de pressão"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Bloqueio em concha"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Bloqueio de pulso alto"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Bloqueio de pulso lateral"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Bloqueio de cotovelo",
+            "details": "Um bloqueio que usa o cotovelo para desviar ataques."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Boca de tigre"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Bloqueio circular"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Bloqueio assistido"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Bloqueio simultâneo"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Bloqueio circular de cotovelo"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Bloqueio arco e flecha"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Bloqueio de joelho interno"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Bloqueio de joelho externo"
+          },
           "juji-uke": {
-            "japanese": "十字受け",
             "name": "Juji Uke",
+            "japanese": "十字受け",
             "english": "Bloqueio X",
             "details": "Um bloqueio em forma de X que usa ambos os braços em um padrão cruzado."
           },
           "haiwan-uke": {
-            "japanese": "背腕受け",
             "name": "Haiwan Uke",
+            "japanese": "背腕受け",
             "english": "Bloqueio de Braço Traseiro",
             "details": "Um bloqueio que usa o braço traseiro para desviar ataques."
           },
-          "osae-uke": {
-            "japanese": "押さえ受け",
-            "name": "Osae Uke",
-            "english": "Bloqueio de Pressão",
-            "details": "Um bloqueio de pressão que usa pressão para desviar e controlar ataques."
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Bloqueio de Mão Faca",
+            "details": "Um bloqueio que usa a borda da mão como uma lâmina de faca para desviar ataques."
           }
-        },
-        "basicBlocksTitle": "Basic Blocks",
-        "advancedBlocksTitle": "Advanced Blocks",
-        "videoNotAvailableDescription": "A video demonstration for this technique is not currently available.",
-        "videoLoadError": "Could not load video for '{{file}}'. Please check that the file exists in public/video/blocks/.",
-        "selectVideoTitle": "Select a technique to view"
+        }
       },
       "tournament-terms-content": {
         "description": "Termos comumente usados em configurações de torneio de karate.",
