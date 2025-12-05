@@ -16,32 +16,14 @@ import TechniqueFlashcards from '@/components/learning/TechniqueFlashcards';
 import TechniqueMatching from '@/components/learning/TechniqueMatching';
 import MatchingGame from '@/components/learning/MatchingGame';
 import VitalPointsQuiz from '@/components/learning/VitalPointsQuiz';
-import { techniquesData, TechniqueData } from '@/data/techniquesData';
+import { getTechniquesData, TechniqueData } from '@/data/techniquesData';
 import { useTranslation } from 'react-i18next';
-
-// Get all possible categories from the source data
-const allTerminologyCategories = [
-  ...new Set(techniquesData.map(item => item.category))
-] as const;
-type TerminologyCategory = typeof allTerminologyCategories[number];
 
 // Helper to generate slug from category name (consistent with data/index.ts)
 const generateSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
-// New helper function to parse category and type from generated IDs
-const parseGeneratedStudyId = (id: string): { category: TerminologyCategory | undefined, type: 'quiz' | 'flashcard' | undefined } => {
-  for (const category of allTerminologyCategories) {
-    const categorySlug = generateSlug(category);
-    if (id === `${categorySlug}-quiz`) {
-      return { category, type: 'quiz' };
-    }
-    // Accept both singular and plural for backward compatibility
-    if (id === `${categorySlug}-flashcard` || id === `${categorySlug}-flashcards`) {
-      return { category, type: 'flashcard' };
-    }
-  }
-  return { category: undefined, type: undefined }; // Not a recognized generated ID
-};
+// Helper to get valid categories from data
+const getCategories = (data: TechniqueData[]) => [...new Set(data.map(item => item.category))] as const;
 
 const StudyDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -55,10 +37,53 @@ const StudyDetailPage = () => {
   const [flipped, setFlipped] = useState(false);
   const [questionResults, setQuestionResults] = useState<Record<string, boolean>>({});
   const { t, i18n } = useTranslation();
-  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
+
+  // Dynamic data generation
+  const techniquesData = React.useMemo(() => getTechniquesData(t), [t, i18n.language]);
+  const allStudies = React.useMemo(() => buildStudies(t), [t, i18n.language]);
+
+  // Derived categories
+  const categories = React.useMemo(() => getCategories(techniquesData), [techniquesData]);
+
+  // Logic to parse ID based on dynamic categories
+  const { generatedCategory, generatedType } = React.useMemo(() => {
+    if (!id) return { generatedCategory: undefined, generatedType: undefined };
+
+    for (const category of categories) {
+      const categorySlug = generateSlug(category);
+      if (id === `${categorySlug}-quiz`) {
+        return { generatedCategory: category, generatedType: 'quiz' as const };
+      }
+      if (id === `${categorySlug}-flashcard` || id === `${categorySlug}-flashcards`) {
+        return { generatedCategory: category, generatedType: 'flashcard' as const };
+      }
+    }
+    return { generatedCategory: undefined, generatedType: undefined };
+  }, [id, categories]);
 
   // Find the study by ID
   useEffect(() => {
+    // Check if it's a generated study first
+    if (generatedCategory && generatedType) {
+      // Create a dummy study object for the state to satisfy types, 
+      // essentially acting as a container since the component (Quiz/Flashcard) handles the data.
+      // We use the localized category title.
+      const title = generatedType === 'quiz'
+        ? `${generatedCategory} Quiz` // Ideally localized
+        : `${generatedCategory} Flashcards`;
+
+      setStudy({
+        id: id!,
+        title: title,
+        description: `Study ${generatedCategory}`,
+        type: generatedType,
+        category: 'terminology', // generic
+        difficulty: 'beginner', // default
+        questions: [] // populated by component
+      });
+      return;
+    }
+
     const foundStudy = allStudies.find(s => s.id === id);
     if (foundStudy) {
       setStudy(foundStudy);
@@ -70,16 +95,24 @@ const StudyDetailPage = () => {
       setScore(0);
       setFlipped(false);
       setQuestionResults({});
-      setQuestionResults({});
     } else {
-      toast({
-        title: t('study.notFound.title'),
-        description: t('study.notFound.description'),
-        variant: "destructive"
-      });
-      navigate('/study');
+      // Only redirect if NOT a generated study (already checked above) and NOT found in static list
+      // make sure we don't redirect if we are simply waiting for data
+      // But here we have all data.
+      // Wait, 'vital-points-quiz' is in allStudies? Yes.
+
+      if (id && !generatedCategory) {
+        toast({
+          title: t('study.notFound.title'),
+          description: t('study.notFound.description'),
+          variant: "destructive"
+        });
+        navigate('/study');
+      }
     }
-  }, [id, navigate, t, allStudies]);
+  }, [id, navigate, t, allStudies, generatedCategory, generatedType]);
+
+  // ... (Event handlers remain same)
 
   // --- Event Handlers --- 
   const handleAnswerChange = (answer: string) => {
@@ -193,7 +226,7 @@ const StudyDetailPage = () => {
   }
 
   // 3. Attempt to parse as a Dynamically Generated Study Module
-  const { category: generatedCategory, type: generatedType } = parseGeneratedStudyId(id);
+  // Use the memoized values
 
   if (generatedCategory && generatedType) {
     // It's a dynamically generated study, render the correct component
@@ -202,10 +235,10 @@ const StudyDetailPage = () => {
         {renderHeader()}
         <div className="p-4">
           {generatedType === 'quiz' && (
-            <TechniqueQuiz category={generatedCategory} title={study.title} />
+            <TechniqueQuiz category={generatedCategory} title={study.title} data={techniquesData} />
           )}
           {generatedType === 'flashcard' && (
-            <TechniqueFlashcards category={generatedCategory} title={study.title} />
+            <TechniqueFlashcards category={generatedCategory} title={study.title} data={techniquesData} />
           )}
         </div>
       </>
@@ -420,10 +453,10 @@ const StudyDetailPage = () => {
                     <div
                       key={option}
                       className={`flex items-center space-x-2 p-3 rounded-md border transition-all ${userAnswers[currentQuestion.id] === option && quizCompleted && option === currentQuestion.correctAnswer
-                          ? 'border-green-500 bg-green-50'
-                          : userAnswers[currentQuestion.id] === option && quizCompleted && option !== currentQuestion.correctAnswer
-                            ? 'border-red-500 bg-red-50'
-                            : 'border-border hover:border-border'
+                        ? 'border-green-500 bg-green-50'
+                        : userAnswers[currentQuestion.id] === option && quizCompleted && option !== currentQuestion.correctAnswer
+                          ? 'border-red-500 bg-red-50'
+                          : 'border-border hover:border-border'
                         }`}
                     >
                       <RadioGroupItem value={option} id={option} disabled={quizCompleted} />

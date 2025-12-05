@@ -1,17 +1,199 @@
+import { TFunction } from 'i18next';
+
 // Goju Ryu Karate Terminology Data
 // Complete terminology structure based on authoritative Dutch Goju Ryu documentation
 
 export interface TechniqueData {
   id: string;
-  category: 'Basiskennis' | 'Organisatie' | 'Training' | 'Hojo-Undo' | 'Dachi-Waza' | 
-    'Verplaatsingen' | 'Anatomische-Wapens' | 'Uke-Waza' | 'Zuki-Uchi-Waza' | 
-    'Geri-Waza' | 'Tuite-Waza' | 'Kyusho';
+  category: 'Basiskennis' | 'Organisatie' | 'Training' | 'Hojo-Undo' | 'Dachi-Waza' |
+  'Verplaatsingen' | 'Anatomische-Wapens' | 'Uke-Waza' | 'Zuki-Uchi-Waza' |
+  'Geri-Waza' | 'Tuite-Waza' | 'Kyusho';
   japanese: string;
   kanji?: string;
-  english: string;
-  dutch: string;
+  english: string; // This will hold the localized translation (English, Dutch, etc.)
+  dutch?: string; // Kept for interface compatibility, but will be same as english or redundant
   description?: string;
 }
 
-export const techniquesData: TechniqueData[] = [\n  { id: 'basis-karate', category: 'Basiskennis', japanese: 'Karate', english: 'Empty Hand', dutch: 'Gevechtskunst, letterlijk: lege hand' },\n  { id: 'basis-karatedo', category: 'Basiskennis', japanese: 'Karate-do', english: 'The Way of Empty Hand', dutch: 'De weg van de lege hand' },\n  { id: 'basis-okinawa', category: 'Basiskennis', japanese: 'Okinawa', english: 'Largest Ryukyu Island', dutch: 'Grootste eiland van de Ryukyu-eilanden' },\n  { id: 'basis-ryu', category: 'Basiskennis', japanese: 'Ryu', english: 'Style', dutch: 'Stijl' },\n  { id: 'basis-goju-ryu', category: 'Basiskennis', japanese: 'Goju-ryu', english: 'Hard-Soft Style', dutch: 'Hard-zachte stijl' },\n  { id: 'basis-budo', category: 'Basiskennis', japanese: 'Budo', kanji: '武道', english: 'Martial Way', dutch: 'De weg van de krijger' },\n  { id: 'basis-ki', category: 'Basiskennis', japanese: 'Ki', kanji: '気', english: 'Vital energy', dutch: 'Vitale energie of levenskracht' },\n  { id: 'basis-tanden', category: 'Basiskennis', japanese: 'Tanden', english: 'Energy center', dutch: 'Energetisch centrum van het lichaam' },\n  { id: 'basis-zanshin', category: 'Basiskennis', japanese: 'Zanshin', kanji: '残心', english: 'Remaining awareness', dutch: 'Blijvende aandacht en alertheid' },\n  { id: 'basis-kiai', category: 'Basiskennis', japanese: 'Kiai', kanji: '気合', english: 'Spirit shout', dutch: 'Krachtschreeuw' },\n  { id: 'org-dojo', category: 'Organisatie', japanese: 'Dojo', kanji: '道場', english: 'Training hall', dutch: 'Oefenruimte' },\n  { id: 'org-sensei', category: 'Organisatie', japanese: 'Sensei', kanji: '先生', english: 'Teacher', dutch: 'Leraar' },\n  { id: 'org-senpai', category: 'Organisatie', japanese: 'Senpai', kanji: '先輩', english: 'Senior student', dutch: 'Gevorderde student' },\n  { id: 'org-kohai', category: 'Organisatie', japanese: 'Kohai', kanji: '後輩', english: 'Junior student', dutch: 'Beginnende student' },\n  { id: 'org-rei', category: 'Organisatie', japanese: 'Rei', kanji: '礼', english: 'Bow', dutch: 'Buigen' },\n  { id: 'org-seiza', category: 'Organisatie', japanese: 'Seiza', kanji: '正座', english: 'Formal sitting', dutch: 'Formeel zitten' },\n  { id: 'org-mokuso', category: 'Organisatie', japanese: 'Mokuso', kanji: '黙想', english: 'Meditation', dutch: 'Meditatie' },\n  { id: 'org-yoi', category: 'Organisatie', japanese: 'Yoi', kanji: '用意', english: 'Ready', dutch: 'Klaar' },\n  { id: 'org-hajime', category: 'Organisatie', japanese: 'Hajime', kanji: '始め', english: 'Begin', dutch: 'Begin' },\n  { id: 'org-yame', category: 'Organisatie', japanese: 'Yame', kanji: '止め', english: 'Stop', dutch: 'Stop' },\n  { id: 'org-osu', category: 'Organisatie', japanese: 'Osu', kanji: '押忍', english: 'Yes', dutch: 'Ja, begrepen' },\n  { id: 'org-gi', category: 'Organisatie', japanese: 'Gi', kanji: '着', english: 'Uniform', dutch: 'Karatepak' },\n  { id: 'org-obi', category: 'Organisatie', japanese: 'Obi', kanji: '帯', english: 'Belt', dutch: 'Band' },\n  { id: 'train-kihon', category: 'Training', japanese: 'Kihon', kanji: '基本', english: 'Basic techniques', dutch: 'Basistechnieken' },\n  { id: 'train-kata', category: 'Training', japanese: 'Kata', kanji: '型', english: 'Form', dutch: 'Stijlvorm' },\n  { id: 'train-kumite', category: 'Training', japanese: 'Kumite', kanji: '組手', english: 'Sparring', dutch: 'Gevechtsoefeningen' },\n  { id: 'train-jodan', category: 'Training', japanese: 'Jodan', kanji: '上段', english: 'Upper level', dutch: 'Hoog niveau' },\n  { id: 'train-chudan', category: 'Training', japanese: 'Chudan', kanji: '中段', english: 'Middle level', dutch: 'Middenniveau' },\n  { id: 'train-gedan', category: 'Training', japanese: 'Gedan', kanji: '下段', english: 'Lower level', dutch: 'Laag niveau' },\n  { id: 'train-hidari', category: 'Training', japanese: 'Hidari', kanji: '左', english: 'Left', dutch: 'Links' },\n  { id: 'train-migi', category: 'Training', japanese: 'Migi', kanji: '右', english: 'Right', dutch: 'Rechts' },\n  { id: 'hojo-makiwara', category: 'Hojo-Undo', japanese: 'Makiwara', kanji: '巻藁', english: 'Striking post', dutch: 'Stootplank' },\n  { id: 'hojo-chishi', category: 'Hojo-Undo', japanese: 'Chishi', english: 'Stone hammer', dutch: 'Stenen hamer' },\n  { id: 'stance-sanchin', category: 'Dachi-Waza', japanese: 'Sanchin Dachi', kanji: '三戦立', english: 'Hourglass stance', dutch: 'Zandloper-stand' },\n  { id: 'stance-zenkutsu', category: 'Dachi-Waza', japanese: 'Zenkutsu Dachi', kanji: '前屈立', english: 'Forward stance', dutch: 'Voorwaartse stand' },\n  { id: 'stance-shiko', category: 'Dachi-Waza', japanese: 'Shiko Dachi', kanji: '四股立', english: 'Wide stance', dutch: 'Wijdbeens stand' },\n  { id: 'stance-neko-ashi', category: 'Dachi-Waza', japanese: 'Neko Ashi Dachi', kanji: '猫足立', english: 'Cat stance', dutch: 'Katstand' },\n  { id: 'stance-heiko', category: 'Dachi-Waza', japanese: 'Heiko Dachi', kanji: '平行立', english: 'Parallel stance', dutch: 'Parallelstand' },\n  { id: 'move-tenshin', category: 'Verplaatsingen', japanese: 'Tenshin', english: 'Shifting', dutch: 'Verplaatsing' },\n  { id: 'move-tai-sabaki', category: 'Verplaatsingen', japanese: 'Tai Sabaki', english: 'Body movement', dutch: 'Lichaamverplaatsing' },\n  { id: 'weapon-seiken', category: 'Anatomische-Wapens', japanese: 'Seiken', english: 'Forefist', dutch: 'Vuist' },\n  { id: 'weapon-shuto', category: 'Anatomische-Wapens', japanese: 'Shuto', english: 'Knifehand', dutch: 'Meshand' },\n  { id: 'weapon-hiji', category: 'Anatomische-Wapens', japanese: 'Hiji', english: 'Elbow', dutch: 'Elleboog' },\n  { id: 'weapon-hiza', category: 'Anatomische-Wapens', japanese: 'Hiza', english: 'Knee', dutch: 'Knie' },\n  { id: 'block-age-uke', category: 'Uke-Waza', japanese: 'Age Uke', english: 'Rising block', dutch: 'Opwaartse wering' },\n  { id: 'block-soto-uke', category: 'Uke-Waza', japanese: 'Soto Uke', english: 'Outside block', dutch: 'Buitenwaartse wering' },\n  { id: 'block-uchi-uke', category: 'Uke-Waza', japanese: 'Uchi Uke', english: 'Inside block', dutch: 'Binnenwaartse wering' },\n  { id: 'block-gedan-barai', category: 'Uke-Waza', japanese: 'Gedan Barai', english: 'Downward block', dutch: 'Lage wering' },\n  { id: 'punch-choku-zuki', category: 'Zuki-Uchi-Waza', japanese: 'Choku Zuki', english: 'Straight punch', dutch: 'Rechte stoot' },\n  { id: 'punch-gyaku-zuki', category: 'Zuki-Uchi-Waza', japanese: 'Gyaku Zuki', english: 'Reverse punch', dutch: 'Tegengestelde stoot' },\n  { id: 'punch-oi-zuki', category: 'Zuki-Uchi-Waza', japanese: 'Oi Zuki', english: 'Lunge punch', dutch: 'Voorwaartse stoot' },\n  { id: 'strike-uraken', category: 'Zuki-Uchi-Waza', japanese: 'Uraken Uchi', english: 'Backfist strike', dutch: 'Knokkelslag' },\n  { id: 'strike-tettsui', category: 'Zuki-Uchi-Waza', japanese: 'Tettsui Uchi', english: 'Hammerfist strike', dutch: 'Hamerslag' },\n  { id: 'kick-mae-geri', category: 'Geri-Waza', japanese: 'Mae Geri', english: 'Front kick', dutch: 'Voorwaartse trap' },\n  { id: 'kick-mawashi-geri', category: 'Geri-Waza', japanese: 'Mawashi Geri', english: 'Roundhouse kick', dutch: 'Cirkeltrap' },\n  { id: 'kick-yoko-geri', category: 'Geri-Waza', japanese: 'Yoko Geri', english: 'Side kick', dutch: 'Zijwaartse trap' },\n  { id: 'kick-ushiro-geri', category: 'Geri-Waza', japanese: 'Ushiro Geri', english: 'Back kick', dutch: 'Achterwaartse trap' },\n  { id: 'tuite-kansetsu', category: 'Tuite-Waza', japanese: 'Kansetsu Waza', english: 'Joint locks', dutch: 'Gewrichtsklemmen' },\n  { id: 'tuite-nage', category: 'Tuite-Waza', japanese: 'Nage Waza', english: 'Throws', dutch: 'Worpen' },\n  { id: 'tuite-shime', category: 'Tuite-Waza', japanese: 'Shime Waza', english: 'Strangulations', dutch: 'Verwurgingen' },\n  { id: 'kyusho-suigetsu', category: 'Kyusho', japanese: 'Suigetsu', english: 'Solar plexus', dutch: 'Zonnevlecht' },\n  { id: 'kyusho-jinchu', category: 'Kyusho', japanese: 'Jinchu', english: 'Philtrum', dutch: 'Tussen bovenlip en neus' },\n  { id: 'kyusho-komekami', category: 'Kyusho', japanese: 'Komekami', english: 'Temple', dutch: 'Slaap' },\n  { id: 'kyusho-dokko', category: 'Kyusho', japanese: 'Dokko', english: 'Mastoid process', dutch: 'Achter het oor' }\n
-];
+// Helper to safely get terms object
+const getTerms = (t: TFunction, key: string): Record<string, any> => {
+  const terms = t(`terminology.sections.${key}.terms`, { returnObjects: true });
+  return typeof terms === 'object' && terms !== null ? terms : {};
+};
+
+// Function to generate data dynamically based on current language
+export const getTechniquesData = (t: TFunction): TechniqueData[] => {
+  const data: TechniqueData[] = [];
+
+  // 1. General Terms -> Basiskennis
+  const generalTerms = getTerms(t, 'general-terms-content');
+  Object.entries(generalTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `general-${key}`,
+      category: 'Basiskennis',
+      japanese: term.name, // 'name' usually holds Japanese (Romaji)
+      kanji: term.japanese, // 'japanese' usually holds Kanji/Kana
+      english: term.english, // Localized meaning
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 2. Organization -> Organisatie
+  const orgTerms = getTerms(t, 'phrases-etiquette-content');
+  Object.entries(orgTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `org-${key}`,
+      category: 'Organisatie',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 3. Training -> Training
+  const trainingTerms = getTerms(t, 'training-content');
+  Object.entries(trainingTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `train-${key}`,
+      category: 'Training',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 4. Hojo Undo -> Hojo-Undo
+  const hojoTerms = getTerms(t, 'hojo-undo-content');
+  Object.entries(hojoTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `hojo-${key}`,
+      category: 'Hojo-Undo',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 5. Stances -> Dachi-Waza
+  const stanceTerms = getTerms(t, 'stances-content');
+  Object.entries(stanceTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `stance-${key}`,
+      category: 'Dachi-Waza',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details || term.instructions
+    });
+  });
+
+  // 6. Movement -> Verplaatsingen
+  const moveTerms = getTerms(t, 'movement-content');
+  Object.entries(moveTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `move-${key}`,
+      category: 'Verplaatsingen',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 7. Anatomical Weapons -> Anatomische-Wapens
+  const weaponTerms = getTerms(t, 'anatomical-weapons-content');
+  Object.entries(weaponTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `weapon-${key}`,
+      category: 'Anatomische-Wapens',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 8. Blocks -> Uke-Waza
+  const blockTerms = getTerms(t, 'blocks-content');
+  Object.entries(blockTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `block-${key}`,
+      category: 'Uke-Waza',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 9. Punches -> Zuki-Uchi-Waza
+  const punchTerms = getTerms(t, 'punches-content');
+  Object.entries(punchTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `punch-${key}`,
+      category: 'Zuki-Uchi-Waza',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 10. Kicks -> Geri-Waza
+  const kickTerms = getTerms(t, 'kicks-content');
+  Object.entries(kickTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `kick-${key}`,
+      category: 'Geri-Waza',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  // 11. Grappling -> Tuite-Waza
+  // NOTE: Assuming grappling might be in 'grappling', but checking structure if it matches 'terms' pattern
+  // If not present in JSON structure standardized way, we might skip or fallback. 
+  // Based on review, 'grappling' might be a direct object or inside 'goju-ryu-techniques'. 
+  // Let's check 'goju-ryu-techniques.grappling'.
+  const grapplingTerms = t('terminology.sections.goju-ryu-techniques.grappling', { returnObjects: true });
+  if (typeof grapplingTerms === 'object' && grapplingTerms !== null) {
+    // Structure of 'goju-ryu-techniques' items is often just "Key": "Value (Desc)". 
+    // This is different from the 'terms' structure { name, english, japanese }.
+    // We might need to parse strings here if we want to include them, OR rely on 'grappling' section if it exists.
+    // For now, let's omit if standard 'terms' section doesn't exist, to avoid breaking via bad parsing.
+  }
+
+  // 12. Kyusho -> Kyusho
+  const vitalPointsTerms = getTerms(t, 'vital-points-content');
+  Object.entries(vitalPointsTerms).forEach(([key, term]: [string, any]) => {
+    data.push({
+      id: `kyusho-${key}`,
+      category: 'Kyusho',
+      japanese: term.name,
+      kanji: term.japanese,
+      english: term.english,
+      dutch: term.english,
+      description: term.details
+    });
+  });
+
+  return data;
+};
+
+// Deprecated: Empty array to satisfy imports if needed temporarily, but consumers should switch to getTechniquesData
+export const techniquesData: TechniqueData[] = [];

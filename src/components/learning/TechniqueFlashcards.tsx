@@ -8,21 +8,22 @@ import { useTranslation } from 'react-i18next';
 interface TechniqueFlashcardsProps {
   category: TechniqueData['category'];
   title?: string;
+  data: TechniqueData[];
 }
 
-const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, title }) => {
+const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, title, data }) => {
   const { t } = useTranslation();
   const [cards, setCards] = useState<TechniqueData[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
 
   useEffect(() => {
-    const categoryData = techniquesData.filter(item => item.category === category);
+    const categoryData = data.filter(item => item.category === category);
     // Optional: Shuffle cards for variety
     setCards(categoryData.sort(() => Math.random() - 0.5));
     setCurrentIndex(0); // Reset index when category changes
     setIsFlipped(false); // Reset flip state
-  }, [category]);
+  }, [category, data]); // Added data dependency
 
   const handleFlip = () => setIsFlipped(!isFlipped);
 
@@ -58,10 +59,10 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
           )}
         </CardContent>
         <div className="absolute bottom-2 right-2 text-xs text-muted-foreground">
-           {currentIndex + 1} / {cards.length}
+          {currentIndex + 1} / {cards.length}
         </div>
-         {/* Optional: Add a flip icon */}
-         <RefreshCw size={16} className="absolute top-2 right-2 text-muted-foreground" />
+        {/* Optional: Add a flip icon */}
+        <RefreshCw size={16} className="absolute top-2 right-2 text-muted-foreground" />
       </Card>
 
       <div className="flex justify-between w-full max-w-md space-x-2">
@@ -69,7 +70,7 @@ const TechniqueFlashcards: React.FC<TechniqueFlashcardsProps> = ({ category, tit
           <ArrowLeft className="mr-2 h-4 w-4" /> {t('study.previous')}
         </Button>
         <Button onClick={handleFlip}>
-          {t('study.tapToFlip')} <RefreshCw size={16} className="ml-2 h-4 w-4"/>
+          {t('study.tapToFlip')} <RefreshCw size={16} className="ml-2 h-4 w-4" />
         </Button>
         <Button onClick={handleNext} disabled={cards.length <= 1}>
           {t('study.next')} <ArrowRight className="ml-2 h-4 w-4" />
