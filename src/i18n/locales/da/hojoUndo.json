@@ -7,11 +7,11 @@
     "trainingEffects": "Træningseffekter",
     "dimensions": "Dimensioner",
     "materials": "Materialer",
-    "weightRecommendations": "Vægt Anbefalinger",
+    "weightRecommendations": "Vægtanbefalinger",
     "importantPoints": "Vigtige Punkter",
     "breathingTechniques": "Åndedrætsteknikker",
     "safetyGuidelines": "Sikkerhedsretningslinjer",
-    "basicSeries": "Grundlæggende Serie",
+    "basicSeries": "Grundserie",
     "advancedExercises": "Avancerede Øvelser",
     "practicalTips": "Praktiske Tips",
     "exercises": "Øvelser",
@@ -19,11 +19,11 @@
     "weight": "Vægt",
     "relatedSections": "Relaterede Sektioner",
     "quickAccess": "Hurtig Adgang",
-    "viewCompleteOverview": "Se Komplet Oversigt",
-    "learnFundamentals": "Lær grundlæggende",
+    "viewCompleteOverview": "Vis Komplet Oversigt",
+    "learnFundamentals": "Lær grundprincipperne",
     "understandingPurpose": "Forstå formål og funktion",
     "buildMaintain": "Byg og vedligehold udstyr",
-    "safetyTechnique": "Sikkerhed og teknik fokus",
+    "safetyTechnique": "Fokus på sikkerhed og teknik",
     "specificExercises": "Specifikke øvelser og rutiner",
     "traditionalStrengthTraining": "Traditionel Styrketræning"
   },
@@ -108,304 +108,304 @@
     }
   },
   "equipment": {
-    "title": "Equipment",
-    "overview": "Overview",
+    "title": "Udstyr",
+    "overview": "Oversigt",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Stone Lever Weight",
-      "description": "Stone lever weight for wrist and grip strength, develops muchimi and chinkuchi kakin power",
-      "origin": "China (Fuzhou)",
+      "translation": "Stenløftestang",
+      "description": "Stenløftestang til håndleds- og grebsstyrke, udvikler muchimi og chinkuchi kakin kraft",
+      "origin": "Kina (Fuzhou)",
       "weight": "2-10 kg",
       "function": {
-        "title": "Function",
-        "description": "The chi ishi is a 'stone lever weight' that is still used in China, e.g. in the province of Fuzhou.",
+        "title": "Funktion",
+        "description": "Chi ishi er en 'stenløftestang', der stadig bruges i Kina, f.eks. i provinsen Fuzhou.",
         "mainFunctions": [
-          "Strengthens muscles of forearm and hand",
-          "Supports wrist stability in punching and striking techniques",
-          "Strengthens grip for close combat techniques (pulling, throwing, locking techniques and hiki uke)",
-          "Develops muchimi power through increased resistance in movement",
-          "Develops chinkuchi kakin power through gripping at the end of movements"
+          "Styrker muskler i underarm og hånd",
+          "Understøtter håndledsstabilitet i stød- og slagteknikker",
+          "Styrker greb til nærkamptteknikker (træk, kast, låseteknikker og hiki uke)",
+          "Udvikler muchimi-kraft gennem øget modstand i bevægelse",
+          "Udvikler chinkuchi kakin-kraft gennem greb i slutningen af bevægelser"
         ],
         "trainingEffects": [
-          "Improved wrist stability",
-          "Strengthened grip strength",
-          "Better muscle coordination",
-          "Efficient power transfer",
-          "Integrated breathing"
+          "Forbedret håndledsstabilitet",
+          "Styrket grebsstyrke",
+          "Bedre muskelkoordination",
+          "Effektiv kraftoverførsel",
+          "Integreret vejrtrækning"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Konstruktion",
         "dimensions": {
           "stickLength": {
-            "label": "Stick Length",
-            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+            "label": "Stoklængde",
+            "value": "Helst skulderbredde (længere versioner til kasteteknikker)"
           },
           "stickDiameter": {
-            "label": "Stick Diameter",
-            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+            "label": "Stokdiameter",
+            "value": "Tykkelsen bestemmer træningseffekten (tynd = chinkuchi kakin, tyk = håndledsgreb)"
           },
           "stoneDiameter": {
-            "label": "Stone Diameter",
-            "value": "No more than 20-30 cm (limited movement space)"
+            "label": "Stendiameter",
+            "value": "Ikke mere end 20-30 cm (begrænset bevægelsesrum)"
           },
           "stoneHeight": {
-            "label": "Stone Height",
-            "value": "No higher than 10-15 cm"
+            "label": "Stenhøjde",
+            "value": "Ikke højere end 10-15 cm"
           }
         },
         "materials": {
-          "stone": "Concrete mixture with fine gravel",
-          "connection": "Nails, screws or screw anchors (0.25x stone diameter)"
+          "stone": "Betonblanding med fint grus",
+          "connection": "Søm, skruer eller skrueankre (0,25x stendiameter)"
         },
         "weight": {
           "beginners": "2-3 kg",
-          "advanced": "6-7 kg or even 10 kg"
+          "advanced": "6-7 kg eller endda 10 kg"
         }
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Opmærksomhedspunkter",
         "importantPoints": [
-          "'Set the shoulder down firmly'",
-          "'Tense the latissimus dorsi'",
-          "'Tense the wrist'",
-          "'Grip firmly'",
-          "'Breathe out from the tanden'",
-          "'Combine external muscle power and internal breath power'",
-          "'Practice the weak side more often'",
-          "'Practice fast punches after an exercise series to avoid becoming slow'"
+          "Sæt skulderen fast ned",
+          "Spænd den brede rygmuskel",
+          "Spænd håndleddet",
+          "Grib fast",
+          "Pust ud fra tanden",
+          "Kombiner ekstern muskelkraft og intern åndedrætskraft",
+          "Træn den svage side oftere",
+          "Træn hurtige stød efter en øvelsesserie for at undgå at blive langsom"
         ],
         "breathingTechniques": {
-          "slow": "Sanchin breathing with H(u)ah and Hatt sounds",
-          "fast": "H(u)ah sound falls away for advanced practitioners",
-          "natural": "Natural breathing for experienced karateka"
+          "slow": "Sanchin-åndedræt med H(u)ah og Hatt lyde",
+          "fast": "H(u)ah lyd falder bort for øvede udøvere",
+          "natural": "Naturligt åndedræt for erfarne karatekaer"
         },
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Focus on correct execution",
-          "Take sufficient rest",
-          "Stop at pain or discomfort",
-          "Train under expert guidance"
+          "Start med lettere vægte",
+          "Fokus på korrekt udførelse",
+          "Tag tilstrækkelig hvile",
+          "Stop ved smerte eller ubehag",
+          "Træn under ekspertvejledning"
         ]
       },
       "exercises": {
-        "title": "Exercises",
+        "title": "Øvelser",
         "chiIshiKata": {
           "title": "Chi Ishi Kata",
-          "description": "Basic exercise material listed in 'Traditional Karate, volume I' by Morio Higaonna",
+          "description": "Grundlæggende øvelsesmateriale opført i 'Traditional Karate, volume I' af Morio Higaonna",
           "basicSeries": [
-            "Lifting from inside + lifting from outside",
-            "Back to front + from bottom to top",
-            "Swinging around and over the shoulder and pushing forward",
-            "Swinging around inside and lifting from outside",
-            "Twisting with the stone above",
-            "Twisting with the stone below",
-            "Twisting backward with forward bending",
+            "Løft indefra + løft udefra",
+            "Bagfra og frem + nedefra og op",
+            "Sving rundt og over skulderen og skub fremad",
+            "Sving rundt indeni og løft udefra",
+            "Vrid med stenen over",
+            "Vrid med stenen under",
+            "Vrid bagud med foroverbøjning",
             "Ura hiki uke",
             "Morote chi ishi zuki"
           ]
         },
         "advancedExercises": [
-          "Wrist swing exercises (circular or lemniscate path)",
-          "Shadow fighting in free movement",
-          "Hardening training with stone (striking against, abdominal training)",
-          "Partner exercises",
-          "Stick rolling over shin for circulation"
+          "Håndledssvingøvelser (cirkulær eller lemniskat bane)",
+          "Skyggeboksning i fri bevægelse",
+          "Hærdningstræning med sten (slå imod, mavetræning)",
+          "Makkerøvelser",
+          "Stokrulning over skinneben for cirkulation"
         ]
       }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Gripping Jars",
-      "description": "Gripping jars for finger and hand strength",
-      "origin": "China",
+      "translation": "Gribekrukker",
+      "description": "Gribekrukker til finger- og håndstyrke",
+      "origin": "Kina",
       "weight": "3-5 kg",
       "function": {
-        "title": "Function",
-        "description": "Traditional gripping jars for developing finger and hand strength",
+        "title": "Funktion",
+        "description": "Traditionelle gribekrukker til udvikling af finger- og håndstyrke",
         "mainFunctions": [
-          "Strengthens finger and hand muscles",
-          "Improves grip strength and endurance",
-          "Develops forearm strength",
-          "Enhances wrist stability"
+          "Styrker finger- og håndmuskler",
+          "Forbedrer grebsstyrke og udholdenhed",
+          "Udvikler underarmsstyrke",
+          "Forbedrer håndledsstabilitet"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Konstruktion",
         "materials": [
-          "Traditional clay or ceramic jars",
-          "Modern alternatives: concrete or metal containers",
-          "Handle diameter: 3-5 cm for optimal grip training"
+          "Traditionelle ler- eller keramikkrukker",
+          "Moderne alternativer: beton- eller metalbeholdere",
+          "Håndtagsdiameter: 3-5 cm for optimal grebstræning"
         ],
-        "weight": "Weight can be adjusted by filling with sand, gravel or other materials"
+        "weight": "Vægt kan justeres ved at fylde med sand, grus eller andre materialer"
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Opmærksomhedspunkter",
         "importantPoints": [
-          "Maintain proper grip position",
-          "Focus on finger strength development",
-          "Control breathing during exercises",
-          "Gradual increase in weight and duration"
+          "Oprethold korrekt grebsposition",
+          "Fokus på udvikling af fingerstyrke",
+          "Kontroller vejrtrækningen under øvelser",
+          "Gradvis øgning af vægt og varighed"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Avoid overtraining",
-          "Maintain proper form",
-          "Stop if experiencing pain"
+          "Start med lettere vægte",
+          "Undgå overtræning",
+          "Oprethold korrekt form",
+          "Stop ved smerte"
         ]
       },
       "exercises": [
-        "Static grip holds",
-        "Walking with jars",
-        "Circular movements",
-        "Up and down movements"
+        "Statisk greb",
+        "Gå med krukker",
+        "Cirkulære bevægelser",
+        "Op og ned bevægelser"
       ]
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Iron Ring",
-      "description": "Iron oval for total body conditioning",
+      "translation": "Jernring",
+      "description": "Jernoval til kropskonditionering",
       "origin": "Hawaii",
       "weight": "30-40 kg",
       "function": {
-        "title": "Function",
-        "description": "Heavy iron oval used for total body conditioning and strength development",
+        "title": "Funktion",
+        "description": "Tung jernoval brugt til total kropskonditionering og styrkeudvikling",
         "mainFunctions": [
-          "Total body strength development",
-          "Core stability enhancement",
-          "Grip and forearm strengthening",
-          "Endurance and stamina building"
+          "Udvikling af total kropsstyrke",
+          "Forbedring af kropskernestabilitet",
+          "Styrkelse af greb og underarm",
+          "Opbygning af udholdenhed og kondition"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Konstruktion",
         "materials": [
-          "Solid iron construction",
-          "Oval shape for balanced weight distribution",
-          "Smooth surface to prevent injuries",
-          "Reinforced handles for secure grip"
+          "Massiv jernkonstruktion",
+          "Oval form for balanceret vægtfordeling",
+          "Glat overflade for at forhindre skader",
+          "Forstærkede håndtag for sikkert greb"
         ],
         "dimensions": {
           "length": {
-            "label": "Length",
+            "label": "Længde",
             "value": "60-80 cm"
           },
           "width": {
-            "label": "Width",
+            "label": "Bredde",
             "value": "30-40 cm"
           },
           "handleDiameter": {
-            "label": "Handle Diameter",
+            "label": "Håndtagsdiameter",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
+            "label": "Vægt",
             "value": "30-40 kg"
           }
         }
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Opmærksomhedspunkter",
         "importantPoints": [
-          "Requires expert guidance",
-          "Proper lifting technique essential",
-          "Gradual progression in weight",
-          "Focus on core engagement"
+          "Kræver ekspertvejledning",
+          "Korrekt løfteteknik er essentiel",
+          "Gradvis progression i vægt",
+          "Fokus på kropskernens involvering"
         ],
         "safetyGuidelines": [
-          "Never train alone",
-          "Proper warm-up required",
-          "Stop at any sign of strain",
-          "Use appropriate weight for level"
+          "Træn aldrig alene",
+          "Korrekt opvarmning påkrævet",
+          "Stop ved ethvert tegn på overanstrengelse",
+          "Brug passende vægt til niveau"
         ]
       },
       "exercises": [
-        "Lifting and carrying",
-        "Walking exercises",
-        "Static holds",
-        "Basic swings",
-        "Dynamic movements",
-        "Integration with kata"
+        "Løft og bær",
+        "Gåøvelser",
+        "Statisk hold",
+        "Grundlæggende sving",
+        "Dynamiske bevægelser",
+        "Integration med kata"
       ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Stone Lock",
-      "description": "Stone padlocks for grip strength and technique",
-      "origin": "China/Okinawa",
+      "translation": "Stenlås",
+      "description": "Stenhængelåse til grebsstyrke og teknik",
+      "origin": "Kina/Okinawa",
       "weight": "2-8 kg",
       "function": {
-        "title": "Function",
-        "description": "Stone padlocks used for developing grip strength and technique",
+        "title": "Funktion",
+        "description": "Stenhængelåse brugt til udvikling af grebsstyrke og teknik",
         "mainFunctions": [
-          "Grip strength development",
-          "Wrist stability enhancement",
-          "Forearm muscle strengthening",
-          "Technique refinement"
+          "Udvikling af grebsstyrke",
+          "Forbedring af håndledsstabilitet",
+          "Styrkelse af underarmsmuskler",
+          "Forfinelse af teknik"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Konstruktion",
         "materials": [
-          "Stone or concrete body",
-          "Wooden or metal handle",
-          "Secure connection between body and handle",
-          "Smooth surface finish"
+          "Sten- eller betonkrop",
+          "Træ- eller metalhåndtag",
+          "Sikker forbindelse mellem krop og håndtag",
+          "Glat overfladefinish"
         ],
         "dimensions": {
           "body": {
-            "label": "Body",
-            "value": "15-25 cm length"
+            "label": "Krop",
+            "value": "15-25 cm længde"
           },
           "handle": {
-            "label": "Handle Diameter",
+            "label": "Håndtagsdiameter",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
-            "value": "2-8 kg depending on level"
+            "label": "Vægt",
+            "value": "2-8 kg afhængig af niveau"
           },
           "shape": {
-            "label": "Shape",
-            "value": "Rectangular or cylindrical"
+            "label": "Form",
+            "value": "Rektangulær eller cylindrisk"
           }
         }
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Opmærksomhedspunkter",
         "importantPoints": [
-          "Maintain proper grip",
-          "Focus on wrist stability",
-          "Control movement precision",
-          "Integrate breathing"
+          "Oprethold korrekt greb",
+          "Fokus på håndledsstabilitet",
+          "Kontroller bevægelsespræcision",
+          "Integrer vejrtrækning"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Maintain proper form",
-          "Gradual progression",
-          "Stop if experiencing discomfort"
+          "Start med lettere vægte",
+          "Oprethold korrekt form",
+          "Gradvis progression",
+          "Stop ved ubehag"
         ]
       },
       "exercises": [
-        "Static grip holds",
-        "Walking exercises",
-        "Lifting movements",
-        "Rotation exercises"
+        "Statisk greb",
+        "Gåøvelser",
+        "Løftebevægelser",
+        "Rotationsøvelser"
       ]
     },
     "udeTanren": {
       "name": "Ude Tanren",
-      "translation": "Arm Conditioning",
-      "description": "Partner exercises for conditioning the arms and training impact",
+      "translation": "Armkonditionering",
+      "description": "Makkerøvelser til konditionering af arme og træning af stød",
       "origin": "Okinawa",
-      "weight": "Partner training",
+      "weight": "Makkertræning",
       "information": {
         "title": "Information",
-        "description": "General information about Ude Tanren"
+        "description": "Generel information om Ude Tanren"
       },
       "exercises": {
-        "title": "Exercises",
-        "description": "Specific exercises and routines"
+        "title": "Øvelser",
+        "description": "Specifikke øvelser og rutiner"
       }
     },
     "makiage": {
@@ -647,27 +647,27 @@
     }
   },
   "training": {
-    "title": "Training",
+    "title": "Træning",
     "principles": {
-      "title": "Training Principles",
-      "bodyBreathMind": "Coordination of body, breath and mind",
-      "gradualProgression": "Gradual progression in weight and intensity",
-      "correctTechnique": "Correct technique before increasing weight",
-      "safetyFirst": "Safety first in all exercises"
+      "title": "Træningsprincipper",
+      "bodyBreathMind": "Koordination af krop, åndedræt og sind",
+      "gradualProgression": "Gradvis progression i vægt og intensitet",
+      "correctTechnique": "Korrekt teknik før øgning af vægt",
+      "safetyFirst": "Sikkerhed frem for alt i alle øvelser"
     },
     "safety": {
-      "title": "Safety Guidelines",
-      "expertGuidance": "Expert guidance is essential",
-      "properWarmup": "Proper warm-up before training",
-      "gradualBuildUp": "Gradual build-up of intensity",
-      "listenToBody": "Listen to your body signals"
+      "title": "Sikkerhedsretningslinjer",
+      "expertGuidance": "Ekspertvejledning er essentiel",
+      "properWarmup": "Korrekt opvarmning før træning",
+      "gradualBuildUp": "Gradvis opbygning af intensitet",
+      "listenToBody": "Lyt til kroppens signaler"
     }
   },
   "benefits": {
-    "title": "Benefits",
-    "physical": "Physical Benefits",
-    "technical": "Technical Benefits",
-    "mental": "Mental Benefits",
-    "safety": "Safety Benefits"
+    "title": "Fordele",
+    "physical": "Fysiske Fordele",
+    "technical": "Tekniske Fordele",
+    "mental": "Mentale Fordele",
+    "safety": "Sikkerhedsfordele"
   }
 }

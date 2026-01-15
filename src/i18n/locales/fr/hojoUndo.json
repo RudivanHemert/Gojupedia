@@ -104,20 +104,20 @@
         "title": "Construction",
         "dimensions": {
           "stickLength": {
-            "label": "Stick Length",
-            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+            "label": "Longueur du Bâton",
+            "value": "De préférence largeur des épaules (versions plus longues pour techniques de projection)"
           },
           "stickDiameter": {
-            "label": "Stick Diameter",
-            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+            "label": "Diamètre du Bâton",
+            "value": "L'épaisseur détermine l'effet d'entraînement (fin = chinkuchi kakin, épais = prise du poignet)"
           },
           "stoneDiameter": {
-            "label": "Stone Diameter",
-            "value": "No more than 20-30 cm (limited movement space)"
+            "label": "Diamètre de la Pierre",
+            "value": "Pas plus de 20-30 cm (espace de mouvement limité)"
           },
           "stoneHeight": {
-            "label": "Stone Height",
-            "value": "No higher than 10-15 cm"
+            "label": "Hauteur de la Pierre",
+            "value": "Pas plus haut que 10-15 cm"
           }
         },
         "materials": {
@@ -215,18 +215,18 @@
         "Mouvements de haut en bas"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Points d'Attention",
         "importantPoints": [
-          "Maintain proper grip position",
-          "Focus on finger strength development",
-          "Control breathing during exercises",
-          "Gradual increase in weight and duration"
+          "Maintenir une position de prise correcte",
+          "Concentration sur le développement de la force des doigts",
+          "Contrôler la respiration pendant les exercices",
+          "Augmentation progressive du poids et de la durée"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Avoid overtraining",
-          "Maintain proper form",
-          "Stop if experiencing pain"
+          "Commencer avec des poids plus légers",
+          "Éviter le surentraînement",
+          "Maintenir une forme correcte",
+          "Arrêter en cas de douleur"
         ]
       }
     },
@@ -256,19 +256,19 @@
         ],
         "dimensions": {
           "length": {
-            "label": "Length",
+            "label": "Longueur",
             "value": "60-80 cm"
           },
           "width": {
-            "label": "Width",
+            "label": "Largeur",
             "value": "30-40 cm"
           },
           "handleDiameter": {
-            "label": "Handle Diameter",
+            "label": "Diamètre de la Poignée",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
+            "label": "Poids",
             "value": "30-40 kg"
           }
         }
@@ -288,18 +288,18 @@
         "N'entraînez jamais seul avec des poids lourds"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Points d'Attention",
         "importantPoints": [
-          "Requires expert guidance",
-          "Proper lifting technique essential",
-          "Gradual progression in weight",
-          "Focus on core engagement"
+          "Nécessite les conseils d'un expert",
+          "Technique de levage correcte essentielle",
+          "Progression graduelle du poids",
+          "Concentration sur l'engagement du tronc"
         ],
         "safetyGuidelines": [
-          "Never train alone",
-          "Proper warm-up required",
-          "Stop at any sign of strain",
-          "Use appropriate weight for level"
+          "Ne jamais s'entraîner seul",
+          "Échauffement approprié requis",
+          "Arrêter au moindre signe de tension",
+          "Utiliser un poids approprié pour le niveau"
         ]
       }
     },
@@ -329,20 +329,20 @@
         ],
         "dimensions": {
           "body": {
-            "label": "Body",
-            "value": "15-25 cm length"
+            "label": "Corps",
+            "value": "15-25 cm de longueur"
           },
           "handle": {
-            "label": "Handle Diameter",
+            "label": "Diamètre de la Poignée",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
-            "value": "2-8 kg depending on level"
+            "label": "Poids",
+            "value": "2-8 kg selon le niveau"
           },
           "shape": {
-            "label": "Shape",
-            "value": "Rectangular or cylindrical"
+            "label": "Forme",
+            "value": "Rectangulaire ou cylindrique"
           }
         }
       },
@@ -353,18 +353,18 @@
         "Exercices de rotation"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Points d'Attention",
         "importantPoints": [
-          "Maintain proper grip",
-          "Focus on wrist stability",
-          "Control movement precision",
-          "Integrate breathing"
+          "Maintenir une prise correcte",
+          "Concentration sur la stabilité du poignet",
+          "Contrôler la précision du mouvement",
+          "Intégrer la respiration"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Maintain proper form",
-          "Gradual progression",
-          "Stop if experiencing discomfort"
+          "Commencer avec des poids plus légers",
+          "Maintenir une forme correcte",
+          "Progression graduelle",
+          "Arrêter en cas d'inconfort"
         ]
       }
     },
@@ -646,36 +646,36 @@
     "safety": "Avantages de Sécurité"
   },
   "common": {
-    "back": "Back",
-    "mainFunctions": "Main Functions",
-    "trainingEffects": "Training Effects",
+    "back": "Retour",
+    "mainFunctions": "Fonctions Principales",
+    "trainingEffects": "Effets de l'Entraînement",
     "dimensions": "Dimensions",
-    "materials": "Materials",
-    "weightRecommendations": "Weight Recommendations",
-    "importantPoints": "Important Points",
-    "breathingTechniques": "Breathing Techniques",
-    "safetyGuidelines": "Safety Guidelines",
-    "basicSeries": "Basic Series",
-    "advancedExercises": "Advanced Exercises",
-    "practicalTips": "Practical Tips",
-    "exercises": "Exercises",
-    "origin": "Origin",
-    "weight": "Weight",
-    "relatedSections": "Related Sections",
-    "quickAccess": "Quick Access",
-    "viewCompleteOverview": "View Complete Overview",
-    "learnFundamentals": "Learn the fundamentals",
-    "understandingPurpose": "Understanding purpose and function",
-    "buildMaintain": "Build and maintain equipment",
-    "safetyTechnique": "Safety and technique focus",
-    "specificExercises": "Specific exercises and routines",
-    "traditionalStrengthTraining": "Traditional Strength Training"
+    "materials": "Matériaux",
+    "weightRecommendations": "Recommandations de Poids",
+    "importantPoints": "Points Importants",
+    "breathingTechniques": "Techniques de Respiration",
+    "safetyGuidelines": "Directives de Sécurité",
+    "basicSeries": "Série de Base",
+    "advancedExercises": "Exercices Avancés",
+    "practicalTips": "Conseils Pratiques",
+    "exercises": "Exercices",
+    "origin": "Origine",
+    "weight": "Poids",
+    "relatedSections": "Sections Connexes",
+    "quickAccess": "Accès Rapide",
+    "viewCompleteOverview": "Voir l'Aperçu Complet",
+    "learnFundamentals": "Apprendre les bases",
+    "understandingPurpose": "Comprendre le but et la fonction",
+    "buildMaintain": "Construire et entretenir l'équipement",
+    "safetyTechnique": "Focus sur la sécurité et la technique",
+    "specificExercises": "Exercices et routines spécifiques",
+    "traditionalStrengthTraining": "Entraînement de Force Traditionnel"
   },
   "categories": {
     "introduction": "Introduction",
-    "primaryEquipment": "Primary Equipment"
+    "primaryEquipment": "Équipement Principal"
   },
   "sections": {
-    "trainingSections": "Training Sections"
+    "trainingSections": "Sections d'Entraînement"
   }
 }

@@ -20,19 +20,37 @@
     "relatedSections": "Seções Relacionadas",
     "quickAccess": "Acesso Rápido",
     "viewCompleteOverview": "Ver Visão Geral Completa",
-    "learnFundamentals": "Aprenda os fundamentos",
-    "understandingPurpose": "Entenda o propósito e função",
-    "buildMaintain": "Construa e mantenha equipamentos",
-    "safetyTechnique": "Foco em segurança e técnica",
-    "specificExercises": "Exercícios e rotinas específicas",
-    "traditionalStrengthTraining": "Treinamento Tradicional de Força"
+    "voltar": "Voltar",
+    "funcoesPrincipais": "Funções Principais",
+    "efeitosTreinamento": "Efeitos do Treinamento",
+    "dimensoes": "Dimensões",
+    "materiais": "Materiais",
+    "recomendacoesPeso": "Recomendações de Peso",
+    "pontosImportantes": "Pontos Importantes",
+    "tecnicasRespiracao": "Técnicas de Respiração",
+    "diretrizesSeguranca": "Diretrizes de Segurança",
+    "serieBasica": "Série Básica",
+    "exerciciosAvancados": "Exercícios Avançados",
+    "dicasPraticas": "Dicas Práticas",
+    "exercicios": "Exercícios",
+    "origem": "Origem",
+    "peso": "Peso",
+    "secoesRelacionadas": "Seções Relacionadas",
+    "acessoRapido": "Acesso Rápido",
+    "verVisaoGeralCompleta": "Ver Visão Geral Completa",
+    "aprenderFundamentos": "Aprenda os fundamentos",
+    "entenderProposito": "Entenda o propósito e função",
+    "construirManter": "Construa e mantenha equipamentos",
+    "segurancaTecnica": "Foco em segurança e técnica",
+    "exerciciosEspecificos": "Exercícios e rotinas específicas",
+    "treinamentoForcaTradicional": "Treinamento Tradicional de Força"
   },
   "categories": {
-    "introduction": "Introdução",
-    "primaryEquipment": "Equipamentos Principais"
+    "introducao": "Introdução",
+    "equipamentosPrincipais": "Equipamentos Principais"
   },
   "sections": {
-    "trainingSections": "Seções de Treinamento"
+    "secoesTreinamento": "Seções de Treinamento"
   },
   "introduction": {
     "title": "Introdução",
@@ -108,304 +126,304 @@
     }
   },
   "equipment": {
-    "title": "Equipment",
-    "overview": "Overview",
+    "title": "Equipamento",
+    "overview": "Visão Geral",
     "chiIshi": {
       "name": "Chi Ishi",
-      "translation": "Stone Lever Weight",
-      "description": "Stone lever weight for wrist and grip strength, develops muchimi and chinkuchi kakin power",
+      "translation": "Peso de Alavanca de Pedra",
+      "description": "Peso de alavanca de pedra para força de pulso e pegada, desenvolve força muchimi e chinkuchi kakin",
       "origin": "China (Fuzhou)",
       "weight": "2-10 kg",
       "function": {
-        "title": "Function",
-        "description": "The chi ishi is a 'stone lever weight' that is still used in China, e.g. in the province of Fuzhou.",
+        "title": "Função",
+        "description": "O Chi Ishi é um 'peso de alavanca de pedra' que ainda é usado na China, por exemplo na província de Fuzhou.",
         "mainFunctions": [
-          "Strengthens muscles of forearm and hand",
-          "Supports wrist stability in punching and striking techniques",
-          "Strengthens grip for close combat techniques (pulling, throwing, locking techniques and hiki uke)",
-          "Develops muchimi power through increased resistance in movement",
-          "Develops chinkuchi kakin power through gripping at the end of movements"
+          "Fortalece os músculos do antebraço e da mão",
+          "Suporta a estabilidade do pulso em técnicas de soco e golpe",
+          "Fortalece a pegada para técnicas de combate corpo a corpo (puxar, arremessar, travar e hiki uke)",
+          "Desenvolve força muchimi através do aumento da resistência no movimento",
+          "Desenvolve força chinkuchi kakin através da pegada no final dos movimentos"
         ],
         "trainingEffects": [
-          "Improved wrist stability",
-          "Strengthened grip strength",
-          "Better muscle coordination",
-          "Efficient power transfer",
-          "Integrated breathing"
+          "Estabilidade do pulso melhorada",
+          "Força de pegada fortalecida",
+          "Melhor coordenação muscular",
+          "Transferência de força eficiente",
+          "Respiração integrada"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Construção",
         "dimensions": {
           "stickLength": {
-            "label": "Stick Length",
-            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+            "label": "Comprimento do Bastão",
+            "value": "Preferencialmente largura dos ombros (versões mais longas para técnicas de projeção)"
           },
           "stickDiameter": {
-            "label": "Stick Diameter",
-            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+            "label": "Diâmetro do Bastão",
+            "value": "A espessura determina o efeito de treinamento (fino = chinkuchi kakin, grosso = pegada de pulso)"
           },
           "stoneDiameter": {
-            "label": "Stone Diameter",
-            "value": "No more than 20-30 cm (limited movement space)"
+            "label": "Diâmetro da Pedra",
+            "value": "Não mais que 20-30 cm (espaço de movimento limitado)"
           },
           "stoneHeight": {
-            "label": "Stone Height",
-            "value": "No higher than 10-15 cm"
+            "label": "Altura da Pedra",
+            "value": "Não mais alto que 10-15 cm"
           }
         },
         "materials": {
-          "stone": "Concrete mixture with fine gravel",
-          "connection": "Nails, screws or screw anchors (0.25x stone diameter)"
+          "stone": "Mistura de concreto com cascalho fino",
+          "connection": "Pregos, parafusos ou buchas (0.25x diâmetro da pedra)"
         },
         "weight": {
           "beginners": "2-3 kg",
-          "advanced": "6-7 kg or even 10 kg"
+          "advanced": "6-7 kg ou até 10 kg"
         }
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Pontos de Atenção",
         "importantPoints": [
-          "'Set the shoulder down firmly'",
-          "'Tense the latissimus dorsi'",
-          "'Tense the wrist'",
-          "'Grip firmly'",
-          "'Breathe out from the tanden'",
-          "'Combine external muscle power and internal breath power'",
-          "'Practice the weak side more often'",
-          "'Practice fast punches after an exercise series to avoid becoming slow'"
+          "Abaixe o ombro firmemente",
+          "Contraia o latíssimo do dorso",
+          "Contraia o pulso",
+          "Agarre firmemente",
+          "Expire do tanden",
+          "Combine força muscular externa e força respiratória interna",
+          "Pratique o lado fraco com mais frequência",
+          "Pratique socos rápidos após uma série de exercícios para evitar ficar lento"
         ],
         "breathingTechniques": {
-          "slow": "Sanchin breathing with H(u)ah and Hatt sounds",
-          "fast": "H(u)ah sound falls away for advanced practitioners",
-          "natural": "Natural breathing for experienced karateka"
+          "slow": "Respiração Sanchin com sons H(u)ah e Hatt",
+          "fast": "Som H(u)ah desaparece para praticantes avançados",
+          "natural": "Respiração natural para karatecas experientes"
         },
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Focus on correct execution",
-          "Take sufficient rest",
-          "Stop at pain or discomfort",
-          "Train under expert guidance"
+          "Comece com pesos mais leves",
+          "Foque na execução correta",
+          "Descanse o suficiente",
+          "Pare em caso de dor ou desconforto",
+          "Treine sob orientação especializada"
         ]
       },
       "exercises": {
-        "title": "Exercises",
+        "title": "Exercícios",
         "chiIshiKata": {
           "title": "Chi Ishi Kata",
-          "description": "Basic exercise material listed in 'Traditional Karate, volume I' by Morio Higaonna",
+          "description": "Material de exercício básico listado em 'Traditional Karate, volume I' por Morio Higaonna",
           "basicSeries": [
-            "Lifting from inside + lifting from outside",
-            "Back to front + from bottom to top",
-            "Swinging around and over the shoulder and pushing forward",
-            "Swinging around inside and lifting from outside",
-            "Twisting with the stone above",
-            "Twisting with the stone below",
-            "Twisting backward with forward bending",
+            "Levantar de dentro + levantar de fora",
+            "De trás para frente + de baixo para cima",
+            "Balançar ao redor e sobre o ombro e empurrar para frente",
+            "Balançar ao redor por dentro e levantar de fora",
+            "Torcer com a pedra acima",
+            "Torcer com a pedra abaixo",
+            "Torcer para trás com inclinação para frente",
             "Ura hiki uke",
             "Morote chi ishi zuki"
           ]
         },
         "advancedExercises": [
-          "Wrist swing exercises (circular or lemniscate path)",
-          "Shadow fighting in free movement",
-          "Hardening training with stone (striking against, abdominal training)",
-          "Partner exercises",
-          "Stick rolling over shin for circulation"
+          "Exercícios de balanço de pulso (caminho circular ou lemniscata)",
+          "Luta de sombra em movimento livre",
+          "Treino de endurecimento com pedra (bater contra, treino abdominal)",
+          "Exercícios com parceiro",
+          "Rolar bastão sobre a canela para circulação"
         ]
       }
     },
     "nigiriGame": {
       "name": "Nigiri Game",
-      "translation": "Gripping Jars",
-      "description": "Gripping jars for finger and hand strength",
+      "translation": "Jarras de Agarre",
+      "description": "Jarras de agarre para força dos dedos e mãos",
       "origin": "China",
       "weight": "3-5 kg",
       "function": {
-        "title": "Function",
-        "description": "Traditional gripping jars for developing finger and hand strength",
+        "title": "Função",
+        "description": "Jarras de agarre tradicionais para desenvolver a força dos dedos e mãos",
         "mainFunctions": [
-          "Strengthens finger and hand muscles",
-          "Improves grip strength and endurance",
-          "Develops forearm strength",
-          "Enhances wrist stability"
+          "Fortalece músculos dos dedos e mãos",
+          "Melhora a força de pegada e resistência",
+          "Desenvolve força do antebraço",
+          "Melhora a estabilidade do pulso"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Construção",
         "materials": [
-          "Traditional clay or ceramic jars",
-          "Modern alternatives: concrete or metal containers",
-          "Handle diameter: 3-5 cm for optimal grip training"
+          "Jarras de argila ou cerâmica tradicionais",
+          "Alternativas modernas: recipientes de concreto ou metal",
+          "Diâmetro da alça: 3-5 cm para treino de pegada ideal"
         ],
-        "weight": "Weight can be adjusted by filling with sand, gravel or other materials"
+        "weight": "O peso pode ser ajustado enchendo com areia, cascalho ou outros materiais"
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Pontos de Atenção",
         "importantPoints": [
-          "Maintain proper grip position",
-          "Focus on finger strength development",
-          "Control breathing during exercises",
-          "Gradual increase in weight and duration"
+          "Mantenha a posição de pegada correta",
+          "Foque no desenvolvimento da força dos dedos",
+          "Controle a respiração durante os exercícios",
+          "Aumento gradual de peso e duração"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Avoid overtraining",
-          "Maintain proper form",
-          "Stop if experiencing pain"
+          "Comece com pesos mais leves",
+          "Evite o supertreinamento",
+          "Mantenha a forma correta",
+          "Pare se sentir dor"
         ]
       },
       "exercises": [
-        "Static grip holds",
-        "Walking with jars",
-        "Circular movements",
-        "Up and down movements"
+        "Jarras estáticas",
+        "Caminhar com jarras",
+        "Movimentos circulares",
+        "Movimentos para cima e para baixo"
       ]
     },
     "kongoken": {
       "name": "Kongoken",
-      "translation": "Iron Ring",
-      "description": "Iron oval for total body conditioning",
-      "origin": "Hawaii",
+      "translation": "Anel de Ferro",
+      "description": "Oval de ferro para condicionamento corporal total",
+      "origin": "Havaí",
       "weight": "30-40 kg",
       "function": {
-        "title": "Function",
-        "description": "Heavy iron oval used for total body conditioning and strength development",
+        "title": "Função",
+        "description": "Oval de ferro pesado usado para condicionamento corporal total e desenvolvimento de força",
         "mainFunctions": [
-          "Total body strength development",
-          "Core stability enhancement",
-          "Grip and forearm strengthening",
-          "Endurance and stamina building"
+          "Desenvolvimento de força corporal total",
+          "Melhoria da estabilidade do núcleo",
+          "Fortalecimento da pegada e antebraço",
+          "Construção de resistência e vigor"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Construção",
         "materials": [
-          "Solid iron construction",
-          "Oval shape for balanced weight distribution",
-          "Smooth surface to prevent injuries",
-          "Reinforced handles for secure grip"
+          "Construção de ferro sólido",
+          "Forma oval para distribuição de peso equilibrada",
+          "Superfície lisa para prevenir lesões",
+          "Alças reforçadas para pegada segura"
         ],
         "dimensions": {
           "length": {
-            "label": "Length",
+            "label": "Comprimento",
             "value": "60-80 cm"
           },
           "width": {
-            "label": "Width",
+            "label": "Largura",
             "value": "30-40 cm"
           },
           "handleDiameter": {
-            "label": "Handle Diameter",
+            "label": "Diâmetro da Alça",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
+            "label": "Peso",
             "value": "30-40 kg"
           }
         }
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Pontos de Atenção",
         "importantPoints": [
-          "Requires expert guidance",
-          "Proper lifting technique essential",
-          "Gradual progression in weight",
-          "Focus on core engagement"
+          "Requer orientação especializada",
+          "Técnica de levantamento correta essencial",
+          "Progressão gradual no peso",
+          "Foco no engajamento do núcleo"
         ],
         "safetyGuidelines": [
-          "Never train alone",
-          "Proper warm-up required",
-          "Stop at any sign of strain",
-          "Use appropriate weight for level"
+          "Nunca treine sozinho",
+          "Aquecimento adequado necessário",
+          "Pare a qualquer sinal de esforço",
+          "Use peso adequado para o nível"
         ]
       },
       "exercises": [
-        "Lifting and carrying",
-        "Walking exercises",
-        "Static holds",
-        "Basic swings",
-        "Dynamic movements",
-        "Integration with kata"
+        "Levantar e carregar",
+        "Exercícios de caminhada",
+        "Segurar estático",
+        "Balanços básicos",
+        "Movimentos dinâmicos",
+        "Integração com kata"
       ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
-      "translation": "Stone Lock",
-      "description": "Stone padlocks for grip strength and technique",
+      "translation": "Cadeado de Pedra",
+      "description": "Cadeados de pedra para força de pegada e técnica",
       "origin": "China/Okinawa",
       "weight": "2-8 kg",
       "function": {
-        "title": "Function",
-        "description": "Stone padlocks used for developing grip strength and technique",
+        "title": "Função",
+        "description": "Cadeados de pedra usados para desenvolver força de pegada e técnica",
         "mainFunctions": [
-          "Grip strength development",
-          "Wrist stability enhancement",
-          "Forearm muscle strengthening",
-          "Technique refinement"
+          "Desenvolvimento da força de pegada",
+          "Melhoria da estabilidade do pulso",
+          "Fortalecimento muscular do antebraço",
+          "Refinamento da técnica"
         ]
       },
       "construction": {
-        "title": "Construction",
+        "title": "Construção",
         "materials": [
-          "Stone or concrete body",
-          "Wooden or metal handle",
-          "Secure connection between body and handle",
-          "Smooth surface finish"
+          "Corpo de pedra ou concreto",
+          "Alça de madeira ou metal",
+          "Conexão segura entre corpo e alça",
+          "Acabamento de superfície lisa"
         ],
         "dimensions": {
           "body": {
-            "label": "Body",
-            "value": "15-25 cm length"
+            "label": "Corpo",
+            "value": "15-25 cm de comprimento"
           },
           "handle": {
-            "label": "Handle Diameter",
+            "label": "Diâmetro da Alça",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
-            "value": "2-8 kg depending on level"
+            "label": "Peso",
+            "value": "2-8 kg dependendo do nível"
           },
           "shape": {
-            "label": "Shape",
-            "value": "Rectangular or cylindrical"
+            "label": "Forma",
+            "value": "Retangular ou cilíndrico"
           }
         }
       },
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Pontos de Atenção",
         "importantPoints": [
-          "Maintain proper grip",
-          "Focus on wrist stability",
-          "Control movement precision",
-          "Integrate breathing"
+          "Mantenha a pegada correta",
+          "Foque na estabilidade do pulso",
+          "Controle a precisão do movimento",
+          "Integre a respiração"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Maintain proper form",
-          "Gradual progression",
-          "Stop if experiencing discomfort"
+          "Comece com pesos mais leves",
+          "Mantenha a forma correta",
+          "Progressão gradual",
+          "Pare se sentir desconforto"
         ]
       },
       "exercises": [
-        "Static grip holds",
-        "Walking exercises",
-        "Lifting movements",
-        "Rotation exercises"
+        "Pegadas estáticas",
+        "Exercícios de caminhada",
+        "Movimentos de elevação",
+        "Exercícios de rotação"
       ]
     },
     "udeTanren": {
       "name": "Ude Tanren",
-      "translation": "Arm Conditioning",
-      "description": "Partner exercises for conditioning the arms and training impact",
+      "translation": "Condicionamento de Braço",
+      "description": "Exercícios com parceiro para condicionamento dos braços e treino de impacto",
       "origin": "Okinawa",
-      "weight": "Partner training",
+      "weight": "Treino com parceiro",
       "information": {
-        "title": "Information",
-        "description": "General information about Ude Tanren"
+        "title": "Informação",
+        "description": "Informação geral sobre Ude Tanren"
       },
       "exercises": {
-        "title": "Exercises",
-        "description": "Specific exercises and routines"
+        "title": "Exercícios",
+        "description": "Exercícios e rotinas específicas"
       }
     },
     "makiage": {
@@ -647,27 +665,27 @@
     }
   },
   "training": {
-    "title": "Training",
+    "title": "Treinamento",
     "principles": {
-      "title": "Training Principles",
-      "bodyBreathMind": "Coordination of body, breath and mind",
-      "gradualProgression": "Gradual progression in weight and intensity",
-      "correctTechnique": "Correct technique before increasing weight",
-      "safetyFirst": "Safety first in all exercises"
+      "title": "Princípios de Treinamento",
+      "bodyBreathMind": "Coordenação de corpo, respiração e mente",
+      "gradualProgression": "Progressão gradual em peso e intensidade",
+      "correctTechnique": "Técnica correta antes de aumentar peso",
+      "safetyFirst": "Segurança em primeiro lugar em todos os exercícios"
     },
     "safety": {
-      "title": "Safety Guidelines",
-      "expertGuidance": "Expert guidance is essential",
-      "properWarmup": "Proper warm-up before training",
-      "gradualBuildUp": "Gradual build-up of intensity",
-      "listenToBody": "Listen to your body signals"
+      "title": "Diretrizes de Segurança",
+      "expertGuidance": "Orientação especializada é essencial",
+      "properWarmup": "Aquecimento adequado antes do treino",
+      "gradualBuildUp": "Aumento gradual da intensidade",
+      "listenToBody": "Ouça os sinais do seu corpo"
     }
   },
   "benefits": {
-    "title": "Benefits",
-    "physical": "Physical Benefits",
-    "technical": "Technical Benefits",
-    "mental": "Mental Benefits",
-    "safety": "Safety Benefits"
+    "title": "Benefícios",
+    "physical": "Benefícios Físicos",
+    "technical": "Benefícios Técnicos",
+    "mental": "Benefícios Mentais",
+    "safety": "Benefícios de Segurança"
   }
 }

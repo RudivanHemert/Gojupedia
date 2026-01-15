@@ -2376,37 +2376,37 @@
       "anatomical": "Anatomische Wapens",
       "grappling": "Worsteltechnieken",
       "warmup-content": {
-        "description": "Basis warming-up oefeningen en voorbereidende technieken.",
-        "title": "Warming-up",
+        "description": "Exercices d'échauffement de base et techniques préparatoires.",
+        "title": "Échauffement",
         "terms": {
           "junbi-undo": {
             "name": "Junbi Undo",
             "japanese": "準備運動",
-            "english": "Voorbereidende Oefeningen",
-            "details": "Junbi Undo (Voorbereidende Oefeningen) zijn basis warming-up oefeningen die het lichaam voorbereiden op karate training. Deze oefeningen omvatten rekoefeningen, gewrichtsmobiliteit, en lichte cardiovasculaire activiteit. Ze helpen blessures te voorkomen en verbeteren de prestaties tijdens training."
+            "english": "Exercices Préparatoires",
+            "details": "Junbi Undo (Exercices Préparatoires) sont des exercices d'échauffement de base qui préparent le corps à l'entraînement de karaté. Ces exercices comprennent des étirements, de la mobilité articulaire et une activité cardiovasculaire légère. Ils aident à prévenir les blessures et à améliorer les performances pendant l'entraînement."
           },
           "hojo-undo": {
             "name": "Hojo Undo",
             "japanese": "補助運動",
-            "english": "Supplementaire Oefeningen",
-            "details": "Hojo Undo (Supplementaire Oefeningen) zijn traditionele Okinawaanse oefeningen die kracht, uithoudingsvermogen en techniek ontwikkelen. Deze oefeningen omvatten het gebruik van traditionele trainingstools zoals chi ishi (stenen gewichten), nigiri game (grijpende potten), en andere versterkende oefeningen."
+            "english": "Exercices Supplémentaires",
+            "details": "Hojo Undo (Exercices Supplémentaires) sont des exercices traditionnels d'Okinawa qui développent la force, l'endurance et la technique. Ces exercices incluent l'utilisation d'outils d'entraînement traditionnels comme le chi ishi (pierres lestées), les nigiri game (jarres de préhension), et d'autres exercices de renforcement."
           },
           "kihon-undo": {
             "name": "Kihon Undo",
             "japanese": "基本運動",
-            "english": "Basis Bewegingen",
-            "details": "Kihon Undo (Basis Bewegingen) zijn fundamentele bewegingspatronen die de basis vormen voor alle karate technieken. Deze oefeningen ontwikkelen coördinatie, balans, en lichaamsbewustzijn. Ze worden vaak uitgevoerd in een reeks van herhalingen om spiergeheugen te ontwikkelen."
+            "english": "Mouvements de Base",
+            "details": "Kihon Undo (Mouvements de Base) sont des schémas de mouvements fondamentaux qui forment la base de toutes les techniques de karaté. Ces exercices développent la coordination, l'équilibre et la conscience corporelle. Ils sont souvent exécutés en séries de répétitions pour développer la mémoire musculaire."
           },
           "taiso": {
             "name": "Taiso",
             "japanese": "体操",
-            "english": "Gymnastiek",
-            "details": "Taiso (Gymnastiek) zijn algemene lichaamsbewegingen die flexibiliteit, kracht en uithoudingsvermogen ontwikkelen. Deze oefeningen omvatten push-ups, sit-ups, squats, en andere basis fitness oefeningen. Ze vormen een belangrijk onderdeel van de karate training en helpen bij het ontwikkelen van een sterke fysieke basis."
+            "english": "Gymnastique",
+            "details": "Taiso (Gymnastique) sont des mouvements corporels généraux qui développent la flexibilité, la force et l'endurance. Ces exercices comprennent des pompes, des redressements assis, des squats et d'autres exercices de fitness de base. Ils constituent une partie importante de l'entraînement de karaté et aident à développer une base physique solide."
           }
         }
       },
       "common-content": {
-        "description": "Veelgebruikte termen in karate training.",
+        "description": "Termes couramment utilisés dans l'entraînement de karaté.",
         "terms": {
           "dojo": {
             "name": "Dojo",
@@ -2451,85 +2451,85 @@
         }
       },
       "kyusho-content": {
-        "description": "Vitale punten (Kyusho) - belangrijke aanvalspunten op het menselijk lichaam",
-        "title": "Kyusho - Vitale Punten",
+        "description": "Points vitaux (Kyusho) - points d'attaque importants sur le corps humain",
+        "title": "Kyusho - Points Vitaux",
         "leg": {
-          "title": "Been",
-          "kori": "Kori - Middenop wreef, tussen grote en tweede teen",
-          "soin": "Soin - In verdieping vlak voor enkelgewricht, buitenzijde wreef",
-          "naira": "Naira - Diverse locaties aan binnenzijde langs enkel",
-          "kokotsu": "Kokotsu - Scheenbeen",
-          "soma": "Soma - In midden van peesaanhechting van kuitspier",
-          "fukuto": "Fukuto - Meerdere locaties aan binnenzijde bovenbeen, vlak boven knie",
-          "yako": "Yako - Meerdere locaties aan binnenzijde bovenbeen, vlak onder lies"
+          "title": "Jambe",
+          "kori": "Kori - Milieu du cou-de-pied, entre le gros et le deuxième orteil",
+          "soin": "Soin - Dans le creux juste devant l'articulation de la cheville, côté extérieur du cou-de-pied",
+          "naira": "Naira - Divers endroits sur le côté intérieur le long de la cheville",
+          "kokotsu": "Kokotsu - Tibia",
+          "soma": "Soma - Au milieu de l'attache du tendon du muscle du mollet",
+          "fukuto": "Fukuto - Plusieurs endroits sur le côté intérieur de la cuisse, juste au-dessus du genou",
+          "yako": "Yako - Plusieurs endroits sur le côté intérieur de la cuisse, juste sous l'aine"
         },
         "torso": {
-          "title": "Romp",
-          "ushiro-inazuma": "Ushiro Inazuma - Achterzijde bovenbeen, vlak onder bil",
-          "ein": "Ein - Midden van perineum of bilnaad",
-          "bitei": "Bitei - Tussen onderzijde staartbeen en anus, stuitje",
-          "kinteki": "Kinteki - Testikels",
-          "ushiro-denko": "Ushiro Denko - Deux punten: Zwevende ribben en (veel lager gelegen) nieren",
-          "wakikage": "Wakikage - Onbeschermde ribben onder oksel",
-          "kassatsu": "Kassatsu - Midden ruggengraat, direct onder 5e ruggengraatwervel",
-          "hayauchi": "Hayauchi - Tussen schouderbladen en ruggengraat",
-          "tanden": "Tanden - Ca. 7 cm onder navel",
-          "myosho": "Myosho - Circa 2,5 cm onder navel",
-          "inazuma": "Inazuma - 11e rib (bovenste zwevende rib, ter hoogte van elleboog)",
-          "denko": "Denko - Zevende rib",
-          "suigetsu": "Suigetsu - Zonnevlecht, solar plexus",
-          "ganka": "Ganka - 5e tussenribruimte, ter hoogte van Suigetsu",
-          "kyosen": "Kyosen - Onderzijde borstbeen, in verdieping bij overgang",
-          "danchu": "Danchu - Verdieping in midden van borstbeen bij aanhechting van 2de ribbenpaar"
+          "title": "Torse",
+          "ushiro-inazuma": "Ushiro Inazuma - Arrière de la cuisse, juste sous la fesse",
+          "ein": "Ein - Milieu du périnée",
+          "bitei": "Bitei - Coccyx",
+          "kinteki": "Kinteki - Testicules",
+          "ushiro-denko": "Ushiro Denko - Deux points : Côtes flottantes et reins",
+          "wakikage": "Wakikage - Côtes non protégées sous l'aisselle",
+          "kassatsu": "Kassatsu - Milieu de la colonne vertébrale, directement sous la 5ème vertèbre thoracique",
+          "hayauchi": "Hayauchi - Entre les omoplates et la colonne vertébrale",
+          "tanden": "Tanden - Env. 7 cm sous le nombril",
+          "myosho": "Myosho - Env. 2,5 cm sous le nombril",
+          "inazuma": "Inazuma - 11ème côte (côte flottante supérieure, hauteur du coude)",
+          "denko": "Denko - Septième côte",
+          "suigetsu": "Suigetsu - Plexus solaire",
+          "ganka": "Ganka - 5ème espace intercostal, hauteur du Suigetsu",
+          "kyosen": "Kyosen - Bas du sternum",
+          "danchu": "Danchu - Creux au milieu du sternum"
         },
         "neck-head": {
-          "title": "Hals en Hoofd",
-          "murasame": "Murasame - Boven sleutelbeen, in verdieping tussen aanhechtingen van twee halsspieren",
-          "hichu": "Hichu - Onder strottenhoofd, in kuiltje vlak boven aanhechting sleutelbenen",
-          "nodo-botoke": "Nodo Botoke -Adamsappel",
-          "matsukatze": "Matsukatze - Naast halsslagader",
-          "keichu": "Keichu - Midden van de nek",
-          "ushiro-ago": "Ushiro Ago - Achterzijde kaakbot",
-          "sonu": "Sonu - Oorlel",
-          "mikazuki": "Mikazuki - Kaak",
-          "kakon": "Kakon - In verdieping onder onderlip",
-          "jinchu": "Jinchu - Tussen bovenlip en neus",
-          "seimo": "Seimo / Gansei - Oog (inclusief midden onder oog en wenkbrauw)",
-          "dokusen": "Dokusen - Kuiltje direct onder oor, bij aanhechting van kaak",
-          "komekami": "Komekami - Slaap",
-          "kasumi": "Kasumi - Zijkant wenkbrauw",
-          "uto": "Uto - Midden voorhoofd",
-          "shomon": "Shomon - Fontanel"
+          "title": "Cou et Tête",
+          "murasame": "Murasame - Au-dessus de la clavicule",
+          "hichu": "Hichu - Sous la pomme d'Adam",
+          "nodo-botoke": "Nodo Botoke - Pomme d'Adam",
+          "matsukatze": "Matsukatze - Près de l'artère carotide",
+          "keichu": "Keichu - Milieu de la nuque",
+          "ushiro-ago": "Ushiro Ago - Arrière de la mâchoire",
+          "sonu": "Sonu - Lobe de l'oreille",
+          "mikazuki": "Mikazuki - Mâchoire",
+          "kakon": "Kakon - Menton",
+          "jinchu": "Jinchu - Entre la lèvre supérieure et le nez",
+          "seimo": "Seimo / Gansei - Œil",
+          "dokusen": "Dokusen - Creux sous l'oreille",
+          "komekami": "Komekami - Tempe",
+          "kasumi": "Kasumi - Tempe (latéral)",
+          "uto": "Uto - Milieu du front",
+          "shomon": "Shomon - Fontanelle"
         },
         "arm": {
-          "title": "Arm",
-          "hijisume": "Hijisume - Elleboogpunt",
-          "ude": "Ude - Buitenzijde onderarm",
-          "wankotsu": "Wankotsu - Pols",
-          "shuko": "Shuko - Achterzijde hand",
-          "yubisaki": "Yubisaki - Vingertop pen"
+          "title": "Bras",
+          "hijisume": "Hijisume - Pointe du coude",
+          "ude": "Ude - Côté extérieur de l'avant-bras",
+          "wankotsu": "Wankotsu - Poignet",
+          "shuko": "Shuko - Dos de la main",
+          "yubisaki": "Yubisaki - Bout des doigts"
         }
       }
     },
     "noTermsAvailable": "Aucun terme disponible pour cette section.",
     "blockNotFound": "Technique non trouvée.",
     "warmup": {
-      "title": "Training & Warm-up",
-      "description": "Preparatory exercises and traditional training",
-      "sectionDescription": "This section contains links to the training and warm-up exercises that fall under the Practice section.",
-      "viewSection": "View section",
-      "aboutTraining": "About Training in Goju Ryu",
+      "title": "Entraînement & Échauffement",
+      "description": "Exercices préparatoires et entraînement traditionnel",
+      "sectionDescription": "Cette section contient des liens vers les exercices d'entraînement et d'échauffement qui relèvent de la section Pratique.",
+      "viewSection": "Voir la section",
+      "aboutTraining": "À propos de l'entraînement en Goju Ryu",
       "junbiUndo": {
         "title": "Junbi Undo",
         "subtitle": "準備運動",
-        "description": "Preparatory exercises and warm-up techniques",
-        "explanation": "Preparatory exercises that prepare the body for training. These exercises improve flexibility, mobility and prepare the muscles."
+        "description": "Exercices préparatoires et techniques d'échauffement",
+        "explanation": "Exercices préparatoires qui préparent le corps à l'entraînement. Ces exercices améliorent la flexibilité, la mobilité et préparent les muscles."
       },
       "hojoUndo": {
         "title": "Hojo Undo",
         "subtitle": "補助運動",
-        "description": "Traditional strength and conditioning training with equipment",
-        "explanation": "Traditional strength and conditioning training with specific equipment such as chi-ishi, nigiri-game, and kongoken. These exercises develop strength and endurance."
+        "description": "Entraînement traditionnel de force et de conditionnement avec équipement",
+        "explanation": "Entraînement traditionnel de force et de conditionnement avec des équipements spécifiques tels que chi-ishi, nigiri-game et kongoken. Ces exercices développent la force et l'endurance."
       }
     }
   }

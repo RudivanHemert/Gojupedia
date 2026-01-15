@@ -206,56 +206,56 @@
     },
     "matchingTypes": {
       "kata": {
-        "title": "Kata Matching",
-        "description": "Match kata names with their meanings and characteristics."
+        "title": "Kata Zuordnung",
+        "description": "Ordnen Sie Kata-Namen ihren Bedeutungen und Merkmalen zu."
       },
       "terminology": {
-        "title": "Terminology Matching",
-        "description": "Match Japanese terms to their English meanings across categories.",
-        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
-        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
-        "e1": "Fundamental dojo concepts used throughout training."
+        "title": "Terminologie Zuordnung",
+        "description": "Ordnen Sie japanische Begriffe ihren deutschen Bedeutungen zu.",
+        "q1": "Ordnen Sie den japanischen Begriff seiner Bedeutung zu: Rei, Kime, Zanshin",
+        "a1": "Rei-Respekt, Kime-Fokus, Zanshin-Verbleibender Geist",
+        "e1": "Grundlegende Dojo-Konzepte, die im gesamten Training verwendet werden."
       }
     },
     "self-control": {
-      "title": "Self-Control Quiz",
-      "description": "Test your knowledge of self-control and emotion regulation."
+      "title": "Selbstbeherrschung Quiz",
+      "description": "Testen Sie Ihr Wissen über Selbstbeherrschung und Emotionsregulierung."
     },
     "kata-basics": {
-      "title": "Kata Basics Quiz",
-      "description": "Test your knowledge of fundamental kata concepts and principles."
+      "title": "Kata Grundlagen Quiz",
+      "description": "Testen Sie Ihr Wissen über grundlegende Kata-Konzepte und Prinzipien."
     },
     "kata-history": {
-      "title": "Kata History Quiz",
-      "description": "Learn about the historical development and origins of kata."
+      "title": "Kata Geschichte Quiz",
+      "description": "Erfahren Sie mehr über die historische Entwicklung und Ursprünge der Kata."
     },
     "philosophy-principles": {
-      "title": "Philosophy Principles Quiz",
-      "description": "Test your understanding of Goju Ryu philosophical principles."
+      "title": "Philosophie-Prinzipien Quiz",
+      "description": "Testen Sie Ihr Verständnis der Goju Ryu Philosophie-Prinzipien."
     },
     "basic-techniques": {
-      "title": "Basic Techniques Quiz",
-      "description": "Test your knowledge of fundamental karate techniques."
+      "title": "Grundtechniken Quiz",
+      "description": "Testen Sie Ihr Wissen über grundlegende Karate-Techniken."
     },
     "kumite-basics": {
-      "title": "Kumite Basics Quiz",
-      "description": "Test your knowledge of sparring fundamentals."
+      "title": "Kumite Grundlagen Quiz",
+      "description": "Testen Sie Ihr Wissen über Sparring-Grundlagen."
     },
     "history-origins": {
-      "title": "History & Origins Quiz",
-      "description": "Key people, places and origins of Goju Ryu."
+      "title": "Geschichte & Ursprünge Quiz",
+      "description": "Schlüsselfiguren, Orte und Ursprünge des Goju Ryu."
     },
     "hojo-undo-basics": {
-      "title": "Hojo Undo Basics Quiz",
-      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      "title": "Hojo Undo Grundlagen Quiz",
+      "description": "Gerätenamen und Trainingsschwerpunkte (Chi-ishi, Ishi Sashi, Nigiri Game, Kongoken)."
     },
     "newaza-intro": {
-      "title": "Newaza Introduction Quiz",
-      "description": "Fundamental ground positions and control concepts."
+      "title": "Newaza Einführung Quiz",
+      "description": "Grundlegende Bodenpositionen und Kontrollkonzepte."
     },
     "kumite-rules": {
-      "title": "Kumite Rules Quiz",
-      "description": "Scoring, penalties and referee commands."
+      "title": "Kumite Regeln Quiz",
+      "description": "Wertung, Strafen und Kampfrichterkommandos."
     },
     "questionBank": {
       "kata-basics-4": {

@@ -110,20 +110,20 @@
         "title": "Costruzione",
         "dimensions": {
           "stickLength": {
-            "label": "Stick Length",
-            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+            "label": "Lunghezza del Bastone",
+            "value": "Preferibilmente larghezza delle spalle (versioni più lunghe per tecniche di proiezione)"
           },
           "stickDiameter": {
-            "label": "Stick Diameter",
-            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+            "label": "Diametro del Bastone",
+            "value": "Lo spessore determina l'effetto allenante (sottile = chinkuchi kakin, spesso = presa del polso)"
           },
           "stoneDiameter": {
-            "label": "Stone Diameter",
-            "value": "No more than 20-30 cm (limited movement space)"
+            "label": "Diametro della Pietra",
+            "value": "Non più di 20-30 cm (spazio di movimento limitato)"
           },
           "stoneHeight": {
-            "label": "Stone Height",
-            "value": "No higher than 10-15 cm"
+            "label": "Altezza della Pietra",
+            "value": "Non più alto di 10-15 cm"
           }
         },
         "materials": {
@@ -221,18 +221,18 @@
         "Movimenti su e giù"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Punti di Attenzione",
         "importantPoints": [
-          "Maintain proper grip position",
-          "Focus on finger strength development",
-          "Control breathing during exercises",
-          "Gradual increase in weight and duration"
+          "Mantenere una posizione di presa corretta",
+          "Focus sullo sviluppo della forza delle dita",
+          "Controllare la respirazione durante gli esercizi",
+          "Aumento graduale di peso e durata"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Avoid overtraining",
-          "Maintain proper form",
-          "Stop if experiencing pain"
+          "Iniziare con pesi più leggeri",
+          "Evitare il sovrallenamento",
+          "Mantenere una forma corretta",
+          "Fermarsi in caso di dolore"
         ]
       }
     },
@@ -262,19 +262,19 @@
         ],
         "dimensions": {
           "length": {
-            "label": "Length",
+            "label": "Lunghezza",
             "value": "60-80 cm"
           },
           "width": {
-            "label": "Width",
+            "label": "Larghezza",
             "value": "30-40 cm"
           },
           "handleDiameter": {
-            "label": "Handle Diameter",
+            "label": "Diametro della Maniglia",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
+            "label": "Peso",
             "value": "30-40 kg"
           }
         }
@@ -294,18 +294,18 @@
         "Non allenarti mai da solo con pesi pesanti"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Punti di Attenzione",
         "importantPoints": [
-          "Requires expert guidance",
-          "Proper lifting technique essential",
-          "Gradual progression in weight",
-          "Focus on core engagement"
+          "Richiede guida esperta",
+          "Tecnica di sollevamento corretta essenziale",
+          "Progressione graduale nel peso",
+          "Focus sul coinvolgimento del core"
         ],
         "safetyGuidelines": [
-          "Never train alone",
-          "Proper warm-up required",
-          "Stop at any sign of strain",
-          "Use appropriate weight for level"
+          "Non allenarsi mai da soli",
+          "Riscaldamento adeguato richiesto",
+          "Fermarsi a qualsiasi segno di sforzo",
+          "Usare un peso appropriato per il livello"
         ]
       }
     },
@@ -335,20 +335,20 @@
         ],
         "dimensions": {
           "body": {
-            "label": "Body",
-            "value": "15-25 cm length"
+            "label": "Corpo",
+            "value": "15-25 cm di lunghezza"
           },
           "handle": {
-            "label": "Handle Diameter",
+            "label": "Diametro della Maniglia",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
-            "value": "2-8 kg depending on level"
+            "label": "Peso",
+            "value": "2-8 kg a seconda del livello"
           },
           "shape": {
-            "label": "Shape",
-            "value": "Rectangular or cylindrical"
+            "label": "Forma",
+            "value": "Rettangolare o cilindrica"
           }
         }
       },
@@ -359,18 +359,18 @@
         "Esercizi di rotazione"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Punti di Attenzione",
         "importantPoints": [
-          "Maintain proper grip",
-          "Focus on wrist stability",
-          "Control movement precision",
-          "Integrate breathing"
+          "Mantenere una presa corretta",
+          "Focus sulla stabilità del polso",
+          "Controllare la precisione del movimento",
+          "Integrare la respirazione"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Maintain proper form",
-          "Gradual progression",
-          "Stop if experiencing discomfort"
+          "Iniziare con pesi più leggeri",
+          "Mantenere una forma corretta",
+          "Progressione graduale",
+          "Fermarsi in caso di disagio"
         ]
       }
     },
@@ -633,41 +633,33 @@
     "techniques": "Tecniche",
     "benefits": "Benefici",
     "training": "Allenamento",
-    "trainingSections": "Training Sections"
+    "trainingSections": "Sezioni di Allenamento"
   },
   "common": {
-    "function": "Funzione",
-    "construction": "Costruzione",
-    "attentionPoints": "Punti di attenzione",
+    "back": "Indietro",
+    "mainFunctions": "Funzioni Principali",
+    "trainingEffects": "Effetti dell'Allenamento",
+    "dimensions": "Dimensioni",
+    "materials": "Materiali",
+    "weightRecommendations": "Raccomandazioni di Peso",
+    "importantPoints": "Punti Importanti",
+    "breathingTechniques": "Tecniche di Respirazione",
+    "safetyGuidelines": "Linee Guida di Sicurezza",
+    "basicSeries": "Serie Base",
+    "advancedExercises": "Esercizi Avanzati",
+    "practicalTips": "Consigli Pratici",
     "exercises": "Esercizi",
-    "classicExercises": "Esercizi classici",
-    "safety": "Sicurezza",
-    "tips": "Consigli",
-    "variations": "Variazioni",
-    "applications": "Applicazioni",
-    "back": "Back",
-    "mainFunctions": "Main Functions",
-    "trainingEffects": "Training Effects",
-    "dimensions": "Dimensions",
-    "materials": "Materials",
-    "weightRecommendations": "Weight Recommendations",
-    "importantPoints": "Important Points",
-    "breathingTechniques": "Breathing Techniques",
-    "safetyGuidelines": "Safety Guidelines",
-    "basicSeries": "Basic Series",
-    "advancedExercises": "Advanced Exercises",
-    "practicalTips": "Practical Tips",
-    "origin": "Origin",
-    "weight": "Weight",
-    "relatedSections": "Related Sections",
-    "quickAccess": "Quick Access",
-    "viewCompleteOverview": "View Complete Overview",
-    "learnFundamentals": "Learn the fundamentals",
-    "understandingPurpose": "Understanding purpose and function",
-    "buildMaintain": "Build and maintain equipment",
-    "safetyTechnique": "Safety and technique focus",
-    "specificExercises": "Specific exercises and routines",
-    "traditionalStrengthTraining": "Traditional Strength Training"
+    "origin": "Origine",
+    "weight": "Peso",
+    "relatedSections": "Sezioni Correlate",
+    "quickAccess": "Accesso Rapido",
+    "viewCompleteOverview": "Vedi Panoramica Completa",
+    "learnFundamentals": "Impara i fondamenti",
+    "understandingPurpose": "Comprendere scopo e funzione",
+    "buildMaintain": "Costruire e mantenere l'attrezzatura",
+    "safetyTechnique": "Focus su sicurezza e tecnica",
+    "specificExercises": "Esercizi e routine specifici",
+    "traditionalStrengthTraining": "Allenamento di Forza Tradizionale"
   },
   "additionalEquipment": {
     "tekkan": "Anelli di ferro",
@@ -720,7 +712,7 @@
     "safety": "Benefici di Sicurezza"
   },
   "categories": {
-    "introduction": "Introduction",
-    "primaryEquipment": "Primary Equipment"
+    "introduction": "Introduzione",
+    "primaryEquipment": "Attrezzatura Principale"
   }
 }

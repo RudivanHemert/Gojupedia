@@ -2405,7 +2405,7 @@
         }
       },
       "common-content": {
-        "description": "Veelgebruikte termen in karate training.",
+        "description": "Häufig verwendete Begriffe im Karatetraining.",
         "terms": {
           "dojo": {
             "name": "Dojo",
@@ -2513,22 +2513,22 @@
     "noTermsAvailable": "Keine Begriffe für diesen Abschnitt verfügbar.",
     "blockNotFound": "Technik nicht gefunden.",
     "warmup": {
-      "title": "Training & Warm-up",
-      "description": "Preparatory exercises and traditional training",
-      "sectionDescription": "This section contains links to the training and warm-up exercises that fall under the Practice section.",
-      "viewSection": "View section",
-      "aboutTraining": "About Training in Goju Ryu",
+      "title": "Training & Aufwärmen",
+      "description": "Vorbereitende Übungen und traditionelles Training",
+      "sectionDescription": "Dieser Abschnitt enthält Links zu den Trainings- und Aufwärmübungen, die unter den Abschnitt Praxis fallen.",
+      "viewSection": "Abschnitt ansehen",
+      "aboutTraining": "Über das Training im Goju Ryu",
       "junbiUndo": {
         "title": "Junbi Undo",
         "subtitle": "準備運動",
-        "description": "Preparatory exercises and warm-up techniques",
-        "explanation": "Preparatory exercises that prepare the body for training. These exercises improve flexibility, mobility and prepare the muscles."
+        "description": "Vorbereitende Übungen und Aufwärmtechniken",
+        "explanation": "Vorbereitende Übungen, die den Körper auf das Training vorbereiten. Diese Übungen verbessern Flexibilität, Mobilität und bereiten die Muskeln vor."
       },
       "hojoUndo": {
         "title": "Hojo Undo",
         "subtitle": "補助運動",
-        "description": "Traditional strength and conditioning training with equipment",
-        "explanation": "Traditional strength and conditioning training with specific equipment such as chi-ishi, nigiri-game, and kongoken. These exercises develop strength and endurance."
+        "description": "Traditionelles Kraft- und Konditionstraining mit Geräten",
+        "explanation": "Traditionelles Kraft- und Konditionstraining mit spezifischen Geräten wie Chi-Ishi, Nigiri-Game und Kongoken. Diese Übungen entwickeln Kraft und Ausdauer."
       }
     }
   }

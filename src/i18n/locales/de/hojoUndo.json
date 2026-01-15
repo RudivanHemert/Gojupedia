@@ -110,20 +110,20 @@
         "title": "Konstruktion",
         "dimensions": {
           "stickLength": {
-            "label": "Stick Length",
-            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+            "label": "Stocklänge",
+            "value": "Vorzugsweise Schulterbreite (längere Versionen für Wurftechniken)"
           },
           "stickDiameter": {
-            "label": "Stick Diameter",
-            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+            "label": "Stockdurchmesser",
+            "value": "Die Dicke bestimmt den Trainingseffekt (dünn = Chinkuchi Kakin, dick = Handgelenkgriff)"
           },
           "stoneDiameter": {
-            "label": "Stone Diameter",
-            "value": "No more than 20-30 cm (limited movement space)"
+            "label": "Steindurchmesser",
+            "value": "Nicht mehr als 20-30 cm (begrenzter Bewegungsraum)"
           },
           "stoneHeight": {
-            "label": "Stone Height",
-            "value": "No higher than 10-15 cm"
+            "label": "Steinhöhe",
+            "value": "Nicht höher als 10-15 cm"
           }
         },
         "materials": {
@@ -221,18 +221,18 @@
         "Auf und ab Bewegungen"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Aufmerksamkeitspunkte",
         "importantPoints": [
-          "Maintain proper grip position",
-          "Focus on finger strength development",
-          "Control breathing during exercises",
-          "Gradual increase in weight and duration"
+          "Behalte die korrekte Griffposition bei",
+          "Fokus auf die Entwicklung der Fingerkraft",
+          "Kontrolliere die Atmung während der Übungen",
+          "Schrittweise Erhöhung von Gewicht und Dauer"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Avoid overtraining",
-          "Maintain proper form",
-          "Stop if experiencing pain"
+          "Beginne mit leichteren Gewichten",
+          "Vermeide Übertraining",
+          "Behalte die korrekte Form bei",
+          "Stoppe bei Schmerzen"
         ]
       }
     },
@@ -262,19 +262,19 @@
         ],
         "dimensions": {
           "length": {
-            "label": "Length",
+            "label": "Länge",
             "value": "60-80 cm"
           },
           "width": {
-            "label": "Width",
+            "label": "Breite",
             "value": "30-40 cm"
           },
           "handleDiameter": {
-            "label": "Handle Diameter",
+            "label": "Griffdurchmesser",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
+            "label": "Gewicht",
             "value": "30-40 kg"
           }
         }
@@ -294,18 +294,18 @@
         "Trainiere nie allein mit schweren Gewichten"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Aufmerksamkeitspunkte",
         "importantPoints": [
-          "Requires expert guidance",
-          "Proper lifting technique essential",
-          "Gradual progression in weight",
-          "Focus on core engagement"
+          "Erfordert fachkundige Anleitung",
+          "Korrekte Hebetechnik ist unerlässlich",
+          "Schrittweise Steigerung des Gewichts",
+          "Fokus auf Rumpfspannung"
         ],
         "safetyGuidelines": [
-          "Never train alone",
-          "Proper warm-up required",
-          "Stop at any sign of strain",
-          "Use appropriate weight for level"
+          "Niemals allein trainieren",
+          "Richtiges Aufwärmen erforderlich",
+          "Bei Anzeichen von Überlastung stoppen",
+          "Dem Niveau entsprechendes Gewicht verwenden"
         ]
       }
     },
@@ -335,20 +335,20 @@
         ],
         "dimensions": {
           "body": {
-            "label": "Body",
-            "value": "15-25 cm length"
+            "label": "Körper",
+            "value": "15-25 cm Länge"
           },
           "handle": {
-            "label": "Handle Diameter",
+            "label": "Griffdurchmesser",
             "value": "3-4 cm"
           },
           "weight": {
-            "label": "Weight",
-            "value": "2-8 kg depending on level"
+            "label": "Gewicht",
+            "value": "2-8 kg je nach Niveau"
           },
           "shape": {
-            "label": "Shape",
-            "value": "Rectangular or cylindrical"
+            "label": "Form",
+            "value": "Rechteckig oder zylindrisch"
           }
         }
       },
@@ -359,18 +359,18 @@
         "Rotationsübungen"
       ],
       "attentionPoints": {
-        "title": "Attention Points",
+        "title": "Aufmerksamkeitspunkte",
         "importantPoints": [
-          "Maintain proper grip",
-          "Focus on wrist stability",
-          "Control movement precision",
-          "Integrate breathing"
+          "Behalte korrekten Griff bei",
+          "Fokus auf Handgelenkstabilität",
+          "Kontrolliere Bewegungspräzision",
+          "Integriere Atmung"
         ],
         "safetyGuidelines": [
-          "Start with lighter weights",
-          "Maintain proper form",
-          "Gradual progression",
-          "Stop if experiencing discomfort"
+          "Beginne mit leichteren Gewichten",
+          "Behalte die korrekte Form bei",
+          "Schrittweise Progression",
+          "Stoppe bei Unbehagen"
         ]
       }
     },
@@ -645,29 +645,29 @@
     "tips": "Tipps",
     "variations": "Variationen",
     "applications": "Anwendungen",
-    "back": "Back",
-    "mainFunctions": "Main Functions",
-    "trainingEffects": "Training Effects",
-    "dimensions": "Dimensions",
-    "materials": "Materials",
-    "weightRecommendations": "Weight Recommendations",
-    "importantPoints": "Important Points",
-    "breathingTechniques": "Breathing Techniques",
-    "safetyGuidelines": "Safety Guidelines",
-    "basicSeries": "Basic Series",
-    "advancedExercises": "Advanced Exercises",
-    "practicalTips": "Practical Tips",
-    "origin": "Origin",
-    "weight": "Weight",
-    "relatedSections": "Related Sections",
-    "quickAccess": "Quick Access",
-    "viewCompleteOverview": "View Complete Overview",
-    "learnFundamentals": "Learn the fundamentals",
-    "understandingPurpose": "Understanding purpose and function",
-    "buildMaintain": "Build and maintain equipment",
-    "safetyTechnique": "Safety and technique focus",
-    "specificExercises": "Specific exercises and routines",
-    "traditionalStrengthTraining": "Traditional Strength Training"
+    "back": "Zurück",
+    "mainFunctions": "Hauptfunktionen",
+    "trainingEffects": "Trainingseffekte",
+    "dimensions": "Abmessungen",
+    "materials": "Materialien",
+    "weightRecommendations": "Gewichtsempfehlungen",
+    "importantPoints": "Wichtige Punkte",
+    "breathingTechniques": "Atemtechniken",
+    "safetyGuidelines": "Sicherheitsrichtlinien",
+    "basicSeries": "Grundserie",
+    "advancedExercises": "Fortgeschrittene Übungen",
+    "practicalTips": "Praktische Tipps",
+    "origin": "Herkunft",
+    "weight": "Gewicht",
+    "relatedSections": "Verwandte Abschnitte",
+    "quickAccess": "Schnellzugriff",
+    "viewCompleteOverview": "Vollständige Übersicht anzeigen",
+    "learnFundamentals": "Lernen Sie die Grundlagen",
+    "understandingPurpose": "Zweck und Funktion verstehen",
+    "buildMaintain": "Geräte bauen und warten",
+    "safetyTechnique": "Sicherheits- und Technikfokus",
+    "specificExercises": "Spezifische Übungen und Routinen",
+    "traditionalStrengthTraining": "Traditionelles Krafttraining"
   },
   "additionalEquipment": {
     "tekkan": "Eiserne Ringe",
@@ -720,7 +720,7 @@
     "safety": "Sicherheitsvorteile"
   },
   "categories": {
-    "introduction": "Introduction",
-    "primaryEquipment": "Primary Equipment"
+    "introduction": "Einführung",
+    "primaryEquipment": "Hauptausrüstung"
   }
 }

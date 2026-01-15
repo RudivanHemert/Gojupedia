@@ -41,65 +41,65 @@
   "stances": {
     "musubiDachi": {
       "title": "Musubi Dachi",
-      "description": "Formal stance with heels together"
+      "description": "Formel stilling med hælene samlet"
     },
     "sanchinDachi": {
       "title": "Sanchin Dachi",
-      "description": "Powerful stance for Sanchin and Tensho kata"
+      "description": "Kraftfuld stilling for Sanchin og Tensho kata"
     },
     "zenkutsuDachi": {
       "title": "Zenkutsu Dachi",
-      "description": "Forward attacking stance"
+      "description": "Fremadgående angrebsstilling"
     },
     "shikoDachi": {
       "title": "Shiko Dachi",
-      "description": "Wide stance for close combat"
+      "description": "Bred stilling til nærkamp"
     },
     "nekoAshiDachi": {
       "title": "Neko Ashi Dachi",
-      "description": "Cat stance for defense"
+      "description": "Kat stilling til forsvar"
     }
   },
   "punches": {
     "seikenZuki": {
       "title": "Seiken Zuki",
-      "description": "Fist punch with closed fist"
+      "description": "Knytnæveslag med lukket hånd"
     },
     "gyakuZuki": {
       "title": "Gyaku Zuki",
-      "description": "Reverse punch with back hand"
+      "description": "Modsat rettet slag med bageste hånd"
     },
     "oiZuki": {
       "title": "Oi Zuki",
-      "description": "Lunge punch"
+      "description": "Lunge slag"
     }
   },
   "kicks": {
     "maeGeri": {
       "title": "Mae Geri",
-      "description": "Front kick"
+      "description": "Frontspark"
     },
     "yokoGeri": {
       "title": "Yoko Geri",
-      "description": "Side kick"
+      "description": "Sidespark"
     },
     "ushiroGeri": {
       "title": "Ushiro Geri",
-      "description": "Back kick"
+      "description": "Bagspark"
     }
   },
   "blocks": {
     "ageUke": {
       "title": "Age Uke",
-      "description": "Rising block"
+      "description": "Opadgående blokering"
     },
     "sotoUke": {
       "title": "Soto Uke",
-      "description": "Outside to inside block"
+      "description": "Udefra-ind blokering"
     },
     "gedanBarai": {
       "title": "Gedan Barai",
-      "description": "Downward block"
+      "description": "Nedadgående blokering"
     }
   },
   "hoeiJuku": {

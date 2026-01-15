@@ -635,7 +635,12 @@
     "ma-ai": "Ma-ai (間合い) - Kampfdistanz",
     "sen": "Sen (先) - Initiative",
     "go-no-sen": "Go No Sen (後の先) - Reaktion auf Angriff",
-    "sen-no-sen": "Sen No Sen (先の先) - Attaquer l'Attaque"
+    "sen-no-sen": {
+      "name": "Sen No Sen (先の先) - Angriff auf den Angriff",
+      "description": "Gleichzeitiger Angriff mit dem Gegner",
+      "application": "Interzeptieren Sie den Angriff des Gegners",
+      "importance": "Fortgeschrittener taktischer Ansatz"
+    }
   },
   "competition-organizations": {
     "wkf": "World Karate Federation (WKF)",
