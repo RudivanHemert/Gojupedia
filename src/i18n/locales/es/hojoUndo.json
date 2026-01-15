@@ -382,6 +382,243 @@
         "title": "Ejercicios",
         "description": "Ejercicios específicos y rutinas"
       }
+    },
+    "makiage": {
+      "name": "Makiage Kigu",
+      "translation": "Rodillo de muñeca",
+      "description": "Peso en cuerda para entrenamiento de muñeca y antebrazo",
+      "origin": "Okinawa",
+      "weight": "Variable",
+      "function": {
+        "title": "Función",
+        "description": "El Makiage Kigu se utiliza para fortalecer las muñecas y los antebrazos.",
+        "mainFunctions": [
+          "Fortalecimiento de las articulaciones de la muñeca",
+          "Desarrollo de la fuerza de agarre",
+          "Entrenamiento de los músculos del antebrazo"
+        ],
+        "trainingEffects": [
+          "Estabilidad de la muñeca mejorada",
+          "Aumento de la fuerza de agarre",
+          "Antebrazos fortalecidos"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "materials": [
+          "Palo de madera como mango",
+          "Cuerda fuerte",
+          "Peso (piedra o metal)"
+        ],
+        "dimensions": {
+          "handle": {
+            "label": "Mango",
+            "value": "Ancho de hombros"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Puntos de atención",
+        "importantPoints": [
+          "Mantén los brazos rectos frente a ti",
+          "Enrolla y desenrolla de manera controlada",
+          "Mantén los hombros bajos y relajados",
+          "Usa la fuerza de la muñeca, no la del hombro"
+        ],
+        "safetyGuidelines": [
+          "Comienza con peso ligero",
+          "Detente si sientes dolor en las muñecas",
+          "Revisa la cuerda por desgaste"
+        ]
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "basicExercises": [
+          "Enrollar (palmas hacia abajo)",
+          "Enrollar (palmas hacia arriba)",
+          "Desenrollar controlado"
+        ]
+      }
+    },
+    "ton": {
+      "name": "Ton",
+      "translation": "Martillo/Peso",
+      "description": "Peso pesado tipo martillo para entrenamiento de fuerza",
+      "origin": "Okinawa/China",
+      "weight": "Variable",
+      "function": {
+        "title": "Función",
+        "description": "El Ton (o Tun) se utiliza para el entrenamiento específico de fuerza de la parte superior del cuerpo.",
+        "mainFunctions": [
+          "Entrenamiento de fuerza de hombros y brazos",
+          "Acondicionamiento de articulaciones"
+        ],
+        "trainingEffects": [
+          "Aumento de la fuerza muscular",
+          "Coordinación mejorada"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "materials": [
+          "Mango de madera",
+          "Peso pesado (piedra/metal) en el extremo"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Puntos de atención",
+        "importantPoints": [
+          "Agarre correcto esencial",
+          "Mantener postura estable (Sanchin/Shiko dachi)"
+        ],
+        "safetyGuidelines": [
+          "Cuidado con la caída del peso",
+          "Usar calzado"
+        ]
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "basicExercises": [
+          "Levantamiento frontal",
+          "Balanceo lateral"
+        ]
+      }
+    },
+    "udeKetae": {
+      "name": "Ude Kitae",
+      "translation": "Endurecimiento de brazos",
+      "description": "Entrenamiento para endurecer los brazos",
+      "origin": "Okinawa",
+      "function": {
+        "title": "Función",
+        "description": "Ejercicios para hacer los brazos resistentes al impacto y al dolor.",
+        "mainFunctions": [
+          "Endurecimiento de antebrazos (hueso y músculo)",
+          "Reducción del dolor al bloquear",
+          "Fortalecimiento de la estructura ósea"
+        ],
+        "trainingEffects": [
+          "Menos sensibilidad al impacto",
+          "Brazos más duros y fuertes"
+        ]
+      },
+      "construction": {
+        "title": "Ejecución",
+        "materials": [
+          "Compañero",
+          "Makiwara",
+          "Poste de madera"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Puntos de atención",
+        "importantPoints": [
+          "Aumenta la intensidad lentamente",
+          "Enfócate en la exhalación al impactar",
+          "Relaja los músculos durante el impacto"
+        ],
+        "safetyGuidelines": [
+          "Evita moretones graves al principio",
+          "No entrenar sobre moretones frescos",
+          "Usar eventualmente aceite de hierbas chino (Dit Da Jow)"
+        ]
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "basicExercises": [
+          "Kote kitae (ejercicio con compañero)",
+          "Golpear contra makiwara con el brazo",
+          "Contacto en tres partes (interior, exterior, arriba)"
+        ]
+      }
+    },
+    "doubleHandleChiishi": {
+      "name": "Double Handle Chi Ishi",
+      "translation": "Chi Ishi de doble mango",
+      "description": "Chi Ishi especial con dos mangos o realizado con dos Chi Ishi normales",
+      "origin": "Okinawa",
+      "weight": "Variable",
+      "function": {
+        "title": "Función",
+        "description": "Variante del Chi Ishi estándar para ejercicios a dos manos.",
+        "mainFunctions": [
+          "Entrenamiento de fuerza simétrica",
+          "Coordinación izquierda/derecha",
+          "Estabilidad del núcleo"
+        ],
+        "trainingEffects": [
+          "Desarrollo muscular equilibrado",
+          "Rigidez del núcleo mejorada"
+        ]
+      },
+      "construction": {
+        "title": "Construcción",
+        "materials": [
+          "Peso de concreto con dos palos sobresalientes",
+          "O: dos Chi Ishi separados"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Puntos de atención",
+        "importantPoints": [
+          "Distribución igual de fuerza",
+          "Mantener espalda recta"
+        ]
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "basicExercises": [
+          "Balanceo a dos manos sobre la cabeza",
+          "Prensas con dos manos"
+        ]
+      }
+    },
+    "supplemental": {
+      "name": "Supplemental Exercises",
+      "translation": "Ejercicios Suplementarios",
+      "description": "Ejercicios extra de apoyo a Hojo Undo",
+      "origin": "Moderno/Tradicional",
+      "function": {
+        "title": "Función",
+        "description": "Acondicionamiento y entrenamiento de fuerza adicionales.",
+        "mainFunctions": [
+          "Mejora general de la forma física",
+          "Flexibilidad y movilidad",
+          "Apoyo específico a Hojo Undo"
+        ],
+        "trainingEffects": [
+          "Condición general mejorada",
+          "Prevención de lesiones"
+        ]
+      },
+      "construction": {
+        "title": "Requisitos",
+        "materials": [
+          "Peso corporal",
+          "Barra de dominadas",
+          "Cuerdas"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Puntos de atención",
+        "importantPoints": [
+          "Escucha a tu cuerpo",
+          "La variación es importante"
+        ],
+        "safetyGuidelines": [
+          "Ejecuta las técnicas correctamente",
+          "Toma días de descanso"
+        ]
+      },
+      "exercises": {
+        "title": "Ejercicios",
+        "basicExercises": [
+          "Flexiones",
+          "Abdominales",
+          "Sentadillas",
+          "Dominadas"
+        ]
+      }
     }
   },
   "sections": {

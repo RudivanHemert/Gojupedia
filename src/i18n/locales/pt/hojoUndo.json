@@ -407,6 +407,243 @@
         "title": "Exercises",
         "description": "Specific exercises and routines"
       }
+    },
+    "makiage": {
+      "name": "Makiage Kigu",
+      "translation": "Rolo de pulso",
+      "description": "Peso em corda para treino de pulso e antebraço",
+      "origin": "Okinawa",
+      "weight": "Variável",
+      "function": {
+        "title": "Função",
+        "description": "O Makiage Kigu é usado para fortalecer os pulsos e os antebraços.",
+        "mainFunctions": [
+          "Fortalecimento das articulações do pulso",
+          "Desenvolvimento da força de preensão",
+          "Treino dos músculos do antebraço"
+        ],
+        "trainingEffects": [
+          "Estabilidade do pulso melhorada",
+          "Aumento da força de preensão",
+          "Antebraços mais fortes"
+        ]
+      },
+      "construction": {
+        "title": "Construção",
+        "materials": [
+          "Bastão de madeira como alça",
+          "Corda forte",
+          "Peso (pedra ou metal)"
+        ],
+        "dimensions": {
+          "handle": {
+            "label": "Alça",
+            "value": "Largura dos ombros"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Pontos de Atenção",
+        "importantPoints": [
+          "Mantenha os braços esticados à frente",
+          "Enrole e desenrole de forma controlada",
+          "Mantenha os ombros baixos e relaxados",
+          "Use a força do pulso, não a do ombro"
+        ],
+        "safetyGuidelines": [
+          "Comece com peso leve",
+          "Pare se sentir dor nos pulsos",
+          "Verifique o desgaste da corda"
+        ]
+      },
+      "exercises": {
+        "title": "Exercícios",
+        "basicExercises": [
+          "Enrolar (palmas para baixo)",
+          "Enrolar (palmas para cima)",
+          "Desenrolar controlado"
+        ]
+      }
+    },
+    "ton": {
+      "name": "Ton",
+      "translation": "Martelo/Peso",
+      "description": "Peso pesado semelhante a um martelo para treino de força",
+      "origin": "Okinawa/China",
+      "weight": "Variável",
+      "function": {
+        "title": "Função",
+        "description": "O Ton (ou Tun) é usado para treino específico de força da parte superior do corpo.",
+        "mainFunctions": [
+          "Treino de força de ombros e braços",
+          "Condicionamento das articulações"
+        ],
+        "trainingEffects": [
+          "Aumento da força muscular",
+          "Melhoria da coordenação"
+        ]
+      },
+      "construction": {
+        "title": "Construção",
+        "materials": [
+          "Cabo de madeira",
+          "Peso pesado (pedra/metal) na ponta"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Pontos de Atenção",
+        "importantPoints": [
+          "Pega correta essencial",
+          "Manter postura estável (Sanchin/Shiko dachi)"
+        ],
+        "safetyGuidelines": [
+          "Cuidado com a queda do peso",
+          "Usar calçado"
+        ]
+      },
+      "exercises": {
+        "title": "Exercícios",
+        "basicExercises": [
+          "Levantamento frontal",
+          "Balanço lateral"
+        ]
+      }
+    },
+    "udeKetae": {
+      "name": "Ude Kitae",
+      "translation": "Calejamento de braços",
+      "description": "Treino para calejar os braços",
+      "origin": "Okinawa",
+      "function": {
+        "title": "Função",
+        "description": "Exercícios para tornar os braços resistentes ao impacto e à dor.",
+        "mainFunctions": [
+          "Calejamento dos antebraços (osso e músculo)",
+          "Redução da dor ao bloquear",
+          "Fortalecimento da estrutura óssea"
+        ],
+        "trainingEffects": [
+          "Menor sensibilidade ao impacto",
+          "Braços mais duros e fortes"
+        ]
+      },
+      "construction": {
+        "title": "Execução",
+        "materials": [
+          "Parceiro",
+          "Makiwara",
+          "Poste de madeira"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Pontos de Atenção",
+        "importantPoints": [
+          "Aumente a intensidade lentamente",
+          "Foque na expiração ao impactar",
+          "Relaxe os músculos durante o impacto"
+        ],
+        "safetyGuidelines": [
+          "Evite hematomas graves no início",
+          "Não treine sobre hematomas recentes",
+          "Use eventualmente óleo de ervas chinês (Dit Da Jow)"
+        ]
+      },
+      "exercises": {
+        "title": "Exercícios",
+        "basicExercises": [
+          "Kote kitae (exercício com parceiro)",
+          "Bater contra makiwara com o braço",
+          "Contato em três partes (interno, externo, acima)"
+        ]
+      }
+    },
+    "doubleHandleChiishi": {
+      "name": "Double Handle Chi Ishi",
+      "translation": "Chi Ishi de alça dupla",
+      "description": "Chi Ishi especial com duas alças ou executado com dois Chi Ishi normais",
+      "origin": "Okinawa",
+      "weight": "Variável",
+      "function": {
+        "title": "Função",
+        "description": "Variante do Chi Ishi padrão para exercícios a duas mãos.",
+        "mainFunctions": [
+          "Treino de força simétrico",
+          "Coordenação esquerda/direita",
+          "Estabilidade do núcleo"
+        ],
+        "trainingEffects": [
+          "Desenvolvimento muscular equilibrado",
+          "Rigidez do núcleo melhorada"
+        ]
+      },
+      "construction": {
+        "title": "Construção",
+        "materials": [
+          "Peso de concreto com dois bastões salientes",
+          "Ou: dois Chi Ishi separados"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Pontos de Atenção",
+        "importantPoints": [
+          "Distribuição igual de força",
+          "Manter as costas retas"
+        ]
+      },
+      "exercises": {
+        "title": "Exercícios",
+        "basicExercises": [
+          "Balanço a duas mãos sobre a cabeça",
+          "Prensas com duas mãos"
+        ]
+      }
+    },
+    "supplemental": {
+      "name": "Supplemental Exercises",
+      "translation": "Exercícios Suplementares",
+      "description": "Exercícios extra de apoio ao Hojo Undo",
+      "origin": "Moderno/Tradicional",
+      "function": {
+        "title": "Função",
+        "description": "Condicionamento e treino de força adicionais.",
+        "mainFunctions": [
+          "Melhoria geral da forma física",
+          "Flexibilidade e mobilidade",
+          "Apoio específico ao Hojo Undo"
+        ],
+        "trainingEffects": [
+          "Condição geral melhorada",
+          "Prevenção de lesões"
+        ]
+      },
+      "construction": {
+        "title": "Requisitos",
+        "materials": [
+          "Peso corporal",
+          "Barra de dominadas",
+          "Cordas"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Pontos de Atenção",
+        "importantPoints": [
+          "Escute o seu corpo",
+          "A variação é importante"
+        ],
+        "safetyGuidelines": [
+          "Execute as técnicas corretamente",
+          "Tire dias de descanso"
+        ]
+      },
+      "exercises": {
+        "title": "Exercícios",
+        "basicExercises": [
+          "Flexões",
+          "Abdominais",
+          "Agachamentos",
+          "Dominadas"
+        ]
+      }
     }
   },
   "training": {

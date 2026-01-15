@@ -863,153 +863,102 @@
     },
     "ton": {
       "name": "Ton",
-      "translation": "Houten Ton",
-      "description": "Houten ton voor krachttraining en conditionering",
-      "origin": "Japan/Okinawa",
-      "weight": "10-30 kg",
+      "translation": "Hamer/Gewicht",
+      "description": "Zwaar hamerachtig gewicht voor krachttraining",
+      "origin": "Okinawa/China",
+      "weight": "Variabel",
       "function": {
         "title": "Functie",
-        "description": "De Ton is een houten ton gebruikt voor krachttraining en conditionering.",
+        "description": "De Ton (of Tun) wordt gebruikt voor specifieke krachttraining van het bovenlichaam.",
         "mainFunctions": [
-          "Totale lichaams krachtontwikkeling",
-          "Versterking van grip en onderarmen",
-          "Kernstabiliteit verbetering",
-          "Uithoudingsvermogen opbouw",
-          "Techniek integratie"
+          "Krachttraining schouders en armen",
+          "Conditionering van gewrichten"
         ],
         "trainingEffects": [
-          "Versterkte grip en onderarmen",
-          "Betere balans en coördinatie",
-          "Verhoogd uithoudingsvermogen",
-          "Verbeterde techniek kracht",
-          "Totale lichaams conditionering"
+          "Toename spierkracht",
+          "Verbeterde coördinatie"
         ]
       },
       "construction": {
         "title": "Constructie",
         "materials": [
-          "Stevige houten ton",
-          "Metaal banden voor versteviging",
-          "Stevige handvatten",
-          "Veilige afwerking"
-        ],
-        "dimensions": {
-          "weight": {
-            "label": "Gewicht",
-            "value": "10-30 kg afhankelijk van grootte"
-          },
-          "size": {
-            "label": "Grootte",
-            "value": "Handzame ton grootte"
-          }
-        }
+          "Houten handvat",
+          "Zwaar gewicht (steen/metaal) aan uiteinde"
+        ]
       },
       "attentionPoints": {
         "title": "Aandachtspunten",
         "importantPoints": [
-          "Juiste tiltechniek essentieel",
-          "Focus op kernbetrokkenheid",
-          "Geleidelijke progressie in gewicht",
-          "Behoud correcte houding",
-          "Integreer ademhaling"
+          "Correcte grip essentieel",
+          "Behoud stabiele houding (Sanchin/Shiko dachi)"
         ],
         "safetyGuidelines": [
-          "Begin met lichtere gewichten",
-          "Focus op correcte uitvoering",
-          "Neem voldoende rust",
-          "Stop bij pijn of ongemak",
-          "Train onder deskundige begeleiding"
+          "Pas op voor vallen van gewicht",
+          "Gebruik schoeisel"
         ]
       },
       "exercises": {
         "title": "Oefeningen",
         "basicExercises": [
-          "Optillen en dragen",
-          "Loopoefeningen",
-          "Statische houdingen",
-          "Basis zwaaien"
-        ],
-        "advancedExercises": [
-          "Dynamische bewegingen",
-          "Integratie met kata",
-          "Combinatie oefeningen",
-          "Uithoudingsvermogen training"
+          "Hefoefeningen voorwaarts",
+          "Zwaaioefeningen zijwaarts"
         ]
       }
     },
     "makiage": {
-      "name": "Makiage",
-      "translation": "Makiage Kigu",
-      "description": "Trainingsapparatuur voor het ontwikkelen van kracht en techniek",
-      "origin": "Japan/Okinawa",
+      "name": "Makiage Kigu",
+      "translation": "Polsroller",
+      "description": "Gewicht aan touw voor training van pols en onderarm",
+      "origin": "Okinawa",
       "weight": "Variabel",
       "function": {
         "title": "Functie",
-        "description": "Makiage Kigu is trainingsapparatuur gebruikt voor het ontwikkelen van kracht en techniek.",
+        "description": "De Makiage Kigu wordt gebruikt voor het versterken van de polsen en onderarmen.",
         "mainFunctions": [
-          "Krachtontwikkeling",
-          "Techniek verbetering",
-          "Conditionering",
-          "Uithoudingsvermogen opbouw",
-          "Flexibiliteit training"
+          "Versterking van polsgewrichten",
+          "Ontwikkeling van grijpkracht",
+          "Training van onderarmspieren"
         ],
         "trainingEffects": [
-          "Versterkte spieren",
-          "Verbeterde techniek",
-          "Verhoogd uithoudingsvermogen",
-          "Betere flexibiliteit",
-          "Totale lichaams conditionering"
+          "Verbeterde polsstabiliteit",
+          "Toename in grijpkracht",
+          "Versterkte onderarmen"
         ]
       },
       "construction": {
         "title": "Constructie",
         "materials": [
-          "Diverse materialen afhankelijk van type",
-          "Veilige constructie",
-          "Aanpasbare gewichten",
-          "Stevige bevestigingen"
+          "Houten stok als handvat",
+          "Sterk touw",
+          "Gewicht (steen of metaal)"
         ],
         "dimensions": {
-          "weight": {
-            "label": "Gewicht",
-            "value": "Variabel afhankelijk van type"
-          },
-          "size": {
-            "label": "Grootte",
-            "value": "Aanpasbaar aan training"
+          "handle": {
+            "label": "Handvat",
+            "value": "Schouderbreedte"
           }
         }
       },
       "attentionPoints": {
         "title": "Aandachtspunten",
         "importantPoints": [
-          "Juiste techniek essentieel",
-          "Focus op veiligheid",
-          "Geleidelijke progressie",
-          "Behoud correcte vorm",
-          "Integreer ademhaling"
+          "Houd armen gestrekt voor je",
+          "Draai gecontroleerd op en af",
+          "Houd schouders laag en ontspannen",
+          "Gebruik polskracht, geen schouderkracht"
         ],
         "safetyGuidelines": [
-          "Begin met basis oefeningen",
-          "Focus op correcte uitvoering",
-          "Neem voldoende rust",
-          "Stop bij pijn of ongemak",
-          "Train onder deskundige begeleiding"
+          "Begin met licht gewicht",
+          "Stop bij pijn in polsen",
+          "Controleer touw op slijtage"
         ]
       },
       "exercises": {
         "title": "Oefeningen",
         "basicExercises": [
-          "Basis krachtoefeningen",
-          "Techniek training",
-          "Flexibiliteit oefeningen",
-          "Conditionering"
-        ],
-        "advancedExercises": [
-          "Geavanceerde technieken",
-          "Combinatie oefeningen",
-          "Uithoudingsvermogen training",
-          "Specifieke toepassingen"
+          "Oprollen (palmen naar beneden)",
+          "Oprollen (palmen naar boven)",
+          "Afrollen gecontroleerd"
         ]
       }
     },
@@ -1026,6 +975,146 @@
       "exercises": {
         "title": "Oefeningen",
         "description": "Specifieke oefeningen en routines"
+      }
+    },
+    "udeKetae": {
+      "name": "Ude Kitae",
+      "translation": "Arm Harding",
+      "description": "Training voor het harden van de armen",
+      "origin": "Okinawa",
+      "function": {
+        "title": "Functie",
+        "description": "Oefeningen om de armen bestand te maken tegen impact en pijn.",
+        "mainFunctions": [
+          "Harding van onderarmen (bot en spier)",
+          "Pijnreductie bij blokkeren",
+          "Versterking botstructuur (Wolf's wet)"
+        ],
+        "trainingEffects": [
+          "Minder gevoeligheid voor impact",
+          "Hardere en sterkere armen"
+        ]
+      },
+      "construction": {
+        "title": "Uitvoering",
+        "materials": [
+          "Partner",
+          "Makiwara",
+          "Houten paal"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Bouw intensiteit langzaam op",
+          "Focus op uitademing bij impact",
+          "Ontspan de spieren tijdens impact (niet verkrampen)"
+        ],
+        "safetyGuidelines": [
+          "Vermijd ernstige kneuzingen in het begin",
+          "Niet trainen op verse blauwe plekken",
+          "Gebruik evt. Chinese kruidenolie (Dit Da Jow)"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Kote kitae (partner oefening)",
+          "Slaan tegen makiwara met arm (binnen/buiten)",
+          "Driedelig contact (binnen, buiten, boven)"
+        ]
+      }
+    },
+    "doubleHandleChiishi": {
+      "name": "Double Handle Chi Ishi",
+      "translation": "Dubbele Chi Ishi",
+      "description": "Speciale Chi Ishi met twee handvatten of uitgevoerd met twee normale Chi Ishi's",
+      "origin": "Okinawa",
+      "weight": "Variabel",
+      "function": {
+        "title": "Functie",
+        "description": "Variant op de standaard Chi Ishi voor tweehandige oefeningen, vaak zwaarder.",
+        "mainFunctions": [
+          "Symmetrische krachttraining",
+          "Coördinatie links/rechts",
+          "Kernstabiliteit"
+        ],
+        "trainingEffects": [
+          "Evenwichtige spierontwikkeling",
+          "Verbeterde rompstijfheid"
+        ]
+      },
+      "construction": {
+        "title": "Constructie",
+        "materials": [
+          "Betonnen gewicht met twee uitstekende stokken",
+          "Of: twee losse Chi Ishi's"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Gelijke krachtverdeling over beide armen",
+          "Rechte rug houden"
+        ],
+        "safetyGuidelines": [
+          "Let op balans",
+          "Niet te zwaar beginnen"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Tweehandige zwaai over hoofd",
+          "Presses met twee handen vanuit Shiko dachi"
+        ]
+      }
+    },
+    "supplemental": {
+      "name": "Supplemental Exercises",
+      "translation": "Aanvullende Oefeningen",
+      "description": "Extra oefeningen ter ondersteuning van Hojo Undo en algemene fitheid",
+      "origin": "Modern/Traditioneel",
+      "function": {
+        "title": "Functie",
+        "description": "Aanvullende conditionering en krachttraining naast de specifieke tools.",
+        "mainFunctions": [
+          "Algehele fitheid verbetering",
+          "Flexibiliteit en mobiliteit",
+          "Ondersteuning specifiek Hojo Undo"
+        ],
+        "trainingEffects": [
+          "Verbeterde allround conditie",
+          "Blessurepreventie"
+        ]
+      },
+      "construction": {
+        "title": "Benodigdheden",
+        "materials": [
+          "Lichaamsgewicht",
+          "Rekstok",
+          "Touwen"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aandachtspunten",
+        "importantPoints": [
+          "Luister naar je lichaam",
+          "Variatie is belangrijk voor progressie"
+        ],
+        "safetyGuidelines": [
+          "Voer technieken correct uit",
+          "Neem rustdagen"
+        ]
+      },
+      "exercises": {
+        "title": "Oefeningen",
+        "basicExercises": [
+          "Push-ups (diverse varianten: vuist, vingers)",
+          "Sit-ups / Crunches / Leg raises",
+          "Squats / Lunges",
+          "Pull-ups / Chin-ups"
+        ]
       }
     }
   },

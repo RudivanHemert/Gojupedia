@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { 
-  ChevronRight, 
-  Hammer, 
-  Weight, 
-  CircleEllipsis, 
-  HandMetal, 
-  Eye, 
-  BookOpen, 
+import {
+  ChevronRight,
+  Hammer,
+  Weight,
+  CircleEllipsis,
+  HandMetal,
+  Eye,
+  BookOpen,
   Dumbbell,
   Target,
   Shield,
@@ -27,7 +27,7 @@ const HojoUndoPage = () => {
   const { t } = useTranslation();
 
   const getEquipmentData = () => {
-    const equipment = ['chiIshi', 'nigiriGame', 'kongoken', 'ishiSashi', 'udeTanren'];
+    const equipment = ['chiIshi', 'nigiriGame', 'kongoken', 'ishiSashi', 'udeTanren', 'makiage', 'ton', 'udeKetae', 'doubleHandleChiishi', 'supplemental'];
     return equipment.map(key => {
       const data = t(`hojoUndo.equipment.${key}`, { returnObjects: true }) as any;
       return {
@@ -51,7 +51,12 @@ const HojoUndoPage = () => {
       nigiriGame: Dumbbell,
       kongoken: Target,
       ishiSashi: Shield,
-      udeTanren: Dumbbell
+      udeTanren: HandMetal,
+      makiage: CircleEllipsis,
+      ton: Hammer,
+      udeKetae: HandMetal,
+      doubleHandleChiishi: Weight,
+      supplemental: Brain
     };
     return icons[key as keyof typeof icons] || BookOpen;
   };
@@ -62,7 +67,12 @@ const HojoUndoPage = () => {
       nigiriGame: 'bg-green-500',
       kongoken: 'bg-orange-500',
       ishiSashi: 'bg-purple-500',
-      udeTanren: 'bg-red-500'
+      udeTanren: 'bg-red-500',
+      makiage: 'bg-teal-500',
+      ton: 'bg-amber-700',
+      udeKetae: 'bg-rose-600',
+      doubleHandleChiishi: 'bg-indigo-600',
+      supplemental: 'bg-cyan-600'
     };
     return colors[key as keyof typeof colors] || 'bg-gray-500';
   };
@@ -73,9 +83,25 @@ const HojoUndoPage = () => {
       nigiriGame: 'text-green-500',
       kongoken: 'text-orange-500',
       ishiSashi: 'text-purple-500',
-      udeTanren: 'text-red-500'
+      udeTanren: 'text-red-500',
+      makiage: 'text-teal-500',
+      ton: 'text-amber-700',
+      udeKetae: 'text-rose-600',
+      doubleHandleChiishi: 'text-indigo-600',
+      supplemental: 'text-cyan-600'
     };
     return colors[key as keyof typeof colors] || 'text-muted-foreground';
+  };
+
+  const getEquipmentImage = (key: string) => {
+    const images = {
+      makiage: '/images/hojo-undo/makiage.png',
+      ton: '/images/hojo-undo/ton.png',
+      udeKetae: '/images/hojo-undo/udeKetae.png',
+      doubleHandleChiishi: '/images/hojo-undo/doubleHandleChiishi.png',
+      supplemental: '/images/hojo-undo/supplemental.png'
+    };
+    return images[key as keyof typeof images];
   };
 
   const mainSections: Array<{
@@ -86,6 +112,7 @@ const HojoUndoPage = () => {
     color: string;
     textColor: string;
     category: string;
+    image?: string;
     links: Array<{
       name: string;
       path: string;
@@ -94,29 +121,58 @@ const HojoUndoPage = () => {
     }>;
     exercises?: Array<{ title: string; text: string }>;
   }> = [
-    {
-      title: t('hojoUndo.introduction.title'),
-      description: t('hojoUndo.introduction.content.description'),
-      icon: BookOpen,
-      color: 'bg-indigo-500',
-      textColor: 'text-indigo-500',
-      category: t('hojoUndo.categories.introduction'),
-      links: [
-        { 
-          name: t('hojoUndo.introduction.title'), 
-          path: '/hojo-undo/general/intro',
-          icon: BookOpen,
-          description: t('hojoUndo.common.learnFundamentals')
-        },
-      ],
-    },
-    ...equipment.map(item => {
-      const Icon = getEquipmentIcon(item.key);
-      const color = getEquipmentColor(item.key);
-      const textColor = getEquipmentTextColor(item.key);
-      
-      // Special handling for Ude Tanren which has a different structure
-      if (item.key === 'udeTanren') {
+      {
+        title: t('hojoUndo.introduction.title'),
+        description: t('hojoUndo.introduction.content.description'),
+        icon: BookOpen,
+        color: 'bg-indigo-500',
+        textColor: 'text-indigo-500',
+        category: t('hojoUndo.categories.introduction'),
+        links: [
+          {
+            name: t('hojoUndo.introduction.title'),
+            path: '/hojo-undo/general/intro',
+            icon: BookOpen,
+            description: t('hojoUndo.common.learnFundamentals')
+          },
+        ],
+      },
+      ...equipment.map(item => {
+        const Icon = getEquipmentIcon(item.key);
+        const color = getEquipmentColor(item.key);
+        const textColor = getEquipmentTextColor(item.key);
+        const image = getEquipmentImage(item.key);
+
+        // Special handling for Ude Tanren which has a different structure
+        if (item.key === 'udeTanren') {
+          return {
+            title: item.data.name,
+            translation: item.data.translation,
+            description: item.data.description,
+            icon: Icon,
+            color,
+            textColor,
+            image,
+            category: t('hojoUndo.categories.primaryEquipment'),
+            links: [
+              {
+                name: 'Informatie',
+                path: '/hojo-undo/ude-tanren/information',
+                icon: Info,
+                description: 'Algemene informatie over Ude Tanren'
+              },
+              {
+                name: 'Oefeningen',
+                path: '/hojo-undo/ude-tanren/exercises',
+                icon: Dumbbell,
+                description: 'Specifieke oefeningen en routines'
+              },
+            ],
+            exercises: item.data.exercises
+          };
+        }
+
+        // Original logic for other equipment
         return {
           title: item.data.name,
           translation: item.data.translation,
@@ -124,152 +180,137 @@ const HojoUndoPage = () => {
           icon: Icon,
           color,
           textColor,
+          image,
           category: t('hojoUndo.categories.primaryEquipment'),
           links: [
-            { 
-              name: 'Informatie', 
-              path: '/hojo-undo/ude-tanren/information',
-              icon: Info,
-              description: 'Algemene informatie over Ude Tanren'
+            {
+              name: item.data.function?.title || 'Function',
+              path: `/hojo-undo/${item.key}/function`,
+              icon: Target,
+              description: t('hojoUndo.common.understandingPurpose')
             },
-            { 
-              name: 'Oefeningen', 
-              path: '/hojo-undo/ude-tanren/exercises',
+            {
+              name: item.data.construction?.title || 'Construction',
+              path: `/hojo-undo/${item.key}/construction`,
+              icon: Hammer,
+              description: t('hojoUndo.common.buildMaintain')
+            },
+            {
+              name: item.data.attentionPoints?.title || 'Attention Points',
+              path: `/hojo-undo/${item.key}/attentionPoints`,
+              icon: Shield,
+              description: t('hojoUndo.common.safetyTechnique')
+            },
+            {
+              name: item.data.exercises?.title || 'Exercises',
+              path: `/hojo-undo/${item.key}/exercises`,
               icon: Dumbbell,
-              description: 'Specifieke oefeningen en routines'
+              description: t('hojoUndo.common.specificExercises')
             },
           ],
           exercises: item.data.exercises
         };
-      }
-      
-      // Original logic for other equipment
-      return {
-        title: item.data.name,
-        translation: item.data.translation,
-        description: item.data.description,
-        icon: Icon,
-        color,
-        textColor,
-        category: t('hojoUndo.categories.primaryEquipment'),
-        links: [
-          { 
-            name: item.data.function?.title || 'Function', 
-            path: `/hojo-undo/${item.key}/function`,
-            icon: Target,
-            description: t('hojoUndo.common.understandingPurpose')
-          },
-          { 
-            name: item.data.construction?.title || 'Construction', 
-            path: `/hojo-undo/${item.key}/construction`,
-            icon: Hammer,
-            description: t('hojoUndo.common.buildMaintain')
-          },
-          { 
-            name: item.data.attentionPoints?.title || 'Attention Points', 
-            path: `/hojo-undo/${item.key}/attentionPoints`,
-            icon: Shield,
-            description: t('hojoUndo.common.safetyTechnique')
-          },
-          { 
-            name: item.data.exercises?.title || 'Exercises', 
-            path: `/hojo-undo/${item.key}/exercises`,
-            icon: Dumbbell,
-            description: t('hojoUndo.common.specificExercises')
-          },
-        ],
-        exercises: item.data.exercises
-      };
-    })
-  ];
+      })
+    ];
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('hojoUndo.title')}
         description={t('hojoUndo.description')}
         backUrl="/practice"
       />
       <div className="p-4 space-y-6">
 
-      {/* Main Sections */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="space-y-4"
-      >
-        <h2 className="text-xl font-semibold flex items-center">
-          <Weight className="mr-2 h-5 w-5" />
-          {t('hojoUndo.sections.trainingSections')}
-        </h2>
-        <div className="space-y-4">
-          {mainSections.map((section, index) => (
-            <motion.div
-              key={section.title}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader className="pb-3">
-                  <CardTitle className="flex items-center justify-between">
-                    <div className="flex items-center">
-                      <div className={`p-2 rounded-full ${section.color} text-white mr-3`}>
-                        <section.icon className="h-4 w-4" />
-                      </div>
-                      <div>
-                        <div className="text-lg">{section.title}</div>
-                        {section.translation && (
-                          <div className="text-sm text-muted-foreground font-normal">
-                            {section.translation}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                    <Badge variant="outline" className="text-xs">
-                      {section.category}
-                    </Badge>
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <p className="text-muted-foreground text-sm">{section.description}</p>
-                  
-                  {Array.isArray(section.exercises) && (
-                    <ul className="mt-2 space-y-2">
-                      {section.exercises.map((ex, i) => (
-                        <li key={i} className="border-l-4 border-red-500 pl-3">
-                          <div className="font-semibold">{ex.title}</div>
-                          <div className="text-sm text-muted-foreground whitespace-pre-line">{ex.text}</div>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                  
-                  <div className="space-y-2">
-                    {section.links?.map(link => (
-                      <Link 
-                        key={link.path} 
-                        to={link.path} 
-                        className="flex justify-between items-center p-3 rounded-lg border hover:bg-muted transition-colors group"
-                      >
-                        <div className="flex items-center">
-                          <link.icon className={`mr-3 h-4 w-4 ${section.textColor}`} />
-                          <div>
-                            <div className="font-medium">{link.name}</div>
-                            <div className="text-xs text-muted-foreground">{link.description}</div>
-                          </div>
+        {/* Main Sections */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="space-y-4"
+        >
+          <h2 className="text-xl font-semibold flex items-center">
+            <Weight className="mr-2 h-5 w-5" />
+            {t('hojoUndo.sections.trainingSections')}
+          </h2>
+          <div className="space-y-4">
+            {mainSections.map((section, index) => (
+              <motion.div
+                key={section.title}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader className="pb-3">
+                    <CardTitle className="flex items-center justify-between">
+                      <div className="flex items-center">
+                        <div className={`p-2 rounded-full ${section.color} text-white mr-3`}>
+                          <section.icon className="h-4 w-4" />
                         </div>
-                        <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary" />
-                      </Link>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
+                        <div>
+                          <div className="text-lg">{section.title}</div>
+                          {section.translation && (
+                            <div className="text-sm text-muted-foreground font-normal">
+                              {section.translation}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      <Badge variant="outline" className="text-xs">
+                        {section.category}
+                      </Badge>
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3">
+                    {section.image && (
+                      <div className="mb-4 overflow-hidden rounded-lg border bg-white">
+                        <div className="aspect-video relative w-full overflow-hidden">
+                          <img
+                            src={section.image}
+                            alt={section.title}
+                            className="absolute inset-0 h-full w-full object-contain p-4 transition-transform duration-300 hover:scale-105"
+                          />
+                        </div>
+                      </div>
+                    )}
+                    <p className="text-muted-foreground text-sm">{section.description}</p>
+
+                    {Array.isArray(section.exercises) && (
+                      <ul className="mt-2 space-y-2">
+                        {section.exercises.map((ex, i) => (
+                          <li key={i} className="border-l-4 border-red-500 pl-3">
+                            <div className="font-semibold">{ex.title}</div>
+                            <div className="text-sm text-muted-foreground whitespace-pre-line">{ex.text}</div>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
+                    <div className="space-y-2">
+                      {section.links?.map(link => (
+                        <Link
+                          key={link.path}
+                          to={link.path}
+                          className="flex justify-between items-center p-3 rounded-lg border hover:bg-muted transition-colors group"
+                        >
+                          <div className="flex items-center">
+                            <link.icon className={`mr-3 h-4 w-4 ${section.textColor}`} />
+                            <div>
+                              <div className="font-medium">{link.name}</div>
+                              <div className="text-xs text-muted-foreground">{link.description}</div>
+                            </div>
+                          </div>
+                          <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary" />
+                        </Link>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </div>
   );

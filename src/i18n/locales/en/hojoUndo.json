@@ -137,10 +137,22 @@
       "construction": {
         "title": "Construction",
         "dimensions": {
-          "stickLength": { "label": "Stick Length", "value": "Preferably shoulder width (longer versions for throwing techniques)" },
-          "stickDiameter": { "label": "Stick Diameter", "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)" },
-          "stoneDiameter": { "label": "Stone Diameter", "value": "No more than 20-30 cm (limited movement space)" },
-          "stoneHeight": { "label": "Stone Height", "value": "No higher than 10-15 cm" }
+          "stickLength": {
+            "label": "Stick Length",
+            "value": "Preferably shoulder width (longer versions for throwing techniques)"
+          },
+          "stickDiameter": {
+            "label": "Stick Diameter",
+            "value": "Thickness determines training effect (thin = chinkuchi kakin, thick = wrist grip)"
+          },
+          "stoneDiameter": {
+            "label": "Stone Diameter",
+            "value": "No more than 20-30 cm (limited movement space)"
+          },
+          "stoneHeight": {
+            "label": "Stone Height",
+            "value": "No higher than 10-15 cm"
+          }
         },
         "materials": {
           "stone": "Concrete mixture with fine gravel",
@@ -274,10 +286,22 @@
           "Reinforced handles for secure grip"
         ],
         "dimensions": {
-          "length": { "label": "Length", "value": "60-80 cm" },
-          "width": { "label": "Width", "value": "30-40 cm" },
-          "handleDiameter": { "label": "Handle Diameter", "value": "3-4 cm" },
-          "weight": { "label": "Weight", "value": "30-40 kg" }
+          "length": {
+            "label": "Length",
+            "value": "60-80 cm"
+          },
+          "width": {
+            "label": "Width",
+            "value": "30-40 cm"
+          },
+          "handleDiameter": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "30-40 kg"
+          }
         }
       },
       "attentionPoints": {
@@ -329,10 +353,22 @@
           "Smooth surface finish"
         ],
         "dimensions": {
-          "body": { "label": "Body", "value": "15-25 cm length" },
-          "handle": { "label": "Handle Diameter", "value": "3-4 cm" },
-          "weight": { "label": "Weight", "value": "2-8 kg depending on level" },
-          "shape": { "label": "Shape", "value": "Rectangular or cylindrical" }
+          "body": {
+            "label": "Body",
+            "value": "15-25 cm length"
+          },
+          "handle": {
+            "label": "Handle Diameter",
+            "value": "3-4 cm"
+          },
+          "weight": {
+            "label": "Weight",
+            "value": "2-8 kg depending on level"
+          },
+          "shape": {
+            "label": "Shape",
+            "value": "Rectangular or cylindrical"
+          }
         }
       },
       "attentionPoints": {
@@ -371,6 +407,247 @@
         "title": "Exercises",
         "description": "Specific exercises and routines"
       }
+    },
+    "makiage": {
+      "name": "Makiage Kigu",
+      "translation": "Wrist Roller",
+      "description": "Weight on rope for wrist and forearm training",
+      "origin": "Okinawa",
+      "weight": "Variable",
+      "function": {
+        "title": "Function",
+        "description": "The Makiage Kigu is used to strengthen the wrists and forearms.",
+        "mainFunctions": [
+          "Strengthening of wrist joints",
+          "Development of grip strength",
+          "Training of forearm muscles"
+        ],
+        "trainingEffects": [
+          "Improved wrist stability",
+          "Increase in grip strength",
+          "Strengthened forearms"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Wooden dowel as handle",
+          "Strong rope",
+          "Weight (stone or metal)"
+        ],
+        "dimensions": {
+          "handle": {
+            "label": "Handle",
+            "value": "Shoulder width"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Keep arms straight in front",
+          "Roll up and down continuously",
+          "Keep shoulders low and relaxed",
+          "Use wrist power, not shoulder power"
+        ],
+        "safetyGuidelines": [
+          "Start with light weight",
+          "Stop at pain in wrists",
+          "Check rope for wear"
+        ]
+      },
+      "exercises": {
+        "title": "Exercises",
+        "basicExercises": [
+          "Rolling up (palms down)",
+          "Rolling up (palms up)",
+          "Rolling down clearly"
+        ]
+      }
+    },
+    "ton": {
+      "name": "Ton",
+      "translation": "Hammer/Weight",
+      "description": "Heavy hammer-like weight for strength training",
+      "origin": "Okinawa/China",
+      "weight": "Variable",
+      "function": {
+        "title": "Function",
+        "description": "The Ton (or Tun) is used for specific upper body strength training.",
+        "mainFunctions": [
+          "Strength training shoulders and arms",
+          "Conditioning of joints"
+        ],
+        "trainingEffects": [
+          "Increase muscle strength",
+          "Improved coordination"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Wooden handle",
+          "Heavy weight (stone/metal) at end"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Correct grip essential",
+          "Maintain stable stance (Sanchin/Shiko dachi)"
+        ],
+        "safetyGuidelines": [
+          "Watch out for falling weight",
+          "Use footwear"
+        ]
+      },
+      "exercises": {
+        "title": "Exercises",
+        "basicExercises": [
+          "Forward lifting",
+          "Sideways swinging"
+        ]
+      }
+    },
+    "udeKetae": {
+      "name": "Ude Kitae",
+      "translation": "Arm Hardening",
+      "description": "Training to harden the arms",
+      "origin": "Okinawa",
+      "function": {
+        "title": "Function",
+        "description": "Exercises to make arms resistant to impact and pain.",
+        "mainFunctions": [
+          "Hardening of forearms (bone and muscle)",
+          "Pain reduction when blocking",
+          "Strengthening bone structure"
+        ],
+        "trainingEffects": [
+          "Less sensitivity to impact",
+          "Harder and stronger arms"
+        ]
+      },
+      "construction": {
+        "title": "Execution",
+        "materials": [
+          "Partner",
+          "Makiwara",
+          "Wooden post"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Build intensity slowly",
+          "Focus on exhalation at impact",
+          "Relax muscles during impact"
+        ],
+        "safetyGuidelines": [
+          "Avoid severe bruising initially",
+          "Do not train on fresh bruises",
+          "Use Chinese herbal medicine (Dit Da Jow)"
+        ]
+      },
+      "exercises": {
+        "title": "Exercises",
+        "basicExercises": [
+          "Kote kitae (partner exercise)",
+          "Striking against makiwara with arm",
+          "Three-part contact"
+        ]
+      }
+    },
+    "doubleHandleChiishi": {
+      "name": "Double Handle Chi Ishi",
+      "translation": "Double Chi Ishi",
+      "description": "Special Chi Ishi with two handles or performing with two normal Chi Ishi",
+      "origin": "Okinawa",
+      "weight": "Variable",
+      "function": {
+        "title": "Function",
+        "description": "Variant of standard Chi Ishi for two-handed exercises.",
+        "mainFunctions": [
+          "Symmetrical strength training",
+          "Coordination left/right",
+          "Core stability"
+        ],
+        "trainingEffects": [
+          "Balanced muscle development",
+          "Improved core stiffness"
+        ]
+      },
+      "construction": {
+        "title": "Construction",
+        "materials": [
+          "Concrete weight with two protruding sticks",
+          "Or: two separate Chi Ishi"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Equal force distribution",
+          "Keep back straight"
+        ],
+        "safetyGuidelines": [
+          "Watch balance",
+          "Do not start too heavy"
+        ]
+      },
+      "exercises": {
+        "title": "Exercises",
+        "basicExercises": [
+          "Two-handed overhead swing",
+          "Presses with two hands"
+        ]
+      }
+    },
+    "supplemental": {
+      "name": "Supplemental Exercises",
+      "translation": "Supplemental Exercises",
+      "description": "Extra exercises supporting Hojo Undo",
+      "origin": "Modern/Traditional",
+      "function": {
+        "title": "Function",
+        "description": "Additional conditioning and strength training.",
+        "mainFunctions": [
+          "General fitness improvement",
+          "Flexibility and mobility",
+          "Supporting specific Hojo Undo"
+        ],
+        "trainingEffects": [
+          "Improved all-round condition",
+          "Injury prevention"
+        ]
+      },
+      "construction": {
+        "title": "Requirements",
+        "materials": [
+          "Body weight",
+          "Pull-up bar",
+          "Ropes"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Attention Points",
+        "importantPoints": [
+          "Listen to your body",
+          "Variation is important"
+        ],
+        "safetyGuidelines": [
+          "Perform techniques correctly",
+          "Take rest days"
+        ]
+      },
+      "exercises": {
+        "title": "Exercises",
+        "basicExercises": [
+          "Push-ups",
+          "Sit-ups / Crunches",
+          "Squats",
+          "Pull-ups"
+        ]
+      }
     }
   },
   "training": {
@@ -397,4 +674,4 @@
     "mental": "Mental Benefits",
     "safety": "Safety Benefits"
   }
-} 
+}

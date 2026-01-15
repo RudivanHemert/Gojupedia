@@ -388,6 +388,243 @@
         "title": "Übungen",
         "description": "Spezifische Übungen und Routinen"
       }
+    },
+    "makiage": {
+      "name": "Makiage Kigu",
+      "translation": "Handgelenkroller",
+      "description": "Gewicht am Seil für das Training von Handgelenk und Unterarm",
+      "origin": "Okinawa",
+      "weight": "Variabel",
+      "function": {
+        "title": "Funktion",
+        "description": "Der Makiage Kigu wird verwendet, um Handgelenke und Unterarme zu stärken.",
+        "mainFunctions": [
+          "Stärkung der Handgelenke",
+          "Entwicklung der Griffkraft",
+          "Training der Unterarmmuskulatur"
+        ],
+        "trainingEffects": [
+          "Verbesserte Handgelenkstabilität",
+          "Zunahme der Griffkraft",
+          "Gestärkte Unterarme"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Holzstab als Griff",
+          "Starkes Seil",
+          "Gewicht (Stein oder Metall)"
+        ],
+        "dimensions": {
+          "handle": {
+            "label": "Griff",
+            "value": "Schulterbreite"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Aufmerksamkeitspunkte",
+        "importantPoints": [
+          "Arme gerade vor sich halten",
+          "Kontrolliert auf- und abrollen",
+          "Schultern tief und entspannt halten",
+          "Kraft aus dem Handgelenk, nicht aus der Schulter"
+        ],
+        "safetyGuidelines": [
+          "Mit leichtem Gewicht beginnen",
+          "Bei Schmerzen in den Handgelenken stoppen",
+          "Seil auf Verschleiß prüfen"
+        ]
+      },
+      "exercises": {
+        "title": "Übungen",
+        "basicExercises": [
+          "Aufrollen (Handflächen nach unten)",
+          "Aufrollen (Handflächen nach oben)",
+          "Kontrolliertes Abrollen"
+        ]
+      }
+    },
+    "ton": {
+      "name": "Ton",
+      "translation": "Hammer/Gewicht",
+      "description": "Schweres hammerähnliches Gewicht für Krafttraining",
+      "origin": "Okinawa/China",
+      "weight": "Variabel",
+      "function": {
+        "title": "Funktion",
+        "description": "Der Ton (oder Tun) wird für spezielles Krafttraining des Oberkörpers verwendet.",
+        "mainFunctions": [
+          "Krafttraining für Schultern und Arme",
+          "Konditionierung der Gelenke"
+        ],
+        "trainingEffects": [
+          "Zunahme der Muskelkraft",
+          "Verbesserte Koordination"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Holzgriff",
+          "Schweres Gewicht (Stein/Metall) am Ende"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aufmerksamkeitspunkte",
+        "importantPoints": [
+          "Korrekter Griff unerlässlich",
+          "Stabile Haltung bewahren (Sanchin/Shiko dachi)"
+        ],
+        "safetyGuidelines": [
+          "Auf herabfallendes Gewicht achten",
+          "Schuhe tragen"
+        ]
+      },
+      "exercises": {
+        "title": "Übungen",
+        "basicExercises": [
+          "Vorwärts heben",
+          "Seitwärts schwingen"
+        ]
+      }
+    },
+    "udeKetae": {
+      "name": "Ude Kitae",
+      "translation": "Armabhärtung",
+      "description": "Training zur Abhärtung der Arme",
+      "origin": "Okinawa",
+      "function": {
+        "title": "Funktion",
+        "description": "Übungen, um die Arme widerstandsfähig gegen Aufprall und Schmerz zu machen.",
+        "mainFunctions": [
+          "Abhärtung der Unterarme (Knochen und Muskel)",
+          "Schmerzreduktion beim Blocken",
+          "Stärkung der Knochenstruktur"
+        ],
+        "trainingEffects": [
+          "Weniger Empfindlichkeit gegenüber Aufprall",
+          "Härtere und stärkere Arme"
+        ]
+      },
+      "construction": {
+        "title": "Ausführung",
+        "materials": [
+          "Partner",
+          "Makiwara",
+          "Holzpfosten"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aufmerksamkeitspunkte",
+        "importantPoints": [
+          "Intensität langsam steigern",
+          "Fokus auf Ausatmung beim Aufprall",
+          "Muskeln beim Aufprall entspannen"
+        ],
+        "safetyGuidelines": [
+          "Starke Prellungen anfangs vermeiden",
+          "Nicht auf frischen blauen Flecken trainieren",
+          "Evtl. chinesisches Kräuteröl verwenden (Dit Da Jow)"
+        ]
+      },
+      "exercises": {
+        "title": "Übungen",
+        "basicExercises": [
+          "Kote kitae (Partnerübung)",
+          "Schlagen gegen Makiwara mit dem Arm",
+          "Dreiteiliger Kontakt (innen, außen, oben)"
+        ]
+      }
+    },
+    "doubleHandleChiishi": {
+      "name": "Double Handle Chi Ishi",
+      "translation": "Doppel-Chi Ishi",
+      "description": "Spezielles Chi Ishi mit zwei Griffen oder Ausführung mit zwei normalen Chi Ishis",
+      "origin": "Okinawa",
+      "weight": "Variabel",
+      "function": {
+        "title": "Funktion",
+        "description": "Variante des Standard-Chi Ishi für zweihändige Übungen.",
+        "mainFunctions": [
+          "Symmetrisches Krafttraining",
+          "Koordination links/rechts",
+          "Rumpfstabilität"
+        ],
+        "trainingEffects": [
+          "Ausgewogene Muskelentwicklung",
+          "Verbesserte Rumpfsteifigkeit"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Betongewicht mit zwei herausragenden Stöcken",
+          "Oder: zwei separate Chi Ishis"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aufmerksamkeitspunkte",
+        "importantPoints": [
+          "Gleiche Kraftverteilung",
+          "Rücken gerade halten"
+        ]
+      },
+      "exercises": {
+        "title": "Übungen",
+        "basicExercises": [
+          "Zweihändiges Schwingen über den Kopf",
+          "Drücken mit zwei Händen"
+        ]
+      }
+    },
+    "supplemental": {
+      "name": "Supplemental Exercises",
+      "translation": "Ergänzende Übungen",
+      "description": "Zusätzliche Übungen zur Unterstützung von Hojo Undo",
+      "origin": "Modern/Traditionell",
+      "function": {
+        "title": "Funktion",
+        "description": "Zusätzliche Konditionierung und Krafttraining.",
+        "mainFunctions": [
+          "Allgemeine Fitnessverbesserung",
+          "Flexibilität und Mobilität",
+          "Unterstützung des spezifischen Hojo Undo"
+        ],
+        "trainingEffects": [
+          "Verbesserte Allround-Kondition",
+          "Verletzungsprävention"
+        ]
+      },
+      "construction": {
+        "title": "Anforderungen",
+        "materials": [
+          "Körpergewicht",
+          "Klimmzugstange",
+          "Seile"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Aufmerksamkeitspunkte",
+        "importantPoints": [
+          "Auf den Körper hören",
+          "Variation ist wichtig"
+        ],
+        "safetyGuidelines": [
+          "Techniken korrekt ausführen",
+          "Ruhetage einlegen"
+        ]
+      },
+      "exercises": {
+        "title": "Übungen",
+        "basicExercises": [
+          "Liegestütze",
+          "Sit-ups / Crunches",
+          "Kniebeugen",
+          "Klimmzüge"
+        ]
+      }
     }
   },
   "sections": {

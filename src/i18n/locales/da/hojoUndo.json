@@ -407,6 +407,243 @@
         "title": "Exercises",
         "description": "Specific exercises and routines"
       }
+    },
+    "makiage": {
+      "name": "Makiage Kigu",
+      "translation": "Håndledsrulle",
+      "description": "Vægt på reb til håndleds- og underarmstræning",
+      "origin": "Okinawa",
+      "weight": "Variabel",
+      "function": {
+        "title": "Funktion",
+        "description": "Makiage Kigu bruges til at styrke håndled og underarme.",
+        "mainFunctions": [
+          "Styrkelse af håndled",
+          "Udvikling af grebsstyrke",
+          "Træning af underarmsmuskler"
+        ],
+        "trainingEffects": [
+          "Forbedret håndledsstabilitet",
+          "Øget grebsstyrke",
+          "Stærkere underarme"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Træpind som håndtag",
+          "Stærkt reb",
+          "Vægt (sten eller metal)"
+        ],
+        "dimensions": {
+          "handle": {
+            "label": "Håndtag",
+            "value": "Skulderbredde"
+          }
+        }
+      },
+      "attentionPoints": {
+        "title": "Opmærksomhedspunkter",
+        "importantPoints": [
+          "Hold armene strakt foran dig",
+          "Rul op og ned kontrolleret",
+          "Hold skuldrene nede og afslappede",
+          "Brug håndleddets kraft, ikke skuldrenes"
+        ],
+        "safetyGuidelines": [
+          "Start med let vægt",
+          "Stop ved smerter i håndleddene",
+          "Tjek rebet for slid"
+        ]
+      },
+      "exercises": {
+        "title": "Øvelser",
+        "basicExercises": [
+          "Oprulning (håndflader ned)",
+          "Oprulning (håndflader op)",
+          "Kontrolleret nedrulning"
+        ]
+      }
+    },
+    "ton": {
+      "name": "Ton",
+      "translation": "Hammer/Vægt",
+      "description": "Tungt hammerlignende vægt til styrketræning",
+      "origin": "Okinawa/Kina",
+      "weight": "Variabel",
+      "function": {
+        "title": "Funktion",
+        "description": "Ton (eller Tun) bruges til specifik styrketræning af overkroppen.",
+        "mainFunctions": [
+          "Styrketræning af skuldre og arme",
+          "Konditionering af led"
+        ],
+        "trainingEffects": [
+          "Øget muskelstyrke",
+          "Forbedret koordination"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Træhåndtag",
+          "Tung vægt (sten/metal) i enden"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Opmærksomhedspunkter",
+        "importantPoints": [
+          "Korrekt greb er essentielt",
+          "Oprethold stabil holdning (Sanchin/Shiko dachi)"
+        ],
+        "safetyGuidelines": [
+          "Pas på faldende vægt",
+          "Brug fodtøj"
+        ]
+      },
+      "exercises": {
+        "title": "Øvelser",
+        "basicExercises": [
+          "Løft fremad",
+          "Sving til siden"
+        ]
+      }
+    },
+    "udeKetae": {
+      "name": "Ude Kitae",
+      "translation": "Armhærdning",
+      "description": "Træning for at hærde armene",
+      "origin": "Okinawa",
+      "function": {
+        "title": "Funktion",
+        "description": "Øvelser for at gøre armene modstandsdygtige over for slag og smerte.",
+        "mainFunctions": [
+          "Hærdning af underarme (knogle og muskel)",
+          "Smertereduktion ved blokering",
+          "Styrkelse af knoglestruktur"
+        ],
+        "trainingEffects": [
+          "Mindre følsomhed over for slag",
+          "Hårdere og stærkere arme"
+        ]
+      },
+      "construction": {
+        "title": "Udførelse",
+        "materials": [
+          "Partner",
+          "Makiwara",
+          "Træstolpe"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Opmærksomhedspunkter",
+        "importantPoints": [
+          "Øg intensiteten langsomt",
+          "Fokusér på udånding ved slag",
+          "Slap af i musklerne under slag"
+        ],
+        "safetyGuidelines": [
+          "Undgå alvorlige blå mærker i starten",
+          "Træn ikke på friske blå mærker",
+          "Brug evt. kinesisk urteolie (Dit Da Jow)"
+        ]
+      },
+      "exercises": {
+        "title": "Øvelser",
+        "basicExercises": [
+          "Kote kitae (partnerøvelse)",
+          "Slag mod makiwara med armen",
+          "Tredelt kontakt (indre, ydre, over)"
+        ]
+      }
+    },
+    "doubleHandleChiishi": {
+      "name": "Double Handle Chi Ishi",
+      "translation": "Dobbeltgreb Chi Ishi",
+      "description": "Speciel Chi Ishi med to håndtag eller udført med to normale Chi Ishier",
+      "origin": "Okinawa",
+      "weight": "Variabel",
+      "function": {
+        "title": "Funktion",
+        "description": "Variant af standard Chi Ishi til tohåndsøvelser.",
+        "mainFunctions": [
+          "Symmetrisk styrketræning",
+          "Koordination venstre/højre",
+          "Kernestabilitet"
+        ],
+        "trainingEffects": [
+          "Balanceret muskeludvikling",
+          "Forbedret kernestabilitet"
+        ]
+      },
+      "construction": {
+        "title": "Konstruktion",
+        "materials": [
+          "Betonvægt med to fremspringende pinde",
+          "Eller: to separate Chi Ishier"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Opmærksomhedspunkter",
+        "importantPoints": [
+          "Lige styrkefordeling",
+          "Hold ryggen lige"
+        ]
+      },
+      "exercises": {
+        "title": "Øvelser",
+        "basicExercises": [
+          "Sving med to hænder over hovedet",
+          "Pres med to hænder"
+        ]
+      }
+    },
+    "supplemental": {
+      "name": "Supplemental Exercises",
+      "translation": "Supplerende Øvelser",
+      "description": "Ekstra øvelser til støtte for Hojo Undo",
+      "origin": "Moderne/Traditionel",
+      "function": {
+        "title": "Funktion",
+        "description": "Ekstra konditionering og styrketræning.",
+        "mainFunctions": [
+          "Generel fitnessforbedring",
+          "Fleksibilitet og mobilitet",
+          "Specifik støtte til Hojo Undo"
+        ],
+        "trainingEffects": [
+          "Forbedret almen kondition",
+          "Skadesforebyggelse"
+        ]
+      },
+      "construction": {
+        "title": "Krav",
+        "materials": [
+          "Kropsvægt",
+          "Pull-up stang",
+          "Reb"
+        ]
+      },
+      "attentionPoints": {
+        "title": "Opmærksomhedspunkter",
+        "importantPoints": [
+          "Lyt til din krop",
+          "Variation er vigtig"
+        ],
+        "safetyGuidelines": [
+          "Udfør teknikker korrekt",
+          "Hold hviledage"
+        ]
+      },
+      "exercises": {
+        "title": "Øvelser",
+        "basicExercises": [
+          "Armbøjninger",
+          "Mavebøjninger",
+          "Knæbøjninger",
+          "Kropshævninger"
+        ]
+      }
     }
   },
   "training": {
