@@ -4,6 +4,7 @@ import { Menu, ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import CustomSidebar from './CustomSidebar';
 import { useNavigate } from 'react-router-dom';
+import Breadcrumbs from '@/components/ui/breadcrumbs';
 
 interface SidebarLayoutProps {
   children: ReactNode;
@@ -22,7 +23,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
     <div className="flex min-h-screen bg-background">
       {/* Sidebar - now overlays content on mobile, takes space on desktop */}
       <CustomSidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
-      
+
       {/* Main Content - takes full width on mobile, adjusts on desktop */}
       <main className="flex-1 flex flex-col min-h-screen w-full transition-all duration-300">
         {/* Top Header with Menu Button */}
@@ -54,18 +55,21 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
                 <Menu size={20} />
               </Button>
             </div>
-            
+
             {/* Center - Title */}
             <div className="flex-1 flex justify-center">
               <h1 className="text-lg font-semibold text-stone-800">
                 GojuPedia
               </h1>
             </div>
-            
+
             {/* Right side - Empty for balance */}
             <div className="w-10" />
           </header>
         )}
+
+        {/* Breadcrumbs */}
+        <Breadcrumbs />
 
         {/* Content Area - full width */}
         <div className="w-full px-0 py-0">
@@ -81,7 +85,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
           </motion.div>
         </div>
       </main>
-    </div>
+    </div >
   );
 };
 
