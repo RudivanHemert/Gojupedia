@@ -11,7 +11,7 @@ const OriginsSection = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('history.origins')}
         description={t('history.origins-desc')}
         backUrl="/history"

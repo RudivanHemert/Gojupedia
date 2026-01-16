@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import AudioButton from '@/components/ui/audio-button';
 
 const TournamentTerminology = () => {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ const TournamentTerminology = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('terminology.sections.tournament-terms')}
         description={content.description}
         backUrl="/terminology"
@@ -27,7 +28,11 @@ const TournamentTerminologyContent = ({ content }: { content: any }) => {
     <div className="grid gap-4">
       {Object.entries(terms).map(([key, value]: any) => (
         <div key={key} className="p-4 border rounded-lg">
-          <span className="font-semibold">{key}</span>: <span className="text-muted-foreground">{value}</span>
+          <div className="flex items-center gap-2">
+            <span className="font-semibold">{key}</span>
+            <AudioButton text={key} lang="ja-JP" size="sm" />
+            : <span className="text-muted-foreground">{value}</span>
+          </div>
         </div>
       ))}
     </div>

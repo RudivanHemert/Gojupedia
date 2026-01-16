@@ -4,12 +4,13 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { ChevronLeft, Image as ImageIcon, Video as VideoIcon, AlertCircle } from 'lucide-react';
 import { techniqueData } from '@/data/techniques'; // Import from the new data file
+import AudioButton from '@/components/ui/audio-button';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 
 
 const TechniqueDetailPage = () => {
   const { id } = useParams<{ id: string }>();
-  
+
   // Find the technique from the imported data
   let technique = null;
   let categoryTitle = '';
@@ -52,11 +53,14 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-3xl font-bold mb-1">{technique.name}</h1>
-          <p className="text-lg text-muted-foreground mb-1">{technique.japaneseName}</p>
+          <div className="flex items-center gap-2 mb-1">
+            <p className="text-lg text-muted-foreground">{technique.japaneseName}</p>
+            <AudioButton text={technique.japaneseName} lang="ja-JP" size="sm" />
+          </div>
           <p className="text-md text-muted-foreground italic mb-4">({technique.englishName})</p>
           <p className="text-sm text-primary font-medium">Category: {categoryTitle}</p>
         </motion.div>
-        
+
         {/* Description */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -123,13 +127,13 @@ const TechniqueDetailPage = () => {
           </h2>
           {technique.youtubeVideoId ? (
             <div className="aspect-video">
-              <iframe 
-                width="100%" 
-                height="100%" 
+              <iframe
+                width="100%"
+                height="100%"
                 src={`https://www.youtube.com/embed/${technique.youtubeVideoId}`}
                 title={`YouTube video player for ${technique.name}`}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerPolicy="strict-origin-when-cross-origin" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
                 className="rounded"
               ></iframe>

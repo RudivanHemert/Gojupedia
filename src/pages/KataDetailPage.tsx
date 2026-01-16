@@ -13,6 +13,7 @@ import InteractiveKataSteps, { KataStep } from '@/components/practice/Interactiv
 import { useProgress } from '@/hooks/useProgress';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import AudioButton from '@/components/ui/audio-button';
 
 interface LegacyKataStep {
   step: number;
@@ -343,7 +344,9 @@ const KataDetailPage = () => {
         id: `${kata.id}-step-${stepNum}`,
         number: stepNum,
         title: finalTitle,
-        description: finalDescription
+        description: finalDescription,
+        titleTranslationKey: titleKey,
+        descriptionTranslationKey: descriptionKey
       };
       translatedSteps.push(step);
     }

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import AudioButton from '@/components/AudioButton';
+import AudioButton from '@/components/ui/audio-button';
 
 const KarateDo = () => {
   const { t } = useTranslation();
@@ -60,7 +60,7 @@ const KarateDo = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('philosophy.sections.karate-do.title', 'Karate Do')}
         description={t('philosophy.sections.karate-do.description', 'De weg van de lege hand')}
         backUrl="/philosophy"
@@ -77,13 +77,13 @@ const KarateDo = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span>空手道</span>
-                  <AudioButton text="Karate Do" />
+                  <AudioButton text="Karate Do" lang="ja-JP" />
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  Karate Do betekent letterlijk "de weg van de lege hand". Het woord "kara" betekent leeg, 
-                  "te" betekent hand, en "do" betekent weg. Dit verwijst niet alleen naar het feit dat karate 
+                  Karate Do betekent letterlijk "de weg van de lege hand". Het woord "kara" betekent leeg,
+                  "te" betekent hand, en "do" betekent weg. Dit verwijst niet alleen naar het feit dat karate
                   zonder wapens wordt beoefend, maar ook naar de spirituele dimensie van het leegmaken van de geest.
                 </p>
 
@@ -120,11 +120,11 @@ const KarateDo = () => {
                       <div className="flex items-start justify-between mb-2">
                         <div className="flex items-center gap-2">
                           <span className="text-xl font-medium">{principle.japanese}</span>
-                          <AudioButton text={principle.romaji} />
+                          <AudioButton text={principle.romaji} lang="ja-JP" />
                         </div>
                         <Badge variant="outline">{principle.romaji}</Badge>
                       </div>
-                      
+
                       <div className="space-y-2">
                         <p className="font-medium text-foreground">
                           {principle.dutch} / {principle.english}
@@ -140,8 +140,8 @@ const KarateDo = () => {
                 <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
                   <h4 className="font-semibold text-yellow-800 mb-2">De Lege Hand</h4>
                   <p className="text-yellow-700 text-sm">
-                    "Kara" (空) betekent niet alleen "leeg" in de zin van zonder wapens, 
-                    maar ook "leeg" in de spirituele zin - het leegmaken van de geest van 
+                    "Kara" (空) betekent niet alleen "leeg" in de zin van zonder wapens,
+                    maar ook "leeg" in de spirituele zin - het leegmaken van de geest van
                     ego, angst en begeerte. Dit is de ware betekenis van karate.
                   </p>
                 </div>

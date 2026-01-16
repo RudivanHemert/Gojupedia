@@ -10,9 +10,9 @@ const KanryoHigaonnaSection = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('history.kanryoHigaonna')}
-        description="De leraar van Chojun Miyagi en een belangrijke figuur in de ontwikkeling van Goju Ryu."
+        description={t('history.kanryoHigaonna-desc')}
         backUrl="/history"
       />
       <div className="p-4">

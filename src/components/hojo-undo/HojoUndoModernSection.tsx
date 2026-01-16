@@ -4,14 +4,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { 
-  ChevronLeft, 
-  Target, 
-  Brain, 
-  Shield, 
-  Clock, 
-  Users, 
-  Info, 
+import {
+  ChevronLeft,
+  Target,
+  Brain,
+  Shield,
+  Clock,
+  Users,
+  Info,
   ArrowRight,
   Weight,
   Zap,
@@ -25,6 +25,7 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import AudioButton from '@/components/ui/audio-button';
 
 interface HojoUndoModernSectionProps {
   equipmentKey: 'chiIshi' | 'nigiriGame' | 'kongoken' | 'ishiSashi' | 'makiwara' | 'tan' | 'tetsuGeta' | 'jariBako' | 'ton' | 'makiage' | 'udeTanren';
@@ -56,7 +57,7 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
     if (equipmentKey === 'udeTanren') {
       const sections = ['information', 'exercises'];
       const icons = [Info, Activity];
-      
+
       return sections.map((sec, index) => ({
         path: `/hojo-undo/ude-tanren/${sec}`,
         label: sec === 'information' ? 'Informatie' : 'Oefeningen',
@@ -65,11 +66,11 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
         isActive: sec === sectionKey
       }));
     }
-    
+
     // Original logic for other equipment
     const sections = ['function', 'construction', 'attentionPoints', 'exercises'];
     const icons = [Target, Hammer, Eye, Activity];
-    
+
     // Map equipment keys to URL slugs
     const equipmentUrlMap: Record<string, string> = {
       'chiIshi': 'chi-ishi',
@@ -84,9 +85,9 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
       'makiage': 'makiage',
       'udeTanren': 'ude-tanren',
     };
-    
+
     const equipmentSlug = equipmentUrlMap[equipmentKey] || equipmentKey;
-    
+
     return sections.map((sec, index) => ({
       path: `/hojo-undo/${equipmentSlug}/${sec}`,
       label: t(`hojoUndo.equipment.${equipmentKey}.${sec}.title`),
@@ -250,7 +251,7 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
                         <strong>Techniek:</strong> Beide partners zwaaien de linkerarm ontspannen tegen elkaar aan (binnenkant van de arm)
                       </div>
                     </div>
-                    
+
                     <div className="border-l-4 border-blue-500 pl-4 py-2">
                       <h4 className="font-semibold text-lg mb-2">Stepping & Blocking Drill</h4>
                       <p className="text-base leading-relaxed mb-2">Dynamische oefening met stappen vooruit en achteruit, blokken en slagen</p>
@@ -279,7 +280,7 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
                         <strong>Focus:</strong> Behoud sanchin dachi positie en synchroniseer bewegingen met partner
                       </div>
                     </div>
-                    
+
                     <div className="border-l-4 border-orange-500 pl-4 py-2">
                       <h4 className="font-semibold text-lg mb-2">Sandan Uke Barai</h4>
                       <p className="text-base leading-relaxed mb-2">Three-step blocking practice met opeenvolgende technieken</p>
@@ -287,7 +288,7 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
                         <strong>Belangrijk:</strong> Niet ontwijken, maar contact maken en timing oefenen
                       </div>
                     </div>
-                    
+
                     <div className="border-l-4 border-orange-500 pl-4 py-2">
                       <h4 className="font-semibold text-lg mb-2">Wrist Rotation</h4>
                       <p className="text-base leading-relaxed mb-2">Pols rotatie oefening voor verbetering van verbinding en stabiliteit</p>
@@ -695,7 +696,10 @@ const HojoUndoModernSection: React.FC<HojoUndoModernSectionProps> = ({
         animate={{ opacity: 1, y: 0 }}
         className="text-center space-y-4"
       >
-        <h1 className="text-3xl font-bold">{equipment.name}</h1>
+        <div className="flex items-center justify-center gap-2">
+          <h1 className="text-3xl font-bold">{equipment.name}</h1>
+          <AudioButton text={equipment.name} lang="ja-JP" size="md" />
+        </div>
         <p className="text-xl text-muted-foreground">{equipment.translation}</p>
         <Badge variant="secondary" className="text-lg px-4 py-2">
           {section.title}

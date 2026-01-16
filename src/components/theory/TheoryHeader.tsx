@@ -8,9 +8,12 @@ interface TheoryHeaderProps {
   title: string;
   description: string;
   backUrl?: string;
+  audioKey?: string;
 }
 
-const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl }) => {
+
+
+const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl, audioKey }) => {
   const navigate = useNavigate();
 
   const handleBack = () => {
@@ -22,7 +25,7 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
   };
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -31,7 +34,7 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
       <div className="w-full px-4">
         {/* Global back button exists in SidebarLayout header; avoid duplicate back button here */}
         <div className="w-full text-center">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -39,14 +42,16 @@ const TheoryHeader: React.FC<TheoryHeaderProps> = ({ title, description, backUrl
           >
             {title}
           </motion.h1>
-          <motion.p 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-lg text-muted-foreground"
+            className="flex flex-col items-center justify-center gap-2"
           >
-            {description}
-          </motion.p>
+            <p className="text-lg text-muted-foreground">
+              {description}
+            </p>
+          </motion.div>
         </div>
       </div>
     </motion.div>

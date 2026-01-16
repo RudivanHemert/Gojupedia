@@ -9,12 +9,15 @@ import { Progress } from '@/components/ui/progress';
 import { Button } from '@/components/ui/button';
 import { CheckCircle } from 'lucide-react';
 
+
 export interface KataStep {
   id: string;
   number: number;
   title: string;
   description: string;
   image?: string;
+  titleTranslationKey?: string;
+  descriptionTranslationKey?: string;
 }
 
 interface KataStepsProps {
@@ -25,6 +28,12 @@ interface KataStepsProps {
 }
 
 const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, steps, showImages = false }) => {
+  // ... (existing code omitted for brevity until return) ...
+  // Wait, I cannot omit code in replace_file_content if I am targeting a large chunk.
+  // I will just replace the rendering part and the interface part separately?
+  // No, I need to update the interface first.
+  // Let's do interface first.
+
   // Safeguard against undefined or empty steps
   const validSteps = Array.isArray(steps) && steps.length > 0 ? steps : [];
 
@@ -38,7 +47,8 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
   }
 
   // Use a try-catch for the progress hook as well
-  let updateProgress = (id: string, type: string, progress: number) => {};
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let updateProgress: any = (id: string, type: string, progress: number) => { };
   try {
     const { updateProgress: progressUpdate } = useProgress();
     updateProgress = progressUpdate;
@@ -49,9 +59,9 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
   const [currentStep, setCurrentStep] = useState(0);
   const [progressPercent, setProgressPercent] = useState(0);
   const [error, setError] = useState<string | null>(null);
-  
+
   const totalSteps = validSteps.length;
-  
+
   // Add logging to debug
   useEffect(() => {
     console.log('InteractiveKataSteps: Component mounted');
@@ -59,7 +69,7 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
     console.log('InteractiveKataSteps: Valid steps count:', validSteps.length);
     console.log('InteractiveKataSteps: kataId:', kataId);
     console.log('InteractiveKataSteps: kataName:', kataName);
-    
+
     try {
       if (validSteps.length > 0) {
         console.log('InteractiveKataSteps: First step:', JSON.stringify(validSteps[0]));
@@ -72,7 +82,7 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
       setError(`Error processing steps data: ${err instanceof Error ? err.message : 'Unknown error'}`);
     }
   }, [steps, validSteps, kataId, kataName]);
-  
+
   // Reset currentStep if it's out of bounds
   useEffect(() => {
     if (currentStep >= totalSteps && totalSteps > 0) {
@@ -80,43 +90,43 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
       setCurrentStep(0);
     }
   }, [currentStep, totalSteps]);
-  
+
   // Update progress when steps are viewed
   useEffect(() => {
     if (totalSteps === 0) return;
-    
+
     // Calculate progress based on current step
     const newProgress = Math.min(100, Math.round(((currentStep + 1) / totalSteps) * 100));
     setProgressPercent(newProgress);
-    
+
     // Only update external progress tracking once per step
     const timer = setTimeout(() => {
       // Update progress in the hook after a delay to prevent rapid updates
       updateProgress(kataId, 'kata', newProgress);
     }, 1000);
-    
+
     return () => clearTimeout(timer);
   }, [currentStep, kataId, totalSteps, updateProgress]);
-  
+
   const handlePrevStep = () => {
     if (currentStep > 0) {
       setCurrentStep(currentStep - 1);
       setDirection(-1);
     }
   };
-  
+
   const handleNextStep = () => {
     if (currentStep < steps.length - 1) {
       setCurrentStep(currentStep + 1);
       setDirection(1);
     }
   };
-  
+
   const goToStep = (stepIndex: number) => {
     setDirection(stepIndex > currentStep ? 1 : -1);
     setCurrentStep(stepIndex);
   };
-  
+
   // Safely get current step data or fallback to default
   const getCurrentStepData = (): KataStep => {
     try {
@@ -140,9 +150,9 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
       };
     }
   };
-  
+
   const currentStepData = getCurrentStepData();
-  
+
   // Variants for animations
   const variants = {
     enter: (direction: number) => ({
@@ -158,10 +168,10 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
       opacity: 0
     })
   };
-  
+
   // Direction of slide animation
   const [direction, setDirection] = useState(0);
-  
+
   if (error) {
     return (
       <div className="bg-amber-50 dark:bg-amber-900 border border-amber-200 dark:border-amber-700 text-amber-800 dark:text-amber-100 p-6 rounded-lg">
@@ -178,7 +188,7 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
       </div>
     );
   }
-  
+
   if (totalSteps === 0) {
     return (
       <div className="bg-amber-50 dark:bg-amber-900 border border-amber-200 dark:border-amber-700 text-amber-800 dark:text-amber-100 p-6 rounded-lg">
@@ -192,7 +202,7 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
       </div>
     );
   }
-  
+
   return (
     <div className={`relative bg-white ${isDarkMode ? 'dark:bg-gray-900 dark:text-white' : ''}`}>
       {/* Progress bar at the top */}
@@ -221,10 +231,14 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
             className="relative"
           >
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold">{currentStepData.title}</h3>
-              <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">
-                {currentStepData.description}
-              </p>
+              <div className="flex items-center gap-2">
+                <h3 className="text-xl font-semibold">{currentStepData.title}</h3>
+              </div>
+              <div className="relative">
+                <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">
+                  {currentStepData.description}
+                </p>
+              </div>
             </div>
           </motion.div>
         </AnimatePresence>

@@ -4,6 +4,7 @@ import TheoryHeader from '@/components/theory/TheoryHeader';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Dumbbell, Activity, ArrowRight } from 'lucide-react';
+import AudioButton from '@/components/ui/audio-button';
 
 const Warmup = () => {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ const Warmup = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('terminology.warmup.title')}
         description={t('terminology.warmup.description')}
         backUrl="/terminology"
@@ -43,7 +44,7 @@ const Warmup = () => {
               {t('terminology.warmup.sectionDescription')}
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {trainingSections.map((section) => (
               <Link key={section.id} to={section.path} className="block">
@@ -54,7 +55,10 @@ const Warmup = () => {
                         {section.icon}
                       </div>
                       <h3 className="font-bold text-xl mb-1 text-foreground">{section.title}</h3>
-                      <p className="text-lg font-japanese text-muted-foreground mb-2">{section.subtitle}</p>
+                      <div className="flex items-center gap-2 justify-center mb-2">
+                        <span className="text-lg font-japanese text-muted-foreground">{section.subtitle}</span>
+                        <AudioButton text={section.subtitle} lang="ja-JP" size="sm" />
+                      </div>
                       <p className="text-muted-foreground leading-relaxed mb-4">{section.description}</p>
                       <div className="flex items-center text-blue-600 font-medium">
                         <span>{t('terminology.warmup.viewSection')}</span>

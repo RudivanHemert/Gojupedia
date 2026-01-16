@@ -22,6 +22,7 @@ import {
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import AudioButton from '@/components/ui/audio-button';
 
 const HojoUndoPage = () => {
   const { t } = useTranslation();
@@ -120,6 +121,7 @@ const HojoUndoPage = () => {
       description: string;
     }>;
     exercises?: Array<{ title: string; text: string }>;
+    audioTitleLang?: string;
   }> = [
       {
         title: t('hojoUndo.introduction.title'),
@@ -154,6 +156,7 @@ const HojoUndoPage = () => {
             textColor,
             image,
             category: t('hojoUndo.categories.primaryEquipment'),
+            audioTitleLang: 'ja-JP',
             links: [
               {
                 name: 'Informatie',
@@ -182,6 +185,7 @@ const HojoUndoPage = () => {
           textColor,
           image,
           category: t('hojoUndo.categories.primaryEquipment'),
+          audioTitleLang: 'ja-JP',
           links: [
             {
               name: item.data.function?.title || 'Function',
@@ -249,7 +253,17 @@ const HojoUndoPage = () => {
                           <section.icon className="h-4 w-4" />
                         </div>
                         <div>
-                          <div className="text-lg">{section.title}</div>
+                          <div className="text-lg flex items-center gap-2">
+                            {section.title}
+                            {section.audioTitleLang && (
+                              <AudioButton
+                                text={section.title}
+                                lang={section.audioTitleLang}
+                                size="sm"
+                                className="h-4 w-4"
+                              />
+                            )}
+                          </div>
                           {section.translation && (
                             <div className="text-sm text-muted-foreground font-normal">
                               {section.translation}
@@ -274,7 +288,9 @@ const HojoUndoPage = () => {
                         </div>
                       </div>
                     )}
-                    <p className="text-muted-foreground text-sm">{section.description}</p>
+                    <div className="relative">
+                      <p className="text-muted-foreground text-sm pr-6">{section.description}</p>
+                    </div>
 
                     {Array.isArray(section.exercises) && (
                       <ul className="mt-2 space-y-2">

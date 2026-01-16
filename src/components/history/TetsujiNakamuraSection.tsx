@@ -10,9 +10,9 @@ const TetsujiNakamuraSection = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('history.tetsujiNakamura')}
-        description="Een moderne Goju Ryu meester en leraar die de traditie voortzet in de 21e eeuw."
+        description={t('history.tetsujiNakamura-desc')}
         backUrl="/history"
       />
       <div className="p-4">

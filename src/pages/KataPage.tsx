@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import AudioButton from '@/components/ui/audio-button';
 import { katas } from '@/data';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -65,7 +66,7 @@ const KataPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('kata.theory.title')}
         description={t('kata.theory.description')}
         backUrl="/practice"
@@ -89,8 +90,8 @@ const KataPage = () => {
               </div>
               <div className="grid gap-4">
                 {categoryKatas.map((kata) => (
-                  <Link 
-                    key={kata.id} 
+                  <Link
+                    key={kata.id}
                     to={`/kata/${kata.id}`}
                     className="block transition-transform hover:scale-[1.02]"
                   >
@@ -102,8 +103,9 @@ const KataPage = () => {
                               <h3 className="text-xl font-semibold text-foreground">
                                 {t(`kata.${kata.id}.name`)}
                               </h3>
-                              <Badge variant="secondary" className="bg-red-100 text-red-800">
+                              <Badge variant="secondary" className="bg-red-100 text-red-800 flex items-center gap-1">
                                 {t(`kata.${kata.id}.japaneseName`)}
+                                <AudioButton text={t(`kata.${kata.id}.japaneseName`)} lang="ja-JP" size="sm" className="h-4 w-4" />
                               </Badge>
                             </div>
                             <p className="text-muted-foreground italic">

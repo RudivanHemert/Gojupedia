@@ -10,9 +10,9 @@ const MorioHigaonnaSection = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('history.morioHigaonna')}
-        description="Een van de meest gerespecteerde Goju Ryu meesters en een belangrijke leraar in de moderne tijd."
+        description={t('history.morioHigaonna-desc')}
         backUrl="/history"
       />
       <div className="p-4">

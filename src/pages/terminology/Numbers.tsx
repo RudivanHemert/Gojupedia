@@ -1,13 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import AudioButton from '@/components/ui/audio-button';
 
 const Numbers = () => {
   const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('terminology.sections.numbers')}
         description={t('terminology.sections.numbers-content.description')}
         backUrl="/terminology"
@@ -30,12 +31,13 @@ const NumbersContent = () => {
       <p className="text-muted-foreground">
         {t('terminology.sections.numbers-content.description')}
       </p>
-      
+
       <div className="grid gap-4">
         {Object.entries(termsObject).map(([key, term]) => (
           <div key={key} className="p-4 border rounded-lg">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg font-japanese">{term.japanese}</span>
+              {term.japanese && <AudioButton text={term.japanese} lang="ja-JP" size="sm" />}
               <span className="font-semibold">{term.name}</span>
             </div>
             <p className="text-muted-foreground">{term.english}</p>

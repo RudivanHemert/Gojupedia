@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import AudioButton from '@/components/AudioButton';
+import AudioButton from '@/components/ui/audio-button';
 
 const Respect = () => {
   const { t } = useTranslation();
@@ -75,7 +75,7 @@ const Respect = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('philosophy.sections.respect.title', 'Respect')}
         description={t('philosophy.sections.respect.description', 'Respect in de martiale kunsten')}
         backUrl="/philosophy"
@@ -92,13 +92,13 @@ const Respect = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span>礼</span>
-                  <AudioButton text="Rei" />
+                  <AudioButton text="Rei" lang="ja-JP" />
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  Respect is de hoeksteen van alle martiale kunsten. In Goju Ryu Karate wordt respect 
-                  niet alleen getoond door buigen, maar door een diepe innerlijke houding van eerbied 
+                  Respect is de hoeksteen van alle martiale kunsten. In Goju Ryu Karate wordt respect
+                  niet alleen getoond door buigen, maar door een diepe innerlijke houding van eerbied
                   en waardering voor alles en iedereen om ons heen.
                 </p>
 
@@ -115,11 +115,11 @@ const Respect = () => {
                       <div className="flex items-start justify-between mb-2">
                         <div className="flex items-center gap-2">
                           <span className="text-xl font-medium">{type.japanese}</span>
-                          <AudioButton text={type.romaji} />
+                          <AudioButton text={type.romaji} lang="ja-JP" />
                         </div>
                         <Badge variant="outline">{type.romaji}</Badge>
                       </div>
-                      
+
                       <div className="space-y-2">
                         <p className="font-medium text-foreground">
                           {type.dutch} / {type.english}
@@ -154,8 +154,8 @@ const Respect = () => {
                 <div className="mt-6 p-4 bg-orange-50 border border-orange-200 rounded-lg">
                   <h4 className="font-semibold text-orange-800 mb-2">De Buiging (礼)</h4>
                   <p className="text-orange-700 text-sm">
-                    De buiging is niet alleen een fysieke handeling, maar een uiting van innerlijk respect. 
-                    Wanneer we buigen, tonen we respect voor de leraar, de dojo, en de tradities van karate. 
+                    De buiging is niet alleen een fysieke handeling, maar een uiting van innerlijk respect.
+                    Wanneer we buigen, tonen we respect voor de leraar, de dojo, en de tradities van karate.
                     Het is een moment van nederigheid en dankbaarheid.
                   </p>
                 </div>
@@ -163,8 +163,8 @@ const Respect = () => {
                 <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-lg">
                   <h4 className="font-semibold text-green-800 mb-2">Respect in Training</h4>
                   <p className="text-green-700 text-sm">
-                    Tijdens training tonen we respect door op tijd te komen, de dojo-regels te volgen, 
-                    aandachtig te luisteren naar instructies, en onze medeleerlingen te helpen. 
+                    Tijdens training tonen we respect door op tijd te komen, de dojo-regels te volgen,
+                    aandachtig te luisteren naar instructies, en onze medeleerlingen te helpen.
                     Respect is niet alleen een regel, maar een manier van leven.
                   </p>
                 </div>

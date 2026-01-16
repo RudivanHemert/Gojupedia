@@ -18,9 +18,10 @@ const HistoryPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('history.title')}
         description={t('history.description')}
+        audioKey="history.description"
       />
       <div className="p-4 w-full">
         <ul className="space-y-3">

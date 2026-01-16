@@ -20,7 +20,7 @@ const Stances = () => {
   // Anders toon de overzichtspagina
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('terminology.sections.stances')}
         description={t('terminology.sections.stances-content.description')}
         backUrl="/terminology"
@@ -50,6 +50,7 @@ const StancesList = ({ termsObject }: { termsObject: Record<string, any> }) => {
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg font-japanese">{term.japanese}</span>
+              <AudioButton text={term.japanese} lang="ja-JP" size="sm" />
               <span className="font-semibold">{term.name}</span>
             </div>
             <p className="text-muted-foreground">{term.english}</p>
@@ -92,7 +93,11 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
           <h1 className="text-3xl font-bold">{term.name}</h1>
           <div className="flex items-center gap-1">
             <span className="text-lg font-japanese">{term.japanese}</span>
-            <AudioButton text={term.japanese} size="sm" />
+            <AudioButton
+              text={term.japanese}
+              size="sm"
+              lang="ja-JP"
+            />
           </div>
         </div>
         <h2 className="text-lg text-muted-foreground mb-4">{term.english}</h2>
@@ -117,9 +122,9 @@ const StanceDetail = ({ termsObject }: { termsObject: Record<string, any> }) => 
           </div>
         ) : stanceId && stanceImages[stanceId] ? (
           <div className="mb-4">
-            <img 
-              src={stanceImages[stanceId].src} 
-              alt={stanceImages[stanceId].alt} 
+            <img
+              src={stanceImages[stanceId].src}
+              alt={stanceImages[stanceId].alt}
               className="w-full rounded-lg shadow-md"
             />
           </div>

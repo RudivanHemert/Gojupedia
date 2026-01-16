@@ -10,9 +10,9 @@ const ChojunMiyagiSection = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('history.chojunMiyagi')}
-        description="De grondlegger van Goju Ryu Karate en een van de meest invloedrijke karate meesters."
+        description={t('history.chojunMiyagi-desc')}
         backUrl="/history"
       />
       <div className="p-4">

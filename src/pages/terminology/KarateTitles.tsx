@@ -9,7 +9,7 @@ const KarateTitles = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('terminology.sections.karate-titles')}
         description={content.description}
         backUrl="/terminology"
@@ -31,7 +31,7 @@ const KarateTitlesContent = ({ content }: { content: any }) => {
           <div className="flex items-center gap-2 mb-2">
             <div className="flex items-center gap-1">
               <span className="text-lg font-japanese">{term.japanese}</span>
-              {term.japanese && <AudioButton text={term.japanese} size="sm" />}
+              {term.japanese && <AudioButton text={term.japanese} lang="ja-JP" size="sm" />}
             </div>
             <span className="font-semibold">{term.name}</span>
           </div>

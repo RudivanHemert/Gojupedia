@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import AudioButton from '@/components/AudioButton';
+import AudioButton from '@/components/ui/audio-button';
 
 const DojoKun = () => {
   const { t } = useTranslation();
@@ -44,7 +44,7 @@ const DojoKun = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('philosophy.sections.dojo-kun.title', 'Dojo Kun')}
         description={t('philosophy.sections.dojo-kun.description', 'De vijf principes van de dojo')}
         backUrl="/philosophy"
@@ -61,16 +61,16 @@ const DojoKun = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span>道場訓</span>
-                  <AudioButton text="Dojo Kun" />
+                  <AudioButton text="Dojo Kun" lang="ja-JP" />
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  De Dojo Kun zijn de vijf principes die elke karateka moet volgen. 
-                  Deze principes vormen de basis van de martiale kunst en worden 
+                  De Dojo Kun zijn de vijf principes die elke karateka moet volgen.
+                  Deze principes vormen de basis van de martiale kunst en worden
                   traditioneel gereciteerd aan het begin en einde van elke training.
                 </p>
-                
+
                 <div className="space-y-4">
                   {principles.map((principle, index) => (
                     <motion.div
@@ -84,9 +84,9 @@ const DojoKun = () => {
                         <Badge variant="secondary" className="mb-2">
                           Principe {index + 1}
                         </Badge>
-                        <AudioButton text={principle.romaji} />
+                        <AudioButton text={principle.romaji} lang="ja-JP" />
                       </div>
-                      
+
                       <div className="space-y-2">
                         <p className="text-lg font-medium text-foreground">
                           {principle.japanese}
