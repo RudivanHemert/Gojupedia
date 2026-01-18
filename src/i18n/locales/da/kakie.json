@@ -1,0 +1,61 @@
+{
+    "kakie": {
+        "title": "Kakie",
+        "description": "Klæbende hænder og teknikker til nærkamp",
+        "sections": {
+            "introduction": "Introduktion",
+            "fighting-practice": "Kampsportspraksis",
+            "traditional-medicine": "Traditionel medicin og gymnastik",
+            "spiritual-influences": "Spirituelle påvirkninger",
+            "close-combat": {
+                "title": "Kakie og nærkamp",
+                "basic-qualities": "Grundlæggende kvaliteter",
+                "chiru-nu-chan-chan": "Chiru nu chan chan",
+                "body-conditioning": "Kropskonditionering",
+                "sanchin": "Sanchin"
+            },
+            "kiko": {
+                "title": "Kiko: Vital energiøvelser",
+                "mind-projection": "Sindsprojektion",
+                "sensitivity": "Følsomhed",
+                "muscular-tension": "Muskelspænding",
+                "regulating-breathing": "Regulering af vejrtrækning",
+                "tension-relaxation": "Spænding og afspænding"
+            },
+            "basic-abilities": {
+                "title": "Grundlæggende kampfærdigheder",
+                "control-absorb-deflect-evade": "Kontrollere, absorbere, afbøje og undvige",
+                "control-muchimi": "Kontrol - Muchimi",
+                "absorb": "Absorbere: Slug og spyt",
+                "deflection": "Afbøjning",
+                "evasion": "Undvigelse"
+            },
+            "techniques": {
+                "title": "Teknikker",
+                "grabbing": "Gribe",
+                "opening-closing": "Åbne og lukke",
+                "pushing-pulling": "Skubbe og trække",
+                "go-techniques": "Go-teknikker: Stød, slag og spark",
+                "ju-techniques-tuite": "Ju-teknikker: Tuite eller Gyakute",
+                "ju-techniques-kyusho": "Ju-teknikker: Kyushojutsu (Chibujutsu)"
+            },
+            "basic-exercises": {
+                "title": "Kakie grundøvelser",
+                "swallow-spit": "1. 'Slug og spyt'",
+                "circle-deflect": "2. 'Cirkle og afbøj'",
+                "kake-uke": "3. 'Kake Uke'"
+            },
+            "points-of-attention": {
+                "title": "Opmærksomhedspunkter",
+                "posture": "1. Holdning",
+                "grounding": "2. Jordforbindelse",
+                "rooting": "3. Forankring",
+                "centring": "4. Centrering",
+                "generating-power": "5. Generering af kraft",
+                "combining-forces": "6. Kombination af kræfter",
+                "regulating-breathing": "7. Regulering af vejrtrækning",
+                "regulating-ki": "8. Regulering af Ki eller åndedræt"
+            }
+        }
+    }
+}

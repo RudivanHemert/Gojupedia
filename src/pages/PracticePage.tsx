@@ -3,22 +3,23 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
-import { 
-  Hand, 
-  Users, 
-  Target, 
-  BookOpen, 
-  Dumbbell, 
+import {
+  Hand,
+  Users,
+  Target,
+  BookOpen,
+  Dumbbell,
   Activity,
   ArrowRight,
   Zap,
-  Layers
+  Layers,
+  Sparkles
 } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
 
 const PracticePage = () => {
   const { t } = useTranslation();
-  
+
   const sections = [
     {
       id: 'techniques',
@@ -67,6 +68,22 @@ const PracticePage = () => {
       icon: <Activity className="h-8 w-8 text-indigo-500 dark:text-indigo-400" />,
       path: '/newaza',
       color: 'bg-indigo-50 dark:bg-indigo-950/20 border-indigo-200 dark:border-indigo-800'
+    },
+    {
+      id: 'junbi-undo',
+      name: t('practice.sections.junbiUndo.name'),
+      description: t('practice.sections.junbiUndo.description'),
+      icon: <Sparkles className="h-8 w-8 text-cyan-500 dark:text-cyan-400" />,
+      path: '/junbi-undo',
+      color: 'bg-cyan-50 dark:bg-cyan-950/20 border-cyan-200 dark:border-cyan-800'
+    },
+    {
+      id: 'kakie',
+      name: t('practice.sections.kakie.name'),
+      description: t('practice.sections.kakie.description'),
+      icon: <Zap className="h-8 w-8 text-yellow-500 dark:text-yellow-400" />,
+      path: '/kakie',
+      color: 'bg-yellow-50 dark:bg-yellow-950/20 border-yellow-200 dark:border-yellow-800'
     }
   ];
 
@@ -93,7 +110,7 @@ const PracticePage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={t('practice.pageTitle')}
         description={t('practice.pageDescription')}
         backUrl="/"

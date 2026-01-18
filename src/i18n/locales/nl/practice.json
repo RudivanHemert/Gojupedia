@@ -30,6 +30,14 @@
       "newaza": {
         "name": "Newaza",
         "description": "Grondvechttechnieken en principes"
+      },
+      "junbiUndo": {
+        "name": "Junbi Undo",
+        "description": "Voorbereidende oefeningen en warming-up"
+      },
+      "kakie": {
+        "name": "Kakie",
+        "description": "Klevende handen en technieken voor nabijgevecht"
       }
     },
     "training": {
@@ -60,7 +68,8 @@
       "bunkai": "Bunkai",
       "hojoUndo": "Hojo Undo",
       "junbiUndo": "Junbi Undo",
-      "newaza": "Newaza"
+      "newaza": "Newaza",
+      "kakie": "Kakie"
     }
   }
 }

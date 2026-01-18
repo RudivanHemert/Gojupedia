@@ -30,6 +30,14 @@
       "newaza": {
         "name": "Newaza",
         "description": "Bundkampsteknikker og principper"
+      },
+      "junbiUndo": {
+        "name": "Junbi Undo",
+        "description": "Foreløbige øvelser og opvarmningsrutiner"
+      },
+      "kakie": {
+        "name": "Kakie",
+        "description": "Klæbende hænder og teknikker til nærkamp"
       }
     },
     "training": {
@@ -60,7 +68,8 @@
       "bunkai": "Bunkai",
       "hojoUndo": "Hojo Undo",
       "junbiUndo": "Junbi Undo",
-      "newaza": "Newaza"
+      "newaza": "Newaza",
+      "kakie": "Kakie"
     }
   }
 }

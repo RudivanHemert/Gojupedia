@@ -30,6 +30,14 @@
       "newaza": {
         "name": "Newaza",
         "description": "Técnicas e princípios de luta no chão"
+      },
+      "junbiUndo": {
+        "name": "Junbi Undo",
+        "description": "Exercícios preliminares e rotinas de aquecimento"
+      },
+      "kakie": {
+        "name": "Kakie",
+        "description": "Mãos pegajosas e técnicas para combate a curta distância"
       }
     },
     "training": {
@@ -60,7 +68,8 @@
       "bunkai": "Bunkai",
       "hojoUndo": "Hojo Undo",
       "junbiUndo": "Junbi Undo",
-      "newaza": "Newaza"
+      "newaza": "Newaza",
+      "kakie": "Kakie"
     }
   }
 }

@@ -1,0 +1,61 @@
+{
+    "kakie": {
+        "title": "Kakie",
+        "description": "Klebende Hände und Techniken für den Nahkampf",
+        "sections": {
+            "introduction": "Einleitung",
+            "fighting-practice": "Kampfpraxis",
+            "traditional-medicine": "Traditionelle Medizin und Gesundheitsgymnastik",
+            "spiritual-influences": "Spirituelle Einflüsse",
+            "close-combat": {
+                "title": "Kakie und Nahkampf",
+                "basic-qualities": "Basiseigenschaften",
+                "chiru-nu-chan-chan": "Chiru nu chan chan",
+                "body-conditioning": "Körperkonditionierung",
+                "sanchin": "Sanchin"
+            },
+            "kiko": {
+                "title": "Kiko: Übungen zur Vitalenergie",
+                "mind-projection": "Geistprojektion",
+                "sensitivity": "Empfindsamkeit",
+                "muscular-tension": "Muskelanspannung",
+                "regulating-breathing": "Regulierung der Atmung",
+                "tension-relaxation": "Spannung und Entspannung"
+            },
+            "basic-abilities": {
+                "title": "Basiskampffähigkeiten",
+                "control-absorb-deflect-evade": "Kontrollieren, Absorbieren, Ablenken und Ausweichen",
+                "control-muchimi": "Kontrolle - Muchimi",
+                "absorb": "Absorbieren: Schlucken und Spucken",
+                "deflection": "Ablenkung",
+                "evasion": "Ausweichen"
+            },
+            "techniques": {
+                "title": "Techniken",
+                "grabbing": "Greifen",
+                "opening-closing": "Öffnen und Schließen",
+                "pushing-pulling": "Drücken und Ziehen",
+                "go-techniques": "Go-Techniken: Fäuste, Schläge und Tritte",
+                "ju-techniques-tuite": "Ju-Techniken: Tuite oder Gyakute",
+                "ju-techniques-kyusho": "Ju-Techniken: Kyushojutsu (Chibujutsu)"
+            },
+            "basic-exercises": {
+                "title": "Kakie-Basisübungen",
+                "swallow-spit": "1. ‘Schlucken & Spucken’",
+                "circle-deflect": "2. ‘Kreisen und Ablenken’",
+                "kake-uke": "3. ‘Kake Uke’"
+            },
+            "points-of-attention": {
+                "title": "Aufmerksamkeitspunkte",
+                "posture": "1. Körperhaltung",
+                "grounding": "2. Erdung",
+                "rooting": "3. Verwurzelung",
+                "centring": "4. Zentrierung",
+                "generating-power": "5. Krafterzeugung",
+                "combining-forces": "6. Kombination von Kräften",
+                "regulating-breathing": "7. Regulierung der Atmung",
+                "regulating-ki": "8. Regulierung von Ki oder Atem"
+            }
+        }
+    }
+}

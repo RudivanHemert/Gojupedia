@@ -37,6 +37,7 @@ import enNewaza from './locales/en/newaza.json';
 import enKumite from './locales/en/kumite.json';
 import enJunbiUndo from './locales/en/junbi-undo.json';
 import enInformation from './locales/en/information.json';
+import enKakie from './locales/en/kakie.json';
 
 import deCommon from './locales/de/common.json';
 import deHome from './locales/de/home.json';
@@ -72,6 +73,7 @@ import deNewaza from './locales/de/newaza.json';
 import deKumite from './locales/de/kumite.json';
 import deJunbiUndo from './locales/de/junbi-undo.json';
 import deInformation from './locales/de/information.json';
+import deKakie from './locales/de/kakie.json';
 
 // Import modular translation files for Danish
 import daCommon from './locales/da/common.json';
@@ -96,6 +98,7 @@ import daKumite from './locales/da/kumite.json';
 import daJunbiUndo from './locales/da/junbi-undo.json';
 import daInformation from './locales/da/information.json';
 import daSearch from './locales/da/search.json';
+import daKakie from './locales/da/kakie.json';
 
 import esCommon from './locales/es/common.json';
 import esHome from './locales/es/home.json';
@@ -131,6 +134,7 @@ import esNewaza from './locales/es/newaza.json';
 import esKumite from './locales/es/kumite.json';
 import esJunbiUndo from './locales/es/junbi-undo.json';
 import esInformation from './locales/es/information.json';
+import esKakie from './locales/es/kakie.json';
 
 import frCommon from './locales/fr/common.json';
 import frHome from './locales/fr/home.json';
@@ -166,6 +170,7 @@ import frNewaza from './locales/fr/newaza.json';
 import frKumite from './locales/fr/kumite.json';
 import frJunbiUndo from './locales/fr/junbi-undo.json';
 import frInformation from './locales/fr/information.json';
+import frKakie from './locales/fr/kakie.json';
 
 import itCommon from './locales/it/common.json';
 import itHome from './locales/it/home.json';
@@ -201,6 +206,7 @@ import itNewaza from './locales/it/newaza.json';
 import itKumite from './locales/it/kumite.json';
 import itJunbiUndo from './locales/it/junbi-undo.json';
 import itInformation from './locales/it/information.json';
+import itKakie from './locales/it/kakie.json';
 
 import nlCommon from './locales/nl/common.json';
 import nlHome from './locales/nl/home.json';
@@ -236,6 +242,7 @@ import nlNewaza from './locales/nl/newaza.json';
 import nlKumite from './locales/nl/kumite.json';
 import nlJunbiUndo from './locales/nl/junbi-undo.json';
 import nlInformation from './locales/nl/information.json';
+import nlKakie from './locales/nl/kakie.json';
 
 // Import Portuguese translation files
 import ptCommon from './locales/pt/common.json';
@@ -272,6 +279,7 @@ import ptNewaza from './locales/pt/newaza.json';
 import ptKumite from './locales/pt/kumite.json';
 import ptJunbiUndo from './locales/pt/junbi-undo.json';
 import ptInformation from './locales/pt/information.json';
+import ptKakie from './locales/pt/kakie.json';
 
 // Define supported languages
 export const supportedLanguages = {
@@ -326,6 +334,7 @@ const enTranslations = {
   kumite: enKumite,
   ...enJunbiUndo,
   ...enInformation,
+  ...enKakie,
 };
 
 const deTranslations = {
@@ -366,6 +375,7 @@ const deTranslations = {
   kumite: deKumite,
   ...deJunbiUndo,
   ...deInformation,
+  ...deKakie,
 };
 
 const esTranslations = {
@@ -406,6 +416,7 @@ const esTranslations = {
   kumite: esKumite,
   ...esJunbiUndo,
   ...esInformation,
+  ...esKakie,
 };
 
 const frTranslations = {
@@ -446,6 +457,7 @@ const frTranslations = {
   kumite: frKumite,
   ...frJunbiUndo,
   ...frInformation,
+  ...frKakie,
 };
 
 const itTranslations = {
@@ -486,6 +498,7 @@ const itTranslations = {
   kumite: itKumite,
   ...itJunbiUndo,
   ...itInformation,
+  ...itKakie,
 };
 
 const nlTranslations = {
@@ -526,6 +539,7 @@ const nlTranslations = {
   kumite: nlKumite,
   ...nlJunbiUndo,
   ...nlInformation,
+  ...nlKakie,
 };
 
 const ptTranslations = {
@@ -566,6 +580,7 @@ const ptTranslations = {
   kumite: ptKumite,
   ...ptJunbiUndo,
   ...ptInformation,
+  ...ptKakie,
 };
 
 const daTranslations = {
@@ -595,6 +610,7 @@ const daTranslations = {
   kumite: daKumite,
   ...daJunbiUndo,
   ...daInformation,
+  ...daKakie,
 };
 
 i18n

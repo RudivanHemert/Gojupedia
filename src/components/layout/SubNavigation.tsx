@@ -8,12 +8,12 @@ interface SubNavigationProps {
 
 const SubNavigation: React.FC<SubNavigationProps> = ({ currentPath }) => {
   const basePath = '/' + currentPath.split('/')[1];
-  
+
   // Only show theory navigation for theory pages
   const showTheoryNav = ['/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/gradings'].includes(basePath);
-  
+
   // Only show practice navigation for practice pages
-  const showPracticeNav = ['/practice', '/techniques', '/kata', '/hojo-undo', '/bunkai'].includes(basePath);
+  const showPracticeNav = ['/practice', '/techniques', '/kata', '/hojo-undo', '/bunkai', '/kakie', '/newaza', '/junbi-undo'].includes(basePath);
 
   if (!showTheoryNav && !showPracticeNav) {
     return null;

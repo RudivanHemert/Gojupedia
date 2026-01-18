@@ -1,0 +1,61 @@
+{
+    "kakie": {
+        "title": "Kakie",
+        "description": "Mãos pegajosas e técnicas para combate a curta distância",
+        "sections": {
+            "introduction": "Introdução",
+            "fighting-practice": "Prática de Combate",
+            "traditional-medicine": "Medicina Tradicional e Ginástica de Saúde",
+            "spiritual-influences": "Influências Espirituais",
+            "close-combat": {
+                "title": "Kakie e Combate Próximo",
+                "basic-qualities": "Qualidades Básicas",
+                "chiru-nu-chan-chan": "Chiru nu chan chan",
+                "body-conditioning": "Condicionamento físico",
+                "sanchin": "Sanchin"
+            },
+            "kiko": {
+                "title": "Kiko: Exercícios de Energia Vital",
+                "mind-projection": "Projeção mental",
+                "sensitivity": "Sensibilidade",
+                "muscular-tension": "Tensão muscular",
+                "regulating-breathing": "Regulagem da respiração",
+                "tension-relaxation": "Tensão e relaxamento"
+            },
+            "basic-abilities": {
+                "title": "Habilidades de Combate Básicas",
+                "control-absorb-deflect-evade": "Controlar, Absorver, Desviar e Esquivar",
+                "control-muchimi": "Controle - Muchimi",
+                "absorb": "Absorver: Engolir e Cuspir",
+                "deflection": "Desvio",
+                "evasion": "Evasão"
+            },
+            "techniques": {
+                "title": "Técnicas",
+                "grabbing": "Agarrar",
+                "opening-closing": "Abrir e Fechar",
+                "pushing-pulling": "Empurrar e Puxar",
+                "go-techniques": "Técnicas Go: Socos, Golpes e Chutes",
+                "ju-techniques-tuite": "Técnicas Ju: Tuite ou Gyakute",
+                "ju-techniques-kyusho": "Técnicas Ju: Kyushojutsu (Chibujutsu)"
+            },
+            "basic-exercises": {
+                "title": "Exercícios Básicos de Kakie",
+                "swallow-spit": "1. ‘Engolir e Cuspir’",
+                "circle-deflect": "2. ‘Circular e Desviar’",
+                "kake-uke": "3. ‘Kake Uke’"
+            },
+            "points-of-attention": {
+                "title": "Pontos de Atenção",
+                "posture": "1. Postura",
+                "grounding": "2. Aterramento",
+                "rooting": "3. Enraizamento",
+                "centring": "4. Centramento",
+                "generating-power": "5. Geração de potência",
+                "combining-forces": "6. Combinação de forças",
+                "regulating-breathing": "7. Regulagem da respiração",
+                "regulating-ki": "8. Regulagem do Ki ou Sopro"
+            }
+        }
+    }
+}

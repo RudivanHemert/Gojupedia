@@ -39,6 +39,7 @@ const GojuRyu = lazy(() => import('@/pages/philosophy/GojuRyu'));
 const KarateDo = lazy(() => import('@/pages/philosophy/KarateDo'));
 const MindBody = lazy(() => import('@/pages/philosophy/MindBody'));
 const Respect = lazy(() => import('@/pages/philosophy/Respect'));
+const KakiePage = lazy(() => import('@/pages/KakiePage'));
 
 // History Sections
 const OriginsSection = lazy(() => import('@/components/history/OriginsSection'));
@@ -192,6 +193,7 @@ const AppRoutes = () => {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/junbi-undo" element={<JunbiUndoPage />} />
+            <Route path="/kakie" element={<KakiePage />} />
 
             {/* Information Routes */}
             <Route path="/information" element={<InformationPage />} />

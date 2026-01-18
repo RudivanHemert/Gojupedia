@@ -63,6 +63,7 @@ const sidebarStructure = [
       { labelKey: 'navigation.hojoUndo', path: '/hojo-undo' },
       { labelKey: 'navigation.junbiUndo', path: '/junbi-undo' },
       { labelKey: 'navigation.newaza', path: '/newaza' },
+      { labelKey: 'navigation.kakie', path: '/kakie' },
     ]
   },
   {
@@ -140,7 +141,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
       '/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/gradings', '/theory/kata', '/kumite'
     ].includes(basePath) || currentPath.startsWith('/theory')) return 'theory';
     if ([
-      '/practice', '/techniques', '/kata', '/bunkai', '/hojo-undo', '/junbi-undo', '/newaza'
+      '/practice', '/techniques', '/kata', '/bunkai', '/hojo-undo', '/junbi-undo', '/newaza', '/kakie'
     ].includes(basePath)) return 'practice';
     if ([
       '/study', '/study/quizzes', '/study/flashcards', '/gradings'
@@ -155,7 +156,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
   // Handle main section click
   const handleMainClick = (section: typeof sidebarStructure[0]) => {
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-    
+
     // If sidebar is closed
     if (!isOpen) {
       // For sections without sublinks, navigate directly
@@ -170,7 +171,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
         }
         return;
       }
-      
+
       // For sections with sublinks, open sidebar and expand
       if (isMobile) {
         onToggle();
@@ -182,7 +183,7 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
       }
       return;
     }
-    
+
     // If sidebar is open
     if (section.sublinks.length === 0) {
       navigate(section.path);

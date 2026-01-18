@@ -12,7 +12,7 @@ const NavigationMenu = () => {
         <span>{t('common.search')}</span>
       </Link>
       <Link to="/" className="block p-2 hover:bg-muted rounded transition-colors">{t('navigation.home')}</Link>
-      
+
       <div className="pt-2 border-t border-gray-100">
         <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">{t('navigation.theory')}</h3>
         <Link to="/theory" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.overview')}</Link>
@@ -23,21 +23,24 @@ const NavigationMenu = () => {
         <Link to="/gradings" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('theory.nav.gradings')}</Link>
         <Link to="/kumite" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.kumite')}</Link>
       </div>
-      
+
       <div className="pt-2 border-t border-gray-100">
         <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">{t('navigation.practice')}</h3>
         <Link to="/practice" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.overview')}</Link>
         <Link to="/techniques" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('practice.nav.techniques')}</Link>
         <Link to="/kata" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('practice.nav.kata')}</Link>
         <Link to="/bunkai" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('practice.nav.bunkai')}</Link>
-        <Link to="/hojo-undo" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('practice.nav.hojoUndo')}</Link>
+        <Link to="/hojo-undo" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.hojoUndo')}</Link>
+        <Link to="/junbi-undo" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.junbiUndo')}</Link>
+        <Link to="/newaza" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.newaza')}</Link>
+        <Link to="/kakie" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.kakie')}</Link>
       </div>
-      
+
       <div className="pt-2 border-t border-gray-100">
         <h3 className="text-sm font-medium text-gray-500 px-2 pb-1">{t('navigation.study')}</h3>
         <Link to="/study" className="block p-2 hover:bg-muted rounded transition-colors pl-4">{t('navigation.learningMaterials')}</Link>
       </div>
-      
+
       <div className="pt-2 border-t border-gray-100">
         <Link to="/settings" className="flex items-center gap-2 p-2 hover:bg-muted rounded transition-colors">
           <Settings size={16} />

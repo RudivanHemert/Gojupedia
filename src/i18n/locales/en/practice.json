@@ -30,6 +30,14 @@
       "newaza": {
         "name": "Newaza",
         "description": "Ground fighting techniques and principles"
+      },
+      "junbiUndo": {
+        "name": "Junbi Undo",
+        "description": "Preliminary exercises and warm-up routines"
+      },
+      "kakie": {
+        "name": "Kakie",
+        "description": "Sticky hands and techniques for close combat"
       }
     },
     "training": {
@@ -60,7 +68,8 @@
       "bunkai": "Bunkai",
       "hojoUndo": "Hojo Undo",
       "junbiUndo": "Junbi Undo",
-      "newaza": "Newaza"
+      "newaza": "Newaza",
+      "kakie": "Kakie"
     }
   }
-} 
+}
