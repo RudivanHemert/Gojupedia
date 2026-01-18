@@ -3,58 +3,227 @@
         "title": "Kakie",
         "description": "Manos pegajosas y técnicas para el combate a corta distancia",
         "sections": {
-            "introduction": "Introducción",
-            "fighting-practice": "Práctica de Combate",
-            "traditional-medicine": "Medicina Tradicional y Gimnasia para la Salud",
-            "spiritual-influences": "Influencias Espirituales",
+            "introduction": {
+                "title": "Introducción",
+                "subtitle": "Cerrando la distancia",
+                "description": "Las artes marciales practicadas por Higaonna Kanryo y estudiadas después por Miyagi Chojun estaban técnicamente enraizadas en la realidad del combate cuerpo a cuerpo, influenciadas por el Budismo y el Taoísmo.",
+                "content": "Las artes marciales de Fujian se estructuraron siguiendo el combate real, el conocimiento clásico de la medicina china y las doctrinas espirituales. Técnicamente, estas artes contenían muchas técnicas de combate cercano como qinna (lucha), proyecciones y ataques a puntos vitales."
+            },
+            "fighting-practice": {
+                "title": "Práctica de Combate",
+                "subtitle": "Realidad del Combate Cercano",
+                "description": "El Goju-Ryu tradicional se centra en una relación directa con el combate real, que suele decidirse en un metro cuadrado. Esto requiere el dominio de técnicas a corta distancia.",
+                "content": "El karate moderno suele formarse siguiendo las competiciones internacionales. Por el contrario, los sistemas tradicionales utilizan ejercicios como bunkai kumite y kakie para preservar las técnicas de lucha (tuite o gyakute). El uso de 'puentes' (antebrazos) para conectar y penetrar se vuelve vital.\n\nEsto se refleja en el 'iri kumi' (combate cercano), que permite la lucha, las proyecciones y las llaves articulares. El Kakie conecta los principios meditativos de Sanchin kata con la riqueza técnica del bunkai kumite y la dinámica del iri kumi."
+            },
+            "traditional-medicine": {
+                "title": "Medicina Tradicional",
+                "subtitle": "Salud y Gimnasia",
+                "description": "La influencia de la Medicina Tradicional China (MTC) abarca tanto el tratamiento de lesiones como el acondicionamento físico preventivo. Esto implica comprender el flujo del ki (energía vital) y los puntos vitales (kyusho).",
+                "content": "El tratamiento y la prevención de lesiones (dieda o 'medicina de caídas y golpes') utilizaba hierbas, manipulación articular y masajes. El Kakie sirve como un ejercicio donde un sistema de energía bien organizado distingue los movimientos refinados de un maestro de las acciones rudas de un principiante."
+            },
+            "spiritual-influences": {
+                "title": "Influencias Espirituales",
+                "subtitle": "Mente y Conciencia",
+                "description": "Las doctrinas espirituales de Shaolin y otros monasterios enriquecieron las artes marciales a través de la investigación introspectiva de la mente, el conocimiento y los principios morales.",
+                "content": "Las artes marciales tradicionales contienen valiosas perspectivas espirituales para quienes están dispuestos a 'seguir el camino'. No es solo teórico; el secreto se revela a través de la práctica misma del karatedo, guiando al practicante hacia una mayor autoconciencia e integridad moral."
+            },
             "close-combat": {
                 "title": "Kakie y Combate Cercano",
-                "basic-qualities": "Cualidades Básicas",
-                "chiru-nu-chan-chan": "Chiru nu chan chan",
-                "body-conditioning": "Acondicionamiento físico",
-                "sanchin": "Sanchin"
+                "subtitle": "Cerrando la distancia",
+                "description": "El combate cercano requiere habilidades específicas que a menudo no se desarrollan en las prácticas a larga distancia. Esta sección cubre las cualidades fundamentales necesarias para el enfrentamiento a corta distancia.",
+                "basic-qualities": {
+                    "title": "Cualidades Básicas",
+                    "subtitle": "Sensibilidad y Tacto",
+                    "description": "En el combate cercano, sentir el movimiento de tu oponente a través del contacto es más importante que confiar únicamente en tus ojos.",
+                    "content": "Las situaciones de combate cercano son intensas y rápidas. Debido a que los ataques se lanzan desde una distancia muy corta, a menudo se notan solo en el último instante. La práctica de Kakie desarrolla un alto grado de sensibilidad, lo que te permite leer las intenciones y movimientos de tu oponente a través del contacto manual antes de que puedan ser procesados visualmente."
+                },
+                "chiru-nu-chan-chan": {
+                    "title": "Chiru nu chan chan",
+                    "subtitle": "Potencia de Resorte",
+                    "description": "Un término de Okinawa que se refiere a una combinación única de potencia explosiva y sensibilidad profunda.",
+                    "content": "Chiru nu chan chan describe la contracción explosiva, similar a un resorte, de los músculos y tendones. Más allá de la potencia física, denota la sensibilidad necesaria para anticipar el ataque de un oponente. Esta habilidad permite reacciones más rápidas en el combate cercano, donde partes del cuerpo del oponente pueden estar fuera de tu campo de visión. Los practicantes avanzados desarrollan esto en 'kanken' o sexto sentido intuitivo."
+                },
+                "body-conditioning": {
+                    "title": "Acondicionamiento Físico",
+                    "subtitle": "Forjando el Cuerpo",
+                    "description": "Participar en combate cercano requiere un cuerpo físicamente preparado para manejar y absorber el impacto.",
+                    "content": "Goju-Ryu contiene varios ejercicios para 'forjar' el cuerpo y las extremidades, como tai atari (choque corporal), ude tanren (fortalecimiento de brazos) y entrenamiento makiwara. Estos métodos aseguran que el practicante pueda resistir los golpes mediante contracciones musculares específicas y una alineación adecuada."
+                },
+                "sanchin": {
+                    "title": "Sanchin",
+                    "subtitle": "El Fundamento",
+                    "description": "El kata Sanchin es la piedra angular de Goju-Ryu, centrado en la unificación de mente, cuerpo y respiración.",
+                    "content": "Esencial para el combate cercano es el entrenamiento del 'ki' (energía vital). Sanchin enseña al practicante a recolectar ki en el tanden y extenderlo hacia las áreas de contacto. Un elemento técnico clave es la respiración 'noon'—mantener la respiración durante la expansión de la potencia— lo que protege los órganos internos y aumenta la resistencia del cuerpo en el fragor del combate."
+                }
             },
             "kiko": {
                 "title": "Kiko: Ejercicios de Energía Vital",
-                "mind-projection": "Proyección mental",
-                "sensitivity": "Sensibilidad",
-                "muscular-tension": "Tensión muscular",
-                "regulating-breathing": "Regulación de la respiración",
-                "tension-relaxation": "Tensión y relajación"
+                "subtitle": "Cultivando la Fuerza Vital",
+                "description": "Kiko (Chino: Qigong) abarca ejercicios diseñados para cultivar y regular la energía vital.",
+                "mind-projection": {
+                    "title": "Proyección Mental",
+                    "subtitle": "Yi Yi Yin Qi",
+                    "description": "El principio de que la mente dirige la energía vital.",
+                    "content": "En el kata Sanchin y la práctica de Kiko, la mente (Yi) se utiliza para dirigir el flujo de Ki. Este concepto, 'Yi Yi Yin Qi', significa que la proyección mental guía la energía. Al dirigir constantemente la atención a cada parte del cuerpo, se mejora la sensibilidad y el rendimiento neuromotor, asegurando que la energía fluya hacia donde va la mente."
+                },
+                "sensitivity": {
+                    "title": "Sensibilidad",
+                    "subtitle": "Kanken",
+                    "description": "Conciencia elevada esencial para el combate cercano.",
+                    "content": "Una mayor sensibilidad permite al karateka sentir ataques que comienzan o terminan fuera del campo de visión. En la lucha, permite sentir la dirección de la fuerza del oponente—ya sea un empujón, una llave o una proyección. Combinado con la alerta de Sanchin, esto sienta la piedra angular para una preparación extrema en combate."
+                },
+                "muscular-tension": {
+                    "title": "Tensión Muscular",
+                    "subtitle": "Fusionando el Ki",
+                    "description": "Usar la contracción para integrar la energía en la estructura del cuerpo.",
+                    "content": "A diferencia de los ejercicios de Ki más suaves, Sanchin utiliza la máxima contracción muscular para fusionar el Ki profundamente en músculos, tendones y huesos. Esto mejora la capacidad de absorber impactos. Esta práctica tiene raíces en los 'Ejercicios de Transformación de Tendones' enseñados por Bodhidharma. Crea un cuerpo que es 'duro pero flexible y resistente'."
+                },
+                "regulating-breathing": {
+                    "title": "Regulación de la Respiración",
+                    "subtitle": "Armonizando Respiración y Mente",
+                    "description": "El control de la respiración es una herramienta principal para regular la circulación del Ki.",
+                    "content": "La respiración está estrechamente conectada con el estado del cuerpo y la mente. En Sanchin, la respiración se regula para armonizar con la técnica y la intención mental. La 'respiración abdominal' concentra la energía en el tanden. Una respiración adecuada es vital para la aplicación efectiva de las técnicas y para mantener una mente tranquila y enfocada bajo estrés."
+                },
+                "tension-relaxation": {
+                    "title": "Tensión y Relajación",
+                    "subtitle": "Go y Ju",
+                    "description": "El equilibrio dinámico entre dureza y suavidad.",
+                    "content": "El combate cercano a menudo aumenta los niveles de estrés, lo que lleva a una tensión excesiva que puede bloquear el flujo de Ki. Es crucial mantener el equilibrio entre tensión (Go) y relajación (Ju). En Kakie, se debe usar una fuerza flexible adaptada al oponente, evitando el bloqueo rígido del cuerpo que se encuentra en el kata Sanchin, mientras se emplean sus principios energéticos."
+                }
             },
             "basic-abilities": {
                 "title": "Habilidades de Combate Básicas",
-                "control-absorb-deflect-evade": "Controlar, Absorber, Desviar y Evadir",
-                "control-muchimi": "Control - Muchimi",
-                "absorb": "Absorber: Tragar y Escupir",
-                "deflection": "Desviación",
-                "evasion": "Evasión"
+                "subtitle": "Habilidades Fundamentales de Defensa",
+                "description": "El combate cercano exige habilidades específicas para sobrevivir. Además de bloquear y evadir, uno necesita controlar, absorber, desviar y evadir la fuerza del oponente.",
+                "control-absorb-deflect-evade": {
+                    "title": "Los Cuatro Elementos",
+                    "subtitle": "Visión General",
+                    "description": "Las cuatro habilidades fundamentales de defensa en la práctica de Kakie.",
+                    "content": "Las reacciones al ataque de un oponente cubren una amplia gama. En el combate cercano, se necesitan habilidades específicas para manejar situaciones de agarre. Estas son Controlar, Absorber, Desviar y Evadir. Estas habilidades deben estar respaldadas por la 'Firmeza'—una combinación dinámica de enraizamiento y estabilidad—y completadas con ligereza de pies."
+                },
+                "control-muchimi": {
+                    "title": "Control - Muchimi",
+                    "subtitle": "Flujo Pesado y Pegajoso",
+                    "description": "Controlar al oponente a través de una acción pesada, pegajosa pero fluida.",
+                    "content": "La capacidad de controlar la fuerza del oponente se denomina 'Muchimi'. Se relaciona con una aplicación de poder pesada, pegajosa pero fluida. En el agarre, esto te permite tomar el control sobre las acciones del oponente. Muchimi también se usa en el bloqueo, donde el bloqueo no solo para sino que controla la extremidad o perturba el equilibrio del atacante por una fracción de segundo."
+                },
+                "absorb": {
+                    "title": "Absorber",
+                    "subtitle": "Tragar y Escupir",
+                    "description": "Redirigir la fuerza al suelo y devolverla.",
+                    "content": "Absorber poder ('Tragar') significa conducir la fuerza del oponente a través de tu cuerpo hacia el suelo/tanden, no solo recibir un golpe. A menudo es seguido por extender el poder ('Escupir') de vuelta hacia el oponente. Esta compresión y expansión alternada se llama 'Tai no Shinshuku'. La absorción adecuada se basa en una alineación correcta con la fuerza entrante."
+                },
+                "deflection": {
+                    "title": "Desvío",
+                    "subtitle": "Redirigir el Ataque",
+                    "description": "Usar movimientos circulares para guiar la fuerza lejos.",
+                    "content": "El desvío se puede combinar con la absorción (Ju) o el rebote (Go) de la fuerza. Incluso en bloqueos frontales, uno puede desviar expandiendo el poder en un ángulo (Go) o absorbiendo sin corromper la postura (Ju). Dado que la mayoría de los bloqueos de Goju-Ryu son circulares, generalmente combinan elementos tanto Go como Ju."
+                },
+                "evasion": {
+                    "title": "Evasión",
+                    "subtitle": "Tai Sabaki",
+                    "description": "Mover el cuerpo para anular el ataque.",
+                    "content": "La evasión implica movimiento corporal (Tai Sabaki, Tai Hiraki) y juego de pies (Tenshin). Si bien ahorra energía y evita lesiones, es difícil de dominar en el combate cercano debido a la corta distancia. Una evasión exitosa requiere gran sensibilidad y siempre debe conducir a una mejor posición estratégica o una contra-técnica."
+                }
             },
             "techniques": {
                 "title": "Técnicas",
-                "grabbing": "Agarrar",
-                "opening-closing": "Apertura y Cierre",
-                "pushing-pulling": "Empujar y Tirar",
-                "go-techniques": "Técnicas Go: Puñetazos, Golpes y Patadas",
-                "ju-techniques-tuite": "Técnicas Ju: Tuite o Gyakute",
-                "ju-techniques-kyusho": "Técnicas Ju: Kyushojutsu (Chibujutsu)"
+                "subtitle": "Aplicaciones de los Principios",
+                "description": "Kakie es el laboratorio donde los principios se transforman en técnicas de combate efectivas.",
+                "grabbing": {
+                    "title": "Agarre",
+                    "subtitle": "Toraguchi",
+                    "description": "Agarrar al oponente para controlar o inmovilizar.",
+                    "content": "Agarrar en Goju-Ryu no es meramente sujetar. Implica agarrar músculos y tendones para controlar el movimiento del oponente o incluso paralizar momentáneamente una extremidad. El agarre ('Toraguchi' o Boca de Tigre) se usa para perturbar el equilibrio, preparar golpes o iniciar proyecciones. Requiere fuerza en los dedos desarrollada a través del condicionamiento tradicional."
+                },
+                "opening-closing": {
+                    "title": "Apertura y Cierre",
+                    "subtitle": "Expansión y Contracción",
+                    "description": "Crear aperturas o proteger el centro.",
+                    "content": "Las técnicas a menudo implican 'Abrir' para crear espacio para un ataque o desequilibrar al oponente, y 'Cerrar' para proteger la línea central o atrapar las extremidades del oponente. Esto se relaciona con la expansión y contracción del cuerpo y es fundamental para generar potencia y mantener la integridad estructural."
+                },
+                "pushing-pulling": {
+                    "title": "Empujar y Tirar",
+                    "subtitle": "Perturbar el Equilibrio",
+                    "description": "Usar la mecánica básica para desequilibrar al oponente.",
+                    "content": "Empujar y tirar son los métodos más básicos para perturbar el equilibrio del oponente (Kuzushi). El principio que se aplica a menudo es: si te tiran, empuja; si te empujan, tira. Esto usa el propio impulso del oponente contra él. Estas acciones rara vez son aisladas, sino que se combinan con el juego de pies y la rotación del cuerpo."
+                },
+                "go-ju-techniques": {
+                    "title": "Técnicas Go y Ju",
+                    "subtitle": "Aplicaciones Duras y Suaves",
+                    "description": "La mezcla de golpes y lucha.",
+                    "content": "Kakie permite la práctica de técnicas tanto 'Go' (Duras) como golpes, patadas y roturas, como técnicas 'Ju' (Suaves) como llaves, estrangulamientos y proyecciones. Un practicante debe aprender a cambiar instantáneamente entre aplicaciones duras y suaves dependiendo de la reacción del oponente, encarnando el verdadero espíritu de Goju-Ryu."
+                }
             },
             "basic-exercises": {
                 "title": "Ejercicios Básicos de Kakie",
-                "swallow-spit": "1. ‘Tragar y Escupir’",
-                "circle-deflect": "2. ‘Circular y Desviar’",
-                "kake-uke": "3. ‘Kake Uke’"
+                "subtitle": "Ejercicios Fundamentales",
+                "description": "Estos ejercicios sientan las bases para la aplicación de Kakie.",
+                "swallow-spit": {
+                    "title": "Tragar y Escupir",
+                    "subtitle": "Flujo de Energía",
+                    "description": "El ritmo fundamental de absorber y devolver fuerza.",
+                    "content": "Conocido como 'Empuje con una mano', este ejercicio enseña al estudiante a aceptar la fuerza sin resistencia ('Tragar') y devolverla con integridad estructural ('Escupir'). Es la manifestación física de 'Tai no Shinshuku' (Expansión y Contracción del Cuerpo). Desarrolla la capacidad de mantener la forma de la mano 'Toraguchi' y el enraizamiento mientras se está en movimiento."
+                },
+                "circle-deflect": {
+                    "title": "Circular y Desviar",
+                    "subtitle": "Movimiento Circular",
+                    "description": "Usar círculos para neutralizar ataques directos.",
+                    "content": "Este ejercicio se centra en la naturaleza circular de los bloqueos de Goju-Ryu. Al guiar la fuerza del oponente en un círculo, uno puede desviar ataques poderosos sin enfrentarlos de frente. Enfatiza el principio de 'Ju' (Suavidad) superando a 'Go' (Dureza) y entrena al practicante para mantenerse conectado (Muchimi) durante toda la maniobra defensiva."
+                },
+                "kake-uke": {
+                    "title": "Kake Uke",
+                    "subtitle": "Bloqueo de Gancho",
+                    "description": "La técnica distintiva de Kakie.",
+                    "content": "Kake Uke (Bloqueo de Gancho) es quizás la técnica más representativa del estilo. Implica enganchar la extremidad atacante del oponente para controlarla. En la práctica de Kakie, Kake Uke se usa para abrir la guardia del oponente, atrapar su brazo y crear una apertura para un contraataque. Requiere un hombro relajado pero una muñeca y un agarre fuertes y condicionados."
+                }
             },
             "points-of-attention": {
                 "title": "Puntos de Atención",
-                "posture": "1. Postura",
-                "grounding": "2. Enraizamiento",
-                "rooting": "3. Arraigo",
-                "centring": "4. Centrado",
-                "generating-power": "5. Generación de potencia",
-                "combining-forces": "6. Combinación de fuerzas",
-                "regulating-breathing": "7. Regulación de la respiración",
-                "regulating-ki": "8. Regulación del Ki o Aliento"
+                "subtitle": "Elementos Clave para la Maestría",
+                "description": "Aspectos críticos en los que concentrarse durante la práctica de Kakie.",
+                "posture": {
+                    "title": "Postura",
+                    "subtitle": "Alineación Estructural",
+                    "description": "Mantener una estructura corporal recta y alineada.",
+                    "content": "Una espalda recta y una alineación estructural correcta son esenciales. Sin una buena postura, no se puede transmitir eficazmente la fuerza desde el suelo ni absorber la potencia entrante. La barbilla debe estar hacia adentro, los hombros relajados y la columna recta para permitir un flujo de energía sin impedimentos."
+                },
+                "grounding": {
+                    "title": "Asentamiento",
+                    "subtitle": "Conexión con la Tierra",
+                    "description": "Bajar el peso corporal para ganar estabilidad.",
+                    "content": "El asentamiento es el aspecto pasivo de la estabilidad—dejar que la gravedad haga el trabajo. Implica bajar el peso y relajar la parte superior del cuerpo. Un practicante asentado se siente 'pesado' y es difícil de levantar o desequilibrar."
+                },
+                "rooting": {
+                    "title": "Enraizamiento",
+                    "subtitle": "Agarre Activo",
+                    "description": "Agarrar activamente el suelo para generar potencia.",
+                    "content": "A diferencia del asentamiento, el enraizamiento es activo. Implica agarrar el suelo con los dedos de los pies, creando una base sólida. Esta 'raíz' permite al practicante empujar contra el suelo para generar fuerza horizontal e impulsar las técnicas."
+                },
+                "centering": {
+                    "title": "Centrado",
+                    "subtitle": "Conciencia del Tanden",
+                    "description": "Moverse desde el centro físico y energético.",
+                    "content": "Toda la potencia y el movimiento deben originarse en el Tanden (Centro). Concentrar la mente y la respiración en el abdomen inferior baja el centro de gravedad y unifica el movimiento del cuerpo, asegurando que las técnicas sean impulsadas por todo el cuerpo, no solo por las extremidades."
+                },
+                "power": {
+                    "title": "Potencia",
+                    "subtitle": "Gamaku",
+                    "description": "Generar fuerza a través de la conexión de caderas y cintura.",
+                    "content": "La potencia en Kakie es generada por las piernas y las caderas ('Gamaku'). Los brazos simplemente transmiten esta fuerza. Una coordinación adecuada de la cintura y las caderas con la respiración (Ibuki) permite una generación de potencia explosiva incluso a corta distancia."
+                },
+                "breathing": {
+                    "title": "Respiración",
+                    "subtitle": "Ibuki",
+                    "description": "Coordinar la respiración con la acción.",
+                    "content": "La respiración controla el ritmo del combate. La respiración abdominal profunda (Ibuki) se usa para generar presión interna, proteger el cuerpo y alimentar el movimiento. Se debe exhalar al entregar fuerza e inhalar al absorber o prepararse."
+                },
+                "ki": {
+                    "title": "Ki",
+                    "subtitle": "Energía Vital",
+                    "description": "Infundir la técnica con espíritu e intención.",
+                    "content": "El Ki es la energía vital que anima la técnica. En Kakie, implica proyectar la intención más allá del contacto físico. Un practicante con un Ki fuerte tiene una presencia que puede ser sentida por el oponente, perturbando su espíritu incluso antes de que se apliquen las técnicas físicas."
+                }
             }
         }
     }

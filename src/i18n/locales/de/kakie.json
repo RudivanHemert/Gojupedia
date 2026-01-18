@@ -3,58 +3,227 @@
         "title": "Kakie",
         "description": "Klebende Hände und Techniken für den Nahkampf",
         "sections": {
-            "introduction": "Einleitung",
-            "fighting-practice": "Kampfpraxis",
-            "traditional-medicine": "Traditionelle Medizin und Gesundheitsgymnastik",
-            "spiritual-influences": "Spirituelle Einflüsse",
+            "introduction": {
+                "title": "Einführung",
+                "subtitle": "Die Distanz schließen",
+                "description": "Die Kampfkünste, wie sie von Higaonna Kanryo praktiziert und später von Miyagi Chojun studiert wurden, waren technisch noch in der Realität des Nahkampfs verwurzelt, beeinflusst von Buddhismus und Daoismus.",
+                "content": "Die Kampfkünste aus Fujian waren am tatsächlichen Kampf, dem klassischen Wissen der chinesischen Medizin und spirituellen Doktrinen ausgerichtet. Technisch enthielten diese Künste viele Nahkampfenstechniken wie Qinna (Greiftechniken), Würfe und Angriffe auf Vitalpunkte."
+            },
+            "fighting-practice": {
+                "title": "Kampfpraxis",
+                "subtitle": "Realität des Nahkampfs",
+                "description": "Traditionelles Goju-Ryu konzentriert sich auf eine unmittelbare Beziehung zum tatsächlichen Kampf, der meist auf engstem Raum entschieden wird. Dies erfordert die Beherrschung von Nahkampftechniken.",
+                "content": "Modernes Karate ist oft an internationalen Wettbewerben ausgerichtet. Im Gegensatz dazu nutzen traditionelle Systeme Übungen wie Bunkai Kumite und Kakie, um Greiftechniken (Tuite oder Gyakute) zu bewahren. Der Einsatz von 'Brücken' (Unterarmen) zur Verbindung und zum Eindringen wird überlebenswichtig.\n\nDies spiegelt sich im 'Iri Kumi' (Nahkampf) wider, das Greifen, Werfen und Hebeltechniken erlaubt. Kakie verbindet die meditativen Prinzipien der Sanchin-Kata mit dem technischen Reichtum des Bunkai Kumite und der Dynamik des Iri Kumi."
+            },
+            "traditional-medicine": {
+                "title": "Traditionelle Medizin",
+                "subtitle": "Gesundheit & Gymnastik",
+                "description": "Der Einfluss der Traditionellen Chinesischen Medizin (TCM) umfasst sowohl die Behandlung von Verletzungen als auch die präventive Körperkonditionierung. Dies beinhaltet das Verständnis des Ki-Flusses (Lebensenergie) und der Vitalpunkte (Kyusho).",
+                "content": "Die Behandlung und Vorbeugung von Verletzungen (Dieda oder 'Fall- & Stoßmedizin') nutzte Kräuter, Gelenkmanipulation und Massage. Kakie dient als Übung, bei der ein gut organisiertes Energiesystem die verfeinerten Bewegungen eines Meisters von den rohen Aktionen eines Anfängers unterscheidet."
+            },
+            "spiritual-influences": {
+                "title": "Spirituelle Einflüsse",
+                "subtitle": "Geist & Bewusstsein",
+                "description": "Spirituelle Doktrinen aus Shaolin und anderen Klöstern bereicherten die Kampfkünste durch introspektive Forschung über Geist, Bewusstsein und moralische Prinzipien.",
+                "content": "Die traditionellen Kampfkünste enthalten wertvolle spirituelle Einsichten für diejenigen, die bereit sind, 'den Weg' zu gehen. Es ist nicht nur theoretisch; das Geheimnis offenbart sich durch die tatsächliche Praxis des Karatedo selbst, die den Übenden zu tieferer Selbsterkenntnis und moralischer Integrität führt."
+            },
             "close-combat": {
                 "title": "Kakie und Nahkampf",
-                "basic-qualities": "Basiseigenschaften",
-                "chiru-nu-chan-chan": "Chiru nu chan chan",
-                "body-conditioning": "Körperkonditionierung",
-                "sanchin": "Sanchin"
+                "subtitle": "Die Distanz schließen",
+                "description": "Der Nahkampf erfordert spezifische Fähigkeiten, die in Übungen auf große Distanz oft nicht entwickelt werden. Dieser Abschnitt behandelt die grundlegenden Qualitäten, die für den Einsatz im Nahbereich erforderlich sind.",
+                "basic-qualities": {
+                    "title": "Basiseigenschaften",
+                    "subtitle": "Sensibilität und Berührung",
+                    "description": "Im Nahkampf ist es wichtiger, die Bewegung des Gegners durch Berührung zu spüren, als sich nur auf die Augen zu verlassen.",
+                    "content": "Nahkampfsituationen sind intensiv und schnell. Da Angriffe aus sehr geringer Entfernung erfolgen, werden sie oft erst im letzten Moment bemerkt. Die Kakie-Praxis entwickelt ein hohes Maß an Sensibilität, die es ermöglicht, die Absichten und Bewegungen des Gegners durch physischen Kontakt zu lesen, bevor sie visuell verarbeitet werden können."
+                },
+                "chiru-nu-chan-chan": {
+                    "title": "Chiru nu chan chan",
+                    "subtitle": "Federkraft (Spring Power)",
+                    "description": "Ein Begriff aus Okinawa, der sich auf eine einzigartige Kombination aus explosiver Kraft und tiefer Sensibilität bezieht.",
+                    "content": "Chiru nu chan chan beschritt die explosive, federartige Kontraktion von Muskeln und Sehnen. Über die körperliche Kraft hinaus bezeichnet es die Sensibilität, die erforderlich ist, um den Angriff eines Gegners vorherzusehen. Diese Fähigkeit ermöglicht schnellere Reaktionen im Nahkampf, wo Teile des gegnerischen Körpers außerhalb des Sichtfeldes liegen können. Fortgeschrittene entwickeln dies zum 'Kanken' oder intuitiven sechsten Sinn."
+                },
+                "body-conditioning": {
+                    "title": "Körperkonditionierung",
+                    "subtitle": "Das Schmieden des Körpers",
+                    "description": "Die Teilnahme am Nahkampf erfordert einen Körper, der physisch darauf vorbereitet ist, Stöße zu verkraften und zu absorbieren.",
+                    "content": "Goju-Ryu enthält verschiedene Übungen zum 'Schmieden' des Körpers und der Gliedmaßen, wie Tai Atari (Körperkontakt), Ude Tanren (Armhärtung) und Makiwara-Training. Diese Methoden stellen sicher, dass der Übende Schlägen standhalten kann, indem er spezifische Muskelkontraktionen und die richtige Ausrichtung nutzt."
+                },
+                "sanchin": {
+                    "title": "Sanchin",
+                    "subtitle": "Das Fundament",
+                    "description": "Die Sanchin-Kata ist der Grundstein des Goju-Ryu und konzentriert sich auf die Vereinigung von Geist, Körper und Atem.",
+                    "content": "Wesentlich für den Nahkampf ist das Training von 'Ki' (Lebensenergie). Sanchin lehrt den Übenden, Ki im Tanden zu sammeln und zu den Kontaktbereichen zu leiten. Ein technisches Schlüsselelement ist die 'Noon'-Atmung – das Anhalten des Atems während der Kraftentfaltung –, die die inneren Organe schützt und die Widerstandsfähigkeit des Körpers im Eifer des Kampfes erhöht."
+                }
             },
             "kiko": {
                 "title": "Kiko: Übungen zur Vitalenergie",
-                "mind-projection": "Geistprojektion",
-                "sensitivity": "Empfindsamkeit",
-                "muscular-tension": "Muskelanspannung",
-                "regulating-breathing": "Regulierung der Atmung",
-                "tension-relaxation": "Spannung und Entspannung"
+                "subtitle": "Kultivierung der Lebenskraft",
+                "description": "Kiko (Chinesisch: Qigong) umfasst Übungen zur Kultivierung und Regulierung der Vitalenergie.",
+                "mind-projection": {
+                    "title": "Geistige Projektion",
+                    "subtitle": "Yi Yi Yin Qi",
+                    "description": "Das Prinzip, dass der Geist die Vitalenergie lenkt.",
+                    "content": "In der Sanchin-Kata und der Kiko-Praxis wird der Geist (Yi) verwendet, um den Fluss des Ki zu lenken. Dieses Konzept, 'Yi Yi Yin Qi', bedeutet, dass die geistige Projektion die Energie führt. Indem man die Aufmerksamkeit ständig auf jeden Teil des Körpers richtet, verbessert man die Sensibilität und die neuromotorische Leistung und stellt sicher, dass die Energie dorthin fließt, wo der Geist hingeht."
+                },
+                "sensitivity": {
+                    "title": "Sensibilität",
+                    "subtitle": "Kanken",
+                    "description": "Erhöhtes Bewusstsein, das für den Nahkampf unerlässlich ist.",
+                    "content": "Erhöhte Sensibilität ermöglicht es dem Karateka, Angriffe zu spüren, die außerhalb des Sichtfeldes beginnen oder enden. Im Grappling ermöglicht es, die Richtung der Kraft des Gegners zu fühlen – ob es sich um einen Stoß, einen Hebel oder einen Wurf handelt. Kombiniert mit der Wachsamkeit aus Sanchin legt dies den Grundstein für extreme Bereitschaft im Kampf."
+                },
+                "muscular-tension": {
+                    "title": "Muskelspannung",
+                    "subtitle": "Verschmelzung des Ki",
+                    "description": "Verwendung von Kontraktion zur Integration von Energie in die Körperstruktur.",
+                    "content": "Im Gegensatz zu weicheren Ki-Übungen verwendet Sanchin maximale Muskelkontraktion, um Ki tief in Muskeln, Sehnen und Knochen zu verschmelzen. Dies verbessert die Fähigkeit, Stöße zu absorbieren. Diese Praxis hat ihre Wurzeln in den 'Sehnen-Transformations-Übungen', die von Bodhidharma gelehrt wurden. Es schafft einen Körper, der 'hart, aber flexibel und widerstandsfähig' ist."
+                },
+                "regulating-breathing": {
+                    "title": "Regulierung der Atmung",
+                    "subtitle": "Harmonisierung von Atem und Geist",
+                    "description": "Atemkontrolle ist ein primäres Werkzeug zur Regulierung der Ki-Zirkulation.",
+                    "content": "Die Atmung ist eng mit dem Zustand von Körper und Geist verbunden. In Sanchin wird die Atmung reguliert, um mit Technik und geistiger Absicht zu harmonisieren. 'Bauchatmung' konzentriert Energie im Tanden. Die richtige Atmung ist entscheidend für die effektive Anwendung von Techniken und für die Aufrechterhaltung eines ruhigen, fokussierten Geistes unter Stress."
+                },
+                "tension-relaxation": {
+                    "title": "Spannung und Entspannung",
+                    "subtitle": "Go und Ju",
+                    "description": "Das dynamische Gleichgewicht zwischen Härte und Weichheit.",
+                    "content": "Nahkampf erhöht oft das Stressniveau, was zu übermäßiger Spannung führen kann, die den Ki-Fluss blockieren kann. Es ist entscheidend, das Gleichgewicht zwischen Spannung (Go) und Entspannung (Ju) aufrechtzuerhalten. Im Kakie sollte man eine an den Gegner angepasste, flexible Kraft verwenden und die starre Verriegelung des Körpers vermeiden, die in der Sanchin-Kata zu finden ist, während man dennoch ihre energetischen Prinzipien anwendet."
+                }
             },
             "basic-abilities": {
                 "title": "Basiskampffähigkeiten",
-                "control-absorb-deflect-evade": "Kontrollieren, Absorbieren, Ablenken und Ausweichen",
-                "control-muchimi": "Kontrolle - Muchimi",
-                "absorb": "Absorbieren: Schlucken und Spucken",
-                "deflection": "Ablenkung",
-                "evasion": "Ausweichen"
+                "subtitle": "Grundlegende Verteidigungsfähigkeiten",
+                "description": "Der Nahkampf erfordert spezifische Fähigkeiten zum Überleben. Neben Blocken und Ausweichen muss man die Kraft des Gegners kontrollieren, absorbieren, abwehren und ausweichen.",
+                "control-absorb-deflect-evade": {
+                    "title": "Die vier Elemente",
+                    "subtitle": "Überblick",
+                    "description": "Die vier grundlegenden Verteidigungsfähigkeiten in der Kakie-Praxis.",
+                    "content": "Reaktionen auf den Angriff eines Gegners decken ein breites Spektrum ab. Im Nahkampf sind spezifische Fähigkeiten erforderlich, um Grappling-Situationen zu bewältigen. Dies sind Kontrolle, Absorbieren, Abwehren und Ausweichen. Diese Fähigkeiten müssen durch 'Standhaftigkeit' – eine dynamische Kombination aus Erdung und Verwurzelung – unterstützt und durch Leichtfüßigkeit vervollständigt werden."
+                },
+                "control-muchimi": {
+                    "title": "Kontrolle - Muchimi",
+                    "subtitle": "Schwerer und klebriger Fluss",
+                    "description": "Kontrolle des Gegners durch schwere, klebrige, aber fließende Aktionen.",
+                    "content": "Die Fähigkeit, die Kraft des Gegners zu kontrollieren, wird 'Muchimi' genannt. Es bezieht sich auf eine schwere, klebrige, aber fließende Kraftanwendung. Im Grappling ermöglicht dies, die Kontrolle über die Aktionen des Gegners zu übernehmen. Muchimi wird auch beim Blocken verwendet, wobei der Block nicht nur pariert, sondern das Gliedmaß kontrolliert oder das Gleichgewicht des Angreifers für den Bruchteil einer Sekunde stört."
+                },
+                "absorb": {
+                    "title": "Absorbieren",
+                    "subtitle": "Schlucken und Spucken",
+                    "description": "Kraft in den Boden leiten und zurückgeben.",
+                    "content": "Kraft absorbieren ('Schlucken') bedeutet, die Kraft des Gegners durch den Körper in den Boden/Tanden zu leiten, nicht nur einen Schlag einzustecken. Es folgt oft das Ausdehnen von Kraft ('Spucken') zurück zum Gegner. Diese abwechselnde Kompression und Expansion wird 'Tai no Shinshuku' genannt. Richtiges Absorbieren beruht auf der korrekten Ausrichtung auf die eingehende Kraft."
+                },
+                "deflection": {
+                    "title": "Abwehren",
+                    "subtitle": "Den Angriff umleiten",
+                    "description": "Verwendung kreisförmiger Bewegungen, um Kraft wegzuleiten.",
+                    "content": "Abwehren kann mit dem Absorbieren (Ju) oder Abprallen (Go) der Kraft kombiniert werden. Selbst bei frontalen Blocks kann man abwehren, indem man Kraft in einem Winkel (Go) ausdehnt oder absorbiert, ohne die Haltung zu beeinträchtigen (Ju). Da die meisten Goju-Ryu-Blocks kreisförmig sind, kombinieren sie normalerweise sowohl Go- als auch Ju-Elemente."
+                },
+                "evasion": {
+                    "title": "Ausweichen",
+                    "subtitle": "Tai Sabaki",
+                    "description": "Den Körper bewegen, um den Angriff zu vermeiden.",
+                    "content": "Ausweichen beinhaltet Körperbewegung (Tai Sabaki, Tai Hiraki) und Beinarbeit (Tenshin). Während es Kraft spart und Verletzungen vermeidet, ist es im Nahkampf aufgrund der kurzen Distanz schwer zu meistern. Erfolgreiches Ausweichen erfordert große Sensibilität und sollte immer zu einer besseren strategischen Position oder einer Kontertechnik führen."
+                }
             },
             "techniques": {
                 "title": "Techniken",
-                "grabbing": "Greifen",
-                "opening-closing": "Öffnen und Schließen",
-                "pushing-pulling": "Drücken und Ziehen",
-                "go-techniques": "Go-Techniken: Fäuste, Schläge und Tritte",
-                "ju-techniques-tuite": "Ju-Techniken: Tuite oder Gyakute",
-                "ju-techniques-kyusho": "Ju-Techniken: Kyushojutsu (Chibujutsu)"
+                "subtitle": "Anwendungen der Prinzipien",
+                "description": "Kakie ist das Labor, in dem Prinzipien in effektive Kampftechniken umgewandelt werden.",
+                "grabbing": {
+                    "title": "Greifen",
+                    "subtitle": "Toraguchi",
+                    "description": "Den Gegner ergreifen, um zu kontrollieren oder zu immobilisieren.",
+                    "content": "Greifen im Goju-Ryu bedeutet nicht bloßes Festhalten. Es beinhaltet das Ergreifen von Muskeln und Sehnen, um die Bewegung des Gegners zu kontrollieren oder sogar ein Gliedmaß vorübergehend zu lähmen. Der Griff ('Toraguchi' oder Tigermaul) wird verwendet, um das Gleichgewicht zu stören, Schläge vorzubereiten oder Würfe einzuleiten. Er erfordert Fingerkraft, die durch traditionelle Konditionierung entwickelt wurde."
+                },
+                "opening-closing": {
+                    "title": "Öffnen und Schließen",
+                    "subtitle": "Expansion und Kontraktion",
+                    "description": "Öffnungen schaffen oder die Mitte schützen.",
+                    "content": "Techniken beinhalten oft das 'Öffnen', um Raum für einen Angriff zu schaffen oder den Gegner aus dem Gleichgewicht zu bringen, und das 'Schließen', um die Mittellinie zu schützen oder die Gliedmaßen des Gegners einzuklemmen. Dies hängt mit der Expansion und Kontraktion des Körpers zusammen und ist grundlegend für die Krafterzeugung und die Aufrechterhaltung der strukturellen Integrität."
+                },
+                "pushing-pulling": {
+                    "title": "Drücken und Ziehen",
+                    "subtitle": "Gleichgewicht stören",
+                    "description": "Verwendung grundlegender Mechanik, um den Gegner aus dem Gleichgewicht zu bringen.",
+                    "content": "Drücken und Ziehen sind die grundlegendsten Methoden, um das Gleichgewicht des Gegners zu stören (Kuzushi). Das oft angewandte Prinzip lautet: Wenn gezogen wird, drücken; wenn gedrückt wird, ziehen. Dies nutzt den eigenen Schwung des Gegners gegen ihn. Diese Aktionen sind selten isoliert, sondern werden mit Schritten und Körperrotation kombiniert."
+                },
+                "go-ju-techniques": {
+                    "title": "Go- und Ju-Techniken",
+                    "subtitle": "Harte und Weiche Anwendungen",
+                    "description": "Die Mischung aus Schlagen und Grappling.",
+                    "content": "Kakie ermöglicht das Üben sowohl von 'Go' (Harten) Techniken wie Schlägen, Tritten und Brüchen als auch von 'Ju' (Weichen) Techniken wie Hebeln, Würgegriffen und Würfen. Ein Übender muss lernen, je nach Reaktion des Gegners sofort zwischen harten und weichen Anwendungen zu wechseln und so den wahren Geist des Goju-Ryu zu verkörpern."
+                }
             },
             "basic-exercises": {
                 "title": "Kakie-Basisübungen",
-                "swallow-spit": "1. ‘Schlucken & Spucken’",
-                "circle-deflect": "2. ‘Kreisen und Ablenken’",
-                "kake-uke": "3. ‘Kake Uke’"
+                "subtitle": "Grundlegende Übungen",
+                "description": "Diese Übungen bilden die Grundlage für die Kakie-Anwendung.",
+                "swallow-spit": {
+                    "title": "Schlucken & Spucken",
+                    "subtitle": "Energiefluss",
+                    "description": "Der grundlegende Rhythmus des Absorbierens und Zurückgebens von Kraft.",
+                    "content": "Bekannt als 'Einhändiges Schieben', lehrt diese Übung den Schüler, Kraft ohne Widerstand zu akzeptieren ('Schlucken') und sie mit struktureller Integrität zurückzugeben ('Spucken'). Es ist die physische Manifestation von 'Tai no Shinshuku' (Körperausdehnung und -kontraktion). Es entwickelt die Fähigkeit, die 'Toraguchi'-Handform und die Erdung während der Bewegung beizubehalten."
+                },
+                "circle-deflect": {
+                    "title": "Kreisen und Ablenken",
+                    "subtitle": "Kreisförmige Bewegung",
+                    "description": "Verwendung von Kreisen, um gerade Angriffe zu neutralisieren.",
+                    "content": "Diese Übung konzentriert sich auf die kreisförmige Natur der Goju-Ryu-Blocks. Indem man die Kraft des Gegners in einen Kreis lenkt, kann man mächtige Angriffe abwehren, ohne sie frontal zu treffen. Es betont das Prinzip von 'Ju' (Weichheit), das 'Go' (Härte) überwindet, und trainiert den Übenden, während des defensiven Manövers verbunden zu bleiben (Muchimi)."
+                },
+                "kake-uke": {
+                    "title": "Kake Uke",
+                    "subtitle": "Hakenblock",
+                    "description": "Die charakteristische Technik des Kakie.",
+                    "content": "Kake Uke (Hakenblock) ist vielleicht die repräsentativste Technik des Stils. Es beinhaltet das Einhaken des angreifenden Gliedmaßes des Gegners, um es zu kontrollieren. In der Kakie-Praxis wird Kake Uke verwendet, um die Deckung des Gegners zu öffnen, seinen Arm einzuklemmen und eine Öffnung für einen Gegenangriff zu schaffen. Es erfordert eine entspannte Schulter, aber ein starkes, konditioniertes Handgelenk und einen starken Griff."
+                }
             },
             "points-of-attention": {
                 "title": "Aufmerksamkeitspunkte",
-                "posture": "1. Körperhaltung",
-                "grounding": "2. Erdung",
-                "rooting": "3. Verwurzelung",
-                "centring": "4. Zentrierung",
-                "generating-power": "5. Krafterzeugung",
-                "combining-forces": "6. Kombination von Kräften",
-                "regulating-breathing": "7. Regulierung der Atmung",
-                "regulating-ki": "8. Regulierung von Ki oder Atem"
+                "subtitle": "Schlüsselelemente zur Meisterschaft",
+                "description": "Kritische Aspekte, auf die man sich während der Kakie-Praxis konzentrieren sollte.",
+                "posture": {
+                    "title": "Haltung",
+                    "subtitle": "Strukturelle Ausrichtung",
+                    "description": "Aufrechterhaltung einer geraden und ausgerichteten Körperstruktur.",
+                    "content": "Ein gerader Rücken und eine korrekte strukturelle Ausrichtung sind unerlässlich. Ohne eine gute Haltung kann man Kraft nicht effektiv vom Boden übertragen oder eingehende Kraft absorbieren. Das Kinn muss eingezogen, die Schultern entspannt und die Wirbelsäule gerade sein, um einen ungehinderten Energiefluss zu ermöglichen."
+                },
+                "grounding": {
+                    "title": "Erdung",
+                    "subtitle": "Verbindung zur Erde",
+                    "description": "Das Körpergewicht sinken lassen, um Stabilität zu gewinnen.",
+                    "content": "Erdung ist der passive Aspekt der Stabilität – die Schwerkraft ihre Arbeit tun lassen. Es beinhaltet, das Gewicht tief zu senken und den Oberkörper zu entspannen. Ein geerdeter Übender fühlt sich 'schwer' an und ist schwer zu heben oder aus dem Gleichgewicht zu bringen."
+                },
+                "rooting": {
+                    "title": "Verwurzeln",
+                    "subtitle": "Aktiver Griff",
+                    "description": "Den Boden aktiv greifen zur Krafterzeugung.",
+                    "content": "Im Gegensatz zur Erdung ist das Verwurzeln aktiv. Es beinhaltet das Greifen des Bodens mit den Zehen und Füßen, wodurch ein starkes Fundament entsteht. Diese 'Wurzel' ermöglicht es dem Übenden, sich gegen den Boden abzudrücken, um horizontale Kraft zu erzeugen und Techniken anzutreiben."
+                },
+                "centering": {
+                    "title": "Zentrierung",
+                    "subtitle": "Tanden-Bewusstsein",
+                    "description": "Bewegen aus dem physischen und energetischen Zentrum.",
+                    "content": "Alle Kraft und Bewegung muss aus dem Tanden (Zentrum) kommen. Die Konzentration von Geist und Atem im Unterbauch senkt den Schwerpunkt und vereinheitlicht die Körperbewegung, wodurch sichergestellt wird, dass Techniken vom ganzen Körper und nicht nur von den Gliedmaßen angetrieben werden."
+                },
+                "power": {
+                    "title": "Kraft",
+                    "subtitle": "Gamaku",
+                    "description": "Krafterzeugung durch Hüft- und Taillenverbindung.",
+                    "content": "Kraft in Kakie wird durch die Beine und Hüften ('Gamaku') erzeugt. Die Arme übertragen diese Kraft lediglich. Eine korrekte Koordination von Taille und Hüften mit der Atmung (Ibuki) ermöglicht eine explosive Krafterzeugung auch auf kurze Distanz."
+                },
+                "breathing": {
+                    "title": "Atmung",
+                    "subtitle": "Ibuki",
+                    "description": "Koordination von Atem und Handlung.",
+                    "content": "Die Atmung kontrolliert den Rhythmus des Kampfes. Tiefe Bauchatmung (Ibuki) wird verwendet, um inneren Druck zu erzeugen, den Körper zu schützen und Bewegung zu speisen. Man sollte bei der Kraftabgabe ausatmen und bei der Absorption oder Vorbereitung einatmen."
+                },
+                "ki": {
+                    "title": "Ki",
+                    "subtitle": "Lebensenergie",
+                    "description": "Technik mit Geist und Absicht füllen.",
+                    "content": "Ki ist die Lebensenergie, die die Technik belebt. In Kakie bedeutet dies, die Absicht über den physischen Kontakt hinaus zu projizieren. Ein Übender mit starkem Ki hat eine Präsenz, die vom Gegner gespürt werden kann und dessen Geist stört, noch bevor physische Techniken angewendet werden."
+                }
             }
         }
     }

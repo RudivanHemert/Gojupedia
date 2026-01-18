@@ -3,58 +3,227 @@
         "title": "Kakie",
         "description": "Klæbende hænder og teknikker til nærkamp",
         "sections": {
-            "introduction": "Introduktion",
-            "fighting-practice": "Kampsportspraksis",
-            "traditional-medicine": "Traditionel medicin og gymnastik",
-            "spiritual-influences": "Spirituelle påvirkninger",
+            "introduction": {
+                "title": "Introduktion",
+                "subtitle": "Lukning af afstanden",
+                "description": "Kampkunsten som praktiseret af Higaonna Kanryo og senere studeret af Miyagi Chojun var teknisk stadig forankret i virkeligheden på mand-til-mand slagmarken, berørt af de spirituelle ekkoer fra buddhisme og daoisme.",
+                "content": "Kampkunsten i Fujian var struktureret efter linjerne i den faktiske kamp, den klassiske viden om kinesisk medicin og de spirituelle doktriner i buddhisme og daoisme. Teknisk indeholdt disse kunstarter mange nærkampteknikker såsom qinna (brydning), kast og angreb på vitale punkter."
+            },
+            "fighting-practice": {
+                "title": "Kamptræning",
+                "subtitle": "Virkeligheden i nærkamp",
+                "description": "Traditionel Goju-Ryu er centreret omkring et 'friskt' forhold til faktisk kamp, der normalt afgøres inden for en kvadratmeter. Dette kræver beherskelse af teknikker på tæt hold.",
+                "content": "Moderne karate er ofte formet efter linjerne i internationale konkurrencer. I modsætning hertil bruger traditionelle systemer øvelser som bunkai kumite og kakie til at bevare brydeteknikker (tuite eller gyakute). Brugen af 'broer' (underarme) til at forbinde og trænge ind bliver afgørende.\n\nDette afspejles i 'iri kumi' (nærkamp), som tillader brydning, kast og ledlåse. Kakie forbinder de meditative principper fra Sanchin kata med den tekniske rigdom i bunkai kumite og dynamikken i iri kumi."
+            },
+            "traditional-medicine": {
+                "title": "Traditionel Medicin",
+                "subtitle": "Sundhed og Gymnastik",
+                "description": "Indflydelsen fra traditionel kinesisk medicin (TCM) dækker både behandling af skader og forebyggende kropskonditionering. Det indebærer forståelse af strømmen af ki (vital energi) og vitale punkter (kyusho).",
+                "content": "Behandling og forebyggelse af skader (dieda eller 'fald & slag medicin') brugte urter, ledmanipulation og massage. Kakie tjener som en øvelse, hvor et velorganiseret energisystem skelner mesterens raffinerede bevægelser fra begynderens rå handlinger."
+            },
+            "spiritual-influences": {
+                "title": "Spirituelle Indflydelser",
+                "subtitle": "Sind og Bevidsthed",
+                "description": "Spirituelle doktriner fra Shaolin og andre klostre berigede kampkunsten gennem introspektiv forskning i sind, bevidsthed og moralske principper.",
+                "content": "De traditionelle kampkunstarter indeholder værdifuld spirituel indsigt for dem, der er villige til at 'gå vejen'. Det er ikke kun teoretisk; hemmeligheden afsløres gennem selve udøvelsen af karatedo, der guider udøveren mod dybere selvbevidsthed og moralsk integritet."
+            },
             "close-combat": {
-                "title": "Kakie og nærkamp",
-                "basic-qualities": "Grundlæggende kvaliteter",
-                "chiru-nu-chan-chan": "Chiru nu chan chan",
-                "body-conditioning": "Kropskonditionering",
-                "sanchin": "Sanchin"
+                "title": "Kakie og Nærkamp",
+                "subtitle": "Lukning af afstanden",
+                "description": "Nærkamp kræver specifikke færdigheder, som ofte ikke udvikles i træning på lang afstand. Dette afsnit dækker de grundlæggende kvaliteter, der kræves for engagement på tæt hold.",
+                "basic-qualities": {
+                    "title": "Grundlæggende Kvaliteter",
+                    "subtitle": "Følsomhed og Berøring",
+                    "description": "I nærkamp er det vigtigere at føle din modstanders bevægelse gennem berøring end kun at stole på dine øjne.",
+                    "content": "Nær kampsituationer er intense og hurtige. Da angreb affyres fra en meget lille afstand, bemærkes de ofte først i det sidste øjeblik. Kakie-træning udvikler en høj grad af følsomhed, der gør det muligt at læse din modstanders intentioner og bevægelser gennem manuel kontakt, før de kan behandles visuelt."
+                },
+                "chiru-nu-chan-chan": {
+                    "title": "Chiru nu chan chan",
+                    "subtitle": "Fjederkraft (Spring Power)",
+                    "description": "Et Okinawansk udtryk, der henviser til en unik kombination af eksplosiv kraft og dyb følsomhed.",
+                    "content": "Chiru nu chan chan beskriver den eksplosive, fjederagtige samentrækning af muskler og sener. Udover fysisk styrke betegner det den følsomhed, der kræves for at forudse en modstanders angreb. Denne evne giver hurtigere reaktioner i nærkamp, hvor dele af modstanderens krop kan være uden for dit synsfelt. Avancerede udøvere udvikler dette til 'kanken' eller intuitiv sjette sans."
+                },
+                "body-conditioning": {
+                    "title": "Kropskonditionering",
+                    "subtitle": "Smedning af kroppen",
+                    "description": "Deltagelse i nærkamp kræver en krop, der er fysisk forberedt på at håndtere og absorbere stød.",
+                    "content": "Goju-Ryu indeholder forskellige øvelser til at 'smede' kroppen og ekstremiteterne, såsom tai atari (kropskontakt), ude tanren (armhærdning) og makiwara-træning. Disse metoder sikrer, at udøveren kan modstå slag ved hjælp af specifikke muskelsammentrækninger og korrekt justering."
+                },
+                "sanchin": {
+                    "title": "Sanchin",
+                    "subtitle": "Fundamentet",
+                    "description": "Sanchin kata er hjørnestenen i Goju-Ryu og fokuserer på foreningen af sind, krop og åndedræt.",
+                    "content": "Essentielt for nærkamp er træningen af 'ki' (vital energi). Sanchin lærer udøveren at samle ki i tanden og føre den mod kontaktområderne. Et vigtigt teknisk element er 'noon'-åndedræt—at holde vejret under kraftudvidelsen—hvilket beskytter de indre organer og øger kroppens modstandskraft i kampens hede."
+                }
             },
             "kiko": {
                 "title": "Kiko: Vital energiøvelser",
-                "mind-projection": "Sindsprojektion",
-                "sensitivity": "Følsomhed",
-                "muscular-tension": "Muskelspænding",
-                "regulating-breathing": "Regulering af vejrtrækning",
-                "tension-relaxation": "Spænding og afspænding"
+                "subtitle": "Opdyrkning af livskraft",
+                "description": "Kiko (kinesisk: Qigong) omfatter øvelser designet til at opdyrke og regulere den vitale energi.",
+                "mind-projection": {
+                    "title": "Sindsprojektion",
+                    "subtitle": "Yi Yi Yin Qi",
+                    "description": "Princippet om, at sindet styrer den vitale energi.",
+                    "content": "I Sanchin kata og Kiko-praksis bruges sindet (Yi) til at styre Ki-strømmen. Dette koncept, 'Yi Yi Yin Qi', betyder, at sindsprojektionen leder energien. Ved konstant at rette opmærksomheden mod hver del af kroppen forbedrer man følsomhed og neuro-motorisk ydeevne, hvilket sikrer, at energien flyder derhen, hvor sindet går."
+                },
+                "sensitivity": {
+                    "title": "Følsomhed",
+                    "subtitle": "Kanken",
+                    "description": "Forøget opmærksomhed, der er afgørende for nærkamp.",
+                    "content": "Forøget følsomhed gør det muligt for karatekaen at fornemme angreb, der starter eller slutter uden for synsfeltet. I grappling gør det en i stand til at mærke retningen af modstanderens kraft—hvad enten det er et skub, en lås eller et kast. Kombineret med opmærksomheden fra Sanchin lægger dette grundstenen for ekstrem beredskab i kamp."
+                },
+                "muscular-tension": {
+                    "title": "Muskelspænding",
+                    "subtitle": "Sammensmeltning af Ki",
+                    "description": "Brug af sammentrækning til at integrere energi i kroppens struktur.",
+                    "content": "I modsætning til blødere Ki-øvelser bruger Sanchin maksimal muskelkontraktion til at smelte Ki dybt ind i muskler, sener og knogler. Dette forbedrer evnen til at absorbere stød. Denne praksis har rødder i 'Sene-transformationsøvelser', der blev undervist af Bodhidharma. Det skaber en krop, der er 'hård, men fleksibel og modstandsdygtig'."
+                },
+                "regulating-breathing": {
+                    "title": "Regulering af Åndedrættet",
+                    "subtitle": "Harmonisering af åndedræt og mind",
+                    "description": "Åndedrætskontrol er et primært værktøj til regulering af Ki-cirkulation.",
+                    "content": "Åndedrættet er tæt forbundet med kroppens og sindets tilstand. I Sanchin reguleres åndedrættet for at harmonisere med teknik og sindets hensigt. 'Maveåndedræt' fokuserer energi i tanden. Korrekt åndedræt er afgørende for effektiv anvendelse af teknikker og for at opretholde et roligt, fokuseret sind under stress."
+                },
+                "tension-relaxation": {
+                    "title": "Spænding og Afslapning",
+                    "subtitle": "Go og Ju",
+                    "description": "Den dynamiske balance mellem hårdhed og blødhed.",
+                    "content": "Nærkamp øger ofte stressniveauet, hvilket fører til overdreven spænding, der kan blokere Ki-strømmen. Det er afgørende at opretholde balancen mellem spænding (Go) og afslapning (Ju). I Kakie skal man bruge bøjelig kraft tilpasset modstanderen og undgå den stive låsning af kroppen, der findes i Sanchin kata, mens man stadig anvender dens energiske principper."
+                }
             },
             "basic-abilities": {
-                "title": "Grundlæggende kampfærdigheder",
-                "control-absorb-deflect-evade": "Kontrollere, absorbere, afbøje og undvige",
-                "control-muchimi": "Kontrol - Muchimi",
-                "absorb": "Absorbere: Slug og spyt",
-                "deflection": "Afbøjning",
-                "evasion": "Undvigelse"
+                "title": "Grundlæggende Kampfærdigheder",
+                "subtitle": "Fundamentale Forsvarsfærdigheder",
+                "description": "Nærkamp kræver specifikke evner for at overleve. Udover at blokere og undvige, skal man kontrollere, absorbere, aflede og undvige modstanderens kraft.",
+                "control-absorb-deflect-evade": {
+                    "title": "De Fire Elementer",
+                    "subtitle": "Oversigt",
+                    "description": "De fire grundlæggende forsvarsfærdigheder i Kakie-praksis.",
+                    "content": "Reaktioner på en modstanders angreb dækker et bredt område. I nærkamp kræves specifikke færdigheder for at håndtere grappling-situationer. Disse er Kontrollere, Absorbere, Aflede og Undvige. Disse evner skal bakkes op af 'Standhaftighed'—en dynamisk kombination af jordforbindelse og rodfæstelse—og fuldendes med letfodethed."
+                },
+                "control-muchimi": {
+                    "title": "Kontrol - Muchimi",
+                    "subtitle": "Tungt og Klæbrigt Flow",
+                    "description": "At kontrollere modstanderen gennem tung, klæbrig, men flydende handling.",
+                    "content": "Evnen til at kontrollere modstanderens kraft kaldes 'Muchimi'. Det relaterer sig til en tung, klæbrig, men flydende anvendelse af kraft. I grappling giver dette dig mulighed for at tage kontrol over modstanderens handlinger. Muchimi bruges også i blokering, hvor blokeringen ikke kun parerer, men kontrollerer lemmet eller forstyrrer angriberens balance i en brøkdel af et sekund."
+                },
+                "absorb": {
+                    "title": "Absorbere",
+                    "subtitle": "Sluge og Spytte",
+                    "description": "At omdirigere kraft til jorden og returnere den.",
+                    "content": "At absorbere kraft ('Sluge') betyder at lede modstanderens kraft gennem din krop ned i jorden/tanden, ikke bare at tage imod et slag. Det efterfølges ofte af at udvide kraft ('Spytte') tilbage mod modstanderen. Denne skiftende kompression og ekspansion kaldes 'Tai no Shinshuku'. Korrekt absorption afhænger af korrekt justering med den indkommende kraft."
+                },
+                "deflection": {
+                    "title": "Afledning",
+                    "subtitle": "Omdirigering af Angrebet",
+                    "description": "Brug af cirkulære bevægelser til at lede kraft væk.",
+                    "content": "Afledning kan kombineres med at absorbere (Ju) eller prelle af (Go) på kraften. Selv i frontale blokeringer kan man aflede ved at udvide kraft i en vinkel (Go) eller ved at absorbere uden at ødelægge holdningen (Ju). Da de fleste Goju-Ryu blokeringer er cirkulære, kombinerer de normalt både Go og Ju elementer."
+                },
+                "evasion": {
+                    "title": "Undvigelse",
+                    "subtitle": "Tai Sabaki",
+                    "description": "At flytte kroppen for at ugyldiggøre angrebet.",
+                    "content": "Undvigelse involverer kropsbevægelse (Tai Sabaki, Tai Hiraki) og fodarbejde (Tenshin). Selvom det sparer kraft og undgår skader, er det svært at mestre i nærkamp på grund af den korte afstand. Succesfuld undvigelse kræver stor følsomhed og bør altid føre til en bedre strategisk position eller en modteknik."
+                }
             },
             "techniques": {
                 "title": "Teknikker",
-                "grabbing": "Gribe",
-                "opening-closing": "Åbne og lukke",
-                "pushing-pulling": "Skubbe og trække",
-                "go-techniques": "Go-teknikker: Stød, slag og spark",
-                "ju-techniques-tuite": "Ju-teknikker: Tuite eller Gyakute",
-                "ju-techniques-kyusho": "Ju-teknikker: Kyushojutsu (Chibujutsu)"
+                "subtitle": "Anvendelse af Principper",
+                "description": "Kakie er laboratoriet, hvor principper omdannes til effektive kampteknikker.",
+                "grabbing": {
+                    "title": "Gribning",
+                    "subtitle": "Toraguchi",
+                    "description": "At gribe modstanderen for at kontrollere eller immobilisere.",
+                    "content": "At gribe i Goju-Ryu er ikke blot at holde fast. Det indebærer at gribe muskler og sener for at kontrollere modstanderens bevægelse eller endda lamme et lem midlertidigt. Grebet ('Toraguchi' eller Tigermund) bruges til at forstyrre balancen, opsætte slag eller igangsætte kast. Det kræver fingerstyrke udviklet gennem traditionel konditionering."
+                },
+                "opening-closing": {
+                    "title": "Åbning og Lukning",
+                    "subtitle": "Udvidelse og Sammentrækning",
+                    "description": "At skabe åbninger eller beskytte midten.",
+                    "content": "Teknikker indebærer ofte 'Åbning' for at skabe plads til et angreb eller bringe modstanderen ud af balance, og 'Lukning' for at beskytte midterlinjen eller fange modstanderens lemmer. Dette relaterer sig til udvidelse og sammentrækning af kroppen og er grundlæggende for at generere kraft og opretholde strukturel integritet."
+                },
+                "pushing-pulling": {
+                    "title": "Skubbe og Trække",
+                    "subtitle": "Forstyrrelse af Balancen",
+                    "description": "Brug af grundlæggende mekanik til at bringe modstanderen ud af balance.",
+                    "content": "At skubbe og trække er de mest grundlæggende metoder til at forstyrre modstanderens balance (Kuzushi). Princippet, der ofte anvendes, er: hvis der trækkes, skub; hvis der skubbes, træk. Dette bruger modstanderens eget momentum imod dem. Disse handlinger er sjældent isolerede, men kombineres med fodarbejde og kropsrotation."
+                },
+                "go-ju-techniques": {
+                    "title": "Go og Ju Teknikker",
+                    "subtitle": "Hårde og Bløde Applikationer",
+                    "description": "Blandingen af slag og grappling.",
+                    "content": "Kakie tillader udøvelse af både 'Go' (Hårde) teknikker som slag, spark og brud, og 'Ju' (Bløde) teknikker som låse, kvælertag og kast. En udøver skal lære at skifte øjeblikkeligt mellem hårde og bløde applikationer afhængigt af modstanderens reaktion og dermed legemliggøre den sande ånd i Goju-Ryu."
+                }
             },
             "basic-exercises": {
                 "title": "Kakie grundøvelser",
-                "swallow-spit": "1. 'Slug og spyt'",
-                "circle-deflect": "2. 'Cirkle og afbøj'",
-                "kake-uke": "3. 'Kake Uke'"
+                "subtitle": "Grundlæggende Øvelser",
+                "description": "Disse øvelser danner grundlaget for Kakie-anvendelse.",
+                "swallow-spit": {
+                    "title": "Slug og spyt",
+                    "subtitle": "Energiflow",
+                    "description": "Den grundlæggende rytme af at absorbere og returnere kraft.",
+                    "content": "Kendt som 'Enhånds Skub' lærer denne øvelse den studerende at acceptere kraft uden modstand ('Slug') og returnere den med strukturel integritet ('Spyt'). Det er den fysiske manifestation af 'Tai no Shinshuku' (Ukropsudvidelse og -samtrækning). Det udvikler evnen til at opretholde 'Toraguchi'-håndformen og jordforbindelsen, mens man er i bevægelse."
+                },
+                "circle-deflect": {
+                    "title": "Cirkle og afbøj",
+                    "subtitle": "Cirkulær Bevægelse",
+                    "description": "Brug af cirkler til at neutralisere lige angreb.",
+                    "content": "Denne øvelse fokuserer på den cirkulære natur af Goju-Ryu blokeringer. Ved at lede modstanderens kraft i en cirkel kan man afbøje kraftige angreb uden at møde dem frontalt. Det understreger princippet om 'Ju' (Blødhed), der overvinder 'Go' (Hårdhed), og træner udøveren i at forblive forbundet (Muchimi) gennem hele den defensive manøvre."
+                },
+                "kake-uke": {
+                    "title": "Kake Uke",
+                    "subtitle": "Hrogblokering",
+                    "description": "Den karakteristiske teknik for Kakie.",
+                    "content": "Kake Uke (Hrogblokering) er måske den mest repræsentative teknik for stilen. Det indebærer at kroge modstanderens angribende lem for at kontrollere det. I Kakie-praksis bruges Kake Uke til at åbne modstanderens vagt, fange deres arm og skabe en åbning for et modangreb. Det kræver en afslappet skulder, men et stærkt, konditioneret håndled og greb."
+                }
             },
             "points-of-attention": {
                 "title": "Opmærksomhedspunkter",
-                "posture": "1. Holdning",
-                "grounding": "2. Jordforbindelse",
-                "rooting": "3. Forankring",
-                "centring": "4. Centrering",
-                "generating-power": "5. Generering af kraft",
-                "combining-forces": "6. Kombination af kræfter",
-                "regulating-breathing": "7. Regulering af vejrtrækning",
-                "regulating-ki": "8. Regulering af Ki eller åndedræt"
+                "subtitle": "Nøgleelementer for Mestring",
+                "description": "Kritiske aspekter at fokusere på under Kakie-træning.",
+                "posture": {
+                    "title": "Kropsholdning",
+                    "subtitle": "Strukturel Justering",
+                    "description": "Opretholdelse af en lige og justeret kropsstruktur.",
+                    "content": "En lige ryg og korrekt strukturel justering er afgørende. Uden god kropsholdning kan man ikke effektivt overføre kraft fra jorden eller absorbere indkommende kraft. Hagen skal være trukket ind, skuldrene afslappede og rygsøjlen lige for at tillade uhindret energiflow."
+                },
+                "grounding": {
+                    "title": "Jordforbindelse",
+                    "subtitle": "Forbindelse til Jorden",
+                    "description": "At sænke kropsvægten for at opnå stabilitet.",
+                    "content": "Jordforbindelse er det passive aspekt af stabilitet—at lade tyngdekraften gøre arbejdet. Det indebærer at sænke vægten lavt og slappe af i overkroppen. En jordforbundet udøver føles 'tung' og er svær at løfte eller bringe ud af balance."
+                },
+                "rooting": {
+                    "title": "Rodfæstelse",
+                    "subtitle": "Aktivt Greb",
+                    "description": "At gribe gulvet aktivt for at generere kraft.",
+                    "content": "I modsætning til jordforbindelse er rodfæstelse aktiv. Det indebærer at gribe gulvet med tæerne og fødderne, hvilket skaber et stærkt fundament. Denne 'rod' giver udøveren mulighed for at skubbe mod jorden for at generere horisontal kraft og drive teknikker."
+                },
+                "centering": {
+                    "title": "Centrering",
+                    "subtitle": "Tanden-bevidsthed",
+                    "description": "At bevæge sig fra det fysiske og energetiske centrum.",
+                    "content": "Al kraft og bevægelse skal udgå fra Tanden (Centrum). At fokusere sindet og åndedrættet i det nedre underliv sænker tyngdepunktet og forener kroppens bevægelse, hvilket sikrer, at teknikker drives af hele kroppen, ikke kun lemmerne."
+                },
+                "power": {
+                    "title": "Kraft",
+                    "subtitle": "Gamaku",
+                    "description": "Generering af kraft gennem hofte- og taljeforbindelse.",
+                    "content": "Kraft i Kakie genereres af benene og hofterne ('Gamaku'). Armene overfører blot denne kraft. Korrekt koordination af taljen og hofterne med åndedrættet (Ibuki) giver mulighed for eksplosiv kraftgenerering selv på tæt hold."
+                },
+                "breathing": {
+                    "title": "Vejrtrækning",
+                    "subtitle": "Ibuki",
+                    "description": "Koordinering af åndedræt med handling.",
+                    "content": "Vejrtrækningen styrer kampens rytme. Dyb abdominal vejrtrækning (Ibuki) bruges til at generere internt tryk, beskytte kroppen og nære bevægelse. Man bør ånde ud, når man leverer kraft, og indånde, når man absorberer eller forbereder sig."
+                },
+                "ki": {
+                    "title": "Ki",
+                    "subtitle": "Vital Energi",
+                    "description": "At fylde teknikken med ånd og hensigt.",
+                    "content": "Ki er den vitale energi, der animerer teknikken. I Kakie indebærer det at projicere hensigt hinsides fysisk kontakt. En udøver med stærk Ki har en tilstedeværelse, der kan mærkes af modstanderen, hvilket forstyrrer deres ånd, selv før fysiske teknikker anvendes."
+                }
             }
         }
     }

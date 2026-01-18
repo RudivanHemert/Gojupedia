@@ -24,25 +24,25 @@ const KakiePage = () => {
     const sections = [
         {
             id: 'introduction',
-            title: t('kakie.sections.introduction'),
+            title: t('kakie.sections.introduction.title'),
             icon: <Info className="h-5 w-5 text-blue-500" />,
             path: '/kakie/introduction'
         },
         {
             id: 'fighting-practice',
-            title: t('kakie.sections.fighting-practice'),
+            title: t('kakie.sections.fighting-practice.title'),
             icon: <Swords className="h-5 w-5 text-red-500" />,
             path: '/kakie/fighting-practice'
         },
         {
             id: 'traditional-medicine',
-            title: t('kakie.sections.traditional-medicine'),
+            title: t('kakie.sections.traditional-medicine.title'),
             icon: <HeartPulse className="h-5 w-5 text-green-500" />,
             path: '/kakie/traditional-medicine'
         },
         {
             id: 'spiritual-influences',
-            title: t('kakie.sections.spiritual-influences'),
+            title: t('kakie.sections.spiritual-influences.title'),
             icon: <Sparkles className="h-5 w-5 text-purple-500" />,
             path: '/kakie/spiritual-influences'
         },

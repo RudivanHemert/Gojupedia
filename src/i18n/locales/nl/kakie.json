@@ -3,58 +3,227 @@
         "title": "Kakie",
         "description": "Klevende handen en technieken voor nabijgevecht",
         "sections": {
-            "introduction": "Inleiding",
-            "fighting-practice": "Gevechtspraktijk",
-            "traditional-medicine": "Traditionele Geneeskunde en Gezondheidsgymnastiek",
-            "spiritual-influences": "Spirituele Invloeden",
+            "introduction": {
+                "title": "Introductie",
+                "subtitle": "De afstand verkleinen",
+                "description": "De krijgskunsten zoals beoefend door Higaonna Kanryo en later bestudeerd door Miyagi Chojun, waren technisch nog geworteld in de realiteit van het man-tegen-man gevecht, beïnvloed door het Boeddhisme en Taoïsme.",
+                "content": "De krijgskunsten van Fujian waren gestructureerd rond het werkelijke gevecht, klassieke Chinese geneeskunst en spirituele doctrines. Technisch bevatten deze kunsten een grote verscheidenheid aan technieken, die veel verder gaan dan het wedstrijdgerichte karate."
+            },
+            "fighting-practice": {
+                "title": "Vechtpraktijk",
+                "subtitle": "Nabijgevecht Realiteit",
+                "description": "Traditioneel Goju-Ryu is gericht op het werkelijke gevecht, meestal beslist op korte afstand. Dit vereist beheersing van technieken die een grote rol spelen in realistische zelfverdedigingsscenario's.",
+                "content": "Modern karate is vaak gericht op internationale wedstrijden. Traditionele systemen gebruiken bunkai kumite en kakie om worsteltechnieken (tuite of gyakute) te bewaren. Het gebruik van 'bruggen' (onderarmen) om verbinding te maken wordt essentieel.\n\nDit zie je terug in 'iri kumi' (nabijgevecht), waarbij worpen en klemmen zijn toegestaan. Kakie verbindt de principes van Sanchin kata met de technische rijkdom van bunkai kumite en de dynamiek van iri kumi."
+            },
+            "traditional-medicine": {
+                "title": "Traditionele Geneeskunde",
+                "subtitle": "Gezondheid & Gymnastiek",
+                "description": "De invloed van de Chinese geneeskunde (TCM) omvat zowel de behandeling van blessures als preventieve conditionering. Dit vereist begrip van ki (vitale energie) en vitale punten (kyusho).",
+                "content": "Behandeling van blessures (dieda of 'val- & stootgeneeskunde') maakte gebruik van kruiden, massage en gewrichtsmanipulatie. Kakie dient als een oefening waarbij een goed energiesysteem het onderscheid maakt tussen de verfijnde bewegingen van een meester en de ruwe acties van een beginner."
+            },
+            "spiritual-influences": {
+                "title": "Spirituele Invloeden",
+                "subtitle": "Geest & Bewustzijn",
+                "description": "Spirituele doctrines uit Shaolin en andere kloosters verrijkten de krijgskunsten door onderzoek naar de geest, bewustzijn en morele principes.",
+                "content": "De traditionele krijgskunsten bevatten waardevolle spirituele inzichten voor wie 'de weg' wil gaan. Dit is niet alleen theoretisch; het geheim wordt onthuld door de beoefening van karatedo zelf, wat de beoefenaar naar dieper zelfbewustzijn en integriteit leidt."
+            },
             "close-combat": {
-                "title": "Kakie en Man-tegen-man Gevecht",
-                "basic-qualities": "Basis Kwaliteiten",
-                "chiru-nu-chan-chan": "Chiru nu chan chan",
-                "body-conditioning": "Lichaamsconditionering",
-                "sanchin": "Sanchin"
+                "title": "Kakie en Close Combat",
+                "subtitle": "De afstand verkleinen",
+                "description": "Gevechten op korte afstand vereisen specifieke vaardigheden die vaak niet worden ontwikkeld in trainingen op lange afstand. Deze sectie behandelt de fundamentele kwaliteiten die nodig zijn voor nabijheidsgevechten.",
+                "basic-qualities": {
+                    "title": "Basis Kwaliteiten",
+                    "subtitle": "Gevoeligheid en Aanraking",
+                    "description": "In close combat is het voelen van de beweging van je tegenstander via aanraking belangrijker dan alleen vertrouwen op je ogen.",
+                    "content": "Situaties in close combat zijn intens en snel. Omdat aanvallen van zeer korte afstand worden ingezet, worden ze vaak pas op het laatste moment opgemerkt. Kakie-training ontwikkelt een hoge mate van gevoeligheid, waardoor je de intenties en bewegingen van je tegenstander kunt lezen via fysiek contact voordat ze visueel verwerkt kunnen worden."
+                },
+                "chiru-nu-chan-chan": {
+                    "title": "Chiru nu chan chan",
+                    "subtitle": "Veerkracht (Spring Power)",
+                    "description": "Een Okinavaanse term die verwijst naar een unieke combinatie van explosieve kracht en diepe gevoeligheid.",
+                    "content": "Chiru nu chan chan beschrijft de explosieve, veerachtige samentrekking van spieren en pezen. Naast fysieke kracht duidt het op de gevoeligheid die nodig is om de aanval van een tegenstander te anticiperen. Dit vermogen zorgt voor snellere reacties in close combat, waar delen van het lichaam van de tegenstander buiten je gezichtsveld kunnen vallen. Gevorderde beoefenaars ontwikkelen dit tot 'kanken' of een intuïtief zesde zintuig."
+                },
+                "body-conditioning": {
+                    "title": "Lichaamsconditionering",
+                    "subtitle": "Het smeden van het lichaam",
+                    "description": "Deelname aan close combat vereist een lichaam dat fysiek is voorbereid om impact te verwerken en te absorberen.",
+                    "content": "Goju-Ryu bevat verschillende oefeningen om het lichaam en de ledematen te 'smeden', zoals tai atari (lichaamscontact), ude tanren (armharding) en makiwara-training. Deze methoden zorgen ervoor dat de beoefenaar slagen kan weerstaan door specifieke spierspanning en de juiste uitlijning."
+                },
+                "sanchin": {
+                    "title": "Sanchin",
+                    "subtitle": "Het Fundament",
+                    "description": "Sanchin kata is de hoeksteen van Goju-Ryu, gericht op de eenwording van geest, lichaam en ademhaling.",
+                    "content": "Essentieel voor close combat is de training van 'ki' (vitale energie). Sanchin leert de beoefenaar om ki te verzamelen in de tanden en deze uit te breiden naar de contactpunten. Een belangrijk technisch element is 'noon'-ademhaling—het inhouden van de adem tijdens de krachtontwikkeling—wat de interne organen beschermt en de veerkracht van het lichaam vergroot in het heetst van de strijd."
+                }
             },
             "kiko": {
                 "title": "Kiko: Vitale Energie Oefeningen",
-                "mind-projection": "Geestprojectie",
-                "sensitivity": "Gevoeligheid",
-                "muscular-tension": "Spierspanning",
-                "regulating-breathing": "Reguleren van de ademhaling",
-                "tension-relaxation": "Spanning en ontspanning"
+                "subtitle": "Het cultiveren van levenskracht",
+                "description": "Kiko (Chinees: Qigong) omvat oefeningen die zijn ontworpen om vitale energie te cultiveren en te reguleren.",
+                "mind-projection": {
+                    "title": "Geestelijke Projectie",
+                    "subtitle": "Yi Yi Yin Qi",
+                    "description": "Het principe dat de geest de vitale energie stuurt.",
+                    "content": "In Sanchin kata en Kiko-oefeningen wordt de geest (Yi) gebruikt om de stroom van Ki te sturen. Dit concept, 'Yi Yi Yin Qi', betekent dat de geestelijke projectie de energie leidt. Door constant de aandacht te richten op elk deel van het lichaam, verbetert men de gevoeligheid en neuro-motorische prestaties, waardoor de energie stroomt waar de geest gaat."
+                },
+                "sensitivity": {
+                    "title": "Gevoeligheid",
+                    "subtitle": "Kanken",
+                    "description": "Verhoogd bewustzijn essentieel voor close combat.",
+                    "content": "Verhoogde gevoeligheid stelt de karateka in staat aanvallen te voelen die buiten het gezichtsveld beginnen of eindigen. Bij grappling stelt het iemand in staat de richting van de kracht van de tegenstander te voelen—of het nu een duw, klem of worp is. Gecombineerd met de alertheid van Sanchin legt dit de basis voor extreme paraatheid in een gevecht."
+                },
+                "muscular-tension": {
+                    "title": "Spierspanning",
+                    "subtitle": "Het samensmelten van Ki",
+                    "description": "Gebruik van contractie om energie in de lichaamsstructuur te integreren.",
+                    "content": "In tegenstelling tot zachtere Ki-oefeningen, gebruikt Sanchin maximale spiercontractie om Ki diep in spieren, pezen en botten te laten samensmelten. Dit verbetert het vermogen om impact te absorberen. Deze praktijk heeft wortels in de 'Pees Transformerende Oefeningen' die door Bodhidharma werden onderwezen. Het creëert een lichaam dat 'hard maar flexibel en veerkrachtig' is."
+                },
+                "regulating-breathing": {
+                    "title": "Regulering van de Ademhaling",
+                    "subtitle": "Harmoniseren van Adem en Geest",
+                    "description": "Adembeheersing is een primair instrument voor het reguleren van Ki-circulatie.",
+                    "content": "Ademhaling is nauw verbonden met de staat van lichaam en geest. In Sanchin wordt de ademhaling gereguleerd om te harmoniseren met techniek en geestelijke intentie. 'Buikademhaling' focusseert energie in de tanden. Een juiste ademhaling is essentieel voor de effectieve toepassing van technieken en voor het behouden van een kalme, gefocuste geest onder stress."
+                },
+                "tension-relaxation": {
+                    "title": "Spanning en Ontspanning",
+                    "subtitle": "Go en Ju",
+                    "description": "De dynamische balans tussen hardheid en zachtheid.",
+                    "content": "Close combat verhoogt vaak het stressniveau, wat leidt tot overmatige spanning die de Ki-stroom kan blokkeren. Het is cruciaal om de balans tussen spanning (Go) en ontspanning (Ju) te bewaren. In Kakie moet men buigzame kracht gebruiken, aangepast aan de tegenstander, en de stijve vergrendeling van het lichaam zoals in Sanchin kata vermijden, terwijl men nog steeds de energetische principes ervan toepast."
+                }
             },
             "basic-abilities": {
                 "title": "Basis Gevechtsvaardigheden",
-                "control-absorb-deflect-evade": "Controle, Absorberen, Afbuigen en Ontwijken",
-                "control-muchimi": "Controle - Muchimi",
-                "absorb": "Absorberen: Slikken en Spugen",
-                "deflection": "Afbuigen",
-                "evasion": "Ontwijken"
+                "subtitle": "Fundamentele Verdedigingsvaardigheden",
+                "description": "Close combat vereist specifieke vaardigheden om te overleven. Naast blokkeren en ontwijken, moet men de kracht van de tegenstander controleren, absorberen, afbuigen en ontwijken.",
+                "control-absorb-deflect-evade": {
+                    "title": "De Vier Elementen",
+                    "subtitle": "Overzicht",
+                    "description": "De vier fundamentele verdedigingsvaardigheden in Kakie-training.",
+                    "content": "Reacties op de aanval van een tegenstander dekken een breed scala. In close combat zijn specifieke vaardigheden nodig om grappling-situaties aan te kunnen. Dit zijn Controleren, Absorberen, Afbuigen en Ontwijken. Deze vaardigheden moeten worden ondersteund door 'Standvastigheid'—een dynamische combinatie van aarding en worteling—en voltooid worden met lichtvoetigheid."
+                },
+                "control-muchimi": {
+                    "title": "Controle - Muchimi",
+                    "subtitle": "Zware en Kleverige Flow",
+                    "description": "De tegenstander controleren door zware, kleverige, maar vloeiende actie.",
+                    "content": "Het vermogen om de kracht van de tegenstander te controleren wordt 'Muchimi' genoemd. Het heeft betrekking op een zware, kleverige, maar vloeiende toepassing van kracht. In grappling stelt dit je in staat controle te nemen over de acties van de tegenstander. Muchimi wordt ook gebruikt bij het blokkeren, waarbij het blok niet alleen pareert maar het ledemaat controleert of het evenwicht van de aanvaller voor een fractie van een seconde verstoort."
+                },
+                "absorb": {
+                    "title": "Absorberen",
+                    "subtitle": "Slikken en Spugen",
+                    "description": "Kracht naar de grond leiden en terugsturen.",
+                    "content": "Het absorberen van kracht ('Slikken') betekent de kracht van de tegenstander door je lichaam naar de grond/tanden leiden, niet alleen een klap incasseren. Het wordt vaak gevolgd door het uitbreiden van kracht ('Spugen') terug naar de tegenstander. Deze afwisselende compressie en expansie wordt 'Tai no Shinshuku' genoemd. Juiste absorptie is afhankelijk van correcte uitlijning met de inkomende kracht."
+                },
+                "deflection": {
+                    "title": "Afbuigen",
+                    "subtitle": "De Aanval Omleiden",
+                    "description": "Cirkelvormige bewegingen gebruiken om kracht weg te leiden.",
+                    "content": "Afbuigen kan worden gecombineerd met het absorberen (Ju) of wegkaatsen (Go) van de kracht. Zelfs bij frontale blokkades kan men afbuigen door kracht onder een hoek (Go) uit te breiden of door te absorberen zonder de houding te bederven (Ju). Omdat de meeste Goju-Ryu blokkades cirkelvormig zijn, combineren ze meestal zowel Go- als Ju-elementen."
+                },
+                "evasion": {
+                    "title": "Ontwijken",
+                    "subtitle": "Tai Sabaki",
+                    "description": "Het lichaam verplaatsen om de aanval te ontlopen.",
+                    "content": "Ontwijken omvat lichaamsbeweging (Tai Sabaki, Tai Hiraki) en voetenwerk (Tenshin). Hoewel het kracht bespaart en letsel voorkomt, is het moeilijk te beheersen in close combat vanwege de korte afstand. Succesvol ontwijken vereist grote gevoeligheid en moet altijd leiden naar een betere strategische positie of een tegen-techniek."
+                }
             },
             "techniques": {
                 "title": "Technieken",
-                "grabbing": "Grijpen",
-                "opening-closing": "Openen en Sluiten",
-                "pushing-pulling": "Duwen en Trekken",
-                "go-techniques": "Go-technieken: Stoten, Slagen en Trappen",
-                "ju-techniques-tuite": "Ju-technieken: Tuite of Gyakute",
-                "ju-techniques-kyusho": "Ju-technieken: Kyushojutsu (Chibujutsu)"
+                "subtitle": "Toepassingen van het Principe",
+                "description": "Kakie is het laboratorium waar principes worden omgezet in effectieve vechttechnieken.",
+                "grabbing": {
+                    "title": "Grijpen",
+                    "subtitle": "Toraguchi",
+                    "description": "De tegenstander vastgrijpen om te controleren of immobiliseren.",
+                    "content": "Grijpen in Goju-Ryu is niet zomaar vasthouden. Het houdt in dat spieren en pezen worden vastgepakt om de beweging van de tegenstander te controleren of zelfs tijdelijk een ledemaat te verlammen. De greep ('Toraguchi' of Tijgerbek) wordt gebruikt om het evenwicht te verstoren, slagen voor te bereiden of worpen in te zetten. Het vereist vingerkracht die is ontwikkeld door traditionele conditionering."
+                },
+                "opening-closing": {
+                    "title": "Openen en Sluiten",
+                    "subtitle": "Expansie en Contractie",
+                    "description": "Opening creëren of het centrum beschermen.",
+                    "content": "Technieken omvatten vaak 'Openen' om ruimte te creëren voor een aanval of om de tegenstander uit balans te brengen, en 'Sluiten' om de middellijn te beschermen of de ledematen van de tegenstander vast te zetten. Dit houdt verband met de expansie en contractie van het lichaam en is fundamenteel voor het genereren van kracht en het behouden van structurele integriteit."
+                },
+                "pushing-pulling": {
+                    "title": "Duwen en Trekken",
+                    "subtitle": "Balans Verstoren",
+                    "description": "Gebruik van basismechanica om de tegenstander uit balans te brengen.",
+                    "content": "Duwen en trekken zijn de meest basale methoden om het evenwicht van de tegenstander te verstoren (Kuzushi). Het principe dat vaak wordt toegepast is: als er getrokken wordt, duw; als er geduwd wordt, trek. Dit gebruikt de eigen impuls van de tegenstander tegen hem. Deze acties staan zelden op zichzelf, maar worden gecombineerd met stapwerk en lichaamsrotatie."
+                },
+                "go-ju-techniques": {
+                    "title": "Go en Ju Technieken",
+                    "subtitle": "Harde en Zachte Toepassingen",
+                    "description": "De mix van slaan en worstelen.",
+                    "content": "Kakie maakt het mogelijk om zowel 'Go' (Harde) technieken zoals stoten, trappen en breken, als 'Ju' (Zachte) technieken zoals klemmen, verwurgingen en worpen te oefenen. Een beoefenaar moet leren om direct te schakelen tussen harde en zachte toepassingen, afhankelijk van de reactie van de tegenstander, en zo de ware geest van Goju-Ryu belichamen."
+                }
             },
             "basic-exercises": {
                 "title": "Kakie Basis Oefeningen",
-                "swallow-spit": "1. ‘Slikken & Spugen’",
-                "circle-deflect": "2. ‘Cirkelen en Afbuigen’",
-                "kake-uke": "3. ‘Kake Uke’"
+                "subtitle": "Fundamentele Oefeningen",
+                "description": "Deze oefeningen leggen de basis voor de toepassing van Kakie.",
+                "swallow-spit": {
+                    "title": "Slikken & Spugen",
+                    "subtitle": "Energiestroom",
+                    "description": "Het fundamentele ritme van kracht absorberen en teruggeven.",
+                    "content": "Bekend als 'Single Hand Push', leert deze oefening de student om kracht te accepteren zonder weerstand ('Slikken') en deze terug te geven met structurele integriteit ('Spugen'). Het is de fysieke manifestatie van 'Tai no Shinshuku' (Lichaamsexpansie en -contractie). Het ontwikkelt het vermogen om de 'Toraguchi'-handvorm en aarding te behouden terwijl men in beweging is."
+                },
+                "circle-deflect": {
+                    "title": "Cirkelen en Afbuigen",
+                    "subtitle": "Cirkelvormige Beweging",
+                    "description": "Cirkels gebruiken om rechte aanvallen te neutraliseren.",
+                    "content": "Deze oefening richt zich op het cirkelvormige karakter van Goju-Ryu blokkades. Door de kracht van de tegenstander in een cirkel te leiden, kan men krachtige aanvallen afbuigen zonder ze frontaal te ontmoeten. Het benadrukt het principe van 'Ju' (Zachtheid) dat 'Go' (Hardheid) overwint en traint de beoefenaar om verbonden te blijven (Muchimi) tijdens de verdedigende manoeuvre."
+                },
+                "kake-uke": {
+                    "title": "Kake Uke",
+                    "subtitle": "Hakende Blok",
+                    "description": "De kenmerkende techniek van Kakie.",
+                    "content": "Kake Uke (Hakende Blok) is misschien wel de meest representatieve techniek van de stijl. Het houdt in dat de aanvallende ledemaat van de tegenstander wordt gehaakt om deze te controleren. In Kakie-training wordt Kake Uke gebruikt om de dekking van de tegenstander te openen, hun arm vast te zetten en een opening te creëren voor een tegenaanval. Het vereist een ontspannen schouder maar een sterke, geconditioneerde pols en greep."
+                }
             },
             "points-of-attention": {
                 "title": "Aandachtspunten",
-                "posture": "1. Houding",
-                "grounding": "2. Gronding",
-                "rooting": "3. Wortelen",
-                "centring": "4. Centreren",
-                "generating-power": "5. Kracht genereren",
-                "combining-forces": "6. Krachten combineren",
-                "regulating-breathing": "7. Reguleren van de ademhaling",
-                "regulating-ki": "8. Reguleren van de Ki of Ademhaling"
+                "subtitle": "Sleutelelementen voor Meesterschap",
+                "description": "Kritieke aspecten om op te focussen tijdens Kakie-beoefening.",
+                "posture": {
+                    "title": "Houding",
+                    "subtitle": "Structurele Uitlijning",
+                    "description": "Behoud van een rechte en uitgelijnde lichaamsstructuur.",
+                    "content": "Een rechte rug en correcte structurele uitlijning zijn essentieel. Zonder goede houding kan men de kracht uit de grond niet effectief overbrengen of inkomende kracht absorberen. De kin moet ingetrokken zijn, schouders ontspannen en de wervelkolom recht om een onbelemmerde energiestroom mogelijk te maken."
+                },
+                "grounding": {
+                    "title": "Aarding",
+                    "subtitle": "Verbinding met de Aarde",
+                    "description": "Het lichaamsgewicht laten zakken om stabiliteit te verkrijgen.",
+                    "content": "Aarding is het passieve aspect van stabiliteit—de zwaartekracht het werk laten doen. Het houdt in dat het gewicht laag wordt gebracht en het bovenlichaam ontspant. Een geaarde beoefenaar voelt 'zwaar' en is moeilijk op te tillen of uit balans te brengen."
+                },
+                "rooting": {
+                    "title": "Wortelen",
+                    "subtitle": "Actieve Greep",
+                    "description": "Actief de vloer vastgrijpen voor krachtgeneratie.",
+                    "content": "In tegenstelling tot aarding is wortelen actief. Het houdt in dat men de vloer vastgrijpt met de tenen en voeten, waardoor een sterk fundament ontstaat. Deze 'wortel' stelt de beoefenaar in staat om zich tegen de grond af te zetten om horizontale kracht te genereren en technieken aan te drijven."
+                },
+                "centering": {
+                    "title": "Centreren",
+                    "subtitle": "Tandenbewustzijn",
+                    "description": "Bewegen vanuit het fysieke en energetische centrum.",
+                    "content": "Alle kracht en beweging moet voortkomen uit de Tanden (Centrum). Het focussen van de geest en ademhaling in de onderbuik verlaagt het zwaartepunt en verenigt de beweging van het lichaam, zodat technieken worden aangedreven door het hele lichaam, niet alleen de ledematen."
+                },
+                "power": {
+                    "title": "Kracht",
+                    "subtitle": "Gamaku",
+                    "description": "Kracht genereren door heup- en tailleverbinding.",
+                    "content": "Kracht in Kakie wordt gegenereerd door de benen en heupen ('Gamaku'). De armen brengen deze kracht slechts over. Een goede coördinatie van de taille en heupen met de ademhaling (Ibuki) zorgt voor explosieve krachtgeneratie, zelfs op korte afstand."
+                },
+                "breathing": {
+                    "title": "Ademhaling",
+                    "subtitle": "Ibuki",
+                    "description": "Ademhaling coördineren met actie.",
+                    "content": "Ademhaling regelt het ritme van het gevecht. Diepe buikademhaling (Ibuki) wordt gebruikt om interne druk te genereren, het lichaam te beschermen en beweging te voeden. Men moet uitademen bij het leveren van kracht en inademen bij het absorberen of voorbereiden."
+                },
+                "ki": {
+                    "title": "Ki",
+                    "subtitle": "Vitale Energie",
+                    "description": "Techniek bezielen met geest en intentie.",
+                    "content": "Ki is de vitale energie die de techniek bezielt. In Kakie houdt dit in dat intentie voorbij fysiek contact wordt geprojecteerd. Een beoefenaar met sterke Ki heeft een aanwezigheid die door de tegenstander kan worden gevoeld en diens geest verstoort nog voordat fysieke technieken worden toegepast."
+                }
             }
         }
     }
