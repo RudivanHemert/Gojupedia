@@ -1,237 +1,289 @@
 {
   "vitalPoints": {
-    "title": "Vital Points",
-    "description": "Study of pressure points and vulnerable areas",
+    "title": "Puntos Vitales",
+    "description": "Estudio de los puntos de presión y zonas vulnerables",
     "interactive": {
-      "showLabels": "Mostrar Etiquetas",
-      "showAllLabels": "Mostrar Todas las Etiquetas",
-      "closeDetails": "Cerrar Detalles",
-      "frontViewTab": "Vista Frontal",
-      "backViewTab": "Vista Trasera",
-      "frontViewTitle": "Puntos Vitales Vista Frontal",
-      "backViewTitle": "Puntos Vitales Vista Trasera"
+      "showLabels": "Mostrar etiquetas",
+      "showAllLabels": "Mostrar todas las etiquetas",
+      "closeDetails": "Cerrar detalles",
+      "frontViewTab": "Vista frontal",
+      "backViewTab": "Vista posterior",
+      "frontViewTitle": "Puntos vitales - Vista frontal",
+      "backViewTitle": "Puntos vitales - Vista posterior"
     },
     "quiz": {
       "title": "Quiz de Puntos Vitales",
-      "description": "Prueba tu conocimiento de puntos vitales completando las etiquetas faltantes",
+      "description": "Pon a prueba tus conocimientos completando las etiquetas que faltan",
       "pointsToShow": "Número de puntos a mostrar",
-      "checkAnswers": "Verificar Respuestas",
+      "checkAnswers": "Comprobar respuestas",
       "restart": "Reiniciar",
       "correct": "¡Correcto!",
       "incorrect": "Incorrecto",
       "yourAnswer": "Tu respuesta",
       "correctAnswer": "Respuesta correcta",
       "score": "Puntuación: {{correct}} de {{total}}",
-      "enterAnswer": "Ingresa el nombre de este punto vital"
+      "enterAnswer": "Introduce el nombre de este punto vital"
     },
     "points": {
       "shomon": {
         "name": "Shomon",
-        "area": "Cráneo"
+        "area": "Fontanela",
+        "translation": "puerta delantera"
       },
       "kasumi": {
         "name": "Kasumi",
-        "area": "Sien"
+        "area": "Lado de la ceja",
+        "translation": "aturdimiento, niebla"
       },
       "komekami": {
         "name": "Komekami",
-        "area": "Pómulo"
+        "area": "Sien",
+        "translation": "sienes"
       },
       "jinchu": {
         "name": "Jinchu",
-        "area": "Surco nasolabial"
+        "area": "Entre el labio superior y la nariz",
+        "translation": "mitad de una persona"
       },
       "kakon": {
         "name": "Kakon",
-        "area": "Barbilla"
+        "area": "En la depresión debajo del labio inferior",
+        "translation": "descendiente inferior"
       },
       "murasame": {
         "name": "Murasame",
-        "area": "Clavícula"
+        "area": "Encima de la clavícula",
+        "translation": "lluvia pasajera"
       },
       "hichu": {
         "name": "Hichu",
-        "area": "Tráquea"
+        "area": "Debajo de la laringe",
+        "translation": "en secreto"
       },
       "danchu": {
         "name": "Danchu",
-        "area": "Esternón"
+        "area": "En el medio del esternón",
+        "translation": "centro del pecho"
       },
       "ude-narashi": {
         "name": "Ude-narashi",
-        "area": "Brazo superior"
+        "area": "En el exterior del brazo",
+        "translation": "mitad del brazo"
       },
       "ganka": {
         "name": "Ganka",
-        "area": "Costillas bajo el pezón"
+        "area": "5to espacio intercostal",
+        "translation": "más allá de los gansos salvajes"
       },
       "suigetsu": {
         "name": "Suigetsu",
-        "area": "Plexo Solar"
+        "area": "Plexo solar",
+        "translation": "luna de agua"
       },
       "denko": {
         "name": "Denko",
-        "area": "Costillas"
+        "area": "Séptima costilla",
+        "translation": "relámpago"
       },
       "soto-shakutaku": {
-        "name": "Soto shakutaku",
-        "area": "Muñeca exterior"
+        "name": "Soto Shakutaku",
+        "area": "Parte superior del antebrazo",
+        "translation": "pantano en el exterior del antebrazo"
       },
       "shuko": {
         "name": "Shuko",
-        "area": "Dorso de la mano"
+        "area": "Base de la articulación del pulgar",
+        "translation": "dorso de la mano"
       },
       "kokotsu": {
         "name": "Kokotsu",
-        "area": "Espinilla"
+        "area": "Mitad del empeine",
+        "translation": "gran ventaja"
       },
       "soin": {
         "name": "Soin",
-        "area": "Empeine"
+        "area": "Parte exterior del empeine",
+        "translation": "escondido en la hierba"
       },
       "kori": {
         "name": "Kori",
-        "area": "Área alrededor de los dedos"
+        "area": "Mitad del empeine, aprox. 1.5 cm de la base del dedo",
+        "translation": "gran ventaja"
       },
       "uto": {
         "name": "Uto",
-        "area": "Puente de la nariz"
+        "area": "Mitad de la frente",
+        "translation": "pájaro y conejo"
       },
       "kasumi-right": {
         "name": "Kasumi",
-        "area": "Sien"
+        "area": "Lado de la ceja",
+        "translation": "aturdimiento, niebla"
       },
       "seimo": {
         "name": "Seimo",
-        "area": "Cuenca del ojo"
+        "area": "Ojo",
+        "translation": "globo ocular"
       },
       "mikazuki": {
         "name": "Mikazuki",
-        "area": "Mandíbula"
+        "area": "Mandíbula",
+        "translation": "media luna"
       },
       "kyosen": {
         "name": "Kyosen",
-        "area": "Esternón"
+        "area": "Parte inferior del esternón",
+        "translation": "punta del pecho"
       },
       "uchi-shakutaku": {
-        "name": "Uchi shakutaku",
-        "area": "Muñeca interior"
+        "name": "Uchi Shakutaku",
+        "area": "Parte interna del antebrazo",
+        "translation": "pantano en el interior del antebrazo"
       },
       "ganka-right": {
         "name": "Ganka",
-        "area": "Costillas"
+        "area": "5to espacio intercostal",
+        "translation": "más allá de los gansos salvajes"
       },
       "hijitsume": {
         "name": "Hijitsume",
-        "area": "Interior del codo"
+        "area": "Parte interna del antebrazo por encima del codo",
+        "translation": "empuje de codo"
       },
       "inazuma": {
         "name": "Inazuma",
-        "area": "Pared estomacal"
+        "area": "11va costilla (costilla flotante)",
+        "translation": "relámpago"
       },
       "myosho": {
         "name": "Myosho",
-        "area": "Área del ombligo"
+        "area": "Debajo del ombligo",
+        "translation": "estrella de la mañana (Venus)"
       },
       "tanden": {
         "name": "Tanden",
-        "area": "Centro de poder"
+        "area": "Debajo del ombligo (centro de energía)",
+        "translation": "campo rojo"
       },
       "kinteki": {
         "name": "Kinteki",
-        "area": "Ingle"
+        "area": "Testículos",
+        "translation": "bolas de hierro"
       },
       "yako": {
         "name": "Yako",
-        "area": "Muslo interior"
+        "area": "Parte interna del muslo",
+        "translation": "iluminación nocturna"
       },
       "fukuto": {
         "name": "Fukuto",
-        "area": "Hueco de la rodilla"
+        "area": "Parte interna del muslo por encima de la rodilla",
+        "translation": "conejo gateando"
       },
       "naira": {
         "name": "Naira",
-        "area": "Tendón de Aquiles"
+        "area": "Parte interna del tobillo",
+        "translation": "tobillo interno"
       },
       "kori-right": {
         "name": "Kori",
-        "area": "Área alrededor de los dedos"
+        "area": "Mitad del empeine",
+        "translation": "gran ventaja"
       },
       "shuko-back": {
         "name": "Shuko",
-        "area": "Dorso de la mano"
+        "area": "Base de la articulación del pulgar",
+        "translation": "dorso de la mano"
       },
       "soto-shakutaku-back": {
-        "name": "Soto shakutaku",
-        "area": "Muñeca exterior"
+        "name": "Soto Shakutaku",
+        "area": "Parte superior del antebrazo",
+        "translation": "pantano en el exterior del antebrazo"
       },
       "ude-narashi-back-1": {
         "name": "Ude-narashi",
-        "area": "Brazo superior"
+        "area": "En el exterior del brazo",
+        "translation": "mitad del brazo"
       },
       "wakikage": {
-        "name": "Wakigake",
-        "area": "Bajo la axila"
+        "name": "Wakikage",
+        "area": "Costillas desprotegidas bajo la axila",
+        "translation": "sombra del flanco"
       },
       "ushiro-denko-1": {
-        "name": "Ushiro denko",
-        "area": "Área del riñón"
+        "name": "Ushiro Denko",
+        "area": "Costillas y riñones",
+        "translation": "relámpago en la parte posterior"
       },
       "ushiro-denko-2": {
-        "name": "Ushiro denko",
-        "area": "Área del riñón"
+        "name": "Ushiro Denko",
+        "area": "Costillas y riñones",
+        "translation": "relámpago en la parte posterior"
       },
       "bitei": {
         "name": "Bitei",
-        "area": "Cóccix"
+        "area": "Coxis",
+        "translation": "cola"
       },
       "ein": {
         "name": "Ein",
-        "area": "Espalda baja"
+        "area": "Perineo",
+        "translation": "colección de yin"
       },
       "ushiro-inazuma": {
         "name": "Ushiro Inazuma",
-        "area": "Pared estomacal (espalda)"
+        "area": "Parte posterior del muslo",
+        "translation": "relámpago en la parte posterior"
       },
       "soma": {
         "name": "Soma",
-        "area": "Músculo de la espalda"
+        "area": "Músculo de la pantorrilla",
+        "translation": "donde la hierba cede al viento"
       },
       "shomon-back": {
-        "name": "Shomon (espalda)",
-        "area": "Parte posterior del cráneo"
+        "name": "Shomon",
+        "area": "Fontanela",
+        "translation": "puerta delantera"
       },
       "dokusen": {
         "name": "Dokusen",
-        "area": "Columna vertebral"
+        "area": "Depresión directamente debajo de la oreja",
+        "translation": ""
       },
       "keichu": {
         "name": "Keichu",
-        "area": "Cuello"
+        "area": "Centro del cuello",
+        "translation": "centro del cuello"
       },
       "hayauchi": {
         "name": "Hayauchi",
-        "area": "Espalda superior"
+        "area": "Entre los omóplatos",
+        "translation": "golpe temprano o golpe rápido"
       },
       "kassatsu": {
         "name": "Kassatsu",
-        "area": "Costillas traseras"
+        "area": "Columna vertebral",
+        "translation": "vida y muerte"
       },
       "ude-narashi-back-2": {
-        "name": "Ude-narashi (espalda)",
-        "area": "Brazo superior (espalda)"
+        "name": "Ude-narashi",
+        "area": "En el exterior del brazo",
+        "translation": "mitad del brazo"
       },
       "hijisume-back": {
-        "name": "Hijisume (espalda)",
-        "area": "Codo (espalda)"
+        "name": "Hijitsume",
+        "area": "Parte interna del antebrazo",
+        "translation": "empuje de codo"
       },
       "uchi-shakutaku-back": {
-        "name": "Uchi shakutaku (espalda)",
-        "area": "Muñeca interior (espalda)"
+        "name": "Uchi Shakutaku",
+        "area": "Parte interna del antebrazo",
+        "translation": "pantano en el interior del antebrazo"
       },
       "hijisume": {
-        "name": "Hijisume",
-        "area": "Codo"
+        "name": "Hijitsume",
+        "area": "Parte interna del antebrazo",
+        "translation": "empuje de codo"
       }
     }
   }

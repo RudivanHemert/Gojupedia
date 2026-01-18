@@ -27,211 +27,263 @@
     "points": {
       "shomon": {
         "name": "Shomon",
-        "area": "Schedel"
+        "area": "Fontanel",
+        "translation": "voorste poort"
       },
       "kasumi": {
         "name": "Kasumi",
-        "area": "Slaap"
+        "area": "Zijkant wenkbrauw",
+        "translation": "verdoving, mist"
       },
       "komekami": {
         "name": "Komekami",
-        "area": "Jukbeen"
+        "area": "Slaap",
+        "translation": "tempels"
       },
       "jinchu": {
         "name": "Jinchu",
-        "area": "Filtrum (basis van de neus)"
+        "area": "Tussen bovenlip en neus",
+        "translation": "midden van een mens"
       },
       "kakon": {
         "name": "Kakon",
-        "area": "Kin"
+        "area": "In de verdieping onder de onderlip",
+        "translation": "lagere afstammeling"
       },
       "murasame": {
         "name": "Murasame",
-        "area": "Sleutelbeen"
+        "area": "Boven sleutelbeen, in de verdieping tussen de aanhechtingen van twee halsspieren",
+        "translation": "voorbijgaande regen"
       },
       "hichu": {
         "name": "Hichu",
-        "area": "Luchtpijp"
+        "area": "Onder strottenhoofd, in kuiltje vlak boven aanhechting sleutelbenen",
+        "translation": "in het geheim"
       },
       "danchu": {
         "name": "Danchu",
-        "area": "Borstbeen"
+        "area": "Verdieping in het midden van het borstbeen (= lichaam) bij de aanhechting van het 2de ribbenpaar",
+        "translation": "midden van de borst"
       },
       "ude-narashi": {
         "name": "Ude-narashi",
-        "area": "Bovenarm"
+        "area": "Aan de buitenzijde van de bovenarm",
+        "translation": "midden van de arm"
       },
       "ganka": {
         "name": "Ganka",
-        "area": "Ribben onder tepel"
+        "area": "5e tussenribruimte, ter hoogte van Suigetsu",
+        "translation": "voorbij de wilde ganzen"
       },
       "suigetsu": {
         "name": "Suigetsu",
-        "area": "Zonnevlecht"
+        "area": "Zonnevlecht, Solar plexus, onder de punt van de onderzijde van het borstbeen (het zwaardvormig uitsteeksel)",
+        "translation": "watermaan"
       },
       "denko": {
         "name": "Denko",
-        "area": "Ribben"
+        "area": "Zevende rib",
+        "translation": "bliksem"
       },
       "soto-shakutaku": {
-        "name": "Soto shakutaku",
-        "area": "Buitenste pols"
+        "name": "Soto Shakutaku",
+        "area": "Aan de bovenzijde onderarm",
+        "translation": "moeras aan de buitenzijde van de onderarm"
       },
       "shuko": {
         "name": "Shuko",
-        "area": "Bovenkant hand"
+        "area": "Basis duimgewricht",
+        "translation": "achterzijde van de hand"
       },
       "kokotsu": {
         "name": "Kokotsu",
-        "area": "Scheenbeen"
+        "area": "Scheenbeen",
+        "translation": "hoog voordeel"
       },
       "soin": {
         "name": "Soin",
-        "area": "Wreef"
+        "area": "In de verdieping vlak voor het enkelgewricht, buitenzijde wreef (‘buitenenkel’)",
+        "translation": "verborgen in het gras"
       },
       "kori": {
         "name": "Kori",
-        "area": "Gebied rond de tenen"
+        "area": "Middenop wreef, tussen de grote en tweede teen, circa 1,5 cm van de teenbasis",
+        "translation": "hoog voordeel"
       },
       "uto": {
         "name": "Uto",
-        "area": "Neusbrug"
+        "area": "Midden voorhoofd",
+        "translation": "vogel en konijn"
       },
       "kasumi-right": {
         "name": "Kasumi",
-        "area": "Slaap"
+        "area": "Zijkant wenkbrauw",
+        "translation": "verdoving, mist"
       },
       "seimo": {
         "name": "Seimo",
-        "area": "Oogkas"
+        "area": "Oog (inclusief midden onder oog en wenkbrauw)",
+        "translation": "oogbal"
       },
       "mikazuki": {
         "name": "Mikazuki",
-        "area": "Kaak"
+        "area": "Kaak",
+        "translation": "halve maan"
       },
       "kyosen": {
         "name": "Kyosen",
-        "area": "Borstbeen"
+        "area": "Onderzijde borstbeen, in de verdieping bij de overgang van het borstbeen naar het zwaardvormig aanhangsel",
+        "translation": "borstpunt"
       },
       "uchi-shakutaku": {
-        "name": "Uchi shakutaku",
-        "area": "Binnenste pols"
+        "name": "Uchi Shakutaku",
+        "area": "Binnen-onderzijde onderarm",
+        "translation": "moeras aan de binnenzijde van de onderarm"
       },
       "ganka-right": {
         "name": "Ganka",
-        "area": "Ribben"
+        "area": "5e tussenribruimte, ter hoogte van Suigetsu",
+        "translation": "voorbij de wilde ganzen"
       },
       "hijitsume": {
         "name": "Hijitsume",
-        "area": "Binnenkant elleboog"
+        "area": "Binnen-bovenzijde onderarm, vlak boven de elleboog",
+        "translation": "elleboog duwen"
       },
       "inazuma": {
         "name": "Inazuma",
-        "area": "Buikwand"
+        "area": "11e rib (bovenste zwevende rib, ter hoogte van je elleboog)",
+        "translation": "bliksem"
       },
       "myosho": {
         "name": "Myosho",
-        "area": "Navelgebied"
+        "area": "Circa 2,5 cm onder de navel",
+        "translation": "ochtendster (Venus)"
       },
       "tanden": {
         "name": "Tanden",
-        "area": "Krachtcentrum"
+        "area": "Ca. 7 cm onder de navel",
+        "translation": "rode veld"
       },
       "kinteki": {
         "name": "Kinteki",
-        "area": "Lies"
+        "area": "Testikels",
+        "translation": "ijzeren ballen"
       },
       "yako": {
         "name": "Yako",
-        "area": "Binnenkant dij"
+        "area": "Meedere locaties aan de binnenzijde van het bovenbeen, vlak onder de lies",
+        "translation": "nachtelijke verlichting"
       },
       "fukuto": {
         "name": "Fukuto",
-        "area": "Knieholte"
+        "area": "Meerdere locaties aan de binnenzijde van het bovenbeen, vlak boven de knie",
+        "translation": "kruipende haas"
       },
       "naira": {
         "name": "Naira",
-        "area": "Achillespees"
+        "area": "Diverse locaties aan de binnenzijde langs de enkel, binnenzijde wreef (‘binnenenkel’)",
+        "translation": "binnenenkel"
       },
       "kori-right": {
         "name": "Kori",
-        "area": "Gebied rond de tenen"
+        "area": "Middenop wreef, tussen de grote en tweede teen, circa 1,5 cm van de teenbasis",
+        "translation": "hoog voordeel"
       },
       "shuko-back": {
         "name": "Shuko",
-        "area": "Bovenkant hand"
+        "area": "Basis duimgewricht",
+        "translation": "achterzijde van de hand"
       },
       "soto-shakutaku-back": {
-        "name": "Soto shakutaku",
-        "area": "Buitenste pols"
+        "name": "Soto Shakutaku",
+        "area": "Aan de bovenzijde onderarm",
+        "translation": "moeras aan de buitenzijde van de onderarm"
       },
       "ude-narashi-back-1": {
         "name": "Ude-narashi",
-        "area": "Bovenarm"
+        "area": "Aan de buitenzijde van de bovenarm",
+        "translation": "midden van de arm"
       },
       "wakikage": {
-        "name": "Wakigake",
-        "area": "Onder oksel"
+        "name": "Wakikage",
+        "area": "Onbeschermde ribben onder de oksel",
+        "translation": "flankschaduw"
       },
       "ushiro-denko-1": {
-        "name": "Ushiro denko",
-        "area": "Nierstreek"
+        "name": "Ushiro Denko",
+        "area": "Twee punten: Zwevende ribben en de (veel lager gelegen) nieren",
+        "translation": "bliksem aan de achterzijde"
       },
       "ushiro-denko-2": {
-        "name": "Ushiro denko",
-        "area": "Nierstreek"
+        "name": "Ushiro Denko",
+        "area": "Twee punten: Zwevende ribben en de (veel lager gelegen) nieren",
+        "translation": "bliksem aan de achterzijde"
       },
       "bitei": {
         "name": "Bitei",
-        "area": "Staartbeen"
+        "area": "Tussen onderzijde staartbeen en anus, ‘stuitje’",
+        "translation": "staart"
       },
       "ein": {
         "name": "Ein",
-        "area": "Onderrug"
+        "area": "Midden van het perineum of bilnaad",
+        "translation": "verzameling van yin"
       },
       "ushiro-inazuma": {
         "name": "Ushiro Inazuma",
-        "area": "Buikwand (achterzijde)"
+        "area": "Achterzijde bovenbeen, vlak onder bil",
+        "translation": "bliksem aan de achterzijde"
       },
       "soma": {
         "name": "Soma",
-        "area": "Rugspier"
+        "area": "In het midden van de peesaanhechting van de kuitspier",
+        "translation": "waar het gras geeft aan de wind"
       },
       "shomon-back": {
-        "name": "Shomon (achterzijde)",
-        "area": "Achterzijde schedel"
+        "name": "Shomon",
+        "area": "Fontanel",
+        "translation": "voorste poort"
       },
       "dokusen": {
         "name": "Dokusen",
-        "area": "Wervelkolom"
+        "area": "Kuiltje direct onder oor, bij de aanhechting van de kaak",
+        "translation": ""
       },
       "keichu": {
         "name": "Keichu",
-        "area": "Nek"
+        "area": "Midden van de nek",
+        "translation": "midden van de nek"
       },
       "hayauchi": {
         "name": "Hayauchi",
-        "area": "Bovenrug"
+        "area": "Tussen schouderbladen en ruggengraat",
+        "translation": "vroege klap of snelle klap"
       },
       "kassatsu": {
         "name": "Kassatsu",
-        "area": "Rugzijde ribben"
+        "area": "Midden ruggengraat, direct onder de 5e ruggengraatwervel",
+        "translation": "leven en dood"
       },
       "ude-narashi-back-2": {
-        "name": "Ude-narashi (achterzijde)",
-        "area": "Bovenarm (achterzijde)"
+        "name": "Ude-narashi",
+        "area": "Aan de buitenzijde van de bovenarm",
+        "translation": "midden van de arm"
       },
       "hijisume-back": {
-        "name": "Hijisume (achterzijde)",
-        "area": "Elleboog (achterzijde)"
+        "name": "Hijitsume",
+        "area": "Binnen-bovenzijde onderarm, vlak boven de elleboog",
+        "translation": "elleboog duwen"
       },
       "uchi-shakutaku-back": {
-        "name": "Uchi shakutaku (achterzijde)",
-        "area": "Binnenste pols (achterzijde)"
+        "name": "Uchi Shakutaku",
+        "area": "Binnen-onderzijde onderarm",
+        "translation": "moeras aan de binnenzijde van de onderarm"
       },
       "hijisume": {
-        "name": "Hijisume",
-        "area": "Elleboog"
+        "name": "Hijitsume",
+        "area": "Binnen-bovenzijde onderarm, vlak boven de elleboog",
+        "translation": "elleboog duwen"
       }
     }
   }

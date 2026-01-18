@@ -1,7 +1,7 @@
 {
   "vitalPoints": {
-    "title": "Vital Points",
-    "description": "Study of pressure points and vulnerable areas",
+    "title": "Vitale Punkte",
+    "description": "Studium der Druckpunkte und verletzlichen Zonen",
     "interactive": {
       "showLabels": "Labels anzeigen",
       "showAllLabels": "Alle Labels anzeigen",
@@ -15,223 +15,275 @@
       "title": "Vitale Punkte Quiz",
       "description": "Testen Sie Ihr Wissen über vitale Punkte, indem Sie die fehlenden Labels ausfüllen",
       "pointsToShow": "Anzahl der anzuzeigenden Punkte",
-      "checkAnswers": "Antworten überprüfen",
+      "checkAnswers": "Antworten prüfen",
       "restart": "Neu starten",
-      "correct": "Richtig!",
+      "correct": "Korrekt!",
       "incorrect": "Falsch",
       "yourAnswer": "Ihre Antwort",
       "correctAnswer": "Richtige Antwort",
-      "score": "Punktzahl: {{correct}} von {{total}}",
+      "score": "Ergebnis: {{correct}} von {{total}}",
       "enterAnswer": "Geben Sie den Namen dieses vitalen Punktes ein"
     },
     "points": {
       "shomon": {
         "name": "Shomon",
-        "area": "Schädel"
+        "area": "Fontanelle",
+        "translation": "Vordere Pforte"
       },
       "kasumi": {
         "name": "Kasumi",
-        "area": "Schläfe"
+        "area": "Seitliche Augenbraue",
+        "translation": "Betäubung, Nebel"
       },
       "komekami": {
         "name": "Komekami",
-        "area": "Wangenknochen"
+        "area": "Schläfe",
+        "translation": "Tempel"
       },
       "jinchu": {
         "name": "Jinchu",
-        "area": "Philtrum"
+        "area": "Zwischen Oberlippe und Nase",
+        "translation": "Mitte eines Menschen"
       },
       "kakon": {
         "name": "Kakon",
-        "area": "Kinn"
+        "area": "In der Vertiefung unter der Unterlippe",
+        "translation": "Niedriger Abkömmling"
       },
       "murasame": {
         "name": "Murasame",
-        "area": "Schlüsselbein"
+        "area": "Über dem Schlüsselbein, in der Vertiefung zwischen den Ansätzen zweier Halsmuskeln",
+        "translation": "Vorüberziehender Regen"
       },
       "hichu": {
         "name": "Hichu",
-        "area": "Luftröhre"
+        "area": "Unter dem Kehlkopf, in der Grube direkt über dem Ansatz der Schlüsselbeine",
+        "translation": "Im Geheimnis"
       },
       "danchu": {
         "name": "Danchu",
-        "area": "Brustbein"
+        "area": "Vertiefung in der Mitte des Brustbeins beim Ansatz des 2. Rippenpaares",
+        "translation": "Mitte der Brust"
       },
       "ude-narashi": {
-        "name": "Ude-narashi",
-        "area": "Oberarm"
+        "name": "Ude-Narashi",
+        "area": "An der Außenseite des Oberarms",
+        "translation": "Mitte des Arms"
       },
       "ganka": {
         "name": "Ganka",
-        "area": "Rippen unter der Brustwarze"
+        "area": "5. Zwischenrippenraum, auf der Höhe von Suigetsu",
+        "translation": "Hinter den Wildgänsen"
       },
       "suigetsu": {
         "name": "Suigetsu",
-        "area": "Solar Plexus"
+        "area": "Solarplexus, unter der Spitze des Brustbeins (Schwertfortsatz)",
+        "translation": "Wassermond"
       },
       "denko": {
         "name": "Denko",
-        "area": "Rippen"
+        "area": "Siebte Rippe",
+        "translation": "Blitz"
       },
       "soto-shakutaku": {
-        "name": "Soto shakutaku",
-        "area": "Äußeres Handgelenk"
+        "name": "Soto Shakutaku",
+        "area": "An der Oberseite des Unterarms",
+        "translation": "Sumpf an der Außenseite des Unterarms"
       },
       "shuko": {
         "name": "Shuko",
-        "area": "Handrücken"
+        "area": "Basis des Daumengelenks",
+        "translation": "Rückseite der Hand"
       },
       "kokotsu": {
         "name": "Kokotsu",
-        "area": "Schienbein"
+        "area": "Schienbein",
+        "translation": "Hoher Vorteil"
       },
       "soin": {
         "name": "Soin",
-        "area": "Spann"
+        "area": "In der Vertiefung direkt vor dem Sprunggelenk, Außenseite des Insteps (Außenknöchel)",
+        "translation": "Im Gras verborgen"
       },
       "kori": {
         "name": "Kori",
-        "area": "Bereich um die Zehen"
+        "area": "Mitte des Insteps, zwischen dem großen und dem zweiten Zeh, ca. 1,5 cm von der Zehenbasis",
+        "translation": "Hoher Vorteil"
       },
       "uto": {
         "name": "Uto",
-        "area": "Nasenrücken"
+        "area": "Mitte der Stirn",
+        "translation": "Vogel und Kaninchen"
       },
       "kasumi-right": {
         "name": "Kasumi",
-        "area": "Schläfe"
+        "area": "Seitliche Augenbraue",
+        "translation": "Betäubung, Nebel"
       },
       "seimo": {
         "name": "Seimo",
-        "area": "Augenhöhle"
+        "area": "Auge (einschließlich Mitte unter dem Auge und Augenbraue)",
+        "translation": "Augapfel"
       },
       "mikazuki": {
         "name": "Mikazuki",
-        "area": "Kiefer"
+        "area": "Kiefer",
+        "translation": "Halbmond"
       },
       "kyosen": {
         "name": "Kyosen",
-        "area": "Brustbein"
+        "area": "Unterseite des Brustbeins, in der Vertiefung beim Übergang vom Brustbein zum Schwertfortsatz",
+        "translation": "Brustpunkt"
       },
       "uchi-shakutaku": {
-        "name": "Uchi shakutaku",
-        "area": "Inneres Handgelenk"
+        "name": "Uchi Shakutaku",
+        "area": "Innenseite/Unterseite des Unterarms",
+        "translation": "Sumpf an der Innenseite des Unterarms"
       },
       "ganka-right": {
         "name": "Ganka",
-        "area": "Rippen"
+        "area": "5. Zwischenrippenraum, auf der Höhe von Suigetsu",
+        "translation": "Hinter den Wildgänsen"
       },
       "hijitsume": {
         "name": "Hijitsume",
-        "area": "Ellenbogeninnenseite"
+        "area": "Innenseite/Oberseite des Unterarms, direkt über dem Ellbogen",
+        "translation": "Ellbogen drücken"
       },
       "inazuma": {
         "name": "Inazuma",
-        "area": "Bauchdecke"
+        "area": "11. Rippe (oberste frei schwebende Rippe, auf Ellbogenhöhe)",
+        "translation": "Blitz"
       },
       "myosho": {
         "name": "Myosho",
-        "area": "Nabelbereich"
+        "area": "Ca. 2,5 cm unter dem Bauchnabel",
+        "translation": "Morgenstern (Venus)"
       },
       "tanden": {
         "name": "Tanden",
-        "area": "Kraftzentrum"
+        "area": "Ca. 7 cm unter dem Bauchnabel",
+        "translation": "Rotes Feld"
       },
       "kinteki": {
         "name": "Kinteki",
-        "area": "Leiste"
+        "area": "Hoden",
+        "translation": "Eiserne Bälle"
       },
       "yako": {
         "name": "Yako",
-        "area": "Oberschenkelinnenseite"
+        "area": "Mehrere Stellen an der Innenseite des Oberschenkels, direkt unter der Leiste",
+        "translation": "Nächtliche Beleuchtung"
       },
       "fukuto": {
         "name": "Fukuto",
-        "area": "Kniekehle"
+        "area": "Mehrere Stellen an der Innenseite des Oberschenkels, direkt über dem Knie",
+        "translation": "Kriechender Hase"
       },
       "naira": {
         "name": "Naira",
-        "area": "Achillessehne"
+        "area": "Diverse Stellen an der Innenseite entlang des Knöchels, Innenseite des Insteps (Innenknöchel)",
+        "translation": "Innenknöchel"
       },
       "kori-right": {
         "name": "Kori",
-        "area": "Bereich um die Zehen"
+        "area": "Mitte des Insteps, zwischen dem großen und dem zweiten Zeh, ca. 1,5 cm von der Zehenbasis",
+        "translation": "Hoher Vorteil"
       },
       "shuko-back": {
         "name": "Shuko",
-        "area": "Handrücken"
+        "area": "Basis des Daumengelenks",
+        "translation": "Rückseite der Hand"
       },
       "soto-shakutaku-back": {
-        "name": "Soto shakutaku",
-        "area": "Äußeres Handgelenk"
+        "name": "Soto Shakutaku",
+        "area": "An der Oberseite des Unterarms",
+        "translation": "Sumpf an der Außenseite des Unterarms"
       },
       "ude-narashi-back-1": {
-        "name": "Ude-narashi",
-        "area": "Oberarm"
+        "name": "Ude-Narashi",
+        "area": "An der Außenseite des Oberarms",
+        "translation": "Mitte des Arms"
       },
       "wakikage": {
-        "name": "Wakigake",
-        "area": "Unter der Achselhöhle"
+        "name": "Wakikage",
+        "area": "Ungeschützte Rippen unter der Achsel",
+        "translation": "Flankenschatten"
       },
       "ushiro-denko-1": {
-        "name": "Ushiro denko",
-        "area": "Nierenbereich"
+        "name": "Ushiro Denko",
+        "area": "Zwei Punkte: Freie Rippen und die (viel tiefer gelegenen) Nieren",
+        "translation": "Blitz an der Rückseite"
       },
       "ushiro-denko-2": {
-        "name": "Ushiro denko",
-        "area": "Nierenbereich"
+        "name": "Ushiro Denko",
+        "area": "Zwei Punkte: Freie Rippen und die (viel tiefer gelegenen) Nieren",
+        "translation": "Blitz an der Rückseite"
       },
       "bitei": {
         "name": "Bitei",
-        "area": "Steißbein"
+        "area": "Zwischen Unterseite des Steißbeins und Anus, 'Steißchen'",
+        "translation": "Schwanz"
       },
       "ein": {
         "name": "Ein",
-        "area": "Unterer Rücken"
+        "area": "Mitte des Damms oder Pobacke",
+        "translation": "Versammlung von Yin"
       },
       "ushiro-inazuma": {
         "name": "Ushiro Inazuma",
-        "area": "Bauchdecke (Rücken)"
+        "area": "Rückseite des Oberschenkels, direkt unter dem Gesäß",
+        "translation": "Blitz an der Rückseite"
       },
       "soma": {
         "name": "Soma",
-        "area": "Rückenmuskel"
+        "area": "In der Mitte des Sehnenansatzes des Wadenmuskels",
+        "translation": "Wo das Gras dem Wind nachgibt"
       },
       "shomon-back": {
-        "name": "Shomon (Rücken)",
-        "area": "Hinterkopf"
+        "name": "Shomon",
+        "area": "Fontanelle",
+        "translation": "Vordere Pforte"
       },
       "dokusen": {
         "name": "Dokusen",
-        "area": "Wirbelsäule"
+        "area": "Grube direkt unter dem Ohr, beim Ansatz des Kiefers",
+        "translation": ""
       },
       "keichu": {
         "name": "Keichu",
-        "area": "Nacken"
+        "area": "Mitte des Nackens",
+        "translation": "Mitte des Nackens"
       },
       "hayauchi": {
         "name": "Hayauchi",
-        "area": "Oberer Rücken"
+        "area": "Zwischen Schulterblättern und Wirbelsäule",
+        "translation": "Früher Schlag oder schneller Schlag"
       },
       "kassatsu": {
         "name": "Kassatsu",
-        "area": "Hintere Rippen"
+        "area": "Mitte der Wirbelsäule, direkt unter dem 5. Rückenwirbel",
+        "translation": "Leben und Tod"
       },
       "ude-narashi-back-2": {
-        "name": "Ude-narashi (Rücken)",
-        "area": "Oberarm (Rücken)"
+        "name": "Ude-Narashi",
+        "area": "An der Außenseite des Oberarms",
+        "translation": "Mitte des Arms"
       },
       "hijisume-back": {
-        "name": "Hijisume (Rücken)",
-        "area": "Ellenbogen (Rücken)"
+        "name": "Hijitsume",
+        "area": "Innenseite/Oberseite des Unterarms, direkt über dem Ellbogen",
+        "translation": "Ellbogen drücken"
       },
       "uchi-shakutaku-back": {
-        "name": "Uchi shakutaku (Rücken)",
-        "area": "Inneres Handgelenk (Rücken)"
+        "name": "Uchi Shakutaku",
+        "area": "Innenseite/Unterseite des Unterarms",
+        "translation": "Sumpf an der Innenseite des Unterarms"
       },
       "hijisume": {
-        "name": "Hijisume",
-        "area": "Ellenbogen"
+        "name": "Hijitsume",
+        "area": "Innenseite/Oberseite des Unterarms, direkt über dem Ellbogen",
+        "translation": "Ellbogen drücken"
       }
     }
   }

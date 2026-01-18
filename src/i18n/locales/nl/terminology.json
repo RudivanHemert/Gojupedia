@@ -214,60 +214,60 @@
           "junbi-undo": {
             "name": "Junbi Undo",
             "japanese": "準備運動",
-            "english": "Voorbereidende oefeningen, warming-up"
+            "english": "Warming-up."
           },
           "kokyu-undo": {
             "name": "Kokyu Undo",
             "japanese": "呼吸運動",
-            "english": "Ademhalingsoefeningen"
+            "english": "Ademhalingsoefeningen."
           },
           "hojo-undo": {
             "name": "Hojo Undo",
             "japanese": "補助運動",
-            "english": "Ondersteunende (kracht)oefeningen"
+            "english": "Ondersteunende krachtoefeningen."
           },
           "kihon": {
             "name": "Kihon",
             "japanese": "基本",
-            "english": "Basistechnieken"
+            "english": "Basistechnieken."
           },
           "kata": {
             "name": "Kata",
             "japanese": "型",
-            "english": "(Solo)vorm; stijlvorm"
+            "english": "Stijlvorm (solovorm)."
           },
           "kumite": {
             "name": "Kumite",
             "japanese": "組手",
-            "english": "Gevechtsoefeningen"
+            "english": "Gevechtsoefeningen."
           },
           "semete": {
             "name": "Semete",
             "japanese": "攻め手",
-            "english": "Aanvaller"
+            "english": "Aanvaller."
           },
           "ukete": {
             "name": "Ukete",
             "japanese": "受け手",
-            "english": "Verdediger"
+            "english": "Verdediger."
           },
           "jodan": {
             "name": "Jodan",
             "japanese": "上段",
-            "english": "Hogere deel (van het lichaam)",
-            "details": "Het gedeelte boven het sleutelbeen: hoofd, nek, keel"
+            "english": "Hogere deel (hoofd/nek).",
+            "details": "Hogere deel (hoofd/nek)."
           },
           "chudan": {
             "name": "Chudan",
             "japanese": "中段",
-            "english": "Middendeel (van het lichaam)",
-            "details": "Van ondergrens zonnevlecht tot sleutelbeen"
+            "english": "Middendeel (romp).",
+            "details": "Middendeel (romp)."
           },
           "gedan": {
             "name": "Gedan",
             "japanese": "下段",
-            "english": "Lagere deel (van het lichaam)",
-            "details": "Van ondergrens zonnevlecht tot de grond"
+            "english": "Lagere deel (onder zonnevlecht).",
+            "details": "Lagere deel (onder zonnevlecht)."
           },
           "hidari": {
             "name": "Hidari",
@@ -278,6 +278,21 @@
             "name": "Migi",
             "japanese": "右",
             "english": "Rechts"
+          },
+          "mae": {
+            "name": "Mae",
+            "japanese": "前",
+            "english": "Voorwaarts"
+          },
+          "ushiro": {
+            "name": "Ushiro",
+            "japanese": "後ろ",
+            "english": "Achterwaarts"
+          },
+          "mawashi": {
+            "name": "Mawashi",
+            "japanese": "回し",
+            "english": "Cirkelvormig"
           },
           "age": {
             "name": "Age",
@@ -328,36 +343,36 @@
           "go-waza": {
             "name": "Go Waza",
             "japanese": "剛技",
-            "english": "‘Harde’(= go) technieken",
-            "details": "Zoals stoten, slagen en trappen"
+            "english": "Harde technieken (stoten/trappen).",
+            "details": "Harde technieken (stoten/trappen)."
           },
           "ju-waza": {
             "name": "Ju Waza",
             "japanese": "柔技",
-            "english": "‘Zachte’ (= ju) technieken",
-            "details": "Zoals worpen, klemmen, verwurgingen en aanvallen naar vitale punten"
+            "english": "Zachte technieken (klemmen/worpen).",
+            "details": "Zachte technieken (klemmen/worpen)."
           },
           "o-waza": {
             "name": "O Waza",
             "japanese": "大技",
-            "english": "Grote technieken",
-            "details": "Uitvoering van technieken met ruime, forse bewegingen (meer ‘go’)"
+            "english": "Grote bewegingen.",
+            "details": "Grote bewegingen."
           },
           "ko-waza": {
             "name": "Ko Waza",
             "japanese": "小技",
-            "english": "Kleine technieken",
-            "details": "Uitvoering van technieken met verfijnde, kleine bewegingen (meer ‘ju’)"
+            "english": "Kleine, verfijnde bewegingen.",
+            "details": "Kleine, verfijnde bewegingen."
           },
           "dachi-waza": {
-            "name": "Dachi (Tachi) Waza",
+            "name": "Dachi Waza",
             "japanese": "立ち技",
-            "english": "Standen"
+            "english": "Standen."
           },
           "unsoku-ho": {
             "name": "Unsoku ho",
             "japanese": "運足法",
-            "english": "Voetenwerk"
+            "english": "Voetenwerk."
           },
           "sonoba": {
             "name": "Sonoba (Kihon Gijutsu)",
@@ -411,46 +426,39 @@
         "description": "Traditionele trainingshulpmiddelen en oefeningen (Hojo Undo) voor kracht en conditionering.",
         "terms": {
           "chi-ishi": {
-            "name": "Chi Ishi",
+            "name": "Chishi",
             "japanese": "痴石",
-            "english": "Krachtsteen (training van pols, arm en grip)",
-            "details": "Letterlijk 'De steen van de gek' of 'Geeststeen'"
+            "english": "Hojo Undo: 'Stenen hamer'."
           },
           "nigiri-game": {
             "name": "Nigiri Game",
             "japanese": "握り亀",
-            "english": "Grijpkruiken",
-            "details": "Keramische kruiken om greepkracht te trainen. Letterlijk 'Grijppotten'"
+            "english": "Hojo Undo: 'Grijpvazen'."
           },
           "makiwara": {
             "name": "Makiwara",
             "japanese": "巻藁",
-            "english": "Stootpaal",
-            "details": "Houten plank met stootkussen voor stoot- en traptraining"
+            "english": "Stootplank."
           },
           "kongoken": {
             "name": "Kongoken",
             "japanese": "金剛圏",
-            "english": "Ijzeren ring",
-            "details": "Zware metalen ring voor krachttraining en lichaamsharding"
+            "english": "Hojo Undo: 'IJzeren ovaal'."
           },
           "ishi-sashi": {
             "name": "Ishi Sashi",
             "japanese": "石錠",
-            "english": "Stenen hangsloten",
-            "details": "Gewichten in de vorm van oude sloten, gebruikt voor arm- en beentraining"
+            "english": "Hojo Undo: 'Stenen hangslot'."
           },
           "tan": {
             "name": "Tan",
             "japanese": "担",
-            "english": "Halter",
-            "details": "Houten stang met gewichten (beton of steen)"
+            "english": "Halter."
           },
           "sashi-ishi": {
             "name": "Sashi Ishi",
             "japanese": "差し石",
-            "english": "Tilsteen",
-            "details": "Natuursteen voor krachttraining"
+            "english": "Hojo Undo: 'Natuurstenen'."
           },
           "tetsu-geta": {
             "name": "Tetsu Geta",
@@ -472,14 +480,14 @@
           "tenshin": {
             "name": "Tenshin",
             "japanese": "転身",
-            "english": "Verplaatsing",
-            "details": "Verplaatsing (door het verzetten van de voeten)"
+            "english": "Verplaatsing.",
+            "details": "Verplaatsing."
           },
           "tai-sabaki": {
             "name": "Tai Sabaki",
             "japanese": "体捌き",
-            "english": "Lichaamverplaatsing",
-            "details": "Doorgaans gebruikt bij combinatie van voetverplaatsingen en draaiingen van het lichaam."
+            "english": "Lichaamsverplaatsing / ontwijking.",
+            "details": "Lichaamsverplaatsing / ontwijking."
           },
           "tai-hiraki": {
             "name": "Tai Hiraki",
@@ -494,23 +502,23 @@
           "suri-ashi": {
             "name": "Suri Ashi",
             "japanese": "摺り足",
-            "english": "Wegglijdende stap",
-            "details": "‘Wegstappende pas’"
+            "english": "Wegglijdende stap.",
+            "details": "Wegglijdende stap."
           },
           "tsugi-ashi": {
             "name": "Tsugi Ashi",
             "japanese": "継ぎ足",
-            "english": "Bijschuivende stap"
+            "english": "Bijschuivende stap."
           },
           "ayumi-ashi": {
             "name": "Ayumi Ashi",
             "japanese": "歩み足",
-            "english": "Natuurlijke stap"
+            "english": "Natuurlijke stap."
           },
           "hiki-ashi": {
             "name": "Hiki Ashi",
             "japanese": "引き足",
-            "english": "Terugtrekken van het been"
+            "english": "Terugtrekken van been/voet."
           },
           "tako-ashi": {
             "name": "Tako Ashi",
@@ -523,10 +531,10 @@
             "english": "Halfgedraaid"
           },
           "yoi-no-kamae": {
-            "name": "Yoi No Kamae (Musubi Dachi No Kamae)",
+            "name": "Yoi No Kamae",
             "japanese": "用意の構え",
-            "english": "Formele alerte gevechtshouding",
-            "details": "Aanvangshouding in de kata"
+            "english": "Formele alerte gevechtshouding.",
+            "details": "Formele alerte gevechtshouding."
           },
           "gedan-no-kamae": {
             "name": "Gedan No Kamae",
@@ -546,8 +554,8 @@
           "mu-kamae": {
             "name": "Mu Kamae",
             "japanese": "無構え",
-            "english": "Gevechtshouding zonder specifieke vorm",
-            "details": "Letterlijk: ‘geen gevechtshouding’"
+            "english": "Geen specifieke houding.",
+            "details": "Geen specifieke houding."
           }
         }
       },
@@ -557,7 +565,7 @@
           "seiken": {
             "name": "Seiken",
             "japanese": "正拳",
-            "english": "Vuist"
+            "english": "Vuist."
           },
           "tateken": {
             "name": "Tateken",
@@ -567,41 +575,41 @@
           "uraken": {
             "name": "Uraken",
             "japanese": "裏拳",
-            "english": "Knokkels / Achterzijde van de vuist"
+            "english": "Achterzijde vuist (knokkels)."
           },
           "tettsui": {
             "name": "Tettsui",
             "japanese": "鉄槌",
-            "english": "Onderzijde van de vuist",
-            "details": "Letterlijk: 'ijzeren hamer'"
+            "english": "Hamer (onderzijde vuist).",
+            "details": "Hamer (onderzijde vuist)."
           },
           "shuto": {
             "name": "Shuto",
             "japanese": "手刀",
-            "english": "Pinkzijde van de (open) hand",
-            "details": "Letterlijk: 'zwaardhand'"
+            "english": "Meshand (pinkzijde).",
+            "details": "Meshand (pinkzijde)."
           },
           "haito": {
             "name": "Haito",
             "japanese": "背刀",
-            "english": "Duimzijde van de (open) hand"
+            "english": "Binnenzijde hand (duimzijde)."
           },
           "shotei": {
             "name": "Shotei",
             "japanese": "掌底",
-            "english": "Palm",
-            "details": "Bij weringen doorgaans ‘open hand’ genoemd"
+            "english": "Palm.",
+            "details": "Palm."
           },
           "haishu": {
             "name": "Haishu",
             "japanese": "背手",
-            "english": "Achterzijde van de hand"
+            "english": "Handrug."
           },
           "nukite": {
             "name": "Nukite",
             "japanese": "貫手",
-            "english": "Speerhand",
-            "details": "Nihon Nukite: Twee-vinger hand"
+            "english": "Speerhand.",
+            "details": "Speerhand."
           },
           "nakadakaken": {
             "name": "Nakadakaken",
@@ -618,18 +626,18 @@
           "hiraken": {
             "name": "Hiraken",
             "japanese": "平拳",
-            "english": "Middenvingers-vuist",
-            "details": "Met het middelste deel van de vingers, als in Sepai"
+            "english": "Middenvingers-vuist (kootjes).",
+            "details": "Middenvingers-vuist (kootjes)."
           },
           "koken": {
-            "name": "Koken (of Ko)",
+            "name": "Koken",
             "japanese": "弧拳",
-            "english": "Gebogen pols"
+            "english": "Gebogen pols."
           },
           "hiji": {
-            "name": "Hiji (of Empi)",
+            "name": "Empi / Hiji",
             "japanese": "肘",
-            "english": "Elleboog"
+            "english": "Elleboog."
           },
           "hiza": {
             "name": "Hiza",
@@ -639,27 +647,27 @@
           "sune": {
             "name": "Sune",
             "japanese": "脛",
-            "english": "Scheen"
+            "english": "Scheen."
           },
           "kakato": {
             "name": "Kakato",
             "japanese": "踵",
-            "english": "Hiel of hak"
+            "english": "Hiel."
           },
           "sokko": {
-            "name": "Sokko (of Haisoku)",
+            "name": "Sokko (Haisoku)",
             "japanese": "足甲",
-            "english": "Wreef"
+            "english": "Wreef."
           },
           "sokuto": {
-            "name": "Sokutei of Sokuto",
+            "name": "Sokuto",
             "japanese": "足底",
-            "english": "Zool/zijkant van de voet"
+            "english": "Zijkant voet (meskant)."
           },
           "josokutei": {
             "name": "Josokutei",
             "japanese": "上足底",
-            "english": "Bal van de voet"
+            "english": "Bal van de voet."
           },
           "tsumasaki": {
             "name": "Tsumasaki",
@@ -715,8 +723,8 @@
           "karate": {
             "name": "Karate",
             "japanese": "空手",
-            "english": "Lege hand",
-            "details": "Gevechtskunst, krijgskunst, de kunst waarbij zowel lichaam als geest wordt getraind voor de (dagelijkse) gezondheid; in noodgevallen is het een zelfverdedigingskunst die geen gebruik maakt van wapens. Letterlijk: ‘lege hand’. Deze krijgskunst werd in het verleden aangeduid met ‘Tode’."
+            "english": "Gevechtskunst waarbij lichaam en geest worden getraind; letterlijk 'lege hand'.",
+            "details": "Gevechtskunst waarbij lichaam en geest worden getraind; letterlijk 'lege hand'."
           },
           "karate-do": {
             "name": "Karatedo",
@@ -727,194 +735,194 @@
           "okinawa": {
             "name": "Okinawa",
             "japanese": "沖縄",
-            "english": "Grootste eiland van de Ryukyu-eilanden",
-            "details": "Grootste eiland van de Ryukyu-eilanden ten zuiden van Japan voor de kust van China, dat staatkundig bij Japan hoort. Okinawa is meer dan 100 km lang en tussen de 5 en 20 km breed. Hier is karate oorspronkelijk ontwikkeld, met als belangrijke bron het Chinese Kempo, zoals het kraanvogelboksen."
+            "english": "Eiland ten zuiden van Japan waar karate oorspronkelijk is ontwikkeld.",
+            "details": "Eiland ten zuiden van Japan waar karate oorspronkelijk is ontwikkeld."
           },
           "ryu": {
             "name": "Ryu",
             "japanese": "流",
-            "english": "Stijl",
-            "details": "Stijl"
+            "english": "Stijl.",
+            "details": "Stijl."
           },
           "nahate": {
             "name": "Nahate",
             "japanese": "那覇手",
-            "english": "Oude naam voor de krijgskunst in Naha",
-            "details": "Oude naam voor de krijgskunst die beoefend werd in de plaats Naha op Okinawa. Naast Goyu-ryu ligt hier ook de basis voor onder andere de karate-stijlen Uechi-ryu en Pangai-noon-ryu."
+            "english": "Oude naam voor de krijgskunst uit Naha; basis voor o.a. Goju-Ryu.",
+            "details": "Oude naam voor de krijgskunst uit Naha; basis voor o.a. Goju-Ryu."
           },
           "shurite-tomarite": {
             "name": "Shurite en Tomarite",
             "japanese": "首里手 / 泊手",
-            "english": "Oude namen voor krijgskunsten uit Shuri en Tomari",
-            "details": "Oude namen voor de krijgskunsten afkomstig uit de Okinawaanse plaatsen Shuri en Tomari (overigens zijn dit nu wijken van de miljoenenstad Naha); de basis van een aantal andere karate-stijlen. In Japan zijn Shotokan en Wado ryu uit een combinatie van Shuri-te en Tomari-te ontstaan. Uit Shotokan en Goju Kai is daar Kyokushin Kai-karate voortgekomen."
+            "english": "Oude namen voor krijgskunsten uit Shuri en Tomari; basis voor o.a. Shotokan.",
+            "details": "Oude namen voor krijgskunsten uit Shuri en Tomari; basis voor o.a. Shotokan."
           },
           "kobudo": {
             "name": "Kobudo",
             "japanese": "古武道",
-            "english": "Okinawaanse vechtkunst met wapens",
-            "details": "Okinawaanse vechtkunst die gebruik maakt van 'wapens' (meest gebruikt: stok van 183 cm (Bo), (kleine) drietand (Sai), twee stokken die met een ketting verbonden zijn (Nunchaku, dorsvlegel), zeisvormig houten wapen (Kama) en zwaard (Katana))."
+            "english": "Okinawaanse vechtkunst die gebruik maakt van wapens (Bo, Sai, Nunchaku, etc.).",
+            "details": "Okinawaanse vechtkunst die gebruik maakt van wapens (Bo, Sai, Nunchaku, etc.)."
           },
           "kempo-hakku": {
             "name": "Kempo Hakku",
             "japanese": "拳法八句",
-            "english": "De acht wetten van de vuist",
+            "english": "Gedicht 'De acht wetten van de vuist'.",
             "details": "Gedicht 'De acht wetten van de vuist'."
           },
           "budo": {
             "name": "Budo",
             "japanese": "武道",
-            "english": "De weg van de krijger",
-            "details": "De ‘weg van de krijger’ als een levensstijl/filosofie/(levens)weg."
+            "english": "De 'weg van de krijger' als levensstijl/filosofie.",
+            "details": "De 'weg van de krijger' als levensstijl/filosofie."
           },
           "kenkon": {
             "name": "Kenkon",
             "japanese": "乾坤",
-            "english": "Hemel en aarde",
-            "details": "Letterlijk: ‘hemel en aarde’; symbool van de International Okinawan Goju-ryu Karate-do Federation (IOGKF). Het is bedacht door Chojun Miyagi, grondlegger van Goju-Ryu karate. In Nederland is het Goju-Ryu ingevoerd door Harry de Spa."
+            "english": "Symbool van de IOGKF (Hemel en Aarde).",
+            "details": "Symbool van de IOGKF (Hemel en Aarde)."
           },
           "tanden": {
             "name": "Tanden",
             "japanese": "丹田",
-            "english": "Energetisch centrum",
-            "details": "Energetisch en psycho-fysisch centrum van het lichaam. Tijdens een natuurlijke stand ligt het tanden in het middelpunt van het lichaam."
+            "english": "Energetisch en psycho-fysisch centrum van het lichaam (ca. 7 cm onder de navel).",
+            "details": "Energetisch en psycho-fysisch centrum van het lichaam (ca. 7 cm onder de navel)."
           },
           "hara": {
             "name": "Hara",
             "japanese": "腹",
-            "english": "Lagere buik",
-            "details": "Letterlijk: ‘lagere buik’, in de praktijk hetzelfde als tanden."
+            "english": "Onderbuik; in de praktijk vaak hetzelfde als tanden.",
+            "details": "Onderbuik; in de praktijk vaak hetzelfde als tanden."
           },
           "ki": {
-            "name": "Ki",
+            "name": "Ki (Qi)",
             "japanese": "気",
-            "english": "Vitale energie",
-            "details": "(De ervaring van) Vitale energie of levenskracht; vaak aangeduid met begrippen als ademhalingsenergie, ademhalingskracht enzovoorts, ook wel vertaald als 'geest'. Manifestatie van de eenwording van lichaam, ademhaling en geest. In het Chinees aangeduid als Qi."
+            "english": "Vitale energie of levenskracht.",
+            "details": "Vitale energie of levenskracht."
           },
           "chinkuchi-kakin": {
             "name": "Chinkuchi Kakin (Kimae)",
             "japanese": "",
-            "english": "Richten van kracht",
-            "details": "Richten van kracht; korte en gerichte aanspanning van de spieren op het moment van raken."
+            "english": "Richten van kracht; korte gerichte aanspanning op moment van raken.",
+            "details": "Richten van kracht; korte gerichte aanspanning op moment van raken."
           },
           "muchimi": {
             "name": "Muchimi",
             "japanese": "鞭身",
-            "english": "Klevende beweging",
-            "details": "Trage, vloeiende, zware, klevende, gecontroleerde en geconcentreerde beweging."
+            "english": "Trage, vloeiende, zware, klevende beweging.",
+            "details": "Trage, vloeiende, zware, klevende beweging."
           },
           "chiru-no-chan-chan": {
             "name": "Chiru No Chan Chan",
             "japanese": "",
-            "english": "Explosie-kracht",
-            "details": "Explosie-kracht, springveerkracht, startkracht, beginkracht, afzetkracht of beginimpuls. Het heeft betrekking op de krachtinzet aan het begin van de beweging, die (ook) komt van een reactie op de beweging van een tegenstander."
+            "english": "Explosiekracht / startkracht.",
+            "details": "Explosiekracht / startkracht."
           },
           "chikara": {
             "name": "Chikara",
             "japanese": "力",
-            "english": "Kracht",
-            "details": "Kracht, levendige en krachtige beweging; beweging die is geladen door ‘ki’."
+            "english": "Kracht; beweging geladen door 'Ki'.",
+            "details": "Kracht; beweging geladen door 'Ki'."
           },
           "chikara-no-nujisashi": {
             "name": "Chikara No Nujisashi",
             "japanese": "",
-            "english": "Spanning en ontspanning",
-            "details": "Afwisseling tussen spanning en ontspanning. Uitgebreider: het in- en uitgaan van kracht, in samenhang met de afwisseling van spanning en ontspanning. De term 'nujisashi' afzonderlijk wordt gebruikt voor de rustigere, meer gecontroleerde gedeelten van de kata."
+            "english": "Afwisseling tussen spanning en ontspanning.",
+            "details": "Afwisseling tussen spanning en ontspanning."
           },
           "shimejurasan": {
             "name": "Shimejurasan",
             "japanese": "",
-            "english": "Perfecte uitvoering",
+            "english": "De perfecte uitvoering van de kata.",
             "details": "De perfecte uitvoering van de kata."
           },
           "te-no-omoi": {
-            "name": "Te No Omoi (Te No Omomi)",
+            "name": "Te No Omoi",
             "japanese": "",
-            "english": "Zware handen",
-            "details": "Letterlijk: ‘zware handen’. De impact van de techniek komt bij Te no omomi uit het gewicht en de versnelling die aan een hand (arm) of voet (been) wordt gegeven."
+            "english": "Zware handen (impact door gewicht en versnelling).",
+            "details": "Zware handen (impact door gewicht en versnelling)."
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
             "japanese": "先の手",
-            "english": "Initiatief nemen",
+            "english": "Initiatief nemen.",
             "details": "Initiatief nemen."
           },
           "go-no-sen": {
             "name": "Go No Sen",
             "japanese": "後の手",
-            "english": "Initiatief later nemen",
+            "english": "Initiatief later nemen.",
             "details": "Initiatief later nemen."
           },
           "kiai": {
-            "name": "Kiai (of Yagui)",
+            "name": "Kiai",
             "japanese": "気合",
-            "english": "Geestesschreeuw",
-            "details": "Schreeuw, waarbij de kracht wordt geconcentreerd en gestuurd (letterlijk: ‘samengaan of harmonisering van levenskracht en geest’)."
+            "english": "Schreeuw waarbij kracht wordt geconcentreerd (harmonie levenskracht en geest).",
+            "details": "Schreeuw waarbij kracht wordt geconcentreerd (harmonie levenskracht en geest)."
           },
           "ni": {
             "name": "Ni (Ne)",
             "japanese": "根",
-            "english": "Worteling",
+            "english": "Worteling.",
             "details": "Worteling."
           },
           "ma-ai": {
             "name": "Ma Ai",
             "japanese": "間合い",
-            "english": "Gevechtsafstand",
+            "english": "Gevechtsafstand.",
             "details": "Gevechtsafstand."
           },
           "ma": {
             "name": "Ma",
             "japanese": "間",
-            "english": "Interne timing",
-            "details": "Interne timing; het uitvoeren van de techniek in overeenstemming met het ritme van de synchronisatie van lichaam, adem en geest."
+            "english": "Interne timing en ritme.",
+            "details": "Interne timing en ritme."
           },
           "nin": {
             "name": "Nin",
             "japanese": "忍",
-            "english": "Volharding",
-            "details": "Volharing, doorzettingsvermogen."
+            "english": "Volharding, doorzettingsvermogen.",
+            "details": "Volharding, doorzettingsvermogen."
           },
           "zanshin": {
             "name": "Zanshin",
             "japanese": "残心",
-            "english": "Blijvende aandacht",
-            "details": "Blijvende aandacht en alertheid, vechtaandacht. Letterlijk: ‘blijvend hart'."
+            "english": "Blijvende aandacht en alertheid ('blijvend hart').",
+            "details": "Blijvende aandacht en alertheid ('blijvend hart')."
           },
           "heijoshin": {
             "name": "Heijoshin",
             "japanese": "平常心",
-            "english": "Evenwichtige kalme geest",
+            "english": "Evenwichtige kalme geest.",
             "details": "Evenwichtige kalme geest."
           },
           "mushin": {
             "name": "Mushin",
             "japanese": "無心",
-            "english": "Geen geest",
-            "details": "Letterlijk: ‘geen geest’."
+            "english": "Geen geest (handelen zonder bewust denken).",
+            "details": "Geen geest (handelen zonder bewust denken)."
           },
           "haragei": {
             "name": "Haragei",
             "japanese": "腹芸",
-            "english": "Buikgevoel benadering",
-            "details": "Het in de onderbuik gevoelde vertrouwen om iedere situatie aan te kunnen (gaan). Letterlijk: ‘de benadering uit je hara’."
+            "english": "Het in de onderbuik gevoelde vertrouwen (intuïtie).",
+            "details": "Het in de onderbuik gevoelde vertrouwen (intuïtie)."
           },
           "isshin": {
             "name": "Isshin",
             "japanese": "一心",
-            "english": "Eén hart",
-            "details": "Volledige overgave, één punt van aandacht. Letterlijk: ‘één hart’."
+            "english": "Volledige overgave ('één hart').",
+            "details": "Volledige overgave ('één hart')."
           },
           "seishin": {
             "name": "Seishin",
             "japanese": "精神",
-            "english": "Spirit",
-            "details": "Spirit, energiek, geestkracht."
+            "english": "Spirit, geestkracht.",
+            "details": "Spirit, geestkracht."
           },
           "seishin-tanren": {
             "name": "Seishin Tanren",
             "japanese": "精神鍛錬",
-            "english": "Doorstroming van ki",
-            "details": "Letterlijk: ‘doorgaan (doorstroming) van ki’."
+            "english": "Doorstroming van Ki.",
+            "details": "Doorstroming van Ki."
           },
           "kokyu": {
             "name": "Kokyu",
@@ -1032,7 +1040,7 @@
             "sensei": {
               "name": "Sensei",
               "japanese": "先生",
-              "english": "Leraar"
+              "english": "Leraar."
             },
             "shihan": {
               "name": "Shihan",
@@ -1052,17 +1060,17 @@
             "sempai": {
               "name": "Sempai",
               "japanese": "先輩",
-              "english": "Senior Student"
+              "english": "Gevorderde student / assistent."
             },
             "kohai": {
               "name": "Kohai",
               "japanese": "後輩",
-              "english": "Junior Student"
+              "english": "Beginnende student."
             },
             "yudansha": {
               "name": "Yudansha",
               "japanese": "有段者",
-              "english": "Zwarte Band Houder"
+              "english": "Karateka met een dan-graad."
             },
             "mudansha": {
               "name": "Mudansha",
@@ -1105,12 +1113,12 @@
           "kyu": {
             "name": "Kyu",
             "japanese": "級",
-            "english": "Rang (gekleurde banden, onder zwarte band)"
+            "english": "Graad (wit t/m bruin)."
           },
           "dan": {
             "name": "Dan",
             "japanese": "段",
-            "english": "Niveau (zwarte band rangen)"
+            "english": "Graad (zwart)."
           },
           "shodan": {
             "name": "Shodan",
@@ -1150,80 +1158,80 @@
           "dojo": {
             "name": "Dojo",
             "japanese": "道場",
-            "english": "Oefenruimte",
-            "details": "Oefenruimte, letterlijk: 'plaats van de weg'"
+            "english": "Oefenruimte ('plaats van de weg').",
+            "details": "Oefenruimte ('plaats van de weg')."
           },
           "dojo-kun": {
             "name": "Dojo Kun",
             "japanese": "道場訓",
-            "english": "De regels die in de dojo gelden",
-            "details": "De regels die in de dojo gelden"
+            "english": "De regels die in de dojo gelden.",
+            "details": "De regels die in de dojo gelden."
           },
           "shomen": {
             "name": "Shomen",
             "japanese": "正面",
-            "english": "Voorzijde",
-            "details": "Voorzijde van de oefenzaal/ruimte"
+            "english": "Voorzijde van de oefenzaal.",
+            "details": "Voorzijde van de oefenzaal."
           },
           "shinden": {
             "name": "Shinden",
             "japanese": "神殿",
-            "english": "Altaar",
-            "details": "Altaar; symbolische verblijfplaats van de grondvesters van het Okinawa Goju-Ryu Karate"
+            "english": "Altaar.",
+            "details": "Altaar."
           },
           "reigi": {
             "name": "Reigi",
             "japanese": "礼儀",
-            "english": "Omgangsvormen",
-            "details": "Omgangsvormen, hoffelijkheid, vormen van respect"
+            "english": "Omgangsvormen, respect.",
+            "details": "Omgangsvormen, respect."
           },
           "shugo": {
             "name": "Shugo",
             "japanese": "集合",
-            "english": "Verzamelen",
-            "details": "Verzamelen"
+            "english": "Verzamelen.",
+            "details": "Verzamelen."
           },
           "ki-o-tsuke": {
             "name": "Ki O Tsuke",
             "japanese": "気をつけ",
-            "english": "Attentie",
-            "details": "Attentie, verzamel je vitale energie (ki)"
+            "english": "Attentie, verzamel je energie.",
+            "details": "Attentie, verzamel je energie."
           },
           "seiza": {
             "name": "Seiza",
             "japanese": "正座",
-            "english": "Ga zitten",
-            "details": "'Ga zitten' of 'ga zitten op de knieën'. Letterlijk: 'correcte zittende houding'."
+            "english": "Ga zitten (op de knieën).",
+            "details": "Ga zitten (op de knieën)."
           },
           "anza": {
             "name": "Anza",
             "japanese": "安座",
-            "english": "Kleermakerszit",
-            "details": "Zittende houding met gekruiste benen, kleermakerszit. Letterlijk: 'relaxte of vreedzame zittende houding'."
+            "english": "Kleermakerszit.",
+            "details": "Kleermakerszit."
           },
           "mokuso": {
             "name": "Mokuso",
             "japanese": "黙想",
-            "english": "Begin de meditatie",
-            "details": "Stop met al je gedachten, ledig de geest, begin de meditatie. Letterlijk: 'geen gedachten'."
+            "english": "Meditatie start ('stop gedachten').",
+            "details": "Meditatie start ('stop gedachten')."
           },
           "mokuso-yame": {
             "name": "Mokuso Yame",
             "japanese": "黙想止め",
-            "english": "Beëindig de meditatie",
-            "details": "Beëindig de meditatie"
+            "english": "Beëindig meditatie.",
+            "details": "Beëindig meditatie."
           },
           "rei": {
-            "name": "Rei (Ritsu, Za)",
+            "name": "Rei",
             "japanese": "礼",
-            "english": "Buig/begroet",
-            "details": "Buig/begroet (staand, zittend)"
+            "english": "Buig / groet.",
+            "details": "Buig / groet."
           },
           "shomen-ni-rei": {
             "name": "Shomen Ni Rei",
             "japanese": "正面に礼",
-            "english": "Buig naar de voorkant van de dojo",
-            "details": "Buig naar/begroet de voorkant van de dojo"
+            "english": "Groet naar de voorkant.",
+            "details": "Groet naar de voorkant."
           },
           "shinden-ni-rei": {
             "name": "Shinden Ni Rei",
@@ -1234,122 +1242,122 @@
           "sensei-ni-rei": {
             "name": "Sensei Ni Rei",
             "japanese": "先生に礼",
-            "english": "Buig naar de leraar",
-            "details": "Buig naar/begroet de leraar"
+            "english": "Groet naar de leraar.",
+            "details": "Groet naar de leraar."
           },
           "otagaini-rei": {
             "name": "Otagaini Rei",
             "japanese": "お互いに礼",
-            "english": "Buig naar elkaar",
-            "details": "Buig naar/begroet elkaar"
+            "english": "Groet elkaar.",
+            "details": "Groet elkaar."
           },
           "onegai-shimasu": {
             "name": "Onegai Shimasu",
             "japanese": "お願いします",
-            "english": "Help me",
-            "details": "Begroeting, letterlijk: 'help me'"
+            "english": "Begroeting ('help mij' / laten we trainen).",
+            "details": "Begroeting ('help mij' / laten we trainen)."
           },
           "arigato-gozaimashita": {
             "name": "Arigato Gozaimashita",
             "japanese": "ありがとうございました",
-            "english": "Dank je wel",
-            "details": "Dank je wel"
+            "english": "Dank je wel.",
+            "details": "Dank je wel."
           },
           "osu": {
-            "name": "Osu (ook wel 'Hai')",
+            "name": "Osu (Hai)",
             "japanese": "押忍",
-            "english": "Ik heb het begrepen",
-            "details": "Uitdrukking voor begrip en loyaliteit; vrije vertaling: 'ik heb het begrepen'. 'Hai' betekent letterlijk 'Ja'."
+            "english": "Ik heb het begrepen / loyaliteit.",
+            "details": "Ik heb het begrepen / loyaliteit."
           },
           "owarimas": {
             "name": "Owarimas",
             "japanese": "終わります",
-            "english": "Dat was het",
-            "details": "'Dat was het!'(afsluiting)."
+            "english": "Afsluiting ('dat was het').",
+            "details": "Afsluiting ('dat was het')."
           },
           "shitsurei-shimasu": {
             "name": "Shitsurei Shimasu",
             "japanese": "失礼します",
-            "english": "Sorry",
-            "details": "Sorry"
+            "english": "Sorry / excuseer.",
+            "details": "Sorry / excuseer."
           },
           "tatte": {
-            "name": "Tatte of Ki Ritsu",
+            "name": "Tatte (Ki Ritsu)",
             "japanese": "立って",
-            "english": "Sta op",
-            "details": "Sta op"
+            "english": "Sta op.",
+            "details": "Sta op."
           },
           "yoi": {
             "name": "Yoi",
             "japanese": "用意",
-            "english": "Klaar, gereed",
-            "details": "Klaar, gereed"
+            "english": "Klaar / gereed.",
+            "details": "Klaar / gereed."
           },
           "hajime": {
             "name": "Hajime",
             "japanese": "始め",
-            "english": "Begin",
-            "details": "Begin"
+            "english": "Begin.",
+            "details": "Begin."
           },
           "yame": {
             "name": "Yame",
             "japanese": "止め",
-            "english": "Stop",
-            "details": "Stop"
+            "english": "Stop.",
+            "details": "Stop."
           },
           "kime": {
             "name": "Kime",
             "japanese": "決め",
-            "english": "Focus",
-            "details": "Focus"
+            "english": "Focus.",
+            "details": "Focus."
           },
           "yasume": {
             "name": "Yasume",
             "japanese": "休め",
-            "english": "Ontspan",
-            "details": "Ontspan"
+            "english": "Ontspan.",
+            "details": "Ontspan."
           },
           "gorei-nashi": {
             "name": "Gorei nashi",
             "japanese": "合礼なし",
-            "english": "Op één tel",
-            "details": "Op één tel"
+            "english": "Zonder tellen (op eigen tempo).",
+            "details": "Zonder tellen (op eigen tempo)."
           },
           "gasshuku": {
             "name": "Gasshuku",
             "japanese": "合宿",
-            "english": "Samenkomst",
-            "details": "Samenkomst (om te trainen)"
+            "english": "Trainingskamp.",
+            "details": "Trainingskamp."
           },
           "sayonara": {
             "name": "Sayonara",
             "japanese": "さようなら",
-            "english": "Tot ziens",
-            "details": "Tot ziens!"
+            "english": "Tot ziens.",
+            "details": "Tot ziens."
           },
           "karate-gi": {
-            "name": "(Karate)gi (dogi)",
+            "name": "Karategi (Dogi)",
             "japanese": "空手着",
-            "english": "(Karate)pak",
-            "details": "(Karate)pak"
+            "english": "Karatepak.",
+            "details": "Karatepak."
           },
           "obi": {
             "name": "Obi",
             "japanese": "帯",
-            "english": "Band",
-            "details": "Band"
+            "english": "Band.",
+            "details": "Band."
           },
           "geiko": {
-            "name": "Geiko ('Geiko, geiko, geiko')",
+            "name": "Geiko",
             "japanese": "稽古",
-            "english": "Trainen",
-            "details": "Trainen (Trainen, trainen, trainen)"
+            "english": "Trainen.",
+            "details": "Trainen."
           },
           "moichido": {
             "name": "Moichido",
             "japanese": "もう一度",
-            "english": "Nog een keer",
-            "details": "Nog een keer"
+            "english": "Nog een keer.",
+            "details": "Nog een keer."
           }
         }
       },
@@ -1395,38 +1403,38 @@
           "mae-geri": {
             "name": "Mae Geri",
             "japanese": "前蹴り",
-            "english": "Voorwaartse Trap",
-            "details": "Mae Geri (Voorwaartse Trap) is een fundamentele voorwaartse trap uitgevoerd met de bal van de voet. De knie wordt opgetrokken, de voet wordt naar voren gestrekt, en de trap wordt afgeleverd met een snelle, stekende beweging. De andere voet blijft stevig op de grond voor balans en kracht."
+            "english": "Voorwaartse Trap.",
+            "details": "Voorwaartse Trap."
           },
           "mawashi-geri": {
             "name": "Mawashi Geri",
             "japanese": "回し蹴り",
-            "english": "Ronde Trap",
-            "details": "Mawashi Geri (Ronde Trap) is een cirkelvormige trap uitgevoerd met de wreef van de voet of de scheen. De trap begint met het optillen van de knie, gevolgd door een roterende beweging van de heup om kracht te genereren. Het is effectief voor het raken van de zijkant van het lichaam of hoofd."
+            "english": "Cirkelvormige trap.",
+            "details": "Cirkelvormige trap."
           },
           "yoko-geri": {
             "name": "Yoko Geri",
             "japanese": "横蹴り",
-            "english": "Zijwaartse Trap",
-            "details": "Yoko Geri (Zijwaartse Trap) wordt uitgevoerd door de knie zijwaarts op te tillen en de voet naar de zijkant te strekken. De trap kan uitgevoerd worden met de rand van de voet (sokuto) of de bal van de voet. Het is een effectieve techniek voor het raken van een tegenstander aan de zijkant."
+            "english": "Zijwaartse trap.",
+            "details": "Zijwaartse trap."
           },
           "ushiro-geri": {
             "name": "Ushiro Geri",
             "japanese": "後ろ蹴り",
-            "english": "Achterwaartse Trap",
-            "details": "Ushiro Geri (Achterwaartse Trap) is een achterwaartse trap uitgevoerd door de knie op te tillen en de voet naar achteren te strekken. De trap wordt afgeleverd met de hak of de bal van de voet. Het is een verrassingstechniek die effectief is tegen tegenstanders die van achteren naderen."
+            "english": "Achterwaartse trap.",
+            "details": "Achterwaartse trap."
           },
           "hiza-geri": {
             "name": "Hiza Geri",
             "japanese": "膝蹴り",
-            "english": "Knie Stoot/Trap",
-            "details": "Hiza Geri (Knie Stoot/Trap) is een korte afstand trap uitgevoerd door de knie naar voren te stoten. Het is effectief in close combat situaties en kan gebruikt worden om de tegenstander's lichaam of hoofd te raken. De techniek vereist goede balans en controle."
+            "english": "Knie-stoot/trap.",
+            "details": "Knie-stoot/trap."
           },
           "kin-geri": {
             "name": "Kin Geri",
             "japanese": "金蹴り",
-            "english": "Lies Trap",
-            "details": "Kin Geri (Lies Trap) is een lage trap gericht op de lies van de tegenstander. Het wordt uitgevoerd met de bal van de voet of de rand van de voet. Deze techniek is effectief voor het creëren van een opening of het verzwakken van de tegenstander's balans."
+            "english": "Lies-trap.",
+            "details": "Lies-trap."
           },
           "kansetsu-geri": {
             "name": "Kansetsu Geri",
@@ -1443,26 +1451,26 @@
           "oi-zuki": {
             "name": "Oi Zuki",
             "japanese": "追い突き",
-            "english": "Uitval Stoot (stappend stoten)",
-            "details": "Oi Zuki (Uitval Stoot) is een fundamentele stoottechniek waarbij de voorste voet naar voren stapt terwijl de achterste hand stoot. De stoot wordt afgeleverd met de achterste hand terwijl het lichaam naar voren beweegt, wat resulteert in een krachtige, doordringende aanval."
+            "english": "Stappende stoot (aan de stappende zijde).",
+            "details": "Stappende stoot (aan de stappende zijde)."
           },
           "gyaku-zuki": {
             "name": "Gyaku Zuki",
             "japanese": "逆突き",
-            "english": "Tegenstoot",
-            "details": "Gyaku Zuki (Tegenstoot) is een stoot uitgevoerd met de hand die tegengesteld is aan de voorste voet. Het is een van de meest krachtige stoottechnieken omdat het gebruik maakt van de rotatie van de heupen en de volledige kracht van het lichaam. De stoot wordt afgeleverd vanuit een stabiele stand."
+            "english": "Tegenstoot (tegenovergestelde zijde van de voorste voet).",
+            "details": "Tegenstoot (tegenovergestelde zijde van de voorste voet)."
           },
           "kizami-zuki": {
             "name": "Kizami Zuki",
             "japanese": "刻み突き",
-            "english": "Jab (leidende hand stoot)",
-            "details": "Kizami Zuki (Jab) is een snelle, korte stoot uitgevoerd met de voorste hand zonder de stand te veranderen. Het wordt gebruikt om afstand te meten, de tegenstander af te leiden, of een opening te creëren voor een volgtechniek. De stoot is snel maar minder krachtig dan andere stoottechnieken."
+            "english": "Snelle stoot met de voorste hand (jab).",
+            "details": "Snelle stoot met de voorste hand (jab)."
           },
           "ura-zuki": {
             "name": "Ura Zuki",
             "japanese": "裏突き",
-            "english": "Nauwe Stoot / Uppercut",
-            "details": "Ura Zuki (Nauwe Stoot) is een stoot uitgevoerd op korte afstand, vaak met de vuist in een verticale positie. Het kan gebruikt worden als een uppercut naar de kin of als een stoot naar het lichaam. De techniek is effectief in close combat situaties."
+            "english": "Korte stoot (ondersteboven vuist).",
+            "details": "Korte stoot (ondersteboven vuist)."
           },
           "tate-zuki": {
             "name": "Tate Zuki",
@@ -1473,8 +1481,38 @@
           "age-zuki": {
             "name": "Age Zuki",
             "japanese": "上げ突き",
-            "english": "Opwaartse Stoot",
-            "details": "Age Zuki (Opwaartse Stoot) is een stoot die van onder naar boven wordt afgeleverd, vaak gericht op de kin of het gezicht van de tegenstander. De stoot wordt uitgevoerd met een opwaartse beweging van de arm en kan gebruikt worden om een tegenstander die bukt te raken."
+            "english": "Opwaartse stoot.",
+            "details": "Opwaartse stoot."
+          },
+          "choku-zuki": {
+            "name": "Choku Zuki",
+            "japanese": "直突き",
+            "english": "Rechte stoot.",
+            "details": "Rechte stoot."
+          },
+          "seiken-zuki": {
+            "name": "Seiken Zuki",
+            "japanese": "正拳突き",
+            "english": "Stoot met de vuist.",
+            "details": "Stoot met de vuist."
+          },
+          "mawashi-zuki": {
+            "name": "Mawashi Zuki",
+            "japanese": "回し突き",
+            "english": "Cirkelvormige stoot.",
+            "details": "Cirkelvormige stoot."
+          },
+          "yama-zuki": {
+            "name": "Yama Zuki",
+            "japanese": "山突き",
+            "english": "Bergstoot (dubbele stoot).",
+            "details": "Bergstoot (dubbele stoot)."
+          },
+          "morote-zuki": {
+            "name": "Morote Zuki",
+            "japanese": "諸手突き",
+            "english": "Dubbele stoot.",
+            "details": "Dubbele stoot."
           }
         }
       },
@@ -1485,32 +1523,32 @@
           "shuto-uchi": {
             "name": "Shuto Uchi",
             "japanese": "手刀打ち",
-            "english": "Messenhand Slag",
-            "details": "Shuto Uchi (Messenhand Slag) wordt uitgevoerd met de rand van de hand (shuto). De vingers zijn gestrekt en samen, de duim is gebogen. Deze slag is effectief voor het raken van de nek, zijkant van het hoofd, of de zijkant van het lichaam. Het kan uitgevoerd worden in verschillende richtingen."
+            "english": "Slag met de meshand.",
+            "details": "Slag met de meshand."
           },
           "uraken-uchi": {
             "name": "Uraken Uchi",
             "japanese": "裏拳打ち",
-            "english": "Achtervuist Slag",
-            "details": "Uraken Uchi (Achtervuist Slag) wordt uitgevoerd met de achterkant van de vuist, vaak met een zwaaiende beweging. Het is effectief voor het raken van de zijkant van het hoofd of lichaam. Deze slag kan snel en verrassend zijn, en wordt vaak gebruikt in combinatie met andere technieken."
+            "english": "Slag met de achterzijde vuist.",
+            "details": "Slag met de achterzijde vuist."
           },
           "tettsui-uchi": {
             "name": "Tettsui Uchi",
             "japanese": "鉄槌打ち",
-            "english": "Hamervuist Slag",
-            "details": "Tettsui Uchi (Hamervuist Slag) wordt uitgevoerd met de onderkant van de vuist, waarbij de knokkels naar beneden wijzen. Het is een neerwaartse slag die effectief is voor het raken van de schouder, sleutelbeen, of de bovenkant van het hoofd. Deze slag is krachtig en kan gebruikt worden om een tegenstander te verzwakken."
+            "english": "Slag met de hamervuist.",
+            "details": "Slag met de hamervuist."
           },
           "empi-uchi": {
             "name": "Empi Uchi / Hiji Ate",
             "japanese": "猿臂打ち / 肘当て",
-            "english": "Elleboog Slag",
-            "details": "Empi Uchi (Elleboog Slag) gebruikt de elleboog als wapen. Het kan uitgevoerd worden in verschillende richtingen: naar voren, naar achteren, naar boven, of naar beneden. Deze slag is effectief op korte afstand en kan gebruikt worden om de tegenstander's hoofd, lichaam, of ledematen te raken."
+            "english": "Elleboogslag.",
+            "details": "Elleboogslag."
           },
           "haito-uchi": {
             "name": "Haito Uchi",
             "japanese": "背刀打ち",
-            "english": "Ruggegraat Hand Slag",
-            "details": "Haito Uchi (Ruggegraat Hand Slag) wordt uitgevoerd met de ruggegraat van de hand (de kant van de wijsvinger). De vingers zijn gestrekt en samen, de duim is gebogen. Deze slag is effectief voor het raken van de nek, zijkant van het hoofd, of zachte doelen zoals de ogen."
+            "english": "Slag met de binnenzijde van de hand.",
+            "details": "Slag met de binnenzijde van de hand."
           },
           "nukite": {
             "name": "Nukite",
@@ -2332,7 +2370,12 @@
           "ukemi-waza": "Ukemi Waza - Valbreek-technieken",
           "renraku-waza": "Renraku Waza - Combinaties",
           "osae-waza": "Osae Waza - Controle technieken",
-          "nage-waza": "Nage Waza - Worpen",
+          "nage-waza": {
+            "name": "Nage Waza",
+            "japanese": "投げ技",
+            "english": "Werptechnieken.",
+            "details": "Werptechnieken."
+          },
           "ashi-nage": "Ashi Nage - Beenworpen",
           "koshi-nage": "Koshi Nage - Heupworpen",
           "kata-nage": "Kata Nage - Schouderworpen",
@@ -2344,7 +2387,12 @@
           "ashi-barai": "Ashi Barai - Voetveeg",
           "ashi-basami": "Ashi Basami - Beenschaar",
           "ashi-dori": "Ashi Dori - Pak het been",
-          "kansetsu-waza": "Kansetsu Waza - (Gewrichts)klemmen",
+          "kansetsu-waza": {
+            "name": "Kansetsu Waza",
+            "japanese": "関節技",
+            "english": "Gewrichtsklemmen.",
+            "details": "Gewrichtsklemmen."
+          },
           "yubi-kansetsu": "Yubi Kansetsu - Vingerklemmen",
           "kubi-kansetsu": "(Te) Kubi / Kote Kansetsu - Polsklemmen",
           "hiji-kansetsu": "Hiji Kansetsu - Elleboogklemmen",
@@ -2354,7 +2402,12 @@
           "ashi-kubi-kansetsu": "Ashi Kubi Kansetsu - Enkelklemmen",
           "gaeshi": "Gaeshi (Kaeshi) - Klem door te draaien en te buigen",
           "ude-osae": "Ude Osae - Armcontrole (Shisochin)",
-          "shime-waza": "Shime (of Jime) Waza - Verwurgingen",
+          "shime-waza": {
+            "name": "Shime Waza",
+            "japanese": "絞技",
+            "english": "Verwurgingen.",
+            "details": "Verwurgingen."
+          },
           "eri-jime": "Eri Jime - Verwurging met kleding",
           "hadaka-jime": "Hadaka Jime - Naakte verwurging",
           "ashi-jime": "Ashi Jime - Beenverwurging"

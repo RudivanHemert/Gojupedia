@@ -12,8 +12,8 @@ interface VitalPoint {
   name: string;
   japanese: string;
   number?: number;
-    x: number;
-    y: number;
+  x: number;
+  y: number;
   view: 'front' | 'back';
 }
 
@@ -492,19 +492,19 @@ const InteractiveVitalPoints = () => {
   const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
 
   const filteredPoints = vitalPointsData.filter(point => point.view === activeView);
-  
+
   const handleImageClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!showCoordinates) return;
-    
+
     const rect = e.currentTarget.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * 100;
     const y = ((e.clientY - rect.top) / rect.height) * 100;
-    
+
     setCoordinates({
       x: Math.round(x),
       y: Math.round(y)
     });
-    
+
     console.log(`Coordinates: x: ${Math.round(x)}, y: ${Math.round(y)}`);
   };
 
@@ -539,15 +539,15 @@ const InteractiveVitalPoints = () => {
             <Label htmlFor="show-coordinates">Show Coordinates</Label>
           </div> */}
         </div>
-        <Button 
-          variant="outline" 
+        <Button
+          variant="outline"
           onClick={() => setSelectedPoint(null)}
           disabled={!selectedPoint}
         >
           {t('vitalPoints.interactive.closeDetails')}
         </Button>
       </div>
-      
+
       <Tabs value={activeView} onValueChange={(value) => setActiveView(value as 'front' | 'back')}>
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="front">{t('vitalPoints.interactive.frontViewTab')}</TabsTrigger>
@@ -555,8 +555,8 @@ const InteractiveVitalPoints = () => {
         </TabsList>
       </Tabs>
 
-      <div 
-        className="relative cursor-crosshair" 
+      <div
+        className="relative cursor-crosshair"
         onClick={handleImageClick}
       >
         <img
@@ -568,13 +568,13 @@ const InteractiveVitalPoints = () => {
             e.currentTarget.src = '/placeholder.svg';
           }}
         />
-        
+
         {showCoordinates && (
           <div className="absolute top-2 right-2 bg-black/70 text-white px-2 py-1 rounded text-sm">
             x: {coordinates.x}, y: {coordinates.y}
           </div>
         )}
-        
+
         <AnimatePresence>
           {showLabels && (
             <motion.div
@@ -612,14 +612,14 @@ const InteractiveVitalPoints = () => {
                     >
                       {point.number ? `${point.number}. ${t('vitalPoints.points.' + point.id + '.name')}` : t('vitalPoints.points.shomon.name')}
                     </Button>
-              </div>
+                  </div>
                 </motion.div>
-        ))}
+              ))}
             </motion.div>
           )}
         </AnimatePresence>
       </div>
-      
+
       <AnimatePresence>
         {selectedPoint && (
           <motion.div
@@ -628,10 +628,16 @@ const InteractiveVitalPoints = () => {
             exit={{ opacity: 0, y: 20 }}
             className="bg-white p-4 rounded-lg shadow-lg"
           >
-            <h3 className="text-xl font-bold mb-2">
-              {selectedPoint.number ? `${selectedPoint.number}. ` : ''}{t('vitalPoints.points.' + selectedPoint.id + '.area')}
+            <h3 className="text-xl font-bold mb-1">
+              {selectedPoint.number ? `${selectedPoint.number}. ` : ''}{t('vitalPoints.points.' + selectedPoint.id + '.name')}
             </h3>
-            <p className="text-lg text-gray-600 mb-2">{t('vitalPoints.points.' + selectedPoint.id + '.name')}</p>
+            <p className="text-lg font-medium text-primary mb-2 italic">
+              {t('vitalPoints.points.' + selectedPoint.id + '.translation')}
+            </p>
+            <div className="bg-muted p-3 rounded-md">
+              <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Plaats op het lichaam</p>
+              <p className="text-base">{t('vitalPoints.points.' + selectedPoint.id + '.area')}</p>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -639,17 +645,23 @@ const InteractiveVitalPoints = () => {
       <div className="mt-8 space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">{t('vitalPoints.interactive.frontViewTitle')}</h2>
-            <div className="space-y-2">
+            <h2 className="text-2xl font-bold border-b pb-2">{t('vitalPoints.interactive.frontViewTitle')}</h2>
+            <div className="space-y-3">
               {vitalPointsData
                 .filter(point => point.view === 'front')
                 .sort((a, b) => (a.number || 0) - (b.number || 0))
                 .map(point => (
-                  <div key={point.id} className="p-2 rounded hover:bg-gray-50">
-                    <div className="font-semibold">
-                      {point.number}. {t('vitalPoints.points.' + point.id + '.name')}
+                  <div key={point.id} className="p-3 rounded-lg border hover:bg-muted/50 transition-colors">
+                    <div className="flex justify-between items-start gap-2">
+                      <div className="font-bold text-lg">
+                        {point.number}. {t('vitalPoints.points.' + point.id + '.name')}
+                      </div>
+                      <div className="text-primary italic font-medium">
+                        {t('vitalPoints.points.' + point.id + '.translation')}
+                      </div>
                     </div>
-                    <div className="text-gray-600 ml-6">
+                    <div className="text-muted-foreground text-sm mt-1 leading-relaxed">
+                      <span className="font-semibold text-xs uppercase tracking-tighter mr-1 text-foreground/70">Plaats:</span>
                       {t('vitalPoints.points.' + point.id + '.area')}
                     </div>
                   </div>
@@ -658,17 +670,23 @@ const InteractiveVitalPoints = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">{t('vitalPoints.interactive.backViewTitle')}</h2>
-            <div className="space-y-2">
+            <h2 className="text-2xl font-bold border-b pb-2">{t('vitalPoints.interactive.backViewTitle')}</h2>
+            <div className="space-y-3">
               {vitalPointsData
                 .filter(point => point.view === 'back')
                 .sort((a, b) => (a.number || 0) - (b.number || 0))
                 .map(point => (
-                  <div key={point.id} className="p-2 rounded hover:bg-gray-50">
-                    <div className="font-semibold">
-                      {point.number}. {t('vitalPoints.points.' + point.id + '.name')}
+                  <div key={point.id} className="p-3 rounded-lg border hover:bg-muted/50 transition-colors">
+                    <div className="flex justify-between items-start gap-2">
+                      <div className="font-bold text-lg">
+                        {point.number}. {t('vitalPoints.points.' + point.id + '.name')}
+                      </div>
+                      <div className="text-primary italic font-medium">
+                        {t('vitalPoints.points.' + point.id + '.translation')}
+                      </div>
                     </div>
-                    <div className="text-gray-600 ml-6">
+                    <div className="text-muted-foreground text-sm mt-1 leading-relaxed">
+                      <span className="font-semibold text-xs uppercase tracking-tighter mr-1 text-foreground/70">Plaats:</span>
                       {t('vitalPoints.points.' + point.id + '.area')}
                     </div>
                   </div>

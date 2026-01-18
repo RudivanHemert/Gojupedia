@@ -25,58 +25,266 @@
       "enterAnswer": "Enter the name of this vital point"
     },
     "points": {
-      "shomon": { "name": "Shomon", "area": "Skull" },
-      "kasumi": { "name": "Kasumi", "area": "Temple" },
-      "komekami": { "name": "Komekami", "area": "Cheekbone" },
-      "jinchu": { "name": "Jinchu", "area": "Philtrum" },
-      "kakon": { "name": "Kakon", "area": "Chin" },
-      "murasame": { "name": "Murasame", "area": "Clavicle" },
-      "hichu": { "name": "Hichu", "area": "Windpipe" },
-      "danchu": { "name": "Danchu", "area": "Breastbone" },
-      "ude-narashi": { "name": "Ude-narashi", "area": "Upper arm" },
-      "ganka": { "name": "Ganka", "area": "Ribs under nipple" },
-      "suigetsu": { "name": "Suigetsu", "area": "Solar Plexus" },
-      "denko": { "name": "Denko", "area": "Ribs" },
-      "soto-shakutaku": { "name": "Soto shakutaku", "area": "Outer wrist" },
-      "shuko": { "name": "Shuko", "area": "Back of hand" },
-      "kokotsu": { "name": "Kokotsu", "area": "Shinbone" },
-      "soin": { "name": "Soin", "area": "Instep" },
-      "kori": { "name": "Kori", "area": "Area around toes" },
-      "uto": { "name": "Uto", "area": "Bridge of nose" },
-      "kasumi-right": { "name": "Kasumi", "area": "Temple" },
-      "seimo": { "name": "Seimo", "area": "Eye socket" },
-      "mikazuki": { "name": "Mikazuki", "area": "Jaw" },
-      "kyosen": { "name": "Kyosen", "area": "Sternum" },
-      "uchi-shakutaku": { "name": "Uchi shakutaku", "area": "Inner wrist" },
-      "ganka-right": { "name": "Ganka", "area": "Ribs" },
-      "hijitsume": { "name": "Hijitsume", "area": "Inside of elbow" },
-      "inazuma": { "name": "Inazuma", "area": "Stomach wall" },
-      "myosho": { "name": "Myosho", "area": "Navel area" },
-      "tanden": { "name": "Tanden", "area": "Power center" },
-      "kinteki": { "name": "Kinteki", "area": "Groin" },
-      "yako": { "name": "Yako", "area": "Inner thigh" },
-      "fukuto": { "name": "Fukuto", "area": "Hollow of knee" },
-      "naira": { "name": "Naira", "area": "Achilles tendon" },
-      "kori-right": { "name": "Kori", "area": "Area around toes" },
-      "shuko-back": { "name": "Shuko", "area": "Back of hand" },
-      "soto-shakutaku-back": { "name": "Soto shakutaku", "area": "Outer wrist" },
-      "ude-narashi-back-1": { "name": "Ude-narashi", "area": "Upper arm" },
-      "wakikage": { "name": "Wakigake", "area": "Under armpit" },
-      "ushiro-denko-1": { "name": "Ushiro denko", "area": "Kidney area" },
-      "ushiro-denko-2": { "name": "Ushiro denko", "area": "Kidney area" },
-      "bitei": { "name": "Bitei", "area": "Coccyx" },
-      "ein": { "name": "Ein", "area": "Lower back" },
-      "ushiro-inazuma": { "name": "Ushiro Inazuma", "area": "Stomach wall (back)" },
-      "soma": { "name": "Soma", "area": "Back muscle" },
-      "shomon-back": { "name": "Shomon (back)", "area": "Back of skull" },
-      "dokusen": { "name": "Dokusen", "area": "Spine" },
-      "keichu": { "name": "Keichu", "area": "Neck" },
-      "hayauchi": { "name": "Hayauchi", "area": "Upper back" },
-      "kassatsu": { "name": "Kassatsu", "area": "Back ribs" },
-      "ude-narashi-back-2": { "name": "Ude-narashi (back)", "area": "Upper arm (back)" },
-      "hijisume-back": { "name": "Hijisume (back)", "area": "Elbow (back)" },
-      "uchi-shakutaku-back": { "name": "Uchi shakutaku (back)", "area": "Inner wrist (back)" },
-      "hijisume": { "name": "Hijisume", "area": "Elbow" }
+      "shomon": {
+        "name": "Shomon",
+        "area": "Fontanelle",
+        "translation": "front gate"
+      },
+      "kasumi": {
+        "name": "Kasumi",
+        "area": "Side of eyebrow",
+        "translation": "daze, mist"
+      },
+      "komekami": {
+        "name": "Komekami",
+        "area": "Temple",
+        "translation": "temples"
+      },
+      "jinchu": {
+        "name": "Jinchu",
+        "area": "Between upper lip and nose",
+        "translation": "middle of a person"
+      },
+      "kakon": {
+        "name": "Kakon",
+        "area": "In the depression under the lower lip",
+        "translation": "lower descendant"
+      },
+      "murasame": {
+        "name": "Murasame",
+        "area": "Above clavicle, in the depression between the neck muscles",
+        "translation": "passing rain"
+      },
+      "hichu": {
+        "name": "Hichu",
+        "area": "Under the larynx, in the hollow above the collarbone",
+        "translation": "in secret"
+      },
+      "danchu": {
+        "name": "Danchu",
+        "area": "Depression in the middle of the sternum",
+        "translation": "middle of the chest"
+      },
+      "ude-narashi": {
+        "name": "Ude-narashi",
+        "area": "On the outside of the upper arm",
+        "translation": "middle of the arm"
+      },
+      "ganka": {
+        "name": "Ganka",
+        "area": "5th intercostal space",
+        "translation": "beyond the wild geese"
+      },
+      "suigetsu": {
+        "name": "Suigetsu",
+        "area": "Solar plexus, under the tip of the sternum",
+        "translation": "water moon"
+      },
+      "denko": {
+        "name": "Denko",
+        "area": "Seventh rib",
+        "translation": "lightning"
+      },
+      "soto-shakutaku": {
+        "name": "Soto Shakutaku",
+        "area": "On the top of the forearm",
+        "translation": "marsh on the outside of the forearm"
+      },
+      "shuko": {
+        "name": "Shuko",
+        "area": "Base of thumb joint",
+        "translation": "back of the hand"
+      },
+      "kokotsu": {
+        "name": "Kokotsu",
+        "area": "Middle of the instep, between the big and second toe",
+        "translation": "high advantage"
+      },
+      "soin": {
+        "name": "Soin",
+        "area": "In the depression just before the ankle joint, outside of the instep",
+        "translation": "hidden in the grass"
+      },
+      "kori": {
+        "name": "Kori",
+        "area": "Middle of the instep, between the big and second toe",
+        "translation": "high advantage"
+      },
+      "uto": {
+        "name": "Uto",
+        "area": "Middle of forehead",
+        "translation": "bird and rabbit"
+      },
+      "kasumi-right": {
+        "name": "Kasumi",
+        "area": "Side of eyebrow",
+        "translation": "daze, mist"
+      },
+      "seimo": {
+        "name": "Seimo",
+        "area": "Eye (including area under eye and eyebrow)",
+        "translation": "eyeball"
+      },
+      "mikazuki": {
+        "name": "Mikazuki",
+        "area": "Jaw",
+        "translation": "half moon"
+      },
+      "kyosen": {
+        "name": "Kyosen",
+        "area": "Lower side of sternum",
+        "translation": "chest point"
+      },
+      "uchi-shakutaku": {
+        "name": "Uchi Shakutaku",
+        "area": "Inner-lower side of forearm",
+        "translation": "marsh on the inside of the forearm"
+      },
+      "ganka-right": {
+        "name": "Ganka",
+        "area": "5th intercostal space",
+        "translation": "beyond the wild geese"
+      },
+      "hijitsume": {
+        "name": "Hijitsume",
+        "area": "Inner-upper side of forearm, just above the elbow",
+        "translation": "elbow push"
+      },
+      "inazuma": {
+        "name": "Inazuma",
+        "area": "11th rib (upper floating rib)",
+        "translation": "lightning"
+      },
+      "myosho": {
+        "name": "Myosho",
+        "area": "Approx 2.5 cm below the navel",
+        "translation": "morning star (Venus)"
+      },
+      "tanden": {
+        "name": "Tanden",
+        "area": "Approx 7 cm below the navel",
+        "translation": "red field"
+      },
+      "kinteki": {
+        "name": "Kinteki",
+        "area": "Testikels",
+        "translation": "iron balls"
+      },
+      "yako": {
+        "name": "Yako",
+        "area": "Inner thigh, just below the groin",
+        "translation": "night lighting"
+      },
+      "fukuto": {
+        "name": "Fukuto",
+        "area": "Inner thigh, just above the knee",
+        "translation": "crawling rabbit"
+      },
+      "naira": {
+        "name": "Naira",
+        "area": "Inner side along the ankle ('inner ankle')",
+        "translation": "inner ankle"
+      },
+      "kori-right": {
+        "name": "Kori",
+        "area": "Middle of the instep",
+        "translation": "high advantage"
+      },
+      "shuko-back": {
+        "name": "Shuko",
+        "area": "Base of thumb joint",
+        "translation": "back of the hand"
+      },
+      "soto-shakutaku-back": {
+        "name": "Soto Shakutaku",
+        "area": "Top of the forearm",
+        "translation": "marsh on the outside of the forearm"
+      },
+      "ude-narashi-back-1": {
+        "name": "Ude-narashi",
+        "area": "Outside of the upper arm",
+        "translation": "middle of the arm"
+      },
+      "wakikage": {
+        "name": "Wakikage",
+        "area": "Unprotected ribs under the armpit",
+        "translation": "flank shadow"
+      },
+      "ushiro-denko-1": {
+        "name": "Ushiro Denko",
+        "area": "Floating ribs and kidneys",
+        "translation": "lightning at the back"
+      },
+      "ushiro-denko-2": {
+        "name": "Ushiro Denko",
+        "area": "Floating ribs and kidneys",
+        "translation": "lightning at the back"
+      },
+      "bitei": {
+        "name": "Bitei",
+        "area": "Between tailbone and anus, 'tailbone'",
+        "translation": "tail"
+      },
+      "ein": {
+        "name": "Ein",
+        "area": "Middle of the perineum",
+        "translation": "collection of yin"
+      },
+      "ushiro-inazuma": {
+        "name": "Ushiro Inazuma",
+        "area": "Back of thigh, just below buttock",
+        "translation": "lightning at the back"
+      },
+      "soma": {
+        "name": "Soma",
+        "area": "Tendon attachment of the calf muscle",
+        "translation": "where the grass gives to the wind"
+      },
+      "shomon-back": {
+        "name": "Shomon",
+        "area": "Fontanelle",
+        "translation": "front gate"
+      },
+      "dokusen": {
+        "name": "Dokusen",
+        "area": "Hollow directly behind the ear, at the attachment of the jaw",
+        "translation": ""
+      },
+      "keichu": {
+        "name": "Keichu",
+        "area": "Middle of the neck",
+        "translation": "middle of the neck"
+      },
+      "hayauchi": {
+        "name": "Hayauchi",
+        "area": "Between shoulder blades and spine",
+        "translation": "early blow or fast blow"
+      },
+      "kassatsu": {
+        "name": "Kassatsu",
+        "area": "Middle of the spine, below the 5th thoracic vertebra",
+        "translation": "life and death"
+      },
+      "ude-narashi-back-2": {
+        "name": "Ude-narashi",
+        "area": "Outside of the upper arm",
+        "translation": "middle of the arm"
+      },
+      "hijisume-back": {
+        "name": "Hijitsume",
+        "area": "Inner-upper side of forearm, just above the elbow",
+        "translation": "elbow push"
+      },
+      "uchi-shakutaku-back": {
+        "name": "Uchi Shakutaku",
+        "area": "Inner-lower side of forearm",
+        "translation": "marsh on the inside of the forearm"
+      },
+      "hijisume": {
+        "name": "Hijitsume",
+        "area": "Inner-upper side of forearm, just above the elbow",
+        "translation": "elbow push"
+      }
     }
   }
-} 
+}

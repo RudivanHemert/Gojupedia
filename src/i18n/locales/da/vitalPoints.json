@@ -1,237 +1,294 @@
 {
   "vitalPoints": {
     "title": "Vitale Punkter",
-    "description": "Studie af pressepunkter og sårbare områder",
+    "description": "Studie af trykpunkter og sårbare zoner",
     "interactive": {
-      "showLabels": "Vis Labels",
-      "showAllLabels": "Vis Alle Labels",
-      "closeDetails": "Luk Detaljer",
-      "frontViewTab": "Frontvisning",
-      "backViewTab": "Rygvisning",
-      "frontViewTitle": "Frontvisning Vitale Punkter",
-      "backViewTitle": "Rygvisning Vitale Punkter"
+      "showLabels": "Vis etiketter",
+      "showAllLabels": "Vis alle etiketter",
+      "closeDetails": "Luk detaljer",
+      "frontViewTab": "Forside",
+      "backViewTab": "Bagside",
+      "frontViewTitle": "Vitale punkter - Forside",
+      "backViewTitle": "Vitale punkter - Bagside"
     },
     "quiz": {
-      "title": "Vitale Punkter Quiz",
-      "description": "Test din viden om vitale punkter ved at udfylde de manglende labels",
-      "pointsToShow": "Antal punkter at vise",
-      "checkAnswers": "Tjek Svar",
+      "title": "Quiz om Vitale Punkter",
+      "description": "Test din viden ved at udfylde de manglende etiketter",
+      "pointsToShow": "Antal punkter der skal vises",
+      "checkAnswers": "Tjek svar",
       "restart": "Genstart",
       "correct": "Korrekt!",
       "incorrect": "Forkert",
       "yourAnswer": "Dit svar",
-      "correctAnswer": "Korrekt svar",
-      "score": "Score: {{correct}} ud af {{total}}",
+      "correctAnswer": "Rigtigt svar",
+      "score": "Score: {{correct}} af {{total}}",
       "enterAnswer": "Indtast navnet på dette vitale punkt"
     },
     "points": {
       "shomon": {
         "name": "Shomon",
-        "area": "Kranie"
+        "area": "Fontanelle",
+        "translation": "forreste port"
       },
       "kasumi": {
         "name": "Kasumi",
-        "area": "Tinding"
+        "area": "Siden af øjenbrynet",
+        "translation": "bedøvelse, tåge"
       },
       "komekami": {
         "name": "Komekami",
-        "area": "Kindben"
+        "area": "Tinding",
+        "translation": "tindinger"
       },
       "jinchu": {
         "name": "Jinchu",
-        "area": "Philtrum"
+        "area": "Mellem overlæbe og næse",
+        "translation": "midten af et menneske"
       },
       "kakon": {
         "name": "Kakon",
-        "area": "Hage"
+        "area": "I fordybningen under underlæben",
+        "translation": "lavere efterkommer"
       },
       "murasame": {
         "name": "Murasame",
-        "area": "Kraveben"
+        "area": "Over nøglebenet",
+        "translation": "forbigående regn"
       },
       "hichu": {
         "name": "Hichu",
-        "area": "Luftrør"
+        "area": "Under strubehovedet",
+        "translation": "i hemmelighed"
       },
       "danchu": {
         "name": "Danchu",
-        "area": "Brystben"
+        "area": "Midt på brystbenet",
+        "translation": "midten af brystet"
       },
       "ude-narashi": {
         "name": "Ude-narashi",
-        "area": "Overarm"
+        "area": "På ydersiden af overarmen",
+        "translation": "midten af armen"
       },
       "ganka": {
         "name": "Ganka",
-        "area": "Ribben under brystvorte"
+        "area": "5. mellemribbenrum",
+        "translation": "hinsides de vilde gæs"
       },
       "suigetsu": {
         "name": "Suigetsu",
-        "area": "Solar Plexus"
+        "area": "Solar plexus",
+        "translation": "vandmåne"
       },
       "denko": {
         "name": "Denko",
-        "area": "Ribben"
+        "area": "Syvende ribben",
+        "translation": "lyn"
       },
       "soto-shakutaku": {
-        "name": "Soto shakutaku",
-        "area": "Ydre håndled"
+        "name": "Soto Shakutaku",
+        "area": "Oversiden af underarmen",
+        "translation": "mose på ydersiden af underarmen"
       },
       "shuko": {
         "name": "Shuko",
-        "area": "Bagsiden af hånden"
+        "area": "Basis af tommelfingerleddet",
+        "translation": "håndryggen"
       },
       "kokotsu": {
         "name": "Kokotsu",
-        "area": "Skinneben"
+        "area": "Midt på vristen",
+        "translation": "høj fordel"
       },
       "soin": {
         "name": "Soin",
-        "area": "Vrist"
+        "area": "Ydersiden af vristen",
+        "translation": "skjult i græsset"
       },
       "kori": {
         "name": "Kori",
-        "area": "Område omkring tæer"
+        "area": "Midt på vristen, ca. 1,5 cm fra tåbasen",
+        "translation": "høj fordel"
       },
       "uto": {
         "name": "Uto",
-        "area": "Næsebro"
+        "area": "Midt i panden",
+        "translation": "fugl og kanin"
       },
       "kasumi-right": {
         "name": "Kasumi",
-        "area": "Tinding"
+        "area": "Siden af øjenbrynet",
+        "translation": "bedøvelse, tåge"
       },
       "seimo": {
         "name": "Seimo",
-        "area": "Øjenhule"
+        "area": "Øje",
+        "translation": "øjenæble"
       },
       "mikazuki": {
         "name": "Mikazuki",
-        "area": "Kæbe"
+        "area": "Kæbe",
+        "translation": "halvmåne"
       },
       "kyosen": {
         "name": "Kyosen",
-        "area": "Brystben"
+        "area": "Undersiden af brystbenet",
+        "translation": "brystpunkt"
       },
       "uchi-shakutaku": {
-        "name": "Uchi shakutaku",
-        "area": "Indre håndled"
+        "name": "Uchi Shakutaku",
+        "area": "Indersiden af underarmen",
+        "translation": "mose på indersiden af underarmen"
       },
       "ganka-right": {
         "name": "Ganka",
-        "area": "Ribben"
+        "area": "5. mellemribbenrum",
+        "translation": "hinsides de vilde gæs"
       },
       "hijitsume": {
         "name": "Hijitsume",
-        "area": "Indersiden af albue"
+        "area": "Indersiden af underarmen over albuen",
+        "translation": "albue-skub"
       },
       "inazuma": {
         "name": "Inazuma",
-        "area": "Mavemuskel"
+        "area": "11. ribben (øverste flydende ribben)",
+        "translation": "lyn"
       },
       "myosho": {
         "name": "Myosho",
-        "area": "Navleområde"
+        "area": "Under navlen",
+        "translation": "morgenstjerne (Venus)"
       },
       "tanden": {
         "name": "Tanden",
-        "area": "Styrke center"
+        "area": "Under navlen (kraftcenter)",
+        "translation": "rød mark"
       },
       "kinteki": {
         "name": "Kinteki",
-        "area": "Skridt"
+        "area": "Testikler",
+        "translation": "jernkugler"
       },
       "yako": {
         "name": "Yako",
-        "area": "Indre lår"
+        "area": "Indersiden af låret",
+        "translation": "natlig belysning"
       },
       "fukuto": {
         "name": "Fukuto",
-        "area": "Knehule"
+        "area": "Indersiden af låret over knæet",
+        "translation": "krybende hare"
       },
       "naira": {
         "name": "Naira",
-        "area": "Akillessene"
+        "area": "Indersiden af anklen",
+        "translation": "indre ankel"
       },
       "kori-right": {
         "name": "Kori",
-        "area": "Område omkring tæer"
+        "area": "Midt på vristen",
+        "translation": "høj fordel"
       },
       "shuko-back": {
         "name": "Shuko",
-        "area": "Bagsiden af hånden"
+        "area": "Basis af tommelfingerleddet",
+        "translation": "håndryggen"
       },
       "soto-shakutaku-back": {
-        "name": "Soto shakutaku",
-        "area": "Ydre håndled"
+        "name": "Soto Shakutaku",
+        "area": "Oversiden af underarmen",
+        "translation": "mose på ydersiden af underarmen"
+      },
+      "remaining_key": {
+        "name": "Ude-narashi",
+        "area": "På ydersiden af overarmen",
+        "translation": "midten af armen"
       },
       "ude-narashi-back-1": {
         "name": "Ude-narashi",
-        "area": "Overarm"
+        "area": "På ydersiden af overarmen",
+        "translation": "midten af armen"
       },
       "wakikage": {
-        "name": "Wakigake",
-        "area": "Under armhule"
+        "name": "Wakikage",
+        "area": "Ubeskyttede ribben under armhulen",
+        "translation": "flankeskygge"
       },
       "ushiro-denko-1": {
-        "name": "Ushiro denko",
-        "area": "Nyreområde"
+        "name": "Ushiro Denko",
+        "area": "Ribben og nyrer",
+        "translation": "lyn på bagsiden"
       },
       "ushiro-denko-2": {
-        "name": "Ushiro denko",
-        "area": "Nyreområde"
+        "name": "Ushiro Denko",
+        "area": "Ribben og nyrer",
+        "translation": "lyn på bagsiden"
       },
       "bitei": {
         "name": "Bitei",
-        "area": "Haleben"
+        "area": "Halebensspidsen",
+        "translation": "hale"
       },
       "ein": {
         "name": "Ein",
-        "area": "Nederste del af ryg"
+        "area": "Mellemkødet",
+        "translation": "samling af yin"
       },
       "ushiro-inazuma": {
         "name": "Ushiro Inazuma",
-        "area": "Mavemuskel (ryg)"
+        "area": "Bagsiden af låret",
+        "translation": "lyn på bagsiden"
       },
       "soma": {
         "name": "Soma",
-        "area": "Rygmuskel"
+        "area": "Lægmuskel",
+        "translation": "hvor græsset giver sig for vinden"
       },
       "shomon-back": {
-        "name": "Shomon (ryg)",
-        "area": "Bagsiden af kranie"
+        "name": "Shomon",
+        "area": "Fontanelle",
+        "translation": "forreste port"
       },
       "dokusen": {
         "name": "Dokusen",
-        "area": "Ryg"
+        "area": "Fordybning direkte under øret",
+        "translation": ""
       },
       "keichu": {
         "name": "Keichu",
-        "area": "Nakke"
+        "area": "Midten af nakken",
+        "translation": "midten af nakken"
       },
       "hayauchi": {
         "name": "Hayauchi",
-        "area": "Øverste del af ryg"
+        "area": "Mellem skulderbladene",
+        "translation": "tidligt slag eller hurtigt slag"
       },
       "kassatsu": {
         "name": "Kassatsu",
-        "area": "Ryg ribben"
+        "area": "Rygsøjlen",
+        "translation": "liv og død"
       },
       "ude-narashi-back-2": {
-        "name": "Ude-narashi (ryg)",
-        "area": "Overarm (ryg)"
+        "name": "Ude-narashi",
+        "area": "På ydersiden af overarmen",
+        "translation": "midten af armen"
       },
       "hijisume-back": {
-        "name": "Hijisume (ryg)",
-        "area": "Albue (ryg)"
+        "name": "Hijitsume",
+        "area": "Indersiden af underarmen",
+        "translation": "albue-skub"
       },
       "uchi-shakutaku-back": {
-        "name": "Uchi shakutaku (ryg)",
-        "area": "Indre håndled (ryg)"
+        "name": "Uchi Shakutaku",
+        "area": "Indersiden af underarmen",
+        "translation": "mose på indersiden af underarmen"
       },
       "hijisume": {
-        "name": "Hijisume",
-        "area": "Albue"
+        "name": "Hijitsume",
+        "area": "Indersiden af underarmen",
+        "translation": "albue-skub"
       }
     }
   }

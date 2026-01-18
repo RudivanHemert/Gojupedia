@@ -63,7 +63,7 @@
       }
     },
     "tensho": {
-      "name": "Tensho", 
+      "name": "Tensho",
       "japaneseName": "転掌",
       "meaning": "Rotating Palms",
       "description": "A flowing kata that emphasizes the soft aspects of Goju Ryu.",
@@ -132,8 +132,6 @@
         "title": "Use in Modern Practice",
         "content": "Gekisai Dai Ichi is traditionally taught as the first or second kata for beginning students. It is intended to practice basic movements and rhythm. In competition kata (events), it rarely occurs because it is quite simple, but it is shown at demonstrations and in dojo lesson plans as a foundation. It serves primarily as a bridge to the heavier kata (such as Sanchin and Tensho) and for conditioning and basic defense training."
       },
-      "history": "Created by Chojun Miyagi in 1940 as part of his efforts to modernize karate instruction.",
-      "culturalSignificance": "Represents the introduction to Goju Ryu principles for beginners.",
       "stepsCount": 6,
       "steps": {
         "step1": {
@@ -165,7 +163,7 @@
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
       "japaneseName": "撃砕第二",
-      "meaning": "Destroy No. 2",
+      "meaning": "Attack and shatter",
       "description": "The second kata in the Gekisai series, introducing more advanced techniques including open hand techniques.",
       "history": "Created by Chojun Miyagi as progression from Gekisai Dai Ichi.",
       "culturalSignificance": "Builds upon the foundation established in Gekisai Dai Ichi.",
@@ -232,7 +230,7 @@
     "saifa": {
       "name": "Saifa",
       "japaneseName": "砕破",
-      "meaning": "Smash and Tear",
+      "meaning": "Shatter and pull",
       "description": "An advanced kata emphasizing powerful closed-fist techniques and aggressive striking movements.",
       "history": "Traditionally, Kanryō Higaonna is said to have brought this kata from Fuzhou (Fujian, South China) after his studies with master Ryu Ryu Ko in the 1860s-1880s.",
       "culturalSignificance": "Represents the Naha-te tradition with strong South Chinese influence and contains many fixation and strangulation techniques.",
@@ -474,8 +472,6 @@
       "descriptionTitle": "Description",
       "historyTitle": "History",
       "culturalSignificanceTitle": "Cultural Significance",
-
-
       "mastersLabel": "Masters",
       "keyFeaturesLabel": "Key Features",
       "videoNotAvailable": "Video not available",
@@ -510,4 +506,4 @@
       "backButton": "Back to Kata List"
     }
   }
-} 
+}
