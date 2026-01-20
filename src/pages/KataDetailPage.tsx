@@ -30,6 +30,7 @@ import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsFr } from '@/data/gekisai-dai
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsIt } from '@/data/gekisai-dai-ichi.it';
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsNl } from '@/data/gekisai-dai-ichi.nl';
 import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsPt } from '@/data/gekisai-dai-ichi.pt';
+import { gekisaiDaiIchiSteps as gekisaiDaiIchiStepsDa } from '@/data/gekisai-dai-ichi.da';
 
 // Import detailed Gekisai Dai Ni steps for all languages
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsEn } from '@/data/gekisai-dai-ni.en';
@@ -39,6 +40,7 @@ import { gekisaiDaiNiSteps as gekisaiDaiNiStepsFr } from '@/data/gekisai-dai-ni.
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsIt } from '@/data/gekisai-dai-ni.it';
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsNl } from '@/data/gekisai-dai-ni.nl';
 import { gekisaiDaiNiSteps as gekisaiDaiNiStepsPt } from '@/data/gekisai-dai-ni.pt';
+import { gekisaiDaiNiSteps as gekisaiDaiNiStepsDa } from '@/data/gekisai-dai-ni.da';
 
 // Import detailed Sanchin steps for all languages
 import { sanchinSteps as sanchinStepsEn } from '@/data/sanchin.en';
@@ -48,6 +50,7 @@ import { sanchinSteps as sanchinStepsFr } from '@/data/sanchin.fr';
 import { sanchinSteps as sanchinStepsIt } from '@/data/sanchin.it';
 import { sanchinSteps as sanchinStepsNl } from '@/data/sanchin.nl';
 import { sanchinSteps as sanchinStepsPt } from '@/data/sanchin.pt';
+import { sanchinSteps as sanchinStepsDa } from '@/data/sanchin.da';
 
 // Import detailed Shisochin steps for all languages
 import { shisochinSteps as shisochinStepsEn } from '@/data/shisochin.en';
@@ -57,6 +60,7 @@ import { shisochinSteps as shisochinStepsFr } from '@/data/shisochin.fr';
 import { shisochinSteps as shisochinStepsIt } from '@/data/shisochin.it';
 import { shisochinSteps as shisochinStepsNl } from '@/data/shisochin.nl';
 import { shisochinSteps as shisochinStepsPt } from '@/data/shisochin.pt';
+import { shisochinSteps as shisochinStepsDa } from '@/data/shisochin.da';
 
 // Import detailed Sanseru steps for all languages
 import { sanseruSteps as sanseruStepsEn } from '@/data/sanseru.en';
@@ -66,9 +70,11 @@ import { sanseruSteps as sanseruStepsFr } from '@/data/sanseru.fr';
 import { sanseruSteps as sanseruStepsIt } from '@/data/sanseru.it';
 import { sanseruSteps as sanseruStepsNl } from '@/data/sanseru.nl';
 import { sanseruSteps as sanseruStepsPt } from '@/data/sanseru.pt';
+import { sanseruSteps as sanseruStepsDa } from '@/data/sanseru.da';
 
 // Import detailed Saifa steps for all languages
 import { saifaSteps as saifaStepsEn } from '@/data/saifa.en';
+import { saifaSteps as saifaStepsDa } from '@/data/saifa.da';
 import { saifaSteps as saifaStepsDe } from '@/data/saifa.de';
 import { saifaSteps as saifaStepsEs } from '@/data/saifa.es';
 import { saifaSteps as saifaStepsFr } from '@/data/saifa.fr';
@@ -78,6 +84,7 @@ import { saifaSteps as saifaStepsPt } from '@/data/saifa.pt';
 
 // Import detailed Seiyunchin steps for all languages
 import { seiyunchinSteps as seiyunchinStepsEn } from '@/data/seiyunchin.en';
+import { seiyunchinSteps as seiyunchinStepsDa } from '@/data/seiyunchin.da';
 import { seiyunchinSteps as seiyunchinStepsDe } from '@/data/seiyunchin.de';
 import { seiyunchinSteps as seiyunchinStepsEs } from '@/data/seiyunchin.es';
 import { seiyunchinSteps as seiyunchinStepsFr } from '@/data/seiyunchin.fr';
@@ -88,14 +95,35 @@ import { seiyunchinSteps as seiyunchinStepsPt } from '@/data/seiyunchin.pt';
 // Import detailed Tensho steps for Portuguese
 import { tenshoSteps as tenshoStepsPt } from '@/data/tensho.pt';
 
-// Import detailed Sepai steps for Portuguese
+// Import detailed Sepai steps for all languages
+import { sepaiSteps as sepaiStepsEn } from '@/data/sepai.en';
+import { sepaiSteps as sepaiStepsDa } from '@/data/sepai.da';
+import { sepaiSteps as sepaiStepsDe } from '@/data/sepai.de';
+import { sepaiSteps as sepaiStepsEs } from '@/data/sepai.es';
+import { sepaiSteps as sepaiStepsFr } from '@/data/sepai.fr';
+import { sepaiSteps as sepaiStepsIt } from '@/data/sepai.it';
+import { sepaiSteps as sepaiStepsNl } from '@/data/sepai.nl';
 import { sepaiSteps as sepaiStepsPt } from '@/data/sepai.pt';
 
-// Import detailed Kururunfa steps for Portuguese
+// Import detailed Kururunfa steps for all languages
+import { kururunfaSteps as kururunfaStepsEn } from '@/data/kururunfa.en';
+import { kururunfaSteps as kururunfaStepsDa } from '@/data/kururunfa.da';
+import { kururunfaSteps as kururunfaStepsDe } from '@/data/kururunfa.de';
+import { kururunfaSteps as kururunfaStepsEs } from '@/data/kururunfa.es';
+import { kururunfaSteps as kururunfaStepsFr } from '@/data/kururunfa.fr';
+import { kururunfaSteps as kururunfaStepsIt } from '@/data/kururunfa.it';
+import { kururunfaSteps as kururunfaStepsNl } from '@/data/kururunfa.nl';
 import { kururunfaSteps as kururunfaStepsPt } from '@/data/kururunfa.pt';
 
-// Import detailed Sesan steps for Portuguese
-import { sesanSteps as sesanStepsPt } from '@/data/sesan.pt';
+// Import detailed Sesan steps for all languages
+import { sesanStepsEn } from '@/data/sesan.en';
+import { sesanStepsDa } from '@/data/sesan.da';
+import { sesanStepsDe } from '@/data/sesan.de';
+import { sesanStepsEs } from '@/data/sesan.es';
+import { sesanStepsFr } from '@/data/sesan.fr';
+import { sesanStepsIt } from '@/data/sesan.it';
+import { sesanStepsNl } from '@/data/sesan.nl';
+import { sesanStepsPt } from '@/data/sesan.pt';
 
 // Import detailed Peichurin steps for Portuguese
 import { peichurinSteps as peichurinStepsPt } from '@/data/peichurin.pt';
@@ -135,6 +163,8 @@ const KataDetailPage = () => {
             return gekisaiDaiIchiStepsNl;
           case 'pt':
             return gekisaiDaiIchiStepsPt;
+          case 'da':
+            return gekisaiDaiIchiStepsDa;
           default:
             return gekisaiDaiIchiStepsEn;
         }
@@ -152,6 +182,8 @@ const KataDetailPage = () => {
             return gekisaiDaiNiStepsNl;
           case 'pt':
             return gekisaiDaiNiStepsPt;
+          case 'da':
+            return gekisaiDaiNiStepsDa;
           default:
             return gekisaiDaiNiStepsEn;
         }
@@ -169,6 +201,8 @@ const KataDetailPage = () => {
             return sanchinStepsNl;
           case 'pt':
             return sanchinStepsPt;
+          case 'da':
+            return sanchinStepsDa;
           default:
             return sanchinStepsEn;
         }
@@ -186,6 +220,8 @@ const KataDetailPage = () => {
             return shisochinStepsNl;
           case 'pt':
             return shisochinStepsPt;
+          case 'da':
+            return shisochinStepsDa;
           default:
             return shisochinStepsEn;
         }
@@ -203,6 +239,8 @@ const KataDetailPage = () => {
             return sanseruStepsNl;
           case 'pt':
             return sanseruStepsPt;
+          case 'da':
+            return sanseruStepsDa;
           default:
             return sanseruStepsEn;
         }
@@ -220,6 +258,8 @@ const KataDetailPage = () => {
             return saifaStepsNl;
           case 'pt':
             return saifaStepsPt;
+          case 'da':
+            return saifaStepsDa;
           default:
             return saifaStepsEn;
         }
@@ -237,6 +277,8 @@ const KataDetailPage = () => {
             return seiyunchinStepsNl;
           case 'pt':
             return seiyunchinStepsPt;
+          case 'da':
+            return seiyunchinStepsDa;
           default:
             return seiyunchinStepsEn;
         }
@@ -256,17 +298,41 @@ const KataDetailPage = () => {
         }
       case 'kururunfa':
         switch (currentLang) {
+          case 'de':
+            return kururunfaStepsDe;
+          case 'es':
+            return kururunfaStepsEs;
+          case 'fr':
+            return kururunfaStepsFr;
+          case 'it':
+            return kururunfaStepsIt;
+          case 'nl':
+            return kururunfaStepsNl;
           case 'pt':
             return kururunfaStepsPt;
+          case 'da':
+            return kururunfaStepsDa;
           default:
-            return [];
+            return kururunfaStepsEn;
         }
       case 'sesan':
         switch (currentLang) {
+          case 'de':
+            return sesanStepsDe;
+          case 'es':
+            return sesanStepsEs;
+          case 'fr':
+            return sesanStepsFr;
+          case 'it':
+            return sesanStepsIt;
+          case 'nl':
+            return sesanStepsNl;
           case 'pt':
             return sesanStepsPt;
+          case 'da':
+            return sesanStepsDa;
           default:
-            return [];
+            return sesanStepsEn;
         }
       case 'peichurin':
         switch (currentLang) {

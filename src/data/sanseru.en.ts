@@ -4,97 +4,83 @@ export const sanseruSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introduction and meaning of Sanseru',
-    description: `Sanseru means "36" and refers to the 36 techniques in the kata. This kata was introduced to Okinawa by Kanryo Higaonna. He learned the kata from Ryu Ryu Ko. The original creator of the kata is unknown.
+    title: 'Morote chudan uke, chudan zuki and chudan kake uke',
+    description: `Sanseru was introduced to Okinawa by Kanryo Higaonna. He learned the kata from Ryu Ryu Ko. The original creator of the kata is unknown but it is suspected that this kata originates from Dog Boxing (Dog Kung Fu). This is (also) a southern Kung Fu style, with the special characteristic of having quite a few techniques for close range combat such as throws, joint locks and ground fighting. Sanseru means '36': 6 (eye, ear, nose, tongue, body and mind) x 6 (color, voice, smell, taste, touch and justice).
 
-Sanseru is a kaishugata (open hand form) and is characterized by many open hand techniques, including shotei zuki (palm strikes) and nukite zuki (spear hand strikes). The kata develops power, speed and precision in the execution of techniques.`,
+There is an important anecdote about Sanseru. In 1915, Chojun Miyagi traveled to Fuzhou in China, where Kanryo had lived and trained. There he met another student of Ryu Ryu Ko and he showed the katas he had learned from Kanryo, except Sanseru. The student was impressed but also said that Sanseru was missing. Miyagi said that he had learned it, but had not demonstrated it because it was his least favorite kata. Thanks to this incident we know two important things: Kanryo learned all 9 katas from Ryu Ryu Ko and he did not remove any katas from the system.
+
+Just like at the beginning of Shisochin, with these techniques you must have the image of a tiger slowly stalking its prey and then suddenly striking. So ground and center well first, then strike. The block follows the strike immediately, like a ball bouncing back from the wall. The elbow remains in the same place, a fist's width from the body. You hardly use your arm muscles for the block. Keep the left arm extended after the third strike.`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Beginning and morote chudan shotei uke',
-    description: `From musubi dachi, sink down and step with a circular movement with the right leg into sanchin dachi. Simultaneously, the hands go up, slide over each other at the level of the solar plexus to the side and make a circular movement forward past the elbows into morote chudan shotei uke.
+    title: 'Hazushi waza (release technique)',
+    description: `Open the right hand and turn the hand with a small circle to the front, the elbow remains more or less in place. Simultaneously pull the other hand back to the side (both with muchimi), the hand still a fist.
 
-The hands are more vertical than horizontal. The elbows are close to the body (about a fist away) and make a 90-degree angle. This technique develops strength and stability in the arms and shoulders.`,
+Open the fist while simultaneously striking the right upper arm, just above the elbow (as if catching something), fingers up, thumb down. Perform the hazushi waza powerfully and quickly.
+
+Step back with the right leg into zenkutsu dachi and simultaneously pull the right arm back (the open hand becomes a fist). The left arm/hand moves powerfully along the arm diagonally forward; as if stripping the plastic protective layer from an electrical wire. This hand ends above the knee.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Nukite zuki execution',
-    description: `You move slowly, circularly (ankle along ankle) and with muchimi. If you are grounded, you suddenly strike with a nukite zuki with much power, speed and precision. The hand that is going to strike is first pulled back forcefully into your side, then it springs out.
+    title: 'Tsukami and nage waza (grabbing and throwing technique)',
+    description: `Step forward in a straight line with the right leg into zenkutsu dachi, bend forward (keep the back straight) and scoop towards the underside of the knee of an imaginary opponent of equal size, after which you pull them towards you.
 
-In the nukite zuki, the hand is a spear: the thumb presses against the mouse of the side of the index finger, the palm and fingers are extended. The nukite is to ganka, the intercostal space between the fifth and sixth rib at the level of suigetsu.`,
+Immediately/simultaneously followed by a palm strike towards the imaginary upper knee of the opponent. The arms end slightly crossed, the wrists one above the other.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Hazusu wasa and morote gedan barai',
-    description: `From morote chudan shotei uke, the hands make a small circular movement downward, come together in front of the lower abdomen and go up together with a scooping movement, palms up. At the level of your collarbone, the hands become fists, pinky first, everything with muchimi.
-
-While the hands are going up, the breath goes down, the pelvis is closed, the arms curl up and the shoulder blades spread apart. You step forcefully backward into zenkutsu dachi and simultaneously open your pelvis and release the tension in your shoulders and arms.`,
+    title: 'Ippon mae geri (double front kick)',
+    description: `The hands turn slightly, come one above the other and point forward, keep this position during the execution of both kicks. Try to execute these kicks as quickly as possible, but strictly observe the correct execution, such as a straight back. The keage mae geri is with the ball of the foot to the groin (watch out not to execute this technique too low), end in zenkutsu dachi and continue with an equally fast mae geri with the other leg.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Chudan ura kake uke and shotei gedan barai',
-    description: `Your arms cross in front of suigetsu, the fingers extend slightly past the elbows. Simultaneously, you sink into your back leg. From this leg, you bring your body forward from your tanden; make sure you stand 45 degrees relative to the shomen.
+    title: 'Hiji ate, gedan zuki, kansetzu geri, chudan uke and mae geri',
+    description: `The hiji ate, the gedan zuki and the kansetzu geri must be executed with great power and speed. After the second mae geri (from the previous technique) the foot is stamped down and the rebounding impulse is used for the forward hiji ate. In the gedan zuki the leg straightens, but the hip does not turn in, the body remains hanmi (= half turned out). After the elbow strike and the low punch, the arms point slightly inwards.
 
-The arm that makes the kake uke goes under the gedan uke arm. The kake uke is like throwing a frisbee, but your arm stays close to your body: the elbow is and remains a fist width from your body and the elbow makes a 90-degree angle after the kake uke.`,
+Pull the right foot back over the floor and only pull it up when it is near the other foot. Simultaneously fill the tanden (lower abdomen) before executing the kekomi kansetsu geri (knee kick with the side of the foot) and fill your abdomen again after the kick when pulling the foot back to your own knee. During the kick, keep the arms in the position of the elbow and gedan punch.
+
+Pull the foot/knee back powerfully and quite high (the foot is next to the knee) and use this impulse for a 180 degree turn. After the turn, step with the right foot into sanchin-dachi and simultaneously execute a chudan yoko uke. Filling the abdomen, lifting the foot, turning and blocking are almost one movement. Take a moment of rest after the block before executing the mae geri. The keage mae geri is with the ball of the foot to the groin, end in zenkutsu dachi when you stamp the foot down.`,
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Chudan uchi kake uke, hiki uke and ude osae',
-    description: `Both blocks are executed with muchimi. The arms move together and maintain as much contact as possible, imagine that your arms are stuck to an opponent's arm. The hiki uke hand starts angled under the elbow and at the end of the technique, both hands go together to the side.
+    title: 'Seiken and shotei gedan kosa uke',
+    description: `From zenkutsu dachi, place the rear foot on the line of the front one, turn and simultaneously drop from a high into a very low shiko dachi and simultaneously execute a kosa uke (cross block) with the fists downwards. Feel that the impulse of your body falling is used in the block. The right arm is in front of the left arm for the fist block.
 
-The ude osae is initiated from the push-off of the leg and hips, the shoulders and hips move together, make sure you don't use muscle power from your shoulders or arms. The head initially turns with the body but keeps looking forward.`,
+After this, shift your weight to your left foot and pull the right foot close past the left, turn and execute a shotei gedan kosa uke (cross block with open hands) in deep shiko dachi, also straight down and this time the left arm is in front of the right arm. Ensure that during the movement you do not lift the shoulders and keep the back straight.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Age hiji ate and ushiro hiji ate',
-    description: `Bring your weight to your left foot and close both feet together (heisoku dachi). During the movement to heisoku dachi, you inhale and close your pelvis by tilting it backward.
-
-Simultaneously, your hands become fists. You open your pelvis and simultaneously let your body fall while executing both elbow strikes. The knuckles of the ushiro hiji ate hand remain up. In the bunkai, the ushiro hiji ate is a strike to the rear.`,
+    title: 'Shotei jodan age uke and osae hiki waza',
+    description: `Shift your weight to your left leg, stay low and move from your rear leg - initially fast, but this transitions into muchimi during the movement - into shiko dachi, the feet pass close to each other. Execute a jodan age uke, at the end the arm is slightly bent upwards and the eyes look just under the forearm. The movement during the displacement is initially fast, then with muchimi. Simultaneously pull the left hand back with muchimi in a pulling movement, in a straight line, palm up, fingers stretched sideways, ending under seigetsu (solar plexus).`,
   },
   {
     id: 'step-8',
     number: 8,
-    title: 'Jodan shotei zuki and shotei gedan barai',
-    description: `From heisoku dachi, you stay low. You turn 180 degrees on your left foot, the feet stay close together. When you have turned, the right foot steps backward into zenkutsu dachi and this right foot stays more or less in place during the four palm strikes.
+    title: 'Awase zuki (double straight and reverse punch)',
+    description: `This is the most powerful movement in the kata. Shift your weight again to your left leg and pull your right leg back into a high nekoashi dachi (not a stance but a moment in the movement). Move the hands in a circling motion to your side, they are then still open.
 
-Bring the hand of the striking arm up during the turn, fingers up while your abdomen fills with breath. Execute the shotei zuki and the gedan barai simultaneously. The shotei zuki is slightly higher than the shoulders. Concentration in the palm and the tanden.`,
+Push off and move powerfully and quickly forward; the right foot first, followed by the left and end in sanchin dachi. The storm/punch begins (only) when all breath has arrived in the tanden and with making the fists by tightening the thumb and index finger, then still at the side.
+
+During this movement, concentrate on making the fists and execute a very powerful awase zuki. Kiai! Ensure you inhale deeply to the tanden. Focus powerfully during impact on the tanden and the knuckles of the fists. The ura zuki is above the knee of the front leg, just like in Gekisai dai ichi.`,
   },
   {
     id: 'step-9',
     number: 9,
-    title: 'Chudan hiki uke, mae geri and hiji ate',
-    description: `Step from zenkutsu dachi with a circle (ankle along ankle) into sanchin dachi. The hiki uke is with muchimi; stay in (virtual) contact with the opponent's arm. The hikite is to the side with open hand, fingers up. Maintain the block during the keage mae geri with the ball of the foot to the groin.
-
-The hikite stays open but (the other hand) goes to the solar plexus during the elbow strike. The elbow strike is to ganka and the hand is open. Kiai!`,
+    title: 'Ippon chudan uke',
+    description: `Shift your weight again onto your left leg, step sideways with the right leg (the body sinks significantly) and turn 180 degrees into sanchin dachi. Simultaneously execute a chudan uke, fists closed. Step through for the second chudan uke with a circular movement, foot and hand move synchronously.`,
   },
   {
     id: 'step-10',
     number: 10,
-    title: 'Shotei osae and hiji uchi',
-    description: `The movement begins with a small step and turn of the left foot. Block with muchimi. The blocking hand goes with the turning body and goes with a circular movement past your face past the side of your body.
+    title: 'Morote ko uke (double wrist block)',
+    description: `Turn the body 180 degrees by stepping back with the left foot, ending in shiko dachi. The foot makes a circle (so the ankles do not pass close to each other) and keeps contact with the floor. Simultaneously open the hands. The upper hand (the right) falls inwards, passes closest to the body as both arms circle around each other and finally becomes the front/upper hand of morote ko uke (double wrist block or mantis block). The right hand blocks upwards and the left can block sideways. For this reason, the thumb of the right hand (upwards) supports the ring finger (the part of the back of the hand under the little/ring finger becomes harder); the thumb of the left hand (can block sideways) supports the middle finger (the middle part of the back of the hand becomes harder). In the kata the left hand does not go sideways and remains in a waiting posture, in the bunkai it does block sideways. Ensure you concentrate attention on the contact points of both wrists. Bring both hands slightly up, circle them back and place the right in the left.
 
-Just before the blocking hand goes back in a straight line to the solar plexus, the elbow strike goes over the wrist. This elbow strike makes a circular upward movement, it is a heavy strike (from the tanden, ensure minimal tension in the arm) and upward to the lower jaw.`,
+Now pull your foot back into musubi dachi and end the kata.`,
   },
-  {
-    id: 'step-11',
-    number: 11,
-    title: 'Morote chudan ura kake uke',
-    description: `You turn on your right foot into neko ashi dachi. For this, both hands initially go together to the right side. Then they extend horizontally (especially the right to the left side) in front of the solar plexus (suigetsu), palms up.
-
-Both arms extend far to the side (the fingers are outside the body) before the morote kake uke, at the end of the turn, is executed with muchimi. The hands are held in such a way that if you place a large book on them, you can read.`,
-  },
-  {
-    id: 'step-12',
-    number: 12,
-    title: 'Morote hiji ate and conclusion',
-    description: `Step through into zenkutsu dachi, turn the hands, move them slightly downward and make fists (as if grabbing something firmly) - index finger first - that immediately grab and pull. Imagine pulling a small tree out of the ground during the pulling movement.
-
-Both "elbow strikes" are high, the hands end next to the ears, knuckles up, focus in the wrists. Bring both open hands together with a circular movement in front of your face and again with a circular movement downward. Place the right hand in the left, pull your foot back into musubi dachi and turn both hands.`,
-  }
-]; 
+];

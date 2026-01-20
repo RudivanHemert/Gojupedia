@@ -4,94 +4,127 @@ export const sanchinSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introducción y significado de Sanchin',
-    description: `Sanchin es la heishugata fundamental del Goju Ryu karate. Significa literalmente 'tres batallas' y se considera la kata más importante. Sanchin desarrolla técnica de respiración, poder, musculatura y el espíritu correcto del karate.
+    title: 'Introducción y Significado',
+    description: `Sanchin es el heishugata fundamental del karate Goju Ryu. Literalmente significa 'tres batallas' (San = tres, Chin = batalla/conflicto). Las tres batallas se interpretan a menudo como Mente, Cuerpo y Espíritu, o las tres técnicas de respiración. Se considera el kata más importante para desarrollar el cuerpo físico y el espíritu marcial adecuado.
 
-Sanchin se caracteriza por la tensión muscular constante durante toda la kata - los músculos solo se relajan cuando la kata está completada. Este tipo de kata desarrolla fuerza física, resistencia y control de la respiración.`,
+Sanchin desarrolla la técnica de respiración, la potencia, la musculatura y la postura correcta. Enseña al estudiante a arraigarse y generar poder desde el Tanden (abdomen inferior).`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Postura y movimiento del pie - Comienzo',
-    description: `Comience en musubi dachi kamae, manteniendo el tanden tenso. Mientras comienza su primera inhalación, ejecute un morote chudan yoko uke, hundiendo simultáneamente su cuerpo y deslizando su pie derecho suavemente hacia adelante en un movimiento circular hacia migi sanchin dachi.
+    title: 'Apertura: Musubi Dachi a Sanchin Dachi',
+    description: `Comience en musubi dachi kamae, manteniendo el tanden tenso. Al comenzar su primera inhalación, ejecute un morote chudan yoko uke simultáneamente hundiendo su cuerpo y deslizando su pie derecho suavemente hacia adelante en un movimiento circular hacia migi sanchin dachi.
 
-Asegúrese de que el talón del pie delantero esté en el mismo plano que los dedos del pie trasero. Sus pies deben agarrar el suelo usando tako ashi: primero extienda los dedos de los pies lo más ampliamente posible y luego agarre el suelo, enraizándose firmemente en el suelo.`,
+Cuando el bloqueo esté enfocado, exhale en una respiración rápida y fuerte, tensando el tanden aún más.
+
+**Puntos Clave para la Apertura:**
+*   **Medición:** Sin mover los pies, baje la rodilla trasera hacia el talón delantero. Si es correcto, deberían apenas tocarse.
+*   **Tako Ashi:** Agarre el suelo con "pie de pulpo" - extienda los dedos ampliamente y luego agarre firmemente.
+*   **Arraigo:** Sienta el poder derivado del suelo; mantenga la tensión en las piernas y glúteos (como cerrar un puño).
+*   **Alineación:** Dedos y rodillas girados hacia adentro. Rodillas dobladas y directamente verticales sobre los dedos.
+*   **Tanden:** Lleve los músculos anales/glúteos hacia abajo y hacia adentro, los testículos hacia arriba. Concentre TODO el poder en el tanden.
+*   **Parte Superior del Cuerpo:** Barbilla ligeramente hacia abajo, ojos fijos al frente (enfoque a distancia), pecho abierto para permitir la respiración.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Postura Sanchin - Puntos clave',
-    description: `En sanchin dachi:
-- Sus dedos de los pies y rodillas deben estar girados hacia adentro
-- Las rodillas dobladas y directamente sobre los dedos de los pies en una línea vertical
-- Dibuje los músculos anales y glúteos hacia abajo y hacia adentro
-- Concentre todo su poder en el tanden
-- Mantenga su barbilla ligeramente hacia abajo
-- Mire directamente hacia adelante, enfocado en la distancia
-- Mantenga su pecho abierto para no restringir su respiración
-- Mantenga su columna vertebral recta, hombros hacia abajo, pecho abierto`,
+    title: 'Sanchin Dachi (La Postura)',
+    description: `Debe tener cuidado de mantener la columna recta, los hombros bajos y el pecho abierto.
+
+**Lista de Verificación de Postura:**
+1.  **Postura:** La línea desde la parte superior de la cabeza hasta el suelo debe terminar en la parte posterior del talón del pie delantero.
+2.  **Barbilla:** Llevada ligeramente hacia adentro.
+3.  **Columna:** Enderezada.
+4.  **Rodillas:** Dobladas y giradas hacia adentro. Frente de los muslos girados hacia adentro y tensos.
+5.  **Pies:** El interior del pie (área sombreada) agarrando firmemente el suelo. "Arraigado como un árbol."
+6.  **Manos/Codos:**
+    *   Brazos superiores cerca de los lados.
+    *   Codos a un ancho de puño del cuerpo.
+    *   Doblados en un ángulo de 90° (para mayor potencia).
+    *   Puños ligeramente más bajos que los hombros ("el agua fluiría lentamente hacia abajo entre los dos puntos").
+    *   Puños apretados fuertemente y girados ligeramente hacia afuera.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Ejecución de Chudan yoko uke',
-    description: `Al ejecutar chudan yoko uke:
-- Mantenga los brazos superiores cerca de los lados
-- Codos un puño del cuerpo y doblados en un ángulo de 90°
-- Los puños ligeramente más bajos que los hombros
-- Los puños deben estar apretados y ligeramente girados hacia afuera del cuerpo
-- Esta es la postura sanchin`,
+    title: 'La Secuencia de Golpe',
+    description: `En el siguiente movimiento, deslizando su antebrazo contra su cuerpo, tire del codo izquierdo hacia atrás tanto como sea posible, manteniendo el hombro bajo, hasta que sienta como si sus omóplatos se tocaran. Abra el pecho y respire profundamente mientras hace esto.
+
+Luego, mientras exhala lentamente, empuje su puño hacia adelante, manteniendo sus músculos tensos y utilizando todo su poder. Concentre su poder en los dos primeros nudillos y exhale completamente, usando un rápido "hatt" en el punto de ejecución. Mientras exhala este "hatt", debe tensar el tanden y todos los músculos del cuerpo aún más.
+
+Esta secuencia se repite:
+1.  Una vez en Sanchin Dachi Izquierdo usando la mano derecha.
+2.  Una vez más en Sanchin Dachi Derecho usando la mano izquierda.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Técnicas de respiración',
-    description: `Hay cuatro tipos básicos de respiración en sanchin kata:
-1. Inhalar muy lentamente y profundamente, luego exhalar lentamente y completamente
-2. Inhalar muy lentamente y profundamente, exhalar rápidamente
-3. Inhalar rápidamente, exhalar lentamente y completamente
-4. Inhalar rápidamente, exhalar rápidamente
+    title: 'Movimiento (Suri Ashi)',
+    description: `Es importante recordar al moverse en este kata, **nunca levante el pie del suelo**. Muévase siempre en **Suri Ashi** (deslizando el pie suavemente en un movimiento circular).
 
-La respiración de Sanchin es abdominal y no hace que el pecho se levante. Imagine que el aire no se detiene en los pulmones, sino que continúa hacia el abdomen inferior.`,
+*   **Moverse Hacia Adelante/Atrás:** Mantenga los músculos tensos, nunca libere la tensión.
+*   **Moverse Hacia Atrás:** Tenga mucho cuidado de no levantar el talón (error común).
+*   **Paso de Búsqueda:** Mueva su pie "como si estuviera buscando algo con su talón."
+*   **Concentración:** Concéntrese en todos los músculos del cuerpo durante todo el movimiento.
+*   **Principiantes:** Deben centrarse en usar el borde interior del pie al deslizarse.`,
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Respiración de Miyagi Chojun Sensei',
-    description: `La kata sanchin más practicada es la de Miyagi Chojun Sensei que usa respiración tipo a. Imagine una corriente de aire entrando en su cuerpo a través de la nariz y siguiendo un camino hacia arriba y alrededor de la cabeza, hacia abajo por el cuello y la espalda, pasando debajo de la ingle para concentrarse en el tanden, donde se enrolla en una bola apretada.
+    title: 'Técnicas de Respiración',
+    description: `**Tipos Básicos de Respiración en Sanchin:**
+a)  Inhale muy lenta y profundamente, luego exhale lenta y completamente. (Estilo Miyagi Chojun Sensei)
+b)  Inhale muy lenta y profundamente, exhale rápidamente.
+c)  Inhale rápidamente, exhale lenta y completamente.
+d)  Inhale rápidamente, exhale rápidamente. (Estilo Higaonna Kanryo Sensei)
 
-Mientras exhala lenta y suavemente, el aire se eleva desde el tanden hasta el ombligo, hasta el plexo solar, hasta la garganta y lentamente sale de la boca.`,
+**Concepto:**
+La respiración es abdominal. El pecho no se levanta. Imagine que el aire va al abdomen inferior (Tanden).
+
+**Visualizaciones:**
+*   **Estilo Miyagi (Tipo A):** El aire entra por la nariz -> alrededor de la cabeza -> baja por el cuello/espalda -> debajo de la ingle -> se enrolla en el Tanden. Exhalar: Tanden -> ombligo -> plexo solar -> garganta -> sale por la boca. Como soplar polvo partícula por partícula (largo tiempo).
+*   **Estilo Higaonna (Tipo D):** Ruta más rápida al Tanden. Como un pequeño tornado que barre el polvo de una sola vez.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Movimiento del pie - Suri ashi',
-    description: `Es importante recordar al moverse en esta kata, nunca levante su pie del suelo. Siempre muévase en suri ashi (deslizando su pie suavemente y en movimiento circular, hacia adelante o hacia atrás).
+    title: 'Shime (Prueba y Acondicionamiento)',
+    description: `Comprobación del Control Muscular Adecuado (Guía del Instructor). El maestro ayuda al estudiante a concentrarse en tensar los músculos.
 
-Al moverse hacia adelante o hacia atrás, debe mantener sus músculos tensos, nunca liberando la tensión, manteniendo su postura correcta. Al moverse hacia atrás tenga mucho cuidado de no levantar el talón del suelo.`,
+**Secuencia:**
+a.  **Pies:** Presione el borde exterior de las manos contra el interior de los pies del estudiante (asegúrese de que el arco no se levante).
+b.  **Tobillos:** Agarre para asegurar el arraigo.
+c.  **Muslos:** Abofetee los lados para verificar concentración/contracción.
+d.  **Glúteos:** Abofetee para asegurar firmeza.
+e.  **Columna:** Pase la mano a lo largo de la columna para verificar la rectitud.
+f.  **Abdomen:** Presione ligeramente el abdomen inferior.
+g.  **Espalda:** Baje las palmas de las manos por la espalda.
+h.  **Hombros:** Abofetee fuerte (cuidado con el cuello) para verificar firmeza.
+i.  **Omóplatos:** Presione los dedos en los músculos circundantes.
+j.  **Postura:** Deslice la mano desde el cuello hacia abajo por la columna.
+k.  **Hombros (Otra vez):** Abofetee suavemente y luego con fuerza.
+l.  **Comprobación:** Asegúrese de que la postura siga siendo correcta.
+m.  **Resistencia (Empuje):** Empuje hacia atrás el puño cuando el estudiante extienda.
+n.  **Resistencia (Bloqueo):** Aplique resistencia kake uke durante chudan yoko uke.
+o.  **Manos Dobles:** Aplique igual resistencia para técnicas morote.
+p.  **Respiración:** Asegúrese de la coordinación con el movimiento.`,
   },
   {
     id: 'step-8',
     number: 8,
-    title: 'Entrenamiento Shime y control',
-    description: `Shime significa el cierre de su cuerpo y se usa como término para el entrenamiento de Sanchin con un compañero que controla el cierre de su cuerpo, su postura y su movimiento/técnica.
+    title: 'Resumen y Espíritu',
+    description: `**Resumen de Puntos Clave:**
+*   Mantenga la postura correcta en todo momento.
+*   Use respiración abdominal.
+*   Los músculos deben estar tensos en todo momento, nunca relajados.
+*   Sea consciente de cada parte del cuerpo.
+*   La respiración y el movimiento deben estar completamente coordinados.
+*   ¡Practique todos los días!
 
-El maestro ayuda al estudiante a concentrarse más plenamente en tensar sus músculos verificando varios puntos de control: pies, tobillos, muslos, glúteos, columna vertebral, abdomen inferior, hombros, etc.`,
+**El Espíritu de Shime:**
+El entrenamiento asistido es para desarrollar el espíritu más que el cuerpo. Soportar el dolor de las bofetadas mientras se mantiene la forma y el enfoque construye fuerza espiritual. "Cuando te vuelves fuerte espiritualmente, debilita la confianza de tu oponente."
+
+**Dos Instructores:**
+El entrenamiento con un instructor delante y otro detrás es mucho más severo y desarrolla la concentración en todo el cuerpo simultáneamente.`,
   },
-  {
-    id: 'step-9',
-    number: 9,
-    title: 'Importancia del entrenamiento Sanchin',
-    description: `Sanchin kata siempre ha sido considerada la kata más importante en el entrenamiento de karate goju-ryu. Cada estudiante de karate debe practicar esta kata. Al practicar esta kata no solo desarrolla la técnica de respiración correcta, poder y musculatura, sino que también es esencial para desarrollar el espíritu correcto del karate.
-
-Tradicionalmente, sanchin kata fue la primera kata enseñada al principiante. Miyagi Chojun Sensei consideraba Sanchin kata como la más esencial de todas las kata.`,
-  },
-  {
-    id: 'step-10',
-    number: 10,
-    title: 'Efectos del entrenamiento Sanchin',
-    description: `Durante el entrenamiento de sanchin kata está respirando muy profundamente, aumentando así el suministro de oxígeno al cuerpo y al cerebro. Con esto, el cerebro y el sistema nervioso se vuelven particularmente agudos y más conscientes.
-
-Este tipo de respiración profunda estimula el diafragma y ayuda a estimular el estómago, hígado, páncreas, riñones e intestinos para que se vuelvan más activos. Sus músculos están en un estado de tensión constante, por lo que se expanden extremadamente y esto crea una sensación de tremendo poder.`,
-  }
-]; 
+];

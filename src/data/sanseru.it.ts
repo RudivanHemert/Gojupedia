@@ -4,97 +4,83 @@ export const sanseruSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introduzione e significato di Sanseru',
-    description: `Sanseru significa "36" e si riferisce alle 36 tecniche nella kata. Questa kata è stata introdotta a Okinawa da Kanryo Higaonna. Ha imparato la kata da Ryu Ryu Ko. Il creatore originale della kata è sconosciuto.
+    title: 'Morote chudan uke, chudan zuki e chudan kake uke',
+    description: `Sanseru è stato introdotto a Okinawa da Kanryo Higaonna. Ha imparato il kata da Ryu Ryu Ko. Il creatore originale del kata è sconosciuto, ma si sospetta che questo kata abbia origine dalla "Boxe del Cane" (Dog Kung Fu). Questo è (anche) uno stile di Kung Fu del sud, con la caratteristica speciale di avere molte tecniche per il combattimento a distanza ravvicinata come proiezioni, leve articolari e combattimento a terra. Sanseru significa '36': 6 (occhio, orecchio, naso, lingua, corpo e mente) x 6 (colore, voce, odore, gusto, tatto e giustizia).
 
-Sanseru è una kaishugata (forma di mano aperta) ed è caratterizzata da molte tecniche di mano aperta, inclusi shotei zuki (colpi di palma) e nukite zuki (colpi di mano lancia). La kata sviluppa potenza, velocità e precisione nell'esecuzione delle tecniche.`,
+C'è un aneddoto importante su Sanseru. Nel 1915, Chojun Miyagi viaggiò a Fuzhou in Cina, dove Kanryo aveva vissuto e si era allenato. Lì incontrò un altro studente di Ryu Ryu Ko e mostrò i kata che aveva imparato da Kanryo, tranne Sanseru. Lo studente rimase colpito ma disse anche che mancava Sanseru. Miyagi disse che l'aveva imparato, ma non l'aveva dimostrato perché era il suo kata meno preferito. Grazie a questo incidente sappiamo due cose importanti: Kanryo imparò tutti i 9 kata da Ryu Ryu Ko e non rimosse alcun kata dal sistema.
+
+Proprio come all'inizio di Shisochin, con queste tecniche devi avere l'immagine di una tigre che insegue lentamente la sua preda e poi colpisce improvvisamente. Quindi radicati e centrati bene prima, poi colpisci. Il blocco segue il colpo immediatamente, come una palla che rimbalza dal muro. Il gomito rimane nello stesso posto, a una larghezza di pugno dal corpo. Usi a malapena i muscoli del braccio per il blocco. Tieni il braccio sinistro esteso dopo il terzo colpo.`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Inizio e morote chudan shotei uke',
-    description: `Da musubi dachi, ti abbassi e fai un passo con un movimento circolare con la gamba destra in sanchin dachi. Simultaneamente, le mani salgono, scivolano una sull'altra a livello del plesso solare verso il lato e fanno un movimento circolare in avanti passando i gomiti in morote chudan shotei uke.
+    title: 'Hazushi waza (tecnica di liberazione)',
+    description: `Apri la mano destra e gira la mano con un piccolo cerchio verso la parte anteriore, il gomito rimane più o meno al suo posto. Tira contemporaneamente l'altra mano verso il lato (entrambe con muchimi), la mano è ancora un pugno.
 
-Le mani sono più verticali che orizzontali. I gomiti sono vicini al corpo (circa un pugno di distanza) e formano un angolo di 90 gradi. Questa tecnica sviluppa forza e stabilità nelle braccia e nelle spalle.`,
+Apri il pugno mentre colpisci contemporaneamente il braccio superiore destro, appena sopra il gomito (come se afferrassi qualcosa), dita verso l'alto, pollice verso il basso. Esegui l'hazushi waza con potenza e velocità.
+
+Fai un passo indietro con la gamba destra in zenkutsu dachi e tira contemporaneamente il braccio destro indietro (la mano aperta diventa un pugno). Il braccio/mano sinistro si muove potentemente lungo il braccio diagonalmente in avanti; come se staccassi lo strato protettivo di plastica da un filo elettrico. Questa mano finisce sopra il ginocchio.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Esecuzione di Nukite zuki',
-    description: `Ti muovi lentamente, circolarmente (caviglia lungo caviglia) e con muchimi. Se sei radicato, colpisci improvvisamente con un nukite zuki con molta forza, velocità e precisione. La mano che sta per colpire viene prima tirata con forza nel tuo fianco, poi salta fuori.
+    title: 'Tsukami e nage waza (tecnica di presa e proiezione)',
+    description: `Fai un passo avanti in linea retta con la gamba destra in zenkutsu dachi, piegati in avanti (tieni la schiena dritta) e raccogli verso la parte inferiore del ginocchio di un avversario immaginario di pari taglia, dopodiché lo tiri verso di te.
 
-Nel nukite zuki, la mano è una lancia: il pollice preme contro il mouse del lato dell'indice, il palmo e le dita sono estesi. Il nukite è verso ganka, lo spazio intercostale tra la quinta e sesta costola a livello di suigetsu.`,
+Immediatamente/simultaneamente seguito da un colpo di palmo verso il ginocchio superiore immaginario dell'avversario. Le braccia finiscono leggermente incrociate, i polsi uno sopra l'altro.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Hazusu wasa e morote gedan barai',
-    description: `Da morote chudan shotei uke, le mani fanno un piccolo movimento circolare verso il basso, si incontrano davanti all'addome inferiore e salgono insieme con un movimento di pala, palmi verso l'alto. A livello della tua clavicola, le mani diventano pugni, mignolo per primo, tutto con muchimi.
-
-Mentre le mani salgono, il respiro va giù, il bacino si chiude, le braccia si arricciano e le scapole si separano. Fai un passo indietro con forza in zenkutsu dachi e simultaneamente apri il tuo bacino e rilasci la tensione nelle tue spalle e braccia.`,
+    title: 'Ippon mae geri (doppio calcio frontale)',
+    description: `Le mani ruotano leggermente, arrivano una sopra l'altra e puntano in avanti, mantieni questa posizione durante l'esecuzione di entrambi i calci. Cerca di eseguire questi calci il più velocemente possibile, ma osserva rigorosamente l'esecuzione corretta, come una schiena dritta. Il keage mae geri è con l'avampiede all'inguine (fai attenzione a non eseguire questa tecnica troppo bassa), finisci in zenkutsu dachi e continua con un mae geri altrettanto veloce con l'altra gamba.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Chudan ura kake uke e shotei gedan barai',
-    description: `Le tue braccia si incrociano davanti a suigetsu, le dita si estendono leggermente oltre i gomiti. Simultaneamente, ti abbassi nella tua gamba posteriore. Da questa gamba, porti il tuo corpo in avanti dal tuo tanden; assicurati di stare 45 gradi relativi allo shomen.
+    title: 'Hiji ate, gedan zuki, kansetzu geri, chudan uke e mae geri',
+    description: `L'hiji ate, il gedan zuki e il kansetzu geri devono essere eseguiti con grande potenza e velocità. Dopo il secondo mae geri (dalla tecnica precedente) il piede viene stampato a terra e l'impulso di rimbalzo viene utilizzato per l'hiji ate in avanti. Nel gedan zuki la gamba si raddrizza, ma l'anca non ruota verso l'interno, il corpo rimane hanmi (= mezzo girato in fuori). Dopo il colpo di gomito e il pugno basso, le braccia puntano leggermente verso l'interno.
 
-Il braccio che fa il kake uke va sotto il braccio gedan uke. Il kake uke è come lanciare un frisbee, ma il tuo braccio rimane vicino al tuo corpo: il gomito è e rimane una larghezza di pugno dal tuo corpo e il gomito fa un angolo di 90 gradi dopo il kake uke.`,
+Tira il piede destro indietro sul pavimento e tiralo su solo quando è vicino all'altro piede. Riempi contemporaneamente il tanden (addome inferiore) prima di eseguire il kekomi kansetsu geri (calcio al ginocchio con il lato del piede) e riempi di nuovo l'addome dopo il calcio quando tiri il piede indietro verso il tuo ginocchio. Durante il calcio, tieni le braccia nella posizione del colpo di gomito e gedan.
+
+Tira il piede/ginocchio indietro potentemente e abbastanza in alto (il piede è accanto al ginocchio) e usa questo impulso per un giro di 180 gradi. Dopo il giro, fai un passo con il piede destro in sanchin-dachi ed esegui contemporaneamente un chudan yoko uke. Riempire l'addome, sollevare il piede, girare e bloccare sono quasi un unico movimento. Prenditi un momento di riposo dopo il blocco prima di eseguire il mae geri. Il keage mae geri è con l'avampiede all'inguine, finisci in zenkutsu dachi quando stampi il piede a terra.`,
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Chudan uchi kake uke, hiki uke e ude osae',
-    description: `Entrambi i blocchi sono eseguiti con muchimi. Le braccia si muovono insieme e mantengono tanto contatto quanto possibile, immagina che le tue braccia siano incollate al braccio di un avversario. La mano hiki uke inizia angolata sotto il gomito e alla fine della tecnica, entrambe le mani vanno insieme al lato.
+    title: 'Seiken e shotei gedan kosa uke',
+    description: `Da zenkutsu dachi, posiziona il piede posteriore sulla linea di quello anteriore, gira e scendi contemporaneamente da una posizione alta a una molto bassa shiko dachi ed esegui contemporaneamente un kosa uke (blocco incrociato) con i pugni verso il basso. Senti che l'impulso del tuo corpo che scende viene utilizzato nel blocco. Il braccio destro è davanti al braccio sinistro per il blocco di pugno.
 
-L'ude osae è iniziato dalla spinta della gamba e delle anche, le spalle e le anche si muovono insieme, assicurati di non usare forza muscolare dalle tue spalle o braccia. La testa inizialmente gira con il corpo ma mantiene lo sguardo in avanti.`,
+Dopo questo, sposta il peso sul piede sinistro e tira il piede destro vicino al sinistro, gira ed esegui uno shotei gedan kosa uke (blocco incrociato con mani aperte) in shiko dachi profondo, anche dritto verso il basso e questa volta il braccio sinistro è davanti al braccio destro. Assicurati che durante il movimento non sollevi le spalle e mantieni la schiena dritta.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Age hiji ate e ushiro hiji ate',
-    description: `Porta il tuo peso sul tuo piede sinistro e chiudi entrambi i piedi insieme (heisoku dachi). Durante il movimento verso heisoku dachi, inspiri e chiudi il tuo bacino inclinandolo all'indietro.
-
-Simultaneamente, le tue mani diventano pugni. Apri il tuo bacino e simultaneamente lasci anche cadere il tuo corpo mentre esegui entrambi i colpi di gomito. Le nocche della mano ushiro hiji ate rimangono su. Nel bunkai, l'ushiro hiji ate è un colpo all'indietro.`,
+    title: 'Shotei jodan age uke e osae hiki waza',
+    description: `Sposta il peso sulla gamba sinistra, rimani basso e muoviti dalla gamba posteriore - inizialmente veloce, ma questo transita in muchimi durante il movimento - in shiko dachi, i piedi passano vicini l'uno all'altro. Esegui uno jodan age uke, alla fine il braccio è leggermente piegato verso l'alto e gli occhi guardano appena sotto l'avambraccio. Il movimento durante lo spostamento è inizialmente veloce, poi con muchimi. Tira contemporaneamente la mano sinistra indietro con muchimi in un movimento di trazione, in linea retta, palma verso l'alto, dita tese lateralmente, finendo sotto seigetsu (plesso solare).`,
   },
   {
     id: 'step-8',
     number: 8,
-    title: 'Jodan shotei zuki e shotei gedan barai',
-    description: `Da heisoku dachi, rimani basso. Giri 180 gradi sul tuo piede sinistro, i piedi rimangono vicini. Quando hai girato, il piede destro fa un passo indietro in zenkutsu dachi e questo piede destro rimane più o meno al suo posto durante i quattro colpi di palma.
+    title: 'Awase zuki (doppio pugno dritto e rovesciato)',
+    description: `Questo è il movimento più potente nel kata. Sposta di nuovo il peso sulla gamba sinistra e tira la gamba destra indietro in un alto nekoashi dachi (non una posizione ma un momento nel movimento). Muovi le mani in un movimento circolare verso il fianco, sono quindi ancora aperte.
 
-Porta la mano del braccio che colpisce su durante il giro, dita su mentre il tuo addome si riempie di respiro. Esegui lo shotei zuki e il gedan barai simultaneamente. Lo shotei zuki è leggermente più alto delle spalle. Concentrazione nel palmo e nel tanden.`,
+Spingi e muoviti potentemente e velocemente in avanti; il piede destro prima, seguito dal sinistro e finisci in sanchin dachi. La tempesta/pugno inizia (solo) quando tutto il respiro è arrivato nel tanden e con la formazione dei pugni stringendo il pollice e l'indice, quindi ancora al fianco.
+
+Durante questo movimento concentrati sulla formazione dei pugni ed esegui un awase zuki molto potente. Kiai! Assicurati di inalare profondamente fino al tanden. Concentrati potentemente durante l'impatto sul tanden e le nocche dei pugni. L'ura zuki è sopra il ginocchio della gamba anteriore, proprio come in Gekisai dai ichi.`,
   },
   {
     id: 'step-9',
     number: 9,
-    title: 'Chudan hiki uke, mae geri e hiji ate',
-    description: `Fai un passo da zenkutsu dachi con un cerchio (caviglia lungo caviglia) in sanchin dachi. L'hiki uke è con muchimi; rimani in (virtuale) contatto con il braccio dell'avversario. L'hikite è al lato con mano aperta, dita su. Mantieni il blocco durante il keage mae geri con la palla del piede verso l'inguine.
-
-L'hikite rimane aperto ma (l'altra mano) va al plesso solare durante il colpo di gomito. Il colpo di gomito è verso ganka e la mano è aperta. Kiai!`,
+    title: 'Ippon chudan uke',
+    description: `Sposta di nuovo il peso sulla gamba sinistra, fai un passo laterale con la gamba destra (il corpo affonda notevolmente) e gira di 180 gradi in sanchin dachi. Esegui contemporaneamente un chudan uke, pugni chiusi. Fai un passo attraverso per il secondo chudan uke con un movimento circolare, piede e mano si muovono sincronicamente.`,
   },
   {
     id: 'step-10',
     number: 10,
-    title: 'Shotei osae e hiji uchi',
-    description: `Il movimento inizia con un piccolo passo e giro del piede sinistro. Blocca con muchimi. La mano che blocca va con il corpo che gira e va con un movimento circolare passando la tua faccia oltre il lato del tuo corpo.
+    title: 'Morote ko uke (doppio blocco del polso)',
+    description: `Gira il corpo di 180 gradi facendo un passo indietro con il piede sinistro, finendo in shiko dachi. Il piede fa un cerchio (quindi le caviglie non passano vicine l'una all'altra) e mantiene il contatto col pavimento. Apri contemporaneamente le mani. La mano superiore (la destra) cade verso l'interno, passa più vicino al corpo mentre entrambe le braccia circondano l'una intorno all'altra e diventa infine la mano anteriore/superiore di morote ko uke (doppio blocco del polso o blocco della mantide). La mano destra blocca verso l'alto e la sinistra può bloccare lateralmente. Per questo motivo, il pollice della mano destra (verso l'alto) supporta l'anulare (la parte del dorso della mano sotto il mignolo/anulare diventa più dura); il pollice della mano sinistra (può bloccare lateralmente) supporta il medio (la parte centrale del dorso della mano diventa più dura). Nel kata la mano sinistra non va di lato e rimane in una posizione di attesa, nel bunkai blocca di lato. Assicurati di concentrare l'attenzione sui punti di contatto di entrambi i polsi. Porta entrambe le mani leggermente verso l'alto, cerchiale indietro e metti la destra nella sinistra.
 
-Appena prima che la mano che blocca torni in linea retta al plesso solare, il colpo di gomito va sopra il polso. Questo colpo di gomito fa un movimento circolare verso l'alto, è un colpo pesante (dal tanden, assicura tensione minima nel braccio) e verso l'alto verso la mandibola inferiore.`,
+Tira ora il piede indietro in musubi dachi e termina il kata.`,
   },
-  {
-    id: 'step-11',
-    number: 11,
-    title: 'Morote chudan ura kake uke',
-    description: `Giri sul tuo piede destro in neko ashi dachi. Per questo, entrambe le mani inizialmente vanno insieme al lato destro. Poi si estendono orizzontalmente (specialmente la destra verso il lato sinistro) davanti al plesso solare (suigetsu), palmi su.
-
-Entrambe le braccia si estendono lontano al lato (le dita sono fuori dal corpo) prima che il morote kake uke, alla fine del giro, sia eseguito con muchimi. Le mani sono tenute in modo tale che se ci metti un libro grande sopra, puoi leggere.`,
-  },
-  {
-    id: 'step-12',
-    number: 12,
-    title: 'Morote hiji ate e conclusione',
-    description: `Fai un passo avanti in zenkutsu dachi, gira le mani, muovile leggermente verso il basso e fai pugni (come se afferrassi qualcosa saldamente) - indice per primo - che immediatamente afferrano e tirano. Immagina di tirare un piccolo albero dal terreno durante il movimento di trazione.
-
-Entrambi i "colpi di gomito" sono alti, le mani finiscono accanto alle orecchie, nocche su, focus nei polsi. Porta entrambe le mani aperte insieme con un movimento circolare davanti alla tua faccia e di nuovo con un movimento circolare verso il basso. Metti la mano destra nella sinistra, tira il tuo piede indietro in musubi dachi e gira entrambe le mani.`,
-  }
-]; 
+];

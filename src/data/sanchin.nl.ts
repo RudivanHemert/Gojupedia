@@ -4,97 +4,127 @@ export const sanchinSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introductie en betekenis van Sanchin',
-    description: `Sanchin is de fundamentele heishugata van Goju Ryu karate. Het betekent letterlijk 'drie gevechten' en wordt beschouwd als de belangrijkste kata. Sanchin ontwikkelt ademhalingstechniek, kracht, spieropbouw en de juiste karate geest.
+    title: 'Introductie en Betekenis',
+    description: `Sanchin is de fundamentele heishugata van Goju Ryu karate. Het betekent letterlijk 'drie gevechten' (San = drie, Chin = gevecht/conflict). De drie gevechten worden vaak geïnterpreteerd als Geest, Lichaam en Ziel, of de drie ademhalingstechnieken. Het wordt beschouwd als de belangrijkste kata voor het ontwikkelen van het fysieke lichaam en de juiste martiale geest.
 
-Sanchin wordt gekenmerkt door constante spierspanning gedurende de hele kata - de spieren worden alleen ontspannen wanneer de kata is voltooid. Dit type kata ontwikkelt fysieke kracht, uithoudingsvermogen en ademhalingscontrole.`,
+Sanchin ontwikkelt ademhalingstechniek, kracht, spieropbouw en de juiste houding. Het leert de student zichzelf te aarden en kracht te genereren vanuit het Tanden (onderbuik).`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Houding en voetbeweging - Begin',
-    description: `Begin in musubi dachi kamae, houd het tanden gespannen. Bij je eerste inademing voer je een morote chudan yoko uke uit, terwijl je je lichaam laat zakken en je rechtervoet soepel naar voren schuift in een cirkelbeweging naar migi sanchin dachi.
+    title: 'Opening: Musubi Dachi naar Sanchin Dachi',
+    description: `Begin in musubi dachi kamae, houd het tanden gespannen. Bij je eerste inademing voer je gelijktijdig een morote chudan yoko uke uit terwijl je je lichaam laat zakken en je rechtervoet soepel naar voren schuift in een cirkelbeweging naar migi sanchin dachi.
 
-Zorg ervoor dat de hak van de voorvoet op hetzelfde vlak staat als de tenen van de achtervoet. Je voeten moeten de vloer grijpen met tako ashi: spreid eerst je tenen zo wijd mogelijk en grijp dan de vloer, wortel je stevig in de grond.`,
+Wanneer het blok gefocust is, adem je uit in één snelle, krachtige ademhaling, waarbij je het tanden nog meer aanspant.
+
+**Belangrijke punten voor de opening:**
+*   **Meting:** Zonder je voeten te bewegen, laat je de achterste knie zakken naar de voorste hiel. Als het correct is, moeten ze elkaar net raken.
+*   **Tako Ashi:** Grijp de vloer met "octopusvoet" - spreid tenen wijd en grijp dan stevig vast.
+*   **Wortelen:** Voel kracht vanuit de grond; behoud spanning in benen en billen (zoals het ballen van een vuist).
+*   **Uitlijning:** Tenen en knieën naar binnen gedraaid. Knieën gebogen en direct verticaal boven tenen.
+*   **Tanden:** Trek anusspieren/billen naar onder en naar binnen, testikels omhoog. Concentreer ALLE kracht in het tanden.
+*   **Bovenlichaam:** Kin iets naar beneden, ogen recht vooruit gefixeerd (focus in de verte), borst open om ademhaling mogelijk te maken.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Sanchin houding - Belangrijke punten',
-    description: `In sanchin dachi:
-- Je tenen en knieën moeten naar binnen gedraaid zijn
-- De knieën gebogen en direct boven de tenen in een verticale lijn
-- Trek de anusspieren en billen naar onder en naar binnen
-- Concentreer alle kracht in het tanden
-- Houd je kin licht naar beneden
-- Kijk recht vooruit, gefocust in de verte
-- Houd je borst open om je ademhaling niet te beperken
-- Houd je ruggengraat recht, schouders naar beneden, borst open`,
+    title: 'Sanchin Dachi (De Stand)',
+    description: `Zorg ervoor dat je ruggengraat recht blijft, schouders laag en borst open.
+
+**Stand Checklist:**
+1.  **Houding:** Lijn van bovenkant hoofd naar vloer moet eindigen bij achterkant van hiel van voorste voet.
+2.  **Kin:** Iets naar binnen getrokken.
+3.  **Ruggengraat:** Recht.
+4.  **Knieën:** Gebogen en naar binnen gedraaid. Voorkant van dijen naar binnen gedraaid en gespannen.
+5.  **Voeten:** Binnenkant van voet (gearceerde gebied) grijpt stevig de grond. "Geworteld als een boom."
+6.  **Handen/Ellebogen:**
+    *   Bovenarmen dicht bij zijden.
+    *   Ellebogen één vuistbreedte van het lichaam.
+    *   Gebogen in een hoek van 90° (voor grootste kracht).
+    *   Vuisten iets lager dan schouders ("alsof water langzaam tussen de twee punten naar beneden stroomt").
+    *   Vuisten stevig gebald en iets naar buiten gedraaid.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Chudan yoko uke uitvoering',
-    description: `Bij het uitvoeren van chudan yoko uke:
-- Houd de bovenarmen dicht bij de zijkanten
-- Ellebogen één vuist van het lichaam en gebogen in een hoek van 90°
-- De vuisten iets lager dan de schouders
-- De vuisten stevig gebald en licht naar buiten gedraaid van het lichaam
-- Dit is de sanchin houding`,
+    title: 'De Stoot sequentie',
+    description: `In de volgende beweging, terwijl je je onderarm tegen je lichaam schuift, trek je de linkerelleboog zover mogelijk naar achteren, schouder laag houdend, totdat het voelt alsof je schouderbladen elkaar raken. Open de borst en adem diep in terwijl je dit doet.
+
+Dan, terwijl je langzaam uitademt, duw je je vuist naar voren, houd je spieren gespannen en gebruik al je kracht. Concentreer je kracht in de eerste twee knokkels en adem volledig uit, met één snelle "hatt" op het punt van uitvoering. Terwijl je deze "hatt" uitademt, moet je het tanden en alle spieren van het lichaam nog meer aanspannen.
+
+Deze sequentie wordt herhaald:
+1.  Eenmaal in Linker Sanchin Dachi met de rechterhand.
+2.  Nogmaals in Rechter Sanchin Dachi met de linkerhand.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Ademhalingstechnieken',
-    description: `Er zijn vier basis ademhalingstypen in sanchin kata:
-1. Inademen zeer langzaam en diep, dan langzaam en volledig uitademen
-2. Inademen zeer langzaam en diep, snel uitademen
-3. Snel inademen, langzaam en volledig uitademen
-4. Snel inademen, snel uitademen
+    title: 'Beweging (Suri Ashi)',
+    description: `Het is belangrijk om te onthouden bij het bewegen in deze kata, **til nooit je voet van de vloer**. Beweeg altijd in **Suri Ashi** (voet soepel schuiven in een cirkelbeweging).
 
-Sanchin ademhaling is buikademhaling en veroorzaakt niet dat de borst omhoog gaat. Stel je voor dat de lucht niet stopt in de longen, maar doorstroomt naar de onderbuik.`,
+*   **Vooruit/Achteruit bewegen:** Houd spieren gespannen, laat spanning nooit los.
+*   **Achteruit bewegen:** Wees extra voorzichtig om de hiel niet op te tillen (veelgemaakte fout).
+*   **Zoekende stap:** Beweeg je voet "alsof je met je hiel naar iets zoekt."
+*   **Concentratie:** Concentreer op alle spieren van het lichaam gedurende de beweging.
+*   **Beginners:** Moeten focussen op het gebruik van de binnenkant van de voet bij het schuiven.`,
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Miyagi Chojun Sensei ademhaling',
-    description: `De meest beoefende sanchin kata is die van Miyagi Chojun Sensei die type a ademhaling gebruikt. Stel je een luchtstroom voor die je lichaam binnenkomt via de neus en een pad volgt omhoog en rond het hoofd, naar beneden door de nek en rug, onder de lies door naar het tanden, waar het wordt opgerold in een strakke bal.
+    title: 'Ademhalingstechnieken',
+    description: `**Basis Ademhalingstypen in Sanchin:**
+a)  Adem zeer langzaam en diep in, adem dan langzaam en volledig uit. (Miyagi Chojun Sensei stijl)
+b)  Adem zeer langzaam en diep in, adem snel uit.
+c)  Adem snel in, adem langzaam en volledig uit.
+d)  Adem snel in, adem snel uit. (Higaonna Kanryo Sensei stijl)
 
-Bij het uitademen stijgt de lucht langzaam en soepel van het tanden naar de navel, naar de solar plexus, naar de keel en langzaam uit de mond.`,
+**Concept:**
+Ademhaling is buikademhaling. Borst komt niet omhoog. Stel je voor dat lucht naar de onderbuik (Tanden) gaat.
+
+**Visualisaties:**
+*   **Miyagi Stijl (Type A):** Lucht komt binnen via neus -> rond hoofd -> omlaag nek/rug -> onder lies -> rolt op in Tanden. Uitademen: Tanden -> navel -> solar plexus -> keel -> uit mond. Zoals poeder deeltje voor deeltje wegblazen (lange tijd).
+*   **Higaonna Stijl (Type D):** Snelste route naar Tanden. Als een kleine tornado die poeder in één keer wegblaast.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Voetbeweging - Suri ashi',
-    description: `Het is belangrijk om te onthouden dat je bij het bewegen in deze kata nooit je voet van de vloer tilt. Beweeg altijd in suri ashi (je voet soepel schuiven in een cirkelbeweging, vooruit of achteruit).
+    title: 'Shime (Testen & Conditionering)',
+    description: `Controleren op juiste spiercontrole (Instructeursgids). De leraar helpt de student zich te concentreren op het aanspannen van spieren.
 
-Bij het bewegen vooruit of achteruit moet je je spieren gespannen houden, nooit de spanning loslaten, je houding correct houden. Bij het achteruit bewegen moet je extra voorzichtig zijn om je hak niet van de grond te tillen.`,
+**Volgorde:**
+a.  **Voeten:** Druk buitenkant van handen tegen binnenkant van voeten (zorg dat boog niet omhoog komt).
+b.  **Enkels:** Grijp vast om worteling te verzekeren.
+c.  **Dijen:** Sla op zijkanten om concentratie/contractie te controleren.
+d.  **Billen:** Sla om stevigheid te verzekeren.
+e.  **Ruggengraat:** Ga met hand langs ruggengraat om rechtheid te controleren.
+f.  **Buik:** Druk licht op onderbuik.
+g.  **Rug:** Trek vlakke handen langs rug naar beneden.
+h.  **Schouders:** Sla hard (voorzichtig met nek) om stevigheid te controleren.
+i.  **Schouderbladen:** Druk vingers in omliggende spieren.
+j.  **Houding:** Schuif hand van nek langs ruggengraat.
+k.  **Schouders (Nogmaals):** Sla licht en dan met kracht.
+l.  **Check:** Zorg dat houding correct blijft.
+m.  **Weerstand (Stoot):** Duw terug op vuist als student uitstrekt.
+n.  **Weerstand (Blok):** Pas kake uke weerstand toe tijdens chudan yoko uke.
+o.  **Dubbele Handen:** Pas gelijke weerstand toe voor morote technieken.
+p.  **Ademhaling:** Zorg voor coördinatie met beweging.`,
   },
   {
     id: 'step-8',
     number: 8,
-    title: 'Shime training en controle',
-    description: `Shime betekent het sluiten van je lichaam en wordt gebruikt als term voor de Sanchin training met een partner die het sluiten van je lichaam, je houding en je beweging/techniek controleert.
+    title: 'Samenvatting & Geest',
+    description: `**Samenvatting van Kernpunten:**
+*   Behoud te allen tijde de juiste houding.
+*   Gebruik buikademhaling.
+*   Spieren moeten te allen tijde gespannen zijn, nooit ontspannen.
+*   Wees bewust van elk deel van het lichaam.
+*   Ademhaling en beweging moeten volledig gecoördineerd zijn.
+*   Oefen elke dag!
 
-De leraar helpt de student om zich meer te concentreren op het aanspannen van zijn spieren door verschillende controlepunten te controleren: voeten, enkels, dijen, billen, ruggengraat, onderbuik, schouders, enz.`,
+**De Geest van Shime:**
+Geassisteerde training is meer voor het ontwikkelen van de geest dan het lichaam. Het verdragen van de pijn van klappen terwijl je vorm en focus behoudt, bouwt spirituele kracht op. "Wanneer je spiritueel sterk wordt, verzwakt dit het vertrouwen van je tegenstander."
+
+**Twee Instructeurs:**
+Training met één instructeur voor en één achter is veel zwaarder en ontwikkelt concentratie op het hele lichaam tegelijkertijd.`,
   },
-  {
-    id: 'step-9',
-    number: 9,
-    title: 'Belang van Sanchin training',
-    description: `Sanchin kata is altijd beschouwd als de belangrijkste kata in goju-ryu karate training. Elke karate student moet deze kata beoefenen. Door deze kata te beoefenen ontwikkel je niet alleen de juiste ademhalingstechniek, kracht en spieropbouw, maar het is ook essentieel voor het ontwikkelen van de juiste karate geest.
-
-Traditioneel werd sanchin kata als eerste kata aan beginners onderwezen. Miyagi Chojun Sensei beschouwde Sanchin kata als de meest essentiële van alle kata.`,
-  },
-  {
-    id: 'step-10',
-    number: 10,
-    title: 'Effecten van Sanchin training',
-    description: `Tijdens sanchin kata training adem je zeer diep, waardoor de zuurstofvoorziening aan het lichaam en de hersenen toeneemt. Hierdoor worden de hersenen en het zenuwstelsel bijzonder scherp en bewuster.
-
-Deze diepe ademhaling stimuleert het middenrif en helpt de maag, lever, alvleesklier, nieren en darmen actiever te worden. Je spieren zijn in een staat van constante spanning, waardoor ze extreem uitgebreid worden en dit creëert een gevoel van enorme kracht.`,
-  }
 ];
-
-// Add a console log to check if this file is being loaded    
-console.log('sanchin.nl.ts loaded successfully:', sanchinSteps.length, 'steps available'); 

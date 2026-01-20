@@ -15,6 +15,7 @@ export interface KataStep {
   number: number;
   title: string;
   description: string;
+  details?: string;
   image?: string;
   titleTranslationKey?: string;
   descriptionTranslationKey?: string;
@@ -28,6 +29,7 @@ interface KataStepsProps {
 }
 
 const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, steps, showImages = false }) => {
+  // ... (safely get current step data or fallback to default) ...
   // ... (existing code omitted for brevity until return) ...
   // Wait, I cannot omit code in replace_file_content if I am targeting a large chunk.
   // I will just replace the rendering part and the interface part separately?
@@ -234,10 +236,15 @@ const InteractiveKataSteps: React.FC<KataStepsProps> = ({ kataId, kataName, step
               <div className="flex items-center gap-2">
                 <h3 className="text-xl font-semibold">{currentStepData.title}</h3>
               </div>
-              <div className="relative">
+              <div className="relative space-y-4">
                 <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">
                   {currentStepData.description}
                 </p>
+                {currentStepData.details && (
+                  <div className="mt-4 p-4 bg-gray-50 dark:bg-gray-800/50 rounded-lg border-l-4 border-primary/30 italic text-sm text-gray-600 dark:text-gray-400">
+                    {currentStepData.details}
+                  </div>
+                )}
               </div>
             </div>
           </motion.div>

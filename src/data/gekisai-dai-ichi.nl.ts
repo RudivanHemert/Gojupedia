@@ -4,70 +4,74 @@ export const gekisaiDaiIchiSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Omhoog blok (jodan uke)',
-    description: `Stap naar voren met de rechtervoet vanuit musubi dachi, draai op de bal van beide voeten en voer het blok gelijktijdig uit. Je houding moet twee voeten breed zijn. De blokkerende arm beweegt dicht langs het lichaam, aanvankelijk horizontaal over het middenrif, dan recht omhoog, draaiend alleen op het laatste moment. Houd je schouders zo ontspannen mogelijk. De arm is gefocust op een vuistbreedte van het voorhoofd. De hikite arm gaat aanvankelijk omhoog, blijft hoog tijdens de lichaamsdraai en wordt dan actief en krachtig naar de zijkant getrokken. Focus krachtig. Wanneer je blokkeert, is je gewicht gelijkmatig verdeeld over beide voeten. Gevorderde beoefenaars kunnen de elleboog licht naar beneden draaien tijdens kime en de techniek uitvoeren met een wat rondere beweging.`,
+    title: 'Opwaartse wering (jodan uke)',
+    description: `Gekisai dai ichi is in 1940 gemaakt door Chojun Miyagi (zie inleiding). Gekisai dai ichi betekent “aanvallen en vernietigen één”. De kata bevat verschillende stoten, weringen, slagen en trappen, uitgevoerd op verschillende hoogten. Belangrijk bij de uitvoering is dat de aandacht gaat naar de correcte uitvoering van elke techniek afzonderlijk. De meeste technieken in deze kata moeten worden uitgevoerd met snelheid en kracht, alleen de middenhoge wering (chudan uke) met muchimi. Gekisai dai ichi leert je onder andere mikken naar vitale punten, geeft je een goede en krachtige kime en traint de afwisseling tussen spanning en ontspanning.
+
+Stap vanuit musubi dachi met de rechtervoet recht vooruit en draai op de bal van beide voeten en voer gelijktijdig de wering uit. De lengte van je stand is twee voeten. De werende arm gaat vlak langs het lichaam en aanvankelijk horizontaal voor het middenrif langs en daarna recht omhoog en draait pas op het laatste moment. Zorg voor zo min mogelijk spanning in je schouders. De arm wordt gefocust op een vuist-breedte van het voorhoofd. De hikite-arm gaat aanvankelijk omhoog, blijft hoog tijdens de draai van het lichaam en wordt vandaar actief en krachtig naar de zij getrokken. Focus krachtig. Als je blokt is je gewicht verdeeld over beide voeten. Gevorderden kunnen tijdens de kime de elleboog iets naar beneden draaien en de techniek uitvoeren met een wat rondere beweging.`,
   },
   {
     id: 'step-2',
     number: 2,
     title: 'Hoge stoot (jodan zuki)',
-    description: `Duw af door de voorvoet in de grond te drukken en stap recht in han zenkutsu dachi (drie voeten lang). Het bekken draait niet mee met de stoot. Tijdens de kime van de stoot is ongeveer 70% van je gewicht op het voorste been. De stoot is op ooghoogte. Gebruik ook een krachtige hikite en klem je tanden tijdens kime. Gebruik voornamelijk de kracht van de afzet en beweging, houd je schouders zo lang mogelijk ontspannen.`,
+    description: `Zet af door de voorste voet in de grond te drukken en stap rechtdoor in han zenkutsu dachi (drie voeten lang). Het bekken draait niet in bij de stoot. Tijdens de kime van de stoot is ongeveer 70% van je gewicht op het voorste been. De stoot is op ooghoogte. Gebruik ook de krachtige hikite en sluit je tanden tijdens de kime. Gebruik vooral de kracht van de afzet en de verplaatsing, houd je schouders zo lang mogelijk ontspannen.`,
     image: '/Images/Kata/gekisai-dai-ichi-1.png'
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Lage veeg blok (gedan barai)',
-    description: `Stap terug met je rechterbeen in shiko dachi, open gelijktijdig je bekken en laat het zakken. Blijf naar de zijkant kijken. De hikite wordt krachtig teruggetrokken (trek je elleboog naar achteren en naar beneden). Tot kime is er geen spanning in de arm, en de vuist eindigt een vuistbreedte van de knie (in bunkai wordt het lage blok uitgevoerd als een aanval op de elleboog en eindigt verder van de knie). Tijdens kime blijft het bekken open, maar de tanden klemmen.
+    title: 'Lage vegende wering (gedan barai)',
+    description: `Stap met je rechterbeen terug in shiko dachi en open gelijktijdig je bekken en laat het vallen. Je blijft naar de zijkant kijken. De hikite wordt krachtig teruggetrokken (trek je elleboog naar achteren en naar beneden). Tot de kime is er geen spanning in de arm en de vuist eindigt een vuist-breedte van de knie (in de bunkai wordt de lage wering uitgevoerd als een aanval naar de elleboog en eindigt verder van de knie). Tijdens de kime blijft het bekken open, maar het tanden sluit.
 
-Opmerking: In shiko dachi is de kruin van het hoofd omhoog en de kin licht ingetrokken (oren opgeheven). De rug vormt een "S", de schouderbladen zijn bij elkaar en wijzen naar beneden. Het bekken is open en dus naar voren gekanteld, het scheenbeen staat loodrecht op de vloer en de knieën staan direct boven de voeten (aanvankelijk moeten veel karateka hun knieën en dijen actief naar buiten duwen hiervoor). De heup is iets hoger dan de knieën (water zou langzaam langs de dij naar beneden stromen). De voeten (vooral de grote teen en de binnenkant van de voet) worden krachtig in de grond gedrukt en grijpen de vloer tijdens kime.`,
+Opmerking. In shiko dachi is de kruin omhoog en de kin iets in. De rug maakt een “S”, de schouderbladen liggen tegen elkaar aan en zijn naar beneden gericht. Het bekken is open en dus naar voren gekanteld, het scheenbeen staat loodrecht op de vloer en de knieën staan recht boven de voeten (aanvankelijk moeten veel karateka’s hiervoor de knieën en het dijbeen actief naar achteren duwen). De heup is iets hoger dan de knieën (water zou langzaam naar beneden stromen over het dijbeen). De voeten (vooral de grote teen en de binnenzijde van de voet) worden krachtig in de grond gedrukt en grijpen de vloer tijdens de kime.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Midden blok (chudan uke)',
-    description: `Trek de linkervoet naar de andere voet en dan in een cirkel naar voren (enkels passeren elkaar) in sanchin dachi. De vuist van de blokkerende hand begint ver onder de elleboog van de andere arm. De techniek wordt uitgevoerd met muchimi. Deze beweging wordt uitgevoerd met een vrij grote cirkelbeweging, en de voet en arm bewegen gelijktijdig.`,
+    title: 'Middenhoge wering (chudan uke)',
+    description: `Trek de linkervoet naar de andere voet en daarna in een cirkel naar voren (de enkels gaan langs elkaar heen) in sanchin dachi. De vuist van de werende hand begint ver onder de elleboog van de andere arm. De techniek wordt uitgevoerd met muchimi. Deze beweging wordt uitgevoerd met een vrij grote circulaire beweging en de voet en de arm bewegen gelijktijdig.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Voorwaartse trap (mae geri), elleboog stoot en stamp (hiji ate en fumikomi geri), rugvuist stoot (uraken uchi), laag blok (gedan barai) en midden omgekeerde stoot (chudan gyaku zuki)',
-    description: `De technieken in deze reeks (behalve de elleboog stoot en stamp) moeten apart en krachtig worden uitgevoerd. Het is belangrijk om te ontspannen (tussendoor) na elke techniek. In de klassieke uitvoering van Gekisai Dai Ichi is er een tel stop voor de rugvuist stoot, waardoor het lichaam beter kan ontspannen. Het ritme is 1-2 en 1-2-3.
+    title: 'Voorwaartse trap (mae geri), elleboogstoot en stamp (hiji ate en fumikomi geri), uraken uchi (knokkelslag), gedan barai en middenhoge tegengestelde stoot (chudan gyaku zuki)',
+    description: `De technieken in deze serie (behalve de elleboogstoot en de stamp) moeten afzonderlijk en krachtig worden uitgevoerd. Het is belangrijk om (tussendoor) te ontspannen na elke techniek. Bij de klassikale uitvoering van Gekisai dai ichi zit een telstop voor de knokkelslag, hierdoor kan het lichaam beter worden ontspannen. Het ritme is 1-2 en 1-2-3.
 
-Behoud het blok en hikite tijdens de voorwaartse trap. De trap – til de knie hoog tot de dij parallel is aan de vloer - is keage (d.w.z. zonder bekken kanteling en heup rotatie). De trap is recht naar voren met de bal van de voet naar de lies. Voor de trap zak je licht op je standbeen, en tijdens de trap wordt het lichaam volledig ondersteund door het standbeen. Je mag je bekken licht intrekken (niet nodig) en vergrendel het niet. Na de trap ontspan, trek het onderbeen actief terug tot het onder de knie is. Vanaf daar wordt het naar beneden gestampt in zenkutsu dachi.
+Behoud het blok en hikite tijdens de voorwaartse trap. De trap – knie hoog heffen totdat het dijbeen evenwijdig is aan de vloer - is keage (dus zonder bekkenkanteling en heupdraai). De trap is recht naar voren met de bal van de voet naar het kruis. Voor de trap zink je iets in op je standbeen en tijdens de trap steunt het lichaam volledig op het standbeen. Het bekken mag je iets instrekken (hoeft niet) en zet je niet vast. Na de trap ontspan je, trek het onderbeen actief terug totdat hij onder de knie is. Vandaaruit wordt hij neergestampt in zenkutsu dachi.
 
-De elleboog stoot gaat voornamelijk naar voren, de vuist eindigt bij de kaak. Trek de hikite krachtig terug. De elleboog stoot en stamp worden samen uitgevoerd en kunnen, afhankelijk van het niveau van de karateka, op drie manieren worden gedaan:
-1. De voet wordt naar beneden gestampt en de terugslag van de grond wordt gebruikt in de elleboog stoot. Het ritme is 1 ….. 2.
-2. De voet wordt naar beneden gestampt en onmiddellijk daarna wordt de elleboog stoot uitgevoerd. Het ritme is pam-bam.
-3. De stamp en elleboog stoot worden gelijktijdig uitgevoerd. Vanuit hara gaat de kracht gelijktijdig naar de voet en de elleboog. Dit wordt "splijtende kracht" genoemd.
+De elleboogstoot gaat vooral naar voren, de vuist eindigt bij de kaak. Trek de hikite krachtig terug. De elleboogstoot en de stamp worden gezamenlijk uitgevoerd en afhankelijk van het niveau van de karateka kan dit op drie manieren:
+1. De voet wordt neergestamt en de kaatsing van de grond wordt gebruikt in de elleboogstoot. Het ritme is 1 ….. 2.
+2. De voet wordt neergestamt en meteen daarna wordt de elleboogstoot uitgevoerd. Het ritme in pam-bam.
+3. De stamp en de elleboogstoot worden gelijktijdig uitgevoerd. Vanuit hara gaat de kracht gelijktijdig naar de voet als naar de elleboog. Dit heet “splitting power”.
 
-De rugvuist stoot wordt geïnitieerd vanuit het bekken, en tijdens de impuls blijven de schouders, elleboog en pols ontspannen. De techniek is een zweepslag (dus er is geen kime) naar jinchu (vitale punt in het midden van de bovenlip). Na de techniek klapt de vuist terug en de elleboog maakt een hoek van 90 graden.
+De knokkelslag wordt ingezet vanuit het bekken en tijdens de impuls blijven de schouders, elleboog en pols ontspannen. De techniek is een zweepslag (er is dus geen kime) naar jinchu (vitaal punt bij het midden van de bovenlip). Na de techniek klapt de vuist terug en maakt de elleboog een hoek van 90 graden.
 
-Het lage veeg blok maakt een relatief kleine zwaai en draait rond de elleboog. Tijdens uitvoering is er geen spanning in de schouders en elleboog. Tijdens focus draait de arm licht. De hikite is krachtig.
+De lage vegende wering maakt een relatief kleine zwaai en draait om de elleboog. Tijdens de uitvoering is er geen spanning in de schouders en de elleboog. Tijdens de focus draait de arm iets. De hikite is krachtig. De tegengestelde stoot wordt uitgevoerd met heel veel kracht en snelheid. De beweging begint door het achterste been te strekken. Daardoor draait het bekken in; dit wordt gebruikt voor de krachtige impuls van de stoot, gefocust en uitgevoerd naar suigetsu. Gebruik ook de krachtige en snelle hikite.
 
-De omgekeerde stoot wordt uitgevoerd met veel kracht en snelheid. De beweging begint door het achterste been te strekken. Dit zorgt ervoor dat het bekken naar binnen draait; dit wordt gebruikt voor de krachtige impuls van de stoot, gefocust en uitgevoerd naar suigetsu. Gebruik ook een krachtige en snelle hikite. Kiai!`,
+Kiai!
+
+Opmerking. In zenkutsu dachi is de kruin omhoog, de kin iets in, de rug recht en de voeten drukken in de grond. De knie van de voorste voet is boven de voet, als je over je knie heen kijkt zie je de tenen net niet. De stand is ongeveer vier voeten lang. De voeten zijn min of meer ter hoogte van de zijkanten van het bekken; je staat in twee lijnen.`,
     image: '/Images/Kata/gekisai-dai-ichi-2.png'
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Voet veeg (ashi barai) en meshand stoot (shuto uchi)',
-    description: `Trek de achtervoet naar de andere en maak een kleine voet veeg; de veeg voet behoudt lang contact met de grond en passeert de andere niet. Focus op de zijkant van de binnenkant van de voet, zorg ervoor dat je laag veegt. Stamp de voet naar beneden in hachiji dachi (= 'natuurlijke houding') en gebruik de terugslag van de grond voor de impuls naar de meshand stoot; gebruik ook een krachtige hikite (blijft een vuist). Tijdens de veeg trek je ook je schouderbladen uit elkaar en licht naar voren (de rug blijft recht, je blijft naar voren kijken) en gebruik ook het terugklappen van de schouderbladen in de meshand stoot. In de meshand stoot zijn de schouders en ellebogen vrij van spanning. De techniek is snel en wordt kort gefocust op ooghoogte ("zware stoot"). In de meshand zijn de vingers recht en de gebogen duim rust tegen de zijkant van de basis van de wijsvinger. Focus ook op het raakpunt met de hypothenar eminence.`,
+    title: 'Voetveeg (ashi barai) en handpalm-slag (shotei uchi)',
+    description: `Trek de achterste voet richting de andere en maak een kleine voetveeg; de vegende voet houd aanvankelijk contact met de grond en passeert de andere niet. Focus op de zijkant van de binnenkant van de voet. Stamp de voet neer in hachiji dachi (= ‘natuurlijke stand’) en gebruik de weerkaatsing van de grond voor de impuls naar de handpalm-slag; gebruik ook de krachtige hikite (blijft een vuist). Trek tijdens de veeg ook je schouderbladen uit elkaar en wat naar voren (de rug blijft recht, je blijft naar voren kijken) en gebruik ook het terugspringen van de schouderbladen in de techniek. Bij de handpalm-slag zijn de schouders en ellebogen vrij van spanning. De techniek is snel en wordt kort gefocust op ooghoogte (“zware slag”). Bij de handpalm zijn de vingers recht en de gebogen duim ligt tegen zijkant van de basis van de wijsvinger. Focus ook op het raakpunt met de pinkmuis.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Dubbele stoot (awase zuki): midden en omgekeerde stoot (chudan en ura zuki)',
-    description: `De dubbele stoot is een kleine en gesloten vorm van tora guchi. Stap vanuit hachiji dachi in een rechte lijn naar buiten (licht diagonaal) in zenkutsu dachi en trek je hand actief naar je zijkant (alsof je iemand meesleept) (knokkels blijven omhoog). Strek je been en zet je hele lichaam achter de dubbele stoot; gebruik vooral de kracht van de grond en je rugspieren (de vuist van de omgekeerde stoot is boven de knie). Stap naar voren met je linkerbeen en stijg niet op tijdens de voetwissel (voeten staan kort naast elkaar; er is een moment vergelijkbaar met zitten op het toilet). Tijdens de voetwissel voer je een midden naar binnen blok (chudan uchi uke) uit met de rechterhand en een midden naar buiten blok (chudan soto uke) met de linkerhand, kijkend (dus) naar de achterkant van beide vuisten. Stap terug en trek gelijktijdig de vuisten krachtig terug naar de zijkant. Gebruik de terugslag van de grond, het strekken van het been/bekken rotatie en de rugspieren voor nog een krachtige dubbele stoot (awase zuki: ura zuki (omgekeerde stoot) en chudan zuki (midden stoot)). Voor de vuist die de midden stoot zal maken, is de hikite aan de zijkant met knokkels omhoog tijdens de wissel. De ura zuki (knokkels naar beneden tijdens de wissel) is naar de zevende rib (denko), de chudan zuki naar de 5e intercostale ruimte, net onder de tepel (ganka).
+    title: 'Dubbele stoot (awase zuki); middenhoge en omgekeerde stoot (chudan en ura zuki)',
+    description: `De dubbele stoot is een kleine en gesloten vorm van de tora guchi. Stap vanuit hachiji dachi in een rechte lijn naar achteren (iets schuin) in zenkutsu dachi en trek je hand actief (alsof je iemand meesleurt) in je zij (de knokkels blijven naar boven). Strek je been en zet je hele lichaam achter de dubbele stoot; gebruik vooral de kracht vanuit de grond en je rugspieren (de vuist van de omgekeerde stoot is boven de knie). Stap met je linkerbeen naar voren en kom niet omhoog tijdens het wisselen van de voeten (de voeten staan even naast elkaar; er is een moment vergelijkbaar met op de wc gaan zitten). Voer tijdens het wisselen van de voeten met de rechterhand een middenhoge binnenwaartse wering (chudan uchi uke) uit en met de linkerhand een middenhoge buitenwaartse wering (chudan soto uke), waarbij je (dus) tegen de rug van beide vuisten aankijkt. Stap terug en trek gelijktijdig de vuisten krachtig terug in de zij. Gebruik het weerkaatsen van de grond, het strekken van het been/indraaien bekken en de rugspieren voor nog een krachtige dubbele stoot (awase zuki: ura zuki (omgekeerde stoot) en chudan zuki (middenhoge stoot). Van de vuist die de middenhoge stoot gaat maken, is tijdens de wissel de hikite in de zij met de knokkels naar boven. De ura zuki (knokkels naar beneden tijdens de wissel) is naar de zevende rib (denko), de chudan zuki naar de 5e tussenribruimte, net onder de tepel (ganka).
 
-Opmerking: Beginners kunnen ook de chudan soto uke uitvoeren als een 'gewone' chudan uke, waarbij je naar de vingerkant van de vuist kijkt.`,
+Opmerking: beginners mogen de chudan soto uke ook als een ‘gewone’ chudan uke uitvoeren, waarbij je dus tegen de vingerzijde van de vuist kijkt.`,
     image: '/Images/Kata/gekisai-dai-ichi-3.png'
   },
   {
     id: 'step-8',
     number: 8,
     title: 'Afsluiting',
-    description: `Open de linkerhand en plaats de rechtervuist in de linker met een kleine cirkelbeweging. Draai de linkervoet naar buiten, sluit aan met de rechtervoet in musubi dachi en draai gelijktijdig de handen. Sluit de kata af.`,
+    description: `Open de linkerhand en leg de rechtervuist met een kleine circulaire beweging in de linker. Draai de linkervoet naar buiten, sluit met de rechtervoet aan in musubi dachi en draai gelijktijdig de handen. Sluit de kata af.`,
   }
 ];
 

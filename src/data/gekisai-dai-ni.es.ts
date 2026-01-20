@@ -4,83 +4,36 @@ export const gekisaiDaiNiSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introducción y diferencias con Gekisai Dai Ichi',
-    description: `Gekisai Dai Ni significa 'atacar y destruir 2' y fue desarrollado por Chojun Miyagi en el mismo período y por la misma razón que Gekisai Dai Ichi. La kata es muy similar a Gekisai Dai Ichi, pero en la segunda parte se usan más técnicas de mano abierta.
+    title: 'Bloqueo de tracción medio-alto (chudan hiki uke)',
+    description: `Gekisai dai ni significa "atacar y destruir 2" y la kata también fue desarrollada por Chojun Miyagi, en el mismo período y por la misma razón que Gekisai dai ichi. Gekisai dai ni es muy similar a Gekisai dai ichi, solo que en la segunda parte de la kata aparecen más técnicas de mano abierta. Las diferencias con Gekisai dai ichi son: (1) si la kata se realiza clásicamente a la cuenta, la patada frontal, el golpe de codo, el golpe de nudillos, el bloqueo bajo de barrido y el golpe invertido se realizan en una sola cuenta (el ritmo es 1 – 2 (codo y pisotón) – 3 – 4 – 5); (2) el segundo bloqueo medio-alto es un bloqueo de tracción con la mano abierta (hiki uke); (3) se añaden bloqueos de tracción derecho e izquierdo (hiki uke) y (4) la técnica final no es un golpe doble potente en un zenkutsu dachi lineal, sino un tora guchi con muchimi, en nekoashi dachi, saliéndose de la línea de ataque. Además de los puntos de enfoque que aprendes en Gekisai dai ichi, esta kata te enseña la ejecución de bloqueos con la mano abierta y el cambio de enfoque en varios bloqueos. Solo se tratan las técnicas que difieren de Gekisai dai ichi.
 
-Las principales diferencias con Gekisai Dai Ichi son:
-1. Cuando se ejecuta clásicamente al contar, la patada frontal, golpe de codo, golpe de nudillos, bloqueo bajo barrido y puñetazo inverso están en una cuenta (ritmo: 1-2 (codo y pisada) - 3-4-5)
-2. El segundo bloqueo medio-alto es un bloqueo de tracción de mano abierta (hiki uke)
-3. Se añaden bloqueos de tracción derecha e izquierda (hiki uke)
-4. La técnica final no es un puñetazo doble poderoso en zenkutsu dachi, sino un tora guchi con muchimi en nekoashi dachi`,
+El movimiento se realiza con muchimi, el pie se mueve en un movimiento circular (tobillo a lo largo del tobillo), simultáneamente con la mano. La mano bloqueadora comienza en ángulo bajo el codo de la otra. La potencia se concentra en el lado del dedo meñique de la mano durante el bloqueo. Este es un movimiento circular; solo al final del bloqueo se tira de la mano linealmente unos 5 centímetros hacia el cuerpo desde el codo; el codo entra entonces en contacto con la caja torácica. Concéntrate en el pulgar y el índice al tirar. El hikite es también una mano abierta con los dedos hacia arriba.`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Primera parte - igual que Gekisai Dai Ichi',
-    description: `La primera parte de Gekisai Dai Ni es idéntica a Gekisai Dai Ichi:
-- Bloqueo hacia arriba (jodan uke)
-- Puñetazo alto (jodan zuki)
-- Bloqueo bajo barrido (gedan barai)
-- Bloqueo medio (chudan uke)
-
-Estas técnicas se realizan con los mismos puntos de atención que en Gekisai Dai Ichi.`,
+    title: 'Bloqueo de tracción derecha – izquierda (migi hidari hiki uke)',
+    description: `Estos dos bloqueos de tracción se realizan ciertamente de forma rápida, pero aún por separado y con muchimi. Son similares al primer bloqueo de tracción, solo que más rápidos. También aquí el tobillo va a lo largo del tobillo, simultáneamente con los movimientos de la mano que también comienzan en ángulo bajo el codo. El pie derecho se coloca en el suelo, soporta brevemente cerca del 50% del peso corporal y, una vez ejecutado completamente el bloqueo, se impulsa para realizar el mismo movimiento circular de regreso. Durante la patada se mantiene el bloqueo y la mano - a diferencia de Gekisai dai ichi y la primera de ni - está por tanto abierta. Se tira hacia atrás con la misma fuerza para el golpe de codo, gira en el proceso y se convierte en un puño.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Bloqueo de tracción medio-alto (chudan hiki uke)',
-    description: `El movimiento se realiza con muchimi, el pie se mueve en un movimiento circular (tobillo a lo largo del tobillo), simultáneamente con la mano. La mano bloqueadora comienza en ángulo bajo el codo del otro brazo. El poder se enfoca en el lado del meñique de la mano durante el bloqueo.
+    title: 'Tora guchi “Boca de Tigre”',
+    description: `Bloqueo de control alto con el dorso de la mano (jodan haishu osae uke), un bloqueo de gancho hacia adentro (uchi kake uke) y un empuje alto y bajo (jodan y gedan oshi).
 
-Este es un movimiento circular; solo al final del bloqueo se tira de la mano linealmente unos 5 centímetros hacia el cuerpo desde el codo; el codo entonces viene contra la caja torácica. Enfócate en el pulgar y el índice al tirar. El hikite también es una mano abierta con los dedos hacia arriba.`,
+Desde hachiji dachi (postura natural) das un paso en línea recta diagonalmente hacia atrás y acercas el otro pie recto en nekoashi dachi. El movimiento se realiza con muchimi. Inhala durante los bloqueos, exhala durante el empuje. Concéntrate en el tanden, los músculos grandes de la espalda y el lateral de las manos durante los bloqueos; durante el empuje concéntrate en el tanden, los músculos grandes de la espalda, las palmas y el pulgar. Durante los bloqueos el punto de enfoque cambia: para el bloqueo alto, del lado del meñique del brazo a la parte superior de la muñeca; para la técnica baja, del lado de tu muñeca a la palma. Durante el empuje la palma está abierta y el pulgar unido. El tanden permanece cerrado durante el empuje, pero la pelvis se mantiene en la postura natural. La mano superior termina a la altura de la clavícula/garganta, la inferior a la altura de tu muslo.
+
+Durante el movimiento, toda la planta de ambos pies permanece en el suelo. Por lo tanto, coloca tu pie delantero completamente en el suelo antes del movimiento. Ten en cuenta que la mano que va a realizar el bloqueo alto comienza en ángulo bajo el codo del otro brazo.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Patada frontal, golpe de codo y golpe de nudillos (mae geri, hiji ate, uraken uchi)',
-    description: `Estas técnicas se realizan en una cuenta (ritmo: 1-2 (codo y pisada) - 3-4-5). La patada frontal se realiza con un bloqueo de mano abierta (a diferencia de Gekisai Dai Ichi donde la mano permanece como puño).
+    title: 'Cierre y observaciones',
+    description: `Antes de cerrar, gira como un todo desde el tanden hacia el frente; los pies no se despegan del suelo.
 
-El bloqueo se mantiene durante la patada y la mano - a diferencia de Gekisai Dai Ichi - permanece abierta. Se tira hacia atrás igual de fuerte para el golpe de codo, gira en el proceso y se convierte en puño.`,
-  },
-  {
-    id: 'step-5',
-    number: 5,
-    title: 'Bloqueo de tracción derecha - izquierda (migi hidari hiki uke)',
-    description: `Estos dos bloqueos de tracción se realizan rápidamente, pero aún por separado y con muchimi. Son similares al primer bloqueo de tracción, solo más rápidos. Aquí también el tobillo va a lo largo del tobillo, simultáneamente con los movimientos de la mano que también comienzan en ángulo bajo el codo.
+Observación. En neko ashi dachi la coronilla está hacia arriba, la barbilla ligeramente hacia adentro y la espalda recta. Tu peso descansa principalmente en el pie trasero (90%); de tu pie delantero, los dedos y la bola tocan ligeramente el suelo, como si flotaran. El talón del pie trasero y la bola del pie delantero están a lo largo de una línea imaginaria recta (o desde musubi dachi el pie delantero va derecho hacia adelante). La rodilla del pie delantero cae ligeramente hacia adentro.
 
-El pie derecho se coloca en el suelo, lleva brevemente alrededor del 50% del peso corporal y, después de que el bloqueo se ejecuta completamente, empuja para el mismo movimiento circular de regreso.`,
-  },
-  {
-    id: 'step-6',
-    number: 6,
-    title: 'Tora guchi "Boca de Tigre" - bloqueo controlador alto y empuje',
-    description: `Desde hachiji dachi (postura natural) das un paso en línea recta diagonalmente hacia atrás y tiras del otro pie derecho en nekoashi dachi. El movimiento se realiza con muchimi.
-
-La técnica consiste en:
-- Bloqueo controlador alto con el dorso de la mano (jodan haishu osae uke)
-- Bloqueo de gancho hacia adentro (uchi kake uke)
-- Empuje alto y bajo (jodan y gedan oshi)
-
-Respira durante los bloqueos, exhala durante el empuje. Enfócate en los dientes, músculos grandes de la espalda y lado de las manos durante los bloqueos; durante el empuje enfócate en los dientes, músculos grandes de la espalda, palmas y pulgar.`,
-  },
-  {
-    id: 'step-7',
-    number: 7,
-    title: 'Puntos de atención para nekoashi dachi',
-    description: `En neko ashi dachi la corona está arriba, la barbilla ligeramente adentro y la espalda recta. Tu peso descansa principalmente en el pie trasero (90%); de tu pie delantero los dedos y la bola tocan ligeramente el suelo, como si flotaran.
-
-El talón del pie trasero y la bola del pie delantero están a lo largo de una línea imaginaria recta (o desde musubi dachi el pie delantero va derecho hacia adelante). La rodilla del pie delantero cae ligeramente hacia adentro.
-
-Durante el movimiento toda la planta de ambos pies permanece en el suelo. Por lo tanto, coloca tu pie delantero completamente en el suelo antes del movimiento.`,
-  },
-  {
-    id: 'step-8',
-    number: 8,
-    title: 'Cierre',
-    description: `Lleva la mano izquierda hacia arriba y luego mueve ambas manos en un movimiento circular hacia abajo y coloca la mano derecha en la izquierda, palmas hacia arriba.
-
-Empuja poderosamente con la bola del pie delantero mientras das un paso hacia atrás desde neko ashi dachi a musubi dachi. Giras tus manos y cierras la kata.
-
-Antes del cierre, gira como un todo desde los dientes hacia el frente; los pies no se despegan del suelo.`,
+Lleva la mano izquierda hacia arriba y luego mueve ambas manos en un movimiento circular hacia abajo y coloca la mano derecha en la izquierda, las palmas hacia arriba. Impúlsate con fuerza con la bola del pie delantero mientras das un paso atrás desde neko ashi dachi a musubi dachi. Giras las manos y cierras la kata.`,
   }
 ];
 

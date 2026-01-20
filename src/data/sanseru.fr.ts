@@ -4,97 +4,83 @@ export const sanseruSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introduction et signification de Sanseru',
-    description: `Sanseru signifie "36" et se réfère aux 36 techniques dans la kata. Cette kata a été introduite à Okinawa par Kanryo Higaonna. Il a appris la kata de Ryu Ryu Ko. Le créateur original de la kata est inconnu.
+    title: 'Morote chudan uke, chudan zuki et chudan kake uke',
+    description: `Sanseru a été introduit à Okinawa par Kanryo Higaonna. Il a appris le kata de Ryu Ryu Ko. Le créateur original du kata est inconnu mais on soupçonne que ce kata provient de la "Boxe du Chien" (Dog Kung Fu). C'est (aussi) un style de Kung Fu du sud, avec la caractéristique particulière d'avoir pas mal de techniques pour le combat à courte distance comme les projections, les clés articulaires et le combat au sol. Sanseru signifie '36' : 6 (œil, oreille, nez, langue, corps et esprit) x 6 (couleur, voix, odeur, goût, toucher et justice).
 
-Sanseru est une kaishugata (forme de main ouverte) et est caractérisée par de nombreuses techniques de main ouverte, y compris shotei zuki (coups de paume) et nukite zuki (coups de main lance). La kata développe la puissance, la vitesse et la précision dans l'exécution des techniques.`,
+Il existe une anecdote importante à propos de Sanseru. En 1915, Chojun Miyagi s'est rendu à Fuzhou en Chine, où Kanryo avait vécu et s'était entraîné. Là, il a rencontré un autre élève de Ryu Ryu Ko et il a montré les katas qu'il avait appris de Kanryo, sauf Sanseru. L'élève était impressionné mais a aussi dit que Sanseru manquait. Miyagi a dit qu'il l'avait appris, mais ne l'avait pas démontré parce que c'était son kata le moins préféré. Grâce à cet incident, nous savons deux choses importantes : Kanryo a appris les 9 katas de Ryu Ryu Ko et il n'a supprimé aucun kata du système.
+
+Tout comme au début de Shisochin, avec ces techniques vous devez avoir l'image d'un tigre traquant lentement sa proie puis frappant soudainement. Donc bien s'ancrer et se centrer d'abord, puis frapper. Le blocage suit la frappe immédiatement, comme une balle rebondissant sur le mur. Le coude reste au même endroit, à une largeur de poing du corps. Vous utilisez à peine vos muscles du bras pour le blocage. Gardez le bras gauche tendu après la troisième frappe.`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Début et morote chudan shotei uke',
-    description: `Depuis musubi dachi, vous vous enfoncez et faites un pas avec un mouvement circulaire avec la jambe droite dans sanchin dachi. Simultanément, les mains montent, glissent l'une sur l'autre au niveau du plexus solaire vers le côté et font un mouvement circulaire vers l'avant en passant les coudes dans morote chudan shotei uke.
+    title: 'Hazushi waza (technique de libération)',
+    description: `Ouvrez la main droite et tournez la main avec un petit cercle vers l'avant, le coude reste plus ou moins en place. Tirez simultanément l'autre main vers le côté (les deux avec muchimi), la main étant toujours un poing.
 
-Les mains sont plus verticales qu'horizontales. Les coudes sont près du corps (environ un poing de distance) et forment un angle de 90 degrés. Cette technique développe la force et la stabilité dans les bras et les épaules.`,
+Ouvrez le poing tout en frappant simultanément le bras supérieur droit, juste au-dessus du coude (comme si vous attrapiez quelque chose), doigts vers le haut, pouce vers le bas. Exécutez le hazushi waza puissamment et rapidement.
+
+Reculez avec la jambe droite en zenkutsu dachi et tirez simultanément le bras droit vers l'arrière (la main ouverte devient un poing). Le bras/main gauche se déplace puissamment le long du bras en diagonale vers l'avant ; comme si vous dénudiez la couche protectrice en plastique d'un fil électrique. Cette main termine au-dessus du genou.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Exécution de Nukite zuki',
-    description: `Vous vous déplacez lentement, circulairement (cheville le long de la cheville) et avec muchimi. Si vous êtes ancré, vous frappez soudainement avec un nukite zuki avec beaucoup de puissance, de vitesse et de précision. La main qui va frapper est d'abord tirée avec force dans votre côté, puis elle jaillit.
+    title: 'Tsukami et nage waza (technique de saisie et de projection)',
+    description: `Avancez en ligne droite avec la jambe droite en zenkutsu dachi, penchez-vous en avant (gardez le dos droit) et puisez vers le dessous du genou d'un adversaire imaginaire de même taille, après quoi vous le tirez vers vous.
 
-Dans le nukite zuki, la main est une lance : le pouce presse contre la souris du côté de l'index, la paume et les doigts sont tendus. Le nukite est vers ganka, l'espace intercostal entre la cinquième et sixième côte au niveau de suigetsu.`,
+Immédiatement/simultanément suivi d'une frappe de paume vers le genou supérieur imaginaire de l'adversaire. Les bras finissent légèrement croisés, les poignets l'un au-dessus de l'autre.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Hazusu wasa et morote gedan barai',
-    description: `Depuis morote chudan shotei uke, les mains font un petit mouvement circulaire vers le bas, se rejoignent devant l'abdomen inférieur et montent ensemble avec un mouvement de pelle, paumes vers le haut. Au niveau de votre clavicule, les mains deviennent des poings, auriculaire en premier, tout avec muchimi.
-
-Pendant que les mains montent, le souffle descend, le bassin se ferme, les bras se recourbent et les omoplates s'écartent. Vous faites un pas en arrière avec force dans zenkutsu dachi et ouvrez simultanément votre bassin et relâchez la tension dans vos épaules et vos bras.`,
+    title: 'Ippon mae geri (double coup de pied frontal)',
+    description: `Les mains tournent légèrement, viennent l'une au-dessus de l'autre et pointent vers l'avant, gardez cette position pendant l'exécution des deux coups de pied. Essayez d'exécuter ces coups de pied aussi vite que possible, mais observez strictement l'exécution correcte, comme un dos droit. Le keage mae geri est avec le bol du pied vers l'aine (attention à ne pas exécuter cette technique trop bas), finissez en zenkutsu dachi et continuez avec un mae geri tout aussi rapide avec l'autre jambe.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Chudan ura kake uke et shotei gedan barai',
-    description: `Vos bras se croisent devant suigetsu, les doigts dépassent légèrement les coudes. Simultanément, vous vous enfoncez dans votre jambe arrière. Depuis cette jambe, vous amenez votre corps vers l'avant depuis votre tanden ; assurez-vous de vous tenir à 45 degrés par rapport au shomen.
+    title: 'Hiji ate, gedan zuki, kansetzu geri, chudan uke et mae geri',
+    description: `Le hiji ate, le gedan zuki et le kansetzu geri doivent être exécutés avec une grande puissance et rapidité. Après le deuxième mae geri (de la technique précédente), le pied est frappé au sol et l'impulsion de rebond est utilisée pour le hiji ate avant. Dans le gedan zuki la jambe se tend, mais la hanche ne tourne pas vers l'intérieur, le corps reste hanmi (= à moitié tourné vers l'extérieur). Après le coup de coude et le coup de poing bas, les bras pointent légèrement vers l'intérieur.
 
-Le bras qui fait le kake uke passe sous le bras gedan uke. Le kake uke est comme lancer un frisbee, mais votre bras reste près de votre corps : le coude est et reste une largeur de poing de votre corps et le coude fait un angle de 90 degrés après le kake uke.`,
+Tirez le pied droit vers l'arrière sur le sol et ne le tirez vers le haut que lorsqu'il est près de l'autre pied. Remplissez simultanément le tanden (bas-ventre) avant d'exécuter le kekomi kansetsu geri (coup de pied au genou avec le côté du pied) et remplissez à nouveau votre ventre après le coup de pied en tirant le pied vers votre propre genou. Pendant le coup de pied, gardez les bras dans la position du coup de coude et gedan.
+
+Tirez le pied/genou vers l'arrière puissamment et assez haut (le pied est à côté du genou) et utilisez cette impulsion pour un tour de 180 degrés. Après le tour, marchez avec le pied droit en sanchin-dachi et exécutez simultanément un chudan yoko uke. Remplir le ventre, lever le pied, tourner et bloquer sont presque un seul mouvement. Prenez un moment de repos après le blocage avant d'exécuter le mae geri. Le keage mae geri est avec le bol du pied vers l'aine, finissez en zenkutsu dachi lorsque vous frappez le pied au sol.`,
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Chudan uchi kake uke, hiki uke et ude osae',
-    description: `Les deux blocages sont exécutés avec muchimi. Les bras se déplacent ensemble et maintiennent autant de contact que possible, imaginez que vos bras sont collés au bras d'un adversaire. La main hiki uke commence en angle sous le coude et à la fin de la technique, les deux mains vont ensemble vers le côté.
+    title: 'Seiken et shotei gedan kosa uke',
+    description: `Depuis zenkutsu dachi, placez le pied arrière sur la ligne du pied avant, tournez et tombez simultanément d'une position haute à une position très basse shiko dachi et exécutez simultanément un kosa uke (blocage croisé) avec les poings vers le bas. Sentez que l'impulsion de votre corps tombant est utilisée dans le blocage. Le bras droit est devant le bras gauche pour le blocage de poing.
 
-L'ude osae est initié depuis la poussée de la jambe et des hanches, les épaules et les hanches se déplacent ensemble, assurez-vous de ne pas utiliser la force musculaire de vos épaules ou de vos bras. La tête tourne initialement avec le corps mais garde le regard vers l'avant.`,
+Après cela, déplacez votre poids sur votre pied gauche et tirez le pied droit près du gauche, tournez et exécutez un shotei gedan kosa uke (blocage croisé avec mains ouvertes) en shiko dachi profond, aussi droit vers le bas et cette fois le bras gauche est devant le bras droit. Assurez-vous que pendant le mouvement vous ne levez pas les épaules et gardez le dos droit.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Age hiji ate et ushiro hiji ate',
-    description: `Amenez votre poids sur votre pied gauche et fermez les deux pieds ensemble (heisoku dachi). Pendant le mouvement vers heisoku dachi, vous inspirez et fermez votre bassin en l'inclinant vers l'arrière.
-
-Simultanément, vos mains deviennent des poings. Vous ouvrez votre bassin et laissez simultanément aussi votre corps tomber tout en exécutant les deux coups de coude. Les jointures de la main ushiro hiji ate restent vers le haut. Dans le bunkai, l'ushiro hiji ate est un coup vers l'arrière.`,
+    title: 'Shotei jodan age uke et osae hiki waza',
+    description: `Déplacez votre poids sur votre jambe gauche, restez bas et bougez depuis votre jambe arrière - initialement rapide, mais cela transite vers muchimi pendant le mouvement - en shiko dachi, les pieds passent près l'un de l'autre. Exécutez un jodan age uke, à la fin le bras est légèrement plié vers le haut et les yeux regardent juste sous l'avant-bras. Le mouvement pendant le déplacement est initialement rapide, puis avec muchimi. Tirez simultanément la main gauche vers l'arrière avec muchimi dans un mouvement de traction, en ligne droite, paume vers le haut, doigts tendus latéralement, finissant sous seigetsu (plexus solaire).`,
   },
   {
     id: 'step-8',
     number: 8,
-    title: 'Jodan shotei zuki et shotei gedan barai',
-    description: `Depuis heisoku dachi, vous restez bas. Vous tournez de 180 degrés sur votre pied gauche, les pieds restent proches. Quand vous avez tourné, le pied droit fait un pas en arrière dans zenkutsu dachi et ce pied droit reste plus ou moins en place pendant les quatre coups de paume.
+    title: 'Awase zuki (double coup de poing droit et inversé)',
+    description: `C'est le mouvement le plus puissant du kata. Déplacez à nouveau votre poids sur votre jambe gauche et tirez votre jambe droite vers l'arrière dans un haut nekoashi dachi (pas une posture mais un moment dans le mouvement). Déplacez les mains dans un mouvement circulaire vers votre côté, elles sont alors encore ouvertes.
 
-Amenez la main du bras frappant vers le haut pendant le tour, doigts vers le haut pendant que votre abdomen se remplit de souffle. Exécutez le shotei zuki et le gedan barai simultanément. Le shotei zuki est légèrement plus haut que les épaules. Concentration dans la paume et le tanden.`,
+Poussez et déplacez-vous puissamment et rapidement vers l'avant ; le pied droit d'abord, suivi du gauche et finissez en sanchin dachi. La tempête/frappe commence (seulement) lorsque tout le souffle est arrivé dans le tanden et avec la formation des poings en serrant le pouce et l'index, alors encore sur le côté.
+
+Pendant ce mouvement, concentrez-vous sur la formation des poings et exécutez un très puissant awase zuki. Kiai ! Assurez-vous d'inhaler profondément jusqu'au tanden. Concentrez-vous puissamment pendant l'impact sur le tanden et les jointures des poings. Le ura zuki est au-dessus du genou de la jambe avant, tout comme dans Gekisai dai ichi.`,
   },
   {
     id: 'step-9',
     number: 9,
-    title: 'Chudan hiki uke, mae geri et hiji ate',
-    description: `Faites un pas depuis zenkutsu dachi avec un cercle (cheville le long de la cheville) dans sanchin dachi. Le hiki uke est avec muchimi ; restez en (virtuel) contact avec le bras de l'adversaire. Le hikite est vers le côté avec la main ouverte, doigts vers le haut. Maintenez le bloc pendant le keage mae geri avec la boule du pied vers l'aine.
-
-Le hikite reste ouvert mais (l'autre main) va au plexus solaire pendant le coup de coude. Le coup de coude est vers ganka et la main est ouverte. Kiai !`,
+    title: 'Ippon chudan uke',
+    description: `Déplacez à nouveau votre poids sur votre jambe gauche, faites un pas de côté avec la jambe droite (le corps s'enfonce considérablement) et tournez de 180 degrés en sanchin dachi. Exécutez simultanément un chudan uke, poings fermés. Faites un pas à travers pour le deuxième chudan uke avec un mouvement circulaire, pied et main bougent de manière synchrone.`,
   },
   {
     id: 'step-10',
     number: 10,
-    title: 'Shotei osae et hiji uchi',
-    description: `Le mouvement commence par un petit pas et un tour du pied gauche. Bloquez avec muchimi. La main bloquante va avec le corps tournant et va avec un mouvement circulaire passant votre visage passé le côté de votre corps.
+    title: 'Morote ko uke (double blocage du poignet)',
+    description: `Tournez le corps de 180 degrés en reculant avec le pied gauche, finissant en shiko dachi. Le pied fait un cercle (donc les chevilles ne passent pas près l'une de l'autre) et garde contact avec le sol. Ouvrez simultanément les mains. La main supérieure (la droite) tombe vers l'intérieur, passe le plus près du corps alors que les deux bras encerclent l'un autour de l'autre et devient finalement la main avant/supérieure de morote ko uke (double blocage du poignet ou blocage de la mante religieuse). La main droite bloque vers le haut et la gauche peut bloquer latéralement. Pour cette raison, le pouce de la main droite (vers le haut) soutient l'annulaire (la partie du dos de la main sous le petit/annulaire devient plus dure) ; le pouce de la main gauche (peut bloquer latéralement) soutient le majeur (la partie centrale du dos de la main devient plus dure). Dans le kata la main gauche ne va pas sur le côté et reste dans une posture d'attente, dans le bunkai elle bloque bien sur le côté. Assurez-vous de concentrer l'attention sur les points de contact des deux poignets. Amenez les deux mains légèrement vers le haut, encerclez-les vers l'arrière et placez la droite dans la gauche.
 
-Juste avant que la main bloquante revienne en ligne droite au plexus solaire, le coup de coude passe par-dessus le poignet. Ce coup de coude fait un mouvement circulaire vers le haut, c'est un coup lourd (depuis le tanden, assurez une tension minimale dans le bras) et vers le haut vers la mâchoire inférieure.`,
+Tirez maintenant votre pied vers l'arrière en musubi dachi et terminez le kata.`,
   },
-  {
-    id: 'step-11',
-    number: 11,
-    title: 'Morote chudan ura kake uke',
-    description: `Vous tournez sur votre pied droit dans neko ashi dachi. Pour cela, les deux mains vont d'abord ensemble vers le côté droit. Puis elles s'étendent horizontalement (surtout la droite vers le côté gauche) devant le plexus solaire (suigetsu), paumes vers le haut.
-
-Les deux bras s'étendent loin vers le côté (les doigts sont à l'extérieur du corps) avant que le morote kake uke, à la fin du tour, soit exécuté avec muchimi. Les mains sont tenues de telle sorte que si vous placez un grand livre dessus, vous pouvez lire.`,
-  },
-  {
-    id: 'step-12',
-    number: 12,
-    title: 'Morote hiji ate et conclusion',
-    description: `Faites un pas en avant dans zenkutsu dachi, tournez les mains, déplacez-les légèrement vers le bas et faites des poings (comme si vous saisissiez quelque chose fermement) - index en premier - qui saisissent et tirent immédiatement. Imaginez arracher un petit arbre du sol pendant le mouvement de traction.
-
-Les deux "coups de coude" sont hauts, les mains finissent à côté des oreilles, jointures vers le haut, focus dans les poignets. Amenez les deux mains ouvertes ensemble avec un mouvement circulaire devant votre visage et encore avec un mouvement circulaire vers le bas. Placez la main droite dans la gauche, tirez votre pied en arrière dans musubi dachi et tournez les deux mains.`,
-  }
-]; 
+];

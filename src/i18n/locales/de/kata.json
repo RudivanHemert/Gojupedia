@@ -96,7 +96,7 @@
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
       "japaneseName": "撃砕第一",
-      "meaning": "Angreifen und Zerstören 1.",
+      "meaning": "Angreifen und Zerstören",
       "description": "Die erste Kata der Gekisai-Serie, entwickelt um Basistechnieken und Prinzipien des Goju Ryu einzuführen.",
       "history": "Diese Kata wurde um 1940 auf Okinawa von Sensei Chōjun Miyagi (Mitbegründer des Goju-Ryu) und Shoshin Nagamine entwickelt. Sie basiert auf Fukyugata II (einer Basis-Kata des Itosu-Systems), um jungen Schülern eine einfachere Form zu bieten.",
       "culturalSignificance": "Gekisai Dai Ichi ist eine Kaishu-gata (offene Hand) mit harten und dynamischen Bewegungen. Sie enthält vereinfachte Grundbewegungen aus fortgeschrittenen Kata. Die Atmung ist normal, und im Sinne von Goju-Ryu (hart/weich) folgt Entspannung auf jede Spannung.",
@@ -136,7 +136,7 @@
       "steps": {
         "step1": {
           "title": "Hoher Block (jodan uke)",
-          "description": "Treten Sie mit dem rechten Fuß aus Musubi Dachi gerade nach vorne, drehen Sie sich auf beiden Fußballen und führen Sie gleichzeitig den Block aus. Die Länge Ihres Standes beträgt zwei Fuß. Der blockierende Arm wird nah am Körper geführt, zunächst horizontal vor dem Solarplexus, dann gerade nach oben, und erst im letzten Moment gedreht. Achten Sie auf minimale Spannung in den Schultern. Der Arm wird eine Faustbreite von der Stirn entfernt fixiert. Der Hikite-Arm geht zunächst nach oben, bleibt während der Körperdrehung hoch und wird dann aktiv und kraftvoll zur Seite gezogen. Fokussieren Sie kraftvoll. Beim Blocken wird das Gewicht auf beide Füße verteilt. Fortgeschrittene Schüler können den Ellbogen während Kime leicht nach unten drehen und die Technik mit einer runderen Bewegung ausführen."
+          "description": "Gekisai dai ichi wurde 1940 von Chojun Miyagi geschaffen (siehe Einleitung). Gekisai dai ichi bedeutet „angreifen und zerstören eins“. Die Kata enthält verschiedene Stöße, Abwehren, Schläge und Tritte, die in verschiedenen Höhen ausgeführt werden. Wichtig bei der Ausführung ist, dass die Aufmerksamkeit auf die korrekte Ausführung jeder einzelnen Technik gerichtet ist. Die meisten Techniken in dieser Kata müssen mit Schnelligkeit und Kraft ausgeführt werden, nur die mittlere Abwehr (chudan uke) mit Muchimi. Gekisai dai ichi lehrt dich unter anderem das Zielen auf Vitalpunkte, gibt dir ein gutes und kraftvolles Kime und trainiert den Wechsel zwischen Spannung und Entspannung.\n\nTreten Sie mit dem rechten Fuß aus Musubi Dachi gerade nach vorne, drehen Sie sich auf beiden Fußballen und führen Sie gleichzeitig den Block aus. Die Länge Ihres Standes beträgt zwei Fuß. Der blockierende Arm wird nah am Körper geführt, zunächst horizontal vor dem Solarplexus, dann gerade nach oben, und erst im letzten Moment gedreht. Achten Sie auf minimale Spannung in den Schultern. Der Arm wird eine Faustbreite von der Stirn entfernt fixiert. Der Hikite-Arm geht zunächst nach oben, bleibt während der Körperdrehung hoch und wird dann aktiv und kraftvoll zur Seite gezogen. Fokussieren Sie kraftvoll. Beim Blocken wird das Gewicht auf beide Füße verteilt. Fortgeschrittene Schüler können den Ellbogen während Kime leicht nach unten drehen und die Technik mit einer runderen Bewegung ausführen."
         },
         "step2": {
           "title": "Hoher Stoß (jodan zuki)",
@@ -207,31 +207,23 @@
         "title": "Moderne Praxis",
         "content": "Wird als zweite Kata gelehrt. Sie dient primär dem Erlernen von Technik und Rhythmus und wird oft bei Demonstrationen gezeigt."
       },
-      "stepsCount": 6,
+      "stepsCount": 4,
       "steps": {
         "step1": {
-          "title": "In natürlicher Haltung beginnen",
-          "description": "Beginnen Sie in natürlicher Haltung nach vorne gerichtet"
+          "title": "Mittelhoher Zugblock (chudan hiki uke)",
+          "description": "Gekisai dai ni bedeutet \"angreifen und zerstören 2\" und die Kata wurde ebenfalls von Chojun Miyagi in derselben Zeit und aus demselben Grund wie Gekisai dai ichi entwickelt. Gekisai dai ni ist Gekisai dai ichi sehr ähnlich, nur kommen im zweiten Teil der Kata mehr offene Handtechniken vor. Die Unterschiede zu Gekisai dai ichi sind: (1) wenn die Kata klassisch auf Zählung ausgeführt wird, sind der Vorwärtstritt, der Ellbogenschlag, der Knöchelschlag, der niedrige fegende Block und der Gegenschlag auf einen Schlag (der Rhythmus ist 1 – 2 (Ellbogen und Stampfen) – 3 – 4 – 5); (2) der zweite mittelhohe Block ist ein offener Hand-Zugblock (hiki uke); (3) es wurden ein rechter und ein linker Zugblock (hiki uke) hinzugefügt und (4) die letzte Technik ist kein kraftvoller Doppelschlag in einer geradlinigen zenkutsu dachi, sondern ein tora guchi mit muchimi in nekoashi dachi, der aus der Angriffslinie tritt. Neben den Schwerpunkten, die man aus Gekisai dai ichi lernt, lehrt diese Kata die Ausführung von Blöcken mit offener Hand und den gleitenden Fokus bei verschiedenen Paraden. Es werden nur die Techniken behandelt, die sich von Gekisai dai ichi unterscheiden.\n\nDie Bewegung wird mit muchimi ausgeführt, der Fuß bewegt sich in einer runden Bewegung (Knöchel entlang Knöchel), gleichzeitig mit der Hand. Die blockierende Hand beginnt gewinkelt unter dem Ellbogen des anderen Arms. Die Kraft wird während des Blocks auf der Kleinfingerseite der Hand fokussiert. Dies ist eine kreisförmige Bewegung; erst am Ende des Blocks wird die Hand vom Ellbogen etwa 5 Zentimeter linear zum Körper gezogen; der Ellbogen kommt dann gegen den Brustkorb. Fokussiere beim Ziehen auf Daumen und Zeigefinger. Auch der hikite ist eine offene Hand mit den Fingern nach oben."
         },
         "step2": {
-          "title": "Offene Hand-Blockierung",
-          "description": "Schritt in Sanchin Dachi mit offener Hand-Blockierung"
+          "title": "Rechts – links Zugblock (migi hidari hiki uke)",
+          "description": "Diese beiden Zugblöcke werden zwar schnell ausgeführt, aber immer noch getrennt und mit muchimi. Sie sind dem ersten Zugblock ähnlich, nur schneller. Auch hier geht der Knöchel entlang dem Knöchel, gleichzeitig mit den Handbewegungen, die ebenfalls gewinkelt unter dem Ellbogen beginnen. Der rechte Fuß wird auf den Boden gesetzt, trägt kurz etwa 50% des Körpergewichts und stößt sich nach der vollständigen Ausführung des Blocks für eine gleiche runde Bewegung zurück ab. Beim Tritt wird die Parade beibehalten und die Hand ist – im Gegensatz zu Gekisai dai ichi und dem ersten in Ni – also offen. Sie wird für den Ellbogenschlag genauso hart zurückgezogen, dreht sich dabei und wird zur Faust."
         },
         "step3": {
-          "title": "Schlag- und Block-Serie",
-          "description": "Führen Sie die Schlag- und Block-Serie aus"
+          "title": "Tora guchi \"Tigermund\"",
+          "description": "Hoher kontrollierender Block mit dem Handrücken (jodan haishu osae uke), ein Einwärts-Hakenblock (uchi kake uke) und ein hoher und niedriger Stoß (jodan und gedan oshi).\n\nAus hachiji dachi (natürlicher Stand) trittst du in einer geraden Linie schräg nach hinten und ziehst den anderen Fuß gerade in nekoashi dachi heran. Die Bewegung wird mit muchimi ausgeführt. Atme während der Blöcke ein, atme beim Stoß aus. Fokussiere bei den Blöcken auf das Tanden, die großen Rückenmuskeln und die Seite der Hände; beim Stoß auf das Tanden, die großen Rückenmuskeln, die Handflächen und den Daumen. Bei den Blöcken verschiebt sich der Schwerpunkt: beim hohen Block von der Kleinfingerseite des Arms zur Oberseite des Handgelenks; bei der niedrigen Technik von der Seite deines Handgelenks zur Handfläche. Beim Stoß ist die Handfläche offen und der Daumen angeschlossen. Das Tanden bleibt während des Stoßes geschlossen, aber das Becken bleibt in der natürlichen Haltung. Die obere Hand endet auf Schlüsselbein-/Kehlkopfhöhe, die untere auf Höhe deines Oberschenkels.\n\nWährend der Bewegung bleibt die gesamte Sohle beider Füße auf dem Boden. Setze daher deinen vorderen Fuß vor der Bewegung vollständig auf den Boden. Achte darauf, dass die Hand, die den hohen Block ausführen wird, gewinkelt unter dem Ellbogen des anderen Arms beginnt."
         },
         "step4": {
-          "title": "Tritte und Schläge",
-          "description": "Führen Sie Tritte und Schläge in mehrere Richtungen aus"
-        },
-        "step5": {
-          "title": "Finale Block-Serie",
-          "description": "Vervollständigen Sie die finale Block-Serie"
-        },
-        "step6": {
-          "title": "Zurück zur Ausgangsposition",
-          "description": "Kehren Sie zur Ausgangsposition zurück"
+          "title": "Abschluss und Anmerkungen",
+          "description": "Vor dem Abschluss drehe dich als Ganzes aus dem Tanden zur Vorderseite; die Füße lösen sich nicht vom Boden.\n\nAnmerkung. In neko ashi dachi ist der Scheitel oben, das Kinn leicht eingezogen und der Rücken gerade. Dein Gewicht ruht hauptsächlich auf dem hinteren Fuß (90%); von deinem vorderen Fuß berühren die Zehen und der Ball leicht den Boden, als würden sie schweben. Die Ferse des hinteren Fußes und der Ball des vorderen Fußes stehen entlang einer geraden gedachten Linie (oder aus musubi dachi geht der vordere Fuß gerade nach vorne). Das Knie des vorderen Fußes fällt leicht nach innen.\n\nBringe die linke Hand nach oben und bewege dann beide Hände in einer runden Bewegung nach unten und lege die rechte Hand in die linke, Handflächen nach oben. Stoße dich kraftvoll mit dem Ball des vorderen Fußes ab, wenn du aus neko ashi dachi zurück in musubi dachi übertrittst. Du drehst deine Hände und schließt die Kata ab."
         }
       }
     },
@@ -240,62 +232,108 @@
       "japaneseName": "砕破",
       "meaning": "Zerschmettern und Zerreißen",
       "description": "Eine fortgeschrittene Kata, die kräftige Techniken mit geschlossener Faust und aggressive Schlagbewegungen betont.",
-      "history": "Traditionell von Kanryō Higaonna aus Fuzhou (China) mitgebracht, nach seinen Studien bei Ryu Ryu Ko (1860-1880).",
-      "culturalSignificance": "Repräsentiert die Naha-te Tradition mit starkem südchinesischem Einfluss; enthält viele Griff- und Hebeltechniken.",
-      "detailedMeaning": {
-        "title": "Name und Bedeutung",
-        "content": "Saifa (砕破) bedeutet 'Zerschmettern und Zerreißen' oder 'Brechen und Zerstören'. 砕 (sai) steht für 'zermalmen' und 破 (fa/ha) für 'zerreißen'. Dies bezieht sich auf die Techniken mit geschlossener Faust (wie Backfist und Hammerschläge)."
-      },
-      "origin": {
-        "title": "Herkunft",
-        "content": "Die genaue Herkunft ist unklar, wird aber Higaonna zugeschrieben. Da sie im Tōon-ryu fehlt, wird vermutet, dass Miyagi sie überarbeitet hat. Sie verbindet Naha-te mit südchinesischen Einflüssen."
-      },
-      "transmission": {
-        "title": "Übertragung zu Goju-Ryu",
-        "content": "Sensei Miyagi adoptierte Saifa als dritte Goju-Kata nach den beiden Gekisai-Formen. Er lernte sie entweder direkt von Higaonna oder bearbeitete bestehende Techniken zu Saifa. Saifa wurde an spätere Goju-Instruktoren weitergegeben (u.a. Miyazato, Yagi). Zusätzlich wurde die Kata in anderen Stilen übernommen: Kenwa Mabuni (Shito-Ryu) übernahm Saifa, und Mas Oyama (Kyokushin) lernte Saiha (seine Variante) durch Higaonnas Schüler Gogen Yamaguchi. In der damaligen Geschichtsschreibung wurde Saifa somit von Miyagi in das offizielle Goju-Curriculum aufgenommen."
-      },
-      "historicalDevelopment": {
-        "title": "Historische Entwicklung",
-        "content": "Saifa blieb weitgehend unverändert und gilt als erste fortgeschrittene Kata. Im Kyokushin wird sie oft schwerfälliger ausgeführt."
-      },
-      "technicalFeatures": {
-        "title": "Technische und philosophische Merkmale",
-        "content": "Betont kräftige Faustschläge und Greiftechniken. Charakteristisch sind uraken (Rückhandschlag) und kreisförmige Bewegungen zur Befreiung aus Griffen. Die Atmung ist normal, kombiniert mit kime."
-      },
-      "controversy": {
-        "title": "Kontroversen und Variationen",
-        "content": "Da sie im Tōon-ryu (Kyoda) fehlt, wird oft diskutiert, ob Miyagi sie selbst entwickelt oder stark verändert hat. In anderen Stilen ist sie jedoch fest verankert."
-      },
-      "relationships": {
-        "title": "Beziehung zu anderen Kata",
-        "content": "Verwandt mit White Crane- und Pa Kua-Techniken. In der Reihenfolge steht sie nach den Gekisai-Kata und markiert den Übergang zu den klassischen Naha-te Formen."
-      },
-      "modernPractice": {
-        "title": "Moderne Praxis",
-        "content": "Wird oft bei Wettkämpfen und Demonstrationen gezeigt. Im Training dient sie zur Schulung von Handkraft, Koordination und Selbstverteidigung (Bunkai)."
-      },
-      "stepsCount": "6"
+      "history": "Saifa wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt, hatte aber zweifellos Verbindungen zum Kranichboxen. Goju-Ryu ist der einzige Karatestil, der Saifa in seinem Lehrplan hat. Saifa bedeutet so viel wie 'zerstörerische Angriffe', aber der Name wird häufiger verwendet, zum Beispiel für völlig andere Quans im Shaolin Kung Fu.",
+      "culturalSignificance": "Die Kata zeichnet sich unter anderem durch die hohe Anzahl an Schlagtechniken aus, die naturgemäß kreisförmig sind und ohne Spannung in Handgelenk, Ellbogen und Schulter ausgeführt werden. Zudem werden die Muskeln des Oberkörpers nur minimal eingesetzt, so dass der Schüler lernt, den Impuls aus den Beinen und dem Becken optimal beim Schlag zu nutzen.",
+      "stepsCount": "9",
+      "steps": {
+        "step1": {
+          "title": "Hazushi waza (Befreiungstechnik)",
+          "description": "Saifa wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt, hatte aber zweifellos Verbindungen zum Kranichboxen. Goju-Ryu ist der einzige Karatestil, der Saifa in seinem Lehrplan hat. Saifa bedeutet so viel wie 'zerstörerische Angriffe', aber der Name wird häufiger verwendet, zum Beispiel für völlig andere Quans im Shaolin Kung Fu. Die Kata zeichnet sich unter anderem durch die hohe Anzahl an Schlagtechniken aus, die naturgemäß kreisförmig sind und ohne Spannung in Handgelenk, Ellbogen und Schulter ausgeführt werden. Zudem werden die Muskeln des Oberkörpers nur minimal eingesetzt, so dass der Schüler lernt, den Impuls aus den Beinen und dem Becken optimal beim Schlag zu nutzen. Dadurch trainiert man bei dieser Kata viel Abwechslung zwischen Spannung und Entspannung.\n\nAus musubi dachi sinkt man zuerst ab, wonach man sich kraftvoll vom hinteren Bein abstößt und das vordere Bein 45 Grad schräg nach vorne versetzt. Die Bewegung ist geschmeidig (smooth) und wird oft mit einem schwimmenden Oktopus verglichen. Man kommt erst wieder hoch, wenn die Füße geschlossen sind; während der Versetzung hält man den Rücken gerade und den Scheitel nach oben."
+        },
+        "step2": {
+          "title": "Jodan uraken uchi und osae uke",
+          "description": "Der Rhythmus der Versetzung von der Anfangsstellung zur Hazushi Waza, der Hazushi Waza selbst und der uraken uchi/osae uke ist geschmeidig/fließend – kraftvoll – schnell."
+        },
+        "step3": {
+          "title": "Sukui uke, shotei gedan harai uke, hiza ate und mae geri",
+          "description": "Im Gegensatz zu den vorangehenden Versetzungen in shiko dachi (gerade Linie), ist diese Versetzung kreisförmig; der Fuß geht zuerst in Richtung des anderen Fußes und die Knöchel gehen dicht aneinander vorbei. Danach bewegt sich der Fuß parallel zu shomen."
+        },
+        "step4": {
+          "title": "Morote zuki und morote gedan uchi",
+          "description": "Nach dem (zweiten) Tritt drehst du den Kopf nach vorne, bewegst das Bein kraftvoll nach hinten in einen zenkutsu dachi und führst gleichzeitig den morote zuki aus."
+        },
+        "step5": {
+          "title": "Chudan hiki uke und morote zuki",
+          "description": "Die Hand des hiki uke beginnt gewinkelt unter dem Oberarm. Du trittst nicht zur Seite, sondern schwingst den Fuß zur Seite."
+        },
+        "step6": {
+          "title": "Ashi barai, tettsui uchi, tsukami hiki und ura zuki",
+          "description": "Der ashi barai ist klein, der Fuß geht am anderen Fuß vorbei und man stampft ihn in hachiji dachi."
+        },
+        "step7": {
+          "title": "Gyaku zuki",
+          "description": "Drehe von hachiji dachi nach han zenkutsu dachi; drei Fuß lang. Der Stoß ist auf Kehlkopfhöhe, über dem Schlüsselbein."
+        },
+        "step8": {
+          "title": "Haito uchi",
+          "description": "Mache einen langen gleitenden Schritt in Richtung der Rückseite, öffne die Hände und drehe dich in einen neko ashi dachi."
+        },
+        "step9": {
+          "title": "Tora guchi",
+          "description": "Führt den tora guchi in ähnlicher Weise wie in Gekisai dai ni aus und schließt die Kata ab."
+        }
+      }
     },
     "seiyunchin": {
       "name": "Seiyunchin",
       "japaneseName": "制引戦",
-      "meaning": "Gegner aus dem Gleichgewicht bringen",
-      "description": "Eine Kata, die tiefe Stände und kräftige Zug- und Gleichgewichtstechniken betont.",
-      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Xingyi Quan oder Mönchsfaust-Boxen.",
-      "culturalSignificance": "Demonstriert die Bedeutung von Gleichgewicht und dessen Störung.",
-      "stepsCount": 3,
+      "meaning": "Kontrollieren und Drücken",
+      "description": "Seiyunchin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt. Seiyunchin bedeutet „kontrollieren und drücken“. Dies entspricht dem Aus-dem-Gleichgewicht-Bringen (oder Ziehen) jemandes, dem Kontrollieren und Angreifen mit einer Kurzdistanz-Technik (Angriff auf einen Vitalpunkt, Wurf, Gelenkhebel). Seiyunchin ist die Kata, in der man viel „chiru no chan chan“ – Abstoßkraft oder Explosionskraft – entwickelt. Die Kata weist eine große Anzahl von Bewegungen über eine beachtliche Distanz auf, sowohl vorwärts als auch rückwärts. Darüber hinaus enthält die Kata eine große Anzahl von Techniken, die im Shiko Dachi ausgeführt werden (beachten Sie die Punkte bei Gedan Barai bei Gekisai Dai Ichi). Während einer Bewegung von Shiko Dachi zu Shiko Dachi bleibt der Körper tief und die Füße gleiten über den Boden. In der Kata kommt Shiko Dachi zwar mehrmals vor, aber jedes Mal ist die Art und Weise, wie die Bewegung stattfindet und wie die Kraft geliefert wird, anders.",
+      "history": "Seiyunchin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt.",
+      "culturalSignificance": "Seiyunchin bedeutet „kontrollieren und drücken“. Dies entspricht dem Aus-dem-Gleichgewicht-Bringen (oder Ziehen) jemandes, dem Kontrollieren und Angreifen mit einer Kurzdistanz-Technik. Seiyunchin ist die Kata, in der man viel „chiru no chan chan“ – Abstoßkraft oder Explosionskraft – entwickelt.",
+      "stepsCount": "13",
       "steps": {
         "step1": {
-          "title": "Niedrige Haltungen",
-          "description": "Betont niedrige Haltungen und kraftvolle Zug-/Gleichgewichtsstörungstechniken"
+          "title": "Morote sukui uke und morote gedan barai",
+          "description": "Seiyunchin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt. Seiyunchin bedeutet „kontrollieren und drücken“. Dies entspricht dem Aus-dem-Gleichgewicht-Bringen (oder Ziehen) jemandes, dem Kontrollieren und Angreifen mit einer Kurzdistanz-Technik (Angriff auf einen Vitalpunkt, Wurf, Gelenkhebel). Seiyunchin ist die Kata, in der man viel „chiru no chan chan“ – Abstoßkraft oder Explosionskraft – entwickelt. Die Kata weist eine große Anzahl von Bewegungen über eine beachtliche Distanz auf, sowohl vorwärts als auch rückwärts. Darüber hinaus enthält die Kata eine große Anzahl von Techniken, die im Shiko Dachi ausgeführt werden (beachten Sie die Punkte bei Gedan Barai bei Gekisai Dai Ichi). Während einer Bewegung von Shiko Dachi zu Shiko Dachi bleibt der Körper tief und die Füße gleiten über den Boden. In der Kata kommt Shiko Dachi zwar mehrmals vor, aber jedes Mal ist die Art und Weise, wie die Bewegung stattfindet und wie die Kraft geliefert wird, anders.\n\nDie gesamte Bewegung wird mit Muchimi ausgeführt. Aus Musubi Dachi treten Sie in einer geraden Linie schräg vorwärts in Shiko Dachi. Die Hände gehen gleichzeitig etwas nach oben, drehen sich und gehen dann zur Seite; sie kreisen um den Unterbauch wie um den Bauch einer hochschwangeren Frau. Halten Sie die Schulter tief und die Finger zusammen, den Daumen fest gegen die Seite der Basis des Zeigefingers gedrückt."
         },
         "step2": {
-          "title": "Atmungsmuster",
-          "description": "Einzigartige Atmungsmuster"
+          "title": "Sukui uke, hiki uke und nukite zuki",
+          "description": "Auch diese Bewegung ist langsam und mit Muchimi. Öffnen Sie beide Hände. Hikite geht an die Seite des Körpers, die Hand offen und die Handfläche nach oben. In Sukui Uke ändert sich die Richtung des Fokus von nach innen-seitlich zu schräg nach oben und oben. Hiki Uke ist klein und wird aus dem Handgelenk ausgeführt."
         },
         "step3": {
-          "title": "Keine Tritttechniken",
-          "description": "Keine Tritttechniken"
+          "title": "Hojo oshi und suri ashi",
+          "description": "Für Hojo Oshi legen Sie die Faust in Ihre offene Hand und zusammen drehen sie sich, bis der Daumenmuskel der unterstützenden Hand hinter dem Daumenmuskel der Fausthand liegt. Aus Shiko Dachi ziehen Sie das vordere Bein zurück in ein „hohes Nekoashi Dachi“ (aber es ist kein Stand, sondern eine kontinuierliche Bewegung). Suri Ashi („gleitender Schritt“) ist schnell und kraftvoll, die Füße gleiten über den Boden."
+        },
+        "step4": {
+          "title": "Ushiro und chudan hiji ate",
+          "description": "Nach dem Stoß drehen Sie die Faust Tateken (vertikal), die offene Hand dreht sich mit und bleibt hinter dem Daumenmuskel der Faust. Diese offene Hand bleibt „hängen“, wodurch die Faust zu einem kraftvollen Uraken Hiji Ate (nach hinten gerichteter Ellenbogenstoß) „losgezogen“ wird, während Sie gleichzeitig nach hinten in Han Zenkutsu Dachi treten."
+        },
+        "step5": {
+          "title": "Hojo uke",
+          "description": "Die Technik wird mit Muchimi ausgeführt. Die Fausthand geht vor Seigetsu und beginnt auf der linken Seite neben Ihrem Körper, wo sie in der Handfläche der anderen Hand zu liegen kommt, und zusammen folgen sie der Bahn für ein Chudan Uke (mittlere Abwehr). Drücken Sie den Daumen der offenen Hand fest und strecken Sie diese Hand."
+        },
+        "step6": {
+          "title": "Ippon gedan barai",
+          "description": "Aus Renoji Dachi treten Sie mit dem hinteren Bein schräg vorwärts, die Knöchel gehen dicht aneinander vorbei. Gedan Barai wird mit viel Kraft und Geschwindigkeit ausgeführt. Während der Technik öffnet und senkt sich das Becken in Shiko Dachi, was im ersten Gedan Barai genutzt wird. Halten Sie den Arm mehr oder weniger gestreckt."
+        },
+        "step7": {
+          "title": "Shotei chudan uke und hari uke",
+          "description": "Ziehen Sie aus Shiko Dachi den vorderen Fuß zurück und bewegen Sie sich in ein Shiko Dachi senkrecht zur Vorderseite der Halle. Der Fuß macht einen Bogen und geht am anderen Fuß vorbei, das Becken bleibt offen, der Rücken gerade, die Füße gleiten über den Boden und Sie kommen nicht hoch. Chudan Uke (mittlere Abwehr) geht mit der Körperdrehung mit."
+        },
+        "step8": {
+          "title": "Jodan uchi uke und uraken uchi",
+          "description": "Aus Shiko Dachi drehen Sie sich auf dem linken Bein und machen einen schwingenden Schritt von außen nach innen (entspricht einem großen Fußfeger, stellen Sie sich vor, Sie fegen die Füße unter dem Knöchel von jemandem weg). Bewegen Sie sich aus dem Hara und kommen Sie mit dem ganzen Körper vorwärts. Beide Arme machen ebenfalls eine große Bewegung und kommen von außen nach innen."
+        },
+        "step9": {
+          "title": "Chudan yoko uke und gedan barai",
+          "description": "Treten Sie mit dem vorderen Fuß seitlich in eine Art Bensoku Dachi (Scherenstand). Sinken Sie (ca. 10 cm) mit Ihrem vollen Gewicht tief in den vorderen Fuß (stellen Sie sich vor, Sie schrauben diesen Fuß in den Boden). Stoßen Sie sich dann kräftig mit diesem Fuß ab (stellen Sie sich vor, die Schraube federt kräftig vom Boden zurück) und nutzen Sie diese Kraft für die Drehung um 135 Grad."
+        },
+        "step10": {
+          "title": "Age zuki, jodan uraken uchi und gedan barai",
+          "description": "Stoßen Sie sich vom hinteren Bein ab und halten Sie Ihre rechte Hand in „Ura Zuki“. Ihre linke Hand ist offen und über Ihrer Stirn. In dem Moment, in dem Ihr Fuß den Boden berührt, ziehen Sie Ihre linke Hand kraftvoll und aktiv zu Ihrem Solarplexus und führen ein kraftvolles Age Zuki aus. Kiai!"
+        },
+        "step11": {
+          "title": "Hazushi waza/Hiji ate",
+          "description": "Für eine gute Ausführung von Hazushi Waza stellen Sie sich vor, Sie werden von hinten angegriffen (wie in Bunkai). Konzentrieren Sie sich auch auf die Rückseite Ihres Körpers. Der Arm vom vorderen Bein liegt am Körper an und soll die Befreiungstechnik ausführen; er liegt unter dem Arm, der zum Uraken Hiji Age (nach hinten gerichteter Ellenbogenstoß) zurückschnellt."
+        },
+        "step12": {
+          "title": "Shotei otoshi uke und jodan uraken uchi",
+          "description": "Aus Neko Ashi Dachi bewegen Sie sich aus dem Tanden mit dem ganzen Körper einen beachtlichen Schritt mit Suri Ashi vorwärts in Sanchin Dachi und führen gleichzeitig (wie zwei Kreise) ein Shotei Otoshi Uke und Jodan Uraken Uchi aus."
+        },
+        "step13": {
+          "title": "Morote kuri uke",
+          "description": "Für Kuri Uke machen die Hände einen ziemlich großen Kreis nach oben und treffen sich über der Stirn, die Rückseiten der Kleinfingerwurzeln gegeneinander, woraufhin auch die Ellenbogen zueinander gehen. Führen Sie sie langsam mit Muchimi nach unten. Konzentrieren Sie sich auf die Ellenbogen, wenn sie nach unten gehen."
         }
       }
     },
@@ -303,79 +341,37 @@
       "name": "Shisochin",
       "japaneseName": "四向戦",
       "meaning": "Vier-Richtungs-Kampf",
-      "description": "Eine fortgeschrittene Kata mit Bewegungen in vier Richtungen und Techniken mit offener Hand.",
-      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Weißer-Kranich-Stil.",
-      "culturalSignificance": "Repräsentiert die Verteidigung gegen mehrere Gegner aus allen Richtungen.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Vierrichtungsbewegungen",
-          "description": "Vierrichtungsbewegungen"
-        },
-        "step2": {
-          "title": "Offene Handtechniken",
-          "description": "Offene Handtechniken (Nukite, Shotei)"
-        },
-        "step3": {
-          "title": "Gelenkhebel und Druckpunkte",
-          "description": "Gelenkhebel und Druckpunktschläge"
-        }
-      }
+      "description": "Shisochin bedeutet „vier Öffnungen“ oder „vier Richtungen“. Die Kata zeichnet sich durch viele und kraftvolle Techniken mit offener Hand aus und betont den Kampf in vier Richtungen.",
+      "history": "Shisochin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt. Goju-ryu ist der einzige Karatestil mit dieser Kata.",
+      "culturalSignificance": "Die Kata zeichnet sich durch viele und kraftvolle Techniken mit offener Hand aus. Ein Arm mit einer offenen Hand kann leichter entspannt werden als mit einer Faust, was eine schnellere Ausführung der Techniken ermöglicht.",
+      "stepsCount": "12"
     },
     "sanseru": {
       "name": "Sanseru",
       "japaneseName": "三十六手",
-      "meaning": "36 Hände",
-      "description": "Eine dynamische Kata mit kräftigen Stößen und Kombinationen, die auf Vitalpunkte abzielen.",
-      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Weißer-Kranich- oder Tiger-Stil.",
-      "culturalSignificance": "Repräsentiert die 36 Vitalpunkte des Körpers.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Dynamische Bewegungen",
-          "description": "Dynamische Bewegungen und kraftvolle Schläge"
-        },
-        "step2": {
-          "title": "Kombinationstechniken",
-          "description": "Kombinationstechniken, die auf Vitalpunkte abzielen"
-        },
-        "step3": {
-          "title": "Fußarbeit zur Ausweichung",
-          "description": "Fußarbeit zur Ausweichung und zum Angriff"
-        }
-      }
+      "meaning": "36 (Sechsunddreißig)",
+      "description": "Sanseru bedeutet '36': 6 (Auge, Ohr, Nase, Zunge, Körper und Geist) x 6 (Farbe, Stimme, Geruch, Geschmack, Tastsinn und Gerechtigkeit). Sie kombiniert Techniken des Hunde-Boxens (Dog Kung Fu) mit typischen Goju-Ryu Elementen, einschließlich Nahkampftechniken wie Würfen und Hebeln.",
+      "history": "Sanseru wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte sie von Ryu Ryu Ko. Ursprünglicher Schöpfer unbekannt, wahrscheinlich vom 'Hunde-Boxen' (Dog Kung Fu). Goju-Ryu ist der einzige Karate-Stil mit dieser Kata.",
+      "culturalSignificance": "Die Kata zeichnet sich durch viele Nahkampftechniken wie Gelenkhebel und Bodenkampf aus. '36' bezieht sich auf die 6 Sinne mal 6 Bewusstseinselemente.",
+      "stepsCount": "8"
     },
     "sepai": {
       "name": "Sepai",
       "japaneseName": "十八手",
-      "meaning": "18 Hände",
-      "description": "Eine fortgeschrittene Kata, die kreisförmige Bewegungen und Ablenkungstechniken betont.",
-      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Weißer-Kranich-Stil.",
-      "culturalSignificance": "Repräsentiert die Zahl 18 (6x3) und kreisförmige Prinzipien.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Kreisförmige Bewegungen",
-          "description": "Kreisförmige Bewegungen"
-        },
-        "step2": {
-          "title": "Ablenkungstechniken",
-          "description": "Ablenken und Umlenken der Kraft des Gegners"
-        },
-        "step3": {
-          "title": "Fortgeschrittene Kombinationen",
-          "description": "Fortgeschrittene Kombinationstechniken"
-        }
-      }
+      "meaning": "18 (Hände)",
+      "description": "Sepai bedeutet wörtlich 18 (Hände), 6 (Farbe, Stimme, Geschmack, Geruch, Berührung und Gerechtigkeit) x 3 (gut, schlecht und Frieden). Die Kata ist charakteristisch für Goju-Ryu aufgrund der Kontraste zwischen hart und weich, schnell und langsam. Hikite kommt weniger häufig vor und die meisten Bewegungen sind zweihändige Techniken.",
+      "history": "Sepai wurde von Kanryo Higaonna auf Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko.",
+      "culturalSignificance": "Repräsentiert die 18 (6x3) Elemente des Bewusstseins und Handelns.",
+      "stepsCount": "17"
     },
     "kururunfa": {
       "name": "Kururunfa",
       "japaneseName": "久留頓破",
       "meaning": "Lange halten und plötzlich schlagen",
-      "description": "Eine fortgeschrittene Kata, die sich auf das Halten und Brechen des Gleichgewichts mit plötzlichen, schnellen Schlägen konzentriert.",
+      "description": "Diese Kata ist eine sehr schnelle Kata. Sie zeichnet sich durch sehr schnelle Bewegungen der Hände (meist offene Handtechniken), Füße und Hüften aus. Aus diesem Grund und aufgrund ihrer perfekt ausgewogenen Kombination aus Go- und Ju-Techniken ist sie eine sehr wichtige Kata im Goju Ryu. Die wahre Essenz des Goju Ryu wird in Kururunfa in perfekter Harmonie dargestellt.\nSabaki ist ein Hauptmerkmal dieser Kata. Es gibt drei Hauptarten: Seitwärtsbewegung, Zickzack-Sabaki und Drehen der Hüften. Alle werden mit großer Geschwindigkeit und Agilität ausgeführt. Tiefe Stellungen wie Neko Ashi Dachi und langer Zenkutsu Dachi werden beim Bewegen betont.\nDiese Kata enthält bestimmte einzigartige und unverwechselbare Merkmale.\nZum Beispiel Gyaku Nage Waza, bei der die Schulter als Fokuspunkt verwendet wird, wenn ein Armhebel-Angriff ausgeführt wird, und ein angewinkelter Age Zuki, der gleichzeitig mit einem Block ausgeführt wird (steigt mit 45° von der Horizontalen statt 90° auf).",
       "history": "Eine der ursprünglichen Kata aus China, Herkunft unbekannt.",
       "culturalSignificance": "Demonstriert das Prinzip der Täuschung und des plötzlichen Angriffs.",
-      "stepsCount": 3,
+      "stepsCount": 25,
       "steps": {
         "step1": {
           "title": "Gleichgewicht halten und brechen",
@@ -395,22 +391,22 @@
       "name": "Sesan",
       "japaneseName": "十三手",
       "meaning": "13 Hände",
-      "description": "Eine der ältesten Goju-Ryu-Kata mit kräftigen, direkten Techniken.",
-      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Mönchsfaust-Boxen oder Löwenfaust.",
-      "culturalSignificance": "Repräsentiert die Zahl 13 und gilt als grundlegende fortgeschrittene Form.",
-      "stepsCount": 3,
+      "description": "Diese Kata wurde von Ryu Ryuko Sensei in China an Higaonna Kanryo Sensei weitergegeben. Es war die Lieblingskata von Miyagi Chojun Sensei und seinem besten Schüler, Shinzato Jinan; daher war es die Kata, die sie am häufigsten ausführten. Miyagi An’ichi Sensei hat gesagt, dass Miyagi Chojun Senseis Augen funkelten, wenn er diese Kata ausführte; seine Zehen griffen fest in den Boden, um einen so kraftvollen Stand zu schaffen, dass er wie im Boden verwurzelt schien, und sein Schlag war unglaublich schnell und kraftvoll. Das herausragende Merkmal dieser Kata ist die Kombination aus kreisförmiger und gerader Bewegung, Geschwindigkeit mit schwerem, kraftvollem Muchimi, und harter und weicher Technik. Die kreisförmige Geschmeidigkeit der Blöcke und die lineare Kraft der Angriffe verbinden sich zu einer Kata von erhabener ästhetischer Schönheit.\nDie Sesan Kata enthält, wie Kururunfa, eine große Vielfalt an kontrastierenden Techniken. Zum Beispiel wechseln kreisförmige Bewegungen schnell zu linearen Bewegungen in Kombination; schnelle und langsame Bewegungen werden mit Muchimi und einem Minimum an überschüssiger Körperbewegung ausgeführt. Diese Kata zeichnet sich durch Kombinationen von Techniken aus, die schnelle explosive Bewegungen enthalten, die durch langsamere schwere Bewegungen, die mit Muchimi ausgeführt werden, ausgeglichen und durchsetzt sind. Jede Technik, die nur ein Schlag oder Block zu sein scheint, kann viele Bedeutungen haben. Zum Beispiel wird gegen Ende der Kata ein Mae Geri ausgeführt. Es scheint nur eine Bewegung zu sein, aber tatsächlich ist eine Kombination aus drei Techniken beteiligt. Andere ungewöhnliche Techniken sind Sun Zuki (kurzer Schlag) und schlangenartige Bewegungen, die Ihnen helfen, im Nahkampf an Ihrem Gegner zu haften.",
+      "history": "Eine der ursprünglichen Katas aus China, wahrscheinlich aus dem Mönchsfaust-Boxen oder Löwenfaust.",
+      "culturalSignificance": "Repräsentiert die 13 Vitalpunkte.",
+      "stepsCount": 20,
       "steps": {
         "step1": {
-          "title": "Kraftvolle Techniken",
-          "description": "Kraftvolle, direkte Techniken"
+          "title": "Kraftvolle und direkte Techniken",
+          "description": "Kraftvolle und direkte Techniken"
         },
         "step2": {
           "title": "Nahkampf",
           "description": "Nahkampf"
         },
         "step3": {
-          "title": "Starke Haltungen",
-          "description": "Starke Haltungen und Verwurzelung"
+          "title": "Starke Stellungen und Verwurzelung",
+          "description": "Starke Stellungen und Verwurzelung"
         }
       }
     },

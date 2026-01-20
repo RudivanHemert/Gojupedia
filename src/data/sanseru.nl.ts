@@ -4,97 +4,83 @@ export const sanseruSteps: KataStep[] = [
   {
     id: 'step-1',
     number: 1,
-    title: 'Introductie en betekenis van Sanseru',
-    description: `Sanseru betekent "36" en verwijst naar de 36 technieken in de kata. Deze kata is door Kanryo Higaonna geïntroduceerd op Okinawa. Hij heeft de kata geleerd van Ryu Ryu Ko. De oorspronkelijke maker van de kata is onbekend.
+    title: 'Morote chudan uke, chudan zuki en chudan kake uke',
+    description: `Sanseru is door Kanryo Higaonna geïntroduceerd op Okinawa. Hij heeft de kata geleerd van de Ryu Ryu Ko. De oorspronkelijke maker van de kata is onbekend maar vermoed wordt dat deze kata afkomstig is van het Hond-boksen (Dog Kung Fu). Dit is (ook) een zuidelijke Kung Fu steil, met als bijzondere eigenschap tamelijk veel technieken voor het korte afstandsgevecht zoals worpen, klemmen en grondvechten. Sanseru betekent ‘36’: 6 (oog, oor, neus, tong, lichaam en geest) x 6 (kleur, stem, reuk, smaak, tast en rechtvaardigheid).
 
-Sanseru is een kaishugata (open hand vorm) en wordt gekenmerkt door veel open hand technieken, waaronder shotei zuki (palmstoten) en nukite zuki (speerhand stoten). De kata ontwikkelt kracht, snelheid en precisie in de uitvoering van technieken.`,
+Over Sanseru bestaat een belangrijke anekdote. In 1915 reisde Chojun Miyagi naar Fuzhou in China, waar Kanryo had geleefd en getraind. Daar ontmoette hij een andere student van Ryu Ryu Ko en hij liet de kata’s zien die hij van Kanryo had geleerd, behalve Sanseru. De student was onder de indruk maar zei ook dat Sanseru miste. Miyagi zei dat hij deze wel had geleerd, maar niet had voorgedaan want het was zijn minst favoriete kata. Dankzij dit incident weten we twee belangrijke dingen: Kanryo heeft alle 9 kata’s van Ryu Ryu Ko geleerd en hij heeft geen kata’s verwijderd uit het systeem.
+
+Net als bij het begin van Shishoshin, moet je bij deze technieken het beeld hebben van een tijger die zijn prooi langzaam besluipt en vervolgens plotseling toeslaat. Dus goed aarden en centreren, dan pas stoten. De wering volgt de stoot onmiddellijk op, als een bal die terugspringt van de muur. De elleboog blijft op dezelfde plek, een vuist van het lichaam. Je gebruikt je armspieren nauwelijks voor de wering. Houd na de derde stoot de linkerarm gestrekt.`,
   },
   {
     id: 'step-2',
     number: 2,
-    title: 'Begin en morote chudan shotei uke',
-    description: `Vanuit musubi dachi zak je in en stap met een ronde beweging met het rechterbeen in sanchin dachi. Gelijktijdig gaan de handen naar boven, schuiven ter hoogte van de solar plexus over elkaar heen naar de zijkant en maken voorbij de ellebogen een ronde beweging naar voren in morote chudan shotei uke.
+    title: 'Hazushi waza (bevrijdingstechniek)',
+    description: `Open de rechterhand en draai de hand met een kleine cirkel naar de voorzijde, de elleboog blijft min of meer op z’n plek. Trek gelijktijdig de andere hand terug in de zij (beide met muchimi), de hand nog steeds een vuist.
 
-De handen staan meer verticaal dan horizontaal. De ellebogen zijn vlak bij het lichaam (ongeveer een vuist hier vandaan) en maken een hoek van 90 graden. Deze techniek ontwikkelt kracht en stabiliteit in de armen en schouders.`,
+Open de vuist terwijl hij gelijktijdig op de rechterbovenarm slaat, net boven de elleboog (alsof je iets vangt), de vingers naar boven de duim naar beneden. Voer de hanzushi waza krachtig en snel uit.
+
+Stap met het rechterbeen naar achteren in zenkutsu dachi en trek gelijktijdig de rechterarm terug (de open hand wordt een vuist). De linkerarm/hand arm gaat krachtig langs de arm schuin naar voren; alsof je het plastic beschermlaagje van een elektriciteitsdraad stript. Deze hand eindigt boven de knie.`,
   },
   {
     id: 'step-3',
     number: 3,
-    title: 'Nukite zuki uitvoering',
-    description: `Je beweegt langzaam, cirkelvormig (enkel langs enkel) en met muchimi. Indien je bent geaard, sla je plotseling toe met een nukite zuki met veel kracht, snelheid en precisie. De hand die gaat steken trek je eerst krachtig terug in je zij, waarna hij eruit springt.
+    title: 'Tsukami en nage waza (grijp- en werptechniek)',
+    description: `Stap in een rechte lijn voorwaarts met het rechterbeen in zenkutsu dachi, buig voorover (houd de rug recht) en schep naar de onderzijde van de knie van een denkbeeldige opponent van gelijke grootte, waarna je deze naar je toe trekt.
 
-Bij de nukite zuki is de hand een speer: de duim drukt tegen de muis van de zijkant van de wijsvinger, de palm en de vingers zijn gestrekt. De nukite is naar ganka, de tussenribruimte tussen de vijfde en zesde rib ter hoogte van suigetsu.`,
+Onmiddellijk/gelijktijdig gevolgd door een palmstoot richting de denkbeeldige bovenknie van de opponent. De armen eindigen iets gekruist, de polsen boven elkaar.`,
   },
   {
     id: 'step-4',
     number: 4,
-    title: 'Hazusu wasa en morote gedan barai',
-    description: `Vanuit morote chudan shotei uke, maken de handen een kleine cirkelvormige beweging naar beneden, komen tegen elkaar aan voor de onderbuik en gaan met een scheppende beweging samen omhoog, de palmen naar boven. Ter hoogte van je sleutelbeen worden de handen een vuist, pink eerst, alles met muchimi.
-
-Tijdens het omhooggaan van de handen, gaat de adem naar beneden, wordt het bekken gesloten, krullen de armen op en gaan de schouderbladen uit elkaar. Je stapt krachtig naar achteren in zenkutsu dachi en opent gelijktijdig je bekken en laat de spanning in de schouders en armen los.`,
+    title: 'Ippon mae geri (dubbele voorwaartse trap)',
+    description: `De handen draaien iets, komen boven elkaar en wijzen naar voren, dit houd je zo tijdens de uitvoering van beide trappen. Probeer deze trappen zo snel mogelijk uit te voeren, maar blijf natuurlijk letten op de juiste uitvoering, zoals een rechte rug. De keage mae geri is met de bal van de voet naar het kruis (kijk uit dat je deze techniek niet te laag uitvoert), eindig in zenkutsu dachi en vervolg met een even snelle mae geri met het andere been.`,
   },
   {
     id: 'step-5',
     number: 5,
-    title: 'Chudan ura kake uke en shotei gedan barai',
-    description: `Je armen kruisen voor suigetsu, de vingers steken iets voorbij de ellebogen. Gelijktijdig zak je in je achterste been. Vanuit dit been breng je je lichaam vanuit je tanden naar voren; zorg ervoor dat je 45 graden ten opzichte van het shomen staat.
+    title: 'Hiji ate, gedan zuki, kansetzu geri, chudan uke en mae geri',
+    description: `De hiji ate, de gedan zuki en de kansetzu geri moeten uitgevoerd worden met veel kracht en snelheid. Na de tweede mae geri (van de vorige techniek) wordt de voet neergestampt en de kaatsende impuls wordt gebruikt voor de voorwaartse hiji ate. Bij de gedan zuki strekt het been wel, maar de heup draait niet in, het lichaam blijft hanmi (= half uitgedraaid). Na de elleboogstoot en de lage stoot wijzen de armen iets naar binnen.
 
-De arm die de kake uke maakt, gaat onder de gedan uke arm door. De kake uke is alsof je een frisbee weggooit, maar je arm blijft bij je lichaam: de elleboog is en blijft een vuist breedte van je lichaam en de elleboog maakt na de kake uke een hoek van 90 graden.`,
+Trek de rechtervoet terug over de vloer en trek hem pas omhoog als hij bij de andere voet is. Laat gelijktijdig het tanden vollopen voordat je de kekomi kansetsu geri (knietrap met de zijkant van de voet) uitvoert en vul je buik weer na de trap bij het terugtrekken van de voet naar de eigen knie. Tijdens de trap houd je de armen in de positie van de elleboog- en gedan stoot.
+
+Trek de voet/knie krachtig en tamelijk hoog terug (de voet is naast de knie) en gebruik deze impuls voor draai van 180 graden. Na de draai stap je met de rechtervoet in sanchin-dachi en voer gelijktijdig een chudan yoko uke uit. Het vullen van de buik, het optrekken van de voet, het draaien en de wering zijn vrijwel één beweging. Neem even rust na de wering voordat je de mae geri uitvoert. De keage mae geri is met de bal van de voet naar het kruis, eindig in zenkutsu dachi als je de voet neerstampt.`,
   },
   {
     id: 'step-6',
     number: 6,
-    title: 'Chudan uchi kake uke, hiki uke en ude osae',
-    description: `De beide weringen worden uitgevoerd met muchimi. De armen bewegen samen en houden zoveel mogelijk contact, stel je voor dat je armen zitten vastgekleefd aan een arm van een opponent. De hiki uke hand begint gehoekt onder de elleboog en aan het einde van de techniek gaan beide handen samen naar de zijkant.
+    title: 'Seiken en shotei gedan kosa uke',
+    description: `Vanuit zenkutsu dachi, zet je de achterste voet op de lijn van de voorste, draai en val gelijktijdig van een hoge in een hele lage shiko dachi en voer gelijktijdig een kosa uke (schaarblok) met de vuisten naar beneden uit. Voel dat de impuls van het vallen van je lichaam in de wering wordt gebruikt. De rechter- is bij de vuistwering voor de linkerarm.
 
-De ude osae wordt ingezet vanuit de afzet van het been en de heupen, de schouders en heupen bewegen samen, zorg ervoor dat je geen spierkracht van je schouders of armen gebruikt. Het hoofd draait aanvankelijk mee met het lichaam, maar blijft naar voren kijken.`,
+Verplaats hierna je gewicht naar je linkervoet en trek de rechtervoet vlak langs de linker, draai en voer een shotei gedan kosa uke (schaarblok met open handen dus) in diepe shiko dachi uit, eveneens recht naar beneden en ditmaal is de linker- voor de rechterarm. Let erop dat je tijdens de beweging de schouders niet lift en de rug recht houdt.`,
   },
   {
     id: 'step-7',
     number: 7,
-    title: 'Age hiji ate en ushiro hiji ate',
-    description: `Breng je gewicht naar je linkervoet en sluit beide voeten tegen elkaar aan (heisoku dachi). Tijdens de beweging naar heisoku dachi adem je in en sluit je het bekken door het achterover te kantelen.
-
-Gelijktijdig worden je handen vuisten. Je opent je bekken en laat gelijktijdig ook je lichaam vallen terwijl je de beide elleboogstoten uitvoert. De knokkels van de hand van ushiro hiji ate blijven omhoog. In de bunkai is de ushiro hiji ate een stoot naar achteren.`,
+    title: 'Shotei jodan age uke en osae hiki waza',
+    description: `Breng je gewicht naar je linkerbeen, blijf laag en beweeg vanuit je achterste been - aanvankelijk snel, maar dit gaat tijdens de beweging over in muchimi - in shiko dachi, de voeten gaan vlak langs elkaar heen. Voer een jodan age uke uit, aan het einde is de arm licht omhoog gebogen en de ogen kijken net onder de onderarm door. De beweging tijdens de verplaatsing is aanvankelijk snel, daarna met muchimi. Trek gelijktijdig de linkerhand met muchimi in een trekkende beweging terug, in een rechte lijn, palm omhoog vingers zijwaarts gestrekt, eindigend onder seigetsu.`,
   },
   {
     id: 'step-8',
     number: 8,
-    title: 'Jodan shotei zuki en shotei gedan barai',
-    description: `Vanuit heisoku dachi blijf je laag. Je draait op je linkervoet 180 graden, de voeten blijven dicht bij elkaar. Als je gedraaid bent, stapt de rechtervoet naar achteren in zenkutsu dachi en deze rechtervoet blijft min of meer op zijn plaats tijdens de vier palmstoten.
+    title: 'Awase zuki (dubbele rechte en omgekeerde stoot)',
+    description: `Dit is de krachtigste beweging in de kata. Verplaats je gewicht wederom naar je linkerbeen en trek je rechterbeen terug in een hoge nekoashi dachi (geen stand maar een moment in de beweging). Verplaats de handen in een cirkelende beweging naar je zij, ze zijn dan nog steeds open.
 
-Breng de hand van de stotende arm tijdens de draai omhoog, vingers omhoog terwijl je buik vult met adem. Voer de shotei zuki en de gedan barai gelijktijdig uit. De shotei zuki is iets hoger dan de schouders. Concentratie in de palm en het tanden.`,
+Zet af en verplaats krachtig en snel voorwaarts; de rechtervoet eerst, gevolgd door de linker en eindig in sanchin dachi. De storm/stoot begint (pas) als alle adem in het tanden is gearriveerd en met het maken van de vuisten door het aanspannen van de duim en de wijsvinger, dan nog in de zij.
+
+Tijdens deze beweging concentreer je je op het maken van de vuisten en voer je een zeer krachtige awase zuki uit. Kiai! Let er op dat je diep inademt naar het tanden. Focus krachig tijdens het raken op het tanden en de knokkels van de vuisten. De ura zuki is boven de knie van het voorste been, net zoals in Gekisai dai ichi.`,
   },
   {
     id: 'step-9',
     number: 9,
-    title: 'Chudan hiki uke, mae geri en hiji ate',
-    description: `Stap van zenkutsu dachi met een cirkel (enkel langs enkel) in sanchin dachi. De hiki uke is met muchimi; blijf in (virtueel) contact met de arm van de opponent. De hikite is naar de zij met open hand, vingers omhoog. Behoud het blok bij de keage mae geri met de bal van de voet naar het kruis.
-
-De hikite blijft open maar (de andere hand) gaat naar de solar plexus tijdens de elleboogstoot. De elleboogstoot is naar ganka en de hand is open. Kiai!`,
+    title: 'Ippon chudan uke',
+    description: `Verplaats je gewicht wederom op je linkerbeen, stap met het rechterbeen zijwaarts (het lichaam zinkt fors) en draai 180 graden in sanchin dachi. Voer gelijktijdig een chudan uke uit, de vuisten gesloten. Stap voor de tweede chudan uke met een cirkelbeweging door, voet en hand bewegen synchroon.`,
   },
   {
     id: 'step-10',
     number: 10,
-    title: 'Shotei osae en hiji uchi',
-    description: `De beweging begint met een kleine stap en draai van de linkervoet. Blok met muchimi. De werende hand gaat mee met het draaiende lichaam en gaat met een ronde beweging voor je gezicht langs voorbij de zijkant van je lichaam.
+    title: 'Morote ko uke (dubbele polswering)',
+    description: `Draai het lichaam 180 graden, door met de linkervoet naar achteren te stappen, eindigend in shiko dachi. De voet maakt een cirkel (de enkels gaan dus niet vlak langs elkaar) en houdt contact met de vloer. Open gelijktijdig de handen. De bovenste hand (de rechter) valt naar binnen, gaat het meest langs het lichaam als beide armen om elkaar heen draaien en wordt uiteindelijk de voorste/bovenste hand van morote ko uke (dubbele polswering of bidsprinkhaan-wering). De rechterhand weert omhoog en de linker kan opzij gaan weren. Hierom ondersteunt de duim van de rechterhand (omhoog) de ringvinger (het gedeelte van de rug van de hand onder de pink/ringvinger wordt harder); de duim van de linkerhand (kan zijwaarts gaan weren) ondersteunt de middenvinger (het middengedeelte van de rug van de hand wordt harder). In de kata gaat de linkerhand niet opzij en blijft in een afwachtende houding, in de bunkai weert hij wel opzij. Let erop dat je de aandacht concentreert op raakpunten van beide polsen. Breng beide handen iets omhoog, cirkel ze terug en leg de rechter in de linker.
 
-Net voordat de werende hand in een rechte lijn terug gaat naar de solar plexus, gaat de elleboogslag over de pols heen. Deze elleboogslag maakt een ronde opwaartse beweging, het is een zware slag (vanuit het tanden, zorg voor zo min mogelijk spanning in de arm) en omhoog naar de onderkaak.`,
+Trek nu pas je voet terug in musubi dachi en beëindig de kata.`,
   },
-  {
-    id: 'step-11',
-    number: 11,
-    title: 'Morote chudan ura kake uke',
-    description: `Je draait op je rechtervoet in neko ashi dachi. Daarvoor gaan beide handen aanvankelijk samen naar de rechterzij. Daarna strekken ze horizontaal uit (vooral de rechter naar de linkerzij) voor de solar plexus (suigetsu), palmen omhoog.
-
-Beide armen strekken ver naar de zijkant (de vingers zijn buiten het lichaam) voordat de morote kake uke, aan het einde van de draai, met muchimi, wordt uitgevoerd. De handen worden zodanig gehouden dat als je er een groot boek oplegt, je kunt gaan lezen.`,
-  },
-  {
-    id: 'step-12',
-    number: 12,
-    title: 'Morote hiji ate en afsluiting',
-    description: `Stap door in zenkutsu dachi, draai de handen, beweeg ze iets naar beneden en maak vuisten (alsof je iets stevig pakt) - wijsvinger eerst - die onmiddellijk gaan grijpen en trekken. Stel je bij de trekkende beweging voor dat je een boompje uit de grond trekt.
-
-Beide "elleboogstoten" zijn hoog, de handen eindigen naast de oren, knokkels omhoog, focus in de polsen. Breng beide open handen met een ronde beweging bij elkaar voor je gezicht en weer met een ronde beweging naar beneden. Leg de rechterhand in de linker, trek je voet terug in musubi dachi en draai beide handen.`,
-  }
-]; 
+];
