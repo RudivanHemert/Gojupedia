@@ -148,11 +148,23 @@
                     "description": "Verwendung grundlegender Mechanik, um den Gegner aus dem Gleichgewicht zu bringen.",
                     "content": "Drücken und Ziehen sind die grundlegendsten Methoden, um das Gleichgewicht des Gegners zu stören (Kuzushi). Das oft angewandte Prinzip lautet: Wenn gezogen wird, drücken; wenn gedrückt wird, ziehen. Dies nutzt den eigenen Schwung des Gegners gegen ihn. Diese Aktionen sind selten isoliert, sondern werden mit Schritten und Körperrotation kombiniert."
                 },
-                "go-ju-techniques": {
-                    "title": "Go- und Ju-Techniken",
-                    "subtitle": "Harte und Weiche Anwendungen",
-                    "description": "Die Mischung aus Schlagen und Grappling.",
-                    "content": "Kakie ermöglicht das Üben sowohl von 'Go' (Harten) Techniken wie Schlägen, Tritten und Brüchen als auch von 'Ju' (Weichen) Techniken wie Hebeln, Würgegriffen und Würfen. Ein Übender muss lernen, je nach Reaktion des Gegners sofort zwischen harten und weichen Anwendungen zu wechseln und so den wahren Geist des Goju-Ryu zu verkörpern."
+                "go-techniques": {
+                    "title": "Go-Techniken",
+                    "subtitle": "Harte Anwendungen",
+                    "description": "Stöße, Tritte und Brüche.",
+                    "content": "Go-Techniken im Kakie konzentrieren sich auf direkte, lineare Kraftanwendungen. Dies beinhaltet explosive Stöße (tsuki), Tritte (geri) und das Brechen der Struktur oder der Gliedmaßen des Gegners (setsu-waza). Diese Techniken werden oft in Momenten maximaler Muskelspannung angewendet."
+                },
+                "ju-techniques-tuite": {
+                    "title": "Ju-Techniken: Tuite",
+                    "subtitle": "Greifen und Hebeln",
+                    "description": "Sanfte Techniken, die auf Gelenkmanipulation fokussiert sind.",
+                    "content": "Tuite-waza oder Gelenkhebeltechniken nutzen die 'sanfte' Seite des Goju-Ryu. Anstatt Kraft gegen Kraft zu setzen, wird die Energie des Gegners umgeleitet, um seine Gelenke zu kontrollieren. Dies erfordert präzise anatomische Kenntnisse und die Fähigkeit, über Muchimi verbunden zu bleiben."
+                },
+                "ju-techniques-kyusho": {
+                    "title": "Ju-Techniken: Kyusho",
+                    "subtitle": "Vitalpunkte",
+                    "description": "Angriffe auf empfindliche Körperstellen.",
+                    "content": "Kyusho-jutsu beinhaltet Angriffe auf Nervenpunkte und andere vitale Bereiche. In der Kakie-Distanz ist dies äußerst effektiv, da man bereits in Kontakt mit dem Gegner steht. Ein geringer Druck oder ein Schlag an der richtigen Stelle kann eine lähmende Wirkung haben, wodurch der Gegner leichter zu kontrollieren oder zu werfen ist."
                 }
             },
             "basic-exercises": {
@@ -198,31 +210,37 @@
                     "title": "Verwurzeln",
                     "subtitle": "Aktiver Griff",
                     "description": "Den Boden aktiv greifen zur Krafterzeugung.",
-                    "content": "Im Gegensatz zur Erdung ist das Verwurzeln aktiv. Es beinhaltet das Greifen des Bodens mit den Zehen und Füßen, wodurch ein starkes Fundament entsteht. Diese 'Wurzel' ermöglicht es dem Übenden, sich gegen den Boden abzudrücken, um horizontale Kraft zu erzeugen und Techniken anzutreiben."
+                    "content": "Im Gegensatz zur Erdung ist das Verwurzeln aktiv. It beinhaltet das Greifen des Bodens mit den Zehen und Füßen, wodurch ein starkes Fundament entsteht. Diese 'Wurzel' ermöglicht es dem Übenden, sich gegen den Boden abzudrücken, um horizontale Kraft zu erzeugen und Techniken anzutreiben."
                 },
-                "centering": {
+                "centring": {
                     "title": "Zentrierung",
                     "subtitle": "Tanden-Bewusstsein",
                     "description": "Bewegen aus dem physischen und energetischen Zentrum.",
                     "content": "Alle Kraft und Bewegung muss aus dem Tanden (Zentrum) kommen. Die Konzentration von Geist und Atem im Unterbauch senkt den Schwerpunkt und vereinheitlicht die Körperbewegung, wodurch sichergestellt wird, dass Techniken vom ganzen Körper und nicht nur von den Gliedmaßen angetrieben werden."
                 },
-                "power": {
-                    "title": "Kraft",
+                "generating-power": {
+                    "title": "Krafterzeugung",
                     "subtitle": "Gamaku",
                     "description": "Krafterzeugung durch Hüft- und Taillenverbindung.",
                     "content": "Kraft in Kakie wird durch die Beine und Hüften ('Gamaku') erzeugt. Die Arme übertragen diese Kraft lediglich. Eine korrekte Koordination von Taille und Hüften mit der Atmung (Ibuki) ermöglicht eine explosive Krafterzeugung auch auf kurze Distanz."
                 },
-                "breathing": {
-                    "title": "Atmung",
+                "combining-forces": {
+                    "title": "Kräfte kombinieren",
+                    "subtitle": "Synergie",
+                    "description": "Integration verschiedener Kraftarten in eine Bewegung.",
+                    "content": "Effektives Kakie erfordert die Integration von linearen, rotierenden und vertikalen Kräften. Durch die Kombination der Beinkraft, der Hüftrotation und der Ausrichtung des Rückens erreicht man ein Kraftniveau, das weit über dem liegt, was die Arme allein erzeugen können."
+                },
+                "regulating-breathing": {
+                    "title": "Regulierung der Atmung",
                     "subtitle": "Ibuki",
                     "description": "Koordination von Atem und Handlung.",
                     "content": "Die Atmung kontrolliert den Rhythmus des Kampfes. Tiefe Bauchatmung (Ibuki) wird verwendet, um inneren Druck zu erzeugen, den Körper zu schützen und Bewegung zu speisen. Man sollte bei der Kraftabgabe ausatmen und bei der Absorption oder Vorbereitung einatmen."
                 },
-                "ki": {
-                    "title": "Ki",
+                "regulating-ki": {
+                    "title": "Regulering des Ki",
                     "subtitle": "Lebensenergie",
                     "description": "Technik mit Geist und Absicht füllen.",
-                    "content": "Ki ist die Lebensenergie, die die Technik belebt. In Kakie bedeutet dies, die Absicht über den physischen Kontakt hinaus zu projizieren. Ein Übender mit starkem Ki hat eine Präsenz, die vom Gegner gespürt werden kann und dessen Geist stört, noch bevor physische Techniken angewendet werden."
+                    "content": "Ki ist die vitale Energie die de techniek bezielt. In Kakie houdt dit in dat intentie voorbij fysiek contact wordt geprojecteerd. Een beoefenaar met sterke Ki heeft een aanwezigheid die door de tegenstander kan worden gevoeld en diens geest verstoort nog voordat fysieke technieken worden toegepast."
                 }
             }
         }

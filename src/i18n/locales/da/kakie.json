@@ -148,11 +148,23 @@
                     "description": "Brug af grundlæggende mekanik til at bringe modstanderen ud af balance.",
                     "content": "At skubbe og trække er de mest grundlæggende metoder til at forstyrre modstanderens balance (Kuzushi). Princippet, der ofte anvendes, er: hvis der trækkes, skub; hvis der skubbes, træk. Dette bruger modstanderens eget momentum imod dem. Disse handlinger er sjældent isolerede, men kombineres med fodarbejde og kropsrotation."
                 },
-                "go-ju-techniques": {
-                    "title": "Go og Ju Teknikker",
-                    "subtitle": "Hårde og Bløde Applikationer",
-                    "description": "Blandingen af slag og grappling.",
-                    "content": "Kakie tillader udøvelse af både 'Go' (Hårde) teknikker som slag, spark og brud, og 'Ju' (Bløde) teknikker som låse, kvælertag og kast. En udøver skal lære at skifte øjeblikkeligt mellem hårde og bløde applikationer afhængigt af modstanderens reaktion og dermed legemliggøre den sande ånd i Goju-Ryu."
+                "go-techniques": {
+                    "title": "Go-teknikker",
+                    "subtitle": "Hårde anvendelser",
+                    "description": "Stød, spark og brud.",
+                    "content": "Go-teknikker i Kakie fokuserer på direkte, lineære anvendelser af kraft. Dette inkluderer eksplosive stød (tsuki), spark (geri) og at bryde modstanderens struktur eller lemmer (setsu-waza). Disse teknikker anvendes ofte i øjeblikke med maksimal muskelspænding."
+                },
+                "ju-techniques-tuite": {
+                    "title": "Ju-teknikker: Tuite",
+                    "subtitle": "Gribning og låsning",
+                    "description": "Bløde teknikker fokuseret på ledmanipulation.",
+                    "content": "Tuite-waza eller ledlåseteknikker udnytter den 'bløde' side af Goju-Ryu. I stedet for at bruge kraft mod kraft, omdirigeres modstanderens energi til at kontrollere deres led. Dette kræver præcis anatomisk viden og evnen til at forblive forbundet gennem Muchimi."
+                },
+                "ju-techniques-kyusho": {
+                    "title": "Ju-teknikker: Kyusho",
+                    "subtitle": "Vitale punkter",
+                    "description": "Angreb på sårbare områder af kroppen.",
+                    "content": "Kyusho-jutsu involverer angreb på nervepunkter og andre vitale områder. I Kakie-afstand er dette yderst effektivt, da man allerede er i kontakt med modstanderen. En lille mængde tryk eller et stød på det rigtige sted kan have en lammende effekt, hvilket gør modstanderen lettere at kontrollere eller kaste."
                 }
             },
             "basic-exercises": {
@@ -175,7 +187,7 @@
                     "title": "Kake Uke",
                     "subtitle": "Hrogblokering",
                     "description": "Den karakteristiske teknik for Kakie.",
-                    "content": "Kake Uke (Hrogblokering) er måske den mest repræsentative teknik for stilen. Det indebærer at kroge modstanderens angribende lem for at kontrollere det. I Kakie-praksis bruges Kake Uke til at åbne modstanderens vagt, fange deres arm og skabe en åbning for et modangreb. Det kræver en afslappet skulder, men et stærkt, konditioneret håndled og greb."
+                    "content": "Kake Uke (Hrogblokering) is misschien wel de meest representatieve techniek van de stijl. Het houdt in dat de aanvallende ledemaat van de tegenstander wordt gehaakt om deze te controleren. In Kakie-training wordt Kake Uke gebruikt om de dekking van de tegenstander te openen, hun arm vast te zetten en een opening te creëren voor een tegenaanval. Het vereist een ontspannen schouder maar een sterke, geconditioneerde pols en greep."
                 }
             },
             "points-of-attention": {
@@ -200,29 +212,35 @@
                     "description": "At gribe gulvet aktivt for at generere kraft.",
                     "content": "I modsætning til jordforbindelse er rodfæstelse aktiv. Det indebærer at gribe gulvet med tæerne og fødderne, hvilket skaber et stærkt fundament. Denne 'rod' giver udøveren mulighed for at skubbe mod jorden for at generere horisontal kraft og drive teknikker."
                 },
-                "centering": {
+                "centring": {
                     "title": "Centrering",
                     "subtitle": "Tanden-bevidsthed",
                     "description": "At bevæge sig fra det fysiske og energetiske centrum.",
                     "content": "Al kraft og bevægelse skal udgå fra Tanden (Centrum). At fokusere sindet og åndedrættet i det nedre underliv sænker tyngdepunktet og forener kroppens bevægelse, hvilket sikrer, at teknikker drives af hele kroppen, ikke kun lemmerne."
                 },
-                "power": {
-                    "title": "Kraft",
+                "generating-power": {
+                    "title": "Generering af kraft",
                     "subtitle": "Gamaku",
                     "description": "Generering af kraft gennem hofte- og taljeforbindelse.",
                     "content": "Kraft i Kakie genereres af benene og hofterne ('Gamaku'). Armene overfører blot denne kraft. Korrekt koordination af taljen og hofterne med åndedrættet (Ibuki) giver mulighed for eksplosiv kraftgenerering selv på tæt hold."
                 },
-                "breathing": {
-                    "title": "Vejrtrækning",
+                "combining-forces": {
+                    "title": "Kombination af kræfter",
+                    "subtitle": "Synergi",
+                    "description": "Integration af forskellige typer kraft i én bevægelse.",
+                    "content": "Effektiv Kakie kræver integration af lineære, roterende og vertikale kræfter. Ved at kombinere benenes kraft, hofternes rotation og ryggens justering opnår man et kraftniveau, der er meget større end hvad armene alene kan producere."
+                },
+                "regulating-breathing": {
+                    "title": "Regulering af Åndedrættet",
                     "subtitle": "Ibuki",
                     "description": "Koordinering af åndedræt med handling.",
                     "content": "Vejrtrækningen styrer kampens rytme. Dyb abdominal vejrtrækning (Ibuki) bruges til at generere internt tryk, beskytte kroppen og nære bevægelse. Man bør ånde ud, når man leverer kraft, og indånde, når man absorberer eller forbereder sig."
                 },
-                "ki": {
-                    "title": "Ki",
+                "regulating-ki": {
+                    "title": "Regulering af Ki",
                     "subtitle": "Vital Energi",
                     "description": "At fylde teknikken med ånd og hensigt.",
-                    "content": "Ki er den vitale energi, der animerer teknikken. I Kakie indebærer det at projicere hensigt hinsides fysisk kontakt. En udøver med stærk Ki har en tilstedeværelse, der kan mærkes af modstanderen, hvilket forstyrrer deres ånd, selv før fysiske teknikker anvendes."
+                    "content": "Ki is de vitale energie die de techniek bezielt. In Kakie houdt dit in dat intentie voorbij fysiek contact wordt geprojecteerd. Een beoefenaar met sterke Ki heeft een aanwezigheid die door de tegenstander kan worden gevoeld en diens geest verstoort nog voordat fysieke technieken worden toegepast."
                 }
             }
         }

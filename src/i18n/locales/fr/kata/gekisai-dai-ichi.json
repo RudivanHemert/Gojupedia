@@ -1,41 +1,47 @@
 {
   "name": "Gekisai Dai Ichi",
   "japaneseName": "撃砕第一",
-  "meaning": "Attack and Smash",
-  "description": "The first kata in the Gekisai series, designed to introduce basic techniques and principles of Goju Ryu.",
-  "history": "This kata was developed in Okinawa around 1940 by sensei Chōjun Miyagi (co-founder of Goju-Ryu) and Shoshin Nagamine. They based Gekisai Dai Ichi on Fukyugata II (a basic kata of the Itosu system, analogous to Shuri-te's Pinan) to provide young students with a simpler kata.",
-  "culturalSignificance": "This kata is used to develop techniques and understanding in Goju-Ryu training.",
+  "meaning": "Démolir et détruire (numéro un)",
+  "description": "Gekisai Dai Ichi est le premier des deux katas Gekisai créés par Chojun Miyagi Sensei en 1940. Il a été conçu pour simplifier l'apprentissage du Goju-Ryu pour les débutants et les enfants dans les écoles, tout en conservant les principes fondamentaux du style.",
+  "history": "Créé en 1940 par le fondateur du Goju-Ryu, Chojun Miyagi, le kata a été développé pour aider à populariser le karaté à Okinawa. Il a été conçu comme un outil pédagogique combinant force physique et mouvements techniques fondamentaux.",
+  "culturalSignificance": "Le kata représente l'esprit de persévérance et de force nécessaire pour « démolir » les obstacles. C'est un symbole de la modernisation du karaté d'Okinawa et de son intégration dans le système d'éducation physique japonais.",
+  "stepsCount": "8",
+  "metadata": {
+    "difficulty": "Débutant",
+    "duration": "Environ 45-60 secondes",
+    "focus": "Force, postures de base (Zenkutsu-dachi, Shiko-dachi), blocages fondamentaux",
+    "kiai": "Deux (étape 5 et étape 7)"
+  },
   "detailedMeaning": {
-    "title": "Name and Meaning",
-    "content": "Gekisai Dai Ichi (撃砕第一) means \"Attack and Smash\"."
+    "title": "Signification Détaillée",
+    "content": "Gekisai (Démolir et Détruire) Dai Ichi (Numéro Un). Le nom reflète la nature directe et puissante des techniques. Miyagi Sensei voulait que les élèves développent des techniques fortes capables de « briser » la défense d'un adversaire. Contrairement aux katas plus anciens, Gekisai Dai Ichi utilise des mouvements plus droits et directs pour faciliter l'apprentissage."
   },
   "origin": {
-    "title": "Origin",
-    "content": "This kata was developed in Okinawa around 1940 by sensei Chōjun Miyagi (co-founder of Goju-Ryu) and Shoshin Nagamine. They based Gekisai Dai Ichi on Fukyugata II (a basic kata of the Itosu system, analogous to Shuri-te's Pinan) to provide young students with a simpler kata."
+    "title": "Origine",
+    "content": "Développé à Okinawa, au Japon, à une époque où le karaté était introduit dans le programme d'éducation physique des écoles secondaires. Chojun Miyagi a reconnu la nécessité d'un pont entre l'entraînement de base et les katas traditionnels plus complexes comme Saifa ou Kururunfa."
   },
   "transmission": {
-    "title": "Transmission to Goju-Ryu",
-    "content": "This kata was passed down through the Goju-Ryu lineage."
+    "title": "Transmission",
+    "content": "Il est transmis par la lignée du Goju-Ryu et est maintenant pratiqué par presque toutes les écoles de Goju-Ryu à travers le monde. Bien qu'il s'agisse d'un kata « récent » (créé au XXe siècle), il est considéré comme une partie essentielle du programme de base."
   },
   "historicalDevelopment": {
-    "title": "Historical Development and Variations",
-    "content": "The kata has maintained its core structure while allowing for minor variations between schools."
+    "title": "Développement Historique",
+    "content": "Au début des années 1940, Miyagi Sensei a peaufiné le kata pour inclure des techniques d'autres styles et le rendre plus représentatif de la défense personnelle générique, sans perdre le caractère unique du Goju-Ryu. Il est resté pratiquement inchangé depuis sa création."
   },
   "technicalFeatures": {
-    "title": "Technical and Philosophical Features",
-    "content": "The first kata in the Gekisai series, designed to introduce basic techniques and principles of Goju Ryu."
+    "title": "Caractéristiques Techniques",
+    "content": "Présente des postures fortes comme Zenkutsu Dachi (posture avant) et Shiko Dachi (posture du cavalier). Met l'accent sur l'utilisation de Jodan Uke (blocage haut), Chudan Uke (blocage moyen) et Gedan Barai (blocage bas). Le kata introduit la combinaison de déplacements linéaires avec des blocages et des contre-attaques puissants."
   },
   "controversy": {
-    "title": "Controversy/Variations within Goju-Ryu",
-    "content": "There are minor variations in timing and emphasis between different Goju-Ryu schools."
+    "title": "Controverse",
+    "content": "Il n'existe pas de controverses significatives, bien que certains puristes aient à l'époque remis en question la « simplification » du style traditionnel. Cependant, il est aujourd'hui universellement accepté comme une méthode d'enseignement supérieure."
   },
   "relationships": {
-    "title": "Relationship to other kata/Systems",
-    "content": "This kata is part of the Goju-Ryu curriculum."
+    "title": "Relations",
+    "content": "Il est étroitement lié à Gekisai Dai Ni. Ensemble, ils forment la base de la technique du Goju-Ryu. Il prépare également l'élève à Saifa, le premier kata traditionnel « ancien »."
   },
   "modernPractice": {
-    "title": "Use in Modern Practice",
-    "content": "This kata is used to develop techniques and understanding in Goju-Ryu training."
-  },
-  "stepsCount": "7"
+    "title": "Pratique Moderne",
+    "content": "Gekisai Dai Ichi est traditionnellement enseignée comme la première ou deuxième kata pour les étudiants débutants. Elle est destinée à pratiquer les mouvements de base et le rythme. Dans les kata de compétition (événements) elle survient rarement parce qu'elle est assez simple, mais elle est montrée dans les démonstrations et dans les plans de leçon de dojo comme fondation. Elle sert principalement de pont vers les kata plus lourdes (comme Sanchin et Tensho) et pour la condition et l'entraînement de défense de base."
+  }
 }

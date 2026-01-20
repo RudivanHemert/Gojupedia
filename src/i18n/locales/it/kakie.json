@@ -148,11 +148,23 @@
                     "description": "Usare la meccanica di base per sbilanciare l'avversario.",
                     "content": "Spingere e tirare sono i metodi più basilari per disturbare l'equilibrio dell'avversario (Kuzushi). Il principio spesso applicato è: se tirato, spingi; se spinto, tira. Questo usa lo slancio stesso dell'avversario contro di lui. Queste azioni sono raramente isolate ma combinate con il gioco di gambe e la rotazione del corpo."
                 },
-                "go-ju-techniques": {
-                    "title": "Tecniche Go e Ju",
-                    "subtitle": "Applicazioni Dure e Morbide",
-                    "description": "La miscela di percosse e lotta.",
-                    "content": "Il Kakie permette la pratica sia di tecniche 'Go' (Dure) come pugni, calci e rotture, sia di tecniche 'Ju' (Morbide) come leve, strangolamenti e proiezioni. Un praticante deve imparare a passare istantaneamente tra applicazioni dure e morbide a seconda della reazione dell'avversario, incarnando il vero spirito del Goju-Ryu."
+                "go-techniques": {
+                    "title": "Tecniche Go",
+                    "subtitle": "Applicazioni Dure",
+                    "description": "Colpi, calci e rotture.",
+                    "content": "Le tecniche Go nel Kakie si concentrano su applicazioni dirette e lineari della forza. Ciò include pugni esplosivi (tsuki), calci (geri) e la rottura della struttura o degli arti dell'avversario (setsu-waza). Queste tecniche sono spesso applicate durante i momenti di massima tensione muscolare."
+                },
+                "ju-techniques-tuite": {
+                    "title": "Tecniche Ju: Tuite",
+                    "subtitle": "Afferrare e Bloccare",
+                    "description": "Tecniche morbide focalizzate sulla manipolazione articolare.",
+                    "content": "Il Tuite-waza o le tecniche di leva articolare utilizzano il lato 'morbido' del Goju-Ryu. Invece di usare la forza contro la forza, l'energia dell'avversario viene reindirizzata per controllare le sue articolazioni. Ciò richiede una conoscenza anatomica precisa e la capacità di rimanere connessi attraverso il Muchimi."
+                },
+                "ju-techniques-kyusho": {
+                    "title": "Tecniche Ju: Kyusho",
+                    "subtitle": "Punti Vitali",
+                    "description": "Attaccare aree vulnerabili del corpo.",
+                    "content": "Il Kyusho-jutsu prevede l'attacco ai punti nervosi e ad altre aree vitali. Nella distanza del Kakie, questo è estremamente efficace poiché si è già in contatto con l'avversario. Una piccola quantità di pressione o un colpo nel punto giusto può avere un effetto paralizzante, rendendo l'avversario più facile da controllare o proiettare."
                 }
             },
             "basic-exercises": {
@@ -200,26 +212,32 @@
                     "description": "Afferrare attivamente il pavimento per generare potenza.",
                     "content": "A differenza dell'ancoraggio, il radicamento è attivo. Implica afferrare il pavimento con le dita dei piedi, creando una base solida. Questa 'radice' consente al praticante di spingere contro il terreno per generare forza orizzontale e guidare le tecniche."
                 },
-                "centering": {
+                "centring": {
                     "title": "Centratura",
                     "subtitle": "Consapevolezza del Tanden",
                     "description": "Muoversi dal centro fisico ed energetico.",
                     "content": "Tutta la potenza e il movimento devono originare dal Tanden (Centro). Concentrare la mente e il respiro nell'addome inferiore abbassa il baricentro e unifica il movimento del corpo, assicurando che le tecniche siano alimentate da tutto il corpo, non solo dagli arti."
                 },
-                "power": {
-                    "title": "Potenza",
+                "generating-power": {
+                    "title": "Generare Potenza",
                     "subtitle": "Gamaku",
                     "description": "Generare forza attraverso la connessione di fianchi e vita.",
                     "content": "La potenza nel Kakie è generata dalle gambe e dai fianchi ('Gamaku'). Le braccia trasmettono semplicemente questa forza. Una corretta coordinazione della vita e dei fianchi con il respiro (Ibuki) consente una generazione di potenza esplosiva anche a distanza ravvicinata."
                 },
-                "breathing": {
-                    "title": "Respirazione",
+                "combining-forces": {
+                    "title": "Combinare le Forze",
+                    "subtitle": "Sinergia",
+                    "description": "Integrare diversi tipi di forza in un unico movimento.",
+                    "content": "Un Kakie efficace richiede l'integrazione di forze lineari, rotative e verticali. Combinando la potenza delle gambe, la rotazione dei fianchi e l'allineamento della schiena, si ottiene un livello di potenza molto superiore a quello che le sole braccia possono produrre."
+                },
+                "regulating-breathing": {
+                    "title": "Regolazione della Respirazione",
                     "subtitle": "Ibuki",
                     "description": "Coordinare il respiro con l'azione.",
                     "content": "La respirazione controlla il ritmo del combattimento. La respirazione addominale profonda (Ibuki) viene utilizzata per generare pressione interna, proteggere il corpo e alimentare il movimento. Bisogna espirare quando si eroga forza e inspirare quando si assorbe o ci si prepara."
                 },
-                "ki": {
-                    "title": "Ki",
+                "regulating-ki": {
+                    "title": "Regolazione del Ki",
                     "subtitle": "Energia Vitale",
                     "description": "Infondere la tecnica con spirito e intenzione.",
                     "content": "Il Ki è l'energia vitale che anima la tecnica. Nel Kakie, implica proiettare l'intenzione oltre il contatto fisico. Un praticante con un Ki forte ha una presenza che può essere percepita dall'avversario, disturbando il suo spirito ancor prima che vengano applicate le tecniche fisiche."

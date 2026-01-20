@@ -148,11 +148,23 @@
                     "description": "Gebruik van basismechanica om de tegenstander uit balans te brengen.",
                     "content": "Duwen en trekken zijn de meest basale methoden om het evenwicht van de tegenstander te verstoren (Kuzushi). Het principe dat vaak wordt toegepast is: als er getrokken wordt, duw; als er geduwd wordt, trek. Dit gebruikt de eigen impuls van de tegenstander tegen hem. Deze acties staan zelden op zichzelf, maar worden gecombineerd met stapwerk en lichaamsrotatie."
                 },
-                "go-ju-techniques": {
-                    "title": "Go en Ju Technieken",
-                    "subtitle": "Harde en Zachte Toepassingen",
-                    "description": "De mix van slaan en worstelen.",
-                    "content": "Kakie maakt het mogelijk om zowel 'Go' (Harde) technieken zoals stoten, trappen en breken, als 'Ju' (Zachte) technieken zoals klemmen, verwurgingen en worpen te oefenen. Een beoefenaar moet leren om direct te schakelen tussen harde en zachte toepassingen, afhankelijk van de reactie van de tegenstander, en zo de ware geest van Goju-Ryu belichamen."
+                "go-techniques": {
+                    "title": "Go Technieken",
+                    "subtitle": "Harde Toepassingen",
+                    "description": "Stoten, trappen en breken.",
+                    "content": "Go-technieken in Kakie richten zich op directe, lineære krachttoepassingen. Dit omvat explosieve stoten (tsuki), trappen (geri) en het breken van de structuur of ledematen van de tegenstander (setsu-waza). Deze technieken worden vaak toegepast op momenten van maximale spierspanning."
+                },
+                "ju-techniques-tuite": {
+                    "title": "Ju Technieken: Tuite",
+                    "subtitle": "Vastpakken en Klemmen",
+                    "description": "Zachte technieken gericht op gewrichtsmanipulatie.",
+                    "content": "Tuite-waza of gewrichtsklemmen maken gebruik van de 'zachte' kant van Goju-Ryu. In plaats van kracht tegen kracht te gebruiken, wordt de energie van de tegenstander omgeleid om hun gewrichten te controleren. Dit vereist nauwkeurige anatomische kennis en het vermogen om verbonden te blijven via Muchimi."
+                },
+                "ju-techniques-kyusho": {
+                    "title": "Ju Technieken: Kyusho",
+                    "subtitle": "Vitale Punten",
+                    "description": "Aanvallen op kwetsbare gebieden van het lichaam.",
+                    "content": "Kyusho-jutsu omvat het aanvallen van zenuwpunten en andere vitale gebieden. In Kakie-afstand is dit uiterst effectief omdat men al in contact staat met de tegenstander. Een lichte druk of slag op de juiste plek kan een verlammend effect hebben, waardoor de tegenstander gemakkelijker te controleren of te werpen is."
                 }
             },
             "basic-exercises": {
@@ -192,7 +204,7 @@
                     "title": "Aarding",
                     "subtitle": "Verbinding met de Aarde",
                     "description": "Het lichaamsgewicht laten zakken om stabiliteit te verkrijgen.",
-                    "content": "Aarding is het passieve aspect van stabiliteit—de zwaartekracht het werk laten doen. Het houdt in dat het gewicht laag wordt gebracht en het bovenlichaam ontspant. Een geaarde beoefenaar voelt 'zwaar' en is moeilijk op te tillen of uit balans te brengen."
+                    "content": "Aarding is het passieve aspect of stabiliteit—de zwaartekracht het werk laten doen. Het houdt in dat het gewicht laag wordt gebracht en het bovenlichaam ontspant. Een geaarde beoefenaar voelt 'zwaar' en is moeilijk op te tillen of uit balans te brengen."
                 },
                 "rooting": {
                     "title": "Wortelen",
@@ -200,26 +212,32 @@
                     "description": "Actief de vloer vastgrijpen voor krachtgeneratie.",
                     "content": "In tegenstelling tot aarding is wortelen actief. Het houdt in dat men de vloer vastgrijpt met de tenen en voeten, waardoor een sterk fundament ontstaat. Deze 'wortel' stelt de beoefenaar in staat om zich tegen de grond af te zetten om horizontale kracht te genereren en technieken aan te drijven."
                 },
-                "centering": {
+                "centring": {
                     "title": "Centreren",
                     "subtitle": "Tandenbewustzijn",
                     "description": "Bewegen vanuit het fysieke en energetische centrum.",
                     "content": "Alle kracht en beweging moet voortkomen uit de Tanden (Centrum). Het focussen van de geest en ademhaling in de onderbuik verlaagt het zwaartepunt en verenigt de beweging van het lichaam, zodat technieken worden aangedreven door het hele lichaam, niet alleen de ledematen."
                 },
-                "power": {
-                    "title": "Kracht",
+                "generating-power": {
+                    "title": "Kracht Genereren",
                     "subtitle": "Gamaku",
                     "description": "Kracht genereren door heup- en tailleverbinding.",
                     "content": "Kracht in Kakie wordt gegenereerd door de benen en heupen ('Gamaku'). De armen brengen deze kracht slechts over. Een goede coördinatie van de taille en heupen met de ademhaling (Ibuki) zorgt voor explosieve krachtgeneratie, zelfs op korte afstand."
                 },
-                "breathing": {
-                    "title": "Ademhaling",
+                "combining-forces": {
+                    "title": "Krachten Combineren",
+                    "subtitle": "Synergie",
+                    "description": "Verschillende soorten kracht integreren in één beweging.",
+                    "content": "Effectieve Kakie vereist de integratie van lineaire, roterende en verticale krachten. Door de kracht van de benen, de rotatie van de heupen en de uitlijning van de rug te combineren, bereikt men een niveau van kracht dat veel groter is dan wat de armen alleen kunnen produceren."
+                },
+                "regulating-breathing": {
+                    "title": "Regulering van de Ademhaling",
                     "subtitle": "Ibuki",
                     "description": "Ademhaling coördineren met actie.",
                     "content": "Ademhaling regelt het ritme van het gevecht. Diepe buikademhaling (Ibuki) wordt gebruikt om interne druk te genereren, het lichaam te beschermen en beweging te voeden. Men moet uitademen bij het leveren van kracht en inademen bij het absorberen of voorbereiden."
                 },
-                "ki": {
-                    "title": "Ki",
+                "regulating-ki": {
+                    "title": "Regulering van Ki",
                     "subtitle": "Vitale Energie",
                     "description": "Techniek bezielen met geest en intentie.",
                     "content": "Ki is de vitale energie die de techniek bezielt. In Kakie houdt dit in dat intentie voorbij fysiek contact wordt geprojecteerd. Een beoefenaar met sterke Ki heeft een aanwezigheid die door de tegenstander kan worden gevoeld en diens geest verstoort nog voordat fysieke technieken worden toegepast."

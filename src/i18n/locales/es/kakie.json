@@ -145,14 +145,26 @@
                 "pushing-pulling": {
                     "title": "Empujar y Tirar",
                     "subtitle": "Perturbar el Equilibrio",
-                    "description": "Usar la mecánica básica para desequilibrar al oponente.",
+                    "description": "Usar la mecánica básica para desequilizar al oponente.",
                     "content": "Empujar y tirar son los métodos más básicos para perturbar el equilibrio del oponente (Kuzushi). El principio que se aplica a menudo es: si te tiran, empuja; si te empujan, tira. Esto usa el propio impulso del oponente contra él. Estas acciones rara vez son aisladas, sino que se combinan con el juego de pies y la rotación del cuerpo."
                 },
-                "go-ju-techniques": {
-                    "title": "Técnicas Go y Ju",
-                    "subtitle": "Aplicaciones Duras y Suaves",
-                    "description": "La mezcla de golpes y lucha.",
-                    "content": "Kakie permite la práctica de técnicas tanto 'Go' (Duras) como golpes, patadas y roturas, como técnicas 'Ju' (Suaves) como llaves, estrangulamientos y proyecciones. Un practicante debe aprender a cambiar instantáneamente entre aplicaciones duras y suaves dependiendo de la reacción del oponente, encarnando el verdadero espíritu de Goju-Ryu."
+                "go-techniques": {
+                    "title": "Técnicas Go",
+                    "subtitle": "Aplicaciones Duras",
+                    "description": "Golpes, patadas y roturas.",
+                    "content": "Las técnicas Go en Kakie se centran en aplicaciones de fuerza directas y lineales. Esto incluye golpes explosivos (tsuki), patadas (geri) y la rotura de la estructura o extremidades del oponente (setsu-waza). Estas técnicas se aplican a menudo durante momentos de máxima tensión muscular."
+                },
+                "ju-techniques-tuite": {
+                    "title": "Técnicas Ju: Tuite",
+                    "subtitle": "Agarres y Bloqueos",
+                    "description": "Técnicas suaves enfocadas en la manipulación de articulaciones.",
+                    "content": "El Tuite-waza o las técnicas de bloqueo articular utilizan el lado 'suave' de Goju-Ryu. En lugar de usar fuerza contra fuerza, la energía del oponente se redirige para controlar sus articulaciones. Esto requiere un conocimiento anatómico preciso y la capacidad de mantenerse conectado a través de Muchimi."
+                },
+                "ju-techniques-kyusho": {
+                    "title": "Técnicas Ju: Kyusho",
+                    "subtitle": "Puntos Vitales",
+                    "description": "Atacar áreas vulnerables del cuerpo.",
+                    "content": "El Kyusho-jutsu implica atacar puntos nerviosos y otras áreas vitales. En la distancia de Kakie, esto es extremadamente efectivo ya que uno ya está en contacto con el oponente. Una pequeña cantidad de presión o un golpe en el lugar correcto puede tener un efecto paralizante, haciendo que el oponente sea más fácil de controlar o lanzar."
                 }
             },
             "basic-exercises": {
@@ -163,7 +175,7 @@
                     "title": "Tragar y Escupir",
                     "subtitle": "Flujo de Energía",
                     "description": "El ritmo fundamental de absorber y devolver fuerza.",
-                    "content": "Conocido como 'Empuje con una mano', este ejercicio enseña al estudiante a aceptar la fuerza sin resistencia ('Tragar') y devolverla con integridad estructural ('Escupir'). Es la manifestación física de 'Tai no Shinshuku' (Expansión y Contracción del Cuerpo). Desarrolla la capacidad de mantener la forma de la mano 'Toraguchi' y el enraizamiento mientras se está en movimiento."
+                    "content": "Conocido como 'Empuje con una mano', este ejercicio enseña al estudiante a aceptar la fuerza sin resistencia ('Tragar') y devolverla con integridad estructural ('Escupir'). Es la manifestación física de 'Tai no Shinshuku' (Expansión y Contracción del Cuerpo). Desarrolla la capacidad de mantener la forma de la mano 'Toraguchi' and el enraizamiento mientras se está en movimiento."
                 },
                 "circle-deflect": {
                     "title": "Circular y Desviar",
@@ -200,26 +212,32 @@
                     "description": "Agarrar activamente el suelo para generar potencia.",
                     "content": "A diferencia del asentamiento, el enraizamiento es activo. Implica agarrar el suelo con los dedos de los pies, creando una base sólida. Esta 'raíz' permite al practicante empujar contra el suelo para generar fuerza horizontal e impulsar las técnicas."
                 },
-                "centering": {
+                "centring": {
                     "title": "Centrado",
                     "subtitle": "Conciencia del Tanden",
                     "description": "Moverse desde el centro físico y energético.",
                     "content": "Toda la potencia y el movimiento deben originarse en el Tanden (Centro). Concentrar la mente y la respiración en el abdomen inferior baja el centro de gravedad y unifica el movimiento del cuerpo, asegurando que las técnicas sean impulsadas por todo el cuerpo, no solo por las extremidades."
                 },
-                "power": {
-                    "title": "Potencia",
+                "generating-power": {
+                    "title": "Generar Potencia",
                     "subtitle": "Gamaku",
                     "description": "Generar fuerza a través de la conexión de caderas y cintura.",
                     "content": "La potencia en Kakie es generada por las piernas y las caderas ('Gamaku'). Los brazos simplemente transmiten esta fuerza. Una coordinación adecuada de la cintura y las caderas con la respiración (Ibuki) permite una generación de potencia explosiva incluso a corta distancia."
                 },
-                "breathing": {
-                    "title": "Respiración",
+                "combining-forces": {
+                    "title": "Combinar Fuerzas",
+                    "subtitle": "Sinergia",
+                    "description": "Integrar diferentes tipos de fuerza en un solo movimiento.",
+                    "content": "Un Kakie efectivo requiere la integración de fuerzas lineales, rotativas y verticales. Al combinar la potencia de las piernas, la rotación de las caderas y la alineación de la espalda, se logra un nivel de potencia mucho mayor que el que las piernas solas pueden producir."
+                },
+                "regulating-breathing": {
+                    "title": "Regulación de la Respiración",
                     "subtitle": "Ibuki",
                     "description": "Coordinar la respiración con la acción.",
                     "content": "La respiración controla el ritmo del combate. La respiración abdominal profunda (Ibuki) se usa para generar presión interna, proteger el cuerpo y alimentar el movimiento. Se debe exhalar al entregar fuerza e inhalar al absorber o prepararse."
                 },
-                "ki": {
-                    "title": "Ki",
+                "regulating-ki": {
+                    "title": "Regulación del Ki",
                     "subtitle": "Energía Vital",
                     "description": "Infundir la técnica con espíritu e intención.",
                     "content": "El Ki es la energía vital que anima la técnica. En Kakie, implica proyectar la intención más allá del contacto físico. Un practicante con un Ki fuerte tiene una presencia que puede ser sentida por el oponente, perturbando su espíritu incluso antes de que se apliquen las técnicas físicas."
