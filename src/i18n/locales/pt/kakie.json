@@ -29,8 +29,9 @@
             },
             "close-combat": {
                 "title": "Kakie e Combate Próximo",
-                "subtitle": "Fechando a distância",
-                "description": "O combate próximo requer habilidades específicas que muitas vezes não são desenvolvidas em práticas de longa distância. Esta seção cobre as qualidades fundamentais necessárias para o envolvimento a curta distância.",
+                "subtitle": "Fechando a Distância",
+                "description": "O combate próximo requer habilidades específicas que muitas vezes não são desenvolvidas em práticas de longo alcance. Esta seção cobre as qualidades fundamentais necessárias para o engajamento de curto alcance.",
+                "content": "Este módulo cobre as habilidades essenciais para o combate a curta distância, incluindo sensibilidade, condicionamento corporal e a importância fundamental do Sanchin. Use o menu para explorar os tópicos específicos.",
                 "basic-qualities": {
                     "title": "Qualidades Básicas",
                     "subtitle": "Sensibilidade e Toque",
@@ -60,6 +61,7 @@
                 "title": "Kiko: Exercícios de Energia Vital",
                 "subtitle": "Cultivando a Força Vital",
                 "description": "Kiko (Chinês: Qigong) abrange exercícios concebidos para cultivar e regular a energia vital.",
+                "content": "Os exercícios de Kiko (Qigong) formam a base energética do Goju-Ryu. Esta seção explora a projeção mental, a sensibilidade, a tensão muscular e a respiração para desenvolver o poder interno necessário para o Kakie.",
                 "mind-projection": {
                     "title": "Projeção Mental",
                     "subtitle": "Yi Yi Yin Qi",
@@ -95,6 +97,7 @@
                 "title": "Habilidades de Combate Básicas",
                 "subtitle": "Competências Fundamentais de Defesa",
                 "description": "O combate próximo exige capacidades específicas para sobreviver. Além de bloquear e evitar, é preciso controlar, absorver, desviar e evitar a força do oponente.",
+                "content": "Os quatro elementos de defesa no Kakie são controlo, absorção, desvio e evasão. Estas habilidades são cruciais para a sobrevivência a curta distância e formam a base para técnicas mais complexas.",
                 "control-absorb-deflect-evade": {
                     "title": "Os Quatro Elementos",
                     "subtitle": "Visão Geral",
@@ -117,7 +120,7 @@
                     "title": "Deflexão",
                     "subtitle": "Redirecionar o Ataque",
                     "description": "Usar movimentos circulares para afastar a força.",
-                    "content": "A deflexão de um ataque pode ser combinada com a absorção ou o ricochete da força do ataque, tornando-o mais ju ou go, respectivamente. Mesmo em bloqueios que encontram o ataque quase 'de frente', sem sair do caminho, há uma distinção no bloqueio go e ju, dependendo se a pessoa estende sua força - em um ângulo - contra a força do oponente (go), ou a absorve sem desistir ou 'corromper' sua postura (ju). A dinâmica interna deste último é próxima à fase de absorção do exercício básico de kakie que estamos discutendo aqui. Como a maioria das técnicas de bloqueio do gojuryu são circulares, os elementos go e ju são geralmente combinados em uma mistura mais go ou ju."
+                    "content": "A deflexão de um ataque pode ser combinada com a absorção ou o ricochete da força do ataque, tornando-o mais ju ou go, respectivamente. Mesmo em bloqueios que encontram o ataque quase 'de frente', sem sair do caminho, há uma distinção no bloqueio go e ju, dependendo se a pessoa estende sua força - em um ângulo - contra a força do oponente (go), ou a absorve sem desistir ou 'corromper' sua postura (ju). A dinâmica interna deste último é próxima à fase de absorção do exercício básico de kakie que estamos discutindo aqui. Como a maioria das técnicas de bloqueio do gojuryu são circulares, os elementos go e ju são geralmente combinados em uma mistura mais go ou ju."
                 },
                 "evasion": {
                     "title": "Evasão",
@@ -130,6 +133,7 @@
                 "title": "Técnicas",
                 "subtitle": "Aplicações de Princípios",
                 "description": "Kakie é o laboratório onde os princípios são transformados em técnicas de luta eficazes.",
+                "content": "Aqui discutimos as aplicações práticas dos princípios do Kakie. Isso varia de técnicas básicas como agarrar, empurrar e puxar, a chaves de articulação avançadas (Tuite), ataques duros (Go) e ataques a pontos vitais (Kyusho).",
                 "grabbing": {
                     "title": "Agarre",
                     "subtitle": "Toraguchi",
@@ -169,8 +173,9 @@
             },
             "basic-exercises": {
                 "title": "Exercícios Básicos de Kakie",
-                "subtitle": "Exercícios Fundamentais",
-                "description": "Existem muitos exercícios diferentes de kakie. Abaixo discutiremos três exercícios básicos diferentes de kakie.",
+                "subtitle": "Treinos Fundamentais",
+                "description": "Existem muitos exercícios de kakie diferentes. Abaixo discutiremos três exercícios básicos diferentes de kakie.",
+                "content": "Os exercícios fundamentais para desenvolver habilidades de Kakie: Engolir e Cuspir (absorver e devolver força), Circular e Desviar (controlo circular) e Kake Uke (o bloqueio de gancho).",
                 "swallow-spit": {
                     "title": "Engolir e Cuspir",
                     "subtitle": "Exercício Básico 1",
@@ -192,8 +197,9 @@
             },
             "points-of-attention": {
                 "title": "Pontos de Atenção",
-                "subtitle": "Desenvolvimento das Qualidades Básicas",
-                "description": "As qualidades básicas são a teia e a trama dos movimentos marciais, constituem a sua qualidade. Para todos os exercícios básicos de kakie discutidos acima, os seguintes pontos de atenção são essenciais para desenvolver uma aplicação correta de força, enraizada no aterramento correto, enraizamento, centralização, regulação da respiração, etc.",
+                "subtitle": "Desenvolvendo Qualidades Básicas",
+                "description": "As qualidades básicas são a urdidura e a trama dos movimentos marciais, constituem a sua qualidade. Para todos os exercícios básicos de kakie discutidos anteriormente, os seguintes pontos de atenção são essenciais para desenvolver a aplicação adequada da força, que se baseia em um aterramento, enraizamento, centralização, regulação da respiração, etc. adequados.",
+                "content": "Um olhar aprofundado sobre os oito valores fundamentais para a execução correta: Postura, Aterramento, Enraizamento, Centralização, Geração de Potência, Combinação de Forças, Respiração e Ki. Estes elementos elevam a técnica de mero movimento para uma arte marcial eficaz.",
                 "posture": {
                     "title": "Postura",
                     "subtitle": "Diretrizes Gerais",
