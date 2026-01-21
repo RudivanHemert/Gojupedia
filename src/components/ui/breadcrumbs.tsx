@@ -42,11 +42,29 @@ const Breadcrumbs = () => {
             'punches': t('terminology.sections.punches', 'Stoten'),
             'stances': t('terminology.sections.stances', 'Standen'),
             'strikes': t('terminology.sections.strikes', 'Slagen'),
-            // Add more as needed
+            'kakie': t('kakie.title', 'Kakie'),
         };
 
         if (routeNameMap[segment]) {
             return routeNameMap[segment];
+        }
+
+        // Try Kakie section title lookup (handling nested levels)
+        if (pathnames[0] === 'kakie') {
+            let kakieSectionKey = '';
+
+            if (index === 1) {
+                // e.g. /kakie/close-combat -> kakie.sections.close-combat.title
+                kakieSectionKey = `kakie.sections.${segment}.title`;
+            } else if (index === 2) {
+                // e.g. /kakie/close-combat/basic-qualities -> kakie.sections.close-combat.basic-qualities.title
+                const parent = pathnames[1];
+                kakieSectionKey = `kakie.sections.${parent}.${segment}.title`;
+            }
+
+            if (kakieSectionKey && t(kakieSectionKey, { defaultValue: '' }) !== '') {
+                return t(kakieSectionKey);
+            }
         }
 
         // If it looks like an ID (e.g. 'age-uke'), try to format it nicely
