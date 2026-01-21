@@ -424,42 +424,14 @@
         }
       }
     },
-    "peichurin": {
-      "name": "Peichurin",
-      "description": "La kata più lunga e avanzata del Goju Ryu, che rappresenta 108 movimenti (3x36).",
-      "level": "Maestro",
-      "category": "Kaishugata",
-      "origin": "Provincia di Fujian, Cina",
-      "duration": "5-7 minuti",
-      "movements": "108 movimenti primari (simbolici)",
-      "keyFeatures": [
-        "Rappresenta il numero 108 (3x36)",
-        "Kata più lunga e avanzata",
-        "Culminazione dei principi del Goju Ryu"
-      ],
-      "masters": [
-        "Kanryo Higaonna",
-        "Chojun Miyagi"
-      ],
+    "suparinpei": {
+      "name": "Suparinpei",
       "japaneseName": "壱百零八",
       "meaning": "108 Mani",
-      "history": "Uno dei kata originali dalla Cina, probabilmente dallo stile Gru Bianca.",
-      "culturalSignificance": "Rappresenta i 108 desideri terreni nel Buddismo.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Gamma completa di tecniche",
-          "description": "Gamma completa di tecniche del Goju Ryu"
-        },
-        "step2": {
-          "title": "Kata più lungo e complesso",
-          "description": "Kata più lungo e complesso"
-        },
-        "step3": {
-          "title": "Incarnazione dei principi duri e morbidi",
-          "description": "Incarnazione dei principi duri e morbidi"
-        }
-      }
+      "description": "Suparinpei è il kata più avanzato del Goju-Ryu. Contiene il maggior numero di tecniche e variazioni. Il nome 'Suparinpei' e i kanji usati per esso significano '108'. Il numero 108 ha un significato speciale nel buddismo, rappresentando i 108 desideri terreni.",
+      "history": "Basato sulla forma cinese Peichurin. Suparinpei è stato adattato al Goju-Ryu e rappresenta il culmine dei principi del sistema.",
+      "culturalSignificance": "Il numero 108 è calcolato da 36 x 3. Il 36 rappresenta i 36 spiriti del Cielo e 72 spiriti terreni. Nel buddismo, si crede sia possibile conquistare le 108 passioni/desideri terreni.",
+      "stepsCount": 37
     }
   },
   "kataTheoryDetailPage": {

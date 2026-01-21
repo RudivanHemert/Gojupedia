@@ -410,28 +410,14 @@
         }
       }
     },
-    "peichurin": {
-      "name": "Peichurin",
+    "suparinpei": {
+      "name": "Suparinpei",
       "japaneseName": "壱百零八",
-      "meaning": "108 Hands",
-      "description": "The longest and most advanced kata, representing the culmination of Goju Ryu principles.",
-      "history": "One of the original kata from China, likely from White Crane style.",
-      "culturalSignificance": "Represents the 108 earthly desires in Buddhism.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Comprehensive range of techniques",
-          "description": "Comprehensive range of Goju Ryu techniques"
-        },
-        "step2": {
-          "title": "Longest and most complex kata",
-          "description": "Longest and most complex kata"
-        },
-        "step3": {
-          "title": "Embodiment of hard and soft principles",
-          "description": "Embodiment of hard and soft principles"
-        }
-      }
+      "meaning": "108 Hænder",
+      "description": "Suparinpei er den mest avancerede kata i Goju-Ryu. Den indeholder det største antal teknikker og variationer. Navnet 'Suparinpei' og de kanji, der bruges til det, betyder '108'. Tallet 108 har en særlig betydning i buddhismen og repræsenterer de 108 jordiske begær.",
+      "history": "Baseret på den kinesiske form Peichurin. Suparinpei blev tilpasset Goju-Ryu og repræsenterer kulminationen af systemets principper.",
+      "culturalSignificance": "Tallet 108 beregnes ud fra 36 x 3. De 36 repræsenterer himlens 36 ånder og 72 jordiske ånder. I buddhismen menes det muligt at overvinde de 108 lidenskaber/jordiske begær.",
+      "stepsCount": 37
     }
   },
   "kataTheoryDetailPage": {

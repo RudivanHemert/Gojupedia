@@ -410,28 +410,14 @@
         }
       }
     },
-    "peichurin": {
-      "name": "Peichurin",
+    "suparinpei": {
+      "name": "Suparinpei",
       "japaneseName": "壱百零八",
       "meaning": "108 Mãos",
-      "description": "O kata mais longo e avançado, representando o culminar dos princípios do Goju Ryu.",
-      "history": "Um dos kata originais da China, provavelmente do estilo Garça Branca.",
-      "culturalSignificance": "Representa os 108 desejos terrenos no Budismo.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Gama abrangente de técnicas",
-          "description": "Gama abrangente de técnicas do Goju Ryu"
-        },
-        "step2": {
-          "title": "Kata mais longo e complexo",
-          "description": "Kata mais longo e complexo"
-        },
-        "step3": {
-          "title": "Incorporação dos princípios duros e suaves",
-          "description": "Incorporação dos princípios duros e suaves"
-        }
-      }
+      "description": "Suparinpei é o kata mais avançado do Goju-Ryu. Contém o maior número de técnicas e variações. O nome 'Suparinpei' e os kanjis usados para ele significam '108'. O número 108 tem um significado especial no budismo, representando os 108 desejos terrenos.",
+      "history": "Baseado na forma chinesa Peichurin. Suparinpei foi adaptado para o Goju-Ryu e representa o culminar dos princípios do sistema.",
+      "culturalSignificance": "O número 108 é calculado a partir de 36 x 3. Os 36 representam os 36 espíritos do Céu e 72 espíritos terrenos. No budismo, acredita-se que é possível conquistar as 108 paixões/desejos terrenos.",
+      "stepsCount": 37
     }
   },
   "kataTheoryDetailPage": {

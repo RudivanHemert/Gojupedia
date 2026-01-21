@@ -410,42 +410,14 @@
         }
       }
     },
-    "peichurin": {
-      "name": "Peichurin",
-      "description": "La kata más larga y avanzada de Goju Ryu, que representa 108 movimientos (3x36).",
-      "level": "Maestro",
-      "category": "Kaishugata",
-      "origin": "Provincia de Fujian, China",
-      "duration": "5-7 minutos",
-      "movements": "108 movimientos primarios (simbólicos)",
-      "keyFeatures": [
-        "Representa el número 108 (3x36)",
-        "Kata más larga y avanzada",
-        "Culminación de los principios de Goju Ryu"
-      ],
-      "masters": [
-        "Kanryo Higaonna",
-        "Chojun Miyagi"
-      ],
+    "suparinpei": {
+      "name": "Suparinpei",
       "japaneseName": "壱百零八",
       "meaning": "108 Manos",
-      "history": "Una de las kata originales de China, probablemente del estilo Grulla Blanca.",
-      "culturalSignificance": "Representa los 108 deseos terrenales en el Budismo.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Gama completa de técnicas",
-          "description": "Gama completa de técnicas de Goju Ryu"
-        },
-        "step2": {
-          "title": "Kata más larga y compleja",
-          "description": "Kata más larga y compleja"
-        },
-        "step3": {
-          "title": "Encarnación de principios duros y suaves",
-          "description": "Encarnación de principios duros y suaves"
-        }
-      }
+      "description": "Suparinpei es el kata más avanzado de Goju-Ryu. Contiene el mayor número de técnicas y variaciones. El nombre 'Suparinpei' y los kanji utilizados para él significan '108'. El número 108 tiene un significado especial en el budismo, representando los 108 deseos terrenales.",
+      "history": "Basado en la forma china Peichurin. Suparinpei fue adaptado al Goju-Ryu y representa la culminación de los principios del sistema.",
+      "culturalSignificance": "El número 108 se calcula a partir de 36 x 3. Los 36 representan los 36 espíritus del Cielo y 72 espíritus terrenales. En el budismo, se cree que es posible conquistar las 108 pasiones/deseos terrenales.",
+      "stepsCount": 37
     }
   },
   "kataTheoryDetailPage": {

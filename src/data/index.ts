@@ -385,7 +385,7 @@ export const katas: Kata[] = [
     bunkai: "https://www.youtube.com/watch?v=LBVbeDCv1jo"
   },
   {
-    id: "peichurin",
+    id: "suparinpei",
     level: "Master",
     category: "kaishugata",
     steps: [

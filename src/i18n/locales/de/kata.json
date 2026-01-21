@@ -410,46 +410,14 @@
         }
       }
     },
-    "peichuin": {
-      "name": "Peichuin",
-      "description": "Die längste und fortgeschrittenste Kata von Goju Ryu, die 108 Bewegungen (3x36) repräsentiert.",
-      "level": "Meister",
-      "category": "Kaishugata",
-      "origin": "Fujian Provinz, China",
-      "duration": "5-7 Minuten",
-      "movements": "108 primäre Bewegungen (symbolisch)",
-      "keyFeatures": [
-        "Repräsentiert die Zahl 108 (3x36)",
-        "Längste und fortgeschrittenste Kata",
-        "Höhepunkt der Goju Ryu Prinzipien"
-      ],
-      "masters": [
-        "Kanryo Higaonna",
-        "Chojun Miyagi"
-      ]
-    },
-    "peichurin": {
-      "name": "Peichurin",
+    "suparinpei": {
+      "name": "Suparinpei",
       "japaneseName": "壱百零八",
       "meaning": "108 Hände",
-      "description": "Die längste und fortgeschrittenste Kata, die den Höhepunkt der Goju-Ryu-Prinzipien darstellt.",
-      "history": "Eine der ursprünglichen Kata aus China, wahrscheinlich aus dem Weißer-Kranich-Stil.",
-      "culturalSignificance": "Repräsentiert die 108 irdischen Begierden im Buddhismus.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Umfassende Auswahl an Techniken",
-          "description": "Umfassende Auswahl an Goju Ryu Techniken"
-        },
-        "step2": {
-          "title": "Längste und komplexeste Kata",
-          "description": "Längste und komplexeste Kata"
-        },
-        "step3": {
-          "title": "Verkörperung von harten und weichen Prinzipien",
-          "description": "Verkörperung von harten und weichen Prinzipien"
-        }
-      }
+      "description": "Suparinpei ist die fortgeschrittenste Kata des Goju-Ryu. Sie beinhaltet die größte Anzahl an Techniken und Variationen. Der Name 'Suparinpei' und die dafür verwendeten Kanji bedeuten '108'. Die Zahl 108 hat im Buddhismus eine besondere Bedeutung und repräsentiert die 108 irdischen Begierden.",
+      "history": "Basierend auf der chinesischen Form Peichurin. Suparinpei wurde an das Goju-Ryu angepasst und repräsentiert den Höhepunkt der Prinzipien des Systems.",
+      "culturalSignificance": "Die Zahl 108 errechnet sich aus 36 x 3. Die 36 repräsentiert die 36 Geister des Himmels und 72 irdische Geister. Im Buddhismus glaubt man, dass es möglich ist, die 108 Leidenschaften/irdischen Begierden zu überwinden.",
+      "stepsCount": 37
     }
   },
   "kataTheoryDetailPage": {

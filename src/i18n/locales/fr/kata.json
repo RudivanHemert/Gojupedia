@@ -410,42 +410,14 @@
         }
       }
     },
-    "peichurin": {
-      "name": "Peichurin",
-      "description": "La kata la plus longue et la plus avancée de Goju Ryu, représentant 108 mouvements (3x36).",
-      "level": "Maître",
-      "category": "Kaishugata",
-      "origin": "Province de Fujian, Chine",
-      "duration": "5-7 minutos",
-      "movements": "108 mouvements primaires (symboliques)",
-      "keyFeatures": [
-        "Représente le nombre 108 (3x36)",
-        "Kata la plus longue et la plus avancée",
-        "Culmination des principes de Goju Ryu"
-      ],
-      "masters": [
-        "Kanryo Higaonna",
-        "Chojun Miyagi"
-      ],
+    "suparinpei": {
+      "name": "Suparinpei",
       "japaneseName": "壱百零八",
       "meaning": "108 Mains",
-      "history": "Un des kata originaux de Chine, probablement du style Grue Blanche.",
-      "culturalSignificance": "Représente les 108 désirs terrestres dans le Bouddhisme.",
-      "stepsCount": 3,
-      "steps": {
-        "step1": {
-          "title": "Gamme complète de techniques",
-          "description": "Gamme complète de techniques de Goju Ryu"
-        },
-        "step2": {
-          "title": "Kata la plus longue et la plus complexe",
-          "description": "Kata la plus longue et la plus complexe"
-        },
-        "step3": {
-          "title": "Incarnation des principes durs et doux",
-          "description": "Incarnation des principes durs et doux"
-        }
-      }
+      "description": "Suparinpei est le kata le plus avancé du Goju-Ryu. Il contient le plus grand nombre de techniques et de variations. Le nom 'Suparinpei' et les kanjis utilisés signifient '108'. Le nombre 108 a une signification particulière dans le bouddhisme, représentant les 108 désirs terrestres.",
+      "history": "Basé sur la forme chinoise Peichurin. Suparinpei a été adapté au Goju-Ryu et représente l'aboutissement des principes du système.",
+      "culturalSignificance": "Le nombre 108 est calculé à partir de 36 x 3. Les 36 représentent les 36 esprits du Ciel et 72 esprits terrestres. Dans le bouddhisme, on croit qu'il est possible de vaincre les 108 passions/désirs terrestres.",
+      "stepsCount": 37
     }
   },
   "kataTheoryDetailPage": {

@@ -125,8 +125,15 @@ import { sesanStepsIt } from '@/data/sesan.it';
 import { sesanStepsNl } from '@/data/sesan.nl';
 import { sesanStepsPt } from '@/data/sesan.pt';
 
-// Import detailed Peichurin steps for Portuguese
-import { peichurinSteps as peichurinStepsPt } from '@/data/peichurin.pt';
+// Import detailed Suparinpei steps for all languages
+import { suparinpeiStepsEn } from '@/data/suparinpei.en';
+import { suparinpeiStepsDa } from '@/data/suparinpei.da';
+import { suparinpeiStepsDe } from '@/data/suparinpei.de';
+import { suparinpeiStepsEs } from '@/data/suparinpei.es';
+import { suparinpeiStepsFr } from '@/data/suparinpei.fr';
+import { suparinpeiStepsIt } from '@/data/suparinpei.it';
+import { suparinpeiStepsNl } from '@/data/suparinpei.nl';
+import { suparinpeiStepsPt } from '@/data/suparinpei.pt';
 
 const KataDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -334,12 +341,24 @@ const KataDetailPage = () => {
           default:
             return sesanStepsEn;
         }
-      case 'peichurin':
+      case 'suparinpei':
         switch (currentLang) {
+          case 'de':
+            return suparinpeiStepsDe;
+          case 'es':
+            return suparinpeiStepsEs;
+          case 'fr':
+            return suparinpeiStepsFr;
+          case 'it':
+            return suparinpeiStepsIt;
+          case 'nl':
+            return suparinpeiStepsNl;
           case 'pt':
-            return peichurinStepsPt;
+            return suparinpeiStepsPt;
+          case 'da':
+            return suparinpeiStepsDa;
           default:
-            return [];
+            return suparinpeiStepsEn;
         }
       // Add other kata cases here as needed
       default:
