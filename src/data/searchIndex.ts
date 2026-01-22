@@ -6,7 +6,7 @@ export interface SearchResult {
   id: string;
   title: string;
   description: string;
-  type: 'kata' | 'technique' | 'hojo-undo' | 'philosophy' | 'terminology' | 'history' | 'theory' | 'newaza' | 'kumite' | 'person' | 'principle' | 'article' | 'bunkai' | 'junbi-undo';
+  type: 'kata' | 'technique' | 'hojo-undo' | 'philosophy' | 'terminology' | 'history' | 'theory' | 'newaza' | 'kumite' | 'person' | 'principle' | 'article' | 'bunkai' | 'junbi-undo' | 'kakie';
   path: string;
   tags: string[];
   language?: string;
@@ -21,7 +21,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
   katas.forEach(kata => {
     const kataName = t(`kata.${kata.id}.name`, { defaultValue: kata.name || kata.id });
     const kataDescription = t(`kata.${kata.id}.description`, { defaultValue: kata.description || '' });
-    
+
     searchResults.push({
       id: `kata-${kata.id}`,
       title: kataName,
@@ -37,7 +37,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     // Filter out undefined or empty tags
     const validTags = ['history', 'person', 'master', 'founder', ...figure.contributions.map(c => c.toLowerCase())]
       .filter(tag => tag && tag.trim() !== '');
-    
+
     // Map figure IDs to correct routes
     const getPathForFigure = (id: string) => {
       const routeMap: Record<string, string> = {
@@ -46,7 +46,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
       };
       return routeMap[id] || `/history/${id}`;
     };
-    
+
     searchResults.push({
       id: `person-${figure.id}`,
       title: figure.name,
@@ -92,12 +92,12 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     // Filter out undefined or empty tags
     const validTags = ['technique', technique.category.toLowerCase(), technique.japanese.toLowerCase(), technique.english.toLowerCase()]
       .filter(tag => tag && tag.trim() !== '');
-    
+
     // Map category to correct path
     const getPathForCategory = (category: string) => {
       const categoryMap: Record<string, string> = {
         'Stances': '/terminology/stances',
-        'Kicks': '/terminology/kicks', 
+        'Kicks': '/terminology/kicks',
         'Punches': '/terminology/punches',
         'Blocks': '/terminology/blocks',
         'Strikes': '/terminology/strikes',
@@ -112,7 +112,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
       };
       return categoryMap[category] || '/terminology';
     };
-    
+
     searchResults.push({
       id: `technique-${technique.id}`,
       title: technique.english,
@@ -128,7 +128,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     // Filter out undefined or empty tags
     const validTags = ['philosophy', 'principle', principle.japaneseName?.toLowerCase() || '', ...principle.name.toLowerCase().split(' ')]
       .filter(tag => tag && tag.trim() !== '');
-    
+
     searchResults.push({
       id: `principle-${principle.id}`,
       title: principle.name,
@@ -145,7 +145,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     const contentWords = article.content.toLowerCase().split(/\s+/).slice(0, 10);
     const generatedTags = ['article', article.category, ...contentWords]
       .filter(tag => tag && tag.trim() !== '');
-    
+
     searchResults.push({
       id: `article-${article.id}`,
       title: article.title,
@@ -500,6 +500,84 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     });
   });
 
+  // Add kakie content with translations
+  const kakieContent = [
+    {
+      id: "kakie-intro",
+      title: t('kakie.title', { defaultValue: 'Kakie' }),
+      description: t('kakie.description', { defaultValue: 'Sticky hands and close combat training' }),
+      path: '/kakie',
+      tags: ['kakie', 'sticky-hands', 'close-combat', 'pushing-hands']
+    },
+    {
+      id: "kakie-close-combat",
+      title: t('kakie.sections.close-combat.title', { defaultValue: 'Close Combat' }),
+      description: t('kakie.sections.close-combat.description', { defaultValue: 'Short range fighting techniques' }),
+      path: '/kakie/close-combat',
+      tags: ['kakie', 'close-combat', 'fighting']
+    },
+    {
+      id: "kakie-kiko",
+      title: t('kakie.sections.kiko.title', { defaultValue: 'Kiko' }),
+      description: t('kakie.sections.kiko.description', { defaultValue: 'Energy training and cultivation' }),
+      path: '/kakie/kiko',
+      tags: ['kakie', 'kiko', 'energy', 'chi', 'ki']
+    },
+    {
+      id: "kakie-basic-abilities",
+      title: t('kakie.sections.basic-abilities.title', { defaultValue: 'Basic Abilities' }),
+      description: t('kakie.sections.basic-abilities.description', { defaultValue: 'Fundamental fighting skills' }),
+      path: '/kakie/basic-abilities',
+      tags: ['kakie', 'abilities', 'fundamentals']
+    },
+    {
+      id: "kakie-techniques",
+      title: t('kakie.sections.techniques.title', { defaultValue: 'Techniques' }),
+      description: t('kakie.sections.techniques.description', { defaultValue: 'Specific kakie techniques' }),
+      path: '/kakie/techniques',
+      tags: ['kakie', 'techniques', 'waza']
+    },
+    {
+      id: "kakie-basic-exercises",
+      title: t('kakie.sections.basic-exercises.title', { defaultValue: 'Basic Exercises' }),
+      description: t('kakie.sections.basic-exercises.description', { defaultValue: 'Foundation drills' }),
+      path: '/kakie/basic-exercises',
+      tags: ['kakie', 'exercises', 'drills']
+    },
+    {
+      id: "kakie-points-of-attention",
+      title: t('kakie.sections.points-of-attention.title', { defaultValue: 'Points of Attention' }),
+      description: t('kakie.sections.points-of-attention.description', { defaultValue: 'Key details for practice' }),
+      path: '/kakie/points-of-attention',
+      tags: ['kakie', 'attention', 'details', 'focus']
+    },
+    {
+      id: "kakie-traditional-medicine",
+      title: t('kakie.sections.traditional-medicine.title', { defaultValue: 'Traditional Medicine' }),
+      description: t('kakie.sections.traditional-medicine.description', { defaultValue: 'Healing arts and anatomy' }),
+      path: '/kakie/traditional-medicine',
+      tags: ['kakie', 'medicine', 'healing', 'anatomy']
+    },
+    {
+      id: "kakie-spiritual-influences",
+      title: t('kakie.sections.spiritual-influences.title', { defaultValue: 'Spiritual Influences' }),
+      description: t('kakie.sections.spiritual-influences.description', { defaultValue: 'Mental and spiritual aspects' }),
+      path: '/kakie/spiritual-influences',
+      tags: ['kakie', 'spiritual', 'mental', 'philosophy']
+    }
+  ];
+
+  kakieContent.forEach(item => {
+    searchResults.push({
+      id: `kakie-${item.id}`,
+      title: item.title,
+      description: item.description,
+      type: 'kakie',
+      path: item.path,
+      tags: item.tags
+    });
+  });
+
   // Add general content with translations
   const generalContent = [
     {
@@ -587,7 +665,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
   });
 
   // Remove duplicates based on ID to prevent React key conflicts
-  const uniqueResults = searchResults.filter((item, index, self) => 
+  const uniqueResults = searchResults.filter((item, index, self) =>
     index === self.findIndex(t => t.id === item.id)
   );
 
@@ -600,23 +678,23 @@ export const searchIndex = createSearchIndex();
 // Search function
 export const searchContent = (query: string, language?: string): SearchResult[] => {
   if (!query.trim()) return [];
-  
+
   const searchTerm = query.toLowerCase();
-  
+
   // Create search index with the specified language
   const results = createSearchIndex(language);
-  
+
   // Filter results based on search term
   return results.filter(item => {
     // Search in title
     if (item.title.toLowerCase().includes(searchTerm)) return true;
-    
+
     // Search in description
     if (item.description.toLowerCase().includes(searchTerm)) return true;
-    
+
     // Search in tags - filter out undefined/null values first
     if (item.tags && item.tags.some(tag => tag && tag.toLowerCase().includes(searchTerm))) return true;
-    
+
     return false;
   });
 }; 
