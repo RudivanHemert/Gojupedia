@@ -1,5 +1,5 @@
 import { katas, historicalFigures, articles, principles } from './index';
-import { techniquesData } from './techniquesData';
+import { techniquesData, getTechniquesData } from './techniquesData';
 import i18n from '@/i18n';
 
 export interface SearchResult {
@@ -87,29 +87,54 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
     }
   });
 
-  // Add techniques from techniquesData with translations
-  techniquesData.forEach(technique => {
+  // Add techniques dynamically from translation files
+  const dynamicTechniques = getTechniquesData(t);
+
+  dynamicTechniques.forEach(technique => {
     // Filter out undefined or empty tags
     const validTags = ['technique', technique.category.toLowerCase(), technique.japanese.toLowerCase(), technique.english.toLowerCase()]
       .filter(tag => tag && tag.trim() !== '');
 
     // Map category to correct path
-    const getPathForCategory = (category: string) => {
+    const getPathForCategory = (category: string, id: string) => {
+      // Helper to extract clean slug from ID (e.g., "goju-punches-gyaku-zuki" -> "gyaku-zuki")
+      // IDs are often "technique-id" or "goju-section-id" or just "id"
+      let slug = id;
+      if (id.startsWith('goju-')) {
+        const parts = id.split('-');
+        // standard format goju-section-term
+        if (parts.length >= 3) {
+          slug = parts.slice(2).join('-');
+        }
+      } else if (id.startsWith('punch-')) {
+        slug = id.replace('punch-', '');
+      } else if (id.startsWith('block-')) {
+        slug = id.replace('block-', '');
+      } else if (id.startsWith('kick-')) {
+        slug = id.replace('kick-', '');
+      } else if (id.startsWith('stance-')) {
+        slug = id.replace('stance-', '');
+      }
+
       const categoryMap: Record<string, string> = {
-        'Stances': '/terminology/stances',
-        'Kicks': '/terminology/kicks',
-        'Punches': '/terminology/punches',
-        'Blocks': '/terminology/blocks',
-        'Strikes': '/terminology/strikes',
-        'General': '/terminology/general-terms',
-        'Numbers': '/terminology/numbers',
-        'Tournament': '/terminology/tournament-terms',
-        'Equipment': '/terminology/equipment-weapons',
-        'Goju-Ryu': '/terminology/karate-goju-ryu',
-        'Titles': '/terminology/karate-titles',
-        'Phrases': '/terminology/phrases-etiquette',
-        'Kata': '/terminology/kata-terms'
+        'Basiskennis': '/terminology/general-terms', // Often flat list
+        'Organisatie': '/terminology/phrases-etiquette',
+        'Training': '/terminology/general-terms',
+        'Hojo-Undo': '/hojo-undo/general/intro',
+        'Dachi-Waza': `/terminology/stances/${slug}`, // Stances detail
+        'Verplaatsingen': '/terminology/general-terms',
+        'Anatomische-Wapens': '/terminology/general-terms',
+        'Uke-Waza': `/terminology/blocks/${slug}`, // Blocks detail
+        'Zuki-Uchi-Waza': `/terminology/punches/${slug}`, // Punches detail
+        'Geri-Waza': `/terminology/kicks/${slug}`, // Kicks detail
+        'Tuite-Waza': '/terminology/general-terms',
+        'Kyusho': '/vital-points'
       };
+
+      // Fine-tune mapping based on ID prefix if category is broad
+      if (id && id.startsWith('punch-')) return `/terminology/punches/${slug}`;
+      if (id && id.startsWith('strike-')) return `/terminology/strikes/${slug}`;
+
       return categoryMap[category] || '/terminology';
     };
 
@@ -118,7 +143,7 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
       title: technique.english,
       description: technique.description || `${technique.japanese} - ${technique.english}`,
       type: 'technique',
-      path: getPathForCategory(technique.category),
+      path: getPathForCategory(technique.category, technique.id),
       tags: validTags
     });
   });
@@ -663,6 +688,44 @@ export const createSearchIndex = (language?: string): SearchResult[] => {
       tags: item.tags
     });
   });
+
+  // Add grading requirements from translation files if available
+  try {
+    const kyuGrades = ['10th-kyu', '9th-kyu', '8th-kyu', '7th-kyu', '6th-kyu', '5th-kyu', '4th-kyu', '3rd-kyu', '2nd-kyu', '1st-kyu'];
+    const danGrades = ['1st-dan', '2nd-dan', '3rd-dan', '4th-dan', '5th-dan', '6th-dan'];
+    const allGrades = [...kyuGrades, ...danGrades];
+
+    allGrades.forEach(gradeId => {
+      const titleKey = `graduations.grades.${gradeId}.title`;
+      const title = t(titleKey);
+
+      // Only add if key exists (title doesn't equal key)
+      if (title !== titleKey) {
+        const requirements = t(`graduations.grades.${gradeId}.requirements`, { returnObjects: true });
+        let description = '';
+
+        if (Array.isArray(requirements)) {
+          description = requirements.join(', ');
+        } else if (typeof requirements === 'string') {
+          description = requirements;
+        } else {
+          description = `Grading requirements for ${title}`;
+        }
+
+        searchResults.push({
+          id: `grading-${gradeId}`,
+          title: title,
+          description: description,
+          type: 'article', // Using article type to ensure it shows up in general results
+          path: '/gradings',
+          tags: ['grading', 'exam', 'belt', 'rank', gradeId.replace('-', ' '), ...description.toLowerCase().split(' ').slice(0, 5)]
+        });
+      }
+    });
+
+  } catch (e) {
+    console.warn('Failed to index grading requirements', e);
+  }
 
   // Remove duplicates based on ID to prevent React key conflicts
   const uniqueResults = searchResults.filter((item, index, self) =>

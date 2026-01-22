@@ -47,13 +47,13 @@ const SearchBar: React.FC<SearchBarProps> = ({
   const isControlled = value !== undefined;
 
   // Use fuzzy search hook
-  const { 
-    results, 
-    suggestions, 
-    isSearching, 
-    search: fuzzySearch, 
+  const {
+    results,
+    suggestions,
+    isSearching,
+    search: fuzzySearch,
     searchHistory,
-    clearResults 
+    clearResults
   } = useFuzzySearch({
     searchType,
     limit: 8,
@@ -77,18 +77,20 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const rawValue = e.target.value;
-    const sanitizedValue = sanitizeInput(rawValue);
-    
-    setLocalValue(sanitizedValue);
+    // Don't sanitize immediately during typing to allow spaces and special characters.
+    // sanitization of HTML happens in validateSearchQuery or display logic.
+    const queryValue = rawValue;
+
+    setLocalValue(queryValue);
     setSelectedIndex(-1);
-    
+
     if (onChange) {
-      onChange(sanitizedValue);
+      onChange(queryValue);
     }
 
     // Perform fuzzy search if value is not empty
-    if (sanitizedValue.trim()) {
-      fuzzySearch(sanitizedValue);
+    if (queryValue.trim()) {
+      fuzzySearch(queryValue);
       setShowDropdown(true);
     } else {
       clearResults();
@@ -96,26 +98,26 @@ const SearchBar: React.FC<SearchBarProps> = ({
     }
 
     // If the input is empty and onClear is provided, call it
-    if (sanitizedValue === '' && onClear) {
+    if (queryValue === '' && onClear) {
       onClear();
     }
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Validate search query
     if (!validateSearchQuery(localValue)) {
       console.warn('Invalid search query');
       return;
     }
-    
+
     // Rate limiting
     if (!searchRateLimiter.isAllowed('search')) {
       console.warn('Search rate limit exceeded');
       return;
     }
-    
+
     onSearch(localValue);
     // Close dropdown and blur to hide mobile keyboard
     setShowDropdown(false);
@@ -130,15 +132,15 @@ const SearchBar: React.FC<SearchBarProps> = ({
     setShowDropdown(false);
     setSelectedIndex(-1);
     clearResults();
-    
+
     if (onChange) {
       onChange('');
     }
-    
+
     if (onClear) {
       onClear();
     }
-    
+
     if (inputRef.current) {
       inputRef.current.focus();
     }
@@ -214,7 +216,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
       // No-op when history is hidden
       return;
     }
-    
+
     setShowDropdown(false);
     setSelectedIndex(-1);
   };
@@ -246,16 +248,16 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
   return (
     <div className={`relative ${fullWidth ? 'w-full' : 'max-w-md'} ${className}`}>
-      <form 
-        onSubmit={handleSubmit} 
+      <form
+        onSubmit={handleSubmit}
         className="relative flex items-center"
       >
         <div className="relative w-full">
-          <Search 
-            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-400" 
-            size={18} 
+          <Search
+            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-400"
+            size={18}
           />
-          
+
           <input
             ref={inputRef}
             type="text"
@@ -268,7 +270,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
             aria-label={placeholder || t('common.search')}
             autoComplete="off"
           />
-          
+
           <AnimatePresence>
             {showClear && localValue && (
               <motion.button
@@ -286,10 +288,10 @@ const SearchBar: React.FC<SearchBarProps> = ({
             )}
           </AnimatePresence>
         </div>
-        
+
         {(isLoading || isSearching) && (
           <div className="absolute right-12 top-1/2 transform -translate-y-1/2">
-            <motion.div 
+            <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
               className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full"
@@ -320,17 +322,16 @@ const SearchBar: React.FC<SearchBarProps> = ({
                     key={result.id}
                     type="button"
                     onClick={() => handleItemSelect(index)}
-                    className={`w-full px-3 py-2 text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${
-                      selectedIndex === index ? 'bg-blue-50 dark:bg-blue-900/20' : ''
-                    }`}
+                    className={`w-full px-3 py-2 text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${selectedIndex === index ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                      }`}
                   >
                     <div className="flex items-center gap-2">
                       <div className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-gray-600 dark:text-gray-300">
                         {result.type}
                       </div>
                       <div className="flex-1">
-                        <div className="font-medium text-gray-900 dark:text-white" 
-                             dangerouslySetInnerHTML={{ __html: result.highlights?.title || result.title }} />
+                        <div className="font-medium text-gray-900 dark:text-white"
+                          dangerouslySetInnerHTML={{ __html: result.highlights?.title || result.title }} />
                         <div className="text-sm text-gray-600 dark:text-gray-400 truncate">
                           {result.description}
                         </div>
@@ -352,9 +353,8 @@ const SearchBar: React.FC<SearchBarProps> = ({
                     key={suggestion}
                     type="button"
                     onClick={() => handleItemSelect(results.length + index)}
-                    className={`w-full px-3 py-2 text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${
-                      selectedIndex === results.length + index ? 'bg-blue-50 dark:bg-blue-900/20' : ''
-                    }`}
+                    className={`w-full px-3 py-2 text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${selectedIndex === results.length + index ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                      }`}
                   >
                     <div className="flex items-center gap-2">
                       <TrendingUp size={16} className="text-gray-400" />
@@ -376,9 +376,8 @@ const SearchBar: React.FC<SearchBarProps> = ({
                     key={historyItem}
                     type="button"
                     onClick={() => handleItemSelect(results.length + suggestions.length + index)}
-                    className={`w-full px-3 py-2 text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${
-                      selectedIndex === results.length + suggestions.length + index ? 'bg-blue-50 dark:bg-blue-900/20' : ''
-                    }`}
+                    className={`w-full px-3 py-2 text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${selectedIndex === results.length + suggestions.length + index ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                      }`}
                   >
                     <div className="flex items-center gap-2">
                       <Clock size={16} className="text-gray-400" />

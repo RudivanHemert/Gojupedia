@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Menu, ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import CustomSidebar from './CustomSidebar';
+import BottomNav from './BottomNav';
 import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '@/components/ui/breadcrumbs';
 
@@ -72,7 +73,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
         <Breadcrumbs />
 
         {/* Content Area - full width */}
-        <div className="w-full px-0 py-0">
+        <div className="w-full px-0 py-0 pb-20 lg:pb-0">
           <motion.div
             id="app-scroll-container"
             initial={{ opacity: 0 }}
@@ -85,6 +86,13 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children, hideHeader = fa
           </motion.div>
         </div>
       </main>
+
+
+      {/* Mobile Bottom Navigation - Revertible by removing this component */}
+      <BottomNav
+        onMenuClick={toggleSidebar}
+        className="lg:hidden"
+      />
     </div >
   );
 };

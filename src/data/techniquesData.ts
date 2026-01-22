@@ -192,6 +192,60 @@ export const getTechniquesData = (t: TFunction): TechniqueData[] => {
     });
   });
 
+  // 13. Goju Ryu Terms (Generic/Specific)
+  // This covers terms like 'gyaku-zuki' if they are under 'karate-goju-ryu-content' or 'goju-ryu-techniques' sections
+  // We explicitly look for 'goju-ryu-techniques' which has a nested structure without a 'terms' parent key
+  const gojuTerms = t('terminology.sections.goju-ryu-techniques', { returnObjects: true });
+
+  if (gojuTerms && typeof gojuTerms === 'object' && !Array.isArray(gojuTerms)) {
+    // Helper to process terms recursively or by section
+    const processGojuSection = (section: any, prefix: string, parentKey: string) => {
+      Object.entries(section).forEach(([key, value]) => {
+        if (typeof value === 'object' && value !== null && key !== 'terms') {
+          // Recurse into subsections
+          processGojuSection(value, prefix ? `${prefix}-${key}` : key, key);
+        } else if (typeof value === 'string' && key !== 'title' && key !== 'description') {
+          // It's a term string
+          const id = prefix ? `goju-${prefix}-${key}` : `goju-${key}`;
+
+          // Only add if not already present
+          if (!data.find(d => d.id === id)) {
+            const [termName, ...descParts] = value.split(' - ');
+
+            // Infer category based on parent section or keywords
+            let category: TechniqueData['category'] = 'Basiskennis';
+
+            const lowerKey = key.toLowerCase();
+            const lowerParent = parentKey.toLowerCase();
+
+            if (lowerParent.includes('punches') || lowerParent.includes('zuki') || lowerKey.includes('zuki')) {
+              category = 'Zuki-Uchi-Waza';
+            } else if (lowerParent.includes('blocks') || lowerParent.includes('uke') || lowerKey.includes('uke')) {
+              category = 'Uke-Waza';
+            } else if (lowerParent.includes('kicks') || lowerParent.includes('geri') || lowerKey.includes('geri')) {
+              category = 'Geri-Waza';
+            } else if (lowerParent.includes('stances') || lowerParent.includes('dachi')) {
+              category = 'Dachi-Waza';
+            }
+
+            data.push({
+              id: id,
+              category: category,
+              japanese: termName || value,
+              kanji: '',
+              english: termName || value,
+              dutch: termName || value, // Added fallback
+              description: value
+            });
+          }
+        }
+      });
+    };
+
+    // Start processing from root of goju terms
+    processGojuSection(gojuTerms, '', '');
+  }
+
   return data;
 };
 
