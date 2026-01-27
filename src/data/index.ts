@@ -110,7 +110,7 @@ export const katas: Kata[] = [
       "Eiichi Miyazato"
     ],
     videoUrl: "https://www.youtube.com/watch?v=QjffSHmAzsc",
-    bunkaiVideoUrl: "https://www.youtube.com/watch?v=rf8KQnAFW5c",
+    bunkaiVideoUrl: "https://youtu.be/ro5IjpJ5gDE",
     bunkai: [
       {
         id: "gdi-bunkai-1",
@@ -210,8 +210,8 @@ export const katas: Kata[] = [
       "Eiichi Miyazato"
     ],
     videoUrl: "https://www.youtube.com/watch?v=0Uydn4yEXe4",
-    bunkaiVideoUrl: "https://www.youtube.com/watch?v=HzOud8oDR3Q",
-    bunkai: "https://www.youtube.com/watch?v=wVFAa_IXqrA"
+    bunkaiVideoUrl: "https://youtu.be/CGisxM9sQNk",
+    bunkai: "https://youtu.be/CGisxM9sQNk"
   },
   {
     id: "saifa",
@@ -242,8 +242,8 @@ export const katas: Kata[] = [
       "Chojun Miyagi"
     ],
     videoUrl: "https://www.youtube.com/watch?v=edeh-DuW5ZI",
-    bunkaiVideoUrl: "https://www.youtube.com/watch?v=75Uid8WPD6M",
-    bunkai: "https://www.youtube.com/watch?v=EXAMPLE_SAIFA_BUNKAI"
+    bunkaiVideoUrl: "https://youtu.be/PVVW9O-FxIw",
+    bunkai: "https://youtu.be/PVVW9O-FxIw"
   },
   {
     id: "seiyunchin",
@@ -265,8 +265,8 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (unknown specific style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "https://www.youtube.com/watch?v=FyBDIxeRzvc",
-    bunkaiVideoUrl: "https://www.youtube.com/watch?v=MPAnxG6eLQ8",
-    bunkai: "https://www.youtube.com/watch?v=rplwXor-d2A"
+    bunkaiVideoUrl: "https://youtu.be/OpeGV2oDjzg",
+    bunkai: "https://youtu.be/OpeGV2oDjzg"
   },
   {
     id: "shisochin",
@@ -288,8 +288,8 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely White Crane style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "https://www.youtube.com/watch?v=Odnn-_GtTCY",
-    bunkaiVideoUrl: "https://www.youtube.com/watch?v=ezAloDaHRpc",
-    bunkai: "https://www.youtube.com/watch?v=2T_aBnzU-VA"
+    bunkaiVideoUrl: "https://youtu.be/i5KlspEOriU",
+    bunkai: "https://youtu.be/i5KlspEOriU"
   },
   {
     id: "sanseru",
@@ -312,8 +312,8 @@ export const katas: Kata[] = [
     origin: "Fujian Province, China (likely White Crane or Tiger style)",
     masters: ["Kanryo Higaonna", "Chojun Miyagi"],
     videoUrl: "https://www.youtube.com/watch?v=_NdbMHcXJ7I",
-    bunkaiVideoUrl: "https://www.youtube.com/watch?v=3C-1OmllrL8",
-    bunkai: "https://www.youtube.com/watch?v=fKYlZZnkjoM"
+    bunkaiVideoUrl: "https://youtu.be/0LY0r0z-xlE",
+    bunkai: "https://youtu.be/0LY0r0z-xlE"
   },
   {
     id: "sepai",

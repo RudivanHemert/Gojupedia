@@ -26,7 +26,7 @@ const BunkaiDetailPage = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-background">
-        <TheoryHeader 
+        <TheoryHeader
           title={t('common.loading', 'Laden...')}
           description=""
         />
@@ -42,7 +42,7 @@ const BunkaiDetailPage = () => {
   if (!kata) {
     return (
       <div className="min-h-screen bg-background">
-        <TheoryHeader 
+        <TheoryHeader
           title={t('bunkaiDetailPage.kataNotFound', 'Kata niet gevonden')}
           description=""
           backUrl="/bunkai"
@@ -77,8 +77,78 @@ const BunkaiDetailPage = () => {
       }
     }
   };
-  
+
   const renderBunkaiContent = () => {
+    // Try to get steps from translations first
+    const translatedSteps = t(`bunkai.kata.${id}.steps`, { returnObjects: true });
+
+    if (translatedSteps && typeof translatedSteps === 'object' && Object.keys(translatedSteps).length > 0) {
+      return Object.entries(translatedSteps).sort(([a], [b]) => {
+        // Sort by numerical part of the key if it exists (e.g., bunkai1, bunkai2)
+        const numA = parseInt(a.replace(/\D/g, '')) || 0;
+        const numB = parseInt(b.replace(/\D/g, '')) || 0;
+        return numA - numB;
+      }).map(([key, bunkai]: [string, any], index) => (
+        <motion.div key={key} variants={itemVariants}>
+          <Card>
+            <CardHeader>
+              <CardTitle>{bunkai.name || bunkai.title}</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {bunkai.attack && (
+                <div>
+                  <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                    {t('bunkai.details.attack', 'Attack')}
+                  </h4>
+                  <p>{bunkai.attack}</p>
+                </div>
+              )}
+              {bunkai.defense && (
+                <div>
+                  <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                    {t('bunkai.details.defense', 'Defense')}
+                  </h4>
+                  <p>{bunkai.defense}</p>
+                </div>
+              )}
+              {bunkai.counterAttack && (
+                <div>
+                  <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                    {t('bunkai.details.counterAttack', 'Counter Attack')}
+                  </h4>
+                  <p>{bunkai.counterAttack}</p>
+                </div>
+              )}
+              {bunkai.footwork && (
+                <div>
+                  <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                    {t('bunkai.details.footwork', 'Footwork')}
+                  </h4>
+                  <p>{bunkai.footwork}</p>
+                </div>
+              )}
+              {bunkai.vitalPoints && (
+                <div>
+                  <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                    {t('bunkai.details.vitalPoints', 'Vital Points')}
+                  </h4>
+                  <p>{bunkai.vitalPoints}</p>
+                </div>
+              )}
+              {bunkai.notes && (
+                <div>
+                  <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide">
+                    {t('bunkai.details.notes', 'Notes')}
+                  </h4>
+                  <p>{bunkai.notes}</p>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </motion.div>
+      ));
+    }
+
     if (!kata.bunkai) {
       return <p>{t('bunkaiDetailPage.noBunkaiAvailable', 'Geen Bunkai beschikbaar voor deze kata.')}</p>;
     }
@@ -92,7 +162,7 @@ const BunkaiDetailPage = () => {
               <CardTitle>{t('bunkaiDetailPage.videoTitle', 'Bunkai Video')}</CardTitle>
             </CardHeader>
             <CardContent>
-                              <p className="mb-4">{t('bunkaiDetailPage.videoDescription')}</p>
+              <p className="mb-4">{t('bunkaiDetailPage.videoDescription')}</p>
               <Button asChild>
                 <a href={kata.bunkai} target="_blank" rel="noopener noreferrer">
                   <PlayCircle className="mr-2 h-5 w-5" />
@@ -117,7 +187,6 @@ const BunkaiDetailPage = () => {
         <Card>
           <CardHeader>
             <CardTitle>{bunkai.title}</CardTitle>
-            {/* No description field on BunkaiDetail */}
           </CardHeader>
           <CardContent className="space-y-4">
             {bunkai.attack && (
@@ -176,7 +245,7 @@ const BunkaiDetailPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TheoryHeader 
+      <TheoryHeader
         title={kata.name ?? ''}
         description={kata.description ?? ''}
         backUrl="/bunkai"

@@ -13,25 +13,424 @@
     },
     "kata": {
       "gekisai-dai-ichi": {
-        "description": "Bunkai af Gekisai Dai Ichi fokuserer på grundlæggende blokkerende og slagende kombinationer, der introducerer fundamentale selvforsvarsapplikationer."
+        "description": "Bunkai af Gekisai Dai Ichi fokuserer på grundlæggende blokkerende og slagende kombinationer, der introducerer fundamentale selvforsvarsapplikationer.",
+        "steps": {
+          "bunkai1": {
+            "name": "Jodan Age Uke + Jodan Oi Zuki",
+            "attack": "Migi Jodan Oi Zuki.",
+            "defense": "Hidari Jodan Age Uke fra heiko dachi.",
+            "counterAttack": "Migi Jodan Oi Zuki.",
+            "footwork": "Træd diagonalt bagud - 45 grader - ud til Hidari Heiko Sanchin Dachi. Foretag derefter - i én bevægelse - et fodskifte ved at bringe det forreste ben tilbage og træde ind med det andet ben. Gør dette så du opnår den korrekte afstand (ma-ai).",
+            "vitalPoints": "Som udgangspunkt er angrebet rettet mod kindbenet [Seimo]. Andre mulige vitale punkter er øjet [Gansei] eller øjenhulen [Kasumi].",
+            "notes": "Graden af ind- og udtrædning (fodskifte) afhænger af afstanden til modstanderen."
+          },
+          "bunkai2": {
+            "name": "Gedan Harai Uke",
+            "attack": "Migi Gedan Oi Zuki.",
+            "defense": "Migi Gedan Harai Uke (som slag og parering samtidigt).",
+            "counterAttack": "Parering = angreb.",
+            "footwork": "Træd sidelæns ud til ydersiden i Shiko Dachi.",
+            "vitalPoints": "F.eks. albue [Soto Hijitsume].",
+            "notes": "Ved træning med hård kontakt må man ikke angribe det vitale punkt [Hijitsume], men i stedet underarmen!"
+          },
+          "bunkai3": {
+            "name": "Chudan Yoko Uke + Mae Geri + Hiji Ate + Jodan Uraken Uchi",
+            "attack": "Migi Chudan Oi Zuki.",
+            "defense": "Hidari Chudan Yoko Uke.",
+            "counterAttack": "Migi Gedan Mae Geri + Migi Chudan Hiji Ate + Jodan Uraken Uchi.",
+            "footwork": "Sayu Tenshin + efter Mae Geri kom fremad i Zenkutsu Dachi.",
+            "vitalPoints": "F.eks. [Kinteki] (Mae Geri) + [Ganka] eller [Suigetsu] (Hiji Ate) + [Jinchu] (Jodan Uraken Uchi).",
+            "notes": "Det lave fremadrettede spark udføres alt efter afstanden med fodballen, fodryggen eller skinnebenet. Ud fra effekten af det indsatte kontra Hiji Ate opstår der plads til Uraken Uchi."
+          },
+          "bunkai4": {
+            "name": "Gedan Harai Uke + Chudan Gyaku Zuki",
+            "attack": "Migi Gedan Oi Zuki.",
+            "defense": "Hidari Gedan Harai Uke.",
+            "counterAttack": "Migi Chudan Gyaku Zuki.",
+            "footwork": "Træd med højre ben diagonalt bagud til Zenkutsu Dachi.",
+            "vitalPoints": "F.eks. [Ganka].",
+            "notes": "Avancerede (fra brunt bælte) skal udføre pareringen og modangrebet som én bevægelse. Ligeledes skal den tredje og fjerde bunkai trænes som en helhed af de øvede."
+          },
+          "bunkai5": {
+            "name": "Ashi Barai + Yoko Shuto Uchi + Hikite + Fumikomi Geri",
+            "attack": "Migi Chudan Oi Zuki.",
+            "defense": "Migi Chudan Yoko Uke + Tsukkami (= gribe fat).",
+            "counterAttack": "Hidari Ashi Baraï + Hidari Yoko Shuto Uchi + Fumikomi Geri.",
+            "footwork": "Hidari Sayu Tenshin med 45 graders rotation.",
+            "vitalPoints": "F.eks. Yoko Shuto Uchi mod [Jinchu] eller mod adamsæblet [Nodo Botoku]. Fumikomi Geri mod nakken eller armhulen.",
+            "notes": "Efter Ashi Barai trækkes foden hurtigt tilbage for at forhindre modstanderen i at angribe dit ben. For modstanderens sikkerhed udføres Yoko Shuto Uchi ikke som et slag mod en Kyusho, men mere som et skub f.eks. på bryst, skulder og/eller ansigt. Fumikomi Geri kan udføres med venstre eller højre ben, afhængigt af hvordan modstanderen falder. I Kataen er det dog det samme ben som det, der udfører fejningen. Øvede karatekaer kan også lave et Irimi-skridt og feje modstanderen på tæt hold. Ved denne avancerede variant bliver albuen også låst på brystet."
+          },
+          "bunkai6": {
+            "name": "Awase Zuki",
+            "attack": "Migi Chudan Oi Zuki.",
+            "defense": "Hidari Nagashi Seiken Ura Uke (variant af Chudan Yoko Uke).",
+            "counterAttack": "Awase Zuki + Awase Oshi.",
+            "footwork": "Migi Sayu Tenshin + træd ud til Zenkutsu Dachi.",
+            "vitalPoints": "F.eks. Gyaku Zuki mod [Ganka] og Ura Zuki [Inazuma].",
+            "notes": "Angrebet skal opsnappes tidligt. Awase Zuki skal først fokuseres kraftfuldt, før den fortsættes som et skub. For at kunne gøre dette skal man først slappe af indad og nedad og lade åndedrættet komme ind (genfinde balancen). Awase Zuki er en formindsket, lukket håndversion af Tora Guchi."
+          }
+        }
       },
       "gekisai-dai-ni": {
-        "description": "Gekisai Dai Ni bunkai bygger på den første kata med mere avancerede teknikker inklusive åbne håndslag og forbedret fodarbejde."
+        "description": "Gekisai Dai Ni bunkai bygger på den første kata med mere avancerede teknikker inklusive åbne håndslag og forbedret fodarbejde.",
+        "steps": {
+          "bunkai1": {
+            "name": "Hiki Uke",
+            "attack": "Migi Chudan Oi Zuki.",
+            "defense": "Migi Hiki Uke + overtagelse med 'Sukui Uke'.",
+            "counterAttack": "Indslut angriberen godt og grib fat om halsen.",
+            "footwork": "Hidari Sayu Tenshin + fremadgående Suri Ashi.",
+            "vitalPoints": "F.eks. adamsæble [Nodo Botoke] og/eller halspulsåren [Matsukaze]. Eventuelt også forfoden [Kori].",
+            "notes": "Ved indslipningen (Suri Ashi) hakkes den forreste fod om angriberens forreste fod og der anlægges en benlås, eller den forreste fod placeres på angriberens forreste fod. Fastklem angrebsarmen mellem din egen overarm og flanke. Øvede kan udføre bunkaien mere direkte indgående (Irimi)."
+          },
+          "bunkai2": {
+            "name": "Nihon Hiki Uke",
+            "attack": "Migi Chudan Oi Zuki + Hidari Jodan Gyaku Zuki.",
+            "defense": "Migi Hiki Uke og Hidari Hiki Uke + gribe fat.",
+            "counterAttack": "Migi Nukite Zuki.",
+            "footwork": "Træd et skridt tilbage eller to gange Sayu Tenshin.",
+            "vitalPoints": "F.eks. øje [Gansei] eller halspulsåre [Matsukaze].",
+            "notes": "Med hånden/armen fra det andet angreb indslutter du den anden arm. Eventuelt lægges tryk med stortåen på forfoden [Kori]."
+          },
+          "bunkai3": {
+            "name": "Tora Guchi",
+            "attack": "Migi Jodan Oi Zuki.",
+            "defense": "Hidari Jodan Haishu Osae Uke.",
+            "counterAttack": "Morote Tsukkami (gribe med to hænder) og Morote Oshi (skubbe med to hænder).",
+            "footwork": "Migi Sayu Tenshin til Neko Ashi Dachi, derefter træd ud. Efter skubbet trækkes det bagerste ben til.",
+            "vitalPoints": "F.eks. [Kinteki] og halspulsåre [Matsukaze] eller adamsæble [Nodo Botoke].",
+            "notes": "Opsnap angrebet tidligt og udfør det med Muchimi. Det er vigtigt at demonstrere grebet efter de vitale punkter."
+          }
+        }
       },
       "saifa": {
-        "description": "Saifa bunkai fremhæver cirkulære bevægelser og nærdistance kampteknikker, inklusive gribende og rivende applikationer."
+        "description": "Saifa bunkai fremhæver cirkulære bevægelser og nærdistance kampteknikker, inklusive gribende og rivende applikationer.",
+        "steps": {
+          "bunkai1": {
+            "name": "Hazushi Waza + Otoshi Uke + Jodan Uraken Uchi",
+            "attack": "1. Hidari Kote Dori (grib fat i samme side). 2. Migi Chudan Gyaku Zuki.",
+            "defense": "1. Migi Hazushi Waza (frigørelsesteknik). 2. Hidari Shotei Otoshi Uke",
+            "counterAttack": "Migi Jodan Uraken Uchi.",
+            "footwork": "Træd 45° ud og drej ind i Heiko Dachi, derefter træd ind eller tilbage til Shiko Dachi.",
+            "vitalPoints": "F.eks. [Jinchu]",
+            "notes": "Ved indtrædningen presses knoerne på den gribende hånd/arm mod modstanderens underarm for at svække hans greb (hold trykket fra starten). Ved løsrivelsen (Hazushi Waza) holdes armene tæt til kroppen. Efter Otoshi Uke gribes fat i armen (ikke med det samme). Pareringen kan også udføres i Osae- eller Nagashi-form."
+          },
+          "bunkai2": {
+            "name": "Sukui Uke + Shotei Gedan Harai Uke + Hiza Ate + Mae Geri",
+            "attack": "Migi Chudan Oi Zuki + Hidari Mae Geri.",
+            "defense": "Sukui Uke + Shotei Gedan Harai Uke.",
+            "counterAttack": "Hiza Ate + Gedan Mae Geri.",
+            "footwork": "Fra Heiko Dachi tilbage med Suri Ashi til Heiko Sanchin Dachi.",
+            "vitalPoints": "F.eks. Hiza Geri [Ein] og Mae Geri [Kinteki].",
+            "notes": "Ved Sukui Uke bruges den anden hånd som beskyttelse. Angriberen skal straks trække Mae Geri tilbage. Når angriberen, efter tilbagetrækningen af Mae Geri, drejer overkroppen sidelæns, udføres Mae Geri mod flanken."
+          },
+          "bunkai3": {
+            "name": "Nihon Hiki Uke + Tsukkami + Heiko Zuki",
+            "attack": "Nihon Chudan Zuki.",
+            "defense": "Nihon Hiki Uke + Morote Hikite.",
+            "counterAttack": "Morote Nukite Zuki + Morote Oshi.",
+            "footwork": "En fod bagud + fremadgående Suri Ashi eller Ayumi Ashi (alt efter afstanden). I tilfælde af en stor, stærk modstander: to gange Sayu Tenshin.",
+            "vitalPoints": "Ved Nukite over kravebenet og Oshi på [Ganka]. Nukite kan også målrettes mod øjnene [Gansei].",
+            "notes": "Ved Morote Hikite trækker du til (Tsukkami). Morote Nukite Zuki og Morote Oshi udføres så vidt muligt i én bevægelse."
+          },
+          "bunkai4": {
+            "name": "(Morote) Gedan Furi Uchi",
+            "attack": "Ashi Dori.",
+            "defense": "Træd væk.",
+            "counterAttack": "Morote Gedan Furi Uchi + Kubi Nage.",
+            "footwork": "Kotai Ayumi Ashi, eventuelt drej væk ved kastet.",
+            "vitalPoints": "F.eks. begge ører eller tindinger: [Komekami] eller øjne [Kansei].",
+            "notes": "Grib fat ved ørerne eller ved kæben og håret. Eventuelt overtag grebet (krydsvis). Du drejer modstanderen i den retning, hvor der ikke er noget støttepunkt."
+          },
+          "bunkai5": {
+            "name": "Tettsui Uchi + TsukamiHiki + Ura Zuki + Jodan Gyaku \"Oshi\"",
+            "attack": "Chudan Oi Zuki",
+            "defense": "Gedan Uchi Nagashi Uke.",
+            "counterAttack": "Tettsui Uchi + Tsukkamihiki + Ura Zuki + Jodan (Gyaku) Oshi.",
+            "footwork": "Tai Sabaki, derefter træd ud for Ura Zuki og eventuelt gennemtræd for skubbet (Ayumi Ashi).",
+            "vitalPoints": "F.eks. fontanellen [Shomon] (Tettsui Uchi) + næse (Ura Zuki) + evt. øje [Gansei] (Oshi).",
+            "notes": "Ved den lave parering holdes armen rund og tæt på kroppen (ikke 'skovl'). Træd ud til Migi Heiko Zuki ved Ura Zuki."
+          },
+          "bunkai6": {
+            "name": "Haito Uchi",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Ura Kake Uke.",
+            "counterAttack": "Jodan Haito Uchi + Tora Guchi.",
+            "footwork": "Sayu Tenshin til Neko Ashi Dachi.",
+            "vitalPoints": "F.eks. de nederste ribben/nyrer [Ushiro Denko] eller nakken [Keichu].",
+            "notes": "I Kataen er Haito Uchi en Chudan-teknik. Ved Tora Guchi griber du fat i hovedet og bringer modstanderen kontrolleret til jorden. Denne bunkai kan også udføres på indersiden."
+          }
+        }
       },
       "seiyunchin": {
-        "description": "Seiyunchin bunkai fokuserer på lave stillinger, kraftfulde trækkende teknikker og at bringe modstanderen ud af balance gennem strategisk positionering."
+        "description": "Seiyunchin bunkai fokuserer på lave stillinger, kraftfulde trækkende teknikker og at bringe modstanderen ud af balance gennem strategisk positionering.",
+        "steps": {
+          "bunkai1": {
+            "name": "Morote Gedan Harai Uke.",
+            "attack": "Morote Kote Dori.",
+            "defense": "Hazushi Waza med en Morote Gedan Harai Uke.",
+            "counterAttack": "Hiza Geri eller Mae Geri (forreste eller bagerste ben).",
+            "footwork": "Først en fod frem (let balanceforstyrrelse), derefter diagonalt tilbage til Shiko Dachi.",
+            "vitalPoints": "F.eks. [Kinteki].",
+            "notes": "Efter pakningen bringer forsvareren sine arme lidt udad (reaktion), som en modreaktion herpå bringer angriberen sine arme indad, og forsvareren bruger dette til indsættelse af et dobbeltstik (Nukite) opad. Betydningen af at falde i Shiko Dachi er at lære at bruge sin vægt som kraft i frigørelsesteknikker."
+          },
+          "bunkai2": {
+            "name": "Sukui Uke + Hiki Uke + Hira Nukite Zuki",
+            "attack": "Chudan Oi Zuki + Hikite.",
+            "defense": "Sukui Uke + Uchi Shotei Uke + overtagelse af grebet.",
+            "counterAttack": "Hira Nukite Zuki.",
+            "footwork": "En fod bagud, derefter træd ud til Shiko Dachi.",
+            "vitalPoints": "F.eks. under de nederste ribben.",
+            "notes": "Som reaktion på Sukui Uke trækker angriberen sin knytnæve lidt tilbage; dette bruger forsvareren til at kunne overtage grebet og indslutte med Hikite. Ved Nukite Zuki skabes først kontakt, hvorefter der lægges kraft i."
+          },
+          "bunkai3": {
+            "name": "Hojo Oshi",
+            "attack": "Chudan Oi Zuki Shotei.",
+            "defense": "Otoshi Uke.",
+            "counterAttack": "Chudan Nakadaka Ippon Ken Zuki + Morote Shotei Hojo Oshi.",
+            "footwork": "Drej ind til Heiko Sanchin Dachi + Suri Ashi fremad under skubbet.",
+            "vitalPoints": "F.eks. [Danchu] (Chudan Nakadaka Ippon Ken Zuki).",
+            "notes": ""
+          },
+          "bunkai4": {
+            "name": "Chudan Hiji Ate",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Otoshi Uke.",
+            "counterAttack": "Chudan Hiji Ate.",
+            "footwork": "En fod bagud, derefter med den anden fremad.",
+            "vitalPoints": "F.eks. [Komikami] eller [Seimo].",
+            "notes": "Efter Otoshi Uke bibeholdes kontakten, og der glides igennem til baghovedet, hvor der gribes fat efterfulgt af Hiji Ate (den anden arm) mod hovedet. Albuen mod kroppen kan bruges som vægtstang."
+          },
+          "bunkai5": {
+            "name": "Hojo Uke + Gedan Harai Uchi",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Chudan Yoko Uke + straks efterfølgende gribes håndleddet.",
+            "counterAttack": "Jodan Shotei Uchi fulgt af Gedan Harai Uke (Uchi).",
+            "footwork": "Sayu Tenshin, 45 graders drejning + træd ind med bagerste ben til Shiko Dachi.",
+            "vitalPoints": "F.eks. ved Jodan Shotei Uchi (øre) og Gedan Harai Uchi [Kinteki].",
+            "notes": "Ved bevægelsen til Shiko Dachi drejes der således ind, at man uhindret kan ramme skridtet."
+          },
+          "bunkai7": {
+            "name": "Hari Uke",
+            "attack": "Migi Kote Dori.",
+            "defense": "Migi Jodan Hari Uke + Tsukkami.",
+            "counterAttack": "Hidari Gedan Shotei Harai Uke.",
+            "footwork": "Foden fra samme side som grebet føres lidt fremad, og derefter med den anden fod til Shiko Dachi.",
+            "vitalPoints": "F.eks. [Kinteki]",
+            "notes": "Ved bevægelsen til Shiko Dachi drejes der således ind, at man uhindret kan ramme skridtet."
+          },
+          "bunkai8": {
+            "name": "Chudan Yoko Shotei Uke / Jodan Uchi Uke > Jodan Uraken Uchi",
+            "attack": "1. Jodan Zuki. 2. Chudan Zuki.",
+            "defense": "1. Jodan Uchi Uke. 2. Chudan Shotei Uchi Uke (+ Tsukkami).",
+            "counterAttack": "(evt. Ashi Barai med forreste ben +) Jodan Uraken Uchi.",
+            "footwork": "En fod bagud. Eventuelt indslipning ved Jodan Uraken Uchi.",
+            "vitalPoints": "F.eks. ved Jodan Uraken Uchi [Jinchu].",
+            "notes": "Ashi Barai laves kun, hvis afstanden tillader det."
+          },
+          "bunkai9": {
+            "name": "(Doji Uke +) Age Zuki + Jodan Uraken Uchi + Gedan Harai Uke (Uchi)",
+            "attack": "Chudan Oi Zuki + Mae Geri.",
+            "defense": "Kake Uke + Gedan Barai.",
+            "counterAttack": "Age Zuki + Jodan Uraken Uchi + Gedan Harai Uchi.",
+            "footwork": "En fod bagud, derefter træd ud til Shiko Dachi.",
+            "vitalPoints": "F.eks. kæbe [Mikazuki] (Age Zuki) + [Jinchu] (Jodan Uraken Uchi) + [Kinteki] (Gedan Harai Uchi).",
+            "notes": "Øvede bør også øve denne mod Chudan Zuki + Gedan Zuki eller Mae Geri (anvendelse af Doji Uke)."
+          },
+          "bunkai10": {
+            "name": "Hiji Age",
+            "attack": "Omfavnelse bagfra (overkrop og arme).",
+            "defense": "Hiji Age + Ushiro Hiji Ate (samtidigt), derefter drejes der ud til Kamae.",
+            "counterAttack": "Angreb = forsvar.",
+            "footwork": "Efter at være blevet grebet sættes en fod frem til 'Neko Ashi Dachi'.",
+            "vitalPoints": "F.eks. [Inazuma].",
+            "notes": "Hvis grebet er for stærkt, angribes først et Kyusho. For eksempel ved en bagudrettet hovedstød, spark på foden, slag mod skridtet osv. Ved at gøre skuldrene 'runde' skabes der plads til at stikke en arm igennem."
+          },
+          "bunkai11": {
+            "name": "Otoshi Uke + Jodan Uraken Uchi",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Otoshi Uke (+ Tsukkami).",
+            "counterAttack": "Jodan Uraken Uchi.",
+            "footwork": "Indadgående Suri Ashi.",
+            "vitalPoints": "F.eks. [Jinchu].",
+            "notes": "Pareringen og slaget følger hinanden flydende."
+          },
+          "bunkai12": {
+            "name": "Morote Kuri Uke",
+            "attack": "Morote Kubi Dori.",
+            "defense": "Morote Kuri Uke som frigørelsesteknik.",
+            "counterAttack": "Morote Nukite Zuki.",
+            "footwork": "Træd bagud og 'fald' i Neko Ashi Dachi.",
+            "vitalPoints": "F.eks. øjne [Gansei].",
+            "notes": "Det er vigtigt, ligesom i Kataen, at underarmene samles godt over angriberens arme. Sæt forsvaret ind før hænderne er på din hals; hvis de er på din hals, angribes først et vitalt punkt (Kyusho), og derefter indsættes forsvaret."
+          }
+        }
+      },
+      "shisochin": {
+        "description": "Shisochin bunkai indeholder fire-retnings bevægelser med åbne håndteknikker, ledlås og pressepunktslag.",
+        "steps": {
+          "bunkai1": {
+            "name": "Chudan Nukite Zuki",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Chudan Haishu Nagashi Uke.",
+            "counterAttack": "Jodan Nukite Zuki.",
+            "footwork": "Sayu Tenshin.",
+            "vitalPoints": "F.eks. halspulsåre [Matsukaze].",
+            "notes": "Et angreb mod Suigetsu vil kun være realistisk ved en stor styrkeforskel og stærke hænder."
+          },
+          "bunkai2": {
+            "name": "Morote Sukui Uke + 'Morote Gedan Harai Uke'",
+            "attack": "Morote Kubi Dori.",
+            "defense": "Morote Sukui Uke + Tsukkami + 'Morote Gedan Harai Uke'.",
+            "counterAttack": "Mae Geri eller Hiza Geri med bagerste ben.",
+            "footwork": "Træd bagud for at undvige angrebet og kunne gribe fat i modstanderens tommelfingre eller håndled.",
+            "vitalPoints": "F.eks. solplexus [Suigetsu].",
+            "notes": "Samme bunkai kan også udføres, hvis begge håndled gribes."
+          },
+          "bunkai3": {
+            "name": "Chudan Ura Kake Uke (Doji Uke) + Gyaku Te",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Chudan Ura Kake Uke.",
+            "counterAttack": "Gyaku Te + Otoshi Hiji Ate.",
+            "footwork": "Sayu Tenshin, derefter drejes der ind med det yderste ben, som efterfølgende strækkes for at bringe modstanderen ud af balance. Drej derefter til Shiko Dachi for Otoshi Hiji Ate.",
+            "vitalPoints": "F.eks. [Kassatsu] (Otoshi Hiji Ate).",
+            "notes": "Øvede bør udføre pareringen og Gyaku Te i én bevægelse. Den pågældende teknik har ikke et selvstændigt navn, men opkaldes efter anvendelsen. Nemlig: Gyaku Te, som er en samlebetegnelse for låse, greb og lignende."
+          },
+          "bunkai4": {
+            "name": "Hiji Age / Ushiro Hiji Ate",
+            "attack": "Omfavnelse bagfra, én arm indsluttet.",
+            "defense": "Jodan Ushiro Zuki + Ushiro Hiji Ate.",
+            "counterAttack": "Forsvaret er modangreb efterfulgt af bortdrejning med Tsukami og Shotei Zuki.",
+            "footwork": "",
+            "vitalPoints": "F.eks. ved Jodan Ushiro Zuki [Jinchu] + ved Ushiro Hiji Ate [Inazuma].",
+            "notes": "Når omfavnelsen er for stærk, er det bedre først at angribe et Kyusho. For eksempel punktet [Koin] (på foden) med hælen eller testiklerne [Kinteki] med hånden."
+          },
+          "bunkai5": {
+            "name": "Nagashi Shotei Gedan Harai Uke + Shotei Zuki",
+            "attack": "Gedan Mae Geri.",
+            "defense": "Nagashi Shotei Gedan Harai Uke.",
+            "counterAttack": "Shotei Zuki.",
+            "footwork": "Træd ind og drej væk i én bevægelse.",
+            "vitalPoints": "F.eks. kæbe [Mikazuki].",
+            "notes": "Den opadgående effekt i bevægelsen hjælper med at rykke modstanderen op med rode. I tilfælde af et angreb mod øjnene kan modstanderen have sværere ved at se hånden komme, da den kommer nedefra."
+          },
+          "bunkai6": {
+            "name": "Hiki Uke + Mae Geri + Chudan Hiji Ate",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Hiki Uke.",
+            "counterAttack": "Gedan Mae Geri + Chudan Hiji Ate + Nihon Nukite.",
+            "footwork": "Sayu Tenshin. Efter Mae Geri gå fremad i Zenkutsu Dachi.",
+            "vitalPoints": "F.eks. [Kinteki] (Gedan Mae Geri) + [Ganka] (Chudan Hiji Ate) + øjne [Gansei] (Nihon Nukite).",
+            "notes": ""
+          },
+          "bunkai7": {
+            "name": "Otoshi Uke + Hiji Ate",
+            "attack": "Chudan Oi Zuki.",
+            "defense": "Osae Uke.",
+            "counterAttack": "Hiji Ate.",
+            "footwork": "Træd ind, hvor forreste ben er på indersiden.",
+            "vitalPoints": "F.eks. [Suigetsu] og/eller under hagen.",
+            "notes": "Angrebet skal opsnappes tidligt og presses indad og (derefter) nedad."
+          },
+          "bunkai8": {
+            "name": "Morote Hiji Ate",
+            "attack": "Morote Kote Dori.",
+            "defense": "Morote Hiji Age.",
+            "counterAttack": "Otoshi Hiji Age.",
+            "footwork": "En fod bagud for stabilitet, derefter træd ind.",
+            "vitalPoints": "F.eks. kraveben eller bryst (Otoshi Hiji Ate).",
+            "notes": "Bemærkning(er): Ved indsættelse af Morote Hiji Age løftes hænderne og spredes åbne."
+          },
+          "bunkai9": {
+            "name": "Doji Uke",
+            "attack": "Mae Geri.",
+            "defense": "Shuto Gedan Harai Uke.",
+            "counterAttack": "Jodan Haishu Uchi.",
+            "footwork": "Sayu Tenshin til Neko Ashi Dachi, derefter fremadgående Suri Ashi i Neko Ashi Dachi.",
+            "vitalPoints": "F.eks. næse (Jodan Haishu Uchi).",
+            "notes": ""
+          }
+        }
+      },
+      "sanseru": {
+        "description": "Sanseru bunkai inkluderer dynamiske bevægelser og kraftfulde slag der sigter mod 36 vitale punkter gennem hele kroppen.",
+        "steps": {
+          "bunkai1": {
+            "name": "Chudan Yoko Uke > Chudan Gyaku Zuki",
+            "attack": "Migi Chudan Oi Zuki.",
+            "defense": "Hidari Chudan Yoko Uke.",
+            "counterAttack": "Migi Chudan Gyaku Zuki.",
+            "footwork": "Højre fod Sayu Tenshin med drejning til Hidari Heiko Sanchin Dachi.",
+            "vitalPoints": "F.eks. [Suigetsu] [Ganka].",
+            "notes": ""
+          },
+          "bunkai2": {
+            "name": "\"Kakate Uke\" > Hazushi Waza",
+            "attack": "Kote Dori - venstre på højre.",
+            "defense": "Kake Uke + Hazushi Waza med venstre hånd på håndleddet/underarmen.",
+            "counterAttack": "Slå væk på håndleddet.",
+            "footwork": "Træd ind med højre for at svække grebet; træd tilbage med højre for at lægge kraft i, mens du udfører Hazushi Waza.",
+            "vitalPoints": "",
+            "notes": "Ved Hazushi Waza må armen ikke komme for langt væk fra kroppen, og lad fingrene gå opad indvendigt og derefter sprede sig, efterfulgt af 'skæring' med knivhånden."
+          },
+          "bunkai3": {
+            "name": "Ashi Dori > Mae Geri > Kansetsu Geri",
+            "attack": "Migi Mae Geri.",
+            "defense": "Ashi Dori (Migi Shotei Uchi Gedan Harai Uke).",
+            "counterAttack": "Chudan Ashi Dori (Migi Shotei Uchi Gedan Harai Uke) + Migi Kin Geri + Kansetsu Geri Nage > Gedan fumikomi.",
+            "footwork": "Bliv stående, drej kroppen væk (Tai Sabaki på stedet).",
+            "vitalPoints": "[Kinteki].",
+            "notes": "Efter Kinteki Geri drejes højre hånd, og højre tommelfinger placeres i det indvendige hoved af lårmusklen; musculus quadriceps femoris (dette er det vitale punkt). Hold efter sparket 1; knæet på indersiden af låret og 2. placer foden over knæet på det andet ben. Sæt takedown'et ind ved hjælp af en løftestang."
+          },
+          "bunkai4": {
+            "name": "Mae Hiji Ate > Gedan Gyaku Zuki > Kansetsu Geri",
+            "attack": "1. Migi Chudan Oi Zuki. 2. Hidari Gedan Gyaku Zuki.",
+            "defense": "1. Hidari Chudan Shotei Osae/Otoshi Uke. 2. Migi Gedan Harai Uke.",
+            "counterAttack": "1. Migi Chudan Hiji Ate + Hidari Gedan Gyaku Zuki + Migi Kansetsu Geri.",
+            "footwork": "1. Fodskifte (Uke + Hiji Ate). Kotai Suri Ashi (Uke) + Hidari Sayu Tenshin (Kansetsu Geri).",
+            "vitalPoints": "F.eks. knæet.",
+            "notes": ""
+          },
+          "bunkai5": {
+            "name": "Gedan Seiken Juji Uke",
+            "attack": "Migi Mae Geri.",
+            "defense": "Ryo Ken Gedan Kosa Uke.",
+            "counterAttack": "Tateken Gedan Zuki.",
+            "footwork": "Højre fod træder tilbage i hikui Shiko Dachi.",
+            "vitalPoints": "F.eks. tænder eller [Kinteki].",
+            "notes": ""
+          },
+          "bunkai6": {
+            "name": "Gedan Kaishu Juji Uke",
+            "attack": "Migi Mae Geri.",
+            "defense": "Ryo Ken Gedan Kosa Uke.",
+            "counterAttack": "Tateken Gedan Nukite.",
+            "footwork": "Højre fod træder tilbage i hikui Shiko Dachi.",
+            "vitalPoints": "F.eks. tænder eller [Yako].",
+            "notes": ""
+          },
+          "bunkai7": {
+            "name": "Mawashi Uke > Awase Zuki",
+            "attack": "1. Migi Gedan Mae Geri. 2. Migi Jodan Oi Zuki.",
+            "defense": "1. Migi Gedan Shotei Harai Uke + Tsukami. 2. Hidari Kaishu Age Uke + Tsukami.",
+            "counterAttack": "Nage + Zuki.",
+            "footwork": "Træd ind med Sayu Tenchin-drejning.",
+            "vitalPoints": "",
+            "notes": "Ved Jodan-angreb udfører du pareringen opad under stødet og griber fat i armen."
+          },
+          "bunkai8": {
+            "name": "Kami Kiri No KaMae",
+            "attack": "Migi Chudan Gyaku Zuki + Hidari Jodan Oi Zuki.",
+            "defense": "Hidari Chudan Yoko Ko Uke + Migi Age Ko Uke.",
+            "counterAttack": "Nihon Nukite Zuki + Chudan Morote Hasami Shotei Uchi + 'Ashi Dori Nage' + Otoshi Shotei Uchi.",
+            "footwork": "Først tilbage til Heiko Sanchin (under Yoko Ko Uke) derefter træd ind til Shiko Dachi (Age Ko Uke).",
+            "vitalPoints": "F.eks. [Gansei] (Nihon Nukite Zuki); [Inazuma] (Hasami Shotei Uchi); [Kinteki] (Otoshi Shotei Uchi).",
+            "notes": ""
+          }
+        }
       },
       "sepai": {
         "description": "Sepai bunkai demonstrerer cirkulære bevægelser og teknikker til at afbøje og omdirigere modstanderens kraft."
-      },
-      "shisochin": {
-        "description": "Shisochin bunkai indeholder fire-retnings bevægelser med åbne håndteknikker, ledlås og pressepunktslag."
-      },
-      "sanseru": {
-        "description": "Sanseru bunkai inkluderer dynamiske bevægelser og kraftfulde slag der sigter mod 36 vitale punkter gennem hele kroppen."
       },
       "kururunfa": {
         "description": "Kururunfa bunkai fremhæver at holde og bryde balance, med pludselige hurtige slag og nærdistance kampteknikker."
