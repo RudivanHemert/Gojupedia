@@ -16,6 +16,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import { TheorySectionList } from '@/components/theory/TheorySection';
 
 const PracticePage = () => {
   const { t } = useTranslation();
@@ -115,62 +116,34 @@ const PracticePage = () => {
         description={t('practice.pageDescription')}
         backUrl="/"
       />
-      <div className="p-4">
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="w-full"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
-            {sections.map((section) => (
-              <motion.div key={section.id} variants={itemVariants}>
-                <Link to={section.path} className="block">
-                  <Card className={`overflow-hidden hover:shadow-lg transition-all duration-200 border-2 ${section.color}`}>
-                    <CardContent className="p-6">
-                      <div className="flex flex-col items-center text-center">
-                        <div className="mb-4 bg-card dark:bg-card p-3 rounded-full shadow-sm">
-                          {section.icon}
-                        </div>
-                        <h3 className="font-bold text-xl mb-2 text-foreground">{section.name}</h3>
-                        <p className="text-muted-foreground leading-relaxed">{section.description}</p>
-                        <div className="flex items-center text-primary mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                          <span className="text-sm font-medium">{t('practice.viewSection')}</span>
-                          <ArrowRight className="h-4 w-4 ml-1" />
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </Link>
-              </motion.div>
-            ))}
-          </div>
 
-          {/* Additional info section */}
-          <div className="mt-8 bg-muted/30 dark:bg-muted/10 rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4 text-center text-foreground">{t('practice.aboutTrainingTitle')}</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-medium mb-2 flex items-center text-foreground">
-                  <Zap className="h-5 w-5 text-yellow-500 dark:text-yellow-400 mr-2" />
-                  {t('practice.training.kihon.title')}
-                </h4>
-                <p className="text-sm text-muted-foreground">
-                  {t('practice.training.kihon.description')}
-                </p>
-              </div>
-              <div>
-                <h4 className="font-medium mb-2 flex items-center text-foreground">
-                  <Layers className="h-5 w-5 text-blue-500 dark:text-blue-400 mr-2" />
-                  {t('practice.training.kata.title')}
-                </h4>
-                <p className="text-sm text-muted-foreground">
-                  {t('practice.training.kata.description')}
-                </p>
-              </div>
+      <div className="p-4">
+        <TheorySectionList sections={sections} />
+
+        {/* Additional info section */}
+        <div className="mt-8 bg-muted/30 dark:bg-muted/10 rounded-xl p-6">
+          <h3 className="text-lg font-semibold mb-4 text-center text-foreground">{t('practice.aboutTrainingTitle')}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-medium mb-2 flex items-center text-foreground">
+                <Zap className="h-5 w-5 text-yellow-500 dark:text-yellow-400 mr-2" />
+                {t('practice.training.kihon.title')}
+              </h4>
+              <p className="text-sm text-muted-foreground">
+                {t('practice.training.kihon.description')}
+              </p>
+            </div>
+            <div>
+              <h4 className="font-medium mb-2 flex items-center text-foreground">
+                <Layers className="h-5 w-5 text-blue-500 dark:text-blue-400 mr-2" />
+                {t('practice.training.kata.title')}
+              </h4>
+              <p className="text-sm text-muted-foreground">
+                {t('practice.training.kata.description')}
+              </p>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

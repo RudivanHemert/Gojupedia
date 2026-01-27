@@ -17,6 +17,7 @@ import {
   ListCheck
 } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
+import { TheorySectionList } from '@/components/theory/TheorySection';
 import { useTranslation } from 'react-i18next';
 
 const StudyPage = () => {
@@ -92,44 +93,7 @@ const StudyPage = () => {
       />
 
       <div className="p-4 w-full">
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="space-y-6"
-        >
-          {/* Study Categories */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {sections.map((section) => (
-              <motion.div
-                key={section.id}
-                variants={itemVariants}
-              >
-                <Link to={section.path}>
-                  <Card className={`h-full cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 border-2 ${section.color}`}>
-                    <CardContent className="p-6">
-                      <div className="flex items-center space-x-4">
-                        <div className="flex-shrink-0">
-                          {section.icon}
-                        </div>
-                        <div className="flex-1">
-                          <h3 className="text-lg font-semibold text-foreground mb-2">
-                            {section.name}
-                          </h3>
-                          <p className="text-muted-foreground text-sm">
-                            {section.description}
-                          </p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </Link>
-              </motion.div>
-            ))}
-          </div>
-
-
-        </motion.div>
+        <TheorySectionList sections={sections} />
       </div>
     </div>
   );
