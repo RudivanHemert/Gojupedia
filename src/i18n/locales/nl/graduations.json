@@ -390,6 +390,10 @@
           }
         }
       },
+      "examRequirements": {
+        "title": "Exameneisen",
+        "description": "Selecteer een rang om de specifieke eisen voor dat examen te bekijken."
+      },
       "beltColors": {
         "title": "Bandkleuren (Kyu Graden)",
         "description": "De verschillende kleuren van de kyu graden",
@@ -559,6 +563,178 @@
             "kudan": "Kudan",
             "judan": "Judan"
           }
+        }
+      }
+    },
+    "regulations": {
+      "title": "IOGKF Internationale Zwarte Band Examen Reglementen",
+      "intro": {
+        "title": "1. Inleiding",
+        "text": "Het doel van deze update is om het zwarte band examensysteem en de regels tussen de IOGKF-lidstaten te verduidelijken en te standaardiseren."
+      },
+      "perspective": {
+        "title": "2. Perspectief op Dan Examens",
+        "text": "Het behalen van een Dan-graad is een indicatie van de vooruitgang van een individu in Karate-Do en eigenlijk alleen relevant voor zichzelf. De volgende drie 'pijlers' illustreren de holistische Budo-omgeving van de Weg van Karate-Do waarop ontwikkeling en vooruitgang worden geëvalueerd:"
+      },
+      "junior": {
+        "title": "3.1 Kinder Zwarte Band Graden",
+        "text": "Studenten jonger dan 18 jaar kunnen ook examen doen voor zwarte band – het is de verantwoordelijkheid van de individuele landen om de standaard voor een dergelijk examen vast te stellen. Het is gebruikelijk om het junior dan-examen op te splitsen in 3 of 4 categorieën.",
+        "categories": {
+          "kakyu": "Ka-kyu shodan 10 – 13 jaar",
+          "chukyu": "Chu-kyu shodan 14 – 15 jaar",
+          "jokyu": "Jo-kyu shodan 16 – 17 jaar"
+        },
+        "registration": "Met betrekking tot junior examens (alle examens onder de 18 jaar) – het is belangrijk dat de kandidaten geregistreerd zijn binnen het IOGKF systeem en dat de juiste examengelden zijn betaald.",
+        "turning18": "Bij het bereiken van de leeftijd van 18 jaar – moet de student examen doen voor senior shodan onder dezelfde voorwaarden en eisen als ieder ander."
+      },
+      "senior": {
+        "title": "3.2 Senior Rangen",
+        "sandan": {
+          "title": "3.2.1 Sandan",
+          "text": "Dit is de eerste stap naar de 'Senior' of 'Sensei' hiërarchie waar bepaalde karaktereigenschappen prevalent moeten beginnen te worden, daarom zijn de minimale tijdseisen niet alleen voldoende, er wordt van de kandidaat verwacht dat hij iets extra's in zijn inspanningen stopt. De volgende, meer specifieke, overwegingen zijn relevant voor sandan kandidaten:",
+          "points": [
+            "Meer fysieke vaardigheid en technische vaardigheid dan kandidaten voor nidan.",
+            "Een blijk van betrokkenheid bij de organisatie, zoals: Betrokkenheid en ondersteuning bij regionale of nationale evenementen.",
+            "Status - Instructeur of assistent-instructeur - Geen enkel persoon kan echt proberen sandan graad te halen tenzij ze ook les hebben gegeven, zelfs als het alleen op ad hoc basis is.",
+            "Toont loyaliteit aan de organisatie, medeleden en de Hoofdinstructeur.",
+            "Status onder leeftijdsgenoten - hoe beoordelen hun leeftijdsgenoten hun vaardigheden, persoonlijkheid, enz.?"
+          ]
+        },
+        "yondan": {
+          "title": "3.2.2 Yondan",
+          "text": "Alles wat vereist is voor sandan één stap hoger, plus een groter gevoel van betrokkenheid bij de organisatie. Fysieke vaardigheid en conditionering zijn belangrijk – ze moeten zichzelf kunnen 'handhaven', rekening houdend met, natuurlijk, leeftijd."
+        },
+        "godan": {
+          "title": "3.2.3 Godan",
+          "text": "Senior zwarte band niveau met de volgende overwegingen:",
+          "points": [
+            "Hebben ze het respect verdiend van senior instructeurs, junior en senior leden van hun dojo en land door hun gedrag, zowel op als naast de vloer – juiste houding, onbetwistbare loyaliteit aan de organisatie?",
+            "Hebben ze de karakterrijpheid om kritiek te accepteren en daarvan te groeien?",
+            "Hebben ze een objectief beoordelingsvermogen?",
+            "Fysieke vaardigheid is belangrijk – zijn ze in staat zichzelf te 'handhaven'?",
+            "Trainen ze regelmatig zelf?"
+          ]
+        },
+        "rokudan": {
+          "title": "3.2.4 Rokudan",
+          "text": "Beginnen zich te bewegen in de 'hogere echelons' van de organisatie, zowel nationaal als internationaal. Fysieke vaardigheid en conditionering zijn belangrijk – rekening houdend met leeftijd, kandidaten zouden technisch en fysiek nog steeds moeten verbeteren en zouden door iedereen gezien moeten worden als een persoon die probeert de filosofie van karate-do te belichamen. Rokudan is meestal de minimale rangkwalificatie voor 'Shihan', alleen gegeven op uitnodiging van het Honbu examenpanel, wat 'Rolmodel' betekent – of 'Professor', met andere woorden: Respecteren junioren onder hen en senioren boven hen hen los van hun fysieke vaardigheden?",
+          "considerationsTitle": "Andere overwegingen voor dit niveau zijn:",
+          "points": [
+            "Blijven ze traditioneel karate promoten en belichamen ze loyaliteit aan de Hoofdinstructeur en de rest van de organisatie?",
+            "Bezitten ze de leiderschapskwaliteiten: Geven ze het goede voorbeeld?",
+            "Accepteren en/of respecteren andere leden van de internationale karate samenleving hun vaardigheden?",
+            "Wat is hun status in de wereld buiten karate? (Zouden mensen buiten de karatewereld deze persoon gerespecteerd hebben, zelfs als ze karate niet als aanspraak op 'roem' hadden?)",
+            "Vertonen gepast gedrag buiten de dojo."
+          ]
+        },
+        "highranks": {
+          "title": "3.2.5 Nanadan, hachidan en hoger",
+          "text": "Kandidaten worden nu een manifestatie van Okinawan Goju Ryu en beheersen de meeste basisconcepten, en hoewel ze een senior meester zijn, blijven ze nog steeds studenten van karate-do – metaforisch is dit gelijk aan een Professor aan de universiteit. Ze moeten regelmatig de hoofdinstructeur gasshuku bijwonen. Kandidaten worden 6 of 12 maanden voordat ze worden uitgenodigd om te testen door het IOGKF uitvoerend comité geïnformeerd, gedurende deze tijd moeten ze zich presenteren op een gasshuku gegeven door iemand van het Honbu examenpanel. Deze rangen zijn alleen op uitnodigingsbasis."
+        }
+      },
+      "honorary": {
+        "title": "3.3 Ere Dan Graad",
+        "text": "Naar goeddunken van het EC kan een ere dan graad op individuele basis worden toegekend om de volgende redenen:",
+        "points": [
+          "Bijdrage aan de vereniging",
+          "Promotie van de IOGKF",
+          "Waar een individu zijn training heeft moeten beperken om redenen buiten zijn controle."
+        ]
+      },
+      "chiefInstructors": {
+        "title": "3.4 Hoofdinstructeurs – Kambukai – Vertegenwoordigers",
+        "text": "Een Landelijk Hoofdinstructeur, Kambukai lid of Vertegenwoordiger heeft toestemming nodig van het EC voor hun examen en MOET examen doen onder de aangestelde examinator."
+      },
+      "generalRules": {
+        "title": "4. Algemene Regels voor Dan Examens",
+        "admin": {
+          "title": "4.1 Administratieve Vereisten",
+          "points": [
+            "Alleen leden van wie de landen actueel zijn met betrekking tot landelijke aansluitingen, kunnen worden getest en geregistreerd voor IOGKF Dan ranglijsten.",
+            "Elk land dat gedurende een periode van twee jaar achtereenvolgens geen IOGKF aansluiting betaalt en/of een landelijk hoofdinstructeur die nalaat drie CI gasshuku's achtereenvolgens bij te wonen, of een internationale gasshuku binnen dezelfde periode, verliest alle examenmandaten zoals hierin gedefinieerd."
+          ]
+        },
+        "timeFee": {
+          "title": "4.2 Tijd, Gasshuku en Registratiekosten vereisten",
+          "definitions": {
+            "title": "4.2.1 Definities van kwalificerende gasshuku",
+            "points": [
+              "Nationaal. Elke gasshuku georganiseerd door een nationale organisatie.",
+              "Internationaal. Elke gasshuku met internationale status wordt geleid door Saiko Shihan, Shuseki Shihan, Fuku Shuseki Shihan of Gijutsu Komon (d.w.z. Budosai, Europese Gasshuku, of elke speciale gasshuku gedefinieerd door het EC)"
+            ],
+            "note": "OPMERKING – Minimale tijdsperioden zijn gebaseerd op de aanname van minimale training van 4 uur per week met een senior instructeur. In het geval dat een instructeur van een lagere rang is, kan de tijdsperiode langer zijn. Zowel minimale tijd als minimale leeftijdscriteria worden nageleefd."
+          },
+          "factors": {
+            "title": "4.2.2 Factoren die tijdsvereisten kunnen beïnvloeden",
+            "registration": "Alle dan graden moeten worden geregistreerd en goedgekeurd door de IOGKF – als aan deze vereiste niet wordt voldaan, zal de IOGKF de graad annuleren en moet het individu een nieuw examen ondergaan onder de juiste voorwaarden.",
+            "increasingTime": {
+              "title": "Verhogen van de tijdsperiode",
+              "text": "Naar goeddunken van de landelijke Hoofdinstructeur kan de minimale tijdsperiode worden verhoogd om de volgende redenen:",
+              "points": [
+                "Het individu heeft niet het noodzakelijke niveau bereikt met betrekking tot de gezochte graad.",
+                "Een persoon is grotendeels autodidact, traint niet noodzakelijkerwijs onder toezicht per se. Dit kwalificeert de persoon niet voor de bovenstaande tijdsperiode specificatie",
+                "Een periode van meer dan drie maanden niet-training als gevolg van blessure of andere redenen sinds het laatste examen."
+              ]
+            },
+            "reducingTime": {
+              "title": "Verminderen van de tijdsperiode",
+              "points": [
+                "Tijdsvertraging tussen onmiddellijke vorige examendata – bijv. een persoon deed er 6/7 jaar over om van yondan naar godan te gaan, kan daarom 'krediet' krijgen van niet meer dan één jaar, bijv. godan naar rokudan in 5 jaar.",
+                "Als de student in kwestie vele jaren een junior zwarte band is geweest. Dan nadat ze 18 worden, doen ze examen voor volwassen shodan. Ze kunnen echter na één jaar examen doen voor nidan. Daarna moeten de gepubliceerde examentijdsperioden worden nageleefd. NB. De leeftijd van het individu zou één jaar minder blijven dan 'traditioneel vereist' voor die graad."
+              ]
+            },
+            "otherOrg": {
+              "title": "Zwarte band ontvangen van een andere organisatie",
+              "text": "Nieuw aangesloten leden die een dan graad hebben van hun vorige organisatie moeten opnieuw examen doen onder IOGKF standaarden. Minimale tijd, leeftijd en gasshuku aanwezigheidsvereisten zouden moeten gelden vanaf de datum dat ze zich bij de organisatie hebben aangesloten. De graad die ze ontvangen kan lager zijn volgens de IOGKF exameneisen."
+            }
+          }
+        },
+        "categories": {
+          "title": "4.3 Examencategorieën en Mandaat",
+          "text": "Landelijke hoofdinstructeurs, kambukai en vertegenwoordigers gemandateerd door Higaonna Sensei, kunnen dan examens afnemen als volgt:",
+          "chiefs": {
+            "title": "Hoofdinstructeurs",
+            "points": [
+              "Hachidan hoofdinstructeur: Kan examineren tot godan",
+              "EC-leden: Kunnen examineren tot godan",
+              "Nanadan hoofdinstructeur: Kan examineren tot yondan binnen hun eigen land",
+              "Rokudan hoofdinstructeur: Kan examineren tot yondan binnen hun eigen land",
+              "Godan hoofdinstructeur: Kan examineren tot sandan binnen hun eigen land",
+              "Yondan hoofdinstructeur: Kan examineren tot shodan binnen hun eigen land",
+              "Sandan, nidan, shodan hoofdinstructeur: Kunnen geen zwarte band examens afnemen"
+            ],
+            "note": "Dan examens in landen waar de instructeur niet mag examineren kunnen alleen worden afgenomen door een senior IOGKF instructeur met toestemming van de shuseki shihan en de hoofdinstructeur van dat land. Examencategorieën en mandaten kunnen worden kwijtgescholden voor ere dan graden."
+          },
+          "kambukai": {
+            "title": "Kambukai landen",
+            "text": "Het examenniveau voor een kambukai is hetzelfde als voor de hoofdinstructeurs. Examencategorieën en het mandaat zijn hetzelfde als hierboven."
+          },
+          "representatives": {
+            "title": "Vertegenwoordigende landen",
+            "text": "IOGKF vertegenwoordigers van minimaal yondan mogen alleen examineren tot shodan. Dit voorrecht wordt alleen verleend als het vertegenwoordigende land minimaal 2 jaar lid is van IOGKF en de vertegenwoordigers hebben deelgenomen aan internationale gasshuku."
+          },
+          "permission": "**** Geen enkele student kan in een ander land worden geëxamineerd zonder de uitdrukkelijke toestemming van zijn hoofdinstructeur. Hun hoofdinstructeur moet het aanvraagformulier ondertekenen."
+        },
+        "honbu": {
+          "title": "4.4 Honbu Dojo examenpanel",
+          "text": "Kandidaten die examen doen voor rokudan en hoger moeten worden geëxamineerd in Okinawa of op de Hoofdinstructeur Gasshuku. Het Honbu Dojo examenpanel wordt benoemd door de Saiko Shihan."
+        },
+        "international": {
+          "title": "4.8 Internationale Gasshuku Examenvereisten",
+          "points": [
+            "Voor alle internationale gasshuku is het een vereiste dat de kandidaat het schriftelijk examen vooraf heeft voltooid en is goedgekeurd door de hoofdinstructeur. De hoofdinstructeur moet ook het aanvraagformulier van de kandidaat ondertekenen; anders is het niet mogelijk om te worden geëxamineerd."
+          ]
+        }
+      },
+      "writtenExam": {
+        "title": "5. Het Schriftelijk Examen",
+        "low": {
+          "title": "5.1 Shodan, Nidan of Sandan",
+          "text": "Om examen te doen voor shodan, nidan of sandan, moet het schriftelijk examen worden voltooid en aan de hoofdinstructeur van de kandidaat worden gegeven voordat de internationale gasshuku wordt bijgewoond. Het examen moet een slagingspercentage van minimaal 75% hebben. Als dit niet wordt bereikt, kan de kandidaat geen examen doen."
+        },
+        "high": {
+          "title": "5.2 Yondan en hoger",
+          "text": "Om examen te doen voor deze niveaus, moet een schriftelijk essay over enkele van de uitdagingen waarmee karate en Okinawan Goju Ryu worden geconfronteerd worden voltooid en ingediend. De hoofdinstructeur van de kandidaat kan de gekozen vragen krijgen door voorafgaand aan het examen contact op te nemen met de Administratief Directeur. Het antwoord/essay moet in het Engels zijn voor de internationale examens."
         }
       }
     }

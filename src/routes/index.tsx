@@ -27,7 +27,7 @@ const KumiteTraining = lazy(() => import('@/pages/kumite/Training'));
 const KumiteCompetition = lazy(() => import('@/pages/kumite/Competition'));
 const StudyPage = lazy(() => import('@/pages/StudyPage'));
 const StudyDetailPage = lazy(() => import('@/pages/StudyDetailPage'));
-const GradingsPage = lazy(() => import('@/pages/GradingsPage'));
+const GraduationsPage = lazy(() => import('@/pages/GraduationsPage'));
 const SettingsPage = lazy(() => import('@/pages/SettingsPage'));
 const AboutPage = lazy(() => import('@/pages/AboutPage'));
 const SearchPage = lazy(() => import('@/pages/SearchPage'));
@@ -244,7 +244,7 @@ const AppRoutes = () => {
                     <Route path="/study/flashcards" element={<FlashcardListPage />} />
                     <Route path="/study/matching" element={<MatchingListPage />} />
                     <Route path="/study/:id" element={<StudyDetailPage />} />
-                    <Route path="/gradings" element={<GradingsPage />} />
+                    <Route path="/graduations" element={<GraduationsPage />} />
                     <Route path="/settings" element={<SettingsPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/search" element={<SearchPage />} />

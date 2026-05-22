@@ -46,7 +46,7 @@ const sidebarStructure = [
       { labelKey: 'navigation.philosophy', path: '/philosophy' },
       { labelKey: 'navigation.kataTheory', path: '/theory/kata' },
       { labelKey: 'navigation.vitalPoints', path: '/vital-points' },
-      { labelKey: 'navigation.gradings', path: '/gradings' },
+      { labelKey: 'navigation.graduations', path: '/graduations' },
       { labelKey: 'navigation.kumite', path: '/kumite' },
     ]
   },
@@ -76,7 +76,6 @@ const sidebarStructure = [
       { labelKey: 'navigation.quizzes', path: '/study/quizzes' },
       { labelKey: 'navigation.flashcards', path: '/study/flashcards' },
       { labelKey: 'navigation.matching', path: '/study/matching' },
-      { labelKey: 'navigation.gradings', path: '/gradings' },
     ]
   },
   {
@@ -138,13 +137,13 @@ const CustomSidebar: React.FC<CustomSidebarProps> = ({ isOpen, onToggle }) => {
   const getActiveSection = () => {
     if (isAtRoot) return 'home';
     if ([
-      '/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/gradings', '/theory/kata', '/kumite'
+      '/theory', '/terminology', '/history', '/philosophy', '/vital-points', '/theory/kata', '/graduations', '/kumite'
     ].includes(basePath) || currentPath.startsWith('/theory')) return 'theory';
     if ([
       '/practice', '/techniques', '/kata', '/bunkai', '/hojo-undo', '/junbi-undo', '/newaza', '/kakie'
     ].includes(basePath)) return 'practice';
     if ([
-      '/study', '/study/quizzes', '/study/flashcards', '/gradings'
+      '/study', '/study/quizzes', '/study/flashcards'
     ].includes(basePath)) return 'study';
     if (basePath === '/search') return 'search';
     if (basePath === '/settings') return 'settings';
