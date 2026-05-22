@@ -436,6 +436,12 @@ const StudyDetailPage = () => {
               left: q.question,
               right: q.correctAnswer
             }))}
+            onComplete={(matchingScore) => {
+              const results = Object.fromEntries(study.questions.map(q => [q.id, true]));
+              setQuestionResults(results);
+              setScore(matchingScore);
+              setQuizCompleted(true);
+            }}
           />
         ) : (
           <Card className="border border-border mb-6">
@@ -498,7 +504,7 @@ const StudyDetailPage = () => {
           </Button>
           <Button
             onClick={handleNextQuestion}
-            disabled={study.type !== 'flashcard' && !userAnswers[currentQuestion.id]}
+            disabled={study.type === 'matching' || (study.type !== 'flashcard' && !userAnswers[currentQuestion.id])}
           >
             {currentQuestionIndex < study.questions.length - 1 ? t('study.next') : t('study.finish')}
             <ArrowRight className="ml-2 h-4 w-4" />

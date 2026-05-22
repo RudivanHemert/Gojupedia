@@ -645,7 +645,12 @@ export const buildStudies = (t: (key: string, options?: any) => string): Study[]
             question: term.name,
             correctAnswer: `${term.english}${term.japanese ? ` (${term.japanese})` : ''}`,
             // Show Japanese label localized without English fallback in UI language
-            explanation: t(`study.terminology.${category}.terms.${key}.explanation`, { japanese: term.japanese || t('study.notAvailable') })
+            explanation: t(`study.terminology.${category}.terms.${key}.explanation`, {
+              japanese: term.japanese || t('study.notAvailable'),
+              defaultValue: term.japanese
+                ? `${t('study.japaneseLabel', 'Japanese')}: ${term.japanese}`
+                : t('study.noAdditionalExplanation', 'No additional explanation available.')
+            })
           }))
         });
       }

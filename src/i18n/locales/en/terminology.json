@@ -590,8 +590,8 @@
             "english": "Belt"
           },
           "gi": {
-            "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "name": "Dogi",
+            "japanese": "道着",
             "english": "Training uniform"
           },
           "reishiki": {
@@ -685,9 +685,9 @@
           },
           "muchimi": {
             "name": "Muchimi",
-            "japanese": "鞭身",
-            "english": "Sticky movement",
-            "details": "Slow, flowing, heavy, sticky, controlled and concentrated movement."
+            "japanese": "",
+            "english": "Okinawan concept for slow, flowing, heavy, sticky movement.",
+            "details": "Okinawan concept for slow, flowing, heavy, sticky movement."
           },
           "chiru-no-chan-chan": {
             "name": "Chiru No Chan Chan",
@@ -721,13 +721,13 @@
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
-            "japanese": "先の手",
+            "japanese": "先の先",
             "english": "Taking initiative",
             "details": "Taking initiative."
           },
           "go-no-sen": {
             "name": "Go No Sen",
-            "japanese": "後の手",
+            "japanese": "後の先",
             "english": "Taking initiative later",
             "details": "Taking initiative later."
           },
@@ -1486,7 +1486,7 @@
             "name": "Hachiji Dachi",
             "japanese": "八字立",
             "english": "Natural stance",
-            "details": "Hachiji Dachi, also known as yoi-dachi is a formal waiting posture used in some styles of Karate. Hachiji Dachi can also be used after standing bowing of while performing tsuki. 'Yoi' posture is not common in Okinawan Karate.",
+            "details": "Natural stance with feet shoulder-width apart and toes slightly outward; also used in kata such as Gekisai Dai Ichi.",
             "instructions": "Instructions: Stand with your feet shoulder-width apart and toes pointing outward at about 45 degrees. Keep your back straight and head high. Place your hands at your sides with fingers pointing down."
           },
           "kiba-dachi": {
@@ -1595,11 +1595,11 @@
             "details": "Back stance (alt)."
           },
           "koshi-dachi": {
-            "name": "Koshi Dachi",
+            "name": "Sonkyo / Koshi Dachi",
             "japanese": "腰立",
-            "english": "Hurkstand",
-            "details": "Hurkstand (als in Kururunfa)",
-            "instructions": "Diepe hurkpositie"
+            "english": "Crouching posture",
+            "details": "Crouching posture, also known as sonkyo or samurai seiza.",
+            "instructions": "Deep crouching position"
           }
         }
       },
@@ -1681,7 +1681,7 @@
           "hojo-uke": "Hojo Uke - Augmented block",
           "doji-uke": "Doji Uke - Simultaneous block (Chudan yoko uke + Gedan barai)",
           "kuri-uke": "Kuri Uke - Elbow circular block (Seiyunchin/Kururunfa)",
-          "hari-uke": "Hari Uke - Archer block",
+          "hari-uke": "Hari Uke - Hari block",
           "hiza-uchi-uke": "Hiza (Sune) Uchi Uke - Inside knee (shin) block",
           "hiza-soto-uke": "Hiza (Sune) Soto Uke - Outside knee (shin) block"
         },
@@ -2057,8 +2057,8 @@
           },
           "hari-uke": {
             "name": "Hari Uke",
-            "japanese": "弓受け",
-            "english": "Archer block"
+            "japanese": "ハリ受け",
+            "english": "Hari block"
           },
           "hiza-uchi-uke": {
             "name": "Hiza Uchi Uke",
@@ -2424,8 +2424,8 @@
             "english": "Band"
           },
           "gi": {
-            "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "name": "Dogi",
+            "japanese": "道着",
             "english": "Training uniform."
           },
           "kiai": {

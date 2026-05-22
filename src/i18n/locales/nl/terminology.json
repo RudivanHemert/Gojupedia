@@ -53,7 +53,7 @@
             "name": "Hachiji Dachi",
             "japanese": "八字立",
             "english": "Natuurlijke stand",
-            "details": "Natuurlijke stand (voeten op schouderbreedte, tenen iets naar buiten)",
+            "details": "Natuurlijke stand (voeten op schouderbreedte, tenen iets naar buiten), ook gebruikt in kata zoals Gekisai Dai Ichi.",
             "instructions": "Voeten op schouderbreedte, tenen iets naar buiten"
           },
           "shiko-dachi": {
@@ -148,11 +148,11 @@
             "instructions": "Gewicht naar achteren, defensief"
           },
           "koshi-dachi": {
-            "name": "Koshi Dachi",
+            "name": "Sonkyo / Koshi Dachi",
             "japanese": "腰立",
-            "english": "Hurkstand",
-            "details": "Hurkstand (als in Kururunfa)",
-            "instructions": "Diepe hurkpositie"
+            "english": "Gehurkte houding",
+            "details": "Gehurkte houding, ook bekend als sonkyo of samurai-seiza.",
+            "instructions": "Diepe gehurkte positie"
           }
         }
       },
@@ -711,8 +711,8 @@
             "english": "Band"
           },
           "gi": {
-            "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "name": "Dogi",
+            "japanese": "道着",
             "english": "Trainingsuniform"
           },
           "reishiki": {
@@ -806,9 +806,9 @@
           },
           "muchimi": {
             "name": "Muchimi",
-            "japanese": "鞭身",
-            "english": "Trage, vloeiende, zware, klevende beweging.",
-            "details": "Trage, vloeiende, zware, klevende beweging."
+            "japanese": "",
+            "english": "Okinawaans concept voor trage, vloeiende, zware, klevende beweging.",
+            "details": "Okinawaans concept voor trage, vloeiende, zware, klevende beweging."
           },
           "chiru-no-chan-chan": {
             "name": "Chiru No Chan Chan",
@@ -842,13 +842,13 @@
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
-            "japanese": "先の手",
+            "japanese": "先の先",
             "english": "Initiatief nemen.",
             "details": "Initiatief nemen."
           },
           "go-no-sen": {
             "name": "Go No Sen",
-            "japanese": "後の手",
+            "japanese": "後の先",
             "english": "Initiatief later nemen.",
             "details": "Initiatief later nemen."
           },
@@ -1225,7 +1225,7 @@
             "name": "Rei",
             "japanese": "礼",
             "english": "Buig / groet.",
-            "details": "Buig / groet."
+            "details": "Buig of groet. Ritsu-rei is een staande buiging; za-rei is een zittende buiging."
           },
           "shomen-ni-rei": {
             "name": "Shomen Ni Rei",
@@ -1282,8 +1282,8 @@
             "details": "Sorry / excuseer."
           },
           "tatte": {
-            "name": "Tatte (Ki Ritsu)",
-            "japanese": "立って",
+            "name": "Tatte / Kiritsu",
+            "japanese": "立って / 起立",
             "english": "Sta op.",
             "details": "Sta op."
           },
@@ -1319,9 +1319,15 @@
           },
           "gorei-nashi": {
             "name": "Gorei nashi",
-            "japanese": "合礼なし",
+            "japanese": "号令なし",
             "english": "Zonder tellen (op eigen tempo).",
             "details": "Zonder tellen (op eigen tempo)."
+          },
+          "sonkyo": {
+            "name": "Sonkyo",
+            "japanese": "蹲踞",
+            "english": "Gehurkte ceremoniële houding.",
+            "details": "Gehurkte ceremoniële houding, ook bekend uit budo-contexten."
           },
           "gasshuku": {
             "name": "Gasshuku",
@@ -1672,7 +1678,7 @@
             "name": "Gedan (Harai) Uke / Gedan Barai",
             "japanese": "下段払い",
             "english": "Lage (vegende) wering",
-            "details": "Gedan Barai (Neerwaartse Veeg Blok) is een veegende neerwaartse blok die verdedigt tegen lage aanvallen. De arm beweegt in een neerwaartse boog om stoten gericht op het onderlichaam af te weren.",
+            "details": "Gedan Barai is een lage, vegende wering tegen aanvallen naar het onderlichaam. De arm beweegt in een neerwaartse boog terwijl de andere hand naar de heup wordt teruggetrokken.",
             "videoFile": "gedan-barai"
           },
           "uchi-gedan-barai": {
@@ -1800,8 +1806,8 @@
           },
           "hari-uke": {
             "name": "Hari Uke",
-            "japanese": "弓受け",
-            "english": "Pijl en boog-wering"
+            "japanese": "ハリ受け",
+            "english": "Hari-wering"
           },
           "hiza-uchi-uke": {
             "name": "Hiza Uchi Uke",
@@ -1862,8 +1868,8 @@
             "english": "Band"
           },
           "gi": {
-            "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "name": "Dogi",
+            "japanese": "道着",
             "english": "Trainingsuniform"
           },
           "kiai": {
@@ -2249,7 +2255,7 @@
           "hojo-uke": "Hojo Uke - Ondersteunde wering",
           "doji-uke": "Doji Uke - Gelijktijdige wering (Chudan yoko uke + Gedan barai)",
           "kuri-uke": "Kuri Uke - Elleboogblok (Seiyunchin/Kururunfa)",
-          "hari-uke": "Hari Uke - Pijl en boog-wering",
+          "hari-uke": "Hari Uke - Hari-wering",
           "hiza-uchi-uke": "Hiza (Sune) Uchi Uke - Binnenwaartse knie (scheen) wering",
           "hiza-soto-uke": "Hiza (Sune) Soto Uke - Buitenwaartse knie (scheen) wering"
         },

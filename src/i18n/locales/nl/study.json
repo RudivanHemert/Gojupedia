@@ -225,19 +225,19 @@
     "quizzesCardTitle": "Quizzes",
     "quizzesCardDescription": "Test your knowledge with interactive quizzes",
     "flashcardsCardTitle": "Flashcards",
-    "flashcardsCardDescription": "Practice terminology and concepts",
+    "flashcardsCardDescription": "Oefen termen en concepten",
     "matchingCardTitle": "Matching",
-    "matchingCardDescription": "Match terms and concepts",
+    "matchingCardDescription": "Koppel termen en concepten",
     "completed": "Studie voltooid!",
     "notFound": {
-      "title": "Study not found",
-      "description": "The requested study could not be found."
+      "title": "Studie niet gevonden",
+      "description": "De gevraagde studie kon niet worden gevonden."
     },
     "pairs": "pairs",
     "start": "Start",
-    "startFlashcards": "Start Flashcards",
-    "startMatching": "Start Matching",
-    "techniques": "Techniques",
+    "startFlashcards": "Start flashcards",
+    "startMatching": "Start matching",
+    "techniques": "Technieken",
     "kata": "Kata",
     "philosophy": "Philosophy",
     "kumite": "Kumite",
@@ -844,7 +844,7 @@
       "description": "Test je kennis van karate stoottechnieken."
     },
     "blocks": {
-      "title": "Blocks Quiz",
+      "title": "Blokkeringen Quiz",
       "description": "Test je kennis van karate blokkeertechnieken."
     },
     "kata": {
@@ -1034,7 +1034,7 @@
       "description": "Leer alle karate stoottechnieken."
     },
     "blocks": {
-      "title": "Blocks Flashcards",
+      "title": "Blokkeringen Flashcards",
       "description": "Leer alle karate blokkeertechnieken."
     },
     "kata": {
@@ -1203,6 +1203,9 @@
   "finish": "Afronden",
   "correct": "Goed!",
   "incorrect": "Fout!",
+  "matchingCompleted": "Alle {{total}} paren gekoppeld in {{attempts}} pogingen.",
+  "japaneseLabel": "Japans",
+  "noAdditionalExplanation": "Geen extra uitleg beschikbaar.",
   "explanation": "Uitleg",
   "showExplanation": "Toon uitleg",
   "hideExplanation": "Verberg uitleg",

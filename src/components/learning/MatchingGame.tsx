@@ -31,6 +31,8 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ pairs, onComplete })
   const [selectedRight, setSelectedRight] = useState<string | null>(null);
   const [matches, setMatches] = useState<Record<string, string>>({});
   const [attempts, setAttempts] = useState<number>(0);
+  const [lastResult, setLastResult] = useState<'correct' | 'incorrect' | null>(null);
+  const [completed, setCompleted] = useState(false);
 
   const total = pairs.length;
   const matchedCount = Object.keys(matches).length;
@@ -47,15 +49,18 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ pairs, onComplete })
     if (!selectedLeft || !selectedRight) return;
     setAttempts(prev => prev + 1);
     if (selectedLeft === selectedRight) {
+      setLastResult('correct');
       setMatches(prev => ({ ...prev, [selectedLeft]: selectedRight }));
       // lock matched right card in place by pushing it to end (visual cue) or leave; simply clear selection
       setSelectedLeft(null);
       setSelectedRight(null);
       if (matchedCount + 1 === total) {
+        setCompleted(true);
         onComplete?.(matchedCount + 1);
       }
     } else {
       // brief feedback by clearing wrong selection
+      setLastResult('incorrect');
       setSelectedRight(null);
     }
   };
@@ -66,6 +71,8 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ pairs, onComplete })
     setSelectedRight(null);
     setRightItems(shuffle(rightItems));
     setAttempts(0);
+    setLastResult(null);
+    setCompleted(false);
   };
 
   return (
@@ -138,6 +145,28 @@ export const MatchingGame: React.FC<MatchingGameProps> = ({ pairs, onComplete })
           </Button>
         </div>
       </div>
+      {lastResult && !completed && (
+        <div
+          className={`mt-3 rounded-md border p-3 text-sm ${
+            lastResult === 'correct'
+              ? 'border-green-500 bg-green-50 text-green-700'
+              : 'border-red-500 bg-red-50 text-red-700'
+          }`}
+        >
+          {lastResult === 'correct'
+            ? t('study.correct', 'Correct!')
+            : t('study.incorrect', 'Incorrect')}
+        </div>
+      )}
+      {completed && (
+        <div className="mt-3 rounded-md border border-green-500 bg-green-50 p-3 text-sm text-green-700">
+          {t('study.matchingCompleted', {
+            attempts,
+            total,
+            defaultValue: `All ${total} pairs matched in ${attempts} attempts.`
+          })}
+        </div>
+      )}
     </div>
   );
 };

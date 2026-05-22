@@ -635,7 +635,9 @@ const InteractiveVitalPoints = () => {
               {t('vitalPoints.points.' + selectedPoint.id + '.translation')}
             </p>
             <div className="bg-muted p-3 rounded-md">
-              <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Plaats op het lichaam</p>
+              <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                {t('vitalPoints.interactive.locationLabel', 'Location on the body')}
+              </p>
               <p className="text-base">{t('vitalPoints.points.' + selectedPoint.id + '.area')}</p>
             </div>
           </motion.div>
@@ -661,7 +663,9 @@ const InteractiveVitalPoints = () => {
                       </div>
                     </div>
                     <div className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                      <span className="font-semibold text-xs uppercase tracking-tighter mr-1 text-foreground/70">Plaats:</span>
+                      <span className="font-semibold text-xs uppercase tracking-tighter mr-1 text-foreground/70">
+                        {t('vitalPoints.interactive.locationShortLabel', 'Location')}:
+                      </span>
                       {t('vitalPoints.points.' + point.id + '.area')}
                     </div>
                   </div>
@@ -686,7 +690,9 @@ const InteractiveVitalPoints = () => {
                       </div>
                     </div>
                     <div className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                      <span className="font-semibold text-xs uppercase tracking-tighter mr-1 text-foreground/70">Plaats:</span>
+                      <span className="font-semibold text-xs uppercase tracking-tighter mr-1 text-foreground/70">
+                        {t('vitalPoints.interactive.locationShortLabel', 'Location')}:
+                      </span>
                       {t('vitalPoints.points.' + point.id + '.area')}
                     </div>
                   </div>

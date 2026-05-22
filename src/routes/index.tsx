@@ -96,6 +96,7 @@ const KarateGojuRyuTerminology = lazy(() => import('@/pages/terminology/KarateGo
 const KarateTitles = lazy(() => import('@/pages/terminology/KarateTitles'));
 const PhrasesAndEtiquette = lazy(() => import('@/pages/terminology/PhrasesAndEtiquette'));
 const KataTerminology = lazy(() => import('@/pages/terminology/KataTerminology'));
+const VitalPointsTerminology = lazy(() => import('@/pages/terminology/VitalPoints'));
 
 // Kumite Sub-pages
 const WhatIsKumite = lazy(() => import('@/pages/kumite/introduction/WhatIsKumite'));
@@ -186,6 +187,7 @@ const AppRoutes = () => {
                     <Route path="/terminology/karate-titles" element={<KarateTitles />} />
                     <Route path="/terminology/phrases-etiquette" element={<PhrasesAndEtiquette />} />
                     <Route path="/terminology/kata-terms" element={<KataTerminology />} />
+                    <Route path="/terminology/vital-points" element={<VitalPointsTerminology />} />
                     <Route path="/history" element={<HistoryPage />} />
                     <Route path="/history/origins" element={<OriginsSection />} />
                     <Route path="/history/kanryo-higaonna" element={<KanryoHigaonnaSection />} />
