@@ -58,6 +58,7 @@
     "kataTheory": "Kata Teori",
     "vitalPoints": "Vitale Punkter",
     "gradings": "Graderinger",
+    "graduations": "Graduations",
     "practiceOverview": "Praktik Oversigt",
     "techniques": "Teknikker",
     "kata": "Kata",
@@ -74,25 +75,6 @@
     "information": "Information",
     "informationOverview": "Information Oversigt",
     "events": "Begivenheder",
-    "dojos": "Dojoer",
-    "overview": "Oversigt",
-    "learningMaterials": "Læringsmaterialer"
-  },
-  "theory": {
-    "nav": {
-      "terminologyNav": "Terminologi",
-      "history": "Historie",
-      "philosophy": "Filosofi",
-      "vitalPoints": "Vitale Punkter",
-      "gradings": "Graderinger"
-    }
-  },
-  "practice": {
-    "nav": {
-      "techniques": "Teknikker",
-      "kata": "Kata",
-      "bunkai": "Bunkai",
-      "hojoUndo": "Hojo Undo"
-    }
+    "dojos": "Dojoer"
   }
 }

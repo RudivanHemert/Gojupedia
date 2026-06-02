@@ -2,6 +2,14 @@
   "graduations": {
     "title": "Graduierungen & Ränge",
     "description": "Übersicht über die verschiedenen Gürtel, Grade und Titel im Goju Ryu Karate.",
+    "basicRequirements": "Grundvoraussetzungen",
+    "minimumClasses": "Mindestanzahl Trainingseinheiten",
+    "monthsTraining": "Monate Training",
+    "techniques": "Techniken",
+    "knowledgeTerminology": "Wissen & Terminologie",
+    "history": "Geschichte",
+    "months": "Monate",
+    "classes": "Trainingseinheiten",
     "sections": {
       "ranks": {
         "title": "Gürtel und Grade",
@@ -68,6 +76,10 @@
             "description": "Zehnter Dan"
           }
         }
+      },
+      "examRequirements": {
+        "title": "Exam Requirements",
+        "description": "W?hle einen Rang aus, um die spezifischen Anforderungen f?r diese Pr?fung anzuzeigen."
       },
       "beltColors": {
         "title": "Gürtelfarben (Kyu-Grade)",
@@ -241,13 +253,177 @@
         }
       }
     },
-    "basicRequirements": "Grundvoraussetzungen",
-    "minimumClasses": "Mindestanzahl Trainingseinheiten",
-    "monthsTraining": "Monate Training",
-    "techniques": "Techniken",
-    "knowledgeTerminology": "Wissen & Terminologie",
-    "history": "Geschichte",
-    "months": "Monate",
-    "classes": "Trainingseinheiten"
+    "regulations": {
+      "title": "Internationale IOGKF-Pr?fungsordnung f?r Schwarzgurte",
+      "intro": {
+        "title": "1. Einf?hrung",
+        "text": "Ziel dieser Aktualisierung ist es, das Schwarzgurt-Pr?fungssystem und die Regeln in den IOGKF-Mitgliedsl?ndern zu verdeutlichen und zu standardisieren."
+      },
+      "perspective": {
+        "title": "2. Perspektive auf Dan-Pr?fungen",
+        "text": "Dan-Pr?fungen sind ein Hinweis auf den individuellen Fortschritt im Karate-Do und vor allem f?r die betreffende Person selbst relevant. Die folgenden drei ?S?ulen? beschreiben das ganzheitliche Budo-Umfeld des Weges des Karate-Do, anhand dessen Entwicklung und Fortschritt bewertet werden:"
+      },
+      "junior": {
+        "title": "3.1 Schwarzgurtgrade f?r Kinder",
+        "text": "Sch?ler unter 18 Jahren k?nnen ebenfalls zum Schwarzgurt gepr?ft werden. Es liegt in der Verantwortung der einzelnen L?nder, den Standard f?r eine solche Pr?fung festzulegen. ?blicherweise wird die Junior-Dan-Pr?fung in 3 oder 4 Kategorien unterteilt.",
+        "categories": {
+          "kakyu": "Ka-kyu Shodan 10-13 Jahre",
+          "chukyu": "Chu-kyu Shodan 14-15 Jahre",
+          "jokyu": "Jo-kyu Shodan 16-17 Jahre"
+        },
+        "registration": "Bei Junior-Pr?fungen (alle Pr?fungen unter 18 Jahren) ist es wichtig, dass die Kandidaten im IOGKF-System registriert sind und die entsprechenden Pr?fungsgeb?hren bezahlt wurden.",
+        "turning18": "Mit Vollendung des 18. Lebensjahres muss der Sch?ler unter denselben Bedingungen und mit denselben Anforderungen wie alle anderen zum Senior-Shodan gepr?ft werden."
+      },
+      "senior": {
+        "title": "3.2 Senior-R?nge",
+        "sandan": {
+          "title": "3.2.1 Sandan",
+          "text": "Dies ist der erste Schritt in die ?Senior?- oder ?Sensei?-Hierarchie, in der bestimmte Charaktereigenschaften sichtbar werden sollten. Daher reichen die Mindestzeitanforderungen allein nicht aus; vom Kandidaten wird erwartet, dass er zus?tzliche Anstrengungen zeigt. Die folgenden, spezifischeren ?berlegungen sind f?r Sandan-Kandidaten relevant:",
+          "points": [
+            "Mehr k?rperliche und technische F?higkeiten als Kandidaten f?r Nidan.",
+            "Ein Zeichen des Engagements f?r die Organisation, z. B. Beteiligung und Unterst?tzung bei regionalen oder nationalen Veranstaltungen.",
+            "Status - Ausbilder oder Assistenz-Ausbilder - niemand sollte ernsthaft Sandan anstreben, ohne auch unterrichtet zu haben, selbst wenn nur gelegentlich.",
+            "Zeigt Loyalit?t gegen?ber der Organisation, den anderen Mitgliedern und dem Chief Instructor.",
+            "Ansehen unter Gleichrangigen - wie beurteilen Gleichrangige seine F?higkeiten, Pers?nlichkeit usw.?"
+          ]
+        },
+        "yondan": {
+          "title": "3.2.2 Yondan",
+          "text": "Alles, was f?r Sandan verlangt wird, eine Stufe h?her, plus ein st?rkeres Gef?hl der Einbindung in die Organisation. K?rperliche F?higkeit und Kondition sind wichtig; unter Ber?cksichtigung des Alters m?ssen sie in der Lage sein, sich selbst zu behaupten."
+        },
+        "godan": {
+          "title": "3.2.3 Godan",
+          "text": "Senior-Schwarzgurtstufe mit den folgenden ?berlegungen:",
+          "points": [
+            "Haben sie sich durch ihr Verhalten auf und au?erhalb der Trainingsfl?che den Respekt erfahrener Ausbilder sowie j?ngerer und ?lterer Mitglieder ihres Dojos und Landes erworben - mit korrekter Haltung und unzweifelhafter Loyalit?t zur Organisation?",
+            "Haben sie die charakterliche Reife, Kritik anzunehmen und daraus Fortschritte zu machen?",
+            "Haben sie ein objektives Urteilsverm?gen?",
+            "K?rperliche F?higkeit ist wichtig - k?nnen sie sich selbst behaupten?",
+            "Trainieren sie regelm??ig selbstst?ndig?"
+          ]
+        },
+        "rokudan": {
+          "title": "3.2.4 Rokudan",
+          "text": "Der Kandidat bewegt sich nun in die ?oberen Ebenen? der Organisation, national wie international. K?rperliche F?higkeit und Kondition sind wichtig; unter Ber?cksichtigung des Alters sollten Kandidaten sich technisch und k?rperlich weiterhin verbessern und von allen als Menschen gesehen werden, die danach streben, die Philosophie des Karate-Do zu verk?rpern. Rokudan ist gew?hnlich die Mindestqualifikation f?r ?Shihan?, die nur auf Einladung des Honbu-Pr?fungsgremiums vergeben wird und ?Vorbild? oder ?Professor? bedeutet. Mit anderen Worten: Respektieren Junioren unter ihnen und Senioren ?ber ihnen sie unabh?ngig von ihren k?rperlichen F?higkeiten?",
+          "considerationsTitle": "Weitere ?berlegungen f?r diese Stufe sind:",
+          "points": [
+            "F?rdern sie weiterhin traditionelles Karate und verk?rpern sie Loyalit?t gegen?ber dem Chief Instructor und dem Rest der Organisation?",
+            "Besitzen sie F?hrungsqualit?ten: F?hren sie durch ihr Beispiel?",
+            "Akzeptieren und/oder respektieren andere Mitglieder der internationalen Karate-Gemeinschaft ihre F?higkeiten?",
+            "Welchen Stand haben sie in der Welt au?erhalb des Karate? W?rden Menschen au?erhalb der Karatewelt diese Person respektieren, auch wenn Karate nicht ihr Anspruch auf ?Ruhm? w?re?",
+            "Zeigt angemessenes Verhalten au?erhalb des Dojos."
+          ]
+        },
+        "highranks": {
+          "title": "3.2.5 Nanadan, Hachidan und h?her",
+          "text": "Kandidaten werden nun zu einer Verk?rperung des okinawanischen Goju-Ryu und beherrschen die meisten Grundkonzepte. Obwohl sie Senior-Meister sind, bleiben sie weiterhin Sch?ler des Karate-Do; sinnbildlich entspricht dies einem Professor an einer Universit?t. Sie m?ssen regelm??ig am Chief-Instructor-Gasshuku teilnehmen. Kandidaten werden 6 oder 12 Monate vor einer Einladung zur Pr?fung vom IOGKF-Exekutivkomitee informiert; in dieser Zeit m?ssen sie an einem Gasshuku teilnehmen, das von einem Mitglied des Honbu-Pr?fungsgremiums geleitet wird. Diese R?nge werden ausschlie?lich auf Einladung vergeben."
+        }
+      },
+      "honorary": {
+        "title": "3.3 Ehren-Dan-Grad",
+        "text": "Nach Ermessen des EC kann aus folgenden Gr?nden individuell ein Ehren-Dan-Grad verliehen werden:",
+        "points": [
+          "Beitrag zum Verband",
+          "F?rderung der IOGKF",
+          "Wenn eine Person ihr Training aus Gr?nden au?erhalb ihrer Kontrolle einschr?nken musste."
+        ]
+      },
+      "chiefInstructors": {
+        "title": "3.4 Chief Instructors - Kambukai - Vertreter",
+        "text": "Ein Country Chief Instructor, Kambukai-Mitglied oder Vertreter ben?tigt f?r seine Pr?fung die Erlaubnis des EC und MUSS unter dem ernannten Pr?fer gepr?ft werden."
+      },
+      "generalRules": {
+        "title": "4. Allgemeine Regeln f?r Dan-Pr?fungen",
+        "admin": {
+          "title": "4.1 Administrative Anforderungen",
+          "points": [
+            "Nur Mitglieder aus L?ndern, deren Landeszugeh?rigkeit aktuell ist, k?nnen f?r IOGKF-Dan-R?nge gepr?ft und registriert werden.",
+            "Jedes Land, das zwei Jahre in Folge keine IOGKF-Zugeh?rigkeitsgeb?hren zahlt, oder jeder Country Chief Instructor, der drei CI-Gasshukus in Folge oder innerhalb desselben Zeitraums ein internationales Gasshuku vers?umt, verliert alle hier definierten Pr?fungsmandate."
+          ]
+        },
+        "timeFee": {
+          "title": "4.2 Anforderungen an Zeit, Gasshuku und Registrierungsgeb?hr",
+          "definitions": {
+            "title": "4.2.1 Definitionen qualifizierender Gasshuku",
+            "points": [
+              "National. Jedes von einer nationalen Organisation organisierte Gasshuku.",
+              "International. Jedes Gasshuku mit internationalem Status muss von Saiko Shihan, Shuseki Shihan, Fuku Shuseki Shihan oder Gijutsu Komon geleitet werden (z. B. Budosai, European Gasshuku oder ein vom EC definiertes besonderes Gasshuku)."
+            ],
+            "note": "HINWEIS - Mindestzeiten basieren auf der Annahme eines Mindesttrainings von 4 Stunden pro Woche mit einem Senior-Ausbilder. Wenn der Ausbilder einen niedrigeren Rang hat, kann der Zeitraum l?nger sein. Sowohl Mindestzeit als auch Mindestalter m?ssen eingehalten werden."
+          },
+          "factors": {
+            "title": "4.2.2 Faktoren, die Zeitanforderungen beeinflussen k?nnen",
+            "registration": "Alle Dan-Grade m?ssen bei der IOGKF registriert und genehmigt sein. Wird diese Anforderung nicht erf?llt, annulliert die IOGKF den Grad und die Person muss unter korrekten Bedingungen erneut gepr?ft werden.",
+            "increasingTime": {
+              "title": "Verl?ngerung des Zeitraums",
+              "text": "Nach Ermessen des Country Chief Instructor kann der Mindestzeitraum aus folgenden Gr?nden verl?ngert werden:",
+              "points": [
+                "Die Person hat das f?r den angestrebten Grad notwendige Niveau nicht erreicht.",
+                "Eine Person ist ?berwiegend autodidaktisch und trainiert nicht unbedingt unter Aufsicht. Dies qualifiziert die Person nicht f?r die oben genannte Zeitvorgabe.",
+                "Ein Zeitraum von mehr als drei Monaten ohne Training seit der letzten Pr?fung aufgrund von Verletzung oder anderen Gr?nden."
+              ]
+            },
+            "reducingTime": {
+              "title": "Verk?rzung des Zeitraums",
+              "points": [
+                "Zeitverzug zwischen unmittelbar vorherigen Pr?fungsdaten - z. B. wenn eine Person 6/7 Jahre brauchte, um von Yondan zu Godan aufzusteigen, kann h?chstens ein Jahr angerechnet werden, z. B. Godan zu Rokudan in 5 Jahren.",
+                "Wenn der betreffende Sch?ler viele Jahre Junior-Schwarzgurt war. Nach Erreichen des 18. Lebensjahres legt er die Pr?fung zum Erwachsenen-Shodan ab. Er kann jedoch nach einem Jahr zum Nidan gepr?ft werden. Danach m?ssen die ver?ffentlichten Pr?fungszeitr?ume eingehalten werden. Hinweis: Das Alter der Person bleibt f?r diesen Grad ein Jahr unter dem ?traditionell erforderlichen? Alter."
+              ]
+            },
+            "otherOrg": {
+              "title": "Schwarzgurt aus einer anderen Organisation",
+              "text": "Neu beigetretene Mitglieder mit einem Dan-Grad aus ihrer vorherigen Organisation m?ssen nach IOGKF-Standards erneut gepr?ft werden. Mindestzeit, Alter und Gasshuku-Teilnahme gelten ab dem Datum ihres Beitritts. Der verliehene Grad kann gem?? den IOGKF-Pr?fungsanforderungen niedriger ausfallen."
+            }
+          }
+        },
+        "categories": {
+          "title": "4.3 Pr?fungskategorien und Mandat",
+          "text": "Von Higaonna Sensei mandatierte Country Chief Instructors, Kambukai und Vertreter k?nnen Dan-Pr?fungen wie folgt durchf?hren:",
+          "chiefs": {
+            "title": "Chief Instructors",
+            "points": [
+              "Hachidan Chief Instructor: kann bis Godan pr?fen",
+              "EC-Mitglieder: k?nnen bis Godan pr?fen",
+              "Nanadan Chief Instructor: kann im eigenen Land bis Yondan pr?fen",
+              "Rokudan Chief Instructor: kann im eigenen Land bis Yondan pr?fen",
+              "Godan Chief Instructor: kann im eigenen Land bis Sandan pr?fen",
+              "Yondan Chief Instructor: kann im eigenen Land bis Shodan pr?fen",
+              "Sandan-, Nidan- und Shodan-Chief-Instructor: d?rfen keine Schwarzgurtpr?fungen durchf?hren"
+            ],
+            "note": "Dan-Pr?fungen in L?ndern, in denen der Ausbilder nicht pr?fen darf, d?rfen nur von einem Senior-IOGKF-Ausbilder mit Erlaubnis des Shuseki Shihan und des Chief Instructor dieses Landes durchgef?hrt werden. Pr?fungskategorien und Mandate k?nnen f?r Ehren-Dan-Grade aufgehoben werden."
+          },
+          "kambukai": {
+            "title": "Kambukai-L?nder",
+            "text": "Das Pr?fungsniveau f?r ein Kambukai entspricht dem der Chief Instructors. Pr?fungskategorien und Mandat sind wie oben."
+          },
+          "representatives": {
+            "title": "Vertreterl?nder",
+            "text": "IOGKF-Vertreter mit mindestens Yondan d?rfen nur bis Shodan pr?fen. Dieses Privileg wird nur gew?hrt, wenn das Vertreterland seit mindestens 2 Jahren Mitglied der IOGKF ist und die Vertreter an internationalen Gasshuku teilgenommen haben."
+          },
+          "permission": "**** Kein Sch?ler darf ohne ausdr?ckliche Erlaubnis seines Chief Instructor in einem anderen Land gepr?ft werden. Der Chief Instructor muss das Antragsformular unterschreiben."
+        },
+        "honbu": {
+          "title": "4.4 Honbu-Dojo-Pr?fungsgremium",
+          "text": "Kandidaten f?r Rokudan und h?her m?ssen in Okinawa oder beim Chief Instructor Gasshuku gepr?ft werden. Das Honbu-Dojo-Pr?fungsgremium wird vom Saiko Shihan ernannt."
+        },
+        "international": {
+          "title": "4.8 Pr?fungsanforderungen bei internationalen Gasshuku",
+          "points": [
+            "F?r alle internationalen Gasshuku ist es erforderlich, dass der Kandidat die schriftliche Pr?fung vorher abgeschlossen hat und vom Chief Instructor genehmigt wurde. Der Chief Instructor muss au?erdem das Antragsformular des Kandidaten unterschreiben; andernfalls ist eine Pr?fung nicht m?glich."
+          ]
+        }
+      },
+      "writtenExam": {
+        "title": "5. Die schriftliche Pr?fung",
+        "low": {
+          "title": "5.1 Shodan, Nidan oder Sandan",
+          "text": "Um zu Shodan, Nidan oder Sandan gepr?ft zu werden, muss die schriftliche Pr?fung abgeschlossen und vor der Teilnahme am internationalen Gasshuku dem Chief Instructor des Kandidaten ?bergeben werden. Die Pr?fung muss mindestens 75% erreichen. Wird dies nicht erreicht, kann der Kandidat nicht gepr?ft werden."
+        },
+        "high": {
+          "title": "5.2 Yondan und h?her",
+          "text": "Um zu diesen Stufen gepr?ft zu werden, muss ein schriftlicher Aufsatz ?ber einige der Herausforderungen f?r Karate und Okinawan Goju-Ryu verfasst und eingereicht werden. Der Chief Instructor des Kandidaten kann die ausgew?hlten Fragen vor der Pr?fung beim Administrative Director anfordern. Die Antwort bzw. der Aufsatz muss bei internationalen Pr?fungen auf Englisch sein."
+        }
+      }
+    }
   }
 }

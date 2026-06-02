@@ -77,6 +77,10 @@
           }
         }
       },
+      "examRequirements": {
+        "title": "Exam Requirements",
+        "description": "Select a rank to view the specific requirements for that grading."
+      },
       "beltColors": {
         "title": "Cores das Faixas (Graus Kyu)",
         "description": "As diferentes cores dos graus kyu",
@@ -246,6 +250,178 @@
             "kudan": "Kudan",
             "judan": "Judan"
           }
+        }
+      }
+    },
+    "regulations": {
+      "title": "IOGKF International Black Belt Grading Regulations",
+      "intro": {
+        "title": "1. Introduction",
+        "text": "The purpose of this update is to clarify and standardize the black belt grading system and rules among IOGKF member countries."
+      },
+      "perspective": {
+        "title": "2. Perspective on Dan Gradings",
+        "text": "Dan grading awards is an indication of an individual’s progress in Karate-Do and only really relevant to oneself. The following three ‘pillars’ illustrates the holistic Budo environment of the Way of Karate-Do upon which development and progress is evaluated:"
+      },
+      "junior": {
+        "title": "3.1 Childrens’ Black Belt Grades",
+        "text": "Students under the age of 18 may also grade to black belt – it is the responsibility of the individual countries to set the standard for such a grading. It is common practice to split the junior dan grading into 3 or 4 categories.",
+        "categories": {
+          "kakyu": "Ka-kyu shodan 10 – 13 years",
+          "chukyu": "Chu-kyu shodan 14 – 15 years",
+          "jokyu": "Jo-kyu shodan 16 – 17 years"
+        },
+        "registration": "Regarding junior gradings (all gradings under 18 years) – it is important that the candidates are registered within the IOGKF system and that the appropriate grading fees are paid.",
+        "turning18": "On becoming 18 years old – the student must grade to senior shodan on the same conditions and fulfilling requirements as everybody else."
+      },
+      "senior": {
+        "title": "3.2 Senior Ranks",
+        "sandan": {
+          "title": "3.2.1 Sandan",
+          "text": "This is the first step into the ‘Senior’ or ‘Sensei’ hierarchy where certain character qualities should start becoming prevalent, therefore, the minimum time requirements are not merely enough, the candidate is expected to put something extra into their efforts. The following, more specific, considerations are relevant to sandan candidates:",
+          "points": [
+            "More physical ability and technical ability than candidates for nidan.",
+            "A show of commitment to the organization, such as: Involvement and support at regional or national events.",
+            "Status - Instructor or assistant instructor - No person can really attempt sandan grade unless they have been teaching as well, even if only on an ad hoc basis.",
+            "Demonstrates loyalty to the organization, fellow members and the Chief Instructor.",
+            "Status amongst peers - how do their peers regard their abilities, personality, etc.?"
+          ]
+        },
+        "yondan": {
+          "title": "3.2.2 Yondan",
+          "text": "Everything required for sandan one step up, plus, a greater sense of being involved in the organization. Physical ability and conditioning are important – they must be able to 'handle’ themselves, considering, of course, age."
+        },
+        "godan": {
+          "title": "3.2.3 Godan",
+          "text": "Senior black belt level with the following considerations:",
+          "points": [
+            "Have they earned the respect of senior instructors, junior and senior members of their dojo and country by their behaviour, both on and off the floor – proper attitude, unquestionable loyalty to the organization?",
+            "Do they have the maturity of character to accept criticism and to progress from it?",
+            "Do they have an objective sense of judgement?",
+            "Physical ability is important – are they able to 'handle’ themselves?",
+            "Do they self-train regularly?"
+          ]
+        },
+        "rokudan": {
+          "title": "3.2.4 Rokudan",
+          "text": "Starting to move into the 'upper echelons' of the organization, nationally as well as internationally. Physical ability and conditioning are important – considering age, candidates should still be improving technically and physically and should be seen by everyone as a person who endeavours to embody the philosophy of karate-do. Rokudan is usually the minimum rank qualification for ‘Shihan’, given only by invitation of the Honbu grading panel, which means 'Role Model' – or ‘Professor’, in other words: Do juniors below them and seniors above them respect them apart from their physical abilities?",
+          "considerationsTitle": "Other considerations for this level are:",
+          "points": [
+            "Do they continue to promote traditional karate and embody loyalty to the Chief Instructor and the rest of the organization?",
+            "Do they possess the leadership qualities: Do they lead by example?",
+            "Do other members of the international karate society accept and/or respect their abilities?",
+            "What is their standing in the world outside karate? (Will people outside of the karate world have respected this person even if they did not have karate as a claim to ‘fame’?)",
+            "Exhibit appropriate behaviour outside of the dojo."
+          ]
+        },
+        "highranks": {
+          "title": "3.2.5 Nanadan, hachidan and higher",
+          "text": "Candidates are now becoming a manifestation of Okinawan Goju Ryu and have mastered most of the basic concepts, and although they are a senior master, they still remain as students of karate-do – metaphorically, this is equivalent to a Professor at university. They must attend chief instructor gasshuku on a regular basis. Candidates will be informed by the IOGKF executive committee 6 or 12 months before they are invited to test, during this time they must present themselves at a gasshuku given by anyone of the Honbu grading panel. These ranks are on an invitation basis only."
+        }
+      },
+      "honorary": {
+        "title": "3.3 Honorary Dan Grade",
+        "text": "At the discretion of the EC, an honorary dan grade may be awarded on an individual basis for the following reasons:",
+        "points": [
+          "Contribution to the association",
+          "Promotion of the IOGKF",
+          "Where an individual has had to limit their training for reasons beyond their control."
+        ]
+      },
+      "chiefInstructors": {
+        "title": "3.4 Chief Instructors – Kambukai – Representatives",
+        "text": "A Country Chief Instructor, Kambukai member or Representative needs permission from the EC for their grading and MUST grade under the appointed grading examiner."
+      },
+      "generalRules": {
+        "title": "4. General Rules for Dan Gradings",
+        "admin": {
+          "title": "4.1 Administrative Requirements",
+          "points": [
+            "Only members whose countries are current regarding country affiliations, can be tested and registered for IOGKF Dan rankings.",
+            "Any country not paying IOGKF affiliation for a period of two years consecutively and/or a country chief instructor failing to attend three CI gasshukus consecutively, or any international gasshuku within the same period, will forfeit all grading mandates as defined herein."
+          ]
+        },
+        "timeFee": {
+          "title": "4.2 Time, Gasshuku and Registration Fee requirements",
+          "definitions": {
+            "title": "4.2.1 Definitions of qualifying gasshuku",
+            "points": [
+              "National. Any gasshuku organized by a national organization.",
+              "International. Any gasshuku of international status shall be conducted by Saiko Shihan, Shuseki Shihan, Fuku Shuseki Shihan or Gijutsu Komon (i.e. Budosai, European Gasshuku, or any special gasshuku defined by the EC)"
+            ],
+            "note": "NOTE – Minimum time periods are based on the assumption of minimum training of 4 hours per week with a senior instructor. In the event of an instructor being of lower rank, the time period could be longer. Minimum time and minimum age criteria are both adhered to."
+          },
+          "factors": {
+            "title": "4.2.2 Factors that could influence time requirements",
+            "registration": "All dan grades should be registered and approved by the IOGKF – if this requirement is not met, the IOGKF will annul the grade and the individual must undergo a new grading under the correct conditions.",
+            "increasingTime": {
+              "title": "Increasing the time period",
+              "text": "At the discretion of the country Chief Instructor the minimum time period may be increased for the following reasons:",
+              "points": [
+                "The individual has not achieved the necessary level with respect to the grade sought.",
+                "A person is mostly self-taught, not necessarily training under supervision per se. This does not qualify the person for the above time period specification",
+                "A period of more than three months of non–training due to injury or other reasons since the last grading."
+              ]
+            },
+            "reducingTime": {
+              "title": "Reducing the time period",
+              "points": [
+                "Time delay between immediate previous grading dates – e.g. a person took 6/7 years to advance from yondan to godan, can therefore get 'credit' of not more than one year, e.g. godan to rokudan in 5 years.",
+                "If the student in question has been a junior black belt for many years. Then after they reach 18, they grade to adult shodan. However, they may grade to nidan after one year. Thereafter, the published grading time periods must be adhered to. NB. The individual’s age would continue to be one year less than “traditionally required” for that grade."
+              ]
+            },
+            "otherOrg": {
+              "title": "Black belt received from another organization",
+              "text": "Newly joined members who have a dan grade from their previous organization must re-grade under IOGKF standards. Minimum time, age and gasshuku attendance requirements should apply from the date they joined the organization. The grading they receive may be lower according to the IOGKF grading requirements."
+            }
+          }
+        },
+        "categories": {
+          "title": "4.3 Grading Categories and Mandate",
+          "text": "Country chief instructors, kambukai and representatives mandated by Higaonna Sensei, can conduct dan gradings as follow:",
+          "chiefs": {
+            "title": "Chief instructors",
+            "points": [
+              "Hachidan chief instructor: Can grade up to godan",
+              "EC-members: Can grade up to godan",
+              "Nanadan chief instructor: Can grade up to yondan within their own country",
+              "Rokudan chief instructor: Can grade up to yondan within their own country",
+              "Godan chief instructor: Can grade up to sandan within their own country",
+              "Yondan chief instructor: Can grade up to shodan within their own country",
+              "Sandan, nidan, shodan chief instructor: Can not conduct black belt gradings"
+            ],
+            "note": "Dan gradings in countries where the instructor is not permitted to grade can only be conducted by a senior IOGKF instructor with the permission of the shuseki shihan and that country’s chief instructor. Grading categories and mandates may be waived for honorary dan grades."
+          },
+          "kambukai": {
+            "title": "Kambukai countries",
+            "text": "The grading level for a kambukai is the same as for the chief instructors. Grading categories and the mandate are the same as above."
+          },
+          "representatives": {
+            "title": "Representative countries",
+            "text": "IOGKF representatives of a minimum of yondan may only grade up to shodan. This privilege is only granted if the representative country has been a member of IOGKF for a minimum of 2 years and the representatives have participated in international gasshuku."
+          },
+          "permission": "**** No student can be graded in another country without the express permission of their chief instructor. Their chief instructor must sign the application form."
+        },
+        "honbu": {
+          "title": "4.4 Honbu Dojo grading panel",
+          "text": "Candidates grading to rokudan and above must be graded in Okinawa or at the Chief Instructor Gasshuku. The Honbu Dojo grading panel will be appointed by the Saiko Shihan."
+        },
+        "international": {
+          "title": "4.8 International Gasshuku Grading Requirements",
+          "points": [
+            "For all international gasshuku it is a requirement that the candidate must have completed the written examination beforehand and has been approved by the chief instructor. The chief instructor also has to sign the candidates’ application form; otherwise it will not be possible to be graded."
+          ]
+        }
+      },
+      "writtenExam": {
+        "title": "5. The Written Exam",
+        "low": {
+          "title": "5.1 Shodan, Nidan or Sandan",
+          "text": "In order to grade to shodan, nidan or sandan, the written exam must be completed and given to the candidate’s chief instructor before attending the international gasshuku. The exam must have a passing rate of a minimum of 75%. If this is not achieved, the candidate can not grade."
+        },
+        "high": {
+          "title": "5.2 Yondan and up",
+          "text": "In order to grade to these levels, a written essay concerning some of the challenges facing karate and Okinawan Goju Ryu must be completed and submitted. The candidate’s chief instructor can get the chosen questions by contacting the Administrative Director prior to the grading. The answer/essay must be in English for the international gradings."
         }
       }
     }

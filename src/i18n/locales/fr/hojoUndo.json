@@ -1,6 +1,39 @@
 {
   "title": "Hojo Undo (補助運動)",
   "description": "Entraînement de force traditionnel du Goju-ryu Karate-do",
+  "common": {
+    "back": "Retour",
+    "mainFunctions": "Fonctions Principales",
+    "trainingEffects": "Effets de l'Entraînement",
+    "dimensions": "Dimensions",
+    "materials": "Matériaux",
+    "weightRecommendations": "Recommandations de Poids",
+    "importantPoints": "Points Importants",
+    "breathingTechniques": "Techniques de Respiration",
+    "safetyGuidelines": "Directives de Sécurité",
+    "basicSeries": "Série de Base",
+    "advancedExercises": "Exercices Avancés",
+    "practicalTips": "Conseils Pratiques",
+    "exercises": "Exercices",
+    "origin": "Origine",
+    "weight": "Poids",
+    "relatedSections": "Sections Connexes",
+    "quickAccess": "Accès Rapide",
+    "viewCompleteOverview": "Voir l'Aperçu Complet",
+    "learnFundamentals": "Apprendre les bases",
+    "understandingPurpose": "Comprendre le but et la fonction",
+    "buildMaintain": "Construire et entretenir l'équipement",
+    "safetyTechnique": "Focus sur la sécurité et la technique",
+    "specificExercises": "Exercices et routines spécifiques",
+    "traditionalStrengthTraining": "Entraînement de Force Traditionnel"
+  },
+  "categories": {
+    "introduction": "Introduction",
+    "primaryEquipment": "Équipement Principal"
+  },
+  "sections": {
+    "trainingSections": "Sections d'Entraînement"
+  },
   "introduction": {
     "title": "Introduction",
     "whatIs": "Qu'est-ce que Hojo Undo?",
@@ -90,7 +123,8 @@
           "Renforce les muscles de l'avant-bras et de la main",
           "Soutient la stabilité du poignet dans les techniques de coup de poing et de frappe",
           "Renforce la préhension pour les techniques de combat rapproché",
-          "Développe la force muchimi et chinkuchi kakin"
+          "Développe la force muchimi et chinkuchi kakin",
+          "D?veloppe la puissance chinkuchi kakin gr?ce ? la saisie en fin de mouvement"
         ],
         "trainingEffects": [
           "Meilleure stabilité du poignet",
@@ -136,7 +170,10 @@
           "'Tendez le latissimus dorsi'",
           "'Tendez le poignet'",
           "'Saisissez fermement'",
-          "'Respirez depuis le tanden'"
+          "'Respirez depuis le tanden'",
+          "Combiner la force musculaire externe et la puissance interne de la respiration",
+          "Pratiquer le c?t? faible plus souvent",
+          "Pratiquer des coups de poing rapides apr?s une s?rie d?exercices pour ?viter de devenir lent"
         ],
         "breathingTechniques": {
           "slow": "Respiration sanchin avec sons H(u)ah et Hatt",
@@ -172,14 +209,8 @@
           "Exercices de balancement du poignet",
           "Combat d'ombre",
           "Entraînement de durcissement avec pierre",
-          "Entraînement du tibia avec bâton"
-        ],
-        "practicalTips": [
-          "Commencez avec des poids plus légers",
-          "Focus d'abord sur l'exécution correcte",
-          "Intégrez la respiration sanchin",
-          "Prenez suffisamment de repos entre les séries",
-          "Alternez entre différents exercices"
+          "Entraînement du tibia avec bâton",
+          "Roulement du b?ton sur le tibia pour la circulation"
         ]
       }
     },
@@ -208,12 +239,6 @@
         ],
         "weight": "Le poids peut être ajusté en remplissant avec du sable, du gravier ou d'autres matériaux"
       },
-      "exercises": [
-        "Préhensions statiques",
-        "Marcher avec les pots",
-        "Mouvements circulaires",
-        "Mouvements de haut en bas"
-      ],
       "attentionPoints": {
         "title": "Points d'Attention",
         "importantPoints": [
@@ -228,7 +253,13 @@
           "Maintenir une forme correcte",
           "Arrêter en cas de douleur"
         ]
-      }
+      },
+      "exercises": [
+        "Préhensions statiques",
+        "Marcher avec les pots",
+        "Mouvements circulaires",
+        "Mouvements de haut en bas"
+      ]
     },
     "kongoken": {
       "name": "Kongoken",
@@ -273,20 +304,6 @@
           }
         }
       },
-      "exercises": [
-        "Soulever et porter",
-        "Exercices de marche",
-        "Préhensions statiques",
-        "Balancements de base",
-        "Mouvements dynamiques",
-        "Intégration avec kata"
-      ],
-      "safetyPoints": [
-        "Nécessite un encadrement expert",
-        "Commencez avec un bon échauffement",
-        "Focus sur la technique de levage correcte",
-        "N'entraînez jamais seul avec des poids lourds"
-      ],
       "attentionPoints": {
         "title": "Points d'Attention",
         "importantPoints": [
@@ -301,7 +318,15 @@
           "Arrêter au moindre signe de tension",
           "Utiliser un poids approprié pour le niveau"
         ]
-      }
+      },
+      "exercises": [
+        "Soulever et porter",
+        "Exercices de marche",
+        "Préhensions statiques",
+        "Balancements de base",
+        "Mouvements dynamiques",
+        "Intégration avec kata"
+      ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
@@ -346,12 +371,6 @@
           }
         }
       },
-      "exercises": [
-        "Préhensions statiques",
-        "Exercices de marche",
-        "Mouvements de levage",
-        "Exercices de rotation"
-      ],
       "attentionPoints": {
         "title": "Points d'Attention",
         "importantPoints": [
@@ -366,7 +385,13 @@
           "Progression graduelle",
           "Arrêter en cas d'inconfort"
         ]
-      }
+      },
+      "exercises": [
+        "Préhensions statiques",
+        "Exercices de marche",
+        "Mouvements de levage",
+        "Exercices de rotation"
+      ]
     },
     "udeTanren": {
       "name": "Ude Tanren",
@@ -563,6 +588,10 @@
         "importantPoints": [
           "Distribution égale de la force",
           "Gardez le dos droit"
+        ],
+        "safetyGuidelines": [
+          "Surveiller l??quilibre",
+          "Ne pas commencer trop lourd"
         ]
       },
       "exercises": {
@@ -644,38 +673,5 @@
     "technical": "Avantages Techniques",
     "mental": "Avantages Mentaux",
     "safety": "Avantages de Sécurité"
-  },
-  "common": {
-    "back": "Retour",
-    "mainFunctions": "Fonctions Principales",
-    "trainingEffects": "Effets de l'Entraînement",
-    "dimensions": "Dimensions",
-    "materials": "Matériaux",
-    "weightRecommendations": "Recommandations de Poids",
-    "importantPoints": "Points Importants",
-    "breathingTechniques": "Techniques de Respiration",
-    "safetyGuidelines": "Directives de Sécurité",
-    "basicSeries": "Série de Base",
-    "advancedExercises": "Exercices Avancés",
-    "practicalTips": "Conseils Pratiques",
-    "exercises": "Exercices",
-    "origin": "Origine",
-    "weight": "Poids",
-    "relatedSections": "Sections Connexes",
-    "quickAccess": "Accès Rapide",
-    "viewCompleteOverview": "Voir l'Aperçu Complet",
-    "learnFundamentals": "Apprendre les bases",
-    "understandingPurpose": "Comprendre le but et la fonction",
-    "buildMaintain": "Construire et entretenir l'équipement",
-    "safetyTechnique": "Focus sur la sécurité et la technique",
-    "specificExercises": "Exercices et routines spécifiques",
-    "traditionalStrengthTraining": "Entraînement de Force Traditionnel"
-  },
-  "categories": {
-    "introduction": "Introduction",
-    "primaryEquipment": "Équipement Principal"
-  },
-  "sections": {
-    "trainingSections": "Sections d'Entraînement"
   }
 }

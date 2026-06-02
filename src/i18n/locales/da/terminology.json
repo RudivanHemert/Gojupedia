@@ -6,7 +6,6 @@
     "back": "Tilbage",
     "techniqueNotFound": "Teknik ikke fundet",
     "noVideoAvailable": "Ingen video tilgængelig.",
-    "blockNotFound": "Teknik ikke fundet.",
     "sections": {
       "general-terms": "Generelle termer",
       "numbers": "Tal",
@@ -20,395 +19,15 @@
       "kicks": "Spark",
       "punches": "Stød",
       "training": "Træning",
+      "hojo-undo": "Hojo Undo (Krachttraining)",
+      "movement": "Verplaatsingen & Houdingen",
+      "anatomical": "Anatomische Wapens",
+      "grappling": "Worsteltechnieken",
       "stances": "Stillinger",
       "strikes": "Slag",
       "vital-points": "Vitale punkter",
-      "blocks-content": {
-        "description": "Almindelige defensive teknikker der bruges til at blokere eller afværge angreb. Klik 'Se' for en demonstration hvis tilgængelig.",
-        "basicBlocksTitle": "Grundlæggende Blokeringer",
-        "advancedBlocksTitle": "Avancerede Blokeringer",
-        "videoNotAvailableDescription": "En videodemonstration for denne teknik er ikke tilgængelig i øjeblikket.",
-        "videoLoadError": "Kunne ikke indlæse video for '{{file}}'. Tjek venligst at filen findes i public/video/blocks/.",
-        "selectVideoTitle": "Vælg en teknik at se",
-        "terms": {
-          "harai": {
-            "name": "Harai / Barai",
-            "japanese": "払い",
-            "english": "Fejende blokering"
-          },
-          "jodan-age-uke": {
-            "name": "Jodan Age Uke",
-            "japanese": "上げ受け",
-            "english": "Høj opadgående blokering",
-            "details": "En opadgående blok der bruges til at afværge angreb mod hovedet og overkroppen.",
-            "videoFile": "age-uke"
-          },
-          "jodan-soto-uke": {
-            "name": "Jodan Soto (Yoko) Uke",
-            "japanese": "外受け",
-            "english": "Høj udvendig blokering",
-            "details": "En blok der bevæger sig fra udsiden mod indsiden for at afværge angreb.",
-            "videoFile": "soto-uke"
-          },
-          "jodan-uchi-uke": {
-            "name": "Jodan Uchi (Yoko) Uke",
-            "japanese": "内受け",
-            "english": "Høj indvendig blokering",
-            "details": "Jodan Uchi Uke er en indefra-og-ud blokering der bruges til at afværge høje angreb indefra."
-          },
-          "chudan-soto-uke": {
-            "name": "Chudan Soto (Yoko) Uke",
-            "japanese": "外受け",
-            "english": "Mellem udvendig blokering"
-          },
-          "chudan-uchi-uke": {
-            "name": "Chudan Uchi Uke",
-            "japanese": "内受け",
-            "english": "Mellem indvendig blokering",
-            "details": "En blok der bevæger sig fra indsiden mod udsiden for at afværge angreb.",
-            "videoFile": "uchi-uke"
-          },
-          "gedan-uke": {
-            "name": "Gedan (Harai) Uke / Gedan Barai",
-            "japanese": "下段払い",
-            "english": "Lav (fejende) blokering",
-            "details": "En nedadgående fejeblok der bruges til at afværge lave angreb og spark.",
-            "videoFile": "gedan-barai"
-          },
-          "uchi-gedan-barai": {
-            "name": "Uchi Gedan Barai",
-            "japanese": "内下段払い",
-            "english": "Lav fejende blokering indefra"
-          },
-          "shotei-gedan-harai": {
-            "name": "Shotei Gedan Harai",
-            "japanese": "掌底下段払い",
-            "english": "Lav fejende blokering med håndfladen"
-          },
-          "morote-uke": {
-            "name": "Morote Uke",
-            "japanese": "諸手受け",
-            "english": "Dobbelt mellem sideblokering"
-          },
-          "kosa-uke": {
-            "name": "Kosa Uke",
-            "japanese": "交差受け",
-            "english": "Krydsblokering",
-            "details": "En krydsblok der bruger begge arme til at afværge angreb."
-          },
-          "hiki-uke": {
-            "name": "Hiki Uke",
-            "japanese": "引き受け",
-            "english": "Trækkende blokering"
-          },
-          "ura-hiki-uke": {
-            "name": "Ura Hiki Uke",
-            "japanese": "裏引き受け",
-            "english": "Omvendt trækkende blokering"
-          },
-          "ura-kake-uke": {
-            "name": "Ura Kake Uke",
-            "japanese": "裏掛け受け",
-            "english": "Omvendt krogblokering"
-          },
-          "morote-hiki-uke": {
-            "name": "Morote Hiki Uke",
-            "japanese": "諸手引き受け",
-            "english": "Dobbelt trækkende blokering"
-          },
-          "kake-uke": {
-            "name": "Kake Uke",
-            "japanese": "掛け受け",
-            "english": "Krogblokering"
-          },
-          "uchi-kake-uke": {
-            "name": "Uchi Kake Uke",
-            "japanese": "内掛け受け",
-            "english": "Indvendig krogblokering"
-          },
-          "shotei-uke": {
-            "name": "Shotei Uke",
-            "japanese": "掌底受け",
-            "english": "Sideblokering med håndfladen"
-          },
-          "otoshi-uke": {
-            "name": "Otoshi Uke",
-            "japanese": "落とし受け",
-            "english": "Nedadgående blokering"
-          },
-          "nagashi-uke": {
-            "name": "Nagashi Uke",
-            "japanese": "流し受け",
-            "english": "Flydende/fejende blokering"
-          },
-          "osae-uke": {
-            "name": "Osae Uke",
-            "japanese": "押さえ受け",
-            "english": "Presseblokering",
-            "details": "En trykblok der bruger pres til at afværge og kontrollere angreb."
-          },
-          "morote-osae-uke": {
-            "name": "Morote Osae Uke",
-            "japanese": "諸手押さえ受け",
-            "english": "Dobbelt presseblokering"
-          },
-          "sukui-uke": {
-            "name": "Sukui Uke",
-            "japanese": "掬い受け",
-            "english": "Ske-blokering"
-          },
-          "jodan-ko-uke": {
-            "name": "Jodan Ko Uke",
-            "japanese": "上段弧受け",
-            "english": "Høj håndledsblokering"
-          },
-          "yoko-ko-uke": {
-            "name": "Yoko Ko Uke",
-            "japanese": "横弧受け",
-            "english": "Side håndledsblokering"
-          },
-          "hiji-uke": {
-            "name": "Hiji Uke",
-            "japanese": "肘受け",
-            "english": "Albueblokering",
-            "details": "En blok der bruger albuen til at afværge angreb."
-          },
-          "tora-guchi": {
-            "name": "Tora Guchi",
-            "japanese": "虎口",
-            "english": "Tigermund"
-          },
-          "mawashi-uke": {
-            "name": "Mawashi Uke",
-            "japanese": "回し受け",
-            "english": "Cirkelblokering"
-          },
-          "hojo-uke": {
-            "name": "Hojo Uke",
-            "japanese": "補助受け",
-            "english": "Assisteret blokering"
-          },
-          "doji-uke": {
-            "name": "Doji Uke",
-            "japanese": "同時受け",
-            "english": "Samtidig blokering"
-          },
-          "kuri-uke": {
-            "name": "Kuri Uke",
-            "japanese": "繰り受け",
-            "english": "Albue-cirkelblokering"
-          },
-          "hari-uke": {
-            "name": "Hari Uke",
-            "japanese": "弓受け",
-            "english": "Bue og pil-blokering"
-          },
-          "hiza-uchi-uke": {
-            "name": "Hiza Uchi Uke",
-            "japanese": "膝内受け",
-            "english": "Indvendig knæblokering"
-          },
-          "hiza-soto-uke": {
-            "name": "Hiza Soto Uke",
-            "japanese": "膝外受け",
-            "english": "Udvendig knæblokering"
-          },
-          "juji-uke": {
-            "name": "Juji Uke",
-            "japanese": "十字受け",
-            "english": "X-Block",
-            "details": "En X-formet blok der bruger begge arme i et krydsmønster."
-          },
-          "haiwan-uke": {
-            "name": "Haiwan Uke",
-            "japanese": "背腕受け",
-            "english": "Back Arm Block",
-            "details": "En blok der bruger bagarmen til at afværge angreb."
-          },
-          "shuto-uke": {
-            "name": "Shuto Uke",
-            "japanese": "手刀受け",
-            "english": "Knife Hand Block",
-            "details": "En blok der bruger håndkanten som et knivblad til at afværge angreb."
-          }
-        }
-      },
-      "basic": {
-        "title": "Grundlæggende",
-        "description": "Almindelige termer"
-      },
-      "techniques": {
-        "title": "Teknikker",
-        "description": "Tekniske termer"
-      },
-      "stances-content": {
-        "description": "Grundlæggende karate stillinger der bruges i Goju Ryu. Hver stilling har et specifikt formål og bidrager til bevægelse, forsvar og angreb.",
-        "terms": {
-          "seiza": {
-            "japanese": "正座",
-            "name": "Seiza",
-            "english": "Kneeling stance (proper sitting)",
-            "details": "Seiza er den traditionelle, formelle og høflige japanske måde at sidde på gulvet, knælende. Det er en grundlæggende stilling både i karate og i japansk kultur. Denne stilling bruges til at udføre den formelle 'gulv-bøjning' kaldet zarei.",
-            "instructions": "Instruktioner: Placer dine knæ på gulvet med fødderne under dig. Sæt dig ned på dine fødder med ryggen lige. Placer dine hænder på dine lår med tommelfingrene tæt på hinanden."
-          },
-          "musubi-dachi": {
-            "japanese": "結び立",
-            "name": "Musubi Dachi",
-            "english": "Standing stance",
-            "details": "Musubi Dachi er den formelle måde at stå på i japanske kampsport og i Japan. Denne stilling er meget vigtig og bruges til at udføre den formelle respektfulde bøjning kaldet rei. Musubi Dachi og rei bør udføres før og efter opvarmning, kihon, kata, kumite eller enhver interaktion mellem mennesker.",
-            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår med fingrene rettede nedad."
-          },
-          "heisoku-dachi": {
-            "japanese": "閉足立",
-            "name": "Heisoku Dachi",
-            "english": "Closed leg stance",
-            "details": "Heisoku Dachi er den klar stilling der bruges i nogle kata. Den ligner musubi-dachi, men fødderne holdes sammen.",
-            "instructions": "Instruktioner: Stå med fødderne helt sammen og tæer pegende fremad. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår."
-          },
-          "heiko-dachi": {
-            "japanese": "平行立",
-            "name": "Heiko Dachi",
-            "english": "Parallel stance",
-            "details": "Heiko Dachi er en opmærksomheds stilling eller 'gør dig klar' stilling der bruges i nogle stile. Den udføres generelt efter bøjning (musubi-dachi), lige før kihon øvelse eller kata. Heiko Dachi er også den stilling der udføres når man lytter til instruktioner.",
-            "instructions": "Instruktioner: Stå med fødderne skulderbredde fra hinanden og tæer pegende fremad. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår med fingrene rettede nedad."
-          },
-          "hachiji-dachi": {
-            "japanese": "八字立",
-            "name": "Hachiji Dachi",
-            "english": "Natural stance",
-            "details": "Hachiji Dachi, også kendt som yoi-dachi, er en formel ventestilling der bruges i nogle karate stile. Hachiji Dachi kan også bruges efter stående bøjning eller mens man udfører tsuki. 'Yoi' stilling er ikke almindelig i okinawansk karate.",
-            "instructions": "Instruktioner: Stå med fødderne skulderbredde fra hinanden og tæer pegende udad i en 45° vinkel. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår."
-          },
-          "kiba-dachi": {
-            "japanese": "騎馬立",
-            "name": "Kiba Dachi",
-            "english": "Horse stance",
-            "details": "Kiba Dachi er en grundlæggende stilling i karate der ikke kun bruges til at øve grundlæggende slag som seiken tsuki, men som også kan integreres i selvforsvar eller kumite øvelse. Dette er en meget stærk stilling til at forsvare sig mod sideangreb. Kiba Dachi er en stilling der styrker benene, ryggen og i nogen grad, kernen.",
-            "instructions": "Instruktioner: Stå med fødderne bredt fra hinanden og tæer pegende fremad. Bøj dine knæ og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår eller i knytnæver ved dine hofter."
-          },
-          "shiko-dachi": {
-            "japanese": "四股立",
-            "name": "Shiko Dachi",
-            "english": "Horse stance, open feet",
-            "details": "Shiko Dachi, også kendt som 'firkantet stilling', er stort set det samme som Kiba Dachi men fødderne er åbne i en 45° vinkel.",
-            "instructions": "Instruktioner: Stå med fødderne bredt fra hinanden og tæer pegende udad i en 45° vinkel. Bøj dine knæ og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår eller i knytnæver ved dine hofter."
-          },
-          "sanchin-dachi": {
-            "japanese": "三戦立",
-            "name": "Sanchin Dachi",
-            "english": "Three battle stance, hourglass stance",
-            "details": "Sanchin Dachi er en grundlæggende karate stilling der giver stor stabilitet og rodfæstelse. Flertallet af japanske stile som Shotokan bruger denne stilling kun i kata, men okinawanske stile bruger den til selvforsvar og kumite, især Naha-te stile som Goju-Ryu og Uechi-Ryu.",
-            "instructions": "Instruktioner: Stå med fødderne skulderbredde fra hinanden og tæer pegende indad. Bøj dine knæ og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter med albuerne tæt på kroppen."
-          },
-          "zenkutsu-dachi": {
-            "japanese": "前屈立",
-            "name": "Zenkutsu Dachi",
-            "english": "Front stance",
-            "details": "Zenkutsu Dachi, også kendt som forward stance, er en af de mest almindelige stillinger i karate. Det er en stilling der giver dig mulighed for at nå langt og generere en stor del af kraft ved at bevæge dig fremad. Som med de fleste stillinger har den japanske version af Zenkutsu Dachi tendens til at være meget lang og bred sammenlignet med den kortere, mere naturlige okinawanske version.",
-            "instructions": "Instruktioner: Tag et skridt fremad med din forreste fod. Bøj dit forreste knæ så det er over din forreste fod. Hold dit bagben lige og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
-          },
-          "han-zenkutsu-dachi": {
-            "japanese": "半前屈立",
-            "name": "Han Zenkutsu Dachi",
-            "english": "Half front-stance",
-            "details": "Han Zenkutsu Dachi er den kortere eller halve version af Zenkutsu Dachi. Det er en stilling der er egnet til selvforsvar og kumite eller sparring da den giver større mobilitet. Han Zenkutsu Dachi er en neutral stilling der giver dig mulighed for at bevæge dig hurtigt tilbage til den defensive Neko-ashi-dachi eller skubbe fremad til en fuld Zenkutsu Dachi eller Sanchin Dachi.",
-            "instructions": "Instruktioner: Tag et mindre skridt fremad med din forreste fod. Bøj dit forreste knæ let så det er over din forreste fod. Hold dit bagben lige og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
-          },
-          "kokutsu-dachi": {
-            "japanese": "後屈立",
-            "name": "Kokutsu Dachi",
-            "english": "Back stance",
-            "details": "Kokutsu Dachi er en defensiv stilling der giver dig mulighed for at trække dig hurtigt tilbage eller bevæge dig bagud og modangribe. Den er fantastisk til at undvige angreb fra din modstander.",
-            "instructions": "Instruktioner: Tag et skridt bagud med din bageste fod. Bøj dit bageste knæ og sænk din krop ned. Hold dit forreste ben lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
-          },
-          "neko-ashi-dachi": {
-            "japanese": "猫足立",
-            "name": "Neko Ashi Dachi",
-            "english": "Cat stance",
-            "details": "Neko Ashi Dachi er en fantastisk defensiv stilling da det meste af vægten er på bagbenet, hvilket giver mulighed for modangreb med spark og hurtige sidevægelser. Desværre upopulær hos karateka er denne stilling perfekt egnet til både selvforsvar og kumite.",
-            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Skub din bageste fod tilbage og bøj dit bageste knæ. Hold dit forreste ben lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
-          },
-          "tsuru-ashi-dachi": {
-            "japanese": "鶴足立",
-            "name": "Tsuru Ashi Dachi",
-            "english": "Crane stance",
-            "details": "Tsuru Ashi Dachi er en stilling der bruges til at undvige angreb og til at overgå til andre teknikker.",
-            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Løft din forreste fod op og bøj dit knæ opad. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
-          },
-          "kosa-dachi": {
-            "japanese": "交差立",
-            "name": "Kosa Dachi",
-            "english": "Cross stance",
-            "details": "Krydsstillingen udføres generelt for at dreje, undvige til siden eller når man lander fra et hop.",
-            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Kryds din forreste fod over din bageste fod. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
-          },
-          "heishugata-sanchin-dachi": {
-            "name": "Heishugata Sanchin Dachi",
-            "japanese": "閉手形三戦立",
-            "english": "Lukket hånd Sanchin",
-            "details": "Sanchin stilling med tæerne pegende lidt indad, bogstaveligt: lukket hånd tre kampe stilling",
-            "instructions": "Sanchin med tæer indad"
-          },
-          "kaishugata-sanchin-dachi": {
-            "name": "Kaishugata Sanchin Dachi",
-            "japanese": "開手形三戦立",
-            "english": "Åben hånd Sanchin",
-            "details": "Sanchin stilling med fødderne lige frem, bogstaveligt: åben hånd tre kampe stilling",
-            "instructions": "Sanchin med fødder lige"
-          },
-          "hikui-zenkutsu-dachi": {
-            "name": "Hikui Zenkutsu Dachi",
-            "japanese": "低前屈立",
-            "english": "Dyb forlæns stilling",
-            "details": "Dyb forlæns stilling (som i Kururunfa)",
-            "instructions": "Meget lav forlæns stilling"
-          },
-          "sagi-ashi-dachi": {
-            "name": "Sagi Ashi Dachi",
-            "japanese": "鷺足立",
-            "english": "Hejrestilling",
-            "details": "Hejrestilling (som i Saifa)",
-            "instructions": "Stå på et ben"
-          },
-          "renoji-dachi": {
-            "name": "Renoji Dachi",
-            "japanese": "レの字立",
-            "english": "L-stilling",
-            "details": "L-stilling (som i Seiyunchin og Sepai)",
-            "instructions": "Fødder i L-form"
-          },
-          "bensoku-dachi": {
-            "name": "Bensoku Dachi",
-            "japanese": "弁足立",
-            "english": "Saksestilling",
-            "details": "Saksestilling (som i Seiyunchin og Sepai)",
-            "instructions": "Krydsede fødder"
-          },
-          "kokotsu-dachi": {
-            "name": "Kokotsu Dachi",
-            "japanese": "後屈立",
-            "english": "Baglæns stilling",
-            "details": "Baglæns stilling (som i Sepai)",
-            "instructions": "Vægt bagud, defensiv"
-          },
-          "koshi-dachi": {
-            "name": "Koshi Dachi",
-            "japanese": "腰立",
-            "english": "Hugstilling",
-            "details": "Hugstilling (som i Kururunfa)",
-            "instructions": "Dyb hugposition"
-          }
-        },
-        "title": "Stances"
-      },
-      "equipment": {
-        "title": "Udstyr",
-        "description": "Våben og redskaber"
-      },
       "tournament-terms-content": {
         "description": "Termer der almindeligvis bruges i karate turneringsindstillinger.",
-        "scoringTitle": "Point",
-        "penaltiesTitle": "Straffe",
         "terms": {
           "ippon": "Et point",
           "waza-ari": "Halvt point",
@@ -453,7 +72,9 @@
           "nukete-iru": "Uden for mål",
           "fujubun": "Utilstrækkelig kraft",
           "yowai": "Svag fokus"
-        }
+        },
+        "scoringTitle": "Point",
+        "penaltiesTitle": "Straffe"
       },
       "training-content": {
         "description": "Almindelige udtryk brugt under karatetræning.",
@@ -525,6 +146,21 @@
             "name": "Migi",
             "japanese": "右",
             "english": "Højre"
+          },
+          "mae": {
+            "name": "Mae",
+            "japanese": "前",
+            "english": "Forward"
+          },
+          "ushiro": {
+            "name": "Ushiro",
+            "japanese": "後ろ",
+            "english": "Backward"
+          },
+          "mawashi": {
+            "name": "Mawashi",
+            "japanese": "回し",
+            "english": "Circular"
           },
           "age": {
             "name": "Age",
@@ -654,65 +290,6 @@
           }
         }
       },
-      "hojo-undo-content": {
-        "description": "Traditionelle træningsredskaber og øvelser (Hojo Undo) til styrke og konditionering.",
-        "terms": {
-          "chi-ishi": {
-            "name": "Chi Ishi",
-            "japanese": "痴石",
-            "english": "Kraftsten (træning af håndled, arm og greb)",
-            "details": "Bogstaveligt 'Fjolsets sten' eller 'Åndens sten'"
-          },
-          "nigiri-game": {
-            "name": "Nigiri Game",
-            "japanese": "握り亀",
-            "english": "Gribekrukker",
-            "details": "Keramiske krukker til træning af grebsstyrke. Bogstaveligt 'Gribepotter'"
-          },
-          "makiwara": {
-            "name": "Makiwara",
-            "japanese": "巻藁",
-            "english": "Slagstolpe",
-            "details": "Træbræt med pude til træning af slag og spark"
-          },
-          "kongoken": {
-            "name": "Kongoken",
-            "japanese": "金剛圏",
-            "english": "Jernring",
-            "details": "Tung metalring til styrketræning og kropshærdning"
-          },
-          "ishi-sashi": {
-            "name": "Ishi Sashi",
-            "japanese": "石錠",
-            "english": "Stenhængelåse",
-            "details": "Vægte formet som gamle låse, brugt til arm- og bentræning"
-          },
-          "tan": {
-            "name": "Tan",
-            "japanese": "担",
-            "english": "Vægtstang",
-            "details": "Træstang med vægte (beton eller sten)"
-          },
-          "sashi-ishi": {
-            "name": "Sashi Ishi",
-            "japanese": "差し石",
-            "english": "Løftesten",
-            "details": "Natursten til styrketræning"
-          },
-          "tetsu-geta": {
-            "name": "Tetsu Geta",
-            "japanese": "鉄下駄",
-            "english": "Jernsandaler",
-            "details": "Tunge sandaler til bentræning"
-          },
-          "tou": {
-            "name": "Tou",
-            "japanese": "籐",
-            "english": "Rørbundt",
-            "details": "Eller Jari Bako (gruskasse) til finger- og håndtræning (Nukite)"
-          }
-        }
-      },
       "movement-content": {
         "description": "Bevægelser (Gi Jutsu), Fodarbejde (Unsoku ho) og Stillinger (Kamae).",
         "terms": {
@@ -798,6 +375,65 @@
           }
         }
       },
+      "hojo-undo-content": {
+        "description": "Traditionelle træningsredskaber og øvelser (Hojo Undo) til styrke og konditionering.",
+        "terms": {
+          "chi-ishi": {
+            "name": "Chi Ishi",
+            "japanese": "痴石",
+            "english": "Kraftsten (træning af håndled, arm og greb)",
+            "details": "Bogstaveligt 'Fjolsets sten' eller 'Åndens sten'"
+          },
+          "nigiri-game": {
+            "name": "Nigiri Game",
+            "japanese": "握り亀",
+            "english": "Gribekrukker",
+            "details": "Keramiske krukker til træning af grebsstyrke. Bogstaveligt 'Gribepotter'"
+          },
+          "makiwara": {
+            "name": "Makiwara",
+            "japanese": "巻藁",
+            "english": "Slagstolpe",
+            "details": "Træbræt med pude til træning af slag og spark"
+          },
+          "kongoken": {
+            "name": "Kongoken",
+            "japanese": "金剛圏",
+            "english": "Jernring",
+            "details": "Tung metalring til styrketræning og kropshærdning"
+          },
+          "ishi-sashi": {
+            "name": "Ishi Sashi",
+            "japanese": "石錠",
+            "english": "Stenhængelåse",
+            "details": "Vægte formet som gamle låse, brugt til arm- og bentræning"
+          },
+          "tan": {
+            "name": "Tan",
+            "japanese": "担",
+            "english": "Vægtstang",
+            "details": "Træstang med vægte (beton eller sten)"
+          },
+          "sashi-ishi": {
+            "name": "Sashi Ishi",
+            "japanese": "差し石",
+            "english": "Løftesten",
+            "details": "Natursten til styrketræning"
+          },
+          "tetsu-geta": {
+            "name": "Tetsu Geta",
+            "japanese": "鉄下駄",
+            "english": "Jernsandaler",
+            "details": "Tunge sandaler til bentræning"
+          },
+          "tou": {
+            "name": "Tou",
+            "japanese": "籐",
+            "english": "Rørbundt",
+            "details": "Eller Jari Bako (gruskasse) til finger- og håndtræning (Nukite)"
+          }
+        }
+      },
       "anatomical-weapons-content": {
         "description": "Anatomiske våben (kropsdele brugt til angreb og forsvar).",
         "terms": {
@@ -878,25 +514,29 @@
             "japanese": "肘",
             "english": "Albue"
           },
-          "hiza": {
+          "haza": {
             "name": "Hiza",
             "japanese": "膝",
-            "english": "Knæ"
+            "english": "Knee.",
+            "details": "Knee."
           },
           "sune": {
             "name": "Sune",
             "japanese": "脛",
-            "english": "Skinneben"
+            "english": "Skinneben",
+            "details": "Shin."
           },
           "kakato": {
             "name": "Kakato",
             "japanese": "踵",
-            "english": "Hæl"
+            "english": "Hæl",
+            "details": "Heel."
           },
           "sokko": {
             "name": "Sokko (eller Haisoku)",
             "japanese": "足甲",
-            "english": "Vrist"
+            "english": "Vrist",
+            "details": "Instep."
           },
           "sokuto": {
             "name": "Sokutei eller Sokuto",
@@ -953,12 +593,6 @@
             "name": "Gi / Dogi",
             "japanese": "着 / 道着",
             "english": "Træningsuniform"
-          },
-          "kiai": {
-            "name": "Kiai",
-            "japanese": "気合",
-            "english": "Åndeskrig, energifokus",
-            "details": "Schreeuw, waarbij de kracht wordt geconcentreerd en gestuurd (letterlijk: ‘samengaan of harmonisering van levenskracht en geest’)."
           },
           "reishiki": {
             "name": "Reishiki",
@@ -1096,6 +730,12 @@
             "japanese": "後の手",
             "english": "Initiatief later nemen",
             "details": "Initiatief later nemen."
+          },
+          "kiai": {
+            "name": "Kiai",
+            "japanese": "気合",
+            "english": "Åndeskrig, energifokus",
+            "details": "Schreeuw, waarbij de kracht wordt geconcentreerd en gestuurd (letterlijk: ‘samengaan of harmonisering van levenskracht en geest’)."
           },
           "ni": {
             "name": "Ni (Ne)",
@@ -1455,51 +1095,6 @@
             "english": "Træningshal",
             "details": "Træningshal, bogstaveligt talt: 'vejens sted'"
           },
-          "onegaishimasu": {
-            "name": "Onegaishimasu",
-            "japanese": "お願いします",
-            "english": "Venligst (træn med mig / lær mig)"
-          },
-          "arigato-gozaimasu": {
-            "name": "Arigato gozaimasu",
-            "japanese": "ありがとうございます",
-            "english": "Tak (formelt)"
-          },
-          "domo-arigato-gozaimashita": {
-            "name": "Domo arigato gozaimashita",
-            "japanese": "どうもありがとうございました",
-            "english": "Mange tak (for hvad der er blevet gjort)"
-          },
-          "rei": {
-            "name": "Rei",
-            "japanese": "礼",
-            "english": "Bøjning",
-            "details": "Buig/begroet (staand, zittend)"
-          },
-          "seiza": {
-            "name": "Seiza",
-            "japanese": "正座",
-            "english": "Formel sidestilling",
-            "details": "'Ga zitten' of 'ga zitten op de knieën'. Letterlijk: 'correcte zittende houding'."
-          },
-          "mokuso": {
-            "name": "Mokuso",
-            "japanese": "黙想",
-            "english": "Meditation (stille kontemplation)",
-            "details": "Stop met al je gedachten, ledig de geest, begin de meditatie. Letterlijk: 'geen gedachten'."
-          },
-          "yame": {
-            "name": "Yame",
-            "japanese": "止め",
-            "english": "Stop",
-            "details": "Stop"
-          },
-          "hajime": {
-            "name": "Hajime",
-            "japanese": "始め",
-            "english": "Begynd",
-            "details": "Begin"
-          },
           "dojo-kun": {
             "name": "Dojo Kun",
             "japanese": "道場訓",
@@ -1536,17 +1131,35 @@
             "english": "Attentie",
             "details": "Attentie, verzamel je vitale energie (ki)"
           },
+          "seiza": {
+            "name": "Seiza",
+            "japanese": "正座",
+            "english": "Formel sidestilling",
+            "details": "'Ga zitten' of 'ga zitten op de knieën'. Letterlijk: 'correcte zittende houding'."
+          },
           "anza": {
             "name": "Anza",
             "japanese": "安座",
             "english": "Kleermakerszit",
             "details": "Zittende houding met gekruiste benen, kleermakerszit. Letterlijk: 'relaxte of vreedzame zittende houding'."
           },
+          "mokuso": {
+            "name": "Mokuso",
+            "japanese": "黙想",
+            "english": "Meditation (stille kontemplation)",
+            "details": "Stop met al je gedachten, ledig de geest, begin de meditatie. Letterlijk: 'geen gedachten'."
+          },
           "mokuso-yame": {
             "name": "Mokuso Yame",
             "japanese": "黙想止め",
             "english": "Beëindig de meditatie",
             "details": "Beëindig de meditatie"
+          },
+          "rei": {
+            "name": "Rei",
+            "japanese": "礼",
+            "english": "Bøjning",
+            "details": "Buig/begroet (staand, zittend)"
           },
           "shomen-ni-rei": {
             "name": "Shomen Ni Rei",
@@ -1613,6 +1226,18 @@
             "japanese": "用意",
             "english": "Klaar, gereed",
             "details": "Klaar, gereed"
+          },
+          "hajime": {
+            "name": "Hajime",
+            "japanese": "始め",
+            "english": "Begynd",
+            "details": "Begin"
+          },
+          "yame": {
+            "name": "Yame",
+            "japanese": "止め",
+            "english": "Stop",
+            "details": "Stop"
           },
           "kime": {
             "name": "Kime",
@@ -1792,6 +1417,189 @@
             "japanese": "上げ突き",
             "english": "Opadgående stød",
             "details": "Age Zuki (Opwaartse Stoot) is een stoot die van onder naar boven wordt afgeleverd, vaak gericht op de kin of het gezicht van de tegenstander. De stoot wordt uitgevoerd met een opwaartse beweging van de arm en kan gebruikt worden om een tegenstander die bukt te raken."
+          },
+          "choku-zuki": {
+            "name": "Choku Zuki",
+            "japanese": "直突き",
+            "english": "Straight punch.",
+            "details": "Straight punch."
+          },
+          "seiken-zuki": {
+            "name": "Seiken Zuki",
+            "japanese": "正拳突き",
+            "english": "Punch with the fist.",
+            "details": "Punch with the fist."
+          },
+          "mawashi-zuki": {
+            "name": "Mawashi Zuki",
+            "japanese": "回し突き",
+            "english": "Circular punch.",
+            "details": "Circular punch."
+          },
+          "yama-zuki": {
+            "name": "Yama Zuki",
+            "japanese": "山突き",
+            "english": "Mountain punch (double punch).",
+            "details": "Mountain punch (double punch)."
+          },
+          "morote-zuki": {
+            "name": "Morote Zuki",
+            "japanese": "諸手突き",
+            "english": "Double punch.",
+            "details": "Double punch."
+          }
+        }
+      },
+      "stances-content": {
+        "description": "Grundlæggende karate stillinger der bruges i Goju Ryu. Hver stilling har et specifikt formål og bidrager til bevægelse, forsvar og angreb.",
+        "title": "Stances",
+        "terms": {
+          "seiza": {
+            "name": "Seiza",
+            "japanese": "正座",
+            "english": "Kneeling stance (proper sitting)",
+            "details": "Seiza er den traditionelle, formelle og høflige japanske måde at sidde på gulvet, knælende. Det er en grundlæggende stilling både i karate og i japansk kultur. Denne stilling bruges til at udføre den formelle 'gulv-bøjning' kaldet zarei.",
+            "instructions": "Instruktioner: Placer dine knæ på gulvet med fødderne under dig. Sæt dig ned på dine fødder med ryggen lige. Placer dine hænder på dine lår med tommelfingrene tæt på hinanden."
+          },
+          "musubi-dachi": {
+            "name": "Musubi Dachi",
+            "japanese": "結び立",
+            "english": "Standing stance",
+            "details": "Musubi Dachi er den formelle måde at stå på i japanske kampsport og i Japan. Denne stilling er meget vigtig og bruges til at udføre den formelle respektfulde bøjning kaldet rei. Musubi Dachi og rei bør udføres før og efter opvarmning, kihon, kata, kumite eller enhver interaktion mellem mennesker.",
+            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår med fingrene rettede nedad."
+          },
+          "heisoku-dachi": {
+            "name": "Heisoku Dachi",
+            "japanese": "閉足立",
+            "english": "Closed leg stance",
+            "details": "Heisoku Dachi er den klar stilling der bruges i nogle kata. Den ligner musubi-dachi, men fødderne holdes sammen.",
+            "instructions": "Instruktioner: Stå med fødderne helt sammen og tæer pegende fremad. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår."
+          },
+          "heiko-dachi": {
+            "name": "Heiko Dachi",
+            "japanese": "平行立",
+            "english": "Parallel stance",
+            "details": "Heiko Dachi er en opmærksomheds stilling eller 'gør dig klar' stilling der bruges i nogle stile. Den udføres generelt efter bøjning (musubi-dachi), lige før kihon øvelse eller kata. Heiko Dachi er også den stilling der udføres når man lytter til instruktioner.",
+            "instructions": "Instruktioner: Stå med fødderne skulderbredde fra hinanden og tæer pegende fremad. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår med fingrene rettede nedad."
+          },
+          "hachiji-dachi": {
+            "name": "Hachiji Dachi",
+            "japanese": "八字立",
+            "english": "Natural stance",
+            "details": "Hachiji Dachi, også kendt som yoi-dachi, er en formel ventestilling der bruges i nogle karate stile. Hachiji Dachi kan også bruges efter stående bøjning eller mens man udfører tsuki. 'Yoi' stilling er ikke almindelig i okinawansk karate.",
+            "instructions": "Instruktioner: Stå med fødderne skulderbredde fra hinanden og tæer pegende udad i en 45° vinkel. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår."
+          },
+          "kiba-dachi": {
+            "name": "Kiba Dachi",
+            "japanese": "騎馬立",
+            "english": "Horse stance",
+            "details": "Kiba Dachi er en grundlæggende stilling i karate der ikke kun bruges til at øve grundlæggende slag som seiken tsuki, men som også kan integreres i selvforsvar eller kumite øvelse. Dette er en meget stærk stilling til at forsvare sig mod sideangreb. Kiba Dachi er en stilling der styrker benene, ryggen og i nogen grad, kernen.",
+            "instructions": "Instruktioner: Stå med fødderne bredt fra hinanden og tæer pegende fremad. Bøj dine knæ og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår eller i knytnæver ved dine hofter."
+          },
+          "shiko-dachi": {
+            "name": "Shiko Dachi",
+            "japanese": "四股立",
+            "english": "Horse stance, open feet",
+            "details": "Shiko Dachi, også kendt som 'firkantet stilling', er stort set det samme som Kiba Dachi men fødderne er åbne i en 45° vinkel.",
+            "instructions": "Instruktioner: Stå med fødderne bredt fra hinanden og tæer pegende udad i en 45° vinkel. Bøj dine knæ og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder ved siden af dine lår eller i knytnæver ved dine hofter."
+          },
+          "sanchin-dachi": {
+            "name": "Sanchin Dachi",
+            "japanese": "三戦立",
+            "english": "Three battle stance, hourglass stance",
+            "details": "Sanchin Dachi er en grundlæggende karate stilling der giver stor stabilitet og rodfæstelse. Flertallet af japanske stile som Shotokan bruger denne stilling kun i kata, men okinawanske stile bruger den til selvforsvar og kumite, især Naha-te stile som Goju-Ryu og Uechi-Ryu.",
+            "instructions": "Instruktioner: Stå med fødderne skulderbredde fra hinanden og tæer pegende indad. Bøj dine knæ og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter med albuerne tæt på kroppen."
+          },
+          "zenkutsu-dachi": {
+            "name": "Zenkutsu Dachi",
+            "japanese": "前屈立",
+            "english": "Front stance",
+            "details": "Zenkutsu Dachi, også kendt som forward stance, er en af de mest almindelige stillinger i karate. Det er en stilling der giver dig mulighed for at nå langt og generere en stor del af kraft ved at bevæge dig fremad. Som med de fleste stillinger har den japanske version af Zenkutsu Dachi tendens til at være meget lang og bred sammenlignet med den kortere, mere naturlige okinawanske version.",
+            "instructions": "Instruktioner: Tag et skridt fremad med din forreste fod. Bøj dit forreste knæ så det er over din forreste fod. Hold dit bagben lige og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
+          },
+          "han-zenkutsu-dachi": {
+            "name": "Han Zenkutsu Dachi",
+            "japanese": "半前屈立",
+            "english": "Half front-stance",
+            "details": "Han Zenkutsu Dachi er den kortere eller halve version af Zenkutsu Dachi. Det er en stilling der er egnet til selvforsvar og kumite eller sparring da den giver større mobilitet. Han Zenkutsu Dachi er en neutral stilling der giver dig mulighed for at bevæge dig hurtigt tilbage til den defensive Neko-ashi-dachi eller skubbe fremad til en fuld Zenkutsu Dachi eller Sanchin Dachi.",
+            "instructions": "Instruktioner: Tag et mindre skridt fremad med din forreste fod. Bøj dit forreste knæ let så det er over din forreste fod. Hold dit bagben lige og sænk din krop ned. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
+          },
+          "kokutsu-dachi": {
+            "name": "Kokutsu Dachi",
+            "japanese": "後屈立",
+            "english": "Back stance",
+            "details": "Kokutsu Dachi er en defensiv stilling der giver dig mulighed for at trække dig hurtigt tilbage eller bevæge dig bagud og modangribe. Den er fantastisk til at undvige angreb fra din modstander.",
+            "instructions": "Instruktioner: Tag et skridt bagud med din bageste fod. Bøj dit bageste knæ og sænk din krop ned. Hold dit forreste ben lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
+          },
+          "neko-ashi-dachi": {
+            "name": "Neko Ashi Dachi",
+            "japanese": "猫足立",
+            "english": "Cat stance",
+            "details": "Neko Ashi Dachi er en fantastisk defensiv stilling da det meste af vægten er på bagbenet, hvilket giver mulighed for modangreb med spark og hurtige sidevægelser. Desværre upopulær hos karateka er denne stilling perfekt egnet til både selvforsvar og kumite.",
+            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Skub din bageste fod tilbage og bøj dit bageste knæ. Hold dit forreste ben lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
+          },
+          "tsuru-ashi-dachi": {
+            "name": "Tsuru Ashi Dachi",
+            "japanese": "鶴足立",
+            "english": "Crane stance",
+            "details": "Tsuru Ashi Dachi er en stilling der bruges til at undvige angreb og til at overgå til andre teknikker.",
+            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Løft din forreste fod op og bøj dit knæ opad. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
+          },
+          "kosa-dachi": {
+            "name": "Kosa Dachi",
+            "japanese": "交差立",
+            "english": "Cross stance",
+            "details": "Krydsstillingen udføres generelt for at dreje, undvige til siden eller når man lander fra et hop.",
+            "instructions": "Instruktioner: Stå med fødderne sammen og tæer pegende fremad. Kryds din forreste fod over din bageste fod. Hold ryggen lige og hovedet højt. Placer dine hænder i knytnæver ved dine hofter."
+          },
+          "heishugata-sanchin-dachi": {
+            "name": "Heishugata Sanchin Dachi",
+            "japanese": "閉手形三戦立",
+            "english": "Lukket hånd Sanchin",
+            "details": "Sanchin stilling med tæerne pegende lidt indad, bogstaveligt: lukket hånd tre kampe stilling"
+          },
+          "kaishugata-sanchin-dachi": {
+            "name": "Kaishugata Sanchin Dachi",
+            "japanese": "開手形三戦立",
+            "english": "Åben hånd Sanchin",
+            "details": "Sanchin stilling med fødderne lige frem, bogstaveligt: åben hånd tre kampe stilling"
+          },
+          "hikui-zenkutsu-dachi": {
+            "name": "Hikui Zenkutsu Dachi",
+            "japanese": "低前屈立",
+            "english": "Dyb forlæns stilling",
+            "details": "Dyb forlæns stilling (som i Kururunfa)"
+          },
+          "sagi-ashi-dachi": {
+            "name": "Sagi Ashi Dachi",
+            "japanese": "鷺足立",
+            "english": "Hejrestilling",
+            "details": "Hejrestilling (som i Saifa)"
+          },
+          "renoji-dachi": {
+            "name": "Renoji Dachi",
+            "japanese": "レの字立",
+            "english": "L-stilling",
+            "details": "L-stilling (som i Seiyunchin og Sepai)"
+          },
+          "bensoku-dachi": {
+            "name": "Bensoku Dachi",
+            "japanese": "弁足立",
+            "english": "Saksestilling",
+            "details": "Saksestilling (som i Seiyunchin og Sepai)"
+          },
+          "kokotsu-dachi-alt": {
+            "name": "Kokotsu Dachi",
+            "japanese": "後屈立",
+            "english": "Back stance (alt).",
+            "details": "Back stance (alt)."
+          },
+          "koshi-dachi": {
+            "name": "Koshi Dachi",
+            "japanese": "腰立",
+            "english": "Hugstilling",
+            "details": "Hugstilling (som i Kururunfa)",
+            "instructions": "Dyb hugposition"
           }
         }
       },
@@ -1834,406 +1642,6 @@
             "japanese": "貫手",
             "english": "Spydhåndslag",
             "details": "Nukite (Speer Hand Slag) wordt uitgevoerd met gestrekte vingers die samen zijn gehouden, waarbij de vingertoppen het doel raken. Het is een stekende techniek die effectief is voor het raken van zachte doelen zoals de ogen, keel, of zonnevlecht. Deze techniek vereist precisie en controle."
-          }
-        }
-      },
-      "vital-points-content": {
-        "description": "Termer for nogle vitale punkter (Kyusho) der sigtes efter i karate.",
-        "terms": {
-          "jinchu": {
-            "name": "Jinchu",
-            "japanese": "人中",
-            "english": "Philtrum (næsebund)"
-          },
-          "kasumi": {
-            "name": "Kasumi",
-            "japanese": "霞",
-            "english": "Tinding"
-          },
-          "suigetsu": {
-            "name": "Suigetsu",
-            "japanese": "水月",
-            "english": "Solar plexus"
-          },
-          "kinteki": {
-            "name": "Kinteki",
-            "japanese": "金的",
-            "english": "Skridt"
-          },
-          "dokko": {
-            "name": "Dokko",
-            "japanese": "独鈷",
-            "english": "Mastoid proces (bag øret)"
-          },
-          "nodo": {
-            "name": "Nodo",
-            "japanese": "喉",
-            "english": "Hals"
-          }
-        }
-      },
-      "common-content": {
-        "description": "Almindelige termer der bruges i karate træning.",
-        "terms": {
-          "dojo": {
-            "name": "Dojo",
-            "japanese": "道場",
-            "english": "Træningshal, vejens sted"
-          },
-          "sensei": {
-            "name": "Sensei",
-            "japanese": "先生",
-            "english": "Lærer, instruktør (en der er gået før)"
-          },
-          "sempai": {
-            "name": "Sempai",
-            "japanese": "先輩",
-            "english": "Senior studerende"
-          },
-          "kohai": {
-            "name": "Kohai",
-            "japanese": "後輩",
-            "english": "Junior studerende"
-          },
-          "obi": {
-            "name": "Obi",
-            "japanese": "帯",
-            "english": "Bælte"
-          },
-          "gi": {
-            "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
-            "english": "Træningsuniform"
-          },
-          "kiai": {
-            "name": "Kiai",
-            "japanese": "気合",
-            "english": "Åndeskrig, energifokus"
-          },
-          "reishiki": {
-            "name": "Reishiki",
-            "japanese": "礼式",
-            "english": "Etikette, manerer"
-          }
-        }
-      },
-      "body-parts-content": {
-        "description": "Termer for kropsdele der almindeligvis refereres til i karate.",
-        "terms": {
-          "ashi": {
-            "name": "Ashi",
-            "japanese": "足",
-            "english": "Fod/Ben"
-          },
-          "te": {
-            "name": "Te",
-            "japanese": "手",
-            "english": "Hånd"
-          },
-          "hiji": {
-            "name": "Hiji",
-            "japanese": "肘",
-            "english": "Albue"
-          },
-          "hiza": {
-            "name": "Hiza",
-            "japanese": "膝",
-            "english": "Knæ"
-          },
-          "atama": {
-            "name": "Atama",
-            "japanese": "頭",
-            "english": "Hoved"
-          },
-          "kata": {
-            "name": "Kata",
-            "japanese": "肩",
-            "english": "Skulder"
-          },
-          "mune": {
-            "name": "Mune",
-            "japanese": "胸",
-            "english": "Bryst"
-          },
-          "hara": {
-            "name": "Hara",
-            "japanese": "腹",
-            "english": "Mave/Mave"
-          }
-        }
-      },
-      "commands-content": {
-        "description": "Almindelige kommandoer der bruges i karate træning.",
-        "terms": {
-          "hajime": {
-            "name": "Hajime",
-            "japanese": "始め",
-            "english": "Begynd"
-          },
-          "yame": {
-            "name": "Yame",
-            "japanese": "止め",
-            "english": "Stop"
-          },
-          "yasume": {
-            "name": "Yasume",
-            "japanese": "休め",
-            "english": "Hvile/afslappet"
-          },
-          "naore": {
-            "name": "Naore",
-            "japanese": "直れ",
-            "english": "Returner til klar stilling"
-          },
-          "mokuso": {
-            "name": "Mokuso",
-            "japanese": "黙想",
-            "english": "Meditation"
-          },
-          "mokuso-yame": {
-            "name": "Mokuso Yame",
-            "japanese": "黙想止め",
-            "english": "Slut meditation"
-          },
-          "rei": {
-            "name": "Rei",
-            "japanese": "礼",
-            "english": "Bøjning"
-          },
-          "seiza": {
-            "name": "Seiza",
-            "japanese": "正座",
-            "english": "Formel sidestilling"
-          }
-        }
-      },
-      "ranks-content": {
-        "description": "Termer relateret til karate rangeringer og gradering.",
-        "terms": {
-          "kyu": {
-            "name": "Kyu",
-            "japanese": "級",
-            "english": "Rang (farvede bælter, under sort bælte)"
-          },
-          "dan": {
-            "name": "Dan",
-            "japanese": "段",
-            "english": "Niveau (sort bælte rangeringer)"
-          },
-          "shodan": {
-            "name": "Shodan",
-            "japanese": "初段",
-            "english": "Første niveau sort bælte"
-          },
-          "nidan": {
-            "name": "Nidan",
-            "japanese": "二段",
-            "english": "Andet niveau sort bælte"
-          },
-          "sandan": {
-            "name": "Sandan",
-            "japanese": "三段",
-            "english": "Tredje niveau sort bælte"
-          },
-          "yondan": {
-            "name": "Yondan",
-            "japanese": "四段",
-            "english": "Fjerde niveau sort bælte"
-          },
-          "godan": {
-            "name": "Godan",
-            "japanese": "五段",
-            "english": "Femte niveau sort bælte"
-          }
-        }
-      },
-      "weapons-content": {
-        "description": "Termer relateret til traditionelle okinawanske våben.",
-        "terms": {
-          "bo": {
-            "name": "Bo",
-            "japanese": "棒",
-            "english": "Lang stav (ca. 6 ft)"
-          },
-          "sai": {
-            "name": "Sai",
-            "japanese": "釵",
-            "english": "Tretandet truncheon"
-          },
-          "tonfa": {
-            "name": "Tonfa",
-            "japanese": "トンファー",
-            "english": "Sidehåndtaget baton"
-          },
-          "nunchaku": {
-            "name": "Nunchaku",
-            "japanese": "ヌンチャク",
-            "english": "Flail (to sektioner forbundet med kæde/reb)"
-          },
-          "kama": {
-            "name": "Kama",
-            "japanese": "鎌",
-            "english": "Segl"
-          },
-          "tekko": {
-            "name": "Tekko",
-            "japanese": "鉄甲",
-            "english": "Knytnævebeskytter"
-          }
-        }
-      },
-      "concepts-content": {
-        "description": "Vigtige koncepter og principper i karate.",
-        "terms": {
-          "kime": {
-            "name": "Kime",
-            "japanese": "決め",
-            "english": "Fokus af kraft, beslutning"
-          },
-          "zanshin": {
-            "name": "Zanshin",
-            "japanese": "残心",
-            "english": "Blivende sind/bevidsthed efter teknik"
-          },
-          "mushin": {
-            "name": "Mushin",
-            "japanese": "無心",
-            "english": "Intet sind, tilstand af mental klarhed"
-          },
-          "kokyu": {
-            "name": "Kokyu",
-            "japanese": "呼吸",
-            "english": "Åndedræt"
-          },
-          "ki": {
-            "name": "Ki",
-            "japanese": "気",
-            "english": "Energi, ånd, livskraft"
-          },
-          "ma-ai": {
-            "name": "Ma-ai",
-            "japanese": "間合",
-            "english": "Afstand, timing"
-          },
-          "hyoshi": {
-            "name": "Hyoshi",
-            "japanese": "拍子",
-            "english": "Rytme, timing"
-          }
-        }
-      },
-      "kata-specific-content": {
-        "description": "Termer specifikke for kata praksis og præsentation.",
-        "terms": {
-          "embusen": {
-            "name": "Embusen",
-            "japanese": "演武線",
-            "english": "Præsentationslinje/mønster af en kata"
-          },
-          "bunkai": {
-            "name": "Bunkai",
-            "japanese": "分解",
-            "english": "Analyse, anvendelse af kata"
-          },
-          "oyo": {
-            "name": "Oyo",
-            "japanese": "応用",
-            "english": "Anvendelse, praktisk brug"
-          },
-          "henka": {
-            "name": "Henka",
-            "japanese": "変化",
-            "english": "Variation, modificering"
-          },
-          "kakie": {
-            "name": "Kakie",
-            "japanese": "掛け合い",
-            "english": "Skubbe hænder, følsomhedstræning"
-          },
-          "koryu": {
-            "name": "Koryu",
-            "japanese": "古流",
-            "english": "Gammel stil/skole (henviser til klassisk kata)"
-          }
-        }
-      },
-      "kumite-content": {
-        "description": "Termer relateret til sparring og kamp.",
-        "terms": {
-          "kumite": {
-            "name": "Kumite",
-            "japanese": "組手",
-            "english": "Sparring, gribende hænder"
-          },
-          "ippon": {
-            "name": "Ippon",
-            "japanese": "一本",
-            "english": "Et point"
-          },
-          "waza-ari": {
-            "name": "Waza-ari",
-            "japanese": "技あり",
-            "english": "Halvt point"
-          },
-          "aiuchi": {
-            "name": "Aiuchi",
-            "japanese": "相打ち",
-            "english": "Samtidige point"
-          },
-          "hikiwake": {
-            "name": "Hikiwake",
-            "japanese": "引き分け",
-            "english": "Uafgjort"
-          },
-          "hansoku": {
-            "name": "Hansoku",
-            "japanese": "反則",
-            "english": "Foul"
-          },
-          "shiai": {
-            "name": "Shiai",
-            "japanese": "試合",
-            "english": "Kamp, konkurrence"
-          }
-        }
-      },
-      "dojo-content": {
-        "description": "Termer relateret til dojoen og træningsmiljøet.",
-        "terms": {
-          "dojo": {
-            "name": "Dojo",
-            "japanese": "道場",
-            "english": "Træningshal, vejens sted"
-          },
-          "kamiza": {
-            "name": "Kamiza",
-            "japanese": "上座",
-            "english": "Øverste sæde, foran i dojoen"
-          },
-          "shimoza": {
-            "name": "Shimoza",
-            "japanese": "下座",
-            "english": "Nederste sæde, bag i dojoen"
-          },
-          "joseki": {
-            "name": "Joseki",
-            "japanese": "上席",
-            "english": "Øverste side, højre side af dojoen"
-          },
-          "shimoseki": {
-            "name": "Shimoseki",
-            "japanese": "下席",
-            "english": "Nederste side, venstre side af dojoen"
-          },
-          "shomen": {
-            "name": "Shomen",
-            "japanese": "正面",
-            "english": "Front, hovedvæg i dojoen"
-          },
-          "tatami": {
-            "name": "Tatami",
-            "japanese": "畳",
-            "english": "Traditionel japansk gulvmåtte"
           }
         }
       },
@@ -2391,10 +1799,20 @@
           "hiki-waza": "Hiki Waza - Trækketeknikker",
           "oshi-waza": "Oshi Waza - Skubbeteknikker",
           "hazusu-waza": "Hazusu Waza - Frigørelsesteknikker",
-          "ukemi-waza": "Ukemi Waza - Faldteknikker",
+          "ukemi-waza": {
+            "name": "Ukemi Waza",
+            "japanese": "受身技",
+            "english": "Breakfall techniques.",
+            "details": "Breakfall techniques."
+          },
           "renraku-waza": "Renraku Waza - Kombinationsteknikker",
           "osae-waza": "Osae Waza - Fasttholdelsesteknikker",
-          "nage-waza": "Nage Waza - Kasteteknikker",
+          "nage-waza": {
+            "name": "Nage Waza",
+            "japanese": "投げ技",
+            "english": "Throwing techniques.",
+            "details": "Throwing techniques."
+          },
           "ashi-nage": "Ashi Nage - Benkast",
           "koshi-nage": "Koshi Nage - Hoftekast",
           "kata-nage": "Kata Nage - Skulderkast",
@@ -2406,7 +1824,12 @@
           "ashi-barai": "Ashi Barai - Fodfejning",
           "ashi-basami": "Ashi Basami - Bensaks",
           "ashi-dori": "Ashi Dori - Bengreb",
-          "kansetsu-waza": "Kansetsu Waza - Ledlåse",
+          "kansetsu-waza": {
+            "name": "Kansetsu Waza",
+            "japanese": "関節技",
+            "english": "Joint locking techniques.",
+            "details": "Joint locking techniques."
+          },
           "yubi-kansetsu": "Yubi Kansetsu - Fingerlåse",
           "kubi-kansetsu": "Kubi Kansetsu - Håndledslåse",
           "hiji-kansetsu": "Hiji Kansetsu - Albuelåse",
@@ -2422,10 +1845,526 @@
           "ashi-jime": "Ashi Jime - Benkvælning"
         }
       },
-      "hojo-undo": "Hojo Undo (Krachttraining)",
-      "movement": "Verplaatsingen & Houdingen",
-      "anatomical": "Anatomische Wapens",
-      "grappling": "Worsteltechnieken",
+      "vital-points-content": {
+        "description": "Termer for nogle vitale punkter (Kyusho) der sigtes efter i karate.",
+        "terms": {
+          "jinchu": {
+            "name": "Jinchu",
+            "japanese": "人中",
+            "english": "Philtrum (næsebund)"
+          },
+          "kasumi": {
+            "name": "Kasumi",
+            "japanese": "霞",
+            "english": "Tinding"
+          },
+          "suigetsu": {
+            "name": "Suigetsu",
+            "japanese": "水月",
+            "english": "Solar plexus"
+          },
+          "kinteki": {
+            "name": "Kinteki",
+            "japanese": "金的",
+            "english": "Skridt"
+          },
+          "dokko": {
+            "name": "Dokko",
+            "japanese": "独鈷",
+            "english": "Mastoid proces (bag øret)"
+          },
+          "nodo": {
+            "name": "Nodo",
+            "japanese": "喉",
+            "english": "Hals"
+          }
+        }
+      },
+      "blocks-content": {
+        "description": "Almindelige defensive teknikker der bruges til at blokere eller afværge angreb. Klik 'Se' for en demonstration hvis tilgængelig.",
+        "basicBlocksTitle": "Grundlæggende Blokeringer",
+        "advancedBlocksTitle": "Avancerede Blokeringer",
+        "videoNotAvailableDescription": "En videodemonstration for denne teknik er ikke tilgængelig i øjeblikket.",
+        "videoLoadError": "Kunne ikke indlæse video for '{{file}}'. Tjek venligst at filen findes i public/video/blocks/.",
+        "selectVideoTitle": "Vælg en teknik at se",
+        "terms": {
+          "harai": {
+            "name": "Harai / Barai",
+            "japanese": "払い",
+            "english": "Fejende blokering"
+          },
+          "jodan-age-uke": {
+            "name": "Jodan Age Uke",
+            "japanese": "上げ受け",
+            "english": "Høj opadgående blokering",
+            "details": "En opadgående blok der bruges til at afværge angreb mod hovedet og overkroppen.",
+            "videoFile": "age-uke"
+          },
+          "jodan-soto-uke": {
+            "name": "Jodan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Høj udvendig blokering",
+            "details": "En blok der bevæger sig fra udsiden mod indsiden for at afværge angreb.",
+            "videoFile": "soto-uke"
+          },
+          "jodan-uchi-uke": {
+            "name": "Jodan Uchi (Yoko) Uke",
+            "japanese": "内受け",
+            "english": "Høj indvendig blokering",
+            "details": "Jodan Uchi Uke er en indefra-og-ud blokering der bruges til at afværge høje angreb indefra."
+          },
+          "chudan-soto-uke": {
+            "name": "Chudan Soto (Yoko) Uke",
+            "japanese": "外受け",
+            "english": "Mellem udvendig blokering"
+          },
+          "chudan-uchi-uke": {
+            "name": "Chudan Uchi Uke",
+            "japanese": "内受け",
+            "english": "Mellem indvendig blokering",
+            "details": "En blok der bevæger sig fra indsiden mod udsiden for at afværge angreb.",
+            "videoFile": "uchi-uke"
+          },
+          "gedan-uke": {
+            "name": "Gedan (Harai) Uke / Gedan Barai",
+            "japanese": "下段払い",
+            "english": "Lav (fejende) blokering",
+            "details": "En nedadgående fejeblok der bruges til at afværge lave angreb og spark.",
+            "videoFile": "gedan-barai"
+          },
+          "uchi-gedan-barai": {
+            "name": "Uchi Gedan Barai",
+            "japanese": "内下段払い",
+            "english": "Lav fejende blokering indefra"
+          },
+          "shotei-gedan-harai": {
+            "name": "Shotei Gedan Harai",
+            "japanese": "掌底下段払い",
+            "english": "Lav fejende blokering med håndfladen"
+          },
+          "morote-uke": {
+            "name": "Morote Uke",
+            "japanese": "諸手受け",
+            "english": "Dobbelt mellem sideblokering"
+          },
+          "kosa-uke": {
+            "name": "Kosa Uke",
+            "japanese": "交差受け",
+            "english": "Krydsblokering",
+            "details": "En krydsblok der bruger begge arme til at afværge angreb."
+          },
+          "hiki-uke": {
+            "name": "Hiki Uke",
+            "japanese": "引き受け",
+            "english": "Trækkende blokering"
+          },
+          "ura-hiki-uke": {
+            "name": "Ura Hiki Uke",
+            "japanese": "裏引き受け",
+            "english": "Omvendt trækkende blokering"
+          },
+          "ura-kake-uke": {
+            "name": "Ura Kake Uke",
+            "japanese": "裏掛け受け",
+            "english": "Omvendt krogblokering"
+          },
+          "morote-hiki-uke": {
+            "name": "Morote Hiki Uke",
+            "japanese": "諸手引き受け",
+            "english": "Dobbelt trækkende blokering"
+          },
+          "kake-uke": {
+            "name": "Kake Uke",
+            "japanese": "掛け受け",
+            "english": "Krogblokering"
+          },
+          "uchi-kake-uke": {
+            "name": "Uchi Kake Uke",
+            "japanese": "内掛け受け",
+            "english": "Indvendig krogblokering"
+          },
+          "shotei-uke": {
+            "name": "Shotei Uke",
+            "japanese": "掌底受け",
+            "english": "Sideblokering med håndfladen"
+          },
+          "otoshi-uke": {
+            "name": "Otoshi Uke",
+            "japanese": "落とし受け",
+            "english": "Nedadgående blokering"
+          },
+          "nagashi-uke": {
+            "name": "Nagashi Uke",
+            "japanese": "流し受け",
+            "english": "Flydende/fejende blokering"
+          },
+          "osae-uke": {
+            "name": "Osae Uke",
+            "japanese": "押さえ受け",
+            "english": "Presseblokering",
+            "details": "En trykblok der bruger pres til at afværge og kontrollere angreb."
+          },
+          "morote-osae-uke": {
+            "name": "Morote Osae Uke",
+            "japanese": "諸手押さえ受け",
+            "english": "Dobbelt presseblokering"
+          },
+          "sukui-uke": {
+            "name": "Sukui Uke",
+            "japanese": "掬い受け",
+            "english": "Ske-blokering"
+          },
+          "jodan-ko-uke": {
+            "name": "Jodan Ko Uke",
+            "japanese": "上段弧受け",
+            "english": "Høj håndledsblokering"
+          },
+          "yoko-ko-uke": {
+            "name": "Yoko Ko Uke",
+            "japanese": "横弧受け",
+            "english": "Side håndledsblokering"
+          },
+          "hiji-uke": {
+            "name": "Hiji Uke",
+            "japanese": "肘受け",
+            "english": "Albueblokering",
+            "details": "En blok der bruger albuen til at afværge angreb."
+          },
+          "tora-guchi": {
+            "name": "Tora Guchi",
+            "japanese": "虎口",
+            "english": "Tigermund"
+          },
+          "mawashi-uke": {
+            "name": "Mawashi Uke",
+            "japanese": "回し受け",
+            "english": "Cirkelblokering"
+          },
+          "hojo-uke": {
+            "name": "Hojo Uke",
+            "japanese": "補助受け",
+            "english": "Assisteret blokering"
+          },
+          "doji-uke": {
+            "name": "Doji Uke",
+            "japanese": "同時受け",
+            "english": "Samtidig blokering"
+          },
+          "kuri-uke": {
+            "name": "Kuri Uke",
+            "japanese": "繰り受け",
+            "english": "Albue-cirkelblokering"
+          },
+          "hari-uke": {
+            "name": "Hari Uke",
+            "japanese": "弓受け",
+            "english": "Bue og pil-blokering"
+          },
+          "hiza-uchi-uke": {
+            "name": "Hiza Uchi Uke",
+            "japanese": "膝内受け",
+            "english": "Indvendig knæblokering"
+          },
+          "hiza-soto-uke": {
+            "name": "Hiza Soto Uke",
+            "japanese": "膝外受け",
+            "english": "Udvendig knæblokering"
+          },
+          "juji-uke": {
+            "name": "Juji Uke",
+            "japanese": "十字受け",
+            "english": "X-Block",
+            "details": "En X-formet blok der bruger begge arme i et krydsmønster."
+          },
+          "haiwan-uke": {
+            "name": "Haiwan Uke",
+            "japanese": "背腕受け",
+            "english": "Back Arm Block",
+            "details": "En blok der bruger bagarmen til at afværge angreb."
+          },
+          "shuto-uke": {
+            "name": "Shuto Uke",
+            "japanese": "手刀受け",
+            "english": "Knife Hand Block",
+            "details": "En blok der bruger håndkanten som et knivblad til at afværge angreb."
+          }
+        }
+      },
+      "commands-content": {
+        "description": "Almindelige kommandoer der bruges i karate træning.",
+        "terms": {
+          "hajime": {
+            "name": "Hajime",
+            "japanese": "始め",
+            "english": "Begynd"
+          },
+          "yame": {
+            "name": "Yame",
+            "japanese": "止め",
+            "english": "Stop"
+          },
+          "yasume": {
+            "name": "Yasume",
+            "japanese": "休め",
+            "english": "Hvile/afslappet"
+          },
+          "naore": {
+            "name": "Naore",
+            "japanese": "直れ",
+            "english": "Returner til klar stilling"
+          },
+          "mokuso": {
+            "name": "Mokuso",
+            "japanese": "黙想",
+            "english": "Meditation"
+          },
+          "mokuso-yame": {
+            "name": "Mokuso Yame",
+            "japanese": "黙想止め",
+            "english": "Slut meditation"
+          },
+          "rei": {
+            "name": "Rei",
+            "japanese": "礼",
+            "english": "Bøjning"
+          },
+          "seiza": {
+            "name": "Seiza",
+            "japanese": "正座",
+            "english": "Formel sidestilling"
+          }
+        }
+      },
+      "ranks-content": {
+        "description": "Termer relateret til karate rangeringer og gradering.",
+        "terms": {
+          "kyu": {
+            "name": "Kyu",
+            "japanese": "級",
+            "english": "Rang (farvede bælter, under sort bælte)"
+          },
+          "dan": {
+            "name": "Dan",
+            "japanese": "段",
+            "english": "Niveau (sort bælte rangeringer)"
+          },
+          "shodan": {
+            "name": "Shodan",
+            "japanese": "初段",
+            "english": "Første niveau sort bælte"
+          },
+          "nidan": {
+            "name": "Nidan",
+            "japanese": "二段",
+            "english": "Andet niveau sort bælte"
+          },
+          "sandan": {
+            "name": "Sandan",
+            "japanese": "三段",
+            "english": "Tredje niveau sort bælte"
+          },
+          "yondan": {
+            "name": "Yondan",
+            "japanese": "四段",
+            "english": "Fjerde niveau sort bælte"
+          },
+          "godan": {
+            "name": "Godan",
+            "japanese": "五段",
+            "english": "Femte niveau sort bælte"
+          }
+        }
+      },
+      "weapons-content": {
+        "description": "Termer relateret til traditionelle okinawanske våben.",
+        "terms": {
+          "bo": {
+            "name": "Bo",
+            "japanese": "棒",
+            "english": "Lang stav (ca. 6 ft)"
+          },
+          "sai": {
+            "name": "Sai",
+            "japanese": "釵",
+            "english": "Tretandet truncheon"
+          },
+          "tonfa": {
+            "name": "Tonfa",
+            "japanese": "トンファー",
+            "english": "Sidehåndtaget baton"
+          },
+          "nunchaku": {
+            "name": "Nunchaku",
+            "japanese": "ヌンチャク",
+            "english": "Flail (to sektioner forbundet med kæde/reb)"
+          },
+          "kama": {
+            "name": "Kama",
+            "japanese": "鎌",
+            "english": "Segl"
+          },
+          "tekko": {
+            "name": "Tekko",
+            "japanese": "鉄甲",
+            "english": "Knytnævebeskytter"
+          }
+        }
+      },
+      "concepts-content": {
+        "description": "Vigtige koncepter og principper i karate.",
+        "terms": {
+          "zanshin": {
+            "name": "Zanshin",
+            "japanese": "残心",
+            "english": "Blivende sind/bevidsthed efter teknik"
+          },
+          "mushin": {
+            "name": "Mushin",
+            "japanese": "無心",
+            "english": "Intet sind, tilstand af mental klarhed"
+          },
+          "kokyu": {
+            "name": "Kokyu",
+            "japanese": "呼吸",
+            "english": "Åndedræt"
+          },
+          "ki": {
+            "name": "Ki",
+            "japanese": "気",
+            "english": "Energi, ånd, livskraft"
+          },
+          "ma-ai": {
+            "name": "Ma-ai",
+            "japanese": "間合",
+            "english": "Afstand, timing"
+          },
+          "hyoshi": {
+            "name": "Hyoshi",
+            "japanese": "拍子",
+            "english": "Rytme, timing"
+          },
+          "kime": {
+            "name": "Kime",
+            "japanese": "決め",
+            "english": "Fokus af kraft, beslutning"
+          }
+        }
+      },
+      "kata-specific-content": {
+        "description": "Termer specifikke for kata praksis og præsentation.",
+        "terms": {
+          "embusen": {
+            "name": "Embusen",
+            "japanese": "演武線",
+            "english": "Præsentationslinje/mønster af en kata"
+          },
+          "bunkai": {
+            "name": "Bunkai",
+            "japanese": "分解",
+            "english": "Analyse, anvendelse af kata"
+          },
+          "oyo": {
+            "name": "Oyo",
+            "japanese": "応用",
+            "english": "Anvendelse, praktisk brug"
+          },
+          "henka": {
+            "name": "Henka",
+            "japanese": "変化",
+            "english": "Variation, modificering"
+          },
+          "kakie": {
+            "name": "Kakie",
+            "japanese": "掛け合い",
+            "english": "Skubbe hænder, følsomhedstræning"
+          },
+          "koryu": {
+            "name": "Koryu",
+            "japanese": "古流",
+            "english": "Gammel stil/skole (henviser til klassisk kata)"
+          }
+        }
+      },
+      "kumite-content": {
+        "description": "Termer relateret til sparring og kamp.",
+        "terms": {
+          "kumite": {
+            "name": "Kumite",
+            "japanese": "組手",
+            "english": "Sparring, gribende hænder"
+          },
+          "ippon": {
+            "name": "Ippon",
+            "japanese": "一本",
+            "english": "Et point"
+          },
+          "waza-ari": {
+            "name": "Waza-ari",
+            "japanese": "技あり",
+            "english": "Halvt point"
+          },
+          "aiuchi": {
+            "name": "Aiuchi",
+            "japanese": "相打ち",
+            "english": "Samtidige point"
+          },
+          "hikiwake": {
+            "name": "Hikiwake",
+            "japanese": "引き分け",
+            "english": "Uafgjort"
+          },
+          "hansoku": {
+            "name": "Hansoku",
+            "japanese": "反則",
+            "english": "Foul"
+          },
+          "shiai": {
+            "name": "Shiai",
+            "japanese": "試合",
+            "english": "Kamp, konkurrence"
+          }
+        }
+      },
+      "dojo-content": {
+        "description": "Termer relateret til dojoen og træningsmiljøet.",
+        "terms": {
+          "dojo": {
+            "name": "Dojo",
+            "japanese": "道場",
+            "english": "Træningshal, vejens sted"
+          },
+          "kamiza": {
+            "name": "Kamiza",
+            "japanese": "上座",
+            "english": "Øverste sæde, foran i dojoen"
+          },
+          "shimoza": {
+            "name": "Shimoza",
+            "japanese": "下座",
+            "english": "Nederste sæde, bag i dojoen"
+          },
+          "joseki": {
+            "name": "Joseki",
+            "japanese": "上席",
+            "english": "Øverste side, højre side af dojoen"
+          },
+          "shimoseki": {
+            "name": "Shimoseki",
+            "japanese": "下席",
+            "english": "Nederste side, venstre side af dojoen"
+          },
+          "shomen": {
+            "name": "Shomen",
+            "japanese": "正面",
+            "english": "Front, hovedvæg i dojoen"
+          },
+          "tatami": {
+            "name": "Tatami",
+            "japanese": "畳",
+            "english": "Traditionel japansk gulvmåtte"
+          }
+        }
+      },
       "warmup-content": {
         "description": "Grundlæggende opvarmningsøvelser og forberedende teknikker.",
         "title": "Opvarmning",
@@ -2453,6 +2392,95 @@
             "japanese": "体操",
             "english": "Gymnastik",
             "details": "Taiso (Gymnastik) er generelle kropsbevægelser, der udvikler fleksibilitet, styrke og udholdenhed. Disse øvelser omfatter armbøjninger, mavebøjninger, knæbøjninger og andre grundlæggende fitnessøvelser. De udgør en vigtig del af karatetæningen og hjælper med at opbygge et stærkt fysisk fundament."
+          }
+        }
+      },
+      "common-content": {
+        "description": "Almindelige termer der bruges i karate træning.",
+        "terms": {
+          "dojo": {
+            "name": "Dojo",
+            "japanese": "道場",
+            "english": "Træningshal, vejens sted"
+          },
+          "sensei": {
+            "name": "Sensei",
+            "japanese": "先生",
+            "english": "Lærer, instruktør (en der er gået før)"
+          },
+          "sempai": {
+            "name": "Sempai",
+            "japanese": "先輩",
+            "english": "Senior studerende"
+          },
+          "kohai": {
+            "name": "Kohai",
+            "japanese": "後輩",
+            "english": "Junior studerende"
+          },
+          "obi": {
+            "name": "Obi",
+            "japanese": "帯",
+            "english": "Bælte"
+          },
+          "gi": {
+            "name": "Gi / Dogi",
+            "japanese": "着 / 道着",
+            "english": "Træningsuniform"
+          },
+          "kiai": {
+            "name": "Kiai",
+            "japanese": "気合",
+            "english": "Åndeskrig, energifokus"
+          },
+          "reishiki": {
+            "name": "Reishiki",
+            "japanese": "礼式",
+            "english": "Etikette, manerer"
+          }
+        }
+      },
+      "body-parts-content": {
+        "description": "Termer for kropsdele der almindeligvis refereres til i karate.",
+        "terms": {
+          "ashi": {
+            "name": "Ashi",
+            "japanese": "足",
+            "english": "Fod/Ben"
+          },
+          "te": {
+            "name": "Te",
+            "japanese": "手",
+            "english": "Hånd"
+          },
+          "hiji": {
+            "name": "Hiji",
+            "japanese": "肘",
+            "english": "Albue"
+          },
+          "hiza": {
+            "name": "Hiza",
+            "japanese": "膝"
+          },
+          "atama": {
+            "name": "Atama",
+            "japanese": "頭",
+            "english": "Hoved"
+          },
+          "kata": {
+            "name": "Kata",
+            "japanese": "肩",
+            "english": "Skulder"
+          },
+          "mune": {
+            "name": "Mune",
+            "japanese": "胸",
+            "english": "Bryst"
+          },
+          "hara": {
+            "name": "Hara",
+            "japanese": "腹",
+            "english": "Mave/Mave"
           }
         }
       },
@@ -2518,6 +2546,7 @@
       }
     },
     "noTermsAvailable": "Ingen termer tilgængelige for denne sektion.",
+    "blockNotFound": "Teknik ikke fundet.",
     "warmup": {
       "title": "Træning & Opvarmning",
       "description": "Forberedende øvelser og traditionel træning",

@@ -1,6 +1,39 @@
 {
   "title": "Hojo Undo (補助運動)",
   "description": "Entrenamiento de fuerza tradicional del Goju-ryu Karate-do",
+  "common": {
+    "back": "Atrás",
+    "mainFunctions": "Funciones Principales",
+    "trainingEffects": "Efectos del Entrenamiento",
+    "dimensions": "Dimensiones",
+    "materials": "Materiales",
+    "weightRecommendations": "Recomendaciones de Peso",
+    "importantPoints": "Puntos Importantes",
+    "breathingTechniques": "Técnicas de Respiración",
+    "safetyGuidelines": "Pautas de Seguridad",
+    "basicSeries": "Serie Básica",
+    "advancedExercises": "Ejercicios Avanzados",
+    "practicalTips": "Consejos Prácticos",
+    "exercises": "Ejercicios",
+    "origin": "Origen",
+    "weight": "Peso",
+    "relatedSections": "Secciones Relacionadas",
+    "quickAccess": "Acceso Rápido",
+    "viewCompleteOverview": "Ver Resumen Completo",
+    "learnFundamentals": "Aprender los fundamentos",
+    "understandingPurpose": "Entender propósito y función",
+    "buildMaintain": "Construir y mantener equipo",
+    "safetyTechnique": "Enfoque en seguridad y técnica",
+    "specificExercises": "Ejercicios y rutinas específicas",
+    "traditionalStrengthTraining": "Entrenamiento de Fuerza Tradicional"
+  },
+  "categories": {
+    "introduction": "Introducción",
+    "primaryEquipment": "Equipo Principal"
+  },
+  "sections": {
+    "trainingSections": "Secciones de Entrenamiento"
+  },
   "introduction": {
     "title": "Introducción",
     "whatIs": "¿Qué es Hojo Undo?",
@@ -90,7 +123,8 @@
           "Fortalece músculos del antebrazo y mano",
           "Apoya la estabilidad de la muñeca en técnicas de puñetazo y golpe",
           "Fortalece el agarre para técnicas de combate cercano",
-          "Desarrolla fuerza muchimi y chinkuchi kakin"
+          "Desarrolla fuerza muchimi y chinkuchi kakin",
+          "Desarrolla la potencia chinkuchi kakin mediante el agarre al final de los movimientos"
         ],
         "trainingEffects": [
           "Mejor estabilidad de muñeca",
@@ -136,7 +170,10 @@
           "'Tensa el latissimus dorsi'",
           "'Tensa la muñeca'",
           "'Agarra firmemente'",
-          "'Respira desde el tanden'"
+          "'Respira desde el tanden'",
+          "Combina la fuerza muscular externa y la potencia interna de la respiraci?n",
+          "Practica el lado d?bil con m?s frecuencia",
+          "Practica golpes r?pidos despu?s de una serie de ejercicios para evitar volverte lento"
         ],
         "breathingTechniques": {
           "slow": "Respiración sanchin con sonidos H(u)ah y Hatt",
@@ -172,14 +209,8 @@
           "Ejercicios de balanceo de muñeca",
           "Combate de sombra",
           "Entrenamiento de endurecimiento con piedra",
-          "Entrenamiento de espinilla con palo"
-        ],
-        "practicalTips": [
-          "Comienza con pesos más ligeros",
-          "Enfoque primero en la ejecución correcta",
-          "Integra la respiración sanchin",
-          "Toma descanso suficiente entre series",
-          "Alterna entre diferentes ejercicios"
+          "Entrenamiento de espinilla con palo",
+          "Rodar el palo sobre la espinilla para la circulaci?n"
         ]
       }
     },
@@ -208,12 +239,6 @@
         ],
         "weight": "El peso se puede ajustar llenando con arena, grava u otros materiales"
       },
-      "exercises": [
-        "Agarres estáticos",
-        "Caminar con jarras",
-        "Movimientos circulares",
-        "Movimientos arriba y abajo"
-      ],
       "attentionPoints": {
         "title": "Puntos de Atención",
         "importantPoints": [
@@ -228,7 +253,13 @@
           "Mantener forma correcta",
           "Detenerse si siente dolor"
         ]
-      }
+      },
+      "exercises": [
+        "Agarres estáticos",
+        "Caminar con jarras",
+        "Movimientos circulares",
+        "Movimientos arriba y abajo"
+      ]
     },
     "kongoken": {
       "name": "Kongoken",
@@ -273,20 +304,6 @@
           }
         }
       },
-      "exercises": [
-        "Levantar y cargar",
-        "Ejercicios de caminata",
-        "Agarres estáticos",
-        "Balanceos básicos",
-        "Movimientos dinámicos",
-        "Integración con kata"
-      ],
-      "safetyPoints": [
-        "Requiere orientación experta",
-        "Comienza con buen calentamiento",
-        "Enfoque en técnica de levantamiento correcta",
-        "Nunca entrenes solo con pesos pesados"
-      ],
       "attentionPoints": {
         "title": "Puntos de Atención",
         "importantPoints": [
@@ -301,7 +318,15 @@
           "Detenerse ante cualquier signo de tensión",
           "Usar peso apropiado para el nivel"
         ]
-      }
+      },
+      "exercises": [
+        "Levantar y cargar",
+        "Ejercicios de caminata",
+        "Agarres estáticos",
+        "Balanceos básicos",
+        "Movimientos dinámicos",
+        "Integración con kata"
+      ]
     },
     "ishiSashi": {
       "name": "Ishi Sashi",
@@ -346,12 +371,6 @@
           }
         }
       },
-      "exercises": [
-        "Agarres estáticos",
-        "Ejercicios de caminata",
-        "Movimientos de levantamiento",
-        "Ejercicios de rotación"
-      ],
       "attentionPoints": {
         "title": "Puntos de Atención",
         "importantPoints": [
@@ -366,7 +385,13 @@
           "Progresión gradual",
           "Detenerse si siente incomodidad"
         ]
-      }
+      },
+      "exercises": [
+        "Agarres estáticos",
+        "Ejercicios de caminata",
+        "Movimientos de levantamiento",
+        "Ejercicios de rotación"
+      ]
     },
     "udeTanren": {
       "name": "Ude Tanren",
@@ -563,6 +588,10 @@
         "importantPoints": [
           "Distribución igual de fuerza",
           "Mantener espalda recta"
+        ],
+        "safetyGuidelines": [
+          "Vigila el equilibrio",
+          "No empieces demasiado pesado"
         ]
       },
       "exercises": {
@@ -621,66 +650,6 @@
       }
     }
   },
-  "sections": {
-    "introduction": "Introducción",
-    "equipment": "Equipamiento",
-    "techniques": "Técnicas",
-    "benefits": "Beneficios",
-    "training": "Entrenamiento",
-    "trainingSections": "Secciones de Entrenamiento"
-  },
-  "common": {
-    "back": "Atrás",
-    "mainFunctions": "Funciones Principales",
-    "trainingEffects": "Efectos del Entrenamiento",
-    "dimensions": "Dimensiones",
-    "materials": "Materiales",
-    "weightRecommendations": "Recomendaciones de Peso",
-    "importantPoints": "Puntos Importantes",
-    "breathingTechniques": "Técnicas de Respiración",
-    "safetyGuidelines": "Pautas de Seguridad",
-    "basicSeries": "Serie Básica",
-    "advancedExercises": "Ejercicios Avanzados",
-    "practicalTips": "Consejos Prácticos",
-    "exercises": "Ejercicios",
-    "origin": "Origen",
-    "weight": "Peso",
-    "relatedSections": "Secciones Relacionadas",
-    "quickAccess": "Acceso Rápido",
-    "viewCompleteOverview": "Ver Resumen Completo",
-    "learnFundamentals": "Aprender los fundamentos",
-    "understandingPurpose": "Entender propósito y función",
-    "buildMaintain": "Construir y mantener equipo",
-    "safetyTechnique": "Enfoque en seguridad y técnica",
-    "specificExercises": "Ejercicios y rutinas específicas",
-    "traditionalStrengthTraining": "Entrenamiento de Fuerza Tradicional"
-  },
-  "additionalEquipment": {
-    "tekkan": "Anillos de hierro",
-    "tekkanDescription": "Para entrenamiento de muñeca y antebrazo",
-    "tetsuGeta": "Sandalias de hierro",
-    "tetsuGetaDescription": "Para fuerza de piernas y pies",
-    "ishiGeta": "Sandalias de piedra",
-    "ishiGetaDescription": "Para fuerza de piernas y pies",
-    "chikaraIshi": "Pesos de piedra",
-    "chikaraIshiDescription": "Para entrenamiento general de fuerza",
-    "ukiKago": "Cesta tejida",
-    "ukiKagoDescription": "Para equilibrio y estabilidad",
-    "sashiIshi": "Piedra pesada",
-    "sashiIshiDescription": "Para fuerza y resistencia",
-    "to": "Haz de bambú",
-    "toDescription": "Para flexibilidad y fuerza",
-    "tan": "Barra (barbell)",
-    "tanDescription": "Para entrenamiento general de fuerza",
-    "tetsuarei": "Pesa pequeña (dumbbell)",
-    "tetsuareiDescription": "Para grupos musculares específicos",
-    "sunabako": "Cubo de arena",
-    "sunabakoDescription": "Para fuerza de piernas y pies",
-    "jariBako": "Cubo de grava",
-    "jariBakoDescription": "Para fuerza de piernas y pies",
-    "makiwara": "Tabla de golpeo",
-    "makiwaraDescription": "Para endurecimiento de puños y pies"
-  },
   "training": {
     "title": "Entrenamiento",
     "principles": {
@@ -704,9 +673,5 @@
     "technical": "Beneficios Técnicos",
     "mental": "Beneficios Mentales",
     "safety": "Beneficios de Seguridad"
-  },
-  "categories": {
-    "introduction": "Introducción",
-    "primaryEquipment": "Equipo Principal"
   }
 }

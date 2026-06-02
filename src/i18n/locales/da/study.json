@@ -17,11 +17,7 @@
     "noMatching": "Ingen matchende øvelser tilgængelige i øjeblikket.",
     "flashcards": "Flashkort",
     "flashcardDesc": "Gennemgå termer og begreber med flashkort.",
-    "matching": {
-      "start": "Start",
-      "reset": "Nulstil",
-      "completed": "Gennemført"
-    },
+    "matching": "Matching",
     "matchingDesc": "Match termer og begreber med hinanden.",
     "tests": "Test",
     "startStudy": "Begynd at Studere",
@@ -42,255 +38,160 @@
       "title": "Studie ikke fundet",
       "description": "Det ønskede studie kunne ikke findes."
     },
-    "questions": "spørgsmål",
-    "cards": "kort",
-    "pairs": "par",
-    "category": "Kategori",
-    "start": "Start",
-    "quiz": {
-      "next": "Næste",
-      "previous": "Forrige",
-      "submit": "Indsend",
-      "retry": "Prøv igen",
-      "completed": "Quiz gennemført",
-      "score": "Score",
-      "correct": "Korrekt",
-      "incorrect": "Forkert",
-      "explanation": "Forklaring"
-    },
-    "startQuiz": "Start Quiz",
-    "startFlashcards": "Start Flashkort",
-    "startMatching": "Start Matchende",
-    "techniques": "Teknikker",
-    "kata": "Kata",
-    "philosophy": "Filosofi",
-    "kumite": "Kumite",
-    "terminologyNav": "Terminologi",
-    "difficulty": {
-      "beginner": "Begynder",
-      "intermediate": "Mellemliggende",
-      "advanced": "Avanceret"
-    },
-    "quizTypes": {
-      "stances": {
-        "title": "Stillinger Quiz",
-        "description": "Test din viden om stillinger."
+    "questions": {
+      "kata-basics-1": {
+        "question": "Hvad betyder 'kata' på japansk?",
+        "option1": "Form",
+        "option2": "Kamp",
+        "option3": "Teknik",
+        "option4": "Stil",
+        "correct": "Form",
+        "explanation": "Kata (型) betyder 'form' på japansk og henviser til de koreograferede bevægelsesmønstre."
       },
-      "kicks": {
-        "title": "Spark Quiz",
-        "description": "Test din viden om spark."
+      "kata-basics-2": {
+        "question": "Hvor mange kata er der i traditionel Goju Ryu?",
+        "option1": "8",
+        "option2": "10",
+        "option3": "12",
+        "option4": "15",
+        "correct": "12",
+        "explanation": "Traditionel Goju Ryu har 12 kata: 2 heishugata (Sanchin, Tensho) og 10 kaishugata."
       },
-      "punches": {
-        "title": "Slag Quiz",
-        "description": "Test din viden om slag."
+      "kata-basics-3": {
+        "question": "Hvad er de to hovedkategorier af kata i Goju Ryu?",
+        "option1": "Hårdt og Blødt",
+        "option2": "Heishugata og Kaishugata",
+        "option3": "Basis og Avanceret",
+        "option4": "Gammel og Ny",
+        "correct": "Heishugata og Kaishugata",
+        "explanation": "Heishugata (lukket hånd) og Kaishugata (åben hånd) er de to hovedkategorier."
       },
-      "blocks": {
-        "title": "Blokke Quiz",
-        "description": "Test din viden om blokke."
+      "kata-history-1": {
+        "question": "Hvem skabte Gekisai kata?",
+        "option1": "Kanryo Higaonna",
+        "option2": "Chojun Miyagi",
+        "option3": "Morio Higaonna",
+        "option4": "Eiichi Miyazato",
+        "correct": "Chojun Miyagi",
+        "explanation": "Chojun Miyagi skabte Gekisai Dai Ichi og Gekisai Dai Ni i 1940'erne."
       },
-      "kata": {
-        "title": "Kata Quiz",
-        "description": "Test din viden om kata."
+      "kata-history-2": {
+        "question": "Hvad betyder 'Sanchin'?",
+        "option1": "Tre Kampe",
+        "option2": "Tre Trin",
+        "option3": "Tre Hjerter",
+        "option4": "Tre Sind",
+        "correct": "Tre Kampe",
+        "explanation": "Sanchin (三戦) betyder 'tre kampe' og henviser til sind, krop og ånd."
       },
-      "philosophy": {
-        "title": "Filosofi Quiz",
-        "description": "Test din viden om Goju Ryu filosofi."
+      "philosophy-1": {
+        "question": "Hvad betyder 'Goju'?",
+        "option1": "Hårdt-Blødt",
+        "option2": "Hurtigt-Langsomt",
+        "option3": "Stærkt-Svagt",
+        "option4": "Gammelt-Nyt",
+        "correct": "Hårdt-Blødt",
+        "explanation": "Goju (剛柔) betyder 'hårdt-blødt' og repræsenterer balancen mellem hårde og bløde teknikker."
       },
-      "kumite": {
-        "title": "Kumite Quiz",
-        "description": "Test din viden om kumite."
+      "philosophy-2": {
+        "question": "Hvad er 'Muchimi'?",
+        "option1": "Åndedræt",
+        "option2": "Klæbrige Hænder",
+        "option3": "Fokus",
+        "option4": "Balance",
+        "correct": "Klæbrige Hænder",
+        "explanation": "Muchimi henviser til evnen til at opretholde kontakt med en modstander som klæbrige hænder."
       },
-      "vital-points": {
-        "title": "Vitale Punkter Quiz",
-        "description": "Test din viden om vitale punkter ved at udfylde de manglende labels"
+      "techniques-1": {
+        "question": "Hvad er den mest basale stilling i karate?",
+        "option1": "Sanchin Dachi",
+        "option2": "Zenkutsu Dachi",
+        "option3": "Hachiji Dachi",
+        "option4": "Kiba Dachi",
+        "correct": "Hachiji Dachi",
+        "explanation": "Hachiji Dachi (naturlig stilling) er den mest basale stilling i karate."
       },
-      "history-origins": {
-        "title": "Historie & Oprindelse Quiz",
-        "description": "Vigtige personer, steder og oprindelse af Goju Ryu."
+      "techniques-2": {
+        "question": "Hvad betyder 'Uke'?",
+        "option1": "Angreb",
+        "option2": "Blokering",
+        "option3": "Slag",
+        "option4": "Spark",
+        "correct": "Blokering",
+        "explanation": "Uke (受け) betyder 'blokering' eller 'modtage' på japansk."
       },
-      "hojo-undo-basics": {
-        "title": "Hojo Undo Basics Quiz",
-        "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      "kumite-1": {
+        "question": "Hvad betyder 'Kumite'?",
+        "option1": "Sparring",
+        "option2": "Kamp",
+        "option3": "Træning",
+        "option4": "Konkurrence",
+        "correct": "Sparring",
+        "explanation": "Kumite (組手) betyder 'sparring' eller 'møde med hænder' på japansk."
       },
-      "newaza-intro": {
-        "title": "Newaza Introduction Quiz",
-        "description": "Fundamental ground positions and control concepts."
+      "kumite-2": {
+        "question": "Hvad er 'Ippon Kumite'?",
+        "option1": "Fri Sparring",
+        "option2": "Et-Trin Sparring",
+        "option3": "Tre-Trin Sparring",
+        "option4": "Fem-Trin Sparring",
+        "correct": "Et-Trin Sparring",
+        "explanation": "Ippon Kumite er et-trins sparring med forudbestemte angreb og forsvar."
       },
-      "kumite-rules": {
-        "title": "Kumite Rules Quiz",
-        "description": "Scoring, penalties and referee commands."
-      }
-    },
-    "flashcard": {
-      "flip": "Vend",
-      "next": "Næste",
-      "previous": "Forrige"
-    },
-    "sections": {
-      "quizzes": {
-        "title": "Quiz",
-        "description": "Test din viden på forskellige emner"
+      "history-1": {
+        "question": "Hvem grundlagde Goju Ryu?",
+        "option1": "Chojun Miyagi",
+        "option2": "Kanryo Higaonna",
+        "option3": "Gichin Funakoshi",
+        "option4": "Kenwa Mabuni",
+        "correct": "Chojun Miyagi",
+        "explanation": "Chojun Miyagi navngav formelt stilen Goju Ryu, inspireret af Bubishi."
       },
-      "flashcards": {
-        "title": "Flashkort",
-        "description": "Lær med interaktive kort"
+      "history-2": {
+        "question": "Hvilken lærer påvirkede Chojun Miyagi stærkt?",
+        "option1": "Kanryo Higaonna",
+        "option2": "Anko Itosu",
+        "option3": "Mabuni Kenwa",
+        "option4": "Motobu Choki",
+        "correct": "Kanryo Higaonna",
+        "explanation": "Miyagi var en topstuderende hos Kanryo Higaonna."
       },
-      "matching": {
-        "title": "Matchende",
-        "description": "Match begreber og definitioner"
+      "hojo-1": {
+        "question": "Hvilket værktøj er en stenvægtstang brugt til cirkulær styrke?",
+        "option1": "Chi-ishi",
+        "option2": "Ishi sashi",
+        "option3": "Nigiri game",
+        "option4": "Kongoken",
+        "correct": "Chi-ishi",
+        "explanation": "Chi-ishi træner cirkulær styrke og håndled/underarm konditionering."
       },
-      "graduations": {
-        "title": "Graderinger",
-        "description": "Kyu og dan systemer"
-      }
-    },
-    "matchingTypes": {
-      "kata": {
-        "title": "Kata Matching",
-        "description": "Match kata names with their meanings and characteristics."
+      "hojo-2": {
+        "question": "Hvilket værktøj træner primært grebstyrke?",
+        "option1": "Nigiri game",
+        "option2": "Kongoken",
+        "option3": "Ishi sashi",
+        "option4": "Makiwara",
+        "correct": "Nigiri game",
+        "explanation": "Nigiri game krukker bruges til at udvikle grebstyrke og stilling."
       },
-      "terminology": {
-        "title": "Terminology Matching",
-        "description": "Match Japanese terms to their English meanings across categories.",
-        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
-        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
-        "e1": "Fundamental dojo concepts used throughout training."
-      }
-    },
-    "flashcardTypes": {
-      "common": {
-        "title": "Common Flashcards",
-        "description": "Practice common terminology with flashcards."
+      "newaza-1": {
+        "question": "Hvilken position lægger vægt på bryst-til-bryst kontrol fra siden?",
+        "option1": "Sidekontrol",
+        "option2": "Mount",
+        "option3": "Guard",
+        "option4": "Rygkontrol",
+        "correct": "Sidekontrol",
+        "explanation": "Sidekontrol (yoko shiho-lignende kontrol) fokuserer på bryst-til-bryst tryk."
       },
-      "stances": {
-        "title": "Stances Flashcards",
-        "description": "Learn all karate stances and positions."
+      "rules-1": {
+        "question": "Hvad betyder 'Hansoku'?",
+        "option1": "Forseelse",
+        "option2": "Forlængelsesrunde",
+        "option3": "Uafgjort",
+        "option4": "Halvt point",
+        "correct": "Forseelse",
+        "explanation": "Hansoku er en forseelse; alvorlige overtrædelser kan føre til diskvalifikation."
       },
-      "kicks": {
-        "title": "Kicks Flashcards",
-        "description": "Learn all karate kicking techniques."
-      },
-      "punches": {
-        "title": "Punches Flashcards",
-        "description": "Learn all karate punching techniques."
-      },
-      "blocks": {
-        "title": "Blocks Flashcards",
-        "description": "Learn all karate blocking techniques."
-      },
-      "kata": {
-        "title": "Kata Flashcards",
-        "description": "Learn all Goju Ryu kata names and meanings."
-      },
-      "philosophy": {
-        "title": "Philosophy Flashcards",
-        "description": "Learn Goju Ryu philosophical concepts and principles."
-      },
-      "numbers": {
-        "title": "Numbers Flashcards",
-        "description": "Learn Japanese numbers used in karate."
-      },
-      "general": {
-        "title": "General Terms Flashcards",
-        "description": "Learn essential karate terminology."
-      }
-    },
-    "categories": {
-      "kata": "Kata",
-      "philosophy": "Philosophy",
-      "techniques": "Techniques",
-      "kumite": "Kumite",
-      "terminologyNav": "Terminology"
-    },
-    "progress": {
-      "title": "Progress",
-      "completed": "Completed",
-      "inProgress": "In Progress",
-      "notStarted": "Not Started"
-    },
-    "results": {
-      "title": "Results",
-      "score": "Score",
-      "correct": "Correct",
-      "incorrect": "Incorrect",
-      "percentage": "Percentage",
-      "time": "Time",
-      "retry": "Retry",
-      "next": "Next"
-    },
-    "question": "Question {{index}} of {{total}}",
-    "previous": "Previous",
-    "next": "Next",
-    "finish": "Finish",
-    "correct": "Correct!",
-    "incorrect": "Incorrect!",
-    "explanation": "Explanation",
-    "showExplanation": "Show explanation",
-    "hideExplanation": "Hide explanation",
-    "studyAgain": "Studer igen",
-    "backToStudySection": "Tilbage til studieafsnittet",
-    "noQuestionFound": "No question found for index {index}",
-    "yourScore": "Din score: {score} ud af {total}",
-    "reviewAnswers": "Gennemgå svar",
-    "yourAnswer": "Dit svar",
-    "correctAnswer": "Korrekt svar",
-    "noAnswer": "Intet svar givet",
-    "terminology": {
-      "questionTemplate": "Hvad betyder \"{term}\"?",
-      "notAvailable": "Ikke tilgængelig"
-    },
-    "tips": {
-      "title": "Study Tips",
-      "regular": "Practice regularly for better results",
-      "review": "Review difficult sections",
-      "progress": "Track your progress"
-    },
-    "stats": {
-      "progress": "Progress",
-      "time": "Study time",
-      "goals": "Goals"
-    },
-    "self-control": {
-      "title": "Self-Control Quiz",
-      "description": "Test your knowledge of self-control and emotion regulation."
-    },
-    "kata-basics": {
-      "title": "Kata Basics Quiz",
-      "description": "Test your knowledge of fundamental kata concepts and principles."
-    },
-    "kata-history": {
-      "title": "Kata History Quiz",
-      "description": "Learn about the historical development and origins of kata."
-    },
-    "philosophy-principles": {
-      "title": "Philosophy Principles Quiz",
-      "description": "Test your understanding of Goju Ryu philosophical principles."
-    },
-    "basic-techniques": {
-      "title": "Basic Techniques Quiz",
-      "description": "Test your knowledge of fundamental karate techniques."
-    },
-    "kumite-basics": {
-      "title": "Kumite Basics Quiz",
-      "description": "Test your knowledge of sparring fundamentals."
-    },
-    "history-origins": {
-      "title": "History & Origins Quiz",
-      "description": "Key people, places and origins of Goju Ryu."
-    },
-    "hojo-undo-basics": {
-      "title": "Hojo Undo Basics Quiz",
-      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
-    },
-    "newaza-intro": {
-      "title": "Newaza Introduction Quiz",
-      "description": "Fundamental ground positions and control concepts."
-    },
-    "kumite-rules": {
-      "title": "Kumite Rules Quiz",
-      "description": "Scoring, penalties and referee commands."
-    },
-    "questionBank": {
       "kata-basics-4": {
         "question": "Hvad er den første kata, man lærer i Goju Ryu?",
         "option1": "Gekisai Dai Ichi",
@@ -624,167 +525,230 @@
         "correct": "Advarsel/Straf",
         "explanation": "At træde uden for banen (Jogai) resulterer normalt i en advarsel eller straf."
       }
-    }
+    },
+    "cards": "kort",
+    "pairs": "par",
+    "category": "Kategori",
+    "start": "Start",
+    "quiz": "Quiz",
+    "startQuiz": "Start Quiz",
+    "startFlashcards": "Start Flashkort",
+    "startMatching": "Start Matchende",
+    "techniques": "Teknikker",
+    "kata": "Kata",
+    "philosophy": "Filosofi",
+    "kumite": "Kumite",
+    "terminologyNav": "Terminologi",
+    "difficulty": {
+      "beginner": "Begynder",
+      "intermediate": "Mellemliggende",
+      "advanced": "Avanceret"
+    },
+    "quizTypes": {
+      "stances": {
+        "title": "Stillinger Quiz",
+        "description": "Test din viden om stillinger."
+      },
+      "kicks": {
+        "title": "Spark Quiz",
+        "description": "Test din viden om spark."
+      },
+      "punches": {
+        "title": "Slag Quiz",
+        "description": "Test din viden om slag."
+      },
+      "blocks": {
+        "title": "Blokke Quiz",
+        "description": "Test din viden om blokke."
+      },
+      "kata": {
+        "title": "Kata Quiz",
+        "description": "Test din viden om kata."
+      },
+      "philosophy": {
+        "title": "Filosofi Quiz",
+        "description": "Test din viden om Goju Ryu filosofi."
+      },
+      "kumite": {
+        "title": "Kumite Quiz",
+        "description": "Test din viden om kumite."
+      },
+      "vital-points": {
+        "title": "Vitale Punkter Quiz",
+        "description": "Test din viden om vitale punkter ved at udfylde de manglende labels"
+      },
+      "history-origins": {
+        "title": "Historie & Oprindelse Quiz",
+        "description": "Vigtige personer, steder og oprindelse af Goju Ryu."
+      },
+      "hojo-undo-basics": {
+        "title": "Hojo Undo Basics Quiz",
+        "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      },
+      "newaza-intro": {
+        "title": "Newaza Introduction Quiz",
+        "description": "Fundamental ground positions and control concepts."
+      },
+      "kumite-rules": {
+        "title": "Kumite Rules Quiz",
+        "description": "Scoring, penalties and referee commands."
+      }
+    },
+    "matchingTypes": {
+      "kata": {
+        "title": "Kata Matching",
+        "description": "Match kata names with their meanings and characteristics."
+      },
+      "terminology": {
+        "title": "Terminology Matching",
+        "description": "Match Japanese terms to their English meanings across categories.",
+        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
+        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
+        "e1": "Fundamental dojo concepts used throughout training."
+      }
+    },
+    "flashcardTypes": {
+      "common": {
+        "title": "Common Flashcards",
+        "description": "Practice common terminology with flashcards."
+      },
+      "stances": {
+        "title": "Stances Flashcards",
+        "description": "Learn all karate stances and positions."
+      },
+      "kicks": {
+        "title": "Kicks Flashcards",
+        "description": "Learn all karate kicking techniques."
+      },
+      "punches": {
+        "title": "Punches Flashcards",
+        "description": "Learn all karate punching techniques."
+      },
+      "blocks": {
+        "title": "Blocks Flashcards",
+        "description": "Learn all karate blocking techniques."
+      },
+      "kata": {
+        "title": "Kata Flashcards",
+        "description": "Learn all Goju Ryu kata names and meanings."
+      },
+      "philosophy": {
+        "title": "Philosophy Flashcards",
+        "description": "Learn Goju Ryu philosophical concepts and principles."
+      },
+      "numbers": {
+        "title": "Numbers Flashcards",
+        "description": "Learn Japanese numbers used in karate."
+      },
+      "general": {
+        "title": "General Terms Flashcards",
+        "description": "Learn essential karate terminology."
+      }
+    },
+    "categories": {
+      "kata": "Kata",
+      "philosophy": "Philosophy",
+      "techniques": "Techniques",
+      "kumite": "Kumite",
+      "terminologyNav": "Terminology"
+    },
+    "progress": {
+      "title": "Progress",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "notStarted": "Not Started"
+    },
+    "results": {
+      "title": "Results",
+      "score": "Score",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "percentage": "Percentage",
+      "time": "Time",
+      "retry": "Retry",
+      "next": "Next"
+    },
+    "question": "Question {{index}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
+    "finish": "Finish",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "matchingCompleted": "All {{total}} pairs matched in {{attempts}} attempts.",
+    "japaneseLabel": "Japanese",
+    "noAdditionalExplanation": "No additional explanation available.",
+    "explanation": "Explanation",
+    "showExplanation": "Show explanation",
+    "hideExplanation": "Hide explanation",
+    "studyAgain": "Studer igen",
+    "backToStudySection": "Tilbage til studieafsnittet",
+    "noQuestionFound": "No question found for index {index}",
+    "yourScore": "Din score: {score} ud af {total}",
+    "reviewAnswers": "Gennemgå svar",
+    "yourAnswer": "Dit svar",
+    "correctAnswer": "Korrekt svar",
+    "noAnswer": "Intet svar givet",
+    "terminology": {
+      "questionTemplate": "Hvad betyder \"{term}\"?",
+      "notAvailable": "Ikke tilgængelig"
+    },
+    "tips": {
+      "title": "Study Tips",
+      "regular": "Practice regularly for better results",
+      "review": "Review difficult sections",
+      "progress": "Track your progress"
+    },
+    "stats": {
+      "progress": "Progress",
+      "time": "Study time",
+      "goals": "Goals"
+    },
+    "self-control": {
+      "title": "Self-Control Quiz",
+      "description": "Test your knowledge of self-control and emotion regulation."
+    },
+    "kata-basics": {
+      "title": "Kata Basics Quiz",
+      "description": "Test your knowledge of fundamental kata concepts and principles."
+    },
+    "kata-history": {
+      "title": "Kata History Quiz",
+      "description": "Learn about the historical development and origins of kata."
+    },
+    "philosophy-principles": {
+      "title": "Philosophy Principles Quiz",
+      "description": "Test your understanding of Goju Ryu philosophical principles."
+    },
+    "basic-techniques": {
+      "title": "Basic Techniques Quiz",
+      "description": "Test your knowledge of fundamental karate techniques."
+    },
+    "kumite-basics": {
+      "title": "Kumite Basics Quiz",
+      "description": "Test your knowledge of sparring fundamentals."
+    },
+    "history-origins": {
+      "title": "History & Origins Quiz",
+      "description": "Key people, places and origins of Goju Ryu."
+    },
+    "hojo-undo-basics": {
+      "title": "Hojo Undo Basics Quiz",
+      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+    },
+    "newaza-intro": {
+      "title": "Newaza Introduction Quiz",
+      "description": "Fundamental ground positions and control concepts."
+    },
+    "kumite-rules": {
+      "title": "Kumite Rules Quiz",
+      "description": "Scoring, penalties and referee commands."
+    },
+    "questionsLabel": "spørgsmål"
   },
   "title": "Study",
   "description": "Practice and test your knowledge of Goju Ryu karate",
   "startQuiz": "Start Quiz",
   "startFlashcards": "Start Flashcards",
-  "questions": {
-    "kata-basics-1": {
-      "question": "Hvad betyder 'kata' på japansk?",
-      "option1": "Form",
-      "option2": "Kamp",
-      "option3": "Teknik",
-      "option4": "Stil",
-      "correct": "Form",
-      "explanation": "Kata (型) betyder 'form' på japansk og henviser til de koreograferede bevægelsesmønstre."
-    },
-    "kata-basics-2": {
-      "question": "Hvor mange kata er der i traditionel Goju Ryu?",
-      "option1": "8",
-      "option2": "10",
-      "option3": "12",
-      "option4": "15",
-      "correct": "12",
-      "explanation": "Traditionel Goju Ryu har 12 kata: 2 heishugata (Sanchin, Tensho) og 10 kaishugata."
-    },
-    "kata-basics-3": {
-      "question": "Hvad er de to hovedkategorier af kata i Goju Ryu?",
-      "option1": "Hårdt og Blødt",
-      "option2": "Heishugata og Kaishugata",
-      "option3": "Basis og Avanceret",
-      "option4": "Gammel og Ny",
-      "correct": "Heishugata og Kaishugata",
-      "explanation": "Heishugata (lukket hånd) og Kaishugata (åben hånd) er de to hovedkategorier."
-    },
-    "kata-history-1": {
-      "question": "Hvem skabte Gekisai kata?",
-      "option1": "Kanryo Higaonna",
-      "option2": "Chojun Miyagi",
-      "option3": "Morio Higaonna",
-      "option4": "Eiichi Miyazato",
-      "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi skabte Gekisai Dai Ichi og Gekisai Dai Ni i 1940'erne."
-    },
-    "kata-history-2": {
-      "question": "Hvad betyder 'Sanchin'?",
-      "option1": "Tre Kampe",
-      "option2": "Tre Trin",
-      "option3": "Tre Hjerter",
-      "option4": "Tre Sind",
-      "correct": "Tre Kampe",
-      "explanation": "Sanchin (三戦) betyder 'tre kampe' og henviser til sind, krop og ånd."
-    },
-    "philosophy-1": {
-      "question": "Hvad betyder 'Goju'?",
-      "option1": "Hårdt-Blødt",
-      "option2": "Hurtigt-Langsomt",
-      "option3": "Stærkt-Svagt",
-      "option4": "Gammelt-Nyt",
-      "correct": "Hårdt-Blødt",
-      "explanation": "Goju (剛柔) betyder 'hårdt-blødt' og repræsenterer balancen mellem hårde og bløde teknikker."
-    },
-    "philosophy-2": {
-      "question": "Hvad er 'Muchimi'?",
-      "option1": "Åndedræt",
-      "option2": "Klæbrige Hænder",
-      "option3": "Fokus",
-      "option4": "Balance",
-      "correct": "Klæbrige Hænder",
-      "explanation": "Muchimi henviser til evnen til at opretholde kontakt med en modstander som klæbrige hænder."
-    },
-    "techniques-1": {
-      "question": "Hvad er den mest basale stilling i karate?",
-      "option1": "Sanchin Dachi",
-      "option2": "Zenkutsu Dachi",
-      "option3": "Hachiji Dachi",
-      "option4": "Kiba Dachi",
-      "correct": "Hachiji Dachi",
-      "explanation": "Hachiji Dachi (naturlig stilling) er den mest basale stilling i karate."
-    },
-    "techniques-2": {
-      "question": "Hvad betyder 'Uke'?",
-      "option1": "Angreb",
-      "option2": "Blokering",
-      "option3": "Slag",
-      "option4": "Spark",
-      "correct": "Blokering",
-      "explanation": "Uke (受け) betyder 'blokering' eller 'modtage' på japansk."
-    },
-    "kumite-1": {
-      "question": "Hvad betyder 'Kumite'?",
-      "option1": "Sparring",
-      "option2": "Kamp",
-      "option3": "Træning",
-      "option4": "Konkurrence",
-      "correct": "Sparring",
-      "explanation": "Kumite (組手) betyder 'sparring' eller 'møde med hænder' på japansk."
-    },
-    "kumite-2": {
-      "question": "Hvad er 'Ippon Kumite'?",
-      "option1": "Fri Sparring",
-      "option2": "Et-Trin Sparring",
-      "option3": "Tre-Trin Sparring",
-      "option4": "Fem-Trin Sparring",
-      "correct": "Et-Trin Sparring",
-      "explanation": "Ippon Kumite er et-trins sparring med forudbestemte angreb og forsvar."
-    },
-    "history-1": {
-      "question": "Hvem grundlagde Goju Ryu?",
-      "option1": "Chojun Miyagi",
-      "option2": "Kanryo Higaonna",
-      "option3": "Gichin Funakoshi",
-      "option4": "Kenwa Mabuni",
-      "correct": "Chojun Miyagi",
-      "explanation": "Chojun Miyagi navngav formelt stilen Goju Ryu, inspireret af Bubishi."
-    },
-    "history-2": {
-      "question": "Hvilken lærer påvirkede Chojun Miyagi stærkt?",
-      "option1": "Kanryo Higaonna",
-      "option2": "Anko Itosu",
-      "option3": "Mabuni Kenwa",
-      "option4": "Motobu Choki",
-      "correct": "Kanryo Higaonna",
-      "explanation": "Miyagi var en topstuderende hos Kanryo Higaonna."
-    },
-    "hojo-1": {
-      "question": "Hvilket værktøj er en stenvægtstang brugt til cirkulær styrke?",
-      "option1": "Chi-ishi",
-      "option2": "Ishi sashi",
-      "option3": "Nigiri game",
-      "option4": "Kongoken",
-      "correct": "Chi-ishi",
-      "explanation": "Chi-ishi træner cirkulær styrke og håndled/underarm konditionering."
-    },
-    "hojo-2": {
-      "question": "Hvilket værktøj træner primært grebstyrke?",
-      "option1": "Nigiri game",
-      "option2": "Kongoken",
-      "option3": "Ishi sashi",
-      "option4": "Makiwara",
-      "correct": "Nigiri game",
-      "explanation": "Nigiri game krukker bruges til at udvikle grebstyrke og stilling."
-    },
-    "newaza-1": {
-      "question": "Hvilken position lægger vægt på bryst-til-bryst kontrol fra siden?",
-      "option1": "Sidekontrol",
-      "option2": "Mount",
-      "option3": "Guard",
-      "option4": "Rygkontrol",
-      "correct": "Sidekontrol",
-      "explanation": "Sidekontrol (yoko shiho-lignende kontrol) fokuserer på bryst-til-bryst tryk."
-    },
-    "rules-1": {
-      "question": "Hvad betyder 'Hansoku'?",
-      "option1": "Forseelse",
-      "option2": "Forlængelsesrunde",
-      "option3": "Uafgjort",
-      "option4": "Halvt point",
-      "correct": "Forseelse",
-      "explanation": "Hansoku er en forseelse; alvorlige overtrædelser kan føre til diskvalifikation."
-    }
-  },
   "cards": "cards",
   "category": "Category",
   "difficulty": "Difficulty",

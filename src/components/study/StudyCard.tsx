@@ -61,7 +61,7 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
 
   const translatedContent = getTranslatedContent(study);
   const questionsLabel = study.type === 'quiz'
-    ? t('study.questions')
+    ? t('study.questionsLabel')
     : t('study.cards');
   const categoryLabel = t(`study.categories.${study.category}`);
   const typeLabel = study.type === 'quiz'

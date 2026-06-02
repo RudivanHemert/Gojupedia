@@ -398,76 +398,76 @@
     "mental": {
       "title": "Mental Principles",
       "zanshin": {
-        "name": "Zanshin (残心) - Remaining Mind",
-        "description": "Awareness and alertness after a technique",
-        "application": "Stay alert after each attack or defense",
-        "importance": "Prevents counter-attacks and maintains control"
+        "name": "Zanshin (??) - Mente remanente",
+        "description": "Conciencia y alerta despu?s de una t?cnica",
+        "application": "Mantente alerta despu?s de cada ataque o defensa",
+        "importance": "Previene contraataques y mantiene el control"
       },
       "mushin": {
-        "name": "Mushin (無心) - Mind Without Thought",
-        "description": "Mental state without conscious thoughts",
-        "application": "Spontaneous reactions without hesitation",
-        "importance": "Improves reaction time and decision making"
+        "name": "Mushin (??) - Mente sin pensamiento",
+        "description": "Estado mental sin pensamientos conscientes",
+        "application": "Reacciones espont?neas sin vacilaci?n",
+        "importance": "Mejora el tiempo de reacci?n y la toma de decisiones"
       },
       "fudoshin": {
-        "name": "Fudoshin (不動心) - Immovable Mind",
-        "description": "Unshakeable mental state",
-        "application": "Remain calm under pressure",
-        "importance": "Promotes effective decision making"
+        "name": "Fudoshin (???) - Mente inamovible",
+        "description": "Estado mental inquebrantable",
+        "application": "Mantener la calma bajo presi?n",
+        "importance": "Favorece una toma de decisiones eficaz"
       },
       "senshin": {
-        "name": "Senshin (先心) - Purified Mind",
-        "description": "Cleansed and refined mind",
-        "application": "Highest level of mental development",
-        "importance": "Ultimate state of karate practice"
+        "name": "Senshin (??) - Mente purificada",
+        "description": "Mente purificada y refinada",
+        "application": "Nivel m?s alto de desarrollo mental",
+        "importance": "Estado ?ltimo de la pr?ctica del karate"
       }
     },
     "tactical": {
       "title": "Tactical Principles",
       "ma-ai": {
-        "name": "Ma-ai (間合い) - Fighting Distance",
-        "description": "Optimal distance for effective techniques",
-        "application": "Maintain proper distance for attacks and defense",
-        "importance": "Crucial for timing and effectiveness"
+        "name": "Ma-ai (???) - Distancia de combate",
+        "description": "Distancia ?ptima para t?cnicas eficaces",
+        "application": "Mant?n la distancia adecuada para ataques y defensas",
+        "importance": "Crucial para el timing y la eficacia"
       },
       "sen": {
-        "name": "Sen (先) - Initiative",
-        "description": "Taking the initiative in a fight",
-        "application": "Proactive approach to kumite",
-        "importance": "Gives psychological advantage"
+        "name": "Sen (?) - Iniciativa",
+        "description": "Tomar la iniciativa en el combate",
+        "application": "Enfoque proactivo del kumite",
+        "importance": "Da ventaja psicol?gica"
       },
       "go-no-sen": {
-        "name": "Go No Sen (後の先) - Response to Attack",
-        "description": "Counter-attack after defense",
-        "application": "Defend and attack immediately",
-        "importance": "Effective counter-attack strategy"
+        "name": "Go No Sen (???) - Respuesta al ataque",
+        "description": "Contraataque despu?s de la defensa",
+        "application": "Defiende y ataca de inmediato",
+        "importance": "Estrategia eficaz de contraataque"
       },
       "sen-no-sen": {
-        "name": "Sen No Sen (先の先) - Attacking the Attack",
-        "description": "Attack simultaneously with opponent",
-        "application": "Intercept the opponent's attack",
-        "importance": "Advanced tactical approach"
+        "name": "Sen No Sen (???) - Atacar el ataque",
+        "description": "Atacar simult?neamente con el oponente",
+        "application": "Intercepta el ataque del oponente",
+        "importance": "Enfoque t?ctico avanzado"
       }
     },
     "physical": {
       "title": "Physical Principles",
       "balance": {
-        "name": "Balance and Stability",
-        "description": "Maintaining body balance during movement",
-        "application": "Stable posture for all techniques",
-        "importance": "Foundation for effective technique execution"
+        "name": "Equilibrio y estabilidad",
+        "description": "Mantener el equilibrio corporal durante el movimiento",
+        "application": "Postura estable para todas las t?cnicas",
+        "importance": "Base para una ejecuci?n t?cnica eficaz"
       },
       "timing": {
-        "name": "Timing and Rhythm",
-        "description": "Proper timing for technique execution",
-        "application": "Coordination of movement and timing",
-        "importance": "Maximizes effectiveness of techniques"
+        "name": "Timing y ritmo",
+        "description": "Momento adecuado para ejecutar la t?cnica",
+        "application": "Coordinaci?n del movimiento y el timing",
+        "importance": "Maximiza la eficacia de las t?cnicas"
       },
       "power": {
-        "name": "Power and Speed",
-        "description": "Balance between power and speed",
-        "application": "Effective combination of both elements",
-        "importance": "Optimizes technique performance"
+        "name": "Potencia y velocidad",
+        "description": "Equilibrio entre potencia y velocidad",
+        "application": "Combinaci?n eficaz de ambos elementos",
+        "importance": "Optimiza el rendimiento t?cnico"
       }
     }
   },

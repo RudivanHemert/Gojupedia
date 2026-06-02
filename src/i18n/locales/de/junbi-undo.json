@@ -4,6 +4,7 @@
     "subtitle": "Vorbereitende Übungen",
     "description": "Vorbereitende Übungen und Aufwärmroutinen für Goju Ryu Karate",
     "intro": "Diese Übungen bereiten den Körper auf das Training vor und sollten zu Beginn jeder Trainingssitzung durchgeführt werden.",
+    "noteLabel": "Hinweis",
     "junbiUndoSection": {
       "title": "Junbi Undo",
       "subtitle": "Vorbereitende Übungen",
@@ -17,10 +18,12 @@
     },
     "breathingSection": {
       "title": "Atmung",
-      "subtitle": "Shin Kokyu"
+      "subtitle": "Shin Kokyu",
+      "description": "Die Atemübungen sind ein wesentlicher Bestandteil von Junbi Undo und helfen bei der Entwicklung der richtigen Atemtechniken, die im Goju Ryu Karate verwendet werden."
     },
     "exercises": {
       "title": "Übungen",
+      "instructions": "Anweisungen",
       "list": [
         {
           "id": "toe_exercises",

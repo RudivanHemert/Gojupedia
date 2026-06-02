@@ -9,7 +9,9 @@
       "frontViewTab": "Forside",
       "backViewTab": "Bagside",
       "frontViewTitle": "Vitale punkter - Forside",
-      "backViewTitle": "Vitale punkter - Bagside"
+      "backViewTitle": "Vitale punkter - Bagside",
+      "locationLabel": "Location on the body",
+      "locationShortLabel": "Location"
     },
     "quiz": {
       "title": "Quiz om Vitale Punkter",
@@ -199,11 +201,6 @@
         "name": "Soto Shakutaku",
         "area": "Oversiden af underarmen",
         "translation": "mose på ydersiden af underarmen"
-      },
-      "remaining_key": {
-        "name": "Ude-narashi",
-        "area": "På ydersiden af overarmen",
-        "translation": "midten af armen"
       },
       "ude-narashi-back-1": {
         "name": "Ude-narashi",

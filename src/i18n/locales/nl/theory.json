@@ -2,7 +2,7 @@
   "theory": {
     "title": "Theorie",
     "description": "Principes en kennis van Goju Ryu",
-    "terminologyNav": "Terminologie",
+    "terminology": "Terminology",
     "terminologyDesc": "Japanse terminologie en vocabulaire gebruikt in Goju Ryu",
     "history": "Geschiedenis",
     "historyDesc": "De oorsprong en evolutie van Goju Ryu Karate",
@@ -19,8 +19,7 @@
       "kata": "Kata",
       "vitalPoints": "Vitale Punten",
       "gradings": "Graduaties"
-    },
-    "terminology": "Terminology"
+    }
   },
   "kata.theory": {
     "title": "Kata Theorie",

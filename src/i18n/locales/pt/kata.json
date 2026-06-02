@@ -421,24 +421,6 @@
     }
   },
   "kataTheoryDetailPage": {
-    "title": "Teoria do Kata",
-    "description": "Entendendo os princípios e prática do kata",
-    "sections": {
-      "what-are-kata": "O que são Kata?",
-      "kata-and-karate": "Kata e Karate",
-      "bunkai-and-techniques": "Bunkai e Técnicas",
-      "kata-origins": "Origens do Kata",
-      "power-and-movement": "Poder e Movimento",
-      "sources-of-power": "Fontes de Poder",
-      "okinawan-concepts": "Conceitos Okinawanos",
-      "power-transfer": "Transferência de Poder",
-      "kata-techniques": "Técnicas do Kata",
-      "originTitle": "Origem de {{kataName}}",
-      "meaningTitle": "Significado de {{kataName}}",
-      "significanceTitle": "Significado Cultural",
-      "detailsTitle": "Detalhes do Kata",
-      "featuresTitle": "Principais Características"
-    },
     "notFound": {
       "title": "Kata Não Encontrado",
       "message": "O kata solicitado não pôde ser encontrado.",
@@ -449,6 +431,13 @@
       "meaning": "Significado",
       "significance": "Significado Cultural",
       "details": "Detalhes"
+    },
+    "sections": {
+      "originTitle": "Origem de {{kataName}}",
+      "meaningTitle": "Significado de {{kataName}}",
+      "significanceTitle": "Significado Cultural",
+      "detailsTitle": "Detalhes do Kata",
+      "featuresTitle": "Principais Características"
     },
     "labels": {
       "japaneseName": "Nome Japonês",
@@ -463,27 +452,6 @@
     }
   },
   "kataDetailPage": {
-    "title": "Detalhes do Kata",
-    "description": "Informações detalhadas sobre cada kata",
-    "steps": {
-      "interactiveStepsTitle": "Passos Interativos",
-      "viewAllSteps": "Ver Todos os Passos",
-      "sequenceTitle": "Sequência de Movimentos",
-      "noSteps": "Nenhum passo disponível para este kata.",
-      "stepsDataMissing": "Dados dos passos podem estar carregando ou faltando.",
-      "totalSteps": "Total de passos: {{count}}"
-    },
-    "techniques": "Técnicas",
-    "bunkai": {
-      "title": "Análise de Bunkai",
-      "introduction": "Análise detalhada das aplicações do kata.",
-      "videoTitle": "Vídeo de Bunkai"
-    },
-    "history": "História",
-    "meaning": "Significado",
-    "japaneseName": "Nome Japonês",
-    "level": "Nível",
-    "category": "Categoria",
     "tabs": {
       "overview": "Visão Geral",
       "steps": "Passos",
@@ -503,6 +471,19 @@
     },
     "video": {
       "title": "Demonstração de Kata"
+    },
+    "steps": {
+      "interactiveStepsTitle": "Passos Interativos",
+      "viewAllSteps": "Ver Todos os Passos",
+      "sequenceTitle": "Sequência de Movimentos",
+      "noSteps": "Nenhum passo disponível para este kata.",
+      "stepsDataMissing": "Dados dos passos podem estar carregando ou faltando.",
+      "totalSteps": "Total de passos: {{count}}"
+    },
+    "bunkai": {
+      "title": "Análise de Bunkai",
+      "introduction": "Análise detalhada das aplicações do kata.",
+      "videoTitle": "Vídeo de Bunkai"
     },
     "shime": {
       "title": "Shime",

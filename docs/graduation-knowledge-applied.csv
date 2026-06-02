@@ -1,0 +1,73 @@
+claim_id,file_path,term,applied_meaning,terminology_path
+G00080,src/data/graduations/1st-kyu.json,Unsoku ho,Footwork,terminology.sections.training-content.terms.unsoku-ho
+G00081,src/data/graduations/1st-kyu.json,Josokutei,Ball of the foot,terminology.sections.anatomical-weapons-content.terms.josokutei
+G00082,src/data/graduations/1st-kyu.json,Kakato,Heel.,terminology.sections.anatomical-weapons-content.terms.kakato
+G00083,src/data/graduations/1st-kyu.json,Sokuto,Sole / Edge of the foot,terminology.sections.anatomical-weapons-content.terms.sokuto
+G00085,src/data/graduations/1st-kyu.json,Tsumasaki,Toe tips,terminology.sections.anatomical-weapons-content.terms.tsumasaki
+G00086,src/data/graduations/1st-kyu.json,Kasokutei,Inner edge of foot,terminology.sections.anatomical-weapons-content.terms.kasokutei
+G00110,src/data/graduations/1st-kyu.nl.json,Unsoku ho,Voetenwerk.,terminology.sections.training-content.terms.unsoku-ho
+G00111,src/data/graduations/1st-kyu.nl.json,Josokutei,Bal van de voet.,terminology.sections.anatomical-weapons-content.terms.josokutei
+G00112,src/data/graduations/1st-kyu.nl.json,Kakato,Hiel.,terminology.sections.anatomical-weapons-content.terms.kakato
+G00113,src/data/graduations/1st-kyu.nl.json,Sokuto,Zijkant voet (meskant).,terminology.sections.anatomical-weapons-content.terms.sokuto
+G00115,src/data/graduations/1st-kyu.nl.json,Tsumasaki,Tenen,terminology.sections.anatomical-weapons-content.terms.tsumasaki
+G00116,src/data/graduations/1st-kyu.nl.json,Kasokutei,Binnenzijde van de voet,terminology.sections.anatomical-weapons-content.terms.kasokutei
+G00209,src/data/graduations/3rd-kyu.json,Shihan,"Master Instructor, Teacher of Teachers",terminology.sections.karate-titles-content.instructorTitles.terms.shihan
+G00211,src/data/graduations/3rd-kyu.json,Muchimi,"Okinawan concept for slow, flowing, heavy, sticky movement.",terminology.sections.general-terms-content.terms.muchimi
+G00212,src/data/graduations/3rd-kyu.json,Chiru no chan chan,Explosive force,terminology.sections.general-terms-content.terms.chiru-no-chan-chan
+G00241,src/data/graduations/3rd-kyu.nl.json,Shihan,"Meester Instructeur, Leraar van Leraren",terminology.sections.karate-titles-content.instructorTitles.terms.shihan
+G00243,src/data/graduations/3rd-kyu.nl.json,Muchimi,"Okinawaans concept voor trage, vloeiende, zware, klevende beweging.",terminology.sections.general-terms-content.terms.muchimi
+G00244,src/data/graduations/3rd-kyu.nl.json,Chiru no chan chan,Explosiekracht / startkracht.,terminology.sections.general-terms-content.terms.chiru-no-chan-chan
+G00275,src/data/graduations/4th-kyu.json,Junbi undo,"Preparatory exercises, warming up",terminology.sections.training-content.terms.junbi-undo
+G00276,src/data/graduations/4th-kyu.json,Hojo undo,Supplementary (strength) exercises,terminology.sections.training-content.terms.hojo-undo
+G00277,src/data/graduations/4th-kyu.json,Makiwara,Striking post.,terminology.sections.hojo-undo-content.terms.makiwara
+G00281,src/data/graduations/4th-kyu.json,Ne waza,Ground techniques,terminology.sections.training-content.terms.ne-waza
+G00282,src/data/graduations/4th-kyu.json,Zanshin,Lingering attention,terminology.sections.general-terms-content.terms.zanshin
+G00315,src/data/graduations/4th-kyu.nl.json,Junbi undo,Warming-up.,terminology.sections.training-content.terms.junbi-undo
+G00316,src/data/graduations/4th-kyu.nl.json,Hojo undo,Ondersteunende krachtoefeningen.,terminology.sections.training-content.terms.hojo-undo
+G00317,src/data/graduations/4th-kyu.nl.json,Makiwara,Stootplank.,terminology.sections.hojo-undo-content.terms.makiwara
+G00321,src/data/graduations/4th-kyu.nl.json,Ne waza,Grondtechnieken,terminology.sections.training-content.terms.ne-waza
+G00322,src/data/graduations/4th-kyu.nl.json,Zanshin,Blijvende aandacht en alertheid ('blijvend hart').,terminology.sections.general-terms-content.terms.zanshin
+G00354,src/data/graduations/5th-kyu.json,Gasshuku,Training camp,terminology.sections.phrases-etiquette-content.terms.gasshuku
+G00387,src/data/graduations/5th-kyu.nl.json,Gasshuku,Trainingskamp.,terminology.sections.phrases-etiquette-content.terms.gasshuku
+G00428,src/data/graduations/6th-kyu.json,Yudansha,Black Belt Holder,terminology.sections.karate-titles-content.studentTitles.terms.yudansha
+G00429,src/data/graduations/6th-kyu.json,Mudansha,Student Without Black Belt,terminology.sections.karate-titles-content.studentTitles.terms.mudansha
+G00431,src/data/graduations/6th-kyu.json,Gorei nashi,Without count,terminology.sections.phrases-etiquette-content.terms.gorei-nashi
+G00432,src/data/graduations/6th-kyu.json,Mawatte,Turn,terminology.sections.training-content.terms.mawatte
+G00470,src/data/graduations/6th-kyu.nl.json,Yudansha,Karateka met een dan-graad.,terminology.sections.karate-titles-content.studentTitles.terms.yudansha
+G00471,src/data/graduations/6th-kyu.nl.json,Mudansha,Student Zonder Zwarte Band,terminology.sections.karate-titles-content.studentTitles.terms.mudansha
+G00473,src/data/graduations/6th-kyu.nl.json,Gorei nashi,Zonder tellen (op eigen tempo).,terminology.sections.phrases-etiquette-content.terms.gorei-nashi
+G00474,src/data/graduations/6th-kyu.nl.json,Mawatte,Draai,terminology.sections.training-content.terms.mawatte
+G00510,src/data/graduations/7th-kyu.json,Seiza,Sit down (kneeling),terminology.sections.phrases-etiquette-content.terms.seiza
+G00511,src/data/graduations/7th-kyu.json,Mokuso,Meditation,terminology.sections.phrases-etiquette-content.terms.mokuso
+G00512,src/data/graduations/7th-kyu.json,Dojo kun,Dojo rules,terminology.sections.phrases-etiquette-content.terms.dojo-kun
+G00550,src/data/graduations/7th-kyu.nl.json,Seiza,Formeel zitten,terminology.sections.stances-content.terms.seiza
+G00551,src/data/graduations/7th-kyu.nl.json,Mokuso,Meditatie start ('stop gedachten').,terminology.sections.phrases-etiquette-content.terms.mokuso
+G00552,src/data/graduations/7th-kyu.nl.json,Dojo kun,De regels die in de dojo gelden.,terminology.sections.phrases-etiquette-content.terms.dojo-kun
+G00592,src/data/graduations/8th-kyu.json,Shitsurei shimasu,Excuse me / Sorry,terminology.sections.phrases-etiquette-content.terms.shitsurei-shimasu
+G00593,src/data/graduations/8th-kyu.json,Moichido,One more time,terminology.sections.phrases-etiquette-content.terms.moichido
+G00596,src/data/graduations/8th-kyu.json,Kihon,Basic techniques,terminology.sections.training-content.terms.kihon
+G00635,src/data/graduations/8th-kyu.nl.json,Shitsurei shimasu,Sorry / excuseer.,terminology.sections.phrases-etiquette-content.terms.shitsurei-shimasu
+G00636,src/data/graduations/8th-kyu.nl.json,Moichido,Nog een keer.,terminology.sections.phrases-etiquette-content.terms.moichido
+G00639,src/data/graduations/8th-kyu.nl.json,Kihon,Basistechnieken.,terminology.sections.training-content.terms.kihon
+G00079,src/data/graduations/1st-kyu.json,Uchi deshi,Live-in Student,terminology.sections.karate-titles-content.studentTitles.terms.uchiDeshi
+G00109,src/data/graduations/1st-kyu.nl.json,Uchi deshi,Inwonende Student,terminology.sections.karate-titles-content.studentTitles.terms.uchiDeshi
+G00084,src/data/graduations/1st-kyu.json,Haisoku,Instep.,terminology.sections.anatomical-weapons-content.terms.sokko
+G00114,src/data/graduations/1st-kyu.nl.json,Haisoku,Wreef.,terminology.sections.anatomical-weapons-content.terms.sokko
+G00358,src/data/graduations/5th-kyu.json,Dan,Level (black belt ranks),terminology.sections.ranks-content.terms.dan
+G00359,src/data/graduations/5th-kyu.json,Ryu,Style,terminology.sections.general-terms-content.terms.ryu
+G00391,src/data/graduations/5th-kyu.nl.json,Dan,Niveau (zwarte band rangen),terminology.sections.ranks-content.terms.dan
+G00392,src/data/graduations/5th-kyu.nl.json,Ryu,Stijl.,terminology.sections.general-terms-content.terms.ryu
+G00424,src/data/graduations/6th-kyu.json,Kime,Focus,terminology.sections.phrases-etiquette-content.terms.kime
+G00425,src/data/graduations/6th-kyu.json,Budo,The way of the warrior,terminology.sections.general-terms-content.terms.budo
+G00466,src/data/graduations/6th-kyu.nl.json,Kime,Focus.,terminology.sections.phrases-etiquette-content.terms.kime
+G00467,src/data/graduations/6th-kyu.nl.json,Budo,De 'weg van de krijger' als levensstijl/filosofie.,terminology.sections.general-terms-content.terms.budo
+G00595,src/data/graduations/8th-kyu.json,Kata,"Form, pattern",terminology.sections.training-content.terms.kata
+G00597,src/data/graduations/8th-kyu.json,Kiai,Spirit shout,terminology.sections.general-terms-content.terms.kiai
+G00599,src/data/graduations/8th-kyu.json,Uchi,Inward,terminology.sections.training-content.terms.uchi
+G00638,src/data/graduations/8th-kyu.nl.json,Kata,Stijlvorm (solovorm).,terminology.sections.training-content.terms.kata
+G00640,src/data/graduations/8th-kyu.nl.json,Kiai,Schreeuw waarbij kracht wordt geconcentreerd (harmonie levenskracht en geest).,terminology.sections.general-terms-content.terms.kiai
+G00642,src/data/graduations/8th-kyu.nl.json,Uchi,Naar binnen (binnenwaarts),terminology.sections.training-content.terms.uchi
+src/data/graduations/5th-kyu.json,5th-kyu,base,Kyu,"Rank (colored belts, below black belt)",級,terminology.sections.ranks-content.terms.kyu,review-ambiguous-short-term,Applied after exact full-name terminology match review.
+src/data/graduations/5th-kyu.nl.json,5th-kyu,nl,Kyu,"Rang (gekleurde banden, onder zwarte band)",級,terminology.sections.ranks-content.terms.kyu,review-ambiguous-short-term,Applied after exact full-name terminology match review.
+src/data/graduations/6th-kyu.json,6th-kyu,base,Waza,Technique,技,terminology.sections.kata-terms-content.terms.waza,review-ambiguous-short-term,Applied after exact full-name terminology match review.
+src/data/graduations/6th-kyu.nl.json,6th-kyu,nl,Waza,Techniek,技,terminology.sections.kata-terms-content.terms.waza,review-ambiguous-short-term,Applied after exact full-name terminology match review.

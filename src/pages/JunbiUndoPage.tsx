@@ -151,7 +151,7 @@ const JunbiUndoPage = () => {
                 </p>
                 <div className="bg-yellow-50 p-4 rounded-lg">
                   <p className="text-sm text-yellow-800">
-                    <strong>Notitie:</strong> {t('junbiUndo.hojoUndoSection.note')}
+                    <strong>{t('junbiUndo.noteLabel')}:</strong> {t('junbiUndo.hojoUndoSection.note')}
                   </p>
                 </div>
               </CardContent>
@@ -169,7 +169,7 @@ const JunbiUndoPage = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  De ademhalingsoefeningen zijn een essentieel onderdeel van Junbi Undo en helpen bij het ontwikkelen van de juiste ademhalingstechnieken die worden gebruikt in Goju Ryu karate.
+                  {t('junbiUndo.breathingSection.description')}
                 </p>
               </CardContent>
             </Card>

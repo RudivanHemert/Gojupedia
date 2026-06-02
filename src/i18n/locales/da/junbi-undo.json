@@ -4,6 +4,7 @@
     "subtitle": "Forberedelsesøvelser",
     "description": "Forberedelsesøvelser og opvarmningsrutiner for Goju Ryu karate",
     "intro": "Disse øvelser forbereder kroppen til træning og bør udføres i begyndelsen af hver træningssession.",
+    "noteLabel": "Bemærk",
     "junbiUndoSection": {
       "title": "Junbi Undo",
       "subtitle": "Forberedelsesøvelser",
@@ -17,10 +18,12 @@
     },
     "breathingSection": {
       "title": "Åndedræt",
-      "subtitle": "Shin Kokyu"
+      "subtitle": "Shin Kokyu",
+      "description": "Åndedrætsøvelserne er en vigtig del af Junbi Undo og hjælper med at udvikle de rigtige åndedrætsteknikker, der bruges i Goju Ryu karate."
     },
     "exercises": {
       "title": "Øvelser",
+      "instructions": "Instruktioner",
       "list": [
         {
           "id": "toe_exercises",

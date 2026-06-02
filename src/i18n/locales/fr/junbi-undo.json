@@ -4,6 +4,7 @@
     "subtitle": "Exercices Préliminaires",
     "description": "Exercices préliminaires et routines d'échauffement pour le karaté Goju Ryu",
     "intro": "Ces exercices préparent le corps à l'entraînement et doivent être effectués au début de chaque session de pratique.",
+    "noteLabel": "Note",
     "junbiUndoSection": {
       "title": "Junbi Undo",
       "subtitle": "Exercices Préliminaires",
@@ -17,10 +18,12 @@
     },
     "breathingSection": {
       "title": "Respiration",
-      "subtitle": "Shin Kokyu"
+      "subtitle": "Shin Kokyu",
+      "description": "Les exercices de respiration sont une partie essentielle du Junbi Undo et aident à développer les techniques de respiration appropriées utilisées dans le karaté Goju Ryu."
     },
     "exercises": {
       "title": "Exercices",
+      "instructions": "Instructions",
       "list": [
         {
           "id": "toe_exercises",

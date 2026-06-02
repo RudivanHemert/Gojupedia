@@ -26,7 +26,7 @@ export const getMediaItems = (t: TFunction): MediaItem[] => [
   {
     id: 'vital-points-front-view',
     type: 'image',
-    url: '/media/vital-points/front-view-diagram.png',
+    url: '/Images/Vital-points-front.jpg',
     title: t('media.vitalPointsFrontView.title'),
     description: t('media.vitalPointsFrontView.description'),
     category: 'vital-points',
@@ -37,7 +37,7 @@ export const getMediaItems = (t: TFunction): MediaItem[] => [
   {
     id: 'vital-points-back-view',
     type: 'image',
-    url: '/media/vital-points/back-view-diagram.png',
+    url: '/Images/Vital-points-back.jpg',
     title: t('media.vitalPointsBackView.title'),
     description: t('media.vitalPointsBackView.description'),
     category: 'vital-points',

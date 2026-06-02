@@ -20,37 +20,19 @@
     "relatedSections": "Seções Relacionadas",
     "quickAccess": "Acesso Rápido",
     "viewCompleteOverview": "Ver Visão Geral Completa",
-    "voltar": "Voltar",
-    "funcoesPrincipais": "Funções Principais",
-    "efeitosTreinamento": "Efeitos do Treinamento",
-    "dimensoes": "Dimensões",
-    "materiais": "Materiais",
-    "recomendacoesPeso": "Recomendações de Peso",
-    "pontosImportantes": "Pontos Importantes",
-    "tecnicasRespiracao": "Técnicas de Respiração",
-    "diretrizesSeguranca": "Diretrizes de Segurança",
-    "serieBasica": "Série Básica",
-    "exerciciosAvancados": "Exercícios Avançados",
-    "dicasPraticas": "Dicas Práticas",
-    "exercicios": "Exercícios",
-    "origem": "Origem",
-    "peso": "Peso",
-    "secoesRelacionadas": "Seções Relacionadas",
-    "acessoRapido": "Acesso Rápido",
-    "verVisaoGeralCompleta": "Ver Visão Geral Completa",
-    "aprenderFundamentos": "Aprenda os fundamentos",
-    "entenderProposito": "Entenda o propósito e função",
-    "construirManter": "Construa e mantenha equipamentos",
-    "segurancaTecnica": "Foco em segurança e técnica",
-    "exerciciosEspecificos": "Exercícios e rotinas específicas",
-    "treinamentoForcaTradicional": "Treinamento Tradicional de Força"
+    "learnFundamentals": "Learn the fundamentals",
+    "understandingPurpose": "Understanding purpose and function",
+    "buildMaintain": "Build and maintain equipment",
+    "safetyTechnique": "Safety and technique focus",
+    "specificExercises": "Specific exercises and routines",
+    "traditionalStrengthTraining": "Traditional Strength Training"
   },
   "categories": {
-    "introducao": "Introdução",
-    "equipamentosPrincipais": "Equipamentos Principais"
+    "introduction": "Introduction",
+    "primaryEquipment": "Primary Equipment"
   },
   "sections": {
-    "secoesTreinamento": "Seções de Treinamento"
+    "trainingSections": "Training Sections"
   },
   "introduction": {
     "title": "Introdução",
@@ -606,6 +588,10 @@
         "importantPoints": [
           "Distribuição igual de força",
           "Manter as costas retas"
+        ],
+        "safetyGuidelines": [
+          "Watch balance",
+          "Do not start too heavy"
         ]
       },
       "exercises": {

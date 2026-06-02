@@ -469,6 +469,9 @@
       "shimeVideoNotAvailable": "Video de shime no disponible",
       "viewOnYouTube": "Ver en YouTube"
     },
+    "video": {
+      "title": "Kata Demonstration"
+    },
     "steps": {
       "interactiveStepsTitle": "Pasos Interactivos",
       "viewAllSteps": "Ver Todos los Pasos",
@@ -491,9 +494,6 @@
       "title": "Kata No Encontrada",
       "message": "La kata solicitada no pudo ser encontrada.",
       "backButton": "Volver a la Lista de Kata"
-    },
-    "video": {
-      "title": "Kata Demonstration"
     }
   }
 }

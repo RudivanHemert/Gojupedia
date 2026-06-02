@@ -9,7 +9,9 @@
       "frontViewTab": "Vue de face",
       "backViewTab": "Vue de dos",
       "frontViewTitle": "Points vitaux - Vue de face",
-      "backViewTitle": "Points vitaux - Vue de dos"
+      "backViewTitle": "Points vitaux - Vue de dos",
+      "locationLabel": "Emplacement sur le corps",
+      "locationShortLabel": "Location"
     },
     "quiz": {
       "title": "Quiz - Points Vitaux",
@@ -228,7 +230,7 @@
       "ein": {
         "name": "Ein",
         "area": "Milieu du périnée",
-        "translation": "collection of yin"
+        "translation": "collection de yin"
       },
       "ushiro-inazuma": {
         "name": "Ushiro Inazuma",

@@ -4,6 +4,7 @@
     "subtitle": "Exercícios Preliminares",
     "description": "Exercícios preliminares e rotinas de aquecimento para o karate Goju Ryu",
     "intro": "Estes exercícios preparam o corpo para o treinamento e devem ser realizados no início de cada sessão de prática.",
+    "noteLabel": "Nota",
     "junbiUndoSection": {
       "title": "Junbi Undo",
       "subtitle": "Exercícios Preliminares",
@@ -17,10 +18,12 @@
     },
     "breathingSection": {
       "title": "Respiração",
-      "subtitle": "Shin Kokyu"
+      "subtitle": "Shin Kokyu",
+      "description": "Os exercícios de respiração são uma parte essencial do Junbi Undo e ajudam a desenvolver as técnicas de respiração adequadas utilizadas no karatê Goju Ryu."
     },
     "exercises": {
       "title": "Exercícios",
+      "instructions": "Instruções",
       "list": [
         {
           "id": "toe_exercises",
@@ -98,6 +101,41 @@
           "description": "Fique em pé naturalmente e balance os braços para trás em um movimento circular amplo.",
           "instructions": "Comece devagar e depois balance o mais rápido possível várias vezes. Inverta o balanço, lembrando de começar devagar e terminar rápido.",
           "image": "page_13_image_1.png"
+        },
+        {
+          "id": "wrist_flexibility",
+          "name": "Wrist Flexibility",
+          "description": "Remaining in heikodachi (natural stance), place the left hand on the side of the body with the fingers pointing up.",
+          "instructions": "The fingers of the right hand cross over the front of the fingers of the left hand. Slowly push the left arm out straight while maintaining contact with the right hand.",
+          "image": "page_14_image_1.png"
+        },
+        {
+          "id": "fist_formation",
+          "name": "Fist Formation",
+          "description": "Assume a heiko dachi (natural stance), making sure the feet are slightly wider than shoulder width and parallel.",
+          "instructions": "Hold both arms in the chudan uke (mid-level block) posture. Without raising your center of gravity or the shoulders, stretch the arms out a little and open the hands and fingers as wide as possible.",
+          "image": "page_16_image_1.png"
+        },
+        {
+          "id": "palm_pressure",
+          "name": "Palm Pressure",
+          "description": "Standing in heiko dachi, push the palms of the hands together hard and stretch the arms out in front of the chest.",
+          "instructions": "Continue to push the hands together hard while you draw them back toward the chest and exhale through the open mouth. Making a line between both elbows, try to draw the wrists back a little beyond that line.",
+          "image": "page_17_image_1.png"
+        },
+        {
+          "id": "head_movements",
+          "name": "Head Movements",
+          "description": "Standing in heiko dachi (natural stance) with the hands resting on the hips, drop the chin to the chest and breathe in through the nose.",
+          "instructions": "Without holding the breath, move the head slowly backward as far as it will go, breathing out through the open mouth while you do so. Relax the shoulders and focus the mind on the harmony of the breath and posture.",
+          "image": "page_19_image_1.png"
+        },
+        {
+          "id": "neck_stretches",
+          "name": "Neck Stretches",
+          "description": "Holding the head naturally, breathe in before dropping the head over to one side on an exhalation while pushing the opposite shoulder down toward the ground.",
+          "instructions": "Hold this for just a second before moving the head slowly over to the other side. Keeping the body upright and standing in a natural posture, cup the hands over the back of the head.",
+          "image": "page_20_image_1.png"
         }
       ]
     }

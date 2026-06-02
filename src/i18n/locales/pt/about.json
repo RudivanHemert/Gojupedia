@@ -1,7 +1,24 @@
 {
   "about": {
+    "pageTitle": "Sobre o GojuPedia",
+    "pageDescription": "Contexto desta base de conhecimento de Goju-Ryu",
     "title": "Sobre o GojuPedia",
     "subtitle": "Sua fonte completa de conhecimento sobre Goju-Ryu Karate",
+    "mainDescription": "GojuPedia foi pensado como uma base pr?tica de conhecimento para karateka de Goju-Ryu. O conte?do foi compilado a partir de fontes dispon?veis e conhecimento de pr?tica, com espa?o para melhorias quando houver informa??es melhores.",
+    "vision": {
+      "title": "Vision",
+      "description": "O app tem como objetivo tornar terminologia, kata, hist?ria, filosofia e material de treino acess?veis para alunos e instrutores."
+    },
+    "values": {
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "Tentamos permanecer pr?ximos da tradi??o Goju-Ryu e corrigir o conte?do quando h? informa??es melhores dispon?veis."
+      },
+      "community": {
+        "title": "Community",
+        "description": "O feedback dos praticantes ajuda a tornar o conte?do mais preciso, completo e ?til."
+      }
+    },
     "description": "O criador deste aplicativo fez o seu melhor para preenchê-lo com os melhores dados disponíveis de fontes confiáveis e praticantes experientes de karate.",
     "dataQuality": {
       "title": "Qualidade dos Dados",
@@ -14,6 +31,7 @@
     "contact": {
       "title": "Contato",
       "description": "Se você gostaria de entrar em contato com o criador do aplicativo sobre o conteúdo ou funcionalidade deste aplicativo, você pode enviar um email para:",
+      "email": "Ainda n?o configurado",
       "feedback": "Apreciamos seu feedback e responderemos o mais rápido possível."
     },
     "version": {

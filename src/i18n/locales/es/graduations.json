@@ -2,6 +2,14 @@
   "graduations": {
     "title": "Graduaciones y Rangos",
     "description": "Descripción general de los diferentes cinturones, grados y títulos dentro del Goju Ryu Karate.",
+    "basicRequirements": "Requisitos Básicos",
+    "minimumClasses": "Clases Mínimas",
+    "monthsTraining": "Meses de Entrenamiento",
+    "techniques": "Técnicas",
+    "knowledgeTerminology": "Conocimiento y Terminología",
+    "history": "Historia",
+    "months": "meses",
+    "classes": "clases",
     "sections": {
       "ranks": {
         "title": "Cinturones y Grados",
@@ -68,6 +76,10 @@
             "description": "Décimo Dan"
           }
         }
+      },
+      "examRequirements": {
+        "title": "Exam Requirements",
+        "description": "Selecciona un grado para ver los requisitos espec?ficos de ese examen."
       },
       "beltColors": {
         "title": "Colores de Cinturón (Grados Kyu)",
@@ -241,13 +253,177 @@
         }
       }
     },
-    "basicRequirements": "Requisitos Básicos",
-    "minimumClasses": "Clases Mínimas",
-    "monthsTraining": "Meses de Entrenamiento",
-    "techniques": "Técnicas",
-    "knowledgeTerminology": "Conocimiento y Terminología",
-    "history": "Historia",
-    "months": "meses",
-    "classes": "clases"
+    "regulations": {
+      "title": "Reglamento internacional IOGKF de ex?menes de cintur?n negro",
+      "intro": {
+        "title": "1. Introducci?n",
+        "text": "El prop?sito de esta actualizaci?n es aclarar y estandarizar el sistema y las reglas de ex?menes de cintur?n negro entre los pa?ses miembros de la IOGKF."
+      },
+      "perspective": {
+        "title": "2. Perspectiva sobre los ex?menes Dan",
+        "text": "La concesi?n de grados Dan indica el progreso individual en Karate-Do y es realmente relevante sobre todo para la propia persona. Los siguientes tres ?pilares? ilustran el entorno Budo integral del camino del Karate-Do seg?n el cual se eval?an el desarrollo y el progreso:"
+      },
+      "junior": {
+        "title": "3.1 Grados de cintur?n negro infantiles",
+        "text": "Los estudiantes menores de 18 a?os tambi?n pueden examinarse para cintur?n negro. Es responsabilidad de cada pa?s establecer el est?ndar de dicho examen. Es pr?ctica com?n dividir el examen Dan junior en 3 o 4 categor?as.",
+        "categories": {
+          "kakyu": "Ka-kyu shodan 10-13 a?os",
+          "chukyu": "Chu-kyu shodan 14-15 a?os",
+          "jokyu": "Jo-kyu shodan 16-17 a?os"
+        },
+        "registration": "En relaci?n con los ex?menes junior (todos los ex?menes menores de 18 a?os), es importante que los candidatos est?n registrados en el sistema IOGKF y que se hayan pagado las tasas de examen correspondientes.",
+        "turning18": "Al cumplir 18 a?os, el estudiante debe examinarse para shodan senior bajo las mismas condiciones y cumpliendo los mismos requisitos que todos los dem?s."
+      },
+      "senior": {
+        "title": "3.2 Rangos senior",
+        "sandan": {
+          "title": "3.2.1 Sandan",
+          "text": "Este es el primer paso en la jerarqu?a ?senior? o ?sensei?, donde ciertas cualidades de car?cter deben empezar a hacerse visibles. Por lo tanto, los requisitos m?nimos de tiempo no son suficientes; se espera que el candidato aporte algo extra a sus esfuerzos. Las siguientes consideraciones espec?ficas son relevantes para los candidatos a sandan:",
+          "points": [
+            "M?s capacidad f?sica y t?cnica que los candidatos a nidan.",
+            "Una muestra de compromiso con la organizaci?n, como participaci?n y apoyo en eventos regionales o nacionales.",
+            "Estatus - instructor o instructor asistente - nadie deber?a intentar realmente el grado de sandan si no ha ense?ado tambi?n, aunque sea de forma ocasional.",
+            "Demuestra lealtad a la organizaci?n, a los dem?s miembros y al Chief Instructor.",
+            "Estatus entre sus pares: ?c?mo valoran sus pares sus habilidades, personalidad, etc.?"
+          ]
+        },
+        "yondan": {
+          "title": "3.2.2 Yondan",
+          "text": "Todo lo requerido para sandan, un paso m?s arriba, adem?s de un mayor sentido de implicaci?n en la organizaci?n. La capacidad f?sica y el acondicionamiento son importantes; teniendo en cuenta la edad, deben poder desenvolverse por s? mismos."
+        },
+        "godan": {
+          "title": "3.2.3 Godan",
+          "text": "Nivel senior de cintur?n negro con las siguientes consideraciones:",
+          "points": [
+            "?Se han ganado el respeto de instructores senior, miembros junior y senior de su dojo y pa?s por su comportamiento dentro y fuera del tatami: actitud correcta y lealtad incuestionable a la organizaci?n?",
+            "?Tienen la madurez de car?cter para aceptar cr?ticas y progresar a partir de ellas?",
+            "?Tienen un sentido objetivo del juicio?",
+            "La capacidad f?sica es importante: ?pueden desenvolverse por s? mismos?",
+            "?Entrenan por cuenta propia con regularidad?"
+          ]
+        },
+        "rokudan": {
+          "title": "3.2.4 Rokudan",
+          "text": "El candidato empieza a entrar en los ?niveles superiores? de la organizaci?n, tanto nacional como internacionalmente. La capacidad f?sica y el acondicionamiento son importantes; teniendo en cuenta la edad, los candidatos deber?an seguir mejorando t?cnica y f?sicamente y ser vistos por todos como personas que se esfuerzan por encarnar la filosof?a del karate-do. Rokudan suele ser la calificaci?n m?nima para ?Shihan?, otorgada solo por invitaci?n del panel de examen Honbu, lo que significa ?modelo a seguir? o ?profesor?. En otras palabras: ?los juniors por debajo de ellos y los seniors por encima de ellos los respetan m?s all? de sus capacidades f?sicas?",
+          "considerationsTitle": "Otras consideraciones para este nivel son:",
+          "points": [
+            "?Siguen promoviendo el karate tradicional y encarnan la lealtad al Chief Instructor y al resto de la organizaci?n?",
+            "?Poseen cualidades de liderazgo: lideran con el ejemplo?",
+            "?Otros miembros de la comunidad internacional de karate aceptan y/o respetan sus habilidades?",
+            "?Cu?l es su posici?n en el mundo fuera del karate? ?Las personas fuera del mundo del karate respetar?an a esta persona incluso si no tuviera el karate como motivo de reconocimiento?",
+            "Muestra un comportamiento apropiado fuera del dojo."
+          ]
+        },
+        "highranks": {
+          "title": "3.2.5 Nanadan, hachidan y superiores",
+          "text": "Los candidatos se convierten ahora en una manifestaci?n del Goju Ryu de Okinawa y han dominado la mayor?a de los conceptos b?sicos. Aunque son maestros senior, siguen siendo estudiantes de karate-do; metaf?ricamente, esto equivale a un profesor universitario. Deben asistir regularmente al gasshuku de Chief Instructors. Los candidatos ser?n informados por el comit? ejecutivo de la IOGKF 6 o 12 meses antes de ser invitados al examen; durante ese tiempo deben presentarse en un gasshuku impartido por alg?n miembro del panel Honbu. Estos rangos son ?nicamente por invitaci?n."
+        }
+      },
+      "honorary": {
+        "title": "3.3 Grado Dan honorario",
+        "text": "A discreci?n del EC, se puede otorgar un grado Dan honorario de forma individual por las siguientes razones:",
+        "points": [
+          "Contribuci?n a la asociaci?n",
+          "Promoci?n de la IOGKF",
+          "Cuando una persona ha tenido que limitar su entrenamiento por razones fuera de su control."
+        ]
+      },
+      "chiefInstructors": {
+        "title": "3.4 Chief Instructors - Kambukai - Representantes",
+        "text": "Un Country Chief Instructor, miembro de Kambukai o representante necesita permiso del EC para su examen y DEBE examinarse bajo el examinador designado."
+      },
+      "generalRules": {
+        "title": "4. Reglas generales para ex?menes Dan",
+        "admin": {
+          "title": "4.1 Requisitos administrativos",
+          "points": [
+            "Solo los miembros cuyos pa?ses est?n al d?a con las afiliaciones nacionales pueden ser examinados y registrados para rangos Dan de la IOGKF.",
+            "Cualquier pa?s que no pague la afiliaci?n IOGKF durante dos a?os consecutivos, o cualquier Country Chief Instructor que no asista a tres CI gasshukus consecutivos o a cualquier gasshuku internacional en el mismo per?odo, perder? todos los mandatos de examen definidos aqu?."
+          ]
+        },
+        "timeFee": {
+          "title": "4.2 Requisitos de tiempo, gasshuku y tasa de registro",
+          "definitions": {
+            "title": "4.2.1 Definiciones de gasshuku calificativo",
+            "points": [
+              "Nacional. Cualquier gasshuku organizado por una organizaci?n nacional.",
+              "Internacional. Cualquier gasshuku de estatus internacional ser? dirigido por Saiko Shihan, Shuseki Shihan, Fuku Shuseki Shihan o Gijutsu Komon (por ejemplo, Budosai, European Gasshuku o cualquier gasshuku especial definido por el EC)."
+            ],
+            "note": "NOTA - Los per?odos m?nimos se basan en la suposici?n de un entrenamiento m?nimo de 4 horas por semana con un instructor senior. Si el instructor es de rango inferior, el per?odo puede ser m?s largo. Se deben cumplir tanto los criterios de tiempo m?nimo como de edad m?nima."
+          },
+          "factors": {
+            "title": "4.2.2 Factores que pueden influir en los requisitos de tiempo",
+            "registration": "Todos los grados Dan deben estar registrados y aprobados por la IOGKF. Si este requisito no se cumple, la IOGKF anular? el grado y la persona deber? someterse a un nuevo examen bajo las condiciones correctas.",
+            "increasingTime": {
+              "title": "Aumento del per?odo de tiempo",
+              "text": "A discreci?n del Country Chief Instructor, el per?odo m?nimo puede aumentarse por las siguientes razones:",
+              "points": [
+                "La persona no ha alcanzado el nivel necesario respecto al grado solicitado.",
+                "La persona es principalmente autodidacta y no necesariamente entrena bajo supervisi?n. Esto no la califica para la especificaci?n de tiempo anterior.",
+                "Un per?odo de m?s de tres meses sin entrenamiento desde el ?ltimo examen debido a lesi?n u otras razones."
+              ]
+            },
+            "reducingTime": {
+              "title": "Reducci?n del per?odo de tiempo",
+              "points": [
+                "Retraso entre fechas de examen inmediatamente anteriores; por ejemplo, si una persona tard? 6/7 a?os en avanzar de yondan a godan, puede recibir un ?cr?dito? de no m?s de un a?o, por ejemplo de godan a rokudan en 5 a?os.",
+                "Si el estudiante en cuesti?n ha sido cintur?n negro junior durante muchos a?os. Despu?s de cumplir 18 a?os, pasa a shodan adulto. Sin embargo, puede examinarse para nidan despu?s de un a?o. A partir de entonces, se deben respetar los per?odos de examen publicados. NB: la edad de la persona seguir? siendo un a?o menor que la ?tradicionalmente requerida? para ese grado."
+              ]
+            },
+            "otherOrg": {
+              "title": "Cintur?n negro recibido de otra organizaci?n",
+              "text": "Los nuevos miembros que tengan un grado Dan de su organizaci?n anterior deben volver a examinarse bajo los est?ndares IOGKF. Los requisitos m?nimos de tiempo, edad y asistencia a gasshuku deben aplicarse desde la fecha en que se unieron. El grado que reciban puede ser inferior seg?n los requisitos de examen de la IOGKF."
+            }
+          }
+        },
+        "categories": {
+          "title": "4.3 Categor?as de examen y mandato",
+          "text": "Los Country Chief Instructors, kambukai y representantes mandatados por Higaonna Sensei pueden realizar ex?menes Dan de la siguiente manera:",
+          "chiefs": {
+            "title": "Chief Instructors",
+            "points": [
+              "Chief Instructor hachidan: puede examinar hasta godan",
+              "Miembros del EC: pueden examinar hasta godan",
+              "Chief Instructor nanadan: puede examinar hasta yondan dentro de su propio pa?s",
+              "Chief Instructor rokudan: puede examinar hasta yondan dentro de su propio pa?s",
+              "Chief Instructor godan: puede examinar hasta sandan dentro de su propio pa?s",
+              "Chief Instructor yondan: puede examinar hasta shodan dentro de su propio pa?s",
+              "Chief Instructor sandan, nidan o shodan: no puede realizar ex?menes de cintur?n negro"
+            ],
+            "note": "Los ex?menes Dan en pa?ses donde el instructor no tiene permiso para examinar solo pueden ser realizados por un instructor senior IOGKF con permiso del shuseki shihan y del Chief Instructor de ese pa?s. Las categor?as y mandatos pueden omitirse para grados Dan honorarios."
+          },
+          "kambukai": {
+            "title": "Pa?ses Kambukai",
+            "text": "El nivel de examen para un kambukai es el mismo que para los Chief Instructors. Las categor?as de examen y el mandato son los mismos que arriba."
+          },
+          "representatives": {
+            "title": "Pa?ses representantes",
+            "text": "Los representantes IOGKF con un m?nimo de yondan solo pueden examinar hasta shodan. Este privilegio solo se concede si el pa?s representante ha sido miembro de IOGKF durante un m?nimo de 2 a?os y los representantes han participado en gasshuku internacional."
+          },
+          "permission": "**** Ning?n estudiante puede ser examinado en otro pa?s sin el permiso expreso de su Chief Instructor. Su Chief Instructor debe firmar el formulario de solicitud."
+        },
+        "honbu": {
+          "title": "4.4 Panel de examen del Honbu Dojo",
+          "text": "Los candidatos a rokudan y superiores deben examinarse en Okinawa o en el Chief Instructor Gasshuku. El panel de examen del Honbu Dojo ser? designado por el Saiko Shihan."
+        },
+        "international": {
+          "title": "4.8 Requisitos de examen en gasshuku internacional",
+          "points": [
+            "Para todos los gasshuku internacionales es requisito que el candidato haya completado previamente el examen escrito y haya sido aprobado por el Chief Instructor. El Chief Instructor tambi?n debe firmar el formulario de solicitud del candidato; de lo contrario, no ser? posible examinarse."
+          ]
+        }
+      },
+      "writtenExam": {
+        "title": "5. El examen escrito",
+        "low": {
+          "title": "5.1 Shodan, Nidan o Sandan",
+          "text": "Para examinarse de shodan, nidan o sandan, el examen escrito debe completarse y entregarse al Chief Instructor del candidato antes de asistir al gasshuku internacional. El examen debe tener una puntuaci?n m?nima aprobatoria del 75 %. Si no se alcanza, el candidato no puede examinarse."
+        },
+        "high": {
+          "title": "5.2 Yondan y superiores",
+          "text": "Para examinarse de estos niveles, se debe completar y presentar un ensayo escrito sobre algunos de los desaf?os que enfrentan el karate y el Okinawan Goju Ryu. El Chief Instructor del candidato puede obtener las preguntas elegidas contactando al Administrative Director antes del examen. La respuesta o ensayo debe estar en ingl?s para los ex?menes internacionales."
+        }
+      }
+    }
   }
 }

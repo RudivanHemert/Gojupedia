@@ -1,9 +1,5 @@
 {
   "kata": {
-    "title": "Kata",
-    "description": "Traditionele vormen van Goju Ryu",
-    "theoryTitle": "Kata Theorie",
-    "theoryDescription": "Inzicht in de principes en praktijk van kata",
     "theory": {
       "title": "Kata Theorie",
       "description": "Begrip van de principes en praktijk van kata",
@@ -25,22 +21,77 @@
       "heishugata": "Heishugata (閉手型)",
       "heishugataDescription": "Gesloten Hand Vormen - De fundamentele kata die zich richten op ademhaling, spanning en interne energieontwikkeling."
     },
-    "sections": {
-      "whatAreKata": "Wat zijn Kata?",
-      "kataAndKarate": "Kata en Karate",
-      "bunkaiAndTechniques": "Bunkai & Technieken",
-      "kataOrigins": "Oorsprong van Kata",
-      "powerAndMovement": "Kracht & Beweging",
-      "sourcesOfPower": "Bronnen van Kracht",
-      "okinawanConcepts": "Okinawaanse Concepten",
-      "powerTransfer": "Krachtsoverdracht",
-      "kataTechniques": "Kata Technieken"
-    },
     "levels": {
       "beginner": "Beginner",
       "intermediate": "Gevorderd",
       "advanced": "Uitgebreid",
       "master": "Meester"
+    },
+    "sanchin": {
+      "name": "Sanchin",
+      "japaneseName": "三戦",
+      "meaning": "Drie gevechten (basis ademhaling/spanning)",
+      "description": "De fundamentele kata van Goju Ryu, gericht op ademhaling, spanning en basisbewegingen.",
+      "history": "Doorgegeven door Kanryo Higaonna en verder ontwikkeld door Chojun Miyagi.",
+      "culturalSignificance": "Vertegenwoordigt de essentie van Goju Ryu en de verbinding van geest, lichaam en adem.",
+      "stepsCount": 6,
+      "steps": {
+        "step1": {
+          "title": "Startpositie en voorwaartse stap",
+          "description": "Begin in natuurlijke houding naar voren gericht"
+        },
+        "step2": {
+          "title": "Drie stoten",
+          "description": "Stap voorwaarts in sanchin dachi"
+        },
+        "step3": {
+          "title": "180 graden draaien",
+          "description": "Voer drie stoten uit terwijl je de juiste ademhaling behoudt"
+        },
+        "step4": {
+          "title": "Reeks voortzetten",
+          "description": "Draai 180 graden terwijl je de spanning behoudt"
+        },
+        "step5": {
+          "title": "Spierspanning behouden",
+          "description": "Zet de reeks voort met gecontroleerde bewegingen en ademhaling"
+        },
+        "step6": {
+          "title": "Conclusie",
+          "description": "Behoud spierspanning gedurende de hele vorm"
+        }
+      }
+    },
+    "tensho": {
+      "name": "Tensho",
+      "japaneseName": "転掌",
+      "meaning": "Draaiende palmen",
+      "description": "Een vloeiende kata die de zachte aspecten van Goju Ryu benadrukt.",
+      "history": "Gecreëerd door Chojun Miyagi als aanvulling op Sanchin.",
+      "culturalSignificance": "Vertegenwoordigt het 'ju' (zachte) aspect van Goju Ryu.",
+      "stepsCount": 5,
+      "steps": {
+        "step1": {
+          "title": "Beginnen in sanchin houding",
+          "description": "Begin in de fundamentele sanchin houding"
+        },
+        "step2": {
+          "title": "Circulaire open hand technieken",
+          "description": "Voer circulaire open hand technieken uit"
+        },
+        "step3": {
+          "title": "Spierspanning behouden",
+          "description": "Behoud spierspanning gedurende de hele tijd"
+        },
+        "step4": {
+          "title": "Vloeiende circulaire bewegingen",
+          "description": "Concentreer je op vloeiende, circulaire bewegingen"
+        },
+        "step5": {
+          "title": "Juiste ademhaling",
+          "description": "Behoud de juiste ademhaling gedurende de hele kata"
+        }
+      }
     },
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
@@ -114,72 +165,6 @@
         "step8": {
           "title": "Afsluiting",
           "description": "Open de linkerhand en leg de rechtervuist met een kleine circulaire beweging in de linker. Draai de linkervoet naar buiten, sluit met de rechtervoet aan in musubi dachi en draai gelijktijdig de handen. Sluit de kata af."
-        }
-      }
-    },
-    "sanchin": {
-      "name": "Sanchin",
-      "japaneseName": "三戦",
-      "meaning": "Drie gevechten (basis ademhaling/spanning)",
-      "description": "De fundamentele kata van Goju Ryu, gericht op ademhaling, spanning en basisbewegingen.",
-      "history": "Doorgegeven door Kanryo Higaonna en verder ontwikkeld door Chojun Miyagi.",
-      "culturalSignificance": "Vertegenwoordigt de essentie van Goju Ryu en de verbinding van geest, lichaam en adem.",
-      "stepsCount": 6,
-      "steps": {
-        "step1": {
-          "title": "Startpositie en voorwaartse stap",
-          "description": "Begin in natuurlijke houding naar voren gericht"
-        },
-        "step2": {
-          "title": "Drie stoten",
-          "description": "Stap voorwaarts in sanchin dachi"
-        },
-        "step3": {
-          "title": "180 graden draaien",
-          "description": "Voer drie stoten uit terwijl je de juiste ademhaling behoudt"
-        },
-        "step4": {
-          "title": "Reeks voortzetten",
-          "description": "Draai 180 graden terwijl je de spanning behoudt"
-        },
-        "step5": {
-          "title": "Spierspanning behouden",
-          "description": "Zet de reeks voort met gecontroleerde bewegingen en ademhaling"
-        },
-        "step6": {
-          "title": "Conclusie",
-          "description": "Behoud spierspanning gedurende de hele vorm"
-        }
-      }
-    },
-    "tensho": {
-      "name": "Tensho",
-      "japaneseName": "転掌",
-      "meaning": "Draaiende palmen",
-      "description": "Een vloeiende kata die de zachte aspecten van Goju Ryu benadrukt.",
-      "history": "Gecreëerd door Chojun Miyagi als aanvulling op Sanchin.",
-      "culturalSignificance": "Vertegenwoordigt het 'ju' (zachte) aspect van Goju Ryu.",
-      "stepsCount": 5,
-      "steps": {
-        "step1": {
-          "title": "Beginnen in sanchin houding",
-          "description": "Begin in de fundamentele sanchin houding"
-        },
-        "step2": {
-          "title": "Circulaire open hand technieken",
-          "description": "Voer circulaire open hand technieken uit"
-        },
-        "step3": {
-          "title": "Spierspanning behouden",
-          "description": "Behoud spierspanning gedurende de hele tijd"
-        },
-        "step4": {
-          "title": "Vloeiende circulaire bewegingen",
-          "description": "Concentreer je op vloeiende, circulaire bewegingen"
-        },
-        "step5": {
-          "title": "Juiste ademhaling",
-          "description": "Behoud de juiste ademhaling gedurende de hele kata"
         }
       }
     },

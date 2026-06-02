@@ -1,50 +1,7 @@
 {
-  "kata": {
-    "title": "Sanchin",
-    "stepsCount": "8",
-    "subtitle": "三戦",
-    "description": "En af de mest fundamentale kata i Goju-Ryu",
-    "meaning": "Betydning: 'Tre kampe' eller 'Tre slag'",
-    "level": "Niveau: 6. kyu (grønt bælte)",
-    "origin": "Oprindelse: Traditionel kata fra Naha-te",
-    "purpose": "Formål: At udvikle styrke, balance og åndedræt",
-    "techniques": {
-      "stances": "Stillinger",
-      "blocks": "Blokke",
-      "strikes": "Slag",
-      "punches": "Stød",
-      "kicks": "Spark"
-    },
-    "stances": [
-      "Sanchin-dachi (hovedstilling)",
-      "Heisoku-dachi (start)"
-    ],
-    "blocks": [
-      "Sanchin-uke (Sanchin blok)",
-      "Morote-uke (dobbelt hånd blok)"
-    ],
-    "strikes": [
-      "Oi-zuki (lunge stød)",
-      "Gyaku-zuki (omvendt stød)"
-    ],
-    "kicks": [],
-    "movements": [
-      "Fremad og tilbage",
-      "Sanchin-dachi bevægelser",
-      "Kraftfulde teknikker"
-    ],
-    "applications": [
-      "Styrkeopbygning",
-      "Åndedrætskontrol",
-      "Balance og rodfæstelse"
-    ],
-    "notes": "Sanchin er kendt for sin fokus på styrke og åndedræt. Den udføres med spændte muskler og kontrolleret åndedræt.",
-    "videoDescription": "Se Sanchin demonstrationsvideoen på YouTube.",
-    "watchOnYouTube": "Se på YouTube",
-    "noKataDetails": "Ingen detaljeret kata information tilgængelig."
-  },
   "name": "Sanchin",
   "japaneseName": "三戦",
+  "stepsCount": "8",
   "meaning": "Three Battles",
   "description": "The foundation of Goju-Ryu, a kata that unites body, mind and technique.",
   "origin": {

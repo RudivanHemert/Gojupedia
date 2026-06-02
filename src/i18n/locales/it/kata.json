@@ -362,21 +362,7 @@
       "description": "Sepai significa letteralmente 18 (mani), 6 (colore, voce, gusto, olfatto, tatto e giustizia) x 3 (buono, cattivo e pace). Il kata è caratteristico del Goju-Ryu a causa dei contrasti tra duro e morbido, veloce e lento. Hikite si verifica meno frequentemente e la maggior parte dei movimenti sono tecniche a due mani.",
       "history": "Sepai è stato introdotto a Okinawa da Kanryo Higaonna. Ha imparato il kata da Ryu Ryu Ko.",
       "culturalSignificance": "Rappresenta i 18 (6x3) elementi di coscienza e azione.",
-      "stepsCount": "17",
-      "steps": {
-        "step1": {
-          "title": "Movimenti circolari",
-          "description": "Movimenti circolari"
-        },
-        "step2": {
-          "title": "Tecniche di deviazione",
-          "description": "Deviare e reindirizzare la forza dell'avversario"
-        },
-        "step3": {
-          "title": "Combinazioni avanzate",
-          "description": "Tecniche di combinazione avanzate"
-        }
-      }
+      "stepsCount": "17"
     },
     "kururunfa": {
       "name": "Kururunfa",
@@ -483,6 +469,9 @@
       "shimeVideoNotAvailable": "Video di shime non disponibile",
       "viewOnYouTube": "Guarda su YouTube"
     },
+    "video": {
+      "title": "Kata Demonstration"
+    },
     "steps": {
       "interactiveStepsTitle": "Passi Interattivi",
       "viewAllSteps": "Vedi Tutti i Passi",
@@ -505,9 +494,6 @@
       "title": "Kata Non Trovata",
       "message": "Il kata richiesto non è stato trovato.",
       "backButton": "Torna alla Lista dei Kata"
-    },
-    "video": {
-      "title": "Kata Demonstration"
     }
   }
 }

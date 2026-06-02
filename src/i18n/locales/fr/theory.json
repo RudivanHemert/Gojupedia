@@ -2,7 +2,7 @@
   "theory": {
     "title": "Théorie",
     "description": "Principes et connaissances de Goju Ryu",
-    "terminologyNav": "Terminologie",
+    "terminology": "Terminology",
     "terminologyDesc": "Terminologie japonaise et vocabulaire utilisé en Goju Ryu",
     "history": "Histoire",
     "historyDesc": "Les origines et l'évolution du Karaté Goju Ryu",
@@ -19,8 +19,7 @@
       "kata": "Kata",
       "vitalPoints": "Points Vitaux",
       "gradings": "Graduations"
-    },
-    "terminology": "Terminology"
+    }
   },
   "kata.theory": {
     "title": "Théorie des Kata",
