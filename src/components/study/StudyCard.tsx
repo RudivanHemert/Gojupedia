@@ -20,6 +20,12 @@ const getStudyTypeIcon = (type: Study['type']) => {
   }
 };
 
+const formatFallbackLabel = (value: string) =>
+  value
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+
 interface StudyCardProps {
   study: Study;
 }
@@ -28,24 +34,33 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
+  const translateText = (key: string, fallback: string) => {
+    const translated = t(key, { defaultValue: fallback });
+    return translated === key ? fallback : translated;
+  };
+
   const getTranslatedContent = (studyItem: Study) => {
-    if (studyItem.id.includes('-quiz') || studyItem.id.includes('-flashcard')) {
-      const match = studyItem.id.match(/^([a-z0-9-]+)-(quiz|flashcard)/);
-      const category = match ? match[1] : studyItem.id.split('-')[0];
-      const type = studyItem.id.includes('-quiz') ? 'quiz' : 'flashcard';
+    const flashcardMatch = studyItem.id.match(/^([a-z0-9-]+)-flashcards?$/);
+    const quizMatch = studyItem.id.match(/^([a-z0-9-]+)-quiz$/);
+    const terminologyQuizCategory =
+      studyItem.type === 'quiz' && studyItem.category === 'terminology'
+        ? studyItem.id
+        : undefined;
+    const category = flashcardMatch?.[1] || quizMatch?.[1] || terminologyQuizCategory;
 
-      if (type === 'quiz') {
-        const quizTypeKey = `study.quizTypes.${category}`;
-        return {
-          title: t(`${quizTypeKey}.title`, t(`quizTypes.${category}.title`, 'Quiz')),
-          description: t(`${quizTypeKey}.description`, t(`quizTypes.${category}.description`, 'Test your knowledge.')),
-        };
-      }
+    if (category && studyItem.type === 'quiz') {
+      const quizTypeKey = `study.quizTypes.${category}`;
+      return {
+        title: translateText(`${quizTypeKey}.title`, studyItem.title),
+        description: translateText(`${quizTypeKey}.description`, studyItem.description),
+      };
+    }
 
+    if (category && studyItem.type === 'flashcard') {
       const flashcardTypeKey = `study.flashcardTypes.${category}`;
       return {
-        title: t(`${flashcardTypeKey}.title`, t(`flashcardTypes.${category}.title`, 'Flashcards')),
-        description: t(`${flashcardTypeKey}.description`, t(`flashcardTypes.${category}.description`, 'Practice with flashcards.')),
+        title: translateText(`${flashcardTypeKey}.title`, studyItem.title),
+        description: translateText(`${flashcardTypeKey}.description`, studyItem.description),
       };
     }
 
@@ -58,33 +73,34 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
   const translatedContent = getTranslatedContent(study);
   const itemLabel =
     study.type === 'flashcard'
-      ? t('study.cards', 'cards')
+      ? translateText('study.cards', 'cards')
       : study.type === 'matching'
-        ? t('study.pairs', 'pairs')
-        : t('study.questionsLabel', 'questions');
-  const categoryLabel = t(`study.categories.${study.category}`, {
-    defaultValue: study.category.replace(/-/g, ' '),
-  });
+        ? translateText('study.pairs', 'pairs')
+        : translateText('study.questionsLabel', 'questions');
+  const categoryLabel = translateText(
+    `study.categories.${study.category}`,
+    formatFallbackLabel(study.category),
+  );
   const typeLabel =
     study.type === 'quiz'
-      ? t('study.testTypes.quiz', 'Quiz')
+      ? translateText('study.testTypes.quiz', 'Quiz')
       : study.type === 'flashcard'
-        ? t('study.testTypes.flashcards', 'Flashcards')
-        : t('study.testTypes.matching', 'Matching');
+        ? translateText('study.testTypes.flashcards', 'Flashcards')
+        : translateText('study.testTypes.matching', 'Matching');
   const difficultyLabel =
     study.difficulty === 'beginner'
-      ? t('study.difficulty.beginner', 'Beginner')
+      ? translateText('study.difficulty.beginner', 'Beginner')
       : study.difficulty === 'intermediate'
-        ? t('study.difficulty.intermediate', 'Intermediate')
+        ? translateText('study.difficulty.intermediate', 'Intermediate')
         : study.difficulty === 'advanced'
-          ? t('study.difficulty.advanced', 'Advanced')
+          ? translateText('study.difficulty.advanced', 'Advanced')
           : study.difficulty;
   const startLabel =
     study.type === 'flashcard'
-      ? t('study.startFlashcards', 'Start Flashcards')
+      ? translateText('study.startFlashcards', 'Start Flashcards')
       : study.type === 'matching'
-        ? t('study.startMatching', 'Start Matching')
-        : t('study.startQuiz', 'Start Quiz');
+        ? translateText('study.startMatching', 'Start Matching')
+        : translateText('study.startQuiz', 'Start Quiz');
 
   return (
     <Card className="flex h-full flex-col border-border transition-colors hover:border-karate">

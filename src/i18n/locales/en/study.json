@@ -570,8 +570,8 @@
         "description": "Test your knowledge of Goju Ryu philosophy."
       },
       "kumite": {
-        "title": "Kumite Quiz",
-        "description": "Test your knowledge of kumite."
+        "title": "Kumite Terms Quiz",
+        "description": "Test your knowledge of kumite terms."
       },
       "vital-points": {
         "title": "Vital Points Quiz",
@@ -592,41 +592,90 @@
       "kumite-rules": {
         "title": "Kumite Rules Quiz",
         "description": "Scoring, penalties and referee commands."
+      },
+      "common": {
+        "title": "Common Terms Quiz",
+        "description": "Test your knowledge of common terms."
+      },
+      "strikes": {
+        "title": "Strikes Quiz",
+        "description": "Test your knowledge of strikes."
+      },
+      "body-parts": {
+        "title": "Body Parts Quiz",
+        "description": "Test your knowledge of body parts."
+      },
+      "commands": {
+        "title": "Commands Quiz",
+        "description": "Test your knowledge of commands."
+      },
+      "numbers": {
+        "title": "Numbers Quiz",
+        "description": "Test your knowledge of numbers."
+      },
+      "ranks": {
+        "title": "Ranks Quiz",
+        "description": "Test your knowledge of ranks."
+      },
+      "weapons": {
+        "title": "Weapons Quiz",
+        "description": "Test your knowledge of weapons."
+      },
+      "concepts": {
+        "title": "Concepts Quiz",
+        "description": "Test your knowledge of concepts."
+      },
+      "kata-specific": {
+        "title": "Kata Terms Quiz",
+        "description": "Test your knowledge of kata terms."
+      },
+      "dojo": {
+        "title": "Dojo Terms Quiz",
+        "description": "Test your knowledge of dojo terms."
       }
     },
     "matchingTypes": {
       "kata": {
         "title": "Kata Matching",
-        "description": "Match kata names with their meanings and characteristics."
+        "description": "Match kata names with their meanings."
       },
       "terminology": {
         "title": "Terminology Matching",
-        "description": "Match Japanese terms to their English meanings across categories.",
-        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
-        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
-        "e1": "Fundamental dojo concepts used throughout training."
+        "description": "Match Japanese terms to their meanings across categories."
+      },
+      "techniques": {
+        "title": "Techniques Matching",
+        "description": "Match technique names with their meanings."
+      },
+      "philosophy": {
+        "title": "Philosophy Matching",
+        "description": "Match philosophical concepts with their meanings."
+      },
+      "stances": {
+        "title": "Stances Matching",
+        "description": "Match stance names with their meanings."
       }
     },
     "flashcardTypes": {
       "common": {
-        "title": "Common Flashcards",
-        "description": "Practice common terminology with flashcards."
+        "title": "Common Terms Flashcards",
+        "description": "Practice common terms with flashcards."
       },
       "stances": {
         "title": "Stances Flashcards",
-        "description": "Learn all karate stances and positions."
+        "description": "Practice stances with flashcards."
       },
       "kicks": {
         "title": "Kicks Flashcards",
-        "description": "Learn all karate kicking techniques."
+        "description": "Practice kicks with flashcards."
       },
       "punches": {
         "title": "Punches Flashcards",
-        "description": "Learn all karate punching techniques."
+        "description": "Practice punches with flashcards."
       },
       "blocks": {
         "title": "Blocks Flashcards",
-        "description": "Learn all karate blocking techniques."
+        "description": "Practice blocks with flashcards."
       },
       "kata": {
         "title": "Kata Flashcards",
@@ -638,11 +687,47 @@
       },
       "numbers": {
         "title": "Numbers Flashcards",
-        "description": "Learn Japanese numbers used in karate."
+        "description": "Practice numbers with flashcards."
       },
       "general": {
         "title": "General Terms Flashcards",
         "description": "Learn essential karate terminology."
+      },
+      "strikes": {
+        "title": "Strikes Flashcards",
+        "description": "Practice strikes with flashcards."
+      },
+      "body-parts": {
+        "title": "Body Parts Flashcards",
+        "description": "Practice body parts with flashcards."
+      },
+      "commands": {
+        "title": "Commands Flashcards",
+        "description": "Practice commands with flashcards."
+      },
+      "ranks": {
+        "title": "Ranks Flashcards",
+        "description": "Practice ranks with flashcards."
+      },
+      "weapons": {
+        "title": "Weapons Flashcards",
+        "description": "Practice weapons with flashcards."
+      },
+      "concepts": {
+        "title": "Concepts Flashcards",
+        "description": "Practice concepts with flashcards."
+      },
+      "kata-specific": {
+        "title": "Kata Terms Flashcards",
+        "description": "Practice kata terms with flashcards."
+      },
+      "kumite": {
+        "title": "Kumite Terms Flashcards",
+        "description": "Practice kumite terms with flashcards."
+      },
+      "dojo": {
+        "title": "Dojo Terms Flashcards",
+        "description": "Practice dojo terms with flashcards."
       }
     },
     "categories": {
@@ -650,7 +735,12 @@
       "philosophy": "Philosophy",
       "techniques": "Techniques",
       "kumite": "Kumite",
-      "terminologyNav": "Terminology"
+      "terminologyNav": "Terminology",
+      "terminology": "Terminology",
+      "history": "History",
+      "hojo-undo": "Hojo Undo",
+      "newaza": "Newaza",
+      "vital-points": "Vital Points"
     },
     "progress": {
       "title": "Progress",
@@ -762,6 +852,44 @@
       "resultCount": "{{count}} of {{total}}",
       "clearFilters": "Clear filters",
       "noResults": "No study sets match your filters."
+    },
+    "matchingPairs": {
+      "kata": {
+        "sanchin": "Three Battles",
+        "tensho": "Turning Palms",
+        "gekisai": "Attack and Smash",
+        "saifa": "Smash and Tear",
+        "seiyunchin": "Control and Pull",
+        "shisochin": "Four Direction Battle",
+        "sanseru": "Thirty-Six Hands",
+        "seipai": "Eighteen Hands"
+      },
+      "techniques": {
+        "maeGeri": "Front Kick",
+        "yokoGeri": "Side Kick",
+        "mawashiGeri": "Roundhouse Kick",
+        "gedanBarai": "Downward Block",
+        "ageUke": "Rising Block",
+        "sotoUke": "Outside Block",
+        "uchiUke": "Inside Block",
+        "shutoUke": "Knife-hand Block"
+      },
+      "philosophy": {
+        "rei": "Respect",
+        "dojoKun": "Training Hall Precepts",
+        "karateDo": "Way of the Empty Hand",
+        "zanshin": "Remaining Mind",
+        "mushin": "No Mind",
+        "kime": "Focus"
+      },
+      "stances": {
+        "sanchin": "Hourglass Stance",
+        "zenkutsu": "Front Stance",
+        "kokutsu": "Back Stance",
+        "kiba": "Horse Stance",
+        "nekoAshi": "Cat Stance",
+        "shiko": "Sumo Stance"
+      }
     }
   },
   "title": "Study",

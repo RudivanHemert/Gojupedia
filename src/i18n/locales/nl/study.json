@@ -547,19 +547,19 @@
     "quizTypes": {
       "stances": {
         "title": "Standen Quiz",
-        "description": "Test je kennis van karate standen en posities."
+        "description": "Test je kennis van standen."
       },
       "kicks": {
         "title": "Trappen Quiz",
-        "description": "Test je kennis van karate traptechnieken."
+        "description": "Test je kennis van trappen."
       },
       "punches": {
         "title": "Stoten Quiz",
-        "description": "Test je kennis van karate stoottechnieken."
+        "description": "Test je kennis van stoten."
       },
       "blocks": {
         "title": "Blokkeringen Quiz",
-        "description": "Test je kennis van karate blokkeringstechnieken."
+        "description": "Test je kennis van blokkeringen."
       },
       "kata": {
         "title": "Kata Quiz",
@@ -570,8 +570,8 @@
         "description": "Test je kennis van Goju Ryu filosofische concepten en principes."
       },
       "kumite": {
-        "title": "Kumite Quiz",
-        "description": "Test je kennis van kumite."
+        "title": "Kumite-termen Quiz",
+        "description": "Test je kennis van kumite-termen."
       },
       "vital-points": {
         "title": "Vitale Punten Quiz",
@@ -592,41 +592,90 @@
       "kumite-rules": {
         "title": "Kumite Regels Quiz",
         "description": "Puntentelling, straffen en scheidsrechtercommando's."
+      },
+      "common": {
+        "title": "Algemene termen Quiz",
+        "description": "Test je kennis van algemene termen."
+      },
+      "strikes": {
+        "title": "Slagtechnieken Quiz",
+        "description": "Test je kennis van slagtechnieken."
+      },
+      "body-parts": {
+        "title": "Lichaamsdelen Quiz",
+        "description": "Test je kennis van lichaamsdelen."
+      },
+      "commands": {
+        "title": "Commando’s Quiz",
+        "description": "Test je kennis van commando’s."
+      },
+      "numbers": {
+        "title": "Getallen Quiz",
+        "description": "Test je kennis van getallen."
+      },
+      "ranks": {
+        "title": "Graden Quiz",
+        "description": "Test je kennis van graden."
+      },
+      "weapons": {
+        "title": "Wapens Quiz",
+        "description": "Test je kennis van wapens."
+      },
+      "concepts": {
+        "title": "Concepten Quiz",
+        "description": "Test je kennis van concepten."
+      },
+      "kata-specific": {
+        "title": "Kata-termen Quiz",
+        "description": "Test je kennis van kata-termen."
+      },
+      "dojo": {
+        "title": "Dojo-termen Quiz",
+        "description": "Test je kennis van dojo-termen."
       }
     },
     "matchingTypes": {
       "kata": {
         "title": "Kata Matching",
-        "description": "Match kata namen met hun betekenissen en kenmerken."
+        "description": "Koppel katanamen aan hun betekenis."
       },
       "terminology": {
         "title": "Terminologie Matching",
-        "description": "Koppel Japanse termen aan hun Nederlandse betekenis.",
-        "q1": "Koppel: Rei, Kime, Zanshin",
-        "a1": "Rei-Respect, Kime-Focus, Zanshin-Blijvende geest",
-        "e1": "Fundamentele dojo-concepten gebruikt door de training heen."
+        "description": "Koppel Japanse termen aan hun betekenis."
+      },
+      "techniques": {
+        "title": "Technieken Matching",
+        "description": "Koppel techniekbenamingen aan hun betekenis."
+      },
+      "philosophy": {
+        "title": "Filosofie Matching",
+        "description": "Koppel filosofische begrippen aan hun betekenis."
+      },
+      "stances": {
+        "title": "Standen Matching",
+        "description": "Koppel standnamen aan hun betekenis."
       }
     },
     "flashcardTypes": {
       "common": {
-        "title": "Algemene Termen Flashcards",
-        "description": "Oefen algemene terminologie met flashcards."
+        "title": "Algemene termen Flashcards",
+        "description": "Oefen algemene termen met flashcards."
       },
       "stances": {
-        "title": "Standen",
-        "description": "Leer alle karate standen en posities."
+        "title": "Standen Flashcards",
+        "description": "Oefen standen met flashcards."
       },
       "kicks": {
-        "title": "Trappen",
-        "description": "Leer alle karate traptechnieken."
+        "title": "Trappen Flashcards",
+        "description": "Oefen trappen met flashcards."
       },
       "punches": {
-        "title": "Stoten",
-        "description": "Leer alle karate stoottechnieken."
+        "title": "Stoten Flashcards",
+        "description": "Oefen stoten met flashcards."
       },
       "blocks": {
-        "title": "Blokkeringen",
-        "description": "Leer alle karate blokkeringstechnieken."
+        "title": "Blokkeringen Flashcards",
+        "description": "Oefen blokkeringen met flashcards."
       },
       "kata": {
         "title": "Kata Flashcards",
@@ -637,12 +686,48 @@
         "description": "Leer Goju Ryu filosofische concepten en principes."
       },
       "numbers": {
-        "title": "Nummers Flashcards",
-        "description": "Leer Japanse nummers gebruikt in karate."
+        "title": "Getallen Flashcards",
+        "description": "Oefen getallen met flashcards."
       },
       "general": {
         "title": "Algemene Termen Flashcards",
         "description": "Leer essentiële karate terminologie."
+      },
+      "strikes": {
+        "title": "Slagtechnieken Flashcards",
+        "description": "Oefen slagtechnieken met flashcards."
+      },
+      "body-parts": {
+        "title": "Lichaamsdelen Flashcards",
+        "description": "Oefen lichaamsdelen met flashcards."
+      },
+      "commands": {
+        "title": "Commando’s Flashcards",
+        "description": "Oefen commando’s met flashcards."
+      },
+      "ranks": {
+        "title": "Graden Flashcards",
+        "description": "Oefen graden met flashcards."
+      },
+      "weapons": {
+        "title": "Wapens Flashcards",
+        "description": "Oefen wapens met flashcards."
+      },
+      "concepts": {
+        "title": "Concepten Flashcards",
+        "description": "Oefen concepten met flashcards."
+      },
+      "kata-specific": {
+        "title": "Kata-termen Flashcards",
+        "description": "Oefen kata-termen met flashcards."
+      },
+      "kumite": {
+        "title": "Kumite-termen Flashcards",
+        "description": "Oefen kumite-termen met flashcards."
+      },
+      "dojo": {
+        "title": "Dojo-termen Flashcards",
+        "description": "Oefen dojo-termen met flashcards."
       }
     },
     "categories": {
@@ -650,7 +735,12 @@
       "philosophy": "Filosofie",
       "techniques": "Technieken",
       "kumite": "Kumite",
-      "terminologyNav": "Terminologie"
+      "terminologyNav": "Terminologie",
+      "terminology": "Terminologie",
+      "history": "Geschiedenis",
+      "hojo-undo": "Hojo Undo",
+      "newaza": "Newaza",
+      "vital-points": "Vitale punten"
     },
     "progress": {
       "title": "Progress",
@@ -762,6 +852,44 @@
       "resultCount": "{{count}} van {{total}}",
       "clearFilters": "Filters wissen",
       "noResults": "Geen studiesets gevonden met deze filters."
+    },
+    "matchingPairs": {
+      "kata": {
+        "sanchin": "Drie gevechten",
+        "tensho": "Draaiende handpalmen",
+        "gekisai": "Aanvallen en verpletteren",
+        "saifa": "Verpletteren en scheuren",
+        "seiyunchin": "Controleren en trekken",
+        "shisochin": "Vier-richtingen gevecht",
+        "sanseru": "Zesendertig handen",
+        "seipai": "Achttien handen"
+      },
+      "techniques": {
+        "maeGeri": "Voorwaartse trap",
+        "yokoGeri": "Zijwaartse trap",
+        "mawashiGeri": "Cirkeltrap",
+        "gedanBarai": "Neerwaartse veeg",
+        "ageUke": "Opwaartse blokkering",
+        "sotoUke": "Buitenwaartse blokkering",
+        "uchiUke": "Binnenwaartse blokkering",
+        "shutoUke": "Meshandblokkering"
+      },
+      "philosophy": {
+        "rei": "Respect",
+        "dojoKun": "Dojo-voorschriften",
+        "karateDo": "Weg van de lege hand",
+        "zanshin": "Blijvend bewustzijn",
+        "mushin": "Geen geest",
+        "kime": "Focus"
+      },
+      "stances": {
+        "sanchin": "Zandloperstand",
+        "zenkutsu": "Voorwaartse stand",
+        "kokutsu": "Achterwaartse stand",
+        "kiba": "Paardrijstand",
+        "nekoAshi": "Kattenstand",
+        "shiko": "Sumostand"
+      }
     }
   },
   "title": "Studie",

@@ -546,20 +546,20 @@
     },
     "quizTypes": {
       "stances": {
-        "title": "Questionário de Posturas",
-        "description": "Teste seu conhecimento sobre posturas."
+        "title": "Posturas Quiz",
+        "description": "Teste seu conhecimento de posturas."
       },
       "kicks": {
-        "title": "Questionário de Chutes",
-        "description": "Teste seu conhecimento sobre chutes."
+        "title": "Chutes Quiz",
+        "description": "Teste seu conhecimento de chutes."
       },
       "punches": {
-        "title": "Questionário de Socos",
-        "description": "Teste seu conhecimento sobre socos."
+        "title": "Socos Quiz",
+        "description": "Teste seu conhecimento de socos."
       },
       "blocks": {
-        "title": "Questionário de Bloqueios",
-        "description": "Teste seu conhecimento sobre bloqueios."
+        "title": "Bloqueios Quiz",
+        "description": "Teste seu conhecimento de bloqueios."
       },
       "kata": {
         "title": "Questionário de Kata",
@@ -570,8 +570,8 @@
         "description": "Teste seu conhecimento sobre a filosofia do Goju Ryu."
       },
       "kumite": {
-        "title": "Questionário de Kumite",
-        "description": "Teste seu conhecimento sobre kumite."
+        "title": "Termos de kumite Quiz",
+        "description": "Teste seu conhecimento de termos de kumite."
       },
       "vital-points": {
         "title": "Quiz de Pontos Vitais",
@@ -592,41 +592,90 @@
       "kumite-rules": {
         "title": "Kumite Rules Quiz",
         "description": "Pontua??o, penalidades e comandos do ?rbitro."
+      },
+      "common": {
+        "title": "Termos comuns Quiz",
+        "description": "Teste seu conhecimento de termos comuns."
+      },
+      "strikes": {
+        "title": "Golpes Quiz",
+        "description": "Teste seu conhecimento de golpes."
+      },
+      "body-parts": {
+        "title": "Partes do corpo Quiz",
+        "description": "Teste seu conhecimento de partes do corpo."
+      },
+      "commands": {
+        "title": "Comandos Quiz",
+        "description": "Teste seu conhecimento de comandos."
+      },
+      "numbers": {
+        "title": "Números Quiz",
+        "description": "Teste seu conhecimento de números."
+      },
+      "ranks": {
+        "title": "Graduações Quiz",
+        "description": "Teste seu conhecimento de graduações."
+      },
+      "weapons": {
+        "title": "Armas Quiz",
+        "description": "Teste seu conhecimento de armas."
+      },
+      "concepts": {
+        "title": "Conceitos Quiz",
+        "description": "Teste seu conhecimento de conceitos."
+      },
+      "kata-specific": {
+        "title": "Termos de kata Quiz",
+        "description": "Teste seu conhecimento de termos de kata."
+      },
+      "dojo": {
+        "title": "Termos de dojo Quiz",
+        "description": "Teste seu conhecimento de termos de dojo."
       }
     },
     "matchingTypes": {
       "kata": {
-        "title": "Kata Matching",
-        "description": "Associe os nomes dos kata aos seus significados e caracter?sticas."
+        "title": "Correspondência de kata",
+        "description": "Associe nomes de kata aos seus significados."
       },
       "terminology": {
-        "title": "Terminology Matching",
-        "description": "Associe termos japoneses aos seus significados em portugu?s em v?rias categorias.",
-        "q1": "Associe o termo japon?s ao seu significado: Rei, Kime, Zanshin",
-        "a1": "Rei-Respeito, Kime-Foco, Zanshin-Mente remanescente",
-        "e1": "Conceitos fundamentais do dojo usados durante todo o treino."
+        "title": "Correspondência de terminologia",
+        "description": "Associe termos japoneses aos seus significados."
+      },
+      "techniques": {
+        "title": "Correspondência de técnicas",
+        "description": "Associe nomes de técnicas aos seus significados."
+      },
+      "philosophy": {
+        "title": "Correspondência de filosofia",
+        "description": "Associe conceitos filosóficos aos seus significados."
+      },
+      "stances": {
+        "title": "Correspondência de posturas",
+        "description": "Associe nomes de posturas aos seus significados."
       }
     },
     "flashcardTypes": {
       "common": {
-        "title": "Common Flashcards",
-        "description": "Pratique terminologia comum com flashcards."
+        "title": "Termos comuns Flashcards",
+        "description": "Pratique termos comuns com cartões."
       },
       "stances": {
-        "title": "Stances Flashcards",
-        "description": "Aprenda todas as posturas de karat?."
+        "title": "Posturas Flashcards",
+        "description": "Pratique posturas com cartões."
       },
       "kicks": {
-        "title": "Kicks Flashcards",
-        "description": "Aprenda todas as t?cnicas de chute do karat?."
+        "title": "Chutes Flashcards",
+        "description": "Pratique chutes com cartões."
       },
       "punches": {
-        "title": "Punches Flashcards",
-        "description": "Aprenda todas as t?cnicas de soco do karat?."
+        "title": "Socos Flashcards",
+        "description": "Pratique socos com cartões."
       },
       "blocks": {
-        "title": "Blocks Flashcards",
-        "description": "Aprenda todas as t?cnicas de bloqueio do karat?."
+        "title": "Bloqueios Flashcards",
+        "description": "Pratique bloqueios com cartões."
       },
       "kata": {
         "title": "Kata Flashcards",
@@ -637,20 +686,61 @@
         "description": "Aprenda conceitos e princ?pios filos?ficos do Goju-Ryu."
       },
       "numbers": {
-        "title": "Numbers Flashcards",
-        "description": "Aprenda os n?meros japoneses usados no karat?."
+        "title": "Números Flashcards",
+        "description": "Pratique números com cartões."
       },
       "general": {
         "title": "General Terms Flashcards",
         "description": "Aprenda terminologia essencial do karat?."
+      },
+      "strikes": {
+        "title": "Golpes Flashcards",
+        "description": "Pratique golpes com cartões."
+      },
+      "body-parts": {
+        "title": "Partes do corpo Flashcards",
+        "description": "Pratique partes do corpo com cartões."
+      },
+      "commands": {
+        "title": "Comandos Flashcards",
+        "description": "Pratique comandos com cartões."
+      },
+      "ranks": {
+        "title": "Graduações Flashcards",
+        "description": "Pratique graduações com cartões."
+      },
+      "weapons": {
+        "title": "Armas Flashcards",
+        "description": "Pratique armas com cartões."
+      },
+      "concepts": {
+        "title": "Conceitos Flashcards",
+        "description": "Pratique conceitos com cartões."
+      },
+      "kata-specific": {
+        "title": "Termos de kata Flashcards",
+        "description": "Pratique termos de kata com cartões."
+      },
+      "kumite": {
+        "title": "Termos de kumite Flashcards",
+        "description": "Pratique termos de kumite com cartões."
+      },
+      "dojo": {
+        "title": "Termos de dojo Flashcards",
+        "description": "Pratique termos de dojo com cartões."
       }
     },
     "categories": {
       "kata": "Kata",
-      "philosophy": "Philosophy",
-      "techniques": "Techniques",
+      "philosophy": "Filosofia",
+      "techniques": "Técnicas",
       "kumite": "Kumite",
-      "terminologyNav": "Terminology"
+      "terminologyNav": "Terminologia",
+      "terminology": "Terminologia",
+      "history": "História",
+      "hojo-undo": "Hojo Undo",
+      "newaza": "Newaza",
+      "vital-points": "Pontos vitais"
     },
     "progress": {
       "title": "Progress",
@@ -762,6 +852,44 @@
       "resultCount": "{{count}} de {{total}}",
       "clearFilters": "Limpar filtros",
       "noResults": "Nenhum conjunto de estudo corresponde a estes filtros."
+    },
+    "matchingPairs": {
+      "kata": {
+        "sanchin": "Três batalhas",
+        "tensho": "Palmas giratórias",
+        "gekisai": "Atacar e esmagar",
+        "saifa": "Esmagar e rasgar",
+        "seiyunchin": "Controlar e puxar",
+        "shisochin": "Batalha em quatro direções",
+        "sanseru": "Trinta e seis mãos",
+        "seipai": "Dezoito mãos"
+      },
+      "techniques": {
+        "maeGeri": "Chute frontal",
+        "yokoGeri": "Chute lateral",
+        "mawashiGeri": "Chute circular",
+        "gedanBarai": "Bloqueio descendente",
+        "ageUke": "Bloqueio ascendente",
+        "sotoUke": "Bloqueio externo",
+        "uchiUke": "Bloqueio interno",
+        "shutoUke": "Bloqueio com mão em faca"
+      },
+      "philosophy": {
+        "rei": "Respeito",
+        "dojoKun": "Preceitos do dojo",
+        "karateDo": "Caminho da mão vazia",
+        "zanshin": "Consciência remanescente",
+        "mushin": "Sem mente",
+        "kime": "Foco"
+      },
+      "stances": {
+        "sanchin": "Postura ampulheta",
+        "zenkutsu": "Postura frontal",
+        "kokutsu": "Postura recuada",
+        "kiba": "Postura do cavaleiro",
+        "nekoAshi": "Postura do gato",
+        "shiko": "Postura de sumô"
+      }
     }
   },
   "title": "Study",

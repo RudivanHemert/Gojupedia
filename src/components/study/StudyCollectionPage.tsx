@@ -23,6 +23,11 @@ type StudyCollectionPageProps = {
 };
 
 const normalize = (value: string) => value.toLowerCase().trim();
+const formatFallbackLabel = (value: string) =>
+  value
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 
 const StudyCollectionPage: React.FC<StudyCollectionPageProps> = ({
   type,
@@ -35,6 +40,14 @@ const StudyCollectionPage: React.FC<StudyCollectionPageProps> = ({
   const [category, setCategory] = React.useState('all');
   const [difficulty, setDifficulty] = React.useState('all');
 
+  const translateText = React.useCallback(
+    (key: string, fallback: string) => {
+      const translated = t(key, { defaultValue: fallback });
+      return translated === key ? fallback : translated;
+    },
+    [t],
+  );
+
   const studies = React.useMemo(() => buildStudies(t), [t, i18n.language]);
   const typeStudies = React.useMemo(
     () => studies.filter((study) => study.type === type),
@@ -46,18 +59,19 @@ const StudyCollectionPage: React.FC<StudyCollectionPageProps> = ({
     return categories
       .map((value) => ({
         value,
-        label: t(`study.categories.${value}`, { defaultValue: value.replace(/-/g, ' ') }),
+        label: translateText(`study.categories.${value}`, formatFallbackLabel(value)),
       }))
       .sort((a, b) => a.label.localeCompare(b.label));
-  }, [typeStudies, t]);
+  }, [translateText, typeStudies]);
 
   const filteredStudies = React.useMemo(() => {
     const searchText = normalize(query);
 
     return typeStudies.filter((study) => {
-      const categoryLabel = t(`study.categories.${study.category}`, {
-        defaultValue: study.category.replace(/-/g, ' '),
-      });
+      const categoryLabel = translateText(
+        `study.categories.${study.category}`,
+        formatFallbackLabel(study.category),
+      );
       const matchesSearch =
         !searchText ||
         normalize(study.title).includes(searchText) ||
@@ -68,7 +82,7 @@ const StudyCollectionPage: React.FC<StudyCollectionPageProps> = ({
 
       return matchesSearch && matchesCategory && matchesDifficulty;
     });
-  }, [category, difficulty, query, t, typeStudies]);
+  }, [category, difficulty, query, translateText, typeStudies]);
 
   const itemCount = typeStudies.reduce((total, study) => total + (study.questions?.length || 0), 0);
   const itemLabel =

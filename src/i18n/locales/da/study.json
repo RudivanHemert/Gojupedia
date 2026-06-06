@@ -546,20 +546,20 @@
     },
     "quizTypes": {
       "stances": {
-        "title": "Stillinger Quiz",
-        "description": "Test din viden om stillinger."
+        "title": "Stande Quiz",
+        "description": "Test din viden om stande."
       },
       "kicks": {
         "title": "Spark Quiz",
         "description": "Test din viden om spark."
       },
       "punches": {
-        "title": "Slag Quiz",
-        "description": "Test din viden om slag."
+        "title": "Stød Quiz",
+        "description": "Test din viden om stød."
       },
       "blocks": {
-        "title": "Blokke Quiz",
-        "description": "Test din viden om blokke."
+        "title": "Blokeringer Quiz",
+        "description": "Test din viden om blokeringer."
       },
       "kata": {
         "title": "Kata Quiz",
@@ -570,8 +570,8 @@
         "description": "Test din viden om Goju Ryu filosofi."
       },
       "kumite": {
-        "title": "Kumite Quiz",
-        "description": "Test din viden om kumite."
+        "title": "Kumite-termer Quiz",
+        "description": "Test din viden om kumite-termer."
       },
       "vital-points": {
         "title": "Vitale Punkter Quiz",
@@ -592,41 +592,90 @@
       "kumite-rules": {
         "title": "Kumite Rules Quiz",
         "description": "Pointgivning, straffe og dommerkommandoer."
+      },
+      "common": {
+        "title": "Almindelige termer Quiz",
+        "description": "Test din viden om almindelige termer."
+      },
+      "strikes": {
+        "title": "Slag Quiz",
+        "description": "Test din viden om slag."
+      },
+      "body-parts": {
+        "title": "Kropsdele Quiz",
+        "description": "Test din viden om kropsdele."
+      },
+      "commands": {
+        "title": "Kommandoer Quiz",
+        "description": "Test din viden om kommandoer."
+      },
+      "numbers": {
+        "title": "Tal Quiz",
+        "description": "Test din viden om tal."
+      },
+      "ranks": {
+        "title": "Grader Quiz",
+        "description": "Test din viden om grader."
+      },
+      "weapons": {
+        "title": "Våben Quiz",
+        "description": "Test din viden om våben."
+      },
+      "concepts": {
+        "title": "Koncepter Quiz",
+        "description": "Test din viden om koncepter."
+      },
+      "kata-specific": {
+        "title": "Kata-termer Quiz",
+        "description": "Test din viden om kata-termer."
+      },
+      "dojo": {
+        "title": "Dojo-termer Quiz",
+        "description": "Test din viden om dojo-termer."
       }
     },
     "matchingTypes": {
       "kata": {
-        "title": "Kata Matching",
-        "description": "Match kata-navne med deres betydninger og kendetegn."
+        "title": "Kata matching",
+        "description": "Match katanavne med deres betydninger."
       },
       "terminology": {
-        "title": "Terminology Matching",
-        "description": "Match japanske termer med deres betydninger p? tv?rs af kategorier.",
-        "q1": "Match den japanske term med betydningen: Rei, Kime, Zanshin",
-        "a1": "Rei-respekt, Kime-fokus, Zanshin-tilbagev?rende bevidsthed",
-        "e1": "Grundl?ggende dojo-begreber, der bruges gennem hele tr?ningen."
+        "title": "Terminologi matching",
+        "description": "Match japanske termer med deres betydninger."
+      },
+      "techniques": {
+        "title": "Teknik matching",
+        "description": "Match tekniknavne med deres betydninger."
+      },
+      "philosophy": {
+        "title": "Filosofi matching",
+        "description": "Match filosofiske begreber med deres betydninger."
+      },
+      "stances": {
+        "title": "Stand matching",
+        "description": "Match standnavne med deres betydninger."
       }
     },
     "flashcardTypes": {
       "common": {
-        "title": "Common Flashcards",
-        "description": "?v almindelig terminologi med flashcards."
+        "title": "Almindelige termer Flashcards",
+        "description": "Øv almindelige termer med flashcards."
       },
       "stances": {
-        "title": "Stances Flashcards",
-        "description": "L?r alle karate-stillinger og positioner."
+        "title": "Stande Flashcards",
+        "description": "Øv stande med flashcards."
       },
       "kicks": {
-        "title": "Kicks Flashcards",
-        "description": "L?r alle karatespark."
+        "title": "Spark Flashcards",
+        "description": "Øv spark med flashcards."
       },
       "punches": {
-        "title": "Punches Flashcards",
-        "description": "L?r alle karateslag."
+        "title": "Stød Flashcards",
+        "description": "Øv stød med flashcards."
       },
       "blocks": {
-        "title": "Blocks Flashcards",
-        "description": "L?r alle karateblokeringer."
+        "title": "Blokeringer Flashcards",
+        "description": "Øv blokeringer med flashcards."
       },
       "kata": {
         "title": "Kata Flashcards",
@@ -637,20 +686,61 @@
         "description": "L?r Goju Ryu-filosofiske begreber og principper."
       },
       "numbers": {
-        "title": "Numbers Flashcards",
-        "description": "L?r japanske tal, der bruges i karate."
+        "title": "Tal Flashcards",
+        "description": "Øv tal med flashcards."
       },
       "general": {
         "title": "General Terms Flashcards",
         "description": "L?r vigtig karateterminologi."
+      },
+      "strikes": {
+        "title": "Slag Flashcards",
+        "description": "Øv slag med flashcards."
+      },
+      "body-parts": {
+        "title": "Kropsdele Flashcards",
+        "description": "Øv kropsdele med flashcards."
+      },
+      "commands": {
+        "title": "Kommandoer Flashcards",
+        "description": "Øv kommandoer med flashcards."
+      },
+      "ranks": {
+        "title": "Grader Flashcards",
+        "description": "Øv grader med flashcards."
+      },
+      "weapons": {
+        "title": "Våben Flashcards",
+        "description": "Øv våben med flashcards."
+      },
+      "concepts": {
+        "title": "Koncepter Flashcards",
+        "description": "Øv koncepter med flashcards."
+      },
+      "kata-specific": {
+        "title": "Kata-termer Flashcards",
+        "description": "Øv kata-termer med flashcards."
+      },
+      "kumite": {
+        "title": "Kumite-termer Flashcards",
+        "description": "Øv kumite-termer med flashcards."
+      },
+      "dojo": {
+        "title": "Dojo-termer Flashcards",
+        "description": "Øv dojo-termer med flashcards."
       }
     },
     "categories": {
       "kata": "Kata",
-      "philosophy": "Philosophy",
-      "techniques": "Techniques",
+      "philosophy": "Filosofi",
+      "techniques": "Teknikker",
       "kumite": "Kumite",
-      "terminologyNav": "Terminology"
+      "terminologyNav": "Terminologi",
+      "terminology": "Terminologi",
+      "history": "Historie",
+      "hojo-undo": "Hojo Undo",
+      "newaza": "Newaza",
+      "vital-points": "Vitale punkter"
     },
     "progress": {
       "title": "Progress",
@@ -762,6 +852,44 @@
       "resultCount": "{{count}} af {{total}}",
       "clearFilters": "Ryd filtre",
       "noResults": "Ingen studiesæt matcher disse filtre."
+    },
+    "matchingPairs": {
+      "kata": {
+        "sanchin": "Tre kampe",
+        "tensho": "Drejende håndflader",
+        "gekisai": "Angrib og knus",
+        "saifa": "Knus og riv",
+        "seiyunchin": "Kontroller og træk",
+        "shisochin": "Fire-retningers kamp",
+        "sanseru": "Seksogtredive hænder",
+        "seipai": "Atten hænder"
+      },
+      "techniques": {
+        "maeGeri": "Frontspark",
+        "yokoGeri": "Sidespark",
+        "mawashiGeri": "Cirkelspark",
+        "gedanBarai": "Nedadgående blokering",
+        "ageUke": "Opadgående blokering",
+        "sotoUke": "Udvendig blokering",
+        "uchiUke": "Indvendig blokering",
+        "shutoUke": "Knivhåndsblokering"
+      },
+      "philosophy": {
+        "rei": "Respekt",
+        "dojoKun": "Dojo-regler",
+        "karateDo": "Den tomme hånds vej",
+        "zanshin": "Vedvarende opmærksomhed",
+        "mushin": "Intet sind",
+        "kime": "Fokus"
+      },
+      "stances": {
+        "sanchin": "Timeglasstand",
+        "zenkutsu": "Frontstand",
+        "kokutsu": "Bagudvendt stand",
+        "kiba": "Rytterstand",
+        "nekoAshi": "Kattestand",
+        "shiko": "Sumostand"
+      }
     }
   },
   "title": "Study",
