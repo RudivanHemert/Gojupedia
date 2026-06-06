@@ -57,7 +57,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(timeLimit);
+  const [remainingTime, setRemainingTime] = useState(timeLimit ?? 0);
   const [questionResults, setQuestionResults] = useState<Array<{ questionId: string; isCorrect: boolean; userAnswer: string; correctAnswer: string }>>([]);
   
   // Shuffle function
@@ -116,7 +116,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     setScore(0);
     setQuizCompleted(false);
     setShowAnswer(false);
-    setRemainingTime(timeLimit);
+    setRemainingTime(timeLimit ?? 0);
     setQuestionResults([]);
   };
   
@@ -169,7 +169,7 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
     const correctAnswerText = question.correctAnswer || 
       (question.type === 'multiple-choice' || question.type === 'true-false' || question.type === 'multiple-select'
         ? question.options?.filter(o => o.isCorrect).map(o => o.text).join(', ')
-        : '');
+        : '') || '';
     
     setQuestionResults(prev => [...prev, {
       questionId: question.id,
@@ -351,12 +351,6 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
                             <div>
                               <span className="font-medium text-sm text-muted-foreground">{t('study.correctAnswer', 'Correct answer')}: </span>
                               <span className="text-green-600 font-medium">{result.correctAnswer}</span>
-                            </div>
-                          )}
-                          {question.explanation && (
-                            <div className="mt-2 p-3 bg-blue-50 dark:bg-blue-950 rounded-md">
-                              <span className="font-medium text-sm">{t('study.explanation')}: </span>
-                              <p className="text-sm text-muted-foreground mt-1">{question.explanation}</p>
                             </div>
                           )}
                         </div>
@@ -632,4 +626,4 @@ const InteractiveQuiz: React.FC<InteractiveQuizProps> = ({
   );
 };
 
-export default InteractiveQuiz; 
+export default InteractiveQuiz;

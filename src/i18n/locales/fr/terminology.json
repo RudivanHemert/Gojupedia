@@ -81,210 +81,210 @@
         "terms": {
           "junbi-undo": {
             "name": "Junbi Undo",
-            "japanese": "準備運動",
+            "japanese": "",
             "english": "Exercices préparatoires, échauffement"
           },
           "kokyu-undo": {
             "name": "Kokyu Undo",
-            "japanese": "呼吸運動",
+            "japanese": "",
             "english": "Exercices respiratoires"
           },
           "hojo-undo": {
             "name": "Hojo Undo",
-            "japanese": "補助運動",
+            "japanese": "",
             "english": "Exercices supplémentaires (force)"
           },
           "kihon": {
             "name": "Kihon",
-            "japanese": "基本",
+            "japanese": "",
             "english": "Techniques de base"
           },
           "kata": {
             "name": "Kata",
-            "japanese": "型",
+            "japanese": "",
             "english": "Forme, modèle"
           },
           "kumite": {
             "name": "Kumite",
-            "japanese": "組手",
+            "japanese": "",
             "english": "Combat"
           },
           "semete": {
             "name": "Semete",
-            "japanese": "攻め手",
+            "japanese": "",
             "english": "Attaquant"
           },
           "ukete": {
             "name": "Ukete",
-            "japanese": "受け手",
+            "japanese": "",
             "english": "Défenseur"
           },
           "jodan": {
             "name": "Jodan",
-            "japanese": "上段",
+            "japanese": "",
             "english": "Niveau haut (tête, cou, gorge)",
             "details": "La partie au-dessus de la clavicule : tête, cou, gorge"
           },
           "chudan": {
             "name": "Chudan",
-            "japanese": "中段",
+            "japanese": "",
             "english": "Niveau moyen (plexus solaire à clavicule)",
             "details": "Du plexus solaire à la clavicule"
           },
           "gedan": {
             "name": "Gedan",
-            "japanese": "下段",
+            "japanese": "",
             "english": "Niveau bas (plexus solaire au sol)",
             "details": "Du plexus solaire au sol"
           },
           "hidari": {
             "name": "Hidari",
-            "japanese": "左",
+            "japanese": "",
             "english": "Gauche"
           },
           "migi": {
             "name": "Migi",
-            "japanese": "右",
+            "japanese": "",
             "english": "Droite"
           },
           "mae": {
             "name": "Mae",
-            "japanese": "前",
+            "japanese": "",
             "english": "Forward"
           },
           "ushiro": {
             "name": "Ushiro",
-            "japanese": "後ろ",
+            "japanese": "",
             "english": "Backward"
           },
           "mawashi": {
             "name": "Mawashi",
-            "japanese": "回し",
+            "japanese": "",
             "english": "Circular"
           },
           "age": {
             "name": "Age",
-            "japanese": "上げ",
+            "japanese": "",
             "english": "Vers le haut"
           },
           "otoshi": {
             "name": "Otoshi",
-            "japanese": "落とし",
+            "japanese": "",
             "english": "Vers le bas"
           },
           "yoko": {
             "name": "Yoko",
-            "japanese": "横",
+            "japanese": "",
             "english": "Latéral"
           },
           "soto": {
             "name": "Soto",
-            "japanese": "外",
+            "japanese": "",
             "english": "Extérieur"
           },
           "uchi": {
             "name": "Uchi",
-            "japanese": "内",
+            "japanese": "",
             "english": "Intérieur"
           },
           "numbers": {
             "name": "Ichi, Ni, San ... Ju",
-            "japanese": "一, 二, 三 ... 十",
+            "japanese": "",
             "english": "Un, deux, trois ... dix",
             "details": "Ichi, Ni, San, Shi, Go, Roku, Shichi, Hachi, Ku, Ju"
           },
           "mawatte": {
             "name": "Mawatte",
-            "japanese": "回って",
+            "japanese": "",
             "english": "Tournez"
           },
           "ashi-o-kaete": {
             "name": "Ashi O Kaete",
-            "japanese": "足を変えて",
+            "japanese": "",
             "english": "Changez de pied"
           },
           "te-o-kaete": {
             "name": "Te O Kaete",
-            "japanese": "手を変えて",
+            "japanese": "",
             "english": "Changez de main"
           },
           "go-waza": {
             "name": "Go Waza",
-            "japanese": "剛技",
+            "japanese": "",
             "english": "Techniques dures (frappes, coups de poing, coups de pied)",
             "details": "Comme les coups de poing, les frappes et les coups de pied"
           },
           "ju-waza": {
             "name": "Ju Waza",
-            "japanese": "柔技",
+            "japanese": "",
             "english": "Techniques souples (projections, clés, étranglements)",
             "details": "Comme les projections, les clés, les étranglements et les attaques aux points vitaux"
           },
           "o-waza": {
             "name": "O Waza",
-            "japanese": "大技",
+            "japanese": "",
             "english": "Techniques majeures (grands mouvements)",
             "details": "Exécution de techniques avec des mouvements amples et forts (plus 'go')"
           },
           "ko-waza": {
             "name": "Ko Waza",
-            "japanese": "小技",
+            "japanese": "",
             "english": "Techniques mineures (petits mouvements raffinés)",
             "details": "Exécution de techniques avec des mouvements raffinés et petits (plus 'ju')"
           },
           "dachi-waza": {
             "name": "Dachi (Tachi) Waza",
-            "japanese": "立ち技",
+            "japanese": "",
             "english": "Positions"
           },
           "unsoku-ho": {
             "name": "Unsoku ho",
-            "japanese": "運足法",
+            "japanese": "",
             "english": "Jeu de jambes"
           },
           "sonoba": {
             "name": "Sonoba (Kihon Gijutsu)",
-            "japanese": "その場",
+            "japanese": "",
             "english": "Mouvements de base statiques"
           },
           "ido": {
             "name": "Ido (Kihon Gijutsu)",
-            "japanese": "移動",
+            "japanese": "",
             "english": "Mouvements de base en déplacement"
           },
           "kamae": {
             "name": "Kamae",
-            "japanese": "構え",
+            "japanese": "",
             "english": "Postures"
           },
           "uke-waza": {
             "name": "Uke Waza",
-            "japanese": "受け技",
+            "japanese": "",
             "english": "Techniques de blocage"
           },
           "zuki-waza": {
             "name": "Zuki (of Tsuki) Waza",
-            "japanese": "突き技",
+            "japanese": "",
             "english": "Techniques de coup de poing"
           },
           "uchi-waza": {
             "name": "Uchi of Ate Waza",
-            "japanese": "打ち技 / 当て技",
+            "japanese": "",
             "english": "Techniques de frappe"
           },
           "keri-waza": {
             "name": "Keri of Geri Waza",
-            "japanese": "蹴り技",
+            "japanese": "",
             "english": "Techniques de coup de pied"
           },
           "ne-waza": {
             "name": "Ne Waza",
-            "japanese": "寝技",
+            "japanese": "",
             "english": "Techniques au sol"
           },
           "tuite-waza": {
             "name": "Tuite of Gyakute Waza",
-            "japanese": "取手技 / 逆手技",
+            "japanese": "",
             "english": "Techniques de lutte/saisie",
             "details": "(voir aussi Ju Waza). Littéralement : 'mains qui saisissent'."
           }
@@ -295,81 +295,81 @@
         "terms": {
           "tenshin": {
             "name": "Tenshin",
-            "japanese": "転身",
+            "japanese": "",
             "english": "Déplacement",
             "details": "Déplacement (en bougeant les pieds)"
           },
           "tai-sabaki": {
             "name": "Tai Sabaki",
-            "japanese": "体捌き",
+            "japanese": "",
             "english": "Esquive corporelle",
             "details": "Généralement utilisé pour une combinaison de déplacements et de rotations du corps."
           },
           "tai-hiraki": {
             "name": "Tai Hiraki",
-            "japanese": "体開き",
+            "japanese": "",
             "english": "Ouverture du corps"
           },
           "tai-otoshi": {
             "name": "Tai Otoshi",
-            "japanese": "体落とし",
+            "japanese": "",
             "english": "Esquive en chassant le corps (chute)"
           },
           "suri-ashi": {
             "name": "Suri Ashi",
-            "japanese": "摺り足",
+            "japanese": "",
             "english": "Pas glissé",
             "details": "Pas glissé"
           },
           "tsugi-ashi": {
             "name": "Tsugi Ashi",
-            "japanese": "継ぎ足",
+            "japanese": "",
             "english": "Pas chassé / Pas glissé successif"
           },
           "ayumi-ashi": {
             "name": "Ayumi Ashi",
-            "japanese": "歩み足",
+            "japanese": "",
             "english": "Pas de marche naturel"
           },
           "hiki-ashi": {
             "name": "Hiki Ashi",
-            "japanese": "引き足",
+            "japanese": "",
             "english": "Retrait de la jambe/du pied"
           },
           "tako-ashi": {
             "name": "Tako Ashi",
-            "japanese": "蛸足",
+            "japanese": "",
             "english": "Pied de pieuvre"
           },
           "hanmi": {
             "name": "Hanmi",
-            "japanese": "半身",
+            "japanese": "",
             "english": "Demi-corps (de profil)"
           },
           "yoi-no-kamae": {
             "name": "Yoi No Kamae",
-            "japanese": "用意の構え",
+            "japanese": "",
             "english": "Posture de préparation / Prêt",
             "details": "Posture de départ dans les katas"
           },
           "gedan-no-kamae": {
             "name": "Gedan No Kamae",
-            "japanese": "下段の構え",
+            "japanese": "",
             "english": "Posture niveau bas"
           },
           "chudan-no-kamae": {
             "name": "Chudan No Kamae",
-            "japanese": "中段の構え",
+            "japanese": "",
             "english": "Posture niveau moyen"
           },
           "jodan-no-kamae": {
             "name": "Jodan No kamae",
-            "japanese": "上段の構え",
+            "japanese": "",
             "english": "Posture niveau haut"
           },
           "mu-kamae": {
             "name": "Mu Kamae",
-            "japanese": "無構え",
+            "japanese": "",
             "english": "Sans posture / Posture vide",
             "details": "Littéralement : 'pas de posture'"
           }
@@ -380,55 +380,55 @@
         "terms": {
           "chi-ishi": {
             "name": "Chi Ishi",
-            "japanese": "痴石",
+            "japanese": "",
             "english": "Pierre de force (entraînement du poignet, du bras et de la prise)",
             "details": "Littéralement 'Pierre du fou' ou 'Pierre de l'esprit'"
           },
           "nigiri-game": {
             "name": "Nigiri Game",
-            "japanese": "握り亀",
+            "japanese": "",
             "english": "Jarres de préhension",
             "details": "Jarres en céramique pour entraîner la force de préhension. Littéralement 'Pots de préhension'"
           },
           "makiwara": {
             "name": "Makiwara",
-            "japanese": "巻藁",
+            "japanese": "",
             "english": "Poteau de frappe",
             "details": "Planche en bois avec coussin pour l'entraînement aux frappes et aux coups de pied"
           },
           "kongoken": {
             "name": "Kongoken",
-            "japanese": "金剛圏",
+            "japanese": "",
             "english": "Anneau de fer",
             "details": "Anneau métallique lourd pour la musculation et le conditionnement du corps"
           },
           "ishi-sashi": {
             "name": "Ishi Sashi",
-            "japanese": "石錠",
+            "japanese": "",
             "english": "Cadenas en pierre",
             "details": "Poids en forme de serrures anciennes, utilisés pour l'entraînement des bras et des jambes"
           },
           "tan": {
             "name": "Tan",
-            "japanese": "担",
+            "japanese": "",
             "english": "Haltère",
             "details": "Barre en bois avec des poids (béton ou pierre)"
           },
           "sashi-ishi": {
             "name": "Sashi Ishi",
-            "japanese": "差し石",
+            "japanese": "",
             "english": "Pierre de levage",
             "details": "Pierre naturelle pour l'entraînement en force"
           },
           "tetsu-geta": {
             "name": "Tetsu Geta",
-            "japanese": "鉄下駄",
+            "japanese": "",
             "english": "Sandales en fer",
             "details": "Sandales lourdes pour l'entraînement des jambes"
           },
           "tou": {
             "name": "Tou",
-            "japanese": "籐",
+            "japanese": "",
             "english": "Faisceau de rotin",
             "details": "Ou Jari Bako (bac à gravier) pour l'entraînement des doigts et des mains (Nukite)"
           }
@@ -439,123 +439,123 @@
         "terms": {
           "seiken": {
             "name": "Seiken",
-            "japanese": "正拳",
+            "japanese": "",
             "english": "Poing (avant)"
           },
           "tateken": {
             "name": "Tateken",
-            "japanese": "立拳",
+            "japanese": "",
             "english": "Poing vertical"
           },
           "uraken": {
             "name": "Uraken",
-            "japanese": "裏拳",
+            "japanese": "",
             "english": "Revers de poing (articulations)"
           },
           "tettsui": {
             "name": "Tettsui",
-            "japanese": "鉄槌",
+            "japanese": "",
             "english": "Marteau de fer (bas du poing)",
             "details": "Littéralement : 'marteau de fer'"
           },
           "shuto": {
             "name": "Shuto",
-            "japanese": "手刀",
+            "japanese": "",
             "english": "Sabre de main (tranchant externe)",
             "details": "Littéralement : 'main-épée'"
           },
           "haito": {
             "name": "Haito",
-            "japanese": "背刀",
+            "japanese": "",
             "english": "Sabre de main interne (côté pouce)"
           },
           "shotei": {
             "name": "Shotei",
-            "japanese": "掌底",
+            "japanese": "",
             "english": "Paume de main",
             "details": "Souvent appelé 'main ouverte' pour les blocages"
           },
           "haishu": {
             "name": "Haishu",
-            "japanese": "背手",
+            "japanese": "",
             "english": "Dos de la main"
           },
           "nukite": {
             "name": "Nukite",
-            "japanese": "貫手",
+            "japanese": "",
             "english": "Main en lance / Pique",
             "details": "Nihon Nukite : Main à deux doigts"
           },
           "nakadakaken": {
             "name": "Nakadakaken",
-            "japanese": "中高拳",
+            "japanese": "",
             "english": "Poing à phalange du majeur",
             "details": "Avec la phalange du majeur, comme dans Sepai"
           },
           "keikoken": {
             "name": "Keikoken",
-            "japanese": "鶏口拳",
+            "japanese": "",
             "english": "Poing en bec de poulet / Index",
             "details": "Littéralement : 'poing bec de poulet'"
           },
           "hiraken": {
             "name": "Hiraken",
-            "japanese": "平拳",
+            "japanese": "",
             "english": "Poing plat",
             "details": "Utilisant les phalanges du milieu, comme dans Sepai"
           },
           "koken": {
             "name": "Koken",
-            "japanese": "弧拳",
+            "japanese": "",
             "english": "Poignet plié"
           },
           "hiji": {
             "name": "Hiji (ou Empi)",
-            "japanese": "肘",
+            "japanese": "",
             "english": "Coude"
           },
           "haza": {
             "name": "Hiza",
-            "japanese": "膝",
+            "japanese": "",
             "english": "Knee.",
             "details": "Knee."
           },
           "sune": {
             "name": "Sune",
-            "japanese": "脛",
+            "japanese": "",
             "english": "Tibia",
             "details": "Shin."
           },
           "kakato": {
             "name": "Kakato",
-            "japanese": "踵",
+            "japanese": "",
             "english": "Talon",
             "details": "Heel."
           },
           "sokko": {
             "name": "Sokko (ou Haisoku)",
-            "japanese": "足甲",
+            "japanese": "",
             "english": "Cou-de-pied (dessus du pied)",
             "details": "Instep."
           },
           "sokuto": {
             "name": "Sokutei ou Sokuto",
-            "japanese": "足底",
+            "japanese": "",
             "english": "Tranchant du pied / Plante"
           },
           "josokutei": {
             "name": "Josokutei",
-            "japanese": "上足底",
+            "japanese": "",
             "english": "Bol du pied / Koshi"
           },
           "tsumasaki": {
             "name": "Tsumasaki",
-            "japanese": "爪先",
+            "japanese": "",
             "english": "Bout des orteils"
           },
           "kasokutei": {
             "name": "Kasokutei",
-            "japanese": "下足底",
+            "japanese": "",
             "english": "Tranchant interne du pied",
             "details": "Près du talon et de la voûte"
           }
@@ -566,114 +566,114 @@
         "terms": {
           "dojo": {
             "name": "Dojo",
-            "japanese": "道場",
+            "japanese": "",
             "english": "Salle d'entraînement, lieu de la voie"
           },
           "sensei": {
             "name": "Sensei",
-            "japanese": "先生",
+            "japanese": "",
             "english": "Enseignant, instructeur (celui qui est passé avant)"
           },
           "sempai": {
             "name": "Sempai",
-            "japanese": "先輩",
+            "japanese": "",
             "english": "Étudiant senior"
           },
           "kohai": {
             "name": "Kohai",
-            "japanese": "後輩",
+            "japanese": "",
             "english": "Étudiant junior"
           },
           "obi": {
             "name": "Obi",
-            "japanese": "帯",
+            "japanese": "",
             "english": "Ceinture"
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "道着",
+            "japanese": "",
             "english": "Uniforme d'entraînement"
           },
           "reishiki": {
             "name": "Reishiki",
-            "japanese": "礼式",
+            "japanese": "",
             "english": "Étiquette, manières"
           },
           "karate": {
             "name": "Karaté",
-            "japanese": "空手",
+            "japanese": "",
             "english": "Main vide.",
             "details": "Main vide."
           },
           "karate-do": {
             "name": "Karaté-do",
-            "japanese": "空手道",
+            "japanese": "",
             "english": "La voie de la main vide.",
             "details": "La voie de la main vide."
           },
           "okinawa": {
             "name": "Okinawa",
-            "japanese": "沖縄",
+            "japanese": "",
             "english": "Plus grande île des Ryukyu",
             "details": "La plus grande île de l'archipel Ryukyu au sud du Japon, au large de la Chine, qui appartient politiquement au Japon. Okinawa fait plus de 100 km de long et entre 5 et 20 km de large. C'est là que le karaté a été développé à l'origine, avec le Kempo chinois comme source importante, comme la boxe de la grue."
           },
           "ryu": {
             "name": "Ryu",
-            "japanese": "流",
+            "japanese": "",
             "english": "Style",
             "details": "Style"
           },
           "nahate": {
             "name": "Nahate",
-            "japanese": "那覇手",
+            "japanese": "",
             "english": "Art martial de Naha.",
             "details": "Art martial de Naha."
           },
           "shurite-tomarite": {
             "name": "Shurite et Tomarite",
-            "japanese": "首里手 / 泊手",
+            "japanese": "",
             "english": "Anciens noms des arts martiaux de Shuri et Tomari",
             "details": "Anciens noms des arts martiaux des villes okinawa?ennes de Shuri et Tomari, aujourd?hui quartiers de Naha ; base de plusieurs autres styles de karat?. Au Japon, le Shotokan et le Wado-Ryu sont issus d?une combinaison de Shuri-Te et Tomari-Te. Le karat? Kyokushin Kai est issu du Shotokan et du Goju Kai."
           },
           "kobudo": {
             "name": "Kobudo",
-            "japanese": "古武道",
+            "japanese": "",
             "english": "Art martial okinawa?en avec armes",
             "details": "Art martial okinawa?en utilisant des armes, notamment le b?ton de 183 cm (Bo), le trident court (Sai), deux b?tons reli?s par une cha?ne (Nunchaku), l?arme en bois en forme de faucille (Kama) et le sabre (Katana)."
           },
           "kempo-hakku": {
             "name": "Kempo Hakku",
-            "japanese": "拳法八句",
+            "japanese": "",
             "english": "Les huit lois du poing.",
             "details": "Les huit lois du poing."
           },
           "budo": {
             "name": "Budo",
-            "japanese": "武道",
+            "japanese": "",
             "english": "La voie du guerrier.",
             "details": "La voie du guerrier."
           },
           "kenkon": {
             "name": "Kenkon",
-            "japanese": "乾坤",
+            "japanese": "",
             "english": "Ciel et terre (symbole IOGKF).",
             "details": "Ciel et terre (symbole IOGKF)."
           },
           "tanden": {
             "name": "Tanden",
-            "japanese": "丹田",
+            "japanese": "",
             "english": "Point d'énergie sous le nombril.",
             "details": "Point d'énergie sous le nombril."
           },
           "hara": {
             "name": "Hara",
-            "japanese": "腹",
+            "japanese": "",
             "english": "Bas-ventre / Intuition.",
             "details": "Bas-ventre / Intuition."
           },
           "ki": {
             "name": "Ki",
-            "japanese": "気",
+            "japanese": "",
             "english": "Énergie vitale.",
             "details": "Énergie vitale."
           },
@@ -685,7 +685,7 @@
           },
           "muchimi": {
             "name": "Muchimi",
-            "japanese": "鞭身",
+            "japanese": "",
             "english": "Mains collantes.",
             "details": "Mains collantes."
           },
@@ -697,7 +697,7 @@
           },
           "chikara": {
             "name": "Chikara",
-            "japanese": "力",
+            "japanese": "",
             "english": "Puissance.",
             "details": "Puissance."
           },
@@ -721,91 +721,91 @@
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
-            "japanese": "先の先",
+            "japanese": "",
             "english": "Prendre l'initiative.",
             "details": "Prendre l'initiative."
           },
           "go-no-sen": {
             "name": "Go No Sen",
-            "japanese": "後の先",
+            "japanese": "",
             "english": "Initiative tardive.",
             "details": "Initiative tardive."
           },
           "kiai": {
             "name": "Kiai",
-            "japanese": "気合",
+            "japanese": "",
             "english": "Cri de l'esprit.",
             "details": "Cri de l'esprit."
           },
           "ni": {
             "name": "Ni (Ne)",
-            "japanese": "根",
+            "japanese": "",
             "english": "Enracinement.",
             "details": "Enracinement."
           },
           "ma-ai": {
             "name": "Ma Ai",
-            "japanese": "間合い",
+            "japanese": "",
             "english": "Distance de combat.",
             "details": "Distance de combat."
           },
           "ma": {
             "name": "Ma",
-            "japanese": "間",
+            "japanese": "",
             "english": "Timing interne.",
             "details": "Timing interne."
           },
           "nin": {
             "name": "Nin",
-            "japanese": "忍",
+            "japanese": "",
             "english": "Persévérance.",
             "details": "Persévérance."
           },
           "zanshin": {
             "name": "Zanshin",
-            "japanese": "残心",
+            "japanese": "",
             "english": "Vigilance constante.",
             "details": "Vigilance constante."
           },
           "heijoshin": {
             "name": "Heijoshin",
-            "japanese": "平常心",
+            "japanese": "",
             "english": "Esprit calme.",
             "details": "Esprit calme."
           },
           "mushin": {
             "name": "Mushin",
-            "japanese": "無心",
+            "japanese": "",
             "english": "Esprit vide.",
             "details": "Esprit vide."
           },
           "haragei": {
             "name": "Haragei",
-            "japanese": "腹芸",
+            "japanese": "",
             "english": "Intuition / Sentiment viscéral.",
             "details": "Intuition / Sentiment viscéral."
           },
           "isshin": {
             "name": "Isshin",
-            "japanese": "一心",
+            "japanese": "",
             "english": "Un cœur (focus complet).",
             "details": "Un cœur (focus complet)."
           },
           "seishin": {
             "name": "Seishin",
-            "japanese": "精神",
+            "japanese": "",
             "english": "Esprit.",
             "details": "Esprit."
           },
           "seishin-tanren": {
             "name": "Seishin Tanren",
-            "japanese": "精神鍛錬",
+            "japanese": "",
             "english": "Forge de l'esprit.",
             "details": "Forge de l'esprit."
           },
           "kokyu": {
             "name": "Kokyu",
-            "japanese": "呼吸",
+            "japanese": "",
             "english": "Respiration.",
             "details": "Respiration."
           }
@@ -816,52 +816,52 @@
         "terms": {
           "ichi": {
             "name": "Ichi",
-            "japanese": "一",
+            "japanese": "",
             "english": "Un"
           },
           "ni": {
             "name": "Ni",
-            "japanese": "二",
+            "japanese": "",
             "english": "Deux"
           },
           "san": {
             "name": "San",
-            "japanese": "三",
+            "japanese": "",
             "english": "Trois"
           },
           "shi": {
             "name": "Shi / Yon",
-            "japanese": "四",
+            "japanese": "",
             "english": "Quatre"
           },
           "go": {
             "name": "Go",
-            "japanese": "五",
+            "japanese": "",
             "english": "Cinq"
           },
           "roku": {
             "name": "Roku",
-            "japanese": "六",
+            "japanese": "",
             "english": "Six"
           },
           "shichi": {
             "name": "Shichi / Nana",
-            "japanese": "七",
+            "japanese": "",
             "english": "Sept"
           },
           "hachi": {
             "name": "Hachi",
-            "japanese": "八",
+            "japanese": "",
             "english": "Huit"
           },
           "ku": {
             "name": "Ku / Kyu",
-            "japanese": "九",
+            "japanese": "",
             "english": "Neuf"
           },
           "ju": {
             "name": "Ju",
-            "japanese": "十",
+            "japanese": "",
             "english": "Dix"
           }
         }
@@ -871,32 +871,32 @@
         "terms": {
           "makiwara": {
             "name": "Makiwara",
-            "japanese": "巻藁",
+            "japanese": "",
             "english": "Poteau de frappe"
           },
           "bo": {
             "name": "Bo",
-            "japanese": "棒",
+            "japanese": "",
             "english": "Bâton long (env. 6 pieds)"
           },
           "sai": {
             "name": "Sai",
-            "japanese": "釵",
+            "japanese": "",
             "english": "Matraque à trois dents"
           },
           "tonfa": {
             "name": "Tonfa",
-            "japanese": "トンファー",
+            "japanese": "",
             "english": "Matraque à poignée latérale"
           },
           "nunchaku": {
             "name": "Nunchaku",
-            "japanese": "ヌンチャク",
+            "japanese": "",
             "english": "Fléau (deux sections reliées par chaîne/corde)"
           },
           "kama": {
             "name": "Kama",
-            "japanese": "鎌",
+            "japanese": "",
             "english": "Faucille"
           }
         }
@@ -906,47 +906,47 @@
         "terms": {
           "karate": {
             "name": "Karate",
-            "japanese": "空手",
+            "japanese": "",
             "english": "Main Vide"
           },
           "karate-do": {
             "name": "Karate-Do",
-            "japanese": "空手道",
+            "japanese": "",
             "english": "La Voie de la Main Vide"
           },
           "goju-ryu": {
             "name": "Goju-Ryu",
-            "japanese": "剛柔流",
+            "japanese": "",
             "english": "Style Dur-Doux"
           },
           "go": {
             "name": "Go",
-            "japanese": "剛",
+            "japanese": "",
             "english": "Dur"
           },
           "ju": {
             "name": "Ju",
-            "japanese": "柔",
+            "japanese": "",
             "english": "Doux"
           },
           "budo": {
             "name": "Budo",
-            "japanese": "武道",
+            "japanese": "",
             "english": "Voie Martiale"
           },
           "kumite": {
             "name": "Kumite",
-            "japanese": "組手",
+            "japanese": "",
             "english": "Combat, mains qui luttent"
           },
           "kata": {
             "name": "Kata",
-            "japanese": "型",
+            "japanese": "",
             "english": "Forme, modèle"
           },
           "bunkai": {
             "name": "Bunkai",
-            "japanese": "分解",
+            "japanese": "",
             "english": "Analyse, application du kata"
           }
         }
@@ -958,27 +958,27 @@
           "terms": {
             "hanshi": {
               "name": "Hanshi",
-              "japanese": "範士",
+              "japanese": "",
               "english": "Chef d'une Organisation"
             },
             "kyoshi": {
               "name": "Kyoshi",
-              "japanese": "教士",
+              "japanese": "",
               "english": "Instructeur Maître"
             },
             "renshi": {
               "name": "Renshi",
-              "japanese": "錬士",
+              "japanese": "",
               "english": "Instructeur Poli"
             },
             "sensei": {
               "name": "Sensei",
-              "japanese": "先生",
+              "japanese": "",
               "english": "Enseignant"
             },
             "shihan": {
               "name": "Shihan",
-              "japanese": "師範",
+              "japanese": "",
               "english": "Instructeur Maître, Enseignant des Enseignants"
             }
           }
@@ -988,32 +988,32 @@
           "terms": {
             "karateka": {
               "name": "Karateka",
-              "japanese": "空手家",
+              "japanese": "",
               "english": "Pratiquant de Karaté"
             },
             "sempai": {
               "name": "Sempai",
-              "japanese": "先輩",
+              "japanese": "",
               "english": "Étudiant Senior"
             },
             "kohai": {
               "name": "Kohai",
-              "japanese": "後輩",
+              "japanese": "",
               "english": "Étudiant Junior"
             },
             "yudansha": {
               "name": "Yudansha",
-              "japanese": "有段者",
+              "japanese": "",
               "english": "Détenteur de Ceinture Noire"
             },
             "mudansha": {
               "name": "Mudansha",
-              "japanese": "無段者",
+              "japanese": "",
               "english": "Étudiant Sans Ceinture Noire"
             },
             "uchiDeshi": {
               "name": "Uchi Deshi",
-              "japanese": "内弟子",
+              "japanese": "",
               "english": "Étudiant Résident"
             }
           }
@@ -1023,22 +1023,22 @@
           "terms": {
             "bushi": {
               "name": "Bushi",
-              "japanese": "武士",
+              "japanese": "",
               "english": "Grand Artiste Martial"
             },
             "shushin": {
               "name": "Shushin",
-              "japanese": "主審",
+              "japanese": "",
               "english": "Arbitre Principal"
             },
             "fukushin": {
               "name": "Fukushin",
-              "japanese": "副審",
+              "japanese": "",
               "english": "Arbitre Assistant"
             },
             "kansa": {
               "name": "Kansa",
-              "japanese": "監査",
+              "japanese": "",
               "english": "Juge"
             }
           }
@@ -1046,42 +1046,42 @@
         "genericTerms": {
           "kyu": {
             "name": "Kyu",
-            "japanese": "級",
+            "japanese": "",
             "english": "Grade (ceintures colorées, sous ceinture noire)"
           },
           "dan": {
             "name": "Dan",
-            "japanese": "段",
+            "japanese": "",
             "english": "Niveau (grades de ceinture noire)"
           },
           "shodan": {
             "name": "Shodan",
-            "japanese": "初段",
+            "japanese": "",
             "english": "Premier niveau ceinture noire"
           },
           "sensei": {
             "name": "Sensei",
-            "japanese": "先生",
+            "japanese": "",
             "english": "Enseignant, instructeur"
           },
           "shihan": {
             "name": "Shihan",
-            "japanese": "師範",
+            "japanese": "",
             "english": "Instructeur maître, enseignant des enseignants"
           },
           "renshi": {
             "name": "Renshi",
-            "japanese": "錬士",
+            "japanese": "",
             "english": "Instructeur poli (un titre d'enseignement)"
           },
           "kyoshi": {
             "name": "Kyoshi",
-            "japanese": "教士",
+            "japanese": "",
             "english": "Enseignant avancé (un titre d'enseignement)"
           },
           "hanshi": {
             "name": "Hanshi",
-            "japanese": "範士",
+            "japanese": "",
             "english": "Enseignant exemplaire, maître (un titre d'enseignement)"
           }
         }
@@ -1091,127 +1091,127 @@
         "terms": {
           "dojo": {
             "name": "Dojo",
-            "japanese": "道場",
+            "japanese": "",
             "english": "Salle d'entraînement",
             "details": "Salle d'entraînement, littéralement : 'lieu de la voie'"
           },
           "dojo-kun": {
             "name": "Dojo Kun",
-            "japanese": "道場訓",
+            "japanese": "",
             "english": "Règles du dojo.",
             "details": "Règles du dojo."
           },
           "shomen": {
             "name": "Shomen",
-            "japanese": "正面",
+            "japanese": "",
             "english": "Face avant du dojo.",
             "details": "Face avant du dojo."
           },
           "shinden": {
             "name": "Shinden",
-            "japanese": "神殿",
+            "japanese": "",
             "english": "Autel / Lieu sacré.",
             "details": "Autel / Lieu sacré."
           },
           "reigi": {
             "name": "Reigi",
-            "japanese": "礼儀",
+            "japanese": "",
             "english": "Étiquette / Manières.",
             "details": "Étiquette / Manières."
           },
           "shugo": {
             "name": "Shugo",
-            "japanese": "集合",
+            "japanese": "",
             "english": "Rassemblement.",
             "details": "Rassemblement."
           },
           "ki-o-tsuke": {
             "name": "Ki O Tsuke",
-            "japanese": "気をつけ",
+            "japanese": "",
             "english": "Attention.",
             "details": "Attention."
           },
           "seiza": {
             "name": "Seiza",
-            "japanese": "正座",
+            "japanese": "",
             "english": "Position assise formelle sur les genoux.",
             "details": "Position assise formelle sur les genoux."
           },
           "anza": {
             "name": "Anza",
-            "japanese": "安座",
+            "japanese": "",
             "english": "Position assise en tailleur.",
             "details": "Position assise en tailleur."
           },
           "mokuso": {
             "name": "Mokuso",
-            "japanese": "黙想",
+            "japanese": "",
             "english": "Méditation / Silence de l'esprit.",
             "details": "Méditation / Silence de l'esprit."
           },
           "mokuso-yame": {
             "name": "Mokuso Yame",
-            "japanese": "黙想止め",
+            "japanese": "",
             "english": "Fin de la méditation.",
             "details": "Fin de la méditation."
           },
           "rei": {
             "name": "Rei",
-            "japanese": "礼",
+            "japanese": "",
             "english": "Salut respectueux (debout ou assis).",
             "details": "Salut respectueux (debout ou assis)."
           },
           "shomen-ni-rei": {
             "name": "Shomen Ni Rei",
-            "japanese": "正面に礼",
+            "japanese": "",
             "english": "Salut vers l'avant (shomen).",
             "details": "Salut vers l'avant (shomen)."
           },
           "shinden-ni-rei": {
             "name": "Shinden Ni Rei",
-            "japanese": "神殿に礼",
+            "japanese": "",
             "english": "Salut vers l'autel (shinden).",
             "details": "Salut vers l'autel (shinden)."
           },
           "sensei-ni-rei": {
             "name": "Sensei Ni Rei",
-            "japanese": "先生に礼",
+            "japanese": "",
             "english": "Salut au professeur.",
             "details": "Salut au professeur."
           },
           "otagaini-rei": {
             "name": "Otagaini Rei",
-            "japanese": "お互いに礼",
+            "japanese": "",
             "english": "Salut mutuel.",
             "details": "Salut mutuel."
           },
           "onegai-shimasu": {
             "name": "Onegai Shimasu",
-            "japanese": "お願いします",
+            "japanese": "",
             "english": "S'il vous plaît (aidez-moi / enseignez-moi).",
             "details": "S'il vous plaît (aidez-moi / enseignez-moi)."
           },
           "arigato-gozaimashita": {
             "name": "Arigato Gozaimashita",
-            "japanese": "ありがとうございました",
+            "japanese": "",
             "english": "Merci beaucoup (pour la leçon).",
             "details": "Merci beaucoup (pour la leçon)."
           },
           "osu": {
             "name": "Osu",
-            "japanese": "押忍",
+            "japanese": "",
             "english": "Compris / Affirmation.",
             "details": "Compris / Affirmation."
           },
           "owarimas": {
             "name": "Owarimas",
-            "japanese": "終わります",
+            "japanese": "",
             "english": "C'est fini.",
             "details": "C'est fini."
           },
           "shitsurei-shimasu": {
             "name": "Shitsurei Shimasu",
-            "japanese": "失礼します",
+            "japanese": "",
             "english": "Pardon / Excusez-moi.",
             "details": "Pardon / Excusez-moi."
           },
@@ -1223,31 +1223,31 @@
           },
           "yoi": {
             "name": "Yoi",
-            "japanese": "用意",
+            "japanese": "",
             "english": "Prêt / Préparez-vous.",
             "details": "Prêt / Préparez-vous."
           },
           "hajime": {
             "name": "Hajime",
-            "japanese": "始め",
+            "japanese": "",
             "english": "Commencez.",
             "details": "Commencez."
           },
           "yame": {
             "name": "Yame",
-            "japanese": "止め",
+            "japanese": "",
             "english": "Arrêtez.",
             "details": "Arrêtez."
           },
           "kime": {
             "name": "Kime",
-            "japanese": "決め",
+            "japanese": "",
             "english": "Focus / Impact.",
             "details": "Focus / Impact."
           },
           "yasume": {
             "name": "Yasume",
-            "japanese": "休め",
+            "japanese": "",
             "english": "Repos / Relaxez-vous.",
             "details": "Repos / Relaxez-vous."
           },
@@ -1259,37 +1259,37 @@
           },
           "gasshuku": {
             "name": "Gasshuku",
-            "japanese": "合宿",
+            "japanese": "",
             "english": "Camp d'entraînement.",
             "details": "Camp d'entraînement."
           },
           "sayonara": {
             "name": "Sayonara",
-            "japanese": "さようなら",
+            "japanese": "",
             "english": "Au revoir.",
             "details": "Au revoir."
           },
           "karate-gi": {
             "name": "(Karate)gi",
-            "japanese": "空手着",
+            "japanese": "",
             "english": "Tenue de karaté.",
             "details": "Tenue de karaté."
           },
           "obi": {
             "name": "Obi",
-            "japanese": "帯",
+            "japanese": "",
             "english": "Ceinture.",
             "details": "Ceinture."
           },
           "geiko": {
             "name": "Geiko",
-            "japanese": "稽古",
+            "japanese": "",
             "english": "Entraînement régulier.",
             "details": "Entraînement régulier."
           },
           "moichido": {
             "name": "Moichido",
-            "japanese": "もう一度",
+            "japanese": "",
             "english": "Encore une fois.",
             "details": "Encore une fois."
           }
@@ -1300,32 +1300,32 @@
         "terms": {
           "embusen": {
             "name": "Embusen",
-            "japanese": "演武線",
+            "japanese": "",
             "english": "Ligne de performance/modèle d'un kata"
           },
           "kime": {
             "name": "Kime",
-            "japanese": "決め",
+            "japanese": "",
             "english": "Focus de puissance, décision"
           },
           "zanshin": {
             "name": "Zanshin",
-            "japanese": "残心",
+            "japanese": "",
             "english": "Esprit/conscience persistante après la technique"
           },
           "hyoshi": {
             "name": "Hyoshi",
-            "japanese": "拍子",
+            "japanese": "",
             "english": "Rythme, timing"
           },
           "waza": {
             "name": "Waza",
-            "japanese": "技",
+            "japanese": "",
             "english": "Technique"
           },
           "koryu": {
             "name": "Koryu",
-            "japanese": "古流",
+            "japanese": "",
             "english": "Ancien style/école (se référant aux kata classiques)"
           }
         }
@@ -1336,43 +1336,43 @@
         "terms": {
           "mae-geri": {
             "name": "Mae Geri",
-            "japanese": "前蹴り",
+            "japanese": "",
             "english": "Coup de Pied Frontal",
             "details": "Mae Geri (Voorwaartse Trap) is een fundamentele voorwaartse trap uitgevoerd met de bal van de voet. De knie wordt opgetrokken, de voet wordt naar voren gestrekt, en de trap wordt afgeleverd met een snelle, stekende beweging. De andere voet blijft stevig op de grond voor balans en kracht."
           },
           "mawashi-geri": {
             "name": "Mawashi Geri",
-            "japanese": "回し蹴り",
+            "japanese": "",
             "english": "Coup de Pied Circulaire",
             "details": "Mawashi Geri (Ronde Trap) is een cirkelvormige trap uitgevoerd met de wreef van de voet of de scheen. De trap begint met het optillen van de knie, gevolgd door een roterende beweging van de heup om kracht te genereren. Het is effectief voor het raken van de zijkant van het lichaam of hoofd."
           },
           "yoko-geri": {
             "name": "Yoko Geri",
-            "japanese": "横蹴り",
+            "japanese": "",
             "english": "Coup de Pied Latéral",
             "details": "Yoko Geri (Zijwaartse Trap) wordt uitgevoerd door de knie zijwaarts op te tillen en de voet naar de zijkant te strekken. De trap kan uitgevoerd worden met de rand van de voet (sokuto) of de bal van de voet. Het is een effectieve techniek voor het raken van een tegenstander aan de zijkant."
           },
           "ushiro-geri": {
             "name": "Ushiro Geri",
-            "japanese": "後ろ蹴り",
+            "japanese": "",
             "english": "Coup de Pied Arrière",
             "details": "Ushiro Geri (Achterwaartse Trap) is een achterwaartse trap uitgevoerd door de knie op te tillen en de voet naar achteren te strekken. De trap wordt afgeleverd met de hak of de bal van de voet. Het is een verrassingstechniek die effectief is tegen tegenstanders die van achteren naderen."
           },
           "hiza-geri": {
             "name": "Hiza Geri",
-            "japanese": "膝蹴り",
+            "japanese": "",
             "english": "Coup de Genou/Coup de Pied",
             "details": "Hiza Geri (Knie Stoot/Trap) is een korte afstand trap uitgevoerd door de knie naar voren te stoten. Het is effectief in close combat situaties en kan gebruikt worden om de tegenstander's lichaam of hoofd te raken. De techniek vereist goede balans en controle."
           },
           "kin-geri": {
             "name": "Kin Geri",
-            "japanese": "金蹴り",
+            "japanese": "",
             "english": "Coup de Pied à l'Aine",
             "details": "Kin Geri (Lies Trap) is een lage trap gericht op de lies van de tegenstander. Het wordt uitgevoerd met de bal van de voet of de rand van de voet. Deze techniek is effectief voor het creëren van een opening of het verzwakken van de tegenstander's balans."
           },
           "kansetsu-geri": {
             "name": "Kansetsu Geri",
-            "japanese": "関節蹴り",
+            "japanese": "",
             "english": "Coup de Pied à l'Articulation (coup de pied de piétinement au genou)",
             "details": "Kansetsu Geri (Gewricht Trap) is een neerwaartse trap gericht op de knie van de tegenstander. Het wordt uitgevoerd door de voet neerwaarts te stampen, vaak met de hak. Deze techniek kan gebruikt worden om de tegenstander's been te beschadigen of hun balans te verstoren."
           }
@@ -1384,67 +1384,67 @@
         "terms": {
           "oi-zuki": {
             "name": "Oi Zuki",
-            "japanese": "追い突き",
+            "japanese": "",
             "english": "Coup de Poing en Fente (coup de poing en marchant)",
             "details": "Oi Zuki (Uitval Stoot) is een fundamentele stoottechniek waarbij de voorste voet naar voren stapt terwijl de achterste hand stoot. De stoot wordt afgeleverd met de achterste hand terwijl het lichaam naar voren beweegt, wat resulteert in een krachtige, doordringende aanval."
           },
           "gyaku-zuki": {
             "name": "Gyaku Zuki",
-            "japanese": "逆突き",
+            "japanese": "",
             "english": "Coup de Poing Inverse",
             "details": "Gyaku Zuki (Tegenstoot) is een stoot uitgevoerd met de hand die tegengesteld is aan de voorste voet. Het is een van de meest krachtige stoottechnieken omdat het gebruik maakt van de rotatie van de heupen en de volledige kracht van het lichaam. De stoot wordt afgeleverd vanuit een stabiele stand."
           },
           "kizami-zuki": {
             "name": "Kizami Zuki",
-            "japanese": "刻み突き",
+            "japanese": "",
             "english": "Direct (coup de poing de la main directrice)",
             "details": "Kizami Zuki (Jab) is een snelle, korte stoot uitgevoerd met de voorste hand zonder de stand te veranderen. Het wordt gebruikt om afstand te meten, de tegenstander af te leiden, of een opening te creëren voor een volgtechniek. De stoot is snel maar minder krachtig dan andere stoottechnieken."
           },
           "ura-zuki": {
             "name": "Ura Zuki",
-            "japanese": "裏突き",
+            "japanese": "",
             "english": "Coup de Poing Serré / Uppercut",
             "details": "Ura Zuki (Nauwe Stoot) is een stoot uitgevoerd op korte afstand, vaak met de vuist in een verticale positie. Het kan gebruikt worden als een uppercut naar de kin of als een stoot naar het lichaam. De techniek is effectief in close combat situaties."
           },
           "tate-zuki": {
             "name": "Tate Zuki",
-            "japanese": "立て突き",
+            "japanese": "",
             "english": "Coup de Poing Vertical",
             "details": "Tate Zuki (Verticale Vuist Stoot) wordt uitgevoerd met de vuist in een verticale positie, waarbij de knokkels naar boven wijzen. Deze stoot is effectief voor het raken van zachte doelen zoals de maag of ribben, en kan gebruikt worden in combinatie met andere technieken."
           },
           "age-zuki": {
             "name": "Age Zuki",
-            "japanese": "上げ突き",
+            "japanese": "",
             "english": "Coup de Poing Montant",
             "details": "Age Zuki (Opwaartse Stoot) is een stoot die van onder naar boven wordt afgeleverd, vaak gericht op de kin of het gezicht van de tegenstander. De stoot wordt uitgevoerd met een opwaartse beweging van de arm en kan gebruikt worden om een tegenstander die bukt te raken."
           },
           "choku-zuki": {
             "name": "Choku Zuki",
-            "japanese": "直突き",
+            "japanese": "",
             "english": "Coup de poing direct.",
             "details": "Coup de poing direct."
           },
           "seiken-zuki": {
             "name": "Seiken Zuki",
-            "japanese": "正拳突き",
+            "japanese": "",
             "english": "Coup de poing avec le poing.",
             "details": "Coup de poing avec le poing."
           },
           "mawashi-zuki": {
             "name": "Mawashi Zuki",
-            "japanese": "回し突き",
+            "japanese": "",
             "english": "Coup de poing circulaire.",
             "details": "Coup de poing circulaire."
           },
           "yama-zuki": {
             "name": "Yama Zuki",
-            "japanese": "山突き",
+            "japanese": "",
             "english": "Coup de poing montagne (double coup de poing).",
             "details": "Coup de poing montagne (double coup de poing)."
           },
           "morote-zuki": {
             "name": "Morote Zuki",
-            "japanese": "諸手突き",
+            "japanese": "",
             "english": "Double coup de poing.",
             "details": "Double coup de poing."
           }
@@ -1456,147 +1456,147 @@
         "terms": {
           "seiza": {
             "name": "Seiza",
-            "japanese": "正座",
+            "japanese": "",
             "english": "Position à genoux (s'asseoir correctement)",
             "details": "Seiza est la façon traditionnelle, formelle et polie japonaise de s'asseoir sur le sol, en s'agenouillant. C'est une position fondamentale à la fois dans le Karaté et dans la culture japonaise. Cette position est utilisée pour effectuer la 'révérence au sol' formelle appelée zarei.",
             "instructions": "Instructions : Placez vos genoux sur le sol avec vos pieds sous vous. Asseyez-vous sur vos pieds avec le dos droit. Placez vos mains sur vos cuisses avec vos pouces rapprochés."
           },
           "musubi-dachi": {
             "name": "Musubi Dachi",
-            "japanese": "結び立",
+            "japanese": "",
             "english": "Position debout",
             "details": "Musubi Dachi est la façon formelle de se tenir debout dans les arts martiaux japonais et au Japon. Cette position est très importante et est utilisée pour effectuer la révérence formelle respectueuse appelée rei. Musubi Dachi et rei doivent être effectués avant et après l'échauffement, kihon, kata, kumite ou toute interaction entre personnes.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds joints et vos orteils pointant vers l'avant. Gardez le dos droit et la tête haute. Placez vos mains sur les côtés avec vos doigts pointant vers le bas."
           },
           "heisoku-dachi": {
             "name": "Heisoku Dachi",
-            "japanese": "閉足立",
+            "japanese": "",
             "english": "Position jambes fermées",
             "details": "Heisoku Dachi est la position de préparation utilisée dans certains kata. Elle est similaire au musubi-dachi, mais les pieds sont maintenus ensemble.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds joints et vos orteils pointant vers l'avant. Gardez le dos droit et la tête haute. Placez vos mains sur les côtés avec vos doigts pointant vers le bas."
           },
           "heiko-dachi": {
             "name": "Heiko Dachi",
-            "japanese": "平行立",
+            "japanese": "",
             "english": "Position parallèle",
             "details": "Heiko Dachi est une position d'attention ou 'préparez-vous' utilisée dans certains styles. Elle est généralement effectuée après la révérence (musubi-dachi), juste avant la pratique de kihon ou kata. Heiko Dachi est aussi la position effectuée lors de l'écoute d'instructions.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds écartés de la largeur des épaules et vos orteils pointant vers l'avant. Gardez le dos droit et la tête haute. Placez vos mains sur les côtés avec vos doigts pointant vers le bas."
           },
           "hachiji-dachi": {
             "name": "Hachiji Dachi",
-            "japanese": "八字立",
+            "japanese": "",
             "english": "Position naturelle",
             "details": "Hachiji Dachi, aussi connue sous le nom de yoi-dachi, est une position d'attente formelle utilisée dans certains styles de Karaté. Hachiji Dachi peut aussi être utilisée après la révérence debout ou lors de l'exécution de tsuki. La position 'Yoi' n'est pas courante dans le Karaté Okinawaien.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds écartés de la largeur des épaules et vos orteils pointant vers l'extérieur à environ 45 degrés. Gardez le dos droit et la tête haute. Placez vos mains sur les côtés avec vos doigts pointant vers le bas."
           },
           "kiba-dachi": {
             "name": "Kiba Dachi",
-            "japanese": "騎馬立",
+            "japanese": "",
             "english": "Position de cheval",
             "details": "Kiba Dachi est une position fondamentale du Karaté qui n'est pas seulement utilisée pour pratiquer des coups de base comme le seiken tsuki, mais qui peut aussi être intégrée dans la pratique de l'autodéfense ou du kumite. C'est une position très forte pour se défendre contre les attaques latérales. Kiba Dachi est une position qui renforce les jambes, le dos et, dans une certaine mesure, le core.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds bien écartés, environ deux fois la largeur des épaules. Pliez vos genoux et abaissez votre corps. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches avec vos coudes près du corps."
           },
           "shiko-dachi": {
             "name": "Shiko Dachi",
-            "japanese": "四股立",
+            "japanese": "",
             "english": "Position de cheval, pieds ouverts",
             "details": "Shiko Dachi, aussi connue sous le nom de 'position carrée', est pratiquement la même que Kiba Dachi mais les pieds sont ouverts à un angle d'environ 45°.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds bien écartés, environ deux fois la largeur des épaules, avec vos orteils pointant vers l'extérieur à environ 45 degrés. Pliez vos genoux et abaissez votre corps. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches avec vos coudes près du corps."
           },
           "sanchin-dachi": {
             "name": "Sanchin Dachi",
-            "japanese": "三戦立",
+            "japanese": "",
             "english": "Position des trois combats, position sablier",
             "details": "Sanchin Dachi est une position fondamentale du Karaté qui offre une grande stabilité et un enracinement. La majorité des styles japonais comme Shotokan n'utilisent cette position que dans les kata, mais les styles okinawaien l'utilisent pour l'autodéfense et le kumite, particulièrement les styles Naha-te comme Goju-Ryu et Uechi-Ryu.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds écartés de la largeur des épaules et vos orteils pointant vers l'intérieur. Pliez vos genoux et abaissez votre corps. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches avec vos coudes près du corps."
           },
           "zenkutsu-dachi": {
             "name": "Zenkutsu Dachi",
-            "japanese": "前屈立",
+            "japanese": "",
             "english": "Position avant",
             "details": "Zenkutsu Dachi, aussi connue sous le nom de position avant, est l'une des positions les plus courantes dans le Karaté. C'est une position qui vous permet d'atteindre loin et de générer une grande quantité de puissance en vous déplaçant vers l'avant. Comme avec la plupart des positions, la version japonaise de Zenkutsu Dachi tend à être très longue et large comparée à la version okinawaienne plus courte et naturelle.",
             "instructions": "Instructions : Faites un pas en avant avec votre pied avant. Pliez votre genou avant pour qu'il soit au-dessus de votre pied avant. Gardez votre jambe arrière droite et abaissez votre corps. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches."
           },
           "han-zenkutsu-dachi": {
             "name": "Han Zenkutsu Dachi",
-            "japanese": "半前屈立",
+            "japanese": "",
             "english": "Demi-position avant",
             "details": "Han Zenkutsu Dachi est la version plus courte ou demi de Zenkutsu Dachi. C'est une position appropriée pour l'autodéfense et le kumite ou le sparring car elle offre une plus grande mobilité. Han Zenkutsu Dachi est une position neutre qui vous permet de vous déplacer rapidement vers l'arrière dans la défensive Neko-ashi-dachi ou de vous propulser vers l'avant dans une Zenkutsu Dachi complète ou Sanchin Dachi.",
             "instructions": "Instructions : Faites un pas plus court en avant avec votre pied avant comparé au zenkutsu-dachi complet. Pliez votre genou avant légèrement pour qu'il soit au-dessus de votre pied avant. Gardez votre jambe arrière pliée et abaissez votre corps. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches."
           },
           "kokutsu-dachi": {
             "name": "Kokutsu Dachi",
-            "japanese": "後屈立",
+            "japanese": "",
             "english": "Position arrière",
             "details": "Kokutsu Dachi est une position défensive qui vous permet de reculer rapidement ou de vous déplacer vers l'arrière et de contre-attaquer. C'est excellent pour éviter les attaques de votre adversaire.",
             "instructions": "Instructions : Faites un pas en arrière avec votre pied arrière. Pliez votre genou arrière et abaissez votre corps. Gardez votre jambe avant droite. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches."
           },
           "neko-ashi-dachi": {
             "name": "Neko Ashi Dachi",
-            "japanese": "猫足立",
+            "japanese": "",
             "english": "Position pied de chat",
             "details": "Neko Ashi Dachi est une excellente position défensive car la plupart du poids est sur la jambe arrière, permettant des contre-attaques avec des coups de pied et des esquives latérales rapides. Malheureusement impopulaire parmi les karatékas, cette position est parfaitement adaptée à la fois pour l'autodéfense et le kumite.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds écartés de la largeur des épaules. Placez la plupart de votre poids sur votre jambe arrière. Pliez votre genou arrière et abaissez votre corps. Gardez votre jambe avant droite avec vos orteils pointant vers l'avant. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches."
           },
           "tsuru-ashi-dachi": {
             "name": "Tsuru Ashi Dachi",
-            "japanese": "鶴足立",
+            "japanese": "",
             "english": "Position grue",
             "details": "Tsuru Ashi Dachi est une position utilisée pour éviter les attaques et pour transitionner vers d'autres techniques.",
             "instructions": "Instructions : Tenez-vous debout sur une jambe avec votre autre jambe pliée au genou. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches avec vos coudes près du corps."
           },
           "kosa-dachi": {
             "name": "Kosa Dachi",
-            "japanese": "交差立",
+            "japanese": "",
             "english": "Position croisée",
             "details": "La position croisée est généralement effectuée pour tourner, esquiver sur le côté ou lors de l'atterrissage d'un saut.",
             "instructions": "Instructions : Tenez-vous debout avec vos pieds croisés, un pied devant l'autre. Pliez vos genoux légèrement et abaissez votre corps. Gardez le dos droit et la tête haute. Placez vos mains en poings sur vos hanches avec vos coudes près du corps."
           },
           "heishugata-sanchin-dachi": {
             "name": "Heishugata Sanchin Dachi",
-            "japanese": "閉手形三戦立",
+            "japanese": "",
             "english": "Sanchin mains fermées",
             "details": "Position Sanchin avec les orteils légèrement rentrés, littéralement : position des trois batailles mains fermées"
           },
           "kaishugata-sanchin-dachi": {
             "name": "Kaishugata Sanchin Dachi",
-            "japanese": "開手形三戦立",
+            "japanese": "",
             "english": "Sanchin mains ouvertes",
             "details": "Position Sanchin avec les pieds droits devant, littéralement : position des trois batailles mains ouvertes"
           },
           "hikui-zenkutsu-dachi": {
             "name": "Hikui Zenkutsu Dachi",
-            "japanese": "低前屈立",
+            "japanese": "",
             "english": "Position avant basse",
             "details": "Position avant profonde (comme dans Kururunfa)"
           },
           "sagi-ashi-dachi": {
             "name": "Sagi Ashi Dachi",
-            "japanese": "鷺足立",
+            "japanese": "",
             "english": "Position du héron",
             "details": "Position du héron (comme dans Saifa)"
           },
           "renoji-dachi": {
             "name": "Renoji Dachi",
-            "japanese": "レの字立",
+            "japanese": "",
             "english": "Position en L",
             "details": "Position en L (comme dans Seiyunchin et Sepai)"
           },
           "bensoku-dachi": {
             "name": "Bensoku Dachi",
-            "japanese": "弁足立",
+            "japanese": "",
             "english": "Position ciseaux",
             "details": "Position ciseaux (comme dans Seiyunchin et Sepai)"
           },
           "kokotsu-dachi-alt": {
             "name": "Kokotsu Dachi",
-            "japanese": "後屈立",
+            "japanese": "",
             "english": "Position arri?re (variante).",
             "details": "Position arri?re (variante)."
           },
           "koshi-dachi": {
             "name": "Koshi Dachi",
-            "japanese": "腰立",
+            "japanese": "",
             "english": "Position accroupie",
             "details": "Position accroupie (comme dans Kururunfa)",
             "instructions": "Position accroupie profonde"
@@ -1609,37 +1609,37 @@
         "terms": {
           "shuto-uchi": {
             "name": "Shuto Uchi",
-            "japanese": "手刀打ち",
+            "japanese": "",
             "english": "Frappe Main-Sabre",
             "details": "Shuto Uchi (Messenhand Slag) wordt uitgevoerd met de rand van de hand (shuto). De vingers zijn gestrekt en samen, de duim is gebogen. Deze slag is effectief voor het raken van de nek, zijkant van het hoofd, of de zijkant van het lichaam. Het kan uitgevoerd worden in verschillende richtingen."
           },
           "uraken-uchi": {
             "name": "Uraken Uchi",
-            "japanese": "裏拳打ち",
+            "japanese": "",
             "english": "Frappe Poing Dorsal",
             "details": "Uraken Uchi (Achtervuist Slag) wordt uitgevoerd met de achterkant van de vuist, vaak met een zwaaiende beweging. Het is effectief voor het raken van de zijkant van het hoofd of lichaam. Deze slag kan snel en verrassend zijn, en wordt vaak gebruikt in combinatie met andere technieken."
           },
           "tettsui-uchi": {
             "name": "Tettsui Uchi",
-            "japanese": "鉄槌打ち",
+            "japanese": "",
             "english": "Frappe Poing-Marteau",
             "details": "Tettsui Uchi (Hamervuist Slag) wordt uitgevoerd met de onderkant van de vuist, waarbij de knokkels naar beneden wijzen. Het is een neerwaartse slag die effectief is voor het raken van de schouder, sleutelbeen, of de bovenkant van het hoofd. Deze slag is krachtig en kan gebruikt worden om een tegenstander te verzwakken."
           },
           "empi-uchi": {
             "name": "Empi Uchi / Hiji Ate",
-            "japanese": "猿臂打ち / 肘当て",
+            "japanese": "",
             "english": "Frappe du Coude",
             "details": "Empi Uchi (frappe du coude) utilise le coude comme arme. Elle peut être exécutée dans différentes directions : vers l'avant, vers l'arrière, vers le haut ou vers le bas. Cette frappe est efficace à courte portée et peut être utilisée pour atteindre la tête, le corps ou les membres de l'adversaire."
           },
           "haito-uchi": {
             "name": "Haito Uchi",
-            "japanese": "背刀打ち",
+            "japanese": "",
             "english": "Frappe Main-Crête",
             "details": "Haito Uchi (frappe du tranchant interne de la main) est exécutée avec le bord interne de la main (côté index). Les doigts sont tendus et serrés, le pouce est replié. Cette frappe est efficace pour atteindre le cou, le côté de la tête ou des cibles molles comme les yeux."
           },
           "nukite": {
             "name": "Nukite",
-            "japanese": "貫手",
+            "japanese": "",
             "english": "Frappe Main-Lance",
             "details": "Nukite (frappe de la main en pique) est exécutée avec les doigts tendus et serrés, les bouts des doigts atteignant la cible. C'est une technique de pénétration efficace pour atteindre des cibles molles comme les yeux, la gorge ou le plexus solaire. Cette technique exige précision et contrôle."
           }
@@ -1801,7 +1801,7 @@
           "hazusu-waza": "Hazusu Waza - Techniques de dégagement",
           "ukemi-waza": {
             "name": "Ukemi Waza",
-            "japanese": "受身技",
+            "japanese": "",
             "english": "Techniques de chute.",
             "details": "Techniques de chute."
           },
@@ -1809,7 +1809,7 @@
           "osae-waza": "Osae Waza - Techniques d'immobilisation",
           "nage-waza": {
             "name": "Nage Waza",
-            "japanese": "投げ技",
+            "japanese": "",
             "english": "Techniques de projection.",
             "details": "Techniques de projection."
           },
@@ -1826,7 +1826,7 @@
           "ashi-dori": "Ashi Dori - Saisie de jambe",
           "kansetsu-waza": {
             "name": "Kansetsu Waza",
-            "japanese": "関節技",
+            "japanese": "",
             "english": "Techniques de cl?s articulaires.",
             "details": "Techniques de cl?s articulaires."
           },
@@ -1850,32 +1850,32 @@
         "terms": {
           "jinchu": {
             "name": "Jinchu",
-            "japanese": "人中",
+            "japanese": "",
             "english": "Philtrum (base du nez)"
           },
           "kasumi": {
             "name": "Kasumi",
-            "japanese": "霞",
+            "japanese": "",
             "english": "Temple"
           },
           "suigetsu": {
             "name": "Suigetsu",
-            "japanese": "水月",
+            "japanese": "",
             "english": "Plexus solaire"
           },
           "kinteki": {
             "name": "Kinteki",
-            "japanese": "金的",
+            "japanese": "",
             "english": "Aine"
           },
           "dokko": {
             "name": "Dokko",
-            "japanese": "独鈷",
+            "japanese": "",
             "english": "Processus mastoïde (derrière l'oreille)"
           },
           "nodo": {
             "name": "Nodo",
-            "japanese": "喉",
+            "japanese": "",
             "english": "Gorge"
           }
         }
@@ -1890,201 +1890,201 @@
         "terms": {
           "harai": {
             "name": "Harai / Barai",
-            "japanese": "払い",
+            "japanese": "",
             "english": "Blocage balayé"
           },
           "jodan-age-uke": {
             "name": "Jodan Age Uke",
-            "japanese": "上段上げ受け",
+            "japanese": "",
             "english": "Blocage montant haut",
             "details": "Age Uke (Blocage Montant) est une technique de blocage montant fondamentale utilisée pour défendre contre les attaques au visage ou au haut du corps. L'avant-bras se déplace vers le haut pour dévier l'attaque, tandis que l'autre main est retirée à la hanche en préparation d'une contre-attaque.",
             "videoFile": "age-uke"
           },
           "jodan-soto-uke": {
             "name": "Jodan Soto (Yoko) Uke",
-            "japanese": "上段外受け",
+            "japanese": "",
             "english": "Blocage extérieur haut",
             "details": "Soto Uke (Blocage Extérieur) est un blocage de l'extérieur vers l'intérieur utilisé pour dévier les attaques venant de l'extérieur. L'avant-bras se déplace de l'extérieur vers l'intérieur dans un chemin horizontal pour rediriger le coup de l'adversaire.",
             "videoFile": "soto-uke"
           },
           "jodan-uchi-uke": {
             "name": "Jodan Uchi (Yoko) Uke",
-            "japanese": "上段内受け",
+            "japanese": "",
             "english": "Blocage intérieur haut",
             "details": "Jodan Uchi Uke est un blocage de l'intérieur vers l'extérieur utilisé pour dévier les attaques hautes venant de l'intérieur."
           },
           "chudan-soto-uke": {
             "name": "Chudan Soto (Yoko) Uke",
-            "japanese": "中段外受け",
+            "japanese": "",
             "english": "Blocage extérieur moyen"
           },
           "chudan-uchi-uke": {
             "name": "Chudan Uchi Uke",
-            "japanese": "中段内受け",
+            "japanese": "",
             "english": "Blocage intérieur moyen",
             "details": "Uchi Uke (Blocage Intérieur) est un blocage de l'intérieur vers l'extérieur utilisé pour dévier les attaques venant de l'intérieur. L'avant-bras se déplace de l'intérieur vers l'extérieur dans un chemin horizontal.",
             "videoFile": "uchi-uke"
           },
           "gedan-uke": {
             "name": "Gedan (Harai) Uke / Gedan Barai",
-            "japanese": "下段払い",
+            "japanese": "",
             "english": "Blocage bas (balayé)",
             "details": "Gedan Barai (Balayage Descendant) est un balayage descendant qui défend contre les attaques basses. Le bras se déplace dans un arc descendant pour dévier les coups visant le bas du corps, avec l'autre bras qui se retire à la position de la hanche.",
             "videoFile": "gedan-barai"
           },
           "uchi-gedan-barai": {
             "name": "Uchi Gedan Barai",
-            "japanese": "内下段払い",
+            "japanese": "",
             "english": "Blocage bas balayé de l'intérieur"
           },
           "shotei-gedan-harai": {
             "name": "Shotei Gedan Harai",
-            "japanese": "掌底下段払い",
+            "japanese": "",
             "english": "Blocage bas balayé avec la paume"
           },
           "morote-uke": {
             "name": "Morote Uke",
-            "japanese": "諸手受け",
+            "japanese": "",
             "english": "Double blocage latéral moyen"
           },
           "kosa-uke": {
             "name": "Kosa Uke",
-            "japanese": "交差受け",
+            "japanese": "",
             "english": "Blocage en croix",
             "details": "Kosa Uke (Blocage Croisé) implique de croiser les poignets ou les avant-bras pour créer une barrière contre une attaque. Il peut être effectué à différentes hauteurs (jodan, chudan, gedan)."
           },
           "hiki-uke": {
             "name": "Hiki Uke",
-            "japanese": "引き受け",
+            "japanese": "",
             "english": "Blocage tiré"
           },
           "ura-hiki-uke": {
             "name": "Ura Hiki Uke",
-            "japanese": "裏引き受け",
+            "japanese": "",
             "english": "Blocage tiré inversé"
           },
           "ura-kake-uke": {
             "name": "Ura Kake Uke",
-            "japanese": "裏掛け受け",
+            "japanese": "",
             "english": "Blocage inversé / crocheté"
           },
           "morote-hiki-uke": {
             "name": "Morote Hiki Uke",
-            "japanese": "諸手引き受け",
+            "japanese": "",
             "english": "Double blocage tiré"
           },
           "kake-uke": {
             "name": "Kake Uke",
-            "japanese": "掛け受け",
+            "japanese": "",
             "english": "Blocage crocheté"
           },
           "uchi-kake-uke": {
             "name": "Uchi Kake Uke",
-            "japanese": "内掛け受け",
+            "japanese": "",
             "english": "Blocage crocheté intérieur"
           },
           "shotei-uke": {
             "name": "Shotei Uke",
-            "japanese": "掌底受け",
+            "japanese": "",
             "english": "Blocage latéral paume"
           },
           "otoshi-uke": {
             "name": "Otoshi Uke",
-            "japanese": "落とし受け",
+            "japanese": "",
             "english": "Blocage descendant"
           },
           "nagashi-uke": {
             "name": "Nagashi Uke",
-            "japanese": "流し受け",
+            "japanese": "",
             "english": "Blocage fluide/balayé"
           },
           "osae-uke": {
             "name": "Osae Uke",
-            "japanese": "押さえ受け",
+            "japanese": "",
             "english": "Blocage pressé",
             "details": "Osae Uke (Blocage Pressant) est une technique qui appuie vers le bas ou épingler une attaque de l'adversaire, souvent utilisée pour contrôler un membre de l'adversaire ou créer une ouverture."
           },
           "morote-osae-uke": {
             "name": "Morote Osae Uke",
-            "japanese": "諸手押さえ受け",
+            "japanese": "",
             "english": "Double blocage pressé"
           },
           "sukui-uke": {
             "name": "Sukui Uke",
-            "japanese": "掬い受け",
+            "japanese": "",
             "english": "Blocage en cuillère"
           },
           "jodan-ko-uke": {
             "name": "Jodan Ko Uke",
-            "japanese": "上段弧受け",
+            "japanese": "",
             "english": "Blocage poignet haut"
           },
           "yoko-ko-uke": {
             "name": "Yoko Ko Uke",
-            "japanese": "横弧受け",
+            "japanese": "",
             "english": "Blocage poignet latéral"
           },
           "hiji-uke": {
             "name": "Hiji Uke",
-            "japanese": "肘受け",
+            "japanese": "",
             "english": "Blocage coude",
             "details": "Empi Uke (Blocage du Coude) utilise le coude pour bloquer une attaque entrante, souvent efficace à courte distance et contre les coups au corps."
           },
           "tora-guchi": {
             "name": "Tora Guchi",
-            "japanese": "虎口",
+            "japanese": "",
             "english": "Gueule de tigre"
           },
           "mawashi-uke": {
             "name": "Mawashi Uke",
-            "japanese": "回し受け",
+            "japanese": "",
             "english": "Blocage circulaire"
           },
           "hojo-uke": {
             "name": "Hojo Uke",
-            "japanese": "補助受け",
+            "japanese": "",
             "english": "Blocage assisté"
           },
           "doji-uke": {
             "name": "Doji Uke",
-            "japanese": "同時受け",
+            "japanese": "",
             "english": "Blocage simultané"
           },
           "kuri-uke": {
             "name": "Kuri Uke",
-            "japanese": "繰り受け",
+            "japanese": "",
             "english": "Blocage circulaire coude"
           },
           "hari-uke": {
             "name": "Hari Uke",
-            "japanese": "ハリ受け",
+            "japanese": "",
             "english": "Blocage arc et flèche"
           },
           "hiza-uchi-uke": {
             "name": "Hiza Uchi Uke",
-            "japanese": "膝内受け",
+            "japanese": "",
             "english": "Blocage genou intérieur"
           },
           "hiza-soto-uke": {
             "name": "Hiza Soto Uke",
-            "japanese": "膝外受け",
+            "japanese": "",
             "english": "Blocage genou extérieur"
           },
           "juji-uke": {
             "name": "Juji Uke",
-            "japanese": "十字受け",
+            "japanese": "",
             "english": "Blocage en X",
             "details": "Juji Uke (Blocage en X) utilise les bras croisés en forme de 'X' pour bloquer une attaque, typiquement un coup descendant ou un coup de pied. Les mains peuvent être ouvertes ou fermées."
           },
           "haiwan-uke": {
             "name": "Haiwan Uke",
-            "japanese": "背腕受け",
+            "japanese": "",
             "english": "Blocage Arrière-Bras",
             "details": "Haiwan Uke (Blocage Arrière-Bras) utilise l'arrière de l'avant-bras pour bloquer une technique entrante. Il est souvent utilisé pour dévier les coups qui viennent vers le côté du corps ou de la tête."
           },
           "shuto-uke": {
             "name": "Shuto Uke",
-            "japanese": "手刀受け",
+            "japanese": "",
             "english": "Blocage Main-Sabre",
             "details": "Shuto Uke (Blocage Main-Sabre) est effectué avec le tranchant de la main (shuto). Il peut être utilisé pour bloquer les attaques au torse ou à la tête, souvent avec un mouvement circulaire."
           }
@@ -2095,42 +2095,42 @@
         "terms": {
           "hajime": {
             "name": "Hajime",
-            "japanese": "始め",
+            "japanese": "",
             "english": "Commencer"
           },
           "yame": {
             "name": "Yame",
-            "japanese": "止め",
+            "japanese": "",
             "english": "Arrêter"
           },
           "yasume": {
             "name": "Yasume",
-            "japanese": "休め",
+            "japanese": "",
             "english": "Repos/À l'aise"
           },
           "naore": {
             "name": "Naore",
-            "japanese": "直れ",
+            "japanese": "",
             "english": "Retour à la position de prêt"
           },
           "mokuso": {
             "name": "Mokuso",
-            "japanese": "黙想",
+            "japanese": "",
             "english": "Méditation"
           },
           "mokuso-yame": {
             "name": "Mokuso Yame",
-            "japanese": "黙想止め",
+            "japanese": "",
             "english": "Fin de la méditation"
           },
           "rei": {
             "name": "Rei",
-            "japanese": "礼",
+            "japanese": "",
             "english": "Salut"
           },
           "seiza": {
             "name": "Seiza",
-            "japanese": "正座",
+            "japanese": "",
             "english": "Position assise formelle"
           }
         }
@@ -2140,37 +2140,37 @@
         "terms": {
           "kyu": {
             "name": "Kyu",
-            "japanese": "級",
+            "japanese": "",
             "english": "Grade (ceintures colorées, sous ceinture noire)"
           },
           "dan": {
             "name": "Dan",
-            "japanese": "段",
+            "japanese": "",
             "english": "Niveau (grades de ceinture noire)"
           },
           "shodan": {
             "name": "Shodan",
-            "japanese": "初段",
+            "japanese": "",
             "english": "Premier niveau ceinture noire"
           },
           "nidan": {
             "name": "Nidan",
-            "japanese": "二段",
+            "japanese": "",
             "english": "Deuxième niveau ceinture noire"
           },
           "sandan": {
             "name": "Sandan",
-            "japanese": "三段",
+            "japanese": "",
             "english": "Troisième niveau ceinture noire"
           },
           "yondan": {
             "name": "Yondan",
-            "japanese": "四段",
+            "japanese": "",
             "english": "Quatrième niveau ceinture noire"
           },
           "godan": {
             "name": "Godan",
-            "japanese": "五段",
+            "japanese": "",
             "english": "Cinquième niveau ceinture noire"
           }
         }
@@ -2180,32 +2180,32 @@
         "terms": {
           "bo": {
             "name": "Bo",
-            "japanese": "棒",
+            "japanese": "",
             "english": "Bâton long (env. 6 pieds)"
           },
           "sai": {
             "name": "Sai",
-            "japanese": "釵",
+            "japanese": "",
             "english": "Matraque à trois dents"
           },
           "tonfa": {
             "name": "Tonfa",
-            "japanese": "トンファー",
+            "japanese": "",
             "english": "Matraque à poignée latérale"
           },
           "nunchaku": {
             "name": "Nunchaku",
-            "japanese": "ヌンチャク",
+            "japanese": "",
             "english": "Fléau (deux sections reliées par chaîne/corde)"
           },
           "kama": {
             "name": "Kama",
-            "japanese": "鎌",
+            "japanese": "",
             "english": "Faucille"
           },
           "tekko": {
             "name": "Tekko",
-            "japanese": "鉄甲",
+            "japanese": "",
             "english": "Poing américain"
           }
         }
@@ -2215,37 +2215,37 @@
         "terms": {
           "zanshin": {
             "name": "Zanshin",
-            "japanese": "残心",
+            "japanese": "",
             "english": "Esprit/conscience persistante après la technique"
           },
           "mushin": {
             "name": "Mushin",
-            "japanese": "無心",
+            "japanese": "",
             "english": "Pas d'esprit, état de clarté mentale"
           },
           "kokyu": {
             "name": "Kokyu",
-            "japanese": "呼吸",
+            "japanese": "",
             "english": "Respiration"
           },
           "ki": {
             "name": "Ki",
-            "japanese": "気",
+            "japanese": "",
             "english": "Énergie, esprit, force vitale"
           },
           "ma-ai": {
             "name": "Ma-ai",
-            "japanese": "間合",
+            "japanese": "",
             "english": "Distance, rythme"
           },
           "hyoshi": {
             "name": "Hyoshi",
-            "japanese": "拍子",
+            "japanese": "",
             "english": "Rythme, timing"
           },
           "kime": {
             "name": "Kime",
-            "japanese": "決め",
+            "japanese": "",
             "english": "Focus de puissance, décision"
           }
         }
@@ -2255,32 +2255,32 @@
         "terms": {
           "embusen": {
             "name": "Embusen",
-            "japanese": "演武線",
+            "japanese": "",
             "english": "Ligne de performance/modèle d'un kata"
           },
           "bunkai": {
             "name": "Bunkai",
-            "japanese": "分解",
+            "japanese": "",
             "english": "Analyse, application du kata"
           },
           "oyo": {
             "name": "Oyo",
-            "japanese": "応用",
+            "japanese": "",
             "english": "Application, utilisation pratique"
           },
           "henka": {
             "name": "Henka",
-            "japanese": "変化",
+            "japanese": "",
             "english": "Variante, modification"
           },
           "kakie": {
             "name": "Kakie",
-            "japanese": "掛け合い",
+            "japanese": "",
             "english": "Mains poussantes, entraînement de sensibilité"
           },
           "koryu": {
             "name": "Koryu",
-            "japanese": "古流",
+            "japanese": "",
             "english": "Ancien style/école (se référant aux kata classiques)"
           }
         }
@@ -2290,37 +2290,37 @@
         "terms": {
           "kumite": {
             "name": "Kumite",
-            "japanese": "組手",
+            "japanese": "",
             "english": "Combat, mains qui luttent"
           },
           "ippon": {
             "name": "Ippon",
-            "japanese": "一本",
+            "japanese": "",
             "english": "Un point"
           },
           "waza-ari": {
             "name": "Waza-ari",
-            "japanese": "技あり",
+            "japanese": "",
             "english": "Demi-point"
           },
           "aiuchi": {
             "name": "Aiuchi",
-            "japanese": "相打ち",
+            "japanese": "",
             "english": "Points simultanés"
           },
           "hikiwake": {
             "name": "Hikiwake",
-            "japanese": "引き分け",
+            "japanese": "",
             "english": "Match nul"
           },
           "hansoku": {
             "name": "Hansoku",
-            "japanese": "反則",
+            "japanese": "",
             "english": "Faute"
           },
           "shiai": {
             "name": "Shiai",
-            "japanese": "試合",
+            "japanese": "",
             "english": "Combat, compétition"
           }
         }
@@ -2330,37 +2330,37 @@
         "terms": {
           "dojo": {
             "name": "Dojo",
-            "japanese": "道場",
+            "japanese": "",
             "english": "Salle d'entraînement, lieu de la voie"
           },
           "kamiza": {
             "name": "Kamiza",
-            "japanese": "上座",
+            "japanese": "",
             "english": "Place supérieure, avant du dojo"
           },
           "shimoza": {
             "name": "Shimoza",
-            "japanese": "下座",
+            "japanese": "",
             "english": "Place inférieure, arrière du dojo"
           },
           "joseki": {
             "name": "Joseki",
-            "japanese": "上席",
+            "japanese": "",
             "english": "Côté supérieur, côté droit du dojo"
           },
           "shimoseki": {
             "name": "Shimoseki",
-            "japanese": "下席",
+            "japanese": "",
             "english": "Côté inférieur, côté gauche du dojo"
           },
           "shomen": {
             "name": "Shomen",
-            "japanese": "正面",
+            "japanese": "",
             "english": "Avant, mur principal du dojo"
           },
           "tatami": {
             "name": "Tatami",
-            "japanese": "畳",
+            "japanese": "",
             "english": "Tapis de sol japonais traditionnel"
           }
         }
@@ -2371,25 +2371,25 @@
         "terms": {
           "junbi-undo": {
             "name": "Junbi Undo",
-            "japanese": "準備運動",
+            "japanese": "",
             "english": "Exercices Préparatoires",
             "details": "Junbi Undo (Exercices Préparatoires) sont des exercices d'échauffement de base qui préparent le corps à l'entraînement de karaté. Ces exercices comprennent des étirements, de la mobilité articulaire et une activité cardiovasculaire légère. Ils aident à prévenir les blessures et à améliorer les performances pendant l'entraînement."
           },
           "hojo-undo": {
             "name": "Hojo Undo",
-            "japanese": "補助運動",
+            "japanese": "",
             "english": "Exercices Supplémentaires",
             "details": "Hojo Undo (Exercices Supplémentaires) sont des exercices traditionnels d'Okinawa qui développent la force, l'endurance et la technique. Ces exercices incluent l'utilisation d'outils d'entraînement traditionnels comme le chi ishi (pierres lestées), les nigiri game (jarres de préhension), et d'autres exercices de renforcement."
           },
           "kihon-undo": {
             "name": "Kihon Undo",
-            "japanese": "基本運動",
+            "japanese": "",
             "english": "Mouvements de Base",
             "details": "Kihon Undo (Mouvements de Base) sont des schémas de mouvements fondamentaux qui forment la base de toutes les techniques de karaté. Ces exercices développent la coordination, l'équilibre et la conscience corporelle. Ils sont souvent exécutés en séries de répétitions pour développer la mémoire musculaire."
           },
           "taiso": {
             "name": "Taiso",
-            "japanese": "体操",
+            "japanese": "",
             "english": "Gymnastique",
             "details": "Taiso (Gymnastique) sont des mouvements corporels généraux qui développent la flexibilité, la force et l'endurance. Ces exercices comprennent des pompes, des redressements assis, des squats et d'autres exercices de fitness de base. Ils constituent une partie importante de l'entraînement de karaté et aident à développer une base physique solide."
           }
@@ -2400,42 +2400,42 @@
         "terms": {
           "dojo": {
             "name": "Dojo",
-            "japanese": "道場",
+            "japanese": "",
             "english": "Salle d'entraînement, lieu de la voie"
           },
           "sensei": {
             "name": "Sensei",
-            "japanese": "先生",
+            "japanese": "",
             "english": "Enseignant, instructeur (celui qui est né avant)"
           },
           "sempai": {
             "name": "Sempai",
-            "japanese": "先輩",
+            "japanese": "",
             "english": "Élève senior (plus ancien)"
           },
           "kohai": {
             "name": "Kohai",
-            "japanese": "後輩",
+            "japanese": "",
             "english": "Élève junior (moins ancien)"
           },
           "obi": {
             "name": "Obi",
-            "japanese": "帯",
+            "japanese": "",
             "english": "Band"
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "道着",
+            "japanese": "",
             "english": "Trainingsuniform"
           },
           "kiai": {
             "name": "Kiai",
-            "japanese": "気合",
+            "japanese": "",
             "english": "Geestkreet, energie focus"
           },
           "reishiki": {
             "name": "Reishiki",
-            "japanese": "礼式",
+            "japanese": "",
             "english": "Etiquette, manieren"
           }
         }
@@ -2445,17 +2445,17 @@
         "terms": {
           "ashi": {
             "name": "Ashi",
-            "japanese": "足",
+            "japanese": "",
             "english": "Pied/Jambe"
           },
           "te": {
             "name": "Te",
-            "japanese": "手",
+            "japanese": "",
             "english": "Main"
           },
           "hiji": {
             "name": "Hiji",
-            "japanese": "肘",
+            "japanese": "",
             "english": "Coude"
           },
           "hiza": {
@@ -2464,22 +2464,22 @@
           },
           "atama": {
             "name": "Atama",
-            "japanese": "頭",
+            "japanese": "",
             "english": "Tête"
           },
           "kata": {
             "name": "Kata",
-            "japanese": "肩",
+            "japanese": "",
             "english": "Épaule"
           },
           "mune": {
             "name": "Mune",
-            "japanese": "胸",
+            "japanese": "",
             "english": "Poitrine"
           },
           "hara": {
             "name": "Hara",
-            "japanese": "腹",
+            "japanese": "",
             "english": "Estomac/Ventre"
           }
         }
@@ -2555,13 +2555,13 @@
       "aboutTraining": "À propos de l'entraînement en Goju Ryu",
       "junbiUndo": {
         "title": "Junbi Undo",
-        "subtitle": "準備運動",
+        "subtitle": "",
         "description": "Exercices préparatoires et techniques d'échauffement",
         "explanation": "Exercices préparatoires qui préparent le corps à l'entraînement. Ces exercices améliorent la flexibilité, la mobilité et préparent les muscles."
       },
       "hojoUndo": {
         "title": "Hojo Undo",
-        "subtitle": "補助運動",
+        "subtitle": "",
         "description": "Entraînement traditionnel de force et de conditionnement avec équipement",
         "explanation": "Entraînement traditionnel de force et de conditionnement avec des équipements spécifiques tels que chi-ishi, nigiri-game et kongoken. Ces exercices développent la force et l'endurance."
       }

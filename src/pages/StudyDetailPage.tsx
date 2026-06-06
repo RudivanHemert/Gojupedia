@@ -319,12 +319,6 @@ const StudyDetailPage = () => {
                               <span className="text-green-600 font-medium">{question.correctAnswer}</span>
                             </div>
                           )}
-                          {question.explanation && (
-                            <div className="mt-2 p-3 bg-blue-50 dark:bg-blue-950 rounded-md">
-                              <span className="font-medium text-sm">{t('study.explanation')}: </span>
-                              <p className="text-sm text-muted-foreground mt-1">{question.explanation}</p>
-                            </div>
-                          )}
                         </CardContent>
                       </Card>
                     );

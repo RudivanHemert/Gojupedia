@@ -13,44 +13,44 @@ The pace of mastering techniques depends on the karateka's motor susceptibility.
 
 ## Mental Preparation
 
-### 1. **Zanshin (残心) - Remaining Mind**
+### 1. **Zanshin - Remaining Mind**
 - Maintaining awareness after technique execution
 - Staying alert and ready for follow-up actions
 - Complete mental presence throughout the encounter
 
-### 2. **Mushin (無心) - Mind Without Thought**
+### 2. **Mushin - Mind Without Thought**
 - Natural response without conscious thought
 - Spontaneous reaction to situations
 - State of mind where techniques flow naturally
 
-### 3. **Fudoshin (不動心) - Immovable Mind**
+### 3. **Fudoshin - Immovable Mind**
 - Mental stability under pressure
 - Unwavering focus during combat
 - Emotional control in all situations
 
-### 4. **Senshin (先心) - Purified Mind**
+### 4. **Senshin - Purified Mind**
 - Spiritual awareness and clarity
 - Higher level of consciousness
 - Integration of mind, body, and spirit
 
 ## Tactical Principles
 
-### 1. **Ma-ai (間合い) - Fighting Distance**
+### 1. **Ma-ai - Fighting Distance**
 - Understanding and controlling the distance between opponents
 - Knowing when to attack, defend, or move
 - Timing techniques based on distance
 
-### 2. **Sen (先) - Initiative**
+### 2. **Sen - Initiative**
 - Taking the initiative in combat
 - Anticipating and responding to opponent's actions
 - Controlling the rhythm and pace of the fight
 
-### 3. **Go No Sen (後の先) - Response to Attack**
+### 3. **Go No Sen - Response to Attack**
 - Counter-attacking after defending
 - Using opponent's energy against them
 - Timing counter-attacks effectively
 
-### 4. **Sen No Sen (先の先) - Attacking the Attack**
+### 4. **Sen No Sen - Attacking the Attack**
 - Attacking as the opponent begins their attack
 - Intercepting techniques before they develop
 - Taking advantage of opponent's commitment

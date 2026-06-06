@@ -2,7 +2,7 @@
 
 ## Traditionele Materialen
 
-De Kongoken (金剛圏) is traditioneel gemaakt van massief ijzer. Het ontwerp bestaat uit een zware ijzeren ring met een ovale vorm, specifiek ontworpen voor krachttraining en het ontwikkelen van functionele kracht.
+De Kongoken is traditioneel gemaakt van massief ijzer. Het ontwerp bestaat uit een zware ijzeren ring met een ovale vorm, specifiek ontworpen voor krachttraining en het ontwikkelen van functionele kracht.
 
 ## Moderne Constructie
 
@@ -21,24 +21,24 @@ De Kongoken (金剛圏) is traditioneel gemaakt van massief ijzer. Het ontwerp b
 ### Constructie Stappen
 
 1. **Voorbereiding van het materiaal**
-   - Kies hoogwaardig ijzer of staal
-   - Zorg dat het materiaal vrij is van defecten
-   - Bereken het gewicht op basis van de gewenste afmetingen
+ - Kies hoogwaardig ijzer of staal
+ - Zorg dat het materiaal vrij is van defecten
+ - Bereken het gewicht op basis van de gewenste afmetingen
 
 2. **Vormgeving**
-   - Buig het ijzer in een ovale vorm
-   - Zorg voor een gelijkmatige verdeling van het gewicht
-   - Controleer de symmetrie van de vorm
+ - Buig het ijzer in een ovale vorm
+ - Zorg voor een gelijkmatige verdeling van het gewicht
+ - Controleer de symmetrie van de vorm
 
 3. **Afwerking**
-   - Slijp alle scherpe randen weg
-   - Zorg voor een glad oppervlak
-   - Behandel het oppervlak tegen roest
+ - Slijp alle scherpe randen weg
+ - Zorg voor een glad oppervlak
+ - Behandel het oppervlak tegen roest
 
 4. **Kwaliteitscontrole**
-   - Test de stevigheid van de constructie
-   - Controleer de balans van het gewicht
-   - Verifieer de veiligheid van alle onderdelen
+ - Test de stevigheid van de constructie
+ - Controleer de balans van het gewicht
+ - Verifieer de veiligheid van alle onderdelen
 
 ## Gewicht Richtlijnen
 

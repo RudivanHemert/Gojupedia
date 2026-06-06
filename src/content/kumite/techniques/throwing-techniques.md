@@ -2,46 +2,46 @@
 
 Worptechnieken (Nage Waza) zijn geavanceerde technieken die gebruikt worden om de tegenstander uit balans te brengen en te werpen.
 
-## Nage Waza (投げ技) - Worptechnieken
+## Nage Waza - Worptechnieken
 
 Acht technieken zijn toegestaan in de groep van ondersteek- en worptechnieken:
 
-### 1. De Ashi Barai (出足払い) - Ondersteek van achterste voet
+### 1. De Ashi Barai - Ondersteek van achterste voet
 - **Beschrijving**: Vegen techniek gericht op de voet van de tegenstander
 - **Gebruik**: Brengt tegenstander uit balans door voet weg te vegen
 - **Techniek**: Lage vegenbeweging naar de voet
 
-### 2. Kuzushi (崩し) - Ondersteek van beide benen
+### 2. Kuzushi - Ondersteek van beide benen
 - **Beschrijving**: Techniek om de balans van de tegenstander te breken
 - **Gebruik**: Verstoort de stabiliteit van de tegenstander
 - **Techniek**: Balansverstoring door lichaamsbeweging
 
-### 3. O Soto Gari (大外刈り) - Grote buitenste ondersteek
+### 3. O Soto Gari - Grote buitenste ondersteek
 - **Beschrijving**: Grote buitenste maaiende worp
 - **Gebruik**: Krachtige worp naar buiten
 - **Techniek**: Grote cirkelvormige beweging naar buiten
 
-### 4. O Uchi Gari (大内刈り) - Grote binnenste ondersteek
+### 4. O Uchi Gari - Grote binnenste ondersteek
 - **Beschrijving**: Grote binnenste maaiende worp
 - **Gebruik**: Krachtige worp naar binnen
 - **Techniek**: Grote cirkelvormige beweging naar binnen
 
-### 5. Ko Soto Gari (小外刈り) - Kleine buitenste ondersteek
+### 5. Ko Soto Gari - Kleine buitenste ondersteek
 - **Beschrijving**: Kleine buitenste maaiende worp
 - **Gebruik**: Subtiele worp naar buiten
 - **Techniek**: Kleine cirkelvormige beweging naar buiten
 
-### 6. Ko Uchi Gari (小内刈り) - Kleine binnenste ondersteek
+### 6. Ko Uchi Gari - Kleine binnenste ondersteek
 - **Beschrijving**: Kleine binnenste maaiende worp
 - **Gebruik**: Subtiele worp naar binnen
 - **Techniek**: Kleine cirkelvormige beweging naar binnen
 
-### 7. Okuri Ashi Harai (送り足払い) - Ondersteek door leunen
+### 7. Okuri Ashi Harai - Ondersteek door leunen
 - **Beschrijving**: Vegen techniek met gebruik van lichaamsgewicht
 - **Gebruik**: Gebruikt lichaamsgewicht voor kracht
 - **Techniek**: Leunende beweging met vegen
 
-### 8. Tai-otoshi (体落とし) - Worp door verlagen
+### 8. Tai-otoshi - Worp door verlagen
 - **Beschrijving**: Lichaamsverlagende worp techniek
 - **Gebruik**: Werpt tegenstander door lichaam te verlagen
 - **Techniek**: Neerwaartse lichaamsbeweging

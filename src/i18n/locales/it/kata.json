@@ -16,9 +16,9 @@
       }
     },
     "categories": {
-      "kaishugata": "Kaishugata (開手型)",
+      "kaishugata": "Kaishugata",
       "kaishugataDescription": "Forme a Mani Aperte - I kata di combattimento centrali del Goju Ryu, enfatizzando applicazioni di combattimento pratiche e movimenti dinamici.",
-      "heishugata": "Heishugata (閉手型)",
+      "heishugata": "Heishugata",
       "heishugataDescription": "Forme a Mani Chiuse - I kata fondamentali che si concentrano sulla respirazione, tensione e sviluppo dell'energia interna."
     },
     "levels": {
@@ -29,7 +29,7 @@
     },
     "sanchin": {
       "name": "Sanchin",
-      "japaneseName": "三戦",
+      "japaneseName": "",
       "meaning": "Tre Battaglie",
       "description": "Il kata fondamentale del Goju Ryu, concentrandosi sulla respirazione, tensione e movimenti di base.",
       "history": "Trasmesso da Kanryo Higaonna e sviluppato da Chojun Miyagi.",
@@ -64,7 +64,7 @@
     },
     "tensho": {
       "name": "Tensho",
-      "japaneseName": "転掌",
+      "japaneseName": "",
       "meaning": "Palmi Rotanti",
       "description": "Un kata fluido che enfatizza gli aspetti morbidi del Goju Ryu.",
       "history": "Creato da Chojun Miyagi come complemento a Sanchin.",
@@ -95,14 +95,14 @@
     },
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
-      "japaneseName": "撃砕第一",
+      "japaneseName": "",
       "meaning": "Attaccare e Distruggere",
       "description": "La prima kata nella serie Gekisai, progettata per introdurre tecniche di base e principi del Goju Ryu.",
       "history": "Questa kata è stata sviluppata a Okinawa intorno al 1940 dal sensei Chōjun Miyagi (cofondatore di Goju-Ryu) e Shoshin Nagamine. Hanno basato Gekisai Dai Ichi su Fukyugata II (una kata di base del sistema Itosu, analoga al Pinan di Shuri-te) per offrire ai giovani studenti una kata più semplice.",
       "culturalSignificance": "Gekisai Dai Ichi è una Kaishu-gata (kata di mano aperta) con movimenti sia duri che dinamici. La kata contiene movimenti di base di kata più pesanti, ma in forma semplificata. La respirazione è normale (nessuna respirazione profonda di Naha-te) e nello spirito di Goju-Ryu (duro/morbido) ci si rilassa dopo ogni movimento teso.",
       "detailedMeaning": {
         "title": "Nome e Significato",
-        "content": "Gekisai Dai Ichi (撃砕第一) significa letteralmente \"attaccare e frantumare\" o \"attaccare e distruggere\". I caratteri 撃 (geki) e 砕 (sai) significano rispettivamente \"attaccare, colpire\" e \"distruggere, rompere\". In combinazione con 大 (\"dai\", grande) in Gekisai Dai Ichi diventa \"grande distruzione\" o \"colpo più grande\". Simbolicamente, il nome è spesso tradotto come \"frantumare fortezza\" o \"distruggere in grande\"."
+        "content": "Gekisai Dai Ichi significa letteralmente \"attaccare e frantumare\" o \"attaccare e distruggere\". I caratteri (geki) e (sai) significano rispettivamente \"attaccare, colpire\" e \"distruggere, rompere\". In combinazione con (\"dai\", grande) in Gekisai Dai Ichi diventa \"grande distruzione\" o \"colpo più grande\". Simbolicamente, il nome è spesso tradotto come \"frantumare fortezza\" o \"distruggere in grande\"."
       },
       "origin": {
         "title": "Origine",
@@ -170,14 +170,14 @@
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
-      "japaneseName": "撃砕第二",
+      "japaneseName": "",
       "meaning": "Distruggere No. 2",
       "description": "La seconda kata nella serie Gekisai, introducendo tecniche più avanzate inclusa tecniche di mano aperta.",
       "history": "Creata da Chojun Miyagi come progressione da Gekisai Dai Ichi.",
       "culturalSignificance": "Costruisce sulla base stabilita in Gekisai Dai Ichi.",
       "detailedMeaning": {
         "title": "Nome e Significato",
-        "content": "Gekisai Dai Ni (撃砕第二) condivide i caratteri 撃砕 con Dai Ichi: \"attaccare e distruggere\". Il suffisso 小 (sho) nel nome giapponese (a volte Gekisai Sho) significa \"piccolo\" o \"meno\", in contrasto con 大 (dai) = \"grande\". Tradotto liberamente, Gekisai Dai Ni significa \"attacco e distruzione piccola\". Come Dai Ichi, il nome enfatizza l'idea di colpire potentemente, ma come controparte della Gekisai \"grande\"."
+        "content": "Gekisai Dai Ni condivide i caratteri con Dai Ichi: \"attaccare e distruggere\". Il suffisso (sho) nel nome giapponese (a volte Gekisai Sho) significa \"piccolo\" o \"meno\", in contrasto con (dai) = \"grande\". Tradotto liberamente, Gekisai Dai Ni significa \"attacco e distruzione piccola\". Come Dai Ichi, il nome enfatizza l'idea di colpire potentemente, ma come controparte della Gekisai \"grande\"."
       },
       "origin": {
         "title": "Origine",
@@ -229,7 +229,7 @@
     },
     "saifa": {
       "name": "Saifa",
-      "japaneseName": "砕破",
+      "japaneseName": "",
       "meaning": "Attacchi distruttivi",
       "description": "Un kata avanzato che enfatizza tecniche potenti di pugno chiuso e movimenti di percussione aggressivi.",
       "history": "Saifa è stata introdotta a Okinawa da Kanryo Higaonna. Egli apprese il kata da Ryu Ryu Ko. L'autore originale del kata è sconosciuto, ma aveva indubbiamente legami con il Pugilato della Gru. Il Goju-ryu è l'unico stile di karate a includere Saifa nel suo programma. Saifa significa qualcosa come 'attacchi distruttivi', mas il nome è più comunemente usato, ad esempio, per quan completamente diversi nel Shaolin Kung Fu.",
@@ -276,7 +276,7 @@
     },
     "seiyunchin": {
       "name": "Seiyunchin",
-      "japaneseName": "制引戦",
+      "japaneseName": "",
       "meaning": "Controllare e Spingere",
       "description": "Seiyunchin è stato introdotto a Okinawa da Kanryo Higaonna. Egli apprese il kata da Ryu Ryu Ko. Il creatore originale del kata è sconosciuto. Seiyunchin significa “controllare e spingere”. Questo corrisponde a sbilanciare (o tirare) qualcuno, controllare e attaccare con una tecnica a corta distanza (attacco a un punto vitale, proiezione, leva articolare). Seiyunchin è il kata in cui si sviluppa molto “chiru no chan chan” - potenza d'impulso o potenza esplosiva. Il kata presenta un gran numero di movimenti su una distanza considerevole, sia in avanti che all'indietro. Inoltre, il kata contiene un gran numero di tecniche eseguite in shiko dachi (si vedano i punti di attenzione per il gedan barai in Gekisai dai ichi). Durante un movimento da shiko dachi a shiko dachi, il corpo rimane basso e i piedi scivolano sul pavimento. Nel kata, lo shiko dachi ricorre più volte, ma ogni volta il modo in cui avviene il movimento e come viene erogata la potenza è differente.",
       "history": "Seiyunchin è stato introdotto a Okinawa da Kanryo Higaonna. Egli apprese il kata da Ryu Ryu Ko. Il creatore originale del kata è sconosciuto.",
@@ -339,7 +339,7 @@
     },
     "shisochin": {
       "name": "Shisochin",
-      "japaneseName": "四向戦",
+      "japaneseName": "",
       "meaning": "Combattimento in Quattro Direzioni",
       "description": "Shisochin significa “quattro aperture” o “quattro direzioni”. Il kata è caratterizzato da molte e potenti tecniche di mano aperta ed enfatizza il combattimento in quattro direzioni.",
       "history": "Shisochin è stato introdotto a Okinawa da Kanryo Higaonna. Ha imparato il kata da Ryu Ryu Ko. Il creatore originale del kata è sconosciuto. Il Goju-ryu è l'unico stile di karate con questo kata.",
@@ -348,7 +348,7 @@
     },
     "sanseru": {
       "name": "Sanseru",
-      "japaneseName": "三十六手",
+      "japaneseName": "",
       "meaning": "36 (Trentasei)",
       "description": "Sanseru significa '36': 6 (occhio, orecchio, naso, lingua, corpo e mente) x 6 (colore, voce, odore, gusto, tatto e giustizia). Combina tecniche della Boxe del Cane (Dog Kung Fu) con elementi tipici del Goju-Ryu, incluse tecniche di combattimento a distanza ravvicinata come proiezioni e leve.",
       "history": "Sanseru è stato introdotto a Okinawa da Kanryo Higaonna. Ha imparato il kata da Ryu Ryu Ko. Creatore originale sconosciuto, probabilmente dalla 'Boxe del Cane' (Dog Kung Fu). Il Goju-ryu è l'unico stile di karate con questo kata.",
@@ -357,7 +357,7 @@
     },
     "sepai": {
       "name": "Sepai",
-      "japaneseName": "十八手",
+      "japaneseName": "",
       "meaning": "18 (Mani)",
       "description": "Sepai significa letteralmente 18 (mani), 6 (colore, voce, gusto, olfatto, tatto e giustizia) x 3 (buono, cattivo e pace). Il kata è caratteristico del Goju-Ryu a causa dei contrasti tra duro e morbido, veloce e lento. Hikite si verifica meno frequentemente e la maggior parte dei movimenti sono tecniche a due mani.",
       "history": "Sepai è stato introdotto a Okinawa da Kanryo Higaonna. Ha imparato il kata da Ryu Ryu Ko.",
@@ -366,7 +366,7 @@
     },
     "kururunfa": {
       "name": "Kururunfa",
-      "japaneseName": "久留頓破",
+      "japaneseName": "",
       "meaning": "Tenere a Lungo e Colpire Improvvisamente",
       "description": "Questo kata è un kata molto veloce. È caratterizzato da movimenti molto rapidi delle mani (principalmente tecniche a mano aperta), piedi e fianchi. Per questo motivo, e a causa della sua combinazione perfettamente bilanciata di tecniche go e Ju, è un kata molto importante nel Goju Ryu. L'essenza stessa del Goju Ryu viene mostrata in perfetta armonia all'interno del Kururunfa.\nSabaki è una caratteristica fondamentale in questo kata. Ci sono tre tipi principali: movimento laterale, Sabaki a zigzag e torsione dei fianchi. Tutti sono eseguiti con grande velocità e agilità. Le posizioni basse come neka ashi dachi e long zen kutsu dachi sono enfatizzate durante il movimento.\nQuesto kata contiene alcune caratteristiche uniche e distintive.\nAd esempio, gyaku nage waza che usa la spalla come punto focale quando si esegue un attacco articolare al braccio, e un age zuki angolato, eseguito simultaneamente con un blocco (che sale a 45° dall'orizzontale anziché 90°).",
       "history": "Uno dei kata originali dalla Cina, origine sconosciuta.",
@@ -389,7 +389,7 @@
     },
     "sesan": {
       "name": "Sesan",
-      "japaneseName": "十三手",
+      "japaneseName": "",
       "meaning": "13 Mani",
       "description": "Questo kata fu tramandato a Higaonna Kanryo Sensei da Ryu Ryuko Sensei in Cina. Era il kata preferito di Miyagi Chojun Sensei e del suo miglior studente, Shinzato Jinan; per questo motivo era il kata che eseguivano più spesso. Miyagi An’ichi Sensei ha detto che quando Miyagi Chojun Sensei eseguiva questo kata, i suoi occhi brillavano; le sue dita dei piedi afferravano saldamente il pavimento per creare una posizione così potente che sembrava radicato al suolo, e il suo pugno era incredibilmente veloce e potente. La caratteristica eccezionale di questo kata è la combinazione di movimento circolare e rettilineo, velocità con muchimi pesante e potente, e tecnica dura e morbida. La morbidezza circolare delle parate e la potenza lineare degli attacchi si combinano per creare un kata di sublime bellezza estetica.\nIl kata Sesan, come Kururunfa, contiene una grande varietà di tecniche contrastanti. Ad esempio, i movimenti circolari cambiano rapidamente in movimenti lineari in combinazione; i movimenti veloci e lenti sono eseguiti con muchimi e un minimo di movimento corporeo eccessivo. Questo kata è caratterizzato da combinazioni di tecniche contenenti movimenti esplosivi veloci bilanciati e intervallati da movimenti pesanti più lenti eseguiti con muchimi. Ogni tecnica, che sembra essere solo un colpo o una parata, può contenere molti significati. Ad esempio, verso la fine del kata viene eseguito un mae geri. Sembra essere solo un movimento, ma in realtà è coinvolta una combinazione di tre tecniche. Altre tecniche insolite sono sun zuki (pugno corto) e movimenti simili a serpenti che ti aiutano ad aderire al tuo avversario nel combattimento ravvicinato.",
       "history": "Uno dei kata originali dalla Cina, probabilmente dal Pugilato del Monaco o Pugno del Leone.",
@@ -412,7 +412,7 @@
     },
     "suparinpei": {
       "name": "Suparinpei",
-      "japaneseName": "壱百零八",
+      "japaneseName": "",
       "meaning": "108 Mani",
       "description": "Suparinpei è il kata più avanzato del Goju-Ryu. Contiene il maggior numero di tecniche e variazioni. Il nome 'Suparinpei' e i kanji usati per esso significano '108'. Il numero 108 ha un significato speciale nel buddismo, rappresentando i 108 desideri terreni.",
       "history": "Basato sulla forma cinese Peichurin. Suparinpei è stato adattato al Goju-Ryu e rappresenta il culmine dei principi del sistema.",

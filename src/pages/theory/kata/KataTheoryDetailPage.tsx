@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, AlertTriangle } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import TheoryHeader from '@/components/theory/TheoryHeader';
@@ -108,9 +107,6 @@ const KataTheoryDetailPage = () => {
               <CardHeader>
                 <div className="flex items-center gap-3">
                   <h2 className="text-2xl font-bold">{kataData?.name || t(`kata.${id}.name`)}</h2>
-                  <Badge variant="secondary" className="bg-red-100 text-red-800">
-                    {kataData?.japaneseName || t(`kata.${id}.japaneseName`)}
-                  </Badge>
                 </div>
                 <p className="text-xl text-muted-foreground italic">
                   {kataData?.meaning || t(`kata.${id}.meaning`)}
@@ -154,10 +150,6 @@ const KataTheoryDetailPage = () => {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
-                      <div>
-                        <h4 className="font-semibold text-foreground mb-2">{t('kataTheoryDetailPage.labels.japaneseName')}</h4>
-                        <p className="text-muted-foreground">{kataData?.japaneseName || t(`kata.${id}.japaneseName`)}</p>
-                      </div>
                       <div>
                         <h4 className="font-semibold text-foreground mb-2">{t('kataTheoryDetailPage.labels.translation')}</h4>
                         <p className="text-muted-foreground">{kataData?.meaning || t(`kata.${id}.meaning`)}</p>

@@ -2,56 +2,56 @@
 
 Verdedigingstechnieken zijn essentieel in kumite voor het beschermen van jezelf tegen aanvallen van je tegenstander.
 
-## Uke Waza (受け技) - Blokkeertechnieken
+## Uke Waza - Blokkeertechnieken
 
 Negen technieken zijn de voorkeur in de groep van blokkeertechnieken:
 
-### 1. Age Uke (上げ受け) - Bovenblok
+### 1. Age Uke - Bovenblok
 - **Beschrijving**: Stijgende blok om te verdedigen tegen hoge aanvallen
 - **Gebruik**: Verdedigt tegen hoofd- en gezichtsaanvallen
 - **Techniek**: Opwaartse beweging met onderarm
 
-### 2. Soto Uke (外受け) - Buitenblok
+### 2. Soto Uke - Buitenblok
 - **Beschrijving**: Buitenblok om aanvallen af te weren
 - **Gebruik**: Verdedigt tegen rechte aanvallen
 - **Techniek**: Buitenwaartse beweging van arm
 
-### 3. Uchi Uke (内受け) - Binnenblok
+### 3. Uchi Uke - Binnenblok
 - **Beschrijving**: Binnenblok om aanvallen om te leiden
 - **Gebruik**: Verdedigt tegen cirkelvormige aanvallen
 - **Techniek**: Binnenwaartse beweging van arm
 
-### 4. Gedan Barai (下段払い) - Onderste vegenblok
+### 4. Gedan Barai - Onderste vegenblok
 - **Beschrijving**: Neerwaartse vegenblok voor lage aanvallen
 - **Gebruik**: Verdedigt tegen been- en kruisaanvallen
 - **Techniek**: Neerwaartse vegenbeweging
 
-### 5. Gedan Uke (下段受け) - Onderste blok
+### 5. Gedan Uke - Onderste blok
 - **Beschrijving**: Lage blok voor verdediging tegen lagere aanvallen
 - **Gebruik**: Verdedigt tegen beenaanvallen
 - **Techniek**: Lage blokpositie
 
-### 6. Te Nagashi Uke (手流し受け) - Handvloeiend blok
+### 6. Te Nagashi Uke - Handvloeiend blok
 - **Beschrijving**: Handvloeiend blok om aanvallen om te leiden
 - **Gebruik**: Verdedigt tegen rechte aanvallen
 - **Techniek**: Vloeiende omleidende beweging
 
-### 7. Te Osae Uke (手押さえ受け) - Handdrukkend blok
+### 7. Te Osae Uke - Handdrukkend blok
 - **Beschrijving**: Handdrukkend blok om aanvallen te controleren
 - **Gebruik**: Controleert en neutraliseert aanvallen
 - **Techniek**: Drukkende beweging naar beneden
 
-### 8. Hiza-uke (膝受け) - Knieblok
+### 8. Hiza-uke - Knieblok
 - **Beschrijving**: Knieblok voor verdediging tegen lage trappen
 - **Gebruik**: Verdedigt tegen beenaanvallen
 - **Techniek**: Gebruik knie als blok
 
-### 9. Sune Uke (脛受け) - Scheenblok
+### 9. Sune Uke - Scheenblok
 - **Beschrijving**: Scheenblok voor verdediging tegen beenaanvallen
 - **Gebruik**: Verdedigt tegen been- en voetaanvallen
 - **Techniek**: Gebruik scheenbeen als blok
 
-## Kawashi Waza (躱し技) - Ontwijktechnieken
+## Kawashi Waza - Ontwijktechnieken
 
 Vier technieken zijn toegestaan in de groep van ontwijktechnieken:
 

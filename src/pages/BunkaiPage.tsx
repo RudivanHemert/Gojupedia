@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { ChevronRight } from 'lucide-react';
 import { katas } from '@/data';
-import { Badge } from '@/components/ui/badge';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
 
 const BunkaiPage = () => {
@@ -105,9 +104,6 @@ const BunkaiPage = () => {
                               <h3 className="text-xl font-semibold text-foreground">
                                 {t(`kata.${kata.id}.name`)}
                               </h3>
-                              <Badge variant="secondary" className="bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200">
-                                {t(`kata.${kata.id}.japaneseName`)}
-                              </Badge>
                             </div>
                             <p className="text-muted-foreground italic">
                               {t(`kata.${kata.id}.meaning`)}

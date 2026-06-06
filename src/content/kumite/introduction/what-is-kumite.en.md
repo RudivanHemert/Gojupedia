@@ -1,6 +1,6 @@
 # What is Kumite?
 
-Kumite (組手) is the practice of sparring or fighting in karate. It is one of the three main components of karate training, alongside kata (forms) and kihon (basics).
+Kumite is the practice of sparring or fighting in karate. It is one of the three main components of karate training, alongside kata (forms) and kihon (basics).
 
 ## Meaning
 

@@ -63,7 +63,9 @@ const HojoUndoSectionTemplate: React.FC<HojoUndoSectionTemplateProps> = ({
         className="text-center space-y-4"
       >
         <h1 className="text-4xl font-bold">{title}</h1>
-        <p className="text-2xl text-muted-foreground">{japaneseTitle}</p>
+        {japaneseTitle.trim() && (
+          <p className="text-2xl text-muted-foreground">{japaneseTitle}</p>
+        )}
         <Badge variant="secondary" className="text-xl px-6 py-3">
           {badgeText}
         </Badge>

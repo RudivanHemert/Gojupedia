@@ -196,11 +196,11 @@
     "attack-techniques": "Attack Techniques",
     "defense-techniques": "Defense Techniques",
     "throwing-techniques": "Throwing Techniques",
-    "tsuki-waza": "Tsuki Waza (突き技) - Punching Techniques",
-    "uchi-waza": "Uchi Waza (打ち技) - Striking Techniques",
+    "tsuki-waza": "Tsuki Waza - Punching Techniques",
+    "uchi-waza": "Uchi Waza - Striking Techniques",
     "keri-waza": "Keri Waza (???) - sparketeknikker",
-    "nage-waza": "Nage Waza (投げ技) - Throwing Techniques",
-    "uke-waza": "Uke Waza (受け技) - Blocking Techniques",
+    "nage-waza": "Nage Waza - Throwing Techniques",
+    "uke-waza": "Uke Waza - Blocking Techniques",
     "kawashi-waza": "Kawashi Waza (???) - undvigelsesteknikker",
     "safety-considerations": "Safety Considerations",
     "training-focus": "Training Focus",
@@ -208,29 +208,29 @@
       "title": "Angrebsteknikker i Kumite",
       "description": "Effektive angrebsteknikker til sportskarate",
       "tsuki": {
-        "title": "Tsuki Waza (突き技) - Punching Techniques",
+        "title": "Tsuki Waza - Punching Techniques",
         "description": "Direkte slagteknikker til hurtige angreb",
         "techniques": {
           "kizami-zuki": {
-            "name": "Kizami Zuki (刻み突き)",
+            "name": "Kizami Zuki",
             "description": "Hurtigt slag med forreste h?nd mod ansigtet",
             "application": "Effektiv til at score point mod hovedet",
             "execution": "Hurtig udf?relse med god timing og afstand"
           },
           "gyaku-zuki": {
-            "name": "Gyaku Zuki (逆突き)",
+            "name": "Gyaku Zuki",
             "description": "Omvendt h?ndslag mod kroppen",
             "application": "Kraftfuldt angreb mod kroppen",
             "execution": "Brug hofterotation for maksimal kraft"
           },
           "oi-zuki": {
-            "name": "Oi Zuki (追い突き)",
+            "name": "Oi Zuki",
             "description": "Slag med fremadg?ende bev?gelse",
             "application": "Angreb med kropsforskydning",
             "execution": "Koordination af fodbev?gelse og slag"
           },
           "choku-zuki": {
-            "name": "Choku Zuki (直突き)",
+            "name": "Choku Zuki",
             "description": "Direkte slag uden forberedelse",
             "application": "Hurtigt kontraangreb fra defensiv position",
             "execution": "Effektiv bev?gelse uden un?dig forberedelse"
@@ -238,23 +238,23 @@
         }
       },
       "uchi": {
-        "title": "Uchi Waza (打ち技) - Striking Techniques",
+        "title": "Uchi Waza - Striking Techniques",
         "description": "Slagteknikker mod forskellige m?l",
         "techniques": {
           "uraken-uchi": {
-            "name": "Uraken Uchi (裏拳打ち)",
+            "name": "Uraken Uchi",
             "description": "Bagslag med knytn?ven mod ansigtet",
             "application": "Hurtig slagteknik mod hovedet",
             "execution": "Brug h?ndledsrotation for effektivitet"
           },
           "haito-uchi": {
-            "name": "Haito Uchi (背刀打ち)",
+            "name": "Haito Uchi",
             "description": "Haito-slag mod halsen",
             "application": "Pr?cisionsslag mod vitale punkter",
             "execution": "Kontrolleret udf?relse af hensyn til sikkerhed"
           },
           "shuto-uchi": {
-            "name": "Shuto Uchi (手刀打ち)",
+            "name": "Shuto Uchi",
             "description": "Knivh?ndsslag mod halsen",
             "application": "Effektivt slag mod hoved- og halsomr?det",
             "execution": "Brug h?ndkanten for pr?cision"
@@ -266,31 +266,31 @@
         "description": "Kraftfulde sparketeknikker mod forskellige m?l",
         "techniques": {
           "mae-geri": {
-            "name": "Mae Geri (前蹴り)",
+            "name": "Mae Geri",
             "description": "Frontspark mod kroppen",
             "application": "Direkte angreb mod kroppen",
             "execution": "Brug balance og kn?l?ft"
           },
           "yoko-geri": {
-            "name": "Yoko Geri (横蹴り)",
+            "name": "Yoko Geri",
             "description": "Sidespark mod kroppen",
             "application": "Effektivt spark mod kroppens side",
             "execution": "Kropsrotation for kraft"
           },
           "mawashi-geri": {
-            "name": "Mawashi Geri (回し蹴り)",
+            "name": "Mawashi Geri",
             "description": "Cirkelspark mod hovedet",
             "application": "Kraftfuldt spark mod hovedet for point",
             "execution": "Brug hofterotation og bensmidighed"
           },
           "ura-mawashi-geri": {
-            "name": "Ura Mawashi Geri (裏回し蹴り)",
+            "name": "Ura Mawashi Geri",
             "description": "Indvendigt cirkelspark",
             "application": "Hurtigt spark mod kroppen",
             "execution": "Effektiv bev?gelse med god timing"
           },
           "ushiro-geri": {
-            "name": "Ushiro Geri (後ろ蹴り)",
+            "name": "Ushiro Geri",
             "description": "Back kick",
             "application": "Defensivt spark mod angreb bagfra",
             "execution": "Kontrolleret udf?relse med god balance"
@@ -302,29 +302,29 @@
       "title": "Forsvarsteknikker i Kumite",
       "description": "Effektive forsvarsteknikker til sportskarate",
       "uke": {
-        "title": "Uke Waza (受け技) - Blocking Techniques",
+        "title": "Uke Waza - Blocking Techniques",
         "description": "Traditionelle blokeringsteknikker",
         "techniques": {
           "age-uke": {
-            "name": "Age Uke (上げ受け)",
+            "name": "Age Uke",
             "description": "Opadg?ende blokering til hovedforsvar",
             "application": "Forsvar mod angreb mod hoved og ansigt",
             "execution": "Brug underarmen til effektiv blokering"
           },
           "soto-uke": {
-            "name": "Soto Uke (外受け)",
+            "name": "Soto Uke",
             "description": "Udvendig blokering",
             "application": "Forsvar mod slagangreb",
             "execution": "Bev?gelse indefra og ud"
           },
           "uchi-uke": {
-            "name": "Uchi Uke (内受け)",
+            "name": "Uchi Uke",
             "description": "Indvendig blokering",
             "application": "Forsvar mod slagangreb",
             "execution": "Bev?gelse udefra og ind"
           },
           "gedan-barai": {
-            "name": "Gedan Barai (下段払い)",
+            "name": "Gedan Barai",
             "description": "Lav blokering til benforsvar",
             "application": "Forsvar mod lave spark",
             "execution": "Nedadg?ende bev?gelse med underarmen"
@@ -336,13 +336,13 @@
         "description": "Moderne undvigelsesteknikker",
         "techniques": {
           "te-nagashi-uke": {
-            "name": "Te Nagashi Uke (手流し受け)",
+            "name": "Te Nagashi Uke",
             "description": "Flydende h?ndblokering",
             "application": "Forsvar med flydende bev?gelse",
             "execution": "Flydende bev?gelse uden h?rd blokering"
           },
           "te-osae-uke": {
-            "name": "Te Osae Uke (手押さえ受け)",
+            "name": "Te Osae Uke",
             "description": "Pressende h?ndblokering",
             "application": "Forsvar ved at presse ned",
             "execution": "Kontrolleret bev?gelse nedad"
@@ -354,29 +354,29 @@
       "title": "Kasteteknikker i Kumite",
       "description": "Effektive kasteteknikker til sportskarate",
       "nage": {
-        "title": "Nage Waza (投げ技) - Throwing Techniques",
+        "title": "Nage Waza - Throwing Techniques",
         "description": "Traditionelle kasteteknikker",
         "techniques": {
           "de-ashi-barai": {
-            "name": "De Ashi Barai (出足払い)",
+            "name": "De Ashi Barai",
             "description": "Fodfejningsteknik",
             "application": "Kast ved at feje foden",
             "execution": "Timing og balance er afg?rende"
           },
           "kuzushi": {
-            "name": "Kuzushi (崩し)",
+            "name": "Kuzushi",
             "description": "Balancebrydning",
             "application": "Forberedelse til kast",
             "execution": "Forstyrrelse af modstanderens balance"
           },
           "o-soto-gari": {
-            "name": "O Soto Gari (大外刈り)",
+            "name": "O Soto Gari",
             "description": "Stor udvendig nedtagning",
             "application": "Kast ved at fjerne benet",
             "execution": "Brug kropsv?gt og benbev?gelse"
           },
           "o-uchi-gari": {
-            "name": "O Uchi Gari (大内刈り)",
+            "name": "O Uchi Gari",
             "description": "Stor indvendig nedtagning",
             "application": "Kast med indvendig benbev?gelse",
             "execution": "Effektivt kast i forskellige situationer"
@@ -483,25 +483,25 @@
     "methods": {
       "title": "Training Methods",
       "kihon": {
-        "name": "Kihon Kumite (基本組手)",
+        "name": "Kihon Kumite",
         "description": "Grundl?ggende sparring til teknikudvikling",
         "benefits": "Opbygger fundament for avanceret kumite",
         "focus": "Korrekt teknikudf?relse og timing"
       },
       "yakusoku": {
-        "name": "Yakusoku Kumite (約束組手)",
+        "name": "Yakusoku Kumite",
         "description": "Forudbestemt sparring",
         "benefits": "Udvikler timing og afstandskontrol",
         "focus": "Kontrolleret udf?relse af teknikker"
       },
       "jiyu": {
-        "name": "Jiyu Kumite (自由組手)",
+        "name": "Jiyu Kumite",
         "description": "Fri sparring for spontanitet",
         "benefits": "Udvikler tilpasningsevne og taktisk t?nkning",
         "focus": "Realistiske kampsituationer"
       },
       "shiai": {
-        "name": "Shiai Kumite (試合組手)",
+        "name": "Shiai Kumite",
         "description": "Konkurrencesparring",
         "benefits": "Forbereder til konkurrencemilj?",
         "focus": "Pointgivning og konkurrenceregler"
@@ -594,36 +594,36 @@
     }
   },
   "technique-names": {
-    "kizami-zuki": "Kizami Zuki (刻み突き)",
-    "gyaku-zuki": "Gyaku Zuki (逆突き)",
-    "oi-zuki": "Oi Zuki (追い突き)",
-    "choku-zuki": "Choku Zuki (直突き)",
-    "uraken-uchi": "Uraken Uchi (裏拳打ち)",
-    "haito-uchi": "Haito Uchi (背刀打ち)",
-    "shuto-uchi": "Shuto Uchi (手刀打ち)",
-    "mae-geri": "Mae Geri (前蹴り)",
-    "yoko-geri": "Yoko Geri (横蹴り)",
-    "mawashi-geri": "Mawashi Geri (回し蹴り)",
-    "ura-mawashi-geri": "Ura Mawashi Geri (裏回し蹴り)",
-    "ushiro-geri": "Ushiro Geri (後ろ蹴り)",
-    "ushiro-ura-mawashi-geri": "Ushiro Ura Mawashi Geri (後ろ裏回し蹴り)",
-    "de-ashi-barai": "De Ashi Barai (出足払い)",
-    "kuzushi": "Kuzushi (崩し)",
-    "o-soto-gari": "O Soto Gari (大外刈り)",
-    "o-uchi-gari": "O Uchi Gari (大内刈り)",
-    "ko-soto-gari": "Ko Soto Gari (小外刈り)",
-    "ko-uchi-gari": "Ko Uchi Gari (小内刈り)",
-    "okuri-ashi-harai": "Okuri Ashi Harai (送り足払い)",
-    "tai-otoshi": "Tai-otoshi (体落とし)",
-    "age-uke": "Age Uke (上げ受け)",
-    "soto-uke": "Soto Uke (外受け)",
-    "uchi-uke": "Uchi Uke (内受け)",
-    "gedan-barai": "Gedan Barai (下段払い)",
-    "gedan-uke": "Gedan Uke (下段受け)",
-    "te-nagashi-uke": "Te Nagashi Uke (手流し受け)",
-    "te-osae-uke": "Te Osae Uke (手押さえ受け)",
-    "hiza-uke": "Hiza-uke (膝受け)",
-    "sune-uke": "Sune Uke (脛受け)"
+    "kizami-zuki": "Kizami Zuki",
+    "gyaku-zuki": "Gyaku Zuki",
+    "oi-zuki": "Oi Zuki",
+    "choku-zuki": "Choku Zuki",
+    "uraken-uchi": "Uraken Uchi",
+    "haito-uchi": "Haito Uchi",
+    "shuto-uchi": "Shuto Uchi",
+    "mae-geri": "Mae Geri",
+    "yoko-geri": "Yoko Geri",
+    "mawashi-geri": "Mawashi Geri",
+    "ura-mawashi-geri": "Ura Mawashi Geri",
+    "ushiro-geri": "Ushiro Geri",
+    "ushiro-ura-mawashi-geri": "Ushiro Ura Mawashi Geri",
+    "de-ashi-barai": "De Ashi Barai",
+    "kuzushi": "Kuzushi",
+    "o-soto-gari": "O Soto Gari",
+    "o-uchi-gari": "O Uchi Gari",
+    "ko-soto-gari": "Ko Soto Gari",
+    "ko-uchi-gari": "Ko Uchi Gari",
+    "okuri-ashi-harai": "Okuri Ashi Harai",
+    "tai-otoshi": "Tai-otoshi",
+    "age-uke": "Age Uke",
+    "soto-uke": "Soto Uke",
+    "uchi-uke": "Uchi Uke",
+    "gedan-barai": "Gedan Barai",
+    "gedan-uke": "Gedan Uke",
+    "te-nagashi-uke": "Te Nagashi Uke",
+    "te-osae-uke": "Te Osae Uke",
+    "hiza-uke": "Hiza-uke",
+    "sune-uke": "Sune Uke"
   },
   "mental-states": {
     "zanshin": "Zanshin (??) - tilbagev?rende bevidsthed",

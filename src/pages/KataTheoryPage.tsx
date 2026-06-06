@@ -4,9 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import TheoryHeader from '@/components/theory/TheoryHeader';
-import AudioButton from '@/components/ui/audio-button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 
 // Define kata data structure based on available separate files
 const kataList = [
@@ -118,10 +116,6 @@ const KataTheoryPage = () => {
                               <h3 className="text-xl font-semibold text-foreground">
                                 {t(`kata.${kata.id}.name`)}
                               </h3>
-                              <Badge variant="secondary" className="bg-red-100 text-red-800 flex items-center gap-1">
-                                {t(`kata.${kata.id}.japaneseName`)}
-                                <AudioButton text={t(`kata.${kata.id}.japaneseName`)} lang="ja-JP" size="sm" className="h-4 w-4" />
-                              </Badge>
                             </div>
                             <p className="text-muted-foreground italic">
                               {t(`kata.${kata.id}.meaning`)}

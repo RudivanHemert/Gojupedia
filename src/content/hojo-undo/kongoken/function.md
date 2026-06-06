@@ -1,6 +1,6 @@
 # Functie (Function)
 
-De Kongoken (金剛圏) is een traditioneel hulpmiddel uit de Okinawaanse karate traditie, oorspronkelijk afkomstig uit Hawaï waar het werd gebruikt door Hawaïaanse worstelaars. Chojun Miyagi heeft de Kongoken geïntroduceerd op Okinawa en geïntegreerd in de Goju-ryu training.
+De Kongoken is een traditioneel hulpmiddel uit de Okinawaanse karate traditie, oorspronkelijk afkomstig uit Hawaï waar het werd gebruikt door Hawaïaanse worstelaars. Chojun Miyagi heeft de Kongoken geïntroduceerd op Okinawa en geïntegreerd in de Goju-ryu training.
 
 ## Wat is de Kongoken?
 

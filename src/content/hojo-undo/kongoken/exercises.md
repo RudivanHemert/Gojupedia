@@ -1,6 +1,6 @@
 # Oefeningen (Exercises)
 
-De Kongoken (金剛圏) of 'ijzeren ovaal' is oorspronkelijk afkomstig uit Hawaï waar het werd gebruikt door Hawaïaanse worstelaars. Chojun Miyagi heeft de Kongoken geïntroduceerd op Okinawa en geïntegreerd in de Goju-ryu training.
+De Kongoken of 'ijzeren ovaal' is oorspronkelijk afkomstig uit Hawaï waar het werd gebruikt door Hawaïaanse worstelaars. Chojun Miyagi heeft de Kongoken geïntroduceerd op Okinawa en geïntegreerd in de Goju-ryu training.
 
 ## Basis Informatie
 

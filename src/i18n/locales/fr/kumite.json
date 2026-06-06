@@ -196,41 +196,41 @@
     "attack-techniques": "Techniques d'Attaque",
     "defense-techniques": "Techniques de Défense",
     "throwing-techniques": "Techniques de Projection",
-    "tsuki-waza": "Tsuki Waza (突き技) - Techniques de Coup de Poing",
-    "uchi-waza": "Uchi Waza (打ち技) - Techniques de Frappe",
-    "keri-waza": "Keri Waza (蹴り技) - Techniques de Coup de Pied",
-    "nage-waza": "Nage Waza (投げ技) - Techniques de Projection",
-    "uke-waza": "Uke Waza (受け技) - Techniques de Blocage",
-    "kawashi-waza": "Kawashi Waza (躱し技) - Techniques d'Esquive",
+    "tsuki-waza": "Tsuki Waza - Techniques de Coup de Poing",
+    "uchi-waza": "Uchi Waza - Techniques de Frappe",
+    "keri-waza": "Keri Waza - Techniques de Coup de Pied",
+    "nage-waza": "Nage Waza - Techniques de Projection",
+    "uke-waza": "Uke Waza - Techniques de Blocage",
+    "kawashi-waza": "Kawashi Waza - Techniques d'Esquive",
     "safety-considerations": "Considérations de Sécurité",
     "training-focus": "Focus d'Entraînement",
     "attack": {
       "title": "Techniques d'Attaque en Kumite",
       "description": "Techniques d'attaque efficaces pour le karaté sportif",
       "tsuki": {
-        "title": "Tsuki Waza (突き技) - Techniques de Coup de Poing",
+        "title": "Tsuki Waza - Techniques de Coup de Poing",
         "description": "Techniques de coup de poing directes pour des attaques rapides",
         "techniques": {
           "kizami-zuki": {
-            "name": "Kizami Zuki (刻み突き)",
+            "name": "Kizami Zuki",
             "description": "Coup de poing rapide de la main avant au visage",
             "application": "Efficace pour marquer des points à la tête",
             "execution": "Exécution rapide avec bon timing et distance"
           },
           "gyaku-zuki": {
-            "name": "Gyaku Zuki (逆突き)",
+            "name": "Gyaku Zuki",
             "description": "Coup de poing de la main arrière au corps",
             "application": "Attaque puissante vers le corps",
             "execution": "Utilisation de la rotation des hanches pour une puissance maximale"
           },
           "oi-zuki": {
-            "name": "Oi Zuki (追い突き)",
+            "name": "Oi Zuki",
             "description": "Coup de poing avec mouvement vers l'avant",
             "application": "Attaque avec déplacement du corps",
             "execution": "Coordination du mouvement du pied et du coup de poing"
           },
           "choku-zuki": {
-            "name": "Choku Zuki (直突き)",
+            "name": "Choku Zuki",
             "description": "Coup de poing direct sans préparation",
             "application": "Contre-attaque rapide depuis une position défensive",
             "execution": "Mouvement efficace sans préparation inutile"
@@ -238,23 +238,23 @@
         }
       },
       "uchi": {
-        "title": "Uchi Waza (打ち技) - Techniques de Frappe",
+        "title": "Uchi Waza - Techniques de Frappe",
         "description": "Techniques de frappe pour diverses cibles",
         "techniques": {
           "uraken-uchi": {
-            "name": "Uraken Uchi (裏拳打ち)",
+            "name": "Uraken Uchi",
             "description": "Frappe du revers au visage",
             "application": "Technique de frappe rapide pour la tête",
             "execution": "Utilisation de la rotation du poignet pour l'efficacité"
           },
           "haito-uchi": {
-            "name": "Haito Uchi (背刀打ち)",
+            "name": "Haito Uchi",
             "description": "Frappe du tranchant de la main au cou",
             "application": "Frappe de précision vers les points vitaux",
             "execution": "Exécution contrôlée pour la sécurité"
           },
           "shuto-uchi": {
-            "name": "Shuto Uchi (手刀打ち)",
+            "name": "Shuto Uchi",
             "description": "Frappe du tranchant de la main au cou",
             "application": "Frappe efficace vers la zone tête et cou",
             "execution": "Utilisation du tranchant de la main pour la précision"
@@ -262,35 +262,35 @@
         }
       },
       "keri": {
-        "title": "Keri Waza (蹴り技) - Techniques de Coup de Pied",
+        "title": "Keri Waza - Techniques de Coup de Pied",
         "description": "Techniques de coup de pied puissantes pour diverses cibles",
         "techniques": {
           "mae-geri": {
-            "name": "Mae Geri (前蹴り)",
+            "name": "Mae Geri",
             "description": "Coup de pied avant vers le corps",
             "application": "Attaque directe vers le corps",
             "execution": "Utilisation de l'équilibre et de la levée du genou"
           },
           "yoko-geri": {
-            "name": "Yoko Geri (横蹴り)",
+            "name": "Yoko Geri",
             "description": "Coup de pied latéral vers le corps",
             "application": "Coup de pied efficace vers le côté du corps",
             "execution": "Rotation du corps pour la puissance"
           },
           "mawashi-geri": {
-            "name": "Mawashi Geri (回し蹴り)",
+            "name": "Mawashi Geri",
             "description": "Coup de pied circulaire vers la tête",
             "application": "Coup de pied puissant vers la tête pour des points",
             "execution": "Utilisation de la rotation des hanches et de la flexibilité des jambes"
           },
           "ura-mawashi-geri": {
-            "name": "Ura Mawashi Geri (裏回し蹴り)",
+            "name": "Ura Mawashi Geri",
             "description": "Coup de pied circulaire intérieur",
             "application": "Coup de pied rapide vers le corps",
             "execution": "Mouvement efficace avec bon timing"
           },
           "ushiro-geri": {
-            "name": "Ushiro Geri (後ろ蹴り)",
+            "name": "Ushiro Geri",
             "description": "Coup de pied arrière",
             "application": "Coup de pied défensif contre les attaques arrière",
             "execution": "Exécution contrôlée avec bon équilibre"
@@ -302,29 +302,29 @@
       "title": "Techniques de Défense en Kumite",
       "description": "Techniques de défense efficaces pour le karaté sportif",
       "uke": {
-        "title": "Uke Waza (受け技) - Techniques de Blocage",
+        "title": "Uke Waza - Techniques de Blocage",
         "description": "Techniques de blocage traditionnelles",
         "techniques": {
           "age-uke": {
-            "name": "Age Uke (上げ受け)",
+            "name": "Age Uke",
             "description": "Blocage montant pour la défense de la tête",
             "application": "Défense contre les attaques à la tête et au visage",
             "execution": "Utilisation de l'avant-bras pour un blocage efficace"
           },
           "soto-uke": {
-            "name": "Soto Uke (外受け)",
+            "name": "Soto Uke",
             "description": "Blocage extérieur",
             "application": "Défense contre les attaques de coup de poing",
             "execution": "Mouvement de l'intérieur vers l'extérieur"
           },
           "uchi-uke": {
-            "name": "Uchi Uke (内受け)",
+            "name": "Uchi Uke",
             "description": "Blocage intérieur",
             "application": "Défense contre les attaques de coup de poing",
             "execution": "Mouvement de l'extérieur vers l'intérieur"
           },
           "gedan-barai": {
-            "name": "Gedan Barai (下段払い)",
+            "name": "Gedan Barai",
             "description": "Blocage bas pour la défense des jambes",
             "application": "Défense contre les coups de pied bas",
             "execution": "Mouvement vers le bas avec l'avant-bras"
@@ -332,17 +332,17 @@
         }
       },
       "kawashi": {
-        "title": "Kawashi Waza (躱し技) - Techniques d'Esquive",
+        "title": "Kawashi Waza - Techniques d'Esquive",
         "description": "Techniques d'esquive modernes",
         "techniques": {
           "te-nagashi-uke": {
-            "name": "Te Nagashi Uke (手流し受け)",
+            "name": "Te Nagashi Uke",
             "description": "Blocage fluide de la main",
             "application": "Défense avec mouvement fluide",
             "execution": "Mouvement fluide sans blocage dur"
           },
           "te-osae-uke": {
-            "name": "Te Osae Uke (手押さえ受け)",
+            "name": "Te Osae Uke",
             "description": "Blocage de pression de la main",
             "application": "Défense par pression vers le bas",
             "execution": "Mouvement contrôlé vers le bas"
@@ -354,29 +354,29 @@
       "title": "Techniques de Projection en Kumite",
       "description": "Techniques de projection efficaces pour le karaté sportif",
       "nage": {
-        "title": "Nage Waza (投げ技) - Techniques de Projection",
+        "title": "Nage Waza - Techniques de Projection",
         "description": "Techniques de projection traditionnelles",
         "techniques": {
           "de-ashi-barai": {
-            "name": "De Ashi Barai (出足払い)",
+            "name": "De Ashi Barai",
             "description": "Technique de balayage du pied",
             "application": "Projection en balayant le pied",
             "execution": "Le timing et l'équilibre sont cruciaux"
           },
           "kuzushi": {
-            "name": "Kuzushi (崩し)",
+            "name": "Kuzushi",
             "description": "Perturbation de l'équilibre",
             "application": "Préparation pour la projection",
             "execution": "Perturbation de l'équilibre de l'adversaire"
           },
           "o-soto-gari": {
-            "name": "O Soto Gari (大外刈り)",
+            "name": "O Soto Gari",
             "description": "Grand fauchage extérieur",
             "application": "Projection en retirant la jambe",
             "execution": "Utilisation du poids du corps et du mouvement de jambe"
           },
           "o-uchi-gari": {
-            "name": "O Uchi Gari (大内刈り)",
+            "name": "O Uchi Gari",
             "description": "Grand fauchage intérieur",
             "application": "Projection par mouvement de jambe intérieur",
             "execution": "Projection efficace pour diverses situations"
@@ -398,25 +398,25 @@
     "mental": {
       "title": "Principes Mentaux",
       "zanshin": {
-        "name": "Zanshin (残心) - Esprit Restant",
+        "name": "Zanshin - Esprit Restant",
         "description": "Conscience et vigilance après une technique",
         "application": "Restez vigilant après chaque attaque ou défense",
         "importance": "Prévient les contre-attaques et maintient le contrôle"
       },
       "mushin": {
-        "name": "Mushin (無心) - Esprit Sans Pensée",
+        "name": "Mushin - Esprit Sans Pensée",
         "description": "État mental sans pensées conscientes",
         "application": "Réactions spontanées sans hésitation",
         "importance": "Améliore le temps de réaction et la prise de décision"
       },
       "fudoshin": {
-        "name": "Fudoshin (不動心) - Esprit Immuable",
+        "name": "Fudoshin - Esprit Immuable",
         "description": "État mental inébranlable",
         "application": "Restez calme sous la pression",
         "importance": "Favorise une prise de décision efficace"
       },
       "senshin": {
-        "name": "Senshin (先心) - Esprit Purifié",
+        "name": "Senshin - Esprit Purifié",
         "description": "Esprit nettoyé et raffiné",
         "application": "Niveau le plus élevé de développement mental",
         "importance": "État ultime de la pratique du karaté"
@@ -425,7 +425,7 @@
     "tactical": {
       "title": "Principes Tactiques",
       "ma-ai": {
-        "name": "Ma-ai (間合い) - Distance de Combat",
+        "name": "Ma-ai - Distance de Combat",
         "description": "Distance optimale pour des techniques efficaces",
         "application": "Maintenez une distance appropriée pour les attaques et la défense",
         "importance": "Crucial pour le timing et l'efficacité"
@@ -437,13 +437,13 @@
         "importance": "Donne un avantage psychologique"
       },
       "go-no-sen": {
-        "name": "Go No Sen (後の先) - Réponse à l'Attaque",
+        "name": "Go No Sen - Réponse à l'Attaque",
         "description": "Contre-attaque après défense",
         "application": "Défendez et attaquez immédiatement",
         "importance": "Stratégie de contre-attaque efficace"
       },
       "sen-no-sen": {
-        "name": "Sen No Sen (先の先) - Attaquer l'Attaque",
+        "name": "Sen No Sen - Attaquer l'Attaque",
         "description": "Attaque simultanée avec l'adversaire",
         "application": "Interceptez l'attaque de l'adversaire",
         "importance": "Approche tactique avancée"
@@ -483,25 +483,25 @@
     "methods": {
       "title": "Méthodes d'Entraînement",
       "kihon": {
-        "name": "Kihon Kumite (基本組手)",
+        "name": "Kihon Kumite",
         "description": "Sparring de base pour le développement des techniques",
         "benefits": "Construit la fondation pour le kumite avancé",
         "focus": "Exécution correcte des techniques et timing"
       },
       "yakusoku": {
-        "name": "Yakusoku Kumite (約束組手)",
+        "name": "Yakusoku Kumite",
         "description": "Sparring pré-arrangé",
         "benefits": "Développe le timing et le contrôle de la distance",
         "focus": "Exécution contrôlée des techniques"
       },
       "jiyu": {
-        "name": "Jiyu Kumite (自由組手)",
+        "name": "Jiyu Kumite",
         "description": "Sparring libre pour la spontanéité",
         "benefits": "Développe l'adaptabilité et la pensée tactique",
         "focus": "Situations de combat réalistes"
       },
       "shiai": {
-        "name": "Shiai Kumite (試合組手)",
+        "name": "Shiai Kumite",
         "description": "Sparring de compétition",
         "benefits": "Prépare à l'environnement de compétition",
         "focus": "Marquage de points et règles de compétition"
@@ -594,48 +594,48 @@
     }
   },
   "technique-names": {
-    "kizami-zuki": "Kizami Zuki (刻み突き)",
-    "gyaku-zuki": "Gyaku Zuki (逆突き)",
-    "oi-zuki": "Oi Zuki (追い突き)",
-    "choku-zuki": "Choku Zuki (直突き)",
-    "uraken-uchi": "Uraken Uchi (裏拳打ち)",
-    "haito-uchi": "Haito Uchi (背刀打ち)",
-    "shuto-uchi": "Shuto Uchi (手刀打ち)",
-    "mae-geri": "Mae Geri (前蹴り)",
-    "yoko-geri": "Yoko Geri (横蹴り)",
-    "mawashi-geri": "Mawashi Geri (回し蹴り)",
-    "ura-mawashi-geri": "Ura Mawashi Geri (裏回し蹴り)",
-    "ushiro-geri": "Ushiro Geri (後ろ蹴り)",
-    "ushiro-ura-mawashi-geri": "Ushiro Ura Mawashi Geri (後ろ裏回し蹴り)",
-    "de-ashi-barai": "De Ashi Barai (出足払い)",
-    "kuzushi": "Kuzushi (崩し)",
-    "o-soto-gari": "O Soto Gari (大外刈り)",
-    "o-uchi-gari": "O Uchi Gari (大内刈り)",
-    "ko-soto-gari": "Ko Soto Gari (小外刈り)",
-    "ko-uchi-gari": "Ko Uchi Gari (小内刈り)",
-    "okuri-ashi-harai": "Okuri Ashi Harai (送り足払い)",
-    "tai-otoshi": "Tai-otoshi (体落とし)",
-    "age-uke": "Age Uke (上げ受け)",
-    "soto-uke": "Soto Uke (外受け)",
-    "uchi-uke": "Uchi Uke (内受け)",
-    "gedan-barai": "Gedan Barai (下段払い)",
-    "gedan-uke": "Gedan Uke (下段受け)",
-    "te-nagashi-uke": "Te Nagashi Uke (手流し受け)",
-    "te-osae-uke": "Te Osae Uke (手押さえ受け)",
-    "hiza-uke": "Hiza-uke (膝受け)",
-    "sune-uke": "Sune Uke (脛受け)"
+    "kizami-zuki": "Kizami Zuki",
+    "gyaku-zuki": "Gyaku Zuki",
+    "oi-zuki": "Oi Zuki",
+    "choku-zuki": "Choku Zuki",
+    "uraken-uchi": "Uraken Uchi",
+    "haito-uchi": "Haito Uchi",
+    "shuto-uchi": "Shuto Uchi",
+    "mae-geri": "Mae Geri",
+    "yoko-geri": "Yoko Geri",
+    "mawashi-geri": "Mawashi Geri",
+    "ura-mawashi-geri": "Ura Mawashi Geri",
+    "ushiro-geri": "Ushiro Geri",
+    "ushiro-ura-mawashi-geri": "Ushiro Ura Mawashi Geri",
+    "de-ashi-barai": "De Ashi Barai",
+    "kuzushi": "Kuzushi",
+    "o-soto-gari": "O Soto Gari",
+    "o-uchi-gari": "O Uchi Gari",
+    "ko-soto-gari": "Ko Soto Gari",
+    "ko-uchi-gari": "Ko Uchi Gari",
+    "okuri-ashi-harai": "Okuri Ashi Harai",
+    "tai-otoshi": "Tai-otoshi",
+    "age-uke": "Age Uke",
+    "soto-uke": "Soto Uke",
+    "uchi-uke": "Uchi Uke",
+    "gedan-barai": "Gedan Barai",
+    "gedan-uke": "Gedan Uke",
+    "te-nagashi-uke": "Te Nagashi Uke",
+    "te-osae-uke": "Te Osae Uke",
+    "hiza-uke": "Hiza-uke",
+    "sune-uke": "Sune Uke"
   },
   "mental-states": {
-    "zanshin": "Zanshin (残心) - Esprit Persistant",
-    "mushin": "Mushin (無心) - Esprit Sans Pensée",
-    "fudoshin": "Fudoshin (不動心) - Esprit Immuable",
-    "senshin": "Senshin (先心) - Esprit Purifié"
+    "zanshin": "Zanshin - Esprit Persistant",
+    "mushin": "Mushin - Esprit Sans Pensée",
+    "fudoshin": "Fudoshin - Esprit Immuable",
+    "senshin": "Senshin - Esprit Purifié"
   },
   "tactical-concepts": {
-    "ma-ai": "Ma-ai (間合い) - Distance de Combat",
+    "ma-ai": "Ma-ai - Distance de Combat",
     "sen": "Sen (?) - Initiative",
-    "go-no-sen": "Go No Sen (後の先) - Réponse à l'Attaque",
-    "sen-no-sen": "Sen No Sen (先の先) - Attaquer l'Attaque"
+    "go-no-sen": "Go No Sen - Réponse à l'Attaque",
+    "sen-no-sen": "Sen No Sen - Attaquer l'Attaque"
   },
   "competition-organizations": {
     "wkf": "World Karate Federation (WKF)",

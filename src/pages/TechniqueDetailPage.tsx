@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { ChevronLeft, Image as ImageIcon, Video as VideoIcon, AlertCircle } from 'lucide-react';
 import { techniqueData } from '@/data/techniques'; // Import from the new data file
-import AudioButton from '@/components/ui/audio-button';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 
 
@@ -53,10 +52,6 @@ const TechniqueDetailPage = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-3xl font-bold mb-1">{technique.name}</h1>
-          <div className="flex items-center gap-2 mb-1">
-            <p className="text-lg text-muted-foreground">{technique.japaneseName}</p>
-            <AudioButton text={technique.japaneseName} lang="ja-JP" size="sm" />
-          </div>
           <p className="text-md text-muted-foreground italic mb-4">({technique.englishName})</p>
           <p className="text-sm text-primary font-medium">Category: {categoryTitle}</p>
         </motion.div>

@@ -1,4 +1,4 @@
-# Hojo Undo (補助運動): Traditionele Krachttraining
+# Hojo Undo: Traditionele Krachttraining
 
 Hojo undo, wat letterlijk **'ondersteunende training'** betekent, is een essentieel onderdeel van het Okinawa Goju-ryu Karate-do systeem. Het wordt vaak aangeduid als **'traditionele krachttraining'**.
 
@@ -76,10 +76,10 @@ Hoewel traditioneel, vinden de principes van hojo undo weerklank in moderne west
 
 **Deskundige begeleiding is essentieel** voor een verantwoorde beoefening. Belangrijke aandachtspunten zijn:
 
-1.  **Correcte Instructie**: Focus op de coördinatie van lichaam, adem en geest.
-2.  **Gedoseerde Opbouw**: Verhoog de intensiteit en het gewicht geleidelijk (beginners: 2-3 kg).
-3.  **Techniek boven Gewicht**: Zorg voor een correcte uitvoering voordat het gewicht wordt verhoogd.
-4.  **Rust en Herstel**: Plan voldoende rust tussen de trainingssessies.
+1. **Correcte Instructie**: Focus op de coördinatie van lichaam, adem en geest.
+2. **Gedoseerde Opbouw**: Verhoog de intensiteit en het gewicht geleidelijk (beginners: 2-3 kg).
+3. **Techniek boven Gewicht**: Zorg voor een correcte uitvoering voordat het gewicht wordt verhoogd.
+4. **Rust en Herstel**: Plan voldoende rust tussen de trainingssessies.
 
 ---
 

@@ -6,23 +6,23 @@ El Karate-Do, a menudo traducido como "El Camino de la Mano Vacía", es más que
 
 En esencia, el Karate-Do enfatiza el cultivo simultáneo del cuerpo, la mente y el espíritu. Se guía por fuertes principios éticos, a menudo resumidos en el Dojo Kun (reglas del lugar de entrenamiento) y el Niju Kun (Veinte Preceptos) establecidos por maestros como Gichin Funakoshi. Estos principios destacan:
 
-*   **Humildad y Respeto:** El kárate comienza y termina con el respeto (_rei_). Esto incluye el respeto por uno mismo, los instructores, los compañeros y el arte mismo.
-*   **Rectitud y Justicia:** El kárate debe ser una herramienta para defender lo que es correcto y justo.
-*   **Autocontrol:** Un principio clave es abstenerse de comportamientos violentos o impetuosos. Las habilidades aprendidas son para la defensa, no para la agresión.
-*   **Esfuerzo y Perseverancia:** La maestría requiere un esfuerzo diligente y continuo a lo largo de la vida.
-*   **Sinceridad e Integridad:** Uno debe ser fiel a los principios del arte y actuar con honestidad.
+* **Humildad y Respeto:** El kárate comienza y termina con el respeto (_rei_). Esto incluye el respeto por uno mismo, los instructores, los compañeros y el arte mismo.
+* **Rectitud y Justicia:** El kárate debe ser una herramienta para defender lo que es correcto y justo.
+* **Autocontrol:** Un principio clave es abstenerse de comportamientos violentos o impetuosos. Las habilidades aprendidas son para la defensa, no para la agresión.
+* **Esfuerzo y Perseverancia:** La maestría requiere un esfuerzo diligente y continuo a lo largo de la vida.
+* **Sinceridad e Integridad:** Uno debe ser fiel a los principios del arte y actuar con honestidad.
 
 ## La Influencia del Bushido:
 
 La filosofía del Karate-Do está fuertemente influenciada por el Bushido, el código ético de los samuráis. Virtudes centrales del Bushido, como:
 
-*   **Gi (義):** Rectitud, honradez moral
-*   **Yu (勇):** Coraje, valentía
-*   **Jin (仁):** Benevolencia, compasión
-*   **Rei (礼):** Respeto, conducta apropiada
-*   **Makoto (誠):** Honestidad, sinceridad
-*   **Meiyo (名誉):** Honor
-*   **Chugi (忠義):** Lealtad
+* **Gi:** Rectitud, honradez moral
+* **Yu:** Coraje, valentía
+* **Jin:** Benevolencia, compasión
+* **Rei:** Respeto, conducta apropiada
+* **Makoto:** Honestidad, sinceridad
+* **Meiyo:** Honor
+* **Chugi:** Lealtad
 
 Estas son parte integral del desarrollo de un verdadero karateka (practicante de Karate-Do).
 

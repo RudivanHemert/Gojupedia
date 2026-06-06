@@ -62,6 +62,7 @@ const GraduationsPage = () => {
   const [activeSection, setActiveSection] = useState("ranks");
   const [activeKyu, setActiveKyu] = useState("10th-kyu");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const hasText = (value?: string) => Boolean(value?.trim());
 
   // Helper function to get the correct language version of kyu data
   const getKyuData = (kyuId: string, language: string) => {
@@ -183,10 +184,12 @@ const GraduationsPage = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-3">
                 <Badge variant="outline" className="text-lg px-3 py-1 bg-background">Kyu</Badge>
-                <div className="flex items-center gap-2">
-                  <span className="text-xl font-japanese">{ranks.kyu.japanese}</span>
-                  <AudioButton text={ranks.kyu.japanese} size="sm" />
-                </div>
+                {hasText(ranks.kyu.japanese) && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl font-japanese">{ranks.kyu.japanese}</span>
+                    <AudioButton text={ranks.kyu.japanese} size="sm" />
+                  </div>
+                )}
                 <span>{ranks.kyu.name}</span>
               </CardTitle>
             </CardHeader>
@@ -199,10 +202,12 @@ const GraduationsPage = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-3">
                 <Badge variant="default" className="text-lg px-3 py-1">Dan</Badge>
-                <div className="flex items-center gap-2">
-                  <span className="text-xl font-japanese">{ranks.dan.japanese}</span>
-                  <AudioButton text={ranks.dan.japanese} size="sm" />
-                </div>
+                {hasText(ranks.dan.japanese) && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl font-japanese">{ranks.dan.japanese}</span>
+                    <AudioButton text={ranks.dan.japanese} size="sm" />
+                  </div>
+                )}
                 <span>{ranks.dan.name}</span>
               </CardTitle>
             </CardHeader>
@@ -219,10 +224,12 @@ const GraduationsPage = () => {
                   <CardContent className="pt-6">
                     <div className="flex flex-col gap-2">
                       <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <span className="text-xl font-japanese font-bold text-primary">{rank.japanese}</span>
-                          <AudioButton text={rank.japanese} size="sm" />
-                        </div>
+                        {hasText(rank.japanese) && (
+                          <div className="flex items-center gap-2">
+                            <span className="text-xl font-japanese font-bold text-primary">{rank.japanese}</span>
+                            <AudioButton text={rank.japanese} size="sm" />
+                          </div>
+                        )}
                         <Badge variant="secondary">{rank.name}</Badge>
                       </div>
                       <p className="text-sm text-muted-foreground mt-2 leading-relaxed">{rank.description}</p>
@@ -264,10 +271,12 @@ const GraduationsPage = () => {
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="font-bold text-lg">{color.name}</h3>
-                  <div className="flex items-center gap-1 text-muted-foreground">
-                    <span className="font-japanese text-sm">{color.japanese}</span>
-                    <AudioButton text={color.japanese} size="sm" />
-                  </div>
+                  {hasText(color.japanese) && (
+                    <div className="flex items-center gap-1 text-muted-foreground">
+                      <span className="font-japanese text-sm">{color.japanese}</span>
+                      <AudioButton text={color.japanese} size="sm" />
+                    </div>
+                  )}
                 </div>
                 <p className="text-muted-foreground leading-relaxed">{color.description}</p>
               </div>
@@ -306,10 +315,12 @@ const GraduationsPage = () => {
                     <CardHeader className="pb-3">
                       <CardTitle className="flex items-center justify-between text-base">
                         <span className="font-bold">{title.name}</span>
-                        <div className="flex items-center gap-1 text-sm font-normal text-muted-foreground">
-                          <span className="font-japanese">{title.japanese}</span>
-                          <AudioButton text={title.japanese} size="sm" />
-                        </div>
+                        {hasText(title.japanese) && (
+                          <div className="flex items-center gap-1 text-sm font-normal text-muted-foreground">
+                            <span className="font-japanese">{title.japanese}</span>
+                            <AudioButton text={title.japanese} size="sm" />
+                          </div>
+                        )}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>

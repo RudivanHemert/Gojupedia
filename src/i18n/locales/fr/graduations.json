@@ -16,63 +16,63 @@
         "description": "Le système de graduation dans le Goju Ryu Karate",
         "kyu": {
           "name": "Kyu",
-          "japanese": "級",
+          "japanese": "",
           "description": "Kyu (ceinture colorée, en dessous de la ceinture noire)"
         },
         "dan": {
           "name": "Dan",
-          "japanese": "段",
+          "japanese": "",
           "description": "Dan (rangs de ceinture noire)"
         },
         "ranks": {
           "shodan": {
             "name": "Shodan",
-            "japanese": "初段",
+            "japanese": "",
             "description": "Premier Dan (premier niveau de ceinture noire)"
           },
           "nidan": {
             "name": "Nidan",
-            "japanese": "二段",
+            "japanese": "",
             "description": "Deuxième Dan"
           },
           "sandan": {
             "name": "Sandan",
-            "japanese": "三段",
+            "japanese": "",
             "description": "Troisième Dan"
           },
           "yondan": {
             "name": "Yondan",
-            "japanese": "四段",
+            "japanese": "",
             "description": "Quatrième Dan"
           },
           "godan": {
             "name": "Godan",
-            "japanese": "五段",
+            "japanese": "",
             "description": "Cinquième Dan"
           },
           "rokudan": {
             "name": "Rokudan",
-            "japanese": "六段",
+            "japanese": "",
             "description": "Sixième Dan"
           },
           "nanadan": {
             "name": "Nanadan",
-            "japanese": "七段",
+            "japanese": "",
             "description": "Septième Dan"
           },
           "hachidan": {
             "name": "Hachidan",
-            "japanese": "八段",
+            "japanese": "",
             "description": "Huitième Dan"
           },
           "kudan": {
             "name": "Kudan",
-            "japanese": "九段",
+            "japanese": "",
             "description": "Neuvième Dan"
           },
           "judan": {
             "name": "Judan",
-            "japanese": "十段",
+            "japanese": "",
             "description": "Dixième Dan"
           }
         }
@@ -87,37 +87,37 @@
         "colors": {
           "white": {
             "name": "Blanche",
-            "japanese": "白帯",
+            "japanese": "",
             "description": "Débutant - pureté et disposition à apprendre"
           },
           "yellow": {
             "name": "Jaune",
-            "japanese": "黄帯",
+            "japanese": "",
             "description": "Premier pas - le soleil qui se lève"
           },
           "orange": {
             "name": "Orange",
-            "japanese": "橙帯",
+            "japanese": "",
             "description": "Le soleil devient plus fort"
           },
           "green": {
             "name": "Verte",
-            "japanese": "緑帯",
+            "japanese": "",
             "description": "La plante grandit - développement des compétences"
           },
           "blue": {
             "name": "Bleue",
-            "japanese": "青帯",
+            "japanese": "",
             "description": "Le ciel - liberté et possibilités"
           },
           "brown": {
             "name": "Marron",
-            "japanese": "茶帯",
+            "japanese": "",
             "description": "La terre - stabilité et force"
           },
           "black": {
             "name": "Noire",
-            "japanese": "黒帯",
+            "japanese": "",
             "description": "Maturité - le voyage ne fait que commencer"
           }
         }
@@ -130,32 +130,32 @@
           "titles": {
             "mudansha": {
               "name": "Mudansha",
-              "japanese": "無段者",
+              "japanese": "",
               "description": "Étudiant sans ceinture noire"
             },
             "yudansha": {
               "name": "Yudansha",
-              "japanese": "有段者",
+              "japanese": "",
               "description": "Détenteur de ceinture noire"
             },
             "karateka": {
               "name": "Karateka",
-              "japanese": "空手家",
+              "japanese": "",
               "description": "Pratiquant de karate"
             },
             "sempai": {
               "name": "Sempai",
-              "japanese": "先輩",
+              "japanese": "",
               "description": "Étudiant senior"
             },
             "kohai": {
               "name": "Kohai",
-              "japanese": "後輩",
+              "japanese": "",
               "description": "Étudiant junior"
             },
             "uchiDeshi": {
               "name": "Uchi Deshi",
-              "japanese": "内弟子",
+              "japanese": "",
               "description": "Étudiant résident"
             }
           }
@@ -165,27 +165,27 @@
           "titles": {
             "sensei": {
               "name": "Sensei",
-              "japanese": "先生",
+              "japanese": "",
               "description": "Maître"
             },
             "shihan": {
               "name": "Shihan",
-              "japanese": "師範",
+              "japanese": "",
               "description": "Maître instructeur, maître des maîtres"
             },
             "renshi": {
               "name": "Renshi",
-              "japanese": "錬士",
+              "japanese": "",
               "description": "Instructeur poli (titre d'enseignement)"
             },
             "kyoshi": {
               "name": "Kyoshi",
-              "japanese": "教士",
+              "japanese": "",
               "description": "Maître avancé (titre d'enseignement)"
             },
             "hanshi": {
               "name": "Hanshi",
-              "japanese": "範士",
+              "japanese": "",
               "description": "Maître exemplaire, maître (titre d'enseignement)"
             }
           }
@@ -195,22 +195,22 @@
           "titles": {
             "bushi": {
               "name": "Bushi",
-              "japanese": "武士",
+              "japanese": "",
               "description": "Grand artiste martial"
             },
             "shushin": {
               "name": "Shushin",
-              "japanese": "主審",
+              "japanese": "",
               "description": "Arbitre"
             },
             "fukushin": {
               "name": "Fukushin",
-              "japanese": "副審",
+              "japanese": "",
               "description": "Arbitre assistant"
             },
             "kansa": {
               "name": "Kansa",
-              "japanese": "監査",
+              "japanese": "",
               "description": "Juge"
             }
           }

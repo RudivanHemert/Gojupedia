@@ -9,7 +9,7 @@ interface TechniqueMatchingProps {
 const TechniqueMatching: React.FC<TechniqueMatchingProps> = ({ category }) => {
   const pairs = useMemo(() => {
     const items = techniquesData.filter(t => t.category === category).slice(0, 8);
-    return items.map(i => ({ id: i.id, left: i.japanese || i.name, right: i.english || i.name }));
+    return items.map(i => ({ id: i.id, left: i.japanese || i.english, right: i.english || i.japanese }));
   }, [category]);
 
   return <MatchingGame pairs={pairs} />;

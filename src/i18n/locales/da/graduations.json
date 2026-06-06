@@ -16,63 +16,63 @@
         "description": "Graderingssystemet i Goju Ryu Karate",
         "kyu": {
           "name": "Kyu",
-          "japanese": "級",
+          "japanese": "",
           "description": "Kyu (farvet bælte, under sort bælte)"
         },
         "dan": {
           "name": "Dan",
-          "japanese": "段",
+          "japanese": "",
           "description": "Dan (sort bælte rækker)"
         },
         "ranks": {
           "shodan": {
             "name": "Shodan",
-            "japanese": "初段",
+            "japanese": "",
             "description": "Første Dan (første niveau sort bælte)"
           },
           "nidan": {
             "name": "Nidan",
-            "japanese": "二段",
+            "japanese": "",
             "description": "Anden Dan"
           },
           "sandan": {
             "name": "Sandan",
-            "japanese": "三段",
+            "japanese": "",
             "description": "Tredje Dan"
           },
           "yondan": {
             "name": "Yondan",
-            "japanese": "四段",
+            "japanese": "",
             "description": "Fjerde Dan"
           },
           "godan": {
             "name": "Godan",
-            "japanese": "五段",
+            "japanese": "",
             "description": "Femte Dan"
           },
           "rokudan": {
             "name": "Rokudan",
-            "japanese": "六段",
+            "japanese": "",
             "description": "Sjette Dan"
           },
           "nanadan": {
             "name": "Nanadan",
-            "japanese": "七段",
+            "japanese": "",
             "description": "Syvende Dan"
           },
           "hachidan": {
             "name": "Hachidan",
-            "japanese": "八段",
+            "japanese": "",
             "description": "Ottende Dan"
           },
           "kudan": {
             "name": "Kudan",
-            "japanese": "九段",
+            "japanese": "",
             "description": "Niende Dan"
           },
           "judan": {
             "name": "Judan",
-            "japanese": "十段",
+            "japanese": "",
             "description": "Tiende Dan"
           }
         }
@@ -87,37 +87,37 @@
         "colors": {
           "white": {
             "name": "Hvid",
-            "japanese": "白帯",
+            "japanese": "",
             "description": "Begynder - renhed og parathed til at lære"
           },
           "yellow": {
             "name": "Gul",
-            "japanese": "黄帯",
+            "japanese": "",
             "description": "Første skridt - den stigende sol"
           },
           "orange": {
             "name": "Orange",
-            "japanese": "橙帯",
+            "japanese": "",
             "description": "Solen bliver stærkere"
           },
           "green": {
             "name": "Grøn",
-            "japanese": "緑帯",
+            "japanese": "",
             "description": "Vækst og udvikling"
           },
           "blue": {
             "name": "Blå",
-            "japanese": "青帯",
+            "japanese": "",
             "description": "Himmel og dybde"
           },
           "brown": {
             "name": "Brun",
-            "japanese": "茶帯",
+            "japanese": "",
             "description": "Jord og stabilitet"
           },
           "black": {
             "name": "Sort",
-            "japanese": "黒帯",
+            "japanese": "",
             "description": "Modenhed - rejsen er kun lige begyndt"
           }
         }
@@ -130,32 +130,32 @@
           "titles": {
             "mudansha": {
               "name": "Mudansha",
-              "japanese": "無段者",
+              "japanese": "",
               "description": "Elev uden sort bælte"
             },
             "yudansha": {
               "name": "Yudansha",
-              "japanese": "有段者",
+              "japanese": "",
               "description": "Indehaver af sort bælte"
             },
             "karateka": {
               "name": "Karateka",
-              "japanese": "空手家",
+              "japanese": "",
               "description": "Karateudøver"
             },
             "sempai": {
               "name": "Sempai",
-              "japanese": "先輩",
+              "japanese": "",
               "description": "Senior elev"
             },
             "kohai": {
               "name": "Kohai",
-              "japanese": "後輩",
+              "japanese": "",
               "description": "Junior elev"
             },
             "uchiDeshi": {
               "name": "Uchi Deshi",
-              "japanese": "内弟子",
+              "japanese": "",
               "description": "Indeboende elev"
             }
           }
@@ -165,27 +165,27 @@
           "titles": {
             "sensei": {
               "name": "Sensei",
-              "japanese": "先生",
+              "japanese": "",
               "description": "Lærer"
             },
             "shihan": {
               "name": "Shihan",
-              "japanese": "師範",
+              "japanese": "",
               "description": "Mesterinstruktør, lærernes lærer"
             },
             "renshi": {
               "name": "Renshi",
-              "japanese": "錬士",
+              "japanese": "",
               "description": "Poleret instruktør (undervisningstitel)"
             },
             "kyoshi": {
               "name": "Kyoshi",
-              "japanese": "教士",
+              "japanese": "",
               "description": "Avanceret lærer (undervisningstitel)"
             },
             "hanshi": {
               "name": "Hanshi",
-              "japanese": "範士",
+              "japanese": "",
               "description": "Eksemplarisk lærer, mester (undervisningstitel)"
             }
           }
@@ -195,22 +195,22 @@
           "titles": {
             "bushi": {
               "name": "Bushi",
-              "japanese": "武士",
+              "japanese": "",
               "description": "Stor kampsportsudøver"
             },
             "shushin": {
               "name": "Shushin",
-              "japanese": "主審",
+              "japanese": "",
               "description": "Dommer"
             },
             "fukushin": {
               "name": "Fukushin",
-              "japanese": "副審",
+              "japanese": "",
               "description": "Assisterende dommer"
             },
             "kansa": {
               "name": "Kansa",
-              "japanese": "監査",
+              "japanese": "",
               "description": "Dommer (Kansa)"
             }
           }

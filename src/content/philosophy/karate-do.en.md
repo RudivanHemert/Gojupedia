@@ -6,23 +6,23 @@ Karate-Do, often translated as "The Way of the Empty Hand," is more than just a 
 
 At its heart, Karate-Do emphasizes the simultaneous cultivation of body, mind, and spirit. It is guided by strong ethical principles, often encapsulated in the Dojo Kun (training hall rules) and the Niju Kun (Twenty Precepts) laid down by masters like Gichin Funakoshi. These principles stress:
 
-*   **Humility and Respect:** Karate begins and ends with respect (_rei_). This includes respect for oneself, instructors, fellow students, and the art itself.
-*   **Righteousness and Justice:** Karate should be a tool for upholding what is right and just.
-*   **Self-Control:** A key tenet is to refrain from violent or impetuous behavior. The skills learned are for defense, not aggression.
-*   **Effort and Perseverance:** Mastery requires diligent and continuous effort throughout one's life.
-*   **Sincerity and Integrity:** One must be true to the principles of the art and act with honesty.
+* **Humility and Respect:** Karate begins and ends with respect (_rei_). This includes respect for oneself, instructors, fellow students, and the art itself.
+* **Righteousness and Justice:** Karate should be a tool for upholding what is right and just.
+* **Self-Control:** A key tenet is to refrain from violent or impetuous behavior. The skills learned are for defense, not aggression.
+* **Effort and Perseverance:** Mastery requires diligent and continuous effort throughout one's life.
+* **Sincerity and Integrity:** One must be true to the principles of the art and act with honesty.
 
 ## The Influence of Bushido:
 
 The philosophy of Karate-Do is heavily influenced by Bushido, the ethical code of the samurai. Virtues central to Bushido, such as:
 
-*   **Gi (義):** Rectitude, moral righteousness
-*   **Yu (勇):** Courage, bravery
-*   **Jin (仁):** Benevolence, compassion
-*   **Rei (礼):** Respect, proper conduct
-*   **Makoto (誠):** Honesty, sincerity
-*   **Meiyo (名誉):** Honor
-*   **Chugi (忠義):** Loyalty
+* **Gi:** Rectitude, moral righteousness
+* **Yu:** Courage, bravery
+* **Jin:** Benevolence, compassion
+* **Rei:** Respect, proper conduct
+* **Makoto:** Honesty, sincerity
+* **Meiyo:** Honor
+* **Chugi:** Loyalty
 
 These are integral to the development of a true karateka (practitioner of Karate-Do).
 

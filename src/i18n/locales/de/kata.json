@@ -16,9 +16,9 @@
       }
     },
     "categories": {
-      "kaishugata": "Kaishugata (開手型)",
+      "kaishugata": "Kaishugata",
       "kaishugataDescription": "Offene Handformen - Die Kernkampf-Kata des Goju Ryu, die praktische Kampfanwendungen und dynamische Bewegungen betonen.",
-      "heishugata": "Heishugata (閉手型)",
+      "heishugata": "Heishugata",
       "heishugataDescription": "Geschlossene Handformen - Die grundlegenden Kata, die sich auf Atmung, Spannung und innere Energieentwicklung konzentrieren."
     },
     "levels": {
@@ -29,7 +29,7 @@
     },
     "sanchin": {
       "name": "Sanchin",
-      "japaneseName": "三戰",
+      "japaneseName": "",
       "meaning": "Drei Kämpfe (Basis-Atmung/Spannung).",
       "description": "Die grundlegende Kata des Goju Ryu, die sich auf Atmung, Spannung und Basisbewegungen konzentriert.",
       "history": "Überliefert von Kanryo Higaonna und weiterentwickelt von Chojun Miyagi.",
@@ -64,7 +64,7 @@
     },
     "tensho": {
       "name": "Tensho",
-      "japaneseName": "転掌",
+      "japaneseName": "",
       "meaning": "Rotierende Handflächen",
       "description": "Eine fließende Kata, die die weichen Aspekte des Goju Ryu betont.",
       "history": "Erstellt von Chojun Miyagi als Ergänzung zu Sanchin.",
@@ -95,14 +95,14 @@
     },
     "gekisai-dai-ichi": {
       "name": "Gekisai Dai Ichi",
-      "japaneseName": "撃砕第一",
+      "japaneseName": "",
       "meaning": "Angreifen und Zerstören",
       "description": "Die erste Kata der Gekisai-Serie, entwickelt um Basistechnieken und Prinzipien des Goju Ryu einzuführen.",
       "history": "Diese Kata wurde um 1940 auf Okinawa von Sensei Chōjun Miyagi (Mitbegründer des Goju-Ryu) und Shoshin Nagamine entwickelt. Sie basiert auf Fukyugata II (einer Basis-Kata des Itosu-Systems), um jungen Schülern eine einfachere Form zu bieten.",
       "culturalSignificance": "Gekisai Dai Ichi ist eine Kaishu-gata (offene Hand) mit harten und dynamischen Bewegungen. Sie enthält vereinfachte Grundbewegungen aus fortgeschrittenen Kata. Die Atmung ist normal, und im Sinne von Goju-Ryu (hart/weich) folgt Entspannung auf jede Spannung.",
       "detailedMeaning": {
         "title": "Name und Bedeutung",
-        "content": "Gekisai Dai Ichi (撃砕第一) bedeutet wörtlich 'angreifen und zerschmettern' oder 'angreifen und vernichten'. Die Zeichen 撃 (geki) und 砕 (sai) bedeuten 'angreifen' bzw. 'vernichten/brechen'. In Kombination mit 大 (dai, groß) bedeutet es 'große Vernichtung' oder 'größter Schlag'. Symbolisch steht der Name für 'die Festung zerschmettern'."
+        "content": "Gekisai Dai Ichi bedeutet wörtlich 'angreifen und zerschmettern' oder 'angreifen und vernichten'. Die Zeichen (geki) und (sai) bedeuten 'angreifen' bzw. 'vernichten/brechen'. In Kombination mit (dai, groß) bedeutet es 'große Vernichtung' oder 'größter Schlag'. Symbolisch steht der Name für 'die Festung zerschmettern'."
       },
       "origin": {
         "title": "Ursprung",
@@ -170,14 +170,14 @@
     },
     "gekisai-dai-ni": {
       "name": "Gekisai Dai Ni",
-      "japaneseName": "撃砕第二",
+      "japaneseName": "",
       "meaning": "Angreifen und Zerstören 2.",
       "description": "Die zweite Kata der Gekisai-Serie, die fortgeschrittenere Techniken, einschließlich Techniken mit offener Hand, einführt.",
       "history": "Erstellt von Chōjun Miyagi als Fortführung von Gekisai Dai Ichi.",
       "culturalSignificance": "Baut auf den Grundlagen von Gekisai Dai Ichi auf.",
       "detailedMeaning": {
         "title": "Name und Bedeutung",
-        "content": "Gekisai Dai Ni (撃砕第二) teilt die Zeichen 撃砕 (Angreifen und Zerstören) mit Dai Ichi. Der japanische Name Gekisai Sho (kleines Gekisai) steht im Gegensatz zu Dai (groß). Frei übersetzt bedeutet es 'kleiner Angriff und Zerstörung', was als Gegenstück zum 'großen' Gekisai dient."
+        "content": "Gekisai Dai Ni teilt die Zeichen (Angreifen und Zerstören) mit Dai Ichi. Der japanische Name Gekisai Sho (kleines Gekisai) steht im Gegensatz zu Dai (groß). Frei übersetzt bedeutet es 'kleiner Angriff und Zerstörung', was als Gegenstück zum 'großen' Gekisai dient."
       },
       "origin": {
         "title": "Ursprung",
@@ -229,7 +229,7 @@
     },
     "saifa": {
       "name": "Saifa",
-      "japaneseName": "砕破",
+      "japaneseName": "",
       "meaning": "Zerschmettern und Zerreißen",
       "description": "Eine fortgeschrittene Kata, die kräftige Techniken mit geschlossener Faust und aggressive Schlagbewegungen betont.",
       "history": "Saifa wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt, hatte aber zweifellos Verbindungen zum Kranichboxen. Goju-Ryu ist der einzige Karatestil, der Saifa in seinem Lehrplan hat. Saifa bedeutet so viel wie 'zerstörerische Angriffe', aber der Name wird häufiger verwendet, zum Beispiel für völlig andere Quans im Shaolin Kung Fu.",
@@ -276,7 +276,7 @@
     },
     "seiyunchin": {
       "name": "Seiyunchin",
-      "japaneseName": "制引戦",
+      "japaneseName": "",
       "meaning": "Kontrollieren und Drücken",
       "description": "Seiyunchin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt. Seiyunchin bedeutet „kontrollieren und drücken“. Dies entspricht dem Aus-dem-Gleichgewicht-Bringen (oder Ziehen) jemandes, dem Kontrollieren und Angreifen mit einer Kurzdistanz-Technik (Angriff auf einen Vitalpunkt, Wurf, Gelenkhebel). Seiyunchin ist die Kata, in der man viel „chiru no chan chan“ – Abstoßkraft oder Explosionskraft – entwickelt. Die Kata weist eine große Anzahl von Bewegungen über eine beachtliche Distanz auf, sowohl vorwärts als auch rückwärts. Darüber hinaus enthält die Kata eine große Anzahl von Techniken, die im Shiko Dachi ausgeführt werden (beachten Sie die Punkte bei Gedan Barai bei Gekisai Dai Ichi). Während einer Bewegung von Shiko Dachi zu Shiko Dachi bleibt der Körper tief und die Füße gleiten über den Boden. In der Kata kommt Shiko Dachi zwar mehrmals vor, aber jedes Mal ist die Art und Weise, wie die Bewegung stattfindet und wie die Kraft geliefert wird, anders.",
       "history": "Seiyunchin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt.",
@@ -339,7 +339,7 @@
     },
     "shisochin": {
       "name": "Shisochin",
-      "japaneseName": "四向戦",
+      "japaneseName": "",
       "meaning": "Vier-Richtungs-Kampf",
       "description": "Shisochin bedeutet „vier Öffnungen“ oder „vier Richtungen“. Die Kata zeichnet sich durch viele und kraftvolle Techniken mit offener Hand aus und betont den Kampf in vier Richtungen.",
       "history": "Shisochin wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko. Der ursprüngliche Schöpfer der Kata ist unbekannt. Goju-ryu ist der einzige Karatestil mit dieser Kata.",
@@ -348,7 +348,7 @@
     },
     "sanseru": {
       "name": "Sanseru",
-      "japaneseName": "三十六手",
+      "japaneseName": "",
       "meaning": "36 (Sechsunddreißig)",
       "description": "Sanseru bedeutet '36': 6 (Auge, Ohr, Nase, Zunge, Körper und Geist) x 6 (Farbe, Stimme, Geruch, Geschmack, Tastsinn und Gerechtigkeit). Sie kombiniert Techniken des Hunde-Boxens (Dog Kung Fu) mit typischen Goju-Ryu Elementen, einschließlich Nahkampftechniken wie Würfen und Hebeln.",
       "history": "Sanseru wurde von Kanryo Higaonna in Okinawa eingeführt. Er lernte sie von Ryu Ryu Ko. Ursprünglicher Schöpfer unbekannt, wahrscheinlich vom 'Hunde-Boxen' (Dog Kung Fu). Goju-Ryu ist der einzige Karate-Stil mit dieser Kata.",
@@ -357,7 +357,7 @@
     },
     "sepai": {
       "name": "Sepai",
-      "japaneseName": "十八手",
+      "japaneseName": "",
       "meaning": "18 (Hände)",
       "description": "Sepai bedeutet wörtlich 18 (Hände), 6 (Farbe, Stimme, Geschmack, Geruch, Berührung und Gerechtigkeit) x 3 (gut, schlecht und Frieden). Die Kata ist charakteristisch für Goju-Ryu aufgrund der Kontraste zwischen hart und weich, schnell und langsam. Hikite kommt weniger häufig vor und die meisten Bewegungen sind zweihändige Techniken.",
       "history": "Sepai wurde von Kanryo Higaonna auf Okinawa eingeführt. Er lernte die Kata von Ryu Ryu Ko.",
@@ -366,7 +366,7 @@
     },
     "kururunfa": {
       "name": "Kururunfa",
-      "japaneseName": "久留頓破",
+      "japaneseName": "",
       "meaning": "Lange halten und plötzlich schlagen",
       "description": "Diese Kata ist eine sehr schnelle Kata. Sie zeichnet sich durch sehr schnelle Bewegungen der Hände (meist offene Handtechniken), Füße und Hüften aus. Aus diesem Grund und aufgrund ihrer perfekt ausgewogenen Kombination aus Go- und Ju-Techniken ist sie eine sehr wichtige Kata im Goju Ryu. Die wahre Essenz des Goju Ryu wird in Kururunfa in perfekter Harmonie dargestellt.\nSabaki ist ein Hauptmerkmal dieser Kata. Es gibt drei Hauptarten: Seitwärtsbewegung, Zickzack-Sabaki und Drehen der Hüften. Alle werden mit großer Geschwindigkeit und Agilität ausgeführt. Tiefe Stellungen wie Neko Ashi Dachi und langer Zenkutsu Dachi werden beim Bewegen betont.\nDiese Kata enthält bestimmte einzigartige und unverwechselbare Merkmale.\nZum Beispiel Gyaku Nage Waza, bei der die Schulter als Fokuspunkt verwendet wird, wenn ein Armhebel-Angriff ausgeführt wird, und ein angewinkelter Age Zuki, der gleichzeitig mit einem Block ausgeführt wird (steigt mit 45° von der Horizontalen statt 90° auf).",
       "history": "Eine der ursprünglichen Kata aus China, Herkunft unbekannt.",
@@ -389,7 +389,7 @@
     },
     "sesan": {
       "name": "Sesan",
-      "japaneseName": "十三手",
+      "japaneseName": "",
       "meaning": "13 Hände",
       "description": "Diese Kata wurde von Ryu Ryuko Sensei in China an Higaonna Kanryo Sensei weitergegeben. Es war die Lieblingskata von Miyagi Chojun Sensei und seinem besten Schüler, Shinzato Jinan; daher war es die Kata, die sie am häufigsten ausführten. Miyagi An’ichi Sensei hat gesagt, dass Miyagi Chojun Senseis Augen funkelten, wenn er diese Kata ausführte; seine Zehen griffen fest in den Boden, um einen so kraftvollen Stand zu schaffen, dass er wie im Boden verwurzelt schien, und sein Schlag war unglaublich schnell und kraftvoll. Das herausragende Merkmal dieser Kata ist die Kombination aus kreisförmiger und gerader Bewegung, Geschwindigkeit mit schwerem, kraftvollem Muchimi, und harter und weicher Technik. Die kreisförmige Geschmeidigkeit der Blöcke und die lineare Kraft der Angriffe verbinden sich zu einer Kata von erhabener ästhetischer Schönheit.\nDie Sesan Kata enthält, wie Kururunfa, eine große Vielfalt an kontrastierenden Techniken. Zum Beispiel wechseln kreisförmige Bewegungen schnell zu linearen Bewegungen in Kombination; schnelle und langsame Bewegungen werden mit Muchimi und einem Minimum an überschüssiger Körperbewegung ausgeführt. Diese Kata zeichnet sich durch Kombinationen von Techniken aus, die schnelle explosive Bewegungen enthalten, die durch langsamere schwere Bewegungen, die mit Muchimi ausgeführt werden, ausgeglichen und durchsetzt sind. Jede Technik, die nur ein Schlag oder Block zu sein scheint, kann viele Bedeutungen haben. Zum Beispiel wird gegen Ende der Kata ein Mae Geri ausgeführt. Es scheint nur eine Bewegung zu sein, aber tatsächlich ist eine Kombination aus drei Techniken beteiligt. Andere ungewöhnliche Techniken sind Sun Zuki (kurzer Schlag) und schlangenartige Bewegungen, die Ihnen helfen, im Nahkampf an Ihrem Gegner zu haften.",
       "history": "Eine der ursprünglichen Katas aus China, wahrscheinlich aus dem Mönchsfaust-Boxen oder Löwenfaust.",
@@ -412,7 +412,7 @@
     },
     "suparinpei": {
       "name": "Suparinpei",
-      "japaneseName": "壱百零八",
+      "japaneseName": "",
       "meaning": "108 Hände",
       "description": "Suparinpei ist die fortgeschrittenste Kata des Goju-Ryu. Sie beinhaltet die größte Anzahl an Techniken und Variationen. Der Name 'Suparinpei' und die dafür verwendeten Kanji bedeuten '108'. Die Zahl 108 hat im Buddhismus eine besondere Bedeutung und repräsentiert die 108 irdischen Begierden.",
       "history": "Basierend auf der chinesischen Form Peichurin. Suparinpei wurde an das Goju-Ryu angepasst und repräsentiert den Höhepunkt der Prinzipien des Systems.",

@@ -8,57 +8,57 @@ import { Link } from 'react-router-dom';
 import MarkdownRenderer from '@/components/hojo-undo/HojoUndoSectionRenderer';
 
 const UdeTanrenInformation = () => {
-  const { t } = useTranslation();
+ const { t } = useTranslation();
 
-  return (
-    <div className="min-h-screen bg-white">
-      <div className="p-4">
-        <div className="w-full">
-          {/* Verwijderd: lokale terugknop; global header bevat Back */}
+ return (
+ <div className="min-h-screen bg-white">
+ <div className="p-4">
+ <div className="w-full">
+ {/* Verwijderd: lokale terugknop; global header bevat Back */}
 
-          {/* Header */}
-          <div className="flex items-center gap-4 mb-6">
-            <div>
-              <h1 className="text-2xl font-bold">Ude Tanren - Informatie</h1>
-              <p className="text-muted-foreground">Algemene informatie over Ude Tanren</p>
-            </div>
-          </div>
+ {/* Header */}
+ <div className="flex items-center gap-4 mb-6">
+ <div>
+ <h1 className="text-2xl font-bold">Ude Tanren - Informatie</h1>
+ <p className="text-muted-foreground">Algemene informatie over Ude Tanren</p>
+ </div>
+ </div>
 
-          {/* Navigation */}
-          <div className="grid grid-cols-2 gap-2 mb-6">
-            <Link to="/hojo-undo/ude-tanren/information">
-              <Button variant="default" className="w-full">
-                <Info className="h-4 w-4 mr-2" />
-                Informatie
-              </Button>
-            </Link>
-            <Link to="/hojo-undo/ude-tanren/exercises">
-              <Button variant="outline" className="w-full">
-                Oefeningen
-              </Button>
-            </Link>
-          </div>
+ {/* Navigation */}
+ <div className="grid grid-cols-2 gap-2 mb-6">
+ <Link to="/hojo-undo/ude-tanren/information">
+ <Button variant="default" className="w-full">
+ <Info className="h-4 w-4 mr-2" />
+ Informatie
+ </Button>
+ </Link>
+ <Link to="/hojo-undo/ude-tanren/exercises">
+ <Button variant="outline" className="w-full">
+ Oefeningen
+ </Button>
+ </Link>
+ </div>
 
-          {/* Content */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center text-xl">
-                  <Info className="mr-3 h-6 w-6 text-blue-500" />
-                  Informatie over Ude Tanren
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <MarkdownRenderer markdownContent={`
+ {/* Content */}
+ <motion.div
+ initial={{ opacity: 0, y: 20 }}
+ animate={{ opacity: 1, y: 0 }}
+ transition={{ duration: 0.5 }}
+ >
+ <Card>
+ <CardHeader>
+ <CardTitle className="flex items-center text-xl">
+ <Info className="mr-3 h-6 w-6 text-blue-500" />
+ Informatie over Ude Tanren
+ </CardTitle>
+ </CardHeader>
+ <CardContent>
+ <MarkdownRenderer markdownContent={`
 # Ude Tanren - Informatie
 
 ## Wat is Ude Tanren?
 
-Ude Tanren (腕鍛錬) betekent letterlijk "arm smeden" of "arm conditionering". Het zijn partneroefeningen die specifiek gericht zijn op het conditioneren van de armen door middel van gecontroleerde impact en contact.
+Ude Tanren betekent letterlijk "arm smeden" of "arm conditionering". Het zijn partneroefeningen die specifiek gericht zijn op het conditioneren van de armen door middel van gecontroleerde impact en contact.
 
 ## Functie en Doel
 
@@ -130,14 +130,14 @@ Ude Tanren past perfect binnen het Goju-Ryu systeem omdat het:
 - Focus legt op coördinatie van lichaam, adem en geest
 - Praktische toepassing biedt van kata technieken
 - De mentale en fysieke discipline ontwikkelt die nodig is voor karate-do
-                `} />
-              </CardContent>
-            </Card>
-          </motion.div>
-        </div>
-      </div>
-    </div>
-  );
+ `} />
+ </CardContent>
+ </Card>
+ </motion.div>
+ </div>
+ </div>
+ </div>
+ );
 };
 
 export default UdeTanrenInformation; 
