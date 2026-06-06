@@ -25,6 +25,185 @@
     "chojunMiyagi": "Chojun Miyagi (1888-1953)",
     "anichiMiyagi": "An'ichi Miyagi (1931-2009)",
     "tetsujiNakamura": "Tetsuji Nakamura (1965 - )",
-    "timeline": "Chronologie"
+    "timeline": "Chronologie",
+    "morioHigaonna": "Morio Higaonna (1939 - )",
+    "timelineDescription": "Une chronologie plus complète fondée sur les origines, les maîtres, la reconstruction d’après-guerre et le développement moderne du Goju Ryu.",
+    "timelineEvents": [
+      {
+        "year": "XIXe siècle",
+        "title": "Racines à Fuzhou",
+        "description": "Les racines du Goju Ryu sont liées aux arts martiaux chinois de Fuzhou, en particulier aux enseignements associés à Ryu Ryu Ko."
+      },
+      {
+        "year": "1853",
+        "title": "Naissance de Kanryo Higaonna",
+        "description": "Kanryo Higaonna naît à Nishimura, Naha, et deviendra un pont entre le quanfa chinois et le Naha-te d’Okinawa."
+      },
+      {
+        "year": "1867-1868",
+        "title": "Un tournant pour Higaonna",
+        "description": "Après la mort de son père, la recherche d’un entraînement martial plus profond devient plus urgente pour Higaonna."
+      },
+      {
+        "year": "v. 1868-1870",
+        "title": "Début de l’entraînement en Chine",
+        "description": "Higaonna se rend à Fuzhou et s’entraîne de nombreuses années auprès de Ryu Ryu Ko, posant les bases de ce qui formera plus tard le Goju Ryu."
+      },
+      {
+        "year": "1881",
+        "title": "Retour à Okinawa",
+        "description": "Higaonna revient à Naha et commence à transmettre les méthodes chinoises apprises, adaptées à la pratique okinawaïenne."
+      },
+      {
+        "year": "1888",
+        "title": "Naissance de Chojun Miyagi",
+        "description": "Chojun Miyagi naît à Naha et systématisera plus tard le style sous le nom de Goju Ryu."
+      },
+      {
+        "year": "1902",
+        "title": "Miyagi devient l’élève de Higaonna",
+        "description": "Après un premier entraînement avec Ryuko Aragaki, Miyagi est présenté à Kanryo Higaonna et commence une pratique sérieuse du Naha-te."
+      },
+      {
+        "year": "1905",
+        "title": "Le karate entre à l’école",
+        "description": "Higaonna enseigne à la Naha Commercial School et contribue à faire entrer le Naha-te dans un cadre éducatif plus public."
+      },
+      {
+        "year": "1915",
+        "title": "Higaonna meurt; Miyagi étudie en Chine",
+        "description": "Kanryo Higaonna meurt. Miyagi se rend à Fuzhou pour étudier les racines chinoises de l’art de son maître."
+      },
+      {
+        "year": "1921",
+        "title": "La reconnaissance publique grandit",
+        "description": "Miyagi démontre le karate devant le prince héritier Hirohito, donnant plus de visibilité au karate okinawaïen."
+      },
+      {
+        "year": "Début des années 1920",
+        "title": "La méthode d’entraînement mûrit",
+        "description": "Miyagi développe le Junbi Undo et crée Tensho, donnant au système des principes plus clairs de préparation, de respiration et de mouvement circulaire souple."
+      },
+      {
+        "year": "1925-1926",
+        "title": "Des groupes de recherche se forment",
+        "description": "Miyagi aide à organiser à Okinawa des groupes de recherche pour étudier, préserver et affiner le karate entre les styles."
+      },
+      {
+        "year": "1930",
+        "title": "Le nom Goju Ryu est choisi",
+        "description": "Après que Jinan Shinzato est interrogé sur le nom du style, Miyagi choisit Goju Ryu d’après le principe dur-souple du Bubishi."
+      },
+      {
+        "year": "1933",
+        "title": "Reconnaissance officielle au Japon",
+        "description": "Le Goju Ryu est enregistré et reconnu par la Dai Nippon Butokukai, donnant au style un statut formel."
+      },
+      {
+        "year": "1934",
+        "title": "Miyagi enseigne à l’étranger",
+        "description": "Miyagi agit comme représentant d’Okinawa et enseigne le karate pendant onze mois à Hawaï."
+      },
+      {
+        "year": "1936",
+        "title": "Voyage de recherche à Shanghai",
+        "description": "Miyagi visite Shanghai pour approfondir ses recherches sur les arts martiaux chinois et leur lien avec son karate."
+      },
+      {
+        "year": "1937",
+        "title": "Titre de Kyoshi décerné",
+        "description": "La Dai Nippon Butokukai décerne à Miyagi le titre de Kyoshi, confirmant son rang de grand enseignant de karate."
+      },
+      {
+        "year": "1939",
+        "title": "Naissance de Morio Higaonna",
+        "description": "Morio Higaonna naît à Naha et deviendra l’un des transmetteurs les plus influents du Goju Ryu traditionnel."
+      },
+      {
+        "year": "1945",
+        "title": "Pertes de guerre",
+        "description": "La Seconde Guerre mondiale dévaste Okinawa. Miyagi perd des élèves, des membres de sa famille et de nombreuses notes et documents d’entraînement."
+      },
+      {
+        "year": "1948",
+        "title": "An’ichi Miyagi commence l’entraînement",
+        "description": "An’ichi Miyagi commence à s’entraîner auprès de Chojun Miyagi et reste étroitement lié à ses dernières années d’enseignement."
+      },
+      {
+        "year": "1951-1952",
+        "title": "Le dojo se reconstruit",
+        "description": "De nouveaux élèves reviennent à l’entraînement après la guerre, tandis qu’An’ichi Miyagi soutient de plus en plus l’instruction technique."
+      },
+      {
+        "year": "1953",
+        "title": "Mort de Chojun Miyagi",
+        "description": "Chojun Miyagi meurt. Eiichi Miyazato prend la responsabilité du dojo, tandis qu’An’ichi Miyagi poursuit l’enseignement technique."
+      },
+      {
+        "year": "1955",
+        "title": "Morio Higaonna entre au dojo",
+        "description": "Morio Higaonna rejoint officiellement le dojo et s’entraîne intensivement auprès d’An’ichi Miyagi."
+      },
+      {
+        "year": "1956-1957",
+        "title": "Organisation okinawaïenne et Jundokan",
+        "description": "L’Okinawa Karate-do Renmei est fondée, et le dojo Jundokan devient un centre important de pratique du Goju Ryu."
+      },
+      {
+        "year": "1959-1960",
+        "title": "L’entraînement continue à distance",
+        "description": "An’ichi Miyagi quitte Okinawa pour le travail, tandis que Morio Higaonna s’installe à Tokyo et continue à s’entraîner lorsqu’il revient."
+      },
+      {
+        "year": "1960",
+        "title": "Examens dan tous styles",
+        "description": "Lors des examens dan okinawaïens tous styles, Morio Higaonna est promu sandan."
+      },
+      {
+        "year": "1965",
+        "title": "Naissance de Tetsuji Nakamura",
+        "description": "Tetsuji Nakamura naît à Osaka et deviendra plus tard un enseignant international important du Goju Ryu."
+      },
+      {
+        "year": "1979",
+        "title": "Fondation de l’IOGKF",
+        "description": "Morio Higaonna fonde l’International Okinawan Goju-Ryu Karate-do Federation pour préserver et diffuser le Goju Ryu traditionnel dans le monde."
+      },
+      {
+        "year": "1981",
+        "title": "Retour à Okinawa",
+        "description": "Higaonna revient à Okinawa, ouvre un dojo et apparaît dans la série de la BBC The Way of the Warrior."
+      },
+      {
+        "year": "1987",
+        "title": "Les liens internationaux se renforcent",
+        "description": "Higaonna promeut le Goju Ryu aux États-Unis et visite Fuzhou à plusieurs reprises, renforçant les liens avec les milieux d’arts martiaux chinois."
+      },
+      {
+        "year": "1994",
+        "title": "Nakamura choisit la voie traditionnelle",
+        "description": "Tetsuji Nakamura remporte le Championnat du monde IOGKF en combat libre et s’engage dans la voie du Goju Ryu traditionnel."
+      },
+      {
+        "year": "2003",
+        "title": "Fondation de Shudokan",
+        "description": "Nakamura établit Shudokan comme base d’entraînement au Goju Ryu traditionnel."
+      },
+      {
+        "year": "2009",
+        "title": "Mort d’An’ichi Miyagi",
+        "description": "An’ichi Miyagi meurt, laissant un héritage durable à travers les élèves qui ont préservé les enseignements tardifs de Chojun Miyagi."
+      },
+      {
+        "year": "2011",
+        "title": "Nouveau dojo Shudokan au Canada",
+        "description": "Nakamura ouvre un nouveau dojo Shudokan au Canada, renforçant sa base internationale d’enseignement."
+      },
+      {
+        "year": "2012",
+        "title": "La flamme est transmise",
+        "description": "Morio Higaonna transmet à Tetsuji Nakamura la responsabilité de porter la tradition plus loin."
+      }
+    ]
   }
 }

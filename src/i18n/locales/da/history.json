@@ -25,6 +25,185 @@
     "chojunMiyagi": "Chojun Miyagi (1888-1953)",
     "anichiMiyagi": "An'ichi Miyagi (1931-2009)",
     "tetsujiNakamura": "Tetsuji Nakamura (1965 - )",
-    "timeline": "Tidslinje"
+    "timeline": "Tidslinje",
+    "morioHigaonna": "Morio Higaonna (1939 - )",
+    "timelineDescription": "En mere udførlig kronologi baseret på oprindelsen, mestrene, genopbygningen efter krigen og den moderne udvikling af Goju Ryu.",
+    "timelineEvents": [
+      {
+        "year": "19. århundrede",
+        "title": "Rødder i Fuzhou",
+        "description": "Goju Ryus rødder er knyttet til kinesisk kampkunst i Fuzhou, især de lærdomme der forbindes med Ryu Ryu Ko."
+      },
+      {
+        "year": "1853",
+        "title": "Kanryo Higaonna bliver født",
+        "description": "Kanryo Higaonna bliver født i Nishimura, Naha, og bliver senere en bro mellem kinesisk quanfa og okinawansk Naha-te."
+      },
+      {
+        "year": "1867-1868",
+        "title": "Et vendepunkt for Higaonna",
+        "description": "Efter faderens død bliver Higaonnas søgen efter dybere kampkunsttræning mere presserende."
+      },
+      {
+        "year": "ca. 1868-1870",
+        "title": "Træningen i Kina begynder",
+        "description": "Higaonna rejser til Fuzhou og træner i mange år under Ryu Ryu Ko, hvilket danner grundlaget for det senere Goju Ryu."
+      },
+      {
+        "year": "1881",
+        "title": "Tilbage til Okinawa",
+        "description": "Higaonna vender tilbage til Naha og begynder at videregive de kinesiske metoder, han lærte, tilpasset okinawansk praksis."
+      },
+      {
+        "year": "1888",
+        "title": "Chojun Miyagi bliver født",
+        "description": "Chojun Miyagi bliver født i Naha og vil senere systematisere stilen som Goju Ryu."
+      },
+      {
+        "year": "1902",
+        "title": "Miyagi bliver Higaonnas elev",
+        "description": "Efter tidligere træning hos Ryuko Aragaki bliver Miyagi introduceret til Kanryo Higaonna og begynder seriøs Naha-te-træning."
+      },
+      {
+        "year": "1905",
+        "title": "Karate kommer ind i skolen",
+        "description": "Higaonna underviser på Naha Commercial School og hjælper med at bringe Naha-te ind i en mere offentlig uddannelsesramme."
+      },
+      {
+        "year": "1915",
+        "title": "Higaonna dør; Miyagi studerer i Kina",
+        "description": "Kanryo Higaonna dør. Miyagi rejser til Fuzhou for at undersøge de kinesiske rødder i sin lærers kunst."
+      },
+      {
+        "year": "1921",
+        "title": "Offentlig anerkendelse vokser",
+        "description": "Miyagi demonstrerer karate for kronprins Hirohito og øger synligheden af okinawansk karate."
+      },
+      {
+        "year": "Tidlige 1920’ere",
+        "title": "Træningsmetoden modnes",
+        "description": "Miyagi udvikler Junbi Undo og skaber Tensho, som giver systemet tydeligere principper for forberedelse, vejrtrækning og bløde cirkulære bevægelser."
+      },
+      {
+        "year": "1925-1926",
+        "title": "Karateforskningsgrupper dannes",
+        "description": "Miyagi hjælper med at organisere forskningsgrupper på Okinawa for at studere, bevare og forfine karate på tværs af stilarter."
+      },
+      {
+        "year": "1930",
+        "title": "Navnet Goju Ryu vælges",
+        "description": "Efter at Jinan Shinzato bliver spurgt om stilens navn, vælger Miyagi Goju Ryu ud fra Bubishiens hård-blød-princip."
+      },
+      {
+        "year": "1933",
+        "title": "Officiel anerkendelse i Japan",
+        "description": "Goju Ryu registreres og anerkendes gennem Dai Nippon Butokukai og får dermed formel status."
+      },
+      {
+        "year": "1934",
+        "title": "Miyagi underviser i udlandet",
+        "description": "Miyagi fungerer som repræsentant for Okinawa og underviser i karate i elleve måneder på Hawaii."
+      },
+      {
+        "year": "1936",
+        "title": "Forskningsrejse til Shanghai",
+        "description": "Miyagi besøger Shanghai for at uddybe sin forskning i kinesisk kampkunst og forbindelsen til hans karate."
+      },
+      {
+        "year": "1937",
+        "title": "Kyoshi-titel tildeles",
+        "description": "Dai Nippon Butokukai tildeler Miyagi Kyoshi-titlen og bekræfter hans status som førende karatelærer."
+      },
+      {
+        "year": "1939",
+        "title": "Morio Higaonna bliver født",
+        "description": "Morio Higaonna bliver født i Naha og bliver senere en af de mest indflydelsesrige formidlere af traditionel Goju Ryu."
+      },
+      {
+        "year": "1945",
+        "title": "Tab under krigen",
+        "description": "Anden Verdenskrig ødelægger Okinawa. Miyagi mister elever, familiemedlemmer og mange træningsnoter og dokumenter."
+      },
+      {
+        "year": "1948",
+        "title": "An’ichi Miyagi begynder at træne",
+        "description": "An’ichi Miyagi begynder at træne under Chojun Miyagi og bliver tæt forbundet med hans sidste år som lærer."
+      },
+      {
+        "year": "1951-1952",
+        "title": "Dojoen bygges op igen",
+        "description": "Nye elever vender tilbage til træningen efter krigen, mens An’ichi Miyagi i stigende grad støtter den tekniske undervisning."
+      },
+      {
+        "year": "1953",
+        "title": "Chojun Miyagi dør",
+        "description": "Chojun Miyagi dør. Eiichi Miyazato får ansvaret for dojoen, mens An’ichi Miyagi fortsætter den tekniske undervisning."
+      },
+      {
+        "year": "1955",
+        "title": "Morio Higaonna kommer ind i dojoen",
+        "description": "Morio Higaonna bliver officielt medlem af dojoen og træner intensivt under An’ichi Miyagi."
+      },
+      {
+        "year": "1956-1957",
+        "title": "Okinawansk organisering og Jundokan",
+        "description": "Okinawa Karate-do Renmei grundlægges, og Jundokan-dojoen bliver et vigtigt centrum for Goju Ryu-træning."
+      },
+      {
+        "year": "1959-1960",
+        "title": "Træningen fortsætter på afstand",
+        "description": "An’ichi Miyagi forlader Okinawa på grund af arbejde, mens Morio Higaonna flytter til Tokyo og fortsætter træningen, når han vender tilbage."
+      },
+      {
+        "year": "1960",
+        "title": "Danprøver på tværs af stilarter",
+        "description": "Ved de okinawanske danprøver på tværs af stilarter bliver Morio Higaonna forfremmet til sandan."
+      },
+      {
+        "year": "1965",
+        "title": "Tetsuji Nakamura bliver født",
+        "description": "Tetsuji Nakamura bliver født i Osaka og bliver senere en vigtig international Goju Ryu-lærer."
+      },
+      {
+        "year": "1979",
+        "title": "IOGKF grundlægges",
+        "description": "Morio Higaonna grundlægger International Okinawan Goju-Ryu Karate-do Federation for at bevare og udbrede traditionel Goju Ryu i hele verden."
+      },
+      {
+        "year": "1981",
+        "title": "Tilbage til Okinawa",
+        "description": "Higaonna vender tilbage til Okinawa, åbner en dojo og optræder i BBC-serien The Way of the Warrior."
+      },
+      {
+        "year": "1987",
+        "title": "Internationale bånd styrkes",
+        "description": "Higaonna fremmer Goju Ryu i USA og besøger Fuzhou gentagne gange, hvilket styrker båndene til kinesiske kampkunstmiljøer."
+      },
+      {
+        "year": "1994",
+        "title": "Nakamura vælger den traditionelle vej",
+        "description": "Tetsuji Nakamura vinder IOGKF-verdensmesterskabet i fri kamp og helliger sig traditionel Goju Ryu."
+      },
+      {
+        "year": "2003",
+        "title": "Shudokan grundlægges",
+        "description": "Nakamura grundlægger Shudokan som base for traditionel Goju Ryu-træning."
+      },
+      {
+        "year": "2009",
+        "title": "An’ichi Miyagi dør",
+        "description": "An’ichi Miyagi dør og efterlader en varig arv gennem de elever, der bevarede Chojun Miyagis sene undervisning."
+      },
+      {
+        "year": "2011",
+        "title": "Ny Shudokan-dojo i Canada",
+        "description": "Nakamura åbner en ny Shudokan-dojo i Canada og styrker sin internationale undervisningsbase."
+      },
+      {
+        "year": "2012",
+        "title": "Flammen gives videre",
+        "description": "Morio Higaonna giver ansvaret for at føre traditionen videre til Tetsuji Nakamura."
+      }
+    ]
   }
 }

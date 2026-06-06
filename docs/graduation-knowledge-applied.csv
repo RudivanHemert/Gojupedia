@@ -67,7 +67,83 @@ G00599,src/data/graduations/8th-kyu.json,Uchi,Inward,terminology.sections.traini
 G00638,src/data/graduations/8th-kyu.nl.json,Kata,Stijlvorm (solovorm).,terminology.sections.training-content.terms.kata
 G00640,src/data/graduations/8th-kyu.nl.json,Kiai,Schreeuw waarbij kracht wordt geconcentreerd (harmonie levenskracht en geest).,terminology.sections.general-terms-content.terms.kiai
 G00642,src/data/graduations/8th-kyu.nl.json,Uchi,Naar binnen (binnenwaarts),terminology.sections.training-content.terms.uchi
-src/data/graduations/5th-kyu.json,5th-kyu,base,Kyu,"Rank (colored belts, below black belt)",級,terminology.sections.ranks-content.terms.kyu,review-ambiguous-short-term,Applied after exact full-name terminology match review.
-src/data/graduations/5th-kyu.nl.json,5th-kyu,nl,Kyu,"Rang (gekleurde banden, onder zwarte band)",級,terminology.sections.ranks-content.terms.kyu,review-ambiguous-short-term,Applied after exact full-name terminology match review.
-src/data/graduations/6th-kyu.json,6th-kyu,base,Waza,Technique,技,terminology.sections.kata-terms-content.terms.waza,review-ambiguous-short-term,Applied after exact full-name terminology match review.
-src/data/graduations/6th-kyu.nl.json,6th-kyu,nl,Waza,Techniek,技,terminology.sections.kata-terms-content.terms.waza,review-ambiguous-short-term,Applied after exact full-name terminology match review.
+src/data/graduations/5th-kyu.json,5th-kyu,base,Kyu,"Rank (colored belts, below black belt)"
+src/data/graduations/5th-kyu.nl.json,5th-kyu,nl,Kyu,"Rang (gekleurde banden, onder zwarte band)"
+src/data/graduations/6th-kyu.json,6th-kyu,base,Waza,Technique
+src/data/graduations/6th-kyu.nl.json,6th-kyu,nl,Waza,Techniek
+G00144,src/data/graduations/2nd-kyu.json,Kaishu gata,"Open-hand kata; faster, flowing kata with the tanden closing mainly at the moment of impact.",docs/hoei_juku_extracted/full_text.txt
+G00145,src/data/graduations/2nd-kyu.json,Heishu gata,"Closed-hand kata; kata performed with constant dynamic tension, breath control and focus in the tanden.",docs/hoei_juku_extracted/full_text.txt
+G00146,src/data/graduations/2nd-kyu.json,"Shodan, nidan, sandan, yondan, godan, rokudan, shichidan, hachidan, kudan, judan","First through tenth dan, the black-belt rank levels.",docs/hoei_juku_extracted/full_text.txt
+G00147,src/data/graduations/2nd-kyu.json,Ritsu rei,Standing bow.,docs/hoei_juku_extracted/full_text.txt
+G00148,src/data/graduations/2nd-kyu.json,Za rei,Seated or kneeling bow.,docs/hoei_juku_extracted/full_text.txt
+G00149,src/data/graduations/2nd-kyu.json,Hoshin,Purpose and aims.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00177,src/data/graduations/2nd-kyu.nl.json,Kaishu gata,"Open-hand kata; snellere, vloeiende kata waarbij de tanden vooral sluit op het moment van impact.",docs/hoei_juku_extracted/full_text.txt
+G00178,src/data/graduations/2nd-kyu.nl.json,Heishu gata,"Gesloten-hand kata; kata met constante dynamische spanning, ademcontrole en focus in de tanden.",docs/hoei_juku_extracted/full_text.txt
+G00179,src/data/graduations/2nd-kyu.nl.json,"Shodan, nidan, sandan, yondan, godan, rokudan, shichidan, hachidan, kudan, judan","Eerste tot en met tiende dan, de zwarte-band graden.",docs/hoei_juku_extracted/full_text.txt
+G00180,src/data/graduations/2nd-kyu.nl.json,Ritsu rei,Staande buiging.,docs/hoei_juku_extracted/full_text.txt
+G00181,src/data/graduations/2nd-kyu.nl.json,Za rei,Zittende of geknielde buiging.,docs/hoei_juku_extracted/full_text.txt
+G00182,src/data/graduations/2nd-kyu.nl.json,Hoshin,Doel en doelstellingen.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00205,src/data/graduations/3rd-kyu.json,Renzoku,Consecutive or continuous; used for combinations and consecutive sparring.,docs/hoei_juku_extracted/full_text.txt
+G00206,src/data/graduations/3rd-kyu.json,Kenpo hakku,The eight laws of the fist.,docs/hoei_juku_extracted/full_text.txt
+G00207,src/data/graduations/3rd-kyu.json,Heijo shin (fudo shin),Balanced calm mind; an unshaken state of mind.,docs/hoei_juku_extracted/full_text.txt
+G00208,src/data/graduations/3rd-kyu.json,Sabaki / tai sabaki,Body movement and evasion.,docs/hoei_juku_extracted/full_text.txt
+G00210,src/data/graduations/3rd-kyu.json,Bubishi,Classical Chinese martial-arts text containing principles associated with Okinawan Karatedo.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00213,src/data/graduations/3rd-kyu.json,Chin kuchi kakin,"Directing force; short, focused muscle tension at the moment of impact.",docs/hoei_juku_extracted/full_text.txt
+G00214,src/data/graduations/3rd-kyu.json,Shime jurasan,Perfect execution of kata.,docs/hoei_juku_extracted/full_text.txt
+G00237,src/data/graduations/3rd-kyu.nl.json,Renzoku,Opeenvolgend of continu; gebruikt voor combinaties en opeenvolgend sparren.,docs/hoei_juku_extracted/full_text.txt
+G00238,src/data/graduations/3rd-kyu.nl.json,Kenpo hakku,De acht wetten van de vuist.,docs/hoei_juku_extracted/full_text.txt
+G00239,src/data/graduations/3rd-kyu.nl.json,Heijo shin (fudo shin),Evenwichtige kalme geest; een onverstoorbare geestestoestand.,docs/hoei_juku_extracted/full_text.txt
+G00240,src/data/graduations/3rd-kyu.nl.json,Sabaki / tai sabaki,Lichaamsverplaatsing en ontwijking.,docs/hoei_juku_extracted/full_text.txt
+G00242,src/data/graduations/3rd-kyu.nl.json,Bubishi,Klassieke Chinese krijgskunsttekst met principes die met Okinawaans karatedo worden verbonden.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00245,src/data/graduations/3rd-kyu.nl.json,Chin kuchi kakin,"Richten van kracht; korte, gerichte spierspanning op het moment van raken.",docs/hoei_juku_extracted/full_text.txt
+G00246,src/data/graduations/3rd-kyu.nl.json,Shime jurasan,Perfecte uitvoering van kata.,docs/hoei_juku_extracted/full_text.txt
+G00278,src/data/graduations/4th-kyu.json,Gyaku waza,Joint-locking techniques.,docs/hoei_juku_extracted/full_text.txt
+G00279,src/data/graduations/4th-kyu.json,Hazushi waza,Freeing or release techniques.,docs/hoei_juku_extracted/full_text.txt
+G00280,src/data/graduations/4th-kyu.json,Nage waza,Throwing techniques.,docs/hoei_juku_extracted/full_text.txt
+G00283,src/data/graduations/4th-kyu.json,Morote,Two-handed; using both hands.,docs/hoei_juku_extracted/full_text.txt
+G00284,src/data/graduations/4th-kyu.json,Morote waza,Double-handed techniques.,docs/hoei_juku_extracted/full_text.txt
+G00318,src/data/graduations/4th-kyu.nl.json,Gyaku waza,Gewrichtsklemtechnieken.,docs/hoei_juku_extracted/full_text.txt
+G00319,src/data/graduations/4th-kyu.nl.json,Hazushi waza,Bevrijdings- of losmaaktechnieken.,docs/hoei_juku_extracted/full_text.txt
+G00320,src/data/graduations/4th-kyu.nl.json,Nage waza,Werptechnieken.,docs/hoei_juku_extracted/full_text.txt
+G00323,src/data/graduations/4th-kyu.nl.json,Morote,Tweehandig; met beide handen.,docs/hoei_juku_extracted/full_text.txt
+G00324,src/data/graduations/4th-kyu.nl.json,Morote waza,Tweehandige technieken.,docs/hoei_juku_extracted/full_text.txt
+G00352,src/data/graduations/5th-kyu.json,Dojo kun in Japanese and its meaning,"Know the five dojo kun: perfect character, seek the true way, cultivate perseverance, respect etiquette and refrain from uncontrolled behavior.",docs/hoei_juku_extracted/full_text.txt
+G00353,src/data/graduations/5th-kyu.json,Opening & closing ceremony in Japanese,"Know the ceremony commands: shugo, ki o tsuke, seiza, mokuso, mokuso yame, shomen ni rei, sensei ni rei, otagai ni rei and kiritsu.",docs/hoei_juku_extracted/full_text.txt
+G00355,src/data/graduations/5th-kyu.json,Zenshin,Forward.,docs/hoei_juku_extracted/full_text.txt
+G00356,src/data/graduations/5th-kyu.json,Kotai,Backward.,docs/hoei_juku_extracted/full_text.txt
+G00385,src/data/graduations/5th-kyu.nl.json,Dojo kun in het Japans en zijn betekenis,"Ken de vijf dojo kun: karakter vervolmaken, de ware weg zoeken, volharding ontwikkelen, etiquette respecteren en ongecontroleerd gedrag vermijden.",docs/hoei_juku_extracted/full_text.txt
+G00386,src/data/graduations/5th-kyu.nl.json,Opening & sluiting ceremonie in het Japans,"Ken de ceremoniecommando's: shugo, ki o tsuke, seiza, mokuso, mokuso yame, shomen ni rei, sensei ni rei, otagai ni rei en kiritsu.",docs/hoei_juku_extracted/full_text.txt
+G00388,src/data/graduations/5th-kyu.nl.json,Zenshin,Voorwaarts.,docs/hoei_juku_extracted/full_text.txt
+G00389,src/data/graduations/5th-kyu.nl.json,Kotai,Achterwaarts.,docs/hoei_juku_extracted/full_text.txt
+G00426,src/data/graduations/6th-kyu.json,Do,Way or path.,terminology.sections.karate-goju-ryu-content.terms.karate-do
+G00427,src/data/graduations/6th-kyu.json,Honbu,Headquarters or central dojo.,docs/hoei_juku_extracted/full_text.txt
+G00433,src/data/graduations/6th-kyu.json,Irikumi,Close combat.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00434,src/data/graduations/6th-kyu.json,Reigi/reishiki,"Etiquette, manners and forms of respect.",docs/hoei_juku_extracted/full_text.txt
+G00468,src/data/graduations/6th-kyu.nl.json,Do,Weg of pad.,terminology.sections.karate-goju-ryu-content.terms.karate-do
+G00469,src/data/graduations/6th-kyu.nl.json,Honbu,Hoofdkwartier of centrale dojo.,docs/hoei_juku_extracted/full_text.txt
+G00475,src/data/graduations/6th-kyu.nl.json,Irikumi,Gevecht op korte afstand.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00476,src/data/graduations/6th-kyu.nl.json,Reigi/reishiki,"Etiquette, omgangsvormen en vormen van respect.",docs/hoei_juku_extracted/full_text.txt
+G00513,src/data/graduations/7th-kyu.json,Mae/yoko/migi/hidari/ushiro/naname,"Front, side, right, left, back and diagonal.",docs/hoei_juku_extracted/full_text.txt
+G00514,src/data/graduations/7th-kyu.json,Ashi kaete,Change legs.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00515,src/data/graduations/7th-kyu.json,Shomen/shimoza,Shomen is the front or main wall of the dojo; shimoza is the lower seat or back of the dojo.,docs/hoei_juku_extracted/full_text.txt
+G00516,src/data/graduations/7th-kyu.json,Joseki/shimoseki,Joseki is the upper or right side of the dojo; shimoseki is the lower or left side.,docs/hoei_juku_extracted/full_text.txt
+G00553,src/data/graduations/7th-kyu.nl.json,Mae/yoko/migi/hidari/ushiro/naname,"Voor, zij, rechts, links, achter en diagonaal.",docs/hoei_juku_extracted/full_text.txt
+G00554,src/data/graduations/7th-kyu.nl.json,Ashi kaete,Wissel van been.,https://www.karate-chikara.nl/wp-content/uploads/2019/09/Terminology-Goju-ryu-karate.pdf
+G00555,src/data/graduations/7th-kyu.nl.json,Shomen/shimoza,Shomen is de voorkant of hoofdmuur van de dojo; shimoza is de onderste plaats of achterkant van de dojo.,docs/hoei_juku_extracted/full_text.txt
+G00556,src/data/graduations/7th-kyu.nl.json,Joseki/shimoseki,Joseki is de bovenste of rechterkant van de dojo; shimoseki is de onderste of linkerkant.,docs/hoei_juku_extracted/full_text.txt
+G00588,src/data/graduations/8th-kyu.json,International Okinawan Goju-Ryu Karate-Do Federation (IOGKF),International federation for traditional Okinawan Goju-Ryu Karate-do.,https://iogkf.com/about-iogkf/
+G00589,src/data/graduations/8th-kyu.json,Kenkon/tenchi,Heaven and earth; the IOGKF symbol representing the hard-soft principles of Goju-Ryu.,docs/hoei_juku_extracted/full_text.txt
+G00590,src/data/graduations/8th-kyu.json,Mon,Crest or emblem; in this context the IOGKF/Kenkon badge.,https://www.iogkf.in/about-iogkf/about-the-badge.aspx
+G00591,src/data/graduations/8th-kyu.json,Count to 10 in Japanese,"Ichi, ni, san, shi, go, roku, shichi, hachi, ku, ju.",docs/hoei_juku_extracted/full_text.txt
+G00594,src/data/graduations/8th-kyu.json,Karate-ka,Karate practitioner.,docs/hoei_juku_extracted/full_text.txt
+G00598,src/data/graduations/8th-kyu.json,Zuki / tsuki,Punch; punching techniques.,docs/hoei_juku_extracted/full_text.txt
+G00600,src/data/graduations/8th-kyu.json,Geri / keri,Kick; kicking techniques.,docs/hoei_juku_extracted/full_text.txt
+G00631,src/data/graduations/8th-kyu.nl.json,International Okinawan Goju-Ryu Karate-Do Federation (IOGKF),Internationale federatie voor traditioneel Okinawa Goju-Ryu Karate-do.,https://iogkf.com/about-iogkf/
+G00632,src/data/graduations/8th-kyu.nl.json,Kenkon/tenchi,Hemel en aarde; het IOGKF-symbool dat de harde en zachte principes van Goju-Ryu weergeeft.,docs/hoei_juku_extracted/full_text.txt
+G00633,src/data/graduations/8th-kyu.nl.json,Mon,Familiewapen of embleem; in deze context het IOGKF/Kenkon-embleem.,https://www.iogkf.in/about-iogkf/about-the-badge.aspx
+G00634,src/data/graduations/8th-kyu.nl.json,Tel tot 10 in het Japans,"Ichi (een), ni (twee), san (drie), shi (vier), go (vijf), roku (zes), shichi (zeven), hachi (acht), ku (negen), ju (tien).",docs/hoei_juku_extracted/full_text.txt
+G00637,src/data/graduations/8th-kyu.nl.json,Karate-ka,Karatebeoefenaar.,docs/hoei_juku_extracted/full_text.txt
+G00641,src/data/graduations/8th-kyu.nl.json,Zuki / tsuki,Stoot; stoottechnieken.,docs/hoei_juku_extracted/full_text.txt
+G00643,src/data/graduations/8th-kyu.nl.json,Geri / keri,Trap; traptechnieken.,docs/hoei_juku_extracted/full_text.txt
+G00732,src/data/graduations/shodan.json,Body parts in Japanese,Know the main Japanese body-part terms used in training and kyusho practice.,docs/hoei_juku_extracted/full_text.txt
+G00753,src/data/graduations/shodan.nl.json,Lichaamsdelen in het Japans,Ken de belangrijkste Japanse lichaamsdelen die in training en kyusho worden gebruikt.,docs/hoei_juku_extracted/full_text.txt

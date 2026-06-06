@@ -108,19 +108,19 @@
     "progression": {
       "basic": {
         "title": "Basic",
-        "desc": "Ippon Kumite for fundamental skills"
+        "desc": "Ippon Kumite para habilidades fundamentais"
       },
       "expansion": {
         "title": "Expansion",
-        "desc": "Sanbon and Gohon for complexity"
+        "desc": "Sanbon e Gohon para complexidade"
       },
       "freedom": {
         "title": "Freedom",
-        "desc": "Jiyu Kumite for spontaneity"
+        "desc": "Jiyu Kumite para espontaneidade"
       },
       "competition": {
         "title": "Competition",
-        "desc": "Shiai Kumite for competition experience"
+        "desc": "Shiai Kumite para experi?ncia de competi??o"
       }
     },
     "safety": {
@@ -129,24 +129,24 @@
       "competition-rules": "Competition Rules",
       "training-safety": "Training Safety",
       "principles": {
-        "control": "All techniques must be controlled.",
-        "equipment": "Use appropriate safety gear.",
-        "supervision": "Always practice under qualified instruction.",
-        "respect": "Show respect for your training partner.",
-        "progressive": "Begin with basic forms before advancing to more complex sparring."
+        "control": "Todas as t?cnicas devem ser controladas.",
+        "equipment": "Use equipamento de seguran?a adequado.",
+        "supervision": "Pratique sempre sob orienta??o qualificada.",
+        "respect": "Mostre respeito pelo seu parceiro de treino.",
+        "progressive": "Comece com formas b?sicas antes de avan?ar para kumite mais complexo."
       },
       "required-equipment": "Required Equipment",
       "equipment-details": {
         "required": {
-          "hand-protectors": "Hand protectors for the safety of hands and wrists.",
-          "foot-protectors": "Foot protectors for the safety of feet and ankles.",
-          "mouth-guard": "A mouth guard for the protection of teeth and mouth.",
-          "groin-protector": "Groin protector for male practitioners."
+          "hand-protectors": "Protetores de m?o para a seguran?a das m?os e punhos.",
+          "foot-protectors": "Protetores de p? para a seguran?a dos p?s e tornozelos.",
+          "mouth-guard": "Protetor bucal para proteger dentes e boca.",
+          "groin-protector": "Protetor genital para praticantes masculinos."
         },
         "optional": {
-          "head-protection": "Head protection for additional safety.",
-          "chest-protector": "Chest protector for female practitioners.",
-          "shin-guards": "Shin guards for extra leg protection."
+          "head-protection": "Prote??o de cabe?a para seguran?a adicional.",
+          "chest-protector": "Protetor peitoral para praticantes femininas.",
+          "shin-guards": "Caneleiras para prote??o extra das pernas."
         }
       },
       "optional-equipment": "Optional Equipment",
@@ -154,9 +154,9 @@
       "scoring-areas": "Scoring Areas",
       "areas": {
         "scoring": {
-          "head-face-neck": "Head, face, neck",
-          "chest-abdomen-back": "Chest, abdomen, back, side",
-          "arms-legs": "Arms and legs (limited)"
+          "head-face-neck": "Cabe?a, rosto, pesco?o",
+          "chest-abdomen-back": "Peito, abd?men, costas, lateral",
+          "arms-legs": "Bra?os e pernas (limitado)"
         },
         "forbidden": {
           "throat": "Throat",
@@ -168,45 +168,45 @@
       "forbidden-areas": "Forbidden Contact Zones",
       "penalties": "Penalties",
       "penalty-types": {
-        "chukoku": "Chukoku - First warning",
-        "keikoku": "Keikoku - Second warning",
-        "hansoku": "Hansoku - Disqualification"
+        "chukoku": "Chukoku - primeira advert?ncia",
+        "keikoku": "Keikoku - segunda advert?ncia",
+        "hansoku": "Hansoku - desclassifica??o"
       },
       "training": {
         "before": "Before Training",
-        "before-item1": "Always perform a proper warm-up.",
-        "before-item2": "Do flexibility exercises.",
-        "before-item3": "Check all equipment for safety.",
-        "before-item4": "Discuss level and expectations with your partner.",
+        "before-item1": "Fa?a sempre um aquecimento adequado.",
+        "before-item2": "Fa?a exerc?cios de flexibilidade.",
+        "before-item3": "Verifique a seguran?a de todo o equipamento.",
+        "before-item4": "Converse sobre n?vel e expectativas com seu parceiro.",
         "during": "During Training",
-        "during-item1": "Maintain control over all techniques at all times.",
-        "during-item2": "Communicate clearly with your partner.",
-        "during-item3": "Show respect for your partner's skill level.",
-        "during-item4": "Stop immediately in case of pain or problems.",
+        "during-item1": "Mantenha controle sobre todas as t?cnicas o tempo todo.",
+        "during-item2": "Comunique-se claramente com seu parceiro.",
+        "during-item3": "Respeite o n?vel de habilidade do seu parceiro.",
+        "during-item4": "Pare imediatamente em caso de dor ou problemas.",
         "after": "After Training",
-        "after-item1": "Perform a cool-down routine.",
-        "after-item2": "Drink sufficient water.",
-        "after-item3": "Evaluate the training with the instructor.",
-        "after-item4": "Take adequate rest after training."
+        "after-item1": "Fa?a uma rotina de desaquecimento.",
+        "after-item2": "Beba ?gua suficiente.",
+        "after-item3": "Avalie o treino com o instrutor.",
+        "after-item4": "Descanse adequadamente ap?s o treino."
       }
     }
   },
   "techniques": {
-    "title": "Kumite Techniques in Sports Karate",
+    "title": "T?cnicas de Kumite no karate esportivo",
     "attack-techniques": "Attack Techniques",
     "defense-techniques": "Defense Techniques",
     "throwing-techniques": "Throwing Techniques",
     "tsuki-waza": "Tsuki Waza (突き技) - Punching Techniques",
     "uchi-waza": "Uchi Waza (打ち技) - Striking Techniques",
-    "keri-waza": "Keri Waza (蹴り技) - Kicking Techniques",
+    "keri-waza": "Keri Waza (???) - T?cnicas de chute",
     "nage-waza": "Nage Waza (投げ技) - Throwing Techniques",
     "uke-waza": "Uke Waza (受け技) - Blocking Techniques",
-    "kawashi-waza": "Kawashi Waza (躱し技) - Evasion Techniques",
+    "kawashi-waza": "Kawashi Waza (???) - T?cnicas de esquiva",
     "safety-considerations": "Safety Considerations",
     "training-focus": "Training Focus",
     "attack": {
-      "title": "Attack Techniques in Kumite",
-      "description": "Effective attack techniques for sports karate",
+      "title": "T?cnicas de ataque no Kumite",
+      "description": "T?cnicas de ataque eficazes para o karate esportivo",
       "tsuki": {
         "title": "Tsuki Waza (突き技) - Técnicas de Soco",
         "description": "Técnicas de soco direto para ataques rápidos",
@@ -299,8 +299,8 @@
       }
     },
     "defense": {
-      "title": "Defense Techniques in Kumite",
-      "description": "Effective defense techniques for sports karate",
+      "title": "T?cnicas de defesa no Kumite",
+      "description": "T?cnicas de defesa eficazes para o karate esportivo",
       "uke": {
         "title": "Uke Waza (受け技) - Técnicas de Bloqueio",
         "description": "Técnicas tradicionais de bloqueio",
@@ -351,8 +351,8 @@
       }
     },
     "throwing": {
-      "title": "Throwing Techniques in Kumite",
-      "description": "Effective throwing techniques for sports karate",
+      "title": "T?cnicas de proje??o no Kumite",
+      "description": "T?cnicas de proje??o eficazes para o karate esportivo",
       "nage": {
         "title": "Nage Waza (投げ技) - Técnicas de Arremesso",
         "description": "Técnicas tradicionais de arremesso",
@@ -386,15 +386,15 @@
     }
   },
   "principles": {
-    "title": "Kumite Principles and Training Philosophy",
-    "description": "Fundamental principles for effective kumite",
+    "title": "Princ?pios do Kumite e filosofia de treinamento",
+    "description": "Princ?pios fundamentais para um kumite eficaz",
     "core-principles": "Core Principles",
     "mental-preparation": "Mental Preparation",
     "tactical-principles": "Tactical Principles",
     "physical-preparation": "Physical Preparation",
-    "competition-vs-traditional": "Competition vs. Traditional Karate",
+    "competition-vs-traditional": "Competi??o vs. karate tradicional",
     "training-methodology": "Training Methodology",
-    "safety-and-control": "Safety and Control",
+    "safety-and-control": "Seguran?a e controle",
     "mental": {
       "title": "Princípios Mentais",
       "zanshin": {
@@ -473,7 +473,7 @@
   },
   "training": {
     "title": "Kumite Training Methods",
-    "description": "Systematic training approach for kumite development",
+    "description": "Abordagem sistem?tica de treinamento para o desenvolvimento do kumite",
     "training-progression": "Training Progression",
     "training-methods": "Training Methods",
     "training-structure": "Training Structure",
@@ -538,7 +538,7 @@
   },
   "competition": {
     "title": "Kumite Competition",
-    "description": "Competition karate and competitive aspects",
+    "description": "Karate de competi??o e aspectos competitivos",
     "organizations": {
       "title": "Principais Organizações",
       "wkf": {
@@ -626,16 +626,16 @@
     "sune-uke": "Sune Uke (脛受け)"
   },
   "mental-states": {
-    "zanshin": "Zanshin (残心) - Remaining Mind",
-    "mushin": "Mushin (無心) - Mind Without Thought",
-    "fudoshin": "Fudoshin (不動心) - Immovable Mind",
-    "senshin": "Senshin (先心) - Purified Mind"
+    "zanshin": "Zanshin (??) - mente remanescente",
+    "mushin": "Mushin (??) - mente sem pensamento",
+    "fudoshin": "Fudoshin (???) - mente im?vel",
+    "senshin": "Senshin (??) - mente purificada"
   },
   "tactical-concepts": {
-    "ma-ai": "Ma-ai (間合い) - Fighting Distance",
-    "sen": "Sen (先) - Initiative",
-    "go-no-sen": "Go No Sen (後の先) - Response to Attack",
-    "sen-no-sen": "Sen No Sen (先の先) - Attacking the Attack"
+    "ma-ai": "Ma-ai (???) - dist?ncia de combate",
+    "sen": "Sen (?) - iniciativa",
+    "go-no-sen": "Go No Sen (???) - resposta ao ataque",
+    "sen-no-sen": "Sen No Sen (???) - atacar o ataque"
   },
   "competition-organizations": {
     "wkf": "World Karate Federation (WKF)",
@@ -644,13 +644,13 @@
     "wkmo": "World Karate Martial Arts Organization (WKMO)"
   },
   "scoring": {
-    "ippon": "Ippon (3 points)",
-    "waza-ari": "Waza-ari (2 points)",
-    "yuko": "Yuko (1 point)"
+    "ippon": "Ippon (3 pontos)",
+    "waza-ari": "Waza-ari (2 pontos)",
+    "yuko": "Yuko (1 ponto)"
   },
   "penalties": {
-    "chukoku": "Chukoku - First warning",
-    "keikoku": "Keikoku - Second warning",
-    "hansoku": "Hansoku - Disqualification"
+    "chukoku": "Chukoku - primeira advert?ncia",
+    "keikoku": "Keikoku - segunda advert?ncia",
+    "hansoku": "Hansoku - desclassifica??o"
   }
 }

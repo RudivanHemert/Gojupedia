@@ -1131,257 +1131,257 @@
       },
       "sanchin-dachi": {
         "english": "Hour glass stance",
-        "explanation": "Strong stance with feet turned inward, knees bent"
+        "explanation": "Postura forte com os p?s voltados para dentro e os joelhos flexionados"
       },
       "zenkutsu-dachi": {
         "english": "Long stance",
-        "explanation": "Forward stance with weight on front leg"
+        "explanation": "Postura avan?ada com o peso na perna da frente"
       },
       "kokutsu-dachi": {
         "english": "Back stance",
-        "explanation": "Back stance with weight on rear leg"
+        "explanation": "Postura recuada com o peso na perna de tr?s"
       },
       "kiba-dachi": {
         "english": "Straddle stance",
-        "explanation": "Horse stance with feet wide apart"
+        "explanation": "Postura de cavaleiro com os p?s bem afastados"
       },
       "neko-ashi-dachi": {
         "english": "Cat stance",
-        "explanation": "Cat stance with weight on back leg"
+        "explanation": "Postura do gato com o peso na perna de tr?s"
       }
     },
     "kicks": {
       "mae-geri": {
         "english": "Front Kick",
-        "explanation": "Kick delivered to the front with the ball of the foot"
+        "explanation": "Chute executado para a frente com a bola do p?"
       },
       "yoko-geri": {
         "english": "Side Kick",
-        "explanation": "Kick delivered to the side with the edge of the foot"
+        "explanation": "Chute executado para o lado com a borda do p?"
       },
       "mawashi-geri": {
         "english": "Roundhouse Kick",
-        "explanation": "Circular kick using the instep or ball of the foot"
+        "explanation": "Chute circular usando o peito ou a bola do p?"
       },
       "ushiro-geri": {
         "english": "Back Kick",
-        "explanation": "Kick delivered backward with the heel"
+        "explanation": "Chute executado para tr?s com o calcanhar"
       },
       "mikazuki-geri": {
         "english": "Crescent Kick",
-        "explanation": "Circular kick in a crescent motion"
+        "explanation": "Chute circular em movimento de meia-lua"
       }
     },
     "punches": {
       "seiken-tsuki": {
         "english": "Forefist Punch",
-        "explanation": "Basic punch with the first two knuckles"
+        "explanation": "Soco b?sico com os dois primeiros n?s dos dedos"
       },
       "gyaku-tsuki": {
         "english": "Reverse Punch",
-        "explanation": "Punch with the opposite hand to the forward foot"
+        "explanation": "Soco com a m?o oposta ao p? avan?ado"
       },
       "oi-tsuki": {
         "english": "Lunge Punch",
-        "explanation": "Stepping punch with the same hand as the forward foot"
+        "explanation": "Soco avan?ando com a mesma m?o do p? avan?ado"
       },
       "kizami-tsuki": {
         "english": "Jab Punch",
-        "explanation": "Quick jab punch with the front hand"
+        "explanation": "Soco r?pido com a m?o da frente"
       }
     },
     "blocks": {
       "age-uke": {
         "english": "Rising Block",
-        "explanation": "Block that deflects attacks upward"
+        "explanation": "Bloqueio que desvia ataques para cima"
       },
       "gedan-barai": {
         "english": "Downward Sweep",
-        "explanation": "Sweeping block for low attacks"
+        "explanation": "Bloqueio de varredura para ataques baixos"
       },
       "soto-uke": {
         "english": "Outside Block",
-        "explanation": "Block that deflects attacks from inside to outside"
+        "explanation": "Bloqueio que desvia ataques de dentro para fora"
       },
       "uchi-uke": {
         "english": "Inside Block",
-        "explanation": "Block that deflects attacks from outside to inside"
+        "explanation": "Bloqueio que desvia ataques de fora para dentro"
       }
     },
     "kata": {
       "sanchin": {
         "english": "Three Battles",
-        "explanation": "Represents mind, body, and spirit - the foundation kata"
+        "explanation": "Representa mente, corpo e esp?rito - o kata fundamental"
       },
       "tensho": {
         "english": "Turning Palms",
-        "explanation": "Soft circular movements contrasting with Sanchin's hardness"
+        "explanation": "Movimentos circulares suaves que contrastam com a dureza de Sanchin"
       },
       "gekisai-dai-ichi": {
         "english": "Attack and Smash Number One",
-        "explanation": "First of the Gekisai kata, created by Chojun Miyagi"
+        "explanation": "Primeiro dos kata Gekisai, criado por Chojun Miyagi"
       },
       "gekisai-dai-ni": {
         "english": "Attack and Smash Number Two",
-        "explanation": "Second of the Gekisai kata, more advanced than Dai Ichi"
+        "explanation": "Segundo dos kata Gekisai, mais avan?ado que Dai Ichi"
       },
       "saifa": {
         "english": "Smash and Tear",
-        "explanation": "One of the traditional kaishugata"
+        "explanation": "Um dos kaishugata tradicionais"
       },
       "seiyunchin": {
         "english": "Control and Pull Battle",
-        "explanation": "Kata focusing on close combat techniques"
+        "explanation": "Kata focado em t?cnicas de combate pr?ximo"
       },
       "shisochin": {
         "english": "Four Direction Battle",
-        "explanation": "Kata with techniques in four directions"
+        "explanation": "Kata com t?cnicas em quatro dire??es"
       },
       "sanseru": {
         "english": "Thirty-Six Hands",
-        "explanation": "Advanced kata with 36 techniques"
+        "explanation": "Kata avan?ado com 36 t?cnicas"
       },
       "seipai": {
         "english": "Eighteen Hands",
-        "explanation": "Advanced kata with 18 techniques"
+        "explanation": "Kata avan?ado com 18 t?cnicas"
       },
       "kururunfa": {
         "english": "Holding Ground",
-        "explanation": "Advanced kata emphasizing stability and power"
+        "explanation": "Kata avan?ado que enfatiza estabilidade e pot?ncia"
       },
       "seisan": {
         "english": "Thirteen Hands",
-        "explanation": "Advanced kata with 13 techniques"
+        "explanation": "Kata avan?ado com 13 t?cnicas"
       },
       "suparinpei": {
         "english": "One Hundred and Eight Hands",
-        "explanation": "The most advanced kata with 108 techniques"
+        "explanation": "O kata mais avan?ado, com 108 t?cnicas"
       }
     },
     "philosophy": {
       "goju-ryu": {
         "english": "Hard-Soft Style",
-        "explanation": "The name means 'hard-soft style', combining hard and soft techniques"
+        "explanation": "O nome significa ?estilo duro-suave?, combinando t?cnicas duras e suaves"
       },
       "dojo-kun": {
         "english": "Training Hall Precepts",
-        "explanation": "The five precepts that guide karate practice"
+        "explanation": "Os cinco preceitos que orientam a pr?tica do karate"
       },
       "karate-do": {
         "english": "Way of the Empty Hand",
-        "explanation": "The martial art as a way of life, not just fighting"
+        "explanation": "A arte marcial como modo de vida, n?o apenas luta"
       },
       "mind-body-unity": {
         "english": "Shin-Gi-Tai (心技体)",
-        "explanation": "The unity of mind, technique, and body in training"
+        "explanation": "A unidade de mente, t?cnica e corpo no treinamento"
       },
       "respect": {
         "english": "Rei",
-        "explanation": "Fundamental principle of respect in karate"
+        "explanation": "Princ?pio fundamental de respeito no karate"
       },
       "perseverance": {
         "english": "Nin",
-        "explanation": "Endurance and patience in training"
+        "explanation": "Resist?ncia e paci?ncia no treinamento"
       },
       "etiquette": {
         "english": "Reigi",
-        "explanation": "Proper behavior and manners in the dojo"
+        "explanation": "Comportamento e boas maneiras adequados no dojo"
       },
       "character": {
         "english": "Jinkaku",
-        "explanation": "Building character through karate training"
+        "explanation": "Constru??o do car?ter por meio do treinamento de karate"
       },
       "sincerity": {
         "english": "Makoto",
-        "explanation": "Honesty and sincerity in practice"
+        "explanation": "Honestidade e sinceridade na pr?tica"
       },
       "self-control": {
         "english": "Jisei",
-        "explanation": "Controlling one's emotions and actions"
+        "explanation": "Controle das pr?prias emo??es e a??es"
       }
     },
     "numbers": {
       "ichi": {
         "english": "One",
-        "explanation": "First number, used in counting techniques"
+        "explanation": "Primeiro n?mero, usado na contagem de t?cnicas"
       },
       "ni": {
         "english": "Two",
-        "explanation": "Second number, used in counting techniques"
+        "explanation": "Segundo n?mero, usado na contagem de t?cnicas"
       },
       "san": {
         "english": "Three",
-        "explanation": "Third number, used in counting techniques"
+        "explanation": "Terceiro n?mero, usado na contagem de t?cnicas"
       },
       "yon": {
         "english": "Four",
-        "explanation": "Fourth number, used in counting techniques"
+        "explanation": "Quarto n?mero, usado na contagem de t?cnicas"
       },
       "go": {
         "english": "Five",
-        "explanation": "Fifth number, used in counting techniques"
+        "explanation": "Quinto n?mero, usado na contagem de t?cnicas"
       },
       "roku": {
         "english": "Six",
-        "explanation": "Sixth number, used in counting techniques"
+        "explanation": "Sexto n?mero, usado na contagem de t?cnicas"
       },
       "shichi": {
         "english": "Seven",
-        "explanation": "Seventh number, used in counting techniques"
+        "explanation": "S?timo n?mero, usado na contagem de t?cnicas"
       },
       "hachi": {
         "english": "Eight",
-        "explanation": "Eighth number, used in counting techniques"
+        "explanation": "Oitavo n?mero, usado na contagem de t?cnicas"
       },
       "kyu": {
         "english": "Nine",
-        "explanation": "Ninth number, used in counting techniques"
+        "explanation": "Nono n?mero, usado na contagem de t?cnicas"
       },
       "ju": {
         "english": "Ten",
-        "explanation": "Tenth number, used in counting techniques"
+        "explanation": "D?cimo n?mero, usado na contagem de t?cnicas"
       }
     },
     "general": {
       "dojo": {
         "english": "Training Hall",
-        "explanation": "The place where karate is practiced"
+        "explanation": "O lugar onde o karate ? praticado"
       },
       "sensei": {
         "english": "Teacher",
-        "explanation": "Respectful term for karate instructor"
+        "explanation": "Termo respeitoso para instrutor de karate"
       },
       "sempai": {
         "english": "Senior Student",
-        "explanation": "Student with more experience"
+        "explanation": "Aluno com mais experi?ncia"
       },
       "kohai": {
         "english": "Junior Student",
-        "explanation": "Student with less experience"
+        "explanation": "Aluno com menos experi?ncia"
       },
       "obi": {
         "english": "Belt",
-        "explanation": "The belt worn with the karate uniform"
+        "explanation": "A faixa usada com o uniforme de karate"
       },
       "gi": {
         "english": "Uniform",
-        "explanation": "The karate training uniform"
+        "explanation": "O uniforme de treino de karate"
       },
       "kumite": {
         "english": "Sparring",
-        "explanation": "Partner training and fighting practice"
+        "explanation": "Treino com parceiro e pr?tica de combate"
       },
       "kata": {
         "english": "Form",
-        "explanation": "Pre-arranged sequence of techniques"
+        "explanation": "Sequ?ncia pr?-arranjada de t?cnicas"
       },
       "kihon": {
         "english": "Basics",
-        "explanation": "Fundamental techniques and movements"
+        "explanation": "T?cnicas e movimentos fundamentais"
       },
       "bunkai": {
         "english": "Analysis",
-        "explanation": "Application of kata techniques"
+        "explanation": "Aplica??o das t?cnicas do kata"
       }
     }
   }

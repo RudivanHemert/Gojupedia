@@ -78,8 +78,8 @@
         }
       },
       "examRequirements": {
-        "title": "Exam Requirements",
-        "description": "Select a rank to view the specific requirements for that grading."
+        "title": "Requisitos de Exame",
+        "description": "Selecione uma gradua??o para ver os requisitos espec?ficos desse exame."
       },
       "beltColors": {
         "title": "Cores das Faixas (Graus Kyu)",
@@ -116,128 +116,128 @@
             "description": "Maturidade e estabilidade"
           },
           "black": {
-            "name": "Black",
+            "name": "Preta",
             "japanese": "黒帯",
-            "description": "Maturity - the journey only begins"
+            "description": "Maturidade - a jornada apenas come?a"
           }
         }
       },
       "titles": {
-        "title": "Titles",
-        "description": "Different titles and ranks in the karate world",
+        "title": "T?tulos",
+        "description": "Diferentes t?tulos e gradua??es no mundo do karate",
         "studentTitles": {
-          "title": "Student Titles",
+          "title": "T?tulos de Aluno",
           "titles": {
             "mudansha": {
               "name": "Mudansha",
               "japanese": "無段者",
-              "description": "Student without black belt"
+              "description": "Aluno sem faixa preta"
             },
             "yudansha": {
               "name": "Yudansha",
               "japanese": "有段者",
-              "description": "Black belt holder"
+              "description": "Portador de faixa preta"
             },
             "karateka": {
               "name": "Karateka",
               "japanese": "空手家",
-              "description": "Karate practitioner"
+              "description": "Praticante de karate"
             },
             "sempai": {
               "name": "Sempai",
               "japanese": "先輩",
-              "description": "Senior student"
+              "description": "Aluno s?nior"
             },
             "kohai": {
               "name": "Kohai",
               "japanese": "後輩",
-              "description": "Junior student"
+              "description": "Aluno j?nior"
             },
             "uchiDeshi": {
               "name": "Uchi Deshi",
               "japanese": "内弟子",
-              "description": "Live-in student"
+              "description": "Aluno residente"
             }
           }
         },
         "instructorTitles": {
-          "title": "Instructor Titles",
+          "title": "T?tulos de Instrutor",
           "titles": {
             "sensei": {
               "name": "Sensei",
               "japanese": "先生",
-              "description": "Teacher"
+              "description": "Professor"
             },
             "shihan": {
               "name": "Shihan",
               "japanese": "師範",
-              "description": "Master instructor, teacher of teachers"
+              "description": "Instrutor mestre, professor de professores"
             },
             "renshi": {
               "name": "Renshi",
               "japanese": "錬士",
-              "description": "Polished instructor (teaching title)"
+              "description": "Instrutor polido (t?tulo de ensino)"
             },
             "kyoshi": {
               "name": "Kyoshi",
               "japanese": "教士",
-              "description": "Advanced teacher (teaching title)"
+              "description": "Professor avan?ado (t?tulo de ensino)"
             },
             "hanshi": {
               "name": "Hanshi",
               "japanese": "範士",
-              "description": "Exemplary teacher, master (teaching title)"
+              "description": "Professor exemplar, mestre (t?tulo de ensino)"
             }
           }
         },
         "otherTitles": {
-          "title": "Other Titles",
+          "title": "Outros T?tulos",
           "titles": {
             "bushi": {
               "name": "Bushi",
               "japanese": "武士",
-              "description": "Great martial artist"
+              "description": "Grande artista marcial"
             },
             "shushin": {
               "name": "Shushin",
               "japanese": "主審",
-              "description": "Referee"
+              "description": "?rbitro"
             },
             "fukushin": {
               "name": "Fukushin",
               "japanese": "副審",
-              "description": "Assistant referee"
+              "description": "?rbitro assistente"
             },
             "kansa": {
               "name": "Kansa",
               "japanese": "監査",
-              "description": "Judge"
+              "description": "Juiz"
             }
           }
         }
       },
       "gradingSystem": {
-        "title": "Grading System",
-        "description": "How the grading system works",
+        "title": "Sistema de Gradua??o",
+        "description": "Como funciona o sistema de gradua??o",
         "kyuSystem": {
-          "title": "Kyu System",
-          "description": "The kyu system for colored belts",
+          "title": "Sistema Kyu",
+          "description": "O sistema kyu para faixas coloridas",
           "levels": {
-            "10th_kyu": "10th Kyu",
-            "9th_kyu": "9th Kyu",
-            "8th_kyu": "8th Kyu",
-            "7th_kyu": "7th Kyu",
-            "6th_kyu": "6th Kyu",
-            "5th_kyu": "5th Kyu",
-            "4th_kyu": "4th Kyu",
-            "3rd_kyu": "3rd Kyu",
-            "2nd_kyu": "2nd Kyu",
-            "1st_kyu": "1st Kyu"
+            "10th_kyu": "10? Kyu",
+            "9th_kyu": "9? Kyu",
+            "8th_kyu": "8? Kyu",
+            "7th_kyu": "7? Kyu",
+            "6th_kyu": "6? Kyu",
+            "5th_kyu": "5? Kyu",
+            "4th_kyu": "4? Kyu",
+            "3rd_kyu": "3? Kyu",
+            "2nd_kyu": "2? Kyu",
+            "1st_kyu": "1? Kyu"
           }
         },
         "danSystem": {
-          "title": "Dan System",
-          "description": "The dan system for black belts",
+          "title": "Sistema Dan",
+          "description": "O sistema dan para faixas pretas",
           "levels": {
             "shodan": "Shodan",
             "nidan": "Nidan",
@@ -254,174 +254,174 @@
       }
     },
     "regulations": {
-      "title": "IOGKF International Black Belt Grading Regulations",
+      "title": "Regulamento internacional da IOGKF para exames de faixa preta",
       "intro": {
-        "title": "1. Introduction",
-        "text": "The purpose of this update is to clarify and standardize the black belt grading system and rules among IOGKF member countries."
+        "title": "1. Introdu??o",
+        "text": "O objetivo desta atualiza??o ? esclarecer e padronizar o sistema e as regras de exames de faixa preta entre os pa?ses membros da IOGKF."
       },
       "perspective": {
-        "title": "2. Perspective on Dan Gradings",
-        "text": "Dan grading awards is an indication of an individual’s progress in Karate-Do and only really relevant to oneself. The following three ‘pillars’ illustrates the holistic Budo environment of the Way of Karate-Do upon which development and progress is evaluated:"
+        "title": "2. Perspectiva sobre exames Dan",
+        "text": "A atribui??o de gradua??es Dan ? uma indica??o do progresso individual no Karate-Do e s? ? realmente relevante para a pr?pria pessoa. Os tr?s pilares a seguir ilustram o ambiente Budo hol?stico do Caminho do Karate-Do, no qual o desenvolvimento e o progresso s?o avaliados:"
       },
       "junior": {
-        "title": "3.1 Childrens’ Black Belt Grades",
-        "text": "Students under the age of 18 may also grade to black belt – it is the responsibility of the individual countries to set the standard for such a grading. It is common practice to split the junior dan grading into 3 or 4 categories.",
+        "title": "3.1 Gradua??es de faixa preta infantis",
+        "text": "Alunos com menos de 18 anos tamb?m podem prestar exame para faixa preta - cabe a cada pa?s definir o padr?o para esse exame. ? pr?tica comum dividir o exame dan j?nior em 3 ou 4 categorias.",
         "categories": {
-          "kakyu": "Ka-kyu shodan 10 – 13 years",
-          "chukyu": "Chu-kyu shodan 14 – 15 years",
-          "jokyu": "Jo-kyu shodan 16 – 17 years"
+          "kakyu": "Ka-kyu shodan 10 - 13 anos",
+          "chukyu": "Chu-kyu shodan 14 - 15 anos",
+          "jokyu": "Jo-kyu shodan 16 - 17 anos"
         },
-        "registration": "Regarding junior gradings (all gradings under 18 years) – it is important that the candidates are registered within the IOGKF system and that the appropriate grading fees are paid.",
-        "turning18": "On becoming 18 years old – the student must grade to senior shodan on the same conditions and fulfilling requirements as everybody else."
+        "registration": "Em rela??o aos exames j?nior (todos os exames abaixo de 18 anos), ? importante que os candidatos estejam registrados no sistema da IOGKF e que as taxas de exame apropriadas sejam pagas.",
+        "turning18": "Ao completar 18 anos, o aluno deve prestar exame para shodan s?nior nas mesmas condi??es e cumprindo os mesmos requisitos que todos os demais."
       },
       "senior": {
-        "title": "3.2 Senior Ranks",
+        "title": "3.2 Gradua??es s?nior",
         "sandan": {
           "title": "3.2.1 Sandan",
-          "text": "This is the first step into the ‘Senior’ or ‘Sensei’ hierarchy where certain character qualities should start becoming prevalent, therefore, the minimum time requirements are not merely enough, the candidate is expected to put something extra into their efforts. The following, more specific, considerations are relevant to sandan candidates:",
+          "text": "Este ? o primeiro passo para a hierarquia ?S?nior? ou ?Sensei?, na qual certas qualidades de car?ter devem come?ar a se destacar. Portanto, cumprir apenas o tempo m?nimo n?o ? suficiente; espera-se que o candidato coloque algo a mais em seus esfor?os. As seguintes considera??es mais espec?ficas s?o relevantes para candidatos a sandan:",
           "points": [
-            "More physical ability and technical ability than candidates for nidan.",
-            "A show of commitment to the organization, such as: Involvement and support at regional or national events.",
-            "Status - Instructor or assistant instructor - No person can really attempt sandan grade unless they have been teaching as well, even if only on an ad hoc basis.",
-            "Demonstrates loyalty to the organization, fellow members and the Chief Instructor.",
-            "Status amongst peers - how do their peers regard their abilities, personality, etc.?"
+            "Maior capacidade f?sica e t?cnica do que candidatos a nidan.",
+            "Demonstra??o de compromisso com a organiza??o, como envolvimento e apoio em eventos regionais ou nacionais.",
+            "Status - instrutor ou instrutor assistente - ningu?m pode realmente tentar a gradua??o sandan sem tamb?m ter ensinado, ainda que apenas de forma pontual.",
+            "Demonstra lealdade ? organiza??o, aos demais membros e ao Instrutor Chefe.",
+            "Status entre os pares - como seus pares avaliam suas habilidades, personalidade etc.?"
           ]
         },
         "yondan": {
           "title": "3.2.2 Yondan",
-          "text": "Everything required for sandan one step up, plus, a greater sense of being involved in the organization. Physical ability and conditioning are important – they must be able to 'handle’ themselves, considering, of course, age."
+          "text": "Tudo o que ? exigido para sandan em um n?vel acima, al?m de um maior senso de envolvimento com a organiza??o. Capacidade f?sica e condicionamento s?o importantes; considerando, claro, a idade, devem ser capazes de lidar consigo mesmos."
         },
         "godan": {
           "title": "3.2.3 Godan",
-          "text": "Senior black belt level with the following considerations:",
+          "text": "N?vel s?nior de faixa preta, com as seguintes considera??es:",
           "points": [
-            "Have they earned the respect of senior instructors, junior and senior members of their dojo and country by their behaviour, both on and off the floor – proper attitude, unquestionable loyalty to the organization?",
-            "Do they have the maturity of character to accept criticism and to progress from it?",
-            "Do they have an objective sense of judgement?",
-            "Physical ability is important – are they able to 'handle’ themselves?",
-            "Do they self-train regularly?"
+            "Conquistaram o respeito de instrutores s?nior, membros juniores e seniores de seu dojo e pa?s por seu comportamento, dentro e fora do tatame - atitude correta e lealdade inquestion?vel ? organiza??o?",
+            "T?m maturidade de car?ter para aceitar cr?ticas e progredir a partir delas?",
+            "T?m senso objetivo de julgamento?",
+            "A capacidade f?sica ? importante - s?o capazes de lidar consigo mesmos?",
+            "Treinam por conta pr?pria regularmente?"
           ]
         },
         "rokudan": {
           "title": "3.2.4 Rokudan",
-          "text": "Starting to move into the 'upper echelons' of the organization, nationally as well as internationally. Physical ability and conditioning are important – considering age, candidates should still be improving technically and physically and should be seen by everyone as a person who endeavours to embody the philosophy of karate-do. Rokudan is usually the minimum rank qualification for ‘Shihan’, given only by invitation of the Honbu grading panel, which means 'Role Model' – or ‘Professor’, in other words: Do juniors below them and seniors above them respect them apart from their physical abilities?",
-          "considerationsTitle": "Other considerations for this level are:",
+          "text": "Come?a a entrada nos ?n?veis superiores? da organiza??o, tanto nacional quanto internacionalmente. Capacidade f?sica e condicionamento s?o importantes; considerando a idade, os candidatos ainda devem estar evoluindo t?cnica e fisicamente e devem ser vistos por todos como pessoas que se esfor?am para incorporar a filosofia do karate-do. Rokudan ? normalmente a gradua??o m?nima para ?Shihan?, concedida apenas por convite do painel de exames Honbu, que significa ?Modelo? ou ?Professor?. Em outras palavras: juniores abaixo deles e seniores acima deles os respeitam para al?m de suas capacidades f?sicas?",
+          "considerationsTitle": "Outras considera??es para este n?vel s?o:",
           "points": [
-            "Do they continue to promote traditional karate and embody loyalty to the Chief Instructor and the rest of the organization?",
-            "Do they possess the leadership qualities: Do they lead by example?",
-            "Do other members of the international karate society accept and/or respect their abilities?",
-            "What is their standing in the world outside karate? (Will people outside of the karate world have respected this person even if they did not have karate as a claim to ‘fame’?)",
-            "Exhibit appropriate behaviour outside of the dojo."
+            "Continuam a promover o karate tradicional e a incorporar lealdade ao Instrutor Chefe e ao restante da organiza??o?",
+            "Possuem qualidades de lideran?a: lideram pelo exemplo?",
+            "Outros membros da comunidade internacional de karate aceitam e/ou respeitam suas habilidades?",
+            "Qual ? sua posi??o no mundo fora do karate? (Pessoas fora do mundo do karate respeitariam essa pessoa mesmo que ela n?o tivesse o karate como motivo de ?fama??)",
+            "Demonstra comportamento adequado fora do dojo."
           ]
         },
         "highranks": {
-          "title": "3.2.5 Nanadan, hachidan and higher",
-          "text": "Candidates are now becoming a manifestation of Okinawan Goju Ryu and have mastered most of the basic concepts, and although they are a senior master, they still remain as students of karate-do – metaphorically, this is equivalent to a Professor at university. They must attend chief instructor gasshuku on a regular basis. Candidates will be informed by the IOGKF executive committee 6 or 12 months before they are invited to test, during this time they must present themselves at a gasshuku given by anyone of the Honbu grading panel. These ranks are on an invitation basis only."
+          "title": "3.2.5 Nanadan, hachidan e superiores",
+          "text": "Os candidatos passam a se tornar uma manifesta??o do Okinawan Goju Ryu e dominaram a maioria dos conceitos b?sicos. Embora sejam mestres seniores, continuam sendo alunos de karate-do; metaforicamente, isto equivale a um professor universit?rio. Devem participar regularmente do gasshuku de instrutores chefes. Os candidatos ser?o informados pelo comit? executivo da IOGKF 6 ou 12 meses antes de serem convidados a prestar exame; durante esse per?odo, devem se apresentar em um gasshuku ministrado por qualquer membro do painel de exames Honbu. Essas gradua??es s?o concedidas somente por convite."
         }
       },
       "honorary": {
-        "title": "3.3 Honorary Dan Grade",
-        "text": "At the discretion of the EC, an honorary dan grade may be awarded on an individual basis for the following reasons:",
+        "title": "3.3 Gradua??o Dan honor?ria",
+        "text": "A crit?rio do CE, uma gradua??o dan honor?ria pode ser concedida individualmente pelos seguintes motivos:",
         "points": [
-          "Contribution to the association",
-          "Promotion of the IOGKF",
-          "Where an individual has had to limit their training for reasons beyond their control."
+          "Contribui??o para a associa??o",
+          "Promo??o da IOGKF",
+          "Quando uma pessoa precisou limitar seu treinamento por raz?es al?m de seu controle."
         ]
       },
       "chiefInstructors": {
-        "title": "3.4 Chief Instructors – Kambukai – Representatives",
-        "text": "A Country Chief Instructor, Kambukai member or Representative needs permission from the EC for their grading and MUST grade under the appointed grading examiner."
+        "title": "3.4 Instrutores Chefes - Kambukai - Representantes",
+        "text": "Um Instrutor Chefe de pa?s, membro Kambukai ou Representante precisa de permiss?o do CE para seu exame e DEVE prestar exame sob o examinador designado."
       },
       "generalRules": {
-        "title": "4. General Rules for Dan Gradings",
+        "title": "4. Regras gerais para exames Dan",
         "admin": {
-          "title": "4.1 Administrative Requirements",
+          "title": "4.1 Requisitos administrativos",
           "points": [
-            "Only members whose countries are current regarding country affiliations, can be tested and registered for IOGKF Dan rankings.",
-            "Any country not paying IOGKF affiliation for a period of two years consecutively and/or a country chief instructor failing to attend three CI gasshukus consecutively, or any international gasshuku within the same period, will forfeit all grading mandates as defined herein."
+            "Somente membros cujos pa?ses estejam em dia com as afilia??es nacionais podem ser examinados e registrados para gradua??es Dan da IOGKF.",
+            "Qualquer pa?s que n?o pague a afilia??o ? IOGKF por dois anos consecutivos e/ou cujo Instrutor Chefe nacional deixe de participar de tr?s gasshukus de IC consecutivos, ou de qualquer gasshuku internacional no mesmo per?odo, perder? todos os mandatos de exame definidos aqui."
           ]
         },
         "timeFee": {
-          "title": "4.2 Time, Gasshuku and Registration Fee requirements",
+          "title": "4.2 Requisitos de tempo, gasshuku e taxa de registro",
           "definitions": {
-            "title": "4.2.1 Definitions of qualifying gasshuku",
+            "title": "4.2.1 Defini??es de gasshuku qualificadores",
             "points": [
-              "National. Any gasshuku organized by a national organization.",
-              "International. Any gasshuku of international status shall be conducted by Saiko Shihan, Shuseki Shihan, Fuku Shuseki Shihan or Gijutsu Komon (i.e. Budosai, European Gasshuku, or any special gasshuku defined by the EC)"
+              "Nacional. Qualquer gasshuku organizado por uma organiza??o nacional.",
+              "Internacional. Qualquer gasshuku de status internacional deve ser conduzido por Saiko Shihan, Shuseki Shihan, Fuku Shuseki Shihan ou Gijutsu Komon (isto ?, Budosai, Gasshuku Europeu ou qualquer gasshuku especial definido pelo CE)."
             ],
-            "note": "NOTE – Minimum time periods are based on the assumption of minimum training of 4 hours per week with a senior instructor. In the event of an instructor being of lower rank, the time period could be longer. Minimum time and minimum age criteria are both adhered to."
+            "note": "NOTA - Os per?odos m?nimos de tempo baseiam-se na suposi??o de treinamento m?nimo de 4 horas por semana com um instrutor s?nior. Se o instrutor for de gradua??o inferior, o per?odo pode ser maior. Os crit?rios de tempo m?nimo e idade m?nima devem ser respeitados."
           },
           "factors": {
-            "title": "4.2.2 Factors that could influence time requirements",
-            "registration": "All dan grades should be registered and approved by the IOGKF – if this requirement is not met, the IOGKF will annul the grade and the individual must undergo a new grading under the correct conditions.",
+            "title": "4.2.2 Fatores que podem influenciar os requisitos de tempo",
+            "registration": "Todas as gradua??es dan devem ser registradas e aprovadas pela IOGKF; se esse requisito n?o for cumprido, a IOGKF anular? a gradua??o e a pessoa dever? passar por novo exame nas condi??es corretas.",
             "increasingTime": {
-              "title": "Increasing the time period",
-              "text": "At the discretion of the country Chief Instructor the minimum time period may be increased for the following reasons:",
+              "title": "Aumento do per?odo de tempo",
+              "text": "A crit?rio do Instrutor Chefe do pa?s, o per?odo m?nimo pode ser aumentado pelos seguintes motivos:",
               "points": [
-                "The individual has not achieved the necessary level with respect to the grade sought.",
-                "A person is mostly self-taught, not necessarily training under supervision per se. This does not qualify the person for the above time period specification",
-                "A period of more than three months of non–training due to injury or other reasons since the last grading."
+                "A pessoa n?o alcan?ou o n?vel necess?rio em rela??o ? gradua??o pretendida.",
+                "A pessoa ? majoritariamente autodidata, n?o necessariamente treinando sob supervis?o propriamente dita. Isso n?o a qualifica para a especifica??o de per?odo acima.",
+                "Um per?odo de mais de tr?s meses sem treinamento devido a les?o ou outros motivos desde o ?ltimo exame."
               ]
             },
             "reducingTime": {
-              "title": "Reducing the time period",
+              "title": "Redu??o do per?odo de tempo",
               "points": [
-                "Time delay between immediate previous grading dates – e.g. a person took 6/7 years to advance from yondan to godan, can therefore get 'credit' of not more than one year, e.g. godan to rokudan in 5 years.",
-                "If the student in question has been a junior black belt for many years. Then after they reach 18, they grade to adult shodan. However, they may grade to nidan after one year. Thereafter, the published grading time periods must be adhered to. NB. The individual’s age would continue to be one year less than “traditionally required” for that grade."
+                "Intervalo entre datas de exames imediatamente anteriores - por exemplo, uma pessoa levou 6/7 anos para avan?ar de yondan para godan e, portanto, pode receber ?cr?dito? de no m?ximo um ano, por exemplo, godan para rokudan em 5 anos.",
+                "Se o aluno em quest?o foi faixa preta j?nior por muitos anos. Depois de completar 18 anos, presta exame para shodan adulto. No entanto, pode prestar exame para nidan ap?s um ano. Depois disso, os per?odos de exame publicados devem ser seguidos. NB. A idade da pessoa continuaria sendo um ano menor do que a ?tradicionalmente exigida? para essa gradua??o."
               ]
             },
             "otherOrg": {
-              "title": "Black belt received from another organization",
-              "text": "Newly joined members who have a dan grade from their previous organization must re-grade under IOGKF standards. Minimum time, age and gasshuku attendance requirements should apply from the date they joined the organization. The grading they receive may be lower according to the IOGKF grading requirements."
+              "title": "Faixa preta recebida de outra organiza??o",
+              "text": "Novos membros que tenham gradua??o dan de sua organiza??o anterior devem prestar novo exame segundo os padr?es da IOGKF. Os requisitos m?nimos de tempo, idade e participa??o em gasshuku devem contar a partir da data em que ingressaram na organiza??o. A gradua??o recebida pode ser inferior conforme os requisitos de exame da IOGKF."
             }
           }
         },
         "categories": {
-          "title": "4.3 Grading Categories and Mandate",
-          "text": "Country chief instructors, kambukai and representatives mandated by Higaonna Sensei, can conduct dan gradings as follow:",
+          "title": "4.3 Categorias de exame e mandato",
+          "text": "Instrutores Chefes de pa?s, kambukai e representantes mandatados por Higaonna Sensei podem conduzir exames dan da seguinte forma:",
           "chiefs": {
-            "title": "Chief instructors",
+            "title": "Instrutores Chefes",
             "points": [
-              "Hachidan chief instructor: Can grade up to godan",
-              "EC-members: Can grade up to godan",
-              "Nanadan chief instructor: Can grade up to yondan within their own country",
-              "Rokudan chief instructor: Can grade up to yondan within their own country",
-              "Godan chief instructor: Can grade up to sandan within their own country",
-              "Yondan chief instructor: Can grade up to shodan within their own country",
-              "Sandan, nidan, shodan chief instructor: Can not conduct black belt gradings"
+              "Instrutor Chefe hachidan: pode examinar at? godan",
+              "Membros do CE: podem examinar at? godan",
+              "Instrutor Chefe nanadan: pode examinar at? yondan em seu pr?prio pa?s",
+              "Instrutor Chefe rokudan: pode examinar at? yondan em seu pr?prio pa?s",
+              "Instrutor Chefe godan: pode examinar at? sandan em seu pr?prio pa?s",
+              "Instrutor Chefe yondan: pode examinar at? shodan em seu pr?prio pa?s",
+              "Instrutor Chefe sandan, nidan ou shodan: n?o pode conduzir exames de faixa preta"
             ],
-            "note": "Dan gradings in countries where the instructor is not permitted to grade can only be conducted by a senior IOGKF instructor with the permission of the shuseki shihan and that country’s chief instructor. Grading categories and mandates may be waived for honorary dan grades."
+            "note": "Exames dan em pa?ses onde o instrutor n?o tem permiss?o para examinar s? podem ser conduzidos por um instrutor s?nior da IOGKF com permiss?o do shuseki shihan e do Instrutor Chefe daquele pa?s. Categorias e mandatos de exame podem ser dispensados para gradua??es dan honor?rias."
           },
           "kambukai": {
-            "title": "Kambukai countries",
-            "text": "The grading level for a kambukai is the same as for the chief instructors. Grading categories and the mandate are the same as above."
+            "title": "Pa?ses Kambukai",
+            "text": "O n?vel de exame para um kambukai ? o mesmo que para os Instrutores Chefes. As categorias de exame e o mandato s?o os mesmos descritos acima."
           },
           "representatives": {
-            "title": "Representative countries",
-            "text": "IOGKF representatives of a minimum of yondan may only grade up to shodan. This privilege is only granted if the representative country has been a member of IOGKF for a minimum of 2 years and the representatives have participated in international gasshuku."
+            "title": "Pa?ses representantes",
+            "text": "Representantes da IOGKF com gradua??o m?nima de yondan s? podem examinar at? shodan. Esse privil?gio s? ? concedido se o pa?s representante for membro da IOGKF h? pelo menos 2 anos e se os representantes tiverem participado de gasshuku internacional."
           },
-          "permission": "**** No student can be graded in another country without the express permission of their chief instructor. Their chief instructor must sign the application form."
+          "permission": "**** Nenhum aluno pode ser examinado em outro pa?s sem a permiss?o expressa de seu Instrutor Chefe. O Instrutor Chefe deve assinar o formul?rio de inscri??o."
         },
         "honbu": {
-          "title": "4.4 Honbu Dojo grading panel",
-          "text": "Candidates grading to rokudan and above must be graded in Okinawa or at the Chief Instructor Gasshuku. The Honbu Dojo grading panel will be appointed by the Saiko Shihan."
+          "title": "4.4 Painel de exames do Honbu Dojo",
+          "text": "Candidatos a rokudan e acima devem ser examinados em Okinawa ou no Gasshuku de Instrutores Chefes. O painel de exames do Honbu Dojo ser? nomeado pelo Saiko Shihan."
         },
         "international": {
-          "title": "4.8 International Gasshuku Grading Requirements",
+          "title": "4.8 Requisitos de exame em Gasshuku Internacional",
           "points": [
-            "For all international gasshuku it is a requirement that the candidate must have completed the written examination beforehand and has been approved by the chief instructor. The chief instructor also has to sign the candidates’ application form; otherwise it will not be possible to be graded."
+            "Para todos os gasshuku internacionais, ? requisito que o candidato tenha conclu?do previamente o exame escrito e tenha sido aprovado pelo Instrutor Chefe. O Instrutor Chefe tamb?m deve assinar o formul?rio de inscri??o do candidato; caso contr?rio, n?o ser? poss?vel prestar exame."
           ]
         }
       },
       "writtenExam": {
-        "title": "5. The Written Exam",
+        "title": "5. O exame escrito",
         "low": {
-          "title": "5.1 Shodan, Nidan or Sandan",
-          "text": "In order to grade to shodan, nidan or sandan, the written exam must be completed and given to the candidate’s chief instructor before attending the international gasshuku. The exam must have a passing rate of a minimum of 75%. If this is not achieved, the candidate can not grade."
+          "title": "5.1 Shodan, Nidan ou Sandan",
+          "text": "Para prestar exame para shodan, nidan ou sandan, o exame escrito deve ser conclu?do e entregue ao Instrutor Chefe do candidato antes de participar do gasshuku internacional. O exame deve ter aprova??o m?nima de 75%. Se isso n?o for alcan?ado, o candidato n?o poder? prestar exame."
         },
         "high": {
-          "title": "5.2 Yondan and up",
-          "text": "In order to grade to these levels, a written essay concerning some of the challenges facing karate and Okinawan Goju Ryu must be completed and submitted. The candidate’s chief instructor can get the chosen questions by contacting the Administrative Director prior to the grading. The answer/essay must be in English for the international gradings."
+          "title": "5.2 Yondan e acima",
+          "text": "Para prestar exame nesses n?veis, deve ser conclu?da e enviada uma reda??o escrita sobre alguns dos desafios enfrentados pelo karate e pelo Okinawan Goju Ryu. O Instrutor Chefe do candidato pode obter as perguntas escolhidas entrando em contato com o Diretor Administrativo antes do exame. A resposta/reda??o deve estar em ingl?s para exames internacionais."
         }
       }
     }

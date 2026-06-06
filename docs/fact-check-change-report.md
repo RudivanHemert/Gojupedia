@@ -1,6 +1,6 @@
 # Fact-Check Implementation Change Report
 
-Generated: 2026-06-01T18:02:36.361Z
+Generated: 2026-06-04T09:34:19.548Z
 
 ## Implemented Changes
 
@@ -38,37 +38,36 @@ Generated: 2026-06-01T18:02:36.361Z
 ## Baseline Findings
 
 - Inventory rows: 685
-- High-priority claim candidates: 3767
+- High-priority claim candidates: 3843
 - Translation issue rows: 0
 - Missing translation keys: 0
 - Extra translation keys: 0
 - English fallback translation rows: 0
-- Same-as-English translation review rows: 2160
+- Same-as-English translation review rows: 0
 - Graduation parity issues: 0
 - Graduation review claims: 756
-- Applied graduation knowledge meanings: 72
-- Empty graduation knowledge suggestions: 76
-- Empty graduation knowledge terms with internal match: 2
+- Applied graduation knowledge meanings: 148
+- Empty graduation knowledge suggestions: 0
+- Empty graduation knowledge terms with internal match: 0
 - Kata data files checked: 92
 - Kata data rows with notes: 0
 - Media audit rows: 122
 - Missing referenced media rows: 0
 - Local source materials indexed: 37
 - Text quality rows: 0
-- Terminology consistency rows: 100
+- Terminology consistency rows: 0
 
 ## Important Notes
 
 - App-source content changes were limited to existing-media path fixes, internally sourced graduation terminology meanings, and translation key structure cleanup.
 - `graduation-parity-report.csv` currently has no issue rows, meaning base and Dutch graduation files align structurally and numerically.
-- Translation key structure is aligned across locale files; `translation-language-review.csv` lists values that may still need native-language review.
+- Same-as-English translation review is clear.
+- Empty graduation knowledge suggestions are clear.
 - Media rows marked `public-media-not-found-in-text-scan` may still be loaded dynamically; verify in the app before treating them as unused.
 - Claim candidates are review prompts, not verified facts.
 
 ## Recommended Next Work
 
-1. Review `translation-language-review.csv` and replace same-as-English text with native-language translations where appropriate.
-2. Start claim-level source review with graduations, kumite safety, and terminology.
-3. Review kata data rows with notes before comparing kata translations.
-4. Use `source-material-index.csv` to assign local source documents to each review batch.
+1. No generated structural cleanup reports currently have issue rows.
+2. Continue claim-level source review with graduations, kumite safety, terminology, and high-priority content.
 

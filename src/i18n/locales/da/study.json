@@ -583,66 +583,66 @@
       },
       "hojo-undo-basics": {
         "title": "Hojo Undo Basics Quiz",
-        "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+        "description": "Udstyrsnavne og tr?ningsfokus (chi-ishi, ishi sashi, nigiri game, kongoken)."
       },
       "newaza-intro": {
         "title": "Newaza Introduction Quiz",
-        "description": "Fundamental ground positions and control concepts."
+        "description": "Grundl?ggende gulvpositioner og kontrolbegreber."
       },
       "kumite-rules": {
         "title": "Kumite Rules Quiz",
-        "description": "Scoring, penalties and referee commands."
+        "description": "Pointgivning, straffe og dommerkommandoer."
       }
     },
     "matchingTypes": {
       "kata": {
         "title": "Kata Matching",
-        "description": "Match kata names with their meanings and characteristics."
+        "description": "Match kata-navne med deres betydninger og kendetegn."
       },
       "terminology": {
         "title": "Terminology Matching",
-        "description": "Match Japanese terms to their English meanings across categories.",
-        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
-        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
-        "e1": "Fundamental dojo concepts used throughout training."
+        "description": "Match japanske termer med deres betydninger p? tv?rs af kategorier.",
+        "q1": "Match den japanske term med betydningen: Rei, Kime, Zanshin",
+        "a1": "Rei-respekt, Kime-fokus, Zanshin-tilbagev?rende bevidsthed",
+        "e1": "Grundl?ggende dojo-begreber, der bruges gennem hele tr?ningen."
       }
     },
     "flashcardTypes": {
       "common": {
         "title": "Common Flashcards",
-        "description": "Practice common terminology with flashcards."
+        "description": "?v almindelig terminologi med flashcards."
       },
       "stances": {
         "title": "Stances Flashcards",
-        "description": "Learn all karate stances and positions."
+        "description": "L?r alle karate-stillinger og positioner."
       },
       "kicks": {
         "title": "Kicks Flashcards",
-        "description": "Learn all karate kicking techniques."
+        "description": "L?r alle karatespark."
       },
       "punches": {
         "title": "Punches Flashcards",
-        "description": "Learn all karate punching techniques."
+        "description": "L?r alle karateslag."
       },
       "blocks": {
         "title": "Blocks Flashcards",
-        "description": "Learn all karate blocking techniques."
+        "description": "L?r alle karateblokeringer."
       },
       "kata": {
         "title": "Kata Flashcards",
-        "description": "Learn all Goju Ryu kata names and meanings."
+        "description": "L?r alle Goju Ryu kata-navne og betydninger."
       },
       "philosophy": {
         "title": "Philosophy Flashcards",
-        "description": "Learn Goju Ryu philosophical concepts and principles."
+        "description": "L?r Goju Ryu-filosofiske begreber og principper."
       },
       "numbers": {
         "title": "Numbers Flashcards",
-        "description": "Learn Japanese numbers used in karate."
+        "description": "L?r japanske tal, der bruges i karate."
       },
       "general": {
         "title": "General Terms Flashcards",
-        "description": "Learn essential karate terminology."
+        "description": "L?r vigtig karateterminologi."
       }
     },
     "categories": {
@@ -668,21 +668,21 @@
       "retry": "Retry",
       "next": "Next"
     },
-    "question": "Question {{index}} of {{total}}",
+    "question": "Sp?rgsm?l {{index}} af {{total}}",
     "previous": "Previous",
     "next": "Next",
     "finish": "Finish",
     "correct": "Correct!",
     "incorrect": "Incorrect!",
-    "matchingCompleted": "All {{total}} pairs matched in {{attempts}} attempts.",
+    "matchingCompleted": "Alle {{total}} par matchet p? {{attempts}} fors?g.",
     "japaneseLabel": "Japanese",
-    "noAdditionalExplanation": "No additional explanation available.",
+    "noAdditionalExplanation": "Ingen yderligere forklaring tilg?ngelig.",
     "explanation": "Explanation",
-    "showExplanation": "Show explanation",
-    "hideExplanation": "Hide explanation",
+    "showExplanation": "Vis forklaring",
+    "hideExplanation": "Skjul forklaring",
     "studyAgain": "Studer igen",
     "backToStudySection": "Tilbage til studieafsnittet",
-    "noQuestionFound": "No question found for index {index}",
+    "noQuestionFound": "Intet sp?rgsm?l fundet for indeks {index}",
     "yourScore": "Din score: {score} ud af {total}",
     "reviewAnswers": "Gennemgå svar",
     "yourAnswer": "Dit svar",
@@ -694,9 +694,9 @@
     },
     "tips": {
       "title": "Study Tips",
-      "regular": "Practice regularly for better results",
-      "review": "Review difficult sections",
-      "progress": "Track your progress"
+      "regular": "?v regelm?ssigt for bedre resultater",
+      "review": "Gennemg? sv?re afsnit",
+      "progress": "F?lg din fremgang"
     },
     "stats": {
       "progress": "Progress",
@@ -705,48 +705,48 @@
     },
     "self-control": {
       "title": "Self-Control Quiz",
-      "description": "Test your knowledge of self-control and emotion regulation."
+      "description": "Test din viden om selvkontrol og f?lelsesregulering."
     },
     "kata-basics": {
       "title": "Kata Basics Quiz",
-      "description": "Test your knowledge of fundamental kata concepts and principles."
+      "description": "Test din viden om grundl?ggende kata-begreber og principper."
     },
     "kata-history": {
       "title": "Kata History Quiz",
-      "description": "Learn about the historical development and origins of kata."
+      "description": "L?r om kataens historiske udvikling og oprindelse."
     },
     "philosophy-principles": {
       "title": "Philosophy Principles Quiz",
-      "description": "Test your understanding of Goju Ryu philosophical principles."
+      "description": "Test din forst?else af Goju Ryu-filosofiske principper."
     },
     "basic-techniques": {
       "title": "Basic Techniques Quiz",
-      "description": "Test your knowledge of fundamental karate techniques."
+      "description": "Test din viden om grundl?ggende karateteknikker."
     },
     "kumite-basics": {
       "title": "Kumite Basics Quiz",
-      "description": "Test your knowledge of sparring fundamentals."
+      "description": "Test din viden om grundl?ggende sparring."
     },
     "history-origins": {
-      "title": "History & Origins Quiz",
-      "description": "Key people, places and origins of Goju Ryu."
+      "title": "Quiz om historie og oprindelse",
+      "description": "N?glepersoner, steder og oprindelse for Goju Ryu."
     },
     "hojo-undo-basics": {
       "title": "Hojo Undo Basics Quiz",
-      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      "description": "Udstyrsnavne og tr?ningsfokus (chi-ishi, ishi sashi, nigiri game, kongoken)."
     },
     "newaza-intro": {
       "title": "Newaza Introduction Quiz",
-      "description": "Fundamental ground positions and control concepts."
+      "description": "Grundl?ggende gulvpositioner og kontrolbegreber."
     },
     "kumite-rules": {
       "title": "Kumite Rules Quiz",
-      "description": "Scoring, penalties and referee commands."
+      "description": "Pointgivning, straffe og dommerkommandoer."
     },
     "questionsLabel": "spørgsmål"
   },
   "title": "Study",
-  "description": "Practice and test your knowledge of Goju Ryu karate",
+  "description": "?v og test din viden om Goju Ryu-karate",
   "startQuiz": "Start Quiz",
   "startFlashcards": "Start Flashcards",
   "cards": "cards",
@@ -766,622 +766,622 @@
   "quizTypes": {
     "stances": {
       "title": "Stances Quiz",
-      "description": "Test your knowledge of karate stances and positions."
+      "description": "Test din viden om karate-stillinger og positioner."
     },
     "kicks": {
       "title": "Kicks Quiz",
-      "description": "Test your knowledge of karate kicking techniques."
+      "description": "Test din viden om karatespark."
     },
     "punches": {
       "title": "Punches Quiz",
-      "description": "Test your knowledge of karate punching techniques."
+      "description": "Test din viden om karateslag."
     },
     "blocks": {
       "title": "Blocks Quiz",
-      "description": "Test your knowledge of karate blocking techniques."
+      "description": "Test din viden om karateblokeringer."
     },
     "kata": {
       "title": "Kata Quiz",
-      "description": "Test your knowledge of Goju Ryu kata names and meanings."
+      "description": "Test din viden om Goju Ryu kata-navne og betydninger."
     },
     "philosophy": {
       "title": "Philosophy Quiz",
-      "description": "Test your knowledge of Goju Ryu philosophical concepts and principles."
+      "description": "Test din viden om Goju Ryu-filosofiske begreber og principper."
     },
     "numbers": {
       "title": "Numbers Quiz",
-      "description": "Test your knowledge of Japanese numbers used in karate."
+      "description": "Test din viden om japanske tal brugt i karate."
     },
     "general": {
       "title": "General Terms Quiz",
-      "description": "Test your knowledge of essential karate terminology."
+      "description": "Test din viden om vigtig karateterminologi."
     },
     "weapons": {
       "title": "Weapons Quiz",
-      "description": "Test your knowledge of karate weapons and tools."
+      "description": "Test din viden om karatev?ben og redskaber."
     },
     "concepts": {
       "title": "Concepts Quiz",
-      "description": "Test your knowledge of karate concepts and principles."
+      "description": "Test din viden om karatebegreber og principper."
     },
     "equipment": {
       "title": "Equipment Quiz",
-      "description": "Test your knowledge of karate equipment and tools."
+      "description": "Test din viden om karateudstyr og redskaber."
     },
     "commands": {
       "title": "Commands Quiz",
-      "description": "Test your knowledge of Japanese commands used in karate."
+      "description": "Test din viden om japanske kommandoer brugt i karate."
     },
     "directions": {
       "title": "Directions Quiz",
-      "description": "Test your knowledge of Japanese directions and positions."
+      "description": "Test din viden om japanske retninger og positioner."
     },
     "body-parts": {
       "title": "Body Parts Quiz",
-      "description": "Test your knowledge of Japanese body parts used in karate."
+      "description": "Test din viden om japanske kropsdele brugt i karate."
     },
     "movements": {
       "title": "Movements Quiz",
-      "description": "Test your knowledge of Japanese movement terms in karate."
+      "description": "Test din viden om japanske bev?gelsestermer i karate."
     },
     "timing": {
       "title": "Timing Quiz",
-      "description": "Test your knowledge of timing and rhythm in karate."
+      "description": "Test din viden om timing og rytme i karate."
     },
     "energy": {
       "title": "Energy Quiz",
-      "description": "Test your knowledge of energy and power in karate."
+      "description": "Test din viden om energi og kraft i karate."
     },
     "mindset": {
       "title": "Mindset Quiz",
-      "description": "Test your knowledge of mental aspects of karate."
+      "description": "Test din viden om mentale aspekter af karate."
     },
     "etiquette": {
       "title": "Etiquette Quiz",
-      "description": "Test your knowledge of dojo etiquette and behavior."
+      "description": "Test din viden om dojo-etikette og adf?rd."
     },
     "history": {
       "title": "History Quiz",
-      "description": "Test your knowledge of Goju Ryu history and tradition."
+      "description": "Test din viden om Goju Ryu-historie og tradition."
     },
     "principles": {
       "title": "Principles Quiz",
-      "description": "Test your knowledge of Goju Ryu principles and values."
+      "description": "Test din viden om Goju Ryu-principper og v?rdier."
     },
     "breathing": {
       "title": "Breathing Quiz",
-      "description": "Test your knowledge of breathing techniques in karate."
+      "description": "Test din viden om ?ndedr?tsteknikker i karate."
     },
     "meditation": {
       "title": "Meditation Quiz",
-      "description": "Test your knowledge of meditation and mindfulness in karate."
+      "description": "Test din viden om meditation og mindfulness i karate."
     },
     "self-defense": {
       "title": "Self-Defense Quiz",
-      "description": "Test your knowledge of self-defense techniques."
+      "description": "Test din viden om selvforsvarsteknikker."
     },
     "sparring": {
       "title": "Sparring Quiz",
-      "description": "Test your knowledge of sparring and partner training."
+      "description": "Test din viden om sparring og partnertr?ning."
     },
     "competition": {
       "title": "Competition Quiz",
-      "description": "Test your knowledge of karate competition and rules."
+      "description": "Test din viden om karatekonkurrence og regler."
     },
     "training": {
       "title": "Training Quiz",
-      "description": "Test your knowledge of training methods and techniques."
+      "description": "Test din viden om tr?ningsmetoder og teknikker."
     },
     "grading": {
       "title": "Grading Quiz",
-      "description": "Test your knowledge of karate grading and belts."
+      "description": "Test din viden om karategraduering og b?lter."
     },
     "dojo": {
       "title": "Dojo Quiz",
-      "description": "Test your knowledge of dojo organization and structure."
+      "description": "Test din viden om dojo-organisation og struktur."
     },
     "lineage": {
       "title": "Lineage Quiz",
-      "description": "Test your knowledge of Goju Ryu lineage and tradition."
+      "description": "Test din viden om Goju Ryu-linje og tradition."
     },
     "masters": {
       "title": "Masters Quiz",
-      "description": "Test your knowledge of famous Goju Ryu masters."
+      "description": "Test din viden om ber?mte Goju Ryu-mestre."
     },
     "traditions": {
       "title": "Traditions Quiz",
-      "description": "Test your knowledge of karate traditions and customs."
+      "description": "Test din viden om karatetraditioner og skikke."
     },
     "culture": {
       "title": "Culture Quiz",
-      "description": "Test your knowledge of Japanese culture in karate."
+      "description": "Test din viden om japansk kultur i karate."
     },
     "language": {
       "title": "Language Quiz",
-      "description": "Test your knowledge of Japanese language in karate."
+      "description": "Test din viden om japansk sprog i karate."
     },
     "symbols": {
       "title": "Symbols Quiz",
-      "description": "Test your knowledge of karate symbols and meanings."
+      "description": "Test din viden om karatesymboler og betydninger."
     },
     "ceremonies": {
       "title": "Ceremonies Quiz",
-      "description": "Test your knowledge of karate ceremonies and rituals."
+      "description": "Test din viden om karateceremonier og ritualer."
     },
     "discipline": {
       "title": "Discipline Quiz",
-      "description": "Test your knowledge of discipline and self-control."
+      "description": "Test din viden om disciplin og selvkontrol."
     },
     "respect": {
       "title": "Respect Quiz",
-      "description": "Test your knowledge of respect and etiquette in karate."
+      "description": "Test din viden om respekt og etikette i karate."
     },
     "perseverance": {
       "title": "Perseverance Quiz",
-      "description": "Test your knowledge of perseverance and endurance."
+      "description": "Test din viden om udholdenhed og vedholdenhed."
     },
     "character": {
       "title": "Character Quiz",
-      "description": "Test your knowledge of character development in karate."
+      "description": "Test din viden om karakterudvikling i karate."
     },
     "sincerity": {
       "title": "Sincerity Quiz",
-      "description": "Test your knowledge of sincerity and honesty."
+      "description": "Test din viden om oprigtighed og ?rlighed."
     },
     "self-control": {
       "title": "Self-Control Quiz",
-      "description": "Test your knowledge of self-control and emotion regulation."
+      "description": "Test din viden om selvkontrol og f?lelsesregulering."
     },
     "kata-basics": {
       "title": "Kata Basics Quiz",
-      "description": "Test your knowledge of fundamental kata concepts and principles."
+      "description": "Test din viden om grundl?ggende kata-begreber og principper."
     },
     "kata-history": {
       "title": "Kata History Quiz",
-      "description": "Learn about the historical development and origins of kata."
+      "description": "L?r om kataens historiske udvikling og oprindelse."
     },
     "philosophy-principles": {
       "title": "Philosophy Principles Quiz",
-      "description": "Test your understanding of Goju Ryu philosophical principles."
+      "description": "Test din forst?else af Goju Ryu-filosofiske principper."
     },
     "basic-techniques": {
       "title": "Basic Techniques Quiz",
-      "description": "Test your knowledge of fundamental karate techniques."
+      "description": "Test din viden om grundl?ggende karateteknikker."
     },
     "kumite-basics": {
       "title": "Kumite Basics Quiz",
-      "description": "Test your knowledge of sparring fundamentals."
+      "description": "Test din viden om grundl?ggende sparring."
     }
   },
   "flashcardTypes": {
     "stances": {
       "title": "Stances Flashcards",
-      "description": "Learn all karate stances and positions."
+      "description": "L?r karate-stillinger og positioner."
     },
     "kicks": {
       "title": "Kicks Flashcards",
-      "description": "Learn all karate kicking techniques."
+      "description": "L?r karatespark."
     },
     "punches": {
       "title": "Punches Flashcards",
-      "description": "Learn all karate punching techniques."
+      "description": "L?r karateslag."
     },
     "blocks": {
       "title": "Blocks Flashcards",
-      "description": "Learn all karate blocking techniques."
+      "description": "L?r karateblokeringer."
     },
     "kata": {
       "title": "Kata Flashcards",
-      "description": "Learn all Goju Ryu kata names and meanings."
+      "description": "L?r Goju Ryu kata-navne og betydninger."
     },
     "philosophy": {
       "title": "Philosophy Flashcards",
-      "description": "Learn Goju Ryu philosophical concepts and principles."
+      "description": "L?r Goju Ryu-filosofiske begreber og principper."
     },
     "numbers": {
       "title": "Numbers Flashcards",
-      "description": "Learn Japanese numbers used in karate."
+      "description": "L?r japanske tal brugt i karate."
     },
     "general": {
       "title": "General Terms Flashcards",
-      "description": "Learn essential karate terminology."
+      "description": "L?r vigtig karateterminologi."
     },
     "weapons": {
       "title": "Weapons Flashcards",
-      "description": "Practice weapons with flashcards."
+      "description": "?v v?ben med flashcards."
     },
     "concepts": {
       "title": "Concepts Flashcards",
-      "description": "Practice concepts with flashcards."
+      "description": "?v begreber med flashcards."
     },
     "equipment": {
       "title": "Equipment Flashcards",
-      "description": "Practice equipment with flashcards."
+      "description": "?v udstyr med flashcards."
     },
     "commands": {
       "title": "Commands Flashcards",
-      "description": "Practice commands with flashcards."
+      "description": "?v kommandoer med flashcards."
     },
     "directions": {
       "title": "Directions Flashcards",
-      "description": "Practice directions with flashcards."
+      "description": "?v retninger med flashcards."
     },
     "body-parts": {
       "title": "Body Parts Flashcards",
-      "description": "Practice body parts with flashcards."
+      "description": "?v kropsdele med flashcards."
     },
     "movements": {
       "title": "Movements Flashcards",
-      "description": "Practice movements with flashcards."
+      "description": "?v bev?gelser med flashcards."
     },
     "timing": {
       "title": "Timing Flashcards",
-      "description": "Practice timing with flashcards."
+      "description": "?v timing med flashcards."
     },
     "energy": {
       "title": "Energy Flashcards",
-      "description": "Practice energy with flashcards."
+      "description": "?v energi med flashcards."
     },
     "mindset": {
       "title": "Mindset Flashcards",
-      "description": "Practice mindset with flashcards."
+      "description": "?v mindset med flashcards."
     },
     "etiquette": {
       "title": "Etiquette Flashcards",
-      "description": "Practice etiquette with flashcards."
+      "description": "?v etikette med flashcards."
     },
     "history": {
       "title": "History Flashcards",
-      "description": "Practice history with flashcards."
+      "description": "?v historie med flashcards."
     },
     "principles": {
       "title": "Principles Flashcards",
-      "description": "Practice principles with flashcards."
+      "description": "?v principper med flashcards."
     },
     "breathing": {
       "title": "Breathing Flashcards",
-      "description": "Practice breathing with flashcards."
+      "description": "?v ?ndedr?t med flashcards."
     },
     "meditation": {
       "title": "Meditation Flashcards",
-      "description": "Practice meditation with flashcards."
+      "description": "?v meditation med flashcards."
     },
     "self-defense": {
       "title": "Self-Defense Flashcards",
-      "description": "Practice self-defense with flashcards."
+      "description": "?v selvforsvar med flashcards."
     },
     "sparring": {
       "title": "Sparring Flashcards",
-      "description": "Practice sparring with flashcards."
+      "description": "?v sparring med flashcards."
     },
     "competition": {
       "title": "Competition Flashcards",
-      "description": "Practice competition with flashcards."
+      "description": "?v konkurrence med flashcards."
     },
     "training": {
       "title": "Training Flashcards",
-      "description": "Practice training with flashcards."
+      "description": "?v tr?ning med flashcards."
     },
     "grading": {
       "title": "Grading Flashcards",
-      "description": "Practice grading with flashcards."
+      "description": "?v graduering med flashcards."
     },
     "dojo": {
       "title": "Dojo Flashcards",
-      "description": "Practice dojo with flashcards."
+      "description": "?v dojo med flashcards."
     },
     "lineage": {
       "title": "Lineage Flashcards",
-      "description": "Practice lineage with flashcards."
+      "description": "?v linje med flashcards."
     },
     "masters": {
       "title": "Masters Flashcards",
-      "description": "Practice masters with flashcards."
+      "description": "?v mestre med flashcards."
     },
     "traditions": {
       "title": "Traditions Flashcards",
-      "description": "Practice traditions with flashcards."
+      "description": "?v traditioner med flashcards."
     },
     "culture": {
       "title": "Culture Flashcards",
-      "description": "Practice culture with flashcards."
+      "description": "?v kultur med flashcards."
     },
     "language": {
       "title": "Language Flashcards",
-      "description": "Practice language with flashcards."
+      "description": "?v sprog med flashcards."
     },
     "symbols": {
       "title": "Symbols Flashcards",
-      "description": "Practice symbols with flashcards."
+      "description": "?v symboler med flashcards."
     },
     "ceremonies": {
       "title": "Ceremonies Flashcards",
-      "description": "Practice ceremonies with flashcards."
+      "description": "?v ceremonier med flashcards."
     },
     "discipline": {
       "title": "Discipline Flashcards",
-      "description": "Practice discipline with flashcards."
+      "description": "?v disciplin med flashcards."
     },
     "respect": {
       "title": "Respect Flashcards",
-      "description": "Practice respect with flashcards."
+      "description": "?v respekt med flashcards."
     },
     "perseverance": {
       "title": "Perseverance Flashcards",
-      "description": "Practice perseverance with flashcards."
+      "description": "?v vedholdenhed med flashcards."
     },
     "character": {
       "title": "Character Flashcards",
-      "description": "Practice character with flashcards."
+      "description": "?v karakter med flashcards."
     },
     "sincerity": {
       "title": "Sincerity Flashcards",
-      "description": "Practice sincerity with flashcards."
+      "description": "?v oprigtighed med flashcards."
     },
     "self-control": {
       "title": "Self-Control Flashcards",
-      "description": "Practice self-control with flashcards."
+      "description": "?v selvkontrol med flashcards."
     }
   },
   "studyTerminology": {
     "stances": {
       "hachiji-dachi": {
         "english": "Natural stance",
-        "explanation": "Basic natural stance with feet shoulder-width apart"
+        "explanation": "Grundl?ggende naturlig stilling med f?dderne i skulderbredde"
       },
       "sanchin-dachi": {
         "english": "Hour glass stance",
-        "explanation": "Strong stance with feet turned inward, knees bent"
+        "explanation": "St?rk stilling med f?dderne drejet indad og b?jede kn?"
       },
       "zenkutsu-dachi": {
         "english": "Long stance",
-        "explanation": "Forward stance with weight on front leg"
+        "explanation": "Fremadrettet stilling med v?gten p? forreste ben"
       },
       "kokutsu-dachi": {
         "english": "Back stance",
-        "explanation": "Back stance with weight on rear leg"
+        "explanation": "Bagudrettet stilling med v?gten p? bagerste ben"
       },
       "kiba-dachi": {
         "english": "Straddle stance",
-        "explanation": "Horse stance with feet wide apart"
+        "explanation": "Hestestilling med f?dderne bredt fra hinanden"
       },
       "neko-ashi-dachi": {
         "english": "Cat stance",
-        "explanation": "Cat stance with weight on back leg"
+        "explanation": "Kat-stilling med v?gten p? bageste ben"
       }
     },
     "kicks": {
       "mae-geri": {
         "english": "Front Kick",
-        "explanation": "Kick delivered to the front with the ball of the foot"
+        "explanation": "Spark udf?rt fremad med fodballen"
       },
       "yoko-geri": {
         "english": "Side Kick",
-        "explanation": "Kick delivered to the side with the edge of the foot"
+        "explanation": "Spark udf?rt til siden med fodkanten"
       },
       "mawashi-geri": {
         "english": "Roundhouse Kick",
-        "explanation": "Circular kick using the instep or ball of the foot"
+        "explanation": "Cirkul?rt spark med vristen eller fodballen"
       },
       "ushiro-geri": {
         "english": "Back Kick",
-        "explanation": "Kick delivered backward with the heel"
+        "explanation": "Spark udf?rt bagud med h?len"
       },
       "mikazuki-geri": {
         "english": "Crescent Kick",
-        "explanation": "Circular kick in a crescent motion"
+        "explanation": "Cirkul?rt spark i en halvm?nebev?gelse"
       }
     },
     "punches": {
       "seiken-tsuki": {
         "english": "Forefist Punch",
-        "explanation": "Basic punch with the first two knuckles"
+        "explanation": "Grundl?ggende slag med de to f?rste knoer"
       },
       "gyaku-tsuki": {
         "english": "Reverse Punch",
-        "explanation": "Punch with the opposite hand to the forward foot"
+        "explanation": "Slag med modsat h?nd i forhold til forreste fod"
       },
       "oi-tsuki": {
         "english": "Lunge Punch",
-        "explanation": "Stepping punch with the same hand as the forward foot"
+        "explanation": "Fremadg?ende slag med samme h?nd som forreste fod"
       },
       "kizami-tsuki": {
         "english": "Jab Punch",
-        "explanation": "Quick jab punch with the front hand"
+        "explanation": "Hurtigt jab-slag med forreste h?nd"
       }
     },
     "blocks": {
       "age-uke": {
         "english": "Rising Block",
-        "explanation": "Block that deflects attacks upward"
+        "explanation": "Blokering der afleder angreb opad"
       },
       "gedan-barai": {
         "english": "Downward Sweep",
-        "explanation": "Sweeping block for low attacks"
+        "explanation": "Fejende blokering mod lave angreb"
       },
       "soto-uke": {
         "english": "Outside Block",
-        "explanation": "Block that deflects attacks from inside to outside"
+        "explanation": "Blokering der afleder angreb indefra og ud"
       },
       "uchi-uke": {
         "english": "Inside Block",
-        "explanation": "Block that deflects attacks from outside to inside"
+        "explanation": "Blokering der afleder angreb udefra og ind"
       }
     },
     "kata": {
       "sanchin": {
         "english": "Three Battles",
-        "explanation": "Represents mind, body, and spirit - the foundation kata"
+        "explanation": "Repr?senterer sind, krop og ?nd - grundkataen"
       },
       "tensho": {
         "english": "Turning Palms",
-        "explanation": "Soft circular movements contrasting with Sanchin's hardness"
+        "explanation": "Bl?de cirkul?re bev?gelser i kontrast til Sanchins h?rdhed"
       },
       "gekisai-dai-ichi": {
         "english": "Attack and Smash Number One",
-        "explanation": "First of the Gekisai kata, created by Chojun Miyagi"
+        "explanation": "Den f?rste Gekisai-kata, skabt af Chojun Miyagi"
       },
       "gekisai-dai-ni": {
         "english": "Attack and Smash Number Two",
-        "explanation": "Second of the Gekisai kata, more advanced than Dai Ichi"
+        "explanation": "Den anden Gekisai-kata, mere avanceret end Dai Ichi"
       },
       "saifa": {
         "english": "Smash and Tear",
-        "explanation": "One of the traditional kaishugata"
+        "explanation": "En af de traditionelle kaishugata"
       },
       "seiyunchin": {
         "english": "Control and Pull Battle",
-        "explanation": "Kata focusing on close combat techniques"
+        "explanation": "Kata med fokus p? n?rkampsteknikker"
       },
       "shisochin": {
         "english": "Four Direction Battle",
-        "explanation": "Kata with techniques in four directions"
+        "explanation": "Kata med teknikker i fire retninger"
       },
       "sanseru": {
         "english": "Thirty-Six Hands",
-        "explanation": "Advanced kata with 36 techniques"
+        "explanation": "Avanceret kata med 36 teknikker"
       },
       "seipai": {
         "english": "Eighteen Hands",
-        "explanation": "Advanced kata with 18 techniques"
+        "explanation": "Avanceret kata med 18 teknikker"
       },
       "kururunfa": {
         "english": "Holding Ground",
-        "explanation": "Advanced kata emphasizing stability and power"
+        "explanation": "Avanceret kata med v?gt p? stabilitet og kraft"
       },
       "seisan": {
         "english": "Thirteen Hands",
-        "explanation": "Advanced kata with 13 techniques"
+        "explanation": "Avanceret kata med 13 teknikker"
       },
       "suparinpei": {
         "english": "One Hundred and Eight Hands",
-        "explanation": "The most advanced kata with 108 techniques"
+        "explanation": "Den mest avancerede kata med 108 teknikker"
       }
     },
     "philosophy": {
       "goju-ryu": {
         "english": "Hard-Soft Style",
-        "explanation": "The name means 'hard-soft style', combining hard and soft techniques"
+        "explanation": "Navnet betyder ?h?rd-bl?d stil? og kombinerer h?rde og bl?de teknikker"
       },
       "dojo-kun": {
         "english": "Training Hall Precepts",
-        "explanation": "The five precepts that guide karate practice"
+        "explanation": "De fem forskrifter der vejleder karatetr?ning"
       },
       "karate-do": {
         "english": "Way of the Empty Hand",
-        "explanation": "The martial art as a way of life, not just fighting"
+        "explanation": "Kampsporten som en livsvej, ikke kun kamp"
       },
       "mind-body-unity": {
         "english": "Shin-Gi-Tai (心技体)",
-        "explanation": "The unity of mind, technique, and body in training"
+        "explanation": "Enheden mellem sind, teknik og krop i tr?ningen"
       },
       "respect": {
         "english": "Rei",
-        "explanation": "Fundamental principle of respect in karate"
+        "explanation": "Grundl?ggende princip om respekt i karate"
       },
       "perseverance": {
         "english": "Nin",
-        "explanation": "Endurance and patience in training"
+        "explanation": "Udholdenhed og t?lmodighed i tr?ningen"
       },
       "etiquette": {
         "english": "Reigi",
-        "explanation": "Proper behavior and manners in the dojo"
+        "explanation": "Korrekt opf?rsel og manerer i dojoen"
       },
       "character": {
         "english": "Jinkaku",
-        "explanation": "Building character through karate training"
+        "explanation": "Opbygning af karakter gennem karatetr?ning"
       },
       "sincerity": {
         "english": "Makoto",
-        "explanation": "Honesty and sincerity in practice"
+        "explanation": "?rlighed og oprigtighed i praksis"
       },
       "self-control": {
         "english": "Jisei",
-        "explanation": "Controlling one's emotions and actions"
+        "explanation": "At kontrollere sine f?lelser og handlinger"
       }
     },
     "numbers": {
       "ichi": {
         "english": "One",
-        "explanation": "First number, used in counting techniques"
+        "explanation": "F?rste tal, brugt ved t?lling af teknikker"
       },
       "ni": {
         "english": "Two",
-        "explanation": "Second number, used in counting techniques"
+        "explanation": "Andet tal, brugt ved t?lling af teknikker"
       },
       "san": {
         "english": "Three",
-        "explanation": "Third number, used in counting techniques"
+        "explanation": "Tredje tal, brugt ved t?lling af teknikker"
       },
       "yon": {
         "english": "Four",
-        "explanation": "Fourth number, used in counting techniques"
+        "explanation": "Fjerde tal, brugt ved t?lling af teknikker"
       },
       "go": {
         "english": "Five",
-        "explanation": "Fifth number, used in counting techniques"
+        "explanation": "Femte tal, brugt ved t?lling af teknikker"
       },
       "roku": {
         "english": "Six",
-        "explanation": "Sixth number, used in counting techniques"
+        "explanation": "Sjette tal, brugt ved t?lling af teknikker"
       },
       "shichi": {
         "english": "Seven",
-        "explanation": "Seventh number, used in counting techniques"
+        "explanation": "Syvende tal, brugt ved t?lling af teknikker"
       },
       "hachi": {
         "english": "Eight",
-        "explanation": "Eighth number, used in counting techniques"
+        "explanation": "Ottende tal, brugt ved t?lling af teknikker"
       },
       "kyu": {
         "english": "Nine",
-        "explanation": "Ninth number, used in counting techniques"
+        "explanation": "Niende tal, brugt ved t?lling af teknikker"
       },
       "ju": {
         "english": "Ten",
-        "explanation": "Tenth number, used in counting techniques"
+        "explanation": "Tiende tal, brugt ved t?lling af teknikker"
       }
     },
     "general": {
       "dojo": {
         "english": "Training Hall",
-        "explanation": "The place where karate is practiced"
+        "explanation": "Stedet hvor karate tr?nes"
       },
       "sensei": {
         "english": "Teacher",
-        "explanation": "Respectful term for karate instructor"
+        "explanation": "Respektfuld betegnelse for karatel?rer"
       },
       "sempai": {
         "english": "Senior Student",
-        "explanation": "Student with more experience"
+        "explanation": "Elev med mere erfaring"
       },
       "kohai": {
         "english": "Junior Student",
-        "explanation": "Student with less experience"
+        "explanation": "Elev med mindre erfaring"
       },
       "obi": {
         "english": "Belt",
-        "explanation": "The belt worn with the karate uniform"
+        "explanation": "B?ltet der b?res med karatedragten"
       },
       "gi": {
         "english": "Uniform",
-        "explanation": "The karate training uniform"
+        "explanation": "Karate-tr?ningsdragten"
       },
       "kumite": {
         "english": "Sparring",
-        "explanation": "Partner training and fighting practice"
+        "explanation": "Partnertr?ning og kamptr?ning"
       },
       "kata": {
         "english": "Form",
-        "explanation": "Pre-arranged sequence of techniques"
+        "explanation": "Forudbestemt sekvens af teknikker"
       },
       "kihon": {
         "english": "Basics",
-        "explanation": "Fundamental techniques and movements"
+        "explanation": "Grundl?ggende teknikker og bev?gelser"
       },
       "bunkai": {
         "english": "Analysis",
-        "explanation": "Application of kata techniques"
+        "explanation": "Anvendelse af kata-teknikker"
       }
     }
   }

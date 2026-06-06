@@ -1,7 +1,7 @@
 {
   "study": {
     "title": "Study Section",
-    "description": "Interactive lessons and quizzes to enhance your knowledge",
+    "description": "Lezioni interattive e quiz per migliorare la tua conoscenza",
     "testTypes": {
       "quiz": "Quiz",
       "flashcards": "Flashcards",
@@ -9,34 +9,34 @@
     },
     "quizzes": {
       "title": "Quizzes",
-      "description": "Test your knowledge on various topics"
+      "description": "Metti alla prova la tua conoscenza su vari argomenti"
     },
-    "quizDesc": "Test your knowledge on various topics.",
-    "noQuizzes": "No quizzes available at the moment.",
-    "noFlashcards": "No flashcard sets available at the moment.",
-    "noMatching": "No matching exercises available at the moment.",
+    "quizDesc": "Metti alla prova la tua conoscenza su vari argomenti.",
+    "noQuizzes": "Al momento non sono disponibili quiz.",
+    "noFlashcards": "Al momento non sono disponibili set di flashcard.",
+    "noMatching": "Al momento non sono disponibili esercizi di abbinamento.",
     "flashcards": "Flashcards",
-    "flashcardDesc": "Review terms and concepts with flashcards.",
+    "flashcardDesc": "Ripassa termini e concetti con le flashcard.",
     "matching": "Matching",
-    "matchingDesc": "Match terms and concepts with each other.",
+    "matchingDesc": "Abbina termini e concetti tra loro.",
     "tests": "Tests",
     "startStudy": "Start Studying",
     "pageHeaderTitle": "Study",
-    "pageHeaderDescription": "Test your knowledge and practice techniques",
+    "pageHeaderDescription": "Metti alla prova la tua conoscenza e pratica le tecniche",
     "studySectionTitle": "Study Materials",
-    "studySectionDescription": "Choose how you'd like to study Goju Ryu techniques and concepts.",
+    "studySectionDescription": "Scegli come vuoi studiare tecniche e concetti del Goju Ryu.",
     "quizzesCardTitle": "Quizzes",
-    "quizzesCardDescription": "Test your knowledge with interactive quizzes",
+    "quizzesCardDescription": "Metti alla prova la tua conoscenza con quiz interattivi",
     "flashcardsCardTitle": "Flashcards",
-    "flashcardsCardDescription": "Practice terminology and concepts",
+    "flashcardsCardDescription": "Pratica terminologia e concetti",
     "matchingCardTitle": "Matching",
-    "matchingCardDescription": "Match terms and concepts",
-    "loading": "Loading study material...",
+    "matchingCardDescription": "Abbina termini e concetti",
+    "loading": "Caricamento del materiale di studio...",
     "completed": "Studio completato!",
     "tapToFlip": "Tap to flip",
     "notFound": {
-      "title": "Study not found",
-      "description": "The requested study could not be found."
+      "title": "Studio non trovato",
+      "description": "Lo studio richiesto non ? stato trovato."
     },
     "questions": {
       "kata-basics-1": {
@@ -139,58 +139,58 @@
         "explanation": "Ippon Kumite è combattimento a un passo con attacchi e difese predeterminati."
       },
       "history-1": {
-        "question": "Who founded Goju Ryu?",
+        "question": "Chi ha fondato il Goju Ryu?",
         "option1": "Chojun Miyagi",
         "option2": "Kanryo Higaonna",
         "option3": "Gichin Funakoshi",
         "option4": "Kenwa Mabuni",
         "correct": "Chojun Miyagi",
-        "explanation": "Chojun Miyagi formally named the style Goju Ryu, inspired by the Bubishi."
+        "explanation": "Chojun Miyagi diede formalmente il nome Goju Ryu allo stile, ispirandosi al Bubishi."
       },
       "history-2": {
-        "question": "Which teacher strongly influenced Chojun Miyagi?",
+        "question": "Quale maestro influenz? fortemente Chojun Miyagi?",
         "option1": "Kanryo Higaonna",
         "option2": "Anko Itosu",
         "option3": "Mabuni Kenwa",
         "option4": "Motobu Choki",
         "correct": "Kanryo Higaonna",
-        "explanation": "Miyagi was a top student of Kanryo Higaonna."
+        "explanation": "Miyagi fu uno dei principali studenti di Kanryo Higaonna."
       },
       "hojo-1": {
-        "question": "Which tool is a stone lever used for circular strength?",
+        "question": "Quale attrezzo ? una leva di pietra usata per la forza circolare?",
         "option1": "Chi-ishi",
         "option2": "Ishi sashi",
         "option3": "Nigiri game",
         "option4": "Kongoken",
         "correct": "Chi-ishi",
-        "explanation": "Chi-ishi trains circular strength and wrist/forearm conditioning."
+        "explanation": "Il chi-ishi allena la forza circolare e il condizionamento di polso e avambraccio."
       },
       "hojo-2": {
-        "question": "Which tool primarily trains grip strength?",
+        "question": "Quale attrezzo allena principalmente la forza di presa?",
         "option1": "Nigiri game",
         "option2": "Kongoken",
         "option3": "Ishi sashi",
         "option4": "Makiwara",
         "correct": "Nigiri game",
-        "explanation": "Nigiri game jars are used to develop grip strength and stance."
+        "explanation": "I vasi nigiri game vengono usati per sviluppare forza di presa e postura."
       },
       "newaza-1": {
-        "question": "Which position emphasizes chest-to-chest control from the side?",
-        "option1": "Side control",
+        "question": "Quale posizione enfatizza il controllo petto a petto dal lato?",
+        "option1": "Controllo laterale",
         "option2": "Mount",
         "option3": "Guard",
-        "option4": "Back control",
-        "correct": "Side control",
-        "explanation": "Side control (yoko shiho-like control) focuses on chest-to-chest pressure."
+        "option4": "Controllo da dietro",
+        "correct": "Controllo laterale",
+        "explanation": "Il controllo laterale (simile a yoko shiho) si concentra sulla pressione petto a petto."
       },
       "rules-1": {
-        "question": "What does 'Hansoku' mean?",
+        "question": "Cosa significa ?Hansoku??",
         "option1": "Foul",
-        "option2": "Extension round",
+        "option2": "Round supplementare",
         "option3": "Draw",
         "option4": "Half point",
         "correct": "Foul",
-        "explanation": "Hansoku is a foul; serious infractions can lead to disqualification."
+        "explanation": "Hansoku ? un fallo; infrazioni gravi possono portare alla squalifica."
       },
       "kata-basics-4": {
         "question": "Qual è il primo kata imparato nel Goju Ryu?",
@@ -547,102 +547,102 @@
     "quizTypes": {
       "stances": {
         "title": "Stances Quiz",
-        "description": "Test your knowledge of stances."
+        "description": "Metti alla prova la tua conoscenza delle posizioni."
       },
       "kicks": {
         "title": "Kicks Quiz",
-        "description": "Test your knowledge of kicks."
+        "description": "Metti alla prova la tua conoscenza dei calci."
       },
       "punches": {
         "title": "Punches Quiz",
-        "description": "Test your knowledge of punches."
+        "description": "Metti alla prova la tua conoscenza dei pugni."
       },
       "blocks": {
         "title": "Blocks Quiz",
-        "description": "Test your knowledge of blocks."
+        "description": "Metti alla prova la tua conoscenza delle parate."
       },
       "kata": {
         "title": "Kata Quiz",
-        "description": "Test your knowledge of kata."
+        "description": "Metti alla prova la tua conoscenza dei kata."
       },
       "philosophy": {
         "title": "Philosophy Quiz",
-        "description": "Test your knowledge of Goju Ryu philosophy."
+        "description": "Metti alla prova la tua conoscenza della filosofia Goju Ryu."
       },
       "kumite": {
         "title": "Kumite Quiz",
-        "description": "Test your knowledge of kumite."
+        "description": "Metti alla prova la tua conoscenza del kumite."
       },
       "vital-points": {
         "title": "Quiz dei Punti Vitali",
         "description": "Metti alla prova la tua conoscenza dei punti vitali compilando le etichette mancanti"
       },
       "history-origins": {
-        "title": "History & Origins Quiz",
-        "description": "Key people, places and origins of Goju Ryu."
+        "title": "Quiz su storia e origini",
+        "description": "Persone, luoghi e origini chiave del Goju Ryu."
       },
       "hojo-undo-basics": {
         "title": "Hojo Undo Basics Quiz",
-        "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+        "description": "Nomi degli attrezzi e focus di allenamento (chi-ishi, ishi sashi, nigiri game, kongoken)."
       },
       "newaza-intro": {
         "title": "Newaza Introduction Quiz",
-        "description": "Fundamental ground positions and control concepts."
+        "description": "Posizioni fondamentali a terra e concetti di controllo."
       },
       "kumite-rules": {
         "title": "Kumite Rules Quiz",
-        "description": "Scoring, penalties and referee commands."
+        "description": "Punteggio, penalit? e comandi arbitrali."
       }
     },
     "matchingTypes": {
       "kata": {
         "title": "Kata Matching",
-        "description": "Match kata names with their meanings and characteristics."
+        "description": "Abbina i nomi dei kata ai loro significati e caratteristiche."
       },
       "terminology": {
         "title": "Terminology Matching",
-        "description": "Match Japanese terms to their English meanings across categories.",
-        "q1": "Match the Japanese term to its meaning: Rei, Kime, Zanshin",
-        "a1": "Rei-Respect, Kime-Focus, Zanshin-Remaining mind",
-        "e1": "Fundamental dojo concepts used throughout training."
+        "description": "Abbina i termini giapponesi ai loro significati nelle varie categorie.",
+        "q1": "Abbina il termine giapponese al significato: Rei, Kime, Zanshin",
+        "a1": "Rei-rispetto, Kime-concentrazione, Zanshin-mente residua",
+        "e1": "Concetti fondamentali del dojo usati durante tutto l?allenamento."
       }
     },
     "flashcardTypes": {
       "common": {
         "title": "Common Flashcards",
-        "description": "Practice common terminology with flashcards."
+        "description": "Pratica la terminologia comune con le flashcard."
       },
       "stances": {
         "title": "Stances Flashcards",
-        "description": "Learn all karate stances and positions."
+        "description": "Impara tutte le posizioni del karate."
       },
       "kicks": {
         "title": "Kicks Flashcards",
-        "description": "Learn all karate kicking techniques."
+        "description": "Impara tutte le tecniche di calcio del karate."
       },
       "punches": {
         "title": "Punches Flashcards",
-        "description": "Learn all karate punching techniques."
+        "description": "Impara tutte le tecniche di pugno del karate."
       },
       "blocks": {
         "title": "Blocks Flashcards",
-        "description": "Learn all karate blocking techniques."
+        "description": "Impara tutte le tecniche di parata del karate."
       },
       "kata": {
         "title": "Kata Flashcards",
-        "description": "Learn all Goju Ryu kata names and meanings."
+        "description": "Impara i nomi e i significati dei kata Goju Ryu."
       },
       "philosophy": {
         "title": "Philosophy Flashcards",
-        "description": "Learn Goju Ryu philosophical concepts and principles."
+        "description": "Impara concetti e principi filosofici del Goju Ryu."
       },
       "numbers": {
         "title": "Numbers Flashcards",
-        "description": "Learn Japanese numbers used in karate."
+        "description": "Impara i numeri giapponesi usati nel karate."
       },
       "general": {
         "title": "General Terms Flashcards",
-        "description": "Learn essential karate terminology."
+        "description": "Impara la terminologia essenziale del karate."
       }
     },
     "categories": {
@@ -668,21 +668,21 @@
       "retry": "Retry",
       "next": "Next"
     },
-    "question": "Question {{index}} of {{total}}",
+    "question": "Domanda {{index}} di {{total}}",
     "previous": "Previous",
     "next": "Next",
     "finish": "Finish",
     "correct": "Correct!",
     "incorrect": "Incorrect!",
-    "matchingCompleted": "All {{total}} pairs matched in {{attempts}} attempts.",
+    "matchingCompleted": "Tutte le {{total}} coppie abbinate in {{attempts}} tentativi.",
     "japaneseLabel": "Japanese",
-    "noAdditionalExplanation": "No additional explanation available.",
+    "noAdditionalExplanation": "Nessuna spiegazione aggiuntiva disponibile.",
     "explanation": "Explanation",
-    "showExplanation": "Show explanation",
-    "hideExplanation": "Hide explanation",
+    "showExplanation": "Mostra spiegazione",
+    "hideExplanation": "Nascondi spiegazione",
     "studyAgain": "Studia di nuovo",
     "backToStudySection": "Torna alla sezione di studio",
-    "noQuestionFound": "No question found for index {index}",
+    "noQuestionFound": "Nessuna domanda trovata per l?indice {index}",
     "yourScore": "Il tuo punteggio: {score} su {total}",
     "reviewAnswers": "Rivedi le risposte",
     "yourAnswer": "La tua risposta",
@@ -694,9 +694,9 @@
     },
     "tips": {
       "title": "Study Tips",
-      "regular": "Practice regularly for better results",
-      "review": "Review difficult sections",
-      "progress": "Track your progress"
+      "regular": "Pratica regolarmente per ottenere risultati migliori",
+      "review": "Ripassa le sezioni difficili",
+      "progress": "Tieni traccia dei tuoi progressi"
     },
     "stats": {
       "progress": "Progress",
@@ -705,43 +705,43 @@
     },
     "self-control": {
       "title": "Self-Control Quiz",
-      "description": "Test your knowledge of self-control and emotion regulation."
+      "description": "Metti alla prova la tua conoscenza dell?autocontrollo e della regolazione emotiva."
     },
     "kata-basics": {
       "title": "Kata Basics Quiz",
-      "description": "Test your knowledge of fundamental kata concepts and principles."
+      "description": "Metti alla prova la tua conoscenza dei concetti e principi fondamentali dei kata."
     },
     "kata-history": {
       "title": "Kata History Quiz",
-      "description": "Learn about the historical development and origins of kata."
+      "description": "Scopri lo sviluppo storico e le origini dei kata."
     },
     "philosophy-principles": {
       "title": "Philosophy Principles Quiz",
-      "description": "Test your understanding of Goju Ryu philosophical principles."
+      "description": "Metti alla prova la tua comprensione dei principi filosofici del Goju Ryu."
     },
     "basic-techniques": {
       "title": "Basic Techniques Quiz",
-      "description": "Test your knowledge of fundamental karate techniques."
+      "description": "Metti alla prova la tua conoscenza delle tecniche fondamentali del karate."
     },
     "kumite-basics": {
       "title": "Kumite Basics Quiz",
-      "description": "Test your knowledge of sparring fundamentals."
+      "description": "Metti alla prova la tua conoscenza dei fondamenti dello sparring."
     },
     "history-origins": {
-      "title": "History & Origins Quiz",
-      "description": "Key people, places and origins of Goju Ryu."
+      "title": "Quiz su storia e origini",
+      "description": "Persone, luoghi e origini chiave del Goju Ryu."
     },
     "hojo-undo-basics": {
       "title": "Hojo Undo Basics Quiz",
-      "description": "Equipment names and training focus (chi-ishi, ishi sashi, nigiri game, kongoken)."
+      "description": "Nomi degli attrezzi e focus di allenamento (chi-ishi, ishi sashi, nigiri game, kongoken)."
     },
     "newaza-intro": {
       "title": "Newaza Introduction Quiz",
-      "description": "Fundamental ground positions and control concepts."
+      "description": "Posizioni fondamentali a terra e concetti di controllo."
     },
     "kumite-rules": {
       "title": "Kumite Rules Quiz",
-      "description": "Scoring, penalties and referee commands."
+      "description": "Punteggio, penalit? e comandi arbitrali."
     },
     "questionsLabel": "domande"
   },

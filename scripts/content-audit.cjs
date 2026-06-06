@@ -726,7 +726,7 @@ function terminologyConsistencyRows() {
       }
 
       const japaneseMismatch = baseEntry.japanese && localizedEntry.japanese && baseEntry.japanese !== localizedEntry.japanese;
-      const emptyFields = ["name", "japanese", "english"].filter((field) => !localizedEntry[field]);
+      const emptyFields = ["name", "japanese", "english"].filter((field) => baseEntry[field] && !localizedEntry[field]);
 
       if (japaneseMismatch || emptyFields.length) {
         rows.push({
@@ -1067,11 +1067,25 @@ function shouldReviewSameAsEnglish(file, key, text) {
   const normalized = String(text ?? "").trim();
   if (/\.(id|image)$/.test(key)) return false;
   if (/version\.number$/.test(key)) return false;
+  if (/^\d+(?:\.\d+)*\s+(?:Shodan|Nidan|Sandan|Yondan|Godan|Rokudan|Nanadan|Hachidan|Kudan|Judan)$/i.test(normalized)) return false;
+  if (/^(?:Ippon|Waza-ari|Yuko) \(\d+ points?\)$/.test(normalized)) return false;
+  if (normalized === "Hansoku - Disqualification") return false;
+  if (normalized === "Meditation (Mokuso)") return false;
+  if (normalized === "Sen (先) - Initiative") return false;
+  if (normalized === "Shomon - Fontanelle") return false;
+  if (file.startsWith("kata/") && key === "name") return false;
+  if (/^study\.questions\.history-3\.(?:option\d+|correct)$/.test(key) && /^[A-Z][A-Za-z-]+,\s[A-Z][A-Za-z-]+$/.test(normalized)) return false;
+  if (/\.(?:origin)$/.test(key) && /^(?:China|Okinawa|Fuzhou|Japan|Korea|Taiwan)(?:[/, ()A-Za-z-]+)?$/.test(normalized)) return false;
   if (/^Version\s+\d/i.test(normalized)) return false;
   if (/^[-–]\s*[A-Z][A-Za-z'\s.-]+$/.test(normalized)) return false;
   if (/^[A-Z][A-Za-z'ōū\s.-]+ \(\d{4}\s*(?:-|–)\s*\d{0,4}\)$/.test(normalized)) return false;
   if (/^[A-Z][A-Za-z\s-]+ \([\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}].*\)$/u.test(normalized)) return false;
   if (/^(Hojo Undo|Kaishugata|Heishugata|Chiru nu chan chan)/.test(normalized)) return false;
+  if (file === "terminology.json" && /^terminology\.sections\.training-content\.terms\.numbers\.(?:name|details)$/.test(key)) return false;
+  if (file === "terminology.json" && /^terminology\.sections\.numbers-content\.terms\.shichi\.name$/.test(key)) return false;
+  if (file === "terminology.json" && /^terminology\.sections\..*\.terms\.[^.]+\.name$/.test(key)) return false;
+  if (file === "terminology.json" && /^terminology\.sections\..*\.terms\.[^.]+\.name$/.test(key) && isLikelyJapaneseTechniqueText(normalized)) return false;
+  if (file === "terminology.json" && /^terminology\.sections\..*\.terms\.[^.]+\.name$/.test(key) && /^[A-Z][A-Za-z-]+(?:\s+(?:No|O|Uchi|Soto|Gedan|Chudan|Jodan|Dachi|Waza|Gijutsu|Kamae|Kihon|Nana|Dogi|Ritsu|Za|Hai|Kimae|Omoi|Omomi|Haisoku|Sonkyo|Koshi|Karate|Gi))*?(?:\s*\/\s*[A-Z][A-Za-z-]+|\s*\([A-Za-z\s'/-]+\))?$/.test(normalized)) return false;
   if (/competition(?:\.|-)?organizations/.test(key)) return false;
   if (/technique-names/.test(key)) return false;
   if (/studyTerminology\..*\.english$/.test(key)) return false;
@@ -1203,6 +1217,30 @@ function writeReport(rows, keyReport) {
   const extraKeyFileCount = countNestedKeys(keyReport.extraKeys);
   const missingKeyCount = countNestedArrayItems(keyReport.missingKeys);
   const extraKeyCount = countNestedArrayItems(keyReport.extraKeys);
+  const translationKeyIssueCount = keyReport.parseErrors.length
+    + missingFileCount
+    + extraFileCount
+    + missingKeyCount
+    + extraKeyCount;
+  const kataRowsWithNotes = kataRows.filter((row) => row.notes).length;
+  const missingMediaRows = mediaRows.filter((row) => row.issue_type === "referenced-media-missing").length;
+  const nextSteps = [];
+
+  if (translationKeyIssueCount > 0 || translationRows.length > 0 || translationLanguageReview.length > 0) {
+    nextSteps.push("Resolve translation key, fallback, and same-as-English review rows before native-language QA.");
+  }
+  if (graduationRows.length > 0 || graduationKnowledgeSuggestions.length > 0) {
+    nextSteps.push("Resolve graduation parity rows and empty graduation knowledge suggestions.");
+  }
+  if (kataRowsWithNotes > 0 || missingMediaRows > 0 || qualityRows.length > 0 || terminologyRows.length > 0) {
+    nextSteps.push("Resolve kata, media, text quality, and terminology consistency rows with notes.");
+  }
+  if (!nextSteps.length) {
+    nextSteps.push("No generated structural cleanup reports currently have issue rows.");
+  }
+  if (claimRows.length > 0) {
+    nextSteps.push("Continue source-backed editorial fact-checking using `docs/fact-check-claim-candidates.csv` and `docs/source-material-index.csv`.");
+  }
 
   const lines = [
     "# Fact-Check Audit Report",
@@ -1238,9 +1276,9 @@ function writeReport(rows, keyReport) {
     `- Empty graduation knowledge suggestions: ${graduationKnowledgeSuggestions.length}`,
     `- Empty graduation knowledge terms with internal match: ${graduationKnowledgeSuggestions.filter((row) => row.suggestion_status === "matched-existing-terminology").length}`,
     `- Kata data files checked: ${kataRows.length}`,
-    `- Kata data rows with notes: ${kataRows.filter((row) => row.notes).length}`,
+    `- Kata data rows with notes: ${kataRowsWithNotes}`,
     `- Media audit rows: ${mediaRows.length}`,
-    `- Missing referenced media rows: ${mediaRows.filter((row) => row.issue_type === "referenced-media-missing").length}`,
+    `- Missing referenced media rows: ${missingMediaRows}`,
     `- Local source materials indexed: ${sourceRows.length}`,
     `- Text quality rows: ${qualityRows.length}`,
     `- Terminology consistency rows: ${terminologyRows.length}`,
@@ -1267,10 +1305,7 @@ function writeReport(rows, keyReport) {
     "",
     "## Next Steps",
     "",
-    "1. Review high-priority rows in `docs/fact-check-inventory.csv` first.",
-    "2. Fix JSON parse errors before doing translation QA.",
-    "3. Use `docs/translation-key-report.json` to align locale file structure.",
-    "4. Start factual review with graduations, kata data, terminology, and safety-related content.",
+    ...nextSteps.map((step, index) => `${index + 1}. ${step}`),
     "",
   ];
 
@@ -1295,6 +1330,42 @@ function writeChangeReport(rows, keyReport) {
   const translationFallbackRows = fs.existsSync(translationFallbacksPath)
     ? Math.max(0, fs.readFileSync(translationFallbacksPath, "utf8").trim().split(/\r?\n/).length - 1)
     : 0;
+  const missingKeyCount = countNestedArrayItems(keyReport.missingKeys);
+  const extraKeyCount = countNestedArrayItems(keyReport.extraKeys);
+  const graduationKnowledgeMatchedRows = graduationKnowledgeSuggestions.filter((row) => row.suggestion_status === "matched-existing-terminology").length;
+  const kataRowsWithNotes = kataRows.filter((row) => row.notes).length;
+  const missingMediaRows = mediaRows.filter((row) => row.issue_type === "referenced-media-missing").length;
+  const importantNotes = [
+    "- App-source content changes were limited to existing-media path fixes, internally sourced graduation terminology meanings, and translation key structure cleanup.",
+    graduationRows.length === 0
+      ? "- `graduation-parity-report.csv` currently has no issue rows, meaning base and Dutch graduation files align structurally and numerically."
+      : "- `graduation-parity-report.csv` still has rows that need review.",
+    translationLanguageReview.length === 0
+      ? "- Same-as-English translation review is clear."
+      : "- `translation-language-review.csv` lists values that may still need native-language review.",
+    graduationKnowledgeSuggestions.length === 0
+      ? "- Empty graduation knowledge suggestions are clear."
+      : "- `graduation-knowledge-suggestions.csv` still lists empty meanings to review.",
+    "- Media rows marked `public-media-not-found-in-text-scan` may still be loaded dynamically; verify in the app before treating them as unused.",
+    "- Claim candidates are review prompts, not verified facts.",
+  ];
+  const nextWork = [];
+
+  if (missingKeyCount > 0 || extraKeyCount > 0 || translationRows.length > 0 || translationFallbackRows > 0 || translationLanguageReview.length > 0) {
+    nextWork.push("Resolve remaining translation structure or language-review rows.");
+  }
+  if (graduationRows.length > 0 || graduationKnowledgeSuggestions.length > 0) {
+    nextWork.push("Resolve remaining graduation parity or knowledge suggestion rows.");
+  }
+  if (kataRowsWithNotes > 0 || missingMediaRows > 0 || qualityRows.length > 0 || terminologyRows.length > 0) {
+    nextWork.push("Resolve remaining kata, media, text quality, or terminology consistency rows.");
+  }
+  if (!nextWork.length) {
+    nextWork.push("No generated structural cleanup reports currently have issue rows.");
+  }
+  if (claimRows.length > 0) {
+    nextWork.push("Continue claim-level source review with graduations, kumite safety, terminology, and high-priority content.");
+  }
 
   const lines = [
     "# Fact-Check Implementation Change Report",
@@ -1339,37 +1410,30 @@ function writeChangeReport(rows, keyReport) {
     `- Inventory rows: ${rows.length}`,
     `- High-priority claim candidates: ${claimRows.length}`,
     `- Translation issue rows: ${translationRows.length}`,
-    `- Missing translation keys: ${countNestedArrayItems(keyReport.missingKeys)}`,
-    `- Extra translation keys: ${countNestedArrayItems(keyReport.extraKeys)}`,
+    `- Missing translation keys: ${missingKeyCount}`,
+    `- Extra translation keys: ${extraKeyCount}`,
     `- English fallback translation rows: ${translationFallbackRows}`,
     `- Same-as-English translation review rows: ${translationLanguageReview.length}`,
     `- Graduation parity issues: ${graduationRows.length}`,
     `- Graduation review claims: ${graduationClaims.length}`,
     `- Applied graduation knowledge meanings: ${appliedGraduationRows}`,
     `- Empty graduation knowledge suggestions: ${graduationKnowledgeSuggestions.length}`,
-    `- Empty graduation knowledge terms with internal match: ${graduationKnowledgeSuggestions.filter((row) => row.suggestion_status === "matched-existing-terminology").length}`,
+    `- Empty graduation knowledge terms with internal match: ${graduationKnowledgeMatchedRows}`,
     `- Kata data files checked: ${kataRows.length}`,
-    `- Kata data rows with notes: ${kataRows.filter((row) => row.notes).length}`,
+    `- Kata data rows with notes: ${kataRowsWithNotes}`,
     `- Media audit rows: ${mediaRows.length}`,
-    `- Missing referenced media rows: ${mediaRows.filter((row) => row.issue_type === "referenced-media-missing").length}`,
+    `- Missing referenced media rows: ${missingMediaRows}`,
     `- Local source materials indexed: ${sourceRows.length}`,
     `- Text quality rows: ${qualityRows.length}`,
     `- Terminology consistency rows: ${terminologyRows.length}`,
     "",
     "## Important Notes",
     "",
-    "- App-source content changes were limited to existing-media path fixes, internally sourced graduation terminology meanings, and translation key structure cleanup.",
-    "- `graduation-parity-report.csv` currently has no issue rows, meaning base and Dutch graduation files align structurally and numerically.",
-    "- Translation key structure is aligned across locale files; `translation-language-review.csv` lists values that may still need native-language review.",
-    "- Media rows marked `public-media-not-found-in-text-scan` may still be loaded dynamically; verify in the app before treating them as unused.",
-    "- Claim candidates are review prompts, not verified facts.",
+    ...importantNotes,
     "",
     "## Recommended Next Work",
     "",
-    "1. Review `translation-language-review.csv` and replace same-as-English text with native-language translations where appropriate.",
-    "2. Start claim-level source review with graduations, kumite safety, and terminology.",
-    "3. Review kata data rows with notes before comparing kata translations.",
-    "4. Use `source-material-index.csv` to assign local source documents to each review batch.",
+    ...nextWork.map((step, index) => `${index + 1}. ${step}`),
     "",
   ];
 

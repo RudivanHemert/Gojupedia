@@ -1,6 +1,6 @@
 # Fact-Check Audit Report
 
-Generated: 2026-06-01T18:02:35.091Z
+Generated: 2026-06-04T09:34:18.395Z
 
 ## Inventory Summary
 
@@ -31,19 +31,19 @@ Generated: 2026-06-01T18:02:35.091Z
 
 ## Content Audit Summary
 
-- High-priority claim candidates: 3767
+- High-priority claim candidates: 3843
 - Translation issue rows: 0
 - Graduation parity issues: 0
 - Graduation review claims: 756
-- Empty graduation knowledge suggestions: 76
-- Empty graduation knowledge terms with internal match: 2
+- Empty graduation knowledge suggestions: 0
+- Empty graduation knowledge terms with internal match: 0
 - Kata data files checked: 92
 - Kata data rows with notes: 0
 - Media audit rows: 122
 - Missing referenced media rows: 0
 - Local source materials indexed: 37
 - Text quality rows: 0
-- Terminology consistency rows: 100
+- Terminology consistency rows: 0
 
 Detailed key differences are stored in `docs/translation-key-report.json`.
 
@@ -67,8 +67,6 @@ Generated files:
 
 ## Next Steps
 
-1. Review high-priority rows in `docs/fact-check-inventory.csv` first.
-2. Fix JSON parse errors before doing translation QA.
-3. Use `docs/translation-key-report.json` to align locale file structure.
-4. Start factual review with graduations, kata data, terminology, and safety-related content.
+1. No generated structural cleanup reports currently have issue rows.
+2. Continue source-backed editorial fact-checking using `docs/fact-check-claim-candidates.csv` and `docs/source-material-index.csv`.
 

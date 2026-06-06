@@ -108,19 +108,19 @@
     "progression": {
       "basic": {
         "title": "Basic",
-        "desc": "Ippon Kumite for fundamental skills"
+        "desc": "Ippon Kumite til grundl?ggende f?rdigheder"
       },
       "expansion": {
         "title": "Expansion",
-        "desc": "Sanbon and Gohon for complexity"
+        "desc": "Sanbon og Gohon for ?get kompleksitet"
       },
       "freedom": {
         "title": "Freedom",
-        "desc": "Jiyu Kumite for spontaneity"
+        "desc": "Jiyu Kumite for spontanitet"
       },
       "competition": {
         "title": "Competition",
-        "desc": "Shiai Kumite for competition experience"
+        "desc": "Shiai Kumite for konkurrenceerfaring"
       }
     },
     "safety": {
@@ -129,24 +129,24 @@
       "competition-rules": "Competition Rules",
       "training-safety": "Training Safety",
       "principles": {
-        "control": "All techniques must be controlled.",
-        "equipment": "Use appropriate safety gear.",
-        "supervision": "Always practice under qualified instruction.",
-        "respect": "Show respect for your training partner.",
-        "progressive": "Begin with basic forms before advancing to more complex sparring."
+        "control": "Alle teknikker skal v?re kontrollerede.",
+        "equipment": "Brug passende sikkerhedsudstyr.",
+        "supervision": "Tr?n altid under kvalificeret instruktion.",
+        "respect": "Vis respekt for din tr?ningspartner.",
+        "progressive": "Begynd med grundformer f?r du g?r videre til mere kompleks sparring."
       },
       "required-equipment": "Required Equipment",
       "equipment-details": {
         "required": {
-          "hand-protectors": "Hand protectors for the safety of hands and wrists.",
-          "foot-protectors": "Foot protectors for the safety of feet and ankles.",
-          "mouth-guard": "A mouth guard for the protection of teeth and mouth.",
-          "groin-protector": "Groin protector for male practitioners."
+          "hand-protectors": "H?ndbeskyttere for h?nders og h?ndleds sikkerhed.",
+          "foot-protectors": "Fodbeskyttere for f?dders og anklernes sikkerhed.",
+          "mouth-guard": "Tandbeskytter til beskyttelse af t?nder og mund.",
+          "groin-protector": "Skridtbeskytter til mandlige ud?vere."
         },
         "optional": {
-          "head-protection": "Head protection for additional safety.",
-          "chest-protector": "Chest protector for female practitioners.",
-          "shin-guards": "Shin guards for extra leg protection."
+          "head-protection": "Hovedbeskyttelse for ekstra sikkerhed.",
+          "chest-protector": "Brystbeskytter til kvindelige ud?vere.",
+          "shin-guards": "Skinnebensbeskyttere for ekstra benbeskyttelse."
         }
       },
       "optional-equipment": "Optional Equipment",
@@ -154,9 +154,9 @@
       "scoring-areas": "Scoring Areas",
       "areas": {
         "scoring": {
-          "head-face-neck": "Head, face, neck",
-          "chest-abdomen-back": "Chest, abdomen, back, side",
-          "arms-legs": "Arms and legs (limited)"
+          "head-face-neck": "Hoved, ansigt, hals",
+          "chest-abdomen-back": "Bryst, mave, ryg, side",
+          "arms-legs": "Arme og ben (begr?nset)"
         },
         "forbidden": {
           "throat": "Throat",
@@ -168,312 +168,312 @@
       "forbidden-areas": "Forbidden Contact Zones",
       "penalties": "Penalties",
       "penalty-types": {
-        "chukoku": "Chukoku - First warning",
-        "keikoku": "Keikoku - Second warning",
-        "hansoku": "Hansoku - Disqualification"
+        "chukoku": "Chukoku - f?rste advarsel",
+        "keikoku": "Keikoku - anden advarsel",
+        "hansoku": "Hansoku - diskvalifikation"
       },
       "training": {
         "before": "Before Training",
-        "before-item1": "Always perform a proper warm-up.",
-        "before-item2": "Do flexibility exercises.",
-        "before-item3": "Check all equipment for safety.",
-        "before-item4": "Discuss level and expectations with your partner.",
+        "before-item1": "Udf?r altid en ordentlig opvarmning.",
+        "before-item2": "Lav smidigheds?velser.",
+        "before-item3": "Kontroll?r alt udstyr for sikkerhed.",
+        "before-item4": "Tal om niveau og forventninger med din partner.",
         "during": "During Training",
-        "during-item1": "Maintain control over all techniques at all times.",
-        "during-item2": "Communicate clearly with your partner.",
-        "during-item3": "Show respect for your partner's skill level.",
-        "during-item4": "Stop immediately in case of pain or problems.",
+        "during-item1": "Bevar kontrol over alle teknikker hele tiden.",
+        "during-item2": "Kommunik?r tydeligt med din partner.",
+        "during-item3": "Vis respekt for din partners f?rdighedsniveau.",
+        "during-item4": "Stop straks ved smerte eller problemer.",
         "after": "After Training",
-        "after-item1": "Perform a cool-down routine.",
-        "after-item2": "Drink sufficient water.",
-        "after-item3": "Evaluate the training with the instructor.",
-        "after-item4": "Take adequate rest after training."
+        "after-item1": "Udf?r en nedk?lingsrutine.",
+        "after-item2": "Drik tilstr?kkeligt med vand.",
+        "after-item3": "Evaluer tr?ningen med instrukt?ren.",
+        "after-item4": "Tag tilstr?kkelig hvile efter tr?ning."
       }
     }
   },
   "techniques": {
-    "title": "Kumite Techniques in Sports Karate",
+    "title": "Kumite-teknikker i sportskarate",
     "attack-techniques": "Attack Techniques",
     "defense-techniques": "Defense Techniques",
     "throwing-techniques": "Throwing Techniques",
     "tsuki-waza": "Tsuki Waza (突き技) - Punching Techniques",
     "uchi-waza": "Uchi Waza (打ち技) - Striking Techniques",
-    "keri-waza": "Keri Waza (蹴り技) - Kicking Techniques",
+    "keri-waza": "Keri Waza (???) - sparketeknikker",
     "nage-waza": "Nage Waza (投げ技) - Throwing Techniques",
     "uke-waza": "Uke Waza (受け技) - Blocking Techniques",
-    "kawashi-waza": "Kawashi Waza (躱し技) - Evasion Techniques",
+    "kawashi-waza": "Kawashi Waza (???) - undvigelsesteknikker",
     "safety-considerations": "Safety Considerations",
     "training-focus": "Training Focus",
     "attack": {
-      "title": "Attack Techniques in Kumite",
-      "description": "Effective attack techniques for sports karate",
+      "title": "Angrebsteknikker i Kumite",
+      "description": "Effektive angrebsteknikker til sportskarate",
       "tsuki": {
         "title": "Tsuki Waza (突き技) - Punching Techniques",
-        "description": "Direct punching techniques for quick attacks",
+        "description": "Direkte slagteknikker til hurtige angreb",
         "techniques": {
           "kizami-zuki": {
             "name": "Kizami Zuki (刻み突き)",
-            "description": "Quick lead hand punch to the face",
-            "application": "Effective for scoring points on the head",
-            "execution": "Quick execution with good timing and distance"
+            "description": "Hurtigt slag med forreste h?nd mod ansigtet",
+            "application": "Effektiv til at score point mod hovedet",
+            "execution": "Hurtig udf?relse med god timing og afstand"
           },
           "gyaku-zuki": {
             "name": "Gyaku Zuki (逆突き)",
-            "description": "Reverse hand punch to the body",
-            "application": "Powerful attack to the body",
-            "execution": "Use of hip rotation for maximum power"
+            "description": "Omvendt h?ndslag mod kroppen",
+            "application": "Kraftfuldt angreb mod kroppen",
+            "execution": "Brug hofterotation for maksimal kraft"
           },
           "oi-zuki": {
             "name": "Oi Zuki (追い突き)",
-            "description": "Punch with forward movement",
-            "application": "Attack with body displacement",
-            "execution": "Coordination of foot movement and punch"
+            "description": "Slag med fremadg?ende bev?gelse",
+            "application": "Angreb med kropsforskydning",
+            "execution": "Koordination af fodbev?gelse og slag"
           },
           "choku-zuki": {
             "name": "Choku Zuki (直突き)",
-            "description": "Direct punch without preparation",
-            "application": "Quick counter-attack from defensive position",
-            "execution": "Efficient movement without unnecessary preparation"
+            "description": "Direkte slag uden forberedelse",
+            "application": "Hurtigt kontraangreb fra defensiv position",
+            "execution": "Effektiv bev?gelse uden un?dig forberedelse"
           }
         }
       },
       "uchi": {
         "title": "Uchi Waza (打ち技) - Striking Techniques",
-        "description": "Striking techniques for various targets",
+        "description": "Slagteknikker mod forskellige m?l",
         "techniques": {
           "uraken-uchi": {
             "name": "Uraken Uchi (裏拳打ち)",
-            "description": "Backfist strike to the face",
-            "application": "Quick striking technique for the head",
-            "execution": "Use of wrist rotation for effectiveness"
+            "description": "Bagslag med knytn?ven mod ansigtet",
+            "application": "Hurtig slagteknik mod hovedet",
+            "execution": "Brug h?ndledsrotation for effektivitet"
           },
           "haito-uchi": {
             "name": "Haito Uchi (背刀打ち)",
-            "description": "Ridge hand strike to the neck",
-            "application": "Precision strike to vital points",
-            "execution": "Controlled execution for safety"
+            "description": "Haito-slag mod halsen",
+            "application": "Pr?cisionsslag mod vitale punkter",
+            "execution": "Kontrolleret udf?relse af hensyn til sikkerhed"
           },
           "shuto-uchi": {
             "name": "Shuto Uchi (手刀打ち)",
-            "description": "Knife hand strike to the neck",
-            "application": "Effective strike to head and neck area",
-            "execution": "Use of hand edge for precision"
+            "description": "Knivh?ndsslag mod halsen",
+            "application": "Effektivt slag mod hoved- og halsomr?det",
+            "execution": "Brug h?ndkanten for pr?cision"
           }
         }
       },
       "keri": {
-        "title": "Keri Waza (蹴り技) - Kicking Techniques",
-        "description": "Powerful kicking techniques for various targets",
+        "title": "Keri Waza (???) - sparketeknikker",
+        "description": "Kraftfulde sparketeknikker mod forskellige m?l",
         "techniques": {
           "mae-geri": {
             "name": "Mae Geri (前蹴り)",
-            "description": "Front kick to the body",
-            "application": "Direct attack to the body",
-            "execution": "Use of balance and knee lift"
+            "description": "Frontspark mod kroppen",
+            "application": "Direkte angreb mod kroppen",
+            "execution": "Brug balance og kn?l?ft"
           },
           "yoko-geri": {
             "name": "Yoko Geri (横蹴り)",
-            "description": "Side kick to the body",
-            "application": "Effective kick to the side of the body",
-            "execution": "Rotation of the body for power"
+            "description": "Sidespark mod kroppen",
+            "application": "Effektivt spark mod kroppens side",
+            "execution": "Kropsrotation for kraft"
           },
           "mawashi-geri": {
             "name": "Mawashi Geri (回し蹴り)",
-            "description": "Round kick to the head",
-            "application": "Powerful kick to the head for points",
-            "execution": "Use of hip rotation and leg flexibility"
+            "description": "Cirkelspark mod hovedet",
+            "application": "Kraftfuldt spark mod hovedet for point",
+            "execution": "Brug hofterotation og bensmidighed"
           },
           "ura-mawashi-geri": {
             "name": "Ura Mawashi Geri (裏回し蹴り)",
-            "description": "Inside round kick",
-            "application": "Quick kick to the body",
-            "execution": "Efficient movement with good timing"
+            "description": "Indvendigt cirkelspark",
+            "application": "Hurtigt spark mod kroppen",
+            "execution": "Effektiv bev?gelse med god timing"
           },
           "ushiro-geri": {
             "name": "Ushiro Geri (後ろ蹴り)",
             "description": "Back kick",
-            "application": "Defensive kick against rear attacks",
-            "execution": "Controlled execution with good balance"
+            "application": "Defensivt spark mod angreb bagfra",
+            "execution": "Kontrolleret udf?relse med god balance"
           }
         }
       }
     },
     "defense": {
-      "title": "Defense Techniques in Kumite",
-      "description": "Effective defense techniques for sports karate",
+      "title": "Forsvarsteknikker i Kumite",
+      "description": "Effektive forsvarsteknikker til sportskarate",
       "uke": {
         "title": "Uke Waza (受け技) - Blocking Techniques",
-        "description": "Traditional blocking techniques",
+        "description": "Traditionelle blokeringsteknikker",
         "techniques": {
           "age-uke": {
             "name": "Age Uke (上げ受け)",
-            "description": "Rising block for head defense",
-            "application": "Defense against head and face attacks",
-            "execution": "Use of forearm for effective block"
+            "description": "Opadg?ende blokering til hovedforsvar",
+            "application": "Forsvar mod angreb mod hoved og ansigt",
+            "execution": "Brug underarmen til effektiv blokering"
           },
           "soto-uke": {
             "name": "Soto Uke (外受け)",
-            "description": "Outside block",
-            "application": "Defense against punching attacks",
-            "execution": "Movement from inside to outside"
+            "description": "Udvendig blokering",
+            "application": "Forsvar mod slagangreb",
+            "execution": "Bev?gelse indefra og ud"
           },
           "uchi-uke": {
             "name": "Uchi Uke (内受け)",
-            "description": "Inside block",
-            "application": "Defense against punching attacks",
-            "execution": "Movement from outside to inside"
+            "description": "Indvendig blokering",
+            "application": "Forsvar mod slagangreb",
+            "execution": "Bev?gelse udefra og ind"
           },
           "gedan-barai": {
             "name": "Gedan Barai (下段払い)",
-            "description": "Low block for leg defense",
-            "application": "Defense against low kicks",
-            "execution": "Downward movement with forearm"
+            "description": "Lav blokering til benforsvar",
+            "application": "Forsvar mod lave spark",
+            "execution": "Nedadg?ende bev?gelse med underarmen"
           }
         }
       },
       "kawashi": {
-        "title": "Kawashi Waza (躱し技) - Evasion Techniques",
-        "description": "Modern evasion techniques",
+        "title": "Kawashi Waza (???) - undvigelsesteknikker",
+        "description": "Moderne undvigelsesteknikker",
         "techniques": {
           "te-nagashi-uke": {
             "name": "Te Nagashi Uke (手流し受け)",
-            "description": "Hand flowing block",
-            "application": "Defense with flowing movement",
-            "execution": "Fluid movement without hard block"
+            "description": "Flydende h?ndblokering",
+            "application": "Forsvar med flydende bev?gelse",
+            "execution": "Flydende bev?gelse uden h?rd blokering"
           },
           "te-osae-uke": {
             "name": "Te Osae Uke (手押さえ受け)",
-            "description": "Hand pressing block",
-            "application": "Defense through pressing down",
-            "execution": "Controlled movement downward"
+            "description": "Pressende h?ndblokering",
+            "application": "Forsvar ved at presse ned",
+            "execution": "Kontrolleret bev?gelse nedad"
           }
         }
       }
     },
     "throwing": {
-      "title": "Throwing Techniques in Kumite",
-      "description": "Effective throwing techniques for sports karate",
+      "title": "Kasteteknikker i Kumite",
+      "description": "Effektive kasteteknikker til sportskarate",
       "nage": {
         "title": "Nage Waza (投げ技) - Throwing Techniques",
-        "description": "Traditional throwing techniques",
+        "description": "Traditionelle kasteteknikker",
         "techniques": {
           "de-ashi-barai": {
             "name": "De Ashi Barai (出足払い)",
-            "description": "Foot sweeping technique",
-            "application": "Throw by sweeping the foot",
-            "execution": "Timing and balance are crucial"
+            "description": "Fodfejningsteknik",
+            "application": "Kast ved at feje foden",
+            "execution": "Timing og balance er afg?rende"
           },
           "kuzushi": {
             "name": "Kuzushi (崩し)",
-            "description": "Balance disruption",
-            "application": "Preparation for throw",
-            "execution": "Disruption of opponent's balance"
+            "description": "Balancebrydning",
+            "application": "Forberedelse til kast",
+            "execution": "Forstyrrelse af modstanderens balance"
           },
           "o-soto-gari": {
             "name": "O Soto Gari (大外刈り)",
-            "description": "Large outer reap",
-            "application": "Throw by removing the leg",
-            "execution": "Use of body weight and leg movement"
+            "description": "Stor udvendig nedtagning",
+            "application": "Kast ved at fjerne benet",
+            "execution": "Brug kropsv?gt og benbev?gelse"
           },
           "o-uchi-gari": {
             "name": "O Uchi Gari (大内刈り)",
-            "description": "Large inner reap",
-            "application": "Throw by inner leg movement",
-            "execution": "Effective throw for various situations"
+            "description": "Stor indvendig nedtagning",
+            "application": "Kast med indvendig benbev?gelse",
+            "execution": "Effektivt kast i forskellige situationer"
           }
         }
       }
     }
   },
   "principles": {
-    "title": "Kumite Principles and Training Philosophy",
-    "description": "Fundamental principles for effective kumite",
+    "title": "Kumite-principper og tr?ningsfilosofi",
+    "description": "Grundprincipper for effektiv kumite",
     "core-principles": "Core Principles",
     "mental-preparation": "Mental Preparation",
     "tactical-principles": "Tactical Principles",
     "physical-preparation": "Physical Preparation",
-    "competition-vs-traditional": "Competition vs. Traditional Karate",
+    "competition-vs-traditional": "Konkurrence vs. traditionel karate",
     "training-methodology": "Training Methodology",
-    "safety-and-control": "Safety and Control",
+    "safety-and-control": "Sikkerhed og kontrol",
     "mental": {
       "title": "Mental Principles",
       "zanshin": {
-        "name": "Zanshin (残心) - Remaining Mind",
-        "description": "Awareness and alertness after a technique",
-        "application": "Stay alert after each attack or defense",
-        "importance": "Prevents counter-attacks and maintains control"
+        "name": "Zanshin (??) - tilbagev?rende bevidsthed",
+        "description": "Bevidsthed og ?rv?genhed efter en teknik",
+        "application": "Forbliv opm?rksom efter hvert angreb eller forsvar",
+        "importance": "Forebygger kontraangreb og bevarer kontrol"
       },
       "mushin": {
-        "name": "Mushin (無心) - Mind Without Thought",
-        "description": "Mental state without conscious thoughts",
-        "application": "Spontaneous reactions without hesitation",
-        "importance": "Improves reaction time and decision making"
+        "name": "Mushin (??) - sind uden tanke",
+        "description": "Mental tilstand uden bevidste tanker",
+        "application": "Spontane reaktioner uden t?ven",
+        "importance": "Forbedrer reaktionstid og beslutningstagning"
       },
       "fudoshin": {
-        "name": "Fudoshin (不動心) - Immovable Mind",
-        "description": "Unshakeable mental state",
-        "application": "Remain calm under pressure",
-        "importance": "Promotes effective decision making"
+        "name": "Fudoshin (???) - urokkeligt sind",
+        "description": "Urokkelig mental tilstand",
+        "application": "Forbliv rolig under pres",
+        "importance": "Fremmer effektiv beslutningstagning"
       },
       "senshin": {
-        "name": "Senshin (先心) - Purified Mind",
-        "description": "Cleansed and refined mind",
-        "application": "Highest level of mental development",
-        "importance": "Ultimate state of karate practice"
+        "name": "Senshin (??) - renset sind",
+        "description": "Renset og forfinet sind",
+        "application": "H?jeste niveau af mental udvikling",
+        "importance": "Karatepraksissens ultimative tilstand"
       }
     },
     "tactical": {
       "title": "Tactical Principles",
       "ma-ai": {
-        "name": "Ma-ai (間合い) - Fighting Distance",
-        "description": "Optimal distance for effective techniques",
-        "application": "Maintain proper distance for attacks and defense",
-        "importance": "Crucial for timing and effectiveness"
+        "name": "Ma-ai (???) - kampafstand",
+        "description": "Optimal afstand for effektive teknikker",
+        "application": "Bevar korrekt afstand til angreb og forsvar",
+        "importance": "Afg?rende for timing og effektivitet"
       },
       "sen": {
-        "name": "Sen (先) - Initiative",
-        "description": "Taking the initiative in a fight",
-        "application": "Proactive approach to kumite",
-        "importance": "Gives psychological advantage"
+        "name": "Sen (?) - initiativ",
+        "description": "At tage initiativet i kamp",
+        "application": "Proaktiv tilgang til kumite",
+        "importance": "Giver psykologisk fordel"
       },
       "go-no-sen": {
-        "name": "Go No Sen (後の先) - Response to Attack",
-        "description": "Counter-attack after defense",
-        "application": "Defend and attack immediately",
-        "importance": "Effective counter-attack strategy"
+        "name": "Go No Sen (???) - svar p? angreb",
+        "description": "Kontraangreb efter forsvar",
+        "application": "Forsvar og angrib straks",
+        "importance": "Effektiv kontraangrebsstrategi"
       },
       "sen-no-sen": {
-        "name": "Sen No Sen (先の先) - Attacking the Attack",
-        "description": "Attack simultaneously with opponent",
-        "application": "Intercept the opponent's attack",
-        "importance": "Advanced tactical approach"
+        "name": "Sen No Sen (???) - at angribe angrebet",
+        "description": "Angrib samtidig med modstanderen",
+        "application": "Afbryd modstanderens angreb",
+        "importance": "Avanceret taktisk tilgang"
       }
     },
     "physical": {
       "title": "Physical Principles",
       "balance": {
-        "name": "Balance and Stability",
-        "description": "Maintaining body balance during movement",
-        "application": "Stable posture for all techniques",
-        "importance": "Foundation for effective technique execution"
+        "name": "Balance og stabilitet",
+        "description": "At bevare kropsbalancen under bev?gelse",
+        "application": "Stabil kropsholdning til alle teknikker",
+        "importance": "Grundlag for effektiv teknikudf?relse"
       },
       "timing": {
-        "name": "Timing and Rhythm",
-        "description": "Proper timing for technique execution",
-        "application": "Coordination of movement and timing",
-        "importance": "Maximizes effectiveness of techniques"
+        "name": "Timing og rytme",
+        "description": "Korrekt timing for teknikudf?relse",
+        "application": "Koordination af bev?gelse og timing",
+        "importance": "Maksimerer teknikkernes effektivitet"
       },
       "power": {
-        "name": "Power and Speed",
-        "description": "Balance between power and speed",
-        "application": "Effective combination of both elements",
-        "importance": "Optimizes technique performance"
+        "name": "Kraft og hastighed",
+        "description": "Balance mellem kraft og hastighed",
+        "application": "Effektiv kombination af begge elementer",
+        "importance": "Optimerer teknikudf?relsen"
       }
     }
   },
   "training": {
     "title": "Kumite Training Methods",
-    "description": "Systematic training approach for kumite development",
+    "description": "Systematisk tr?ningstilgang til udvikling af kumite",
     "training-progression": "Training Progression",
     "training-methods": "Training Methods",
     "training-structure": "Training Structure",
@@ -484,61 +484,61 @@
       "title": "Training Methods",
       "kihon": {
         "name": "Kihon Kumite (基本組手)",
-        "description": "Basic sparring for technique development",
-        "benefits": "Builds foundation for advanced kumite",
-        "focus": "Correct technique execution and timing"
+        "description": "Grundl?ggende sparring til teknikudvikling",
+        "benefits": "Opbygger fundament for avanceret kumite",
+        "focus": "Korrekt teknikudf?relse og timing"
       },
       "yakusoku": {
         "name": "Yakusoku Kumite (約束組手)",
-        "description": "Pre-arranged sparring",
-        "benefits": "Develops timing and distance control",
-        "focus": "Controlled execution of techniques"
+        "description": "Forudbestemt sparring",
+        "benefits": "Udvikler timing og afstandskontrol",
+        "focus": "Kontrolleret udf?relse af teknikker"
       },
       "jiyu": {
         "name": "Jiyu Kumite (自由組手)",
-        "description": "Free sparring for spontaneity",
-        "benefits": "Develops adaptability and tactical thinking",
-        "focus": "Realistic fighting situations"
+        "description": "Fri sparring for spontanitet",
+        "benefits": "Udvikler tilpasningsevne og taktisk t?nkning",
+        "focus": "Realistiske kampsituationer"
       },
       "shiai": {
         "name": "Shiai Kumite (試合組手)",
-        "description": "Competition sparring",
-        "benefits": "Prepares for competition environment",
-        "focus": "Point scoring and competition rules"
+        "description": "Konkurrencesparring",
+        "benefits": "Forbereder til konkurrencemilj?",
+        "focus": "Pointgivning og konkurrenceregler"
       }
     },
     "progression": {
       "title": "Training Progression",
       "beginner": {
         "name": "Beginner Level",
-        "description": "Focus on basic techniques and safety",
+        "description": "Fokus p? grundteknikker og sikkerhed",
         "duration": "6-12 months",
-        "goals": "Mastery of basic kumite principles"
+        "goals": "Beherskelse af grundl?ggende kumite-principper"
       },
       "intermediate": {
         "name": "Intermediate Level",
-        "description": "Development of timing and tactics",
+        "description": "Udvikling af timing og taktik",
         "duration": "1-3 years",
-        "goals": "Effective application of techniques"
+        "goals": "Effektiv anvendelse af teknikker"
       },
       "advanced": {
         "name": "Advanced Level",
-        "description": "Refinement of skills and strategy",
+        "description": "Forfinelse af f?rdigheder og strategi",
         "duration": "3+ years",
-        "goals": "Mastery of kumite principles"
+        "goals": "Beherskelse af kumite-principper"
       }
     },
     "safety": {
       "title": "Safety Guidelines",
-      "equipment": "Use of appropriate protective equipment",
-      "supervision": "Training under qualified supervision",
-      "progression": "Gradual increase in intensity",
-      "communication": "Clear communication with training partner"
+      "equipment": "Brug af passende beskyttelsesudstyr",
+      "supervision": "Tr?ning under kvalificeret supervision",
+      "progression": "Gradvis ?gning af intensitet",
+      "communication": "Tydelig kommunikation med tr?ningspartner"
     }
   },
   "competition": {
     "title": "Kumite Competition",
-    "description": "Competition karate and competitive aspects",
+    "description": "Konkurrencekarate og konkurrencem?ssige aspekter",
     "organizations": {
       "title": "Major Organizations",
       "wkf": {
@@ -560,10 +560,10 @@
     "rules": "Competition Rules",
     "preparation": {
       "title": "Competition Preparation",
-      "physical": "Physical preparation and conditioning",
-      "mental": "Mental preparation and focus",
-      "technical": "Technical preparation and refinement",
-      "tactical": "Tactical preparation and strategy"
+      "physical": "Fysisk forberedelse og konditionering",
+      "mental": "Mental forberedelse og fokus",
+      "technical": "Teknisk forberedelse og forfinelse",
+      "tactical": "Taktisk forberedelse og strategi"
     },
     "safety": "Competition Safety",
     "experience": "Competition Experience",
@@ -571,26 +571,26 @@
     "scoring": {
       "title": "Scoring System",
       "ippon": {
-        "name": "Ippon (3 points)",
-        "description": "Highest score for effective techniques",
-        "criteria": "Powerful and controlled techniques to allowed areas"
+        "name": "Ippon (3 point)",
+        "description": "H?jeste score for effektive teknikker",
+        "criteria": "Kraftfulde og kontrollerede teknikker mod tilladte omr?der"
       },
       "waza-ari": {
-        "name": "Waza-ari (2 points)",
-        "description": "Medium score for effective techniques",
-        "criteria": "Effective techniques with good control"
+        "name": "Waza-ari (2 point)",
+        "description": "Mellem score for effektive teknikker",
+        "criteria": "Effektive teknikker med god kontrol"
       },
       "yuko": {
         "name": "Yuko (1 point)",
-        "description": "Basic score for effective techniques",
-        "criteria": "Techniques that hit the opponent"
+        "description": "Grundscore for effektive teknikker",
+        "criteria": "Teknikker der rammer modstanderen"
       }
     },
     "penalties": {
       "title": "Penalties",
-      "chukoku": "Chukoku - First warning",
-      "keikoku": "Keikoku - Second warning",
-      "hansoku": "Hansoku - Disqualification"
+      "chukoku": "Chukoku - f?rste advarsel",
+      "keikoku": "Keikoku - anden advarsel",
+      "hansoku": "Hansoku - diskvalifikation"
     }
   },
   "technique-names": {
@@ -626,16 +626,16 @@
     "sune-uke": "Sune Uke (脛受け)"
   },
   "mental-states": {
-    "zanshin": "Zanshin (残心) - Remaining Mind",
-    "mushin": "Mushin (無心) - Mind Without Thought",
-    "fudoshin": "Fudoshin (不動心) - Immovable Mind",
-    "senshin": "Senshin (先心) - Purified Mind"
+    "zanshin": "Zanshin (??) - tilbagev?rende bevidsthed",
+    "mushin": "Mushin (??) - sind uden tanke",
+    "fudoshin": "Fudoshin (???) - urokkeligt sind",
+    "senshin": "Senshin (??) - renset sind"
   },
   "tactical-concepts": {
-    "ma-ai": "Ma-ai (間合い) - Fighting Distance",
-    "sen": "Sen (先) - Initiative",
-    "go-no-sen": "Go No Sen (後の先) - Response to Attack",
-    "sen-no-sen": "Sen No Sen (先の先) - Attacking the Attack"
+    "ma-ai": "Ma-ai (???) - kampafstand",
+    "sen": "Sen (?) - initiativ",
+    "go-no-sen": "Go No Sen (???) - svar p? angreb",
+    "sen-no-sen": "Sen No Sen (???) - at angribe angrebet"
   },
   "competition-organizations": {
     "wkf": "World Karate Federation (WKF)",
@@ -644,13 +644,13 @@
     "wkmo": "World Karate Martial Arts Organization (WKMO)"
   },
   "scoring": {
-    "ippon": "Ippon (3 points)",
-    "waza-ari": "Waza-ari (2 points)",
+    "ippon": "Ippon (3 point)",
+    "waza-ari": "Waza-ari (2 point)",
     "yuko": "Yuko (1 point)"
   },
   "penalties": {
-    "chukoku": "Chukoku - First warning",
-    "keikoku": "Keikoku - Second warning",
-    "hansoku": "Hansoku - Disqualification"
+    "chukoku": "Chukoku - f?rste advarsel",
+    "keikoku": "Keikoku - anden advarsel",
+    "hansoku": "Hansoku - diskvalifikation"
   }
 }

@@ -591,7 +591,7 @@
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "japanese": "道着",
             "english": "Uniforme de entrenamiento"
           },
           "reishiki": {
@@ -721,13 +721,13 @@
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
-            "japanese": "先の手",
+            "japanese": "先の先",
             "english": "Initiatief nemen",
             "details": "Initiatief nemen."
           },
           "go-no-sen": {
             "name": "Go No Sen",
-            "japanese": "後の手",
+            "japanese": "後の先",
             "english": "Initiatief later nemen",
             "details": "Initiatief later nemen."
           },
@@ -1217,7 +1217,7 @@
           },
           "tatte": {
             "name": "Tatte of Ki Ritsu",
-            "japanese": "立って",
+            "japanese": "??? / ??",
             "english": "Sta op",
             "details": "Sta op"
           },
@@ -1253,7 +1253,7 @@
           },
           "gorei-nashi": {
             "name": "Gorei nashi",
-            "japanese": "合礼なし",
+            "japanese": "????",
             "english": "Op één tel",
             "details": "Op één tel"
           },
@@ -1591,8 +1591,8 @@
           "kokotsu-dachi-alt": {
             "name": "Kokotsu Dachi",
             "japanese": "後屈立",
-            "english": "Back stance (alt).",
-            "details": "Back stance (alt)."
+            "english": "Posici?n atrasada (alt.).",
+            "details": "Posici?n atrasada (alt.)."
           },
           "koshi-dachi": {
             "name": "Koshi Dachi",
@@ -1895,32 +1895,32 @@
           },
           "jodan-age-uke": {
             "name": "Jodan Age Uke",
-            "japanese": "上げ受け",
+            "japanese": "上段上げ受け",
             "english": "Bloqueo ascendente alto",
             "details": "Age Uke (Bloqueo Ascendente) es una técnica de bloqueo ascendente fundamental utilizada para defenderse contra ataques al rostro o parte superior del cuerpo. El antebrazo se mueve hacia arriba para desviar el ataque, mientras que la otra mano se retira a la cadera en preparación para un contraataque.",
             "videoFile": "age-uke"
           },
           "jodan-soto-uke": {
             "name": "Jodan Soto (Yoko) Uke",
-            "japanese": "外受け",
+            "japanese": "上段外受け",
             "english": "Bloqueo externo alto",
             "details": "Soto Uke (Bloqueo Exterior) es un bloqueo de afuera hacia adentro utilizado para desviar ataques que vienen del exterior. El antebrazo se mueve de afuera hacia adentro en una trayectoria horizontal para redirigir el golpe del oponente.",
             "videoFile": "soto-uke"
           },
           "jodan-uchi-uke": {
             "name": "Jodan Uchi (Yoko) Uke",
-            "japanese": "内受け",
+            "japanese": "上段内受け",
             "english": "Bloqueo interno alto",
             "details": "Jodan Uchi Uke is een binnen-naar-buiten blok gebruikt om hoge aanvallen van binnenaf af te weren."
           },
           "chudan-soto-uke": {
             "name": "Chudan Soto (Yoko) Uke",
-            "japanese": "外受け",
+            "japanese": "中段外受け",
             "english": "Bloqueo externo medio"
           },
           "chudan-uchi-uke": {
             "name": "Chudan Uchi Uke",
-            "japanese": "内受け",
+            "japanese": "中段内受け",
             "english": "Bloqueo interno medio",
             "details": "Uchi Uke (Bloqueo Interior) es un bloqueo de adentro hacia afuera utilizado para desviar ataques que vienen del interior. El antebrazo se mueve de adentro hacia afuera en una trayectoria horizontal.",
             "videoFile": "uchi-uke"
@@ -2057,7 +2057,7 @@
           },
           "hari-uke": {
             "name": "Hari Uke",
-            "japanese": "弓受け",
+            "japanese": "ハリ受け",
             "english": "Bloqueo arco y flecha"
           },
           "hiza-uchi-uke": {
@@ -2411,12 +2411,12 @@
           "sempai": {
             "name": "Sempai",
             "japanese": "先輩",
-            "english": "Senior student"
+            "english": "Estudiante avanzado"
           },
           "kohai": {
             "name": "Kohai",
             "japanese": "後輩",
-            "english": "Junior student"
+            "english": "Estudiante principiante"
           },
           "obi": {
             "name": "Obi",
@@ -2425,7 +2425,7 @@
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "japanese": "道着",
             "english": "Trainingsuniform"
           },
           "kiai": {
@@ -2460,7 +2460,7 @@
           },
           "hiza": {
             "name": "Hiza",
-            "japanese": "膝"
+            "japanese": "?"
           },
           "atama": {
             "name": "Atama",

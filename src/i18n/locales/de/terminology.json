@@ -591,7 +591,7 @@
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "japanese": "道着",
             "english": "Trainingsuniform"
           },
           "reishiki": {
@@ -721,13 +721,13 @@
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
-            "japanese": "先の手",
+            "japanese": "先の先",
             "english": "Initiative ergreifen.",
             "details": "Initiative ergreifen."
           },
           "go-no-sen": {
             "name": "Go No Sen",
-            "japanese": "後の手",
+            "japanese": "後の先",
             "english": "Spätere Initiative.",
             "details": "Spätere Initiative."
           },
@@ -1217,7 +1217,7 @@
           },
           "tatte": {
             "name": "Tatte",
-            "japanese": "立って",
+            "japanese": "??? / ??",
             "english": "Aufstehen.",
             "details": "Aufstehen."
           },
@@ -1253,7 +1253,7 @@
           },
           "gorei-nashi": {
             "name": "Gorei nashi",
-            "japanese": "合礼なし",
+            "japanese": "????",
             "english": "In eigenem Tempo (ohne Zählen).",
             "details": "In eigenem Tempo (ohne Zählen)."
           },
@@ -1895,32 +1895,32 @@
           },
           "jodan-age-uke": {
             "name": "Jodan Age Uke",
-            "japanese": "上げ受け",
+            "japanese": "上段上げ受け",
             "english": "Hoher steigender Block",
             "details": "Age Uke (Aufwärtsblock) ist eine grundlegende aufwärtsgerichtete Blockierungstechnik, die verwendet wird, um Angriffe auf das Gesicht oder den Oberkörper zu verteidigen. Der Unterarm bewegt sich nach oben, um den Angriff abzuwehren, während die andere Hand zur Hüfte zurückgezogen wird, um sich auf einen Gegenangriff vorzubereiten.",
             "videoFile": "age-uke"
           },
           "jodan-soto-uke": {
             "name": "Jodan Soto (Yoko) Uke",
-            "japanese": "外受け",
+            "japanese": "上段外受け",
             "english": "Hoher Außenblock (seitlich)",
             "details": "Soto Uke (Außenblock) ist ein Außen-nach-Innen-Block, der verwendet wird, um Angriffe von außen abzuwehren. Der Unterarm bewegt sich von außen nach innen in einem horizontalen Pfad, um den Schlag des Gegners umzuleiten.",
             "videoFile": "soto-uke"
           },
           "jodan-uchi-uke": {
             "name": "Jodan Uchi (Yoko) Uke",
-            "japanese": "内受け",
+            "japanese": "上段内受け",
             "english": "Hoher Innenblock (seitlich)",
             "details": "Jodan Uchi Uke ist ein Innen-nach-Außen-Block, der verwendet wird, um hohe Angriffe von innen abzuwehren."
           },
           "chudan-soto-uke": {
             "name": "Chudan Soto (Yoko) Uke",
-            "japanese": "外受け",
+            "japanese": "中段外受け",
             "english": "Mittlerer Außenblock (seitlich)"
           },
           "chudan-uchi-uke": {
             "name": "Chudan Uchi Uke",
-            "japanese": "内受け",
+            "japanese": "中段内受け",
             "english": "Mittlerer Innenblock",
             "details": "Uchi Uke (Innenblock) ist ein Innen-nach-Außen-Block, der verwendet wird, um Angriffe von innen abzuwehren. Der Unterarm bewegt sich von innen nach außen in einem horizontalen Pfad.",
             "videoFile": "uchi-uke"
@@ -2057,7 +2057,7 @@
           },
           "hari-uke": {
             "name": "Hari Uke",
-            "japanese": "弓受け",
+            "japanese": "ハリ受け",
             "english": "Bogenblock"
           },
           "hiza-uchi-uke": {
@@ -2425,7 +2425,7 @@
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "japanese": "道着",
             "english": "Trainingsuniform"
           },
           "kiai": {
@@ -2460,7 +2460,7 @@
           },
           "hiza": {
             "name": "Hiza",
-            "japanese": "膝"
+            "japanese": "?"
           },
           "atama": {
             "name": "Atama",

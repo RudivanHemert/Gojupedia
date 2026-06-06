@@ -591,7 +591,7 @@
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "japanese": "道着",
             "english": "Uniforme d'entraînement"
           },
           "reishiki": {
@@ -721,13 +721,13 @@
           },
           "sen-no-sen": {
             "name": "Sen No Sen",
-            "japanese": "先の手",
+            "japanese": "先の先",
             "english": "Prendre l'initiative.",
             "details": "Prendre l'initiative."
           },
           "go-no-sen": {
             "name": "Go No Sen",
-            "japanese": "後の手",
+            "japanese": "後の先",
             "english": "Initiative tardive.",
             "details": "Initiative tardive."
           },
@@ -1217,7 +1217,7 @@
           },
           "tatte": {
             "name": "Tatte",
-            "japanese": "立って",
+            "japanese": "??? / ??",
             "english": "Levez-vous.",
             "details": "Levez-vous."
           },
@@ -1253,7 +1253,7 @@
           },
           "gorei-nashi": {
             "name": "Gorei nashi",
-            "japanese": "合礼なし",
+            "japanese": "????",
             "english": "À votre propre rythme.",
             "details": "À votre propre rythme."
           },
@@ -1895,32 +1895,32 @@
           },
           "jodan-age-uke": {
             "name": "Jodan Age Uke",
-            "japanese": "上げ受け",
+            "japanese": "上段上げ受け",
             "english": "Blocage montant haut",
             "details": "Age Uke (Blocage Montant) est une technique de blocage montant fondamentale utilisée pour défendre contre les attaques au visage ou au haut du corps. L'avant-bras se déplace vers le haut pour dévier l'attaque, tandis que l'autre main est retirée à la hanche en préparation d'une contre-attaque.",
             "videoFile": "age-uke"
           },
           "jodan-soto-uke": {
             "name": "Jodan Soto (Yoko) Uke",
-            "japanese": "外受け",
+            "japanese": "上段外受け",
             "english": "Blocage extérieur haut",
             "details": "Soto Uke (Blocage Extérieur) est un blocage de l'extérieur vers l'intérieur utilisé pour dévier les attaques venant de l'extérieur. L'avant-bras se déplace de l'extérieur vers l'intérieur dans un chemin horizontal pour rediriger le coup de l'adversaire.",
             "videoFile": "soto-uke"
           },
           "jodan-uchi-uke": {
             "name": "Jodan Uchi (Yoko) Uke",
-            "japanese": "内受け",
+            "japanese": "上段内受け",
             "english": "Blocage intérieur haut",
             "details": "Jodan Uchi Uke est un blocage de l'intérieur vers l'extérieur utilisé pour dévier les attaques hautes venant de l'intérieur."
           },
           "chudan-soto-uke": {
             "name": "Chudan Soto (Yoko) Uke",
-            "japanese": "外受け",
+            "japanese": "中段外受け",
             "english": "Blocage extérieur moyen"
           },
           "chudan-uchi-uke": {
             "name": "Chudan Uchi Uke",
-            "japanese": "内受け",
+            "japanese": "中段内受け",
             "english": "Blocage intérieur moyen",
             "details": "Uchi Uke (Blocage Intérieur) est un blocage de l'intérieur vers l'extérieur utilisé pour dévier les attaques venant de l'intérieur. L'avant-bras se déplace de l'intérieur vers l'extérieur dans un chemin horizontal.",
             "videoFile": "uchi-uke"
@@ -2057,7 +2057,7 @@
           },
           "hari-uke": {
             "name": "Hari Uke",
-            "japanese": "弓受け",
+            "japanese": "ハリ受け",
             "english": "Blocage arc et flèche"
           },
           "hiza-uchi-uke": {
@@ -2236,7 +2236,7 @@
           "ma-ai": {
             "name": "Ma-ai",
             "japanese": "間合",
-            "english": "Distance, timing"
+            "english": "Distance, rythme"
           },
           "hyoshi": {
             "name": "Hyoshi",
@@ -2271,7 +2271,7 @@
           "henka": {
             "name": "Henka",
             "japanese": "変化",
-            "english": "Variation, modification"
+            "english": "Variante, modification"
           },
           "kakie": {
             "name": "Kakie",
@@ -2425,7 +2425,7 @@
           },
           "gi": {
             "name": "Gi / Dogi",
-            "japanese": "着 / 道着",
+            "japanese": "道着",
             "english": "Trainingsuniform"
           },
           "kiai": {
@@ -2460,7 +2460,7 @@
           },
           "hiza": {
             "name": "Hiza",
-            "japanese": "膝"
+            "japanese": "?"
           },
           "atama": {
             "name": "Atama",
