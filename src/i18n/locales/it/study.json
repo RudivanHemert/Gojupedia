@@ -527,13 +527,13 @@
       }
     },
     "cards": "cards",
-    "pairs": "pairs",
+    "pairs": "coppie",
     "category": "Category",
     "start": "Start",
     "quiz": "Quiz",
     "startQuiz": "Start Quiz",
     "startFlashcards": "Start Flashcards",
-    "startMatching": "Start Matching",
+    "startMatching": "Avvia abbinamento",
     "techniques": "Techniques",
     "kata": "Kata",
     "philosophy": "Philosophy",
@@ -743,7 +743,26 @@
       "title": "Kumite Rules Quiz",
       "description": "Punteggio, penalit? e comandi arbitrali."
     },
-    "questionsLabel": "domande"
+    "questionsLabel": "domande",
+    "overview": {
+      "studySets": "Set di studio",
+      "studyItems": "Elementi di studio",
+      "studyModes": "Modalità di studio",
+      "chooseMode": "Scegli una modalità di studio",
+      "chooseModeDescription": "Esercita gli stessi contenuti con domande, schede o abbinamenti.",
+      "allContent": "Tutti i contenuti",
+      "sets": "set",
+      "start": "Avvia"
+    },
+    "filters": {
+      "categories": "Categorie",
+      "searchPlaceholder": "Cerca set di studio",
+      "allCategories": "Tutte le categorie",
+      "allDifficulties": "Tutti i livelli",
+      "resultCount": "{{count}} di {{total}}",
+      "clearFilters": "Cancella filtri",
+      "noResults": "Nessun set di studio corrisponde a questi filtri."
+    }
   },
   "title": "Studio",
   "description": "Pratica e metti alla prova la tua conoscenza del karate Goju Ryu",

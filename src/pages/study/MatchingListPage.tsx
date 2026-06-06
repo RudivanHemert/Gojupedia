@@ -1,36 +1,18 @@
 import React from 'react';
-import { buildStudies } from '@/data';
-import StudyCard from '@/components/study/StudyCard';
 import { useTranslation } from 'react-i18next';
-import TheoryHeader from '@/components/theory/TheoryHeader';
+import StudyCollectionPage from '@/components/study/StudyCollectionPage';
 
 const MatchingListPage = () => {
-  const { t, i18n } = useTranslation();
-  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
-  const matchingStudies = allStudies.filter(study => study.type === 'matching');
+  const { t } = useTranslation();
 
   return (
-    <>
-      <TheoryHeader 
-        title={t('study.matching.title', t('title', 'Matching'))}
-        description={t('study.matching.description', t('description', 'Match terms and concepts'))}
-        backUrl="/study"
-      />
-
-      {/* Matching Cards */}
-      <div className="px-4 py-6 space-y-4">
-        {matchingStudies.length > 0 ? (
-          matchingStudies.map(study => (
-            <StudyCard key={study.id} study={study} />
-          ))
-        ) : (
-          <p className="text-center text-muted-foreground italic">
-            {t('study.noMatching', 'Er zijn momenteel geen matching oefeningen beschikbaar.')}
-          </p>
-        )}
-      </div>
-    </>
+    <StudyCollectionPage
+      type="matching"
+      title={t('study.matching.title', t('title', 'Matching'))}
+      description={t('study.matching.description', t('description', 'Match terms and concepts'))}
+      emptyMessage={t('study.noMatching', 'No matching exercises available currently.')}
+    />
   );
 };
 
-export default MatchingListPage; 
+export default MatchingListPage;

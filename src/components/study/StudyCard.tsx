@@ -1,14 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Study } from '@/types'; // Assuming Study type is defined here
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { ArrowRight, BookOpen, BookText, Brain, ListCheck } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Study } from '@/types';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Brain, BookOpen, BookText, ListCheck } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 
-// Helper function for icons (can be kept here or moved to a utils file)
-const getStudyTypeIcon = (type: string) => {
+const getStudyTypeIcon = (type: Study['type']) => {
   switch (type) {
     case 'quiz':
       return <Brain className="h-4 w-4" />;
@@ -29,83 +28,97 @@ const StudyCard: React.FC<StudyCardProps> = ({ study }) => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
-  // Helper function to get translated title and description
-  const getTranslatedContent = (study: Study) => {
-    // For dynamically generated studies, use translation keys
-    if (study.id.includes('-quiz') || study.id.includes('-flashcard')) {
-      // Extract category (handles e.g. 'body-parts-flashcards')
-      const match = study.id.match(/^([a-z0-9-]+)-(quiz|flashcard)/);
-      const category = match ? match[1] : study.id.split('-')[0];
-      const type = study.id.includes('-quiz') ? 'quiz' : 'flashcard';
+  const getTranslatedContent = (studyItem: Study) => {
+    if (studyItem.id.includes('-quiz') || studyItem.id.includes('-flashcard')) {
+      const match = studyItem.id.match(/^([a-z0-9-]+)-(quiz|flashcard)/);
+      const category = match ? match[1] : studyItem.id.split('-')[0];
+      const type = studyItem.id.includes('-quiz') ? 'quiz' : 'flashcard';
 
       if (type === 'quiz') {
         const quizTypeKey = `study.quizTypes.${category}`;
         return {
           title: t(`${quizTypeKey}.title`, t(`quizTypes.${category}.title`, 'Quiz')),
-          description: t(`${quizTypeKey}.description`, t(`quizTypes.${category}.description`, 'Test your knowledge.'))
-        };
-      } else {
-        const flashcardTypeKey = `study.flashcardTypes.${category}`;
-        return {
-          title: t(`${flashcardTypeKey}.title`, t(`flashcardTypes.${category}.title`, 'Flashcards')),
-          description: t(`${flashcardTypeKey}.description`, t(`flashcardTypes.${category}.description`, 'Practice with flashcards.'))
+          description: t(`${quizTypeKey}.description`, t(`quizTypes.${category}.description`, 'Test your knowledge.')),
         };
       }
+
+      const flashcardTypeKey = `study.flashcardTypes.${category}`;
+      return {
+        title: t(`${flashcardTypeKey}.title`, t(`flashcardTypes.${category}.title`, 'Flashcards')),
+        description: t(`${flashcardTypeKey}.description`, t(`flashcardTypes.${category}.description`, 'Practice with flashcards.')),
+      };
     }
-    // For manual studies, return original content
+
     return {
-      title: study.title,
-      description: study.description
+      title: studyItem.title,
+      description: studyItem.description,
     };
   };
 
   const translatedContent = getTranslatedContent(study);
-  const questionsLabel = study.type === 'quiz'
-    ? t('study.questionsLabel')
-    : t('study.cards');
-  const categoryLabel = t(`study.categories.${study.category}`);
-  const typeLabel = study.type === 'quiz'
-    ? t('study.testTypes.quiz')
-    : study.type === 'flashcard'
-      ? t('study.testTypes.flashcards')
-      : t('study.testTypes.matching');
+  const itemLabel =
+    study.type === 'flashcard'
+      ? t('study.cards', 'cards')
+      : study.type === 'matching'
+        ? t('study.pairs', 'pairs')
+        : t('study.questionsLabel', 'questions');
+  const categoryLabel = t(`study.categories.${study.category}`, {
+    defaultValue: study.category.replace(/-/g, ' '),
+  });
+  const typeLabel =
+    study.type === 'quiz'
+      ? t('study.testTypes.quiz', 'Quiz')
+      : study.type === 'flashcard'
+        ? t('study.testTypes.flashcards', 'Flashcards')
+        : t('study.testTypes.matching', 'Matching');
   const difficultyLabel =
-    study.difficulty === 'beginner' ? t('study.difficulty.beginner') :
-    study.difficulty === 'intermediate' ? t('study.difficulty.intermediate') :
-    study.difficulty === 'advanced' ? t('study.difficulty.advanced') : study.difficulty;
+    study.difficulty === 'beginner'
+      ? t('study.difficulty.beginner', 'Beginner')
+      : study.difficulty === 'intermediate'
+        ? t('study.difficulty.intermediate', 'Intermediate')
+        : study.difficulty === 'advanced'
+          ? t('study.difficulty.advanced', 'Advanced')
+          : study.difficulty;
+  const startLabel =
+    study.type === 'flashcard'
+      ? t('study.startFlashcards', 'Start Flashcards')
+      : study.type === 'matching'
+        ? t('study.startMatching', 'Start Matching')
+        : t('study.startQuiz', 'Start Quiz');
 
   return (
-    <Card key={study.id} className="border border-border hover:border-karate transition-all">
-      <CardHeader className="pb-2">
-        <div className="flex justify-between items-center">
-          <Badge variant="outline" className="mb-2">
-            {difficultyLabel}
-          </Badge>
-          <Badge variant="secondary" className="flex items-center gap-1 mb-2">
+    <Card className="flex h-full flex-col border-border transition-colors hover:border-karate">
+      <CardHeader className="space-y-3 pb-3">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <Badge variant="outline">{difficultyLabel}</Badge>
+          <Badge variant="secondary" className="flex items-center gap-1">
             {getStudyTypeIcon(study.type)}
             {typeLabel}
           </Badge>
         </div>
-        <CardTitle className="text-xl">{translatedContent.title}</CardTitle>
-        <CardDescription className="text-muted-foreground">{translatedContent.description}</CardDescription>
-      </CardHeader>
-      <CardContent className="pt-4 pb-0">
-        <div className="text-sm text-muted-foreground">
-          {/* Dynamically generated studies might have empty questions array initially */}
-          {/* Adjusted label for clarity */}
-          {study.questions?.length > 0 && (
-              <><strong>{study.questions.length}</strong> {questionsLabel} • </> 
-          )}
-          {t('study.category')}: <Badge variant="outline" className="text-xs">{categoryLabel}</Badge>
+        <div>
+          <CardTitle className="text-lg leading-tight">{translatedContent.title}</CardTitle>
+          <CardDescription className="mt-1 line-clamp-2">{translatedContent.description}</CardDescription>
         </div>
+      </CardHeader>
+
+      <CardContent className="flex flex-1 flex-wrap content-start gap-2 pt-0 text-sm text-muted-foreground">
+        {study.questions?.length > 0 && (
+          <Badge variant="outline">
+            {study.questions.length} {itemLabel}
+          </Badge>
+        )}
+        <Badge variant="outline">{categoryLabel}</Badge>
       </CardContent>
+
       <CardFooter className="pt-4">
         <Button className="w-full" onClick={() => navigate(`/study/${study.id}`)}>
-          {t('study.startQuiz')}
+          {startLabel}
+          <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </CardFooter>
     </Card>
   );
 };
 
-export default StudyCard; 
+export default StudyCard;

@@ -533,7 +533,7 @@
     "quiz": "Quiz",
     "startQuiz": "Start Quiz",
     "startFlashcards": "Start Flashkort",
-    "startMatching": "Start Matchende",
+    "startMatching": "Start matching",
     "techniques": "Teknikker",
     "kata": "Kata",
     "philosophy": "Filosofi",
@@ -743,7 +743,26 @@
       "title": "Kumite Rules Quiz",
       "description": "Pointgivning, straffe og dommerkommandoer."
     },
-    "questionsLabel": "spørgsmål"
+    "questionsLabel": "spørgsmål",
+    "overview": {
+      "studySets": "Studiesæt",
+      "studyItems": "Studieelementer",
+      "studyModes": "Studieformer",
+      "chooseMode": "Vælg en studieform",
+      "chooseModeDescription": "Træn det samme indhold med spørgsmål, kort eller matching-øvelser.",
+      "allContent": "Alt indhold",
+      "sets": "sæt",
+      "start": "Start"
+    },
+    "filters": {
+      "categories": "Kategorier",
+      "searchPlaceholder": "Søg i studiesæt",
+      "allCategories": "Alle kategorier",
+      "allDifficulties": "Alle niveauer",
+      "resultCount": "{{count}} af {{total}}",
+      "clearFilters": "Ryd filtre",
+      "noResults": "Ingen studiesæt matcher disse filtre."
+    }
   },
   "title": "Study",
   "description": "?v og test din viden om Goju Ryu-karate",

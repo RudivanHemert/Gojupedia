@@ -527,7 +527,7 @@
       }
     },
     "cards": "kaarten",
-    "pairs": "pairs",
+    "pairs": "paren",
     "category": "Categorie",
     "start": "Start",
     "quiz": "Quiz",
@@ -743,7 +743,26 @@
       "title": "Kumite Rules Quiz",
       "description": "Scores, straffen en scheidsrechterscommando's."
     },
-    "questionsLabel": "vragen"
+    "questionsLabel": "vragen",
+    "overview": {
+      "studySets": "Studiesets",
+      "studyItems": "Studie-items",
+      "studyModes": "Oefenvormen",
+      "chooseMode": "Kies een oefenvorm",
+      "chooseModeDescription": "Oefen dezelfde inhoud met vragen, kaarten of matching-oefeningen.",
+      "allContent": "Alle inhoud",
+      "sets": "sets",
+      "start": "Start"
+    },
+    "filters": {
+      "categories": "Categorieën",
+      "searchPlaceholder": "Zoek studiesets",
+      "allCategories": "Alle categorieën",
+      "allDifficulties": "Alle niveaus",
+      "resultCount": "{{count}} van {{total}}",
+      "clearFilters": "Filters wissen",
+      "noResults": "Geen studiesets gevonden met deze filters."
+    }
   },
   "title": "Studie",
   "description": "Oefen en test je kennis van Goju Ryu karate",

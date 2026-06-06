@@ -743,7 +743,26 @@
       "title": "Kumite Regeln Quiz",
       "description": "Wertungen, Strafen und Schiedsrichterkommandos."
     },
-    "questionsLabel": "Fragen"
+    "questionsLabel": "Fragen",
+    "overview": {
+      "studySets": "Lernsätze",
+      "studyItems": "Lerneinheiten",
+      "studyModes": "Lernmodi",
+      "chooseMode": "Lernmodus wählen",
+      "chooseModeDescription": "Übe dieselben Inhalte mit Fragen, Karten oder Zuordnungsübungen.",
+      "allContent": "Alle Inhalte",
+      "sets": "Sätze",
+      "start": "Start"
+    },
+    "filters": {
+      "categories": "Kategorien",
+      "searchPlaceholder": "Lernsätze suchen",
+      "allCategories": "Alle Kategorien",
+      "allDifficulties": "Alle Stufen",
+      "resultCount": "{{count}} von {{total}}",
+      "clearFilters": "Filter zurücksetzen",
+      "noResults": "Keine Lernsätze passen zu diesen Filtern."
+    }
   },
   "title": "Lernen",
   "description": "Üben und testen Sie Ihr Wissen über Goju Ryu Karate",

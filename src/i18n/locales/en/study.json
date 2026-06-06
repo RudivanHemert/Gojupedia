@@ -743,7 +743,26 @@
       "title": "Kumite Rules Quiz",
       "description": "Scoring, penalties and referee commands."
     },
-    "questionsLabel": "questions"
+    "questionsLabel": "questions",
+    "overview": {
+      "studySets": "Study sets",
+      "studyItems": "Study items",
+      "studyModes": "Study modes",
+      "chooseMode": "Choose a study mode",
+      "chooseModeDescription": "Practice the same content through questions, cards or matching exercises.",
+      "allContent": "All content",
+      "sets": "sets",
+      "start": "Start"
+    },
+    "filters": {
+      "categories": "Categories",
+      "searchPlaceholder": "Search study sets",
+      "allCategories": "All categories",
+      "allDifficulties": "All levels",
+      "resultCount": "{{count}} of {{total}}",
+      "clearFilters": "Clear filters",
+      "noResults": "No study sets match your filters."
+    }
   },
   "title": "Study",
   "description": "Practice and test your knowledge of Goju Ryu karate",

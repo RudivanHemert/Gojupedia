@@ -533,7 +533,7 @@
     "quiz": "Questionário",
     "startQuiz": "Iniciar Questionário",
     "startFlashcards": "Iniciar Cartões de Estudo",
-    "startMatching": "Iniciar Correspondência",
+    "startMatching": "Iniciar correspondência",
     "techniques": "Técnicas",
     "kata": "Kata",
     "philosophy": "Filosofia",
@@ -743,7 +743,26 @@
       "title": "Kumite Rules Quiz",
       "description": "Pontua??o, penalidades e comandos do ?rbitro."
     },
-    "questionsLabel": "perguntas"
+    "questionsLabel": "perguntas",
+    "overview": {
+      "studySets": "Conjuntos de estudo",
+      "studyItems": "Itens de estudo",
+      "studyModes": "Modos de estudo",
+      "chooseMode": "Escolha um modo de estudo",
+      "chooseModeDescription": "Pratique o mesmo conteúdo com perguntas, cartões ou exercícios de correspondência.",
+      "allContent": "Todo o conteúdo",
+      "sets": "conjuntos",
+      "start": "Iniciar"
+    },
+    "filters": {
+      "categories": "Categorias",
+      "searchPlaceholder": "Pesquisar conjuntos de estudo",
+      "allCategories": "Todas as categorias",
+      "allDifficulties": "Todos os níveis",
+      "resultCount": "{{count}} de {{total}}",
+      "clearFilters": "Limpar filtros",
+      "noResults": "Nenhum conjunto de estudo corresponde a estes filtros."
+    }
   },
   "title": "Study",
   "description": "Pratique e teste seu conhecimento de karat? Goju Ryu",

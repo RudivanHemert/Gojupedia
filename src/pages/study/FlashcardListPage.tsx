@@ -1,38 +1,18 @@
-// src/pages/study/FlashcardListPage.tsx
 import React from 'react';
-// Remove MobileLayout import if no longer needed directly
-// import MobileLayout from '@/components/layout/MobileLayout';
-import { buildStudies } from '@/data';
-import StudyCard from '@/components/study/StudyCard'; // Import the reusable card
 import { useTranslation } from 'react-i18next';
-import TheoryHeader from '@/components/theory/TheoryHeader';
+import StudyCollectionPage from '@/components/study/StudyCollectionPage';
 
 const FlashcardListPage = () => {
-  const { t, i18n } = useTranslation();
-  const allStudies = React.useMemo(() => buildStudies(t), [i18n.language]);
-  const flashcardStudies = allStudies.filter(study => study.type === 'flashcard');
+  const { t } = useTranslation();
 
   return (
-    // Remove MobileLayout wrapper
-    <>
-      <TheoryHeader 
-        title={t('study.flashcards.title')}
-        description={t('study.flashcards.description')}
-        backUrl="/study"
-      />
-
-      {/* Flashcard Cards - Revert to Vertical List Layout */}
-      <div className="px-4 py-6 space-y-4">
-        {flashcardStudies.length > 0 ? (
-          flashcardStudies.map(study => (
-            <StudyCard key={study.id} study={study} />
-          ))
-        ) : (
-          <p className="text-center text-muted-foreground italic">{t('study.noFlashcards', 'No flashcard sets available currently.')}</p>
-        )}
-      </div>
-    </>
+    <StudyCollectionPage
+      type="flashcard"
+      title={t('study.flashcards.title', 'Flashcards')}
+      description={t('study.flashcards.description', 'Review terms and concepts with flashcards.')}
+      emptyMessage={t('study.noFlashcards', 'No flashcard sets available currently.')}
+    />
   );
 };
 
-export default FlashcardListPage; 
+export default FlashcardListPage;

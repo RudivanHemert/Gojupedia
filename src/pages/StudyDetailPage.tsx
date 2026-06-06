@@ -166,6 +166,7 @@ const StudyDetailPage = () => {
     setQuizCompleted(false);
     setScore(0);
     setFlipped(false);
+    setQuestionResults({});
   };
 
   // --- Main Component Return Logic --- 
@@ -267,29 +268,12 @@ const StudyDetailPage = () => {
             <>
               <p className="text-lg mb-4">
                 {(() => {
-                  // Try interpolation first
                   const interpolated = t('study.yourScore', { score: calculatedScore, total: totalQuestions });
-                  // If interpolation failed (still contains placeholders), use direct string
-                  if (interpolated.includes('{score}') || interpolated.includes('{total}')) {
-                    const scoreLabel = i18n.language === 'nl' ? 'Je score' :
-                      i18n.language === 'en' ? 'Your score' :
-                        i18n.language === 'de' ? 'Ihre Punktzahl' :
-                          i18n.language === 'es' ? 'Tu puntuación' :
-                            i18n.language === 'fr' ? 'Votre score' :
-                              i18n.language === 'it' ? 'Il tuo punteggio' :
-                                i18n.language === 'pt' ? 'Sua pontuação' :
-                                  i18n.language === 'da' ? 'Din score' : 'Your score';
-                    const ofLabel = i18n.language === 'nl' ? 'van' :
-                      i18n.language === 'en' ? 'out of' :
-                        i18n.language === 'de' ? 'von' :
-                          i18n.language === 'es' ? 'de' :
-                            i18n.language === 'fr' ? 'sur' :
-                              i18n.language === 'it' ? 'su' :
-                                i18n.language === 'pt' ? 'de' :
-                                  i18n.language === 'da' ? 'ud af' : 'out of';
-                    return `${scoreLabel}: ${calculatedScore} ${ofLabel} ${totalQuestions}`;
-                  }
-                  return interpolated;
+                  return interpolated
+                    .replace('{score}', String(calculatedScore))
+                    .replace('{total}', String(totalQuestions))
+                    .replace('{{score}}', String(calculatedScore))
+                    .replace('{{total}}', String(totalQuestions));
                 })()}
               </p>
               <div className="w-full mb-6 bg-muted rounded-full h-2.5">

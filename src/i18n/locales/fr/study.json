@@ -527,13 +527,13 @@
       }
     },
     "cards": "cards",
-    "pairs": "pairs",
+    "pairs": "paires",
     "category": "Category",
     "start": "Start",
     "quiz": "Quiz",
     "startQuiz": "Start Quiz",
     "startFlashcards": "Start Flashcards",
-    "startMatching": "Start Matching",
+    "startMatching": "Démarrer l’association",
     "techniques": "Techniques",
     "kata": "Kata",
     "philosophy": "Philosophy",
@@ -743,7 +743,26 @@
       "title": "Kumite Rules Quiz",
       "description": "Scores, p?nalit?s et commandements d?arbitrage."
     },
-    "questionsLabel": "questions"
+    "questionsLabel": "questions",
+    "overview": {
+      "studySets": "Séries d’étude",
+      "studyItems": "Éléments d’étude",
+      "studyModes": "Modes d’étude",
+      "chooseMode": "Choisir un mode d’étude",
+      "chooseModeDescription": "Travaillez le même contenu avec des questions, des cartes ou des associations.",
+      "allContent": "Tout le contenu",
+      "sets": "séries",
+      "start": "Démarrer"
+    },
+    "filters": {
+      "categories": "Catégories",
+      "searchPlaceholder": "Rechercher des séries d’étude",
+      "allCategories": "Toutes les catégories",
+      "allDifficulties": "Tous les niveaux",
+      "resultCount": "{{count}} sur {{total}}",
+      "clearFilters": "Effacer les filtres",
+      "noResults": "Aucune série d’étude ne correspond à ces filtres."
+    }
   },
   "title": "Étude",
   "description": "Pratiquez et testez vos connaissances du karaté Goju Ryu",
